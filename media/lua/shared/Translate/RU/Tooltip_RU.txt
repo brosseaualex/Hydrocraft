@@ -1,0 +1,10 @@
+Tooltip_RU = {
+-- Item tooltip
+Tooltip_HCArmor = "Нажмите P (англ.), чтобы узнать какую броню вы носите.",	
+Tooltip_HCBluebarrelcorpse = "Будет превращаться в токсичные отходы.",
+Tooltip_HCFeedme = "Кормить, чтобы оставался в живых.",
+Tooltip_HCSleep = "Бросить на пол, чтобы использовать",
+Tooltip_food_Cooked = "Готовое",
+Tooltip_food_Frozen = "Мёрзлое",	
+Tooltip_item_Insulation = "Изоляция",
+}
