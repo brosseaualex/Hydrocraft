@@ -1,0 +1,1097 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCTorch
+	{
+	        Weight		       =	1,
+	        Type		       =	Normal,
+	        DisplayName	       =	Torch,
+	        Icon		       =	HCTorch,
+	}
+
+item HCTorchlit
+	{
+		LightDistance	       =	4,
+		Weight	               =	1.1,
+		Type	               =	Drainable,
+		TorchCone	       =	FALSE,
+	        UseDelta	       =        0.002,
+		LightStrength	       =	0.8,
+		DisplayName	       =	Torch,
+		ActivatedItem	       =	FALSE,
+		Icon	               =	HCTorchlit,
+	}
+
+item HCOillamp
+	{
+	        Weight		       =	1,
+	        Type		       =	Normal,
+	        DisplayName	       =	Oil Lamp,
+	        Icon		       =	HCOillamp,
+	}
+
+item HCOillamplit
+	{
+		LightDistance	       =	4,
+		Weight	               =	1.1,
+		ReplaceOnDeplete	=	HCOillamp,
+		Type	               =	Drainable,
+		TorchCone	       =	FALSE,
+	        UseDelta	       =        0.002,
+		LightStrength	       =	0.8,
+		DisplayName	       =	Oil Lamp,
+		ActivatedItem	       =	FALSE,
+		Icon	               =	HCOillamplit,
+	}
+
+item HCTarsticks
+	{
+		Weight			=	0.2,
+		Type			=	Normal,
+		DisplayName		=	Tar Sticks,
+		Icon			=	HCTarsticks,
+	}
+
+item HCTar
+    {
+        Weight    		= 0.3,
+        Type    		= Drainable,
+        UseDelta	        = 0.2,
+        DisplayName         	= Tar,
+        icon 			= HCTar,
+    } 
+
+item HCTarmug
+    {
+        Weight    		= 0.5,
+        Type    		= Drainable,
+        UseDelta	        = 0.4,
+        ReplaceOnDeplete        = Mugl,
+        DisplayName         	= Mug of Tar,
+        icon 			= HCTarmug,
+    } 
+
+item HCTarbucket
+    {
+        Weight    		= 1,
+        Type    		= Drainable,
+        UseDelta	        = 0.8,
+        ReplaceOnDeplete        = BucketEmpty,
+        DisplayName         	= Bucket of Tar,
+        icon 			= HCTarbucket,
+    } 
+
+item HCWoodenbuckettar
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Bucket with Tar,
+        icon 			= HCWoodenbuckettar,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCWoodenbucketcreosote
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Bucket with Creosote Oil,
+        icon 			= HCWoodenbucketcreosote,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCoke
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Coke,
+        icon 			= HCCoke,
+    }
+
+item HCMomigalite
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Momigalite,
+        icon 			= HCMomigalite,
+    } 
+
+item HCKuntan
+	{
+
+	Type			= Normal,
+
+	DisplayName		= Rice Hull Charcoal,
+
+	Icon			= HCKuntan,
+
+	Weight			= 0.1,
+
+	}
+
+item HCCarbonpowder
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Carbon Powder,
+        icon 			= HCCarbonpowder,
+    }
+
+item HCNanorings
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Carbon Nanorings,
+        icon 			= HCCarbonpowder,
+    } 
+
+item HCNanochains
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Carbon Nanochains,
+        icon 			= HCCarbonpowder,
+    } 
+
+item HCNanofiber
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Carbon Nanofiber,
+        icon 			= HCCarbonpowder,
+    } 
+
+/************************WEAPONS************************/
+
+item HCPlanktreated
+	{
+		MaxRange			=	2,
+		WeaponSprite			=	WoodPlank,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	4,
+		KnockBackOnNoDeath		=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	4,
+		Weight				=	3,
+		SplatNumber			=	0,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.6,
+		SubCategory			=	Swinging,
+		ConditionMax			=	10,
+		MaxHitCount			=	2,
+		DoorDamage			=	5,
+		SwingAnim			=	Bat,
+		WeaponWeight			=	3,
+		DisplayName			=	Treated Plank,
+		MinRange			=	0.61,
+		SwingTime			=	4,
+		MinDamage			=	0.4,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	FALSE,
+		Icon				=	HCPlanktreated,
+		RunAnim				=	Run_Weapon2,
+        	IdleAnim			=	Idle_Weapon2,
+        	BreakSound  			=   	PZ_WoodSnap,
+        	TreeDamage  			=   	0,
+	}
+
+/************************RECIPES************************/
+ 
+recipe Make Torch
+	{
+        HCTar=5,
+        RippedSheets=3,
+	TreeBranch,              
+	Result:HCTorch,              
+	Time:200.0,
+    	Category:Survivalist,
+       	OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Light Torch
+  	{
+   	HCTorch,
+   	Matches/Lighter,
+   	Result:HCTorchlit,
+	Time:30.0,
+    	Category:Survivalist,
+  	}
+
+recipe Light Oil Lamp
+  	{
+   	HCOillamp,
+   	Matches/Lighter,
+	HCFishoil/HCCookingoil/HCCookingoiljar,
+   	Result:HCOillamplit,
+	Time:30.0,
+    	Category:Firecraft,
+  	}
+
+recipe Light Oil Lamp
+  	{
+   	HCClayoillamp,
+   	Matches/Lighter,
+	HCFishoil/HCCookingoil/HCCookingoiljar,
+   	Result:HCClayoillamplit,
+	Time:30.0,
+    	Category:Firecraft,
+  	}
+
+recipe Make Charcoal
+    {
+    	Log,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	Plank=3,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	PercedWood=3,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+   	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HCWoodblock=9,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+	UnusableWood=12,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+recipe Make Charcoal
+    {
+    	WoodenStick=24,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	TreeBranch=4,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	Poolcue=4,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	Twigs=16,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HCTarsticks=4,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	Sheet=16,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	RippedSheets=48,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	SheetPaper=48,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	SheetPaper2=48,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	Socks=48,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+   	 CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	Socks2=48,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	Newspaper=16,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	Magazine=16,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	Book=16,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	Newspaper=16,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HC1dollarbill=48,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HC2dollarbill=48,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HC5dollarbill=48,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HC10dollarbill=48,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HC20dollarbill=48,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HC50dollarbill=48,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HC100dollarbill=48,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HCFirbough=4,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HCWillowbranch=4,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HCPinebough=4,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HCOakleaves=48,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HCHickoryleaves=48,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HCFircone=4,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HCBark=16,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HCBirchbark=16,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HCGrass=48,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HCCob=16,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HCCowpoop=24,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+   	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HCCoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	CorpseMale/CorpseFemale,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Charcoal
+    {
+    	HCMomigalite,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:Charcoal,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Momigalite
+    {
+    	HCChaff=12,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCMomigalite,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Rice Hull Charcoal
+    {
+    	HCChaff,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCKuntan,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Fill Mug With Tar 
+    {
+    	Mugl,
+    	HCTar=2,
+    	Result:HCTarmug,
+    	Time:50,
+    	Category:Firecraft,
+    }
+
+recipe Fill Bucket With Tar 
+    {
+    	BucketEmpty,
+    	HCTar=6,
+    	Result:HCTarbucket,
+    	Time:50,
+    	Category:Firecraft,
+    }
+
+recipe Fill Wooden Bucket With Tar 
+    {
+    	HCWoodenbucket,
+    	HCTar=6,
+    	Result:HCWoodenbuckettar,
+    	Time:50,
+    	Category:Firecraft,
+    }
+
+recipe Empty Mug of Tar
+    {
+    	destroy HCTarmug,
+   	Result:HCTar=2,
+    	Time:40.0,
+    	OnCreate:HCEmptytarmug,
+    	Category:Firecraft,
+    }
+
+recipe Empty Bucket of Tar
+    {
+    	destroy HCTarbucket,
+    	Result:HCTar=6,
+    	Time:50,
+    	OnCreate:HCEmptytarbucket,
+    	Category:Firecraft,
+    }
+
+recipe Empty Wooden Bucket of Tar
+    {
+    	destroy HCWoodenbuckettar,
+    	Result:HCTar=6,
+    	Time:50,
+    	OnCreate:recipe_hcwoodenbucket,
+    	Category:Firecraft,
+    }
+
+recipe Make Tar
+    {
+	HCBirchbark=6,
+    	HCWoodenbucket,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	keep HCTarkiln/HCTarkiln2,
+    	CanBeDoneFromFloor:true, 
+    	Result:HCWoodenbuckettar,
+    	Time:1000,
+    	Category:Firecraft,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Tar
+    {
+	HCBark=9,
+    	HCWoodenbucket,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	keep HCTarkiln/HCTarkiln2,
+    	CanBeDoneFromFloor:true, 
+    	Result:HCWoodenbuckettar,
+    	Time:1000,
+    	Category:Firecraft,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Tar
+    {
+	HCSawdust=60,
+    	HCWoodenbucket,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	keep HCTarkiln/HCTarkiln2,
+    	CanBeDoneFromFloor:true, 
+    	Result:HCWoodenbuckettar,
+    	Time:1000,
+    	Category:Firecraft,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Tar
+    {
+	HCPinebough=6,
+    	HCWoodenbucket,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	keep HCTarkiln/HCTarkiln2,
+    	CanBeDoneFromFloor:true, 
+    	Result:HCWoodenbuckettar,
+    	Time:1000,
+    	Category:Firecraft,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Tar
+    {
+	HCFirbough=6,
+    	HCWoodenbucket,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	keep HCTarkiln/HCTarkiln2,
+    	CanBeDoneFromFloor:true, 
+    	Result:HCWoodenbuckettar,
+    	Time:1000,
+    	Category:Firecraft,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }	
+
+recipe Make Tar
+    {
+	TreeBranch=9,
+    	HCWoodenbucket,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	keep HCTarkiln/HCTarkiln2,
+    	CanBeDoneFromFloor:true, 
+    	Result:HCWoodenbuckettar,
+    	Time:1000,
+    	Category:Firecraft,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }	
+
+recipe Make Tar Sticks
+    {
+	Twigs=4,
+	HCWoodenbuckettar,
+    	Result:HCTarsticks=4,
+	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Firecraft,
+    	OnCreate:recipe_hcwoodenbucket,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Distill Lighter Fluid
+	{
+       	SkillRequired:Cooking=6,
+	HCWoodenbuckettar=4,
+	Charcoal,
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	keep HCDistillery,
+    	CanBeDoneFromFloor:true,
+	Result:HCLighterfluid,
+    	NeedToBeLearn:true,
+	Time:5000.0,
+    	Category:Firecraft,
+    	OnCreate:recipe_hcwoodenbucket4,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Distill Fish Oil
+	{
+       	SkillRequired:Cooking=6,
+	HCWoodenbucketfishoil=4,
+	Charcoal,
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	HCJar,
+	keep HCDistillery,
+    	CanBeDoneFromFloor:true,
+	Result:HCFishoil,
+    	NeedToBeLearn:true,
+	Time:5000.0,
+    	Category:Firecraft,
+    	OnCreate:recipe_hcwoodenbucket4,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Coke
+    {
+    	HCCoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCSmelter/HCSmelter2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCoke,
+	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:SmeltUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Distill Creosote Oil
+	{
+       	SkillRequired:Cooking=6,
+	HCCoke=4,
+	HCWoodenbucket,
+	Charcoal,
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	keep HCDistillery,
+    	CanBeDoneFromFloor:true,
+	Result:HCWoodenbucketcreosote,
+    	NeedToBeLearn:true,
+	Time:5000.0,
+    	Category:Firecraft,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Treat Wood Plank
+    {
+	SkillRequired:Woodwork=3,
+	HCWoodenbucketcreosote=4,
+	Plank,
+    	keep Paintbrush,
+    	CanBeDoneFromFloor:true,
+   	Result:HCPlanktreated,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Firecraft,
+    	OnCreate:recipe_hcwoodenbucket,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Carbon Powder
+    {
+    	HCCharcoalpowder,
+   	Charcoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCarbonpowder,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Carbon Nanorings
+    {
+    	HCCarbonpowder,
+    	Charcoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep HCSmelter/HCSmelter2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCNanorings,
+    	NeedToBeLearn:true,
+    	Time:1000,
+   	Category:Firecraft,
+    	OnCreate:SmeltUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Carbon Nanochains
+    {
+    	HCNanorings,
+    	HCCoke,
+
+
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep HCBlastfurnace/HCBlastfurnace2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCNanochains,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Firecraft,
+    	OnCreate:BFurnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+
+recipe Make Carbon Nanofiber
+    {
+    	HCNanochains,
+    	HCCoke,
+
+
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep WeldingMask,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep HCFurnace/HCFurnace2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCNanofiber,
+    	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Firecraft,
+    	OnCreate:IFurnUse,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+}

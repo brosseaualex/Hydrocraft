@@ -1,0 +1,617 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCBandanna
+    {
+        Weight    	= 0.1,
+        Type    	= Normal,
+        DisplayName 	= Bandanna,
+        icon 		= HCBandanna,
+    }
+
+item HCSafetypin
+    {
+        Weight    	= 0.01,
+        Type    	= Normal,
+        DisplayName     = Safety Pin,
+        icon 		= HCSafetypin,
+    }
+
+item HCSewingpin
+    {
+        Weight    	= 0.01,
+        Type    	= Normal,
+        DisplayName     = Sewing Pin,
+        icon 		= HCSewingpin,
+    }
+
+item HCSewingpinbox
+    {
+        Weight    	= 0.1,
+        Type    	= Normal,
+        DisplayName     = Box of Sewing Pins,
+        icon 		= HCSewingpinbox,
+    }
+
+item HCPincushion
+    {
+        Weight    	= 0.01,
+        Type    	= Normal,
+        DisplayName     = Pin Cushion,
+        icon 		= HCPincushion,
+    }
+
+item HCPincushionfull
+    {
+        Weight    	= 0.01,
+        Type    	= Normal,
+        DisplayName     = Pin Cushion with Pins,
+        icon 		= HCPincushionfull,
+    }
+
+item HCThimble
+    {
+        Weight    	= 0.1,
+        Type    	= Normal,
+        DisplayName     = Thimble,
+        icon 		= HCThimble,
+    }
+
+item HCPlastichanger
+    {
+        Weight    	= 0.1,
+        Type    	= Normal,
+        DisplayName     = Plastic Hanger,
+        icon 		= HCPlastichanger,
+    }
+
+item HCWirehanger
+    {
+        Weight    	= 0.1,
+        Type    	= Normal,
+        DisplayName     = Wire Hanger,
+        icon 		= HCWirehanger,
+    }
+
+item HCWoodhanger
+    {
+        Weight    	= 0.1,
+        Type    	= Normal,
+        DisplayName     = Wood Hanger,
+        icon 		= HCWoodhanger,
+    }
+
+item HCMittens
+    {
+        Weight    	= 0.25,
+        Type    	= Normal,
+        DisplayName     = Mittens,
+        icon 		= HCMittens,
+    }
+
+item HCSkimask
+    {
+        Weight    	= 0.1,
+        Type    	= Normal,
+        DisplayName     = Ski Mask,
+        icon 		= HCSkimask,
+    }
+
+
+item HCLinenshirt
+	{
+		Palettes	=	Shirt_White,
+		BodyLocation	=	Top,
+		PalettesStart	=	Shirt_,
+		Type		=	Clothing,
+		Temperature	=	6,
+		SpriteName	=	Shirt,
+		DisplayName	=	Linen Shirt,
+		Icon		=	HCLinenshirt,
+		ConditionLowerChanceOneIn = 10,
+        	ConditionMax	=	7,
+        	Insulation  	=  	0.65,
+	}
+	
+item HCLinenpants
+	{
+		Palettes	=	Trousers_White,
+		BodyLocation	=	Bottoms,
+		PalettesStart	=	Trousers_,
+		Type		=	Clothing,
+		Temperature	=	8,
+		SpriteName	=	Trousers,
+		DisplayName	=	Linen Pants,
+		Icon		=	HCLinenpants,
+		ConditionLowerChanceOneIn = 10,
+        	ConditionMax	=	7,
+        	Insulation  	=  	0.65,
+	}
+
+item HCSilkshirt
+	{
+		Palettes	=	Shirt_White,
+		BodyLocation	=	Top,
+		PalettesStart	=	Shirt_,
+		Type		=	Clothing,
+		Temperature	=	6,
+		SpriteName	=	Shirt,
+		DisplayName	=	Silk Shirt,
+		Icon		=	HCSilkshirt,
+		ConditionLowerChanceOneIn = 15,
+        	ConditionMax	=	7,
+        	Insulation  	=  	0.65,
+	}
+	
+item HCSilkpants
+	{
+		Palettes	=	Trousers_White,
+		BodyLocation	=	Bottoms,
+		PalettesStart	=	Trousers_,
+		Type		=	Clothing,
+		Temperature	=	8,
+		SpriteName	=	Trousers,
+		DisplayName	=	Silk Pants,
+		Icon		=	HCSilkpants,
+		ConditionLowerChanceOneIn = 15,
+        	ConditionMax	=	7,
+        	Insulation  	=  	0.65,
+	}
+
+item HCWoolshirt
+	{
+		Palettes	=	Shirt_White,
+		BodyLocation	=	Top,
+		PalettesStart	=	Shirt_,
+		Type		=	Clothing,
+		Temperature	=	15,
+		SpriteName	=	Shirt,
+		DisplayName	=	Wool Shirt,
+		Icon		=	HCSilkshirt,
+		ConditionLowerChanceOneIn = 7,
+        	ConditionMax	=	5,
+        	Insulation  	=  	1.0,
+	}
+	
+item HCWoolpants
+	{
+		Palettes	=	Trousers_White,
+		BodyLocation	=	Bottoms,
+		PalettesStart	=	Trousers_,
+		Type		=	Clothing,
+		Temperature	=	15,
+		SpriteName	=	Trousers,
+		DisplayName	=	Wool Pants,
+		Icon		=	HCWoolpants,
+		ConditionLowerChanceOneIn = 7,
+        	ConditionMax	=	5,
+        	Insulation  	=  	1.0,
+	}
+
+item HCClothespin
+    {
+        Weight    	=    0.2,
+        Type    	=    Normal,
+        DisplayName    	=    Clothespin,
+        Icon    	=    HCClothespin.png,
+    }
+
+item HCClothespinbox
+    {
+        Weight    	=    0.6,
+        Type    	=    Normal,
+        DisplayName    	=    Box of Clothespins,
+        Icon    	=    HCClothespinbox.png,
+    }
+
+item HCClotheslinefull
+    {
+        Weight    		= 6,
+        Type    		= Normal,
+        DisplayName         	= Clothes Line with Clothes,
+        icon 			= HCClotheslinefull,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCClotheslinefull2
+    {
+        Weight    		= 6,
+        Type    		= Normal,
+        DisplayName         	= Double Clothes Line with Clothes,
+        icon 			= HCClotheslinefull2,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCBathtoweldirty
+    {
+        Weight    		= 0.3,
+        Type   			= Normal,
+        DisplayName 		= Dirty Bath Towel,
+        icon 			= HCBathtoweldirty,
+    }
+
+/************************RECIPES************************/
+    
+recipe Box Clothespins
+    {
+    	HCClothespin=20,
+    	Result:HCClothespinbox,
+    	Time:15,
+    }
+
+recipe Unbox Clothespins
+    {
+    	HCClothespinbox,
+    	Result:HCClothespin=20,
+    	Time:15,
+    }
+
+recipe Box Sewing Pins
+    {
+    	HCSewingpin=100,
+    	Result:HCSewingpinbox,
+    	Time:15,
+    }
+
+recipe Unbox Clothespins
+    {
+    	HCSewingpinbox,
+    	Result:HCSewingpin=100,
+    	Time:15,
+    }
+
+recipe Put Pins in Pin Cushion
+    {
+    	HCSewingpin=8,
+	HCPincushion,
+    	Result:HCPincushionfull,
+    	Time:50,
+    }
+
+recipe Remove Pins from Pin Cushion
+    {
+    	HCPincushionfull,
+    	Result:HCSewingpin=8,
+    	Time:50,
+    	OnCreate:recipe_hcpincushion,
+    }
+
+recipe Hang Clothes
+    {
+    	HCClothespin=6,
+    	Underwear1/Underwear2/HCBriefs/HCBriefs2/HCBriefs3/HCBriefs4/HCBriefs5/HCBriefs6/HCBriefs7/HCPanties/HCPanties2/HCPanties3/HCPanties4/HCPanties5,
+    	Vest,
+    	Trousers,
+    	HCClothesline,
+    	CanBeDoneFromFloor:true,
+    	Result:HCClotheslinefull,
+    	Time:50,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Hang Clothes
+    {
+    	HCClothespin=12,
+    	Underwear1/Underwear2/HCBriefs/HCBriefs2/HCBriefs3/HCBriefs4/HCBriefs5/HCBriefs6/HCBriefs7/HCPanties/HCPanties2/HCPanties3/HCPanties4/HCPanties5,
+    	Vest,
+    	Trousers,
+    	Socks/Socks2,
+    	destroy BathTowel/BathTowelWet,
+    	Sheet,
+    	HCClothesline2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCClotheslinefull2,
+    	Time:100,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Dry Towel
+    {
+    	destroy BathTowelWet,
+    	keep HCClothespin=2,
+    	keep HCClotheslinefull2,
+    	Result:BathTowel,
+    	Time:1000,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Burlap Sack
+    {
+   	HCBurlapcloth=2,
+	keep Needle/HCBoneneedle,
+	Thread=4,
+    	Result:EmptySandbag,
+    	Time:100,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Flour Sack
+    {
+   	HCBurlapcloth,
+	keep Needle/HCBoneneedle,
+	Thread=2,
+    	Result:HCFlourempty,
+    	Time:100,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Rice Sack
+    {
+   	HCBurlapcloth,
+	keep Needle/HCBoneneedle,
+	Thread=2,
+    	Result:HCRiceempty,
+    	Time:100,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Pillow Case
+    {
+   	Sheet=2,
+	keep Needle/HCBoneneedle,
+	Thread=4,
+    	Result:HCPillowcase,
+    	Time:100,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Pillow Case
+    {
+   	HCLinencloth=2,
+	keep Needle/HCBoneneedle,
+	Thread=4,
+    	Result:HCPillowcase,
+    	Time:100,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Pillow Case
+    {
+   	HCWoolcloth=2,
+	keep Needle/HCBoneneedle,
+	Thread=4,
+    	Result:HCPillowcase,
+    	Time:100,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Pillow Case
+    {
+   	HCSilkcloth=2,
+	keep Needle/HCBoneneedle,
+	Thread=4,
+    	Result:HCPillowcase,
+    	Time:100,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Pillow
+    {
+	HCWhitefeathers=10,
+   	HCPillowcase,
+	keep Needle/HCBoneneedle,
+	Thread=1,
+    	Result:Pillow,
+    	Time:25,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Stitch Garden Apron
+	{
+	keep Needle/HCBoneneedle,
+	HCLinencloth=8,
+	Thread=4,	
+	Result:HCGardenapron,
+    	NeedToBeLearn:true,
+	Time:200.0,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Stitch Cooking Apron
+	{
+	keep Needle/HCBoneneedle,
+	HCCottoncloth=8,
+	Thread=4,	
+	Result:HCCookingapron,
+    	NeedToBeLearn:true,
+	Time:200.0,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+	}
+	
+recipe Stitch Linen Shirt
+	{
+	keep Needle/HCBoneneedle,
+	HCLinencloth=12,
+	Thread=8,	
+	Result:HCLinenshirt,
+    	NeedToBeLearn:true,
+	Time:420.0,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+	}
+	
+recipe Stitch Linen Pants
+	{
+	keep Needle/HCBoneneedle,
+	HCLinencloth=9,
+	Thread=6,	
+	Result:HCLinenpants,
+    	NeedToBeLearn:true,
+	Time:420.0,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Stitch Silk Shirt
+	{
+	keep Needle/HCBoneneedle,
+	HCSilkcloth=12,
+	Thread=8,	
+	Result:HCSilkshirt,
+    	NeedToBeLearn:true,
+	Time:420.0,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+	}
+	
+recipe Stitch Silk Pants
+	{
+	keep Needle/HCBoneneedle,
+	HCSilkcloth=9,
+	Thread=6,	
+	Result:HCSilkpants,
+    	NeedToBeLearn:true,
+	Time:420.0,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Stitch Wool Shirt
+	{
+	keep Needle/HCBoneneedle,
+	HCWoolcloth=12,
+	Thread=8,	
+	Result:HCWoolshirt,
+    	NeedToBeLearn:true,
+	Time:420.0,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+	}
+	
+recipe Stitch Wool Pants
+	{
+	keep Needle/HCBoneneedle,
+	HCWoolcloth=9,
+	Thread=6,	
+	Result:HCWoolpants,
+    	NeedToBeLearn:true,
+	Time:420.0,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Bag
+    {
+    HCNyloncloth=3,
+    HCZipper,
+    Thread,
+    keep Needle/HCBoneneedle,
+    Result:Schoolbag,
+    NeedToBeLearn:true,
+    Time:1000.0,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Bag
+    {
+    HCNyloncloth=4,
+    HCZipper,
+    Thread,
+    keep Needle/HCBoneneedle,
+    Result:Duffelbag,
+    NeedToBeLearn:true,
+    Time:1000.0,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Bag
+    {
+    HCNyloncloth=5,
+    HCZipper,
+    Thread=2,
+    keep Needle/HCBoneneedle,
+    Result:NormalHikingBag,
+    NeedToBeLearn:true,
+    Time:1000.0,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Bag
+    {
+    HCNyloncloth=6,
+    HCZipper,
+    Thread=2,
+    keep Needle/HCBoneneedle,
+    Result:BigHikingBag,
+    NeedToBeLearn:true,
+    Time:1000.0,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Bag
+    {
+    HCNyloncloth=5,
+    HCZipper,
+    Thread=2,
+    keep Needle/HCBoneneedle,
+    Result:HCClimbingpack,
+    NeedToBeLearn:true,
+    Time:1000.0,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Bag
+    {
+    HCNyloncloth=7,
+    HCZipper,
+    Thread=2,
+    keep Needle/HCBoneneedle,
+    Result:HCCampingpack,
+    NeedToBeLearn:true,
+    Time:1000.0,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Bag
+    {
+    HCNyloncloth=7,
+    HCZipper,
+    Thread=2,
+    keep Needle/HCBoneneedle,
+    Result:HCAlicepack2,
+    NeedToBeLearn:true,
+    Time:1000.0,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Bag
+    {
+    HCNyloncloth=8,
+    HCZipper,
+    Thread=2,
+    keep Needle/HCBoneneedle,
+    Result:HCAlicepack,
+    NeedToBeLearn:true,
+    Time:1000.0,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+	
+}

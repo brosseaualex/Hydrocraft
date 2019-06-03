@@ -1,0 +1,691 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCBugnet
+    {
+        Weight    		= 	0.5,
+        Type    		= 	Normal,
+        DisplayName         	= 	Bug Net,
+        icon 			= 	HCBugnet,
+    } 
+
+item HCBugjar
+    {
+        Weight    		= 	0.3,
+        Type    		= 	Normal,
+        DisplayName         	= 	Bug Jar,
+        icon 			= 	HCBugjar,
+    } 
+
+item HCJarfireflies
+	{
+	LightDistance		=	3,
+	Weight			=	0.2,
+	DisappearOnUse		=	FALSE,
+	Type			=	Drainable,
+	TorchCone		=	TRUE,
+	UseDelta		=	0.003,
+	LightStrength		=	0.4,
+	DisplayName		=	Jar of Fireflies,
+	ActivatedItem		=	TRUE,
+	Icon			=	HCJarfireflies,
+	}
+
+item HCBeetle
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Beetle,
+        icon 			= 	HCBeetle,
+        FishingLure     	=   	true,
+    }
+
+item HCBollweevil
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Bollweevil,
+        icon 			= 	HCBollweevil,
+    }
+
+item HCLadybug
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Ladybug,
+        icon 			= 	HCLadybug,
+    }
+
+item HCDragonfly
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Dragonfly,
+        icon 			= 	HCDragonfly,
+        FishingLure     	=   	true,
+    }
+
+item HCGardenspider
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Garden Spider,
+        icon 			= 	HCGardenspider,
+    }
+
+item HCCaterpillar
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Caterpillar,
+        icon 			= 	HCCaterpillar,
+        FishingLure     	=   	true,
+    }
+
+
+item HCCaterpillar2
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Poison Caterpillar,
+        icon 			= 	HCCaterpillar2,
+        FishingLure     	=   	true,
+    }
+
+item HCBumblebee
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Bumblebee,
+        icon 			= 	HCBumblebee,
+    }
+
+item HCCicada
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Cicada,
+        icon 			= 	HCCicada,
+        FishingLure     	=   	true,
+    }
+
+item HCRedant
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Red Ant,
+        icon 			= 	HCRedant,
+    }
+
+item HCBlackant
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Black Ant,
+        icon 			= 	HCBlackant,
+    }
+
+item HCPillbug
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Pillbug,
+        icon 			= 	HCPillbug,
+        FishingLure     	=   	true,
+    }
+
+item HCFirefly
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Firefly,
+        icon 			= 	HCFirefly,
+        FishingLure     	=   	true,
+    }
+
+item HCTermite
+    {
+        HungerChange        	=    	-5,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+        UnhappyChange        	=    	20,
+        DisplayName         	= 	Termite,
+        icon 			= 	HCTermite,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	1.34,
+        Proteins 		= 	3.6,
+        Lipids 			= 	1.32,
+        Calories 		= 	20,
+    }
+
+item HCYellowjacket
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Yellow Jacket,
+        icon 			= 	HCYellowjacket,
+    }
+
+item HCButterfly
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Blue Butterfly,
+        icon 			= 	HCButterfly,
+    }
+
+item HCMonarch
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Monarch Butterfly,
+        icon 			= 	HCMonarch,
+    }
+
+item HCChrysalis
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Chrysalis,
+        icon 			= 	HCChrysalis,
+    }
+
+item HCChrysalis2
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Chrysalis,
+        icon 			= 	HCChrysalis2,
+    }
+
+item HCMolecricket
+    {
+        HungerChange        	=    	-5,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+        UnhappyChange        	=    	20,
+        DisplayName         	= 	Mole Cricket,
+        icon 			= 	HCMolecricket,
+        FishingLure     	=   	true,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	1.34,
+        Proteins 		= 	3.6,
+        Lipids 			= 	1.32,
+        Calories 		= 	20,
+    }
+
+item HCBlackwidow
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Black Widow Spider,
+        icon 			= 	HCBlackwidow,
+    }
+
+item HCHousespider
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	House Spider,
+        icon 			= 	HCHousespider,
+    }
+
+item HCHousefly
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	House Fly,
+        icon 			= 	HCHousefly,
+        FishingLure     	=   	true,
+    }
+
+item HCSilkegg
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Silkworm Egg,
+        icon 			= 	HCSilkegg,
+    }
+
+item HCSilkwom
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Silkworm,
+        icon 			= 	HCSilkwom,
+        FishingLure     	=   	true,
+    }
+
+item HCSilkcocoon
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Silk Cocoon,
+        icon 			= 	HCSilkcocoon,
+    }
+
+item HCSilkcocoon2
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Mature Silk Cocoon,
+        icon 			= 	HCSilkcocoon2,
+    }
+
+item HCSilkcocoonempty
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Empty Silk Cocoon,
+        icon 			= 	HCSilkcocoonempty,
+    }
+
+item HCSilkmothmale
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Silkmoth (Male),
+        icon 			= 	HCSilkmoth,
+        FishingLure     	=   	true,
+    }
+
+item HCSilkmothfemale
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Silkmoth (Female),
+        icon 			= 	HCSilkmoth,
+        FishingLure     	=   	true,
+    }
+
+item HCSnail
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Snail,
+        icon 			= 	HCSnail,
+    }
+
+item HCSlug
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Slug,
+        icon 			= 	HCSlug,
+    }
+
+item HCLeech
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Leech,
+        icon 			= 	HCLeech,
+        FishingLure     	=   	true,
+    }
+
+item HCLeechbloated
+    {
+        Weight    		= 	0.05,
+        Type    		= 	Normal,
+        DisplayName         	= 	Bloated Leech,
+        icon 			= 	HCLeechbloated,
+        FishingLure     	=   	true,
+    }
+
+item HCMaggot
+    {
+        HungerChange        	= 	-5,
+        UnhappyChange        	= 	20,
+        Weight   		= 	0.1,
+        Type    		= 	Food,
+        DisplayName         	= 	Maggot,
+        icon 			= 	HCMaggot,
+        FishingLure     	=   	true,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	1.34,
+        Proteins 		= 	3.6,
+        Lipids 			= 	1.32,
+        Calories 		= 	20,
+    }
+
+ item HCBugmash
+    {
+        DisplayName         		= Bug Mash,
+        Icon                		= HCBugmash,
+        Type                		= Food,
+        FoodType            		= NoExplicit,
+        Weight              		= 0.05,
+
+        DangerousUncooked   		= TRUE,
+        HungerChange        		= -5,
+
+        Carbohydrates       		= 1,
+        Proteins            		= 3,
+        Lipids              		= 2,
+        Calories            		= 34,
+
+        MinutesToCook       		= 10,
+        MinutesToBurn       		= 15,
+        DaysFresh           		= 2,
+        DaysTotallyRotten   		= 4,
+
+        EvolvedRecipe       		= Soup:5;Stew:5;Stir fry:5;Burger:5;,
+    }
+
+item HCBeetlegrub
+    {
+        HungerChange        	=    	-5,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+        UnhappyChange        	=    	20,
+        DisplayName         	= 	Beetle Grub,
+        icon 			= 	HCBeetlegrub,
+	IsCookable 		= 	TRUE,
+	MinutesToCook		=	5,
+	MinutesToBurn		=	10,
+	ReplaceOnCooked		=	Hydrocraft.HCBeetlegrubcooked,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	1.34,
+        Proteins 		= 	3.6,
+        Lipids 			= 	1.32,
+        Calories 		= 	20,
+    }
+
+item HCBeetlegrubcooked
+    {
+        HungerChange        	=    	-5,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+        UnhappyChange        	=    	5,
+        DisplayName         	= 	Cooked Beetle Grub,
+        icon 			= 	HCBeetlegrubcooked,
+	DaysTotallyRotten	=	2,
+	DaysFresh 		= 	4,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	1.34,
+        Proteins 		= 	3.6,
+        Lipids 			= 	1.32,
+        Calories 		= 	20,
+    }
+
+item HCSnailcooked
+	{
+	HungerChange			=	-25,
+	Weight				=	1,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	5,
+	MinutesToBurn			=	10,
+	DisplayName			=	Stuffed Snail,
+	Icon				=	HCSnailcooked,
+	DaysFresh			=	2,
+	DaysTotallyRotten		=	4,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	25.88,
+        Proteins 			= 	17.1,
+        Lipids 				= 	4.44,
+        Calories 			= 	250,
+	}
+
+item HCSlugcooked
+	{
+	HungerChange			=	-5,
+	Weight				=	0.1,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	5,
+	MinutesToBurn			=	10,
+	DisplayName			=	Sizzled Slug,
+	Icon				=	HCSlugcooked,
+	DaysFresh			=	2,
+	DaysTotallyRotten		=	4,
+	ReplaceOnUse			=	Stone,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	1.34,
+        Proteins 			= 	3.6,
+        Lipids 				= 	1.32,
+        Calories 			= 	20,
+	}
+
+item HCAntfarm
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Empty Ant Farm,
+        icon 			= HCAntfarm,
+    }
+
+item HCAntfarmblack
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Black Ant Farm,
+        icon 			= HCAntfarm2,
+    }
+
+item HCAntfarmred
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Red Ant Farm,
+        icon 			= HCAntfarm2,
+    }
+
+/************************RECIPES************************/
+
+recipe Make Bug Net
+    {
+	HCNetting=2,
+    	HCWoodenring,
+    	WoodenStick,
+    	Woodglue/HCWoodgluejar,
+    	Woodglue/HCWoodgluejar,
+    	Result:HCBugnet,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Survivalist,
+   	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Put Bug in Jar
+    {
+    	EmptyJar,
+    	HCFirefly,
+    	Result:HCJarfireflies,
+    	Time:15,
+    	Category:Leisure,
+   	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Put Bug in Jar
+    {
+    	EmptyJar,
+    	Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBollweevil/HCLadybug/HCDragonfly/HCGardenspider/HCCaterpillar/HCCaterpillar2/HCBumblebee/HCBeetlegrub/HCCicada/HCRedant/HCBlackant/HCPillbug/HCTermite/HCYellowjacket/HCButterfly/HCMonarch/HCMolecricket/HCBlackwidow/HCHousespider/HCHousefly/HCSnail,
+    	Result:HCBugjar,
+    	Time:15,
+    	Category:Leisure,
+   	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    	HCBugjar,
+    	Result:EmptyJar,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+    	Category:Leisure,
+   	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Catch Bugs
+    {
+    	keep HCBugnet,
+    	keep HCMagnifyglass,
+    	Result:HCMagnifyglass,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Survivalist,
+    	OnCreate:HCBugCatch,
+    	RemoveResultItem:true,
+   	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mash Bugs
+    {
+        keep MortarPestle/HCMortarandpestle,
+        Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBollweevil/HCLadybug/HCDragonfly/HCGardenspider/HCCaterpillar/HCBeetlegrub/HCCicada/HCRedant/HCBlackant/HCPillbug/HCTermite/HCYellowjacket/HCMolecricket/HCHousespider/HCSnail,
+        Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBollweevil/HCLadybug/HCDragonfly/HCGardenspider/HCCaterpillar/HCBeetlegrub/HCCicada/HCRedant/HCBlackant/HCPillbug/HCTermite/HCYellowjacket/HCMolecricket/HCHousespider/HCSnail,
+        Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBollweevil/HCLadybug/HCDragonfly/HCGardenspider/HCCaterpillar/HCBeetlegrub/HCCicada/HCRedant/HCBlackant/HCPillbug/HCTermite/HCYellowjacket/HCMolecricket/HCHousespider/HCSnail,
+        Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBollweevil/HCLadybug/HCDragonfly/HCGardenspider/HCCaterpillar/HCBeetlegrub/HCCicada/HCRedant/HCBlackant/HCPillbug/HCTermite/HCYellowjacket/HCMolecricket/HCHousespider/HCSnail,
+        Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBollweevil/HCLadybug/HCDragonfly/HCGardenspider/HCCaterpillar/HCBeetlegrub/HCCicada/HCRedant/HCBlackant/HCPillbug/HCTermite/HCYellowjacket/HCMolecricket/HCHousespider/HCSnail,
+        Result:HCBugmash,
+        Time:1000.0,
+        Category:Cooking,
+   	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Blend Bugs
+    {
+        HCBlenderpowered,
+        Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBollweevil/HCLadybug/HCDragonfly/HCGardenspider/HCCaterpillar/HCBeetlegrub/HCCicada/HCRedant/HCBlackant/HCPillbug/HCTermite/HCYellowjacket/HCMolecricket/HCHousespider/HCSnail,
+        Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBollweevil/HCLadybug/HCDragonfly/HCGardenspider/HCCaterpillar/HCBeetlegrub/HCCicada/HCRedant/HCBlackant/HCPillbug/HCTermite/HCYellowjacket/HCMolecricket/HCHousespider/HCSnail,
+        Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBollweevil/HCLadybug/HCDragonfly/HCGardenspider/HCCaterpillar/HCBeetlegrub/HCCicada/HCRedant/HCBlackant/HCPillbug/HCTermite/HCYellowjacket/HCMolecricket/HCHousespider/HCSnail,
+        Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBollweevil/HCLadybug/HCDragonfly/HCGardenspider/HCCaterpillar/HCBeetlegrub/HCCicada/HCRedant/HCBlackant/HCPillbug/HCTermite/HCYellowjacket/HCMolecricket/HCHousespider/HCSnail,
+        Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBollweevil/HCLadybug/HCDragonfly/HCGardenspider/HCCaterpillar/HCBeetlegrub/HCCicada/HCRedant/HCBlackant/HCPillbug/HCTermite/HCYellowjacket/HCMolecricket/HCHousespider/HCSnail,
+        Result:HCBugmash,
+        Time:100.0,
+        Category:Cooking,
+   	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+
+recipe Prepare Stuffed Snail
+	{
+		HCSnail,
+		Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCCaterpillar/HCBeetlegrub/HCCicada/HCPillbug/HCMolecricket,
+		HCBunchofshrooms,
+		Result:HCSnailcooked,
+       		NeedToBeLearn:true,
+		Time:50.0,
+		Category:Cooking,
+   		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Sizzled Slug
+	{
+		HCSlug,
+		Stone,
+		Result:HCSlugcooked,
+		Time:50.0,
+		Category:Cooking,
+   		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Feed Caterpillar
+    {
+    HCCaterpillar,
+    HCOakleaves,
+    keep HCHerbtable,
+    CanBeDoneFromFloor:true,
+    Result:HCChrysalis,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Ranching,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Feed Caterpillar
+    {
+    HCCaterpillar2,
+    HCMilkweedroot,
+    keep HCHerbtable,
+    CanBeDoneFromFloor:true,
+    Result:HCChrysalis2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Ranching,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Assemble Ant Farm
+    {
+    Dirtbag,
+    HCBlackant=20,
+    HCAntfarm,
+    Result:HCAntfarmblack,
+    NeedToBeLearn:true,
+    Time:200,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Assemble Ant Farm
+    {
+    Dirtbag,
+    HCRedant=20,
+    HCAntfarm,
+    Result:HCAntfarmred,
+    NeedToBeLearn:true,
+    Time:200,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Watch Ants
+    {
+    keep HCAntfarmblack,
+    Result:HCAntfarmblack,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    RemoveResultItem:true,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Watch Ants
+    {
+    keep HCAntfarmred,
+    Result:HCAntfarmred,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    RemoveResultItem:true,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Feed Ants
+    {
+    HCSugarcubes/HCCaterpillar/HCBeetlegrub,
+    keep HCAntfarmblack,
+    Result:HCAntfarmblack,
+    NeedToBeLearn:true,
+    Time:100,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    RemoveResultItem:true,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Feed Ants
+    {
+    HCSugarcubes/HCCaterpillar/HCBeetlegrub,
+    keep HCAntfarmred,
+    Result:HCAntfarmred,
+    NeedToBeLearn:true,
+    Time:100,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    RemoveResultItem:true,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+}

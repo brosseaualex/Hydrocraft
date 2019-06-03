@@ -1,0 +1,2481 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCLogstack1
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Log Pile,
+        icon 			= HCLogstack1,
+	ResizeWorldIcon 	= 0.5,
+    }
+
+item HCLogstack2
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Log Pile,
+        icon 			= HCLogstack2,
+	ResizeWorldIcon 	= 0.5,
+    }
+
+item HCLogstack3
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Log Pile,
+        icon 			= HCLogstack3,
+	ResizeWorldIcon 	= 0.5,
+    }
+
+item HCLogstack4
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Log Stack,
+        icon 			= HCLogstack4,
+	ResizeWorldIcon 	= 0.5,
+    }
+
+item HCSawdust
+    {
+        Weight    			= 0.01,
+        Type    			= Normal,
+        DisplayName         		= Sawdust,
+        icon 				= HCSawdust,
+    }
+
+item HCWoodbeam
+    {
+        Weight    		= 8,
+        Type   			= Normal,
+        DisplayName         	= Wood Beam,
+        icon 			= HCWoodbeam,
+    }
+
+item HCWoodsheet
+    {
+        Weight    		= 4,
+        Type   			= Normal,
+        DisplayName         	= Wood Sheet,
+        icon 			= HCWoodsheet,
+    }
+
+item HCCurvedshaftsmall
+    {
+        Weight    		= 0.2,
+        Type   			= Normal,
+        DisplayName         	= Small Curved Shaft,
+        icon 			= HCCurvedshaftsmall,
+    }
+
+item HCTongswood
+    {
+        Weight    		= 0.2,
+        Type   			= Normal,
+        DisplayName         	= Wooden Tongs,
+        icon 			= HCTongswood,
+    }
+
+item HCWoodblock
+    {
+        Weight    		= 1.0,
+        Type   			= Normal,
+        DisplayName         	= Wood Block,
+        icon 			= HCWoodblock,
+    }
+
+item HCWoodwheel
+    {
+        Weight    		= 1.0,
+        Type   			= Normal,
+        DisplayName         	= Wooden Wheel,
+        icon 			= HCWoodwheel,
+    }
+
+item HCStampmillwheel
+    {
+        Weight    		= 2.0,
+        Type   			= Normal,
+        DisplayName         	= Stamp Mill Wheel,
+        icon 			= HCStampmillwheel,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCWorkbench
+    {
+	WeightReduction         = 0,
+	Weight             	= 10,
+	Type                	= Container,
+	Capacity             	= 50,
+        DisplayName         	= Workbench,
+        icon 			= HCWorkbench,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCTablewood
+    {
+	Weight             	= 5,
+        Type   			= Normal,
+        DisplayName         	= Wood Table,
+        icon 			= HCTablewood,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCCarpenterbench
+    {
+	WeightReduction         = 0,
+	Weight             	= 10,
+	Type                	= Container,
+	Capacity             	= 50,
+        DisplayName         	= Carpenter Bench,
+        icon 			= HCCarpenterbench,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCSawbuck
+    {
+        Weight    		= 10,
+        Type   			= Normal,
+        DisplayName         	= Sawbuck,
+        icon 			= HCSawbuck,
+	ResizeWorldIcon 	= 1.0
+    }
+
+item HCPlankbarrier
+    {
+        Weight    		= 5,
+        Type   			= Normal,
+        DisplayName         	= Plank Barrier,
+        icon 			= HCPlankbarrier,
+	ResizeWorldIcon 	= 2.0
+    }
+
+item HCChurn
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Churn,
+        icon 			= HCChurn,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCWoodenbarrel
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Barrel,
+        icon 			= HCWinebarrel,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCVat
+    {
+        Weight    		= 4,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Wooden Vat,
+	ReplaceOnUseOn		= WaterSource-HCVatwater,
+        icon 			= HCVat,
+	ResizeWorldIcon 	= 1.0,
+	RainFactor 		= 1,
+    }
+
+item HCVatwater
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	16,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	2.0,
+	UseDelta		=	0.003125,
+	DisplayName		=	Wooden Vat with Water,
+	ReplaceOnDeplete	=	HCVat,
+	ReplaceOnUseOn		=	WaterSource-HCVatwater,
+	Icon			=	HCVatwater,
+	ResizeWorldIcon 	= 	1.0,
+	RainFactor 		= 	1,
+    }
+
+item HCWoodenbucket
+    {
+        Weight    		= 1,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Wooden Bucket,
+	ReplaceOnUseOn		= WaterSource-HCWoodenbucketwater,
+        icon 			= HCWoodenbucket,
+	ResizeWorldIcon 	= 2.0,
+	RainFactor 		= 1,
+    }
+
+item HCWoodenring
+    {
+        Weight    		= 0.5,
+        Type   			= Normal,
+        DisplayName         	= Wooden Ring,
+        icon 			= HCWoodenring,
+    }
+
+item HCWoodenbucketwater
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	4,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	2.0,
+	DisplayName		=	Wooden Bucket with Water,
+	ReplaceOnDeplete	=	HCWoodenbucket,
+	ReplaceOnUseOn		=	WaterSource-HCWoodenbucketwater,
+	Icon			=	HCWoodenbucketwater,
+	ResizeWorldIcon 	= 	2.0,
+	RainFactor 		= 	1,
+    }
+
+item HCWashtub
+    {
+        Weight    		= 1,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Wooden Washtub,
+	ReplaceOnUseOn		= WaterSource-HCWashtubfull,
+        icon 			= HCWashtub,
+	ResizeWorldIcon 	= 2.0,
+	RainFactor 		= 1,
+    }
+
+item HCWashtubfull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	4,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	2.0,
+	DisplayName		=	Wooden Washtub with Water,
+	ReplaceOnDeplete	=	HCWashtub,
+	ReplaceOnUseOn		=	WaterSource-HCWashtubfull,
+	Icon			=	HCWashtubfull,
+	ResizeWorldIcon 	= 	2.0,
+	RainFactor 		= 	1,
+    }
+
+item HCTrough
+    {
+        Weight    		= 2,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Wooden Trough,
+	ReplaceOnUseOn		= WaterSource-HCTroughfull,
+        icon 			= HCTrough,
+	ResizeWorldIcon 	= 1.0,
+	RainFactor 		= 1,
+    }
+
+item HCTroughfull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	8,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.125,
+	DisplayName		=	Wooden Trough with Water,
+	ReplaceOnDeplete	=	HCTrough,
+	ReplaceOnUseOn		=	WaterSource-HCTroughfull,
+	Icon			=	HCTroughfull,
+	ResizeWorldIcon 	= 	1.0,
+	RainFactor 		= 	1,
+    }
+
+item HCTroughvegoil
+    {
+	Weight			=	8,
+        Type    		= 	Normal,
+	DisplayName		=	Wooden Trough with Vegetable Oil,
+	Icon			=	HCTroughvegoil,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCLumberstack
+    {
+        Weight    		= 12.0,
+        Type   			= Normal,
+        DisplayName         	= Lumber Stack,
+        icon 			= HCLumberstack,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCLumberbox
+    {
+        Weight    		= 12.0,
+        Type   			= Normal,
+        DisplayName         	= Pallet of Lumber,
+        icon 			= HCLumberbox,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCWoodenpallet
+    {
+        Weight    		= 1.0,
+        Type   			= Normal,
+        DisplayName         	= Wooden Pallet,
+        icon 			= HCWoodenpallet,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCLogbox
+    {
+        Weight    		= 12.0,
+        Type   			= Normal,
+        DisplayName         	= Pallet of Logs,
+        icon 			= HCLogbox,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCWoodwheel
+    {
+        Weight    		= 1.0,
+        Type   			= Normal,
+        DisplayName         	= Wooden Wheel,
+        icon 			= HCWoodwheel,
+    }
+
+item HCWoodenwheelbarrow
+   {
+	WeightReduction         = 100,
+	Weight             	= 20,
+	Type                	= Container,
+	Capacity             	= 200,
+	DisplayName             = Wooden Wheelbarrow,
+	Icon			= HCWoodenwheelbarrow,
+	ResizeWorldIcon 	= 2.0,
+	RequiresEquippedBothHands = true,
+    }
+
+item HCWoodshingles
+    {
+        Weight    		= 1,
+        Type   			= Normal,
+        DisplayName         	= Wood Shingles,
+        icon 			= HCWoodshingles,
+    }
+
+item HCCoffin
+    {
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName         	= Empty Coffin,
+        icon 			= HCCoffin,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCoffinfull
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Full Coffin,
+        icon 			= HCCoffin,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCWoodenladder
+    {
+        Weight    		= 20,
+        Type   			= Normal,
+        DisplayName         	= Wooden Ladder,
+        icon 			= HCWoodenladder,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCSpinningwheel
+    {
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName         	= Spinning Wheel,
+        icon 			= HCSpinningwheel,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCLoom
+    {
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName         	= Primitive Loom,
+        icon 			= HCLoom,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCLoomfloor
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Floor Loom,
+        icon 			= HCLoomfloor,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCTablelog
+	{
+	Weight 			= 10,
+	Type 			= Normal,
+	DisplayName 		= Log Table,
+	Icon			= HCTablelog,
+	ResizeWorldIcon 	= 2.0,
+	}
+
+item HCHuntingblind
+    {
+        WeightReduction     	= 10,
+        Weight    		= 10,
+        Type                	= Container,
+        Capacity            	= 100,
+        DisplayName         	= Hunting Blind,
+        icon 			= HCHuntingblind,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCHuntingblind2
+    {
+        WeightReduction     	= 10,
+        Weight    		= 10000,
+        Type                	= Container,
+        Capacity            	= 100,
+        DisplayName         	= Hunting Blind,
+        icon 			= HCHuntingblind,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+
+item HCWindmill
+    {
+        Weight    		= 15,
+        Type    		= Normal,
+        DisplayName         	= Wooden Windmill,
+        icon 			= HCWindmill,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCWindmillblade
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Windmill Blade,
+        icon 			= HCWindmillblade,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCWatertower
+    {
+        Weight    		= 15,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Water Tower,
+	ReplaceOnUseOn		= WaterSource-HCWatertowerfull,
+        icon 			= HCWatertower,
+	ResizeWorldIcon 	= 1.0,
+	RainFactor 		= 0.01,
+    }
+
+
+item HCWatertowerfull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	15,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	2.0,
+	UseDelta		=	0.003125,
+	DisplayName		=	Water Tower with Water,
+	ReplaceOnDeplete	=	HCWatertower,
+	ReplaceOnUseOn		=	WaterSource-HCWatertowerfull,
+	Icon			=	HCWatertower,
+	ResizeWorldIcon 	= 	1.0,
+	RainFactor 		= 	0.01,
+    }
+
+item HCWatertower2
+    {
+        Weight    		= 15,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Double Water Tower,
+	ReplaceOnUseOn		= WaterSource-HCWatertowerfull2,
+        icon 			= HCWatertower2,
+	ResizeWorldIcon 	= 1.0,
+	RainFactor 		= 0.01,
+    }
+
+
+item HCWatertowerfull2
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	15,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	2.0,
+	UseDelta		=	0.0015625,
+	DisplayName		=	Double Water Tower with Water,
+	ReplaceOnDeplete	=	HCWatertower2,
+	ReplaceOnUseOn		=	WaterSource-HCWatertowerfull2,
+	Icon			=	HCWatertower2,
+	ResizeWorldIcon 	= 	1.0,
+	RainFactor 		= 	0.01,
+    }
+
+item HCWaterpump
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Water Pump,
+        icon 			= HCWaterpump,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCWaterpump2
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Water Pump,
+        icon 			= HCWaterpump,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+
+item HCClothesline
+    {
+        Weight    		= 6,
+        Type    		= Normal,
+        DisplayName         	= Clothes Line,
+        icon 			= HCClothesline,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCClothesline2
+    {
+        Weight    		= 6,
+        Type    		= Normal,
+        DisplayName         	= Double Clothes Line,
+        icon 			= HCClothesline2,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCShower
+    {
+        Weight    		= 10,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Empty Makeshift Shower,
+        icon 			= HCShower,
+        ReplaceOnUseOn 		= WaterSource-HCShowerfull,
+	ResizeWorldIcon 	= 1.0,
+	RainFactor 		= 1,
+    }
+
+item HCShowerfull
+    {
+	IsWaterSource		= TRUE,
+        Weight    		= 14,
+	CanStoreWater		= TRUE,
+	Type			= Drainable,
+        DisplayName         	= Makeshift Shower,
+	UseWhileEquipped	= 2.0,
+	UseDelta		= 0.25,
+	ReplaceOnDeplete	= HCShower,
+        icon 			= HCShowerfull,
+	ResizeWorldIcon 	= 1.0,
+	RainFactor 		= 1,
+    }
+
+item HCShowersink
+    {
+        Weight    		= 15,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Empty Makeshift Shower and Sink,
+        icon 			= HCShowersink,
+        ReplaceOnUseOn 		= WaterSource-HCShowersinkfull,
+	ResizeWorldIcon 	= 1.0,
+	RainFactor 		= 1,
+    }
+
+item HCShowersinkfull
+    {
+	IsWaterSource		= TRUE,
+        Weight    		= 20,
+	CanStoreWater		= TRUE,
+        Type    		= Drainable,
+        DisplayName         	= Makeshift Shower and Sink,
+	UseWhileEquipped	= 2.0,
+	UseDelta		= 0.125,
+	ReplaceOnDeplete	= HCShowersink,
+        icon 			= HCShowersinkfull,
+	ResizeWorldIcon 	= 1.0,
+	RainFactor 		= 1,
+    }
+
+item HCScarecrowstand
+    {
+        Weight    		= 3,
+        Type    		= Normal,
+        DisplayName         	= Scarecrow Stand,
+        icon 			= HCScarecrowstand,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCScarecrow
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Scarecrow,
+        icon 			= HCScarecrow,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCScarecrow2
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Scarecrow,
+        icon 			= HCScarecrow2,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCScarezed
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Corpse Scarecrow,
+        icon 			= HCScarezed,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCScarezed2
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Corpse Scarecrow,
+        icon 			= HCScarezed2,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCHaytarget
+    {
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName         	= Archery Target,
+        icon 			= HCHaytarget,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCBirdcall
+	{
+	Weight 				= 	0.1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Bird Call,
+	Icon				=	HCBirdcall,
+	}
+
+item HCDuckcall
+	{
+	Weight 				= 	0.1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Duck Call,
+	Icon				=	HCDuckcall,
+	}
+
+
+item HCWagonwheel
+    {
+        Weight    		= 2.0,
+        Type   			= Normal,
+        DisplayName         	= Wagon Wheel,
+        icon 			= HCWagonwheel,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCYoke
+    {
+        Weight    		= 4.0,
+        Type   			= Normal,
+        DisplayName         	= Yoke,
+        icon 			= HCYoke,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+
+item HCWagon
+   {
+	WeightReduction         	= 	100,
+	Weight             		= 	20,
+	Type                		= 	Container,
+	Capacity             		= 	400,
+	DisplayName             	= 	Wagon,
+	Icon				= 	HCWagon,
+	ResizeWorldIcon 		= 	2.0,
+	RequiresEquippedBothHands 	= 	true,
+   }
+
+item HCWagoncovered
+   {
+	WeightReduction         	= 	100,
+	Weight             		= 	20,
+	Type                		= 	Container,
+	Capacity             		= 	400,
+	DisplayName             	= 	Covered Wagon,
+	Icon				= 	HCWagoncovered,
+	ResizeWorldIcon 		= 	2.0,
+	RequiresEquippedBothHands 	= 	true,
+   }
+
+item HCWagonoxen
+   {
+	WeightReduction         	= 	100,
+	Weight             		= 	0,
+	Type                		= 	Container,
+	Capacity             		= 	400,
+	DisplayName             	= 	Wagon with Oxen,
+	Icon				= 	HCWagonoxen,
+	ResizeWorldIcon 		= 	2.0,
+	RequiresEquippedBothHands 	= 	true,
+   }
+
+item HCWagoncoveredoxen
+   {
+	WeightReduction         	= 	100,
+	Weight             		= 	0,
+	Type                		= 	Container,
+	Capacity             		= 	400,
+	DisplayName             	= 	Covered Wagon with Oxen,
+	Icon				= 	HCWagoncoveredoxen,
+	ResizeWorldIcon 		= 	2.0,
+	RequiresEquippedBothHands 	= 	true,
+   }
+
+item HCIBC
+    {
+        Weight    		= 2,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Empty IBC,
+        icon 			= HCIBC,
+        ReplaceOnUseOn 		= WaterSource-HCIBCfull,
+	ResizeWorldIcon 	= 1.0,
+	RainFactor 		= 0.2,
+    }
+
+item HCIBCfull
+    {
+	IsWaterSource		= TRUE,
+        Weight    		= 6,
+	CanStoreWater		= TRUE,
+        Type    		= Drainable,
+        DisplayName         	= IBC,
+	UseWhileEquipped	= 2.0,
+	UseDelta		= 0.0125,
+	ReplaceOnDeplete	= HCIBC,
+        icon 			= HCIBC,
+	ResizeWorldIcon 	= 1.0,
+	RainFactor 		= 0.2,
+    }
+	
+item HCIBCstorage
+    {
+        Weight    		= 3,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Empty IBC Storage,
+        icon 			= HCIBCtower,
+        ReplaceOnUseOn 		= WaterSource-HCIBCstoragefull,
+	ResizeWorldIcon 	= 1.0,
+	RainFactor 		= 0.2,
+    }
+
+item HCIBCstoragefull
+    {
+	IsWaterSource		= TRUE,
+        Weight    		= 7,
+	CanStoreWater		= TRUE,
+        Type    		= Drainable,
+        DisplayName         	= IBC Storage,
+	UseWhileEquipped	= 2.0,
+	UseDelta		= 0.0125,
+	ReplaceOnDeplete	= HCIBCstorage,
+        icon 			= HCIBCtower,
+	ResizeWorldIcon 	= 1.0,
+	RainFactor 		= 0.2,
+    }	
+	
+item HCIBCtower
+    {
+        Weight    		= 6,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Empty IBC Tower,
+        icon 			= HCIBCtower2,
+        ReplaceOnUseOn 		= WaterSource-HCIBCtowerfull,
+	ResizeWorldIcon 	= 1.0,
+	RainFactor 		= 0.2,
+    }
+
+item HCIBCtowerfull
+    {
+	IsWaterSource		= TRUE,
+        Weight    		= 12,
+	CanStoreWater		= TRUE,
+        Type    		= Drainable,
+        DisplayName         	= IBC Tower,
+	UseWhileEquipped	= 2.0,
+	UseDelta		= 0.00625,
+	ReplaceOnDeplete	= HCIBCtower,
+        icon 			= HCIBCtower2,
+	ResizeWorldIcon 	= 1.0,
+	RainFactor 		= 0.2,
+    }
+
+item HCVendingstand
+    {
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName         	= Vending Stand,
+        icon 			= HCVendingstand,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCVendingstand2
+    {
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName         	= Vending Stand,
+        icon 			= HCVendingstand2,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCFoldingsign
+    	{
+        	Weight		=	4,
+        	Type		=	Literature,
+        	DisplayName	=	Folding Sign,
+        	Icon		=	HCFoldingsign,
+        	CanBeWrite  	=   	true,
+        	PageToWrite 	=   	1,
+		ResizeWorldIcon = 	2.0,
+    	}
+
+item HCFoldingsignchalkboard
+    	{
+        	Weight		=	4,
+        	Type		=	Literature,
+        	DisplayName	=	Folding Sign,
+        	Icon		=	HCFoldingsignchalkboard,
+        	CanBeWrite  	=   	true,
+        	PageToWrite 	=   	1,
+		ResizeWorldIcon = 	2.0,
+    	}
+
+item HCThresher
+    {
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName         	= Thresher,
+        icon 			= HCThresher,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCThreshermech
+    {
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName         	= Mechanical Thresher,
+        icon 			= HCThreshermech,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+/************************WEAPONS************************/
+
+item HCPlankoil
+	{
+		MaxRange			=	2,
+		WeaponSprite			=	WoodPlank,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	4,
+		KnockBackOnNoDeath		=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Improvised;Blunt,
+		ConditionLowerChanceOneIn	=	4,
+		Weight				=	3,
+		SplatNumber			=	0,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.6,
+		SubCategory			=	Swinging,
+		ConditionMax			=	10,
+		MaxHitCount			=	2,
+		DoorDamage			=	5,
+		SwingAnim			=	Bat,
+		WeaponWeight			=	3,
+		DisplayName			=	Oiled Plank,
+		MinRange			=	0.61,
+		SwingTime			=	4,
+		MinDamage			=	0.4,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	FALSE,
+		Icon				=	HCPlankoil,
+		RunAnim				=	Run_Weapon2,
+        	IdleAnim			=	Idle_Weapon2,
+        	BreakSound  			=   	PZ_WoodSnap,
+        	TreeDamage  			=   	0,
+	}
+
+/************************RECIPES************************/
+    
+
+recipe Make Log Pile
+    {
+    	Log=5,
+    	CanBeDoneFromFloor:true,
+    	Result:HCLogstack1,
+    	Time:500,
+    	Category:Carpentry,
+    }
+
+recipe Add Logs to Pile
+    {
+	HCLogstack1=2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCLogstack2,
+    	Time:500,
+    	Category:Carpentry,
+    }
+
+recipe Add Logs to Pile
+    {
+    	Log=5,
+	HCLogstack1,
+    	CanBeDoneFromFloor:true,
+    	Result:HCLogstack2,
+    	Time:500,
+    	Category:Carpentry,
+    }
+
+recipe Add Logs to Pile
+    {
+    	Log=5,
+	HCLogstack2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCLogstack3,
+    	Time:500,
+    	Category:Carpentry,
+    }
+
+recipe Add Logs to Pile
+    {
+    	Log=5,
+	HCLogstack3,
+    	CanBeDoneFromFloor:true,
+    	Result:HCLogstack4,
+    	Time:500,
+    	Category:Carpentry,
+    }
+
+recipe Remove Logs from Pile
+    {
+	HCLogstack4,
+    	CanBeDoneFromFloor:true,
+    	Result:HCLogstack3,
+    	Time:500,
+    	Category:Carpentry,
+	OnCreate:recipe_hclog5,
+    }
+
+recipe Remove Logs from Pile
+    {
+	HCLogstack3,
+    	CanBeDoneFromFloor:true,
+    	Result:HCLogstack2,
+    	Time:500,
+    	Category:Carpentry,
+	OnCreate:recipe_hclog5,
+    }
+
+recipe Remove Logs from Pile
+    {
+	HCLogstack2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCLogstack1,
+    	Time:500,
+    	Category:Carpentry,
+	OnCreate:recipe_hclog5,
+    }
+
+recipe Remove Logs from Stack
+    {
+	HCLogstack1,
+    	CanBeDoneFromFloor:true,
+    	Result:Log=5,
+    	Time:500,
+    	Category:Carpentry,
+    }
+
+recipe Saw Logs
+    {
+    Log,
+    HCSawstone,
+    CanBeDoneFromFloor:true,
+    Result:Plank=1,
+    Sound:PZ_Saw,
+    Time:1000,
+    Category:Carpentry,
+    OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Sturdy Stick
+    {
+    Plank,
+    HCSawstone,
+    Result:WoodenStick=2,
+    Sound:PZ_Saw,
+    Time:1000,
+    OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wooden Tongs
+    {
+    	WoodenStick=2,
+    	HCSawstone,
+    	Result:HCTongswood,
+    	Time:10,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Small Curved Shaft
+    {
+    	TreeBranch,
+    	keep HuntingKnife/HCJackknife/HCKnifestone,
+    	Result:HCCurvedshaftsmall,
+    	Time:100,
+    	Category:Survivalist,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wood Block
+    {
+    	Log,
+    	HCSawstone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWoodblock=3,
+    	Sound:PZ_Saw,
+    	Time:1000,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wood Block
+    {
+    	Log,
+    	keep Saw,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWoodblock=9,
+    	Sound:PZ_Saw,
+    	Time:200,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wooden Ring
+    {
+    	HCWoodblock,
+    	keep Saw,
+    	Result:HCWoodenring,
+    	Sound:PZ_Saw,
+    	Time:200,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Workbench
+    {
+	SkillRequired:Woodwork=4,
+	Plank=10,
+	Nails=10,
+    	WoodenStick=2,
+    	keep Hammer,
+	keep Saw,
+   	Result:HCWorkbench,
+    	Sound:PZ_Hammer,
+    	Time:100,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Carpenter Bench
+    {
+	Plank=10,
+	Nails=10,
+    	WoodenStick=2,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	keep Hammer,
+	keep Saw,
+   	Result:HCCarpenterbench,
+	SkillRequired:Woodwork=4,
+    	Sound:PZ_Hammer,
+    	Time:100,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Sawbuck
+    {
+	SkillRequired:Woodwork=4,
+	Log=6,
+	Plank=10,
+	Nails=10,
+    	keep Hammer,
+	keep Saw,
+    	CanBeDoneFromFloor:true,
+   	Result:HCSawbuck,
+    	Sound:PZ_Hammer,
+    	Time:100,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Plank Barrier
+    {
+	SkillRequired:Woodwork=4,
+	Plank=8,
+	Nails=4,
+    	keep Hammer,
+    	CanBeDoneFromFloor:true,
+   	Result:HCPlankbarrier,
+    	Sound:PZ_Hammer,
+    	Time:100,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wood Beam
+    {
+	SkillRequired:Woodwork=2,
+    	Log,
+    	keep Saw,
+	keep HCSawbuck,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWoodbeam,
+    	Sound:PZ_Saw,
+    	Time:200,
+	OnCreate:recipe_hcsawdust,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wood Beam
+    {
+	SkillRequired:Woodwork=2,
+    	Log,
+    	keep HCSawlumber,
+	keep HCSawbuck,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWoodbeam=2,
+    	Sound:PZ_Saw,
+    	Time:200,
+	OnCreate:recipe_hcsawdust,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wood Sheet
+    {
+	SkillRequired:Woodwork=2,
+    	Log,
+    	keep Saw,
+	keep HCSawbuck,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWoodsheet=2,
+    	Sound:PZ_Saw,
+    	Time:200,
+	OnCreate:recipe_hcsawdust,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wood Sheet
+    {
+	SkillRequired:Woodwork=2,
+    	Log,
+    	keep HCSawlumber,
+	keep HCSawbuck,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWoodsheet=4,
+    	Sound:PZ_Saw,
+    	Time:200,
+	OnCreate:recipe_hcsawdust,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wood Block
+    {
+    	Log,
+    	keep Saw,
+	keep HCSawbuck,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWoodblock=12,
+    	Sound:PZ_Saw,
+    	Time:200,
+	OnCreate:recipe_hcsawdust,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wood Block
+    {
+    	Log,
+    	keep HCSawlumber,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWoodblock=12,
+    	Sound:PZ_Saw,
+    	Time:200,
+	OnCreate:recipe_hcsawdust,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wood Block
+    {
+    	Log,
+    	keep HCSawlumber,
+	keep HCSawbuck,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWoodblock=15,
+    	Sound:PZ_Saw,
+    	Time:200,
+	OnCreate:recipe_hcsawdust,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wood Planks
+    {
+    	Log,
+    	keep Saw,
+	keep HCSawbuck,
+    	CanBeDoneFromFloor:true,
+    	Result:Plank=4,
+    	Sound:PZ_Saw,
+    	Time:200,
+	OnCreate:recipe_hcsawdust,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wood Planks
+    {
+    	Log,
+    	keep HCSawlumber,
+    	CanBeDoneFromFloor:true,
+    	Result:Plank=4,
+    	Sound:PZ_Saw,
+    	Time:200,
+	OnCreate:recipe_hcsawdust,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wood Planks
+    {
+    	Log,
+    	keep HCSawlumber,
+	keep HCSawbuck,
+    	CanBeDoneFromFloor:true,
+    	Result:Plank=5,
+    	Sound:PZ_Saw,
+    	Time:200,
+	OnCreate:recipe_hcsawdust,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Churn
+    {
+    	WoodenStick,
+	HCWoodenring,
+	Plank=4,
+	Nails=4,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCChurn,
+	SkillRequired:Woodwork=6,
+    	Sound:PZ_Hammer,
+    	Time:100,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wooden Barrel
+    {
+	HCMetalringiron=2,
+	Plank=4,
+	Nails=4,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWoodenbarrel,
+	SkillRequired:Woodwork=6,
+    	Sound:PZ_Hammer,
+    	Time:100,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wooden Washtub
+    {
+	Plank=4,
+	Nails=4,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWashtub,
+	SkillRequired:Woodwork=6,
+    	Sound:PZ_Hammer,
+    	Time:100,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wooden Trough
+    {
+	Plank=8,
+	Nails=8,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCTrough,
+	SkillRequired:Woodwork=7,
+    	Sound:PZ_Hammer,
+    	Time:100,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wooden Vat
+    {
+	Plank=8,
+	Nails=8,
+	HCMetalringiron=4,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCVat,
+	SkillRequired:Woodwork=7,
+	Sound:PZ_Hammer,
+    	Time:50,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wooden Bucket
+    {
+	Plank=2,
+	Nails=2,
+	HCWoodenring,
+    	Rope,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	keep Hammer,
+	keep Saw,
+   	Result:HCWoodenbucket,
+	SkillRequired:Woodwork=1,
+	Sound:PZ_Hammer,
+    	Time:50,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wooden Tool Box
+    {
+	SkillRequired:Woodwork=1,
+	Plank=2,
+	Nails=2,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	keep Hammer,
+	keep Saw,
+   	Result:HCWoodentoolbox,
+	Sound:PZ_Hammer,
+    	Time:50,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wooden Crate
+    {
+	SkillRequired:Woodwork=1,
+	Plank=2,
+	Nails=2,
+    	keep Hammer,
+	keep Saw,
+   	Result:HCWoodencrate,
+	Sound:PZ_Hammer,
+    	Time:50,
+    	Category:Carpentry,
+	OnGiveXP:HCNoExpGain,
+    }
+
+recipe Make Wardrobe
+    {
+	SkillRequired:Woodwork=7,
+	HCLumberstack,
+	Nails=24,
+	HCWoodbeam=2,
+	Hinge=4,
+	Doorknob=2,
+	Drawer=2,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWardrobe,
+	Sound:PZ_Hammer,
+    	Time:1000,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wooden Pallet
+    {
+    	SkillRequired:Woodwork=1,
+	HCWoodblock=4,
+	Plank=4,
+	Nails=4,
+    	keep Hammer,
+	keep Saw,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWoodenpallet,
+    	Sound:PZ_Hammer,
+    	Time:50,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Pack Lumber Stack
+    {
+    	Plank=12,
+    	Rope,
+    	Result:HCLumberstack,
+    	Time:40.0,
+    	Category:Carpentry,
+	OnGiveXP:HCNoExpGain,
+    }
+
+recipe Unpack Lumber Stack
+    {
+    	HCLumberstack,
+    	Result:Plank=12,
+    	Time:40.0,
+    	Category:Carpentry,
+    	OnCreate:recipe_hcrope,
+	OnGiveXP:HCNoExpGain,
+    }
+
+recipe Pack Pallet of Lumber
+    {
+    	HCLumberstack=3,
+    	HCRopethick,
+	HCWoodenpallet,
+    	Result:HCLumberbox,
+    	Time:20.0,
+    	Category:Carpentry,
+    }
+
+recipe Unpack Pallet of Logs
+    {
+    	HCLogbox,
+    	Result:LogStacks4=3,
+    	Time:20.0,
+    	Category:Carpentry,
+    	OnCreate:recipe_hcpallet,
+    }
+
+recipe Pack Pallet of Logs
+    {
+    	LogStacks4=3,
+    	HCRopethick,
+	HCWoodenpallet,
+    	Result:HCLogbox,
+    	Time:20.0,
+    	Category:Carpentry,
+    }
+
+recipe Unpack Pallet of Lumber
+    {
+    	HCLumberbox,
+    	Result:HCLumberstack=3,
+    	Time:20.0,
+    	Category:Carpentry,
+    	OnCreate:recipe_hcpallet,
+    }
+
+recipe Make Wooden Wheel
+    {
+	SkillRequired:Woodwork=7,
+	HCWoodenring,
+	Woodglue=6,
+    	WoodenStick=3,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWoodwheel,
+    	Sound:PZ_Hammer,
+    	Time:100,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wooden Wheel
+    {
+	HCWoodenring,
+	HCWoodgluejar=6,
+    	WoodenStick=3,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWoodwheel,
+	SkillRequired:Woodwork=7,
+    	Sound:PZ_Hammer,
+    	Time:100,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Stamp Mill Wheel
+    {
+	Plank=4,
+	Nails=2,
+	HCWoodwheel=2,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCStampmillwheel,
+	SkillRequired:Woodwork=8,
+    	Sound:PZ_Hammer,
+    	Time:100,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wooden Wheelbarrow
+    {
+	SkillRequired:Woodwork=7;Mechanics=2;,
+	Plank=4,
+	Nails=8,
+	HCWoodwheel,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWoodenwheelbarrow,
+    	Sound:PZ_Hammer,
+    	Time:200,
+    	Category:Carpentry,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Make Wood Shingles
+    {
+	Plank,
+	keep Saw,
+   	Result:HCWoodshingles=3,
+	SkillRequired:Woodwork=1,
+	Sound:PZ_Saw,
+    	Time:50,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Coffin
+    {
+	Plank=3,
+	Nails=3,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCCoffin,
+	SkillRequired:Woodwork=4,
+    	Sound:PZ_Hammer,
+    	Time:50,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Put Corpse in Coffin
+    {
+	HCCoffin,
+    	CorpseMale/CorpseFemale,
+   	Result:HCCoffinfull,
+    	Time:15,
+    }
+
+recipe Build Wooden Ladder
+    {
+	HCWoodbeam=2,
+	Plank=6,
+	Nails=6,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWoodenladder,
+	SkillRequired:Woodwork=6,
+    	Sound:PZ_Hammer,
+    	Time:100,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Build Chicken Coop
+    {
+	Plank=6,
+	HCWoodblock=4,
+	Nails=6,
+	HCStraw=20,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCCoop,
+	SkillRequired:Woodwork=7,
+    	Sound:PZ_Hammer,
+    	Time:500,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Spinning Wheel
+    {
+	SkillRequired:Woodwork=6;Mechanics=2;,
+	Plank=5,
+	Nails=4,
+	HCWoodwheel,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCSpinningwheel,
+    	Sound:PZ_Hammer,
+    	Time:400,
+    	Category:Carpentry,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Make Thresher
+    {
+	SkillRequired:Woodwork=6,
+	TreeBranch=4,
+	Twigs=4,
+	HCRopethin=8,
+    	CanBeDoneFromFloor:true,
+   	Result:HCThresher,
+    	Time:400,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Build Mechanical Thresher
+    {
+	SkillRequired:Woodwork=8;Mechanics=3;,
+	HCCrank/HCCrankiron,
+	HCSicklesteel=9,
+	HCSteelrod=2,
+	HCGearsteel=8,
+	HCWoodbeam=4,
+	Plank=20,
+	Nails=18,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCThreshermech,
+    	Sound:PZ_Hammer,
+    	NeedToBeLearn:true,
+    	Time:800,
+       	Category:Engineer,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Make Loom
+    {
+	SkillRequired:Woodwork=6;Mechanics=1;,
+	Plank=6,
+	Nails=4,
+	Rope=2,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCLoom,
+    	Sound:PZ_Hammer,
+    	Time:400,
+    	Category:Carpentry,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Upgrade Loom
+    {
+	SkillRequired:Woodwork=8;Mechanics=2;,
+	HCLoom,
+	Plank=12,
+	Nails=10,
+	HCWoodbeam,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCLoomfloor,
+    	Sound:PZ_Hammer,
+    	Time:1000,
+    	Category:Carpentry,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Make Wood Table
+    {
+	SkillRequired:Woodwork=4,
+	Plank=5,
+	Nails=4,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCTablewood,
+    	Sound:PZ_Hammer,
+    	Time:400,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Log Table
+    {
+	Log=6,
+	Twine=12,
+    	keep Hammer/HammerStone,
+	keep Saw,
+    	CanBeDoneFromFloor:true,
+   	Result:HCTablelog,
+	SkillRequired:Woodwork=1,
+    	Sound:PZ_Hammer,
+    	Time:500,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Log Table
+    {
+	Log=6,
+	Twine=12,
+    	keep Hammer/HammerStone,
+	HCSawstone,
+    	CanBeDoneFromFloor:true,
+   	Result:HCTablelog,
+	SkillRequired:Woodwork=1,
+    	Sound:PZ_Hammer,
+    	Time:500,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Build Rabbit Hutch
+    {
+	HCLumberstack,
+	Nails=10,
+	Hinge=2,
+	HCChickenwire,
+	HCStraw=10,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCRabbithutch,
+	SkillRequired:Woodwork=7,
+    	Sound:PZ_Hammer,
+    	Time:500,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Build Hunting Blind
+    {
+	HCLogbox,
+	HCLumberbox,
+	HCWoodenladder,
+	Nails=100,
+    	keep Hammer,
+	keep Saw,
+    	CanBeDoneFromFloor:true,
+   	Result:HCHuntingblind,
+	SkillRequired:Woodwork=10,
+    	Sound:PZ_Hammer,
+    	Time:1000,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Anchor Huntering Blind
+    {
+    	HCHuntingblind,
+    	CanBeDoneFromFloor:true,
+    	Result:HCHuntingblind2,
+    	Time:100,
+    	Category:Anchor,
+    }
+
+recipe Build Windmill
+    {
+	SkillRequired:Woodwork=10;Mechanics=3;,
+	HCWindmillblade=4,
+	HCLumberstack,
+	Log=4,
+	Nails=32,
+	HCWoodblock,
+	HCSteelpipe,
+    	keep Hammer,
+	keep Saw,
+	keep HCPipebender,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWindmill,
+    	Sound:PZ_Hammer,
+    	Time:1000,
+    	Category:Carpentry,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Make Windmill Blade
+    {
+	SkillRequired:Woodwork=10,
+	WoodenStick=6,
+	Plank=3,
+	HCWoodbeam,
+	Nails=4,
+    	keep Hammer,
+	keep Saw,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWindmillblade,
+    	Sound:PZ_Hammer,
+    	Time:1000,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Build Water Tower
+    {
+	SkillRequired:Woodwork=10;Mechanics=3;,
+	HCWoodshingles=30,
+	HCVat,
+	HCLumberstack,
+	HCWoodbeam=8,
+	Nails=24,
+	HCSteelpipe=2,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	keep Hammer,
+	keep Saw,
+	keep HCMonkeywrench,
+	keep HCPipebender,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWatertower,
+    	Sound:PZ_Hammer,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Carpentry,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Build Double Water Tower
+    {
+	SkillRequired:Woodwork=10;Mechanics=3;,
+	HCWatertower,
+	HCVat,
+	Nails=4,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	keep Hammer,
+	keep Saw,
+	keep HCMonkeywrench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWatertower2,
+	SkillRequired:Woodwork=10,
+    	Sound:PZ_Hammer,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Carpentry,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Make Water Pump
+    {
+	SkillRequired:Mechanics=3,
+	destroy HCWatertower2,
+	destroy HCWell,
+	destroy HCTrough,
+	HCWindmill,
+	HCSteelpipe=10,
+	keep HCMonkeywrench,
+	keep HCPipebender,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWaterpump,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Engineer,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Anchor Water Pump
+    {
+	HCWaterpump,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWaterpump2,
+    	Time:100,
+    	Category:Anchor,
+    }
+
+recipe Fill Bucket
+    {
+	HCWoodenbucket,
+	keep HCWaterpump/HCWaterpump2,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWoodenbucketwater,
+    	Time:15,
+    	Category:Farming,
+    }
+
+recipe Build Clothes Line
+    {
+	Plank=4,
+	Nails=8,
+	Twine,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCClothesline,
+	SkillRequired:Woodwork=4,
+    	Sound:PZ_Hammer,
+    	Time:200,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Build Double Clothes Line
+    {
+	HCClothesline,
+	Twine,
+    	CanBeDoneFromFloor:true,
+   	Result:HCClothesline2,
+    	Time:15,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Build Makeshift Shower
+    {
+	SkillRequired:Woodwork=4;Mechanics=1;,
+	Plank=6,
+	HCLumberstack,
+	Nails=20,
+	Sheet=4,
+	Rope=4,
+	HCRopethick,
+	BucketEmpty,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCShower,
+    	Sound:PZ_Hammer,
+    	Time:400,
+    	Category:Carpentry,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Add Sink
+    {
+	SkillRequired:Woodwork=4;Mechanics=1;,
+	HCLumberstack,
+	Nails=12,
+	HCShower,
+    	destroy BathTowel,
+	Soap2/HCSoap,
+    	keep Hammer,
+	keep Saw,
+    	CanBeDoneFromFloor:true,
+   	Result:HCShowersink,
+    	Sound:PZ_Hammer,
+    	Time:400,
+    	Category:Carpentry,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Add Sink
+    {
+	SkillRequired:Woodwork=4;Mechanics=1;,
+	HCLumberstack,
+	Nails=12,
+	HCShower,
+    	destroy BathTowel,
+	Soap2=20,
+    	keep Hammer,
+	keep Saw,
+    	CanBeDoneFromFloor:true,
+   	Result:HCShowersink,
+    	Sound:PZ_Hammer,
+    	Time:400,
+    	Category:Carpentry,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Build Scarecrow Stand
+    {
+	Plank=2,
+	Nails=4,
+	Rope,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCScarecrowstand,
+	SkillRequired:Woodwork=4,
+    	Sound:PZ_Hammer,
+    	Time:50,
+    	NeedToBeLearn:true,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Attatch Scarecrow
+    {
+	HCStraw=10,
+	HCStrawhat,
+	Shirt,
+	Trousers,
+	Rope=3,
+	HCScarecrowstand,
+    	CanBeDoneFromFloor:true,
+   	Result:HCScarecrow,
+    	Time:50,
+    	NeedToBeLearn:true,
+    	Category:Farming,
+    }
+
+recipe Attatch Scarecrow
+    {
+	HCStraw=10,
+	HCStrawhat,
+	Shirt,
+	Trousers,
+	Rope=3,
+	HCScarecrowstand,
+    	CanBeDoneFromFloor:true,
+   	Result:HCScarecrow2,
+    	Time:50,
+    	NeedToBeLearn:true,
+    	Category:Farming,
+    }
+
+recipe Attatch Corpse Scarecrow
+    {
+	CorpseMale/CorpseFemale,
+	Shirt,
+	Trousers,
+	Rope=3,
+	HCScarecrowstand,
+    	CanBeDoneFromFloor:true,
+   	Result:HCScarezed,
+    	Time:50,
+    	NeedToBeLearn:true,
+    	Category:Farming,
+    }
+
+recipe Attatch Corpse Scarecrow
+    {
+	CorpseMale/CorpseFemale,
+	Shirt,
+	Trousers,
+	Rope=3,
+	HCScarecrowstand,
+    	CanBeDoneFromFloor:true,
+   	Result:HCScarezed2,
+    	Time:50,
+    	NeedToBeLearn:true,
+    	Category:Farming,
+    }
+
+recipe Build Archery Target
+    {
+    	SheetPaper/SheetPaper2,
+	Pencil/Pen/Crayons,
+	HCStrawbale,
+	Plank=4,
+	Nails=9,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCHaytarget,
+	SkillRequired:Woodwork=4,
+    	Sound:PZ_Hammer,
+    	Time:50,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Carve Wooden Bird Call
+    {
+    	HCWoodblock,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	keep HuntingKnife/HCJackknife/HCKnifestone,
+    	Result:HCBirdcall,
+    	Time:500,
+    	NeedToBeLearn:true,
+    	SkillRequired:Woodwork=3,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Carve Wooden Duck Call
+    {
+    	SkillRequired:Woodwork=3,
+    	HCWoodblock,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	keep HuntingKnife/HCJackknife/HCKnifestone,
+    	Result:HCDuckcall,
+    	Time:500,
+    	NeedToBeLearn:true,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Carve Wooden Flute
+    {
+    	SkillRequired:Woodwork=3,
+    	HCWoodblock,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	keep HuntingKnife/HCJackknife/HCKnifestone,
+    	Result:HCFlutewood,
+    	Time:500,
+    	NeedToBeLearn:true,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Carve Wooden Bowl
+    {
+    	SkillRequired:Woodwork=3,
+    	HCWoodblock,
+    	keep HuntingKnife/HCJackknife/HCKnifestone,
+    	Result:Bowl,
+    	Time:500,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Carve Wooden Spatula
+    {
+    	SkillRequired:Woodwork=3,
+    	HCWoodblock,
+    	keep HuntingKnife/HCJackknife/HCKnifestone,
+    	Result:HCWoodenspatula,
+    	Time:500,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Carve Wooden Spoon
+    {
+    	SkillRequired:Woodwork=3,
+    	HCWoodblock,
+    	keep HuntingKnife/HCJackknife/HCKnifestone,
+    	Result:HCWoodenspoon,
+    	Time:500,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Carve Wooden Fork
+    {
+    	SkillRequired:Woodwork=3,
+    	HCWoodblock,
+    	keep HuntingKnife/HCJackknife/HCKnifestone,
+    	Result:HCWoodenfork,
+    	Time:500,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wagon Wheel
+    {
+	HCWoodenring=2,
+	Woodglue=12,
+    	WoodenStick=6,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWagonwheel,
+	SkillRequired:Woodwork=10,
+    	Sound:PZ_Hammer,
+    	Time:200,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wagon Wheel
+    {
+	HCWoodenring=2,
+	HCWoodgluejar=12,
+    	WoodenStick=6,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWagonwheel,
+	SkillRequired:Woodwork=10,
+    	Sound:PZ_Hammer,
+    	Time:200,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Yoke
+    {
+	HCWoodbeam,
+	HCWoodenring=2,
+	TentPeg,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCYoke,
+	SkillRequired:Woodwork=10,
+    	Sound:PZ_Hammer,
+    	Time:200,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Build Wagon 
+    {
+	SkillRequired:Woodwork=10;Mechanics=2;,
+	HCSteelpole=2,
+	HCSteelspring=4,
+	HCPlankoil=36,
+	Nails=100,
+	HCWagonwheel=4,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	keep Hammer,
+	keep Saw,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWagon,
+    	Sound:PZ_Hammer,
+    	Time:250,
+    	Category:Carpentry,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Add Bonnet to Wagon 
+    {
+	HCWagon,
+	Tarp=4,
+    	WoodenStick=10,
+	Nails=10,
+    	keep Hammer,
+	keep Saw,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWagoncovered,
+	SkillRequired:Woodwork=10,
+    	Sound:PZ_Hammer,
+    	Time:250,
+    	Category:Carpentry,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Add Oxen to Wagon
+    {
+	HCWagon,
+	HCCowmale=2,
+	HCYoke,
+    	HCRopethick=2,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWagonoxen,
+	SkillRequired:Woodwork=10,
+    	Time:250,
+    	Category:Carpentry,
+    }
+
+recipe Add Bonnet to Wagon with Oxen
+    {
+	HCWagonoxen,
+	Tarp=4,
+    	WoodenStick=10,
+	Nails=10,
+    	keep Hammer,
+	keep Saw,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWagoncoveredoxen,
+	SkillRequired:Woodwork=10,
+    	Sound:PZ_Hammer,
+    	Time:250,
+    	Category:Carpentry,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Add Oxen to Covered Wagon
+    {
+	HCWagoncovered,
+	HCCowmale=2,
+	HCYoke,
+    	HCRopethick=2,
+    	CanBeDoneFromFloor:true,
+   	Result:HCWagoncoveredoxen,
+	SkillRequired:Woodwork=10,
+    	Time:250,
+    	Category:Carpentry,
+    }
+
+recipe Fill Trough with Vegetable Oil
+    {
+	HCCookingoil=50,
+    	HCTrough,
+    	CanBeDoneFromFloor:true,
+   	Result:HCTroughvegoil,
+    	Time:250,
+    	Category:Carpentry,
+    }
+
+recipe Fill Trough with Vegetable Oil
+    {
+	HCWoodenbucketvegoil=5,
+    	HCTrough,
+    	CanBeDoneFromFloor:true,
+   	Result:HCTroughvegoil,
+    	Time:250,
+    	Category:Carpentry,
+    	OnCreate:recipe_hcwoodenbucket5,
+    }
+
+recipe Soak Plank in Vegetable Oil
+    {
+	SkillRequired:Woodwork=3,
+	HCWoodenbucketvegoil,
+	Plank,
+    	keep HCTroughvegoil,
+    	CanBeDoneFromFloor:true,
+   	Result:HCPlankoil,
+    	Time:1000,
+    	Category:Carpentry,
+    	OnCreate:recipe_hcwoodenbucket,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Assemble IBC Storage Supports
+    {
+	SkillRequired:Woodwork=3,	
+	HCIBC,
+	Nails=12,
+    	Plank=6,
+	keep Hammer,
+    	Result:HCIBCstorage,
+    	Time:800.0,
+    	Category:Carpentry,	
+	Sound:PZ_Hammer,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Upgrade IBC Storage
+    {
+	SkillRequired:Woodwork=3,
+	HCIBC,
+	Nails=12,
+    	Plank=6,
+	HCIBCstorage,
+	keep Hammer,
+    	Result:HCIBCtower,
+    	Time:900.0,
+	CanBeDoneFromFloor:true,	
+    	Category:Carpentry,	
+	Sound:PZ_Hammer,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Vending Stand
+    {
+	HCWoodsheet=2,
+	HCWoodbeam,
+	Plank=8,
+	Nails=8,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCVendingstand,
+	SkillRequired:Woodwork=5,
+    	Sound:PZ_Hammer,
+    	Time:50,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Upgrade Vending Stand
+    {
+	HCVendingstand,
+	Plank=4,
+	Nails=2,
+	Tarp,
+    	keep Hammer,
+	keep Saw,
+    	CanBeDoneFromFloor:true,
+   	Result:HCVendingstand2,
+	SkillRequired:Woodwork=5,
+    	Sound:PZ_Hammer,
+    	Time:50,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Folding Sign
+    {
+	SkillRequired:Woodwork=1,
+    	SheetPaper/SheetPaper2,
+	Pencil/Pen/Crayons,
+	Hinge,
+	HCRopethin=2,
+	Plank=2,
+	Nails=2,
+    	keep Hammer,
+	keep Saw,
+    	CanBeDoneFromFloor:true,
+   	Result:HCFoldingsign,
+    	Sound:PZ_Hammer,
+    	Time:100,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+}

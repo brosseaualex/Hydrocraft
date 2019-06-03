@@ -1,0 +1,90 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCCentifuge
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName     	= Centrifiuge,
+        icon 			= HCCentifuge,
+    } 
+
+item HCCentifugepowered
+    {
+	Weight			=	4,
+	Type			=	Drainable,
+	UseDelta		=	0.125,
+	DisplayName		=	Centifuge with Power,
+	ReplaceOnDeplete	=	HCCentifugedead,
+	Icon			=	HCCentifugepowered,
+    }
+
+item HCCentifugedead
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Dead Centifuge,
+        icon 			= HCCentifugedead,
+    }
+
+item HCElectrolyzer
+    {
+        Weight    		= 6,
+        Type    		= Normal,
+        DisplayName     	= Electrolyzer,
+        icon 			= HCElectrolyzer,
+    } 
+
+/************************RECIPES************************/
+
+recipe Insert Battery
+    {
+    	HCCentifuge,
+    	HCBatterymedium,
+    	Result:HCCentifugepowered,
+    	Time:15,
+    	Category:Electrical,
+    }
+
+recipe Remove Battery
+    {
+    	HCCentifugedead,
+    	Result:HCCentifuge,
+    	Time:15,
+    	Category:Electrical,
+    	OnCreate:recipe_hcbatterymediumdead,
+    }
+
+recipe Use Centrifiuge
+    {
+    	HCCentifugepowered,
+    	HCMarblepowder=8,
+    	NeedToBeLearn:true,
+    	Result:HCMagnesiumpowder,
+    	Time:50,
+    	Category:Alchemy,
+    	OnCreate:recipe_hccentifugemarble,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Use Electrolyzer
+    {
+    	keep HCElectrolyzer,
+    	PetrolCan,
+    	HCObsidianpowder=12,
+    	NeedToBeLearn:true,
+    	Result:HCIronpowder,
+    	Time:50,
+    	Category:Alchemy,
+    	OnCreate:recipe_hcelectrolyzerobsidian,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+	
+}

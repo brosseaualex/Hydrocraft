@@ -1,0 +1,79 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCLard
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Lard,
+        icon 			= HCLard,
+    }   
+
+item HCTallow
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Tallow,
+        icon 			= HCTallow,
+    }   
+
+item HCSoap
+    {
+        Weight    		= 0.1,
+        Type	            	= Drainable,
+        UseDelta	        = 0.05,
+        UseWhileEquipped	= FALSE,
+        DisplayName         	= Homemade Soap,
+        icon 			= HCSoap,
+        cantBeConsolided    	= TRUE,
+    }   
+
+/************************RECIPES************************/
+    
+
+recipe Make Tallow
+    {
+    	HCLard=4,
+	HCCheesecloth,
+    	Charcoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+   	Water,
+    	keep HCClaycauldron/HCCauldroniron,
+    	CanBeDoneFromFloor:true,
+    	Result:HCTallow,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Alchemy,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Homemade Soap
+    {
+    	HCTallow=4,
+	HCBorax,
+	HCWoodenbucketlye,
+	HCCheesecloth,
+	keep HCSafetyglasses,
+	keep HCRubberglove,
+    	Charcoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+   	Water,
+    	keep HCClaycauldron/HCCauldroniron,
+    	CanBeDoneFromFloor:true,
+    	Result:HCSoap,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Alchemy,
+    	OnCreate:recipe_hcwoodenbucket,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+}

@@ -1,0 +1,6 @@
+ContextMenu_FR = {
+	ContextMenu_Sow_Trellis_Seed = "Tuteurs de pousses",
+	ContextMenu_Sniff = "Renifler",
+	ContextMenu_Inject = "Injecter",
+
+}

@@ -1,0 +1,1583 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCMedicalrecord
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Medical Record,
+        icon 			= HCMedicalrecord,
+    }
+
+item HCMedicallab
+    {
+	WeightReduction         = 0,
+	Weight             	= 10,
+	Type                	= Container,
+	Capacity             	= 50,
+        DisplayName         	= Medical Lab,
+        icon 			= HCMedicallab,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCStethoscope
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Stethoscope,
+        icon 			= HCStethoscope,
+    }  
+
+item HCOtoscope
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Otoscope,
+        icon 			= HCOtoscope,
+    }  
+
+item HCHeadmirror
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Head Mirror,
+        icon 			= HCHeadmirror,
+    } 
+
+item HCSphygmomanometer
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Sphygmomanometer,
+        icon 			= HCSphygmomanometer,
+    } 
+
+item HCThermometer
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Thermometer,
+        icon 			= HCThermometer,
+    } 
+
+item HCManometer
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Manometer,
+        icon 			= HCManometer,
+    } 
+
+item HCArmsling
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Arm Sling,
+        icon 			= HCArmsling,
+    } 
+
+item HCBonesaw
+    {
+        Weight    		= 0.7,
+        Type    		= Normal,
+        DisplayName         	= Bone Saw,
+        icon 			= HCBonesaw,
+    } 
+
+item HCGiglisaw
+    {
+        Weight               	= 0.8,
+        Type       		= Normal,
+        DisplayName          	= Gigli Saw,
+        Icon               	= HCGiglisaw,
+    }
+
+item HCTonguedepressor
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     	= Tongue Depressor,
+        icon 			= HCTonguedepressor,
+    } 
+
+item HCWheelchair
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName     	= Wheelchair,
+        icon 			= HCWheelchair,
+	ResizeWorldIcon 	= 2.0,
+    } 
+
+item HCGlovebox
+    {
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName     	= Glove Box,
+        icon 			= HCGlovebox,
+	ResizeWorldIcon 	= 1.0,
+    } 
+
+item HCHearingaid
+    {
+        Weight    		= 0.03,
+        Type    		= Normal,
+        DisplayName         	= Hearing Aid,
+        icon 			= HCHearingaid,
+    }
+
+item HCGlasseye
+    {
+        Weight    		= 0.03,
+        Type    		= Normal,
+        DisplayName         	= Glass Eye,
+        icon 			= HCGlasseye,
+    }
+
+item HCProstheticleg
+    {
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Prosthetic Leg,
+        icon 			= HCProstheticleg,
+    }
+
+item HCEyepatch
+    {
+        Weight    		= 0.03,
+        Type    		= Normal,
+        DisplayName         	= Eye Patch,
+        icon 			= HCEyepatch,
+    }
+
+item HCSyringeempty
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     	= Syringe,
+        icon 			= HCSyringeempty,
+    } 
+
+item HCSyringeblood
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     	= Syringe with Human Blood,
+        icon 			= HCSyringeblood,
+    } 
+
+item HCSyringerabbit
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     	= Syringe with Rabbit Blood,
+        icon 			= HCSyringeblood,
+    } 
+
+item HCSyringezombie
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     	= Syringe with Zombie Blood,
+        icon 			= HCSyringeblood,
+    } 
+
+item HCHomedisinfectant
+    {
+        Type	            	= Drainable,
+        UseDelta	        = 0.1,
+        UseWhileEquipped	= FALSE,
+        DisplayName		= Bottle of Homemade Disinfectant,
+        Icon			= HCHomedisinfectant,
+	ReplaceOnUse		= WaterBottleEmpty,
+        Weight			= 0.3,
+        AlcoholPower        	= 3,
+        Tooltip			= Tooltip_UseOnHealthPanel,
+    }
+
+item HCSmellingsalts	
+	{
+	HungerChange			=	0,
+	UnhappyChange			=	10,
+	FatigueChange			=	-10,
+	Weight				=	1,
+	ReplaceOnUse			= 	HCGlasstesttubecork,
+	Type				=	Food,
+	DisplayName			=	Vial of Smelling Salts,
+	Icon				=	HCSmellingsaltscork,
+	CustomContextMenu 		= 	Sniff,
+	CustomEatSound 			= 
+	}
+
+item HCSmellingsalts2	
+	{
+	HungerChange			=	0,
+	UnhappyChange			=	10,
+	FatigueChange			=	-10,
+	Weight				=	1,
+	ReplaceOnUse			= 	HCGlasstesttuberubberbung,
+	Type				=	Food,
+	DisplayName			=	Vial of Smelling Salts,
+	Icon				=	HCSmellingsaltsbung,
+	CustomContextMenu 		= 	Sniff,
+	CustomEatSound 			= 
+	}
+
+item HCPillbox
+	{
+	Weight	                        = 	0.1,
+	Type	                        = 	Normal,
+	DisplayName			= 	Empty Pill Box,
+	Icon				= 	HCPillbox,
+	}
+
+item HCAdrenalin
+    {
+        HungerChange			= -1,
+        Weight				= 0.2,
+        Type				= Food,
+        DisplayName			= Adrenalin,
+        Icon				= HCAdrenalin,
+        EnduranceChange			= 10,
+        StressChange			= 20,
+	CustomContextMenu 		= Drink,
+	CustomEatSound 			= PZ_DrinkingFromBottle,
+	ReplaceOnUse			= HCEyedropperbottle,
+    }
+
+item HCAdrenalinbox
+	{
+	Weight	                        = 	0.2,
+	Type	                        = 	Normal,
+	DisplayName			= 	Box of Adrenalin,
+	Icon				= 	HCAdrenalinbox,
+	}
+
+item HCAdrenalinbottle
+    {
+	Weight 				= 0.4,
+	Type 				= Drainable,
+	UseDelta 			= 0.2,
+	DisplayName 			= Bottle of Adrenalin,
+	Icon				= HCAdrenalinbottle,
+    }
+
+item HCSyringeadrenalin
+    {
+        HungerChange            	= -1,  
+        Weight                  	= 0.3,
+        Type                    	= Food,
+        EnduranceChange			= 10,
+        StressChange            	= 20,
+        DisplayName			= Syringe with Adrenalin,                                                    
+        ReplaceOnUse	        	= HCSyringeempty,    
+        Icon				= HCSyringeadrenalin,
+	CustomContextMenu 		= Inject,
+	CustomEatSound 			= 
+    }
+
+item HCEthersheet
+    {
+        Weight    		= 	0.2,
+        PainReduction 		=       5,
+        UnhappyChange		=       -5,
+        FatigueChange           =       10,
+        StressChange            =       5,
+        Poison                  =       true,
+        PoisonDetectionLevel    =       1,
+        PoisonPower             =       3,
+        UseForPoison            =       1,
+	Type			= 	Food,
+        ReplaceOnUse	        =       RippedSheet,
+        DisplayName         	= 	Ripped Sheet with Ether,
+        icon 			= 	HCEthersheet,
+	Alcoholic		=       TRUE,
+    }
+
+item HCValeriantray
+    {
+	UnhappyChange		= -5,
+	Weight	        	= 1.5,
+	Type	        	= Food,
+        ReplaceOnUse   	 	= BakingTray,
+	DisplayName		= Tray With Valerian,
+	Icon	        	= HCValeriantray,
+    }
+
+item HCValeriandry
+    {
+	UnhappyChange		= -5,
+	Weight	        	= 1.3,
+	Type	        	= Food,
+        ReplaceOnUse    	= BakingTray,
+	DisplayName		= Tray With Dry Valerian,
+	Icon	        	= HCValeriantray,
+    }
+
+item HCAntideppills
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayName		= Bottle of Anti-Depression Pills,
+	Icon	        	= HCAntideppills,
+    }
+
+item HCAntideppill
+    {
+	HungerChange		= -1,
+	UnhappyChange		= -35,
+	StressChange		= -10,
+	Weight	        	= 0.2,
+	Type	        	= Food,
+	UseWhileEquipped	= FALSE,
+	DisplayName		= Anti-Depression Pills,
+	Icon	        	= HCAntideppill,
+	Tooltip 		= Tooltip_PillsAntidepressant,
+    }
+
+item HCHawthornfruittray
+    {
+	StressChange		= -5,
+	Weight	        	= 1.5,
+	Type	        	= Food,
+        ReplaceOnUse   	 	= BakingTray,
+	DisplayName		= Tray with Hawthorn Fruit,
+	Icon	        	= HCHawthornfruittray,
+    }
+
+item HCHawthornfruitdry
+    {
+	StressChange		= -5,
+	Weight	        	= 1.3,
+	Type	        	= Food,
+        ReplaceOnUse    	= BakingTray,
+	DisplayName		= Tray With Dry Hawthorn Fruit,
+	Icon	        	= HCHawthornfruittray,
+    }
+
+item HCBetablockerpills
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayName		= Beta Blocker Pills,
+	Icon	        	= HCBetablockerpills,
+    }
+
+item HCBetablockerpill
+    {
+	HungerChange		= -1,
+	Weight	        	= 0.2,
+	Type	        	= Food,
+	UseWhileEquipped	= FALSE,
+	DisplayName		= Beta Blocker Pill,
+	Icon	        	= HCBetablockerpill,
+	OnEat 			= HCBetaBlocker,
+	Tooltip 		= Tooltip_PillsBetablocker,
+    }
+
+item HCEphedrinebox
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+	DisplayName		= Box of Ephedrine,
+	Icon	        	= HCEphedrinebox,
+    }
+
+item HCEphedrine
+    {
+	HungerChange		= -1,
+	Weight	        	= 0.1,
+	Type	        	= Food,
+	UseWhileEquipped	= FALSE,
+	DisplayName		= Ephedrine Pills,
+	Icon	        	= HCEphedrine,
+        PainReduction 		= 5,
+	FatigueChange		= -5,
+    }
+
+item HCCaffeinebox
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+	DisplayName		= Box of Caffeine Pills,
+	Icon	        	= HCCaffeinebox,
+    }
+
+item HCCaffeinepills
+    {
+	HungerChange		= -1,
+	Weight	        	= 0.1,
+	Type	        	= Food,
+	UseWhileEquipped	= FALSE,
+	DisplayName		= Caffeine Pills,
+	Icon	        	= HCCaffeinepills,
+	FatigueChange		= -15,
+	UnhappyChange		= 5,
+	StressChange		= 5,
+    }
+
+item HCWillowbarktea
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     	= Willow Bark Tea,
+        icon 			= HCWillowbarktea,
+	ReplaceOnUse		= HCJar,
+    } 
+
+item HCCoughsyrup
+    {
+	HungerChange		= -1,
+	ThirstChange		= -5,
+	Weight	        	= 0.1,
+	Type	        	= Food,
+	UseWhileEquipped	= FALSE,
+	DisplayName		= Cough Syrup,
+	Icon	        	= HCCoughsyrup,
+	FatigueChange		= 20,
+	FluReduction		= 20,
+	ReduceInfectionPower    = 10,
+    }
+
+item HCInhaler
+	{
+	Weight	                        = 	0.1,
+	Type	                        = 	Normal,
+	DisplayName			= 	Inhaler,
+	Icon				= 	HCInhaler,
+	}
+
+item HCEyedropperbottle
+	{
+	Weight	                        = 	0.1,
+	Type	                        = 	Normal,
+	DisplayName			= 	Empty Eyedropper Bottle,
+	Icon				= 	HCEyedropperbottle,
+	}
+
+item HCEyedropperbottleiodine
+    {
+	Weight 				= 0.1,
+	Type 				= Drainable,
+	UseDelta 			= 0.2,
+	DisplayName 			= Bottle of Iodine,
+	ReplaceOnDeplete		= HCEyedropperbottle,
+	Icon				= HCEyedropperbottleiodine,
+    }
+
+item HCEyedropperbottleeardrops
+    {
+	Weight 				= 0.1,
+	Type 				= Drainable,
+	UseDelta 			= 0.2,
+	DisplayName 			= Bottle of Ear Drops,
+	ReplaceOnDeplete		= HCEyedropperbottle,
+	Icon				= HCEyedropperbottleeardrops,
+    }
+
+item HCEyedropperbottleyedrops
+    {
+	Weight 				= 0.1,
+	Type 				= Drainable,
+	UseDelta 			= 0.2,
+	DisplayName 			= Bottle of Eye Drops,
+	ReplaceOnDeplete		= HCEyedropperbottle,
+	Icon				= HCEyedropperbottleeyedrops,
+    }
+
+item HCBirthcontrolpills
+    {
+	Weight 				= 0.1,
+	Type 				= Drainable,
+	UseDelta 			= 0.2,
+	DisplayName 			= Birth Control Pills,
+	Icon				= HCBirthcontrolpills,
+    }
+
+item HCErectiledysfunctionpills
+    {
+	Weight 				= 0.1,
+	Type 				= Drainable,
+	UseDelta 			= 0.2,
+	DisplayName 			= Erectile Dysfunction Pills,
+	Icon				= HCErectiledysfunctionpills,
+    }
+
+item HCGauze
+    {
+	Type			=	Normal,
+	DisplayName		=	Gauze,
+	Icon			=	HCGauze,
+	Weight			=	0.1,
+     }
+
+item HCDissectiontable
+    {
+        Weight    		= 10,
+        Type   			= Normal,
+        DisplayName         	= Dissection Table,
+        icon 			= HCDissectiontable,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCDissectiontablebody
+    {
+        Weight    		= 30,
+        Type   			= Normal,
+        DisplayName         	= Dissection Table with Corpse,
+        icon 			= HCDissectiontablebody,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCDissectiontabledissected
+    {
+        Weight    		= 30,
+        Type   			= Normal,
+        DisplayName         	= Dissection Table with Dissected Corpse,
+        icon 			= HCDissectiontabledissected,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCDissectiontablebloody
+    {
+        Weight    		= 10,
+        Type   			= Normal,
+        DisplayName         	= Bloody Dissection Table,
+        icon 			= HCDissectiontablebloody,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCZedbrain
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Zombie Brain,
+        icon 			= HCZedbrain,
+    }
+
+item HCZedheart
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Zombie Heart,
+        icon 			= HCZedheart,
+    }
+
+item HCZedlung
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Zombie Lung,
+        icon 			= HCZedlung,
+    }
+
+item HCZedkidney
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Zombie Kidney,
+        icon 			= HCZedkidney,
+    }
+
+item HCZedliver
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Zombie Liver,
+        icon 			= HCZedliver,
+    }
+
+item HCZedpancreas
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Zombie Pancreas,
+        icon 			= HCZedpancreas,
+    }
+
+item HCZedintestines
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Zombie Intestines,
+        icon 			= HCZedintestines,
+    }
+
+item HCMedicalskeletonbox
+    {
+        Weight    		= 1.5,
+        Type    		= Normal,
+        DisplayName         	= Box with Medical Skeleton,
+        icon 			= HCMedicalskeletonbox,
+    }  
+
+item HCMedicalskeletonparts
+    {
+        Weight    		= 0.7,
+        Type    		= Normal,
+        DisplayName         	= Medical Skeleton Parts,
+        icon 			= HCMedicalskeletonparts,
+    }  
+
+item HCMedicalskeletonholderparts
+    {
+        Weight    		= 0.7,
+        Type    		= Normal,
+        DisplayName         	= Medical Skeleton Holder Parts,
+        icon 			= HCMedicalskeletonholderparts,
+    }  
+
+item HCMedicalskeletonholder
+    {
+        Weight    		= 0.7,
+        Type    		= Normal,
+        DisplayName         	= Medical Skeleton Holder,
+	ResizeWorldIcon 	= 2.0,
+        icon 			= HCMedicalskeletonholder,
+    }  
+
+item HCMedicalskeletonhooked
+    {
+        Weight    		= 0.7,
+        Type    		= Normal,
+        DisplayName         	= Medical Skeleton,
+	ResizeWorldIcon 	= 2.0,
+        icon 			= HCMedicalskeletonhooked,
+    }  
+
+item HCSteampot
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Steam Pressure Pot,
+        icon 			= HCSteampot,
+    } 
+
+item HCBodybag
+    {
+        WeightReduction     	= 10,
+        Weight              	= 12,
+        Type                	= Container,
+        Capacity            	= 10,
+        DisplayName         	= Body Bag,
+        Icon                	= HCBodybag,
+	ResizeWorldIcon     	= 1.0,
+    }
+
+item HCBandageherb
+    {
+        Count			= 1,
+        Weight			= 0.1,
+        AlwaysWelcomeGift	= true,
+        Type			= Normal,
+        DisplayName		= Bandage with Herbal Medicine,
+        ReplaceOnUse    	= BandageDirty,
+        Alcoholic		= TRUE,
+        Icon			= HCBandageherb,
+        CanBandage		= true,
+        BandagePower    	= 6,
+        Tooltip 		= Tooltip_AlcoholBandage,
+    }
+
+item HCRagherb
+    {
+        Count			= 1,
+        Weight			= 0.1,
+        AlwaysWelcomeGift	= true,
+        Type			= Normal,
+        DisplayName		= Rag with Herbal Medicine,
+        ReplaceOnUse    	= RippedSheetsDirty,
+        Alcoholic		= TRUE,
+        Icon			= HCRagherb,
+        CanBandage		= true,
+        BandagePower    	= 4,
+        Tooltip 		= Tooltip_AlcoholBandage,
+    }
+
+item HCMenstrualpadherb
+    {
+        Count			= 1,
+        Weight			= 0.1,
+        AlwaysWelcomeGift	= true,
+        Type			= Normal,
+        DisplayName		= Menstral Pad with Herbal Medicine,
+        ReplaceOnUse    	= HCMenstrualpadDirty,
+        Alcoholic		= TRUE,
+        Icon			= HCMenstrualpadherb,
+        CanBandage		= true,
+        BandagePower    	= 4,
+        Tooltip 		= Tooltip_AlcoholBandage,
+    }
+
+item HCDiaperherb
+    {
+        Count			= 1,
+        Weight			= 0.1,
+        AlwaysWelcomeGift	= true,
+        Type			= Normal,
+        DisplayName		= Diaper with Herbal Medicine,
+        ReplaceOnUse    	= HCDiaperDirty,
+        Alcoholic		= TRUE,
+        Icon			= HCDiaperherb,
+        CanBandage		= true,
+        BandagePower    	= 4,
+        Tooltip 		= Tooltip_AlcoholBandage,
+    }
+
+item HCCottonballspp
+    {
+        Type	            	= Drainable,
+        UseDelta	        = 1,
+        UseWhileEquipped	= FALSE,
+        DisplayName		= Cotton Balls Doused in Potassium Permanganate,
+        Icon			= HCCottonBallspp,
+        Weight			= 0.1,
+        AlcoholPower       	= 3,
+    }
+
+item HCBandagepp
+    {
+        CanBandage		= true,
+        Weight			= 0.05,
+        Alcoholic		= TRUE,
+        Type			= Normal,
+        DisplayName		= Bandage Doused in Potassium Permanganate,
+        ReplaceOnUse    	= BandageDirty,
+        Icon			= HCBandagepp,
+        BandagePower    	= 4,
+    }
+
+item HCRagpp
+    {
+        CanBandage		= true,
+        Weight			= 0.05,
+        Alcoholic		= TRUE,
+        Type			= Normal,
+        DisplayName		= Rag Doused in Potassium Permanganate,
+        ReplaceOnUse    	= RippedSheetsDirty,
+        Icon			= HCRagpp,
+        BandagePower    	= 2,
+    }
+
+
+/************************WEAPONS************************/
+
+item HCScalpel
+	{
+		MaxRange			=	0.9,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		KnockBackOnNoDeath		=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		ConditionLowerChanceOneIn	=	2,
+		Weight				=	0.3,
+		SplatNumber			=	0,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.6,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		WeaponWeight			=	1.7,
+		DisplayName			=	Scalpel,
+		MinRange			=	0.61,
+		CloseKillMove 			= 	Jaw_Stab,
+		SwingTime			=	2,
+		MinDamage			=	0.3,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCScalpel,
+		RunAnim				=	Run_Weapon2,
+        	IdleAnim			=	Idle_Weapon2,
+        	BreakSound  			=   	PZ_MetalSnap,
+        	TreeDamage  			=   	1,
+        	EnduranceMod 			= 	0.5,
+	}
+
+item HCCrutch
+    {
+        	MaxRange                 	=    1.8,
+       	 	WeaponSprite               	=    Shovel,
+        	MinAngle                    	=    0.2,
+        	Type                        	=    Weapon,
+        	MinimumSwingTime            	=    1.5,
+        	KnockBackOnNoDeath            	=    TRUE,
+        	SwingAmountBeforeImpact        	=    0.02,
+        	Categories                    	=    Blunt,
+        	ConditionLowerChanceOneIn       =    10,
+        	Weight                		=    1,
+        	SplatNumber            		=    1,
+        	PushBackMod            		=    0.25,
+        	MaxDamage            		=    0.5,
+        	SubCategory            		=    Swinging,
+        	ConditionMax            	=    15,
+       	 	MaxHitCount            		=    2,
+        	DoorDamage            		=    1,
+        	IdleAnim                	=    Idle_Weapon2,
+        	SwingAnim                	=    Bat,
+        	CriticalChance            	=    5,
+        	WeaponWeight            	=    0.5,
+        	DisplayName            		=    Crutch,
+        	MinRange                	=    0.61,
+        	SwingTime                	=    2,
+        	HitAngleMod            		=    -30,
+        	MinDamage                	=    0.8,
+        	KnockdownMod            	=    0.5,
+        	SplatBloodOnNoDeath        	=    FALSE,
+        	Icon                    	=    HCCrutch,
+        	RunAnim                		=    Run_Weapon2,
+      		TwoHandWeapon             	=    TRUE,
+            	BreakSound             		=    PZ_WoodSnap,
+        	TreeDamage             		=    1,
+    }
+
+item HCCrutchaluminium
+    {
+        	MaxRange                 	=    1.8,
+       	 	WeaponSprite               	=    Shovel,
+        	MinAngle                    	=    0.2,
+        	Type                        	=    Weapon,
+        	MinimumSwingTime            	=    1.5,
+        	KnockBackOnNoDeath            	=    TRUE,
+        	SwingAmountBeforeImpact        	=    0.02,
+        	Categories                    	=    Blunt,
+        	ConditionLowerChanceOneIn       =    30,
+        	Weight                		=    0.8,
+        	SplatNumber            		=    1,
+        	PushBackMod            		=    0.25,
+        	MaxDamage            		=    0.5,
+        	SubCategory            		=    Swinging,
+        	ConditionMax            	=    15,
+       	 	MaxHitCount            		=    2,
+        	DoorDamage            		=    1,
+        	IdleAnim                	=    Idle_Weapon2,
+        	SwingAnim                	=    Bat,
+        	CriticalChance            	=    5,
+        	WeaponWeight            	=    0.5,
+        	DisplayName            		=    Aluminium Crutch,
+        	MinRange                	=    0.61,
+        	SwingTime                	=    2,
+        	HitAngleMod            		=    -30,
+        	MinDamage                	=    0.8,
+        	KnockdownMod            	=    0.5,
+        	SplatBloodOnNoDeath        	=    FALSE,
+        	Icon                    	=    HCCrutchaluminium,
+        	RunAnim                		=    Run_Weapon2,
+      		TwoHandWeapon             	=    TRUE,
+            	BreakSound             		=    PZ_WoodSnap,
+        	TreeDamage             		=    1,
+    }
+
+item HCCrutchmakeshift
+    {
+        	MaxRange                 	=    1.8,
+       	 	WeaponSprite               	=    Shovel,
+        	MinAngle                    	=    0.2,
+        	Type                        	=    Weapon,
+        	MinimumSwingTime            	=    1.5,
+        	KnockBackOnNoDeath            	=    TRUE,
+        	SwingAmountBeforeImpact        	=    0.02,
+        	Categories                    	=    Blunt,
+        	ConditionLowerChanceOneIn       =    5,
+        	Weight                		=    1,
+        	SplatNumber            		=    1,
+        	PushBackMod            		=    0.25,
+        	MaxDamage            		=    0.5,
+        	SubCategory            		=    Swinging,
+        	ConditionMax            	=    15,
+       	 	MaxHitCount            		=    2,
+        	DoorDamage            		=    1,
+        	IdleAnim                	=    Idle_Weapon2,
+        	SwingAnim                	=    Bat,
+        	CriticalChance            	=    5,
+        	WeaponWeight            	=    0.5,
+        	DisplayName            		=    Makeshift Crutch,
+        	MinRange                	=    0.61,
+        	SwingTime                	=    2,
+        	HitAngleMod            		=    -30,
+        	MinDamage                	=    0.8,
+        	KnockdownMod            	=    0.5,
+        	SplatBloodOnNoDeath        	=    FALSE,
+        	Icon                    	=    HCCrutchmakeshift,
+        	RunAnim                		=    Run_Weapon2,
+      		TwoHandWeapon             	=    TRUE,
+            	BreakSound             		=    PZ_WoodSnap,
+        	TreeDamage             		=    1,
+    }
+
+/************************RECIPES************************/
+
+recipe Make Medical Lab
+    {
+       	SkillRequired:Doctor=1,
+	Notebook=3,
+	HCHeadmirror,
+	HCStethoscope,
+	HCLatexgloves,
+	HCSphygmomanometer,
+        HCThermometer,
+	MortarPestle,
+	HCSyringeempty,
+	HCScalpel,
+	HCGauze=5,
+	Bandage=5,
+	HCPetridish=4,
+	HCMicroscopeslide=3,
+	HCAgar=4,
+	HCGlassbottleh2o2=4,
+	HCPillbox=3,
+	HCMicroscope,
+	HCMedicalbox,
+	HCWorkbench,
+        Result:HCMedicallab,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:400,
+       	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Wear Hearing Aid
+    {
+    	HCHearingaid,
+    	Result:HCHearingaid,
+    	Time:15,
+    	OnCreate:WearHAidRecipe,
+       	Category:Health,
+    }	
+    
+
+recipe Take Blood from Yourself
+    {
+       	SkillRequired:Doctor=2,
+	HCSyringeempty,
+    	Result:HCSyringeblood,
+       	NeedToBeLearn:true,
+    	Time:15.0,
+       	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Take Blood from Rabbit
+    {
+       	SkillRequired:Doctor=2,
+	HCSyringeempty,
+    	keep HCRabbitmale/HCRabbitfemale,
+    	Result:HCSyringerabbit,
+       	NeedToBeLearn:true,
+    	Time:15.0,
+       	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Take Blood from Zombie
+    {
+       	SkillRequired:Doctor=2,
+	HCSyringeempty,
+    	keep CorpseMale/CorpseFemale,
+    	Result:HCSyringezombie,
+       	NeedToBeLearn:true,
+    	Time:15.0,
+       	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Inject Rabbit with Human Blood
+    {
+       	SkillRequired:Doctor=2,
+	HCSyringeblood,
+    	keep HCRabbitmale/HCRabbitfemale,
+    	Result:HCSyringeempty,
+       	NeedToBeLearn:true,
+    	Time:15.0,
+       	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Inject Rabbit with Rabbit Blood
+    {
+       	SkillRequired:Doctor=2,
+	HCSyringerabbit,
+    	keep HCRabbitmale/HCRabbitfemale,
+    	Result:HCSyringeempty,
+       	NeedToBeLearn:true,
+    	Time:15.0,
+       	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Inject Rabbit with Zombie Blood
+    {
+       	SkillRequired:Doctor=2,
+	HCSyringezombie,
+    	HCRabbitmale/HCRabbitfemale,
+    	Result:HCSyringeempty,
+       	NeedToBeLearn:true,
+    	Time:15.0,
+       	Category:Health,
+	OnCreate:HCInjectrabbit,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Inject Yourself with Human Blood
+    {
+       	SkillRequired:Doctor=2,
+	HCSyringeblood,
+    	Result:HCSyringeempty,
+       	NeedToBeLearn:true,
+    	Time:15.0,
+       	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Inject Yourself with Rabbit Blood
+    {
+       	SkillRequired:Doctor=2,
+	HCSyringerabbit,
+    	Result:HCSyringeempty,
+       	NeedToBeLearn:true,
+    	Time:15.0,
+       	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Inject Yourself with Zombie Blood
+    {
+       	SkillRequired:Doctor=2,
+	HCSyringezombie,
+    	Result:HCSyringeempty,
+       	NeedToBeLearn:true,
+    	Time:15.0,
+       	Category:Health,
+	OnCreate:HCInjectyourself,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Make Bottle of Homemade Disinfectant
+       {
+       	SkillRequired:Doctor=3,
+       	destroy WaterBottleEmpty,
+       	HCLemonjuicebowl/HCLemonjuicebottle,
+       	Salt=1,
+       	Water=1,
+       	Vinegar=1,
+       	Result:HCHomedisinfectant,
+       	Time:120,
+       	Category:Health,
+       	OnCreate:recipe_hcbowl,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+       }
+
+recipe Make Smelling Salts
+    {
+	SkillRequired:Doctor=3,
+    	keep HCMedicallab,
+    	HCDeerantlers,
+	HCGlasstesttubecork,
+	keep HCFunnel,
+    	CanBeDoneFromFloor:true,
+    	Result:HCSmellingsalts,
+    	NeedToBeLearn:true,
+    	Time:50,
+       	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Make Smelling Salts
+    {
+	SkillRequired:Doctor=3,
+    	keep HCMedicallab,
+    	HCDeerantlers,
+	HCGlasstesttuberubberbung,
+	keep HCFunnel,
+    	CanBeDoneFromFloor:true,
+    	Result:HCSmellingsalts2,
+    	NeedToBeLearn:true,
+    	Time:50,
+       	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Prepare Valerian
+    {
+	SkillRequired:Doctor=4,
+	HCValerian,
+        keep KitchenKnife,
+	BakingTray,
+        NeedToBeLearn:true,
+	Result:HCValeriantray,
+	Time:100.0,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Dry Valerian
+    {
+       	SkillRequired:Doctor=4,
+	HCValeriantray,
+        NeedToBeLearn:true,
+	Result:HCValeriandry,
+	Time:1000.0,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Make Anti-Depression Pills
+    {
+       	SkillRequired:Doctor=4,
+	HCValeriandry,
+        HCPillbox,
+        keep HCMedicallab,
+    	SheetPaper/SheetPaper2,
+        NeedToBeLearn:true,
+	Result:HCAntideppills,
+	Time:600.0,
+	Category:Health,
+        OnCreate:hcfillammoniarecipe,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Open Anti-Depression Pill Box
+    {
+	HCAntideppills,
+	Result:HCAntideppill=20,
+        OnCreate:hcrecipegetpillbox,
+	Time:10.0,
+	Category:Health,
+    }
+
+recipe Close Anti-Depression Pill Box
+    {
+	HCAntideppill=20,
+        HCPillbox,
+	Result:HCAntideppills,
+	Time:10.0,
+	Category:Health,
+    }
+
+recipe Prepare Hawthorn Fruit
+    {
+	SkillRequired:Doctor=4,
+	HCHawthornfruit,
+        keep KitchenKnife,
+	BakingTray,
+        NeedToBeLearn:true,
+	Result:HCHawthornfruittray,
+	Time:100.0,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Dry Hawthorn Fruit
+    {
+       	SkillRequired:Doctor=4,
+	HCHawthornfruittray,
+        NeedToBeLearn:true,
+	Result:HCHawthornfruitdry,
+	Time:1000.0,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Make Beta Blocker Pills
+    {
+       	SkillRequired:Doctor=4,
+	HCHawthornfruitdry,
+        HCPillbox,
+        keep HCMortarandpestle/HCGrindstone/HCLab,
+    	SheetPaper/SheetPaper2,
+        NeedToBeLearn:true,
+	Result:HCBetablockerpills,
+	Time:600.0,
+	Category:Health,
+        OnCreate:hcfillammoniarecipe,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Open Beta Blocker Pill Box
+    {
+	HCBetablockerpills,
+	Result:HCBetablockerpill=20,
+        OnCreate:hcrecipegetpillbox,
+	Time:10.0,
+	Category:Health,
+    }
+
+recipe Close Beta Blocker Pill Box
+    {
+	HCBetablockerpill=20,
+        HCPillbox,
+	Result:HCBetablockerpills,
+	Time:10.0,
+	Category:Health,
+    }
+
+recipe Open Ephedrine Box
+    {
+	HCEphedrinebox,
+	Result:HCEphedrine=10,
+	Time:10.0,
+	Category:Health,
+    }
+
+recipe Open Caffeine Box
+    {
+	HCCaffeinebox,
+	Result:HCCaffeinepills=4,
+	Time:10.0,
+	Category:Health,
+    }
+
+recipe Open Box of Adrenalin
+    {
+	HCAdrenalinbox,
+	Result:HCAdrenalin=4,
+	Time:10.0,
+	Category:Health,
+    }
+
+recipe Make Willow Bark Tea
+    {
+	SkillRequired:Doctor=3,
+	HCWillowbark,
+	HCJar,
+	Water,
+        NeedToBeLearn:true,
+	Result:HCWillowbarktea,
+	Time:70.0,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Extract Acetylsalicylic Acid
+    {
+	SkillRequired:Doctor=3,
+	HCWillowbarktea,
+	keep HCMedicallab,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:Pills,
+	Time:2700,
+	Category:Health,
+        OnCreate:hcextractassrecipe,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+
+recipe Fill Syringe with Adrenalin
+    {
+    	SkillRequired:Doctor=1,
+    	HCSyringeempty,
+    	HCAdrenalinbottle,
+    	Result:HCSyringeadrenalin,
+    	Time:15,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Fill Syringe with Morphine
+    {
+    	SkillRequired:Doctor=1,
+    	HCSyringeempty,
+    	HCTesttubemorphinrubber/HCTesttubemorphincork,
+    	Result:HCSyringeuin,
+    	Time:15,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Soak Ripped Sheet with Selfmade Ether
+    {
+    	HCBeakerselfmadeetherhalf,
+        RippedSheets,
+    	keep HCLab,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+    	Result:HCEthersheet,
+    	Time:50,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Soak in Potassium Permanganate
+    {
+    	HCBeakerpotassiumpermanganatehalf,
+        Bandage,
+    	keep HCLab,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+    	Result:HCBandagepp,
+    	Time:50,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Soak in Potassium Permanganate
+    {
+    	HCBeakerpotassiumpermanganatehalf,
+        RippedSheets,
+    	keep HCLab,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+    	Result:HCRagpp,
+    	Time:50,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Soak in Potassium Permanganate
+    {
+    	HCBeakerpotassiumpermanganatehalf,
+        CottonBalls,
+    	keep HCLab,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+    	Result:HCCottonballspp,
+    	Time:50,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Make Crutch
+    {
+	SkillRequired:Woodwork=1,
+	Sheet,
+	Twine,
+	Nails=2,
+    	WoodenStick=3,
+    	keep Hammer,
+	keep Saw,
+        NeedToBeLearn:true,
+	Result:HCCrutchmakeshift,
+	Time:50.0,
+	Category:Health,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Gigli Saw
+    {
+ 	HCGiglisawhandle=2,
+ 	HCWiresteel=2,
+ 	Result:HCGiglisaw,
+ 	Time:100,
+ 	Category:Health,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Disassemble Tampons
+    {
+	HCTampon,
+	Result:HCGauze,
+	Time:15,
+	Category:Health,
+    }
+
+recipe Make Cotton Balls
+    {
+	HCCotton=3,
+	Result:CottonBalls,
+	Time:30,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Improvised Bandaid
+    {
+	HCGauze/CottonBalls,
+	Scotchtape/DuctTape/HCPackingtape/HCMaskingtape/HCElectrictape,
+	Result:Bandaid,
+	Time:30,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Put Corpse on Dissection Table
+    {
+	HCDissectiontable,
+	CorpseMale/CorpseFemale,
+	keep HCLatexgloves/HCRubberglove,
+	Result:HCDissectiontablebody,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Time:100,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Dissect Corpse
+    {
+	HCDissectiontablebody,
+ 	keep HCBonesaw/HCGiglisaw,
+ 	keep HCScalpel/HCScalpelimprovised,
+	keep HCLatexgloves/HCRubberglove,
+	Result:HCDissectiontabledissected,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Time:1000,
+	Category:Health,
+       	OnCreate:recipe_hcdissectzed,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Remove Corpse from Dissection Table
+    {
+	HCDissectiontabledissected,
+ 	keep HCScalpel/HCScalpelimprovised,
+	keep HCLatexgloves/HCRubberglove,
+	Result:HCDissectiontablebloody,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Time:150,
+	Category:Health,
+       	OnCreate:recipe_hcremovezed,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Clean Dissection Table
+    {
+	HCDissectiontablebloody,
+	Bleach,
+	keep Sponge/HCSponge,
+	keep HCLatexgloves/HCRubberglove,
+	Result:HCDissectiontable,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Time:1000,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Open Medical Skeleton Box
+    {
+	HCMedicalskeletonbox,
+        OnCreate:recipe_hcgetmedicalskeleton,
+        CanBeDoneFromFloor:true,
+    	Result:HCCardboardbox,
+    	Time:15.0,
+	Category:Health,
+    }
+
+recipe Assemble Medical Skeleton Holder
+    {
+       	HCMedicalskeletonholderparts,
+    	Result:HCMedicalskeletonholder,
+        CanBeDoneFromFloor:true,
+    	Time:150.0,
+	Category:Health,
+    }
+
+recipe Assemble Medical Skeleton
+    {
+	SkillRequired:Doctor=1,
+       	HCMedicalskeletonholder,
+        HCMedicalskeletonparts,
+        CanBeDoneFromFloor:true,
+    	Result:HCMedicalskeletonhooked,
+    	Time:150.0,
+	Category:Health,
+    }
+
+recipe Study Anatomy
+    {
+	SkillRequired:Doctor=2,
+       	keep HCMedicalskeletonhooked,
+        HCBookanatomy,
+	keep HCBookmedical, 
+        CanBeDoneFromFloor:true,
+    	Result:HCBookanatomy,
+    	Time:5000.0,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Craft Steam Pressure Pot
+	{
+		destroy Pot,
+                HCBolt=4,
+                HCNut=4,
+                SheetMetal,
+                HCManometer,
+                HCWeldingset,
+                keep HCWorkgloves,   
+                keep WeldingMask,
+                NeedToBeLearn:true,     
+		Result:HCSteampot,
+		Time:500.0,
+		Category:Engineer,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe  Add Herbal Medicine
+	{
+		SkillRequired:Doctor=1,
+		AlcoholBandage,
+                HCCamomiledry/HCLavenderdry/HCChilipepperdry/HCJuniperberrydry,
+		Water,
+		keep HCHerbtable/HCHerbtable2,
+		Result:HCBandageherb,
+                NeedToBeLearn:true,
+    		CanBeDoneFromFloor:true,  
+		Time:100.0,
+		Category:Health,
+    		OnGiveXP:HCDoctor_OnGiveXP,
+	}
+
+recipe  Add Herbal Medicine
+	{
+		SkillRequired:Doctor=1,
+		AlcoholRippedSheets,
+                HCCamomiledry/HCLavenderdry/HCChilipepperdry/HCJuniperberrydry,
+		Water,
+		keep HCHerbtable/HCHerbtable2,
+		Result:HCRagherb,
+                NeedToBeLearn:true,
+    		CanBeDoneFromFloor:true,    
+		Time:100.0,
+		Category:Health,
+    		OnGiveXP:HCDoctor_OnGiveXP,
+	}
+
+recipe  Add Herbal Medicine
+	{
+		SkillRequired:Doctor=1,
+		HCMenstrualpadAlcohol,
+                HCCamomiledry/HCLavenderdry/HCChilipepperdry/HCJuniperberrydry,
+		Water,
+		keep HCHerbtable/HCHerbtable2,
+		Result:HCMenstrualpadherb,
+                NeedToBeLearn:true,
+    		CanBeDoneFromFloor:true,    
+		Time:100.0,
+		Category:Health,
+    		OnGiveXP:HCDoctor_OnGiveXP,
+	}
+
+recipe  Add Herbal Medicine
+	{
+		SkillRequired:Doctor=1,
+		HCDiaperAlcohol,
+                HCCamomiledry/HCLavenderdry/HCChilipepperdry/HCJuniperberrydry,
+		Water,
+		keep HCHerbtable/HCHerbtable2,
+		Result:HCDiaperherb,
+                NeedToBeLearn:true,
+    		CanBeDoneFromFloor:true,    
+		Time:100.0,
+		Category:Health,
+    		OnGiveXP:HCDoctor_OnGiveXP,
+	}
+
+}

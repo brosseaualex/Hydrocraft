@@ -1,0 +1,361 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCGardenbench
+    {
+	WeightReduction         = 0,
+	Weight             	= 10,
+	Type                	= Container,
+	Capacity             	= 50,
+        DisplayName         	= Gardening Workbench,
+        icon 			= HCGardenbench,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCGardenhose
+    {
+        Weight    			= 6,
+        Type    			= Drainable,
+        DisplayName         		= Garden Hose,
+        icon 				= HCGardenhose,
+	UseDelta 			= 0.1,
+	UseWhileEquipped 		= false,
+	ResizeWorldIcon 		= 2.0,
+    }
+
+item HCGardenapron
+    {
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Garden Apron,
+        icon 				= HCGardenapron,
+    }
+
+item HCGardengnome
+    {
+        Weight    			= 1,
+        Type    			= Normal,
+        DisplayName         		= Garden Gnome,
+        icon 				= HCGardengnome,
+    }
+
+item HCWindchimes
+    {
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Wind Chimes,
+        icon 				= HCWindchimes,
+    }
+
+item HCHandcultivator
+    {
+        Weight    			= 0.5,
+        Type    			= Normal,
+        DisplayName         		= Hand Cultivator,
+        icon 				= HCHandcultivator,
+    }
+
+item HCHedgetrimmerblade
+    {
+        Weight    			= 1.5,
+        Type    			= Normal,
+        DisplayName         		= Hedge Trimmer Blade,
+        icon 				= HCHedgetrimmerblade,
+    }
+
+item HCHedgecutterblade
+    {
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Hedge Cutter Blade,
+        icon 				= HCHedgecutterblade,
+    }
+
+item HCPostholedigger
+    {
+        Weight    			= 1,
+        Type    			= Normal,
+        DisplayName         		= Post Hole Digger,
+        icon 				= HCPostholedigger,
+    }
+
+item HCLeafrake
+    {
+        Weight    			= 1,
+        Type    			= Normal,
+        DisplayName         		= Leaf Rake,
+        icon 				= HCLeafrake,
+    }
+
+item HCLooper
+    {
+        Weight    			= 1,
+        Type    			= Normal,
+        DisplayName         		= Looper,
+        icon 				= HCLooper,
+    }
+
+item HCWeedwacker
+    {
+        Weight    			= 1,
+        Type    			= Normal,
+        DisplayName         		= Weed Wacker,
+        icon 				= HCWeedwacker,
+    }
+
+item HCLawnmower
+    {
+        Weight    			= 5,
+        Type    			= Normal,
+        DisplayName         		= Lawnmower,
+        icon 				= HCLawnmower,
+	ResizeWorldIcon 		= 2.0,
+    }
+
+item TrellisKit
+	{
+	Type				= Normal,
+	DisplayName			= Trellis Kit,
+	Icon				= HCTrelliskit,
+	Weight				= 0.5,
+	}
+
+/************************WEAPONS************************/
+
+item HCRake
+    {
+        MaxRange                 		=    1.5,
+        WeaponSprite               		=    Shovel,
+        MinAngle                    		=    0.2,
+        Type                        		=    Weapon,
+        MinimumSwingTime            		=    1.5,
+        KnockBackOnNoDeath           		=    TRUE,
+        SwingAmountBeforeImpact       		=    0.02,
+        Categories                    		=    Blade,
+        ConditionLowerChanceOneIn        	=    10,
+        Weight                			=    1,
+        SplatNumber            			=    1,
+        PushBackMod            			=    0.25,
+        MaxDamage            			=    0.5,
+        SubCategory            			=    Swinging,
+        ConditionMax            		=    15,
+        MaxHitCount            			=    2,
+        DoorDamage            			=    2,
+        IdleAnim                		=    Idle_Weapon2,
+        SwingAnim                		=    Bat,
+        CriticalChance            		=    5,
+        WeaponWeight            		=    0.5,
+        DisplayName            			=    Rake,
+        MinRange                		=    0.61,
+        SwingTime                		=    2,
+        HitAngleMod            			=    -30,
+        MinDamage                		=    0.8,
+        KnockdownMod            		=    0.5,
+        SplatBloodOnNoDeath        		=    FALSE,
+        Icon                    		=    HCRake,
+        RunAnim                			=    Run_Weapon2,
+      	TwoHandWeapon             		=    TRUE,
+        BreakSound             			=    PZ_WoodSnap,
+        TreeDamage             			=    1,
+    }
+
+	item HCHedgetrimmer
+	{
+		MaxRange			=	1.5,
+		WeaponSprite			=	Fireaxe,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3.0,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.002,
+		Categories			=	Axe,
+		ConditionLowerChanceOneIn	=	30,
+		Weight				=	2,
+		SplatNumber			=	1,
+		PushBackMod			=	0.3,
+		MinDamage			=	1,
+		MaxDamage			=	2,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	2,
+		DoorDamage			=	35,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	20,
+		WeaponWeight			=	2,
+		DisplayName			=	Hedge Trimmer,
+		MinRange			=	0.61,
+		SwingTime			=	3.0,
+		HitAngleMod			=	-30,
+		SplatSize			=	5,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCHedgetrimmer,
+		RunAnim				=	Run_Weapon2,
+        	TwoHandWeapon 			= 	TRUE,
+        	BreakSound  			=   	PZ_MetalSnap,
+        	TreeDamage  			=   	10,
+	}
+
+    item HCHedgecutter
+	{
+		MaxRange			=	0.9,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		KnockBackOnNoDeath		=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		ConditionLowerChanceOneIn	=	20,
+		Weight				=	1.6,
+		SplatNumber			=	0,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.6,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		WeaponWeight			=	1.6,
+		DisplayName			=	Hedge Cutter,
+		MinRange			=	0.61,
+		CloseKillMove 			= 	Jaw_Stab,
+		SwingTime			=	2,
+		MinDamage			=	0.3,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCHedgecutter,
+		RunAnim				=	Run_Weapon2,
+        	IdleAnim			=	Idle_Weapon2,
+        	TreeDamage  			=   	10,
+        	EnduranceMod 			= 	0.5,
+	}
+
+    item HCPruningsheers
+	{
+		MaxRange					=	0.9,
+		WeaponSprite					=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime				=	2,
+		KnockBackOnNoDeath				=	FALSE,
+		SwingAmountBeforeImpact				=	0.02,
+		Categories					=	Blade,
+		ConditionLowerChanceOneIn			=	20,
+		Weight						=	0.4,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.7,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax					=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon				=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight					=	1.7,
+		DisplayName					=	Pruning Shears,
+		MinRange					=	0.61,
+		CloseKillMove 					= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.4,
+		KnockdownMod					=	0,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCPruningsheers,
+		RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	TreeDamage  					=   	10,
+        	EnduranceMod 					= 	0.5,
+	}
+
+/************************RECIPES************************/	
+
+recipe Make Gardening Workbench
+    {
+	SkillRequired:Farming=1,
+	Notebook=3,
+	HCClayflowerpot=3,
+	HCMysteryseedspacket=3,
+	HCDirt,
+	HCWorkgloves/HCGardengloves,
+	HCGardenapron,
+	HandShovel,
+	HCPruningsheers,
+	HCRake,
+	Shovel,
+	WateredCan,
+	GardeningSprayEmpty,
+	HCGardenhose=10,
+	Fertilizer=10,
+	HCWorkbench,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCGardenbench,
+	Time:1000,
+        Category:Farming,
+       	OnGiveXP:HCFarming_OnGiveXP,
+    }
+
+recipe Disassemble Hedge Trimmer
+	{
+    		keep Screwdriver,
+    		HCHedgetrimmer,
+    		Result:HCHedgetrimmerblade,
+    		Time:15,
+    		Category:Engineer,
+       		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Disassemble Hedge Cutter
+	{
+    		keep Screwdriver,
+    		HCHedgecutter,
+    		Result:HCHedgecutterblade=2,
+    		Time:15,
+    		Category:Engineer,
+       		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Flatten Trowel
+	{
+    		keep Hammer/HCSmithyhammersteel/Sledgehammer/HCSmithyhammertitanium,
+   		HandShovel,
+    		Result:HCMasontrowel,
+    		Time:50,
+    		Category:Engineer,
+	}
+
+recipe Bend Mason Trowel
+	{
+    		keep HCPliers,
+    		HCMasontrowel,
+    		Result:HandShovel,
+    		Time:50,
+    		Category:Engineer,
+	}
+
+recipe Build Trellis Kit
+	{
+		SkillRequired:Farming=2,
+		WoodenStick=4,
+		Twine,
+		keep HCGardenbench,
+		Result:TrellisKit,
+    		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+		Time:50.0,
+		Category:Farming,
+       		OnGiveXP:HCWoodwork_OnGiveXP,
+	}
+
+}

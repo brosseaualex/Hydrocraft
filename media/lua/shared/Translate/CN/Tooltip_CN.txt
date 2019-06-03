@@ -1,0 +1,11 @@
+// * Hydrocraft MOD Simplified Chinese Translation
+// * Translation By：Sky_Orc_Mm
+// * Special Thanks：半夏微凉.柒染, JoJunIori
+// * Date：August 19, 2016 21:56
+
+Tooltip_CN = {
+	Tooltip_HCArmor = "按下"P"键查看当前装备的护甲.",
+	Tooltip_HCBluebarrelcorpse = "会变成有毒的废料.",
+	Tooltip_HCFeedme = "喂食以保证它可以活下去.",
+	Tooltip_HCSleep = "需要放置在地面才可使用.",
+}

@@ -1,0 +1,495 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCFishingkitline
+	{
+	Weight 				= 	1.0,
+	Type 				= 	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.125,
+	DisplayName 			= 	Fishing Kit,
+	ReplaceOnDeplete		=	HCFishingkitbroken,
+	Icon 				= 	HCFishingkit,
+	}
+
+item HCFishingkitbroken
+    {
+        Weight    			= 	1.0,
+        Type    			= 	Normal,
+        DisplayName         		= 	Fishing Kit with Broken Line,
+        icon 				= 	HCFishingkit,
+    }
+
+item HCLurewoodfish
+    {
+        Type		=	Normal,
+        DisplayName	=	Wooden Fish Lure,
+        Icon		=	HCLurewoodfish,
+        Weight		=	0.1,
+        FishingLure	=	true,
+    }
+
+item HCLurefeatherfly
+    {
+        Type		=	Normal,
+        DisplayName	=	Feather Lure,
+        Icon		=	HCLurefeatherfly,
+        Weight		=	0.1,
+        FishingLure	=	true,
+    }
+
+item HCLurepinecone
+    {
+        Type		=	Normal,
+        DisplayName	=	Pinecone Lure,
+        Icon		=	HCLurepinecone,
+        Weight		=	0.1,
+        FishingLure	=	true,
+    }
+
+item HCLurebirchbark
+    {
+        Type		=	Normal,
+        DisplayName	=	Birch Bark Lure,
+        Icon		=	HCLurebirchbark,
+        Weight		=	0.1,
+        FishingLure	=	true,
+    }
+
+item HCLurestick
+    {
+        Type		=	Normal,
+        DisplayName	=	Stick Lure,
+        Icon		=	HCLurestick,
+        Weight		=	0.1,
+        FishingLure	=	true,
+    }
+
+item HCLuregarland
+    {
+        Type		=	Normal,
+        DisplayName	=	Garland Lure,
+        Icon		=	HCLuregarland,
+        Weight		=	0.1,
+        FishingLure	=	true,
+    }
+
+item HCFishhookbone
+    {
+        Type		=	Normal,
+        DisplayName	=	Bone Fishhook,
+        Icon		=	HCFishhookbone,
+        Weight		=	0.01,
+    }
+
+item HCFishhookcopper
+    {
+        Type		=	Normal,
+        DisplayName	=	Copper Fishhook,
+        Icon		=	HCFishhookcopper,
+        Weight		=	0.01,
+    }
+
+item HCFishhooktin
+    {
+        Type		=	Normal,
+        DisplayName	=	Tin Fishhook,
+        Icon		=	HCFishhooktitanium,
+        Weight		=	0.01,
+    }
+
+
+item HCFishhookbronze
+    {
+        Type		=	Normal,
+        DisplayName	=	Bronze Fishhook,
+        Icon		=	HCFishhookbronze,
+        Weight		=	0.01,
+    }
+
+
+item HCFishhookiron
+    {
+        Type		=	Normal,
+        DisplayName	=	Iron Fishhook,
+        Icon		=	HCFishhookiron,
+        Weight		=	0.01,
+    }
+
+item HCFishhooksteel
+    {
+        Type		=	Normal,
+        DisplayName	=	Steel Fishhook,
+        Icon		=	HCFishhooksteel,
+        Weight		=	0.01,
+    }
+
+item HCFishhookaluminum
+    {
+        Type		=	Normal,
+        DisplayName	=	Aluminum Fishhook,
+        Icon		=	HCFishhookaluminum,
+        Weight		=	0.01,
+    }
+
+item HCFishhooktitanium
+    {
+        Type		=	Normal,
+        DisplayName	=	Titanium Fishhook,
+        Icon		=	HCFishhooktitanium,
+        Weight		=	0.01,
+    }
+
+item HCEggbass
+    {
+        Type		=	Normal,
+        DisplayName	=	Bass Roe,
+        Icon		=	HCEggbass,
+        Weight		=	0.01,
+    }
+
+item HCEggcatfish
+    {
+        Type		=	Normal,
+        DisplayName	=	Catfish Roe,
+        Icon		=	HCEggcatfish,
+        Weight		=	0.01,
+    }
+
+
+item HCEggcrappie
+    {
+        Type		=	Normal,
+        DisplayName	=	Crappie Roe,
+        Icon		=	HCEggcrappie,
+        Weight		=	0.01,
+    }
+
+
+item HCEggpanfish
+    {
+        Type		=	Normal,
+        DisplayName	=	Pan Fish Roe,
+        Icon		=	HCEggpanfish,
+        Weight		=	0.01,
+    }
+
+item HCEggperch
+    {
+        Type		=	Normal,
+        DisplayName	=	Pearch Roe,
+        Icon		=	HCEggperch,
+        Weight		=	0.01,
+    }
+
+item HCEggpike
+    {
+        Type		=	Normal,
+        DisplayName	=	Pike Roe,
+        Icon		=	HCEggpike,
+        Weight		=	0.01,
+    }
+
+item HCEggtrout
+    {
+        Type		=	Normal,
+        DisplayName	=	Trout Roe,
+        Icon		=	HCEggtrout,
+        Weight		=	0.01,
+    }
+
+item HCPondholedirt
+    {
+        Weight    		= 30,
+        Type    		= Normal,
+        DisplayName         	= Dirt Pond Hole,
+        icon 			= HCPondholedirt,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCPondholecement
+    {
+        Weight    		= 30,
+        Type    		= Normal,
+        DisplayName         	= Cement Pond Hole,
+        icon 			= HCPondholecement,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCPond
+    {
+        Weight    		= 30,
+        Type    		= Normal,
+        DisplayName         	= Pond Hole with Water,
+        icon 			= HCPond,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCPond2
+    {
+        Weight    		= 30,
+        Type    		= Normal,
+        DisplayName         	= Pond,
+        icon 			= HCPond2,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCPond3
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Pond,
+        icon 			= HCPond2,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+/************************RECIPES************************/
+
+recipe Make Lure
+    {
+	SkillRequired:Woodwork=3;Fishing=3,
+	Paperclip/HCFishhookbone/HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhooktitanium,
+	Paperclip/HCFishhookbone/HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhooktitanium,
+	Paperclip/HCFishhookbone/HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhooktitanium,
+	Paperclip/HCFishhookbone/HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhooktitanium,
+    	HCWoodblock,
+	HCHotgluegunfull/HCSuperglue,
+    	keep HuntingKnife/HCJackknife/HCKnifestone,
+	keep HCPliers,
+   	Result:HCLurewoodfish,
+    	Time:500,
+    	NeedToBeLearn:true,
+        Category:Fishing,
+       	OnGiveXP:HCFishing_OnGiveXP,
+    }
+
+recipe Make Lure
+    {
+	SkillRequired:Woodwork=3;Fishing=2,
+	Paperclip/HCFishhookbone/HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhooktitanium,
+    	HCWoodblock,
+    	HCBlackfeathers/HCWhitefeathers/HCBrownfeathers/HCStripedfeather/HCBluejayfeather,
+    	HCBlackfeathers/HCWhitefeathers/HCBrownfeathers/HCStripedfeather/HCBluejayfeather,
+	HCHotgluegunfull/HCSuperglue,
+    	keep HuntingKnife/HCJackknife/HCKnifestone,
+	keep HCPliers,
+   	Result:HCLurefeatherfly,
+    	Time:100,
+    	NeedToBeLearn:true,
+        Category:Fishing,
+       	OnGiveXP:HCFishing_OnGiveXP,
+    }
+recipe Make Lure
+    {
+	SkillRequired:Fishing=2,
+	Paperclip/HCFishhookbone/HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhooktitanium,
+	HCFircone/Pinecone,
+    	HCBlackfeathers/HCWhitefeathers/HCBrownfeathers/HCStripedfeather/HCBluejayfeather,
+    	HCBlackfeathers/HCWhitefeathers/HCBrownfeathers/HCStripedfeather/HCBluejayfeather,
+	HCHotgluegunfull/HCSuperglue,
+	keep HCPliers,
+   	Result:HCLurepinecone,
+    	Time:100,
+    	NeedToBeLearn:true,
+        Category:Fishing,
+       	OnGiveXP:HCFishing_OnGiveXP,
+    }
+
+recipe Make Lure
+    {
+	SkillRequired:Fishing=1,
+	Paperclip/HCFishhookbone/HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhooktitanium,
+	HCBirchbark=2,
+	HCHotgluegunfull/HCSuperglue,
+	keep HCPliers,
+   	Result:HCLurebirchbark,
+    	Time:100,
+    	NeedToBeLearn:true,
+        Category:Fishing,
+       	OnGiveXP:HCFishing_OnGiveXP,
+    }
+
+recipe Make Lure
+    {
+	SkillRequired:Fishing=3,
+	Paperclip/HCFishhookbone/HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhooktitanium,
+	Paperclip/HCFishhookbone/HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhooktitanium,
+	Paperclip/HCFishhookbone/HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhooktitanium,
+	Paperclip/HCFishhookbone/HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhooktitanium,
+    	WoodenStick/Twigs,
+	HCGrass/HCStraw/HCPlantfibers,
+	HCHotgluegunfull/HCSuperglue,
+	keep HCPliers,
+   	Result:HCLurestick,
+    	Time:100,
+    	NeedToBeLearn:true,
+        Category:Fishing,
+       	OnGiveXP:HCFishing_OnGiveXP,
+    }
+
+recipe Make Lure
+    {
+	SkillRequired:Fishing=1,
+	Paperclip=4,
+	HCGarland,
+	HCHotgluegunfull/HCSuperglue,
+	keep HCPliers,
+   	Result:HCLuregarland=4,
+    	Time:50,
+    	NeedToBeLearn:true,
+        Category:Fishing,
+       	OnGiveXP:HCFishing_OnGiveXP,
+    }
+
+recipe Dig Fish Pond
+    {
+	keep Shovel,
+    	CanBeDoneFromFloor:true,
+    	Result:HCPondholedirt,
+    	Time:1000,
+    	NeedToBeLearn:true,
+    	Category:Fishing,
+       	OnGiveXP:HCFishing_OnGiveXP,
+    }
+
+recipe Fill Pond Hole with Cement
+    {
+	HCPondholedirt,
+    	HCWoodenbucketconcrete=8,
+    	keep HCMasontrowel,
+    	CanBeDoneFromFloor:true,
+    	Result:HCPondholecement,
+    	Time:1000,
+    	NeedToBeLearn:true,
+    	Category:Fishing,
+       	OnGiveXP:HCFishing_OnGiveXP,
+    }
+
+recipe Fill Pond Hole with Water
+    {
+	HCPondholecement,
+    	Water=100,
+    	CanBeDoneFromFloor:true,
+    	Result:HCPond,
+    	Time:1000,
+    	NeedToBeLearn:true,
+    	Category:Fishing,
+       	OnGiveXP:HCFishing_OnGiveXP,
+    }
+
+recipe Decorate Pond
+    {
+	SkillRequired:Woodwork=7,
+	HCPond,
+	BaitFish=10,
+	FishingNet,
+    	Stone=20,
+	HCLumberstack,
+	Nails=10,
+    	keep Hammer,
+	keep Saw,
+    	CanBeDoneFromFloor:true,
+    	Result:HCPond2,
+    	Time:1000,
+    	NeedToBeLearn:true,
+    	Category:Fishing,
+       	OnGiveXP:HCFishing_OnGiveXP,
+    }
+
+recipe Anchor Pond
+    {
+	HCPond2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCPond3,
+    	Time:100,
+    	Category:Anchor,
+    }
+
+recipe Make Fishing Kit
+    {
+	HCFishingbox/HCFishingbasket,
+    	CraftedFishingRod/CraftedFishingRodTwineLine/FishingRod/FishingRodTwineLine,
+	FishingTackle/FishingTackle2/HCLurewoodfish/HCLurefeatherfly/HCLurepinecone/HCLurebirchbark/HCLurestick/HCLuregarland,
+    	Result:HCFishingkitline,
+    	Time:500,
+    	NeedToBeLearn:true,
+    	Category:Fishing,
+       	OnGiveXP:HCFishing_OnGiveXP,
+    }
+
+recipe Repair Fishing Kit
+    {
+	HCFishingkitbroken,
+        Twine=2,
+    	Result:HCFishingkitline,
+    	Time:500,
+    	NeedToBeLearn:true,
+    	Category:Fishing,
+       	OnGiveXP:HCFishing_OnGiveXP,
+    }
+
+recipe Repair Fishing Kit
+    {
+	HCFishingkitbroken,
+        FishingLine=2,
+    	Result:HCFishingkitline,
+    	Time:500,
+    	NeedToBeLearn:true,
+    	Category:Fishing,
+       	OnGiveXP:HCFishing_OnGiveXP,
+    }
+
+
+recipe Fish in Pond with Lure
+    {
+	HCFishingkitline,
+	FishingTackle/FishingTackle2/HCLurewoodfish/HCLurefeatherfly/HCLurepinecone/HCLurebirchbark/HCLurestick/HCLuregarland,
+	keep HCPond2/HCPond3,
+    	CanBeDoneFromFloor:true,
+    	Result:BaitFish,
+    	Time:500,
+    	NeedToBeLearn:true,
+    	Category:Fishing,
+    	OnCreate:HCPondFishing,
+    	RemoveResultItem:true,
+       	OnGiveXP:HCFishing_OnGiveXP,
+    }
+
+recipe Fish in Pond with Bait
+    {
+	HCFishingkitline,
+	Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCDragonfly/HCCaterpillar/HCCicada/HCPillbug/HCFirefly/HCMolecricket/HCHousefly/HCSilkwom/HCSilkmothmale/HCSilkmothfemale/HCLeech/HCLeechbloated/HCMaggot/HCTadpole/BaitFish/HCCrayfish/Cheese/HCCheddar/Processedcheese/HCFishfood/HCFishfood2,
+	keep HCPond2/HCPond3,
+    	CanBeDoneFromFloor:true,
+    	Result:BaitFish,
+    	Time:500,
+    	NeedToBeLearn:true,
+    	Category:Fishing,
+    	OnCreate:HCPondFishing,
+    	RemoveResultItem:true,
+       	OnGiveXP:HCFishing_OnGiveXP,
+    }
+
+recipe Spear Fish in Pond
+    {
+	WoodenLance,
+	keep HCPond2/HCPond3,
+    	CanBeDoneFromFloor:true,
+    	Result:BaitFish,
+    	Time:1000,
+    	NeedToBeLearn:true,
+    	Category:Fishing,
+    	OnCreate:HCPondFishing,
+    	RemoveResultItem:true,
+       	OnGiveXP:HCFishing_OnGiveXP,
+    }
+
+}

@@ -1,0 +1,1511 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCPully
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Steel Pulley,
+        icon 			= HCPully,
+    }
+
+item HCPullyiron
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Iron Pulley,
+        icon 			= HCPullyiron,
+    }
+
+item HCPullywood
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Wood Pulley,
+        icon 			= HCPullywood,
+    }
+
+item HCValve
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Valve,
+        icon 			= HCValve,
+    }
+
+item HCGearcopper
+    {
+        Weight	            		= 0.01,
+        Type    			= Normal,
+        DisplayName	        	= Copper Gear,
+        Icon	            		= HCGearcopper,
+    }
+
+item HCGeartin
+    {
+        Weight	            		= 0.01,
+        Type    			= Normal,
+        DisplayName	        	= Tin Gear,
+        Icon	            		= HCGeartin,
+    }
+
+item HCGearbronze
+    {
+        Weight	            		= 0.01,
+        Type    			= Normal,
+        DisplayName	        	= Bronze Gear,
+        Icon	            		= HCGearbronze,
+    }
+
+item HCGeariron
+    {
+        Weight	            		= 0.01,
+        Type    			= Normal,
+        DisplayName	        	= Iron Gear,
+        Icon	            		= HCGeariron,
+    }
+
+item HCGearinvar
+    {
+        Weight	            		= 0.01,
+        Type    			= Normal,
+        DisplayName	        	= Invar Gear,
+        Icon	            		= HCGearinvar,
+    }
+
+item HCGearlead
+    {
+        Weight	            		= 0.01,
+        Type    			= Normal,
+        DisplayName	        	= Lead Gear,
+        Icon	            		= HCGearlead,
+    }
+
+item HCGearsteel
+    {
+        Weight	            		= 0.01,
+        Type    			= Normal,
+        DisplayName	        	= Steel Gear,
+        Icon	            		= HCGearsteel,
+    }
+
+item HCGeartitanium
+    {
+        Weight	            		= 0.01,
+        Type    			= Normal,
+        DisplayName	        	= Titanium Gear,
+        Icon	            		= HCGeartitanium,
+    }
+
+item HCRollingmillsmall
+    {
+        Weight    			= 5,
+        Type    			= Normal,
+        DisplayName         		= Small Rolling Mill,
+        icon 				= HCRollingmillsmall,
+    }
+
+item HCWirecopper
+    {
+        Weight	            		= 0.2,
+        Type	            		= Drainable,
+        DisplayName	        	= Copper Wire,
+        Icon	            		= HCWirecopper,
+        UseWhileEquipped		= FALSE,
+        UseDelta	        	= 0.2,
+    }
+
+item HCWirelead
+    {
+        Weight	            		= 0.2,
+        Type	            		= Drainable,
+        DisplayName	        	= Lead Wire,
+        Icon	            		= HCWirelead,
+        UseWhileEquipped		= FALSE,
+        UseDelta	        	= 0.2,
+    }
+
+item HCWiresteel
+    {
+        Weight	            		= 0.2,
+        Type	            		= Drainable,
+        DisplayName	        	= Steel Wire,
+        Icon	            		= HCWiresteel,
+        UseWhileEquipped		= FALSE,
+        UseDelta	        	= 0.2,
+    }
+
+item HCWireconcertina
+    {
+        Weight	            		= 0.2,
+        Type	            		= Drainable,
+        DisplayName	        	= Razor Wire,
+        Icon	            		= HCWireconcertina,
+        UseWhileEquipped		= FALSE,
+        UseDelta	        	= 0.2,
+    }
+
+item HCWireconstantan 
+    {
+        Weight	            		= 0.2,
+        Type	            		= Drainable,
+        DisplayName	        	= Constantan Wire,
+        Icon	            		= HCWireconstantan,
+        UseWhileEquipped		= FALSE,
+        UseDelta	        	= 0.2,
+    }
+
+item HCWirezinc
+    {
+        Weight	            		= 0.2,
+        Type	            		= Drainable,
+        DisplayName	        	= Zinc Wire,
+        Icon	            		= HCWirezinc,
+        UseWhileEquipped		= FALSE,
+        UseDelta	        	= 0.2,
+    }
+
+item HCWirealuminum
+    {
+        Weight	            		= 0.2,
+        Type	            		= Drainable,
+        DisplayName	        	= Aluminum Wire,
+        Icon	            		= HCWirealuminum,
+        UseWhileEquipped		= FALSE,
+        UseDelta	        	= 0.2,
+    }
+
+item HCWirethermocouple
+    {
+        Weight	            		= 0.2,
+        Type	            		= Drainable,
+        DisplayName         		= Thermocouple Wire,
+        icon 				= HCWirethermocouple,
+        UseWhileEquipped		= FALSE,
+        UseDelta	        	= 0.2,
+    }
+
+item HCThermocouple
+    {
+        Weight    			= 1,
+        Type    			= Normal,
+        DisplayName         		= Thermocouple,
+        icon 				= HCThermocouple,
+    }
+
+item HCConstantanheatingcoil 
+    {
+        Weight	            		= 0.2,
+        Type    			= Normal,
+        DisplayName	        	= Constantan Heating Coil,
+        Icon	            		= HCConstantanheatingcoil,
+    }
+
+item HCNichromeheatingcoil
+    {
+        Weight	            		= 0.2,
+        Type    			= Normal,
+        DisplayName	        	= Nichrome Heating Coil,
+        Icon	            		= HCNichromeheatingcoil,
+    }
+
+item HCKanthalheatingcoil
+    {
+        Weight	            		= 0.2,
+        Type    			= Normal,
+        DisplayName	        	= Kanthal Heating Coil,
+        Icon	            		= HCKanthalheatingcoil,
+    }
+
+item HCCoil
+    {
+        Weight    			= 2,
+        Type    			= Normal,
+        DisplayName         		= Coil,
+        icon 				= HCThermocouple,
+    }
+
+item HCFurnaceiron
+    {
+        Weight    			= 10,
+        Type    			= Normal,
+        DisplayName         		= Iron Furnace,
+        ResizeWorldIcon 	        = 1.0,
+        icon 				= HCFurnaceiron,
+    }
+
+item HCSteamengine
+    {
+        Weight    			= 10,
+        Type    			= Normal,
+        DisplayName         		= Steam Engine,
+        ResizeWorldIcon 	        = 1.0,
+        icon 				= HCSteamengine,
+    }
+
+item HCSteamboiler
+    {
+        Weight    			= 10,
+        Type    			= Normal,
+        DisplayName         		= Steam Boiler,
+        ResizeWorldIcon 	        = 1.0,
+        icon 				= HCSteamboiler,
+    }
+
+item HCSteammachine
+    {
+        Weight    			= 20,
+        Type    			= Normal,
+        DisplayName         		= Steam Machine,
+        ResizeWorldIcon 	        = 1.0,
+        icon 				= HCSteammachine,
+    }
+
+item HCTriphammer
+    {
+        Weight    			= 20,
+        Type    			= Normal,
+        DisplayName         		= Trip Hammer,
+        ResizeWorldIcon 	        = 1.0,
+        icon 				= HCTriphammer,
+    }
+
+item HCSteamhammer
+    {
+        Weight    			= 20,
+        Type    			= Normal,
+        DisplayName         		= Steam Hammer,
+        ResizeWorldIcon 	        = 1.0,
+        icon 				= HCSteamhammer,
+    }
+
+item HCSteamhammer2
+    {
+        Weight    			= 10000,
+        Type    			= Normal,
+        DisplayName         		= Steam Hammer,
+        ResizeWorldIcon 	        = 1.0,
+        icon 				= HCSteamhammer,
+    }
+
+item HCFurnace
+    {
+        Weight    			= 	20,
+        Type    			= 	Normal,
+        DisplayName         		= 	Industrial Furnace,
+        ResizeWorldIcon 	        = 	2.0,
+        icon 				= 	HCFurnace,
+    }
+
+item HCFurnace2
+    {
+        Weight    			= 	10000,
+        Type    			= 	Normal,
+        DisplayName         		= 	Industrial Furnace,
+        ResizeWorldIcon 	        = 	2.0,
+        icon 				= 	HCFurnace,
+    }
+
+item HCFurnacearc
+    {
+        Weight    			= 	20,
+        Type    			= 	Normal,
+        DisplayName         		= 	Arc Furnace,
+        ResizeWorldIcon 	        = 	1.0,
+        icon 				= 	HCFurnacearc,
+    }
+
+item HCFurnacearc2
+    {
+        Weight    			= 	10000,
+        Type    			= 	Normal,
+        DisplayName         		= 	Arc Furnace,
+        ResizeWorldIcon 	        = 	1.0,
+        icon 				= 	HCFurnacearc,
+    }
+
+
+item HCMetalcasing
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName     	= Metal Casing,
+        icon 			= HCMetalcasing,
+        ResizeWorldIcon 	= 2.0,
+    } 
+
+item HCDuct
+    {
+        Weight    		= 2,
+        Type    		= Normal,
+        DisplayName     	= Metal Duct,
+        icon 			= HCDuct,
+        ResizeWorldIcon 	= 2.0,
+    } 
+
+item HCDuctfan
+    {
+        Weight    		= 2,
+        Type    		= Normal,
+        DisplayName     	= Duct Fan,
+        icon 			= HCDuctfan,
+        ResizeWorldIcon 	= 2.0,
+    } 
+
+item HCFanbladesteel
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName     	= Steel Fan Blade,
+        icon 			= HCFanbladesteel,
+    } 
+
+item HCGiglisawhandle
+    {
+        Weight               	= 0.3,
+        Type       		= Normal,
+        DisplayName          	= Gigli Saw Handle,
+        Icon               	= HCGiglisawhandle,
+    }
+
+item HCSelfmadeheater
+	{
+	Weight			=	0.7,
+	Type			=	Normal,
+	DisplayName		=	Homemade Heating Plate,
+	Icon			=	HCSelfmadeheater,
+	}
+
+item HCMetalwheeliron
+    {
+    	Weight        	= 2,
+    	Type        	= Normal,
+    	DisplayName    	= Iron Wheel,
+    	icon        	= HCMetalwheeliron,
+    }
+
+item HCMetalwheel
+    {
+    	Weight        	= 2,
+    	Type        	= Normal,
+    	DisplayName    	= Steel Wheel,
+    	icon        	= HCMetalwheel,
+    }
+
+item HCConveyorbelt
+    {
+        Weight    			= 20,
+        Type    			= Normal,
+        DisplayName         		= Conveyor Belt,
+        icon 				= HCConveyorbelt,
+        ResizeWorldIcon 	        = 1.0,
+    }
+
+item HCPiston
+    {
+        Weight   		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Electric Piston,
+        icon 			= HCPiston,
+    }
+
+item HCMacerator
+    {
+        Weight    		= 6,
+        Type    		= Normal,
+        DisplayName     	= Macerator,
+        icon 			= HCMacerator,
+        ResizeWorldIcon 	= 2.0,
+    } 
+
+item HCIndustrialpress
+    {
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName     	= Industrial Press,
+        icon 			= HCIndustrialpress,
+        ResizeWorldIcon 	= 1.0,
+    } 
+
+/************************RECIPES************************/	
+
+recipe Make Gears
+    {
+    HCCopperingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCGearmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGearcopper=10,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Gears
+    {
+    HCTiningot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCGearmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGeartin=10,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Gears
+    {
+    HCBronzeingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCGearmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGearbronze=10,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Gears
+    {
+    HCIroningot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCGearmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGeariron=10,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Gears
+    {
+    HCInvaringot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCGearmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGearinvar=10,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Gears
+    {
+    HCLeadingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCGearmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGearlead=10,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Gears
+    {
+    HCSteelingot,
+    HCCoke,
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCGearmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCGearsteel=10,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Gears
+    {
+    	HCTitaniumingot,
+    	HCCoke,
+
+
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	HCGearmold,
+        keep WeldingMask,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep HCFurnace/HCFurnace2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCGeartitanium=10,
+    	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Smithing,
+    	OnCreate:IFurnUse,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Build Iron Furnace
+    {
+	SkillRequired:Mechanics=4,
+	HCManometer,
+	HCThermocouple,
+        HCCopperpipe,
+	HCValve,
+	HCCoppersheet,
+        HCIronsheet=5,
+	HCIronrod=5,
+    	HCWeldingset,
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+	keep HCPipebender,
+        NeedToBeLearn:true,
+    	CanBeDoneFromFloor:true,
+        Result:HCFurnaceiron,
+    	Sound:PZ_Hammer,
+        Time:1000,
+	Category:Engineer,
+    	OnGiveXP:HCMechanicsWelding_OnGiveXP,
+    }
+
+recipe Build Steam Engine
+    {
+	SkillRequired:Woodwork=8;Mechanics=4;,
+        Screws=2,
+        HCCopperpipe,
+	HCPullyiron=2,
+	Rope,
+	HCMetalwheeliron,
+	HCIronrod,
+	HCIroningot=3,
+	HCIronpole,
+	Plank,
+	Nails=8,
+        HCWoodbeam,
+    	HCWeldingset,
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+	keep Hammer,
+        keep Saw,
+        keep Screwdriver,
+	keep HCPipebender,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCSteamengine,
+    	Sound:PZ_Hammer,
+        Time:1000,
+	Category:Engineer,
+    	OnGiveXP:HCMechanicsWelding_OnGiveXP,
+    }
+
+recipe Build Steam Boiler
+    {
+	SkillRequired:Mechanics=4,
+        HCBarrelmetalempty,
+        HCCopperpipe=5,
+	HCValve=3,
+    	HCWeldingset,
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+	keep HCPipebender,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCSteamboiler,
+    	Sound:PZ_Hammer,
+        Time:1000,
+	Category:Engineer,
+    	OnGiveXP:HCMechanicsWelding_OnGiveXP,
+    }
+
+recipe Build Steam Machine
+    {
+	SkillRequired:Mechanics=4,
+	HCFurnaceiron,
+	HCSteamengine,
+	HCSteamboiler,
+	HCCopperpipe=2,
+	HCValve,
+	HCIronrod,
+	HCCoppersheetlarge,
+    	HCWeldingset,
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+        keep Screwdriver,
+	keep HCPipebender,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCSteammachine,
+    	Sound:PZ_Hammer,
+        Time:1000,
+	Category:Engineer,
+    	OnGiveXP:HCMechanicsWelding_OnGiveXP,
+    }
+
+recipe Build Trip Hammer
+    {
+	SkillRequired:Woodwork=8;Mechanics=3;,
+	HCWoodbeam=2,
+        Sledgehammer,
+	HCAnvil,
+	HCIroningot=2,
+	HCIronrod,
+	Rope,
+	HCRopethin,
+	HCPullyiron/HCPullywood,
+	HCCrank/HCCrankiron,
+	HCLever,
+	Plank=4,
+	Nails=12,
+	keep Hammer,
+        keep Saw,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCTriphammer,
+    	Sound:PZ_Hammer,
+        Time:1000,
+	Category:Engineer,
+    	OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Upgrade to Steam Hammer
+    {
+	SkillRequired:Mechanics=4,
+	HCSteammachine,
+	HCTriphammer,
+	keep Hammer,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCSteamhammer,
+    	Sound:PZ_Hammer,
+        Time:1000,
+	Category:Engineer,
+    	OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Anchor Smelter
+    {
+    	HCSteamhammer,
+    	CanBeDoneFromFloor:true,
+    	Result:HCSteamhammer2,
+    	Time:100,
+    	Category:Anchor,
+    }
+
+recipe Build Industrial Furnace
+    {
+	SkillRequired:Mechanics=5,
+        HCGreybrickbox,
+    	HCWoodenbucketconcrete=4,
+        Screws=10,
+        HCLargesheetmetal=2,
+        SheetMetal=4,
+        Pipe=4,
+        HCSteelpipe=2,
+    	HCSteelingot=10,
+    	HCWeldingset,
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+    	keep HCMasontrowel,
+	keep Hammer,
+        keep Screwdriver,
+	keep HCPipebender,
+        NeedToBeLearn:true,
+    	CanBeDoneFromFloor:true,
+        Result:HCFurnace,
+    	Sound:PZ_Hammer,
+        Time:1000,
+	Category:Engineer,
+    	OnGiveXP:HCMechanicsWelding_OnGiveXP,
+    }
+
+recipe Anchor Industrial Furnace
+    {
+        HCFurnace,
+    	CanBeDoneFromFloor:true,
+        Result:HCFurnace2,
+        Time:100,
+	Category:Anchor,
+    }
+
+recipe Make Metal Barrel
+    {
+        SheetMetal=2,
+        HCLargesheetmetal,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        NeedToBeLearn:true,
+        Result:HCBarrelmetalempty,
+        Time:500,
+        Category:Engineer,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Propane Tank
+    {
+        SheetMetal=2,
+        HCLargesheetmetal,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        NeedToBeLearn:true,
+        Result:HCPropanetankempty,
+        Time:500,
+        Category:Engineer,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Metal Duct
+    {
+        HCSteelsheet=8,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        NeedToBeLearn:true,
+        Result:HCDuct,
+        Time:1000,
+        Category:Engineer,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Duct Fan
+    {
+	SkillRequired:Electricity=1,
+        HCSteelsheet=6,
+        HCFanbladesteel,
+	HCElectromotorsmall,
+    	HCCablecopper,
+    	HCSolder,
+    	HCSoldergunpowered,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        NeedToBeLearn:true,
+        Result:HCDuctfan,
+        Time:1000,
+        Category:Engineer,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Fan Blade
+    {
+        HCSteelboard=4,
+        HCGearsteel,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        NeedToBeLearn:true,
+        Result:HCFanbladesteel,
+        Time:1000,
+        Category:Engineer,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Metal Casing
+    {
+        SheetMetal=6,
+        HCSteelrod=12,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        NeedToBeLearn:true,
+        Result:HCMetalcasing,
+        Time:1000,
+        Category:Engineer,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Metal Wheels
+    {
+        HCIronrod=2,
+        HCMetalringiron,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        NeedToBeLearn:true,
+        Result:HCMetalwheeliron,
+        Time:1000,
+        Category:Engineer,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Metal Wheels
+    {
+        HCSteelrod=2,
+        HCMetalring,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        NeedToBeLearn:true,
+        Result:HCMetalwheel,
+        Time:1000,
+        Category:Engineer,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Pulley
+    {
+	SkillRequired:Mechanics=1,
+        HCIroningot,
+        HCMetalwheeliron,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        NeedToBeLearn:true,
+        Result:HCPullyiron,
+        Time:1000,
+        Category:Engineer,
+    	OnGiveXP:HCMechanicsWelding_OnGiveXP,
+    }
+
+recipe Make Pulley
+    {
+	SkillRequired:Mechanics=1,
+        HCSteelingot,
+        HCMetalwheel,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        NeedToBeLearn:true,
+        Result:HCPully,
+        Time:1000,
+        Category:Engineer,
+    	OnGiveXP:HCMechanicsWelding_OnGiveXP,
+    }
+
+recipe Make Pulley
+    {
+	SkillRequired:Woodwork=7;Mechanics=1;,
+	Woodglue/HCWoodgluejar,
+        HCWoodblock=2,
+        HCWoodwheel,
+    	WoodenStick,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCPullywood,
+    	Sound:PZ_Hammer,
+        Time:1000,
+    	Category:Carpentry,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Make Valve
+	{
+		SkillRequired:Mechanics=1,
+        	Pipe,
+	   	HCMetalwheel,
+		Screws,
+        	HCWeldingset,
+        	keep WeldingMask,
+        	keep HCWorkgloves,
+    		CanBeDoneFromFloor:true,
+        	NeedToBeLearn:true,   
+	   	Result:HCValve,
+	   	Time:150.0,
+		Category:Engineer,
+    		OnGiveXP:HCMechanicsWelding_OnGiveXP,
+	}
+
+recipe Make Mine Cart
+    {
+	SkillRequired:Mechanics=2,
+	HCMetalwheel=4,
+        SheetMetal=5,
+        HCSteelrod=8,
+	HCSteelpole=2,
+	HCSteelbeam,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+    	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCMinecart,
+        Time:1000,
+        Category:Engineer,
+    	OnGiveXP:HCMechanicsWelding_OnGiveXP,
+    }
+
+recipe Make Dissection Table
+    {
+        HCSteelrod=4,
+        HCLargesheetmetal=2,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        NeedToBeLearn:true,
+        Result:HCDissectiontable,
+        Time:500,
+        Category:Engineer,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Giant Magnet
+    {
+        HCChain=3,
+        HCMagnetiteingot=10,
+    	Charcoal,
+
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	HCGiantmagnetmold,
+        keep WeldingMask,
+        keep Tongs,
+        keep HCWorkgloves,
+	keep HCFurnace/HCFurnace2,
+        NeedToBeLearn:true,
+    	CanBeDoneFromFloor:true,
+        Result:HCMagnetgiant,
+        Time:1500,
+	Category:Engineer,
+    	OnCreate:IFurnUse,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Small Rolling Mill
+    {
+	SkillRequired:Mechanics=3,
+	HCCrank,
+	HCSteelrod=2,
+	HCSteelingot,
+	HCIroningot=4,
+    	keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	Result:HCRollingmillsmall,
+    	NeedToBeLearn:true,
+	Time:150.0,
+       	Category:Engineer,
+    	OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Make Copper Wire
+    	{
+    	HCCopperingot,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCWorkgloves,
+    	keep HCRollingmillsmall,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWirecopper,
+    	NeedToBeLearn:true,
+    	Time:300,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Electrum Wire
+    	{
+    	HCElectrumingot,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCWorkgloves,
+    	keep HCRollingmillsmall,
+    	CanBeDoneFromFloor:true,
+    	Result:ElectricWire,
+    	NeedToBeLearn:true,
+    	Time:300,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Lead Wire
+    	{
+    	HCLeadingot,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCWorkgloves,
+    	keep HCRollingmillsmall,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWirelead,
+    	NeedToBeLearn:true,
+    	Time:300,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+
+recipe Make Iron Wire
+    	{
+    	HCIroningot,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCWorkgloves,
+    	keep HCRollingmillsmall,
+    	CanBeDoneFromFloor:true,
+    	Result:Wire,
+    	NeedToBeLearn:true,
+    	Time:300,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Steel Wire
+    	{
+    	HCSteelingot,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCWorkgloves,
+    	keep HCRollingmillsmall,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWiresteel,
+    	NeedToBeLearn:true,
+    	Time:300,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Zinc Wire
+    	{
+    	HCZincingot,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCWorkgloves,
+    	keep HCRollingmillsmall,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWirezinc,
+    	NeedToBeLearn:true,
+    	Time:300,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Aluminum Wire
+    	{
+    	HCAluminumingot,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCWorkgloves,
+    	keep HCRollingmillsmall,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWirealuminum,
+    	NeedToBeLearn:true,
+    	Time:300,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Aluminum Foil
+    	{
+    	HCAluminumingot,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCWorkgloves,
+    	keep HCRollingmillsmall,
+    	CanBeDoneFromFloor:true,
+    	Result:Aluminum,
+    	NeedToBeLearn:true,
+    	Time:300,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Constantan Wire
+    	{
+    	HCConstantaningot,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCRollingmillsmall,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWireconstantan,
+    	NeedToBeLearn:true,
+    	Time:300,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Barbed Wire
+    	{
+    	Wire=5,
+	Nails=5,
+    	keep HCWorkgloves,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	Result:BarbedWire,
+    	NeedToBeLearn:true,
+    	Time:300,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Razor Wire
+    	{
+    	HCWiresteel=5,
+	HCRazorblade=10,
+    	keep HCWorkgloves,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	Result:HCWireconcertina,
+    	NeedToBeLearn:true,
+    	Time:300,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Constantan Heating Coil
+    	{
+    	HCConstantaningot,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCRollingmillsmall,
+    	CanBeDoneFromFloor:true,
+    	Result:HCConstantanheatingcoil,
+    	NeedToBeLearn:true,
+    	Time:300,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Nichrome Heating Coil
+    	{
+    	HCNichromeingot,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCRollingmillsmall,
+    	CanBeDoneFromFloor:true,
+    	Result:HCNichromeheatingcoil,
+    	NeedToBeLearn:true,
+    	Time:300,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Kanthal Heating Coil
+    	{
+    	HCKanthalingot,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCRollingmillsmall,
+    	CanBeDoneFromFloor:true,
+    	Result:HCKanthalheatingcoil,
+    	NeedToBeLearn:true,
+    	Time:300,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Thermocouple Wire
+    	{
+    	HCWireconstantan=5,
+    	HCWirecopper=5,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCRollingmillsmall,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWirethermocouple,
+    	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Thermocouple
+    	{
+    	SkillRequired:Electricity=3,
+    	HCWirethermocouple=5,
+    	ElectronicsScrap=4,
+    	Screws=4,
+    	HCCalculator,
+	HCThermometer,
+    	keep Screwdriver,
+    	keep HCWorkgloves,
+    	keep HCPliers,
+    	Result:HCThermocouple,
+    	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Time:300,
+    	Category:Electrical,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    	}
+
+recipe Make Coil
+    	{
+	HCIronrod,
+    	HCWirecopper=8,
+    	keep HCPliers,
+    	Result:HCCoil,
+    	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Electrical,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    	}
+
+recipe Make Copper Cable
+    	{
+    	SkillRequired:Electricity=1,
+	HCRubbervulcanized,
+    	HCWirecopper=5,
+    	Result:HCCablecopper,
+    	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Electrical,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    	}
+
+recipe Make Solder
+    	{
+    	HCPewteringot,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCRollingmillsmall,
+    	CanBeDoneFromFloor:true,
+    	Result:HCSolder,
+    	NeedToBeLearn:true,
+    	Time:300,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Gigli Saw Handle
+ 	{
+ 	HCSteelingot,
+     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
+     	keep Tongs,
+     	keep HCWorkgloves/HCOvenmitts,
+ 	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+     	NeedToBeLearn:true,
+ 	CanBeDoneFromFloor:true,
+ 	Result:HCGiglisawhandle,
+ 	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+ 	}
+
+recipe Make Selfmade Heater
+    {
+        HCSolder,
+        HCSoldergunpowered,
+    	HCMetalboard,
+        HCWireconstantan,
+        Nails=4,
+        HCSwitch,
+        HCCablecopper/HCCoppercablered/HCCoppercablestriped,
+    	Result:HCSelfmadeheater,
+    	NeedToBeLearn:true,
+    	Time:150,
+    	Category:Engineer,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Conveyor Belt
+    {
+	SkillRequired:Electricity=1;Mechanics=5;
+        HCRubbersheet=6,
+	HCCablecopper=2,
+        HCElectromotor=2,
+	HCGearsteel=4,
+	HCSteelrod=2,
+        SheetMetal=4,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+    	Result:HCConveyorbelt,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Engineer,
+    	OnGiveXP:HCEMW_OnGiveXP,
+    }
+
+recipe Make Electric Piston
+    {
+	SkillRequired:Electricity=1;Mechanics=1;,
+	HCGearsteel,
+	HCCablecopper=2,
+        HCElectromotorsmall,
+	HCSteelrod,
+        SheetMetal=2,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+    	Result:HCPiston,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Engineer,
+    	OnGiveXP:HCMechanicsElectricity_OnGiveXP,
+    }
+
+recipe Make Macerator
+    {
+	SkillRequired:Electricity=5;Mechanics=5;,
+	HCCalculator,
+	HCLedgreen,
+	HCSwitch,
+	HCCablecopper=3,
+	HCCircutchip=2,
+        HCElectromotorsmall,
+	HCGearsteel=6,
+	HCGrinderhead=2,
+	HCPiston,
+        HCMetalcasing,
+    	HCSolder,
+    	HCSoldergunpowered,
+	Generator,
+        keep HCWorkgloves,
+    	Result:HCMacerator,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Engineer,
+    	OnGiveXP:HCEMW_OnGiveXP,
+    }
+
+recipe Make Chain
+    {
+        HCRingsteel=16,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        NeedToBeLearn:true,
+        Result:HCChain,
+        Time:1000,
+        Category:Engineer,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Industrial Press
+    {
+	SkillRequired:Electricity=5;Mechanics=5;,
+	HCDisplay,
+	HCCalculator,
+	HCLedred,
+	HCSwitch,
+	HCCablecopper=3,
+	HCPowercord,
+	HCCircutchip=2,
+        HCElectromotor=2,
+	HCSteelpipe,
+	HCGearsteel=6,
+	HCPiston=4,
+	HCSteelsheet=3,
+	HCSteelsheetlarge=2,
+	SheetMetal=2,
+	HCLargesheetmetal=6,
+	HCTitaniumsheetlarge=2,
+	HCTitaniumrod=4,
+	HCSteelpole=4,
+	HCBolt=8,
+	HCNut=8,
+	keep HCWrench,
+    	keep Screwdriver,
+    	HCSolder,
+    	HCSoldergunpowered,
+	Generator,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+    	Result:HCIndustrialpress,
+    	NeedToBeLearn:true,
+    	Time:5000,
+    	Category:Engineer,
+    	OnGiveXP:HCEMW_OnGiveXP,
+    }
+
+recipe Build Arc Furnace
+    {
+	SkillRequired:Electricity=4;Mechanics=6;,
+	Generator,
+	HCCablecopper=6,
+	Water,
+	HCRefractorybrick=12,
+	Sandbag=48,
+	EmptySandbag=12,
+	HCGraphiterod=3,
+	HCSteelrod,
+        HCSteelpole=4,
+	HCMetalwheel,
+    	HCWeldingset,
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+    	HCSolder,
+    	HCSoldergunpowered,
+	keep HCSpatula/HCWoodenspatula,
+	keep BucketEmpty/HCWoodenbucket,
+        NeedToBeLearn:true,
+    	CanBeDoneFromFloor:true,
+        Result:HCFurnacearc,
+        Time:1000,
+	Category:Engineer,
+    	OnGiveXP:HCEMW_OnGiveXP,
+    }
+
+recipe Anchor Arc Furnace
+    {
+        HCFurnacearc,
+    	CanBeDoneFromFloor:true,
+        Result:HCFurnacearc2,
+        Time:100,
+	Category:Anchor,
+    }
+
+}

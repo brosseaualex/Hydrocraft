@@ -1,0 +1,238 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+	item HCAdultmagazine
+	{
+		Weight		=	0.2,
+		Type		=	Literature,
+		UnhappyChange	=	-100,
+		DisplayName	=	Adult Magazine,
+		StressChange	=	-100,
+		Icon		=	HCAdultmagazine,
+		BoredomChange	=	-100,
+	}
+
+	item HCAdultmagazine2
+	{
+		Weight		=	0.2,
+		Type		=	Literature,
+		UnhappyChange	=	-100,
+		DisplayName	=	Adult Magazine,
+		StressChange	=	-100,
+		Icon		=	HCAdultmagazine2,
+		BoredomChange	=	-100,
+	}
+
+	item HCAdultmagazine3
+	{
+		Weight		=	0.2,
+		Type		=	Literature,
+		UnhappyChange	=	-100,
+		DisplayName	=	Adult Magazine,
+		StressChange	=	-100,
+		Icon		=	HCAdultmagazine3,
+		BoredomChange	=	-100,
+	}
+
+	item HCAdultmagazine4
+	{
+		Weight		=	0.2,
+		Type		=	Literature,
+		UnhappyChange	=	-100,
+		DisplayName	=	Adult Magazine,
+		StressChange	=	-100,
+		Icon		=	HCAdultmagazine4,
+		BoredomChange	=	-100,
+	}
+
+	item HCAdultmagazine5
+	{
+		Weight		=	0.2,
+		Type		=	Literature,
+		UnhappyChange	=	-100,
+		DisplayName	=	Adult Magazine,
+		StressChange	=	-100,
+		Icon		=	HCAdultmagazine5,
+		BoredomChange	=	-100,
+	}
+
+	item HCAdultmagazine6
+	{
+		Weight		=	0.2,
+		Type		=	Literature,
+		UnhappyChange	=	-100,
+		DisplayName	=	Adult Magazine,
+		StressChange	=	-100,
+		Icon		=	HCAdultmagazine6,
+		BoredomChange	=	-100,
+	}
+
+	item HCMagazinemetalworking1
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		DisplayName	=	Metalworking Monthly Magazine,
+		Icon		=	HCMagazinemetalworking1,
+		TeachedRecipes  =   	Make Sheet Of Metal;Make Large Sheet Of Metal,
+        	ReplaceOnUse    =   	HCMagazinemetalworking1,
+	}
+
+
+	item HCMagazinemetalworking2
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		DisplayName	=	Metalworking Monthly Magazine,
+		Icon		=	HCMagazinemetalworking2,
+		TeachedRecipes  =   	Make Metal Pipe;Cut Steel Pipe,
+        	ReplaceOnUse    =   	HCMagazinemetalworking2,
+	}
+
+	item HCMagazinemetalworking3
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		DisplayName	=	Metalworking Monthly Magazine,
+		Icon		=	HCMagazinemetalworking3,
+		TeachedRecipes  =   	Make Steel Beam;Make Steel Pole,
+        	ReplaceOnUse    =   	HCMagazinemetalworking3,
+	}
+
+	item HCMagazinemetalworking4
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		DisplayName	=	Metalworking Monthly Magazine,
+		Icon		=	HCMagazinemetalworking4,
+		TeachedRecipes  =   	Make Sterling Silver Knife;Make Sterling Silver Fork;Make Sterling Silver Spoon,
+        	ReplaceOnUse    =   	HCMagazinemetalworking4,
+	}
+
+	item HCMagazinemetalworking5
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		DisplayName	=	Metalworking Monthly Magazine,
+		Icon		=	HCMagazinemetalworking5,
+		TeachedRecipes  =   	Make Steel Hammer;Make Steel Saw;Make Iron Hand Drill,
+        	ReplaceOnUse    =   	HCMagazinemetalworking5,
+	}
+
+	item HCMagazinemetalworking6
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		DisplayName	=	Metalworking Monthly Magazine,
+		Icon		=	HCMagazinemetalworking6,
+		TeachedRecipes  =   	Make Gears,
+        	ReplaceOnUse    =   	HCMagazinemetalworking6,
+	}
+
+	item HCMagazinemetalworking7
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		DisplayName	=	Metalworking Monthly Magazine,
+		Icon		=	HCMagazinemetalworking7,
+		TeachedRecipes  =   	Make Iron Trowel;Make Iron Spade;Make Steel Rake;Make Steel Pruning Shears,
+        	ReplaceOnUse    =   	HCMagazinemetalworking7,
+	}
+
+	item HCMagazinefarming1
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		DisplayName	=	Better Shelters and Farms,
+		Icon		=	HCMagazinefarming1,
+		TeachedRecipes  =   	Build Trellis Kit,
+        	ReplaceOnUse    =   	HCMagazinefarming1,
+	}
+
+	item HCMagazineelectronics01
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		DisplayName	=	Backyard Electronics Vol 1,
+		Icon		=	HCMagazineelectronics01,
+		TeachedRecipes  =   	Loot Electronic Parts;Loot Electronics Scrap;Make Moving Sensor;Put Sensor In Case,
+        	ReplaceOnUse    =   	HCMagazineelectronics01,
+	}
+
+	item HCMagazineelectronics02
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		DisplayName	=	Backyard Electronics Vol 2,
+		Icon		=	HCMagazineelectronics02,
+		TeachedRecipes  =   	Loot Electronic Parts;Loot Electronics Scrap;Make IR Remote;Put Remote In Case,
+        	ReplaceOnUse    =   	HCMagazineelectronics02,
+	}
+
+	item HCMagazineelectronics03
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		DisplayName	=	Backyard Electronics Vol 3,
+		Icon		=	HCMagazineelectronics03,
+		TeachedRecipes  =   	Loot Electronic Parts;Loot Electronics Scrap;Make IR Receiver;Put Receiver In Case,
+        	ReplaceOnUse    =   	HCMagazineelectronics03,
+	}
+
+	item HCMagazinespopularmachines01
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		DisplayName	=	Popular Machines Vol 1,
+		Icon		=	HCMagazinespopularmachines01,
+		TeachedRecipes  =   	Build Battery Array;Build Selfmade Solar Panel;Build Solar Park;Recharge Battery,
+        	ReplaceOnUse    =   	HCMagazinespopularmachines01,
+	}
+
+    	item HCMagazinexmas
+    	{
+	    Weight		=	0.1,
+	    Type		=	Literature,
+	    DisplayName		=	Old Christmas Magazine,
+	    Icon		=	HCMagazinexmas,
+	    TeachedRecipes  	=   	Make Fruit Cake Batter;Make Christmas Cookies;Make Frosted Christmas Cookies;Make Eggnog Pot;Make Monkey Tail Pot;Make Christmas Ham,
+	    ReplaceOnUse    	=   	HCMagazinexmas,
+    	}
+
+	item HCSportsmagazine
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Sports Magazine,
+		StressChange	=	-4,
+		Icon		=	HCSportsmagazine,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCSportsmagazine,
+	}
+
+	item HCSportsmagazine2
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Sports Magazine,
+		StressChange	=	-4,
+		Icon		=	HCSportsmagazine2,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCSportsmagazine2,
+	}
+
+/************************RECIPES************************/	
+
+
+    
+
+}

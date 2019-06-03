@@ -1,0 +1,345 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCPopsiclestick
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Popsicle Stick,
+        icon 			= 	HCPopsiclestick,
+    }
+
+item HCIcecreamsandwich
+	{
+	HungerChange			=	-15,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Icecream Sandwich,
+	Icon				=	HCIcecreamsandwich,
+	FoodType			=	NoExplicit,
+        DaysFresh			=	1,
+        DaysTotallyRotten		=	1,
+        Carbohydrates 			= 	37,
+        Proteins 			= 	4.3,
+        Lipids 				= 	8.6,
+        Calories 			= 	237,
+        ReplaceOnRotten 		= 	HCIcecreamsandwichmelted,
+        Packaged 			= 	TRUE,
+	}
+
+item HCIcecreamsandwichmelted
+	{
+	HungerChange			=	-15,
+	Weight				=	0.1,
+	Type				=	Food,
+	DisplayName			=	Melted Icecream Sandwich,
+	Icon				=	HCIcecreamsandwichmelted,
+	FoodType			=	NoExplicit,
+        Carbohydrates 			= 	37,
+        Proteins 			= 	4.3,
+        Lipids 				= 	8.6,
+        Calories 			= 	237,
+        Packaged 			= 	TRUE,
+	}
+
+item HCIcecreamsoft
+	{
+	HungerChange			=	-15,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Soft Serve Icecream,
+	Icon				=	HCIcecreamsoft,
+	FoodType			=	NoExplicit,
+        DaysFresh			=	1,
+        DaysTotallyRotten		=	1,
+        Carbohydrates 			= 	22,
+        Proteins 			= 	4.1,
+        Lipids 				= 	13,
+        Calories 			= 	222,
+        ReplaceOnRotten 		= 	HCIcecreamsoftmelted,
+        Packaged 			=	TRUE,
+	}
+
+item HCIcecreamsoftmelted
+	{
+	HungerChange			=	-15,
+	Weight				=	0.1,
+	Type				=	Food,
+	DisplayName			=	Melted Serve Icecream,
+	Icon				=	HCIcecreamsoftmelted,
+	FoodType			=	NoExplicit,
+        Carbohydrates 			= 	22,
+        Proteins 			= 	4.1,
+        Lipids 				= 	13,
+        Calories 			= 	222,
+        Packaged 			= 	TRUE,
+	}
+
+
+item HCPopsicle1
+	{
+	HungerChange			=	-10,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Blueberry Popsicle,
+	Icon				=	HCPopsicle1,
+	FoodType			=	NoExplicit,
+        DaysFresh			=	1,
+        DaysTotallyRotten		=	1,
+        Carbohydrates 			= 	20,
+        Proteins 			= 	0,
+        Lipids 				= 	0.2,
+        Calories 			= 	81,
+        ReplaceOnRotten 		= 	HCPopsicle1melted,
+        Packaged 			=	TRUE,
+	ReplaceOnUse			=	HCPopsiclestick,
+	}
+
+item HCPopsicle1melted
+	{
+	HungerChange			=	-10,
+	Weight				=	0.1,
+	Type				=	Food,
+	DisplayName			=	Melted Blueberry Popsicle,
+	Icon				=	HCPopsicle1melted,
+	FoodType			=	NoExplicit,
+        Carbohydrates 			= 	20,
+        Proteins 			= 	0,
+        Lipids 				= 	0.2,
+        Calories 			= 	81,
+        Packaged 			= 	TRUE,
+	ReplaceOnUse			=	HCPopsiclestick,
+	}
+
+item HCPopsicle2
+	{
+	HungerChange			=	-10,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Chocolate Popsicle,
+	Icon				=	HCPopsicle2,
+	FoodType			=	NoExplicit,
+        DaysFresh			=	1,
+        DaysTotallyRotten		=	1,
+        Carbohydrates 			= 	20,
+        Proteins 			= 	0,
+        Lipids 				= 	0.2,
+        Calories 			= 	81,
+        ReplaceOnRotten 		= 	HCPopsicle2melted,
+        Packaged 			=	TRUE,
+	ReplaceOnUse			=	HCPopsiclestick,
+	}
+
+item HCPopsicle2melted
+	{
+	HungerChange			=	-10,
+	Weight				=	0.1,
+	Type				=	Food,
+	DisplayName			=	Melted Chocolate Popsicle,
+	Icon				=	HCPopsicle2melted,
+	FoodType			=	NoExplicit,
+        Carbohydrates 			= 	20,
+        Proteins 			= 	0,
+        Lipids 				= 	0.2,
+        Calories 			= 	81,
+        Packaged 			= 	TRUE,
+	ReplaceOnUse			=	HCPopsiclestick,
+	}
+
+
+item HCPopsicle3
+	{
+	HungerChange			=	-10,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Strawberry Popsicle,
+	Icon				=	HCPopsicle3,
+	FoodType			=	NoExplicit,
+        DaysFresh			=	1,
+        DaysTotallyRotten		=	1,
+        Carbohydrates 			= 	20,
+        Proteins 			= 	0,
+        Lipids 				= 	0.2,
+        Calories 			= 	81,
+        ReplaceOnRotten 		= 	HCPopsicle3melted,
+        Packaged 			=	TRUE,
+	ReplaceOnUse			=	HCPopsiclestick,
+	}
+
+item HCPopsicle3melted
+	{
+	HungerChange			=	-10,
+	Weight				=	0.1,
+	Type				=	Food,
+	DisplayName			=	Melted Strawberry Popsicle,
+	Icon				=	HCPopsicle3melted,
+	FoodType			=	NoExplicit,
+        Carbohydrates 			= 	20,
+        Proteins 			= 	0,
+        Lipids 				= 	0.2,
+        Calories 			= 	81,
+        Packaged 			= 	TRUE,
+	ReplaceOnUse			=	HCPopsiclestick,
+	}
+
+item HCPopsicle4
+	{
+	HungerChange			=	-10,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Grape Popsicle,
+	Icon				=	HCPopsicle4,
+	FoodType			=	NoExplicit,
+        DaysFresh			=	1,
+        DaysTotallyRotten		=	1,
+        Carbohydrates 			= 	20,
+        Proteins 			= 	0,
+        Lipids 				= 	0.2,
+        Calories 			= 	81,
+        ReplaceOnRotten 		= 	HCPopsicle4melted,
+        Packaged 			=	TRUE,
+	ReplaceOnUse			=	HCPopsiclestick,
+	}
+
+item HCPopsicle4melted
+	{
+	HungerChange			=	-10,
+	Weight				=	0.1,
+	Type				=	Food,
+	DisplayName			=	Melted Grape Popsicle,
+	Icon				=	HCPopsicle4melted,
+	FoodType			=	NoExplicit,
+        Carbohydrates 			= 	20,
+        Proteins 			= 	0,
+        Lipids 				= 	0.2,
+        Calories 			= 	81,
+        Packaged 			= 	TRUE,
+	ReplaceOnUse			=	HCPopsiclestick,
+	}
+
+item HCPopsicle5
+	{
+	HungerChange			=	-10,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Lime Popsicle,
+	Icon				=	HCPopsicle5,
+	FoodType			=	NoExplicit,
+        DaysFresh			=	1,
+        DaysTotallyRotten		=	1,
+        Carbohydrates 			= 	20,
+        Proteins 			= 	0,
+        Lipids 				= 	0.2,
+        Calories 			= 	81,
+        ReplaceOnRotten 		= 	HCPopsicle5melted,
+        Packaged 			=	TRUE,
+	ReplaceOnUse			=	HCPopsiclestick,
+	}
+
+item HCPopsicle5melted
+	{
+	HungerChange			=	-10,
+	Weight				=	0.1,
+	Type				=	Food,
+	DisplayName			=	Melted Lime Popsicle,
+	Icon				=	HCPopsicle5melted,
+	FoodType			=	NoExplicit,
+        Carbohydrates 			= 	20,
+        Proteins 			= 	0,
+        Lipids 				= 	0.2,
+        Calories 			= 	81,
+        Packaged 			= 	TRUE,
+	ReplaceOnUse			=	HCPopsiclestick,
+	}
+
+item HCPopsicle6
+	{
+	HungerChange			=	-10,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Lemon Popsicle,
+	Icon				=	HCPopsicle6,
+	FoodType			=	NoExplicit,
+        DaysFresh			=	1,
+        DaysTotallyRotten		=	1,
+        Carbohydrates 			= 	20,
+        Proteins 			= 	0,
+        Lipids 				= 	0.2,
+        Calories 			= 	81,
+        ReplaceOnRotten 		= 	HCPopsicle6melted,
+        Packaged 			=	TRUE,
+	ReplaceOnUse			=	HCPopsiclestick,
+	}
+
+item HCPopsicle6melted
+	{
+	HungerChange			=	-10,
+	Weight				=	0.1,
+	Type				=	Food,
+	DisplayName			=	Melted Lemon Popsicle,
+	Icon				=	HCPopsicle6melted,
+	FoodType			=	NoExplicit,
+        Carbohydrates 			= 	20,
+        Proteins 			= 	0,
+        Lipids 				= 	0.2,
+        Calories 			= 	81,
+        Packaged 			= 	TRUE,
+	ReplaceOnUse			=	HCPopsiclestick,
+	}
+
+item HCPopsicle7
+	{
+	HungerChange			=	-10,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Cherry Popsicle,
+	Icon				=	HCPopsicle7,
+	FoodType			=	NoExplicit,
+        DaysFresh			=	1,
+        DaysTotallyRotten		=	1,
+        Carbohydrates 			= 	20,
+        Proteins 			= 	0,
+        Lipids 				= 	0.2,
+        Calories 			= 	81,
+        ReplaceOnRotten 		= 	HCPopsicle7melted,
+        Packaged 			=	TRUE,
+	ReplaceOnUse			=	HCPopsiclestick,
+	}
+
+item HCPopsicle7melted
+	{
+	HungerChange			=	-10,
+	Weight				=	0.1,
+	Type				=	Food,
+	DisplayName			=	Melted Cherry Popsicle,
+	Icon				=	HCPopsicle7melted,
+	FoodType			=	NoExplicit,
+        Carbohydrates 			= 	20,
+        Proteins 			= 	0,
+        Lipids 				= 	0.2,
+        Calories 			= 	81,
+        Packaged 			= 	TRUE,
+	ReplaceOnUse			=	HCPopsiclestick,
+	}
+
+
+/************************RECIPES************************/
+
+
+}

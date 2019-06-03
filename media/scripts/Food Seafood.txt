@@ -1,0 +1,907 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCHerring
+	{
+	Type				=	Food,
+	DisplayName			=	Herring,
+	Icon				=	HCHerring,
+	IsCookable 			= 	TRUE,
+	Weight				=	0.2,
+	MinutesToCook			=	20,
+	MinutesToBurn			=	40,
+	HungerChange			=	-20,
+	BoredomChange			=	-10,
+	DaysTotallyRotten		=	6,
+	DaysFresh 			= 	3,
+        EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			=   	Fish,
+        Carbohydrates 			= 	0,
+        Proteins 			= 	36,
+        Lipids 				= 	18,
+        Calories 			= 	316,
+	}
+		
+item HCFriedherring
+	{
+	Type				=	Food,
+	DisplayName			=	Fried Herring,
+	Icon				=	HCHerringcooked,
+	Weight				=	0.2,
+	HungerChange			=	-30,
+	BoredomChange			=	-15,
+	IsCookable 			= 	TRUE,
+	MinutesToCook			=	20,
+	MinutesToBurn			=	40,
+	DaysTotallyRotten		=	8,
+	DaysFresh 			= 	4,
+        EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			=   	Fish,
+        Carbohydrates 			= 	0,
+        Proteins 			= 	42,
+        Lipids 				= 	36,
+        Calories 			= 	500,
+	}
+
+item HCCrab
+	{
+	Type				=	Food,
+	DisplayName			=	Crab,
+	Icon				=	HCCrab,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	Weight				=	0.2,
+	MinutesToCook			=	20,
+	MinutesToBurn			=	40,
+	HungerChange			=	-20,
+	BoredomChange			=	-10,
+	DaysTotallyRotten		=	4,
+	DaysFresh 			= 	2,
+        EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			=   	Fish,
+        Carbohydrates 			= 	0,
+        Proteins 			= 	54,
+        Lipids 				= 	2.1,
+        Calories 			= 	249,
+	}
+
+item HCCrabpot
+	{
+	Type				=	Food,
+	DisplayName			=	Pot of Crab,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	Weight				=	0.6,
+	MinutesToCook			=	10,
+	MinutesToBurn			=	20,
+	ReplaceOnCooked			=	Hydrocraft.HCCrabcooked,
+	HungerChange			=	-20,
+	BoredomChange			=	-10,
+	DaysTotallyRotten		=	4,
+	DaysFresh 			= 	2,
+        FoodType    			=   	Fish,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+        Carbohydrates 			= 	0,
+        Proteins 			= 	54,
+        Lipids 				= 	2.1,
+        Calories 			= 	249, 
+	}
+
+item HCCrabcooked
+	{
+	Type				=	Food,
+	DisplayName			=	Boiled Crab,
+	ReplaceOnUse			=	Pot,
+	Icon				=	HCCrabcooked,
+	Weight				=	0.2,
+	HungerChange			=	-30,
+	BoredomChange			=	-15,
+	DaysTotallyRotten		=	4,
+	DaysFresh 			= 	2,
+        EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			=   	Fish,
+        Carbohydrates 			= 	0,
+        Proteins 			= 	54,
+        Lipids 				= 	2.1,
+        Calories 			= 	249,
+	}
+
+item HCCrayfish
+	{
+	Type				=	Food,
+	DisplayName			=	Crayfish,
+	Icon				=	HCCrayfish,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	Weight				=	0.2,
+	MinutesToCook			=	10,
+	MinutesToBurn			=	20,
+	HungerChange			=	-15,
+	BoredomChange			=	-5,
+	DaysTotallyRotten		=	4,
+	DaysFresh 			= 	2,
+        EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			=   	Fish,
+        Carbohydrates 			= 	0,
+        Proteins 			= 	32,
+        Lipids 				= 	2,
+        Calories 			= 	154,
+	}
+
+item HCCrayfishpot
+	{
+	Type				=	Food,
+	DisplayName			=	Pot of Crayfish,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	Weight				=	0.6,
+	MinutesToCook			=	10,
+	MinutesToBurn			=	20,
+	ReplaceOnCooked			=	Hydrocraft.HCCrayfishcooked,
+	HungerChange			=	-15,
+	BoredomChange			=	-5,
+	DaysTotallyRotten		=	4,
+	DaysFresh 			= 	2,
+        FoodType    			=   	Fish,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+        Carbohydrates 			= 	0,
+        Proteins 			= 	32,
+        Lipids 				= 	2,
+        Calories 			= 	154, 
+	}
+
+item HCCrayfishcooked
+	{
+	Type				=	Food,
+	DisplayName			=	Boiled Crayfish,
+	ReplaceOnUse			=	Pot,
+	Icon				=	HCCrayfishcooked,
+	Weight				=	0.2,
+	HungerChange			=	-15,
+	BoredomChange			=	-10,
+	DaysTotallyRotten		=	4,
+	DaysFresh 			= 	2,
+        EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			=   	Fish,
+        Carbohydrates 			= 	0,
+        Proteins 			= 	32,
+        Lipids 				= 	2,
+        Calories 			= 	154, 
+	}
+
+item HCMussel
+	{
+	Type				=	Food,
+	DisplayName			=	Mussel,
+	Icon				=	HCMussel,
+	ReplaceOnUse			=	HCMusselshell,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	Weight				=	0.2,
+	MinutesToCook			=	10,
+	MinutesToBurn			=	20,
+	HungerChange			=	-15,
+	BoredomChange			=	-5,
+	DaysTotallyRotten		=	4,
+	DaysFresh 			= 	2,
+        EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			=   	Fish,
+        Carbohydrates 			= 	6,
+        Proteins 			= 	20,
+        Lipids 				= 	3.8,
+        Calories 			= 	146,
+	}
+
+item HCMusselpot
+	{
+	Type				=	Food,
+	DisplayName			=	Pot of Mussel,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	Weight				=	0.6,
+	MinutesToCook			=	10,
+	MinutesToBurn			=	20,
+	ReplaceOnCooked			=	Hydrocraft.HCMusselcooked,
+	HungerChange			=	-15,
+	BoredomChange			=	-5,
+	DaysTotallyRotten		=	4,
+	DaysFresh 			= 	2,
+        FoodType    			=   	Fish,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+        Carbohydrates 			= 	6,
+        Proteins 			= 	20,
+        Lipids 				= 	3.8,
+        Calories 			= 	146, 
+	}
+
+item HCMusselcooked
+	{
+	Type				=	Food,
+	DisplayName			=	Boiled Mussel,
+	ReplaceOnUse			=	Pot,
+	Icon				=	HCMusselcooked,
+	Weight				=	0.2,
+	HungerChange			=	-15,
+	BoredomChange			=	-10,
+	DaysTotallyRotten		=	4,
+	DaysFresh 			= 	2,
+        EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			=   	Fish,
+        Carbohydrates 			= 	6,
+        Proteins 			= 	20,
+        Lipids 				= 	3.8,
+        Calories 			= 	146, 
+	}
+
+
+    item HCBlowfish
+    {
+        Type				= Food,
+        DisplayName			= Blowfish,
+        Icon				= HCBlowfish,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        Poison 				= true,
+        PoisonDetectionLevel 		= 1,
+        PoisonPower 			= 5,
+        UseForPoison 			= 1,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 4,
+        Lipids 				= 1,
+        Calories 			= 24,
+    }
+
+    item HCBream
+    {
+        Type				= Food,
+        DisplayName			= Bream,
+        Icon				= HCBream,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 37.4,
+        Lipids 				= 8.5,
+        Calories 			= 229,
+    }
+
+    item HCEel
+    {
+        Type				= Food,
+        DisplayName			= Eel,
+        Icon				= HCEel,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 38,
+        Lipids 				= 24,
+        Calories 			= 375,
+    }
+
+    item HCMackerel
+    {
+        Type				= Food,
+        DisplayName			= Mackerel,
+        Icon				= HCMackerel,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 25,
+        Lipids 				= 34,
+        Calories 			= 415,
+    }
+
+    item HCMackerelpike
+    {
+        Type				= Food,
+        DisplayName			= Mackerel Pike,
+        Icon				= HCMackerelpike,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 38,
+        Lipids 				= 1.4,
+        Calories 			= 174,
+    }
+
+    item HCPrawn
+    {
+        Type				= Food,
+        DisplayName			= Prawn,
+        Icon				= HCPrawn,
+        Weight				= 0.4,
+        HungerChange 			= -5,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0.05,
+        Proteins 			= 1.21,
+        Lipids 				= 0.1,
+        Calories 			= 6,
+    }
+
+    item HCRedsnapper
+    {
+        Type				= Food,
+        DisplayName			= Red Snapper,
+        Icon				= HCRedsnapper,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 44,
+        Lipids 				= 3,
+        Calories 			= 218,
+    }
+
+    item HCSeabass
+    {
+        Type				= Food,
+        DisplayName			= Sea Bass,
+        Icon				= HCSeabass,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 20.9,
+        Lipids 				= 2.3,
+        Calories 			= 110,
+    }
+
+    item HCSmelt
+    {
+        Type				= Food,
+        DisplayName			= Smelt,
+        Icon				= HCSmelt,
+        Weight				= 0.4,
+        HungerChange 			= -10,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 15,
+        Lipids 				= 2,
+        Calories 			= 82,
+    }
+
+    item HCSnowcrab
+    {
+        Type				= Food,
+        DisplayName			= Snow Crab,
+        Icon				= HCSnowcrab,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 26,
+        Lipids 				= 2,
+        Calories 			= 130,
+    }
+
+    item HCSquid
+    {
+        Type				= Food,
+        DisplayName			= Squid,
+        Icon				= HCSquid,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 7,
+        Proteins 			= 15,
+        Lipids 				= 6,
+        Calories 			= 149,
+    }
+
+    item HCTuna
+    {
+        Type				= Food,
+        DisplayName			= Tuna,
+        Icon				= HCTuna,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 25,
+        Lipids 				= 5,
+        Calories 			= 157,
+    }
+
+    item HCWrasse
+    {
+        Type				= Food,
+        DisplayName			= Wrasse,
+        Icon				= HCWrasse,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 30,
+        Lipids 				= 0,
+        Calories 			= 191.2,
+    }
+
+    item HCAsp
+    {
+        Type				= Food,
+        DisplayName			= Asp,
+        Icon				= HCAsp,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 18,
+        Lipids 				= 6,
+        Calories 			= 124,
+    }
+
+    item HCBrill
+    {
+        Type				= Food,
+        DisplayName			= Brill,
+        Icon				= HCBrill,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 19,
+        Lipids 				= 5,
+        Calories 			= 129,
+    }
+
+    item HCBurbot
+    {
+        Type				= Food,
+        DisplayName			= Burbot,
+        Icon				= HCBurbot,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 22,
+        Lipids 				= 1,
+        Calories 			= 104,
+    }
+
+    item HCCarp
+    {
+        Type				= Food,
+        DisplayName			= Carp,
+        Icon				= HCCarp,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 39,
+        Lipids 				= 12,
+        Calories 			= 277,
+    }
+
+    item HCChub
+    {
+        Type				= Food,
+        DisplayName			= Chub,
+        Icon				= HCChub,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 52.24,
+        Lipids 				= 35.46,
+        Calories 			= 100,
+    }
+
+    item HCGrayling
+    {
+        Type				= Food,
+        DisplayName			= Grayling,
+        Icon				= HCGrayling,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 40,
+        Lipids 				= 27,
+        Calories 			= 412,
+    }
+
+    item HCLavaret
+    {
+        Type				= Food,
+        DisplayName			= Lavaret,
+        Icon				= HCLavaret,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 38,
+        Lipids 				= 12,
+        Calories 			= 265,
+    }
+
+    item HCPlaice
+    {
+        Type				= Food,
+        DisplayName			= Plaice,
+        Icon				= HCPlaice,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 25.69,
+        Lipids 				= 1.62,
+        Calories 			= 124,
+    }
+
+    item HCRoach
+    {
+        Type				= Food,
+        DisplayName			= Roach,
+        Icon				= HCRoach,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 11.63,
+        Lipids 				= 0.55,
+        Calories 			= 55,
+    }
+
+    item HCRuffe
+    {
+        Type				= Food,
+        DisplayName			= Ruffe,
+        Icon				= HCRuffe,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 11.63,
+        Lipids 				= 0.55,
+        Calories 			= 55,
+    }
+
+    item HCSalmon
+    {
+        Type				= Food,
+        DisplayName			= Salmon,
+        Icon				= HCSalmon,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 40,
+        Lipids 				= 27,
+        Calories 			= 412,
+    }
+
+    item HCSilverbream
+    {
+        Type				= Food,
+        DisplayName			= Silver Bream,
+        Icon				= HCSilverbream,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 35,
+        Lipids 				= 2,
+        Calories 			= 160,
+    }
+
+    item HCTench
+    {
+        Type				= Food,
+        DisplayName			= Tench,
+        Icon				= HCTench,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 39,
+        Lipids 				= 12,
+        Calories 			= 277,
+    }
+
+    item HCZander
+    {
+        Type				= Food,
+        DisplayName			= Zander,
+        Icon				= HCZander,
+        Weight				= 0.4,
+        HungerChange 			= -15,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 11.16,
+        Lipids 				= 0.57,
+        Calories 			= 52,
+    }
+
+item HCWoodenbucketfishoil
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Bucket with Fish Oil,
+        icon 			= HCWoodenbucketfishoil,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCFishoil
+	{
+	Weight 				= 	1,
+	Type 				= 	Drainable,
+	UseDelta 			= 	0.25,
+	DisplayName 			= 	Jar of Fish Oil,
+	Icon 				= 	HCFishoil,
+	ReplaceOnUse			=	HCJar,
+	}
+		
+/************************RECIPES************************/
+
+
+recipe Slice Fillet
+    {
+        	keep KitchenKnife/HuntingKnife/HCSteakknife/HCKnifestone/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper,
+        	Bass/Catfish/Perch/Crappie/Panfish/Pike/Trout,
+        	Result:FishFillet,
+       	 	Sound:PZ_FoodSwoosh,
+        	Time:50.0,
+        	OnTest:CutFish_TestIsValid,
+        	OnCreate:CutFish_OnCreate,
+        	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Slice Fillet
+    {
+        	keep KitchenKnife/HuntingKnife/HCSteakknife/HCKnifestone/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper,
+        	HCHerring/HCBlowfish/HCBream/HCEel/HCMackerel/HCMackerelpike/HCRedsnapper/HCSeabass/HCSmelt/HCTuna/HCWrasse/HCAsp/HCBrill/HCBurbot/HCCarp/HCChub/HCGrayling/HCLavaret/HCPlaice/HCRoach/HCRuffe/HCSilverbream/HCTench/HCZander,
+        	Result:FishFillet,
+        	Sound:PZ_FoodSwoosh,
+        	Time:50.0,
+        	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Slice Fillet
+    {
+        	keep KitchenKnife/HuntingKnife/HCSteakknife/HCKnifestone/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper,
+        	HCSalmon,
+        	Result:Salmon,
+        	Sound:PZ_FoodSwoosh,
+        	Time:50.0,
+        	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Slice Frog
+    {
+        	keep KitchenKnife/HuntingKnife/HCSteakknife/HCKnifestone/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper,
+        	Frog,
+        	Result:FrogMeat,
+        	Sound:PZ_FoodSwoosh,
+        	Time:50.0,
+        	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+    }
+    
+recipe Prepare Fried Herring
+	{
+		keep Pan,
+		HCCookingoil,
+		HCHerring,	
+		Result:HCFriedherring,
+		Time:35.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Boiled Crab
+	{
+       		SkillRequired:Cooking=1,
+		destroy WaterPot,
+		HCCrab,
+		Salt;1,		
+		Result:HCCrabpot,
+		Time:25.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Boiled Crayfish
+	{
+       		SkillRequired:Cooking=1,
+		destroy WaterPot,
+		HCCrayfish,
+		Salt;1,		
+		Result:HCCrayfishpot,
+		Time:25.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Boiled Mussel
+	{
+       		SkillRequired:Cooking=1,
+		destroy WaterPot,
+		HCMussel,
+		Salt;1,		
+		Result:HCMusselpot,
+		Time:25.0,
+		Category:Cooking,
+        	OnCreate:recipe_HCMusselshell,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+				
+}

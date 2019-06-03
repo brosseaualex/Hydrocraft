@@ -1,0 +1,444 @@
+module Hydrocraft
+
+{
+
+	item HCSantahat
+	{
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Santa Hat,
+        	Icon 			= HCSantahat,
+	}
+
+	item HCOrnamentblue
+	{
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Blue Ornament,
+        	Icon 			= HCOrnamentblue,
+	}
+
+	item HCOrnamentgreen
+	{
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Green Ornament,
+        	Icon 			= HCOrnamentgreen,
+	}
+
+	item HCOrnamentpurple
+	{
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Purple Ornament,
+        	Icon 			= HCOrnamentpurple,
+	}
+
+	item HCOrnamentred
+	{
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Red Ornament,
+        	Icon 			= HCOrnamentred,
+	}
+
+	item HCOrnamentsilver
+	{
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Silver Ornament,
+        	Icon 			= HCOrnamentsilver,
+	}
+
+	item HCOrnamentyellow
+	{
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Yellow Ornament,
+        	Icon 			= HCOrnamentyellow,
+	}
+
+	item HCStargold
+	{
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Gold Star,
+        	Icon 			= HCStargold,
+	}
+
+    	item HCStocking
+    {
+        WeightReduction     = 10,
+        Weight              = 0.1,
+        Type                = Container,
+        Capacity            = 8,
+        DisplayName         = Christmas Stocking,
+        Icon                = HCStocking,
+    }
+
+	item HCSnowglobe
+	{
+	    	Weight 			= 0.3,
+        	Type 			= Normal,
+        	DisplayName 		= Snow Globe,
+        	Icon 			= HCSnowglobe,
+	}
+
+	item HCwreath
+	{
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Christmas Wreath,
+        	Icon 			= HCwreath,
+	}
+
+	item HCGarland
+	{
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Garland,
+        	Icon 			= HCGarland,
+	}
+
+	item HCXmaslights
+	{
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Christmas Lights,
+        	Icon 			= HCXmaslights,
+	}
+
+	item HCXmasgift
+	{
+	    	Weight 			= 0.5,
+        	Type 			= Normal,
+        	DisplayName 		= Gift,
+        	Icon 			= HCXmasgift,
+		ResizeWorldIcon 	= 2.0,
+	}
+
+	item HCXmastree
+	{
+	    	Weight 			= 18,
+        	Type 			= Normal,
+        	DisplayName 		= Christmas Tree,
+        	Icon 			= HCXmastree,
+		ResizeWorldIcon 	= 2.0,
+	}
+
+	item HCXmastree2
+	{
+	    	Weight 			= 18,
+        	Type 			= Normal,
+        	DisplayName 		= Christmas Tree,
+        	Icon 			= HCXmastree2,
+		ResizeWorldIcon 	= 2.0,
+	}
+
+	item HCXmastree3
+	{
+	    	Weight 			= 18,
+        	Type 			= Normal,
+        	DisplayName 		= Christmas Tree,
+        	Icon 			= HCXmastree3,
+		ResizeWorldIcon 	= 2.0,
+	}
+
+	item HCXmastree4
+	{
+	    	Weight 			= 18,
+        	Type 			= Normal,
+        	DisplayName 		= Christmas Tree,
+        	Icon 			= HCXmastree4,
+		ResizeWorldIcon 	= 2.0,
+	}
+
+    	item HCCandybucket
+    {
+        	WeightReduction     	= 60,
+        	Weight             	 = 0.2,
+        	Type                	= Container,
+       	 	Capacity            	= 6,
+        	DisplayName         	= Candy Bucket,
+        	Icon                	= HCCandybucket,
+    }
+
+	item HCWitchhat
+	{
+	    	Weight 			= 0.1,
+        	Type 			= Normal,
+        	DisplayName 		= Witch Hat,
+        	Icon 			= HCWitchhat,
+	}
+
+	item HCJackolantern
+	{
+	    	Weight 			= 0.4,
+        	Type 			= Normal,
+        	DisplayName 		= Jack-O-Lantern,
+        	Icon 			= HCJackolantern,
+		ResizeWorldIcon 	= 2.0,
+	}
+
+	item HCJackolanternon
+	{
+		LightDistance		=	3,
+		Weight			=	0.4,
+		Type			=	Drainable,
+		TorchCone		=	FALSE,
+		UseDelta		=	0.003,
+		LightStrength		=	0.6,
+		DisplayName		=	Lit Jack-O-Lantern,
+		ActivatedItem		=	TRUE,
+		Icon			=	HCJackolanternon,
+		ResizeWorldIcon 	= 	2.0,
+	}
+
+	item HCJackolanternwhite
+	{
+	    	Weight 			= 0.4,
+        	Type 			= Normal,
+        	DisplayName 		= White Jack-O-Lantern,
+        	Icon 			= HCJackolanternwhite,
+		ResizeWorldIcon 	= 2.0,
+	}
+
+	item HCJackolanternwhiteon
+	{
+		LightDistance		=	3,
+		Weight			=	0.4,
+		Type			=	Drainable,
+		TorchCone		=	FALSE,
+		UseDelta		=	0.003,
+		LightStrength		=	0.6,
+		DisplayName		=	Lit White Jack-O-Lantern,
+		ActivatedItem		=	TRUE,
+		Icon			=	HCJackolanternwhiteon,
+		ResizeWorldIcon 	= 	2.0,
+	}
+
+	item HCJackolanterngreen
+	{
+	    	Weight 			= 0.4,
+        	Type 			= Normal,
+        	DisplayName 		= Green Jack-O-Lantern,
+        	Icon 			= HCJackolanterngreen,
+		ResizeWorldIcon 	= 2.0,
+	}
+
+	item HCJackolanterngreenon
+	{
+		LightDistance		=	3,
+		Weight			=	0.4,
+		Type			=	Drainable,
+		TorchCone		=	FALSE,
+		UseDelta		=	0.003,
+		LightStrength		=	0.6,
+		DisplayName		=	Lit Green Jack-O-Lantern,
+		ActivatedItem		=	TRUE,
+		Icon			=	HCJackolanterngreenon,
+		ResizeWorldIcon 	= 	2.0,
+	}
+
+	item HCPikehead
+	{
+	    	Weight 			= 2,
+        	Type 			= Normal,
+        	DisplayName 		= Head on a Pike,
+        	Icon 			= HCPikehead,
+		ResizeWorldIcon 	= 2.0,
+	}
+
+/************************WEAPONS************************/
+
+	item HCPumpkinknife
+	{
+		MaxRange			=	0.9,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		KnockBackOnNoDeath		=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		ConditionLowerChanceOneIn	=	2,
+		Weight				=	0.3,
+		SplatNumber			=	0,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.5,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		WeaponWeight			=	1.5,
+		DisplayName			=	Pumpkin Carving Knife,
+		MinRange			=	0.61,
+		CloseKillMove 			= 	Jaw_Stab,
+		SwingTime			=	2,
+		MinDamage			=	0.3,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCPumpkinknife,
+		RunAnim				=	Run_Weapon2,
+        	IdleAnim			=	Idle_Weapon2,
+        	BreakSound  			=   	PZ_MetalSnap,
+        	TreeDamage  			=   	1,
+        	EnduranceMod 			= 	0.5,
+	}
+
+/************************RECIPES************************/
+
+recipe Make Christmas Tree
+    {
+	Log=2,
+	Plank=2,
+	Nails,
+    	keep Hammer,
+	keep Saw,
+   	Result:HCXmastree,
+	Sound:PZ_Hammer,
+    	Time:50,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Decorate Christmas Tree
+    {
+	HCXmastree,
+	HCGarland=3,
+	HCStargold,
+    	CanBeDoneFromFloor:true,
+   	Result:HCXmastree2,
+    	Time:50,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Decorate Christmas Tree
+    {
+	HCXmastree2,
+	HCOrnamentblue,
+	HCOrnamentgreen,
+	HCOrnamentpurple,
+	HCOrnamentred,
+	HCOrnamentsilver,
+	HCOrnamentyellow,
+    	CanBeDoneFromFloor:true,
+   	Result:HCXmastree3,
+    	Time:50,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Decorate Christmas Tree
+    {
+	HCXmastree3,
+	HCXmaslights=3,
+	HCBatterylarge,
+    	CanBeDoneFromFloor:true,
+   	Result:HCXmastree4,
+    	Time:50,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCSnowglobe,
+    Result:HCSnowglobe,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Open Gift
+    {
+	HCXmasgift,
+   	Result:HCCardboardbox,
+    	Time:15,
+    	OnCreate:HCRandomGiftGet,
+    	Category:Leisure,
+    }
+
+recipe Carve Jack-O-Lantern
+       {
+       	HCPumpkin,
+	keep HCPumpkinknife,
+       	Result:HCJackolantern, 
+       	Time:50,
+    	Category:Leisure,
+    	OnCreate:recipe_hcpumpkinseeds8,
+    	OnGiveXP:HCCooking_OnGiveXP,
+       }
+
+recipe Carve Jack-O-Lantern
+       {
+       	HCPumpkinwhite,
+	keep HCPumpkinknife,
+       	Result:HCJackolanternwhite, 
+       	Time:50,
+    	Category:Leisure,
+    	OnCreate:recipe_hcpumpkinseeds8,
+    	OnGiveXP:HCCooking_OnGiveXP,
+       }
+
+recipe Carve Jack-O-Lantern
+       {
+       	HCPumpkingreen,
+	keep HCPumpkinknife,
+       	Result:HCJackolanterngreen, 
+       	Time:50,
+    	Category:Leisure,
+    	OnCreate:recipe_hcpumpkinseeds8,
+    	OnGiveXP:HCCooking_OnGiveXP,
+       }
+
+recipe Lite Jack-O-Lantern
+    	{
+    	HCJackolantern,
+	Candle,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Result:HCJackolanternon,
+    	Time:15,
+    	Category:Leisure,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Lite Jack-O-Lantern
+    	{
+    	HCJackolanternwhite,
+	Candle,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Result:HCJackolanternwhiteon,
+    	Time:15,
+    	Category:Leisure,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Lite Jack-O-Lantern
+    	{
+    	HCJackolanterngreen,
+	Candle,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Result:HCJackolanterngreenon,
+    	Time:15,
+    	Category:Leisure,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Put Head on Pike
+	{
+		HCZedhead,
+		WoodenStick/TreeBranch/Poolcue,
+		Result:HCPikehead,
+		Time:50.0,
+    		Category:Survivalist,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+}

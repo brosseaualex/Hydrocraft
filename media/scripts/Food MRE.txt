@@ -1,0 +1,128 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCMRE
+	{
+		DisplayName		=	MRE,
+		HungerChange		=	-40,
+		Weight			=	0.5,
+		Type			=	Food,
+		Icon			=	HCMRE,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	167,
+        	Proteins 		= 	31,
+        	Lipids 			= 	56,
+        	Calories 		= 	1264,
+        	Packaged 		= 	TRUE,
+        	CantBeFrozen 		= 	TRUE,	
+	}
+
+item HCMREbox
+	{
+		Weight			=	2,
+		Icon			=	HCMREbox,
+		DisplayName		=	Box of MREs,
+	}
+
+item HCMREpalletsmall
+    {
+        Weight    		= 12.0,
+        Type   			= Normal,
+        DisplayName         	= Small Pallet of MREs,
+        icon 			= HCMREpalletsmall,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCMREpalletmedium
+    {
+        Weight    		= 12.0,
+        Type   			= Normal,
+        DisplayName         	= Medium Pallet of MREs,
+        icon 			= HCMREpalletmedium,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCMREpalletlarge
+    {
+        Weight    		= 12.0,
+        Type   			= Normal,
+        DisplayName         	= Large Pallet of MREs,
+        icon 			= HCMREpalletlarge,
+	ResizeWorldIcon 	= 2.0,
+    }
+		
+/************************RECIPES************************/
+    
+recipe Unbox MREs
+    	{
+	HCMREbox,
+	Result:HCMRE=20,
+	Time:15.0,
+	Category:Cooking,
+    	}	
+
+recipe Unpack Small Pallet of MREs
+    {
+    	HCMREpalletsmall,
+    	Result:HCMREbox=8,
+    	Time:20.0,
+    	Category:Cooking,
+    	OnCreate:recipe_hcpallet,
+    }
+
+recipe Pack Small Pallet of MREs
+    {
+    	HCMREbox=8,
+    	HCRopethick,
+	HCWoodenpallet,
+    	Result:HCMREpalletsmall,
+    	Time:20.0,
+    	Category:Cooking,
+    }
+
+recipe Unpack Medium Pallet of MREs
+    {
+    	HCMREpalletmedium,
+    	Result:HCMREbox=16,
+    	Time:20.0,
+    	Category:Cooking,
+    	OnCreate:recipe_hcpallet,
+    }
+
+recipe Pack Medium Pallet of MREs
+    {
+    	HCMREbox=16,
+    	HCRopethick,
+	HCWoodenpallet,
+    	Result:HCMREpalletmedium,
+    	Time:20.0,
+    	Category:Cooking,
+    }
+
+recipe Unpack Large Pallet of MREs
+    {
+    	HCMREpalletlarge,
+    	Result:HCMREbox=24,
+    	Time:20.0,
+    	Category:Cooking,
+    	OnCreate:recipe_hcpallet,
+    }
+
+recipe Pack Large Pallet of MREs
+    {
+    	HCMREbox=24,
+    	HCRopethick,
+	HCWoodenpallet,
+    	Result:HCMREpalletlarge,
+    	Time:20.0,
+    	Category:Cooking,
+    }
+			
+}

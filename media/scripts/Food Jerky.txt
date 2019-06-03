@@ -1,0 +1,120 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCBasicmarinade
+	{
+	Weight 				= 	1,
+	AlwaysWelcomeGift 		= 	true,
+	Type 				= 	Drainable,
+	UseDelta 			= 	0.25,
+	DisplayName 			= 	Basic Marinade,
+	ReplaceOnDeplete		=	HCJar,
+	Icon				=	HCMarinadfull,
+	}
+
+item HCTastymarinade
+	{
+	Weight 				= 	1,
+	AlwaysWelcomeGift 		= 	true,
+	Type 				= 	Drainable,
+	UseDelta 			= 	0.25,
+	DisplayName 			= 	Tasty Marinade,
+	ReplaceOnDeplete		=	HCJar,
+	Icon				=	HCMarinadfull,
+	}
+
+item HCSimplejerky
+	{
+	HungerChange 			= 	-15,
+	IsCookable 			= 	TRUE,
+	DangerousUncooked 		= 	TRUE,
+	MinutesToBurn 			= 	120,
+	MinutesToCook 			= 	80,
+	Weight 				= 	0.2,
+	AlwaysWelcomeGift 		= 	true,
+	UnhappyChange			=	-5,
+	Type 				= 	Food,
+	EvolvedRecipe 			= 	Stew:15;Pie:10;Stir fry:10;Sandwich:5;Salad:5;Roasted Vegetables:10,
+	DisplayName 			= 	Simple Homemade Jerky,
+	Icon 				= 	BeefJerky,
+	}
+
+item HCTastyjerky
+	{
+	HungerChange 			= 	-15,
+	IsCookable 			= 	TRUE,
+	DangerousUncooked 		= 	TRUE,
+	MinutesToBurn 			= 	120,
+	MinutesToCook 			= 	80,
+	Weight 				= 	0.2,
+	AlwaysWelcomeGift 		= 	true,
+	UnhappyChange			=	-15,
+	Type 				= 	Food,
+	EvolvedRecipe 			= 	Stew:15;Pie:15;Stir fry:15;Sandwich:5;Salad:5;Roasted Vegetables:15,
+	DisplayName 			= 	Tasty Homemade Jerky,
+	Icon 				= 	BeefJerky,
+	}
+
+/************************RECIPES************************/
+    
+
+recipe Make Basic Marinade
+	{
+       		SkillRequired:Cooking=3,
+		HCJar,
+		HCSoysauce,
+		HCBBQsauce/HCBBQsaucebowl,
+		Salt;1,
+		Result:HCBasicmarinade,
+		NeedToBeLearn:true, 
+		Time:100,
+	   	Category:Cooking,
+		OnCreate:HCRecipeBowls,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Tasty Marinade
+	{
+       		SkillRequired:Cooking=3,
+		destroy HCBasicmarinade,
+		Pepper,
+		HCGarlicpowder,
+		Result:HCTastymarinade,
+    		NeedToBeLearn:true, 
+		Time:100,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+recipe Make Simple Jerky
+	{
+       		SkillRequired:Cooking=3,
+		HCCrab/HCHerring/Salmon/FishFillet/FrogMeat/Smallbirdmeat/Chicken/HCDuckmeat/HCGoosemeat/HCTurkeymeat/Smallanimalmeat/Rabbitmeat/HCSmallgamesteak/HCVenison/HCBearsteak/MuttonChop/PorkChop/HCFreshham/Steak/HCCheval,
+		HCBasicmarinade,
+		Result:HCSimplejerky=3,
+    		NeedToBeLearn:true, 
+		Time:200,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Tasty Jerky
+	{
+       		SkillRequired:Cooking=3,
+		HCCrab/HCHerring/Salmon/FishFillet/FrogMeat/Smallbirdmeat/Chicken/HCDuckmeat/HCGoosemeat/HCTurkeymeat/Smallanimalmeat/Rabbitmeat/HCSmallgamesteak/HCVenison/HCBearsteak/MuttonChop/PorkChop/HCFreshham/Steak/HCCheval,
+		HCTastymarinade,
+		Result:HCTastyjerky=3,
+    		NeedToBeLearn:true, 
+		Time:200,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+	
+}

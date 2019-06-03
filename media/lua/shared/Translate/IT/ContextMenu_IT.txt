@@ -1,0 +1,5 @@
+ContextMenu_IT = {
+	ContextMenu_Sow_Trellis_Seed = "Semi di Vite su Traliccio",
+	ContextMenu_Sniff = "Annusare",
+	ContextMenu_Inject = "Iniettare",
+}

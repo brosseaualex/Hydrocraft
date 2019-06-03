@@ -1,0 +1,119 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+	
+item HCCornonthecob
+	{
+	HungerChange			=	-20,
+	Weight				=	0.2,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	FALSE,
+	DaysFresh			=	5,
+	DaysTotallyRotten		=	8,
+	DisplayName			=	Corn On the Cob,
+	ReplaceOnUse			=	Pan,
+	Icon				=	HCCorncob,
+	FoodType			=	Vegetables,
+	Carbohydrates 			= 	43.7,
+        Proteins 			= 	6.2,
+        Lipids 				= 	4.7,
+        Calories 			= 	212,
+	}
+
+item HCLeftovers1
+	{
+	HungerChange			=	-30,
+	Weight				=	0.4,
+	Type				=	Food,
+	DisplayName			=	Leftovers,
+	Icon				=	HCLeftovers1,
+	DaysFresh			=	2,
+	DaysTotallyRotten		=	4,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	125,
+        Proteins 			= 	25.5,
+        Lipids 				= 	4.5,
+        Calories 			= 	650,
+	}
+
+item HCLeftovers2
+	{
+	HungerChange			=	-20,
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Chinese Takeout,
+	Icon				=	HCLeftovers2,
+	DaysFresh			=	2,
+	DaysTotallyRotten		=	4,
+	BoredomChange			=	-10,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	25,
+        Proteins 			= 	29.6,
+        Lipids 				= 	24,
+        Calories 			= 	258,
+	}
+
+item HCCottoncandy
+	{
+	HungerChange			=	-15,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Cotton Candy,
+	Icon				=	HCCottoncandy,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	98,
+        Proteins 			= 	0,
+        Lipids 				= 	0.2,
+        Calories 			= 	394,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCPretzel
+	{
+	HungerChange			=	-15,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Pretzel,
+	Icon				=	HCPretzel,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	80,
+        Proteins 			= 	10,
+        Lipids 				= 	2.9,
+        Calories 			= 	384,
+	}
+		
+/************************RECIPES************************/
+    
+		
+recipe Make Corn on the Cob
+	{
+		Pan,
+		Corn,
+		Butter;5,
+		Result:HCCornonthecob,
+		Time:85.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+recipe Make Corn on the Cob
+	{
+		Pan,
+		Corn,
+		HCCookingoil=2,
+		Result:HCCornonthecob,
+		Time:85.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+			
+}

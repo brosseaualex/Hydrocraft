@@ -1,0 +1,1417 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCSaladtongs
+    {
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Salad Tongs,
+        icon 				= HCSaladtongs,
+    }
+
+item HCChopsticks
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Chopsticks,
+        icon 				= HCChopsticks,
+    }
+
+item HCWhisk
+    {
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Whisk,
+        icon 				= HCWhisk,
+    }
+
+item HCCookingapron
+    {
+        Weight    			=    0.3,
+        Type    			=    Normal,
+        DisplayName    			=    Cooking Apron,
+        Icon    			=    HCCookingapron,
+    }
+
+item HCWaxpaper
+    {
+        Weight    			=    0.1,
+        Type    			=    Normal,
+        DisplayName    			=    Wax Paper,
+        Icon    			=    HCWaxpaper,
+    }
+
+item HCPapertowelwet
+    {
+	Type				=	Normal,
+	DisplayName			=	Wet Paper Towel,
+	Icon				=	HCPapertowelwet,
+	Weight				=	0.3,
+    }
+  
+item HCPapertowel
+    {
+	Weight				=	0.1,
+	Type				=	Drainable,
+	DisplayName			=	Paper Towel,
+        UseWhileEquipped		=	FALSE,
+	Icon				=	HCPapertowel,
+        UseDelta			=	0.1,
+	ReplaceOnDeplete		=	HCPapertowelwet,
+    }
+
+item HCPapertowelroll
+    {
+        Weight        			=   0.3,
+        Type          			=   Normal,
+        DisplayName    			=   Roll of Paper Towels,
+        Icon    			=   HCPapertowelroll,
+    }
+
+item HCNapkin
+    {
+        Weight        			=   0.01,
+        Type          			=   Normal,
+        DisplayName    			=   Napkin,
+        Icon    			=   HCNapkin,
+    }
+
+
+item HCNapkindirty
+    {
+        Weight        			=   0.01,
+        Type          			=   Normal,
+        DisplayName    			=   Dirty Napkin,
+        Icon    			=   HCNapkindirty,
+    }
+
+item HCNapkinstack
+    {
+        Weight        			=   0.01,
+        Type          			=   Normal,
+        DisplayName    			=   Stack of Napkins,
+        Icon    			=   HCNapkinstack,
+    }
+
+item HCNapkinholder
+    {
+        Weight        			=   0.1,
+        Type          			=   Normal,
+        DisplayName    			=   Napkin Holder,
+        Icon    			=   HCNapkinstack,
+    }
+
+item HCNapkinholderfull
+    {
+        Weight        			=   0.1,
+        Type          			=   Normal,
+        DisplayName    			=   Full Napkin Holder,
+        Icon    			=   HCNapkinholderfull,
+    }
+
+item HCPlasticstraw
+    {
+        Weight        			=   0.01,
+        Type          			=   Normal,
+        DisplayName    			=   Plastic Straw,
+        Icon    			=   HCPlasticstraw,
+    }
+
+item HCCoffeefilterdry
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Dry Coffee Filter,
+        icon 				= HCCoffeefilterdry,
+    }
+
+item HCCoffeefilterwet
+    {
+        Weight    			= 0.2,
+        Type    			= Normal,
+        DisplayName         		= Wet Coffee Filter,
+        icon 				= HCCoffeefilterwet,
+    }
+
+item HCCoffeefilterpapertowel
+    {
+        Weight    			= 0.2,
+        Type    			= Normal,
+        DisplayName         		= Drying Coffee Filter,
+        icon 				= HCCoffeefilterpapertowel,
+    }
+
+item HCThermos
+    {
+        Weight   			 = 1,
+	CanStoreWater			= TRUE,
+        Type    			= Normal,
+        DisplayName         		= Thermos,
+	ReplaceOnUseOn			= WaterSource-HCThermosfull,
+        icon 				= HCThermos,
+	RainFactor 			= 1,
+    }
+
+item HCThermosfull
+    {
+	IsWaterSource			=	TRUE,
+	Weight				=	2,
+	CanStoreWater			=	TRUE,
+	Type				=	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.07,
+	DisplayName			=	Thermos with Water,
+	ReplaceOnDeplete		=	HCThermos,
+	ReplaceOnUseOn			=	WaterSource-HCThermosfull,
+	Icon				=	HCThermos,
+	RainFactor 			= 	1,
+    }
+
+item HCAlestien
+    {
+        Weight    		= 0.2,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Ale Stein,
+	ReplaceOnUseOn		= WaterSource-HCAlestienfull,
+        icon 			= HCAlestien,
+	RainFactor 		= 0.2,
+    }
+
+item HCAlestienfull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	1,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Ale Stein with Water,
+	ReplaceOnDeplete	=	HCPlasticcup,
+	ReplaceOnUseOn		=	WaterSource-HCAlestienfull,
+	Icon			=	HCAlestien,
+	RainFactor 		= 	0.2,
+    }
+
+item HCCookiejar
+    {
+        Weight    			= 1,
+        Type    			= Normal,
+        DisplayName         		= Cookie Jar,
+        icon 				= HCCookiejar,
+    }
+
+item HCCookiemold
+    {
+	Weight				=	0.1,
+	Type				=	Normal,
+	DisplayName			=	Cookie Mold,
+	Icon				=	HCCookiemold,
+        MetalValue 			= 	5,
+    }
+
+item HCBottleopener
+    {
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Bottle Opener,
+        icon 				= HCBottleopener,
+    }
+
+item HCCheesegrater
+    {
+        Weight    			= 0.2,
+        Type    			= Normal,
+        DisplayName         		= Cheese Grater,
+        icon 				= HCCheesegrater,
+    }
+
+item HCEggbeater
+    {
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Egg Beater,
+        icon 				= HCEggbeater,
+    }
+
+item HCColander
+    {
+        Weight    			= 0.5,
+        Type    			= Normal,
+        DisplayName         		= Colander,
+        icon 				= HCColander,
+    }
+
+item HCSieve
+    {
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Sieve,
+        icon 				= HCSieve,
+    }
+
+item HCJuicer
+    {
+        Weight    			= 0.2,
+        Type    			= Normal,
+        DisplayName         		= Juicer,
+        icon 				= HCJuicer,
+    }
+
+item HCJuicer2
+    {
+        Weight    			= 0.5,
+        Type    			= Normal,
+        DisplayName         		= Mechanical Juicer,
+        icon 				= HCJuicer2,
+    }
+
+item HCMeatgrinder
+    {
+        Weight    			= 0.5,
+        Type    			= Normal,
+        DisplayName         		= Meat Grinder,
+        icon 				= HCMeatgrinder,
+    }
+
+item HCIcecreamscoop
+    {
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Ice Cream Scoop,
+        icon 				= HCIcecreamscoop,
+    }
+
+item HCLadle
+    {
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Ladle,
+        icon 				= HCLadle,
+    }
+
+item HCPizzacutter
+    {
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Pizza Cutter,
+        icon 				= HCPizzacutter,
+    }
+
+item HCPizzastone
+    {
+        Weight    			= 3,
+        Type    			= Normal,
+        DisplayName     		= Pizza Stone,
+        icon 				= HCPizzastone,
+    }
+
+item HCSaranwrap
+   {
+	Weight 				= 0.3,
+	Type 				= Drainable,
+	UseWhileEquipped 		= FALSE,
+	UseDelta 			= 0.05,
+	DisplayName			= Cling Wrap,
+	Icon 				= HCSaranwrap,
+    }
+
+item HCTablespoon
+    {
+        Weight    			= 0.2,
+        Type    			= Normal,
+        DisplayName         		= Table Spoon,
+        icon 				= HCTablespoon,
+    }
+
+item HCTeaspoon
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Teaspoon,
+        icon 				= HCTeaspoon,
+    }
+
+item HCPlasticspoonbox
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Box of Plastic Spoons,
+        icon 				= HCPlasticspoonbox,
+    }
+
+item HCPlasticforkbox
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Box of Plastic Forks,
+        icon 				= HCPlasticforkbox,
+    }
+
+item HCPlasticknifebox
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Box of Plastic Knives,
+        icon 				= HCPlasticknifebox,
+    }
+
+item HCPlasticcoffeespoon
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Plastic Coffee Spoon,
+        icon 				= HCPlasticcoffeespoon,
+    }
+
+item HCPlasticplate
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Plastic Plate,
+        icon 				= HCPlasticplate,
+    }
+
+item HCPlasticplate2
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Plastic Plate,
+        icon 				= HCPlasticplate2,
+    }
+
+item HCPlasticplatestack
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Stack of Plastic Plates,
+        icon 				= HCPlasticplatestack,
+    }
+
+item HCPlasticplatestack2
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Stack of Plastic Plates,
+        icon 				= HCPlasticplatestack2,
+    }
+
+item HCPlasticcup
+    {
+        Weight    		= 0.1,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Plastic Cup,
+	ReplaceOnUseOn		= WaterSource-HCPlasticcupfull,
+        icon 			= HCPlasticcup,
+	RainFactor 		= 0.2,
+    }
+
+item HCPlasticcupfull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	0.8,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Plastic Cup with Water,
+	ReplaceOnDeplete	=	HCPlasticcup,
+	ReplaceOnUseOn		=	WaterSource-HCPlasticcupfull,
+	Icon			=	HCPlasticcup,
+	RainFactor 		= 	0.2,
+    }
+
+item HCPlasticcupstack
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Stack of Plastic Cups,
+        icon 				= HCPlasticcupstack,
+    }
+
+item HCStyrofoamcup
+    {
+        Weight    		= 0.1,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Styrofoam Cup,
+	ReplaceOnUseOn		= WaterSource-HCStyrofoamcupfull,
+        icon 			= HCStyrofoamcup,
+	RainFactor 		= 0.2,
+    }
+
+item HCStyrofoamcupfull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	0.8,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Styrofoam Cup with Water,
+	ReplaceOnDeplete	=	HCStyrofoamcup,
+	ReplaceOnUseOn		=	WaterSource-HCStyrofoamcupfull,
+	Icon			=	HCStyrofoamcup,
+	RainFactor 		= 	0.2,
+    }
+
+item HCStyrofoamcupstack
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Stack of Styrofoam Cups,
+        icon 				= HCStyrofoamcupstack,
+    }
+
+item HCTray
+    {
+        Weight    			= 0.4,
+        Type    			= Normal,
+        DisplayName         		= Plastic Tray,
+        icon 				= HCTray,
+    }
+
+item HCTray2
+    {
+        Weight    			= 0.4,
+        Type    			= Normal,
+        DisplayName         		= Metal Tray,
+        icon 				= HCTray2,
+    }
+
+item HCToaster
+    {
+        Weight    			= 1.0,
+        Type    			= Normal,
+        DisplayName         		= Toaster,
+        icon 				= HCToaster,
+    }
+
+item HCChefhat
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Chef Hat,
+        icon 				= HCChefhat,
+    }
+
+item HCNutcracker
+    {
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Nut Cracker,
+        icon 				= HCNutcracker,
+    }
+
+item HCPotatopeeler
+    {
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName        		= Potato Peeler,
+        icon 				= HCPotatopeeler,
+    }
+
+item HCPotatomasher
+    {
+        Weight   			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Potato Masher,
+        icon 				= HCPotatomasher,
+    }
+
+item HCSpatula
+    {
+        Weight   			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Spatula,
+        icon 				= HCSpatula,
+    }
+
+item HCWoodenspatula
+    {
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName        		= Wooden Spatula,
+        icon 				= HCWoodenspatula,
+    }
+
+item HCFloursieve
+    {
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Flour Sieve,
+        icon 				= HCFloursieve,
+    }
+
+item HCScale
+    {
+        Weight    			= 0.5,
+        Type    			= Normal,
+        DisplayName         		= Scale,
+        icon 				= HCScale,
+    }
+
+item HCMuffinpan
+    {
+        Weight    			= 0.2,
+        Type    			= Normal,
+        DisplayName         		= Muffin Pan,
+        icon 				= HCMuffinpan,
+    }
+
+item HCBreadpan
+    {
+        Weight    			= 0.4,
+        Type    			= Normal,
+        DisplayName         		= Bread Pan,
+        icon 				= HCBreadpan,
+    }
+
+item HCBlender
+    {
+        Weight    			= 1.0,
+        Type    			= Normal,
+        DisplayName         		= Blender,
+        icon 				= HCBlender,
+    }
+
+item HCBlenderpowered
+	{
+	Weight 				= 	1.0,
+	Type 				= 	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.125,
+	DisplayName 			= 	Blender with Power,
+	ReplaceOnDeplete		=	HCBlenderdead,
+	Icon 				= 	HCBlenderpowered,
+	}
+
+item HCBlenderdead
+    {
+        Weight    			= 1.0,
+        Type    			= Normal,
+        DisplayName         		= Blender with Dead Battery,
+        icon 				= HCBlenderdead,
+    }
+
+item HCCuttingboard
+    {
+        Weight    			= 0.2,
+        Type    			= Normal,
+        DisplayName         		= Cutting Board,
+        icon 				= HCCuttingboard,
+    }
+
+item HCMeasuringcup
+    {
+        Weight    			= 0.2,
+        Type    			= Normal,
+        DisplayName         		= Measuring Cup,
+        icon 				= HCMeasuringcup,
+    }
+
+item HCGlassshortempty
+	{
+	Weight 				= 0.2,
+	Type 				= Normal,
+	DisplayName 			= Empty Short Glass,
+	Icon 				= HCGlassshortempty,
+    	}
+
+item HCGlasstallempty
+	{
+	Weight 				= 0.3,
+	Type 				= Normal,
+	DisplayName 			= Empty Tall Glass,
+	Icon 				= HCGlasstallempty,
+	}
+
+item HCMargaritaglassempty
+	{
+	Weight 				= 0.2,
+	Type 				= Normal,
+	DisplayName 			= Empty Margarita Glass,
+	Icon 				= HCMargaritaglassempty,
+	}
+
+item HCCocktailglassempty
+	{
+	Weight 				= 0.2,
+	Type 				= Normal,
+	DisplayName 			= Empty Cocktail Glass,
+	Icon 				= HCCocktailglassempty,
+	}
+
+item HCCocktailshaker
+	{
+	Weight 				= 0.5,
+	Type 				= Normal,
+	DisplayName 			= Cocktail Shaker,
+	Icon 				= HCCocktailshaker,
+	}
+
+item HCDutchoven
+    {
+        Weight    			= 6.0,
+        Type    			= Normal,
+        DisplayName         		= Dutch Oven,
+        icon 				= HCDutchoven,
+    }
+
+item HCWok
+    {
+        Weight    			= 2.0,
+        Type    			= Normal,
+        DisplayName         		= Wok,
+        icon 				= HCWok,
+    }
+
+item HCRicecooker
+    {
+        Weight    			= 1.0,
+        Type    			= Normal,
+        DisplayName         		= Rice Cooker,
+        icon 				= HCRicecooker,
+    }
+
+item HCRicecookerpowered
+	{
+	Weight 				= 	1.0,
+	Type 				= 	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.125,
+	DisplayName 			= 	Rice Cooker with Power,
+	ReplaceOnDeplete		=	HCRicecookerdead,
+	Icon 				= 	HCRicecookerpowered,
+	}
+
+item HCRicecookerdead
+    {
+        Weight    			= 1.0,
+        Type    			= Normal,
+        DisplayName         		= Rice Cooker with Dead Battery,
+        icon 				= HCRicecookerdead,
+    }
+
+item HCZipperbag
+    {
+        Weight    			= 0.01,
+        Type    			= Normal,
+        DisplayName         		= Zipper Bag,
+        icon 				= HCZipperbag,
+    }
+
+item HCZipperbagfull
+	{
+	IsWaterSource			=	TRUE,
+	Weight 				= 	0.3,
+	Type 				= 	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta 			= 	0.2,
+	DisplayName 			= 	Full Zipper Bag,
+	ReplaceOnDeplete		=	HCZipperbag,
+	ReplaceOnUseOn			=	WaterSource-HCZipperbagfull,
+	Icon 				= 	HCZipperbagfull,
+	}
+
+item HCZipperbagbox
+    {
+        Weight    			= 0.5,
+        Type    			= Normal,
+        DisplayName         		= Box of Zipper Bags,
+        icon 				= HCZipperbagbox,
+    }
+
+item HCMenu
+    {
+        Weight    			=    0.1,
+        Type    			=    Normal,
+        DisplayName    			=    Menu,
+        Icon    			=    HCMenu,
+    }
+
+item HCKettlecopper
+    {
+        Weight    		= 1,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Copper Kettle,
+	ReplaceOnUseOn		= WaterSource-HCKettlecopperfull,
+        icon 			= HCKettlecopper,
+	RainFactor 		= 1,
+    }
+
+item HCKettlecopperfull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	2,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Copper Kettle with Water,
+	ReplaceOnDeplete	=	HCKettlecopper,
+	ReplaceOnUseOn		=	WaterSource-HCKettlecopperfull,
+	Icon			=	HCKettlecopper,
+	IsCookable		=	TRUE,
+	RainFactor 		= 	1,
+    }
+
+item HCMugcopper
+    {
+        Weight    		= 0.2,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Copper Mug,
+	ReplaceOnUseOn		= WaterSource-HCMugcopperfull,
+        icon 			= HCMugcopper,
+	RainFactor 		= 0.2,
+    }
+
+item HCMugcopperfull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	1,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Copper Mug with Water,
+	ReplaceOnDeplete	=	HCMugcopper,
+	ReplaceOnUseOn		=	WaterSource-HCMugcopperfull,
+	Icon			=	HCMugcopper,
+	RainFactor 		= 	0.2,
+    }
+
+item HCPyrexdish
+	{
+	Weight			=	0.3,
+	Type			=	Normal,
+	DisplayName		=	Pyrex Dish,
+	Icon			=	HCPyrexdish,
+	}
+
+item HCJellomold1
+    {
+        Weight    		= 	0.5,
+        Type    		= 	Normal,
+        DisplayName     	=	Rounded Jello Mold,
+        icon 			= 	HCJellomold1,
+    }
+
+/************************WEAPONS************************/
+
+	item HCPlasticfork
+	{
+		MaxRange			=	0.6,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		Weight				=	0.3,
+		ConditionLowerChanceOneIn	=	1,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.1,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	3,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		CriticalChance			=	5,
+		WeaponWeight			=	0.3,
+		DisplayName			=	Plastic Fork,
+		MinRange			=	0.2,
+		SwingTime			=	2,
+		MinDamage			=	0.1,
+		KnockdownMod			=	0,
+		Icon				=	HCPlasticfork,
+		TreeDamage  			=   	0,
+		EnduranceMod 			= 	0.5,
+	}
+
+	item HCPlasticspoon
+	{
+		MaxRange			=	0.6,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		Weight				=	0.3,
+		ConditionLowerChanceOneIn	=	1,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.1,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	3,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		CriticalChance			=	5,
+		WeaponWeight			=	0.3,
+		DisplayName			=	Plastic Spoon,
+		MinRange			=	0.2,
+		SwingTime			=	2,
+		MinDamage			=	0.1,
+		KnockdownMod			=	0,
+		Icon				=	HCPlasticspoon,
+		TreeDamage  			=   	0,
+		EnduranceMod 			= 	0.5,
+	}
+
+	item HCPlasticsknife
+	{
+		MaxRange			=	0.6,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		Weight				=	0.3,
+		ConditionLowerChanceOneIn	=	1,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.1,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	3,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		CriticalChance			=	5,
+		WeaponWeight			=	0.3,
+		DisplayName			=	Plastic Knife,
+		MinRange			=	0.2,
+		SwingTime			=	2,
+		MinDamage			=	0.1,
+		KnockdownMod			=	0,
+		Icon				=	HCPlasticknife,
+		TreeDamage  			=   	0,
+		EnduranceMod 			= 	0.5,
+	}
+
+	item HCSpork
+	{
+		MaxRange			=	0.6,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		Weight				=	0.3,
+		ConditionLowerChanceOneIn	=	1,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.1,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	3,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		CriticalChance			=	5,
+		WeaponWeight			=	0.3,
+		DisplayName			=	Spork,
+		MinRange			=	0.2,
+		SwingTime			=	2,
+		MinDamage			=	0.1,
+		KnockdownMod			=	0,
+		Icon				=	HCSpork,
+		TreeDamage  			=   	0,
+		EnduranceMod 			= 	0.5,
+	}
+
+	item HCSteakknife
+	{
+		MaxRange			=	0.9,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		KnockBackOnNoDeath		=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		ConditionLowerChanceOneIn	=	2,
+		Weight				=	0.3,
+		SplatNumber			=	0,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.5,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		WeaponWeight			=	1.5,
+		DisplayName			=	Steak Knife,
+		MinRange			=	0.61,
+		CloseKillMove 			= 	Jaw_Stab,
+		SwingTime			=	2,
+		MinDamage			=	0.3,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCSteakknife,
+		RunAnim				=	Run_Weapon2,
+        	IdleAnim			=	Idle_Weapon2,
+        	BreakSound  			=   	PZ_MetalSnap,
+        	TreeDamage  			=   	1,
+        	EnduranceMod 			= 	0.5,
+	}
+
+	item HCBreadknife
+	{
+		MaxRange			=	0.9,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		KnockBackOnNoDeath		=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		ConditionLowerChanceOneIn	=	2,
+		Weight				=	0.3,
+		SplatNumber			=	0,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.5,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		WeaponWeight			=	1.5,
+		DisplayName			=	Bread Knife,
+		MinRange			=	0.61,
+		CloseKillMove 			= 	Jaw_Stab,
+		SwingTime			=	2,
+		MinDamage			=	0.3,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCBreadknife,
+		RunAnim				=	Run_Weapon2,
+        	IdleAnim			=	Idle_Weapon2,
+        	BreakSound  			=   	PZ_MetalSnap,
+        	TreeDamage  			=   	1,
+        	EnduranceMod 			= 	0.5,
+	}
+
+	item HCWoodenspoon
+	{
+		MaxRange	=	0.6,
+		WeaponSprite	=	Knife,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Blade,
+		Weight	=	0.3,
+		ConditionLowerChanceOneIn	=	1,
+		PushBackMod	=	0.3,
+		MaxDamage	=	0.1,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	3,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Stab,
+		CriticalChance	=	5,
+		WeaponWeight	=	0.3,
+		DisplayName	=	Wooden Spoon,
+		MinRange	=	0.2,
+		SwingTime	=	2,
+		MinDamage	=	0.1,
+		KnockdownMod	=	0,
+		Icon	=	HCWoodenspoon,
+		TreeDamage  =   0,
+		EnduranceMod = 0.5,
+	}
+
+	item HCWoodenfork
+	{
+		MaxRange	=	0.6,
+		WeaponSprite	=	Knife,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Blade,
+		Weight	=	0.3,
+		ConditionLowerChanceOneIn	=	1,
+		PushBackMod	=	0.3,
+		MaxDamage	=	0.1,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	3,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Stab,
+		CriticalChance	=	5,
+		WeaponWeight	=	0.3,
+		DisplayName	=	Wooden Fork,
+		MinRange	=	0.2,
+		SwingTime	=	2,
+		MinDamage	=	0.1,
+		KnockdownMod	=	0,
+		Icon	=	HCWoodenfork,
+		TreeDamage  =   0,
+		EnduranceMod = 0.5,
+	}
+
+
+	item HCMeatcleaver
+	{
+		MaxRange	=	1.0,
+		WeaponSprite	=	Fireaxe,
+		MinAngle	=	0,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Blade,
+		ConditionLowerChanceOneIn	=	5,
+		Weight	=	0.4,
+		SplatNumber	=	1,
+		PushBackMod	=	0.3,
+		MinDamage	=	0.5,
+		MaxDamage	=	1.0,
+		SubCategory	=	Swinging,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		DoorDamage	=	5,
+		IdleAnim	=	Idle_Weapon2,
+		SwingAnim	=	Bat,
+		CriticalChance	=	20,
+		WeaponWeight	=	1.8,
+		DisplayName	=	Meat cleaver,
+		MinRange	=	0.61,
+		SwingTime	=	2,
+		HitAngleMod	=	-30,
+		SplatSize	=	5,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HCMeatcleaver,
+		RunAnim	=	Run_Weapon2,
+        BreakSound  =   PZ_MetalSnap,
+        TreeDamage  =   5,
+	}
+
+item HCEggtimer
+    {
+        Weight			=	0.5,
+        MaxRange		=	10,
+        Type			=	Weapon,
+        MinimumSwingTime	=	1.5,
+        SwingAnim		=	Bat,
+        UseSelf			=	TRUE,
+        DisplayName		=	Egg Timer,
+        SwingTime		=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject		=	NoiseGenerator,
+        MinDamage		=	0,
+        MaxDamage		=	0,
+        MaxHitCount		=	0,
+        Icon			=	HCEggtimer,
+        NoiseRange  		=   	10,
+        CanBePlaced 		= 	TRUE,
+        ExplosionSound  	=   	alarmclock,
+    }
+
+	item HCSterlingsilverfork
+	{
+		MaxRange			=	0.6,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		Weight				=	0.3,
+		ConditionLowerChanceOneIn	=	1,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.1,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	3,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		CriticalChance			=	5,
+		WeaponWeight			=	0.3,
+		DisplayName			=	Sterling Silver Fork,
+		MinRange			=	0.2,
+		SwingTime			=	2,
+		MinDamage			=	0.1,
+		KnockdownMod			=	0,
+		Icon				=	HCSterlingsilverfork,
+		TreeDamage  			=   	0,
+		EnduranceMod 			= 	0.5,
+	}
+
+	item HCSterlingsilverspoon
+	{
+		MaxRange			=	0.6,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		Weight				=	0.3,
+		ConditionLowerChanceOneIn	=	1,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.1,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	3,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		CriticalChance			=	5,
+		WeaponWeight			=	0.3,
+		DisplayName			=	Sterling Silver Spoon,
+		MinRange			=	0.2,
+		SwingTime			=	2,
+		MinDamage			=	0.1,
+		KnockdownMod			=	0,
+		Icon				=	HCSterlingsilverspoon,
+		TreeDamage  			=   	0,
+		EnduranceMod 			= 	0.5,
+	}
+
+	item HCSterlingsilverknife
+	{
+		MaxRange			=	0.6,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		Weight				=	0.3,
+		ConditionLowerChanceOneIn	=	1,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.1,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	3,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		CriticalChance			=	5,
+		WeaponWeight			=	0.3,
+		DisplayName			=	Sterling Silver Knife,
+		MinRange			=	0.2,
+		SwingTime			=	2,
+		MinDamage			=	0.1,
+		KnockdownMod			=	0,
+		Icon				=	HCSterlingsilverknife,
+		TreeDamage  			=   	0,
+		EnduranceMod 			= 	0.5,
+	}
+
+
+/************************RECIPES************************/
+
+recipe Stack Napkins
+    {
+    HCNapkin=6,
+    Result:HCNapkinstack,
+    Time:15,
+    }
+
+recipe Unstack Napkins
+    {
+    HCNapkinstack,
+    Result:HCNapkin=6,
+    Time:15,
+    }
+
+recipe Put Napkins in Holder
+    {
+    HCNapkin=6,
+    HCNapkinholder,
+    Result:HCNapkinholderfull,
+    Time:15,
+    }
+
+recipe Remove Napkins from Holder
+    {
+    HCNapkinholderfull,
+    Result:HCNapkin=6,
+    Time:15,
+    OnCreate:recipe_hcnapkinholder,
+    }   
+
+recipe Unbox Plastic Forks
+    {
+    HCPlasticforkbox,
+    Result:HCPlasticfork=20,
+    Time:15,
+    }
+
+recipe Unbox Plastic Spoons
+    {
+    HCPlasticspoonbox,
+    Result:HCPlasticspoon=20,
+    Time:15,
+    }
+
+recipe Unbox Plastic Knives
+    {
+    HCPlasticknifebox,
+    Result:HCPlasticknife=20,
+    Time:15,
+    }
+
+recipe Stack Plastic Plates
+    {
+    HCPlasticplate=6,
+    Result:HCPlasticplatestack,
+    Time:15,
+    }
+
+recipe Unstack Plastic Plates
+    {
+    HCPlasticplatestack,
+    Result:HCPlasticplate=6,
+    Time:15,
+    }
+
+recipe Stack Plastic Plates
+    {
+    HCPlasticplate2=6,
+    Result:HCPlasticplatestack2,
+    Time:15,
+    }
+
+recipe Unstack Plastic Plates
+    {
+    HCPlasticplatestack2,
+    Result:HCPlasticplate2=6,
+    Time:15,
+    }
+
+recipe Stack Plastic Cups
+    {
+    HCPlasticcup=6,
+    Result:HCPlasticcupstack,
+    Time:15,
+    }
+
+recipe Unstack Plastic Cups
+    {
+    HCPlasticcupstack,
+    Result:HCPlasticcup=6,
+    Time:15,
+    }
+
+recipe Stack Styrofoam Cups
+    {
+    HCStyrofoamcup=6,
+    Result:HCStyrofoamcupstack,
+    Time:15,
+    }
+
+recipe Unstack Styrofoam Cups
+    {
+    HCStyrofoamcupstack,
+    Result:HCStyrofoamcup=6,
+    Time:15,
+    }
+
+recipe Unroll Paper Towels
+    {
+    HCPapertowelroll,
+    Result:HCPapertowel=100,
+    Time:15,
+    }
+
+recipe Box Zipper Bags
+    {
+    HCZipperbag=100,
+    Result:HCZipperbagbox,
+    Time:15,
+    }
+
+recipe Unbox Zipper Bags
+    {
+    HCZipperbagbox,
+    Result:HCZipperbag=100,
+    Time:15,
+    }
+
+recipe Insert Battery
+    {
+    HCRicecooker,
+    HCBatterymedium,
+    Result:HCRicecookerpowered,
+    Time:15,
+    Category:Electrical,
+    }
+
+recipe Remove Battery
+    {
+    HCRicecookerdead,
+    Result:HCRicecooker,
+    Time:15,
+    Category:Electrical,
+    OnCreate:recipe_hcbatterymediumdead,
+    }
+
+recipe Insert Battery
+    {
+    HCBlender,
+    HCBatterymedium,
+    Result:HCBlenderpowered,
+    Time:15,
+    Category:Electrical,
+    }
+
+recipe Remove Battery
+    {
+    HCBlenderdead,
+    Result:HCBlender,
+    Time:15,
+    Category:Electrical,
+    OnCreate:recipe_hcbatterymediumdead,
+    }
+
+/************************FIXING************************/
+
+fixing Fix Pan
+    {
+       		Require : Pan,
+
+		Fixer : HCGluejar=2,
+		Fixer : HCMaskingtape=2,
+		Fixer : HCPackingtape=2,
+		Fixer : HCRubbercement=2,
+		Fixer : HCSuperglue,
+		Fixer : HCHotgluegunfull=2,
+    }
+
+
+}

@@ -1,0 +1,1046 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCPoisonempty
+	{
+	Weight			=	0.1,
+	CanStoreWater		=	TRUE,
+        Type			=	Drainable,
+	ResizeWorldIcon 	=       2.0,
+	ReplaceOnUseOn		=	WaterSource-HCPoisonwater,
+        DisplayName		=	Empty Insecticide Can,
+	Icon			=	HCPoisonempty,
+	RainFactor 		= 	1,
+	}
+
+item HCPoison
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide,
+	Icon				=	HCPoison,
+	}
+
+item HCPoisonammonia
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide Can With Ammonia,
+	Icon				=	HCPoisonammonia,
+	}
+
+item HCPoisonbiodiesel
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide Can With Biodiesel,
+	Icon				=	HCPoisonbiodiesel,
+	}
+
+item HCPoisoncoppersulfatesolution
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide Can With Copper Sulfate Solution,
+	Icon				=	HCPoisoncoppersulfatesolution,
+	}
+
+item HCPoisondetergent
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide Can With Liqiud Soap,
+	Icon				=	HCPoisondetergent,
+	}
+
+
+
+item HCPoisonh2o2
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide Can With Hydrogen Peroxide,
+	Icon				=	HCPoisonh2o2,
+	}
+
+
+
+item HCPoisonlime
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide Can With Milk of Lime,
+	Icon				=	HCPoisonlime,
+	}
+
+item HCPoisonlye
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide Can With Lye,
+	Icon				=	HCPoisonlye,
+	}
+
+item HCPoisonmethanol
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide Can With Methanol,
+	Icon				=	HCPoisonmethanol,
+	}
+
+
+
+item HCPoisonmuriaticacid
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide Can With Muriatic Acid,
+	Icon				=	HCPoisonmuriaticacid,
+	}
+
+item HCPoisonnickelsulfatesolution
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide Can With Nickel Sulfate Solution,
+	Icon				=	HCPoisonnickelsulfatesolution,
+	}
+
+item HCPoisonnitricacid
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide Can With Nitric Acid,
+	Icon				=	HCPoisonnitricacid,
+	}
+
+item HCPoisonoil
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide Can With Oil,
+	Icon				=	HCPoisonoil,
+	}
+
+item HCPoisonrose
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide Can With Rose Tanning Oil,
+	Icon				=	HCPoisonrose,
+	}
+
+item HCPoisonsulfuricacid
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide Can With Sulfuric Acid,
+	Icon				=	HCPoisonsulfuricacid,
+	}
+
+item HCPoisontan
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide Can With Tannin,
+	Icon				=	HCPoisontan,
+	}
+
+item HCPoisonvegoil
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide Can With Vegetable Oil,
+	Icon				=	HCPoisonvegoil,
+	}
+
+item HCPoisongrape
+	{
+	Weight				=	2.5,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,
+	HungerChange			=	-45,	
+	UnhappyChange			=	-25,
+	ThirstChange			=	-175,
+	DisplayName			=	Insecticide Can With Grape Juice,
+	ReplaceOnUse		        =	HCPoisonempty,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	Icon				=	HCPoisongrape,
+	}
+
+item HCPoisonhoney
+	{
+	Weight				=	2.5,
+        Type			        =	Food,
+	UseDelta		        =       0.2,
+	BoredomChange			=	-25,
+	UnhappyChange			=	-28,
+	HungerChange			=	-105,
+	ReplaceOnUse		        =	HCPoisonempty,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Insecticide Can With Honey,
+	Icon				=	HCPoisonhoney,
+	}
+
+item HCPoisonmilk
+	{
+	Weight				=	2.5,
+	Type			        =	Food,
+	DisplayName			=	Insecticide Can With UHTMilk,
+	ThirstChange 			=	-125,
+	HungerChange 			= 	-12.5,
+	DaysTotallyRotten		=	500,
+	DaysFresh 			=	250,
+	ReplaceOnUse		        =	HCPoisonempty,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+	ResizeWorldIcon 	        =       2.0,
+	Icon				=	HCPoisonmilk,
+	}
+
+item HCPoisonwater
+	{
+	IsWaterSource		=	TRUE,
+	ReplaceOnUse		=	HCPoisonempty,
+	Weight			=	2.5,
+	CanStoreWater		=	TRUE,
+        Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Inscticide Can With Water,
+	ReplaceOnDeplete	=	HCPoisonempty,
+	ReplaceOnUseOn		=	WaterSource-HCPoisonwater,
+	ResizeWorldIcon 	=       2.0,
+	Icon			=	HCPoisonwater,
+	RainFactor 		= 	1,
+	}
+
+
+/************************RECIPES************************/
+
+recipe Clean Empty Insecticide Can
+    {
+    	HCPoisonempty,
+        keep Sponge/HCLoofah/HCSponge/RippedSheets,
+        Water,
+	Soap2/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid,
+    	Result:HCPlasticcanempty,
+        OnCreate:recipe_hclabelpoison,
+    	Time:50,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Insecticide Can
+    {
+    	HCPoisonempty,
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+    	Result:HCPlastic=5,
+        OnCreate:recipe_hclabelpoison,
+    	Time:50,
+    	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Fill Empty Insecticide Can With Ammonia
+    {
+    	HCAmmonia=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonammonia,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Ammonia
+    {
+    	HCPlasticcanammonia=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCPlasticcanempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonammonia,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Ammonia
+    {
+    	HCDetergentammonia=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCPlasticcanempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonammonia,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Ammonia
+    {
+    	HCAmmoniacanfull=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCPlasticcanempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonammonia,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Ammonia
+    {
+    	HCBarrelmetalammonia=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCPoisonempty,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCPoisonammonia,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Ammonia
+    {
+    	HCAmmoniabarrelfull=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCPoisonempty,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCPoisonammonia,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Ammonia
+    {
+    	HCAmmoniabarrelbluefull=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCPoisonempty,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCPoisonammonia,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Biodiesel
+    {
+    	destroy HCWashtubwashedbiodiesel,
+        keep HCRubberhose,
+    	HCPoisonempty=2,
+    	Result:HCPoisonbiodiesel=2,
+    	Time:50,
+        OnCreate:recipe_hcwashtub,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Biodiesel
+    {
+    	HCPlasticcanbiodiesel=4,
+        keep HCFunnel/HCGlassfunnel,
+    	HCPoisonempty,
+    	Result:HCPoisonbiodiesel,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Biodiesel
+    {
+    	HCDetergentbiodiesel=4,
+        keep HCFunnel/HCGlassfunnel,
+    	HCPoisonempty,
+    	Result:HCPoisonbiodiesel,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Copper Sulfate Solution
+    {
+    	HCBeakercoppersulfatesolution=2,
+        keep HCRubberglove,
+    	HCPoisonempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisoncoppersulfatesolution,
+    	Time:50,
+        OnCreate:recipe_hcget2beakers,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Copper Sulfate Solution
+    {
+    	HCPlasticcancoppersulfatesolution=4,
+        keep HCRubberglove,
+    	HCPoisonempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisoncoppersulfatesolution,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Coppersulfate Solution
+    {
+    	HCDetergentcoppersulfatesolution=4,
+        keep HCRubberglove,
+    	HCPoisonempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisoncoppersulfatesolution,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Grape Juice
+    {
+    	destroy HCWoodenbucketgrape,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisongrape,
+    	Time:50,
+        OnCreate:recipe_hcgetwoodenbucket,
+	Category:Cooking,
+    }
+
+recipe Fill Empty Insecticide Can With Grape Juice
+    {
+    	HCPlasticcangrape=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisongrape,
+    	Time:50,
+	Category:Cooking,
+    }
+
+recipe Fill Empty Insecticide Can With Grape Juice
+    {
+    	HCDetergentgrape=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisongrape,
+    	Time:50,
+	Category:Cooking,
+    }
+
+recipe Fill Empty Insecticide Can With Hydrogen Peroxide
+    {
+    	HCBeakerh2o2=2,
+        keep HCRubberglove,
+    	HCPoisonempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonh2o2,
+    	Time:50,
+        OnCreate:recipe_hcget2beakers,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Hydrogen Peroxide
+    {
+    	HCPlasticcanh2o2=4,
+        keep HCRubberglove,
+    	HCPoisonempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonh2o2,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Hydrogen Peroxide
+    {
+    	HCDetergenth2o2=4,
+        keep HCRubberglove,
+    	HCPoisonempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonh2o2,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Hydrogen Peroxide
+    {
+    	HCh2o2can=4,
+        keep HCRubberglove,
+    	HCPoisonempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonh2o2,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Honey
+    {
+    	destroy HCWoodenbuckethoney,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonhoney,
+    	Time:50,
+        OnCreate:recipe_hcgetwoodenbucket,
+	Category:Cooking,
+    }
+
+recipe Fill Empty Insecticide Can With Honey
+    {
+    	HCPlasticcanhoney=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonhoney,
+    	Time:50,
+	Category:Cooking,
+    }
+
+recipe Fill Empty Insecticide Can With Honey
+    {
+    	HCDetergenthoney=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonhoney,
+    	Time:50,
+	Category:Cooking,
+    }
+
+recipe Fill Empty Insecticide Can With Milk Of Lime
+    {
+    	destroy HCWoodenbucketlime,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonlime,
+    	Time:50,
+        OnCreate:recipe_hcgetwoodenbucket,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Milk Of Lime
+    {
+    	HCPlasticcanlime=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonlime,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Milk Of Lime
+    {
+    	HCDetergentlime=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonlime,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Lye
+    {
+    	destroy HCWoodenbucketlye,
+    	HCPoisonempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonlye,
+    	Time:50,
+        OnCreate:recipe_hcgetwoodenbucket,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Lye
+    {
+    	HCPlasticcanlye=4,
+    	HCPoisonempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonlye,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Lye
+    {
+    	HCDetergentlye=4,
+    	HCPoisonempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonlye,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Methanol
+    {
+    	HCMethanol=2,
+    	HCPoisonempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonmethanol,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Methanol
+    {
+    	HCPlasticcanmethanol=4,
+    	HCPoisonempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonmethanol,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Methanol
+    {
+    	HCDetergentmethanol=4,
+    	HCPoisonempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonmethanol,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With UHT Milk
+    {
+    	HCUHTmilk=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonmilk,
+    	Time:50,
+        Category:Cooking,
+    }
+
+recipe Fill Empty Insecticide Can With UHT Milk
+    {
+    	HCPlasticcanmilk=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonmilk,
+    	Time:50,
+        Category:Cooking,
+    }
+
+recipe Fill Empty Insecticide Can With UHT Milk
+    {
+    	HCDetergentmilk=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonmilk,
+    	Time:50,
+        Category:Cooking,
+    }
+
+recipe Fill Empty Insecticide Can With Muriatic Acid
+    {
+    	HCBeakermuriaticacid=2,
+    	HCPoisonempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonmuriaticacid,
+    	Time:50,
+        OnCreate:recipe_hcget2beakers,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Muriatic Acid
+    {
+    	HCPlasticcanmuriaticacid=4,
+    	HCPoisonempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonmuriaticacid,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Muriatic Acid
+    {
+    	HCDetergentmuriaticacid=4,
+    	HCPoisonempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonmuriaticacid,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Nickel Sulfate Solution
+    {
+    	HCBeakernickelsulfatesolution=2,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonnickelsulfatesolution,
+    	Time:50,
+        OnCreate:recipe_hcget2beakers,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Nickel Sulfate Solution
+    {
+    	HCPlasticcannickelsulfatesolution=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonnickelsulfatesolution,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Nickelsulfate Solution
+    {
+    	HCDetergentnickelsulfatesolution=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonnickelsulfatesolution,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Nitric Acid
+    {
+    	HCBeakernitricacid=2,
+    	HCPoisonempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonnitricacid,
+    	Time:50,
+        OnCreate:recipe_hcget2beakers,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Nitric Acid
+    {
+    	HCPlasticcannitricacid=4,
+    	HCPoisonempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonnitricacid,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Nitric Acid
+    {
+    	HCDetergentnitricacid=4,
+    	HCPoisonempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonnitricacid,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Oil
+    {
+    	HCMotoroil=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonoil,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Oil
+    {
+    	HCPlasticcanoil=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonoil,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Oil
+    {
+    	HCDetergentoil=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonoil,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Liquid Soap
+    {
+    	HCDetergent=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisondetergent,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Liquid Soap
+    {
+    	HCPlasticcandetergent=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisondetergent,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Rose Tanning Oil
+    {
+    	destroy HCWoodenbucketrose,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonrose,
+    	Time:50,
+        OnCreate:recipe_hcgetwoodenbucket,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Rose Tanning Oil
+    {
+    	HCDetergentrose=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonrose,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Rose Tanning Oil
+    {
+    	HCDetergentrose=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonrose,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Sulfuric Acid
+    {
+    	HCBeakersulfuricacid=2,
+    	HCPoisonempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonsulfuricacid,
+    	Time:50,
+        OnCreate:recipe_hcget2beakers,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Sulfuric Acid
+    {
+    	HCPlasticcansulfuricacid=4,
+    	HCPoisonempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonsulfuricacid,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Sulfuric Acid
+    {
+    	HCDetergentsulfuricacid=4,
+    	HCPoisonempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonsulfuricacid,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Sulfuric Acid
+    {
+    	HCSulfuricacidcan=4,
+    	HCPoisonempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonsulfuricacid,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Sulfuric Acid
+    {
+    	HCBarrelmetalsulfuricacid=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCPoisonempty,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCPoisonsulfuricacid,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Sulfuric Acid
+    {
+    	HCSulfuricacidbarrelfull=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCPoisonempty,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCPoisonsulfuricacid,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Sulfuric Acid
+    {
+    	HCSulfuricacidbarrelbluefull=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCPoisonempty,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCPoisonsulfuricacid,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Tannin
+    {
+    	destroy HCWoodenbuckettan,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisontan,
+    	Time:50,
+        OnCreate:recipe_hcgetwoodenbucket,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Tannin
+    {
+    	HCPlasticcantan=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisontan,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Tannin
+    {
+    	HCDetergenttan=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisontan,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Insecticide Can With Vegetable Oil
+    {
+    	destroy HCWoodenbucketvegoil,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonvegoil,
+    	Time:50,
+        OnCreate:recipe_hcgetwoodenbucket,
+        Category:Cooking,
+    }
+
+recipe Fill Empty Insecticide Can With Vegetable Oil
+    {
+    	HCPlasticcanvegoil=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonvegoil,
+    	Time:50,
+        Category:Cooking,
+    }
+
+recipe Fill Empty Insecticide Can With Vegetable Oil
+    {
+    	HCDetergentvegoil=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisonvegoil,
+    	Time:50,
+        Category:Cooking,
+    }
+}
+
+

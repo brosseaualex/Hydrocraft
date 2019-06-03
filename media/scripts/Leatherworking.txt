@@ -1,0 +1,2535 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCLeather
+    {
+        Weight    		=    0.1,
+        Type   			=    Normal,
+        DisplayName   		=    Leather,
+        Icon    		=    HCLeather,
+    }
+
+item HCLeatherstrip
+    {
+        Weight    		=    0.03,
+        Type   			=    Normal,
+        DisplayName   		=    Leather Strip,
+        Icon    		=    HCLeatherstrip,
+    }
+
+item HCLeatherfine
+    {
+        Weight    		=    0.1,
+        Type   			=    Normal,
+        DisplayName   		=    Fine Leather,
+        Icon    		=    HCLeatherfine,
+    }
+
+item HCLeatherstripfine
+    {
+        Weight    		=    0.03,
+        Type   			=    Normal,
+        DisplayName   		=    Fine Leather Strip,
+        Icon    		=    HCLeatherstripfine,
+    }
+
+item HCLeatherhard
+    {
+        Weight    		=    0.3,
+        Type   			=    Normal,
+        DisplayName   		=    Hardened Leather,
+        Icon    		=    HCLeatherhard,
+    }
+
+item HCLeatherstriphard
+    {
+        Weight    		=    0.03,
+        Type   			=    Normal,
+        DisplayName   		=    Hard Leather Strip,
+        Icon    		=    HCLeatherstriphard,
+    }
+
+item HCBeltbuckle
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Belt Buckle,
+        icon 			= HCBeltbuckle,
+    }
+
+item HCBlacksmithapron
+    {
+        Weight    		=    1,
+        Type    		=    Normal,
+        DisplayName    		=    Blacksmith Apron,
+        Icon    		=    HCBlacksmithapron,
+    }
+
+item HCAnimalfur
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Fur,
+        	Weight 		= 	0.1,
+		Icon		=	HCAnimalfur,
+	}
+
+item HCHiderawrabbit
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Rabbit Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawrabbit,
+	}
+
+item HCHiderawsquirrel
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Squirrel Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawsquirrel,
+	}
+
+item HCHiderawgroundhog
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Groundhog Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawgroundhog,
+	}
+
+item HCHiderawmuskrat
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Muskrat Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawmuskrat,
+	}
+
+item HCHiderawnutria
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Nutria Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawnutria,
+	}
+
+item HCHiderawbeaver
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Beaver Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawbeaver,
+	}
+
+item HCPorcupinequills
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Porcupine Quills,
+        	Weight 		= 	0.2,
+		Icon		=	HCPorcupinequills,
+	}
+
+item HCHiderawarmadillo
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Armadillo Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawarmadillo,
+		ResizeWorldIcon = 	1.0,
+	}
+
+item HCHiderawfox
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Fox Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawfox,
+	}
+
+item HCHiderawopossum
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Opossum Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawopossum,
+	}
+
+item HCHiderawskunk
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Skunk Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawskunk,
+	}
+
+item HCHiderawraccoon
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Raccoon Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawraccoon,
+	}
+
+item HCHiderawboar
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Boar Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawboar,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHiderawdeer
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Deer Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawdeer,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHiderawbearblack
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Black Bear Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawbearblack,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHiderawbear
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Grizzly Bear Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawbear,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHiderawcougar
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Cougar Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawcougar,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHiderawdog
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName    		= Raw Dog hide,
+        icon 			= HCHiderawrabbit,
+    }
+item HCHiderawcat
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName     	= Raw Cat hide,
+        icon 			= HCHiderawrabbit,
+    }
+
+item HCHiderawsheep
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Sheep Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawsheep,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHiderawgoat
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Goat Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawgoat,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHiderawpig
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Pig Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawpig,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHiderawcow
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Cow Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawcow,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHiderawbull
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Bull Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawbull,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHiderawdonkey
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Donkey Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawdonkey,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHiderawhorse
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Horse Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHiderawhorse,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidestrap
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Hide Strap,
+        	Weight 		= 	0.05,
+		Icon		=	HCHidestrap,
+	}
+
+item HCAnimalfurdried
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Fur,
+        	Weight 		= 	0.1,
+		Icon		=	HCAnimalfurdried,
+	}
+
+item HCHidedriedrabbit
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Rabbit Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedrabbit,
+	}
+
+item HCHidedriedsquirrel
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Squirrel Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedsquirrel,
+	}
+
+item HCHidedriedgroundhog
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Groundhog Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedgroundhog,
+	}
+
+item HCHidedriedmuskrat
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Muskrat Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedmuskrat,
+	}
+
+item HCHidedriednutria
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Nutria Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriednutria,
+	}
+
+item HCHidedriedbeaver
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Beaver Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedbeaver,
+	}
+
+item HCHidedriedarmadillo
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Armadillo Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedarmadillo,
+		ResizeWorldIcon = 	1.0,
+	}
+
+item HCHidedriedfox
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Fox Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedfox,
+	}
+
+item HCHidedriedopossum
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Opossum Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedopossum,
+	}
+
+item HCHidedriedskunk
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Skunk Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedskunk,
+	}
+
+item HCHidedriedraccoon
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Raccoon Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedraccoon,
+	}
+
+item HCHidedriedboar
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Boar Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedboar,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidedrieddeer
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Deer Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedrieddeer,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidedriedbearblack
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Black Bear Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedbearblack,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidedriedbear
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Grizzly Bear Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedbear,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidedriedcougar
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Cougar Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedcougar,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidedrieddog
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Dog Hide,
+        	Weight 		= 	0.3,
+		Icon		=	HCHidedriedrabbit,
+	}
+item HCHidedriedcat
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Cat Hide,
+        	Weight 		= 	0.3,
+		Icon		=	HCHidedriedrabbit,
+	}
+
+
+item HCHidedriedsheep
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Sheep Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedsheep,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidedriedgoat
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Goat Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedgoat,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidedriedpig
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Pig Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedpig,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidedriedcow
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Cow Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedcow,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidedriedbull
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Bull Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedbull,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidedrieddonkey
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Donkey Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedrieddonkey,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidedriedhorse
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Horse Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidedriedhorse,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCAnimalfurlime
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Fur,
+        	Weight 		= 	0.1,
+		Icon		=	HCAnimalfurlime,
+	}
+
+item HCHidelimedrabbit
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Rabbit Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedrabbit,
+	}
+
+item HCHidelimedsquirrel
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Squirrel Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedsquirrel,
+	}
+
+item HCHidelimedgroundhog
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Groundhog Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedgroundhog,
+	}
+
+item HCHidelimedmuskrat
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Muskrat Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedmuskrat,
+	}
+
+item HCHidelimednutria
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Nutria Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimednutria,
+	}
+
+item HCHidelimedbeaver
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Beaver Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedbeaver,
+	}
+
+item HCHidelimedarmadillo
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Armadillo Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedarmadillo,
+		ResizeWorldIcon = 	1.0,
+	}
+
+item HCHidelimedfox
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Fox Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedfox,
+	}
+
+item HCHidelimedopossum
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Opossum Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedopossum,
+	}
+
+item HCHidelimedskunk
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Skunk Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedskunk,
+	}
+
+item HCHidelimedraccoon
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Raccoon Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedraccoon,
+	}
+
+item HCHidelimedboar
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Boar Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedboar,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidelimeddeer
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Deer Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimeddeer,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidelimedbearblack
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Black Bear Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedbearblack,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidelimedbear
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Grizzly Bear Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedbear,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidelimedcougar
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Cougar Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedcougar,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidelimeddog
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Dog Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedrabbit,
+	}
+item HCHidelimedcat
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Cat Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedrabbit,
+	}
+
+item HCHidelimedsheep
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Sheep Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedsheep,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidelimedgoat
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Goat Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedgoat,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidelimedpig
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Pig Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedpig,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidelimedcow
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Cow Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedcow,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidelimedbull
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Bull Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedbull,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidelimeddonkey
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Donkey Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimeddonkey,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCHidelimedhorse
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Limed Horse Hide,
+        	Weight 		= 	0.1,
+		Icon		=	HCHidelimedhorse,
+		ResizeWorldIcon = 	2.0,
+	}
+
+item HCZedskin
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Raw Skin,
+        	Weight 		= 	0.1,
+		Icon		=	HCZedskin,
+	}
+
+item HCZedskindried
+	{
+		Type 		= 	Normal,
+        	DisplayName 	= 	Dried Skin,
+        	Weight 		= 	0.1,
+		Icon		=	HCZedskindried,
+	}
+
+item HCFoxhat
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Fox Hat,
+        icon 			= HCFoxhat,
+    }
+
+item HCRaccoonhat
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Raccoon Hat,
+        icon 			= HCRaccoonhat,
+    }
+
+item HCCloakbearblack
+	{
+		Palettes	=	Shirt_White,
+		BodyLocation	=	Top,
+		PalettesStart	=	Shirt_,
+		Type		=	Clothing,
+		Temperature	=	23,
+		SpriteName	=	Shirt,
+		DisplayName	=	Black Bear Cloak,
+		Icon		=	HCCloakbearblack,
+		ConditionLowerChanceOneIn = 20,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1.0,
+	}
+
+item HCCloakbear
+	{
+		Palettes	=	Shirt_White,
+		BodyLocation	=	Top,
+		PalettesStart	=	Shirt_,
+		Type		=	Clothing,
+		Temperature	=	24,
+		SpriteName	=	Shirt,
+		DisplayName	=	Grizzly Bear Cloak,
+		Icon		=	HCCloakbear,
+		ConditionLowerChanceOneIn = 20,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1.0,
+	}
+
+item HCFurcoat
+	{
+		Palettes	=	Shirt_White,
+		BodyLocation	=	Top,
+		PalettesStart	=	Shirt_,
+		Type		=	Clothing,
+		Temperature	=	23,
+		SpriteName	=	Shirt,
+		DisplayName	=	Fur Coat,
+		Icon		=	HCFurcoat,
+		ConditionLowerChanceOneIn = 20,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1.0,
+	}
+	
+item HCFurpants
+	{
+		Palettes	=	Trousers_White,
+		BodyLocation	=	Bottoms,
+		PalettesStart	=	Trousers_,
+		Type		=	Clothing,
+		Temperature	=	15,
+		SpriteName	=	Trousers,
+		DisplayName	=	Fur Pants,
+		Icon		=	HCFurpants,
+		ConditionLowerChanceOneIn = 20,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1.0,
+	}
+
+item HCTrapperjacket
+	{
+		Palettes	=	Shirt_White,
+		BodyLocation	=	Top,
+		PalettesStart	=	Shirt_,
+		Type		=	Clothing,
+		Temperature	=	24,
+		SpriteName	=	Shirt,
+		DisplayName	=	Trapper Jacket,
+		Icon		=	HCTrapperjacket,
+		ConditionLowerChanceOneIn = 30,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1.0,
+	}
+
+item HCLeathercoat
+	{
+		Palettes	=	Shirt_White,
+		BodyLocation	=	Top,
+		PalettesStart	=	Shirt_,
+		Type		=	Clothing,
+		Temperature	=	23,
+		SpriteName	=	Shirt,
+		DisplayName	=	Leather Coat,
+		Icon		=	HCLeathercoat,
+		ConditionLowerChanceOneIn = 30,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1.0,
+	}
+	
+item HCLeatherpants
+	{
+		Palettes	=	Trousers_White,
+		BodyLocation	=	Bottoms,
+		PalettesStart	=	Trousers_,
+		Type		=	Clothing,
+		Temperature	=	15,
+		SpriteName	=	Trousers,
+		DisplayName	=	Leather Pants,
+		Icon		=	HCLeatherpants,
+		ConditionLowerChanceOneIn = 30,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1.0,
+	}
+
+item HCDryingframe
+    {
+        Weight    		= 0.7,
+        Type    		= Normal,
+        DisplayName         	= Drying Frame,
+        icon 			= HCDryingframe,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCWoodenbuckettan
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Bucket with Tannin,
+        icon 			= HCWoodenbuckettan,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCWoodenbucketrose
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Bucket with Rose Tanning Oil,
+        icon 			= HCWoodenbucketrose,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCWoodenbucketlime
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Bucket with Milk of Lime,
+        icon 			= HCWoodenbucketlime,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCLeatherboots
+	{
+		BodyLocation	=	Shoes,
+		Type		=	Clothing,
+		Temperature	=	5,
+		SpriteName	=	Shoes1,
+		DisplayName	=	Leather Boots,
+		Icon		=	HCLeatherboots,
+		ConditionLowerChanceOneIn = 9000,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1.0,
+	}
+
+item HCWaterflask
+    {
+        Weight    		= 	1,
+	CanStoreWater		=	TRUE,
+        Type    		= 	Normal,
+        DisplayName         	= 	Waterflask,
+	ReplaceOnUseOn		=	WaterSource-HCWaterflaskfull,
+        icon 			= 	HCWaterflask,
+	RainFactor 		= 	1,
+    }
+
+item HCWaterflaskfull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	2,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	2.0,
+	UseDelta		=	0.07,
+	DisplayName		=	Full Waterflask,
+	ReplaceOnDeplete	=	HCWaterflask,
+	ReplaceOnUseOn		=	WaterSource-HCWaterflaskfull,
+	Icon			=	HCWaterflask,
+	RainFactor 		= 	1,
+    }
+
+item HCWardogarmor
+    {
+        Weight    		=    1,
+        Type    		=    Normal,
+        DisplayName    		=    War Dog Armor,
+        Icon    		=    HCWardogarmor,
+    }
+
+item HCLeatherball
+    {
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Leather Ball,
+	Icon			=	HCLeatherball,
+   }
+
+/************************RECIPES************************/
+    
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        DeadRabbit,
+
+        Result:Rabbitmeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskinrabbit,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        DeadSquirrel,
+        Result:Smallanimalmeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskinsquirrel,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCMuskratdead,
+        Result:Smallanimalmeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskinmuskrat,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCGroundhogdead,
+        Result:Smallanimalmeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskingroundhog,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCNutriadead,
+
+        Result:HCNutriameat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskinnutria,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCBeaverdead,
+
+        Result:HCBeavermeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskinbeaver,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCPorcupinedead,
+
+        Result:HCPorcupinemeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskinporcupine,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCArmadillodead,
+
+        Result:HCArmadillomeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskinarmadillo,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCFoxdead,
+
+        Result:HCFoxmeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskinfox,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCOpossumdead,
+
+        Result:HCOpossummeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskinopossum,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCSkunkdead,
+
+        Result:HCSkunkmeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskinskunk,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+	keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+	HCRaccoondead,
+
+	Result:HCRaccoonmeat,
+    	NeedToBeLearn:true,
+	Time:50.0,
+    	Category:Hunting,
+	OnCreate:recipe_hcskinraccoon,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+	keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+	HCBoardead,
+
+	Result:HCBoarmeat,
+    	NeedToBeLearn:true,
+	Time:50.0,
+    	Category:Hunting,
+	OnCreate:recipe_hcskinboar,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCDeerdead,
+
+        Result:HCDeermeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskindeer,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCDeerdead2,
+
+        Result:HCDeermeat2,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskindeer,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCBeardead,
+
+        Result:HCBearmeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskinbear,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCBlackbeardead,
+
+        Result:HCBlackbearmeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskinbearblack,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCCougardead,
+
+        Result:HCCougarmeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskincougar,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCBeaglemale/HCBeaglefemale/HCBernesedead/HCBordercolliedead/HCBoxerdead/HCColliedead/HCCorgidead/HCDachshunddead/HCDobermandead/HCGermanshepherddead/HCGreatdanedead/HCGoldendead/HCHeelerdead/HCHuskydead/HCIrishsetterdead/HCLabradordead/HCPitbulldead/HCRottweilerdead/HCShibainudead,
+
+        Result:HCDogmeat,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Survivalist,
+        OnCreate:recipe_hcskindog,
+    }
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCCatdead/HCCatblackdead/HCCatbluedead/HCCatbrowndead/HCCatcreamdead/HCCatgingerdead/HCCatsilverdead/HCCatwhitedead,
+
+        Result:HCCatmeat,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Survivalist,
+        OnCreate:recipe_hcskincat,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCSheepdead,
+        Result:HCSheepmeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskinsheep,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCGoatdead/HCGoatdead2,
+        Result:HCGoatmeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskingoat,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCPigdead,
+        Result:HCPigmeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+	OnCreate:recipe_hcskinpig,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCCowdead,
+        Result:HCCowmeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskinbull,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCCowdead2,
+        Result:HCCowmeat2,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskincow,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCDonkeydead,
+        Result:HCDonkeymeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskindonkey,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Animal
+    {
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        HCHorsedead,
+        Result:HCHorsemeat,
+    	NeedToBeLearn:true,
+        Time:50.0,
+    	Category:Hunting,
+        OnCreate:recipe_hcskinhorse,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Skin Corpse
+    {
+	keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+	CorpseMale/CorpseFemale,
+	Result:HCZedmeat,
+    	NeedToBeLearn:true,
+	Time:50.0,
+    	Category:Hunting,
+	OnCreate:recipe_hcskinzed,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Drying Frame
+    {
+    	WoodenStick=6,
+	Rope=2,
+   	Result:HCDryingframe,
+    	NeedToBeLearn:true,
+    	Time:15,
+    	Category:Hunting,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Dry Fur
+    {
+        HCAnimalfur,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCAnimalfurdried,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawrabbit,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedrabbit,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawsquirrel,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedsquirrel,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawgroundhog,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedgroundhog,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawmuskrat,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedmuskrat,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawnutria,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriednutria,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawbeaver,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedbeaver,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawarmadillo,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedarmadillo,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawfox,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedfox,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawopossum,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedopossum,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawskunk,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedskunk,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawraccoon,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedraccoon,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawboar,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedboar,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawdeer,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedrieddeer,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawbearblack,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedbearblack,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawbear,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedbear,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawcougar,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedcougar,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawdog,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedrieddog,
+    	NeedToBeLearn:true,
+        Time:5000.0,
+    	Category:Survivalist,
+    }
+recipe Dry Hide
+    {
+        HCHiderawcat,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedcat,
+    	NeedToBeLearn:true,
+        Time:5000.0,
+    	Category:Survivalist,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawsheep,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedsheep,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawgoat,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedgoat,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawpig,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedpig,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawcow,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedcow,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawbull,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedbull,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawdonkey,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedrieddonkey,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Hide
+    {
+        HCHiderawhorse,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidedriedhorse,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Skin
+    {
+        HCZedskin,
+        keep HCDryingframe,
+    	CanBeDoneFromFloor:true,
+        Result:HCZedskindried,
+    	NeedToBeLearn:true,
+        Time:500.0,
+    	Category:Hunting,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Cut Hide Straps
+    {
+        HCAnimalfurdried,
+        keep HuntingKnife/HCJackknife/Scissors/HCKnifestone,
+    	CanBeDoneFromFloor:true,
+        Result:HCHidestrap=2,
+    	NeedToBeLearn:true,
+        Time:10.0,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+
+recipe Cut Dry Fur
+    {
+        HCHidedriedrabbit/HCHidedriedsquirrel/HCHidedriedgroundhog/HCHidedriedmuskrat/HCHidedrieddog/HCHidedriedcat,
+        keep HuntingKnife/HCJackknife/Scissors/HCKnifestone,
+    	CanBeDoneFromFloor:true,
+        Result:HCAnimalfurdried,
+    	NeedToBeLearn:true,
+        Time:10.0,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Dry Fur
+    {
+    	HCHidedriednutria/HCHidedriedfox/HCHidedriedopossum/HCHidedriedskunk/HCHidedriedraccoon/HCHidedriedarmadillo,
+        keep HuntingKnife/HCJackknife/Scissors/HCKnifestone,
+    	CanBeDoneFromFloor:true,
+        Result:HCAnimalfurdried=2,
+    	NeedToBeLearn:true,
+        Time:20.0,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Dry Fur
+    {
+    	HCHidedriedbeaver/HCHidedriedsheep/HCHidedriedgoat,
+        keep HuntingKnife/HCJackknife/Scissors/HCKnifestone,
+    	CanBeDoneFromFloor:true,
+        Result:HCAnimalfurdried=4,
+    	NeedToBeLearn:true,
+        Time:40.0,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Dry Fur
+    {
+    	HCHidedriedboar/HCHidedrieddeer/HCHidedriedbearblack/HCHidedriedpig/HCHidedrieddonkey/HCHidedrieddcougar,
+        keep HuntingKnife/HCJackknife/Scissors/HCKnifestone,
+    	CanBeDoneFromFloor:true,
+        Result:HCAnimalfurdried=6,
+    	NeedToBeLearn:true,
+        Time:60.0,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Dry Fur
+    {
+    	HCHidedriedbear/HCHidedriedcow/HCHidedriedbull/HCHidedriedhorse,
+        keep HuntingKnife/HCJackknife/Scissors/HCKnifestone,
+    	CanBeDoneFromFloor:true,
+        Result:HCAnimalfurdried=8,
+    	NeedToBeLearn:true,
+        Time:80.0,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Stitch Fur Hat
+	{
+		keep Needle/HCBoneneedle,
+		HCHidedriedfox,
+		Thread=2,
+		Result:HCFoxhat,
+    		NeedToBeLearn:true,
+		Time:420.0,
+    		Category:Weaving,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Stitch Fur Hat
+	{
+		keep Needle/HCBoneneedle,
+		HCHidedriedraccoon,
+		Thread=2,	
+		Result:HCRaccoonhat,
+    		NeedToBeLearn:true,
+		Time:420.0,
+    		Category:Weaving,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Stitch Fur Cloak
+	{
+		keep Needle/HCBoneneedle,
+		HCHidedriedbearblack,
+		Thread=3,
+		Result:HCCloakbearblack,
+    		NeedToBeLearn:true,
+		Time:600.0,
+    		Category:Weaving,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Stitch Fur Cloak
+	{
+		keep Needle/HCBoneneedle,
+		HCHidedriedbear,
+		Thread=4,
+		Result:HCCloakbear,
+    		NeedToBeLearn:true,
+		Time:800.0,
+    		Category:Weaving,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Stitch Fur Coat
+	{
+		keep Needle/HCBoneneedle,
+		HCAnimalfurdried=12,
+		Thread=8,
+		Result:HCFurcoat,
+    		NeedToBeLearn:true,
+		Time:420.0,
+    		Category:Weaving,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+	
+recipe Stitch Fur Pants
+	{
+		keep Needle/HCBoneneedle,
+		HCAnimalfurdried=9,
+		Thread=6,
+		Result:HCFurpants,
+    		NeedToBeLearn:true,
+		Time:420.0,
+    		Category:Weaving,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Stitch Trapper Jacket
+	{
+		keep Needle/HCBoneneedle,
+		HCLeatherfine=2,
+		HCLeather=12,
+		Thread=10,
+		Result:HCTrapperjacket,
+    		NeedToBeLearn:true,
+		Time:420.0,
+    		Category:Weaving,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Stitch Leather Coat
+	{
+		keep Needle/HCBoneneedle,
+		HCLeather=12,
+		Thread=8,		
+		Result:HCLeathercoat,
+    		NeedToBeLearn:true,
+		Time:420.0,
+    		Category:Weaving,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+	
+recipe Stitch Leather Pants
+	{
+		keep Needle/HCBoneneedle,
+		HCLeather=9,
+		Thread=6,
+		Result:HCLeatherpants,
+    		NeedToBeLearn:true,
+		Time:420.0,
+    		Category:Weaving,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Milk of Lime
+    {
+    destroy HCWoodenbucketwater,
+    HCLimestone/HCShellpowder,
+    Result:HCWoodenbucketlime,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Rose Tanning Oil
+    {
+    destroy HCWoodenbucketvegoil,
+    HCRosebud,
+    Result:HCWoodenbucketrose,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCAnimalfurdried,
+    CanBeDoneFromFloor:true,
+    Result:HCAnimalfurlime,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedrabbit,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedrabbit,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedsquirrel,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedsquirrel,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedgroundhog,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedgroundhog,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedmuskrat,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedmuskrat,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriednutria,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimednutria,
+    NeedToBeLearn:true,
+    Time:400,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedbeaver,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedbeaver,
+    NeedToBeLearn:true,
+    Time:400,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedarmadillo,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedarmadillo,
+    NeedToBeLearn:true,
+    Time:400,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedfox,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedfox,
+    NeedToBeLearn:true,
+    Time:200,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedopossum,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedopossum,
+    NeedToBeLearn:true,
+    Time:200,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedskunk,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedskunk,
+    NeedToBeLearn:true,
+    Time:200,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedraccoon,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedraccoon,
+    NeedToBeLearn:true,
+    Time:200,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedboar,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedboar,
+    NeedToBeLearn:true,
+    Time:600,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedrieddeer,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimeddeer,
+    NeedToBeLearn:true,
+    Time:600,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedbearblack,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedbearblack,
+    NeedToBeLearn:true,
+    Time:600,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedbear,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedbear,
+    NeedToBeLearn:true,
+    Time:800,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedcougar,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedcougar,
+    NeedToBeLearn:true,
+    Time:800,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedrieddog,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimeddog,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedcat,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedcat,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedsheep,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedsheep,
+    NeedToBeLearn:true,
+    Time:400,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedgoat,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedgoat,
+    NeedToBeLearn:true,
+    Time:400,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedpig,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedpig,
+    NeedToBeLearn:true,
+    Time:600,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedcow,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedcow,
+    NeedToBeLearn:true,
+    Time:800,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedbull,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedbull,
+    NeedToBeLearn:true,
+    Time:800,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedrieddonkey,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimeddonkey,
+    NeedToBeLearn:true,
+    Time:800,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Limed Hide
+    {
+    HCWoodenbucketlime,
+    HCHidedriedhorse,
+    CanBeDoneFromFloor:true,
+    Result:HCHidelimedhorse,
+    NeedToBeLearn:true,
+    Time:800,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+	
+recipe Make Tannin
+    {
+    destroy HCWoodenbucketwater,
+    HCBark/HCDogpoop,
+    Result:HCWoodenbuckettan,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Tannin
+    {
+    destroy HCWoodenbucketwater,
+    HCAcorn,
+    Result:HCWoodenbuckettan,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Alchemy,
+    OnCreate:recipe_hcacornsoaked,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Leather
+    {
+    HCWoodenbuckettan,
+    HCAnimalfurlime,
+    CanBeDoneFromFloor:true,
+    Result:HCLeather,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Leather
+    {
+    HCWoodenbuckettan,
+    HCHidelimedrabbit/HCHidelimedsquirrel/HCHidelimedgroundhog/HCHidelimedmuskrat,
+    CanBeDoneFromFloor:true,
+    Result:HCLeather,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Leather
+    {
+    HCWoodenbuckettan,
+    HCHidelimednutria/HCHidelimedfox/HCHidelimedopossum/HCHidelimedskunk/HCHidelimedraccoon/HCHidelimedarmadillo,
+    CanBeDoneFromFloor:true,
+    Result:HCLeather=2,
+    NeedToBeLearn:true,
+    Time:200,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Leather
+    {
+    HCWoodenbuckettan,
+    HCHidelimedbeaver/HCHidelimedsheep/HCHidelimedgoat,
+    CanBeDoneFromFloor:true,
+    Result:HCLeather=4,
+    NeedToBeLearn:true,
+    Time:400,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Leather
+    {
+    HCWoodenbuckettan,
+    HCHidelimedboar/HCHidelimeddeer/HCHidelimedbearblack/HCHidelimedpig/HCHidelimeddonkey/HCHidelimedcougar,
+    CanBeDoneFromFloor:true,
+    Result:HCLeather=6,
+    NeedToBeLearn:true,
+    Time:600,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Leather
+    {
+    HCWoodenbuckettan,
+    HCHidelimedbear/HCHidelimedcow/HCHidelimedbull/HCHidelimedhorse,
+    CanBeDoneFromFloor:true,
+    Result:HCLeather=8,
+    NeedToBeLearn:true,
+    Time:800,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+
+recipe Make Fine Leather
+    {
+    HCWoodenbucketrose,
+    HCAnimalfurlime,
+    CanBeDoneFromFloor:true,
+    Result:HCLeatherfine,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Fine Leather
+    {
+    HCWoodenbucketrose,
+    HCHidelimedrabbit/HCHidelimedsquirrel/HCHidelimedgroundhog/HCHidelimedmuskrat,
+    CanBeDoneFromFloor:true,
+    Result:HCLeatherfine,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Fine Leather
+    {
+    HCWoodenbucketrose,
+    HCHidelimednutria/HCHidelimedfox/HCHidelimedopossum/HCHidelimedskunk/HCHidelimedraccoon/HCHidelimedarmadillo,
+    CanBeDoneFromFloor:true,
+    Result:HCLeatherfine=2,
+    NeedToBeLearn:true,
+    Time:200,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Fine Leather
+    {
+    HCWoodenbucketrose,
+    HCHidelimedbeaver/HCHidelimedsheep/HCHidelimedgoat,
+    CanBeDoneFromFloor:true,
+    Result:HCLeatherfine=4,
+    NeedToBeLearn:true,
+    Time:400,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Fine Leather
+    {
+    HCWoodenbucketrose,
+    HCHidelimedboar/HCHidelimeddeer/HCHidelimedbearblack/HCHidelimedpig/HCHidelimeddonkey/HCHidelimedcougar,
+    CanBeDoneFromFloor:true,
+    Result:HCLeatherfine=6,
+    NeedToBeLearn:true,
+    Time:600,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Fine Leather
+    {
+    HCWoodenbucketrose,
+    HCHidelimedbear/HCHidelimedcow/HCHidelimedbull/HCHidelimedhorse,
+    CanBeDoneFromFloor:true,
+    Result:HCLeatherfine=8,
+    NeedToBeLearn:true,
+    Time:800,
+    Category:Weaving,
+    OnCreate:recipe_hcwoodenbucket,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Hardened Leather
+    {
+    keep HCClaycauldron/HCCauldroniron,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCLeather=3,
+    HCBeeswax=2,
+    Water,
+    Result:HCLeatherhard,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Hardened Leather
+    {
+    keep HCClaycauldron/HCCauldroniron,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCLeather=3,
+    HCCandleberrywax=2,
+    Result:HCLeatherhard,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Cut Leather
+    {
+    HCLeather,
+    keep HuntingKnife/HCJackknife/Scissors/HCKnifestone,
+    Result:HCLeatherstrip=3,
+    NeedToBeLearn:true,
+    Time:60.0,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Waterflask
+    {
+    HCLeather=2,
+    keep Needle/HCBoneneedle,
+    Thread=2,
+    Result:HCWaterflask,
+    NeedToBeLearn:true,
+    Time:100.0,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Blacksmith Apron
+    {
+    HCLeatherhard=8,
+    keep Needle/HCBoneneedle,
+    Thread=4,
+    Result:HCBlacksmithapron,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make War Dog Armor
+    {
+    HCLeatherhard=13,
+    keep Needle/HCBoneneedle,
+    Thread=6,
+    Result:HCWardogarmor,
+    NeedToBeLearn:true,
+    Time:500.0,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Fine Leather Alice Pack
+    {
+    HCLeatherfine=8,
+    keep Needle/HCBoneneedle,
+    HCSilkthread=3,
+    Result:HCAlicepack3,
+    NeedToBeLearn:true,
+    Time:1000.0,
+    Category:Weaving,
+    OnCreate:recipe_hcspindle3,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Seed Bag
+    {
+    HCLeatherfine,
+    keep Needle/HCBoneneedle,
+    Thread,
+    Result:HCSeedbag,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Horse Saddle
+	{
+        keep Needle/HCBoneneedle,
+	HCLeatherhard=12,
+	Thread=8,		
+	Result:HCHorsesaddle,
+    	NeedToBeLearn:true,
+	Time:420.0,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Horse Collar
+    {
+	HCLeatherfine=4,
+	HCRopethick=4,
+	CanBeDoneFromFloor:true,
+	Result:HCHorsecollar,
+    	NeedToBeLearn:true,
+	Time:250,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe  Make Belt
+	{
+        keep Needle/HCBoneneedle,
+	Thread,	
+	HCLeatherstriphard,
+	HCBeltbuckle,	
+	Result:Belt,
+    	NeedToBeLearn:true,
+	Time:100.0,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe  Make Leather Ball
+	{
+        keep Needle/HCBoneneedle,
+	Thread,	
+	HCLeather,
+	HCCotton=2,	
+	Result:HCLeatherball,
+    	NeedToBeLearn:true,
+	Time:100.0,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+	}
+	
+}

@@ -1,0 +1,578 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCBinoculars
+    	{
+        Weight    		= 	1,
+	Type			=	Normal,
+        DisplayName         	= 	Binoculars,
+        icon 			= 	HCBinoculars,
+    	}
+
+item HCCompass
+    	{
+        Weight    		= 	0.5,
+        Type    		= 	Normal,
+        DisplayName         	= 	Compass,
+        icon 			= 	HCCompass,
+    	}
+
+item HCMap
+    	{
+        Weight    		= 	0.05,
+        Type    		= 	Normal,
+        DisplayName         	= 	Map,
+        icon 			= 	HCMap,
+    	}
+
+item HCGPS
+    	{
+     	Weight    		= 	1,
+        Type    		= 	Normal,
+        DisplayName         	= 	GPS,
+        icon 			= 	HCGPS,
+    	}
+
+item HCCanteen
+    	{
+        Weight    		= 	1,
+	CanStoreWater		= 	TRUE,
+        Type    		= 	Normal,
+        DisplayName         	= 	Canteen,
+	ReplaceOnUseOn		= 	WaterSource-HCCanteenfull,
+        icon 			= 	HCCanteen,
+	RainFactor 		= 	1,
+    	}
+
+item HCCanteenfull
+    	{
+	IsWaterSource		=	TRUE,
+	Weight			=	2,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Canteen with Water,
+	ReplaceOnDeplete	=	HCCanteen,
+	ReplaceOnUseOn		=	WaterSource-HCCanteenfull,
+	Icon			=	HCCanteenfull,
+	RainFactor 		= 	1,
+    	}
+
+item HCStrappedcanteen
+    	{
+        Weight    		= 	1,
+	CanStoreWater		= 	TRUE,
+        Type    		= 	Normal,
+        DisplayName         	= 	Strapped Canteens,
+	ReplaceOnUseOn		= 	WaterSource-HCStrappedcanteenfull,
+        icon 			= 	HCStrappedcanteen,
+	RainFactor 		= 	1,
+    	}
+
+item HCStrappedcanteenfull
+    	{
+	IsWaterSource		=	TRUE,
+	Weight			=	2,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.035,
+	DisplayName		=	Strapped Canteens with Water,
+	ReplaceOnDeplete	=	HCStrappedcanteen,
+	ReplaceOnUseOn		=	WaterSource-HCStrappedcanteenfull,
+	Icon			=	HCStrappedcanteen,
+	RainFactor 		= 	1,
+    	}
+
+item HCMagnesiumstriker
+	{
+	Weight			=	0.3,
+	Type			=	Drainable,
+	UseDelta		=	0.00001,
+	UseWhileEquipped	=	FALSE,
+	DisplayName		=	Magnesium Striker,
+	Icon			=	HCMagnesiumstriker,
+	}
+
+item HCPurifyingtablets
+    	{
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+	DisplayName		= 	Water Purifying Tablets,
+	Icon	        	= 	HCPurifyingtablets,
+    	}
+
+item HCPurifyingtabletsbox
+    	{
+        Weight    		= 	0.3,
+        Type    		= 	Normal,
+	DisplayName		= 	Box of Water Purifying Tablets,
+	Icon	        	= 	HCPurifyingtabletsbox,
+    	}
+
+item HCRaftrubber
+	{
+	Weight 				= 	1.0,
+	Type 				= 	Normal,
+	DisplayName 			= 	Rubber Raft,
+	Icon				=	HCRaftrubber,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCSpaceblanket
+    	{
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Space Blanket,
+        icon 			= 	HCSpaceblanket,
+    	}
+
+/************************WEAPONS************************/
+
+    item HCJackknife
+	{
+		MaxRange			=	0.9,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		KnockBackOnNoDeath		=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		ConditionLowerChanceOneIn	=	20,
+		Weight				=	0.3,
+		SplatNumber			=	0,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.6,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		WeaponWeight			=	0.3,
+		DisplayName			=	Jack Knife,
+		MinRange			=	0.61,
+		CloseKillMove 			= 	Jaw_Stab,
+		SwingTime			=	2,
+		MinDamage			=	0.3,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCJackknife,
+		RunAnim				=	Run_Weapon2,
+        	IdleAnim			=	Idle_Weapon2,
+        	TreeDamage  			=   	2,
+        	EnduranceMod 			= 	0.5,
+	}
+
+    item HCPaddlewood
+	{
+		Type				=	Weapon,
+		DisplayName			=	Wooden Paddle,
+		Icon				=	HCPaddlewood,
+		Weight				=	2.0,
+		SubCategory    			=     	Swinging,
+		MinAngle			=	0,
+		MaxDamage			=	1.9,
+		MinDamage			=	0.8,
+		MaxRange 			= 	1.5,
+		MinRange 			= 	0.61,
+		CriticalChance			=	10,
+		PushBackMod			=	0.5,
+		HitAngleMod			=	-30.0,
+		SwingAnim			=	Bat,
+		MaxHitCount 			=	1,
+		WeaponSprite			=	Shovel,
+		IdleAnim			=	Idle_Weapon2,
+		RunAnim				=	Run_Weapon2,
+		Weight				=	1.5,
+		DoorDamage			=	5,
+		MinimumSwingTime 		= 	2.1,
+		SwingTime			=	2.1,
+		SwingAmountBeforeImpact 	= 	0.02,
+		ConditionLowerChanceOneIn 	= 	5,
+		ConditionMax 			= 	10,
+		Categories 			=	Blunt,
+		TwoHandWeapon 			= 	TRUE,
+		BreakSound  			=   	PZ_WoodSnap,
+		KnockdownMod			=	2,
+        	KnockBackOnNoDeath		=	TRUE,
+	}
+
+    item HCPaddlemetal
+	{
+		Type				=	Weapon,
+		DisplayName			=	Metal Paddle,
+		Icon				=	HCPaddlemetal,
+		Weight				=	2.0,
+		SubCategory    			=     	Swinging,
+		MinAngle			=	0,
+		MaxDamage			=	1.9,
+		MinDamage			=	0.8,
+		MaxRange 			= 	1.5,
+		MinRange 			= 	0.61,
+		CriticalChance			=	10,
+		PushBackMod			=	0.5,
+		HitAngleMod			=	-30.0,
+		SwingAnim			=	Bat,
+		MaxHitCount 			=	1,
+		WeaponSprite			=	Shovel,
+		IdleAnim			=	Idle_Weapon2,
+		RunAnim				=	Run_Weapon2,
+		Weight				=	1.5,
+		DoorDamage			=	5,
+		MinimumSwingTime 		= 	2.1,
+		SwingTime			=	2.1,
+		SwingAmountBeforeImpact 	= 	0.02,
+		ConditionLowerChanceOneIn 	= 	10,
+		ConditionMax 			= 	20,
+		Categories 			=	Blunt,
+		TwoHandWeapon 			= 	TRUE,
+		BreakSound  			=   	PZ_MetalSnap,
+		KnockdownMod			=	2,
+        	KnockBackOnNoDeath		=	TRUE,
+	}
+
+/************************RECIPES************************/
+
+recipe Box Water Purifying Tablets
+    	{
+    	HCPurifyingtablets=10,
+    	Result:HCPurifyingtabletsbox,
+    	Time:15,
+	Category:Health,
+    	}
+
+recipe Unbox Water Purifying Tablets
+    	{
+    	HCPurifyingtabletsbox,
+    	Result:HCPurifyingtablets=10,
+    	Time:15,
+	Category:Health,
+    	}
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets,
+	destroy WaterBottleFull,
+    	Result:WaterBottleFull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	}    
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets,
+	destroy WaterBowl,
+    	Result:WaterBowl,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets=2,
+	destroy WaterPot,
+    	Result:WaterPot,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets,
+	destroy WhiskeyWaterFull,
+    	Result:WhiskeyWaterFull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets,
+	destroy WaterMug,
+    	Result:WaterMug,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets,
+	destroy HCClayteapotfull,
+    	Result:HCClayteapotfull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets,
+	destroy HCClaymugfull,
+    	Result:HCClaymugfull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets,
+	destroy HCLargetupwater,
+    	Result:HCLargetupwater,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets,
+	destroy HCMediumtupwater,
+    	Result:HCMediumtupwater,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets,
+	destroy HCSmalltupwater,
+    	Result:HCSmalltupwater,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets,
+	destroy HCZipperbagfull,
+    	Result:HCZipperbagfull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets,
+	destroy HCThermosfull,
+    	Result:HCThermosfull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets,
+	destroy HCWaterballoon,
+    	Result:HCWaterballoon,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets,
+	destroy HCWashbottlefull,
+    	Result:HCWashbottlefull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets=6,
+	destroy HCVatwater,
+    	Result:HCVatwater,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets=2,
+	destroy HCWoodenbucketwater,
+    	Result:HCWoodenbucketwater,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets=2,
+	destroy HCWashtubfull,
+    	Result:HCWashtubfull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets=6,
+	destroy HCWatertowerfull,
+    	Result:HCWatertowerfull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets=4,
+	destroy HCShowersinkfull,
+    	Result:HCShowersinkfull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets=4,
+	destroy HCShowerfull,
+    	Result:HCShowerfull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets=3,
+	destroy HCIBCfull,
+    	Result:HCIBCfull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets=3,
+	destroy HCIBCstoragefull,
+    	Result:HCIBCstoragefull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets=6,
+	destroy HCIBCtowerfull,
+    	Result:HCIBCtowerfull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets=3,
+	destroy HCFishtankfull,
+    	Result:HCFishtankfull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets,
+	destroy HCMugcopperfull,
+    	Result:HCMugcopperfull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets,
+	destroy HCKettlecopperfull,
+    	Result:HCKettlecopperfull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets=6,
+	destroy HCCauldronironfull,
+    	Result:HCCauldronironfull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets=2,
+	destroy HCStrappedcanteenfull,
+    	Result:HCStrappedcanteenfull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Purify Water
+    	{
+    	HCPurifyingtablets,
+	destroy HCBirchbarkcupfull,
+    	Result:HCBirchbarkcupfull,
+    	Time:15,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    	} 
+
+recipe Attatch Canteens
+    	{
+    	HCCanteen=2,
+	Belt/Sling,
+    	Result:HCStrappedcanteen,
+    	Time:15,
+	Category:Health,
+    	}
+
+recipe Craft Wooden Paddle
+	{
+	keep Saw,
+	Plank=3,
+	Woodglue=3,
+	DuctTape=2,	
+	SkillRequired:Woodwork=4,
+	Result:HCPaddlewood,
+	Time:500.0,
+    	Category:Carpentry,
+    	OnGiveXP:HCHunger_OnGiveXP,
+	}
+	
+}

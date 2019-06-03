@@ -1,0 +1,175 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCPapercrane
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Paper Crane,
+        icon 			= HCPapercrane,
+    }
+
+item HCPaperairplane
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Airplane,
+        icon 			= HCPaperairplane,
+    }
+
+item HCRagball
+    {
+        Weight    	=    0.1,
+        Type    	=    Normal,
+        DisplayName    	=    Rag Ball,
+        Icon    	=    HCRagball,
+    }
+
+item HCPulp
+    {
+        Weight    	=    0.1,
+        Type    	=    Normal,
+        DisplayName    	=    Pulp,
+        Icon    	=    HCPulp,
+    }
+
+item HCNetting
+    {
+        Weight    	=    0.1,
+        Type    	=    Normal,
+        DisplayName    	=    Netting,
+        Icon    	=    HCNetting,
+    }
+
+item HCPaperscreen
+    {
+        Weight    	=    0.2,
+        Type    	=    Normal,
+        DisplayName    	=    Paper Screen,
+        Icon    	=    HCPaperscreen,
+    }
+
+item HCPaperscreenwet
+    {
+        Weight    	=    0.4,
+        Type    	=    Normal,
+        DisplayName    	=    Wet Paper Screen,
+        Icon    	=    HCPaperscreenwet,
+    }
+
+item HCPaperscreendry
+    {
+        Weight    	=    0.3,
+        Type    	=    Normal,
+        DisplayName    	=    Dry Paper Screen,
+        Icon    	=    HCPaperscreendry,
+    }
+
+/************************RECIPES************************/
+
+recipe Fold Paper
+    {
+    SheetPaper/SheetPaper2,
+    Result:HCPapercrane,
+    Time:500,
+    Category:Leisure,
+    } 
+
+recipe Fold Paper
+    {
+    SheetPaper/SheetPaper2,
+    Result:HCPaperairplane,
+    Time:500,
+    Category:Leisure,
+    }
+
+recipe Make Rag Ball
+    {
+    	RippedSheets=3,
+   	Result:HCRagball,
+    	Time:20,
+    	NeedToBeLearn:true,
+    	Category:Papercraft,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Pulp
+    {
+    	HCRagball,
+    	Water,
+	keep HCTriphammer,
+   	Result:HCPulp,
+    	Time:2000,
+    	NeedToBeLearn:true,
+    	Category:Papercraft,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Netting
+    {
+	HCRopethin=3,
+    	Result:HCNetting,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Paper Screen
+    {
+	HCNetting,
+    	WoodenStick=4,
+	Nails=2,
+    	keep Hammer,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCPaperscreen,
+    	Sound:PZ_Hammer,
+    	Time:200,
+    	NeedToBeLearn:true,
+    	Category:Papercraft,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Put Pulp onto Paper Screen
+    {
+    	HCPulp,
+	HCPaperscreen,
+   	Result:HCPaperscreenwet,
+    	Time:2000,
+    	NeedToBeLearn:true,
+    	Category:Papercraft,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Dry Pulp
+    {
+	HCPaperscreenwet,
+   	Result:HCPaperscreendry,
+    	Time:2000,
+    	NeedToBeLearn:true,
+    	Category:Papercraft,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Remove Paper Screen
+    {
+	HCPaperscreendry,
+	keep HCRuler,
+	keep Scissors/HCBoxcutter/HCScalpel/HCScalpelimprovised/HCJackknife,
+   	Result:SheetPaper,
+    	Time:20,
+    	Category:Papercraft,
+    	NeedToBeLearn:true,
+    	OnCreate:recipe_hcpaperscreen,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+}

@@ -1,0 +1,772 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************RECIPES************************/
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    Doorknob=2,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    Doorknob=2,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCShoehorn=4,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCShoehorn=4,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCHatchetbronze=2,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCHatchetbronze=2,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCBattleaxebronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCBattleaxebronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCSicklebronze=2,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCSicklebronze=2,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCKnifebronze=3,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCKnifebronze=3,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCDaggerbronze=3,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCDaggerbronze=3,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCShortswordbronze=2,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCShortswordbronze=2,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCLongswordbronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCLongswordbronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCBastardswordbronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=2,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCBastardswordbronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=2,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCGreatswordbronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=3,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot=3,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCGreatswordbronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=3,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot=3,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCSmithyhammerbronze=3,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCSmithyhammerbronze=3,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCWarhammerbronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCWarhammerbronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCHalberdbronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCHalberdbronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCSpikedmacebronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCSpikedmacebronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCSpikedflailbronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCSpikedflailbronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCSpearbronze=2,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCSpearbronze=2,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCTridentbronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCTridentbronze,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCScythebronze=2,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Bronze
+    {
+    SkillRequired:MetalWelding=2,
+    HCScythebronze=2,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBronzeingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+
+}

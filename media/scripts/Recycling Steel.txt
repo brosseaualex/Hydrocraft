@@ -1,0 +1,3541 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************RECIPES************************/
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    Fork=4,
+    Charcoal,
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    Spoon=4,
+    Charcoal,
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    Hammer,
+    Charcoal,
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    Saw,
+    Charcoal,
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    Sledgehammer,
+    Charcoal,
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=2,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    Screwdriver=2,
+    Charcoal,
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    Padlock=2,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    CombinationPadlock=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCGiglisaw,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCGiglisawhandle=2,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCWiresteel=5,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    ButterKnife=3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    KitchenKnife=3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HuntingKnife=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    PaperclipBox=3,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    Tweezers=10,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCSteelrod,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=3,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=3,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    Golfclub,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    Axe,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    Scissors=3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    Corkscrew=10,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCPliers=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    TinOpener=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    LugWrench,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCJackknife=3,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCToolbox,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCRake,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCHedgetrimmer,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCHedgetrimmerblade,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCHedgecutter,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCHedgecutterblade=2,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCBottleopener=4,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCCheesegrater=2,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCEggbeater=4,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCColander,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCIcecreamscoop=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCLadle=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCPizzacutter=4,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCTablespoon=6,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCTeaspoon=8,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCToaster,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCNutcracker=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCPotatopeeler=4,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCSteakknife=3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCMeatcleaver,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCHeadmirror=8,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCBonesaw,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCScalpel=4,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCStaplesbox=3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCStapler=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    LetterOpener=4,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCAuger,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=3,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=3,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCChildsafetyscissors=4,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCWrench=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    Spanner=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCMonkeywrench,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCHarmonica=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCWirehanger=10,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCMakeshiftaxe,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCMakeshiftaxeworn,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCMakeshiftaxeblunt,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCAxehead,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCAxeheadworn,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCAxeheadblunt,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCToywagon,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=2,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCWheelbarrow,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=4,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=4,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCMedicalbox,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCLunchbox,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCMetalbox=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCWhisk=4,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCSieve=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCJuicer2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCPotatomasher=4,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCSpatula=4,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCSurvivalaxe=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCHatchetsteel=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCBattleaxesteel,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCSicklesteel=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCMachete=2,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCCombatknife=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCKatana,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCKnifesteel=3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCDaggersteel=3,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCShortswordsteel=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCLongswordsteel,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCBastardswordsteel,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=2,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCGreatswordsteel,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=3,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=3,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCSmithyhammersteel=3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCWarhammersteel,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCHalberdsteel,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCSteelpipe,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    Pipe=5,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    IcePick=3,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    KnittingNeedles=5,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    ScrapMetal,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCSteelsheet,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCSteelsheetlarge,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCNailclipper=5,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCBreadknife=3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCFloursieve=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCScale,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCBinderclip=10,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCClipboard=10,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCStapleremover=10,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCThumbtack=20,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCShears=3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCBeesmokerempty=3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCSpikedmacesteel,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCSpikedflailsteel,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCSpearsteel=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCTridentsteel,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCScythesteel=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCAirfilter=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCCamshaft=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCClutch=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    OldCarMuffler1/OldCarMuffler2/OldCarMuffler3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    NormalCarMuffler1/NormalCarMuffler2/NormalCarMuffler3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=2,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    ModernCarMuffler1/ModernCarMuffler2/ModernCarMuffler3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=3,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=3,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCRadiator,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCRotor=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    NormalSuspension1/NormalSuspension2/NormalSuspension3/ModernSuspension1/ModernSuspension2/ModernSuspension3,
+    NormalSuspension1/NormalSuspension2/NormalSuspension3/ModernSuspension1/ModernSuspension2/ModernSuspension3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCWiper=4,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCPipebender,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCGlasscutter,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCLever,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCValve,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCPitchfork,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCPickaxe,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCIcesaw,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCSawcircularblade=3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCDrillhead=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCGrinderhead=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCChiselhead=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCInkroller=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCAlestien=2,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCCocktailshaker,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    Saucepan,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    MetalBar,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    MetalPipe,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCPruningsheers=3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    Jack,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=4,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=4,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    OldBrake1/OldBrake2/OldBrake3/NormalBrake1/NormalBrake2/NormalBrake3/ModernBrake1/ModernBrake2/ModernBrake3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    OldBrake1/OldBrake2/OldBrake3/NormalBrake1/NormalBrake2/NormalBrake3/ModernBrake1/ModernBrake2/ModernBrake3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    SmallGasTank1/SmallGasTank2/SmallGasTank3,
+    SmallGasTank1/SmallGasTank2/SmallGasTank3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    NormalGasTank1/NormalGasTank2/NormalGasTank3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    BigGasTank1/BigGasTank2/BigGasTank3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=2,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    SmallTrunk1/SmallTrunk2/SmallTrunk3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    NormalTrunk1/NormalTrunk2/NormalTrunk3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=2,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    BigTrunk1/BigTrunk2/BigTrunk3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=3,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=3,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    FrontCarDoor1/FrontCarDoor2/FrontCarDoor3/RearCarDoor1/RearCarDoor2/RearCarDoor3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=4,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=4,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    RearCarDoorDouble1/RearCarDoorDouble2/RearCarDoorDouble3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=8,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=8,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    EngineDoor1/EngineDoor2/EngineDoor3/TrunkDoor1/TrunkDoor2/TrunkDoor3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=6,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=6,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    GloveBox1/GloveBox2/GloveBox3,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCPostholedigger,
+    Charcoal,
+
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCLooper,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+}

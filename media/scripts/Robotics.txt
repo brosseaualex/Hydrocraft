@@ -1,0 +1,26 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCRobotarm
+    {
+	Weight             	= 20,
+        Type    		= Normal,
+        DisplayName         	= Robotic Assembly Arm,
+        icon 			= HCRobotarm,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+
+/************************RECIPES************************/	
+
+
+
+}

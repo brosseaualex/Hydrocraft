@@ -1,0 +1,1156 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCCannedfoodstash
+    {
+        Weight              		= 	4.5,
+        Type				= 	Normal,
+        DisplayName         		= 	Box of Canned Goods,
+        Icon                		= 	HCCannedfoodstash,
+    }
+
+item HCCannedapple
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Apples,
+	Icon				=	HCCannedapple,
+        Carbohydrates 			= 	136,
+        Proteins 			= 	1.6,
+        Lipids 				= 	3.2,
+        Calories 			= 	536,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedpear
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Pears,
+	Icon				=	HCCannedpear,
+        Carbohydrates 			= 	152,
+        Proteins 			= 	1.6,
+        Lipids 				= 	1.6,
+        Calories 			= 	592,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedpeach
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Peaches,
+	Icon				=	HCCannedpeach,
+        Carbohydrates 			= 	144,
+        Proteins 			= 	4,
+        Lipids 				= 	1.6,
+        Calories 			= 	576,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedgreenbeans
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Green Beans,
+	Icon				=	HCCannedgreenbeans,
+        Carbohydrates 			= 	58.4,
+        Proteins 			= 	11.2,
+        Lipids 				= 	1.6,
+        Calories 			= 	296,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedshrooms
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Mushrooms,
+	Icon				=	HCCannedmushrooms,
+        Carbohydrates 			= 	40.8,
+        Proteins 			= 	15.2,
+        Lipids 				= 	2.4,
+        Calories 			= 	200,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedpumpkin
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Pumpkin,
+	Icon				=	HCCannedpumpkin,
+        Carbohydrates 			= 	64.8,
+        Proteins 			= 	8.8,
+        Lipids 				= 	2.4,
+        Calories 			= 	272,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedspam
+	{
+	Weight				=	0.4,
+	Type				=	Food,
+	DisplayName			=	Canned Spam,
+	Icon				=	HCCannedspam,
+        Carbohydrates 			= 	18.4,
+        Proteins 			= 	52,
+        Lipids 				= 	108,
+        Calories 			= 	1260,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedcranberries
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Cranberries,
+	Icon				=	HCCannedcranberries,
+        Carbohydrates 			= 	184,
+        Proteins 			= 	8,
+        Lipids 				= 	3.2,
+        Calories 			= 	704,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedpineapple
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Pineapple,
+	Icon				=	HCCannedpineapple,
+        Carbohydrates 			= 	160,
+        Proteins 			= 	3.2,
+        Lipids 				= 	0.8,
+        Calories 			= 	624,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedrefriedbeans
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Refried Beans,
+	Icon				=	HCCannedrefriedbeans,
+        Carbohydrates 			= 	112,
+        Proteins 			= 	42.4,
+        Lipids 				= 	7.2,
+        Calories 			= 	664,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedcreamofchicken
+    	{
+    	Weight                		=    	0.8,
+   	Type                		=    	Food,
+    	DisplayName            		=    	Canned Cream of Chicken,
+    	Icon                		=    	HCCannedcreamofchicken,
+        Carbohydrates 			= 	30.4,
+        Proteins 			= 	11.2,
+        Lipids 				= 	24,
+        Calories 			= 	384,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+    	}
+
+item HCCannedsoupclassic
+    {
+        Weight				=	0.8,
+        Type				=	Food,
+	DisplayCategory 		=	Item,
+        DisplayName			=	Canned Soup Classic,
+        Icon				=	HCCannedsoupclassic,
+    }
+item HCCanbangedup
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Banged-Up Canned Food,
+	Icon				=	HCCanbangedup,
+        Carbohydrates 			= 	112,
+        Proteins 			= 	42.4,
+        Lipids 				= 	7.2,
+        Calories 			= 	664,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedcheesesauce
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Cheese Sauce,
+	Icon				=	HCCannedcheesesauce,
+    	Carbohydrates 			= 	26,
+    	Proteins 			= 	4,
+    	Lipids 				= 	24,
+    	Calories 			= 	320,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedchickenbreast
+	{
+	Weight				=	1,
+	Type				=	Food,
+	DisplayName			=	Canned Chicken Breast,
+	Icon				=	HCCannedchickenbreast,
+    	Carbohydrates 			= 	26,
+    	Proteins 			= 	4,
+    	Lipids 				= 	24,
+    	Calories 			= 	320,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedfruitcocktail
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Fruit Cocktail,
+	Icon				=	HCCannedfruitcocktail,
+    	Carbohydrates 			= 	63,
+    	Proteins 			= 	0,
+    	Lipids 				= 	27,
+    	Calories 			= 	210,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedgovermentbeef
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Government Beef,
+	Icon				=	HCCannedgovermentbeef,
+    	Carbohydrates 			= 	80,
+    	Proteins 			= 	0,
+    	Lipids 				= 	27,
+    	Calories 			= 	730,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedgovermentbread
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Government Bread,
+	Icon				=	HCCannedgovermentbread,
+    	Carbohydrates 			= 	43,
+    	Proteins 			= 	5,
+    	Lipids 				= 	3,
+    	Calories 			= 	195,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedgovermentchicken
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Government Chicken,
+	Icon				=	HCCannedgovermentchicken,
+    	Carbohydrates 			= 	4,
+    	Proteins 			= 	113 ,
+    	Lipids 				= 	3,
+    	Calories 			= 	829,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedgovermentpork
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Government Pork,
+	Icon				=	HCCannedgovermentpork,
+    	Carbohydrates 			= 	2,
+    	Proteins 			= 	74 ,
+    	Lipids 				= 	32,
+    	Calories 			= 	642,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedmacncheese
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Mac and Cheese,
+	Icon				=	HCCannedmacncheese,
+    	Carbohydrates 			= 	126,
+    	Proteins 			= 	21 ,
+    	Lipids 				= 	12,
+    	Calories 			= 	690,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedpiefillingapple
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Apple Pie Filling,
+	Icon				=	HCCannedpiefillingapple,
+    	Carbohydrates 			= 	155,
+    	Proteins 			= 	1 ,
+    	Lipids 				= 	68,
+    	Calories 			= 	595,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedpiefillingcherry
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Cherry Pie Filling,
+	Icon				=	HCCannedpiefillingcherry,
+    	Carbohydrates 			= 	168,
+    	Proteins 			= 	2 ,
+    	Lipids 				= 	5,
+    	Calories 			= 	684,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedpiefillingblueberry
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Blueberry Pie Filling,
+	Icon				=	HCCannedpiefillingblueberry,
+    	Carbohydrates 			= 	168,
+    	Proteins 			= 	2 ,
+    	Lipids 				= 	5,
+    	Calories 			= 	684,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedravioli
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Beef Raviloi,
+	Icon				=	HCCannedravioli,
+    	Carbohydrates 			= 	12,
+    	Proteins 			= 	16 ,
+    	Lipids 				= 	2,
+    	Calories 			= 	180,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedspaghettirings
+	{
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Canned Spaghetti Rings,
+	Icon				=	HCCannedspaghettirings,
+    	Carbohydrates 			= 	12,
+    	Proteins 			= 	16 ,
+    	Lipids 				= 	2,
+    	Calories 			= 	180,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCCannedappleopen
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Open Canned Apples,
+	ReplaceOnUse			=	HCCannedappleempty,
+	Icon				=	HCCannedappleopen,
+	DaysFresh			=	2,
+        EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType            		=       Fruits,
+        Carbohydrates 			= 	136,
+        Proteins 			= 	1.6,
+        Lipids 				= 	3.2,
+        Calories 			= 	536,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+        EvolvedRecipeName 		= 	Canned Apple,
+	}
+
+item HCCannedpearopen
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Open Canned Pears,
+	ReplaceOnUse			=	HCCannedpearempty,
+	Icon				=	HCCannedpearopen,
+	DaysFresh			=	2,
+        EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType            		=       Fruits,
+        Carbohydrates 			= 	152,
+        Proteins 			= 	1.6,
+        Lipids 				= 	1.6,
+        Calories 			= 	592,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+        EvolvedRecipeName 		= 	Canned Pear,
+	}
+
+item HCCannedpeachopen
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Open Canned Peaches,
+	ReplaceOnUse			=	HCCannedpeachempty,
+	Icon				=	HCCannedpeachopen,
+	DaysFresh			=	2,
+        EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType            		=       Fruits,
+        Carbohydrates 			= 	144,
+        Proteins 			= 	4,
+        Lipids 				= 	1.6,
+        Calories 			= 	576,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+        EvolvedRecipeName 		= 	Canned Peach,
+	}
+
+item HCCannedgreenbeansopen
+	{
+	HungerChange			=	-25,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Open Canned Green Beans,
+	ReplaceOnUse			=	HCCannedgreenbeansempty,
+	Icon				=	HCCannedgreenbeansopen,
+	DaysFresh			=	2,
+        EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType            		=       Vegetables,
+        Carbohydrates 			= 	58.4,
+        Proteins 			= 	11.2,
+        Lipids 				= 	1.6,
+        Calories 			= 	296,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+        EvolvedRecipeName 		= 	Canned Green Beans,
+	}
+
+item HCCannedshroomsopen
+	{
+	HungerChange			=	-20,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Open Canned Mushrooms,
+	ReplaceOnUse			=	HCCannedmushroomsempty,
+	Icon				=	HCCannedmushroomsopen,
+	DaysFresh			=	2,
+        EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType            		=       Vegetables,
+        Carbohydrates 			= 	40.8,
+        Proteins 			= 	15.2,
+        Lipids 				= 	2.4,
+        Calories 			= 	200,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+        EvolvedRecipeName 		= 	Canned Mushrooms,
+	}
+
+item HCCannedpumpkinopen
+	{
+	HungerChange			=	-25,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Open Cannned Pumpkin,
+	ReplaceOnUse			=	HCCannedpumpkinempty,
+	Icon				=	HCCannedpumpkinopen,
+	DaysFresh			=	2,
+        EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType            		=       Vegetables,
+        Carbohydrates 			= 	64.8,
+        Proteins 			= 	8.8,
+        Lipids 				= 	2.4,
+        Calories 			= 	272,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+        EvolvedRecipeName 		= 	Canned Pumpkin,
+	}
+
+item HCCannedspamopen
+	{
+	HungerChange			=	-40,
+	Weight				=	0.4,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Open Canned Spam,
+	ReplaceOnUse			=	HCCannedspamempty,
+	Icon				=	HCCannedspamopen,
+	DaysFresh			=	2,
+        EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType            		=       Meat,
+        Carbohydrates 			= 	18.4,
+        Proteins 			= 	52,
+        Lipids 				= 	108,
+        Calories 			= 	1260,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+        EvolvedRecipeName 		= 	Canned Spam,
+	}
+
+item HCCannedcranberriesopen
+	{
+	HungerChange			=	-35,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Open Canned Cranberries,
+	ReplaceOnUse			=	HCCannedcranberriesempty,
+	Icon				=	HCCannedcranberriesopen,
+	DaysFresh			=	2,
+        EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType            		=       Fruits,
+        Carbohydrates 			= 	184,
+        Proteins 			= 	8,
+        Lipids 				= 	3.2,
+        Calories 			= 	704,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+        EvolvedRecipeName 		= 	Canned Cranberries,
+	}
+
+item HCCannedpineappleopen
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Open Cannned Pineapple,
+	ReplaceOnUse			=	HCCannedpineappleempty,
+	Icon				=	HCCannedpineappleopen,
+	DaysFresh			=	2,
+        EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType            		=       Fruits,
+        Carbohydrates 			= 	160,
+        Proteins 			= 	3.2,
+        Lipids 				= 	0.8,
+        Calories 			= 	624,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+        EvolvedRecipeName 		= 	Canned Pineapple,
+	}
+
+item HCCannedrefriedbeansopen
+	{
+	HungerChange			=	-35,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Open Cannned Refried Beans,
+	ReplaceOnUse			=	HCCannedrefriedbeansempty,
+	Icon				=	HCCannedrefriedbeansopen,
+	DaysFresh			=	2,
+	EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType            		=       Vegetables,
+        Carbohydrates 			= 	112,
+        Proteins 			= 	42.4,
+        Lipids 				= 	7.2,
+        Calories 			= 	664,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+        EvolvedRecipeName 		= 	Canned Refried Beans,
+	}
+
+item HCCannedcreamofchickenopen
+    	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+    	Type                		=    	Food,
+    	DaysTotallyRotten        	=    	4,
+    	DisplayName            		=    	Open Cannned Cream of Chicken,
+    	ReplaceOnUse            	=    	HCTincan,
+    	Icon                		=    	HCCannedcreamofchickenopen,
+    	DaysFresh            		=    	2,
+        FoodType            		=       Meat,
+        Carbohydrates 			= 	30.4,
+        Proteins 			= 	11.2,
+        Lipids 				= 	24,
+        Calories 			= 	384,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+        EvolvedRecipeName 		= 	Canned Cream of Chicken,
+    	}
+
+item HCCannedsoupclassicopen
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DisplayName			=	Open Canned Classic Soup,
+	Icon				=	HCCannedsoupclassicopen,
+	CustomContextMenu 		= 	Drink,
+	CustomEatSound			= 	PZ_DrinkingFromBottle,
+	DaysTotallyRotten		=	4,
+        DaysFresh 			= 	2,
+	EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	Carbohydrates 			= 	3,
+        Proteins 			= 	7.5,
+        Lipids 				= 	2.8,
+        Calories 			= 	150,
+        Packaged 			= 	TRUE,
+	ReplaceOnUse			=	HCCannedsoupclassicempty,
+        EvolvedRecipeName 		= 	Canned Classic Soup,
+	}
+
+item HCCanbangedupopen
+	{
+	HungerChange			=	-30,
+	UnhappyChange			=	-10,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Open Banged-Up Can,
+	ReplaceOnUse			=	HCCanbangedupopenempty,
+	Icon				=	HCCanbangedupopen,
+	DaysFresh			=	2,
+    	EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+    	FoodType            		=   	Stale,
+    	Carbohydrates 			= 	112,
+    	Proteins 			= 	42.4,
+    	Lipids 				= 	7.2,
+    	Calories 			= 	664,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+    	EvolvedRecipeName 		= 	Canned Shit,
+	}
+
+item HCCannedcheesesauceopen
+	{
+	HungerChange			=	-30,
+	UnhappyChange			=	-5,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Open Canned Cheese Sauce,
+	ReplaceOnUse			=	HCCannedcheesesauceopenempty,
+	Icon				=	HCCannedcheesesauceopen,
+	DaysFresh			=	2,
+    	EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+    	FoodType            		=   	Dairy,
+    	Carbohydrates 			= 	26,
+    	Proteins 			= 	4,
+    	Lipids 				= 	24,
+    	Calories 			= 	320,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+    	EvolvedRecipeName 		= 	Canned Cheese,
+	}
+
+item HCCannedchickenbreastopen
+	{
+	HungerChange			=	-45,
+	Weight				=	1,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Open Canned Chicken Breast,
+	ReplaceOnUse			=	HCCannedchickenbreastopenempty,
+	Icon				=	HCCannedchickenbreastopen,
+	DaysFresh			=	2,
+    	EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+    	FoodType            		=   	Meat,
+    	Carbohydrates 			= 	0,
+    	Proteins 			= 	65,
+    	Lipids 				= 	5,
+    	Calories 			= 	360,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+    	EvolvedRecipeName 		= 	Canned Chicken,
+	}
+
+item HCCannedfruitcocktailopen
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Opened Canned Fruit Cocktail,
+	ReplaceOnUse			=	HCCannedfruitcocktailopenempty,
+	Icon				=	HCCannedfruitcocktailopen,
+	DaysFresh			=	2,
+    	EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+    	FoodType            		=   	Fruit,
+    	Carbohydrates 			= 	63,
+    	Proteins 			= 	0,
+    	Lipids 				= 	27,
+    	Calories 			= 	210,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+    	EvolvedRecipeName 		= 	Canned Fruit,
+	}
+
+item HCCannedgovermentbeefopen
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Opened Canned Government Beef,
+	ReplaceOnUse			=	HCCannedgovermentbeefopenempty,
+	Icon				=	HCCannedgovermentbeefopen,
+	DaysFresh			=	2,
+    	EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+    	FoodType            		=   	Meat,
+    	Carbohydrates 			= 	0,
+    	Proteins 			= 	134,
+    	Lipids 				= 	9,
+    	Calories 			= 	980,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+    	EvolvedRecipeName 		= 	Canned Meat,
+	}
+
+item HCCannedgovermentbreadopen
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Opened Canned Government Bread,
+	ReplaceOnUse			=	HCCannedgovermentbreadopenempty,
+	Icon				=	HCCannedgovermentbreadopen,
+	DaysFresh			=	2,
+    	EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+    	FoodType            		=   	Bread,
+    	Carbohydrates 			= 	43,
+    	Proteins 			= 	5,
+    	Lipids 				= 	3,
+    	Calories 			= 	195,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+    	EvolvedRecipeName 		= 	Canned Bread,
+	}
+
+item HCCannedgovermentchickenopen
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Opened Canned Government Chicken,
+	ReplaceOnUse			=	HCCannedgovermentchickenopenempty,
+	Icon				=	HCCannedgovermentchickenopen,
+	DaysFresh			=	2,
+    	EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+    	FoodType            		=   	Meat,
+   	 Carbohydrates 			= 	43,
+    	Proteins 			= 	5,
+    	Lipids 				= 	3,
+    	Calories 			= 	195,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+    	EvolvedRecipeName 		= 	Canned Meat,
+	}
+
+item HCCannedgovermentporkopen
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Opened Canned Government Chicken,
+	ReplaceOnUse			=	HCCannedgovermentporkopenempty,
+	Icon				=	HCCannedgovermentporkopen,
+	DaysFresh			=	2,
+    	EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+    	FoodType            		=   	Meat,
+    	Carbohydrates 			= 	2,
+    	Proteins 			= 	74 ,
+    	Lipids 				= 	32,
+    	Calories 			= 	642,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+    	EvolvedRecipeName 		= 	Canned Meat,
+	}
+
+item HCCannedmacncheeseopen
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Opened Canned Mac and Cheese,
+	ReplaceOnUse			=	HCCannedmacncheeseopenempty,
+	Icon				=	HCCannedmacncheeseopen,
+	DaysFresh			=	2,
+    	EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+    	FoodType            		=   	Pasta,
+    	Carbohydrates 			= 	126,
+    	Proteins 			= 	21 ,
+    	Lipids 				= 	12,
+    	Calories 			= 	690,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+    	EvolvedRecipeName 		= 	Canned Pasta,
+	}
+
+item HCCannedpiefillingappleopen
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Opened Canned Mac and Cheese,
+	ReplaceOnUse			=	HCCannedpiefillingappleopenempty,
+	Icon				=	HCCannedpiefillingappleopen,
+	DaysFresh			=	2,
+    	EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+    	FoodType            		=   	Fruit,
+    	Carbohydrates 			= 	155,
+    	Proteins 			= 	1 ,
+    	Lipids 				= 	68,
+    	Calories 			= 	595,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+    	EvolvedRecipeName 		= 	Canned Fruit,
+	}
+
+item HCCannedpiefillingcherryopen
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Opened Canned Cherry Pie Filling,
+	ReplaceOnUse			=	HCCannedpiefillingcherryopenempty,
+	Icon				=	HCCannedpiefillingcherryopen,
+	DaysFresh			=	2,
+    	EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+    	FoodType            		=   	Fruit,
+    	Carbohydrates 			= 	168,
+    	Proteins 			= 	2 ,
+    	Lipids 				= 	5,
+    	Calories 			= 	684,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+    	EvolvedRecipeName 		= 	Canned Fruit,
+	}
+
+item HCCannedpiefillingblueberryopen
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Opened Canned Blueberry Pie Filling,
+	ReplaceOnUse			=	HCCannedpiefillingblueberryopenempty,
+	Icon				=	HCCannedpiefillingblueberryopen,
+	DaysFresh			=	2,
+    	EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+    	FoodType            		=   	Fruit,
+    	Carbohydrates 			= 	178,
+    	Proteins 			= 	2 ,
+    	Lipids 				= 	4,
+    	Calories 			= 	584,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+    	EvolvedRecipeName 		= 	Canned Fruit,
+	}
+
+item HCCannedravioliopen
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Opened Canned Beef Raviloi,
+	ReplaceOnUse			=	HCCannedravioliopenempty,
+	Icon				=	HCCannedravioliopen,
+	DaysFresh			=	2,
+    	EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+    	FoodType            		=   	Pasta,
+    	Carbohydrates 			= 	12,
+    	Proteins 			= 	16 ,
+    	Lipids 				= 	2,
+    	Calories 			= 	180,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+    	EvolvedRecipeName 		= 	Canned Pasta,
+	}
+
+item HCCannedspaghettiringsopen
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Opened Spaghetti Rings,
+	ReplaceOnUse			=	HCCannedspaghettiringsopenempty,
+	Icon				=	HCCannedspaghettiringsopen,
+	DaysFresh			=	2,
+   	EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+    	FoodType            		=   	Pasta,
+    	Carbohydrates 			= 	12,
+    	Proteins 			= 	16 ,
+    	Lipids 				= 	2,
+    	Calories 			= 	180,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+   	 EvolvedRecipeName 		= 	Canned Pasta,
+	}
+
+/************************RECIPES************************/
+
+recipe Remove Cans
+    {
+	HCCannedfoodstash,
+   	Result:HCCardboardflat,
+    	Time:50,
+    	OnCreate:recipe_hccannedfoodbox,
+    	Category:Loot,
+    }
+
+recipe Open Canned Apple
+	{
+		HCCannedapple,
+	   	keep TinOpener, 
+	   	Result:HCCannedappleopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+
+recipe Open Canned Pear
+	{
+	   	HCCannedpear,
+	  	keep TinOpener, 
+	   	Result:HCCannedpearopen,
+	  	Time:80.0,
+	   	Category:Cooking,
+	}
+
+recipe Open Canned Peach
+	{
+	   	HCCannedpeach,
+	   	keep TinOpener, 
+	   	Result:HCCannedpeachopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+
+recipe Open Canned Green Beans
+	{
+	   	HCCannedgreenbeans,
+	   	keep TinOpener, 
+	   	Result:HCCannedgreenbeansopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+recipe Open Canned Mushrooms
+	{
+	   	HCCannedshrooms,
+	   	keep TinOpener, 
+	   	Result:HCCannedshroomsopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+recipe Open Canned Pumpkin
+	{
+	   	HCCannedpumpkin,
+	   	keep TinOpener, 
+	   	Result:HCCannedpumpkinopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+recipe Open Canned Spam
+	{
+	   	HCCannedspam,
+	   	keep TinOpener, 
+	   	Result:HCCannedspamopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+recipe Open Canned Cranberries
+	{
+	   	HCCannedcranberries,
+	   	keep TinOpener, 
+	   	Result:HCCannedcranberriesopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+
+recipe Open Canned Pineapple
+	{
+	   	HCCannedpineapple,
+	   	keep TinOpener, 
+	   	Result:HCCannedpineappleopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+
+recipe Open Canned Refried Beans
+	{
+	   	HCCannedrefriedbeans,
+	   	keep TinOpener, 
+	   	Result:HCCannedrefriedbeansopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+
+recipe Open Canned Cream of Chicken
+	{
+	   	HCCannedcreamofchicken,
+	   	keep TinOpener, 
+	   	Result:HCCannedcreamofchickenopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+
+recipe Open Canned Classic Soup
+    {
+       		HCCannedsoupclassic,
+       		keep TinOpener,
+       		Result:HCCannedsoupclassicopen,
+       		Time:80.0,
+	   	Category:Cooking,
+    }
+
+recipe Open Banged-Up Can
+	{
+		HCCanbangedup,
+	   	keep TinOpener, 
+	   	Result:HCCanbangedupopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+	
+recipe Open Canned Cheese Sauce
+	{
+		HCCannedcheesesauce,
+	   	keep TinOpener, 
+	   	Result:HCCannedcheesesauce,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+	
+recipe Open Canned Chicken Breast
+	{
+		HCCannedchickenbreast,
+	   	keep TinOpener, 
+	   	Result:HCCannedchickenbreastopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+	
+recipe Open Canned Fruit Cocktail
+	{
+		HCCannedfruitcocktail,
+	   	keep TinOpener, 
+	   	Result:HCCannedfruitcocktailopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+	
+recipe Open Canned Government Beef
+	{
+		HCCannedgovermentbeef,
+	   	keep TinOpener, 
+	   	Result:HCCannedgovermentbeefopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+	
+recipe Open Canned Government Bread
+	{
+		HCCannedgovermentbread,
+	   	keep TinOpener, 
+	   	Result:HCCannedgovermentbreadopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+	
+recipe Open Canned Government Chicken
+	{
+		HCCannedgovermentchicken,
+	   	keep TinOpener, 
+	   	Result:HCCannedgovermentchickenopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+	
+recipe Open Canned Government Pork
+	{
+		HCCannedgovermentpork,
+	   	keep TinOpener, 
+	   	Result:HCCannedgovermentporkopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+	
+recipe Open Canned Mac and Cheese
+	{
+		HCCannedmacncheese,
+	   	keep TinOpener, 
+	   	Result:HCCannedmacncheeseopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+	
+recipe Open Apple Pie Filling
+	{
+		HCCannedpiefillingapple,
+	   	keep TinOpener, 
+	   	Result:HCCannedpiefillingappleopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+	
+recipe Open Blueberry Pie Filling
+	{
+		HCCannedpiefillingblueberry,
+	   	keep TinOpener, 
+	   	Result:HCCannedpiefillingblueberryopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+
+recipe Open Canned Ravioli
+	{
+		HCCannedravioli,
+	   	keep TinOpener, 
+	   	Result:HCCannedravioliopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+
+recipe Open Canned Spaghetti Rings
+	{
+		HCCannedspaghettirings,
+	   	keep TinOpener, 
+	   	Result:HCCannedspaghettiringsopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}
+	
+}

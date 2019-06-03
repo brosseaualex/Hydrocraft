@@ -1,0 +1,121 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCCamera
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Camera,
+        icon 			= HCCamera,
+    }
+
+
+item HCFilmcanister
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Film Canister,
+        icon 			= HCFilmcanister,
+    }
+
+
+item HCFilmroll
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Roll of Film,
+        icon 			= HCFilmroll,
+    }
+
+item HCPhotodevloper
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Film Devloper,
+        icon 			= HCPhotodevloper,
+    }
+
+item HCPhotofixer
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Film Fixer,
+        icon 			= HCPhotofixer,
+    }
+
+item HCPhotolacquer
+    {
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.25,
+        DisplayName         	= 	Photo Lacquer,
+        icon 			= 	HCPhotolacquer,
+    }
+
+item HCFlashlightbulbred
+    {
+        Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Red Flashlight Bulb,
+        Icon			=	HCFlashlightbulbred,
+    }
+
+item HCPhotobench
+    {
+	WeightReduction         = 0,
+	Weight             	= 10,
+	Type                	= Container,
+	Capacity             	= 50,
+        DisplayName         	= Photography Workbench,
+        icon 			= HCPhotobench,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+
+/************************RECIPES************************/	
+
+recipe Make Photography Workbench
+    {
+	HCCamera,
+	HCFilmroll=2,
+	HCFilmcanister=3,
+	HCPhotodevloper,
+	HCPhotofixer,
+	Vinegar,
+	HCRubberglove,
+	RoastingPan,
+	Newspaper=3,
+	HCClothespin=6,
+	HCRopethin,
+	Scissors,
+	HCBottleopener,
+	HCMeasuringcup,
+	Timer,
+	HCFlashlightbulbred,
+	HCFlashlightoff,	
+	HCPlasticbin,
+	HCWorkbench,
+	WoodenStick,
+	Nails,
+	keep Hammer,
+	keep Saw,
+        Result:HCPhotobench,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:400,
+    	Sound:PZ_Hammer,
+	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+    
+
+}

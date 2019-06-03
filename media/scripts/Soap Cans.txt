@@ -1,0 +1,1055 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCDetergentempty
+	{
+	Weight			=	0.1,
+	CanStoreWater		=	TRUE,
+        Type			=	Drainable,
+	ResizeWorldIcon 	=       2.0,
+	ReplaceOnUseOn		=	WaterSource-HCDetergentwater,
+        DisplayName		=	Empty Liquid Soap Can,
+	Icon			=	HCDetergentempty,
+	RainFactor 		= 	1,
+	}
+
+item HCDetergent
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Liquid Soap,
+	Icon				=	HCDetergent,
+	}
+
+item HCDetergentammonia
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Liquid Soap Can With Ammonia,
+	Icon				=	HCDetergentammonia,
+	}
+
+item HCDetergentbiodiesel
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Liquid Soap Can With Biodiesel,
+	Icon				=	HCDetergentbiodiesel,
+	}
+
+item HCDetergentcoppersulfatesolution
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Liquid Soap Can With Copper Sulfate Solution,
+	Icon				=	HCDetergentcoppersulfatesolution,
+	}
+
+
+
+item HCDetergenth2o2
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Liquid Soap Can With Hydrogen Peroxide,
+	Icon				=	HCDetergenth2o2,
+	}
+
+
+
+item HCDetergentlime
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Liquid Soap Can With Milk of Lime,
+	Icon				=	HCDetergentlime,
+	}
+
+item HCDetergentlye
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Liquid Soap Can With Lye,
+	Icon				=	HCDetergentlye,
+	}
+
+item HCDetergentmethanol
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Liquid Soap Can With Methanol,
+	Icon				=	HCDetergentmethanol,
+	}
+
+
+
+item HCDetergentmuriaticacid
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Liquid Soap Can With Muriatic Acid,
+	Icon				=	HCDetergentmuriaticacid,
+	}
+
+item HCDetergentnickelsulfatesolution
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Liquid Soap Can With Nickel Sulfate Solution,
+	Icon				=	HCDetergentnickelsulfatesolution,
+	}
+
+item HCDetergentnitricacid
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Liquid Soap Can With Nitric Acid,
+	Icon				=	HCDetergentnitricacid,
+	}
+
+item HCDetergentoil
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Liquid Soap Can With Oil,
+	Icon				=	HCDetergentoil,
+	}
+
+
+
+item HCDetergentrose
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Liquid Soap Can With Rose Tanning Oil,
+	Icon				=	HCDetergentrose,
+	}
+
+item HCDetergentsulfuricacid
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Liquid Soap Can With Sulfuric Acid,
+	Icon				=	HCDetergentsulfuricacid,
+	}
+
+item HCDetergenttan
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Liquid Soap Can With Tannin,
+	Icon				=	HCDetergenttan,
+	}
+
+item HCDetergentvegoil
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Liquid Soap Can With Vegetable Oil,
+	Icon				=	HCDetergentvegoil,
+	}
+
+item HCDetergentgrape
+	{
+	Weight				=	2.5,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,
+	HungerChange			=	-45,	
+	UnhappyChange			=	-25,
+	ThirstChange			=	-175,
+	DisplayName			=	Liquid Soap Can With Grape Juice,
+	ReplaceOnUse		        =	HCDetergentempty,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	Icon				=	HCDetergentgrape,
+	}
+
+item HCDetergenthoney
+	{
+	Weight				=	2.5,
+        Type			        =	Food,
+	UseDelta		        =       0.2,
+	BoredomChange			=	-25,
+	UnhappyChange			=	-28,
+	HungerChange			=	-105,
+	ReplaceOnUse		        =	HCDetergentempty,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	DisplayName			=	Liquid Soap Can With Honey,
+	Icon				=	HCDetergenthoney,
+	}
+
+item HCDetergentmilk
+	{
+	Weight				=	2.5,
+	Type			        =	Food,
+	DisplayName			=	Liquid Soap Can With UHTMilk,
+	ThirstChange 			=	-125,
+	HungerChange 			= 	-12.5,
+	DaysTotallyRotten		=	500,
+	DaysFresh 			=	250,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ReplaceOnUse		        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	Icon				=	HCDetergentmilk,
+	}
+
+item HCDetergentpoison
+	{
+	Weight				=	2.5,
+	Type			        =	Food,
+	DisplayName			=	Liquid Soap Can With Insecticide,
+        Poison                          =       true,
+	PoisonDetectionLevel 	        =       1,
+	PoisonPower 		        =       100,
+	ReplaceOnUse		        =	HCDetergentempty,
+	ReplaceOnDeplete	        =	HCDetergentempty,
+	ResizeWorldIcon 	        =       2.0,
+	Icon				=	HCDetergentpoison,
+	}
+
+item HCDetergentwater
+	{
+	IsWaterSource		=	TRUE,
+	ReplaceOnUse		=	HCDetergentempty,
+	Weight			=	2.5,
+	CanStoreWater		=	TRUE,
+        Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Liquid Soap Can Water,
+	ReplaceOnDeplete	=	HCDetergentempty,
+	ReplaceOnUseOn		=	WaterSource-HCDetergentwater,
+	ResizeWorldIcon 	=       2.0,
+	Icon			=	HCDetergentwater,
+	RainFactor 		= 	1,
+	}
+
+
+/************************RECIPES************************/
+
+recipe Clean Empty Liquid Soap Can
+    {
+    	HCDetergentempty,
+        keep Sponge/HCLoofah/HCSponge/RippedSheets,
+        Water,
+	Soap2/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid,
+    	Result:HCPlasticcanempty,
+        OnCreate:recipe_hclabeldetergent,
+    	Time:50,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Liquid Soap Can
+    {
+    	HCDetergentempty,
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+    	Result:HCPlastic=5,
+        OnCreate:recipe_hclabeldetergent,
+    	Time:50,
+    	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Fill Empty Soap Can With Ammonia
+    {
+    	HCAmmonia=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentammonia,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Ammonia
+    {
+    	HCPoisonammonia=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentammonia,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Ammonia
+    {
+    	HCPlasticcanammonia=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentammonia,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Ammonia
+    {
+    	HCAmmoniacanfull=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentammonia,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Ammonia
+    {
+    	HCBarrelmetalammonia=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCDetergentempty,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCDetergentammonia,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Ammonia
+    {
+    	HCAmmoniabarrelfull=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCDetergentempty,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCDetergentammonia,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Ammonia
+    {
+    	HCAmmoniabarrelbluefull=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCDetergentempty,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCDetergentammonia,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+
+recipe Fill Empty Soap Can With Biodiesel
+    {
+    	destroy HCWashtubwashedbiodiesel,
+        keep HCRubberhose,
+    	HCDetergentempty=2,
+    	Result:HCDetergentbiodiesel=2,
+    	Time:50,
+        OnCreate:recipe_hcwashtub,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Biodiesel
+    {
+    	HCPoisonbiodiesel=4,
+        keep HCFunnel/HCGlassfunnel,
+    	HCDetergentempty,
+    	Result:HCDetergentbiodiesel,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Biodiesel
+    {
+    	HCPlasticcanbiodiesel=4,
+        keep HCFunnel/HCGlassfunnel,
+    	HCDetergentempty,
+    	Result:HCDetergentbiodiesel,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Coppersulfate Solution
+    {
+    	HCBeakercoppersulfatesolution=2,
+        keep HCRubberglove,
+    	HCDetergentempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentcoppersulfatesolution,
+    	Time:50,
+        OnCreate:recipe_hcget2beakers,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Coppersulfate Solution
+    {
+    	HCPoisoncoppersulfatesolution=4,
+        keep HCRubberglove,
+    	HCDetergentempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentcoppersulfatesolution,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Coppersulfate Solution
+    {
+    	HCPlasticcancoppersulfatesolution=4,
+        keep HCRubberglove,
+    	HCDetergentempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentcoppersulfatesolution,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Grape Juice
+    {
+    	destroy HCWoodenbucketgrape,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentgrape,
+    	Time:50,
+        OnCreate:recipe_hcgetwoodenbucket,
+	Category:Cooking,
+    }
+
+recipe Fill Empty Soap Can With Grape Juice
+    {
+    	HCPoisongrape=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentgrape,
+    	Time:50,
+	Category:Cooking,
+    }
+
+recipe Fill Empty Soap Can With Grape Juice
+    {
+    	HCPlasticcangrape=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentgrape,
+    	Time:50,
+	Category:Cooking,
+    }
+
+recipe Fill Empty Soap Can With Hydrogen Peroxide
+    {
+    	destroy HCBeakerh2o2=2,
+        keep HCRubberglove,
+    	HCDetergentempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergenth2o2,
+    	Time:50,
+        OnCreate:recipe_hcget2beakers,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Hydrogen Peroxide
+    {
+    	HCPoisonh2o2=4,
+        keep HCRubberglove,
+    	HCDetergentempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergenth2o2,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Hydrogen Peroxide
+    {
+    	HCPlasticcanh2o2=4,
+        keep HCRubberglove,
+    	HCDetergentempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergenth2o2,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Hydrogen Peroxide
+    {
+    	HCh2o2can=4,
+        keep HCRubberglove,
+    	HCDetergentempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergenth2o2,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Honey
+    {
+    	destroy HCWoodenbuckethoney,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergenthoney,
+    	Time:50,
+        OnCreate:recipe_hcgetwoodenbucket,
+	Category:Cooking,
+    }
+
+recipe Fill Empty Soap Can With Honey
+    {
+    	HCPoisonhoney=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergenthoney,
+    	Time:50,
+	Category:Cooking,
+    }
+
+recipe Fill Empty Soap Can With Honey
+    {
+    	HCPlasticcanhoney=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergenthoney,
+    	Time:50,
+	Category:Cooking,
+    }
+
+recipe Fill Empty Soap Can With Milk Of Lime
+    {
+    	destroy HCWoodenbucketlime,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentlime,
+    	Time:50,
+        OnCreate:recipe_hcgetwoodenbucket,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Milk Of Lime
+    {
+    	HCPoisonlime=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentlime,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Milk Of Lime
+    {
+    	HCPlasticcanlime=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentlime,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Lye
+    {
+    	destroy HCWoodenbucketlye,
+    	HCDetergentempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentlye,
+    	Time:50,
+        OnCreate:recipe_hcgetwoodenbucket,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Lye
+    {
+    	HCPoisonlye=4,
+    	HCDetergentempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentlye,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Lye
+    {
+    	HCPlasticcanlye=4,
+    	HCDetergentempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentlye,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Methanol
+    {
+    	HCMethanol=2,
+    	HCDetergentempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentmethanol,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Methanol
+    {
+    	HCPoisonmethanol=4,
+    	HCDetergentempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentmethanol,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Methanol
+    {
+    	HCPlasticcanmethanol=4,
+    	HCDetergentempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentmethanol,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With UHT Milk
+    {
+    	HCUHTmilk=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentmilk,
+    	Time:50,
+        Category:Cooking,
+    }
+
+recipe Fill Empty Soap Can With UHT Milk
+    {
+    	HCPoisonmilk=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentmilk,
+    	Time:50,
+        Category:Cooking,
+    }
+
+recipe Fill Empty Soap Can With UHT Milk
+    {
+    	HCPlasticcanmilk=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentmilk,
+    	Time:50,
+        Category:Cooking,
+    }
+
+recipe Fill Empty Soap Can With Muriatic Acid
+    {
+    	HCBeakermuriaticacid=2,
+    	HCDetergentempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentmuriaticacid,
+    	Time:50,
+        OnCreate:recipe_hcget2beakers,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Muriatic Acid
+    {
+    	HCPoisonmuriaticacid=4,
+    	HCDetergentempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentmuriaticacid,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Muriatic Acid
+    {
+    	HCPlasticcanmuriaticacid=4,
+    	HCDetergentempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentmuriaticacid,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Nickel Sulfate Solution
+    {
+    	HCBeakernickelsulfatesolution=2,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentnickelsulfatesolution,
+    	Time:50,
+        OnCreate:recipe_hcget2beakers,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Nickel Sulfate Solution
+    {
+    	HCPoisonnickelsulfatesolution=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentnickelsulfatesolution,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Nickel Sulfate Solution
+    {
+    	HCPlasticcannickelsulfatesolution=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentnickelsulfatesolution,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Nitric Acid
+    {
+    	HCBeakernitricacid=2,
+    	HCDetergentempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentnitricacid,
+    	Time:50,
+        OnCreate:recipe_hcget2beakers,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Nitric Acid
+    {
+    	HCPoisonnitricacid=4,
+    	HCDetergentempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentnitricacid,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Nitric Acid
+    {
+    	HCPlasticcannitricacid=4,
+    	HCDetergentempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentnitricacid,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Oil
+    {
+    	HCMotoroil=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentoil,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Oil
+    {
+    	HCPoisonoil=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentoil,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Oil
+    {
+    	HCPlasticcanoil=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentoil,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Insecticide
+    {
+    	HCPoison=4,
+    	HCDetergentempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentpoison,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Insecticide
+    {
+    	HCPlasticcanpoison=4,
+    	HCDetergentempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentpoison,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Rose Tanning Oil
+    {
+    	destroy HCWoodenbucketrose,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentrose,
+    	Time:50,
+        OnCreate:recipe_hcgetwoodenbucket,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Rose Tanning Oil
+    {
+    	HCPoisonrose=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentrose,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Rose Tanning Oil
+    {
+    	HCPlasticcanrose=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentrose,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Sulfuric Acid
+    {
+    	HCBeakersulfuricacid=2,
+    	HCDetergentempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentsulfuricacid,
+    	Time:50,
+        OnCreate:recipe_hcget2beakers,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Sulfuric Acid
+    {
+    	HCPoisonsulfuricacid=4,
+    	HCDetergentempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentsulfuricacid,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Sulfuric Acid
+    {
+    	HCPlasticcansulfuricacid=4,
+    	HCDetergentempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentsulfuricacid,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Sulfuric Acid
+    {
+    	HCSulfuricacidcan=4,
+    	HCDetergentempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentsulfuricacid,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Sulfuric Acid
+    {
+    	HCBarrelmetalsulfuricacid=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCPlasticcanempty,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCDetergentsulfuricacid,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Sulfuric Acid
+    {
+    	HCSulfuricacidbarrelfull=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCDetergentempty,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCDetergentsulfuricacid,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Sulfuric Acid
+    {
+    	HCSulfuricacidbarrelbluefull=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCDetergentempty,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCDetergentsulfuricacid,
+    	Time:50,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Tannin
+    {
+    	destroy HCWoodenbuckettan,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergenttan,
+    	Time:50,
+        OnCreate:recipe_hcgetwoodenbucket,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Tannin
+    {
+    	HCPoisontan=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergenttan,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Tannin
+    {
+    	HCPlasticcantan=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergenttan,
+    	Time:50,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Soap Can With Vegetable Oil
+    {
+    	destroy HCWoodenbucketvegoil,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentvegoil,
+    	Time:50,
+        OnCreate:recipe_hcgetwoodenbucket,
+        Category:Cooking,
+    }
+
+recipe Fill Empty Soap Can With Vegetable Oil
+    {
+    	HCPoisonvegoil=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentvegoil,
+    	Time:50,
+        Category:Cooking,
+    }
+
+recipe Fill Empty Soap Can With Vegetable Oil
+    {
+    	HCPlasticcanvegoil=4,
+    	HCDetergentempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCDetergentvegoil,
+    	Time:50,
+        Category:Cooking,
+    }
+}
+
+

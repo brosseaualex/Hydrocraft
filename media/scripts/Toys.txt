@@ -1,0 +1,2127 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCMagic8ball
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Magic 8 Ball,
+        icon 			= HCMagic8ball,
+    }
+
+item HCPacifier
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Pacifier,
+        icon 			= HCPacifier,
+    }
+
+item HCBabyteether
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Baby Teether,
+        icon 			= HCBabyteether,
+    }
+
+item HCBabyrattle
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Baby Rattle,
+        icon 			= HCBabyrattle,
+    }
+
+item HCBabybottle
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Baby Bottle,
+        icon 			= HCBabybottle,
+    }
+
+item HCBabybib1
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Baby Bib,
+        icon 			= HCBabybib1,
+    }
+
+item HCBabybib2
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Baby Bib,
+        icon 			= HCBabybib2,
+    }
+
+item HCCrayonbox
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Box of Crayons,
+        icon 			= HCCrayonbox,
+    }
+
+item HCChalk
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Chalk,
+        icon 			= HCChalk,
+    }
+
+item HCChalkbox
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Box of Chalk,
+        icon 			= HCChalkbox,
+    }
+
+item HCChalkeraser
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Chalk Eraser,
+        icon 			= HCChalkeraser,
+    }
+
+item HCToybubbles
+    {
+        Weight			= 0.1,
+        Type			= Drainable,
+        UseDelta		= 0.25,
+        UseWhileEquipped	= FALSE,
+        DisplayName		= Bubbles,
+        Icon			= HCToybubbles,
+    }
+
+item HCToyclay
+    {
+        Weight			= 0.1,
+        Type			= Drainable,
+        UseDelta		= 0.25,
+        UseWhileEquipped	= FALSE,
+        DisplayName		= Claydoh,
+        Icon			= HCToyclay,
+    }
+
+item HCCueball
+    {
+	Weight			=	0.2,
+	Type			=	Normal,
+	DisplayName		=	Cue Ball,
+	Icon			=	HCCueball,
+   }
+
+item HCGlassmarbles
+    {
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Glass Marbles,
+	Icon			=	HCGlassmarbles,
+   }
+
+item HCBirdie
+    {
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Birdie,
+	Icon			=	HCBirdie,
+   }
+
+item HCRubberball
+    {
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Rubber Ball,
+	Icon			=	HCRubberball,
+   }
+
+item HCKickball
+    {
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Kickball,
+	Icon			=	HCKickball,
+   }
+
+item HCSoftball
+    {
+	Weight			=	1,
+	Type			=	Normal,
+	DisplayName		=	Softball,
+	Icon			=	HCSoftball,
+   }
+
+item HCBaseballglove
+    {
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Baseball Glove,
+	Icon			=	HCBaseballglove,
+   }
+
+item HCWiffleball
+    {
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Wiffle Ball,
+	Icon			=	HCWiffleball,
+   }
+
+item HCBowlingball
+    {
+	Weight			=	14,
+	Type			=	Normal,
+	DisplayName		=	Bowling Ball,
+	Icon			=	HCBowlingball,
+   }
+
+item HCBowlingpin
+    {
+	Weight			=	1,
+	Type			=	Normal,
+	DisplayName		=	Bowling Pin,
+	Icon			=	HCBowlingpin,
+   }
+
+item HCVolleyball
+    {
+	Weight			=	1,
+	Type			=	Normal,
+	DisplayName		=	Volleyball,
+	Icon			=	HCVolleyball,
+   }
+
+item HCTennisballcontainerfull
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Full Tennis Ball Container,
+        icon 			= HCTennisballcontainerfull,
+    }
+
+item HCTennisballcontainer
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Empty Tennis Ball Container,
+        icon 			= HCTennisballcontainer,
+    }
+
+item HCEmptyballoon
+    {
+        Weight    		= 0.1,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Empty Balloon,
+	ReplaceOnUseOn		= WaterSource-HCWaterballoon,
+        icon 			= HCEmptyballoon,
+    }
+
+item HCWaterballoon
+    {
+	IsWaterSource		= TRUE,
+	Weight			= 1,
+	CanStoreWater		= TRUE,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.07,
+	DisplayName		= Water Balloon,
+	ReplaceOnDeplete	= HCEmptyballoon,
+	ReplaceOnUseOn		= WaterSource-HCWaterballoon,
+	Icon			= HCWaterballoon,
+    }
+
+item HCBalloonbox
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Balloons,
+        icon 			= HCBalloonbox,
+    }
+
+item HCToycar
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Car,
+        icon 			= HCToycar,
+    }
+
+item HCToytrain
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Train,
+        icon 			= HCToytrain,
+    }
+
+item HCToyairplane
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Airplane,
+        icon 			= HCToyairplane,
+    }
+
+item HCToyglider
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Balsa Glider,
+        icon 			= HCToyglider,
+    }
+
+item HCToyhelicopter
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Helicopter,
+        icon 			= HCToyhelicopter,
+    }
+
+item HCToyrobot
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Robot,
+        icon 			= HCToyrobot,
+    }
+
+item HCFrisbee
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Frisbee,
+        icon 			= HCFrisbee,
+    }
+
+item HCPaddleball
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Paddle Ball,
+        icon 			= HCPaddleball,
+    }
+
+item HCToyrabbit
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Rabbit,
+        icon 			= HCToyrabbit,
+    }
+
+item HCToyhippo
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Hippo,
+        icon 			= HCToyhippo,
+    }
+
+item HCToymonkey
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Monkey,
+        icon 			= HCToymonkey,
+    }
+
+item HCToycat
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Cat,
+        icon 			= HCToycat,
+    }
+
+item HCToypanda
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Panda,
+        icon 			= HCToypanda,
+    }
+
+item HCToydonkey
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Donkey,
+        icon 			= HCToydonkey,
+    }
+
+item HCToyhorse
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Horse,
+        icon 			= HCToyhorse,
+    }
+
+item HCToysterioscope
+    {
+        Weight    		= 	0.5,
+	Type			=	Normal,
+	DisplayCategory 	= 	Toy,
+        DisplayName         	= 	Toy Sterioscope,
+        icon 			= 	HCToysterioscope,
+    }
+
+item HCToysterioscopereel
+    {
+        Weight    		= 	0.1,
+	Type			=	Normal,
+	DisplayCategory 	= 	Toy,
+        DisplayName         	= 	Sterioscope Reel,
+        icon 			= 	HCToysterioscopereel,
+    }
+
+item HCToyjack
+    {
+        Weight    		= 	0.1,
+	Type			=	Normal,
+	DisplayCategory 	= 	Toy,
+        DisplayName         	= 	Toy Jack,
+        icon 			= 	HCToyjack,
+    }
+
+item HCToytop
+    {
+        Weight    		= 	0.1,
+	Type			=	Normal,
+	DisplayCategory 	= 	Toy,
+        DisplayName         	= 	Toy Top,
+        icon 			= 	HCToytop,
+    }
+
+item HCToydrawing
+    {
+        Weight    		= 	0.5,
+	Type			=	Normal,
+	DisplayCategory 	= 	Toy,
+        DisplayName         	= 	Mechanical Drawing Toy,
+        icon 			= 	HCToydrawing,
+    }
+
+item HCToyactionfigure1
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Action Figure,
+        icon 			= HCToyactionfigure1,
+    }
+
+item HCToyactionfigure2
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Action Figure,
+        icon 			= HCToyactionfigure2,
+    }
+
+item HCToyactionfigure3
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Action Figure,
+        icon 			= HCToyactionfigure3,
+    }
+
+
+item HCToyactionfigure4
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Action Figure,
+        icon 			= HCToyactionfigure4,
+    }
+
+item HCToypeople
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy People,
+        icon 			= HCToypeople,
+    }
+
+item HCToydoll
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Doll,
+        icon 			= HCToydoll,
+    }
+
+item HCToyragdoll
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Rag Doll,
+        icon 			= HCToyragdoll,
+    }
+
+item HCToydollstraw
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Straw Doll,
+        icon 			= HCToydollstraw,
+    }
+
+item HCToydragon
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Dragon,
+        icon 			= HCToydragon,
+    }
+
+item HCToyship
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Ship,
+        icon 			= HCToyship,
+    }
+
+item HCToyarmyman
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Army Man,
+        icon 			= HCToyarmyman,
+    }
+
+item HCToyarmyman2
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Army Man,
+        icon 			= HCToyarmyman2,
+    }
+
+item HCToyrings
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Rings,
+        icon 			= HCToyrings,
+    }
+
+item HCToyglasses
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Funny Glasses,
+        icon 			= HCToyglasses,
+    }
+
+item HCToyrocketship
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Rocketship,
+        icon 			= HCToyrocketship,
+    }
+
+item HCToybrontosaurus
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Brontosaurus,
+        icon 			= HCToybrontosaurus,
+    }
+
+item HCToypterodactyl
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Pterodactyl,
+        icon 			= HCToypterodactyl,
+    }
+
+item HCToystegosaurus
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Stegosaurus,
+        icon 			= HCToystegosaurus,
+    }
+
+item HCToytrex
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy T-Rex,
+        icon 			= HCToytrex,
+    }
+
+item HCToytriceratops
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Triceratops,
+        icon 			= HCToytriceratops,
+    }
+
+item HCToyshark
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Shark,
+        icon 			= HCToyshark,
+    }
+
+item HCToyoctopus
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Octopus,
+        icon 			= HCToyoctopus,
+    }
+
+item HCToyunicorn
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Unicorn,
+        icon 			= HCToyunicorn,
+    }
+
+item HCToydog
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Dog,
+        icon 			= HCToydog,
+    }
+
+item HCPinata
+	{
+	Weight	        	=	1,
+	Type	        	=	Normal,
+	DisplayName		=	Pinata,
+	Icon	        	=	HCPinata,
+	ResizeWorldIcon 	= 	2.0,
+	}
+
+item HCPinatabroken
+	{
+	Weight	        	=	0.5,
+	Type	        	=	Normal,
+	DisplayName		=	Broken Pinata,
+	Icon	        	=	HCPinatabroken,
+	ResizeWorldIcon 	= 	2.0,
+	}
+
+item HCToyblock
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Block,
+        icon 			= HCToyblock,
+    }
+
+item HCToycaterpillar
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Toy Caterpillar,
+        icon 			= HCToycaterpillar,
+    }
+
+item HCHokeypuck
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Hockey Puck,
+        icon 			= HCHokeypuck,
+    }
+
+item HCWhoopiecushion
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Whoopie Cushion,
+        icon 			= HCWhoopiecushion,
+    }
+
+item HCPCgame1
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Computer Game,
+        icon 			= HCPCgame1,
+    }
+
+item HCPCgame2
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Computer Game,
+        icon 			= HCPCgame2,
+    }
+
+item HCPCgame3
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Computer Game,
+        icon 			= HCPCgame3,
+    }
+
+item HCPCgame4
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Computer Game,
+        icon 			= HCPCgame4,
+    }
+
+item HCPCgame5
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Computer Game,
+        icon 			= HCPCgame5,
+    }
+
+item HCPCgame6
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Computer Game,
+        icon 			= HCPCgame6,
+    }
+
+item HCCheckers
+    {
+        Weight    		= 0.4,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Checkers,
+        icon 			= HCCheckers,
+    }
+
+item HCBoardgame1
+    {
+        Weight    		= 0.4,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Board Game,
+        icon 			= HCBoardgame1,
+    }
+
+item HCBoardgame2
+    {
+        Weight    		= 0.4,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Board Game,
+        icon 			= HCBoardgame2,
+    }
+
+item HCBoardgame3
+    {
+        Weight    		= 0.4,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Board Game,
+        icon 			= HCBoardgame3,
+    }
+
+item HCCardgame1
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+	DisplayCategory 	= Toy,
+        DisplayName         	= Card Game,
+        icon 			= HCCardgame1,
+    }
+
+/************************WEAPONS************************/
+
+	item HCTennisracket
+	{
+		MaxRange			=	1.5,
+		WeaponSprite			=	FryingPan,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		Weight				=	1,
+		ConditionLowerChanceOneIn	=	15,
+		PushBackMod			=	0.6,
+		MinDamage			=	0.3,
+		MaxDamage			=	0.7,
+		SubCategory			=	Swinging,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		DoorDamage			=	5,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	10,
+		WeaponWeight			=	4,
+		DisplayName			=	Tennis Racket,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		KnockdownMod			=	0,
+		Icon				=	HCTennisracket,
+		RunAnim				=	Run_Weapon2,
+        	TwoHandWeapon 			= 	TRUE,
+        	TreeDamage  			=   	0,
+        	EnduranceMod 			= 	0.6,
+	}
+
+	item HCAluminiumbat
+	{
+		MaxRange			=	1.5,
+		WeaponSprite			=	Baseballbat,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	30,
+		Weight				=	1,
+		SplatNumber			=	1,
+		PushBackMod			=	0.5,
+		MaxDamage			=	1.2,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	2,
+		DoorDamage			=	7,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	10,
+		WeaponWeight			=	1,
+		DisplayName			=	Aluminium Bat,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		MinDamage			=	0.8,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	FALSE,
+		Icon				=	HCAluminiumbat,
+		RunAnim				=	Run_Weapon2,
+        	TwoHandWeapon 			= 	TRUE,
+		BreakSound  			=   	PZ_MetalSnap,
+        	TreeDamage  			=   	1,
+	}
+
+	item HCWifflebat
+	{
+		MaxRange			=	1.5,
+		WeaponSprite			=	Baseballbat,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	6,
+		Weight				=	1,
+		SplatNumber			=	1,
+		PushBackMod			=	0.5,
+		MaxDamage			=	0.5,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	2,
+		DoorDamage			=	2,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	10,
+		WeaponWeight			=	1,
+		DisplayName			=	Wiffle Bat,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		MinDamage			=	0.1,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	FALSE,
+		Icon				=	HCWifflebat,
+		RunAnim				=	Run_Weapon2,
+        	TwoHandWeapon 			= 	TRUE,
+		BreakSound  			=   	PZ_MetalSnap,
+        	TreeDamage  			=   	1,
+	}
+
+	item HCToysaber
+	{
+		MaxRange			=	1.5,
+		WeaponSprite			=	Baseballbat,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	6,
+		Weight				=	1,
+		SplatNumber			=	1,
+		PushBackMod			=	0.5,
+		MaxDamage			=	0.5,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	2,
+		DoorDamage			=	2,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	10,
+		WeaponWeight			=	1,
+		DisplayName			=	Toy Saber,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		MinDamage			=	0.1,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	FALSE,
+		Icon				=	HCToysaber,
+		RunAnim				=	Run_Weapon2,
+        	TwoHandWeapon 			= 	TRUE,
+		BreakSound  			=   	PZ_MetalSnap,
+        	TreeDamage  			=   	1,
+	}
+
+/************************RECIPES************************/
+
+recipe Carve Toy Horse
+    {
+    SkillRequired:Woodwork=4,
+    HCWoodblock=2,
+    Screws=4,
+    keep HuntingKnife/HCJackknife/HCChisel/HCKnifestone,
+    HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    keep Hammer,
+    keep Saw,
+    keep Screwdriver,
+    NeedToBeLearn:true,
+    Result:HCToyhorse,
+    Time:200,
+    Category:Carpentry,
+    OnGiveXP:HCWoodwork_OnGiveXP,
+    }    
+
+recipe Make Straw Doll
+    {
+    HCRopethin=2,
+    HCStraw=4,
+    NeedToBeLearn:true,
+    Result:HCToydollstraw,
+    Time:200,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }   
+
+recipe Box Crayons
+    {
+    Crayons=20,
+    Result:HCCrayonbox,
+    Time:15,
+    Category:Leisure,
+    }
+
+recipe Unbox Crayons
+    {
+    HCCrayonbox,
+    Result:Crayons=20,
+    Time:15,
+    Category:Leisure,
+    }
+
+recipe Box Chalk
+    {
+    HCChalk=20,
+    Result:HCChalkbox,
+    Time:15,
+    Category:Leisure,
+    }
+
+recipe Unbox Chalk
+    {
+    HCChalkbox,
+    Result:HCChalk=20,
+    Time:15,
+    Category:Leisure,
+    }
+
+
+recipe Box Balloons
+    {
+    HCEmptyballoon=100,
+    Result:HCBalloonbox,
+    Time:15,
+    Category:Leisure,
+    }
+
+recipe Unbox Balloons
+    {
+    HCBalloonbox,
+    Result:HCEmptyballoon=100,
+    Time:15,
+    Category:Leisure,
+    }
+
+recipe Put Tennis Balls in Container
+    {
+    HCTennisballcontainer,
+    TennisBall=3,
+    Result:HCTennisballcontainerfull,
+    Time:15,
+    Category:Leisure,
+    }
+
+recipe Remove Tennis Balls from Container
+    {
+    HCTennisballcontainerfull,
+    Result:TennisBall=3,
+    Time:15,
+    OnCreate:recipe_hctennisballcontainer,
+    Category:Leisure,
+    }
+
+recipe Play Chess
+    {
+    
+    ChessBlack,
+    keep ChessWhite,
+    Result:ChessBlack,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Golf
+    {
+    
+    keep Golfclub,
+    GolfBall,
+    Result:GolfBall,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Baseball
+    {
+    
+    keep BaseballBat/HCAluminiumbat,
+    keep HCBaseballglove,
+    Baseball,
+    Result:Baseball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Softball
+    {
+    
+    keep BaseballBat/HCAluminiumbat,
+    keep HCBaseballglove,
+    HCSoftball,
+    Result:HCSoftball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Pool
+    {
+    
+    keep Poolcue,
+    keep PoolBall=15,
+    HCCueball,
+    Result:HCCueball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Wiffle Ball
+    {
+    
+    keep HCWifflebat,
+    HCWiffleball,
+    Result:HCWiffleball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Tennis
+    {
+    
+    keep HCTennisracket,
+    TennisBall,
+    Result:TennisBall,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Bowling
+    {
+    
+    keep HCBowlingpin=12,
+    HCBowlingball,
+    Result:HCBowlingball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Jacks
+    {
+    
+    keep HCToyjack=10,
+    HCRubberball,
+    Result:HCRubberball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe View Sterioscope
+    {
+    
+    keep HCToysterioscopereel,
+    HCToysterioscope,
+    Result:HCToysterioscope,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    Baseball,
+    Result:Baseball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCBaseballglove,
+    Result:HCBaseballglove,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    Basketball,
+    Result:Basketball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCBinoculars,
+    Result:HCBinoculars,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCBowlingball,
+    Result:HCBowlingball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCBowlingpin,
+    Result:HCBowlingpin,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    Bricktoys,
+    Result:Bricktoys,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCCamera,
+    Result:HCCamera,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCCalculator,
+    Result:HCCalculator,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    Cube,
+    Result:Cube,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    Dice,
+    Result:Dice,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    Doll,
+    Result:Doll,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCFrisbee,
+    Result:HCFrisbee,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    Football,
+    Result:Football,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCGardengnome,
+    Result:HCGardengnome,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    GolfBall,
+    Result:GolfBall,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCLaserpointer,
+    Result:HCLaserpointer,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCPaddleball,
+    Result:HCPaddleball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    PoolBall,
+    Result:PoolBall,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCRubberball,
+    Result:HCRubberball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCKickball,
+    Result:HCKickball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    Rubberducky,
+    Result:Rubberducky,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    SoccerBall,
+    Result:SoccerBall,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    Spiffo,
+    Result:Spiffo,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCSoftball,
+    Result:HCSoftball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    TennisBall,
+    Result:TennisBall,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    ToyBear,
+    Result:ToyBear,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCToycar,
+    Result:HCToycar,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCToyairplane,
+    Result:HCToyairplane,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCToyrabbit,
+    Result:HCToyrabbit,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCToyrobot,
+    Result:HCToyrobot,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+
+recipe Play With
+    {
+    
+    HCToyactionfigure1,
+    Result:HCToyactionfigure1,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCToyactionfigure2,
+    Result:HCToyactionfigure2,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCToyactionfigure3,
+    Result:HCToyactionfigure3,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCToyactionfigure4,
+    Result:HCToyactionfigure4,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCToydoll,
+    Result:HCToydoll,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCToydollstraw,
+    Result:HCToydollstraw,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCToydragon,
+    Result:HCToydragon,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCToyarmyman,
+    Result:HCToyarmyman,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCToyrings,
+    Result:HCToyrings,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCToyship,
+    Result:HCToyship,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCToytrain,
+    Result:HCToytrain,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    
+    HCVolleyball,
+    Result:HCVolleyball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    { 
+    HCWiffleball,
+    Result:HCWiffleball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    Yoyo,
+    Result:Yoyo,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCToyhippo,
+    Result:HCToyhippo,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    }
+
+recipe Play With
+    {
+    HCToymonkey,
+    Result:HCToymonkey,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {  
+    HCToycat,
+    Result:HCToycat,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCToypanda,
+    Result:HCToypanda,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCToytop,
+    Result:HCToytop,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCToydrawing,
+    Result:HCToydrawing,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    ToyCar,
+    Result:ToyCar,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    VideoGame,
+    Result:VideoGame,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {  
+    CatToy,
+    Result:CatToy,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCBubblewrap,
+    Result:HCBubblewrap,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {   
+    HCToydonkey,
+    Result:HCToydonkey,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {  
+    HCToyhorse,
+    Result:HCToyhorse,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCToyhelicopter,
+    Result:HCToyhelicopter,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCToyglasses,
+    Result:HCToyglasses,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCToyrocketship,
+    Result:HCToyrocketship,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCToybrontosaurus,
+    Result:HCToybrontosaurus,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCToypterodactyl,
+    Result:HCToypterodactyl,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCToystegosaurus,
+    Result:HCToystegosaurus,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCToytrex,
+    Result:HCToytrex,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCToytriceratops,
+    Result:HCToytriceratops,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCToyshark,
+    Result:HCToyshark,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCToyoctopus,
+    Result:HCToyoctopus,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCToyunicorn,
+    Result:HCToyunicorn,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    HCToydog,
+    Result:HCToydog,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Pinata
+	{
+	Notebook,
+	Glue/HCGluejar,
+	Glue/HCGluejar,
+	Glue/HCGluejar,
+	Glue/HCGluejar,
+	Glue/HCGluejar,
+	HCCrayonbox,
+	HCCandymixed,
+	Result:HCPinata,
+	Time:200.0,
+	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Break Pinata
+	{
+	HCPinata,
+	keep BaseballBat/HCAluminiumbat/HCHomemadebatcrude/HCHomemadebat/HCBaton/HCWifflebat/HCQuarterstaff,
+	Result:HCPinatabroken,
+	Time:200.0,
+	OnCreate:HCPinataBreak,
+	Category:Leisure,
+   	OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Ask Magic 8 Ball a Question
+    {   
+    HCMagic8ball,
+    Result:HCMagic8ball,
+    Time:15,
+    OnCreate:HCEightBall,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    { 
+    HCToyblock,
+    Result:HCToyblock,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+
+recipe Play With
+    {  
+    HCToycaterpillar,
+    Result:HCToycaterpillar,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {  
+    HCBabyrattle,
+    Result:HCBabyrattle,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {  
+    HCWhoopiecushion,
+    Result:HCWhoopiecushion,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {  
+    HCLeatherball,
+    Result:HCLeatherball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {  
+    HCGlassmarbles,
+    Result:HCGlassmarbles,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {  
+    HCToyragdoll,
+    Result:HCToyragdoll,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {  
+    HCToypeople,
+    Result:HCToypeople,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {  
+    HCToyarmyman2,
+    Result:HCToyarmyman2,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {  
+    HCToyglider,
+    Result:HCToyglider,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {  
+    HCToybubbles,
+    Result:HCRubberball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    RemoveResultItem:true,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {  
+    HCToyclay,
+    Result:HCRubberball,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    RemoveResultItem:true,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+
+recipe Play With
+    {
+    HCCheckers,
+    Result:HCCheckers,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {  
+    HCBoardgame1,
+    Result:HCBoardgame1,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {  
+    HCBoardgame2,
+    Result:HCBoardgame2,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {  
+    HCBoardgame3,
+    Result:HCBoardgame3,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {
+    CardDeck,
+    Result:CardDeck,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play With
+    {  
+    HCCardgame1,
+    Result:HCCardgame1,
+    Time:500,
+    OnCreate:HC_ToyStatModifier,
+    Category:Leisure,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+/************************FIXING************************/
+
+fixing Fix Golf club
+    {
+       		Require : Golfclub,
+
+		Fixer : HCMaskingtape=2,
+		Fixer : HCPackingtape=2,
+		Fixer : HCElectrictape=2,
+    }
+
+}

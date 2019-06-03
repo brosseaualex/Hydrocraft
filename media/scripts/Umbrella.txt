@@ -1,0 +1,80 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+	
+
+item UmbrellaOpen
+    {
+        Weight    = 1.5,
+        Type    = Normal,
+        DisplayName         = Open Umbrella,
+        icon = SB_UmbrellaOpen,
+    }
+	
+
+/************************WEAPONS************************/
+
+
+     item UmbrellaClosed
+    {
+        MaxRange	=	1.5,
+        WeaponSprite	=	Poolcue,
+        MinAngle	=	0.2,
+        Type	=	Weapon,
+        MinimumSwingTime	=	2,
+        KnockBackOnNoDeath	=	FALSE,
+        SwingAmountBeforeImpact	=	0.02,
+        Categories	=	Blade,
+        ConditionLowerChanceOneIn	=	1,
+        Weight	=	1.5,
+        SplatNumber	=	0,
+        PushBackMod	=	0.3,
+        MaxDamage	=	0.7,
+        SubCategory	=	Swinging,
+        ConditionMax	=	3,
+        MaxHitCount	=	2,
+        DoorDamage	=	2,
+        SwingAnim	=	Bat,
+        WeaponWeight	=	1,
+        DisplayName	=	Closed Umbrella,
+        MinRange	=	0.61,
+        SwingTime	=	2,
+        MinDamage	=	0.5,
+        KnockdownMod	=	0,
+        SplatBloodOnNoDeath	=	FALSE,
+        Icon	=	SB_UmbrellaClosed,
+        RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        BreakSound  =   PZ_WoodSnap,
+        TreeDamage  =   0,
+    }
+
+
+/************************RECIPIES************************/
+	
+		
+		recipe Open Umbrella
+		{
+		UmbrellaClosed,
+		
+		Result:UmbrellaOpen,
+		Time:20.0
+		}
+		
+		recipe Close Umbrella
+		{
+		UmbrellaOpen,
+		
+		Result:UmbrellaClosed,
+		Time:20.0
+		}
+
+			
+}
+		

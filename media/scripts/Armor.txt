@@ -1,0 +1,1941 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCEquiparmor
+    {
+        Weight    		= 0.0,
+        Type    		= Normal,
+        DisplayName         	= Equip Armor,
+        icon 			= HCEquiparmor,
+    }
+
+/************************Helmets************************/
+
+item HCHardhat
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Hard Hat,
+        icon 			= HCHardhat,
+	Tooltip 		= Tooltip_HCArmor,
+    }
+
+item HCHelmbike
+	{
+	Weight    		= 1.1,
+	Type    		= Normal,
+	DisplayName		= Bike Helmet,
+	Icon			= HCHelmbike,
+	Tooltip 		= Tooltip_HCArmor,
+	}
+
+item HCHelmfootball
+	{
+	Weight    		= 1.5,
+	Type    		= Normal,
+	DisplayName		= Football Helmet,
+	Icon			= HCHelmfootball,
+	Tooltip 		= Tooltip_HCArmor,
+	}
+
+item HCHockeymask
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Hockey Mask,
+        icon 			= HCHockeymask,
+	Tooltip 		= Tooltip_HCArmor,
+    }
+
+item HCHelmmotorcycle
+	{
+	Weight    		= 1.7,
+	Type    		= Normal,
+	DisplayName		= Motorcycle Helmet,
+	Icon			= HCHelmmotorcycle,
+	Tooltip 		= Tooltip_HCArmor,
+	}
+
+item HCHelmkevlar
+	{
+	Weight    		= 2.1,
+	Type    		= Normal,
+	DisplayName		= Kevlar Helmet,
+	Icon			= HCHelmkevlar,
+	Tooltip 		= Tooltip_HCArmor,
+	}
+
+item HCHelmswat
+    	{
+        Weight    		= 1.5,
+        Type    		= Normal,
+        DisplayName         	= SWAT Helmet,
+        icon 			= HCHelmswat,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCHelmriot
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Riot Helmet,
+        icon 			= HCHelmriot,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCHelmsamurai
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Samurai Helmet,
+        icon 			= HCHelmsamurai,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCHelmsteel
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Steel Helmet,
+        icon 			= HCHelmsteel,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCHelmiron
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Iron Helmet,
+        icon 			= HCHelmiron,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCHelmbronze
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Bronze Helmet,
+        icon 			= HCHelmbronze,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCHelmcopper
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Copper Helmet,
+        icon 			= HCHelmcopper,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCHelmcookingpot
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Cooking Pot Helmet,
+        icon 			= HCHelmcookingpot,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCHelmbucket
+	{
+	Weight    		= 1.0,
+	Type    		= Normal,
+	DisplayName		= Bucket Helmet,
+	Icon			= HCHelmbucket,
+	Tooltip 		= Tooltip_HCArmor,
+	}
+
+
+/************************Gloves************************/
+
+item HCOvenmitts
+    	{
+        Weight    		= 0.25,
+        Type    		= Normal,
+        DisplayName         	= Oven Mitts,
+        icon 			= HCOvenmitts,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCWorkgloves
+    	{
+        Weight    		= 0.25,
+        Type    		= Normal,
+        DisplayName         	= Work Gloves,
+        icon 			= HCWorkgloves,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCGardengloves
+    	{
+        Weight    		= 0.25,
+        Type    		= Normal,
+        DisplayName         	= Garden Gloves,
+        icon 			= HCGardengloves,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCGlovekevlar
+    	{
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Kevlar Gloves,
+        icon 			= HCGlovekevlar,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCGloveriot
+    	{
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Riot Gloves,
+        icon 			= HCGloveriot,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCGlovechainmail
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Chainmail Gloves,
+        icon 			= HCGlovechainmail,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCGlovesteel
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Steel Gauntlets,
+        icon 			= HCGlovesteel,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCGloveiron
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Iron Gauntlets,
+        icon 			= HCGloveiron,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCGlovebronze
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Bronze Gauntlets,
+        icon 			= HCGlovebronze,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCGlovecopper
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Bronze Gauntlets,
+        icon 			= HCGlovebronze,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCGlovestuddedleather
+    	{
+        Weight    		= 0.50,
+        Type    		= Normal,
+        DisplayName         	= Studded Leather Gloves,
+        icon 			= HCGlovestuddedleather,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCGloveleather
+    	{
+        Weight    		= 0.25,
+        Type    		= Normal,
+        DisplayName         	= Leather Gloves,
+        icon 			= HCGloveleather,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCGlovecord
+    	{
+        Weight    		= 0.25,
+        Type    		= Normal,
+        DisplayName         	= Cord Gloves,
+        icon 			= HCGlovecord,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+/************************Arm Armor************************/
+
+item HCArmarmorkevlar
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Kevlar Arm Guards,
+        icon 			= HCArmarmorkevlar,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmorswat
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= SWAT Arm Guards,
+        icon 			= HCArmarmorswat,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmorriot
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Riot Arm Guards,
+        icon 			= HCArmarmorriot,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmorpaintball
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Paintball Arm Guards,
+        icon 			= HCArmarmorpaintball,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmorsamurai
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Samurai Arm Guards,
+        icon 			= HCArmarmorsamurai,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmorlamellar
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Lamellar Arm Guards,
+        icon 			= HCArmarmorlamellar,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmorsteel
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Steel Arm Guards,
+        icon 			= HCArmarmorsteel,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmoriron
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Iron Arm Guards,
+        icon 			= HCArmarmoriron,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmorbronze
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Bronze Arm Guards,
+        icon 			= HCArmarmorbronze,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmorcopper
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Copper Arm Guards,
+        icon 			= HCArmarmorcopper,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+
+item HCArmarmorstuddedleather
+    	{
+        Weight    		= 1.5,
+        Type    		= Normal,
+        DisplayName         	= Studded Leather Arm Guards,
+        icon 			= HCArmarmorstuddedleather,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmorhardenedleather
+    	{
+        Weight    		= 1.5,
+        Type    		= Normal,
+        DisplayName         	= Hardened Leather Arm Guards,
+        icon 			= HCArmarmorhardenedleather,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmorleather
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Leather Arm Guards,
+        icon 			= HCArmarmorleather,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmorhide
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Hide Arm Guards,
+        icon 			= HCArmarmorhide,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmorpadded
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Padded Arm Guards,
+        icon 			= HCArmarmorpadded,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmorbone
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Bone Arm Guards,
+        icon 			= HCArmarmorbone,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmorbamboo
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Bamboo Arm Guards,
+        icon 			= HCArmarmorbamboo,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmorlog
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Log Arm Guards,
+        icon 			= HCArmarmorlog,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmortire
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Tire Arm Guards,
+        icon 			= HCArmarmortire,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmarmorbubblewrap
+    	{
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Bubble Wrap Arm Guards,
+        icon 			= HCArmarmorbubblewrap,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+/************************Torso Armor************************/
+
+item HCArmormilitaryjacket
+	{
+	Weight    		= 1.8,
+	Type    		= Normal,
+	DisplayName		= Military Jacket,
+	Icon			= HCArmormilitaryjacket,
+	Tooltip 		= Tooltip_HCArmor,
+	}
+
+item HCArmorlightjacket
+	{
+	Weight    		= 0.8,
+	Type    		= Normal,
+	DisplayName		= Light Jacket,
+	Icon			= HCArmorlightjacket,
+	Tooltip 		= Tooltip_HCArmor,
+	}
+
+item HCArmorleatherjacket
+	{
+	Weight    		= 1.5,
+	Type    		= Normal,
+	DisplayName		= Leather Jacket,
+	Icon			= HCArmorleatherjacket,
+	Tooltip 		= Tooltip_HCArmor,
+	}
+
+item HCArmorkevlar
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Kevlar Armor,
+        icon 			= HCArmorkevlar,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+
+item HCArmorswat
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= SWAT Armor,
+        icon 			= HCArmorswat,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmorriot
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Riot Armor,
+        icon 			= HCArmorriot,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmorparamedic
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Paramedic Armor,
+        icon 			= HCArmorparamedic,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmorpaintball
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Paintball Armor,
+        icon 			= HCArmorpaintball,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmorsamurai
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Samurai Armor,
+        icon 			= HCArmorsamurai,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmorlamelar
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Lamelar Armor,
+        icon 			= HCArmorlamelar,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmorchainmail
+    	{
+        Weight    		= 10.0,
+        Type    		= Normal,
+        DisplayName         	= Chainmail Armor,
+        icon 			= HCArmorchainmail,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+
+item HCArmorscalemail
+    	{
+        Weight    		= 10.0,
+        Type    		= Normal,
+        DisplayName         	= Scalemail Armor,
+        icon 			= HCArmorscalemail,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmorsteel
+    	{
+        Weight    		= 10.0,
+        Type    		= Normal,
+        DisplayName         	= Steel Armor,
+        icon 			= HCArmorsteel,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+
+item HCArmoriron
+    	{
+        Weight    		= 10.0,
+        Type    		= Normal,
+        DisplayName         	= Iron Armor,
+        icon 			= HCArmoriron,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+
+item HCArmorbronze
+    	{
+        Weight    		= 10.0,
+        Type    		= Normal,
+        DisplayName         	= Bronze Armor,
+        icon 			= HCArmorbronze,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmorcopper
+    	{
+        Weight    		= 10.0,
+        Type    		= Normal,
+        DisplayName         	= Copper Armor,
+        icon 			= HCArmorcopper,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmorstuddedleather
+    	{
+        Weight    		= 8.0,
+        Type    		= Normal,
+        DisplayName         	= Studded Leather Armor,
+        icon 			= HCArmorstuddedleather,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmorhardenedleather
+    	{
+        Weight    		= 8.0,
+        Type    		= Normal,
+        DisplayName         	= Hardened Leather Armor,
+        icon 			= HCArmorhardenedleather,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmorleather
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Leather Armor,
+        icon 			= HCArmorleather,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmorhide
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Hide Armor,
+        icon 			= HCArmorhide,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmorpadded
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Padded Armor,
+        icon 			= HCArmorpadded,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+
+item HCArmorbone
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Bone Armor,
+        icon 			= HCArmorbone,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmorbamboo
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Bamboo Armor,
+        icon 			= HCArmorbamboo,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmorlog
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Log Armor,
+        icon 			= HCArmorlog,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmortire
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Tire Armor,
+        icon 			= HCArmortire,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmorphonebooks
+    	{
+        Weight    		= 3.0,
+        Type    		= Normal,
+        DisplayName         	= Phone Book Armor,
+        icon 			= HCArmorphonebooks,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCArmorbubblewrap
+    	{
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Bubble Wrap Armor,
+        icon 			= HCArmorbubblewrap,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+/************************Leg Armor************************/
+
+item HCJeans
+	{
+	Weight    		= 1.5,
+	Type    		= Normal,
+	DisplayName		= Thick Jeans,
+	Icon			= HCJeans,
+	Tooltip 		= Tooltip_HCArmor,
+	}
+
+item HCLegarmorkevlar
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Kevlar Leg Guards,
+        icon 			= HCLegarmorkevlar,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorswat
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Swat Leg Guards,
+        icon 			= HCLegarmorswat,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorriot
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Riot Leg Guards,
+        icon 			= HCLegarmorriot,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorpaintball
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Paintball Leg Guards,
+        icon 			= HCLegarmorpaintball,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorsamurai
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Samurai Leg Guards,
+        icon 			= HCLegarmorsamurai,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorlamelar
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Lamelar Leg Guards,
+        icon 			= HCLegarmorlamelar,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorchainmail
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Chainmail Leg Guards,
+        icon 			= HCLegarmorchainmail,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorscalemail
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Scalemail Leg Guards,
+        icon 			= HCLegarmorscalemail,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorsteel
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Steel Leg Guards,
+        icon 			= HCLegarmorsteel,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmoriron
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Iron Leg Guards,
+        icon 			= HCLegarmoriron,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorbronze
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Bronze Leg Guards,
+        icon 			= HCLegarmorbronze,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorcopper
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Copper Leg Guards,
+        icon 			= HCLegarmorcopper,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorstuddedleather
+    	{
+        Weight    		= 1.5,
+        Type    		= Normal,
+        DisplayName         	= Studded Leather Leg Guards,
+        icon 			= HCLegarmorstuddedleather,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorhardenedleather
+    	{
+        Weight    		= 1.5,
+        Type    		= Normal,
+        DisplayName         	= Hardened Leather Leg Guards,
+        icon 			= HCLegarmorhardenedleather,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorleather
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Leather Leg Guards,
+        icon 			= HCLegarmorleather,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorhide
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Hide Leg Guards,
+        icon 			= HCLegarmorhide,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorpadded
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Padded Leg Guards,
+        icon 			= HCLegarmorpadded,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorbone
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Bone Leg Guards,
+        icon 			= HCLegarmorbone,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorlog
+    	{
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Log Leg Guards,
+        icon 			= HCLegarmorlog,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmortire
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Tire Leg Guards,
+        icon 			= HCLegarmortire,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCLegarmorbubblewrap
+    	{
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Bubble Wrap Leg Guards,
+        icon 			= HCLegarmorbubblewrap,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+/************************Boots************************/
+
+item HCBootsteel
+    	{
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Steel Greaves,
+        icon 			= HCBootsteel,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCBootleather
+	{
+	Weight    		= 1.1,
+	Type    		= Normal,
+	DisplayName		= Leather Greaves,
+	Icon			= HCBootleather,
+	Tooltip 		= Tooltip_HCArmor,
+	}
+
+/************************Shields************************/
+
+item HCShieldriot
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Riot Shield,
+        icon 			= HCShieldriot,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCShieldsteel
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Steel Shield,
+        icon 			= HCShieldsteel,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+
+item HCShieldiron
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Iron Shield,
+        icon 			= HCShieldiron,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+
+item HCShieldbronze
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Bronze Shield,
+        icon 			= HCShieldbronze,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+item HCShieldcopper
+    	{
+        Weight    		= 5.0,
+        Type    		= Normal,
+        DisplayName         	= Copper Shield,
+        icon 			= HCShieldcopper,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+
+item HCShieldwood
+    	{
+        Weight    		= 2.5,
+        Type    		= Normal,
+        DisplayName         	= Wooden Shield,
+        icon 			= HCShieldwood,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+
+item HCShieldtrashcanlid
+    	{
+        Weight    		= 2.5,
+        Type    		= Normal,
+        DisplayName         	= Trashcan Lid,
+        icon 			= HCShieldtrashcanlid,
+	Tooltip 		= Tooltip_HCArmor,
+    	}
+
+/************************RECIPES************************/
+
+
+recipe Make Helmet
+	{
+	   	BucketEmpty,
+    		keep HuntingKnife/HCCombatknife/HCJackknife/KitchenKnife/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper,
+	   	Result:HCHelmbucket,
+	   	Time:15.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Helmet
+	{
+	   	Pot,
+		HCRopethin,
+    		keep HCSawmetal,
+	   	Result:HCHelmcookingpot,
+	   	Time:15.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Helmet
+	{
+	   	HCSteelingot=2,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCHelmsteel,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Helmet
+	{
+	   	HCIroningot=2,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCHelmiron,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Helmet
+	{
+	   	HCBronzeingot=2,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCHelmbronze,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Helmet
+	{
+	   	HCCopperingot=2,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCHelmcopper,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Gauntlets
+	{
+        	HCRingsteel=8,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCGlovechainmail,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Gauntlets
+	{
+	   	HCSteelingot=2,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCGlovesteel,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Gauntlets
+	{
+	   	HCIroningot=2,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCGloveiron,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Gauntlets
+	{
+	   	HCBronzeingot=2,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCGlovebronze,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Gauntlets
+	{
+	   	HCCopperingot=2,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCGlovecopper,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Studded Leather Gloves
+    {
+    		HCLeather=2,
+    		HCSteelingot,
+    		keep Needle/HCBoneneedle,
+    		Thread=2,
+    		Result:HCGlovestuddedleather,
+    		NeedToBeLearn:true,
+    		Time:200.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Leather Gloves
+    {
+    		HCLeather=2,
+    		keep Needle/HCBoneneedle,
+    		Thread=2,
+    		Result:HCGloveleather,
+    		NeedToBeLearn:true,
+    		Time:200.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Work Gloves
+    {
+    		HCLeather=2,
+    		keep Needle/HCBoneneedle,
+   		Thread=2,
+    		Result:HCWorkgloves,
+    		NeedToBeLearn:true,
+    		Time:200.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Arm Guards
+	{
+	   	HCSteelingot=2,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmarmorsteel,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Arm Guards
+	{
+	   	HCIroningot=2,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmarmoriron,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Arm Guards
+	{
+	   	HCBronzeingot=2,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmarmorbronze,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Arm Guards
+	{
+	   	HCCopperingot=2,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmarmorcopper,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Arm Guards
+	{
+	   	HCLeatherhard=2,
+    		HCSteelingot,
+    		keep Needle/HCBoneneedle,
+    		Thread=4,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmarmorlamellar,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Arm Guards
+	{
+	   	HCLeather=2,
+    		HCSteelingot,
+    		keep Needle/HCBoneneedle,
+    		Thread=2,
+		Rope,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmarmorstuddedleather,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Arm Guards
+	{
+	   	HCLeatherhard=2,
+    		keep Needle/HCBoneneedle,
+    		Thread=2,
+		Rope,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmarmorhardenedleather,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Arm Guards
+	{
+	   	HCLeather=2,
+    		keep Needle/HCBoneneedle,
+    		Thread=2,
+		Rope,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmarmorleather,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Arm Guards
+	{
+	   	HCAnimalfurdried=2,
+    		keep Needle/HCBoneneedle,
+    		Thread=2,
+		Rope,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmarmorhide,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Arm Guards
+	{
+	   	HCCottoncloth/HCLinencloth/HCSilkcloth/HCWoolcloth,
+	   	HCCottoncloth/HCLinencloth/HCSilkcloth/HCWoolcloth,
+    		keep Needle/HCBoneneedle,
+    		Thread=2,
+		Rope,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmarmorpadded,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Arm Guards
+	{
+	   	HCBone=4,
+		Rope,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmarmorbone,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Arm Guards
+	{
+	   	HCBamboo=2,
+		Rope,
+    		keep Saw,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmarmorbamboo,
+    		Sound:PZ_Saw,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Arm Guards
+	{
+	   	Log,
+		Rope,
+    		keep Saw,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmarmorlog,
+		Sound:PZ_Saw,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Arm Guards
+	{
+	   	OldTire1/OldTire2/OldTire3/NormalTire1/NormalTire2/NormalTire3/ModernTire1/ModernTire2/ModernTire3,
+		Rope,
+    		keep Saw,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmarmortire,
+		Sound:PZ_Saw,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+
+recipe Make Arm Guards
+	{
+	   	HCBubblewrap=2,
+		DuctTape=4,
+	   	Result:HCArmarmorbubblewrap,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+        	HCRingsteel=16,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmorchainmail,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+	   	HCSteelingot=4,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmorscalemail,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+	   	HCSteelingot=5,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmorsteel,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+	   	HCIroningot=5,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmoriron,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+	   	HCBronzeingot=5,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmorbronze,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+	   	HCCopperingot=5,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmorcopper,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+	   	HCLeatherhard=4,
+    		HCSteelingot=2,
+    		keep Needle/HCBoneneedle,
+    		Thread=8,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmorlamelar,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+	   	HCLeather=4,
+    		HCSteelingot=2,
+    		keep Needle/HCBoneneedle,
+    		Thread=4,
+		Rope,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmorstuddedleather,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+	   	HCLeatherhard=4,
+    		keep Needle/HCBoneneedle,
+    		Thread=4,
+		Rope=2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmorhardenedleather,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+	   	HCLeather=4,
+    		keep Needle/HCBoneneedle,
+    		Thread=4,
+		Rope=2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmorleather,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+	   	HCAnimalfurdried=4,
+    		keep Needle/HCBoneneedle,
+    		Thread=4,
+		Rope=2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmorhide,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+	   	HCCottoncloth/HCLinencloth/HCSilkcloth/HCWoolcloth,
+	   	HCCottoncloth/HCLinencloth/HCSilkcloth/HCWoolcloth,
+	   	HCCottoncloth/HCLinencloth/HCSilkcloth/HCWoolcloth,
+	   	HCCottoncloth/HCLinencloth/HCSilkcloth/HCWoolcloth,
+    		keep Needle/HCBoneneedle,
+    		Thread=4,
+		Rope,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmorpadded,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+	   	HCBone=8,
+		Rope=2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmorbone,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+	   	HCBamboo=4,
+		Rope=2,
+    		keep Saw,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmorbamboo,
+    		Sound:PZ_Saw,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+	   	Log=2,
+		Rope=2,
+    		keep Saw,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmorlog,
+		Sound:PZ_Saw,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+	   	OldTire1/OldTire2/OldTire3/NormalTire1/NormalTire2/NormalTire3/ModernTire1/ModernTire2/ModernTire3,
+		OldTire1/OldTire2/OldTire3/NormalTire1/NormalTire2/NormalTire3/ModernTire1/ModernTire2/ModernTire3,
+		Rope=2,
+    		keep Saw,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCArmortire,
+		Sound:PZ_Saw,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+	   	HCBookphone=6,
+		Belt/Sling,
+		Belt/Sling,
+        	Glue/HCSuperglue/HCRubbercement/HCHotgluegunfull/HCGluejar,
+	   	Result:HCArmorphonebooks,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Armor
+	{
+	   	HCBubblewrap=4,
+		DuctTape=10,
+	   	Result:HCArmorbubblewrap,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Leg Guards
+	{
+        	HCRingsteel=16,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLegarmorchainmail,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Leg Guards
+	{
+	   	HCSteelingot=4,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLegarmorscalemail,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Leg Guards
+	{
+	   	HCSteelingot=2,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLegarmorsteel,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Leg Guards
+	{
+	   	HCIroningot=2,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLegarmoriron,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Leg Guards
+	{
+	   	HCBronzeingot=2,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLegarmorbronze,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Leg Guards
+	{
+	   	HCCopperingot=2,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLegarmorcopper,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Leg Guards
+	{
+	   	HCBubblewrap=2,
+		DuctTape=6,
+	   	Result:HCLegarmorbubblewrap,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Leg Guards
+	{
+	   	HCLeatherhard=2,
+    		HCSteelingot,
+    		keep Needle/HCBoneneedle,
+    		Thread=4,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLegarmorlamelar,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Leg Guards
+	{
+	   	HCLeather=2,
+    		HCSteelingot,
+    		keep Needle/HCBoneneedle,
+    		Thread=2,
+		Rope,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLegarmorstuddedleather,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Leg Guards
+	{
+	   	HCLeatherhard=2,
+    		keep Needle/HCBoneneedle,
+    		Thread=2,
+		Rope,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLegarmorhardenedleather,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Leg Guards
+	{
+	   	HCLeather=2,
+    		keep Needle/HCBoneneedle,
+    		Thread=2,
+		Rope,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLegarmorleather,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Leg Guards
+	{
+	   	HCAnimalfurdried=2,
+    		keep Needle/HCBoneneedle,
+    		Thread=2,
+		Rope,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLegarmorhide,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Leg Guards
+	{
+	   	HCCottoncloth/HCLinencloth/HCSilkcloth/HCWoolcloth,
+	   	HCCottoncloth/HCLinencloth/HCSilkcloth/HCWoolcloth,
+    		keep Needle/HCBoneneedle,
+    		Thread=2,
+		Rope,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLegarmorpadded,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Leg Guards
+	{
+	   	HCBone=4,
+		Rope,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLegarmorbone,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Leg Guards
+	{
+	   	Log,
+		Rope,
+    		keep Saw,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLegarmorlog,
+		Sound:PZ_Saw,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Leg Guards
+	{
+	   	OldTire1/OldTire2/OldTire3/NormalTire1/NormalTire2/NormalTire3/ModernTire1/ModernTire2/ModernTire3,
+		Rope,
+    		keep Saw,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLegarmortire,
+		Sound:PZ_Saw,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Greaves
+	{
+	   	HCSteelingot=2,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCBootsteel,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Greaves
+    	{
+    		HCLeather=2,
+    		HCLeatherhard=2,
+    		keep Needle/HCBoneneedle,
+    		Thread=4,
+   	 	Result:HCBootleather,
+    		NeedToBeLearn:true,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+    	}
+
+recipe Make Leather Boots
+    {
+    		HCLeather=2,
+    		keep Needle/HCBoneneedle,
+    		Thread=2,
+    		Result:HCLeatherboots,
+    		NeedToBeLearn:true,
+    		Time:200.0,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+
+recipe Make Shield
+	{
+	   	HCSteelingot=4,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCShieldsteel,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Shield
+	{
+	   	HCIroningot=4,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCShieldiron,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Shield
+	{
+	   	HCBronzeingot=4,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCShieldbronze,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Shield
+	{
+	   	HCCopperingot=4,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCShieldcopper,
+	   	Time:150.0,
+    		Category:Armor,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Shield
+	{
+		Plank=4,
+		Nails=4,
+    		keep Hammer,
+		keep Saw,
+	   	Result:HCShieldwood,
+	   	Time:150.0,
+    		Sound:PZ_Hammer,
+    		Category:Armor,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+}

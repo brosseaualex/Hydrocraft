@@ -1,0 +1,642 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCGemcutter
+    {
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName         	= Gem Cutter Wheel,
+        icon 			= HCGemcutter,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCJade
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Jade,
+        icon 			= HCJade,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCJadecut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Jade,
+        icon 			= HCJadecut,
+    } 
+
+item HCQuartz
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Quartz Crystal,
+        icon 			= HCQuartz,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCQuartzcut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Quartz Crystal,
+        icon 			= HCQuartzcut,
+    } 
+
+item HCQuartzblue
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Blue Quartz Crystal,
+        icon 			= HCQuartzblue,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCQuartzbluecut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Blue Quartz Crystal,
+        icon 			= HCQuartzbluecut,
+    } 
+
+item HCQuartzrose
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Rose Quartz Crystal,
+        icon 			= HCQuartzrose,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCQuartzrosecut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Rose Quartz Crystal,
+        icon 			= HCQuartzrosecut,
+    } 
+
+item HCQuartzsmokey
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Smokey Quartz Crystal,
+        icon 			= HCQuartzsmokey,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCQuartzsmokeycut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Smokey Quartz Crystal,
+        icon 			= HCQuartzsmokeycut,
+    }
+
+item HCQuartzcitrine
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Citrine Quartz Crystal,
+        icon 			= HCQuartzcitrine,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCQuartzcitrinecut
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Cut Citrine Quartz Crystal,
+        icon 			= HCQuartzcitrinecut,
+    } 
+
+item HCAmethyst
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Amethyst,
+        icon 			= HCAmethyst,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCAmethystcut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Amethyst,
+        icon 			= HCAmethystcut,
+    }
+
+item HCAzurite
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Azurite,
+        icon 			= HCAzurite,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCAzuritecut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Azurite,
+        icon 			= HCAzuritecut,
+    }
+
+item HCDiamond
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Diamond,
+        icon 			= HCDiamond,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCDiamondcut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Diamond,
+        icon 			= HCDiamondcut,
+    }
+
+item HCEmerald
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Emerald,
+        icon 			= HCEmerald,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCEmeraldcut
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Cut Emerald,
+        icon 			= HCEmeraldcut,
+    }
+
+item HCFireagate
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Fire Agate,
+        icon 			= HCFireagate,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCFireagatecut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Fire Agate,
+        icon 			= HCFireagatecut,
+    }
+
+item HCGarnet
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Garnet,
+        icon 			= HCGarnet,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCGarnetcut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Garnet,
+        icon 			= HCGarnetcut,
+    }
+
+item HCLapislazuli
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Lapis Lazuli,
+        icon 			= HCLapislazuli,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCMalachite
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Malachite,
+        icon 			= HCMalachite,
+    }
+
+item HCLapislazulicut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Lapis Lazuli,
+        icon 			= HCLapislazulicut,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCMalachitecut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Malachite,
+        icon 			= HCMalachitecut,
+    }
+
+item HCOlivine
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Olivine,
+        icon 			= HCOlivine,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCOlivinecut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Olivine,
+        icon 			= HCOlivinecut,
+    }
+
+item HCRhodonite
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Rhodonite,
+        icon 			= HCRhodonite,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCRhodonitecut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Rhodonite,
+        icon 			= HCRhodonitecut,
+    }
+
+item HCRuby
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Ruby,
+        icon 			= HCRuby,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCRubycut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Ruby,
+        icon 			= HCRubycut,
+    }
+
+item HCSapphire
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Sapphire,
+        icon 			= HCSapphire,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCSapphirecut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Sapphire,
+        icon 			= HCSapphirecut,
+    }
+
+item HCTopaz
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Topaz,
+        icon 			= HCTopaz,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCTopazcut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Topaz,
+        icon 			= HCTopazcut,
+    }
+
+item HCTurquoise
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Turquoise,
+        icon 			= HCTurquoise,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCTurquoisecut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Turquoise,
+        icon 			= HCTurquoisecut,
+    }
+
+item HCAmazonite
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Amazonite,
+        icon 			= HCAmazonite,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCAmazonitecut
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cut Amazonite,
+        icon 			= HCAmazonitecut,
+    }
+
+item HCLepidolite
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Lepidolite,
+        icon 			= HCLepidolite,
+	DisplayCategory 	= Mineral,
+    }
+
+/************************RECIPES************************/	
+
+recipe Make Gem Cutter Wheel
+    {
+	SkillRequired:Woodwork=8;Mechanics=2;,
+	HCMagnifyglass,
+	HCSilkcloth,
+	Tongs,
+	Rope,
+	HCGearsteel,
+	Plank=5,
+	Nails=8,
+	HCWoodbeam,
+	HCStonewheel,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCGemcutter,
+    	Sound:PZ_Hammer,
+    	Time:500,
+    	Category:Jewelry,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCJade,
+	keep HCGemcutter,
+    	Result:HCJadecut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCQuartz,
+	keep HCGemcutter,
+    	Result:HCQuartzcut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCQuartzblue,
+	keep HCGemcutter,
+    	Result:HCQuartzbluecut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCQuartzrose,
+	keep HCGemcutter,
+    	Result:HCQuartzrosecut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCQuartzsmokey,
+	keep HCGemcutter,
+    	Result:HCQuartzsmokeycut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCQuartzcitrine,
+	keep HCGemcutter,
+    	Result:HCQuartzcitrinecut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCAmethyst,
+	keep HCGemcutter,
+    	Result:HCAmethystcut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCAzurite,
+	keep HCGemcutter,
+    	Result:HCAzuritecut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCDiamond,
+	keep HCGemcutter,
+    	Result:HCDiamondcut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCEmerald,
+	keep HCGemcutter,
+    	Result:HCEmeraldcut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCFireagate,
+	keep HCGemcutter,
+    	Result:HCFireagatecut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCGarnet,
+	keep HCGemcutter,
+    	Result:HCGarnetcut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCLapislazuli,
+	keep HCGemcutter,
+    	Result:HCLapislazulicut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCMalachite,
+	keep HCGemcutter,
+    	Result:HCMalachitecut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCOlivine,
+	keep HCGemcutter,
+    	Result:HCOlivinecut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCRhodonite,
+	keep HCGemcutter,
+    	Result:HCRhodonitecut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCRuby,
+	keep HCGemcutter,
+    	Result:HCRubycut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCSapphire,
+	keep HCGemcutter,
+    	Result:HCSapphirecut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCTopaz,
+	keep HCGemcutter,
+    	Result:HCTopazcut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCTurquoise,
+	keep HCGemcutter,
+    	Result:HCTurquoisecut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cut Gem
+    {
+    	HCAmazonite,
+	keep HCGemcutter,
+    	Result:HCAmazonitecut,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+}

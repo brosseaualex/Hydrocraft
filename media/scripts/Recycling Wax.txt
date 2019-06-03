@@ -1,0 +1,74 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCWaxrecycled
+    {
+        Weight    		=    	0.1,
+        Type    		=    	Normal,
+        DisplayName    		=    	Recyled Wax,
+        Icon    		=    	HCWaxrecycled,
+    }
+
+/************************RECIPES************************/
+
+recipe Recycle Wax
+    {
+    Crayons=10,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCWaxrecycled,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnCreate:SmeltUse,
+    }
+
+recipe Recycle Wax
+    {
+    Candle=3,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCWaxrecycled,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnCreate:SmeltUse,
+    }
+
+recipe Recycle Wax
+    {
+    HCRefinedbeeswax,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCWaxrecycled,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnCreate:SmeltUse,
+    }
+
+}

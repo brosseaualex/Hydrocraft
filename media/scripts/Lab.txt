@@ -1,0 +1,886 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCMagnet
+	{
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Magnet,
+	Icon			=	HCMagnet,
+	}
+
+item HCChemicalbottleempty
+	{
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Empty Chemical Plastic Bottle,
+	Icon			=	HCChemicalbottleempty,
+	}
+
+item HCPlasticcanempty
+	{
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Empty Plastic Can,
+	Icon			=	HCPlasticcanempty,
+	}
+
+item HCGlassflask
+    {
+        Weight    		= 	0.3,
+	CanStoreWater		=	TRUE,
+        Type    		= 	Normal,
+        DisplayName         	= 	Glass Conical Flask,
+	ReplaceOnUseOn		=	WaterSource-HCGlasswaterbottle,
+        icon 			= 	HCGlassflask,
+	RainFactor 		= 	1,
+    }
+
+item HCGlasswaterbottle
+	{
+	ThirstChange		=	-100,
+	IsWaterSource		=	TRUE,
+	ReplaceOnUse		=	HCGlassflask,
+	Weight			=	1,
+	CanStoreWater		=	TRUE,
+	Type			=	Food,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Conical Flask With Water,
+	ReplaceOnDeplete	=	HCGlassflask,
+	ReplaceOnUseOn		=	WaterSource-HCGlasswaterbottle,
+	Icon			=	HCGlasswaterbottle,
+	RainFactor 		= 	1,
+	}
+
+item HCGlassflaskbuchner
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Buchner Flask,
+        icon 			= HCGlassflaskbuchner,
+    } 
+
+item HCGlassflaskflorence
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Florence Flask,
+        icon 			= HCGlassflaskflorence,
+    } 
+
+item HCGlassflaskretort
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Retort Flask,
+        icon 			= HCGlassflaskretort,
+    } 
+
+item HCGlassbeaker
+    {
+        Weight    		= 	0.3,
+	CanStoreWater		=	TRUE,
+        Type    		= 	Normal,
+        DisplayName         	= 	Glass Beaker,
+	ReplaceOnUseOn		=	WaterSource-HCBeakerwater,
+        icon 			= 	HCGlassbeaker,
+	RainFactor 		= 	1,
+    }
+
+item HCGlassgraduatedcylinder
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Graduated Cylinder,
+        icon 			= HCGlassgraduatedcylinder,
+    }  
+
+item HCEyedropper
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Eye Dropper,
+        icon 			= HCEyedropper,
+    } 
+
+item HCGlasstesttube
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Glass Test Tube,
+        icon 			= HCGlasstesttube,
+    } 
+
+item HCTesttubebox
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Box of Glass Test Tubes,
+        icon 			= HCTesttubebox,
+    } 
+
+item HCCork
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Cork,
+        icon 			= HCCork,
+    } 
+
+item HCCorkbox
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Box of Corks,
+        icon 			= HCCorkbox,
+    } 
+
+item HCCorkhole
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Cork with Hole,
+        icon 			= HCCorkhole,
+    }
+
+item HCRubberbung
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Rubber Bung,
+        icon 			= HCRubberbung,
+    } 
+
+item HCRubberbungbox
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Box of Rubber Bungs,
+        icon 			= HCRubberbungbox,
+    } 
+
+item HCRubberbunghole
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Rubber Bung with Hole,
+        icon 			= HCRubberbunghole,
+    } 
+
+
+item HCGlasstesttubecork
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Glass Test Tube with Cork,
+        icon 			= HCGlasstesttubecork,
+    } 
+
+item HCGlasstesttubecorkhole
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Glass Test Tube with Cork with Hole,
+        icon 			= HCGlasstesttubecorkhole,
+    } 
+
+item HCGlasstesttuberubberbung
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Glass Test Tube with Rubber Bung,
+        icon 			= HCGlasstesttuberubberbung,
+    } 
+
+item HCGlasstesttuberubberbunghole
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Glass Test Tube with Rubber Bung with Hole,
+        icon 			= HCGlasstesttuberubberbunghole,
+    } 
+
+
+item HCTesttuberack
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Test Tube Rack,
+        icon 			= HCTesttuberack,
+    }  
+
+item HCTesttuberackcorks
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Test Tube Rack with Glass Test Tubes with Corks,
+        icon 			= HCTesttuberackcorks,
+    }  
+
+item HCTesttuberackbungs
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Test Tube Rack with Glass Test Tubes with Rubber Bungs,
+        icon 			= HCTesttuberackbungs,
+    }  
+
+item HCTesttubeholder
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Testtube Holder,
+        icon 			= HCTesttubeholder,
+    } 
+
+item HCForeceps
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Forceps,
+        icon 			= HCForeceps,
+    } 
+
+item HCPinchclamp
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Pinch Clamp,
+        icon 			= HCPinchclamp,
+    } 
+
+item HCUtilityclamp
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Utility Clamp,
+        icon 			= HCUtilityclamp,
+    } 
+
+item HCRingclamp
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Ring Clamp,
+        icon 			= HCRingclamp,
+    } 
+
+item HCRingstand
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Ring Stand,
+        icon 			= HCRingstand,
+    } 
+
+item HCRingstandclamp
+    {
+        Weight    		= 0.8,
+        Type    		= Normal,
+        DisplayName         	= Ring Stand with Clamp,
+        icon 			= HCRingstandclamp,
+    } 
+
+item HCWiregauze
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Wire Gauze,
+        icon 			= HCWiregauze,
+    } 
+
+item HCRubberhose
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Rubber Hose,
+        icon 			= HCRubberhose,
+    } 
+
+item HCBunsenburner
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Bunsen Burner,
+        icon 			= HCBunsenburner,
+    }
+
+item HCTesttubebrush
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Test Tube Brush,
+        icon 			= HCTesttubebrush,
+    } 
+
+item HCTesttubebrushbox
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Box of Test Tube Brushes,
+        icon 			= HCTesttubebrushbox,
+    } 
+
+item HCGlassfunnel
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Funnel,
+        icon 			= HCGlassfunnel,
+    } 
+
+item HCGlasscooler
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Cooler,
+        icon 			= HCGlasscooler,
+    } 
+
+item HCGlasspipe
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Pipe,
+        icon 			= HCGlasspipe,
+    } 
+
+item HCGlasspipebox
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Glass Pipes,
+        icon 			= HCGlasspipebox,
+    } 
+
+item HCGlasspipeelbow
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Elbow Pipe,
+        icon 			= HCGlasspipeelbow,
+    } 
+
+item HCGlasspipeelbowbox
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Glass Elbow Pipe,
+        icon 			= HCGlasspipeelbowbox,
+    } 
+
+item HCGlassburette
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Burette,
+        icon 			= HCGlassburette,
+    } 
+
+item HCGlassballoon
+	{
+	Weight			=	1,
+	Type			=	Normal,
+	DisplayName		=	Large Glass Balloon,
+	Icon			=	HCGlassballoon,
+	}
+
+item HCGlassconnector
+	{
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Glass Connector,
+	Icon			=	HCGlassconnector,
+	}
+
+item HCGlassballoonconnector
+	{
+	Weight			=	1.1,
+	Type			=	Normal,
+	DisplayName		=	Large Glass Balloon with Connector,
+	Icon			=	HCGlassballoon,
+	}
+
+item HCWashbottle
+    {
+        Weight    		= 1,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Wash Bottle,
+	ReplaceOnUseOn		= WaterSource-HCWashbottlefull,
+        icon 			= HCWashbottle,
+	RainFactor 		= 1,
+    }
+
+item HCWashbottlefull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	2,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Wash Bottle with Water,
+	ReplaceOnDeplete	=	HCWashbottle,
+	ReplaceOnUseOn		=	WaterSource-HCWashbottlefull,
+	Icon			=	HCWashbottlefull,
+	RainFactor 		= 	1,
+    }
+
+item HCMagnifyglass
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Magnifying Glass,
+        icon 			= HCMagnifyglass,
+    } 
+
+item HCProtractor
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Protractor,
+        icon 			= HCProtractor,
+    } 
+
+item HCLatexgloves
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Latex Gloves,
+        icon 			= HCLatexgloves,
+    } 
+
+item HCHydrogentank
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Hydrogen Tank,
+        icon 			= HCHydrogentank,
+    }
+
+item HCHydrogentankempty
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Empty Hydrogen Tank,
+        icon 			= HCHydrogentank,
+    }
+
+item HCHeliumtank
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Helium Tank,
+        icon 			= HCHeliumtank,
+    }
+
+item HCHeliumtankempty
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Empty Helium Tank,
+        icon 			= HCHeliumtank,
+    }
+
+item HCOxygentank
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Oxygen Tank,
+        icon 			= HCOxygentank,
+    }
+
+item HCOxygentankempty
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Empty Oxygen Tank,
+        icon 			= HCOxygentank,
+    }
+
+item HCHclgastank
+    {
+        Weight            	= 4,
+        Type            	= Normal,
+        DisplayName             = Hydrogen Chloride Tank,
+        icon             	= HCHclgastank,
+    }
+
+item HCHclgastankempty
+    {
+        Weight            	= 4,
+        Type            	= Normal,
+        DisplayName             = Empty Hydrogen Chloride Tank,
+        icon             	= HCHclgastank,
+    } 
+
+item HCTankfridge
+    {
+        Weight            	= 4,
+        Type            	= Normal,
+        DisplayName             = Tank of Refrigerant,
+        icon             	= HCTankfridge,
+    }
+
+item HCTankfridgeempty
+    {
+        Weight            	= 4,
+        Type            	= Normal,
+        DisplayName             = Empty Tank of Refrigerant,
+        icon             	= HCTankfridge,
+    } 
+
+item HCPlasmaglobe
+	{
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Plasma Globe,
+	Icon			=	HCPlasmaglobe,
+	}
+
+item HCTeslamachine
+    {
+        Weight    		= 2,
+        Type    		= Normal,
+        DisplayName     	= Van de Graaff Generator,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCTeslamachine,
+    } 
+
+item HCLab
+    {
+	WeightReduction         = 0,
+	Weight             	= 10,
+	Type                	= Container,
+	Capacity             	= 50,
+        DisplayName         	= Laboratory,
+        icon 			= HCLab,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+
+item HCLabbig
+    {
+        Weight    		= 40,
+        Type    		= Normal,
+        DisplayName     	= Professional Lab,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCLabbig,
+    } 
+
+
+/************************RECIPES************************/
+
+recipe Box Corks
+    {
+    HCCork=20,
+    Result:HCCorkbox,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Unbox Corks
+    {
+    HCCorkbox,
+    Result:HCCork=20,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Box Rubber Bungs
+    {
+    HCRubberbung=20,
+    Result:HCRubberbungbox,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Unbox Rubber Bungs
+    {
+    HCRubberbungbox,
+    Result:HCRubberbung=20,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Box Test Tubes
+    {
+    HCGlasstesttube=4,
+    Result:HCTesttubebox,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Unbox Test Tubes
+    {
+    HCTesttubebox,
+    Result:HCGlasstesttube=4,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Box Glass Pipes
+    {
+    HCGlasspipe=10,
+    Result:HCGlasspipebox,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Unbox Glass Pipes
+    {
+    HCGlasspipebox,
+    Result:HCGlasspipe=10,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Box Glass Elbow Pipes
+    {
+    HCGlasspipeelbow=10,
+    Result:HCGlasspipeelbowbox,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Unbox Glass Elbow Pipes
+    {
+    HCGlasspipeelbowbox,
+    Result:HCGlasspipeelbow=10,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Box Test Tube Brushes
+    {
+    HCTesttubebrush=5,
+    Result:HCTesttubebrushbox,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Unbox Test Tube Brushes
+    {
+    HCTesttubebrushbox,
+    Result:HCTesttubebrush=5,
+    Time:15,
+    Category:Alchemy,
+    }
+    
+recipe Put Cork on Test Tube
+    {
+    HCGlasstesttube,
+    HCCork,
+    Result:HCGlasstesttubecork,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Remove Cork from Test Tube
+    {
+    HCGlasstesttubecork,
+    Result:HCGlasstesttube,
+    Time:15,
+    OnCreate:recipe_hccork,
+    Category:Alchemy,
+    }
+
+recipe Put Cork with Hole on Test Tube
+    {
+    HCGlasstesttube,
+    HCCorkhole,
+    Result:HCGlasstesttubecorkhole,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Remove Cork with Hole from Test Tube
+    {
+    HCGlasstesttubecorkhole,
+    Result:HCGlasstesttube,
+    Time:15,
+    OnCreate:recipe_hccorkhole,
+    Category:Alchemy,
+    }
+
+recipe Put Rubber Bung on Test Tube
+    {
+    HCGlasstesttube,
+    HCRubberbung,
+    Result:HCGlasstesttuberubberbung,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Remove Rubber Bung from Test Tube
+    {
+    HCGlasstesttuberubberbung,
+    Result:HCGlasstesttube,
+    Time:15,
+    OnCreate:recipe_hcgetrubberbung,
+    Category:Alchemy,
+    }
+
+recipe Put Rubber Bung with Hole on Test Tube
+    {
+    HCGlasstesttube,
+    HCRubberbunghole,
+    Result:HCGlasstesttuberubberbunghole,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Remove Rubber Bung with Hole from Test Tube
+    {
+    HCGlasstesttuberubberbunghole,
+    Result:HCGlasstesttube,
+    Time:15,
+    OnCreate:recipe_hcgetrubberbunghole,
+    Category:Alchemy,
+    }
+
+recipe Put Test Tubes with Corks on Test Tube Rack
+    {
+    HCGlasstesttubecork=4,
+    HCTesttuberack,
+    Result:HCTesttuberackcorks,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Remove Test Tubes with Corks from Test Tube Rack
+    {
+    HCTesttuberackcorks,
+    Result:HCGlasstesttubecork=4,
+    Time:15,
+    OnCreate:recipe_hctesttuberack,
+    Category:Alchemy,
+    }
+
+recipe Put Test Tubes with Rubber Bungs on Test Tube Rack
+    {
+    HCGlasstesttuberubberbung=4,
+    HCTesttuberack,
+    Result:HCTesttuberackbungs,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Remove Test Tubes with Rubber Bungs from Test Tube Rack
+    {
+    HCTesttuberackbungs,
+    Result:HCGlasstesttuberubberbung=4,
+    Time:15,
+    OnCreate:recipe_hctesttuberack,
+    Category:Alchemy,
+    }
+
+recipe Attatch Clamp to Ring Stand
+    {
+    HCRingstand,
+    HCUtilityclamp,
+    Result:HCRingstandclamp,
+    Time:15,
+    Category:Alchemy,
+    }
+
+recipe Remove Clamp from Ring Stand
+    {
+    HCRingstandclamp,
+    Result:HCUtilityclamp,
+    Time:15,
+    OnCreate:recipe_hcringstand,
+    Category:Alchemy,
+    }
+
+recipe Make Test Tube Rack
+    {
+	SkillRequired:Woodwork=4,
+    	Plank,
+	Nails,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCTesttuberack,
+    	Sound:PZ_Hammer,
+    	Time:400,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Drill Hole in Cork
+    {
+    	HCCork,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	Result:HCCorkhole,
+    	Time:15,
+       	Category:Engineer,
+    }
+
+recipe Drill Hole in Rubber Bung
+    {
+    	HCRubberbung,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	Result:HCRubberbunghole,
+    	Time:15,
+       	Category:Engineer,
+    }
+
+recipe Make Laboratory
+    {
+	Notebook=3,
+	HCLatexgloves,
+        MortarPestle,
+	HCTesttubebrush,
+        HCEyedropper,
+	HCGlasstesttube,
+        HCThermometer,
+        HCGlassflask=3,
+        HCGlassbeaker=3,
+        HCGlassgraduatedcylinder,
+	HCWashbottle,
+	HCTesttuberackcorks,
+	HCRingstandclamp,
+	HCBunsenburner,
+	HCRubberhose,
+	HCPropanetankempty,
+	HCPlasticbin2=3,
+	HCWorkbench,
+        Result:HCLab,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:400,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Build Professional Lab
+    {
+        Pipe=2,
+        Screws=10,
+        HCBarrelmetalempty,
+        SheetMetal=4,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        keep Screwdriver,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true, 
+   	Result:HCLabbig,
+    	Time:5000,
+       	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+}

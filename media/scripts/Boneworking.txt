@@ -1,0 +1,879 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCBonepowder
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bone Powder,
+        icon 			= HCBonepowder,
+    }
+
+item HCMusselshell
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Mussel Shell,
+        icon 			= HCMusselshell,
+    }
+
+item HCShellpowder
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Shell Powder,
+        icon 			= HCShellpowder,
+    }
+
+item HCGelatin
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Gelatin,
+        icon 			= HCGelatin,
+    }
+
+item HCGelatinpowder
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Gelatin Powder,
+        icon 			= HCGelatinpowder,
+    }
+
+item HCBone
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bone,
+        icon 			= HCBone,
+    } 
+
+item HCWishbone
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Wishbone,
+        icon 			= HCWishbone,
+    } 
+
+item HCBonemarrow
+    {
+        HungerChange			=	-30,
+        Weight    			= 	0.1,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysFresh			=	2,
+        DaysTotallyRotten		=	4,
+        MinutesToCook			=	10,
+        MinutesToBurn			=	20,
+        DisplayName         		= 	Bone Marrow,
+        icon 				= 	HCBonemarrow,
+        FoodType    			=   	Meat,
+        EvolvedRecipe 			= 	Soup:5;Stew:5;Pie:5;Stir fry:5;Sandwich:5|Cooked;Salad:5|Cooked;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	7,
+       	Lipids 				= 	84,
+        Calories 			= 	786,
+    } 
+
+item HCBoneash
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bone Ash,
+        icon 			= HCBoneash,
+    } 
+
+item HCZombiebones
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Zombie Bones,
+        icon 			= HCZombiebones,
+    } 
+
+item HCDogbones
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Dog bones,
+        icon 			= HCDogbones,
+    }
+
+item HCCatbones
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Cat bones,
+        icon 			= HCCatbones,
+    }
+
+item HCSheepbones
+	{
+	Weight 				= 	1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Sheep Skeleton,
+	Icon				=	HCSheepbones,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCGoatbones
+	{
+	Weight 				= 	1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Goat Skeleton,
+	Icon				=	HCGoatbones,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCGoathorn
+    {
+        Weight    			= 	0.1,
+        Type    			= 	Normal,
+        DisplayName         		= 	Goat Horn,
+        icon 				= 	HCGoathorn,
+    } 
+
+item HCPigbones
+	{
+	Weight 				= 	3,
+	Type 				= 	Normal,
+	DisplayName 			= 	Pig Skeleton,
+	Icon				=	HCPigbones,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCCowbones
+	{
+	Weight 				= 	5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Cow Skeleton,
+	Icon				=	HCCowbones,
+	ResizeWorldIcon 		= 	2.5,
+	}
+
+item HCCowbones2
+	{
+	Weight 				= 	5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Cow Skeleton,
+	Icon				=	HCCowbones2,
+	ResizeWorldIcon 		= 	2.5,
+	}
+
+item HCDonkeybones
+	{
+	Weight 				= 	5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Donkey Skeleton,
+	Icon				=	HCDonkeybones,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCHorsebones
+	{
+	Weight 				= 	5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Horse Skeleton,
+	Icon				=	HCHorsebones,
+	ResizeWorldIcon 		= 	2.5,
+	}
+
+item HCFoxbones
+	{
+	Weight 				= 	0.4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Fox Skeleton,
+	Icon				=	HCFoxbones,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCRaccoonbones
+	{
+	Weight 				= 	0.4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Raccoon Skeleton,
+	Icon				=	HCRaccoonbones,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBoarbones
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Boar Skeleton,
+	Icon				=	HCBoarbones,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBoartusk
+    {
+        Weight    			= 	0.1,
+        Type    			= 	Normal,
+        DisplayName         		= 	Boar Tusk,
+        icon 				= 	HCBoartusk,
+    } 
+
+item HCDeerbones
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Deer Skeleton,
+	Icon				=	HCDeerbones,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCDeerbones2
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Deer Skeleton,
+	Icon				=	HCDeerbones2,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCDeerantlers
+    {
+        Weight    			= 	0.6,
+        Type    			= 	Normal,
+        DisplayName         		= 	Deer Antlers,
+        icon 				= 	HCDeerantlers,
+    } 
+
+item HCBearbones
+	{
+	Weight 				= 	5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Grizzly Bear Skeleton,
+	Icon				=	HCBearbones,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBlackbearbones
+	{
+	Weight 				= 	5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Black Bear Skeleton,
+	Icon				=	HCBlackbearbones,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCCougarbones
+	{
+	Weight 				= 	5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Cougar Skeleton,
+	Icon				=	HCCougarbones,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCZedbones
+	{
+	Weight 				= 	3,
+	Type 				= 	Normal,
+	DisplayName 			= 	Skeleton,
+	Icon				=	HCZedbones,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCZedbonesheadless
+	{
+	Weight 				= 	2.5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Headless Skeleton,
+	Icon				=	HCZedbonesheadless,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCZedskull
+	{
+	Weight 				= 	0.5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Skull,
+	Icon				=	HCZedskull,
+	}
+
+item HCSkullpile
+	{
+	Weight 				= 	5.0,
+	Type 				= 	Normal,
+	DisplayName 			= 	Skull Pile,
+	Icon				=	HCSkullpile,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCDicebone
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bone Dice,
+        icon 			= HCDicebone,
+    } 
+
+item HCBoneneedle
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bone Needle,
+        icon 			= HCBoneneedle,
+    } 
+
+item HCFishhookbone
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bone Fishhook,
+        icon 			= HCFishhookbone,
+    } 
+
+ item HCGluejar
+    	{
+        Weight			=	0.2,
+        Type			=	Drainable,
+        UseDelta		=	0.2,
+        UseWhileEquipped	=	FALSE,
+        DisplayName		=	Jar of Glue,
+        Icon			=	HCClayjarsmall,
+	ReplaceOnDeplete	=	Hydrocraft.HCClayjarsmall,
+    	}
+
+item HCWoodgluejar
+    	{
+        Weight			=	0.2,
+        Type	            	=	Drainable,
+       	UseDelta	        =	0.2,
+        UseWhileEquipped	=	FALSE,
+        DisplayName		=	Jar of Wood Glue,
+        Icon			=	HCClayjarsmall,
+	ReplaceOnDeplete	=	Hydrocraft.HCClayjarsmall,
+    	}
+
+/************************WEAPONS************************/
+
+	item HCBoneshiv
+	{
+		MaxRange			=	0.9,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		KnockBackOnNoDeath		=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		ConditionLowerChanceOneIn	=	2,
+		Weight				=	0.3,
+		SplatNumber			=	0,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.5,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		WeaponWeight			=	1.5,
+		DisplayName			=	Bone Shiv,
+		MinRange			=	0.61,
+		CloseKillMove 			= 	Jaw_Stab,
+		SwingTime			=	2,
+		MinDamage			=	0.3,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCBoneshiv,
+		RunAnim				=	Run_Weapon2,
+        	IdleAnim			=	Idle_Weapon2,
+        	BreakSound  			=   	PZ_WoodSnap,
+        	TreeDamage  			=   	1,
+        	EnduranceMod 			= 	0.5,
+	}
+
+/************************RECIPES************************/
+
+recipe Cut Open Bone
+    {
+    keep HCBonesaw/Saw,
+    HCBone,
+    Result:HCBonemarrow,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCDogbones,
+    Result:HCBone=3,
+    NeedToBeLearn:true,
+    Time:150,
+    Category:Survivalist,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCCatbones,
+    Result:HCBone=1,
+    NeedToBeLearn:true,
+    Time:150,
+    Category:Survivalist,
+    }
+    
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCSheepbones,
+    Result:HCBone=3,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCGoatbones,
+    Result:HCBone=3,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnCreate:recipe_hcgoathorn,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCPigbones,
+    Result:HCBone=4,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCCowbones,
+    Result:HCBone=6,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCCowbones2,
+    Result:HCBone=6,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCDonkeybones,
+    Result:HCBone=6,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCHorsebones,
+    Result:HCBone=6,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCFoxbones,
+    Result:HCBone=2,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCRaccoonbones,
+    Result:HCBone=2,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCBoarbones,
+    Result:HCBone=4,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnCreate:recipe_hcboartusks,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCDeerbones,
+    Result:HCBone=6,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnCreate:recipe_hcdeerantlers,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCDeerbones2,
+    Result:HCBone=6,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCBearbones,
+    Result:HCBone=12,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCBlackbearbones,
+    Result:HCBone=10,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCCougarbones,
+    Result:HCBone=8,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Remove Skull
+    {
+    keep HCBonesaw/Saw,
+    HCZedbones,
+    Result:HCZedbonesheadless,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnCreate:recipe_hczedskull,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCZedbonesheadless,
+    Result:HCBone=4,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Bones
+    {
+    keep HCBonesaw/Saw,
+    HCZedbones,
+    Result:HCBone=4,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Hunting,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Pile of Skulls
+    {
+    HCZedskull=10,
+    Result:HCSkullpile,
+    Time:50,
+    Category:Hunting,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Bone Powder
+    	{
+    		keep MortarPestle/HCMortarandpestle/HCGrindstone/HCLab,
+    		HCBone/HCZombiebones/HCWishbone,
+    		Result:HCBonepowder,
+    		NeedToBeLearn:true,
+    		Time:50,
+    		Category:Alchemy,
+   	 	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Make Bone Powder
+    	{
+    		keep HCMacerator,
+    		PetrolCan,
+    		HCBone/HCZombiebones/HCWishbone,
+    		CanBeDoneFromFloor:true,
+    		Result:HCBonepowder=2,
+    		NeedToBeLearn:true,
+    		Time:50,
+    		Category:Alchemy,
+   	 	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Make Shell Powder
+    	{
+    		keep MortarPestle/HCMortarandpestle/HCGrindstone/HCLab,
+    		HCMusselshell,
+    		Result:HCShellpowder,
+    		NeedToBeLearn:true,
+    		Time:50,
+    		Category:Alchemy,
+   	 	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Make Shell Powder
+    	{
+    		keep HCMacerator,
+    		PetrolCan,
+    		HCMusselshell,
+    		CanBeDoneFromFloor:true,
+    		Result:HCShellpowder=2,
+    		NeedToBeLearn:true,
+    		Time:50,
+    		Category:Alchemy,
+   	 	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Make Gelatin
+    	{
+    		HCBone=10,
+		HCCheesecloth,
+    		Charcoal,
+    		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    		Water,
+    		keep HCClaycauldron/HCCauldroniron,
+    		CanBeDoneFromFloor:true,
+    		Result:HCGelatin,
+    		NeedToBeLearn:true,
+    		Time:500,
+    		Category:Alchemy,
+   	 	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Dry Gelatin
+    	{
+    		HCGelatin,
+		BakingTray,
+    		Charcoal,
+    		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+   		keep HCKiln/HCKiln2,
+    		CanBeDoneFromFloor:true,
+    		Result:HCGelatinpowder,
+    		NeedToBeLearn:true,
+    		Time:1000,
+    		Category:Alchemy,
+   	 	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Make Glue
+    	{
+    		HCBonepowder=10,
+		HCGlueempty,
+    		Charcoal,
+    		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    		Water,
+    		keep HCClaycauldron/HCCauldroniron,
+    		CanBeDoneFromFloor:true,
+    		Result:Glue,
+    		NeedToBeLearn:true,
+    		Time:50,
+    		Category:Alchemy,
+   	 	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Make Glue
+    	{
+    		HCBonepowder=10,
+		HCClayjarsmall,
+    		Charcoal,
+    		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    		Water,
+    		keep HCClaycauldron/HCCauldroniron,
+    		CanBeDoneFromFloor:true,
+    		Result:HCGluejar,
+    		NeedToBeLearn:true,
+    		Time:50,
+    		Category:Alchemy,
+   	 	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Make Wood Glue
+    	{
+    		HCBonepowder=10,
+		HCWoodglueempty,
+		HCCandleberrywax/HCRefinedbeeswax/HCWaxrecycled,
+    		Charcoal,
+    		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    		Water,
+    		keep HCClaycauldron/HCCauldroniron,
+    		CanBeDoneFromFloor:true,
+    		Result:Woodglue,
+    		NeedToBeLearn:true,
+    		Time:50,
+    		Category:Alchemy,
+   	 	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Make Wood Glue
+    	{
+    		HCBonepowder=10,
+		HCClayjarsmall,
+		HCCandleberrywax/HCRefinedbeeswax/HCWaxrecycled,
+    		Charcoal,
+    		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    		Water,
+    		keep HCClaycauldron/HCCauldroniron,
+    		CanBeDoneFromFloor:true,
+    		Result:HCWoodgluejar,
+    		NeedToBeLearn:true,
+    		Time:50,
+    		Category:Alchemy,
+   	 	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Make Super Glue
+    	{
+    		HCBonepowder=10,
+		HCGlycerin,
+		HCGumstick/HCGumstick2/HCGumstick3,
+    		Charcoal,
+    		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    		Water,
+    		keep HCClaycauldron/HCCauldroniron,
+    		CanBeDoneFromFloor:true,
+    		Result:HCSuperglue,
+    		NeedToBeLearn:true,
+    		Time:50,
+    		Category:Alchemy,
+   	 	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Craft Bone Shiv
+	{
+    		HCBone/HCZombiebones,
+		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/HCBreadknife/HCMeatcleaver/HCPumpkinknife/Scissors/HCScalpel/SharpedStone/HCMachete/HCCombatknife/HCKatana/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCKnifestone,		
+		Result:HCBoneshiv,
+		Sound:PZ_Saw,
+    		NeedToBeLearn:true,
+		Time:250.0,
+    		Category:Survivalist,
+   	 	OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Craft Bone Dice
+	{
+    		HCBone/HCZombiebones,
+		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/HCBreadknife/HCMeatcleaver/HCPumpkinknife/Scissors/HCScalpel/SharpedStone/HCMachete/HCCombatknife/HCKatana/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCKnifestone,		
+		Result:HCDicebone,
+		Sound:PZ_Saw,
+    		NeedToBeLearn:true,
+		Time:250.0,
+		Category:Leisure,
+   	 	OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Craft Bone Needle
+	{
+    		HCBone/HCZombiebones/HCWishbone,
+		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/HCBreadknife/HCMeatcleaver/HCPumpkinknife/Scissors/HCScalpel/SharpedStone/HCMachete/HCCombatknife/HCKatana/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCKnifestone,		
+		Result:HCBoneneedle,
+		Sound:PZ_Saw,
+    		NeedToBeLearn:true,
+		Time:250.0,
+    		Category:Survivalist,
+   	 	OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Craft Bone Fishhook
+	{
+    		HCBone/HCZombiebones/HCWishbone,
+		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/HCBreadknife/HCMeatcleaver/HCPumpkinknife/Scissors/HCScalpel/SharpedStone/HCMachete/HCCombatknife/HCKatana/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCKnifestone,		
+		Result:HCFishhookbone,
+		Sound:PZ_Saw,
+    		NeedToBeLearn:true,
+		Time:250.0,
+    		Category:Survivalist,
+   	 	OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Roll Bone Dice
+    {
+	HCDicebone,
+   	Result:HCDicebone,
+    	Time:15,
+       	OnCreate:rprolld6,
+	Category:Leisure,
+    }
+
+recipe Make Bone Ash
+    {
+    	HCBone/HCZombiebones/HCWishbone,
+    	Charcoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCBoneash,
+    	Time:100,
+    	NeedToBeLearn:true,
+    	Category:Firecraft,
+    	OnCreate:KilnUse,
+   	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+}

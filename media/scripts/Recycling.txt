@@ -1,0 +1,176 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCStyrofoamball
+    {
+        Weight    		=    	0.01,
+        Type    		=    	Normal,
+        DisplayName    		=    	Styrofoam Ball,
+        Icon    		=    	HCStyrofoamball,
+    }
+
+item HCStyrofoamblock
+    {
+        Weight    		=    	0.01,
+        Type    		=    	Normal,
+        DisplayName    		=    	Styrofoam Block,
+        Icon    		=    	HCStyrofoamblock,
+    }
+
+item HCWaterbottleclean
+	{
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Clean Plastic Bottle,
+	Icon			=	HCWaterbottleclean,
+	}
+
+item HCWaterbottlecutoff
+	{
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Cut Off Plastic Bottle,
+	Icon			=	HCWaterbottlecutoff,
+	}
+
+ item HCTrashbottle
+    {
+        Weight                  =    	0.1,
+        Type                    =    	Normal,
+        DisplayName       	=    	Empty Plastic Bottle,
+        Icon                    =    	HCTrashbottle,
+    }
+
+item HCPVCpipe
+    {
+        Weight 			= 	1,
+        Type 			= 	Normal,
+        DisplayName 		= 	PVC Pipe,
+        Icon 			= 	HCPVCpipe,
+    }
+
+item HCPVCpipebox
+    {
+        Weight 			= 	6,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of PVC Pipes,
+        Icon 			= 	HCPVCpipebox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCChickenwire
+    {
+        Weight 			= 	1,
+        Type 			= 	Normal,
+        DisplayName 		= 	Chicken Wire,
+        Icon 			= 	HCChickenwire,
+    }
+
+/************************RECIPES************************/
+
+recipe Remove Can Label
+    {
+	HCCannedcornempty/HCCannedmushroomsoupempty/HCCannedpeasempty/HCCannedpotatoempty/HCCannedtomatoempty/HCCannedcarrotsempty/HCBeansempty/HCTinnedsoupempty/HCDogfoodempty/HCCannedbologneseempty/HCCannedchiliempty/HCCannedsoupclassicempty/HCCannedappleempty/HCCannedpearempty/HCCannedpeachempty/HCCannedgreenbeansempty/HCCannedmushroomsempty/HCCannedpumpkinempty/HCCannedcranberriesempty/HCCannedpineappleempty/HCCannedrefriedbeansempty/HCCannedcheesesauceopenempty/HCCannedchickenbreastopenempty/HCCannedfruitcocktailopenempty/HCCannedgovermentbeefopenempty/HCCannedgovermentbreadopenempty/HCCannedgovermentchickenopenempty/HCCannedgovermentporkopenempty/HCCannedmacncheeseopenempty/HCCannedpiefillingcherryopenempty/HCCannedpiefillingappleopenempty/HCCannedpiefillingblueberryopenempty/HCCannedravioliopenempty/HCCannedspaghettiringsopenempty,
+    	Result:HCTincan,
+    	Time:20.0,
+    }
+
+recipe Unpack Pallet of PVC Pipes
+    {
+    	HCPVCpipebox,
+    	Result:HCPVCpipe=12,
+    	Time:20.0,
+    	Category:Stoneworking,
+    	OnCreate:recipe_hcpallet,
+    }
+
+recipe Pack Pallet of PVC Pipes
+    {
+    	HCPVCpipe=12,
+    	HCRopethick,
+	HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCPVCpipebox,
+    	Time:20.0,
+    	Category:Stoneworking,
+    }
+
+recipe Make Chicken Wire
+    {
+	Wire=10,
+    	keep HCPliers,
+   	Result:HCChickenwire,
+    	Time:50,
+    	Category:Smithing,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Shred Useless Circuit Board
+    {
+    	HCCircuitboarduseless=3,
+        HCElectricmultitoolsawpowered,
+    	Result:HCCircuitboardpieces,
+    	Time:100,
+       	Category:Electrical,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Shred Useless Circuit Board
+    {
+    	HCCircuitboarduseless=3,
+        keep Saw,
+    	Result:HCCircuitboardpieces,
+    	Time:100,
+       	Category:Electrical,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Recycle Wooden Crate
+    {
+    	HCWoodencrate,
+    	keep Hammer,
+    	Result:Plank=2,
+    	Time:100,
+    	Category:Carpentry,
+	OnGiveXP:HCNoExpGain,
+    }
+
+recipe Recycle Wooden Beehive
+    {
+    	HCBeehive1,
+    	keep Hammer,
+    	Result:Plank=2,
+    	Time:100,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Recycle Pillow
+    {
+    keep KitchenKnife/HuntingKnife/Scissors/HCScalpel/HCJackknife/HCKnifestone,
+    Pillow,
+    Result:HCWhitefeathers=10,
+    Time:100,
+    Category:Engineer,
+    OnCreate:recipe_hcpillowcase,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Feather Duster
+    {
+    HCFeatherduster,
+    Result:HCWhitefeathers=5,
+    Time:100,
+    Category:Engineer,
+    OnCreate:recipe_hcwoodenstick,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+}

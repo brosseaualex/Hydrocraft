@@ -1,0 +1,981 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCUHTmilk
+    {
+	Type				=	Food,
+	DisplayName			=	Package of UHT Milk,
+	Weight				=	1.0,
+	ThirstChange 			=	-50,
+	HungerChange 			= 	-20,
+	DaysTotallyRotten		=	500,
+	DaysFresh 			=	250,
+	Icon				=	HCUHTmilk,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	50,
+        Proteins 			= 	40,
+        Lipids 				= 	20,
+        Calories 			= 	460,
+	CantBeFrozen 			= 	TRUE,
+	Packaged 			= 	TRUE,
+    }
+
+item HCSoymilk
+    {
+	Type				=	Food,
+	DisplayName			=	Package of Soy Milk,
+	Weight				=	1.0,
+	ThirstChange 			=	-50,
+	HungerChange 			= 	-20,
+	DaysTotallyRotten		=	250,
+	DaysFresh 			=	150,
+	Icon				=	HCSoymilk,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	33,
+        Proteins 			= 	29,
+        Lipids 				= 	17,
+        Calories 			= 	410,
+	CantBeFrozen 			= 	TRUE,
+	Packaged 			= 	TRUE,
+    }
+
+item HCEvaporatedmilk
+	{
+	Weight				=	0.5,
+	Type				=	Food,
+	DisplayName			=	Evaporated Milk,
+	Icon				=	HCEvaporatedmilk,
+        Carbohydrates 			= 	136,
+        Proteins 			= 	1.6,
+        Lipids 				= 	3.2,
+        Calories 			= 	536,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+	
+item HCEvaporatedmilkopen
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	4,
+	DisplayName			=	Opened Evaporated Milk,
+	ReplaceOnUse			=	HCEvaporatedmilkopenempty,
+	Icon				=	HCEvaporatedmilkopen,
+	DaysFresh			=	2,
+    	EvolvedRecipe   		=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	NoExplicit,
+    	Carbohydrates 			= 	136,
+    	Proteins 			= 	1.6,
+    	Lipids 				= 	3.2,
+    	Calories 			= 	536,
+    	Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+    	EvolvedRecipeName 		= 	Creamy,
+	}
+
+item HCMilkjug
+    	{	
+	HungerChange			=	-20,
+	EvolvedRecipe 			= 	Stew:10;Stir fry:10;Sandwich:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+	Weight				=	2.0,
+	AlwaysWelcomeGift		=	true,
+	Type				=	Food,
+	ThirstChange			= 	-200,
+	DisplayName			=	Milk Jug,
+	Icon				= 	HCMilkjug,
+        DaysFresh 			= 	4,
+        DaysTotallyRotten 		= 	7,
+	CustomContextMenu		=	Drink,
+	CustomEatSound			= 	PZ_DrinkingFromBottle,
+	Carbohydrates 			= 	26 ,
+	Proteins 			= 	16 ,
+	Lipids 				=	5 ,
+	Calories			= 	220 ,
+	Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	ReplaceOnDeplete		=	Hydrocraft.HCMilkjugempty,
+	ReplaceOnUse			=	Hydrocraft.HCMilkjugempty,	
+    	}
+
+item HCMilkjugwater
+	{
+	IsWaterSource			=	TRUE,
+	Weight				=	2,
+	CanStoreWater			=	TRUE,
+	Type				=	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.07,
+	DisplayName			=	Milk Jug with Water,
+	ReplaceOnDeplete		=	HCMilkjugempty,
+	ReplaceOnUseOn			=	WaterSource-HCMilkjugwater,
+	Icon				=	HCMilkjugwater,
+	RainFactor 			= 	0.2,
+	Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+	
+item HCMilkjugchocolate
+    	{
+	HungerChange			=	-20,
+	EvolvedRecipe 			= 	Stew:10;Stir fry:10;Sandwich:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+	Weight				=	2.0,
+	AlwaysWelcomeGift		=	true,
+	Type				=	Food,
+	ThirstChange			= 	-200,
+	DisplayName			=	Chocolate Milk Jug,
+	Icon				= 	HCMilkjugchocolate,
+        DaysFresh 			= 	4,
+        DaysTotallyRotten 		= 	7,
+	CustomContextMenu		=	Drink,
+	CustomEatSound			= 	PZ_DrinkingFromBottle,
+	Carbohydrates 			= 	28 ,
+	Proteins 			= 	25 ,
+	Lipids 				=	25 ,
+	Calories			= 	259 ,
+	Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	ReplaceOnDeplete		=	Hydrocraft.HCMilkjugchocolateempty,
+	ReplaceOnUse			=	Hydrocraft.HCMilkjugchocolateempty,	
+    	}
+
+item HCMilkjugchocolatewater
+	{
+	IsWaterSource			=	TRUE,
+	Weight				=	2,
+	CanStoreWater			=	TRUE,
+	Type				=	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.07,
+	DisplayName			=	Milk Jug with Water,
+	ReplaceOnDeplete		=	HCMilkjugchocolateempty,
+	ReplaceOnUseOn			=	WaterSource-HCMilkjugchocolatewater,
+	Icon				=	HCMilkjugchocolatewater,
+	RainFactor 			= 	0.2,
+	Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+	
+item HCCream
+    {
+	Type				=	Food,
+	DisplayName			=	Cream,
+	Weight				=	0.1,
+	ThirstChange 			=	-5,
+	DaysTotallyRotten		=	7,
+	DaysFresh 			=	4,
+	Icon				=	HCCream,
+        FoodType            		=       NoExplicit,
+        Carbohydrates 			= 	7.1,
+        Proteins 			= 	3.5,
+        Lipids 				= 	11,
+        Calories 			= 	136,
+        Packaged 			= 	TRUE,
+    }
+
+item HCWhippedcreamcan
+	{
+		Weight			= 0.5,
+		Type			= Drainable,
+		DisplayName		= Can of Whipped Cream,
+        	UseWhileEquipped 	= FALSE,
+		Icon			= HCWhippedcreamcan,
+        	UseDelta		= 0.1,
+		ReplaceOnDeplete 	= HCWhippedcreamcanempty,
+	}
+
+item HCWhippedcreamcanRotten
+	{
+		Weight			 = 0.5,
+		Type			 = Normal,
+		DisplayName		 = Can of Rotten Whipped Cream,
+		Icon			 = HCWhippedcreamcan,
+	}
+
+item HCWhippedcreamcanempty
+	{
+		Weight			 = 0.1,
+		Type			 = Normal,
+		DisplayName		 = Empty Whipped Cream Can,
+		Icon			 = HCWhippedcreamcan,
+	}
+
+item HCWoodenbucketheatedmilk
+    {
+	Type				=	Normal,
+	DisplayName			=	Wooden Bucket with Heated Milk,
+	Weight				=	4,
+	Icon				=	HCWoodenbucketheatedmilk,
+    }
+
+item HCWoodenbucketfermentedmilk
+    {
+	Type				=	Normal,
+	DisplayName			=	Wooden Bucket with Fermented Milk,
+	Weight				=	4,
+	Icon				=	HCWoodenbucketfermentedmilk,
+    }
+
+item HCJarhomemadeyogurt
+    {
+	Type				=	Food,
+	DisplayName			=	Jarred Homemade Yogurt,
+	UnhappyChange			=	-15,
+	HungerChange			=	-30,
+	BoredomChange			=	-15,
+	Weight				=	1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	Icon				=	HCJarhomemadeyogurt,
+	ReplaceOnUse			=	HCJar,
+        FoodType            		=       NoExplicit,
+        Carbohydrates 			= 	47,
+        Proteins 			= 	35,
+        Lipids 				= 	33,
+        Calories 			= 	610,
+    }
+
+item HCJarhomemadeyogurtstrawberries
+    {
+	Type				=	Food,
+	DisplayName			=	Homemade Yogurt with Strawberries,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	Icon				=	HCJarhomemadeyogurtstrawberries,
+	ReplaceOnUse			=	HCJar,
+        FoodType            		=       NoExplicit,
+        Carbohydrates 			= 	54.7,
+        Proteins 			= 	35.7,
+        Lipids 				= 	33.3,
+        Calories 			= 	642,
+    }
+
+item HCJarhomemadeyogurtcranberries
+    {
+	Type				=	Food,
+	DisplayName			=	Homemade Yogurt with Cranberries,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtcranberries,
+	ReplaceOnUse			=	HCJar,
+        FoodType            		=       NoExplicit,
+        Carbohydrates 			= 	59,
+        Proteins 			= 	35.5,
+        Lipids 				= 	33.1,
+        Calories 			= 	656,
+    }
+
+item HCJarhomemadeyogurtraspberries
+    {
+	Type				=	Food,
+	DisplayName			=	Homemade Yogurt with Raspberries,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtraspberries,
+	ReplaceOnUse			=	HCJar,
+        FoodType            		=       NoExplicit,
+        Carbohydrates 			= 	59,
+        Proteins 			= 	36.2,
+        Lipids 				= 	33.7,
+        Calories 			= 	662,
+    }
+
+
+item HCJarhomemadeyogurtblueberries
+    {
+	Type				=	Food,
+	DisplayName			=	Homemade Yogurt with Blueberries,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtblueberries,
+	ReplaceOnUse			=	HCJar,
+        FoodType            		=       NoExplicit,
+        Carbohydrates 			= 	61,
+        Proteins 			= 	35.7,
+        Lipids 				= 	33.3,
+        Calories 			= 	667,
+    }
+
+item HCJarhomemadeyogurtcitrusfruit
+    {
+	Type				=	Food,
+	DisplayName			=	Homemade Yogurt with Citrus Fruit,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtcitrusfruit,
+	ReplaceOnUse			=	HCJar,
+        FoodType            		=       NoExplicit,
+        Carbohydrates 			= 	58,
+        Proteins 			= 	35.7,
+        Lipids 				= 	33.2,
+        Calories 			= 	640,
+    }
+
+item HCJarhomemadeyogurtapple
+    {
+	Type				=	Food,
+	DisplayName			=	Homemade Yogurt with Apple,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtapple,
+	ReplaceOnUse			=	HCJar,
+        FoodType            		=       NoExplicit,
+        Carbohydrates 			= 	61,
+        Proteins 			= 	35.3,
+        Lipids 				= 	33.2,
+        Calories 			= 	662,
+    }
+
+item HCJarhomemadeyogurtstracciatella
+    {
+	Type				=	Food,
+	DisplayName			=	Homemade Stracciatella Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-55,
+	BoredomChange			=	-25,
+	Weight				=	1.2,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtstracciatella,
+	ReplaceOnUse			=	HCJar,
+        FoodType            		=       NoExplicit,
+        Carbohydrates 			= 	139,
+        Proteins 			= 	50.6,
+        Lipids 				= 	119,
+        Calories 			= 	1806,
+    }
+
+item HCJarhomemadetzatziki
+    {
+	Type				=	Food,
+	DisplayName			=	Homemade Tzatziki,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.2,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadetzatziki,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	57.8,
+        Proteins 			= 	37.1,
+        Lipids 				= 	33.3,
+        Calories 			= 	655,
+    }
+
+item HCJarhomemadeyogurtpear
+    {
+	Type				=	Food,
+	DisplayName			=	Homemade Pear Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtpear,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	77,
+        Proteins 			= 	35.8,
+        Lipids 				= 	33.2,
+        Calories 			= 	724,
+    }
+
+item HCJarhomemadeyogurtbanana
+    {
+	Type				=	Food,
+	DisplayName			=	Homemade Banana Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtbanana,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	73.95,
+        Proteins 			= 	36.29,
+        Lipids 				= 	33.39,
+        Calories 			= 	715,
+    }
+
+item HCJarhomemadeyogurtcherry
+    {
+	Type				=	Food,
+	DisplayName			=	Homemade Cherry Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-30,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtcherry,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	48.31,
+        Proteins 			= 	35.1,
+        Lipids 				= 	33,
+        Calories 			= 	624,
+    }
+
+item HCJarhomemadeyogurtpineapple
+    {
+	Type				=	Food,
+	DisplayName			=	Homemade Pineapple Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-40,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtpineapple,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	165.7,
+        Proteins 			= 	39.89,
+        Lipids 				= 	34.09,
+        Calories 			= 	992,
+    }
+
+item HCJarhomemadeyogurtpeach
+    {
+	Type				=	Food,
+	DisplayName			=	Homemade Peach Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtpeach,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	61.31,
+        Proteins 			= 	36.36,
+        Lipids 				= 	33.38,
+        Calories 			= 	668,
+    }
+
+item HCJarhomemadeyogurtcurrant
+    {
+	Type				=	Food,
+	DisplayName			=	Homemade Currant Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtcurrant,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	67,
+        Proteins 			= 	51,
+        Lipids 				= 	33,
+        Calories 			= 	750,
+    }
+
+item HCJarhomemadeyogurtgrape
+    {
+	Type				=	Food,
+	DisplayName			=	Homemade Grape Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-25,
+	BoredomChange			=	-25,
+	Weight				=	1.1,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtgrape,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	62.78,
+        Proteins 			= 	35.58,
+        Lipids 				= 	33.32,
+        Calories 			= 	610.62,
+    }
+
+item HCJarhomemadeyogurtwatermelon
+    {
+	Type				=	Food,
+	DisplayName			=	Homemade Watermelon Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-40,
+	BoredomChange			=	-25,
+	Weight				=	1.2,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtwatermelon,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	130.2,
+        Proteins 			= 	39.2,
+        Lipids 				= 	34.4,
+        Calories 			= 	920,
+    }
+
+item HCJarhomemadeyogurtlemon
+    {
+	Type				=	Food,
+	DisplayName			=	Homemade Lemon Yogurt,
+	UnhappyChange			=	-25,
+	HungerChange			=	-35,
+	BoredomChange			=	-25,
+	Weight				=	1.2,
+	ThirstChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	6,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCJarhomemadeyogurtlemon,
+	ReplaceOnUse			=	HCJar,
+        Carbohydrates 			= 	59,
+        Proteins 			= 	40,
+        Lipids 				= 	43,
+        Calories 			= 	727,
+    }
+
+	
+/************************RECIPES************************/
+
+recipe Open Evaporated Milk
+	{
+	keep TinOpener,
+	HCEvaporatedmilk,
+	Result:HCEvaporatedmilkopen,
+	Time:25.0,
+	Category:Cooking,
+	}
+
+recipe Dilute Evaporated Milk
+	{
+	HCEvaporatedmilkopen,
+	Water=7,
+	HCMilkempty,
+	Result:Milk,
+	Time:25.0,
+	Category:Cooking,
+	}
+
+recipe Pour into Carton
+	{
+	HCMilkjug;10,
+	HCMilkempty,
+	Result:Milk,
+	Time:25.0,
+	Category:Cooking,
+	}
+    
+recipe Make Butter
+    {
+    	Milk,
+	keep HCChurn,
+    	Result:Butter,
+    	Time:500,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }		
+
+recipe Bottle Milk
+    {
+    	HCWoodenbucketmilk,
+    	Result:Milk=4,
+    	Time:15.0,
+    	Category:Ranching,
+    	OnCreate:recipe_hcwoodenbucket,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Heat Milk
+    {
+    	HCWoodenbucketmilk,
+    	keep HCClaycauldron/HCCauldroniron,
+    	Charcoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Time:100.0,
+    	Category:Cooking,
+    	Result:HCWoodenbucketheatedmilk,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Ferment Milk
+    {
+	SkillRequired:Cooking=8,
+    	HCWoodenbucketheatedmilk,
+  	HCChilipepperstem,
+    	Result:HCWoodenbucketfermentedmilk,
+    	NeedToBeLearn:true,
+    	Time:2000.0,
+    	Category:Cooking,
+    	Result:HCWoodenbucketfermentedmilk,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCWoodenbucketfermentedmilk,
+  	HCJar=4,
+    	Result:HCJarhomemadeyogurt=4,
+    	NeedToBeLearn:true,
+	Time:50.0,
+    	Category:Cooking,
+	OnCreate:recipe_hcwoodenbucket,
+       	OnGiveXP:HCCooking_OnGiveXP,    	
+    }
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	Strewberrie=4,
+	keep Bowl,
+	Sugar,
+    	Result:HCJarhomemadeyogurtstrawberries,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	HCRaspberry=4,
+	Sugar,
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtraspberries,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	BerryBlue=4,
+	HCHoney;5,
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtblueberries,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	BerryBlue=4,
+	HCJarhoney;5,
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtblueberries,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	HCSlicedorange,
+	HCSlicedlemon,
+	HCSlicedlime,
+	HCHoney;5,
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtcitrusfruit,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	HCSlicedorange,
+	HCSlicedlemon,
+	HCSlicedlime,
+	HCJarhoney;5,
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtcitrusfruit,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	HCDriedapplesbag,
+	HCDriedrasinsbag,
+	HCSunflowerseedsnack;5,
+	HCJampear;5,
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtapple,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+	OnCreate:recipe_hcjar,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	HCChocolateshavings,
+	Sugar,
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtstracciatella,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Homemade Tzatziki
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	HCCucumber,
+	HCGarlic;5,
+	HCDill;1,
+	Salt;1,
+	keep Bowl,
+    	Result:HCJarhomemadetzatziki,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	HCPear,
+	Sugar,
+	HCCinnamon;1,
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtpear,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	Banana,
+	HCHoney;5,
+	HCCardamom;1,
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtbanana,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	Banana,
+	HCDriedbananachipsbag,
+	HCJarhoney;5,
+	HCCardamom;1,
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtbanana,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	Cherry=4,
+	Sugar,
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtcherry,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	Pineapple,
+	HCJampineapple;5,	
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtpineapple,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	Peach,
+	HCJampeach;5,	
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtpeach,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	HCBlackcurrant=2,
+	HCRedcurrant=2,
+	Sugar,	
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtcurrant,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	Grapes,
+	HCDriedrasinsbag,
+	HCJamgrape;5,	
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtgrape,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	HCJarredmelon,
+	HCJamwatermelon;5,	
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtwatermelon,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+	HCSlicedlemon=4,
+	HCHoney;5,
+	HCCurdlemon;10,
+	HCPeppermint;1,
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtlemon,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Homemade Yogurt
+    {
+	SkillRequired:Cooking=8,
+    	HCJarhomemadeyogurt,
+  	HCSlicedlemon=4,
+	HCJarhoney;5,
+	HCCurdlemon;10,
+	HCPeppermint;1,
+	keep Bowl,
+    	Result:HCJarhomemadeyogurtlemon,
+    	NeedToBeLearn:true,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+				
+}

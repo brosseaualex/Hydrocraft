@@ -1,0 +1,102 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCRatpoison
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Rat Poison,
+        icon 				= HCRatpoison,
+    }
+
+item HCRatpoisonbox
+    {
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Box of Rat Poison,
+        icon 				= HCRatpoisonbox,
+    }
+
+item HCBugspraycan
+    {
+        Weight    			= 0.1,
+	Type				= Drainable,
+	UseDelta			= 0.25,
+        DisplayName         		= Can of Bug Spray,
+        icon 				= HCBugspraycan,
+    }
+
+item HCBugsprayer
+    {
+	Weight				= 6.5,
+	Type				= Drainable,
+	UseDelta			= 0.125,
+        DisplayName         		= Bug Sprayer,
+        icon 				= HCBugsprayer,
+	ReplaceOnDeplete		= HCBugsprayerempty,
+    }
+
+item HCBugsprayerempty
+    {
+        Weight    			= 6.0,
+        Type    			= Normal,
+        DisplayName         		= Empty Bug Sprayer,
+        icon 				= HCBugsprayer,
+    }
+
+/************************RECIPES************************/	
+
+
+recipe Box Rat Poison
+    {
+    	HCRatpoison=20,
+    	Result:HCRatpoisonbox,
+    	Time:15,
+    }
+
+recipe Unbox Rat Poison
+    {
+   	HCRatpoisonbox,
+    	Result:HCRatpoison=20,
+    	Time:15,
+    }
+
+recipe Refill Bug Sprayer
+    {
+	HCPoison=4,
+    	HCBugsprayerempty,
+	keep HCHandpump/HCFunnel,
+    	Result:HCBugsprayer,
+    	Time:100,
+    	Category:Farming,
+    }
+
+recipe Refill Bug Sprayer
+    {
+	HCPlasticcanpoison=4,
+    	HCBugsprayerempty,
+	keep HCHandpump/HCFunnel,
+    	Result:HCBugsprayer,
+    	Time:100,
+    	Category:Farming,
+    }
+
+recipe Refill Bug Sprayer
+    {
+	HCDetergentpoison=4,
+    	HCBugsprayerempty,
+	keep HCHandpump/HCFunnel,
+    	Result:HCBugsprayer,
+    	Time:100,
+    	Category:Farming,
+    }
+
+}

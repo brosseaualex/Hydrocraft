@@ -1,0 +1,75 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCPropanetankempty
+	{
+	Weight				=	10,
+	Type				=	Normal,
+	DisplayName			=	Empty Propane Tank,
+	Icon				=	PropaneTank,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBiogas
+    {
+        Weight    			= 	20,
+        Type    			= 	Normal,
+        DisplayName         		= 	Biogas Tank,
+        ResizeWorldIcon 	        = 	1.0,
+        icon 				= 	HCBiogas,
+    }
+
+/************************RECIPES************************/	
+
+
+recipe Build Biogas Collector
+    {
+    	SkillRequired:Farming=7,
+	HCPropanetankempty,
+	HCWeldinghose,
+	HCFunnel,
+    	HCPVCpipe=2,
+    	HCBarrelblueempty,
+    	Worm=5,
+    	Result:HCBiogas,
+    	NeedToBeLearn:true,
+    	Time:250.0,
+        Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Biogas
+    {
+    	keep HCBiogas,
+	HCPropanetankempty,
+	HCCompost=100,
+    	CanBeDoneFromFloor:true,
+    	Result:PropaneTank,
+    	NeedToBeLearn:true,
+    	Time:1000.0,
+    	Category:Farming,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Biogas
+    {
+    	keep HCBiogas,
+	HCWeldingtankempty,
+	HCCompost=100,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWeldingtank,
+    	NeedToBeLearn:true,
+    	Time:1000.0,
+    	Category:Farming,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+
+}

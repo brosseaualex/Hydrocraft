@@ -1,0 +1,214 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCEnvelope
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Envelope,
+        icon 			= HCEnvelope,
+    }
+
+item HCPostagestamp
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Postage Stamp,
+        icon 			= HCPostagestamp,
+    }
+
+item HCSealedletter
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sealed Letter,
+        icon 			= HCSealedletter,
+    }
+
+item HCSealedletter2
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sealed Letter,
+        icon 			= HCSealedletter2,
+    }
+
+item HCSealedletter3
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sealed Letter,
+        icon 			= HCSealedletter3,
+    }
+
+item HCSealedletter4
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sealed Letter,
+        icon 			= HCSealedletter4,
+    }
+
+item HCSealedletter5
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sealed Letter,
+        icon 			= HCSealedletter5,
+    }
+
+
+item HCSealedletter6
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sealed Letter,
+        icon 			= HCSealedletter6,
+    }
+
+item HCSealedletter7
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sealed Letter,
+        icon 			= HCSealedletter7,
+    }
+
+item HCBubblewrap
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bubble Wrap,
+        icon 			= HCBubblewrap,
+    }
+
+item HCPostcard1
+    	{
+        Weight			=	1,
+        Type			=	Literature,
+        DisplayName		=	Postcard,
+        Icon			=	HCPostcard1,
+        CanBeWrite  		=   	true,
+        PageToWrite 		=   	1,
+    	}
+
+item HCPostcard2
+    	{
+        Weight			=	1,
+        Type			=	Literature,
+        DisplayName		=	Postcard,
+        Icon			=	HCPostcard2,
+        CanBeWrite  		=   	true,
+        PageToWrite 		=   	1,
+    	}
+
+item HCPostcard3
+    	{
+        Weight			=	1,
+        Type			=	Literature,
+        DisplayName		=	Postcard,
+        Icon			=	HCPostcard3,
+        CanBeWrite  		=   	true,
+        PageToWrite 		=   	1,
+    	}
+
+item HCPostcard4
+    	{
+        Weight			=	1,
+        Type			=	Literature,
+        DisplayName		=	Postcard,
+        Icon			=	HCPostcard4,
+        CanBeWrite  		=   	true,
+        PageToWrite 		=   	1,
+    	}
+
+item HCPostcard5
+    	{
+        Weight			=	1,
+        Type			=	Literature,
+        DisplayName		=	Postcard,
+        Icon			=	HCPostcard5,
+        CanBeWrite  		=   	true,
+        PageToWrite 		=   	1,
+    	}
+
+item HCPostcard6
+    	{
+        Weight			=	1,
+        Type			=	Literature,
+        DisplayName		=	Postcard,
+        Icon			=	HCPostcard6,
+        CanBeWrite  		=   	true,
+        PageToWrite 		=   	1,
+    	}
+
+item HCPostcard7
+    	{
+        Weight			=	1,
+        Type			=	Literature,
+        DisplayName		=	Postcard,
+        Icon			=	HCPostcard7,
+        CanBeWrite  		=   	true,
+        PageToWrite 		=   	1,
+    	}
+
+item HCPostcard8
+    	{
+        Weight			=	1,
+        Type			=	Literature,
+        DisplayName		=	Postcard,
+        Icon			=	HCPostcard8,
+        CanBeWrite  		=   	true,
+        PageToWrite 		=   	1,
+    	}
+
+/************************RECIPES************************/	
+
+item HCBoxcutter
+	{
+		MaxRange			=	0.9,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		KnockBackOnNoDeath		=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		ConditionLowerChanceOneIn	=	2,
+		Weight				=	0.3,
+		SplatNumber			=	0,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.5,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		WeaponWeight			=	1.5,
+		DisplayName			=	Box Cutter,
+		MinRange			=	0.61,
+		CloseKillMove 			= 	Jaw_Stab,
+		SwingTime			=	2,
+		MinDamage			=	0.3,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCBoxcutter,
+		RunAnim				=	Run_Weapon2,
+        	IdleAnim			=	Idle_Weapon2,
+       	 	BreakSound  			=   	PZ_MetalSnap,
+        	TreeDamage  			=   	1,
+        	EnduranceMod 			= 	0.5,
+	}
+    
+
+}

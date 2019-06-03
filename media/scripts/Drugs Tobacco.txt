@@ -1,0 +1,363 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCCigarettebutt
+    {
+        Weight			= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Cigarette Butt,
+        icon 			= HCCigarettebutt,
+    }
+
+item HCCigarettecarton
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName     	= Cigarette Carton,
+        icon 			= HCCigarettecarton,
+    }
+
+item HCCigarettepack
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     	= Cigarette Pack,
+        icon 			= HCCigarettepack,
+    }
+
+item HCCigarettecartonlights
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName     	= Light Cigarette Carton,
+        icon 			= HCCigarettecartonlights,
+    }
+item HCCigarettepacklights
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     	= Light Cigarette Pack,
+        icon 			= HCCigarettepacklights,
+    }
+item HCCigaretteslights
+	{
+		Count				= 20,
+		HungerChange			= 0,
+		Weight				= 0.005,
+		RequireInHandOrInventory	= Lighter/Matches,
+		Type				= Food,
+		DisplayName			= Light Cigarettes,
+		StressChange			= -5,
+		Icon				= HCCigaretteslights,
+		CustomContextMenu 		= Smoke,
+		CantBeFrozen			= TRUE,
+		OnEat				= OnEat_Cigarettes,
+		ReplaceOnUse			= Hydrocraft.HCCigarettebutt,
+		CustomEatSound =
+	}
+
+item HCCigarettecartonmenthol
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName     	= Menthol Cigarette Carton,
+        icon 			= HCCigarettecartonlights,
+    }
+item HCCigarettepackmenthol
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     	= Menthol Cigarette Pack,
+        icon 			= HCCigarettepackmenthol,
+    }
+item HCCigarettesmenthol
+	{
+		Count					= 20,
+		HungerChange				= 0,
+		Weight					= 0.005,
+		RequireInHandOrInventory		= Lighter/Matches,
+		Type					= Food,
+		DisplayName				= Menthol Cigarettes,
+		StressChange				= -5,
+		Icon					= HCCigarettesmenthol,
+		CustomContextMenu 			= Smoke,
+		CantBeFrozen				= TRUE,
+		OnEat					= OnEat_Cigarettes,
+		ReplaceOnUse				= Hydrocraft.HCCigarettebutt,
+		CustomEatSound =
+}
+
+item HCTobaccoleaffresh
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Fresh Tobacco Leaves,
+        icon 			= HCTobaccoleaffresh,
+    }  
+
+item HCTobaccoleafdry
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Dried Tobacco Leaves,
+        icon 			= HCTobaccoleafdry,
+    } 
+
+item HCTobacco
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Tobacco,
+        icon 			= HCTobacco,
+    } 
+
+item HCCigarbox
+    {
+        WeightReduction     	= 10,
+        Weight              	= 0.1,
+        Type                	= Container,
+        Capacity            	= 1,
+        DisplayName         	= Cigar Box,
+        icon 			= HCCigarbox,
+    } 
+
+item HCCigar
+    {
+	HungerChange			=	0,
+	Weight				=	0.1,
+	RequireInHandOrInventory	=	Lighter/Matches,
+	Type				=	Food,
+	UnhappyChange			=	10,
+	DisplayName			=	Cigar,
+	StressChange			=	-25,
+	UnhappyChange			=	5,
+	Icon				=	HCCigar,
+	CustomContextMenu 		= 	Smoke,
+	CantBeFrozen 			= 	TRUE,
+	OnEat 				= 	OnEat_Cigarettes,
+	CustomEatSound 			=
+     }
+
+item HCCigarhandrolled
+    {
+	HungerChange			=	0,
+	Weight				=	0.1,
+	RequireInHandOrInventory	=	Lighter/Matches,
+	Type				=	Food,
+	UnhappyChange			=	10,
+	DisplayName			=	Hand-Rolled Cigar,
+	StressChange			=	-25,
+	UnhappyChange			=	-5,
+	Icon				=	HCCigarhandrolled,
+	CustomContextMenu 		= 	Smoke,
+	CantBeFrozen 			= 	TRUE,
+	OnEat 				= 	OnEat_Cigarettes,
+	CustomEatSound 			=
+    }
+
+item HCPipetobacco
+    {
+	HungerChange			=	0,
+	Weight				=	0.1,
+	RequireInHandOrInventory	=	Lighter/Matches,
+	Type				=	Food,
+	DisplayName			=	Clay Pipe with Tobacco,
+	StressChange			=	-25,
+	UnhappyChange			=	10,
+	ReplaceOnUse			=	HCClaypipesmoking,
+	Icon				=	HCClaypipesmoking,
+	CustomContextMenu 		= 	Smoke,
+	CantBeFrozen 			= 	TRUE,
+	OnEat 				= 	OnEat_Cigarettes,
+	CustomEatSound 			=
+ 
+    }
+
+item HCCorncobpipetobacco
+    {
+	HungerChange			=	0,
+	Weight				=	0.1,
+	RequireInHandOrInventory	=	Lighter/Matches,
+	Type				=	Food,
+	DisplayName			=	Corn Cob Pipe with Tobacco,
+	StressChange			=	-25,
+	UnhappyChange			=	10,
+	ReplaceOnUse			=	HCCorncobpipe,
+	Icon				=	HCCorncobpipe,
+	CustomContextMenu 		= 	Smoke,
+	CantBeFrozen 			= 	TRUE,
+	OnEat 				= 	OnEat_Cigarettes,
+	CustomEatSound 			=
+ 
+    }
+
+/************************RECIPES************************/
+
+recipe Open Cigarette Carton
+	{
+		HCCigarettecarton,
+	   	Result:HCCigarettepack=10,
+	   	Time:50.0,
+	}
+
+recipe Open Cigarette Pack
+	{
+		HCCigarettepack,
+	   	Result:Cigarettes=1,
+		OnCreate:recipe_opencigpack1,
+		RemoveResultItem:true,
+	   	Time:50.0,
+	}
+
+recipe Pack Cigarettes
+	{
+		Cigarettes=20,
+	   	Result:HCCigarettepack=1,
+	   	Time:50.0,
+	}
+	
+recipe Pack Into Carton
+	{
+		HCCigarettepack=10,
+	   	Result:HCCigarettecarton=1,
+	   	Time:50.0,
+	}
+
+recipe Open Cigarette Carton
+	{
+		HCCigarettecartonlights,
+	   	Result:HCCigarettepacklights=10,
+	   	Time:50.0,
+	}
+
+recipe Open Cigarette Pack
+	{
+		HCCigarettepacklights,
+	   	Result:HCCigaretteslights=1,
+		OnCreate:recipe_opencigpack2,
+		RemoveResultItem:true,
+	   	Time:50.0,
+	}
+
+recipe Pack Cigarettes
+	{
+		HCCigaretteslights=20,
+	   	Result:HCCigarettepacklights=1,
+	   	Time:50.0,
+	}
+	
+recipe Pack Into Carton
+	{
+		HCCigarettepacklights=10,
+	   	Result:HCCigarettecartonlights=1,
+	   	Time:50.0,
+	}
+
+recipe Open Cigarette Carton
+	{
+		HCCigarettecartonmenthol,
+	   	Result:HCCigarettepackmenthol=10,
+	   	Time:50.0,
+	}
+
+recipe Open Cigarette Pack
+	{
+		HCCigarettepackmenthol,
+	   	Result:HCCigarettesmenthol=1,
+		OnCreate:recipe_opencigpack3,
+		RemoveResultItem:true,
+	   	Time:50.0,
+	}
+
+recipe Pack Cigarettes
+	{
+		HCCigarettesmenthol=20,
+	   	Result:HCCigarettepackmenthol=1,
+	   	Time:50.0,
+	}
+	
+recipe Pack Into Carton
+	{
+		HCCigarettepackmenthol=10,
+	   	Result:HCCigarettecartonmenthol=1,
+	   	Time:50.0,
+	}
+
+recipe Dry Leaves
+    {
+    HCTobaccoleaffresh,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCTobaccoleafdry,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Grind Tobacco
+    {
+    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    HCTobaccoleafdry,
+    CanBeDoneFromFloor:true,
+    Result:HCTobacco,
+    NeedToBeLearn:true,
+    Time:50,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Grind Tobacco
+    {
+    	keep HCMacerator,
+    	PetrolCan,
+   	HCTobaccoleafdry,
+    	CanBeDoneFromFloor:true,
+    	Result:HCTobacco=2,
+    	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Alchemy,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Roll Cigar
+    {
+    keep HCHerbtable/HCHerbtable2,
+    HCTobaccoleafdry,
+    HCTobacco,
+    CanBeDoneFromFloor:true,
+    Result:HCCigarhandrolled,
+    NeedToBeLearn:true,
+    Time:50,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Put Tobacco in Pipe
+    {
+    HCTobacco,
+    HCClaypipesmoking,
+    Result:HCPipetobacco,
+    Time:15,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Put Tobacco in Pipe
+    {
+    HCTobacco,
+    HCCorncobpipe,
+    Result:HCCorncobpipetobacco,
+    Time:15,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+}

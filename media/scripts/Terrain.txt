@@ -1,0 +1,706 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, farming
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCPropcone
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Prop Cone,
+        icon 			= HCPropcone,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCLogstackinfinate
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Infinate Log Stack,
+        icon 			= HCLogstack4,
+	ResizeWorldIcon 	= 0.5,
+    }
+
+item HCBoulder
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Boulders,
+        icon 			= HCBoulder,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCBoulder2
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Large Boulder,
+        icon 			= HCBoulder2,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCVeincopper
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Copper Vein,
+        icon 			= HCVein,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCVeintin
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Tin Vein,
+        icon 			= HCVein,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+
+item HCVeiniron
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Iron Vein,
+        icon 			= HCVein,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCVeinlead
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Lead Vein,
+        icon 			= HCVein,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCVeinbauxite
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Bauxite Vein,
+        icon 			= HCVein,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCVeinsilver
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Silver Vein,
+        icon 			= HCVein,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCVeingold
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Gold Vein,
+        icon 			= HCVein,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCVeinplatinum
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Platinum Vein,
+        icon 			= HCVein,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCVeinmagnetite
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Magnetite Vein,
+        icon 			= HCVein,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCVeintitanium
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Titanium Vein,
+        icon 			= HCVein,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCVeinzinc
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Sphalerite Vein,
+        icon 			= HCVein,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCVeinnickel
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Pentlandite Vein,
+        icon 			= HCVein,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCVeinuranium
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Uranium Vein,
+        icon 			= HCVein,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCVeinthorium
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Thorium Vein,
+        icon 			= HCVein,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+/************************RECIPES************************/
+
+
+recipe Build Infinate Log Stack
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCLogstackinfinate,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Spawn Shipping Crate
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCShipcrate1,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Spawn Shipping Crate
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCShipcrate2,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Spawn Shipping Crate
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCShipcrate3,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Spawn Shipping Crate
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCShipcrate4,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Spawn Shipping Crate
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCShipcrate5,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Spawn Shipping Crate
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCShipcrate6,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Spawn Shipping Crate
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCShipcrate7,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Remove Logs from Pile
+    {
+	keep HCLogstackinfinate,
+    	CanBeDoneFromFloor:true,
+    	Result:Log=5,
+    	Time:500,
+    	Category:Carpentry,
+    }
+
+recipe Build Boulders
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCBoulder,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Build Boulder
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCBoulder2,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Build Vein
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCVeincopper,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Build Vein
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCVeintin,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Build Vein
+    {
+    	HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCVeiniron,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Build Vein
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCVeinlead,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Build Vein
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCVeinbauxite,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Build Vein
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCVeinsilver,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Build Vein
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCVeingold,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Build Vein
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCVeinplatinum,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Build Vein
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCVeinmagnetite,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Build Vein
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCVeintitanium,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Build Vein
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCVeinnickel,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Build Vein
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCVeinuranium,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Build Vein
+    {
+    	keep HCPropcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCVeinthorium,
+    	Time:15,
+    	Category:Terrain,
+    }
+
+recipe Mine
+    {
+    	keep HCVeincopper,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCopperore,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeintin,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:HCTinore,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeiniron,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:HCIronore,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeinlead,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:HCLeadore,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeinbauxite,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:HCBauxiteore,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeinsilver,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:HCSilverore,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeingold,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:HCGoldore,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeinplatinum,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:HCPlatinumore,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeinmagnetite,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:HCMagnetite,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeintitanium,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:HCTitaniumore,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeinnickel,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:HCNickelore,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeinuranium,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:HCUraniumore,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeinthorium,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:HCThoriumore,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeincopper,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCopperore,
+    	NeedToBeLearn:true,
+    	Time:125,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeintin,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:HCTinore,
+    	NeedToBeLearn:true,
+    	Time:125,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeiniron,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:HCIronore,
+    	NeedToBeLearn:true,
+    	Time:125,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeinlead,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:HCLeadore,
+    	NeedToBeLearn:true,
+    	Time:125,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeinbauxite,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:HCBauxiteore,
+    	NeedToBeLearn:true,
+    	Time:125,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeinsilver,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:HCSilverore,
+    	NeedToBeLearn:true,
+    	Time:125,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeingold,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:HCGoldore,
+    	NeedToBeLearn:true,
+    	Time:125,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeinplatinum,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:HCPlatinumore,
+    	NeedToBeLearn:true,
+    	Time:125,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeinmagnetite,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:HCMagnetite,
+    	NeedToBeLearn:true,
+    	Time:125,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeintitanium,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:HCTitaniumore,
+    	NeedToBeLearn:true,
+    	Time:125,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeinnickel,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:HCNickelore,
+    	NeedToBeLearn:true,
+    	Time:125,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeinuranium,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:HCUraniumore,
+    	NeedToBeLearn:true,
+    	Time:125,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCVeinthorium,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:HCThoriumore,
+    	NeedToBeLearn:true,
+    	Time:125,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+}

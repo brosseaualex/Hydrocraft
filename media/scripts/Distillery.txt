@@ -1,0 +1,849 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCPotofpotatomash
+	{
+	HungerChange			=	-20,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	120,
+	MinutesToBurn			=	140,
+	DaysFresh			=	1,	
+	DaysTotallyRotten		=	3,
+	Icon				=	PotFull,
+	ReplaceOnCooked			=	Hydrocraft.HCPotofpotatomashcooked,
+	ReplaceOnUse			=	Pot, 
+	DisplayName			=	Pot of Potato Mash,
+	FoodType    			=   	Vegetables,
+	Carbohydrates 			= 	51,
+        Proteins 			= 	6.3,
+        Lipids 				= 	0.3,
+        Calories 			= 	231,
+}
+
+item HCPotofpotatomashcooked
+	{
+	HungerChange			=	-20,
+	Weight				=	0.3,
+	Type				=	Food,
+	DaysFresh			=	1,	
+	DaysTotallyRotten		=	3,
+	DisplayName			=	Pot of Heated Potato Mash,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	FoodType    			=   	Vegetables,
+	Carbohydrates 			= 	51,
+        Proteins 			= 	6.3,
+        Lipids 				= 	0.3,
+        Calories 			= 	231, 	
+}
+
+item HCBarrelpotato
+	{
+        Weight    		= 20,
+	Type 			= Normal,
+        DisplayName         	= Barrel of Potato Mash,
+        ReplaceOnDeplete        = Hydrocraft.HCWoodenbarrel,
+        icon 			= HCWinebarrel,
+	ResizeWorldIcon 	= 1.0,
+	}
+
+item HCDistillery
+	{
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Distillery,
+        icon 			= HCDistillery,
+	ResizeWorldIcon 	= 1.0,
+	}
+
+item HCCoppercooler
+    {
+        Weight 			= 	1.25,
+        Type 			= 	Normal,
+        DisplayName 		= 	Copper Cooler,
+        Icon 			= 	HCCoppercooler,
+    }
+
+item HCCoppermashpot
+    {
+        Weight 			= 	1.25,
+        Type 			= 	Normal,
+        DisplayName 		= 	Copper Mashpot,
+        Icon 			= 	HCCoppermashpot,
+    }
+
+item HCVodka
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1.4,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Vodka,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	Whiskey_Water_Full,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	2310,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCMethanol
+	{
+	Weight	        	=	1.4,
+	Type	        	=	Normal,
+	DisplayName		=	Methanol,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCMethanol,
+	}
+
+item HCAgavebluecut
+	{
+	Weight	        	=	10,
+	Type	        	=	Normal,
+	DisplayName		=	Cut Blue Agave,
+	Icon	        	=	HCAgavebluecut,
+	ResizeWorldIcon 	= 	2.0,
+	}
+
+item HCPotofblueagavemash
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	120,
+	MinutesToBurn			=	180,
+	DaysFresh			=	10,	
+	DaysTotallyRotten		=	20,
+	Icon				=	PotFull,
+	ReplaceOnCooked			=	Hydrocraft.HCPotofblueagavemashcooked,
+	ReplaceOnUse			=	Pot, 
+	DisplayName			=	Pot of Blue Agave Mash,
+	}
+
+item HCPotofblueagavemashcooked
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	DaysFresh			=	1,	
+	DaysTotallyRotten		=	1,
+	DisplayName			=	Pot of Cooked Blue Agave Mash,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot, 	
+	}
+
+item HCBarrelblueagave
+	{
+        Weight    			= 	20,
+	Type 				= 	Normal,
+        DisplayName         		= 	Barrel of Blue Agave Mash,
+        ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
+        icon 				= 	HCWinebarrel,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCPotofapplemash
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	120,
+	MinutesToBurn			=	180,
+	DaysFresh			=	10,	
+	DaysTotallyRotten		=	20,
+	Icon				=	PotFull,
+	ReplaceOnCooked			=	Hydrocraft.HCPotofapplemashcooked,
+	ReplaceOnUse			=	Pot, 
+	DisplayName			=	Pot of Apple Mash,
+	}
+
+item HCPotofapplemashcooked
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	DaysFresh			=	1,	
+	DaysTotallyRotten		=	1,
+	DisplayName			=	Pot of Cooked Apple Mash,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot, 	
+	}
+
+item HCBarrelapple
+	{
+        Weight    			= 	20,
+	Type 				= 	Normal,
+        DisplayName         		= 	Barrel of Apple Mash,
+        ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
+        icon 				= 	HCWinebarrel,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCPotofpeachmash
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	120,
+	MinutesToBurn			=	180,
+	DaysFresh			=	10,	
+	DaysTotallyRotten		=	20,
+	Icon				=	PotFull,
+	ReplaceOnCooked			=	Hydrocraft.HCPotofpeachmashcooked,
+	ReplaceOnUse			=	Pot, 
+	DisplayName			=	Pot of Peach Mash,
+	}
+
+item HCPotofpeachmashcooked
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	DaysFresh			=	1,	
+	DaysTotallyRotten		=	1,
+	DisplayName			=	Pot of Cooked Peach Mash,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot, 	
+	}
+
+item HCBarrelpeach
+	{
+        Weight    			= 	20,
+	Type 				= 	Normal,
+        DisplayName         		= 	Barrel of Peach Mash,
+        ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
+        icon 				= 	HCWinebarrel,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCPotofpumpkinmash
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	120,
+	MinutesToBurn			=	180,
+	DaysFresh			=	10,	
+	DaysTotallyRotten		=	20,
+	Icon				=	PotFull,
+	ReplaceOnCooked			=	Hydrocraft.HCPotofpumpkinmashcooked,
+	ReplaceOnUse			=	Pot, 
+	DisplayName			=	Pot of Pumpkin Mash,
+	}
+
+item HCPotofpumpkinmashcooked
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	DaysFresh			=	1,	
+	DaysTotallyRotten		=	1,
+	DisplayName			=	Pot of Cooked Pumpkin Mash,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot, 	
+	}
+
+item HCBarrelpumpkin
+	{
+        Weight    			= 	20,
+	Type 				= 	Normal,
+        DisplayName         		= 	Barrel of Pumpkin Mash,
+        ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
+        icon 				= 	HCWinebarrel,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCPotofjunipermash
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	120,
+	MinutesToBurn			=	180,
+	DaysFresh			=	10,	
+	DaysTotallyRotten		=	20,
+	Icon				=	PotFull,
+	ReplaceOnCooked			=	Hydrocraft.HCPotofjunipermashcooked,
+	ReplaceOnUse			=	Pot, 
+	DisplayName			=	Pot of Juniper Berry Mash,
+	}
+
+
+item HCPotofjunipermashcooked
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	DaysFresh			=	1,	
+	DaysTotallyRotten		=	1,
+	DisplayName			=	Pot of Heated Juniper Berry Mash,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	}
+
+item HCBarreljuniper
+	{
+        Weight    		= 20,
+	Type 			= Normal,
+        DisplayName         	= Barrel of Juniper Berry Mash,
+        ReplaceOnDeplete        = Hydrocraft.HCWoodenbarrel,
+        icon 			= HCWinebarrel,
+	ResizeWorldIcon 	= 1.0,
+	}
+
+item HCPotofflourmash
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	120,
+	MinutesToBurn			=	180,
+	DaysFresh			=	10,	
+	DaysTotallyRotten		=	20,
+	Icon				=	PotFull,
+	ReplaceOnCooked			=	Hydrocraft.HCPotofflourmashcooked,
+	ReplaceOnUse			=	Pot, 
+	DisplayName			=	Pot of Flour Mash,
+	}
+
+
+item HCPotofflourmashcooked
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	DaysFresh			=	1,	
+	DaysTotallyRotten		=	1,
+	DisplayName			=	Pot of Heated Flour Mash,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	}
+
+item HCBarrelflour
+	{
+        Weight    		= 20,
+	Type 			= Normal,
+        DisplayName         	= Barrel of Flour Mash,
+        ReplaceOnDeplete        = Hydrocraft.HCWoodenbarrel,
+        icon 			= HCWinebarrel,
+	ResizeWorldIcon 	= 1.0,
+	}
+
+item HCPotofcornmash
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	120,
+	MinutesToBurn			=	180,
+	DaysFresh			=	10,	
+	DaysTotallyRotten		=	20,
+	Icon				=	PotFull,
+	ReplaceOnCooked			=	Hydrocraft.HCPotofcornmashcooked,
+	ReplaceOnUse			=	Pot, 
+	DisplayName			=	Pot of Corn Mash,
+	}
+
+
+item HCPotofcornmashcooked
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	DaysFresh			=	1,	
+	DaysTotallyRotten		=	1,
+	DisplayName			=	Pot of Heated Corn Mash,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	}
+
+item HCBarrelcorn
+	{
+        Weight    		= 20,
+	Type 			= Normal,
+        DisplayName         	= Barrel of Corn Mash,
+        ReplaceOnDeplete        = Hydrocraft.HCWoodenbarrel,
+        icon 			= HCWinebarrel,
+	ResizeWorldIcon 	= 1.0,
+	}
+
+/************************RECIPES************************/	
+
+recipe Make Copper Cooler
+	{
+		HCCopperpipe,
+		HCWeldingset,
+		keep WeldingMask,
+		keep HCWorkgloves/HCOvenmitts,
+    		keep Hammer,
+		keep HCPipebender,
+		Result:HCCoppercooler,
+		NeedToBeLearn:true,
+		Time:500.0,
+		Category:Engineer,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Copper Mashpot
+	{
+		Pot,
+		HCCopperingot,
+		HCWeldingset,
+		keep WeldingMask,
+		keep HCWorkgloves/HCOvenmitts,
+		Result:HCCoppermashpot,
+		NeedToBeLearn:true,
+		Time:500.0,
+		Category:Engineer,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Build Distillery
+	{
+		Kettle,
+		HCCoppermashpot,
+		HCWoodenbucket,
+		HCWoodenbarrel,
+		HCCopperpipe=2,
+		HCCoppercooler,
+		Plank=6,
+		Nails=4,
+		HCWeldingset,
+		keep WeldingMask,
+		keep HCWorkgloves/HCOvenmitts,
+    		keep Hammer,
+		keep Saw,
+		keep HCPipebender,
+    		CanBeDoneFromFloor:true,
+		Result:HCDistillery,
+		SkillRequired:Woodwork=6,
+    		Sound:PZ_Hammer,
+		NeedToBeLearn:true,
+		Time:1000.0,
+		Category:Engineer,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+
+recipe Prepare Pot of Potato Mash
+	{
+       		SkillRequired:Cooking=3,
+		keep HCPotatomasher,
+		destroy Pot,
+		Potato=10,
+                Water=5,
+                Yeast=1,
+		Result:HCPotofpotatomash,
+		Time:100.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Pot of Potato Mash
+	{
+       		SkillRequired:Cooking=3,
+		keep HCPotatomasher,
+		destroy Pot,
+		HCPotatogolden=10,
+                Water=5,
+                Yeast=1,
+		Result:HCPotofpotatomash,
+		Time:100.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Distill Bottle of Vodka
+	{
+       	SkillRequired:Cooking=6,
+	HCBarrelpotato,
+	Charcoal,
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	WhiskeyEmpty=20,
+        Water=60,
+	keep HCDistillery,
+    	CanBeDoneFromFloor:true,
+	Result:HCVodka=20,
+	Time:5000.0,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Fill Barrel with Potato Mash
+        {
+       	SkillRequired:Cooking=5,
+	HCWoodenbarrel,
+	HCPotofpotatomashcooked=3,
+   	Result:HCBarrelpotato,
+    	Time:50,
+	Category:Cooking,
+    	OnCreate:recipe_hcpotatopot3,
+    	OnGiveXP:HCCooking_OnGiveXP,
+        }
+
+recipe Make Methanol
+	{
+       		SkillRequired:Cooking=7,
+		HCVodka/HCWhiskey1/HCWhiskey2/HCWhiskey3/HCWhiskey4/HCBourbon1/HCBourbon2/HCScotch1/HCRum1/HCGin1/HCGin2/HCGin3/HCVodka1/HCVodka2/HCSake,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep HCDistillery,
+    		CanBeDoneFromFloor:true,
+		Result:HCMethanol,
+		Time:100.0,
+		Category:Alchemy,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Pot of Blue Agave Mash
+	{
+       	SkillRequired:Cooking=3,
+	keep HCPotatomasher,
+	destroy Pot,
+	HCAgavebluecut,
+        Water=5,
+        Yeast=1,
+	Result:HCPotofblueagavemash,
+	Time:100.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Fill Barrel with Blue Agave Mash
+        {
+       	SkillRequired:Cooking=5,
+	HCWoodenbarrel,
+	HCPotofblueagavemashcooked=3,
+   	Result:HCBarrelblueagave,
+    	Time:50,
+	Category:Cooking,
+    	OnCreate:recipe_hcpotatopot3,
+    	OnGiveXP:HCCooking_OnGiveXP,
+        }
+
+recipe Distill Bottle of Tequila
+	{
+       	SkillRequired:Cooking=6,
+	HCBarrelblueagave,
+	Charcoal,
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	WhiskeyEmpty=20,
+        Water=60,
+	keep HCDistillery,
+    	CanBeDoneFromFloor:true,
+	Result:HCTequila=20,
+	Time:5000.0,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Distill Bottle of Mezcal
+	{
+       	SkillRequired:Cooking=6,
+	HCBarrelblueagave,
+	Charcoal,
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	WhiskeyEmpty=20,
+	Worm=20,
+        Water=60,
+	keep HCDistillery,
+    	CanBeDoneFromFloor:true,
+	Result:HCMezcal=20,
+	Time:5000.0,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Pot of Apple Mash
+	{
+       	SkillRequired:Cooking=3,
+	keep HCPotatomasher,
+	destroy Pot,
+	Apple=10,
+        Water=5,
+        Yeast=1,
+	Result:HCPotofapplemash,
+	Time:100.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Fill Barrel with Apple Mash
+        {
+       	SkillRequired:Cooking=5,
+	HCWoodenbarrel,
+	HCPotofapplemashcooked=3,
+   	Result:HCBarrelapple,
+    	Time:50,
+	Category:Cooking,
+    	OnCreate:recipe_hcpotatopot3,
+    	OnGiveXP:HCCooking_OnGiveXP,
+        }
+
+recipe Distill Bottle of Applejack
+	{
+       	SkillRequired:Cooking=6,
+	HCBarrelapple,
+	Charcoal,
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	WhiskeyEmpty=20,
+        Water=60,
+	keep HCDistillery,
+    	CanBeDoneFromFloor:true,
+	Result:HCApplejack=20,
+	Time:5000.0,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Pot of Peach Mash
+	{
+       	SkillRequired:Cooking=3,
+	keep HCPotatomasher,
+	destroy Pot,
+	Peach=10,
+        Water=5,
+        Yeast=1,
+	Result:HCPotofpeachmash,
+	Time:100.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Fill Barrel with Peach Mash
+        {
+       	SkillRequired:Cooking=5,
+	HCWoodenbarrel,
+	HCPotofpeachmashcooked=3,
+   	Result:HCBarrelpeach,
+    	Time:50,
+	Category:Cooking,
+    	OnCreate:recipe_hcpotatopot3,
+    	OnGiveXP:HCCooking_OnGiveXP,
+        }
+
+recipe Distill Bottle of Peach Schnapps
+	{
+       	SkillRequired:Cooking=6,
+	HCBarrelpeach,
+	Charcoal,
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	WhiskeyEmpty=20,
+        Water=60,
+	keep HCDistillery,
+    	CanBeDoneFromFloor:true,
+	Result:HCPeachschnapps=20,
+	Time:5000.0,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Pot of Pumpkin Mash
+	{
+       	SkillRequired:Cooking=3,
+	keep HCPotatomasher,
+	destroy Pot,
+	HCPumpkinflesh=10,
+        Water=5,
+        Yeast=1,
+	Result:HCPotofpumpkinmash,
+	Time:100.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Fill Barrel with Pumpkin Mash
+        {
+       	SkillRequired:Cooking=5,
+	HCWoodenbarrel,
+	HCPotofpumpkinmashcooked=3,
+   	Result:HCBarrelpumpkin,
+    	Time:50,
+	Category:Cooking,
+    	OnCreate:recipe_hcpotatopot3,
+    	OnGiveXP:HCCooking_OnGiveXP,
+        }
+
+recipe Distill Bottle of Flip
+	{
+       	SkillRequired:Cooking=6,
+	HCBarrelpumpkin,
+	Charcoal,
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	WhiskeyEmpty=20,
+        Water=60,
+	keep HCDistillery,
+    	CanBeDoneFromFloor:true,
+	Result:HCFlip=20,
+	Time:5000.0,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Pot of Juniper Berry Mash
+	{
+       	SkillRequired:Cooking=3,
+	keep HCPotatomasher,
+	destroy Pot,
+	HCJuniperberry=20,
+        Water=5,
+        Yeast=1,
+	Result:HCPotofjunipermash,
+	Time:100.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Fill Barrel with Juniper Berry Mash
+        {
+       	SkillRequired:Cooking=5,
+	HCWoodenbarrel,
+	HCPotofjunipermashcooked=3,
+   	Result:HCBarreljuniper,
+    	Time:50,
+	Category:Cooking,
+    	OnCreate:recipe_hcpotatopot3,
+    	OnGiveXP:HCCooking_OnGiveXP,
+        }
+
+recipe Distill Bottle of Gin
+	{
+       	SkillRequired:Cooking=6,
+	HCBarreljuniper,
+	Charcoal,
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	WhiskeyEmpty=20,
+        Water=60,
+	keep HCDistillery,
+    	CanBeDoneFromFloor:true,
+	Result:HCGin3=20,
+	Time:5000.0,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Pot of Flour Mash
+	{
+       	SkillRequired:Cooking=3,
+	keep HCPotatomasher,
+	destroy Pot,
+	Flour=20,
+        Water=5,
+        Yeast=1,
+	Result:HCPotofflourmash,
+	Time:100.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Fill Barrel with Flour Mash
+        {
+       	SkillRequired:Cooking=5,
+	HCWoodenbarrel,
+	HCPotofflourmashcooked=3,
+   	Result:HCBarrelflour,
+    	Time:50,
+	Category:Cooking,
+    	OnCreate:recipe_hcpotatopot3,
+    	OnGiveXP:HCCooking_OnGiveXP,
+        }
+
+recipe Distill Bottle of Whiskey
+	{
+       	SkillRequired:Cooking=6,
+	HCBarrelflour,
+	Charcoal,
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	WhiskeyEmpty=20,
+        Water=60,
+	keep HCDistillery,
+    	CanBeDoneFromFloor:true,
+	Result:WhiskeyFull=20,
+	Time:5000.0,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Pot of Corn Mash
+	{
+       	SkillRequired:Cooking=3,
+	keep HCPotatomasher,
+	destroy Pot,
+	Cornflour=20,
+        Water=5,
+        Yeast=1,
+	Result:HCPotofcornmash,
+	Time:100.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Fill Barrel with Corn Mash
+        {
+       	SkillRequired:Cooking=5,
+	HCWoodenbarrel,
+	HCPotofcornmashcooked=3,
+   	Result:HCBarrelcorn,
+    	Time:50,
+	Category:Cooking,
+    	OnCreate:recipe_hcpotatopot3,
+    	OnGiveXP:HCCooking_OnGiveXP,
+        }
+
+recipe Distill Bottle of Corn Whiskey
+	{
+       	SkillRequired:Cooking=6,
+	HCBarrelcorn,
+	Charcoal,
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	WhiskeyEmpty=20,
+        Water=60,
+	keep HCDistillery,
+    	CanBeDoneFromFloor:true,
+	Result:HCWhiskeycorn=20,
+	Time:5000.0,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+}

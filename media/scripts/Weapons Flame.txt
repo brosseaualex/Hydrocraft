@@ -1,0 +1,258 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCWaterbottlenapalm
+    {
+        Weight   		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Bottle of Napalm,
+        icon 			= HCWaterbottlenapalm,
+    }
+
+item HCNapalmbombmk2off
+    {
+        Weight   		= 0.8,
+        Type    		= Normal,
+        DisplayName         	= Napalm MK2 Off,
+        icon 			= HCNapalmbombmk2off,
+    }
+
+item HCNapalmbombmk3off
+    {
+        Weight   		= 0.9,
+        Type    		= Normal,
+        DisplayName         	= Napalm MK3 Off,
+        icon 			= HCNapalmbombmk3off,
+    }
+
+item HCSoapshards
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Soap Shards,
+        icon 			= HCSoapshards,
+    }  
+
+item HCPotsoap
+    {
+	IsCookable		= TRUE,
+        MinutesToCook	        = 120,
+        MinutesToBurn	        = 200,
+        ReplaceOnCooked		= Hydrocraft.HCPotmoltensoap,
+	ReplaceOnUse		= Pot,
+        Weight			= 3,
+        Type    		= Food,
+        DisplayName         	= Pot with Soap,
+        icon 			= HCPotmoltensoap,
+        Poison                  = true,
+	PoisonDetectionLevel 	= 3,
+	PoisonPower 		= 50,
+    }
+
+item HCPotmoltensoap
+    {
+        Weight   		= 3,
+        Type    		= Normal,
+        DisplayName         	= Pot with Molten Soap,
+        icon 			= HCPotmoltensoap,
+    }
+
+item HCPotnapalm
+    {
+        Weight   		= 3,
+        Type    		= Normal,
+        DisplayName         	= Pot with Napalm,
+        icon 			= HCPotnapalm,
+    }
+
+/************************WEAPONS************************/
+
+	item HCNapalmbombmk1
+	{
+		OtherHandUse			=	TRUE,
+		MaxRange			=	8,
+		Type				=	Weapon,
+		MinimumSwingTime		=	1.5,
+		SwingAnim			=	Bat,
+		UseSelf				=	TRUE,
+		DisplayName			=	Napalm Bomb MK1,
+		SwingTime			=	1.5,
+		SwingAmountBeforeImpact		=	0.1,
+		PhysicsObject			=	MolotovCocktail,
+		MinDamage			=	0,
+		Weight				=	0.7,
+		MaxDamage			=	0,
+		MaxHitCount			=	0,
+        	DoorDamage			=	20,
+        	FirePower  			=   	70,
+        	FireRange  			=   	6,
+        	ExplosionSound  		=   	bigExplosion,
+		Icon				=	HCNapalmbombmk1,
+	}
+
+	item HCNapalmbombmk2on  
+    	{
+        	MaxRange			=	10,
+        	Type				=	Weapon,
+        	MinimumSwingTime		=	1.5,
+        	SwingAnim			=	Bat,
+        	UseSelf				=	TRUE,
+        	DisplayName			=	Napalm Bomb On,
+        	SwingTime			=	1.5,
+        	SwingAmountBeforeImpact		=	0.1,
+        	PhysicsObject	        	= 	ExplosiveTrap,
+        	MinDamage			=	0,
+        	Weight				=	0.8,
+        	MaxDamage			=	0,
+        	MaxHitCount			=	0,
+        	Icon				=	HCNapalmbombmk2on,
+        	TriggerExplosionTimer   	= 	25,
+        	DoorDamage			=	20,
+        	FirePower  			=   	70,
+        	FireRange  			=   	6,
+        	ExplosionSound  		=   	bigExplosion,
+        	Tooltip 			= 	Tooltip_Trap,
+    	}
+
+
+	item HCNapalmbombmk3on  
+    	{
+        	MaxRange			=	10,
+        	Type				=	Weapon,
+        	MinimumSwingTime		=	1.5,
+        	SwingAnim			=	Bat,
+        	UseSelf				=	TRUE,
+        	DisplayName			=	Napalm Bomb MK3 On,
+        	SwingTime			=	1.5,
+        	SwingAmountBeforeImpact		=	0.1,
+        	PhysicsObject	        	= 	ExplosiveTrap,
+        	MinDamage			=	0,
+        	Weight				=	0.9,
+        	MaxDamage			=	0,
+        	MaxHitCount			=	0,
+        	Icon				=	HCNapalmbombmk3on,
+        	TriggerExplosionTimer   	= 	50,
+        	DoorDamage			=	20,
+        	FirePower  			=   	70,
+        	FireRange  			=   	6,
+        	ExplosionSound  		=   	bigExplosion,
+        	Tooltip 			= 	Tooltip_Trap,
+    	}
+
+/************************RECIPES************************/
+
+recipe Make Soap Shards
+    {
+       	Soap2/HCSoap,
+       	keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+       	Result:HCSoapshards,
+       	Time:150.0,
+       	Category:Alchemy,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Pot With Soap
+    {
+       	HCSoapshards,
+       	Pot,
+       	Result:HCPotsoap,
+       	Time:150.0,
+       	Category:Alchemy,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Napalm
+    {
+       	HCPotmoltensoap,
+       	PetrolCan=2,
+       	Result:HCPotnapalm,
+       	Time:40.0,
+       	Category:Alchemy,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Fill Napalm In Bottles
+    {
+       	HCPotnapalm,
+       	destroy WaterBottleEmpty=2,
+       	keep HCFunnel/HCGlassfunnel,
+       	Result:HCWaterbottlenapalm=2,
+       	Time:50.0,
+       	OnCreate:recipe_hcpot,
+       	Category:Alchemy,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Napalm Bomb MK1
+    {
+	HCWaterbottlenapalm,
+       	HCDetonatormk1,
+       	RubberBand=2,
+       	Result:HCNapalmbombmk1,
+       	Time:50.0,
+       	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Napalm Bomb MK2
+    {
+	HCWaterbottlenapalm,
+       	HCDetonatormk2off,
+       	Glue/HCSuperglue/HCHotgluegunfull,
+       	Result:HCNapalmbombmk2off,
+       	Time:50.0,
+       	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Turn Napalm Bomb MK2 On
+    {
+       HCNapalmbombmk2off,
+       Result:HCNapalmbombmk2on,
+       Time:1,
+       Category:Engineer,
+    }
+
+recipe Turn Napalm Bomb MK2 Off
+    {
+       HCNapalmbombmk2on,
+       Result:HCNapalmbombmk2off,
+       Time:1,
+       Category:Engineer,
+    }
+
+recipe Make Napalm Bomb MK3
+    {
+	HCWaterbottlenapalm,
+       	HCDetonatormk3off,
+       	Glue/HCSuperglue/HCHotgluegunfull,
+       	Result:HCNapalmbombmk3off,
+       	Time:50.0,
+       	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Turn Napalm Bomb MK3 On
+    {
+       HCNapalmbombmk3off,
+       Result:HCNapalmbombmk3on,
+       Time:1,
+       Category:Engineer,
+    }
+
+recipe Turn Napalm Bomb MK3 Off
+    {
+       HCNapalmbombmk3on,
+       Result:HCNapalmbombmk3off,
+       Time:1,
+       Category:Engineer,
+    }
+
+}

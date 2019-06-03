@@ -1,0 +1,192 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCResearchtable
+	{
+	Weight 			= 12,
+	Type 			= Normal,
+	DisplayName 		= Primative Research Station,
+	Icon			= HCResearchtable,
+	ResizeWorldIcon 	= 2.0,
+	}
+
+item HCTabletskinanimal
+    {
+        Weight			=	0.5,
+        Type			=	Literature,
+        DisplayName		=	Skin Animal Tablet,
+        Icon			=	HCClaytabletwritten,
+        TeachedRecipes 		=   	Skin Animal,
+        ReplaceOnUse    	=   	HCTabletskinanimal,
+    }
+
+item HCTabletberries
+    {
+        Weight			=	0.5,
+        Type			=	Literature,
+        DisplayName		=	Bunch of Berries Tablet,
+        Icon			=	HCClaytabletwritten,
+        TeachedRecipes 		=   	Make Bunch of Berries,
+        ReplaceOnUse    	=   	HCTabletberries,
+    }
+
+item HCTabletshrooms
+    {
+        Weight			=	0.5,
+        Type			=	Literature,
+        DisplayName		=	Bunch of Mushrooms Tablet,
+        Icon			=	HCClaytabletwritten,
+        TeachedRecipes 		=   	Make Bunch of Mushrooms,
+        ReplaceOnUse    	=   	HCTabletshrooms,
+    }
+
+item HCTabletbirchbarkbasket
+    {
+        Weight			=	0.5,
+        Type			=	Literature,
+        DisplayName		=	Birch Bark Basket Tablet,
+        Icon			=	HCClaytabletwritten,
+        TeachedRecipes 		=   	Make Birch Bark Basket,
+        ReplaceOnUse    	=   	HCTabletbirchbarkbasket,
+    }
+
+item HCTabletwickerbasket
+    {
+        Weight			=	0.5,
+        Type			=	Literature,
+        DisplayName		=	Wicker Basket Tablet,
+        Icon			=	HCClaytabletwritten,
+        TeachedRecipes 		=   	Make Wicker Basket,
+        ReplaceOnUse    	=   	HCTabletwickerbasket,
+    }
+
+item HCTabletstrawbasket
+    {
+        Weight			=	0.5,
+        Type			=	Literature,
+        DisplayName		=	Straw Basket Tablet,
+        Icon			=	HCClaytabletwritten,
+        TeachedRecipes 		=   	Make Straw Basket,
+        ReplaceOnUse    	=   	HCTabletstrawbasket,
+    }
+
+item HCTabletsticktrap
+    {
+        Weight			=	0.5,
+        Type			=	Literature,
+        DisplayName		=	Stick Trap Tablet,
+        Icon			=	HCClaytabletwritten,
+        TeachedRecipes 		=   	Make Stick Trap,
+        ReplaceOnUse    	=   	HCTabletsticktrap,
+    }
+
+/************************RECIPES************************/	
+
+
+recipe Make Primative Research Station
+    {
+	HCClaytablet=8,
+	Twigs,
+	HCTablelog,
+    	CanBeDoneFromFloor:true,
+   	Result:HCResearchtable,
+    	Time:500,
+    	Category:Research,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    } 
+
+recipe Research Skinning Animals
+    {
+       	SkillRequired:Cooking=1,
+	HCClaytablet,
+	Twigs,
+	keep HCResearchtable,
+    	CanBeDoneFromFloor:true,
+   	Result:HCTabletskinanimal,
+    	Time:800,
+    	Category:Research,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    } 
+
+recipe Research Bunch of Berries
+    {
+       	SkillRequired:Cooking=1,
+	HCClaytablet,
+	Twigs,
+	keep HCResearchtable,
+    	CanBeDoneFromFloor:true,
+   	Result:HCTabletberries,
+    	Time:200,
+    	Category:Research,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    } 
+
+recipe Research Bunch of Mushrooms
+    {
+       	SkillRequired:Cooking=1,
+	HCClaytablet,
+	Twigs,
+	keep HCResearchtable,
+    	CanBeDoneFromFloor:true,
+   	Result:HCTabletshrooms,
+    	Time:200,
+    	Category:Research,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    } 
+
+recipe Research Birch Bark Basket
+    {
+	HCClaytablet,
+	Twigs,
+	keep HCResearchtable,
+    	CanBeDoneFromFloor:true,
+   	Result:HCTabletbirchbarkbasket,
+    	Time:400,
+    	Category:Research,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    } 
+
+recipe Research Wicker Basket
+    {
+	HCClaytablet,
+	Twigs,
+	keep HCResearchtable,
+    	CanBeDoneFromFloor:true,
+   	Result:HCTabletwickerbasket,
+    	Time:400,
+    	Category:Research,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    } 
+
+recipe Research Straw Basket
+    {
+	HCClaytablet,
+	Twigs,
+	keep HCResearchtable,
+    	CanBeDoneFromFloor:true,
+   	Result:HCTabletstrawbasket,
+    	Time:400,
+    	Category:Research,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Research Stick Trap
+    {
+	HCClaytablet,
+	Twigs,
+	keep HCResearchtable,
+    	CanBeDoneFromFloor:true,
+   	Result:HCTabletsticktrap,
+    	Time:500,
+    	Category:Research,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+}

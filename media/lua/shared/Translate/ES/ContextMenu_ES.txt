@@ -1,0 +1,3 @@
+ContextMenu_ES = {
+	ContextMenu_Sow_Trellis_Seed = "Semillas de vid admitidas",
+}

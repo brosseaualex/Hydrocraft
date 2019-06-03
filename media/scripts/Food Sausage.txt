@@ -1,0 +1,675 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCSausagefrog
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Frog Sausage,
+        Icon				=	HCSausagefrog,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	32,
+        Lipids 				= 	2.6,
+        Calories 			= 	220,
+    }
+
+item HCSausagebird
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Bird Sausage,
+        Icon				=	HCSausagebird,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	44,
+        Lipids 				= 	2.6,
+        Calories 			= 	268,
+    }
+
+item HCSausagechicken
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Chicken Sausage,
+        Icon				=	HCSausagechicken,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	2.1,
+       	Proteins 			= 	54,
+       	Lipids 				= 	30,
+        Calories 			= 	495,
+    }
+
+item HCSausageduck
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Duck Sausage,
+        Icon				=	HCSausageduck,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	10,
+        Proteins 			= 	69,
+        Lipids 				= 	33,
+        Calories 			= 	603,
+    }
+
+item HCSausagegoose
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Goose Sausage,
+        Icon				=	HCSausagegoose,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	10,
+        Proteins 			= 	87,
+        Lipids 				= 	39,
+        Calories 			= 	714,
+    }
+
+item HCSausageturkey
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Turkey Sausage,
+        Icon				=	HCSausageturkey,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	10.3,
+      	Proteins 			= 	69,
+      	Lipids 				= 	5.7,
+      	Calories 			= 	336,
+    }
+
+item HCSausagevermin
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Vermin Sausage,
+        Icon				=	HCSausagevermin,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	0,
+      	Proteins 			= 	88,
+      	Lipids 				= 	5.2,
+      	Calories 			= 	456,
+    }
+
+item HCSausagerabbit
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Rabbit Sausage,
+        Icon				=	HCSausagerabbit,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	0,
+      	Proteins 			= 	88,
+      	Lipids 				= 	5.2,
+      	Calories 			= 	456,
+    }
+
+item HCSausagesmallgame
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Small Game Sausage,
+        Icon				=	HCSausagesmallgame,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	0,
+      	Proteins 			= 	88,
+      	Lipids 				= 	5.2,
+      	Calories 			= 	456,
+    }
+
+item HCSausagedeer
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Deer Sausage,
+        Icon				=	HCSausagedeer,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	0,
+      	Proteins 			= 	90,
+      	Lipids 				= 	9.6,
+      	Calories 			= 	474,
+    }
+
+item HCSausagebear
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Bear Sausage,
+        Icon				=	HCSausagebear,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	0,
+      	Proteins 			= 	60,
+      	Lipids 				= 	24.9,
+      	Calories 			= 	483,
+    }
+
+item HCSausagecougar
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Cougar Sausage,
+        Icon				=	HCSausagecougar,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	0,
+      	Proteins 			= 	60,
+      	Lipids 				= 	24.9,
+      	Calories 			= 	483,
+    }
+
+item HCSausagemutton
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Mutton Sausage,
+        Icon				=	HCSausagemutton,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	0.3,
+      	Proteins 			= 	99,
+      	Lipids 				= 	33,
+      	Calories 			= 	702,
+    }
+
+item HCSausagepork
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Pork Sausage,
+        Icon				=	HCSausagepork,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	0,
+      	Proteins 			= 	63,
+      	Lipids 				= 	27,
+      	Calories 			= 	450,
+    }
+
+item HCSausagebeef
+    {
+        HungerChange			=	-50,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Beef Sausage,
+        Icon				=	HCSausagebeef,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	0,
+      	Proteins 			= 	78.2,
+      	Lipids 				= 	21.4,
+      	Calories 			= 	525,
+    }
+
+item HCSausagecheval
+    {
+        HungerChange			=	-50,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Cheval Sausage,
+        Icon				=	HCSausagecheval,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	0,
+      	Proteins 			= 	97,
+      	Lipids 				= 	21,
+      	Calories 			= 	603,
+    }
+
+item HCSausageitalian
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Italian Sausage,
+        Icon				=	HCSausageitalian,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	0,
+      	Proteins 			= 	63,
+      	Lipids 				= 	27,
+      	Calories 			= 	450,
+    }
+
+item HCSausagehot
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Hot Sausage,
+        Icon				=	HCSausagehot,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	0,
+      	Proteins 			= 	63,
+      	Lipids 				= 	27,
+      	Calories 			= 	450,
+    }
+	
+/************************RECIPES************************/
+
+
+recipe Make Ground Beef
+	{
+        	SkillRequired:Cooking=4,
+		Steak,
+		keep HCMeatgrinder,
+    		Result:MeatPatty,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=5,
+		HCIntestines,
+		FrogMeat=2,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausagefrog,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=5,
+		HCIntestines,
+		Smallbirdmeat=2,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausagebird,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=5,
+		HCIntestines,
+		Chicken,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausagechicken,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=5,
+		HCIntestines,
+		HCDuckmeat,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausageduck,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=5,
+		HCIntestines,
+		HCGoosemeat,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausagegoose,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=5,
+		HCIntestines,
+		HCTurkeymeat,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausageturkey,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=5,
+		HCIntestines,
+		Smallanimalmeat=2,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausagevermin,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=5,
+		HCIntestines,
+		Rabbitmeat=2,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausagerabbit,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=5,
+		HCIntestines,
+		HCSmallgamesteak=2,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausagesmallgame,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=5,
+		HCIntestines,
+		HCVenison,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausagedeer,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=5,
+		HCIntestines,
+		HCBearsteak,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausagebear,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=5,
+		HCIntestines,
+		HCCougarsteak,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausagecougar,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=5,
+		HCIntestines,
+		MuttonChop,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausagemutton,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=5,
+		HCIntestines,
+		PorkChop/HCFreshham,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausagepork,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=5,
+		HCIntestines,
+		MeatPatty/Steak,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausagebeef,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=5,
+		HCIntestines,
+		HCCheval,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausagecheval,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=6,
+		HCIntestines,
+		PorkChop,
+		HCHerbs,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausageitalian,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sausage
+	{
+        	SkillRequired:Cooking=6,
+		HCIntestines,
+		PorkChop,
+		HCHotsauce/HCChilipowder,
+		keep HCMeatgrinder,
+    		NeedToBeLearn:true,
+    		Result:HCSausagehot,
+		Time:100.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+}

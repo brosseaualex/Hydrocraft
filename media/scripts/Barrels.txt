@@ -1,0 +1,941 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCBarrelmetalempty
+    {
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Empty Metal Barrel,
+        ResizeWorldIcon 	= 1.0,
+        icon 			= HCBarrelmetal,
+    } 
+
+item HCBarrelblueempty
+    {
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Empty Blue Barrel,
+        ResizeWorldIcon 	= 1.0,
+        icon 			= HCBarrelblue,
+    } 
+
+item HCBarrelmetalammonia
+    {
+        Weight    		= 10,
+        Type    		= Drainable,
+	UseDelta		= 0.05,
+        DisplayName     	= Metal Barrel with Ammonia,
+        ResizeWorldIcon 	= 1.0,
+        icon 			= HCBarrelmetal,
+	ReplaceOnDeplete	= HCMetalbarrelempty,
+    } 
+
+item HCAmmoniabarrelempty
+    {
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Empty Ammonia Barrel,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCAmmoniabarrelmetal,
+    } 
+
+item HCAmmoniabarrelfull
+    {
+        Weight    		= 10,
+        Type    		= Drainable,
+	UseDelta		= 0.05,
+        DisplayName     	= Metal Barrel with Ammonia,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCAmmoniabarrelmetal,
+	ReplaceOnDeplete	= HCAmmoniabarrelmetalempty,
+    } 
+
+item HCAmmoniabarrelblueempty
+    {
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Blue Empty Ammonia Barrel,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCAmmoniabarrelblue,
+    } 
+
+item HCAmmoniabarrelbluefull
+    {
+        Weight    		= 10,
+        Type    		= Drainable,
+	UseDelta		= 0.05,
+        DisplayName     	= Blue Barrel with Ammonia,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCAmmoniabarrelblue,
+	ReplaceOnDeplete	= HCAmmoniabarrelblueempty,
+    } 
+
+item HCBarrelmetalmethylamin
+    {
+        Weight    		= 10,
+        Type    		= Drainable,
+        DisplayName     	= Metal Barrel with Methylamin,
+        ResizeWorldIcon 	= 1.0,
+        icon 			= HCBarrelmetal,
+	ReplaceOnDeplete	= HCMetalbarrelempty,
+    } 
+
+item HCMethylaminbarrelempty
+    {
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Empty Methylamin Barrel,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCMethylaminbarrelmetal,
+    } 
+
+item HCMethylaminbarrelfull
+    {
+        Weight    		= 10,
+        Type    		= Drainable,
+	UseDelta		= 0.05,
+        DisplayName     	= Metal Barrel with Methylamin,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCMethylaminbarrelmetal,
+	ReplaceOnDeplete	= HCMethylaminbarrelmetalempty,
+    } 
+
+item HCMethylaminbarrelblueempty
+    {
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Blue Empty Methylamin Barrel,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCMethylaminbarrelblue,
+    } 
+
+item HCMethylaminbarrelbluefull
+    {
+        Weight    		= 10,
+        Type    		= Drainable,
+	UseDelta		= 0.05,
+        DisplayName     	= Blue Barrel with Methylamin,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCMethylaminbarrelblue,
+	ReplaceOnDeplete	= HCMethylaminbarrelblueempty,
+    } 
+
+item HCBarrelmetalphenyl
+    {
+        Weight    		= 10,
+        Type    		= Drainable,
+	UseDelta		= 0.05,
+        DisplayName     	= Metal Barrel with Phenylacetic Acid,
+        ResizeWorldIcon 	= 1.0,
+        icon 			= HCBarrelmetal,
+	ReplaceOnDeplete	= HCMetalbarrelempty,
+    } 
+
+item HCPhenylbarrelempty
+    {
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Empty Phenylacetic Acid Barrel,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCPhenylbarrelmetal,
+    } 
+
+item HCPhenylbarrelfull
+    {
+        Weight    		= 10,
+        Type    		= Drainable,
+	UseDelta		= 0.05,
+        DisplayName     	= Metal Barrel with Phenylacetic Acid,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCPhenylbarrelmetal,
+	ReplaceOnDeplete	= HCPhenylbarrelmetalempty,
+    } 
+
+item HCPhenylbarrelblueempty
+    {
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Blue Empty Phenylacetic Acid Barrel,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCPhenylbarrelblue,
+    } 
+
+item HCPhenylbarrelbluefull
+    {
+        Weight    		= 10,
+        Type    		= Drainable,
+	UseDelta		= 0.05,
+        DisplayName     	= Blue Barrel with Phenylacetic Acid,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCPhenylbarrelblue,
+	ReplaceOnDeplete	= HCPhenylbarrelblueempty,
+    } 
+
+item HCBarrelmetalsulfuricacid
+    {
+        Weight    		= 10,
+        Type    		= Drainable,
+	UseDelta		= 0.05,
+        DisplayName     	= Metal Barrel with Phenylacetic Acid,
+        ResizeWorldIcon 	= 1.0,
+        icon 			= HCBarrelmetal,
+	ReplaceOnDeplete	= HCMetalbarrelempty,
+    } 
+
+item HCSulfuricacidbarrelempty
+    {
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Empty Phenylacetic Acid Barrel,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCSulfuricacidbarrelmetal,
+    } 
+
+item HCSulfuricacidbarrelfull
+    {
+        Weight    		= 10,
+        Type    		= Drainable,
+	UseDelta		= 0.05,
+        DisplayName     	= Metal Barrel with Sulfuric Acid,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCSulfuricacidbarrelmetal,
+	ReplaceOnDeplete	= HCSulfuricacidbarrelempty,
+    } 
+
+item HCSulfuricacidbarrelblueempty
+    {
+        Weight    		= 4,
+        Type	                = Container,
+        Capacity	        = 27,
+        DisplayName     	= Blue Empty Sulfuric Acid Barrel,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCSulfuricacidbarrelblue,
+    } 
+
+item HCSulfuricacidbarrelbluefull
+    {
+        Weight    		= 10,
+        Type    		= Drainable,
+	UseDelta		= 0.05,
+        DisplayName     	= Blue Barrel with Sulfuric Acid,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCSulfuricacidbarrelblue,
+	ReplaceOnDeplete	= HCSulfuricacidbarrelblueempty,
+    } 
+
+item HCBluebarrelcorpse
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName     	= Blue Barrel with Acid and Corpse,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCBarrelbluecorpse,
+ 	Tooltip 		= Tooltip_HCBluebarrelcorpse,
+    } 
+
+item HCBluebarreltoxicwaste
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName     	= Toxic Waste,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCBarrelbluetoxicwaste,
+    } 
+
+item HCBluebarreltoxicwastesealed
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName     	= Sealed Toxic Waste,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCToxicwaste,
+    } 
+
+item HCBarrelmetalgasoline
+    {
+        Weight            	= 10,
+        Type    		= Drainable,
+	UseDelta		= 0.05,
+        DisplayName         	= Metal Barrel with Gasoline,
+        ResizeWorldIcon    	= 1.0,
+        icon             	= HCBarrelmetal,
+    	ReplaceOnDeplete    	= HCMetalbarrelempty,
+    }
+
+item HCGasolinebarrelempty
+    {
+        Weight            	= 4,
+        Type                    = Container,
+        Capacity            	= 27,
+        DisplayName         	= Empty Gasoline Barrel,
+        ResizeWorldIcon     	= 2.0,
+        icon             	= HCGasolinebarrelmetal,
+    }
+
+item HCGasolinebarrelfull
+    {
+        Weight            	= 10,
+        Type    		= Drainable,
+	UseDelta		= 0.05,
+        DisplayName         	= Metal Barrel with Gasoline,
+        ResizeWorldIcon     	= 2.0,
+        icon             	= HCGasolinebarrelmetal,
+    	ReplaceOnDeplete    	= HCGasolinebarrelempty,
+    } 
+/************************RECIPES************************/
+
+recipe Clean Empty Metal Barrel
+    {
+    	destroy HCAmmoniabarrelempty/HCMethylaminbarrelempty/HCPhenylbarrelempty/HCSulfuricacidbarrelempty,
+        keep Sponge/HCLoofah/HCSponge/RippedSheets,
+        Water,
+	Soap2/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid/HCDetergent/HCPoisondetergent/HCPlasticcandetergent,
+        CanBeDoneFromFloor:true,
+    	Result:HCBarrelmetalempty,
+    	Time:250,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Clean Empty Blue Barrel
+    {
+    	destroy HCAmmoniabarrelblueempty/HCMethylaminbarrelblueempty/HCPhenylbarrelblueempty/HCSulfuricacidbarrelblueempty,
+        keep Sponge/HCLoofah/HCSponge/RippedSheets,
+        Water,
+	Soap2/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid/HCDetergent/HCPoisondetergent/HCPlasticcandetergent,
+        CanBeDoneFromFloor:true,
+    	Result:HCBarrelblueempty,
+    	Time:250,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Fill Empty Metal Barrel With Ammonia
+    {
+        HCPlasticcanammonia=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCBarrelmetalammonia,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Ammonia
+    {
+        HCAmmoniacanfull=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCBarrelmetalammonia,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Ammonia
+    {
+        HCDetergentammonia=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCBarrelmetalammonia,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Ammonia
+    {
+        HCPoisonammonia=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCBarrelmetalammonia,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Ammonia
+    {
+        HCAmmoniabarrelfull=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBarrelmetalammonia,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Ammonia
+    {
+        HCAmmoniabarrelbluefull=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBarrelmetalammonia,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Ammonia Barrel With Ammonia
+    {
+        HCBarrelmetalammonia=20,
+    	HCAmmoniabarrelempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCAmmoniabarrelfull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Ammonia Barrel With Ammonia
+    {
+        HCAmmoniabarrelbluefull=20,
+    	HCAmmoniabarrelempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCAmmoniabarrelfull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Blue Empty Ammonia Barrel With Ammonia
+    {
+        HCBarrelmetalammonia=20,
+    	HCAmmoniabarrelblueempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCAmmoniabarrelbluefull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Blue Empty Ammonia Barrel With Ammonia
+    {
+        HCAmmoniabarrelfull=20,
+    	HCAmmoniabarrelblueempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCAmmoniabarrelbluefull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Methylamin
+    {
+        HCGlassbottlemethylamin=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCBarrelmetalmethylamin,
+        CanBeDoneFromFloor:true,
+        OnCreate:recipe_hcgetemptymethylaminbarrel,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Methylamin
+    {
+        HCMethylaminbarrelfull=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBarrelmetalmethylamin,
+        CanBeDoneFromFloor:true,
+        OnCreate:recipe_hcgetemptymethylaminbarrel,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Methylamin
+    {
+        HCMethylaminbarrelbluefull=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBarrelmetalmethylamin,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Methylamin Barrel With Methylamin
+    {
+        HCGlassbottlemethylamin=20,
+    	HCMethylaminbarrelempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCMethylaminbarrelfull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Methylamin Barrel With Methylamin
+    {
+        HCBarrelmetalmethylamin=20,
+    	HCMethylaminbarrelempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCMethylaminbarrelfull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Methylamin Barrel With Methylamin
+    {
+        HCMethylaminbarrelbluefull=20,
+    	HCMethylaminbarrelempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCMethylaminbarrelfull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Blue Empty Methylamin Barrel With Methylamin
+    {
+        HCGlassbottlemethylamin=20,
+    	HCMethylaminbarrelblueempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCMethylaminbarrelbluefull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Blue Empty Methylamin Barrel With Methylamin
+    {
+        HCBarrelmetalmethylamin=20,
+    	HCMethylaminbarrelblueempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCMethylaminbarrelbluefull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Blue Empty Methylamin Barrel With Methylamin
+    {
+        HCMethylaminbarrelfull=20,
+    	HCMethylaminbarrelblueempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCMethylaminbarrelbluefull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Phenylacetic Acid
+    {
+        HCGlassbottlephenyl=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCBarrelmetalphenyl,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Phenylacetic Acid
+    {
+        HCPhenylbarrelfull=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBarrelmetalphenyl,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Phenylacetic Acid
+    {
+        HCPhenylbarrelbluefull=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBarrelmetalphenyl,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Phenylacetic Acid Barrel With Phenylacetic Acid
+    {
+        HCGlassbottlephenyl=20,
+    	HCPhenylbarrelempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPhenylbarrelfull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Phenylacetic Acid Barrel With Phenylacetic Acid
+    {
+        HCBarrelmetalphenyl=20,
+    	HCPhenylbarrelempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCPhenylbarrelfull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Phenylacetic Acid Barrel With Phenylacetic Acid
+    {
+        HCPhenylbarrelbluefull=20,
+    	HCPhenylbarrelempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCPhenylbarrelfull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Blue Empty Phenylacetic Acid Barrel With Phenylacetic Acid
+    {
+        HCGlassbottlephenyl=20,
+    	HCPhenylbarrelblueempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPhenylbarrelbluefull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Blue Empty Phenylacetic Acid Barrel With Phenylacetic Acid
+    {
+        HCBarrelmetalphenyl=20,
+    	HCPhenylbarrelblueempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCPhenylbarrelbluefull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Blue Empty Phenylacetic Acid Barrel With Phenylacetic Acid
+    {
+        HCPhenylbarrelfull=20,
+    	HCPhenylbarrelblueempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCPhenylbarrelbluefull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Sulfuric Acid
+    {
+        HCGlassbottlesulfuricacid=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCSulfuricacidbarrelfull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Sulfuric Acid
+    {
+        HCPlasticcansulfuricacid=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCBarrelmetalammonia,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Sulfuric Acid
+    {
+        HCSulfuricacidcan=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCBarrelmetalammonia,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Sulfuric Acid
+    {
+        HCDetergentsulfuricacid=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCBarrelmetalammonia,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Sulfuric Acid
+    {
+        HCPoisonsulfuricacid=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCSulfuricacidbarrelfull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Sulfuric Acid
+    {
+        HCSulfuricacidbarrelfull=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBarrelmetalsulfuricacid,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Sulfuric Acid
+    {
+        HCSulfuricacidbarrelbluefull=20,
+    	HCBarrelmetalempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBarrelmetalsulfuricacid,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Sulfuric Acid Barrel With Sulfuric Acid
+    {
+        HCGlassbottlesulfuricacid=20,
+    	HCSulfuricacidbarrelempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCSulfuricacidbarrelfull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Sulfuric Acid Barrel With Sulfuric Acid
+    {
+        HCBarrelmetalsulfuricacid=20,
+    	HCSulfuricacidbarrelempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCSulfuricacidbarrelfull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Sulfuric Acid Barrel With Sulfuric Acid
+    {
+        HCSulfuricacidbarrelbluefull=20,
+    	HCSulfuricacidbarrelempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCSulfuricacidbarrelfull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Blue Empty Sulfuric Acid Barrel With Sulfuric Acid
+    {
+        HCGlassbottlesulfuricacid=20,
+    	HCSulfuricacidbarrelblueempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCSulfuricacidbarrelbluefull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Blue Empty Sulfuric Acid Barrel With Sulfuric Acid
+    {
+        HCBarrelmetalsulfuricacid=20,
+    	HCSulfuricacidbarrelblueempty,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCSulfuricacidbarrelbluefull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Blue Empty Sulfuric Acid Barrel With Sulfuric Acid
+    {
+        HCSulfuricacidbarrelfull=20,
+    	HCSulfuricacidbarrelblueempty,
+        keep HCRubberglove,
+        keep HCRubberhose,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+    	Result:HCSulfuricacidbarrelbluefull,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Liquidate Corpse
+    {
+    	destroy HCBarrelblueempty,
+        CorpseMale/CorpseFemale,
+	HCSulfuricacidcan/HCPoisonsulfuricacid/HCPoisonmuriaticacid/HCPlasticcansulfuricacid/HCPlasticcanmuriaticacid/HCDetergentsulfuricacid/HCDetergentmuriaticacid,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	Result:HCBluebarrelcorpse,
+        CanBeDoneFromFloor:true,
+    	Time:350,
+    	Category:Alchemy,
+    }
+
+recipe Seal Biowaste
+    {
+    	destroy HCBluebarreltoxicwaste,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        DuctTape/Scotchtape/HCMaskingtape/HCPackingtape/HCElectrictape,
+        CanBeDoneFromFloor:true,
+    	Result:HCBluebarreltoxicwastesealed,
+    	Time:250,
+    	Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Gasoline
+    {
+    	PetrolCan=20,
+        HCBarrelmetalempty,
+        keep HCFunnel/HCGlassfunnel,
+        Result:HCBarrelmetalgasoline,
+        Time:250,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Metal Barrel With Gasoline
+    {
+        HCGasolinebarrelfull=20,
+        HCBarrelmetalempty,
+        keep HCHandpump,
+        keep HCRubberhose,
+        Result:HCBarrelmetalgasoline,
+        Time:250,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Gasoline Barrel With Gasoline
+    {
+    	PetrolCan=20,
+        HCGasolinebarrelempty,
+        keep HCFunnel/HCGlassfunnel,
+        Result:HCGasolinebarrelfull,
+        Time:250,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Gasoline Barrel With Gasoline
+    {
+        HCBarrelmetalgasoline=20,
+        HCGasolinebarrelempty,
+        keep HCHandpump,
+        keep HCRubberhose,
+        Result:HCGasolinebarrelfull,
+        Time:250,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Petrol Cans With Gasoline
+    {
+        HCBarrelmetalgasoline=8,
+        EmptyPetrolCan,
+        keep HCHandpump,
+        keep HCRubberhose,
+        keep HCFunnel/HCGlassfunnel,
+        Result:PetrolCan,
+        Time:250,
+        Category:Alchemy,
+    }
+
+recipe Fill Empty Petrol Cans With Gasoline
+    {
+        HCGasolinebarrelfull=8,
+        EmptyPetrolCan,
+        keep HCHandpump,
+        keep HCRubberhose,
+        keep HCFunnel/HCGlassfunnel,
+        Result:PetrolCan,
+        Time:250,
+        Category:Alchemy,
+    } 
+
+}

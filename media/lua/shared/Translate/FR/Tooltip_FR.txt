@@ -1,0 +1,8 @@
+Tooltip_FR = {
+	-- Item tooltip
+	Tooltip_HCArmor = "Appuyez sur P pour voir la liste des armures portées",	
+	Tooltip_HCBluebarrelcorpse = "Cela va se transformer en déchet toxiques",
+	Tooltip_HCFeedme = "A nourrir pour garder en vie",
+	Tooltip_HCSleep = "A poser sur le sol pour l'utiliser",
+
+}

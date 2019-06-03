@@ -1,0 +1,1562 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCGreyclay
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Grey Clay,
+        icon 			= HCGreyclay,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCGreyclaybag
+    {
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Bag of Grey Clay,
+        icon 			= HCGreyclaybag,
+    }
+
+item HCRedclay
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Red Clay,
+        icon 			= HCRedclay,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCRedclaybag
+    {
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Bag of Red Clay,
+        icon 			= HCRedclaybag,
+    }
+
+item HCBoneclay
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Bone Clay,
+        icon 			= HCBoneclay,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCBoneclaybag
+    {
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Bag of Bone Clay,
+        icon 			= HCBoneclaybag,
+    }
+
+item HCKiln
+    {
+        Weight    		= 20.0,
+        Type    		= Normal,
+        DisplayName         	= Kiln,
+        icon 			= HCKiln,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCKiln2
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Kiln,
+        icon 			= HCKiln,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCIngotmold
+    {
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Ingot Mold,
+        icon 			= HCIngotmold,
+    }
+
+item HCRingmold
+    {
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Ring Mold,
+        icon 			= HCNailmold,
+    }
+
+item HCFishhookmold
+    {
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Fishhook Mold,
+        icon 			= HCNailmold,
+    }
+
+item HCNailmold
+    {
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Nail Mold,
+        icon 			= HCNailmold,
+    }
+
+item HCScrewmold
+    {
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Screw Mold,
+        icon 			= HCScrewmold,
+    }
+
+item HCGearmold
+    {
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Gear Mold,
+        icon 			= HCNailmold,
+    }
+
+item HCBlockmold
+    {
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Block Mold,
+        icon 			= HCIngotmold,
+    }
+
+item HCBungmold
+    {
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Bung Mold,
+        icon 			= HCIngotmold,
+    }
+
+item HCAnvilmold
+    {
+        Weight    		= 5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Anvil Mold,
+        icon 			= HCAnvilmold,
+    }
+
+item HCGiantmagnetmold
+    {
+        Weight    		= 3,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Giant Magnet Mold,
+        icon 			= HCGiantmagnetmold,
+    }
+
+item HCBulletcasingmold
+    {
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Bullet Casing Mold,
+        icon 			= HCBulletcasingmold,
+    }
+
+item HCBullettipmold
+    {
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Bullet Tip Mold,
+        icon 			= HCBullettipmold,
+    }
+
+item HCBuckshotmold
+    {
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Buckshot Mold,
+        icon 			= HCBuckshotmold,
+    }
+
+item HCClaypot
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Clay Pot,
+        icon 			= HCClaypot,
+    }
+
+item HCClayflowerpot
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Clay Flowerpot,
+        icon 			= HCClayflowerpot,
+    }
+
+item HCClayjar
+    {
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Clay Jar,
+        icon 			= HCClayjar,
+    }
+
+item HCClayjarsmall
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Small Clay Jar,
+        icon 			= HCClayjarsmall,
+    }
+
+item HCClaypipesmoking
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Clay Smoking Pipe,
+        icon 			= HCClaypipesmoking,
+    }
+
+item HCClaypipe
+    {
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Clay Pipe,
+        icon 			= HCClaypipe,
+    }
+
+item HCClaycauldron
+    {
+        Weight    		= 4,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Clay Cauldron,
+	ReplaceOnUseOn		= HCClaycauldronfull,
+        icon 			= HCClaycauldron,
+	ResizeWorldIcon 	= 1.0,
+	RainFactor 		= 1,
+    }
+
+item HCClaycauldronfull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	8,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.025,
+	DisplayName		=	Clay Cauldron with Water,
+	ReplaceOnDeplete	=	HCClaycauldron,
+	ReplaceOnUseOn		=	WaterSource-HCClaycauldronfull,
+	Icon			=	HCClaycauldronfull,
+	ResizeWorldIcon 	= 	1.0,
+	IsCookable		=	TRUE,
+	RainFactor 		= 	1,
+    }
+
+item HCClayurn
+    {
+        WeightReduction     	= 10,
+        Weight    		= 3,
+        Type                	= Container,
+        Capacity            	= 20,
+        DisplayName         	= Clay Urn,
+        icon 			= HCClayurn,
+    }
+
+item HCClayurnlarge
+    {
+        WeightReduction     	= 10,
+        Weight    		= 6,
+        Type                	= Container,
+        Capacity            	= 40,
+        DisplayName         	= Large Clay Urn,
+        icon 			= HCClayurnlarge,
+    }
+
+item HCClayteapot
+    {
+        Weight    		= 1,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Clay Teapot,
+	ReplaceOnUseOn		= WaterSource-HCClayteapotfull,
+        icon 			= HCClayteapot,
+	RainFactor 		= 1,
+    }
+
+item HCClayteapotfull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	2,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Full Clay Teapot,
+	ReplaceOnDeplete	=	HCClayteapot,
+	ReplaceOnUseOn		=	WaterSource-HCClayteapotfull,
+	Icon			=	HCClayteapot,
+	IsCookable		=	TRUE,
+	RainFactor 		= 	1,
+    }
+
+item HCClayoillamp
+    {
+        Weight    		= 1,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Clay Oil Lamp,
+        icon 			= HCClayoillamp,
+    }
+
+item HCClayoillamplit
+    {
+	LightDistance		=	3,
+	Weight			=	0.2,
+	ReplaceOnDeplete	=	HCClayoillamp,
+	Type			=	Drainable,
+	TorchCone		=	FALSE,
+	UseDelta		=	0.003,
+	LightStrength		=	0.6,
+	DisplayName		=	Lit Clay Oil Lamp,
+	ActivatedItem		=	TRUE,
+	Icon			=	HCClayoillamplit,
+    }
+
+item HCClaymug
+    {
+        Weight    		= 0.2,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Clay Mug,
+	ReplaceOnUseOn		= WaterSource-HCClaymugfull,
+        icon 			= HCClaymug,
+	RainFactor 		= 0.2,
+    }
+
+item HCClaymugfull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	1,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Full Clay Mug,
+	ReplaceOnDeplete	=	HCClaymug,
+	ReplaceOnUseOn		=	WaterSource-HCClaymugfull,
+	Icon			=	HCClaymug,
+	RainFactor 		= 	0.2,
+    }
+
+item HCClaytablet
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Clay Tablet,
+        icon 			= HCClaytablet,
+    }
+
+item HCPorcelainteapot
+    {
+        Weight    		= 1,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Porcelain Teapot,
+	ReplaceOnUseOn		= WaterSource-HCPorcelainteapotfull,
+        icon 			= HCPorcelainteapot,
+	RainFactor 		= 1,
+    }
+
+item HCPorcelainteapotfull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	2,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Full Porcelain Teapot,
+	ReplaceOnDeplete	=	HCPorcelainteapot,
+	ReplaceOnUseOn		=	WaterSource-HCClayteapotfull,
+	Icon			=	HCPorcelainteapot,
+	IsCookable		=	TRUE,
+	RainFactor 		= 	1,
+    }
+
+item HCPorcelainteacup
+    {
+        Weight    		= 0.2,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Porcelain Teacup,
+	ReplaceOnUseOn		= WaterSource-HCPorcelainteacupfull,
+        icon 			= HCPorcelainteacup,
+	RainFactor 		= 0.2,
+    }
+
+item HCPorcelainteacupfull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	1,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Full Porcelain Teacup,
+	ReplaceOnDeplete	=	HCClaymug,
+	ReplaceOnUseOn		=	WaterSource-HCPorcelainteacupfull,
+	Icon			=	HCPorcelainteacup,
+	RainFactor 		= 	0.2,
+    }
+
+item HCPorcelainsaucer
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Porcelain Saucer,
+        icon 			= HCPorcelainsaucer,
+    }
+
+item HCPorcelainsaucerstack
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Stack of Porcelain Saucers,
+        icon 			= HCPorcelainsaucerstack,
+    }
+
+item HCPorcelainteacupsaucer
+    {
+        Weight    		= 0.2,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Porcelain Teacup with Saucer,
+	ReplaceOnUseOn		= WaterSource-HCPorcelainteacupsaucerfull,
+        icon 			= HCPorcelainteacupsaucer,
+	RainFactor 		= 0.2,
+    }
+
+item HCPorcelainteacupsaucerfull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	1,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Full Porcelain Teacup with Saucer,
+	ReplaceOnDeplete	=	HCClaymug,
+	ReplaceOnUseOn		=	WaterSource-HCPorcelainteacupsaucerfull,
+	Icon			=	HCPorcelainteacupsaucer,
+	RainFactor 		= 	0.2,
+    }
+
+item HCPorcelainplate
+    {
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Porcelain Plate,
+        icon 			= HCPorcelainplate,
+    }
+
+item HCPorcelainplatestack
+    {
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Stack of Porcelain Plates,
+        icon 			= HCPorcelainplatestack,
+    }
+
+item HCPorcelainplatter
+    {
+        Weight    		= 0.8,
+        Type    		= Normal,
+        DisplayName         	= Porcelain Platter,
+        icon 			= HCPorcelainplatter,
+    }
+
+item HCPorcelainbowl
+    {
+        Weight    		= 0.8,
+        Type    		= Normal,
+        DisplayName         	= Porcelain Bowl,
+        icon 			= HCPorcelainbowl,
+    }
+
+item HCPorcelainvase
+    {
+        Weight    		= 3,
+        Type    		= Normal,
+        DisplayName         	= Porcelain vase,
+        icon 			= HCPorcelainvase,
+    }
+
+/************************RECIPES************************/
+
+recipe Unpack Grey Clay
+    {
+    HCGreyclaybag,
+    Result:HCGreyclay=20,
+    Time:15,
+    Category:Pottery,
+    }
+
+recipe Pack Grey Clay
+    {
+    HCGreyclay=20,
+    Result:HCGreyclaybag,
+    Time:15,
+    Category:Pottery,
+    }
+
+recipe Unpack Red Clay
+    {
+    HCRedclaybag,
+    Result:HCRedclay=20,
+    Time:15,
+    Category:Pottery,
+    }
+
+recipe Pack Red Clay
+    {
+    HCRedclay=20,
+    Result:HCRedclaybag,
+    Time:15,
+    Category:Pottery,
+    }    
+
+recipe Unpack Bone Clay
+    {
+    HCBoneclaybag,
+    Result:HCBoneclay=20,
+    Time:15,
+    Category:Pottery,
+    }
+
+recipe Pack Bone Clay
+    {
+    HCBoneclay=20,
+    Result:HCBoneclaybag,
+    Time:15,
+    Category:Pottery,
+    }  
+
+recipe Make Bone Clay
+    {
+    HCGreyclay,
+    HCBoneash=5,
+    HCFeldsparpowder,
+    HCKaolinite,
+    CanBeDoneFromFloor:true,
+    Result:HCBoneclay,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Kiln
+    {
+    HCGreyclay=50,
+    Result:HCKiln,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Kiln
+    {
+    HCRedclay=50,
+    Result:HCKiln,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Anchor Kiln
+    {
+    HCKiln,
+    CanBeDoneFromFloor:true,
+    Result:HCKiln2,
+    Time:100,
+    Category:Anchor,
+    }
+
+recipe Make Clay Pot
+    {
+    HCGreyclay=5,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClaypot,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Pot
+    {
+    HCRedclay=5,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClaypot,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Flowerpot
+    {
+    HCGreyclay=6,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClayflowerpot,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Flowerpot
+    {
+    HCRedclay=6,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClayflowerpot,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Jar
+    {
+    HCGreyclay=6,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClayjar,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Jar
+    {
+    HCRedclay=6,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClayjar,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Small Clay Jar
+    {
+    HCGreyclay=3,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClayjarsmall,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Small Clay Jar
+    {
+    HCRedclay=3,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClayjarsmall,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mug
+    {
+    HCGreyclay=2,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClaymug,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mug
+    {
+    HCRedclay=2,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClaymug,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Teapot
+    {
+    HCGreyclay=4,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClayteapot,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Teapot
+    {
+    HCRedclay=4,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClayteapot,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Cauldron
+    {
+	CampfireKit,
+	Stone=4,
+    	HCGreyclay=10,
+    	Charcoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCClaycauldron,
+    	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Pottery,
+    	OnCreate:KilnUse,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Cauldron
+    {
+	CampfireKit,
+    	Stone=4,
+    	HCRedclay=10,
+    	Charcoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCClaycauldron,
+    	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Pottery,
+    	OnCreate:KilnUse,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Urn
+    {
+    HCGreyclay=10,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClayurn,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Urn
+    {
+    HCRedclay=10,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClayurn,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Large Clay Urn
+    {
+    HCGreyclay=20,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClayurnlarge,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Large Clay Urn
+    {
+    HCRedclay=20,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClayurnlarge,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Smoking Pipe
+    {
+    HCGreyclay=2,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClaypipesmoking,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Smoking Pipe
+    {
+    HCRedclay=2,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClaypipesmoking,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Pipe
+    {
+    HCGreyclay=8,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClaypipe,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Pipe
+    {
+    HCRedclay=8,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClaypipe,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCGreyclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCIngotmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCRedclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCIngotmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCGreyclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCRingmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCRedclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCRingmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCGreyclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCFishhookmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCRedclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCFishhookmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCGreyclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCNailmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCRedclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCNailmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCGreyclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCScrewmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCRedclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCScrewmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCGreyclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCGearmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCRedclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCGearmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCGreyclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCBungmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCRedclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCBungmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCGreyclay=10,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCAnvilmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCRedclay=10,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCGiantmagnetmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCGreyclay=10,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCGiantmagnetmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCRedclay=10,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCAnvilmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCGreyclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCBulletcasingmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCRedclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCBulletcasingmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCGreyclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCBullettipmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCRedclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCBullettipmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCGreyclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCBuckshotmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCRedclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCBuckshotmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCGreyclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCBlockmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCRedclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCBlockmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Tablet
+    {
+    HCRedclay/HCGreyclay,
+    Result:HCClaytablet,
+    Time:100,
+    Category:Pottery,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Stack Porcelain Plates
+    {
+    HCPorcelainplate=6,
+    Result:HCPorcelainplatestack,
+    Time:15,
+    }
+
+recipe Unstack Porcelain Plates
+    {
+    HCPorcelainplatestack,
+    Result:HCPorcelainplate=6,
+    Time:15,
+    }
+
+recipe Stack Porcelain Saucers
+    {
+    HCPorcelainsaucer=6,
+    Result:HCPorcelainsaucerstack,
+    Time:15,
+    }
+
+recipe Unstack Porcelain Saucers
+    {
+    HCPorcelainsaucerstack,
+    Result:HCPorcelainsaucer=6,
+    Time:15,
+    }
+
+recipe Stack Teacup on Saucer
+    {
+    HCPorcelainteacup,
+    HCPorcelainsaucer,
+    Result:HCPorcelainteacupsaucer,
+    Time:15,
+    }
+
+recipe Unstack Teacup on Saucer
+    {
+    HCPorcelainteacupsaucer,
+    Result:HCPorcelainteacup,
+    Time:15,
+    OnCreate:recipe_hcporcelainsaucer,
+    }
+
+recipe Make Porcelain Teacup
+    {
+    HCBoneclay=2,
+    HCPaintbrush,
+    HCJarpaintblue,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCPorcelainteacup,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Porcelain Saucer
+    {
+    HCBoneclay,
+    HCPaintbrush,
+    HCJarpaintblue,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCPorcelainsaucer,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Porcelain Teapot
+    {
+    HCBoneclay=4,
+    HCPaintbrush,
+    HCJarpaintblue,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCPorcelainteapot,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Porcelain Plate
+    {
+    HCBoneclay=2,
+    HCPaintbrush,
+    HCJarpaintblue,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCPorcelainplate,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Porcelain Platter
+    {
+    HCBoneclay=4,
+    HCPaintbrush,
+    HCJarpaintblue,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCPorcelainplatter,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Porcelain Bowl
+    {
+    HCBoneclay=4,
+    HCPaintbrush,
+    HCJarpaintblue,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCPorcelainbowl,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Porcelain Vase
+    {
+    HCBoneclay=5,
+    HCPaintbrush,
+    HCJarpaintblue,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCPorcelainvase,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Spindle Head
+    {
+    HCGreyclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCSpindlehead,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Spindle Head
+    {
+    HCRedclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCSpindlehead,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Oil Lamp
+    {
+    HCGreyclay=4,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClayoillamp,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Oil Lamp
+    {
+    HCRedclay=4,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCClayoillamp,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+}

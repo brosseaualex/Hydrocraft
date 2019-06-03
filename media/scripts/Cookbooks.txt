@@ -1,0 +1,198 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+	item HCCookbookbbq
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Barbecue Cookbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Make BBQ Sauce;Barbecue Meat;Barbecue Mushrooms;Make Mushrooms on a Stick;Grill Eggplant;Make Fried Frogs Legs;Make Shish Kebab,
+        	ReplaceOnUse    =   	HCCookbookbbq,
+	}
+
+	item HCBookbaking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Baking Cookbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Make Pie Dough;Make Bread Dough;Make Cake Batter;Make Pumpkin Bread Dough;Make Flatbread;Make Sourdough Starter;Dry Yeast,
+        	ReplaceOnUse    =   	HCBookbaking,
+	}
+
+
+	item HCCookbookbutcher
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Butcher's Cookbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Butcher Carcass,
+        	ReplaceOnUse    =   	HCCookbookbutcher,
+	}
+
+	item HCBookcheesemaking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Cheese Making Cookbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Make Rennet;Fill Cheese Vat;Harvest Cheese Curds;Fill Cheese Trays;Put Cheese on Rack;Remove Cheese from Rack;Prepare Kneaded Cheese Curds;Prepare Cubed Cheese Curds;Wax Cheddar Cheese;Cut Cheese Wheel;Make Cream Cheese Culture;Strain Cream Cheese,
+        	ReplaceOnUse    =   	HCBookcheesemaking,
+	}
+
+	item HCCookbookdried
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Dried Fruit Cookbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Dry Fruit;Store Dried Fruit in Bag;Dry Seeds;Store Dried Seeds in Bag;Make Baking Tray With Chopped Fruit;Remove Dried Fruit From Baking Tray,
+        	ReplaceOnUse    =   	HCCookbookdried,
+	}
+
+	item HCCookbookegg
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Egg Cookbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Fry Egg;Make Scrambled Eggs;Make Scrambled Eggs with Cheese;Make Omelet;Make Vegetable Omelet;Boil Egg,
+        	ReplaceOnUse    =   	HCCookbookegg,
+	}
+
+	item HCCookbookjerky
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Jerky Cookbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Make Basic Marinade;Make Tasty Marinade;Make Simple Jerky;Make Tasty Jerky,
+        	ReplaceOnUse    =   	HCCookbookjerky,
+	}
+
+	item HCCookbookjuice
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Juicing Cookbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Make Bottle of Juice;Make Mug of Juice,
+        	ReplaceOnUse    =   	HCCookbookjuice,
+	}
+
+	item HCCookbookmexican
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Mexican Cookbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Make Taco Sauce;Make Guacamole;Make Salsa;Make Nacho Cheese;Make Corn Tortilla;Make Flour Tortilla;Make Quesadilla;Make Burrito;Make Burrito Grande;Make Taquito;Make Taco;Make Taco Grande;Make Soft Taco;Make Soft Taco Grande;Make Fish Taco;Make Corned Beef Taco;Make Enchilada;Make Nachos;Make Nachos Grande;Make Stuffed Bell Pepper;Make Stuffed Eggplant;Make Stuffed Squash,
+        	ReplaceOnUse    =   	HCCookbookmexican,
+	}
+
+	item HCCookbookpasta
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Pasta Cookbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Prepare Fresh Pasta;Make Tomato Sauce;Fill Tomato Sauce into Bowls;Prepare Lasagna,
+        	ReplaceOnUse    =   	HCCookbookpasta,
+	}
+
+	item HCCookbookpickling
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Pickling Cookbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Pickle Vegetables;Make Sauerkraut;Pickle Eggs;Pickled Fish;Make Spicy Paste;Make Kimchi,
+        	ReplaceOnUse    =   	HCCookbookpickling,
+	}
+
+
+	item HCCookbookpizza
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Pizza Cookbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Knead Pizza Dough;Make Tomato Sauce;Fill Tomato Sauce into Bowls;Make Boring Pizza;Make Cheese Pizza;Make Tasty Pizza;Cut Pizza,
+        	ReplaceOnUse    =   	HCCookbookpizza,
+	}
+
+	item HCCookbooksalt
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Salting Meat Cookbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Salt Meat;Refill Bag With Curing Salt,
+        	ReplaceOnUse    =   	HCCookbooksalt,
+	}
+
+	item HCBooksausagemaking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Sausage Making Cookbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Make Sausage,
+        	ReplaceOnUse    =   	HCBooksausagemaking,
+	}
+
+	item HCCookbooksmoking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Smoking Cookbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Make Smoker;Fill Smoker;Smoke Meat;Smoke Tofu;Smoke Cheese,
+        	ReplaceOnUse    =   	HCCookbooksmoking,
+	}
+
+	item HCCookbookspices
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Spices Cookbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Make Chili Powder;Make Celery Seed;Make Garlic Powder;Make Onion Powder,
+        	ReplaceOnUse    =   	HCCookbookspices,
+	}
+
+	item HCBookwinemaking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Viticulture Textbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Prepare Wine Barrels;Fill Bottles with Wine;Fill Bottles with Vinegar;Prepare Pot of Honey Brew;Fill Barrel with Honey Brew;Make Bottle of Mead;Prepare Pot of Rice Mash;Fill Barrel with Rice Mash;Make Bottle of Sake,
+        	ReplaceOnUse    =   	HCBookwinemaking,
+	}
+
+	item HCCookbookyogurt
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Yogurt Cookbook,
+		Icon		=	HCCookbook,
+		TeachedRecipes  =   	Ferment Milk;Jar Homemade Yogurt;Jar Homemade Tzatziki,
+        	ReplaceOnUse    =   	HCCookbookyogurt,
+	}
+
+/************************RECIPES************************/	
+
+    
+
+}

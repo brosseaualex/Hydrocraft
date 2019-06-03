@@ -1,0 +1,187 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCTesttubepoisonmild
+    {
+        Weight    		= 1,
+        Type    		= Drainable,
+	UseDelta		= 0.25,
+        DisplayName         	= Test Tube with Mild Poison,
+        icon 			= HCTesttubepoisonmild,
+	ReplaceOnDeplete	= HCGlasstesttubecork,
+    }
+
+item HCTesttubepoisonstrong
+    {
+        Weight    		= 1,
+        Type    		= Drainable,
+	UseDelta		= 0.25,
+        DisplayName         	= Test Tube with Strong Poison,
+        icon 			= HCTesttubepoisonstrong,
+	ReplaceOnDeplete	= HCGlasstesttubecork,
+    }
+
+/************************RECIPES************************/	
+
+
+recipe Make Mild Poison
+    {
+	SkillRequired:Cooking=2,
+    	BerryPoisonIvy=5,
+	HCGlasstesttubecork,
+    	keep MortarPestle/HCMortarandpestle,
+    	keep HCHerbtable,
+    	CanBeDoneFromFloor:true,
+	Result:HCTesttubepoisonmild,
+    	NeedToBeLearn:true,
+    	Category:Alchemy,
+    	Time:100.0,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Mild Poison
+    {
+	SkillRequired:Cooking=2,
+    	HCAnemome=4,
+	HCGlasstesttubecork,
+    	keep MortarPestle/HCMortarandpestle,
+    	keep HCHerbtable,
+    	CanBeDoneFromFloor:true,
+	Result:HCTesttubepoisonmild,
+    	NeedToBeLearn:true,
+    	Category:Alchemy,
+    	Time:100.0,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Mild Poison
+    {
+	SkillRequired:Cooking=2,
+    	HCMandrake=2,
+	HCGlasstesttubecork,
+    	keep MortarPestle/HCMortarandpestle,
+    	keep HCHerbtable,
+    	CanBeDoneFromFloor:true,
+	Result:HCTesttubepoisonmild,
+    	NeedToBeLearn:true,
+    	Category:Alchemy,
+    	Time:100.0,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Mild Poison
+    {
+	SkillRequired:Cooking=2,
+    	HCBelladonna=2,
+	HCGlasstesttubecork,
+    	keep MortarPestle/HCMortarandpestle,
+    	keep HCHerbtable,
+    	CanBeDoneFromFloor:true,
+	Result:HCTesttubepoisonmild,
+    	NeedToBeLearn:true,
+    	Category:Alchemy,
+    	Time:100.0,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Strong Poison
+    {
+	SkillRequired:Cooking=4,
+    	HCAnemome=8,
+	HCGlasstesttubecork,
+    	keep MortarPestle/HCMortarandpestle,
+    	keep HCHerbtable,
+    	CanBeDoneFromFloor:true,
+	Result:HCTesttubepoisonstrong,
+    	NeedToBeLearn:true,
+    	Category:Alchemy,
+    	Time:100.0,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Strong Poison
+    {
+	SkillRequired:Cooking=4,
+    	HCBelladonna,
+	HCGlasstesttubecork,
+    	keep MortarPestle/HCMortarandpestle,
+    	keep HCHerbtable,
+    	CanBeDoneFromFloor:true,
+	Result:HCTesttubepoisonstrong,
+    	NeedToBeLearn:true,
+    	Category:Alchemy,
+    	Time:100.0,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Strong Poison
+    {
+	SkillRequired:Cooking=4,
+    	BerryPoisonIvy=10,
+	HCGlasstesttubecork,
+    	keep MortarPestle/HCMortarandpestle,
+    	keep HCHerbtable,
+    	CanBeDoneFromFloor:true,
+	Result:HCTesttubepoisonstrong,
+    	NeedToBeLearn:true,
+    	Category:Alchemy,
+    	Time:100.0,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Drink Poison
+    {
+	HCSuicidenote,
+    	HCTesttubepoisonmild,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCPoisonNL,
+    	Category:Death,
+	Sound:PZ_Drink,
+    	Time:10.0,
+    }
+
+recipe Drink Poison
+    {
+	HCSuicidenote,
+    	HCTesttubepoisonstrong,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCPoison,
+    	Category:Death,
+	Sound:PZ_Drink,
+    	Time:10.0,
+    }
+	
+recipe Add Poison to Inventory Food
+    {
+	HCSuicidenote,
+	HCTesttubepoisonmild,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCAddPoisonNL,
+    	Category:Death,
+    	Time:30.0,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Add Poison to Inventory Food
+    {
+	HCSuicidenote,
+	HCTesttubepoisonstrong,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCAddPoison,
+    	Category:Death,
+    	Time:30.0,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+}

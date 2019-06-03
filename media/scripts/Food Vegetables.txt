@@ -1,0 +1,792 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCBeans
+   {
+	HungerChange			=	-10,
+	Weight				=	0.3,
+	Type				=	Food,
+	DaysTotallyRotten		=	15,
+	DisplayName			=	Beans,
+	Icon				=	HCBeans,
+	DaysFresh			=	7,
+	EvolvedRecipe 			=	Soup:10;Stew:10;Stir fry:10;Sandwich:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	21,
+        Proteins 			= 	5.4,
+        Lipids 				= 	0.6,
+        Calories 			= 	93,
+   }
+
+   item HCPeapod
+   {
+	HungerChange			=		-20,
+	Weight				=		0.3,
+	Type				=		Food,
+	DaysTotallyRotten		=		15,
+	DisplayName			=		Peapod,
+	Icon				=		HCPeapod,
+	DaysFresh			=		7,
+	EvolvedRecipe 			= 		Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   		Vegetables,
+        Carbohydrates 			= 		42,
+        Proteins 			= 		16.2,
+        Lipids 				= 		1.2,
+        Calories 			=		243,
+   }
+
+   item HCSweetpotato
+   {
+	Type				=		Food,
+	DisplayName			=		Sweet Potato,
+	Icon				=		HCSweetpotato,
+	Weight				=		0.3,
+	HungerChange 			=		-20,
+	DaysFresh 			=		14,
+	DaysTotallyRotten 		=	 	28,
+        FoodType    			=   		Vegetables,
+        EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   		Vegetables,
+        Carbohydrates 			= 		60,
+        Proteins 			= 		4.8,
+        Lipids 				= 		0.3,
+        Calories 			=		258,
+   }
+
+   item HCChinesecabbage
+   {
+	Type				=		Food,
+	DisplayName			=		Chinese Cabbage,
+	Icon				=		HCChinesecabbage,
+	Weight				=		0.3,
+	HungerChange 			=		-5,
+	ThirstChange			=		-15,
+	DaysFresh 			=		5,
+	DaysTotallyRotten 		=	 	10,
+	FoodType    			=   		Vegetables,
+	EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		6.6,
+        Proteins 			= 		4.5,
+        Lipids 				= 		0.6,
+        Calories 			=		39,
+    }
+
+    item HCCucumber
+    {
+        Type				=		Food,
+        DisplayName			=		Cucumber,
+        Icon				=		HCCucumber,
+        Weight				=		0.3,
+        HungerChange 			=		-5,
+	ThirstChange			=		-15,
+        DaysFresh 			=		6,
+        DaysTotallyRotten 		=	 	14,
+        FoodType            		=       	Vegetables,
+        EvolvedRecipe 			= 		Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		10.8,
+        Proteins 			= 		2.1,
+        Lipids 				= 		0.3,
+        Calories 			=		45,
+	ReplaceOnUse			=		Hydrocraft.HCCucumberseeds,
+    }
+
+    item HCCauliflower
+    {
+	HungerChange			=		-10,
+	Weight				=		0.3,
+	Type				=		Food,
+	DaysTotallyRotten		=		10,
+	DisplayName			=		Cauliflower,
+	Icon				=		HCCauliflower,
+	DaysFresh			=		5,
+	FoodType    			=   		Vegetables,
+	EvolvedRecipe 			= 		Soup:10;Stew:10;Stir fry:10;Sandwich:10;Salad:10;Roasted Vegetables:10;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		15,
+        Proteins 			= 		5.7,
+        Lipids 				= 		0.9,
+        Calories 			=		75,
+    }
+
+    item HCBellpeppergreen
+    {
+	HungerChange			=		-5,
+        Weight				=		0.2,
+        Type				=		Food,
+        DaysTotallyRotten		=		10,
+        DisplayName			=		Bell Pepper,
+        Icon				=		HCBellpeppergreen,
+        DaysFresh			=		6,
+        FoodType    			=   		Vegetables,
+        EvolvedRecipe 			= 		Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		9.2,
+        Proteins 			= 		1.8,
+        Lipids 				= 		0.4,
+        Calories 			=		40,
+	ReplaceOnUse			=		Hydrocraft.HCBellpeppergreenseeds,
+     }
+
+    item HCBellpepperyellow
+    {
+	HungerChange			=		-5,
+        Weight				=		0.2,
+        Type				=		Food,
+        DaysTotallyRotten		=		10,
+        DisplayName			=		Bell Pepper,
+        Icon				=		HCBellpepperyellow,
+        DaysFresh			=		6,
+        FoodType    			=   		Vegetables,
+        EvolvedRecipe 			= 		Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		12.6,
+        Proteins 			= 		2,
+        Lipids 				= 		0.4,
+        Calories 			=		54,
+	ReplaceOnUse			=		Hydrocraft.HCBellpepperyellowseeds,
+     }
+
+     item HCOniongreen
+     {
+	HungerChange			=		-5,
+	Weight				=		0.2,
+	Type				=		Food,
+	DaysTotallyRotten		=		9,
+	DisplayName			=		Green Onion,
+	Icon				=		HCOniongreen,
+	DaysFresh			=		7,
+	FoodType    			=   		Vegetables,
+	EvolvedRecipe 			= 		Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	Carbohydrates 			= 		14.6,
+        Proteins 			= 		3.6,
+        Lipids 				= 		0.4,
+        Calories 			=		64,
+     }
+
+     item HCGarlic
+     {
+	HungerChange			=		-25,
+	Weight				=		0.2,
+	Type				=		Food,
+	DaysTotallyRotten		=		20,
+	DisplayName			=		Garlic,
+	Icon				=		HCGarlic,
+	DaysFresh			=		10,
+	FoodType    			=   		Vegetables,
+	EvolvedRecipe 			= 		Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		66,
+        Proteins 			= 		12.8,
+        Lipids 				= 		1,
+        Calories 			=		298,
+     }
+
+   item HCGinger
+   {
+	Type				=		Food,
+	DisplayName			=		Ginger,
+	Icon				=		HCGinger,
+	Weight				=		0.2,
+	HungerChange 			=		-15,
+	DaysFresh 			=		14,
+	DaysTotallyRotten 		=	 	28,
+        FoodType    			=   		Vegetables,
+	EvolvedRecipe 			= 		Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		36,
+        Proteins 			= 		3.6,
+        Lipids 				= 		0.4,
+        Calories 			=		160,
+   }
+
+   item HCPumpkin
+   {
+	Type				=		Food,
+	DisplayName			=		Pumpkin,
+	Icon				=		HCPumpkin,
+	Weight				=		0.9,
+	HungerChange 			=		-20,
+	DaysFresh 			=		14,
+	DaysTotallyRotten 		=	 	28,
+        FoodType    			=   		Vegetables,
+        EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	ResizeWorldIcon 		= 		2.0,
+        Carbohydrates 			= 		58.5,
+        Proteins 			= 		9,
+        Lipids 				= 		0.9,
+        Calories 			=		234,
+   }
+
+   item HCPumpkinflesh
+   {
+	Type				=		Food,
+	DisplayName			=		Pumpkin Flesh,
+	Icon				=		HCPumpkinflesh,
+	Weight				=		0.1,
+	HungerChange 			=		-5,
+	DaysFresh 			=		14,
+	DaysTotallyRotten 		=	 	28,
+        FoodType    			=   		Vegetables,
+        EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+        Carbohydrates 			= 		6.3,
+        Proteins 			= 		1,
+        Lipids 				= 		0.1,
+        Calories 			=		26,
+   }
+
+   item HCPumpkingreen
+   {
+	Type				=		Food,
+	DisplayName			=		Green Pumpkin,
+	Icon				=		HCPumpkingreen,
+	Weight				=		0.9,
+	HungerChange 			=		-20,
+	DaysFresh 			=		14,
+	DaysTotallyRotten 		=	 	28,
+        FoodType    			=   		Vegetables,
+        EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	ResizeWorldIcon 		= 		2.0,
+        Carbohydrates 			= 		58.5,
+        Proteins 			= 		9,
+        Lipids 				= 		0.9,
+        Calories 			=		234,
+	ReplaceOnUse			=		Hydrocraft.HCPumpkingreenseeds,
+   }
+
+   item HCPumpkinwhite
+   {
+	Type				=		Food,
+	DisplayName			=		White Pumpkin,
+	Icon				=		HCPumpkinwhite,
+	Weight				=		0.9,
+	HungerChange 			=		-20,
+	DaysFresh 			=		14,
+	DaysTotallyRotten 		=	 	28,
+        FoodType    			=   		Vegetables,
+        EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	ResizeWorldIcon 		= 		2.0,
+        Carbohydrates 			= 		58.5,
+        Proteins 			= 		9,
+        Lipids 				= 		0.9,
+        Calories 			=		234,
+	ReplaceOnUse			=		Hydrocraft.HCPumpkinwhiteseeds,
+   }
+
+   item HCPumpkinlarge
+   {
+	Type				=		Food,
+	DisplayName			=		Large Pumpkin,
+	Icon				=		HCPumpkinlarge,
+	Weight				=		0.9,
+	HungerChange 			=		-20,
+	DaysFresh 			=		14,
+	DaysTotallyRotten 		=	 	28,
+        FoodType    			=   		Vegetables,
+        EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	ResizeWorldIcon 		= 		2.0,
+        Carbohydrates 			= 		58.5,
+        Proteins 			= 		9,
+        Lipids 				= 		0.9,
+        Calories 			=		234,
+	ReplaceOnUse			=		Hydrocraft.HCPumpkinlargeseeds,
+   }
+
+   item HCPumpkinbuskin
+   {
+	Type				=		Food,
+	DisplayName			=		Buskin Pumpkin,
+	Icon				=		HCPumpkinbuskin,
+	Weight				=		0.9,
+	HungerChange 			=		-20,
+	DaysFresh 			=		14,
+	DaysTotallyRotten 		=	 	28,
+        FoodType    			=   		Vegetables,
+        EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	ResizeWorldIcon 		= 		2.0,
+        Carbohydrates 			= 		58.5,
+        Proteins 			= 		9,
+        Lipids 				= 		0.9,
+        Calories 			=		234,
+	ReplaceOnUse			=		Hydrocraft.HCPumpkinbuskinseeds,
+   }
+
+    item HCCornred
+	{
+	HungerChange			=		-15,
+	Weight				=		0.2,
+	Type				=		Food,
+	DaysTotallyRotten		=		8,
+	DisplayName			=		Red Corn,
+	Icon				=		HCCornred,
+	DaysFresh			=		5,
+        FoodType    			=   		Vegetables,
+        EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		38,
+        Proteins 			= 		6.4,
+        Lipids 				= 		2.4,
+        Calories 			=		172,
+	}
+
+    item HCCornblue
+	{
+	HungerChange			=		-15,
+	Weight				=		0.2,
+	Type				=		Food,
+	DaysTotallyRotten		=		8,
+	DisplayName			=		Blue Corn,
+	Icon				=		HCCornblue,
+	DaysFresh			=		5,
+        FoodType    			=   		Vegetables,
+        EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		38,
+        Proteins 			= 		6.4,
+        Lipids 				= 		2.4,
+        Calories 			=		172,
+	}
+
+    item HCCornwhite
+	{
+	HungerChange			=		-15,
+	Weight				=		0.2,
+	Type				=		Food,
+	DaysTotallyRotten		=		8,
+	DisplayName			=		White Corn,
+	Icon				=		HCCornwhite,
+	DaysFresh			=		5,
+        FoodType    			=   		Vegetables,
+        EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		38,
+        Proteins 			= 		6.4,
+        Lipids 				= 		2.4,
+        Calories 			=		172,
+	}
+
+    item HCCabbagered
+	{
+	Type				=		Food,
+	DisplayName			=		Red Cabbage,
+	Icon				=		HCCabbagered,
+	Weight				=		0.2,
+	HungerChange 			=		-5,
+	ThirstChange			=		-15,
+	DaysFresh 			=		5,
+	DaysTotallyRotten 		=	 	10,
+	EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+	FoodType    			=   		Vegetables,
+        Carbohydrates 			= 		14.8,
+        Proteins 			= 		2.8,
+        Lipids 				= 		0.4,
+        Calories 			=		62,
+	}
+
+    item HCCabbagewhite
+	{
+	Type				=		Food,
+	DisplayName			=		White Cabbage,
+	Icon				=		HCCabbagewhite,
+	Weight				=		0.2,
+	HungerChange 			=		-5,
+	ThirstChange			=		-15,
+	DaysFresh 			=		5,
+	DaysTotallyRotten 		=	 	10,
+	EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+	FoodType    			=   		Vegetables,
+        Carbohydrates 			= 		14.8,
+        Proteins 			= 		2.8,
+        Lipids 				= 		0.4,
+        Calories 			=		62,
+	}
+
+    item HCPotatogolden
+	{
+	Type				=		Food,
+	DisplayName			=		Golden Potato,
+	Icon				=		HCPotatogolden,
+	Weight				=		0.3,
+	HungerChange 			=		-20,
+	DaysFresh 			=		14,
+	DaysTotallyRotten 		=	 	28,
+        EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			=   		Vegetables,
+        Carbohydrates 			= 		48,
+        Proteins 			= 		5.1,
+        Lipids 				= 		0.3,
+        Calories 			=		207,
+	}
+
+    item HCPotatored
+	{
+	Type				=		Food,
+	DisplayName			=		Red Potato,
+	Icon				=		HCPotatored,
+	Weight				=		0.3,
+	HungerChange 			=		-20,
+	DaysFresh 			=		14,
+	DaysTotallyRotten 		=	 	28,
+        EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			=   		Vegetables,
+        Carbohydrates 			= 		48,
+        Proteins 			= 		5.7,
+        Lipids 				= 		0.3,
+        Calories 			=		210,
+	}
+
+    item HCChilipepper
+	{
+	Type				=		Food,
+	DisplayName			=		Chili Pepper,
+	Icon				=		HCChilipepper,
+	Weight				=		0.2,
+	HungerChange 			=		-10,
+	DaysFresh 			=		14,
+	DaysTotallyRotten 		=	 	28,
+        EvolvedRecipe       		=       	Soup:10;Stew:10;Stir fry:10;Sandwich:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+        FoodType    			=   		Vegetables,
+        Carbohydrates 			= 		17.6,
+        Proteins 			= 		3.8,
+        Lipids 				= 		0.8,
+        Calories 			=		80,
+	ReplaceOnUse			=		Hydrocraft.HCChilipepperseeds,
+	}
+
+    item HCChilipeppercut
+	{
+	Type				=		Food,
+	DisplayName			=		Cut Chili Pepper,
+	Icon				=		HCChilipeppercut,
+	Weight				=		0.1,
+	HungerChange 			=		-5,
+	DaysFresh 			=		14,
+	DaysTotallyRotten 		=	 	28,
+        EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+        FoodType    			=   		Vegetables,
+        Carbohydrates 			= 		8.8,
+        Proteins 			= 		1.9,
+        Lipids 				= 		0.4,
+        Calories 			=		40,
+	}
+
+item HCChiligreen
+	{
+	Type	        		=		Food,
+	HungerChange	        	=		-10,
+	Weight	        		=		0.2,
+	DaysFresh 			=		14,
+	DaysTotallyRotten 		=		28,
+        EvolvedRecipe       		=       	Soup:10;Stew:10;Pie:10;Stir fry:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+        FoodType    			=   		Vegetables,
+	DisplayName			=		Green Chili,
+	Icon	        		=		HCChiligreen,
+	CustomContextMenu 		= 		Eat,
+        Carbohydrates 			= 		17.6,
+        Proteins 			= 		3.8,
+        Lipids 				= 		0.8,
+        Calories 			=		80,
+	ReplaceOnUse			=		Hydrocraft.HCChiligreenseeds,
+	}
+
+item HCTomatillo
+	{
+	Type	        		=		Food,
+	HungerChange	        	=		-5,
+	Weight	        		=		0.1,
+	DaysFresh 			=		10,
+	DaysTotallyRotten 		=		20,
+        EvolvedRecipe       		=       	Soup:5;Stew:5;Pie:5;Stir fry:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+        FoodType    			=   		Vegetables,
+	DisplayName			=		Tomatillo,
+	Icon	        		=		HCTomatillo,
+	CustomContextMenu 		= 		Eat,
+        Carbohydrates 			= 		2.0,
+        Proteins 			= 		0.3,
+        Lipids 				= 		0.3,
+        Calories 			=		11,
+	ReplaceOnUse			=		Hydrocraft.HCTomatilloseeds,
+	}
+
+   item HCColewort
+   {
+	Type				=		Food,
+	DisplayName			=		Colewort,
+	Icon				=		HCColewort,
+	Weight				=		0.3,
+	HungerChange 			=		-5,
+	DaysFresh 			=		5,
+	DaysTotallyRotten 		=	 	10,
+	FoodType    			=   		Vegetables,
+	EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		0.4,
+        Proteins 			= 		0.3,
+        Lipids 				= 		0.1,
+        Calories 			=		3,
+    }
+
+   item HCArtichoke
+   {
+	Type				=		Food,
+	DisplayName			=		Artichoke,
+	Icon				=		HCArtichoke,
+	Weight				=		0.3,
+	HungerChange 			=		-5,
+	DaysFresh 			=		5,
+	DaysTotallyRotten 		=	 	10,
+	FoodType    			=   		Vegetables,
+	EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		13,
+        Proteins 			= 		4.2,
+        Lipids 				= 		0.2,
+        Calories 			=		60,
+    }
+
+   item HCSpirulinafresh
+   {
+	Type				=		Food,
+	DisplayName			=		Spirulina,
+	Icon				=		HCSpirulinafresh,
+	Weight				=		0.1,
+	HungerChange 			=		-5,
+	DaysFresh 			=		5,
+	DaysTotallyRotten 		=	 	10,
+	IsCookable			=		TRUE,
+	MinutesToCook			=		40,
+	MinutesToBurn			=		60,
+	ReplaceOnUse			=		BakingTray,
+	ReplaceOnCooked			= 		Hydrocraft.HCSpirulinapowder,
+	FoodType    			=   		Vegetables,
+	EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		1.7,
+        Proteins 			= 		4,
+        Lipids 				= 		0.5,
+        Calories 			=		20,
+    }
+
+   item HCSpirulinapowder
+   {
+	Type				=		Food,
+	DisplayName			=		Spirulina Powder,
+	Icon				=		HCSpirulinapowder,
+	Weight				=		0.1,
+	HungerChange 			=		-5,
+	FoodType    			=   		Vegetables,
+        Carbohydrates 			= 		1.7,
+        Proteins 			= 		4,
+        Lipids 				= 		0.5,
+        Calories 			=		20,
+    }
+
+   item HCBeet
+   {
+	Type				=		Food,
+	DisplayName			=		Beetroot,
+	Icon				=		HCBeet,
+	Weight				=		0.3,
+	HungerChange 			=		-20,
+	DaysFresh 			=		14,
+	DaysTotallyRotten 		=	 	28,
+        FoodType    			=   		Vegetables,
+        EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   		Vegetables,
+        Carbohydrates 			= 		13,
+        Proteins 			= 		2.2,
+        Lipids 				= 		0.2,
+        Calories 			=		59,
+   }
+
+   item HCBasilleaf
+   {
+	Type				=		Food,
+	DisplayName			=		Basil Leaf,
+	Icon				=		HCBasilleaf,
+	Weight				=		0.1,
+	HungerChange 			=		-1,
+	ThirstChange			=		-15,
+	DaysFresh 			=		5,
+	DaysTotallyRotten 		=	 	10,
+	FoodType    			=   		Vegetables,
+	EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		0.1,
+        Proteins 			= 		0.2,
+        Lipids 				= 		0,
+        Calories 			=		1,
+    }
+
+   item HCAsparagus
+   {
+	Type				=		Food,
+	DisplayName			=		Asparagus,
+	Icon				=		HCAsparagus,
+	Weight				=		0.3,
+	HungerChange 			=		-5,
+	DaysFresh 			=		5,
+	DaysTotallyRotten 		=	 	10,
+	FoodType    			=   		Vegetables,
+	EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		0.6,
+        Proteins 			= 		0.4,
+        Lipids 				= 		0,
+        Calories 			=		3,
+    }
+
+    item HCJalapeno
+	{
+	Type	        		=		Food,
+	HungerChange	        	=		-10,
+	Weight	        		=		0.2,
+	DaysFresh 			=		14,
+	DaysTotallyRotten 		=		28,
+        EvolvedRecipe       		=       	Soup:10;Stew:10;Pie:10;Stir fry:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+        FoodType    			=   		Vegetables,
+	DisplayName			=		Jalapeno,
+	Icon	        		=		HCJalapeno,
+	CustomContextMenu 		= 		Eat,
+        Carbohydrates 			= 		6.0,
+        Proteins 			= 		0.8,
+        Lipids 				= 		0.3,
+        Calories 			=		26,
+	}
+
+    item HCSquashsummer
+    {
+        Type				=		Food,
+        DisplayName			=		Summer Squash,
+        Icon				=		HCSquashsummer,
+        Weight				=		0.3,
+        HungerChange 			=		-5,
+	ThirstChange			=		-15,
+        DaysFresh 			=		6,
+        DaysTotallyRotten 		=	 	14,
+        FoodType            		=       	Vegetables,
+        EvolvedRecipe 			= 		Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		7,
+        Proteins 			= 		2.4,
+        Lipids 				= 		0.4,
+        Calories 			=		32,
+    }
+
+   item HCBeetsugar
+   {
+	Type				=		Food,
+	DisplayName			=		Sugar Beet,
+	Icon				=		HCBeetsugar,
+	Weight				=		0.3,
+	HungerChange 			=		-20,
+	DaysFresh 			=		14,
+	DaysTotallyRotten 		=	 	28,
+        FoodType    			=   		Vegetables,
+        EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   		Vegetables,
+        Carbohydrates 			= 		8,
+        Proteins 			= 		1,
+        Lipids 				= 		0,
+        Calories 			=		35,
+   }
+
+   item HCCelery
+   {
+	Type				=		Food,
+	DisplayName			=		Celery,
+	Icon				=		HCCelery,
+	Weight				=		0.3,
+	HungerChange 			=		-5,
+	DaysFresh 			=		5,
+	DaysTotallyRotten 		=	 	10,
+	FoodType    			=   		Vegetables,
+	EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		1.2,
+        Proteins 			= 		0.3,
+        Lipids 				= 		0.1,
+        Calories 			=		6,
+    }
+
+   item HCTomatocherry
+	{
+	Type	        		=		Food,
+	HungerChange	        	=		-5,
+	Weight	        		=		0.1,
+	DaysFresh 			=		10,
+	DaysTotallyRotten 		=		20,
+        EvolvedRecipe       		=       	Soup:5;Stew:5;Pie:5;Stir fry:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+        FoodType    			=   		Vegetables,
+	DisplayName			=		Cherry Tomato,
+	Icon	        		=		HCTomatocherry,
+	CustomContextMenu 		= 		Eat,
+        Carbohydrates 			= 		4,
+        Proteins 			= 		0,
+        Lipids 				= 		1,
+        Calories 			=		18,
+	}
+
+   item HCSpinach
+   {
+	Type				=		Food,
+	DisplayName			=		Spinach,
+	Icon				=		HCSpinach,
+	Weight				=		0.3,
+	HungerChange 			=		-5,
+	ThirstChange			=		-15,
+	DaysFresh 			=		5,
+	DaysTotallyRotten 		=	 	10,
+	FoodType    			=   		Vegetables,
+	EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		1.1,
+        Proteins 			= 		0.9,
+        Lipids 				= 		0.1,
+        Calories 			=		7,
+    }
+
+/************************RECIPES************************/
+
+recipe Slice Pumpkin
+       {
+       	HCPumpkin,
+	keep HCPumpkinknife,
+       	Result:HCPumpkinflesh=8, 
+       	Time:50,
+       	Category:Cooking,
+    	OnCreate:recipe_hcpumpkinseeds8,
+    	OnGiveXP:HCCooking_OnGiveXP,
+       }
+
+recipe Slice Green Pumpkin
+       {
+       	HCPumpkingreen,
+	keep HCPumpkinknife,
+       	Result:HCPumpkinflesh=6, 
+       	Time:50,
+       	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+       }
+
+recipe Slice White Pumpkin
+       {
+       	HCPumpkinwhite,
+	keep HCPumpkinknife,
+       	Result:HCPumpkinflesh=8, 
+       	Time:50,
+       	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+       }
+
+recipe Slice Large Pumpkin
+       {
+       	HCPumpkinlarge,
+	keep HCPumpkinknife,
+       	Result:HCPumpkinflesh=12, 
+       	Time:50,
+       	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+       }
+
+recipe Slice Buskin Pumpkin
+       {
+       	HCPumpkinbuskin,
+	keep HCPumpkinknife,
+       	Result:HCPumpkinflesh=10, 
+       	Time:50,
+       	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+       }
+	
+}

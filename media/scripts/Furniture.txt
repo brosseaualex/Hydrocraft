@@ -1,0 +1,353 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, Radio
+
+    }
+
+/************************ITEMS************************/
+
+item HCWindowswood
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= fixtures_windows_01_1,
+	DisplayName		= Wooden Windows,
+	Icon			= default,
+	}
+
+item HCMicrowave
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= appliances_cooking_01_25,
+	DisplayName		= Microwave,
+	Icon			= default,
+	}
+
+item HCMinifridge
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= appliances_refrigeration_01_24,
+	DisplayName		= Mini Fridge,
+	Icon			= default,
+	}
+
+item HCWashingmachine
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= appliances_laundry_01_5,
+	DisplayName		= Washing Machine,
+	Icon			= default,
+	}
+
+item HCDryingmachine
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= appliances_laundry_01_1,
+	DisplayName		= Drying Machine,
+	Icon			= default,
+	}
+
+item HCTelevision
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= appliances_television_01_5,
+	DisplayName		= Television,
+	Icon			= default,
+	}
+
+item HCPedestalmarble
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= location_shop_mall_01_64,
+	DisplayName		= Marble Pedestal,
+	Icon			= default,
+	}
+
+item HCStatuemarble1
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= location_shop_mall_01_65,
+	DisplayName		= Marble Statue,
+	Icon			= default,
+	}
+
+item HCStatuemarble2
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= location_shop_mall_01_66,
+	DisplayName		= Marble Statue,
+	Icon			= default,
+	}
+
+item HCStatuemarble3
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= location_shop_mall_01_67,
+	DisplayName		= Marble Statue,
+	Icon			= default,
+	}
+
+item HCStatuemarble4
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= location_shop_mall_01_68,
+	DisplayName		= Marble Statue,
+	Icon			= default,
+	}
+
+item HCStatuemarble5
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= location_shop_mall_01_69,
+	DisplayName		= Marble Statue,
+	Icon			= default,
+	}
+
+item HCStatuemarble6
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= location_shop_mall_01_70,
+	DisplayName		= Marble Statue,
+	Icon			= default,
+	}
+
+item HCPainting1
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= walls_decoration_01_46,
+	DisplayName		= Painting,
+	Icon			= default,
+	}
+
+item HCPainting2
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= walls_decoration_01_48,
+	DisplayName		= Painting,
+	Icon			= default,
+	}
+
+item HCPainting3
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= walls_decoration_01_35,
+	DisplayName		= Painting,
+	Icon			= default,
+	}
+
+item HCPainting4
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= walls_decoration_01_56,
+	DisplayName		= Painting,
+	Icon			= default,
+	}
+
+item HCPainting5
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= walls_decoration_01_50,
+	DisplayName		= Painting,
+	Icon			= default,
+	}
+
+item HCLamp1
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= lighting_indoor_01_35,
+	DisplayName		= Lamp,
+	Icon			= default,
+	}
+
+/************************RECIPES************************/
+    
+
+recipe Make Wooden Windows
+   {  
+    	SkillRequired:Woodwork=4,
+    	Plank=4,
+    	Nails=4,
+	HCGlasspane,
+    	keep Hammer,
+    	keep Saw,
+    	Sound:PZ_Hammer,
+        Result:HCWindowswood,
+   	Time:500,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Fix Microwave
+   {  
+	SkillRequired:Electricity=5,
+    	HCJunkmicro,
+	ElectronicsScrap=5,
+        keep Screwdriver,
+	keep HCElectornicsbench,
+        Result:HCMicrowave,
+        Time:1000.0,
+        NeedToBeLearn:true,
+        Category:Electrical,
+        OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Fix Fridge
+   {  
+	SkillRequired:Electricity=5,
+    	HCJunkfridge,
+	ElectronicsScrap=10,
+        keep Screwdriver,
+	keep HCElectornicsbench,
+        Result:HCMinifridge,
+        Time:1000.0,
+        NeedToBeLearn:true,
+        Category:Electrical,
+        OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Fix Washing Machine
+   {  
+	SkillRequired:Electricity=5,
+    	HCJunkwash,
+	ElectronicsScrap=10,
+        keep Screwdriver,
+	keep HCElectornicsbench,
+        Result:HCWashingmachine,
+        Time:1000.0,
+        NeedToBeLearn:true,
+        Category:Electrical,
+        OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Fix Drying Machine
+   {  
+	SkillRequired:Electricity=5,
+    	HCJunkdryer,
+	ElectronicsScrap=10,
+        keep Screwdriver,
+	keep HCElectornicsbench,
+        Result:HCDryingmachine,
+        Time:1000.0,
+        NeedToBeLearn:true,
+        Category:Electrical,
+        OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Marble Pedestal
+    {
+    	HCMarble=10,
+    	keep HCChisel,
+    	Result:HCPedestalmarble,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Marble Statue
+    {
+    	HCMarble=30,
+    	keep HCChisel,
+    	Result:HCStatuemarble1,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Marble Statue
+    {
+    	HCMarble=30,
+    	keep HCChisel,
+    	Result:HCStatuemarble2,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Marble Statue
+    {
+    	HCMarble=30,
+    	keep HCChisel,
+    	Result:HCStatuemarble3,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Marble Statue
+    {
+    	HCMarble=30,
+    	keep HCChisel,
+    	Result:HCStatuemarble4,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Marble Statue
+    {
+    	HCMarble=30,
+    	keep HCChisel,
+    	Result:HCStatuemarble5,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Marble Statue
+    {
+    	HCMarble=30,
+    	keep HCChisel,
+    	Result:HCStatuemarble6,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Lamp
+    {
+	SkillRequired:Electricity=2,
+	HCLampshade,
+    	LightBulb,
+	HCClayurn,
+	HCSwitch,
+        HCCablecopper,
+	HCPowercord,
+	HCSolder,
+	HCSoldergunpowered,
+	keep HCElectornicsbench,
+        CanBeDoneFromFloor:true,
+    	Result:HCLamp1,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Electrical,
+        OnGiveXP:HCElectricity_OnGiveXP,
+    }
+	
+}

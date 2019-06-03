@@ -1,0 +1,283 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCBabyfoodjar
+    {
+        Weight    		= 0.2,
+        Type   			= Normal,
+        DisplayName         	= Baby Food Jar,
+        icon 			= HCBabyfoodjar,
+    }
+
+/************************FRUIT************************/
+
+item HCBabyfoodapplesauce
+	{
+	HungerChange			=	-6,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-8,
+	DisplayName			=	Baby Food (Applesauce),
+	Icon				=	HCBabyfood4,
+	ReplaceOnUse			=	HCBabyfoodjar,
+	BoredomChange			=	-6,
+	FoodType    			=   	Fruits,
+        Carbohydrates 			= 	17.94,
+        Proteins			= 	0.17,
+        Lipids 				= 	0.17,
+        Calories 			= 	66,
+	}
+
+item HCBabyfoodapricots
+	{
+	HungerChange			=	-6,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-8,
+	DisplayName			=	Baby Food (Apricots),
+	Icon				=	HCBabyfood2,
+	ReplaceOnUse			=	HCBabyfoodjar,
+	BoredomChange			=	-6,
+	FoodType    			=   	Fruits,
+        Carbohydrates 			= 	28.56,
+        Proteins			= 	0.51,
+        Lipids 				= 	0,
+        Calories 			= 	105,
+	}
+
+item HCBabyfoodbananas
+	{
+	HungerChange			=	-6,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-8,
+	DisplayName			=	Baby Food (Bananas),
+	Icon				=	HCBabyfood3,
+	ReplaceOnUse			=	HCBabyfoodjar,
+	BoredomChange			=	-6,
+	FoodType    			=   	Fruits,
+        Carbohydrates 			= 	28.14,
+        Proteins			= 	0.68,
+        Lipids 				= 	0.26,
+        Calories 			= 	105,
+	}
+
+item HCBabyfoodpeach
+	{
+	HungerChange			=	-6,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-8,
+	DisplayName			=	Baby Food (Peaches),
+	Icon				=	HCBabyfood2,
+	ReplaceOnUse			=	HCBabyfoodjar,
+	BoredomChange			=	-6,
+	FoodType    			=   	Fruits,
+        Carbohydrates 			= 	3.35,
+        Proteins			= 	0.14,
+        Lipids 				= 	0.06,
+        Calories 			= 	14,
+	}
+
+item HCBabyfoodpear
+	{
+	HungerChange			=	-6,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-8,
+	DisplayName			=	Baby Food (Pears),
+	Icon				=	HCBabyfood4,
+	ReplaceOnUse			=	HCBabyfoodjar,
+	BoredomChange			=	-6,
+	FoodType    			=   	Fruits,
+        Carbohydrates 			= 	16,
+        Proteins			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	70,
+	}
+
+item HCBabyfoodplums
+	{
+	HungerChange			=	-6,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-8,
+	DisplayName			=	Baby Food (Plums),
+	Icon				=	HCBabyfood7,
+	ReplaceOnUse			=	HCBabyfoodjar,
+	BoredomChange			=	-6,
+	FoodType    			=   	Fruits,
+        Carbohydrates 			= 	24.17,
+        Proteins			= 	0.17,
+        Lipids 				= 	0,
+        Calories 			= 	122,
+	}
+
+/************************VEGETABLES************************/
+
+item HCBabyfoodcarrot
+	{
+	HungerChange			=	-6,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-8,
+	DisplayName			=	Baby Food (Carrots),
+	Icon				=	HCBabyfood2,
+	ReplaceOnUse			=	HCBabyfoodjar,
+	BoredomChange			=	-6,
+	FoodType    			=   	Vegetables,
+        Carbohydrates 			= 	1.87,
+        Proteins			= 	0.23,
+        Lipids 				= 	0.04,
+        Calories 			= 	9,
+	}
+
+item HCBabyfoodcreamcorn
+	{
+	HungerChange			=	-6,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-8,
+	DisplayName			=	Baby Food (Cream Corn),
+	Icon				=	HCBabyfood3,
+	ReplaceOnUse			=	HCBabyfoodjar,
+	BoredomChange			=	-6,
+	FoodType    			=   	Vegetables,
+        Carbohydrates 			= 	25.81,
+        Proteins			= 	2.38,
+        Lipids 				= 	0.68,
+        Calories 			= 	104,
+	}
+
+item HCBabyfoodgreenbeans
+	{
+	HungerChange			=	-6,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-8,
+	DisplayName			=	Baby Food (Green Beans),
+	Icon				=	HCBabyfood4,
+	ReplaceOnUse			=	HCBabyfoodjar,
+	BoredomChange			=	-6,
+	FoodType    			=   	Vegetables,
+        Carbohydrates 			= 	9.86,
+        Proteins			= 	2.12,
+        Lipids 				= 	0.17,
+        Calories 			= 	42,
+	}
+
+item HCBabyfoodsquash
+	{
+	HungerChange			=	-6,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-8,
+	DisplayName			=	Baby Food (Squash),
+	Icon				=	HCBabyfood3,
+	ReplaceOnUse			=	HCBabyfoodjar,
+	BoredomChange			=	-6,
+	FoodType    			=   	Vegetables,
+        Carbohydrates 			= 	1.59,
+        Proteins			= 	0.23,
+        Lipids 				= 	0.06,
+        Calories 			= 	7,
+	}
+
+item HCBabyfoodsweerpotato
+	{
+	HungerChange			=	-6,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-8,
+	DisplayName			=	Baby Food (Sweet Potatoes),
+	Icon				=	HCBabyfood7,
+	ReplaceOnUse			=	HCBabyfoodjar,
+	BoredomChange			=	-6,
+	FoodType    			=   	Vegetables,
+        Carbohydrates 			= 	23.04,
+        Proteins			= 	1.97,
+        Lipids 				= 	0.17,
+        Calories 			= 	99,
+	}
+
+/************************MEAT************************/
+
+item HCBabyfoodbeef
+	{
+	HungerChange			=	-6,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-8,
+	DisplayName			=	Baby Food (Beef),
+	Icon				=	HCBabyfood1,
+	ReplaceOnUse			=	HCBabyfoodjar,
+	BoredomChange			=	-6,
+        FoodType    			=   	Meat,
+        Carbohydrates 			= 	0,
+        Proteins			= 	9.98,
+        Lipids 				= 	3.66,
+        Calories 			= 	75,
+	}
+
+item HCBabyfoodchicken
+	{
+	HungerChange			=	-6,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-8,
+	DisplayName			=	Baby Food (Chicken),
+	Icon				=	HCBabyfood1,
+	ReplaceOnUse			=	HCBabyfoodjar,
+	BoredomChange			=	-6,
+        FoodType    			=   	Meat,
+        Carbohydrates 			= 	0.53,
+        Proteins			= 	9.41,
+        Lipids 				= 	4.86,
+        Calories 			= 	86,
+	}
+
+item HCBabyfoodlamb
+	{
+	HungerChange			=	-6,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-8,
+	DisplayName			=	Baby Food (Lamb),
+	Icon				=	HCBabyfood1,
+	ReplaceOnUse			=	HCBabyfoodjar,
+	BoredomChange			=	-6,
+        FoodType    			=   	Meat,
+        Carbohydrates 			= 	0.07,
+        Proteins			= 	10.01,
+        Lipids 				= 	3.34,
+        Calories 			= 	73,
+	}
+
+item HCBabyfoodturkey
+	{
+	HungerChange			=	-6,
+	Weight				=	0.5,
+	Type				=	Food,
+	UnhappyChange			=	-8,
+	DisplayName			=	Baby Food (Turkey),
+	Icon				=	HCBabyfood1,
+	ReplaceOnUse			=	HCBabyfoodjar,
+	BoredomChange			=	-6,
+        FoodType    			=   	Meat,
+        Carbohydrates 			= 	0.04,
+        Proteins			= 	10.54,
+        Lipids 				= 	4.58,
+        Calories 			= 	87,
+	}
+
+/************************RECIPES************************/
+
+
+}

@@ -1,0 +1,422 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCLavalamp
+    {
+        Weight    		=    	1,
+        Type    		=    	Normal,
+        DisplayName    		=    	Lava Lamp,
+        Icon    		=    	HCLavalamp,
+    }
+
+item HCLampshade
+    {
+        Weight    		=    	0.1,
+        Type    		=	Normal,
+        DisplayName    		=    	Lamp Shade,
+        Icon    		=    	HCLampshade,
+    }
+
+item HCRoadflare
+    {
+        Weight    		=    1,
+        Type    		=    Normal,
+        DisplayName    		=    Road Flare,
+        Icon   		 	=    HCRoadflare,
+    }
+
+item HCRoadflareon
+	{
+		LightDistance	=	5,
+		Weight		=	1,
+		DisappearOnUse	=	TRUE,
+		Type		=	Drainable,
+		TorchCone	=	FALSE,
+		UseDelta	=	0.003,
+		LightStrength	=	0.4,
+		DisplayName	=	Road Flare,
+		ActivatedItem	=	TRUE,
+		Icon		=	HCRoadflareon,
+	}
+
+item HCLaserpointer
+    {
+        Weight    =    0.5,
+        Type    =    Normal,
+        DisplayName    =    Laser Pointer,
+        Icon    =    HCLaserpointer,
+    }
+
+
+item HCLaserpointeron
+	{
+		LightDistance	=	30,
+		Weight	=	0.5,
+		DisappearOnUse	=	FALSE,
+		Type	=	Drainable,
+		TorchCone	=	TRUE,
+		UseDelta	=	0.0009,
+		LightStrength	=	0.2,
+		DisplayName	=	Laser Pointer,
+		ActivatedItem	=	TRUE,
+		Icon	=	HCLaserpointeron,
+	}
+
+item HCGlowstickred
+    {
+        Weight    =    0.2,
+        Type    =    Normal,
+        DisplayName    =    Red Glowstick,
+        Icon    =    HCGlowstickred,
+    }
+
+
+item HCGlowstickredon
+	{
+		LightDistance	=	3,
+		Weight	=	0.2,
+		DisappearOnUse	=	FALSE,
+		Type	=	Drainable,
+		TorchCone	=	TRUE,
+		UseDelta	=	0.003,
+		LightStrength	=	0.4,
+		DisplayName	=	Red Glowstick,
+		ActivatedItem	=	TRUE,
+		Icon	=	HCGlowstickredon,
+	}
+
+item HCGlowstickblue
+    {
+        Weight    =    0.2,
+        Type    =    Normal,
+        DisplayName    =    Blue Glowstick,
+        Icon    =    HCGlowstickblue,
+    }
+
+
+item HCGlowstickblueon
+	{
+		LightDistance	=	3,
+		Weight	=	0.2,
+		DisappearOnUse	=	FALSE,
+		Type	=	Drainable,
+		TorchCone	=	TRUE,
+		UseDelta	=	0.003,
+		LightStrength	=	0.4,
+		DisplayName	=	Blue Glowstick,
+		ActivatedItem	=	TRUE,
+		Icon	=	HCGlowstickblueon,
+	}
+
+item HCGlowstickgreen
+    {
+        Weight    =    0.2,
+        Type    =    Normal,
+        DisplayName    =    Green Glowstick,
+        Icon    =    HCGlowstickgreen,
+    }
+
+
+item HCGlowstickgreenon
+	{
+		LightDistance	=	3,
+		Weight	=	0.2,
+		DisappearOnUse	=	FALSE,
+		Type	=	Drainable,
+		TorchCone	=	TRUE,
+		UseDelta	=	0.003,
+		LightStrength	=	0.4,
+		DisplayName	=	Green Glowstick,
+		ActivatedItem	=	TRUE,
+		Icon	=	HCGlowstickgreenon,
+	}
+
+
+item HCLighterfluid
+    {
+        	Weight    		= 	0.2,
+		Type			= 	Drainable,
+		UseWhileEquipped	= 	FALSE,
+		UseDelta		= 	0.25,
+        	DisplayName         	= 	Lighter Fluid,
+        	icon 			= 	HCLighterfluid,
+    }
+
+item HCLighterempty
+	{
+		Weight			=	0.1,
+		Type			=	Normal,
+		DisplayName		=	Empty Lighter,
+		Icon			=	Lighter,
+	}
+
+item HCFlashlightoff
+    {
+        Weight    		=    1.5,
+        Type    		=    Normal,
+        DisplayName    		=    Small Flashlight,
+        Icon   		 	=    HCFlashlightoff,
+    }
+
+
+item HCFlashlightdead
+    {
+        Weight    		=    1.5,
+        Type    		=    Normal,
+        DisplayName    		=    Dead Small Flashlight,
+        Icon   		 	=    HCFlashlightoff,
+    }
+
+item HCFlashlighton
+	{
+		LightDistance		=	15,
+		Weight			=	1.5,
+		ReplaceOnDeplete	=	HCFlashlightdead,
+		Type			=	Drainable,
+		TorchCone		=	FALSE,
+		UseDelta		=	0.0009,
+		LightStrength		=	0.8,
+		DisplayName		=	Small Flashlight with Power,
+		ActivatedItem		=	TRUE,
+		Icon			=	HCFlashlighton,
+	}
+
+item HCFlashlightmk1off
+    {
+        Weight    		=    1.5,
+        Type    		=    Normal,
+        DisplayName    		=    Small Homemade Flashlight,
+        Icon   		 	=    HCFlashlightmk1off,
+    }
+
+
+item HCFlashlightmk1dead
+    {
+        Weight    		=    1.5,
+        Type    		=    Normal,
+        DisplayName    		=    Dead Small Homemade Flashlight,
+        Icon   		 	=    HCFlashlightmk1off,
+    }
+
+item HCFlashlightmk1on
+	{
+		LightDistance		=	4,
+		Weight	        	=	0.5,
+		ReplaceOnDeplete	=	HCFlashlightmk1dead,
+		Type	        	=	Drainable,
+		TorchCone		=	TRUE,
+		UseDelta		=	0.0009,
+		LightStrength		=	0.2,
+		DisplayName		=	Small Homemade Flashlight with Power,
+		ActivatedItem		=	TRUE,
+		Icon	        	=	HCFlashlightmk1on,
+	}
+
+item HCDynamoflashlightoff
+    {
+        Weight    		=    1.5,
+        Type    		=    Normal,
+        DisplayName    		=    Dynamo Flashlight,
+        Icon   		 	=    HCDynamoflashlightoff,
+    }
+
+item HCDynamoflashlightdead
+    {
+        Weight    		=    1.5,
+        Type    		=    Normal,
+        DisplayName    		=    Dead Dynamo Flashlight,
+        Icon   		 	=    HCDynamoflashlightoff,
+    }
+
+item HCDynamoflashlighton
+	{
+		LightDistance		=	4,
+		Weight	        	=	0.5,
+		ReplaceOnDeplete	=	HCDynamoflashlightoff,
+		Type	        	=	Drainable,
+		TorchCone		=	TRUE,
+		UseDelta		=	0.0009,
+		LightStrength		=	0.2,
+		DisplayName		=	Dynamo Flashlight with Power,
+		ActivatedItem		=	TRUE,
+		Icon	        	=	HCDynamoflashlighton,
+	}
+
+item HCFlorescentlightbox
+    {
+        Weight    		= 2,
+        Type    		= Normal,
+        DisplayName     	= Florescent Light Tube Box,
+        icon 			= HCFlorescentlightbox,
+    }
+	
+item HCFlorescentlightbulb
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName     	= Florescent Light Tube,
+        icon 			= HCFlorescentlightbulb,
+    }
+
+/************************RECIPES************************/
+    
+recipe Ignite Road Flare
+    {
+    HCRoadflare,
+    Result:HCRoadflareon,
+    Time:15,
+    }
+
+recipe Turn on Laser Pointer
+    {
+    HCLaserpointer,
+    Result:HCLaserpointeron,
+    Time:15,
+    }
+
+recipe Shake Red Glowstick
+    {
+    HCGlowstickred,
+    Result:HCGlowstickredon,
+    Time:15,
+    }	
+
+recipe Shake Blue Glowstick
+    {
+    HCGlowstickblue,
+    Result:HCGlowstickblueon,
+    Time:15,
+    }	
+
+recipe Shake Green Glowstick
+    {
+    HCGlowstickgreen,
+    Result:HCGlowstickgreenon,
+    Time:15,
+    }	
+
+recipe Insert Battery
+    {
+    HCFlashlightoff,
+    HCBatterysmall,
+    Result:HCFlashlighton,
+    Time:15,
+    Category:Electrical,
+    }
+
+recipe Remove Battery
+    {
+    HCFlashlightdead,
+    Result:HCFlashlightoff,
+    Time:15,
+    Category:Electrical,
+    OnCreate:recipe_hcbatterysmalldead,
+    }
+
+recipe Refuel Lighter
+  	{
+   	HCLighterfluid,
+   	HCLighterempty,
+   	Result:Lighter,
+	Time:30.0,
+        Category:Engineer,
+  	}
+
+recipe Make Homemade Flashlight
+    {
+    	SkillRequired:Electricity=2,
+       	LightBulb,
+       	keep Screwdriver,
+       	RubberBand/Glue,
+       	destroy Battery,
+       	HCSwitch,
+       	HCCablecopper/HCCoppercablered/HCCoppercablestriped,
+       	keep HCElectornicsbench,
+       	CanBeDoneFromFloor:true,
+       	Result:HCFlashlightmk1off,
+       	Time:100.0,
+       	Category:Electrical,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Turn On Homemade Flashlight
+    {
+    	HCFlashlightmk1off,
+    	Result:HCFlashlightmk1on,
+    	Time:15,
+       	Category:Electrical,
+    }
+
+recipe Insert Battery
+    {
+    HCFlashlightmk1off,
+    HCBatterysmall,
+    Result:HCFlashlightmk1on,
+    Time:15,
+    Category:Electrical,
+    }
+
+recipe Remove Battery
+    {
+    HCFlashlightmk1dead,
+    Result:HCFlashlightmk1off,
+    Time:15,
+    Category:Electrical,
+    OnCreate:recipe_hcbatterysmalldead,
+    }
+
+recipe Make Dynamo Flashlight
+    {
+    	SkillRequired:Electricity=2,
+       	HCFlashlightmk1off,
+       	keep Screwdriver,
+       	keep HCElectornicsbench,
+       	CanBeDoneFromFloor:true,
+       	Result:HCDynamoflashlightoff,
+       	Time:100.0,
+       	Category:Electrical,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Turn On Dynamo Flashlight
+    {
+    	HCDynamoflashlightoff,
+    	Result:HCDynamoflashlighton,
+    	Time:15,
+       	Category:Electrical,
+    }
+
+recipe Rechnarge Dynamo Flashlight
+    {
+    	HCDynamoflashlightdead,
+    	Result:HCDynamoflashlightoff,
+    	Time:100,
+    	Category:Electrical,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Lamp Shade
+    {
+    	SheetPaper/SheetPaper2,
+    	Wire=4,
+    	Result:HCLampshade,
+    	Time:100,
+    	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Open Florescent Light Bulb Box
+	{
+	HCFlorescentlightbox,
+	Result:HCFlorescentlightbulb=2,
+	Time:50.0,
+	}
+	
+}

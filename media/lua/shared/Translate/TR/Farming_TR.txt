@@ -1,0 +1,18 @@
+Farming_TR = {
+  -- vegetables name (type of seed)
+  Farming_Bean = "Fasulye",
+  Farming_BellPepper = "Dolmalýk Biber",
+  Farming_Eggplant = "Patlýcan",
+  Farming_Grape = "Üzüm",
+  Farming_Leek = "Pýrasa",
+  Farming_Lettuce = "Marul",
+  Farming_Onion = "Soðan",
+  Farming_Pea = "Bezelye",
+  Farming_Peanut = "Yer Fýstýðý",
+  Farming_Pumpkin = "Balkabaðý",
+  Farming_Watermelon = "Karpuz",
+  Farming_Zucchini = "Kabak",
+  Farming_Tooltip_TrellisRequired = "Bitki Kafesi Gerekli: ",
+  Farming_Corn = "Mýsýr",
+
+}

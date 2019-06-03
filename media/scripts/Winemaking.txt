@@ -1,0 +1,440 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCWineglassfull
+	{
+	HungerChange		=	-5,
+	Weight			=	0.2,
+	Type			=	Food,
+	ThirstChange		=	-10,
+        UnhappyChange		=	-10,
+	DisplayName		=	Glass of Chardonnay,
+	Alcoholic		=	TRUE,
+	ReplaceOnUse		=	HCWineglass,
+	Icon			=	HCWineglassfull,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	5.2,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	170,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCWineglassfull2
+	{
+	HungerChange		=	-5,
+	Weight			=	0.2,
+	Type			=	Food,
+	ThirstChange		=	-10,
+        UnhappyChange		=	-10,
+	DisplayName		=	Glass of Red Wine,
+	Alcoholic		=	TRUE,
+	ReplaceOnUse		=	HCWineglass,
+	Icon			=	HCWineglassfull2,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	5.2,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	170,
+        CantBeFrozen 		= 	TRUE,
+	}
+ 
+item HCWoodenbucketgrape
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Bucket with Grape Juice,
+        icon 			= HCWoodenbucketgrape,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCWoodenbucketgrapegreen
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Bucket with White Grape Juice,
+        icon 			= HCWoodenbucketgrapegreen,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCBarrelgrape
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Barrel of Red Grape Juice,
+        icon 			= HCWinebarrel,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCBarrelgrapegreen
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Barrel of White Grape Juice,
+        icon 			= HCWinebarrel,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCBarrelwine
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Barrel of Red Wine,
+        icon 			= HCWinebarrel,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCBarrelwinewhite
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Barrel of White Wine,
+        icon 			= HCWinebarrel,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCBarrelvinegar
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Barrel of vinegar,
+        icon 			= HCWinebarrel,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCPotofhoneybrew
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	120,
+	MinutesToBurn			=	180,
+	DaysFresh			=	10,	
+	DaysTotallyRotten		=	20,
+	Icon				=	PotFull,
+	ReplaceOnCooked			=	Hydrocraft.HCPotofhoneybrewcooked,
+	ReplaceOnUse			=	Pot, 
+	DisplayName			=	Pot of Honey Brew,
+	}
+
+item HCPotofhoneybrewcooked
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	DaysFresh			=	1,	
+	DaysTotallyRotten		=	1,
+	DisplayName			=	Pot of Cooked Honey Brew,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot, 	
+	}
+
+item HCBarrelhoney
+	{
+        Weight    			= 	20,
+	Type 				= 	Normal,
+        DisplayName         		= 	Barrel of Brewed Honey,
+        ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
+        icon 				= 	HCWinebarrel,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCBarrelmead
+	{
+        Weight    			= 	20,
+	Type 				= 	Normal,
+        DisplayName         		= 	Barrel of Mead,
+        ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
+        icon 				= 	HCWinebarrel,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCPotofricemash
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	120,
+	MinutesToBurn			=	180,
+	DaysFresh			=	10,	
+	DaysTotallyRotten		=	20,
+	Icon				=	PotFull,
+	ReplaceOnCooked			=	Hydrocraft.HCPotofricemashcooked,
+	ReplaceOnUse			=	Pot, 
+	DisplayName			=	Pot of Rice Mash,
+	}
+
+item HCPotofricemashcooked
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	DaysFresh			=	1,	
+	DaysTotallyRotten		=	1,
+	DisplayName			=	Pot of Cooked Rice Mash,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot, 	
+	}
+
+item HCBarrelrice
+	{
+        Weight    			= 	20,
+	Type 				= 	Normal,
+        DisplayName         		= 	Barrel of Rice Mash,
+        ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
+        icon 				= 	HCWinebarrel,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCBarrelsake
+	{
+        Weight    			= 	20,
+	Type 				= 	Normal,
+        DisplayName         		= 	Barrel of Sake,
+        ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
+        icon 				= 	HCWinebarrel,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+/************************RECIPES************************/	
+
+recipe Pour Wine
+	{
+		HCWineglass=4,
+		Wine,
+		Result:HCWineglassfull=4,
+		Time:70.0,
+		Category:Cooking,
+    		OnCreate:recipe_hcwineempty,
+    		OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+
+recipe Pour Wine
+	{
+		HCWineglass=4,
+		Wine2,
+		Result:HCWineglassfull2=4,
+		Time:70.0,
+		Category:Cooking,
+    		OnCreate:recipe_hcwineempty2,
+    		OnGiveXP:HCCooking_OnGiveXP,	 		  
+	}
+
+recipe Juice Grapes Into Wooden Bucket
+	{
+       		SkillRequired:Cooking=2,
+		HCWoodenbucket,
+		Grapes=16,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWoodenbucketgrape,
+		Time:100,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,	 
+	}
+
+recipe Juice Grapes Into Wooden Bucket
+	{
+       		SkillRequired:Cooking=2,
+		HCWoodenbucket,
+		HCGrapesgreen=16,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWoodenbucketgrapegreen,
+		Time:100,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,	 
+	}
+
+recipe Prepare Wine Barrels
+    {
+       	SkillRequired:Cooking=3,
+	HCWoodenbarrel,
+	HCWoodenbucketgrape=5,
+	Yeast,
+	NeedToBeLearn:true,
+   	Result:HCBarrelgrape,
+    	Time:50,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbucket5,
+    	OnGiveXP:HCCooking_OnGiveXP,	 
+    }
+
+recipe Prepare Wine Barrels
+    {
+       	SkillRequired:Cooking=3,
+	HCWoodenbarrel,
+	HCWoodenbucketgrapegreen=5,
+	Yeast,
+	NeedToBeLearn:true,
+   	Result:HCBarrelgrapegreen,
+    	Time:50,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbucket5,
+    	OnGiveXP:HCCooking_OnGiveXP,	
+    }
+
+recipe Fill Bottles with Wine
+    {
+       	SkillRequired:Cooking=5,
+	HCBarrelwine,
+	WineEmpty=20,
+   	Result:Wine2=20,
+	NeedToBeLearn:true,
+    	Time:50,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
+    	OnGiveXP:HCCooking_OnGiveXP,	
+    }    
+
+recipe Fill Bottles with Wine
+    {
+       	SkillRequired:Cooking=5,
+	HCBarrelwinewhite,
+	WineEmpty=20,
+   	Result:Wine=20,
+	NeedToBeLearn:true,
+    	Time:50,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
+    	OnGiveXP:HCCooking_OnGiveXP,	
+    } 
+
+recipe Fill Bottles with Vinegar
+    {
+       	SkillRequired:Cooking=7,
+	HCBarrelvinegar,
+	WhiskeyEmpty=20,
+	NeedToBeLearn:true,
+   	Result:Vinegar=20,
+    	Time:50,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
+    	OnGiveXP:HCCooking_OnGiveXP,	
+    }
+
+recipe Prepare Pot of Honey Brew
+	{
+       	SkillRequired:Cooking=3,
+	destroy Pot,
+	Honey=5,
+        Water=5,
+        Yeast=1,
+	Result:HCPotofhoneybrew,
+	Time:100.0,
+	NeedToBeLearn:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,	
+	}
+
+recipe Prepare Pot of Honey Brew
+	{
+       	SkillRequired:Cooking=3,
+	destroy Pot,
+	HCHoney=5,
+        Water=5,
+        Yeast=1,
+	Result:HCPotofhoneybrew,
+	Time:100.0,
+	NeedToBeLearn:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,	
+	}
+
+recipe Prepare Pot of Honey Brew
+	{
+       	SkillRequired:Cooking=3,
+	destroy Pot,
+	HCJarhoney=5,
+        Water=5,
+        Yeast=1,
+	Result:HCPotofhoneybrew,
+	Time:100.0,
+	NeedToBeLearn:true,
+	Category:Cooking,
+    	OnCreate:recipe_hcjar5,
+    	OnGiveXP:HCCooking_OnGiveXP,	
+	}
+
+recipe Fill Barrel with Honey Brew
+        {
+       	SkillRequired:Cooking=5,
+	HCWoodenbarrel,
+	HCPotofhoneybrewcooked=3,
+   	Result:HCBarrelhoney,
+    	Time:50,
+	NeedToBeLearn:true,
+	Category:Cooking,
+    	OnCreate:recipe_hcpotatopot3,
+    	OnGiveXP:HCCooking_OnGiveXP,	
+        }
+
+recipe Make Bottle of Mead
+	{
+       	SkillRequired:Cooking=6,
+	HCBarrelmead,
+	WhiskeyEmpty=20,
+    	CanBeDoneFromFloor:true,
+	Result:HCMead=20,
+	Time:5000.0,
+	NeedToBeLearn:true,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
+    	OnGiveXP:HCCooking_OnGiveXP,	
+	}
+
+recipe Prepare Pot of Rice Mash
+	{
+       	SkillRequired:Cooking=3,
+	destroy Pot,
+	HCRiceflour=20,
+        Water=5,
+        Yeast=1,
+	Result:HCPotofricemash,
+	Time:100.0,
+	NeedToBeLearn:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,	
+	}
+
+recipe Fill Barrel with Rice Mash
+        {
+       	SkillRequired:Cooking=5,
+	HCWoodenbarrel,
+	HCPotofricemashcooked=3,
+   	Result:HCBarrelrice,
+    	Time:50,
+	NeedToBeLearn:true,
+	Category:Cooking,
+    	OnCreate:recipe_hcpotatopot3,
+    	OnGiveXP:HCCooking_OnGiveXP,	
+        }
+
+recipe Make Bottle of Sake
+	{
+       	SkillRequired:Cooking=6,
+	HCBarrelsake,
+	WhiskeyEmpty=20,
+    	CanBeDoneFromFloor:true,
+	Result:HCSake=20,
+	Time:5000.0,
+	NeedToBeLearn:true,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
+    	OnGiveXP:HCCooking_OnGiveXP,	
+	}
+
+}

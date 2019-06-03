@@ -1,0 +1,375 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+	item HCCruller
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		Type			=	Food,
+		DisplayName		=	Cruller,
+		Icon			=	HCCruller,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	120,
+        	Proteins 		= 	6.2,
+        	Lipids 			= 	36,
+        	Calories 		= 	824,
+	}
+
+	item HCCruller2
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Chocolate Cruller,
+		Icon			=	HCCruller2,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	120,
+        	Proteins 		= 	6.2,
+        	Lipids 			= 	36,
+        	Calories 		= 	824,
+	}
+
+	item HCCruller3
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Mocha Cruller,
+		Icon			=	HCCruller3,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	120,
+        	Proteins 		= 	6.2,
+        	Lipids 			= 	36,
+        	Calories 		= 	824,
+	}
+
+	item HCDoughnutcake
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Traditional Cake Donut,
+		Icon			=	HCDoughnutcake,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	102,
+        	Proteins 		= 	10.4,
+        	Lipids 			= 	46,
+        	Calories 		= 	852,
+	}
+
+	item HCDoughnutchocolate
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Chocolate Donut,
+		Icon			=	HCDoughnutchocolate,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	114,
+        	Proteins 		= 	9,
+        	Lipids 			= 	40,
+        	Calories 		= 	834,
+	}
+
+	item HCDoughnutchocolate2
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Chocolate Glazed Donut,
+		Icon			=	HCDoughnutchocolate2,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	114,
+        	Proteins 		= 	9,
+        	Lipids 			= 	40,
+        	Calories 		= 	834,
+	}
+
+	item HCDoughnutcinnamon
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Cinnamon Donut,
+		Icon			=	HCDoughnutcinnamon,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	94,
+        	Proteins 		= 	10.6,
+        	Lipids 			= 	50,
+        	Calories 		= 	868,
+	}
+
+	item HCDoughnutfilled
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Strawberry Filled Donut,
+		Icon			=	HCDoughnutfilled,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	78,
+        	Proteins 		= 	11.8,
+        	Lipids 			= 	38,
+        	Calories 		= 	680,
+	}
+
+	item HCDoughnutfilled2
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Chocolate Filled Donut,
+		Icon			=	HCDoughnutfilled2,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	60,
+        	Proteins 		= 	12.8,
+        	Lipids 			= 	50,
+        	Calories 		= 	722,
+	}
+
+	item HCDoughnutfilled3
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Lemon Filled Donut,
+		Icon			=	HCDoughnutfilled3,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	78,
+        	Proteins 		= 	11.8,
+        	Lipids 			= 	38,
+        	Calories 		= 	680,
+	}
+
+	item HCDoughnutglazed
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Glazed Donut,
+		Icon			=	HCDoughnutglazed,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	102,
+        	Proteins 		= 	10.4,
+        	Lipids 			= 	46,
+        	Calories 		= 	852,
+	}
+
+	item HCDoughnutmaple
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Maple Glazed Donut,
+		Icon			=	HCDoughnutmaple,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	102,
+        	Proteins 		= 	10.4,
+        	Lipids 			= 	46,
+        	Calories 		= 	852,
+	}
+
+	item HCDoughnutoldfashioned
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Old Fashioned Donut,
+		Icon			=	HCDoughnutoldfashioned,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	102,
+        	Proteins 		= 	10.4,
+        	Lipids 			= 	46,
+        	Calories 		= 	852,
+	}
+
+	item HCDoughnutpink
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Strawberry Glazed Chocolate Donut,
+		Icon			=	HCDoughnutpink,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	102,
+        	Proteins 		= 	9.8,
+        	Lipids 			= 	50,
+        	Calories 		= 	904,
+	}
+
+	item HCDoughnutplain
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Plain Donut,
+		Icon			=	HCDoughnutplain,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	94,
+        	Proteins 		= 	10.6,
+        	Lipids 			= 	50,
+        	Calories 		= 	868,
+	}
+
+	item HCDoughnutpowdered
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Powdered Donut,
+		Icon			=	HCDoughnutpowdered,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	94,
+        	Proteins 		= 	10.6,
+        	Lipids 			= 	50,
+        	Calories 		= 	868,
+	}
+
+	item HCDoughnutsprinkle
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Sprinkled Donut,
+		Icon			=	HCDoughnutsprinkle,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	94,
+        	Proteins 		= 	10.6,
+        	Lipids 			= 	50,
+        	Calories 		= 	868,
+	}
+
+	item HCDoughnuttwist
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Twist Donut,
+		Icon			=	HCDoughnuttwist,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	88,
+        	Proteins 		= 	12.8,
+        	Lipids 			= 	46,
+        	Calories 		= 	806,
+	}
+
+	item HCDoughnuttwist2
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Chocolate Twist Donut,
+		Icon			=	HCDoughnuttwist2,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	88,
+        	Proteins 		= 	12.8,
+        	Lipids 			= 	46,
+        	Calories 		= 	806,
+	}
+
+	item HCDoughnuttwist3
+	{
+		HungerChange		=	-25,
+		Weight			=	0.2,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		Type			=	Food,
+		DisplayName		=	Maple Twist Donut,
+		Icon			=	HCDoughnuttwist3,
+		DaysTotallyRotten	=	10,
+		DaysFresh 		=	7,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	88,
+        	Proteins 		= 	12.8,
+        	Lipids 			= 	46,
+        	Calories 		= 	806,
+	}
+	
+/************************RECIPES************************/
+   
+
+}

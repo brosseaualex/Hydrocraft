@@ -1,0 +1,393 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCGlassbottleempty
+	{
+	Weight				=	0.1,
+        Type			        =	Normal,
+	DisplayName			=	Empty Glass Bottle,
+	Icon				=	HCGlassbottleempty,
+	}
+
+item HCGlassbottleethanolempty
+	{
+	Weight				=	0.1,
+        Type			        =	Normal,
+	DisplayName			=	Empty Ethanol Bottle,
+	Icon				=	HCGlassbottleethanol,
+	}
+
+item HCGlassbottleethanol
+	{
+	Weight				=	0.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnUse		        =	HCGlassbottleethanolempty,
+	ReplaceOnDeplete	        =	HCGlassbottleethanolempty,
+	DisplayName			=	Ethanol,
+	Icon				=	HCGlassbottleethanol,
+	}
+
+item HCGlassbottleammoniaempty
+	{
+	Weight				=	0.1,
+        Type			        =	Normal,
+	DisplayName			=	Empty Ammonia Bottle,
+	Icon				=	HCGlassbottleammonia,
+	}
+
+item HCGlassbottleammonia
+	{
+	Weight				=	0.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnUse		        =	HCGlassbottleammoniaempty,
+	ReplaceOnDeplete	        =	HCGlassbottleammoniaempty,
+	DisplayName			=	Ammonia,
+	Icon				=	HCGlassbottleammonia,
+	}
+
+item HCGlassbottleselfmadeetherempty
+	{
+	Weight				=	0.1,
+        Type			        =	Normal,
+	DisplayName			=	Empty Homemade Ether Bottle,
+	Icon				=	HCGlassbottleselfmadeether,
+	}
+
+item HCGlassbottleselfmadeether
+	{
+	Weight				=	0.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnUse		        =	HCGlassbottleselfmadeetherempty,
+	ReplaceOnDeplete	        =	HCGlassbottleselfmadeetherempty,
+	DisplayName			=	Selfmade Ether,
+	Icon				=	HCGlassbottleselfmadeether,
+	}
+
+item HCGlassbottleh2o2empty
+	{
+	Weight				=	0.1,
+        Type			        =	Normal,
+	DisplayName			=	Empty Hydrogen Peroxide Bottle,
+	Icon				=	HCGlassbottleh2o2,
+	}
+
+item HCGlassbottleh2o2
+	{
+	Weight				=	0.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnUse		        =	HCGlassbottleh2o2empty,
+	ReplaceOnDeplete	        =	HCGlassbottleh2o2empty,
+	DisplayName			=	Hydrogen Peroxide,
+	Icon				=	HCGlassbottleh2o2,
+	}
+
+item HCGlassbottlemethylaminempty
+	{
+	Weight				=	0.1,
+        Type			        =	Normal,
+	DisplayName			=	Empty Methylamin Bottle,
+	Icon				=	HCGlassbottlemethylamin,
+	}
+
+item HCGlassbottlemethylamin
+	{
+	Weight				=	0.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnUse		        =	HCGlassbottlemethylaminempty,
+	ReplaceOnDeplete	        =	HCGlassbottlemethylaminempty,
+	DisplayName			=	Methylamin,
+	Icon				=	HCGlassbottlemethylamin,
+	}
+
+item HCGlassbottlephenylempty
+	{
+	Weight				=	0.1,
+        Type			        =	Normal,
+	DisplayName			=	Empty Phenylacetic Acid Bottle,
+	Icon				=	HCGlassbottlephenyl,
+	}
+
+item HCGlassbottlephenyl
+	{
+	Weight				=	0.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnUse		        =	HCGlassbottlephenylempty,
+	ReplaceOnDeplete	        =	HCGlassbottlephenylempty,
+	DisplayName			=	Phenylacetic Acid,
+	Icon				=	HCGlassbottlephenyl,
+	}
+
+item HCGlassbottlesulfuricacidempty
+	{
+	Weight				=	0.1,
+        Type			        =	Normal,
+	DisplayName			=	Empty Sulfuric Acid Bottle,
+	Icon				=	HCGlassbottlesulfuricacid,
+	}
+
+item HCGlassbottlesulfuricacid
+	{
+	Weight				=	0.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.2,
+	ReplaceOnUse		        =	HCGlassbottlesulfuricacidempty,
+	ReplaceOnDeplete	        =	HCGlassbottlesulfuricacidempty,
+	DisplayName			=	Sulfuric Acid,
+	Icon				=	HCGlassbottlesulfuricacid,
+	}
+
+
+item HCGlassbottlepotassiumpermanganateempty
+	{
+	Weight				=	0.1,
+        Type			        =	Normal,
+	DisplayName			=	Empty Potassiumper Manganate Bottle,
+	Icon				=	HCGlassbottlepotassiumpermanganate,
+	}
+
+item HCGlassbottlepotassiumpermanganate
+	{
+	Weight				=	0.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.2,
+	ReplaceOnUse		        =	HCGlassbottlepotassiumpermanganateempty,
+	ReplaceOnDeplete	        =	HCGlassbottlepotassiumpermanganateempty,
+	DisplayName			=	Potassium Permanganate,
+	Icon				=	HCGlassbottlepotassiumpermanganate,
+	}
+
+/************************RECIPES************************/
+
+recipe Cut Off Bottle
+    {
+    	HCWaterbottleclean,
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+    	Result:HCWaterbottlecutoff,
+    	Time:50,
+    	Category:Engineer,
+        OnCreate:recipe_hcgetplastic,
+   	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Plastic Bottle
+    {
+        HCTrashbottle,
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+        Result:HCPlastic=2,
+        Time:50,
+    	Category:Engineer,
+   	OnGiveXP:HCHunger_OnGiveXP,
+    } 
+
+recipe Clean Bottle
+    {
+    	destroy PopBottleEmpty,
+        keep Sponge/HCLoofah/HCSponge/RippedSheets,
+        Water,
+	Soap2/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid,
+    	Result:HCWaterbottleclean,
+    	Time:50,
+    	Category:Alchemy,
+   	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Clean Bottle
+    {
+    	destroy WaterBottleEmpty,
+        keep Sponge/HCLoofah/HCSponge/RippedSheets,
+        Water,
+	Soap2/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid,
+    	Result:HCWaterbottleclean,
+    	Time:50,
+    	Category:Alchemy,
+   	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Clean Empty Glass Bottle
+    {
+    	HCGlassbottleethanolempty/HCGlassbottleammoniaempty/HCGlassbottleh2o2empty/HCGlassbottlemethylaminempty/HCGlassbottlesulfuricacidempty/HCGlassbottleselfmadeetherempty/HCGlassbottlephenylempty,
+        keep Sponge/HCLoofah/HCSponge/RippedSheets,
+        Water,
+	Soap2/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid,
+    	Result:HCGlassbottleempty,
+    	Time:50,
+    	Category:Alchemy,
+   	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Empty Bottle With Ammonia Label
+    {
+    	HCLabelammonia,
+        HCGlassbottleempty,
+    	Result:HCGlassbottleammoniaempty,
+    	Time:15,
+    	Category:Alchemy,
+   	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Fill Empty Ammonia Bottle With Ammonia
+    {
+    	HCBeakerammonia,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCGlassbottleammoniaempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCGlassbottleammonia,
+    	Time:50,
+        OnCreate:recipe_hcgetbeaker,
+    	Category:Alchemy,
+    }
+
+recipe Label Empty Bottle With Methylamin Label
+    {
+    	HCLabelmethylamin,
+        HCGlassbottleempty,
+    	Result:HCGlassbottlemethylaminempty,
+    	Time:15,
+    	Category:Alchemy,
+   	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Fill Empty Methylamin Bottle With Methylamin
+    {
+    	HCBeakermethylamin,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCGlassbottlemethylaminempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCGlassbottlemethylamin,
+    	Time:50,
+        OnCreate:recipe_hcgetbeaker,
+    	Category:Alchemy,
+    }
+
+recipe Label Empty Bottle With Hydrogen Peroxide Label
+    {
+    	HCLabelh2o2,
+        HCGlassbottleempty,
+    	Result:HCGlassbottleh2o2empty,
+    	Time:15,
+    	Category:Alchemy,
+   	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Fill Empty Hydrogen Peroxide Bottle With Hydrogen Peroxide
+    {
+    	HCBeakerh2o2,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCGlassbottleh2o2empty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCGlassbottleh2o2,
+    	Time:50,
+        OnCreate:recipe_hcgetbeaker,
+    	Category:Alchemy,
+    }
+
+recipe Label Empty Bottle With Phenylacetic Acid Label
+    {
+    	HCLabelphenylaceticacid,
+        HCGlassbottleempty,
+    	Result:HCGlassbottlephenylempty,
+    	Time:15,
+    	Category:Alchemy,
+   	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Fill Empty Phenylacetic Acid Bottle With Phenylacetic Acid
+
+    {
+    	HCBeakerphenyl,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCGlassbottlephenylempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCGlassbottlephenyl,
+    	Time:50,
+        OnCreate:recipe_hcgetbeaker,
+    	Category:Alchemy,
+    }
+
+recipe Label Empty Bottle With Sulfuric Acid Label
+    {
+    	HCLabelsulfuricacid,
+        HCGlassbottleempty,
+    	Result:HCGlassbottlesulfuricacidempty,
+    	Time:15,
+    	Category:Alchemy,
+   	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Fill Empty Sulfuric Acid Bottle With Sulfuric Acid
+    {
+    	HCBeakersulfuricacid,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCGlassbottlesulfuricacidempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCGlassbottlesulfuricacid,
+    	Time:50,
+        OnCreate:recipe_hcgetbeaker,
+    	Category:Alchemy,
+    }
+
+recipe Label Empty Bottle With Homemade Ether Label
+    {
+    	HCLabelselfmadeether,
+        HCGlassbottleempty,
+    	Result:HCGlassbottleselfmadeetherempty,
+    	Time:15,
+    	Category:Alchemy,
+   	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Fill Empty Selfmade Ether Bottle With Homemade Ether
+    {
+    	HCBeakerselfmadeether,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCGlassbottleselfmadeetherempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCGlassbottleselfmadeether,
+    	Time:50,
+        OnCreate:recipe_hcgetbeaker,
+    	Category:Alchemy,
+    }
+
+recipe Label Empty Bottle With Potassium Permanganate Label
+    {
+    	HCLabelpotassiumpermanganate,
+        HCGlassbottleempty,
+    	Result:HCGlassbottlepotassiumpermanganateempty,
+    	Time:15,
+    	Category:Alchemy,
+   	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Fill Empty Potassium Permanganate Bottle With Potassium Permanganate
+    {
+    	HCBeakerpotassiumpermanganate,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCGlassbottlepotassiumpermanganateempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCGlassbottlepotassiumpermanganate,
+    	Time:50,
+        OnCreate:recipe_hcgetbeaker,
+    	Category:Alchemy,
+    }
+
+}

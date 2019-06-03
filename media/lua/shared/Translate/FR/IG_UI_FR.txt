@@ -1,0 +1,32 @@
+IGUI_FR = {
+
+	IGUI_CraftCategory_Ranching = "Elevage",
+	IGUI_CraftCategory_Alchemy = "Alchimie",
+	IGUI_CraftCategory_Leisure = "Loisir",
+	IGUI_CraftCategory_Weaving = "Coûture",
+	IGUI_CraftCategory_Smithing = "Forge",
+	IGUI_CraftCategory_Masonry = "Maçonnerie",
+	IGUI_CraftCategory_Pottery = "Potterie",
+	IGUI_CraftCategory_Stoneworking = "Travail de la pierre",
+	IGUI_CraftCategory_Glassworking = "Travail du verre",
+	IGUI_CraftCategory_Research = "Recherches",
+	IGUI_CraftCategory_Death = "Suicide",
+	IGUI_CraftCategory_Loot = "Fouille",
+	IGUI_CraftCategory_Trade = "Commerce",
+	IGUI_CraftCategory_Firecraft = "Craft de feu",
+	IGUI_CraftCategory_Terrain = "Terrain",
+	IGUI_CraftCategory_Armor = "Armurerie",
+	IGUI_CraftCategory_Locksmithing = "Serrurerie",
+	IGUI_CraftCategory_Anchor = "Ancrage",
+	IGUI_CraftCategory_Jewelry = "Joaillerie",
+	IGUI_CraftCategory_Papercraft = "Craft de papier",
+	IGUI_CraftCategory_Programing = "Programmation",
+	IGUI_CraftCategory_Travel = "Voyage"
+	IGUI_ItemCat_Mineral = "Minéral",
+	IGUI_ItemCat_Toy = "Jouet",
+    IGUI_ItemCat_Trash = "Ordures",
+	IGUI_ItemCat_Money = "Monnaie",
+
+
+
+}

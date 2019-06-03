@@ -1,0 +1,6348 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, farming,
+
+    }
+/*---------------------------------------------*/
+    item HCPottedTomatocherry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Tomatocherry,
+        icon        		= HCPottedtomato,
+	ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedTomatocherrysmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Tomatocherry,
+        icon        		= HCPottedtomatosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedTomatocherrysmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Tomatocherry,
+        icon        		= HCPottedtomatosmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedTomatocherrysmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Tomatocherry,
+        icon        		= HCPottedtomatosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedTomatocherrydry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Tomatocherry,
+        icon        		= HCPottedtomato,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedTomatocherrydead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Tomatocherry,
+        icon        		= HCPottedtomatodead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedTomatocherryready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Tomatocherry,
+        icon        		= HCPottedtomatoready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedTomatocherry/HCPottedTomatocherrysmall/HCPottedTomatocherrysmalldead/HCPottedTomatocherrysmalldry/HCPottedTomatocherrydry/HCPottedTomatocherrydead/HCPottedTomatocherryready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCTomatocherry/HCTomatocherryseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedTomatocherrysmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    HCPottedTomatocherryready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:3000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
+/*--------------------------------------------------------*/
+
+item HCPottedBeetsugar
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Beetsugar,
+        icon        		= HCPottedbeets,
+	ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedBeetsugarsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Beetsugar,
+        icon        		= HCPottedbeetssmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedBeetsugarsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Beetsugar,
+        icon        		= HCPottedbeetssmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedBeetsugarsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Beetsugar,
+        icon        		= HCPottedbeetssmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedBeetsugardry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Beetsugar,
+        icon        		= HCPottedbeets,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedBeetsugardead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Beetsugar,
+        icon        		= HCPottedbeetsdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedBeetsugarready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Beetsugar,
+        icon        		= HCPottedbeets,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedBeetsugar/HCPottedBeetsugarsmall/HCPottedBeetsugarsmalldead/HCPottedBeetsugarsmalldry/HCPottedBeetsugardry/HCPottedBeetsugardead/HCPottedBeetsugarready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCBeetsugar,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedBeetsugarsmall,
+        Time:1500,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    	HCPottedBeetsugarready,
+    	Result:HCPlanter,
+    	CanBeDoneFromFloor:true,
+    	Time:3000.0,
+    	NeedToBeLearn:true,
+    	Category:Farming,
+    	OnGiveXP:HCFarming_OnGiveXP,
+		OnCreate:recipe_NDPlantsHarvest,
+    }
+/*-------------------------------------------------*/
+
+    item HCPottedSquashsummer
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Squashsummer,
+        icon        		= HCPottedSquashsummer,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+    item HCPottedSquashsummersmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Squashsummer,
+        icon        		= HCPottedSquashsummersmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedSquashsummersmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Squashsummer,
+        icon        		= HCPottedSquashsummersmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedSquashsummersmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Squashsummer,
+        icon        		= HCPottedSquashsummersmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedSquashsummerdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Squashsummer,
+        icon        		= HCPottedSquashsummer,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedSquashsummerdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Squashsummer,
+        icon        		= HCPottedSquashsummerdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedSquashsummerready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Squashsummer,
+        icon        		= HCPottedSquashsummerready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedSquashsummer/HCPottedSquashsummersmall/HCPottedSquashsummersmalldead/HCPottedSquashsummersmalldry/HCPottedSquashsummerdry/HCPottedSquashsummerdead/HCPottedSquashsummerready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCSquashsummerseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedSquashsummersmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    HCPottedSquashsummerready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:3000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
+/*-------------------------------------------------*/
+
+    item HCPottedPotatored
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Potatored,
+        icon        		= HCPottedpotato,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+    item HCPottedPotatoredsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Potatored,
+        icon        		= HCPottedpotatosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedPotatoredsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Potatored,
+        icon        		= HCPottedpotatosmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedPotatoredsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Potatored,
+        icon        		= HCPottedpotatosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedPotatoreddry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Potatored,
+        icon        		= HCPottedpotato,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedPotatoreddead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Potatored,
+        icon        		= HCPottedpotatodead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedPotatoredready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Potatored,
+        icon        		= HCPottedpotatoready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedPotatored/HCPottedPotatoredsmall/HCPottedPotatoredsmalldead/HCPottedPotatoredsmalldry/HCPottedPotatoreddry/HCPottedPotatoreddead/HCPottedPotatoredready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCPotatored/HCPotatoredseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedPotatoredsmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    HCPottedPotatoredready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:3000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
+/*-------------------------------------------------*/
+
+    item HCPottedPotatogolden
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Potatogolden,
+        icon        		= HCPottedpotato,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+    item HCPottedPotatogoldensmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Potatogolden,
+        icon        		= HCPottedpotatosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedPotatogoldensmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Potatogolden,
+        icon        		= HCPottedpotatosmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedPotatogoldensmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Potatogolden,
+        icon        		= HCPottedpotatosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedPotatogoldendry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Potatogolden,
+        icon        		= HCPottedpotato,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedPotatogoldendead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Potatogolden,
+        icon        		= HCPottedpotatodead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedPotatogoldenready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Potatogolden,
+        icon        		= HCPottedpotatoready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedPotatogolden/HCPottedPotatogoldensmall/HCPottedPotatogoldensmalldead/HCPottedPotatogoldensmalldry/HCPottedPotatogoldendry/HCPottedPotatogoldendead/HCPottedPotatogoldenready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCPotatogolden/HCPotatogoldenseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedPotatogoldensmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    HCPottedPotatogoldenready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:3000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
+	
+/*-------------------------------------------------*/
+
+    item HCPottedCabbagewhite
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Cabbagewhite,
+        icon        		= HCPottedCabbagewhite,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+    item HCPottedCabbagewhitesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Cabbagewhite,
+        icon        		= HCPottedCabbagewhitesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedCabbagewhitesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Cabbagewhite,
+        icon        		= HCPottedCabbagewhitesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedCabbagewhitesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Cabbagewhite,
+        icon        		= HCPottedCabbagewhitesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedCabbagewhitedry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Cabbagewhite,
+        icon        		= HCPottedCabbagewhite,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedCabbagewhitedead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Cabbagewhite,
+        icon        		= HCPottedCabbagewhitedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedCabbagewhiteready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Cabbagewhite,
+        icon        		= HCPottedCabbagewhiteready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedCabbagewhite/HCPottedCabbagewhitesmall/HCPottedCabbagewhitesmalldead/HCPottedCabbagewhitesmalldry/HCPottedCabbagewhitedry/HCPottedCabbagewhitedead/HCPottedCabbagewhiteready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCCabbagewhiteseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedCabbagewhitesmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    HCPottedCabbagewhiteready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:3000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
+/*-------------------------------------------------*/
+
+    item HCPottedCabbagered
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Cabbagered,
+        icon        		= HCPottedCabbagered,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+    item HCPottedCabbageredsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Cabbagered,
+        icon        		= HCPottedCabbageredsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedCabbageredsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Cabbagered,
+        icon        		= HCPottedCabbageredsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedCabbageredsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Cabbagered,
+        icon        		= HCPottedCabbageredsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedCabbagereddry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Cabbagered,
+        icon        		= HCPottedCabbagered,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedCabbagereddead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Cabbagered,
+        icon        		= HCPottedCabbagereddead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedCabbageredready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Cabbagered,
+        icon        		= HCPottedCabbageredready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedCabbagered/HCPottedCabbageredsmall/HCPottedCabbageredsmalldead/HCPottedCabbageredsmalldry/HCPottedCabbagereddry/HCPottedCabbagereddead/HCPottedCabbageredready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCCabbageredseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedCabbageredsmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    HCPottedCabbageredready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:3000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
+	
+/*-------------------------------------------------*/
+
+    item HCPottedBellpepperyellow
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Bellpepperyellow,
+        icon        		= HCPottedbellpepper,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+    item HCPottedBellpepperyellowsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Bellpepperyellow,
+        icon        		= HCPottedbellpeppersmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedBellpepperyellowsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Bellpepperyellow,
+        icon        		= HCPottedbellpeppersmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedBellpepperyellowsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Bellpepperyellow,
+        icon        		= HCPottedbellpeppersmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedBellpepperyellowdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Bellpepperyellow,
+        icon        		= HCPottedbellpepper,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedBellpepperyellowdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Bellpepperyellow,
+        icon        		= HCPottedbellpepperdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedBellpepperyellowready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Bellpepperyellow,
+        icon        		= HCPottedBellpepperyellowready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedBellpepperyellow/HCPottedBellpepperyellowsmall/HCPottedBellpepperyellowsmalldead/HCPottedBellpepperyellowsmalldry/HCPottedBellpepperyellowdry/HCPottedBellpepperyellowdead/HCPottedBellpepperyellowready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCBellpepperyellowseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedBellpepperyellowsmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    HCPottedBellpepperyellowready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:3000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
+	
+/*-------------------------------------------------*/
+
+    item HCPottedBellpeppergreen
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Bellpeppergreen,
+        icon        		= HCPottedbellpepper,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+    item HCPottedBellpeppergreensmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Bellpeppergreen,
+        icon        		= HCPottedbellpeppersmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedBellpeppergreensmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Bellpeppergreen,
+        icon        		= HCPottedbellpeppersmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedBellpeppergreensmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Bellpeppergreen,
+        icon        		= HCPottedbellpeppersmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedBellpeppergreendry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Bellpeppergreen,
+        icon        		= HCPottedbellpepper,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedBellpeppergreendead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Bellpeppergreen,
+        icon        		= HCPottedbellpepperdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedBellpeppergreenready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Bellpeppergreen,
+        icon        		= HCPottedBellpeppergreenready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedBellpeppergreen/HCPottedBellpeppergreensmall/HCPottedBellpeppergreensmalldead/HCPottedBellpeppergreensmalldry/HCPottedBellpeppergreendry/HCPottedBellpeppergreendead/HCPottedBellpeppergreenready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCBellpeppergreenseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedBellpeppergreensmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    HCPottedBellpeppergreenready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:3000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
+	
+/*-------------------------------------------------*/
+
+    item HCPottedCauliflower
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Cauliflower,
+        icon        		= HCPottedCauliflower,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+    item HCPottedCauliflowersmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Cauliflower,
+        icon        		= HCPottedCauliflowersmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedCauliflowersmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Cauliflower,
+        icon        		= HCPottedCauliflowersmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedCauliflowersmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Cauliflower,
+        icon        		= HCPottedCauliflowersmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedCauliflowerdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Cauliflower,
+        icon        		= HCPottedCauliflower,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedCauliflowerdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Cauliflower,
+        icon        		= HCPottedCauliflowerdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedCauliflowerready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Cauliflower,
+        icon        		= HCPottedCauliflowerready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedCauliflower/HCPottedCauliflowersmall/HCPottedCauliflowersmalldead/HCPottedCauliflowersmalldry/HCPottedCauliflowerdry/HCPottedCauliflowerdead/HCPottedCauliflowerready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCCauliflowerseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedCauliflowersmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    HCPottedCauliflowerready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:3000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
+	
+/*-------------------------------------------------*/
+
+    item HCPottedBeans
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Beans,
+        icon        		= HCPottedBeans,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+    item HCPottedBeanssmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Beans,
+        icon        		= HCPottedBeanssmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedBeanssmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Beans,
+        icon        		= HCPottedBeanssmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedBeanssmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Beans,
+        icon        		= HCPottedBeanssmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedBeansdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Beans,
+        icon        		= HCPottedBeans,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedBeansdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Beans,
+        icon        		= HCPottedBeansdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedBeansready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Beans,
+        icon        		= HCPottedBeansready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedBeans/HCPottedBeanssmall/HCPottedBeanssmalldead/HCPottedBeanssmalldry/HCPottedBeansdry/HCPottedBeansdead/HCPottedBeansready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCPeapod/HCBeans/HCBeanseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedBeanssmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    HCPottedBeansready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:3000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
+	
+recipe Open Peapod
+    {
+    HCPeapod,
+    Result:HCBeans=3,
+    Time:10.0,
+    Category:Farming,
+    }
+/*-------------------------------------------------*/
+
+    item HCPottedPersimmon
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Persimmon,
+        icon        		= HCPottedPersimmon,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+    item HCPottedPersimmonsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Persimmon,
+        icon        		= HCPottedPersimmonsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedPersimmonsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Persimmon,
+        icon        		= HCPottedPersimmonsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedPersimmonsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Persimmon,
+        icon        		= HCPottedPersimmonsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedPersimmondry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Persimmon,
+        icon        		= HCPottedPersimmon,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedPersimmondead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Persimmon,
+        icon        		= HCPottedPersimmondead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedPersimmonready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Persimmon,
+        icon        		= HCPottedPersimmonready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedPersimmon/HCPottedPersimmonsmall/HCPottedPersimmonsmalldead/HCPottedPersimmonsmalldry/HCPottedPersimmondry/HCPottedPersimmondead/HCPottedPersimmonready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCPersimmon/HCPersimmonseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedPersimmonsmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    HCPottedPersimmonready,
+    Result:HCPottedPersimmon,
+    CanBeDoneFromFloor:true,
+    Time:3000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
+	
+/*-------------------------------------------------*/
+
+    item HCPottedPlum
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Plum,
+        icon        		= HCPottedPlum,
+	ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedPlumsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Plum,
+        icon        		= HCPottedPlumsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedPlumsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Plum,
+        icon        		= HCPottedPlumsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedPlumsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Plum,
+        icon        		= HCPottedPlumsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedPlumdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Plum,
+        icon        		= HCPottedPlum,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedPlumdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Plum,
+        icon        		= HCPottedPlumdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedPlumready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Plum,
+        icon        		= HCPottedPlumready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedPlum/HCPottedPlumsmall/HCPottedPlumsmalldead/HCPottedPlumsmalldry/HCPottedPlumdry/HCPottedPlumdead/HCPottedPlumready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCPlum/HCPlumseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedPlumsmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    HCPottedPlumready,
+    Result:HCPottedPlum,
+    CanBeDoneFromFloor:true,
+    Time:3000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
+	
+/*-------------------------------------------------*/
+
+    item HCPottedKiwi
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Kiwi,
+        icon        		= HCPottedKiwi,
+	ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedKiwismall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Kiwi,
+        icon        		= HCPottedKiwismall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedKiwismalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Kiwi,
+        icon        		= HCPottedKiwismalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedKiwismalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Kiwi,
+        icon        		= HCPottedKiwismall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedKiwidry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Kiwi,
+        icon        		= HCPottedKiwi,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedKiwidead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Kiwi,
+        icon        		= HCPottedKiwidead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedKiwiready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Kiwi,
+        icon        		= HCPottedKiwiready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedKiwi/HCPottedKiwismall/HCPottedKiwismalldead/HCPottedKiwismalldry/HCPottedKiwidry/HCPottedKiwidead/HCPottedKiwiready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCKiwi/HCKiwiseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedKiwismall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    HCPottedKiwiready,
+    Result:HCPottedKiwi,
+    CanBeDoneFromFloor:true,
+    Time:3000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
+	
+/*-------------------------------------------------*/
+
+    item HCPottedFig
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Fig,
+        icon        		= HCPottedFig,
+	ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedFigsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Fig,
+        icon        		= HCPottedFigsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedFigsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Fig,
+        icon        		= HCPottedFigsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedFigsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Fig,
+        icon        		= HCPottedFigsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedFigdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Fig,
+        icon        		= HCPottedFig,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedFigdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Fig,
+        icon        		= HCPottedFigdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedFigready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Fig,
+        icon        		= HCPottedFigready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedFig/HCPottedFigsmall/HCPottedFigsmalldead/HCPottedFigsmalldry/HCPottedFigdry/HCPottedFigdead/HCPottedFigready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCFigs/HCFigseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedFigsmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    HCPottedFigready,
+    Result:HCPottedFig,
+    CanBeDoneFromFloor:true,
+    Time:3000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
+	
+/*-------------------------------------------------*/
+
+    item HCPottedDate
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Date,
+        icon        		= HCPottedDate,
+	ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedDatesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Date,
+        icon        		= HCPottedDatesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedDatesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Date,
+        icon        		= HCPottedDatesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedDatesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Date,
+        icon        		= HCPottedDatesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedDatedry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Date,
+        icon        		= HCPottedDate,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedDatedead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Date,
+        icon        		= HCPottedDatedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedDateready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Date,
+        icon        		= HCPottedDateready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedDate/HCPottedDatesmall/HCPottedDatesmalldead/HCPottedDatesmalldry/HCPottedDatedry/HCPottedDatedead/HCPottedDateready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCDates/HCDateseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedDatesmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    HCPottedDateready,
+    Result:HCPottedDate,
+    CanBeDoneFromFloor:true,
+    Time:3000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
+	
+/*-------------------------------------------------*/
+
+    item HCPottedGrapesgreenvine
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Grapesgreen Vine,
+        icon        		= HCPottedgrapevine,
+	ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedGrapesgreenvinesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Grapesgreen Vine,
+        icon        		= HCPottedgrapevinesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedGrapesgreenvinesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Grapesgreen Vine,
+        icon        		= HCPottedgrapevinesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedGrapesgreenvinesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Grapesgreen Vine,
+        icon        		= HCPottedgrapevinesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedGrapesgreenvinedry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Grapesgreen Vine,
+        icon        		= HCPottedgrapevine,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedGrapesgreenvinedead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Grapesgreen Vine,
+        icon        		= HCPottedgrapevinedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedGrapesgreenvineready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Grapesgreen Vine,
+        icon        		= HCPottedGrapesgreenvineready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedGrapesgreenvine/HCPottedGrapesgreenvinesmall/HCPottedGrapesgreenvinesmalldead/HCPottedGrapesgreenvinesmalldry/HCPottedGrapesgreenvinedry/HCPottedGrapesgreenvinedead/HCPottedGrapesgreenvineready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCGrapesgreen/HCGrapesgreenseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedGrapesgreenvinesmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    HCPottedGrapesgreenvineready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:3000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
+/*-------------------------------------------------*/
+    item HCPottedlimetree
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Lime Tree,
+        icon        		= HCPottedlimetree,
+	ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedlimetreesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Lime Tree,
+        icon        		= HCPottedlimetreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedlimetreesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Lime Tree,
+        icon        		= HCPottedlimetreesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedlimetreesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Lime Tree,
+        icon        		= HCPottedlimetreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedlimetreedry
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Lime Tree,
+        icon        		= HCPottedlimetree,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedlimetreedead
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Lime Tree,
+        icon        		= HCPottedlimetreedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedlimetreeready
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Lime Tree,
+        icon        		= HCPottedlimetreeready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedlimetree/HCPottedlimetreesmall/HCPottedlimetreesmalldead/HCPottedlimetreesmalldry/HCPottedlimetreedry/HCPottedlimetreedead/HCPottedlimetreeready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCLime/HCLimeseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedlimetreesmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    HCPottedlimetreeready,
+    Result:HCPottedlimetree,
+    CanBeDoneFromFloor:true,
+    Time:3000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
+/*-------------------------------------------------*/
+	
+   item HCPottedwheatsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Wheat,
+        icon        		= HCPottedwheatsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+   item HCPottedwheatsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Wheat,
+        icon        		= HCPottedwheatsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+
+   item HCPottedwheatsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Wheat,
+        icon        		= HCPottedwheatsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+   item HCPottedwheat
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Wheat,
+        icon        		= HCPottedwheat,
+		ResizeWorldIcon 	= 1.0,
+    }
+   item HCPottedwheatdry
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Wheat,
+        icon        		= HCPottedwheat,
+		ResizeWorldIcon 	= 1.0,
+    }
+   item HCPottedwheatdead
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Wheat,
+        icon        		= HCPottedwheatdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+   item HCPottedwheatready
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Wheat,
+        icon        		= HCPottedwheat,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedwheat/HCPottedwheatsmall/HCPottedwheatsmalldead/HCPottedwheatsmalldry/HCPottedwheatdry/HCPottedwheatdead/HCPottedwheatready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCWheat,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedwheatsmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+   item HCPottedappletreesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Apple Tree,
+        icon        		= HCPottedappletreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+   item HCPottedappletreesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Apple Tree,
+        icon        		= HCPottedappletreesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+   item HCPottedappletreesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Apple Tree,
+        icon        		= HCPottedappletreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+
+   item HCPottedappletreedry
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Apple Tree,
+        icon        		= HCPottedappletree,
+		ResizeWorldIcon 	= 1.0,
+    }
+   item HCPottedappletreedead
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Apple Tree,
+        icon        		= HCPottedappletreedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+   item HCPottedappletreeready
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Apple Tree,
+        icon        		= HCPottedappletreeready,
+		ResizeWorldIcon 	= 1.0,
+    }
+
+	recipe Remove Crop
+	{    HCPottedappletree/HCPottedappletreesmall/HCPottedappletreesmalldead/HCPottedappletreesmalldry/HCPottedappletreedry/HCPottedappletreedead/HCPottedappletreeready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+	
+    item HCPottedbananatreesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Banana Tree,
+        icon        		= HCPottedbananatreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedbananatreesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Banana Tree,
+        icon        		= HCPottedbananatreesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedbananatreesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Banana Tree,
+        icon        		= HCPottedbananatreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedbananatreedry
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Banana Tree,
+        icon        		= HCPottedbananatree,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedbananatreedead
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Banana Tree,
+        icon        		= HCPottedbananatreedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedbananatreeready
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Banana Tree,
+        icon        		= HCPottedbananatreeready,
+		ResizeWorldIcon 	= 1.0,
+    }
+
+	recipe Remove Crop
+	{    HCPottedbananatree/HCPottedbananatreesmall/HCPottedbananatreesmalldead/HCPottedbananatreesmalldry/HCPottedbananatreedry/HCPottedbananatreedead/HCPottedbananatreeready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+	
+    item HCPottedblackberrybushsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Blackberry Bush,
+        icon        		= HCPottedblackberrybushsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedblackberrybushsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Blackberry Bush,
+        icon        		= HCPottedblackberrybushsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedblackberrybushsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Blackberry Bush,
+        icon        		= HCPottedblackberrybushsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedblackberrybushdry
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Blackberry Bush,
+        icon        		= HCPottedblackberrybush,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedblackberrybushdead
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Blackberry Bush,
+        icon        		= HCPottedblackberrybushdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedblackberrybushready
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Blackberry Bush,
+        icon        		= HCPottedblackberrybushready,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+	recipe Remove Crop
+	{    HCPottedblackberrybush/HCPottedblackberrybushsmall/HCPottedblackberrybushsmalldead/HCPottedblackberrybushsmalldry/HCPottedblackberrybushdry/HCPottedblackberrybushdead/HCPottedblackberrybushready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    item HCPottedblueberrybushsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Blueberry Bush,
+        icon        		= HCPottedblueberrybushsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedblueberrybushsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Blueberry Bush,
+        icon        		= HCPottedblueberrybushsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedblueberrybushsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Blueberry Bush,
+        icon        		= HCPottedblueberrybushsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedblueberrybushdry
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Blueberry Bush,
+        icon        		= HCPottedblueberrybush,
+	ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedblueberrybushdead
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Blueberry Bush,
+        icon        		= HCPottedblueberrybushdead,
+	ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedblueberrybushready
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Blueberry Bush,
+        icon        		= HCPottedblueberrybushready,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+	recipe Remove Crop
+	{    HCPottedblueberrybush/HCPottedblueberrybushsmall/HCPottedblueberrybushsmalldead/HCPottedblueberrybushsmalldry/HCPottedblueberrybushdry/HCPottedblueberrybushdead/HCPottedblueberrybushready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+	
+    item HCPottedgrapevinesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Grape Vine,
+        icon        		= HCPottedgrapevinesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedgrapevinesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Grape Vine,
+        icon        		= HCPottedgrapevinesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedgrapevinesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Grape Vine,
+        icon        		= HCPottedgrapevinesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedgrapevinedry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Grape Vine,
+        icon        		= HCPottedgrapevine,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedgrapevinedead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Grape Vine,
+        icon        		= HCPottedgrapevinedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedgrapevineready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Grape Vine,
+        icon        		= HCPottedgrapevinedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedgrapevine/HCPottedgrapevinesmall/HCPottedgrapevinesmalldead/HCPottedgrapevinesmalldry/HCPottedgrapevinedry/HCPottedgrapevinedead/HCPottedgrapevineready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+	/*-----------------------------------------------------------*/
+    item HCPottedlemontreesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Lemon Tree,
+        icon        		= HCPottedlemontreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedlemontreesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Lemon Tree,
+        icon        		= HCPottedlemontreesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedlemontreesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Lemon Tree,
+        icon        		= HCPottedlemontreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedlemontreedry
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Lemon Tree,
+        icon        		= HCPottedlemontree,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedlemontreedead
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Lemon Tree,
+        icon        		= HCPottedlemontreedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedlemontreeready
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Lemon Tree,
+        icon        		= HCPottedlemontreeready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedlemontree/HCPottedlemontreesmall/HCPottedlemontreesmalldead/HCPottedlemontreesmalldry/HCPottedlemontreedry/HCPottedlemontreedead/HCPottedlemontreeready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+	
+    item HCPottedorangetreesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Orange Tree,
+        icon        		= HCPottedorangetreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedorangetreesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Orange Tree,
+        icon        		= HCPottedorangetreesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedorangetreesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Orange Tree,
+        icon        		= HCPottedorangetreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedorangetreedry
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Orange Tree,
+        icon        		= HCPottedorangetree,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedorangetreedead
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Orange Tree,
+        icon        		= HCPottedorangetreedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedorangetreeready
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Orange Tree,
+        icon        		= HCPottedorangetreeready,
+		ResizeWorldIcon 	= 1.0,
+    }
+
+	recipe Remove Crop
+	{    HCPottedorangetree/HCPottedorangetreesmall/HCPottedorangetreesmalldead/HCPottedorangetreesmalldry/HCPottedorangetreedry/HCPottedorangetreedead/HCPottedorangetreeready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+	
+    item HCPottedpeachtreesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Peach Tree,
+        icon        		= HCPottedpeachtreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeachtreesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Peach Tree,
+        icon        		= HCPottedpeachtreesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeachtreesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Peach Tree,
+        icon        		= HCPottedpeachtreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedpeachtreedry
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Peach Tree,
+        icon        		= HCPottedpeachtree,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeachtreedead
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Peach Tree,
+        icon        		= HCPottedpeachtreedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeachtreeready
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Peach Tree,
+        icon        		= HCPottedpeachtreeready,
+		ResizeWorldIcon 	= 1.0,
+    }
+
+	recipe Remove Crop
+	{    HCPottedpeachtree/HCPottedpeachtreesmall/HCPottedpeachtreesmalldead/HCPottedpeachtreesmalldry/HCPottedpeachtreedry/HCPottedpeachtreedead/HCPottedpeachtreeready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+	
+    item HCPottedstrawberrybushsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Strawberry Bush,
+        icon        		= HCPottedstrawberrybushsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedstrawberrybushsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Strawberry Bush,
+        icon        		= HCPottedstrawberrybushsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedstrawberrybushsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Strawberry Bush,
+        icon        		= HCPottedstrawberrybushsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedstrawberrybushdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Strawberry Bush,
+        icon        		= HCPottedstrawberrybush,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedstrawberrybushdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Strawberry Bush,
+        icon        		= HCPottedstrawberrybushdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedstrawberrybushready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Strawberry Bush,
+        icon        		= HCPottedstrawberrybushready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedstrawberrybush/HCPottedstrawberrybushsmall/HCPottedstrawberrybushsmalldead/HCPottedstrawberrybushsmalldry/HCPottedstrawberrybushdry/HCPottedstrawberrybushdead/HCPottedstrawberrybushready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedwatermelonsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Watermelon,
+        icon        		= HCPottedwatermelonsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedwatermelonsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Watermelon,
+        icon        		= HCPottedwatermelonsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedwatermelonsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Watermelon,
+        icon        		= HCPottedwatermelonsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedwatermelondry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Watermelon,
+        icon        		= HCPottedwatermelon,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedwatermelondead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Watermelon,
+        icon        		= HCPottedwatermelondead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedwatermelonready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Watermelon,
+        icon        		= HCPottedwatermelon,
+		ResizeWorldIcon 	= 1.0,
+    }
+
+	recipe Remove Crop
+	{    HCPottedwatermelon/HCPottedwatermelonsmall/HCPottedwatermelonsmalldead/HCPottedwatermelonsmalldry/HCPottedwatermelondry/HCPottedwatermelondead/HCPottedwatermelonready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+	
+    item HCPottedbellpeppersmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Bell Pepper,
+        icon        		= HCPottedbellpeppersmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedbellpeppersmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Bell Pepper,
+        icon        		= HCPottedbellpeppersmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedbellpeppersmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Bell Pepper,
+        icon        		= HCPottedbellpeppersmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedbellpepperdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Bell Pepper,
+        icon        		= HCPottedbellpepper,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedbellpepperdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Bell Pepper,
+        icon        		= HCPottedbellpepperdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedbellpepperready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Bell Pepper,
+        icon        		= HCPottedbellpepperready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedbellpepper/HCPottedbellpeppersmall/HCPottedbellpeppersmalldead/HCPottedbellpeppersmalldry/HCPottedbellpepperdry/HCPottedbellpepperdead/HCPottedbellpepperready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedbroccolismall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Broccoli,
+        icon        		= HCPottedbroccolismall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedbroccolismalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Broccoli,
+        icon        		= HCPottedbroccolismalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedbroccolismalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Broccoli,
+        icon        		= HCPottedbroccolismall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedbroccolidry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Broccoli,
+        icon        		= HCPottedbroccoli,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedbroccolidead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Broccoli,
+        icon        		= HCPottedbroccolidead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedbroccoliready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Broccoli,
+        icon        		= HCPottedbroccoli,
+		ResizeWorldIcon 	= 1.0,
+    }
+
+	recipe Remove Crop
+	{    HCPottedbroccoli/HCPottedbroccolismall/HCPottedbroccolismalldead/HCPottedbroccolismalldry/HCPottedbroccolidry/HCPottedbroccolidead/HCPottedbroccoliready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+	
+    item HCPottedcabbagesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Cabbage,
+        icon        		= HCPottedcabbagesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcabbagesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Cabbage,
+        icon        		= HCPottedcabbagesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcabbagesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Cabbage,
+        icon        		= HCPottedcabbagesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+	
+    item HCPottedcabbagedry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Cabbage,
+        icon        		= HCPottedcabbage,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcabbagedead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Cabbage,
+        icon        		= HCPottedcabbagedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcabbageready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Cabbage,
+        icon        		= HCPottedcabbage,
+		ResizeWorldIcon 	= 1.0,
+    }
+
+	recipe Remove Crop
+	{    HCPottedcabbage/HCPottedcabbagesmall/HCPottedcabbagesmalldead/HCPottedcabbagesmalldry/HCPottedcabbagedry/HCPottedcabbagedead/HCPottedcabbageready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+	
+    item HCPottedcarrotssmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Carrots,
+        icon        		= HCPottedcarrotssmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcarrotssmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Carrots,
+        icon        		= HCPottedcarrotssmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcarrotssmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Carrots,
+        icon        		= HCPottedcarrotssmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcarrotsdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Carrots,
+        icon        		= HCPottedcarrots,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcarrotsdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Carrots,
+        icon        		= HCPottedcarrotsdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcarrotsready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Carrots,
+        icon        		= HCPottedcarrots,
+		ResizeWorldIcon 	= 1.0,
+    }
+
+	recipe Remove Crop
+	{    HCPottedcarrots/HCPottedcarrotssmall/HCPottedcarrotssmalldead/HCPottedcarrotssmalldry/HCPottedcarrotsdry/HCPottedcarrotsdead/HCPottedcarrotsready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+	
+    item HCPottedcornstalksmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Corn Stalk,
+        icon        		= HCPottedcornsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornstalksmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Corn Stalk,
+        icon        		= HCPottedcornsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornstalksmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Corn Stalk,
+        icon        		= HCPottedcornsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornstalkdry 
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Corn Stalk,
+        icon        		= HCPottedcorn,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornstalkdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Corn Stalk,
+        icon        		= HCPottedcorndead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornstalkready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Corn Stalk,
+        icon        		= HCPottedcornstalk,
+		ResizeWorldIcon 	= 1.0,
+    }
+
+	recipe Remove Crop
+	{    HCPottedcornstalk/HCPottedcornstalksmall/HCPottedcornstalksmalldead/HCPottedcornstalksmalldry/HCPottedcornstalkdry/HCPottedcornstalkdead/HCPottedcornstalkready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+	
+    item HCPottedeggplantsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Eggplant,
+        icon        		= HCPottedeggplantsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedeggplantsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Eggplant,
+        icon        		= HCPottedeggplantsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedeggplantsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Eggplant,
+        icon        		= HCPottedeggplantsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedeggplantdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Eggplant,
+        icon        		= HCPottedeggplant,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedeggplantdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Eggplant,
+        icon        		= HCPottedeggplantdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedeggplantready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Eggplant,
+        icon        		= HCPottedeggplantready,
+		ResizeWorldIcon 	= 1.0,
+    }
+
+	recipe Remove Crop
+	{    HCPottedeggplant/HCPottedeggplantsmall/HCPottedeggplantsmalldead/HCPottedeggplantsmalldry/HCPottedeggplantdry/HCPottedeggplantdead/HCPottedeggplantready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+	
+    item HCPottedleeksmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Leek,
+        icon        		= HCPottedleeksmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedleeksmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Leek,
+        icon        		= HCPottedleeksmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedleeksmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Leek,
+        icon        		= HCPottedleeksmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedleekdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Leek,
+        icon        		= HCPottedleek,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedleekdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Leek,
+        icon        		= HCPottedleekdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedleekready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Leek,
+        icon        		= HCPottedleekready,
+		ResizeWorldIcon 	= 1.0,
+    }
+
+	recipe Remove Crop
+	{    HCPottedleek/HCPottedleeksmall/HCPottedleeksmalldead/HCPottedleeksmalldry/HCPottedleekdry/HCPottedleekdead/HCPottedleekready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+	
+    item HCPottedlettucesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Lettuce,
+        icon        		= HCPottedlettucesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedlettucesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Lettuce,
+        icon        		= HCPottedlettucesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedlettucesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Lettuce,
+        icon        		= HCPottedlettucesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedlettucedry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Lettuce,
+        icon        		= HCPottedlettuce,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedlettucedead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Lettuce,
+        icon        		= HCPottedlettucedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedlettuceready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Lettuce,
+        icon        		= HCPottedlettuce,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedlettuce/HCPottedlettucesmall/HCPottedlettucesmalldead/HCPottedlettucesmalldry/HCPottedlettucedry/HCPottedlettucedead/HCPottedlettuceready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedonionsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Onion,
+        icon        		= HCPottedonionsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedonionsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Onion,
+        icon        		= HCPottedonionsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedonionsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Onion,
+        icon        		= HCPottedonionsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedoniondry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Onion,
+        icon        		= HCPottedonion,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedoniondead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Onion,
+        icon        		= HCPottedoniondead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedonionready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Onion,
+        icon        		= HCPottedonion,
+		ResizeWorldIcon 	= 1.0,
+    }
+
+	recipe Remove Crop
+	{    HCPottedonion/HCPottedonionsmall/HCPottedonionsmalldead/HCPottedonionsmalldry/HCPottedoniondry/HCPottedoniondead/HCPottedonionready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+	
+    item HCPottedpeaplantsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Pea Plant,
+        icon        		= HCPottedpeaplantsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeaplantsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Pea Plant,
+        icon        		= HCPottedpeaplantsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeaplantsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Pea Plant,
+        icon        		= HCPottedpeaplantsmalldry,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeaplantdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Pea Plant,
+        icon        		= HCPottedpeaplant,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeaplantdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Pea Plant,
+        icon        		= HCPottedpeaplantdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeaplantready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Pea Plant,
+        icon        		= HCPottedpeaplant,
+		ResizeWorldIcon 	= 1.0,
+    }
+
+	recipe Remove Crop
+	{    HCPottedpeaplant/HCPottedpeaplantsmall/HCPottedpeaplantsmalldead/HCPottedpeaplantsmalldry/HCPottedpeaplantdry/HCPottedpeaplantdead/HCPottedpeaplantready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+	
+    item HCPottedpotatosmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Potato,
+        icon        		= HCPottedpotatosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpotatosmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Potato,
+        icon        		= HCPottedpotatosmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpotatosmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Potato,
+        icon        		= HCPottedpotatosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpotatodry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Potato,
+        icon        		= HCPottedpotato,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpotatodead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Potato,
+        icon        		= HCPottedpotatodead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpotatoready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Potato,
+        icon        		= HCPottedpotato,
+		ResizeWorldIcon 	= 1.0,
+    }
+
+	recipe Remove Crop
+	{    HCPottedpotato/HCPottedpotatosmall/HCPottedpotatosmalldead/HCPottedpotatosmalldry/HCPottedpotatodry/HCPottedpotatodead/HCPottedpotatoready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedpumpkinsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Pumpkin,
+        icon        		= HCPottedpumpkinsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Pumpkin,
+        icon        		= HCPottedpumpkinsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Pumpkin,
+        icon        		= HCPottedpumpkinsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkindry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Pumpkin,
+        icon        		= HCPottedpumpkin,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkindead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Pumpkin,
+        icon        		= HCPottedpumpkindead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Pumpkin,
+        icon        		= HCPottedpumpkin,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedpumpkin/HCPottedpumpkinsmall/HCPottedpumpkinsmalldead/HCPottedpumpkinsmalldry/HCPottedpumpkindry/HCPottedpumpkindead/HCPottedpumpkinready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedradishsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Radish,
+        icon        		= HCPottedradishsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedradishsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Radish,
+        icon        		= HCPottedradishsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedradishsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Radish,
+        icon        		= HCPottedradishsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedradishdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Radish,
+        icon        		= HCPottedradish,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedradishdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Radish,
+        icon        		= HCPottedradishdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedradishready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Radish,
+        icon        		= HCPottedradishready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedradish/HCPottedradishsmall/HCPottedradishsmalldead/HCPottedradishsmalldry/HCPottedradishdry/HCPottedradishdead/HCPottedradishready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+/*---------------------------------------------*/
+    item HCPottedtomatosmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Tomato,
+        icon        		= HCPottedtomatosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedtomatosmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Tomato,
+        icon        		= HCPottedtomatosmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedtomatosmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Tomato,
+        icon        		= HCPottedtomatosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedtomatodry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Tomato,
+        icon        		= HCPottedtomato,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedtomatodead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Tomato,
+        icon        		= HCPottedtomatodead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedtomatoready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Tomato,
+        icon        		= HCPottedtomatoready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedtomato/HCPottedtomatosmall/HCPottedtomatosmalldead/HCPottedtomatosmalldry/HCPottedtomatodry/HCPottedtomatodead/HCPottedtomatoready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedpeanutplantsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Peanut Plant,
+        icon        		= HCPottedpeanutplantsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeanutplantsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Peanut Plant,
+        icon        		= HCPottedpeanutplantsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeanutplantsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Peanut Plant,
+        icon        		= HCPottedpeanutplantsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeanutplantdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Peanut Plant,
+        icon        		= HCPottedpeanutplant,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeanutplantdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Peanut Plant,
+        icon        		= HCPottedpeanutplantdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeanutplantready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Peanut Plant,
+        icon        		= HCPottedpeanutplantready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedpeanutplant/HCPottedpeanutplantsmall/HCPottedpeanutplantsmalldead/HCPottedpeanutplantsmalldry/HCPottedpeanutplantdry/HCPottedpeanutplantdead/HCPottedpeanutplantready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedavocadotreesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Avocado Tree,
+        icon        		= HCPottedavocadotreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedavocadotreesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Avocado Tree,
+        icon        		= HCPottedavocadotreesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedavocadotreesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Avocado Tree,
+        icon        		= HCPottedavocadotreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedavocadotreedry
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Avocado Tree,
+        icon        		= HCPottedavocadotree,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedavocadotreedead
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Avocado Tree,
+        icon        		= HCPottedavocadotreedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedavocadotreeready
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Avocado Tree,
+        icon        		= HCPottedavocadotreeready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedavocadotree/HCPottedavocadotreesmall/HCPottedavocadotreesmalldead/HCPottedavocadotreesmalldry/HCPottedavocadotreedry/HCPottedavocadotreedead/HCPottedavocadotreeready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedcherrytreesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Cherry Tree,
+        icon        		= HCPottedcherrytreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcherrytreesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Cherry Tree,
+        icon        		= HCPottedcherrytreesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcherrytreesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Cherry Tree,
+        icon        		= HCPottedcherrytreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcherrytreedry
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Cherry Tree,
+        icon        		= HCPottedcherrytree,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcherrytreedead
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Cherry Tree,
+        icon        		= HCPottedcherrytreedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcherrytreeready
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Cherry Tree,
+        icon        		= HCPottedcherrytreeready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedcherrytree/HCPottedcherrytreesmall/HCPottedcherrytreesmalldead/HCPottedcherrytreesmalldry/HCPottedcherrytreedry/HCPottedcherrytreedead/HCPottedcherrytreeready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedpeartreesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Pear Tree,
+        icon        		= HCPottedpeartreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeartreesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Pear Tree,
+        icon        		= HCPottedpeartreesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeartreesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Pear Tree,
+        icon        		= HCPottedpeartreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeartreedry
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Pear Tree,
+        icon        		= HCPottedpeartree,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeartreedead
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Pear Tree,
+        icon        		= HCPottedpeartreedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpeartreeready
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Pear Tree,
+        icon        		= HCPottedpeartreeready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedpeartree/HCPottedpeartreesmall/HCPottedpeartreesmalldead/HCPottedpeartreesmalldry/HCPottedpeartreedry/HCPottedpeartreedead/HCPottedpeartreeready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedpineapplesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Pineapple,
+        icon        		= HCPottedpineapplesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpineapplesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Pineapple,
+        icon        		= HCPottedpineapplesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpineapplesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Pineapple,
+        icon        		= HCPottedpineapplesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpineappledry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Pineapple,
+        icon        		= HCPottedpineapple,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpineappledead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Pineapple,
+        icon        		= HCPottedpineappledead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpineappleready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Pineapple,
+        icon        		= HCPottedpineappleready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedpineapple/HCPottedpineapplesmall/HCPottedpineapplesmalldead/HCPottedpineapplesmalldry/HCPottedpineappledry/HCPottedpineappledead/HCPottedpineappleready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    item HCPottedzucchinismall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Zucchini,
+        icon        		= HCPottedzucchinismall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedzucchinismalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Zucchini,
+        icon        		= HCPottedzucchinismalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedzucchinismalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Zucchini,
+        icon        		= HCPottedzucchinismall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedzucchinidry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Zucchini,
+        icon        		= HCPottedzucchini,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedzucchinidead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Zucchini,
+        icon        		= HCPottedzucchinidead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedzucchiniready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Zucchini,
+        icon        		= HCPottedzucchini,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedzucchini/HCPottedzucchinismall/HCPottedzucchinismalldead/HCPottedzucchinismalldry/HCPottedzucchinidry/HCPottedzucchinidead/HCPottedzucchiniready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedteasmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Tea Tree,
+        icon        		= HCPottedteasmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedteasmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Tea Tree,
+        icon        		= HCPottedteasmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedteasmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Tea Tree,
+        icon        		= HCPottedteasmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedteadry
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Tea Tree,
+        icon        		= HCPottedtea,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedteadead
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Tea Tree,
+        icon        		= HCPottedteadead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedteaready
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Tea Tree,
+        icon        		= HCPottedtea,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedtea/HCPottedteasmall/HCPottedteasmalldead/HCPottedteasmalldry/HCPottedteadry/HCPottedteadead/HCPottedteaready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedhempsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Hemp Plant,
+        icon        		= HCPottedhempsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedhempsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Hemp Plant,
+        icon        		= HCPottedhempsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedhempsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Hemp Plant,
+        icon        		= HCPottedhempsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedhempdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Hemp Plant,
+        icon        		= HCPottedhemp,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedhempdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Hemp Plant,
+        icon        		= HCPottedhempdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedhempready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Hemp Plant,
+        icon        		= HCPottedhemp,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedhemp/HCPottedhempsmall/HCPottedhempsmalldead/HCPottedhempsmalldry/HCPottedhempdry/HCPottedhempdead/HCPottedhempready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedtobaccosmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Tobacco Plant,
+        icon        		= HCPottedtobaccosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedtobaccosmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Tobacco Plant,
+        icon        		= HCPottedtobaccosmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedtobaccosmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Tobacco Plant,
+        icon        		= HCPottedtobaccosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedtobaccodry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Tobacco Plant,
+        icon        		= HCPottedtobacco,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedtobaccodead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Tobacco Plant,
+        icon        		= HCPottedtobaccodead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedtobaccoready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Tobacco Plant,
+        icon        		= HCPottedtobacco,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedtobacco/HCPottedtobaccosmall/HCPottedtobaccosmalldead/HCPottedtobaccosmalldry/HCPottedtobaccodry/HCPottedtobaccodead/HCPottedtobaccoready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedchinesecabbagesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Chinese Cabbage,
+        icon        		= HCPottedchinesecabbagesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedchinesecabbagesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Chinese Cabbage,
+        icon        		= HCPottedchinesecabbagesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedchinesecabbagesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Chinese Cabbage,
+        icon        		= HCPottedchinesecabbagesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedchinesecabbagedry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Chinese Cabbage,
+        icon        		= HCPottedchinesecabbage,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedchinesecabbagedead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Chinese Cabbage,
+        icon        		= HCPottedchinesecabbagedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedchinesecabbageready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Chinese Cabbage,
+        icon        		= HCPottedchinesecabbage,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedchinesecabbage/HCPottedchinesecabbagesmall/HCPottedchinesecabbagesmalldead/HCPottedchinesecabbagesmalldry/HCPottedchinesecabbagedry/HCPottedchinesecabbagedead/HCPottedchinesecabbageready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+    item HCPottedcucumbersmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Cucumber,
+        icon        		= HCPottedcucumbersmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcucumbersmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Cucumber,
+        icon        		= HCPottedcucumbersmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcucumbersmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Cucumber,
+        icon        		= HCPottedcucumbersmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcucumberdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Cucumber,
+        icon        		= HCPottedcucumber,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcucumberdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Cucumber,
+        icon        		= HCPottedcucumberdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcucumberready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Cucumber,
+        icon        		= HCPottedcucumber,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedcucumber/HCPottedcucumbersmall/HCPottedcucumbersmalldead/HCPottedcucumbersmalldry/HCPottedcucumberdry/HCPottedcucumberdead/HCPottedcucumberready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedgingersmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Ginger,
+        icon        		= HCPottedgingersmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedgingersmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Ginger,
+        icon        		= HCPottedgingersmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedgingersmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Ginger,
+        icon        		= HCPottedgingersmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedgingerdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Ginger,
+        icon        		= HCPottedginger,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedgingerdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Ginger,
+        icon        		= HCPottedgingerdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedgingerready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Ginger,
+        icon        		= HCPottedgingerready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedginger/HCPottedgingersmall/HCPottedgingersmalldead/HCPottedgingersmalldry/HCPottedgingerdry/HCPottedgingerdead/HCPottedgingerready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedgarlicsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Garlic,
+        icon        		= HCPottedgarlicsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedgarlicsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Garlic,
+        icon        		= HCPottedgarlicsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedgarlicsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Garlic,
+        icon        		= HCPottedgarlicsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedgarlicdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Garlic,
+        icon        		= HCPottedgarlic,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedgarlicdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Garlic,
+        icon        		= HCPottedgarlicdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedgarlicready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Garlic,
+        icon        		= HCPottedgarlic,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedgarlic/HCPottedgarlicsmall/HCPottedgarlicsmalldead/HCPottedgarlicsmalldry/HCPottedgarlicdry/HCPottedgarlicdead/HCPottedgarlicready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedoniongreensmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Green Onion,
+        icon        		= HCPottedoniongreensmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedoniongreensmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Green Onion,
+        icon        		= HCPottedoniongreensmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedoniongreensmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Green Onion,
+        icon        		= HCPottedoniongreensmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedoniongreendry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Green Onion,
+        icon        		= HCPottedoniongreen,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedoniongreendead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Green Onion,
+        icon        		= HCPottedoniongreendead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedoniongreenready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Green Onion,
+        icon        		= HCPottedoniongreen,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedoniongreen/HCPottedoniongreensmall/HCPottedoniongreensmalldead/HCPottedoniongreensmalldry/HCPottedoniongreendry/HCPottedoniongreendead/HCPottedoniongreenready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedsweetpotatosmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Sweet Potato,
+        icon        		= HCPottedsweetpotatosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedsweetpotatosmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Sweet Potato,
+        icon        		= HCPottedsweetpotatosmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedsweetpotatosmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Sweet Potato,
+        icon        		= HCPottedsweetpotatosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedsweetpotatodry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Sweet Potato,
+        icon        		= HCPottedsweetpotato,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedsweetpotatodead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Sweet Potato,
+        icon        		= HCPottedsweetpotatodead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedsweetpotatoready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Sweet Potato,
+        icon        		= HCPottedsweetpotato,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedsweetpotato/HCPottedsweetpotatosmall/HCPottedsweetpotatosmalldead/HCPottedsweetpotatosmalldry/HCPottedsweetpotatodry/HCPottedsweetpotatodead/HCPottedsweetpotatoready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedjutesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Jute Plant,
+        icon        		= HCPottedjutesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedjutesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Jute Plant,
+        icon        		= HCPottedjutesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedjutesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Jute Plant,
+        icon        		= HCPottedjutesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedjutedry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Jute Plant,
+        icon        		= HCPottedjute,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedjutedead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Jute Plant,
+        icon        		= HCPottedjutedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedjuteready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Jute Plant,
+        icon        		= HCPottedjute,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedjute/HCPottedjutesmall/HCPottedjutesmalldead/HCPottedjutesmalldry/HCPottedjutedry/HCPottedjutedead/HCPottedjuteready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedpumpkingreensmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Green Pumpkin,
+        icon        		= HCPottedpumpkingreensmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkingreensmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Green Pumpkin,
+        icon        		= HCPottedpumpkingreensmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkingreensmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Green Pumpkin,
+        icon        		= HCPottedpumpkingreensmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkingreendry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Green Pumpkin,
+        icon        		= HCPottedpumpkingreen,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkingreendead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Green Pumpkin,
+        icon        		= HCPottedpumpkingreendead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkingreenready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Green Pumpkin,
+        icon        		= HCPottedpumpkingreen,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedpumpkingreen/HCPottedpumpkingreensmall/HCPottedpumpkingreensmalldead/HCPottedpumpkingreensmalldry/HCPottedpumpkingreendry/HCPottedpumpkingreendead/HCPottedpumpkingreenready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedpumpkinwhitesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted White Pumpkin,
+        icon        		= HCPottedpumpkinwhitesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinwhitesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted White Pumpkin,
+        icon        		= HCPottedpumpkinwhitesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinwhitesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted White Pumpkin,
+        icon        		= HCPottedpumpkinwhitesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinwhitedry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted White Pumpkin,
+        icon        		= HCPottedpumpkinwhite,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinwhitedead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted White Pumpkin,
+        icon        		= HCPottedpumpkinwhitedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinwhiteready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted White Pumpkin,
+        icon        		= HCPottedpumpkinwhite,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedpumpkinwhite/HCPottedpumpkinwhitesmall/HCPottedpumpkinwhitesmalldead/HCPottedpumpkinwhitesmalldry/HCPottedpumpkinwhitedry/HCPottedpumpkinwhitedead/HCPottedpumpkinwhiteready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedpumpkinlargesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Large Pumpkin,
+        icon        		= HCPottedpumpkinlargesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinlargesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Large Pumpkin,
+        icon        		= HCPottedpumpkinlargesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinlargesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Large Pumpkin,
+        icon        		= HCPottedpumpkinlargesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinlargedry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Large Pumpkin,
+        icon        		= HCPottedpumpkinlarge,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinlargedead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Large Pumpkin,
+        icon        		= HCPottedpumpkinlargedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinlargeready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Large Pumpkin,
+        icon        		= HCPottedpumpkinlarge,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedpumpkinlarge/HCPottedpumpkinlargesmall/HCPottedpumpkinlargesmalldead/HCPottedpumpkinlargesmalldry/HCPottedpumpkinlargedry/HCPottedpumpkinlargedead/HCPottedpumpkinlargeready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedpumpkinbuskinsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Buskin Pumpkin,
+        icon        		= HCPottedpumpkinbuskinsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinbuskinsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Buskin Pumpkin,
+        icon        		= HCPottedpumpkinbuskinsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinbuskinsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Buskin Pumpkin,
+        icon        		= HCPottedpumpkinbuskinasmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinbuskindry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Buskin Pumpkin,
+        icon        		= HCPottedpumpkinbuskin,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinbuskindead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Buskin Pumpkin,
+        icon        		= HCPottedpumpkinbuskindead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedpumpkinbuskinready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Buskin Pumpkin,
+        icon        		= HCPottedpumpkinbuskin,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedpumpkinbuskin/HCPottedpumpkinbuskinsmall/HCPottedpumpkinbuskinsmalldead/HCPottedpumpkinbuskinsmalldry/HCPottedpumpkinbuskindry/HCPottedpumpkinbuskindead/HCPottedpumpkinbuskinready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+
+    item HCPottedcornwhitesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted White Corn,
+        icon        		= HCPottedcornsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornwhitesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted White Corn,
+        icon        		= HCPottedcornsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornwhitesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted White Corn,
+        icon        		= HCPottedcornsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornwhitedry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted White Corn,
+        icon        		= HCPottedcornwhite,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornwhitedead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted White Corn,
+        icon        		= HCPottedcorndead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornwhiteready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted White Corn,
+        icon        		= HCPottedcornwhite,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedcornwhite/HCPottedcornwhitesmall/HCPottedcornwhitesmalldead/HCPottedcornwhitesmalldry/HCPottedcornwhitedry/HCPottedcornwhitedead/HCPottedcornwhiteready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedcornredsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Red Corn,
+        icon        		= HCPottedcornsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornredsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Red Corn,
+        icon        		= HCPottedcornsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornredsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Red Corn,
+        icon        		= HCPottedcornsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornreddry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Red Corn,
+        icon        		= HCPottedcornred,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornreddead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Red Corn,
+        icon        		= HCPottedcorndead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornredready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Red Corn,
+        icon        		= HCPottedcornred,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedcornred/HCPottedcornredsmall/HCPottedcornredsmalldead/HCPottedcornredsmalldry/HCPottedcornreddry/HCPottedcornreddead/HCPottedcornredready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedcornbluesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Blue Corn,
+        icon        		= HCPottedcornsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornbluesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Blue Corn,
+        icon        		= HCPottedcornsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornbluesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Blue Corn,
+        icon        		= HCPottedcornsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornbluedry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Blue Corn,
+        icon        		= HCPottedcornblue,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornbluedead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Blue Corn,
+        icon        		= HCPottedcorndead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedcornblueready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Blue Corn,
+        icon        		= HCPottedcornblue,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedcornblue/HCPottedcornbluesmall/HCPottedcornbluesmalldead/HCPottedcornbluesmalldry/HCPottedcornbluedry/HCPottedcornbluedead/HCPottedcornblueready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+    item HCPottedchilipepperplantsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Chili Pepper Plant,
+        icon        		= HCPottedchilipepperplantsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedchilipepperplantsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Chili Pepper Plant,
+        icon        		= HCPottedchilipepperplantsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedchilipepperplantsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Chili Pepper Plant,
+        icon        		= HCPottedchilipepperplantsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedchilipepperplantdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Chili Pepper Plant,
+        icon        		= HCPottedchilipepperplant,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedchilipepperplantdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Chili Pepper Plant,
+        icon        		= HCPottedchilipepperplantdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+    item HCPottedchilipepperplantready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Chili Pepper Plant,
+        icon        		= HCPottedchilipepperplantready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedchilipepperplant/HCPottedchilipepperplantsmall/HCPottedchilipepperplantsmalldead/HCPottedchilipepperplantsmalldry/HCPottedchilipepperplantdry/HCPottedchilipepperplantdead/HCPottedchilipepperplantready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+item HCPottedpoppysmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Poppy,
+        icon        		= HCPottedpoppysmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedpoppysmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Poppy,
+        icon        		= HCPottedpoppysmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedpoppysmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Poppy,
+        icon        		= HCPottedpoppysmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedpoppydry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Poppy,
+        icon        		= HCPottedpoppy,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedpoppydead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Poppy,
+        icon        		= HCPottedpoppydead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedpoppyready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Poppy,
+        icon        		= HCPottedpoppyready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedpoppy/HCPottedpoppysmall/HCPottedpoppysmalldead/HCPottedpoppysmalldry/HCPottedpoppydry/HCPottedpoppydead/HCPottedpoppyready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+item HCPottedcactussmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Cactus,
+        Icon        		= HCPottedcactussmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcactussmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Cactus,
+        Icon        		= HCPottedcactussmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcactussmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Cactus,
+        Icon        		= HCPottedcactussmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcactusdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Cactus,
+        Icon        		= HCPottedcactus,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcactusdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Cactus,
+        Icon        		= HCPottedcactus,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcactusready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Cactus,
+        Icon        		= HCPottedcactus,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedcactus/HCPottedcactussmall/HCPottedcactussmalldead/HCPottedcactussmalldry/HCPottedcactusdry/HCPottedcactusdead/HCPottedcactusready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+item HCPottedagavebluesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Blue Agave,
+        Icon        		= HCPottedagavebluesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedagavebluesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Blue Agave,
+        Icon        		= HCPottedagavebluesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedagavebluesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Blue Agave,
+        Icon        		= HCPottedagavebluesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedagavebluedry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Blue Agave,
+        Icon        		= HCPottedagaveblue,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedagavebluedead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Blue Agave,
+        Icon        		= HCPottedagavebluedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedagaveblueready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Blue Agave,
+        Icon        		= HCPottedagaveblue,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedagaveblue/HCPottedagavebluesmall/HCPottedagavebluesmalldead/HCPottedagavebluesmalldry/HCPottedagavebluedry/HCPottedagavebluedead/HCPottedagaveblueready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+/*------------------------------------------------*/
+item HCPottedpricklypearcactussmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Prickly Pear Cactus,
+        Icon        		= HCPottedpricklypearcactussmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedpricklypearcactussmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Prickly Pear Cactus,
+        Icon        		= HCPottedpricklypearcactussmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedpricklypearcactussmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Prickly Pear Cactus,
+        Icon        		= HCPottedpricklypearcactussmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedpricklypearcactusdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Prickly Pear Cactus,
+        Icon        		= HCPottedpricklypearcactus,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedpricklypearcactusdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Prickly Pear Cactus,
+        Icon        		= HCPottedpricklypearcactusdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedpricklypearcactusready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Prickly Pear Cactus,
+        Icon        		= HCPottedpricklypearcactus,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedpricklypearcactus/HCPottedpricklypearcactussmall/HCPottedpricklypearcactussmalldead/HCPottedpricklypearcactussmalldry/HCPottedpricklypearcactusdry/HCPottedpricklypearcactusdead/HCPottedpricklypearcactusready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+/*------------------------------------------------*/
+
+item HCPottedJalapeno
+    	{
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+        DisplayName 		= Potted Jalapeno,
+        Icon        		= HCPottedchilipepperplant,
+	ResizeWorldIcon 	= 1.0,
+    	}
+item HCPottedJalapenosmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Jalapeno,
+        Icon        		= HCPottedchilipepperplantsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedJalapenosmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Jalapeno,
+        Icon        		= HCPottedchilipepperplantsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedJalapenosmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Jalapeno,
+        Icon        		= HCPottedchilipepperplantsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedJalapenodry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Jalapeno,
+        Icon        		= HCPottedchilipepperplant,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedJalapenodead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Jalapeno,
+        Icon        		= HCPottedchilipepperplantdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedJalapenoready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Jalapeno,
+        Icon        		= HCPottedchiligreen,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedJalapeno/HCPottedJalapenosmall/HCPottedJalapenosmalldead/HCPottedJalapenosmalldry/HCPottedJalapenodry/HCPottedJalapenodead/HCPottedJalapenoready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCJalapenoseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedJalapenosmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+recipe Harvest Crop
+    {
+    	HCPottedJalapenoready,
+    	Result:HCPlanter,
+    	CanBeDoneFromFloor:true,
+    	Time:3000.0,
+    	NeedToBeLearn:true,
+    	Category:Farming,
+    	OnGiveXP:HCFarming_OnGiveXP,
+		OnCreate:recipe_NDPlantsHarvest,
+    }
+/*------------------------------------------------*/
+
+item HCPottedchiligreensmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Green Chili,
+        Icon        		= HCPottedchilipepperplantsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedchiligreensmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Green Chili,
+        Icon        		= HCPottedchilipepperplantsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedchiligreensmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Green Chili,
+        Icon        		= HCPottedchilipepperplantsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedchiligreendry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Green Chili,
+        Icon        		= HCPottedchilipepperplant,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedchiligreendead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Green Chili,
+        Icon        		= HCPottedchilipepperplantdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedchiligreenready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Green Chili,
+        Icon        		= HCPottedchiligreen,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedchiligreen/HCPottedchiligreensmall/HCPottedchiligreensmalldead/HCPottedchiligreensmalldry/HCPottedchiligreendry/HCPottedchiligreendead/HCPottedchiligreenready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+item HCPottedtomatilloplantsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Tomatillo Plant,
+        Icon        		= HCPottedtomatilloplantsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedtomatilloplantsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Tomatillo Plant,
+        Icon        		= HCPottedtomatilloplantsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedtomatilloplantsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Tomatillo Plant,
+        Icon        		= HCPottedtomatilloplantsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedtomatilloplantdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Tomatillo Plant,
+        Icon        		= HCPottedtomatilloplant,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedtomatilloplantdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Tomatillo Plant,
+        Icon        		= HCPottedtomatilloplantdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedtomatilloplantready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Tomatillo Plant,
+        Icon        		= HCPottedtomatilloplant,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedtomatilloplant/HCPottedtomatilloplantsmall/HCPottedtomatilloplantsmalldead/HCPottedtomatilloplantsmalldry/HCPottedtomatilloplantdry/HCPottedtomatilloplantdead/HCPottedtomatilloplantready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+item HCPottedcottonplantsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Cotton Plant,
+        icon        		= HCPottedcottonplantsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcottonplantsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Cotton Plant,
+        icon        		= HCPottedcottonplantsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcottonplantsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Cotton Plant,
+        icon        		= HCPottedcottonplantsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcottonplantdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Cotton Plant,
+        icon        		= HCPottedcottonplant,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcottonplantdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Cotton Plant,
+        icon        		= HCPottedcottonplantdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcottonplantready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Cotton Plant,
+        icon        		= HCPottedcottonplantready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedcottonplant/HCPottedcottonplantsmall/HCPottedcottonplantsmalldead/HCPottedcottonplantsmalldry/HCPottedcottonplantdry/HCPottedcottonplantdead/HCPottedcottonplantready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+item HCPottedricesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Rice,
+        icon        		= HCPottedricesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedricesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Rice,
+        icon        		= HCPottedricesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedricesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Rice,
+        icon        		= HCPottedricesmalldry,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedricedry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Rice,
+        icon        		= HCPottedricedry,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedricedead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Rice,
+        icon        		= HCPottedricedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedriceready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Rice,
+        icon        		= HCPottedrice,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedrice/HCPottedricesmall/HCPottedricesmalldead/HCPottedricesmalldry/HCPottedricedry/HCPottedricedead/HCPottedriceready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+item HCPottedshiitakesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Shiitake Mushrooms,
+        icon        		= HCPottedshiitakesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedshiitakesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Shiitake Mushrooms,
+        icon        		= HCPottedshiitakesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedshiitakesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Shiitake Mushrooms,
+        icon        		= HCPottedshiitakesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedshiitakedry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Shiitake Mushrooms,
+        icon        		= HCPottedshiitake,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedshiitakedead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Shiitake Mushrooms,
+        icon        		= HCPottedshiitakedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedshiitakeready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Shiitake Mushrooms,
+        icon        		= HCPottedshiitake,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedshiitake/HCPottedshiitakesmall/HCPottedshiitakesmalldead/HCPottedshiitakesmalldry/HCPottedshiitakedry/HCPottedshiitakedead/HCPottedshiitakeready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+item HCPottedportobellosmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Portobello Mushrooms,
+        icon        		= HCPottedportobellosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedportobellosmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Portobello Mushrooms,
+        icon        		= HCPottedportobellosmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedportobellosmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Portobello Mushrooms,
+        icon        		= HCPottedportobellosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedportobellodry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Portobello Mushrooms,
+        icon        		= HCPottedportobello,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedportobellodead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Portobello Mushrooms,
+        icon        		= HCPottedportobellodead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedportobelloready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Portobello Mushrooms,
+        icon        		= HCPottedportobello,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedportobello/HCPottedportobellosmall/HCPottedportobellosmalldead/HCPottedportobellosmalldry/HCPottedportobellodry/HCPottedportobellodead/HCPottedportobelloready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+item HCPottedcolewortsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Colewort,
+        icon        		= HCPottedcolewortsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcolewortsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Colewort,
+        icon        		= HCPottedcolewortsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcolewortsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Colewort,
+        icon        		= HCPottedcolewortsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcolewortdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Colewort,
+        icon        		= HCPottedcolewort,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcolewortdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Colewort,
+        icon        		= HCPottedcolewortdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcolewortready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Colewort,
+        icon        		= HCPottedcolewort,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedcolewort/HCPottedcolewortsmall/HCPottedcolewortsmalldead/HCPottedcolewortsmalldry/HCPottedcolewortdry/HCPottedcolewortdead/HCPottedcolewortready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+item HCPottedrubbertreesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Rubber Tree,
+        icon        		= HCPottedrubbertreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedrubbertreesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Rubber Tree,
+        icon        		= HCPottedrubbertreesmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedrubbertreesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Rubber Tree,
+        icon        		= HCPottedrubbertreesmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedrubbertreedry
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Rubber Tree,
+        icon        		= HCPottedrubbertree,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedrubbertreedead
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Rubber Tree,
+        icon        		= HCPottedrubbertreedead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedrubbertreeready
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Rubber Tree,
+        icon        		= HCPottedrubbertree,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedrubbertree2
+    {
+        Weight      		= 25,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 1.0,
+        DisplayName 		= Potted Rubber Tree with Sap Catchers,
+	ReplaceOnDeplete	= HCPlanter,
+        icon        		= HCPottedrubbertree2,
+	ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedrubbertreedry2
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Rubber Tree with Sap Catchers,
+        icon        		= HCPottedrubbertree,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedrubbertreedead2
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Rubber Tree with Sap Catchers,
+        icon        		= HCPottedrubbertreedead2,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedrubbertree/HCPottedrubbertree2/HCPottedrubbertreesmall/HCPottedrubbertreesmalldead/HCPottedrubbertreesmalldry/HCPottedrubbertreedry/HCPottedrubbertreedry2/HCPottedrubbertreedead/HCPottedrubbertreedead2/HCPottedrubbertreeready,
+    Result:HCClayflowerpotwithdirt,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+	
+item HCPottedbasilsmall
+    {
+        Weight      		= 1,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Basil,
+        icon        		= HCPottedbasilsmall,
+		ResizeWorldIcon 	= 2.0,
+    }
+item HCPottedbasilsmalldead
+    {
+        Weight      		= 1,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Basil,
+        icon        		= HCPottedbasilsmalldead,
+		ResizeWorldIcon 	= 2.0,
+    }
+item HCPottedbasilsmalldry
+    {
+        Weight      		= 1,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Basil,
+        icon        		= HCPottedbasilsmall,
+		ResizeWorldIcon 	= 2.0,
+    }
+item HCPottedbasildry
+    {
+        Weight      		= 1,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Basil,
+        icon        		= HCPottedbasil,
+		ResizeWorldIcon 	= 2.0,
+    }
+item HCPottedbasildead
+    {
+        Weight      		= 1,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Basil,
+        icon        		= HCPottedbasil,
+		ResizeWorldIcon 	= 2.0,
+    }
+item HCPottedbasilready
+    {
+        Weight      		= 1,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Basil,
+        icon        		= HCPottedbasil,
+		ResizeWorldIcon 	= 2.0,
+    }
+	recipe Remove Crop
+	{    HCPottedbasil/HCPottedbasilsmall/HCPottedbasilsmalldead/HCPottedbasilsmalldry/HCPottedbasildry/HCPottedbasildead/HCPottedbasilready,
+    Result:HCClayflowerpotwithdirt,
+    CanBeDoneFromFloor:true,
+    Time:1000.0,
+    Category:Farming,
+	}
+
+item HCPottedalfalfasmall
+    {
+        Weight      		= 1,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Alfalfa,
+        icon        		= HCPottedalfalfasmall,
+		ResizeWorldIcon 	= 2.0,
+    }
+item HCPottedalfalfasmalldead
+    {
+        Weight      		= 1,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Alfalfa,
+        icon        		= HCPottedalfalfasmalldead,
+		ResizeWorldIcon 	= 2.0,
+    }
+item HCPottedalfalfasmalldry
+    {
+        Weight      		= 1,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Alfalfa,
+        icon        		= HCPottedalfalfasmall,
+		ResizeWorldIcon 	= 2.0,
+    }
+item HCPottedalfalfadry
+    {
+        Weight      		= 1,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Alfalfa,
+        icon        		= HCPottedalfalfa,
+		ResizeWorldIcon 	= 2.0,
+    }
+item HCPottedalfalfadead
+    {
+        Weight      		= 1,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Alfalfa,
+        icon        		= HCPottedalfalfadead,
+		ResizeWorldIcon 	= 2.0,
+    }
+item HCPottedalfalfaready
+    {
+        Weight      		= 1,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Alfalfa,
+        icon        		= HCPottedalfalfa,
+		ResizeWorldIcon 	= 2.0,
+    }
+	recipe Remove Crop
+	{    HCPottedalfalfa/HCPottedalfalfasmall/HCPottedalfalfasmalldead/HCPottedalfalfasmalldry/HCPottedalfalfadry/HCPottedalfalfadead/HCPottedalfalfaready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+item HCPottedbamboosmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Bamboo,
+        icon        		= HCPottedbamboosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedbamboosmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Bamboo,
+        icon        		= HCPottedbamboosmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedbamboosmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Bamboo,
+        icon        		= HCPottedbamboosmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedbamboodry
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Bamboo,
+        icon        		= HCPottedbamboo,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedbamboodead
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Bamboo,
+        icon        		= HCPottedbamboodead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedbambooready
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Bamboo,
+        icon        		= HCPottedbamboo,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedbamboo/HCPottedbamboosmall/HCPottedbamboosmalldead/HCPottedbamboosmalldry/HCPottedbamboodry/HCPottedbamboodead/HCPottedbambooready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+item HCPottedasparagussmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Asparagus,
+        icon        		= HCPottedasparagus,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedasparagussmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Asparagus,
+        icon        		= HCPottedasparagusdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedasparagussmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Dry Potted Asparagus,
+        icon        		= HCPottedasparagus,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedasparagusdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Asparagus,
+        icon        		= HCPottedasparagus,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedasparagusdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Asparagus,
+        icon        		= HCPottedasparagusdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedasparagusready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Asparagus,
+        icon        		= HCPottedasparagus,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedasparagus/HCPottedasparagussmall/HCPottedasparagussmalldead/HCPottedasparagussmalldry/HCPottedasparagusdry/HCPottedasparagusdead/HCPottedasparagusready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+recipe Plant Crop
+    {
+        SkillRequired:Farming=7,
+        HCAsparagusseeds,
+        HCPlanter,
+        keep HandShovel,
+        Result:HCPottedasparagussmall,
+        Time:1000,
+    	NeedToBeLearn:true,
+		Category:Farming,
+    }
+
+item HCPottedartichokessmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Artichokes,
+        icon        		= HCPottedartichokessmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedartichokessmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Artichokes,
+        icon        		= HCPottedartichokessmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedartichokessmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Artichokes,
+        icon        		= HCPottedartichokessmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedartichokesdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Artichokes,
+        icon        		= HCPottedartichokes,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedartichokesdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Artichokes,
+        icon        		= HCPottedartichokesdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedartichokesready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Artichokes,
+        icon        		= HCPottedartichokes,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedartichokes/HCPottedartichokessmall/HCPottedartichokessmalldead/HCPottedartichokessmalldry/HCPottedartichokesdry/HCPottedartichokesdead/HCPottedartichokesready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+/*--------------------------------------------------------*/
+item HCPottedbeetssmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Beets,
+        icon        		= HCPottedbeetssmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedbeetssmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Beets,
+        icon        		= HCPottedbeetssmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedbeetssmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Beets,
+        icon        		= HCPottedbeetssmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedbeetsdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Beets,
+        icon        		= HCPottedbeets,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedbeetsdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Beets,
+        icon        		= HCPottedbeetsdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedbeetsready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Beets,
+        icon        		= HCPottedbeets,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedbeets/HCPottedbeetssmall/HCPottedbeetssmalldead/HCPottedbeetssmalldry/HCPottedbeetsdry/HCPottedbeetsdead/HCPottedbeetsready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+item HCPottedmulberrysmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Mulberry,
+        icon        		= HCPottedmulberrysmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedmulberrysmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Mulberry,
+        icon        		= HCPottedmulberrysmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedmulberrysmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Mulberry,
+        icon        		= HCPottedmulberrysmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedmulberrydry
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Mulberry,
+        icon        		= HCPottedmulberry,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedmulberrydead
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Mulberry,
+        icon        		= HCPottedmulberrydead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedmulberryready
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Mulberry,
+        icon        		= HCPottedmulberryready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedmulberry/HCPottedmulberrysmall/HCPottedmulberrysmalldead/HCPottedmulberrysmalldry/HCPottedmulberrydry/HCPottedmulberrydead/HCPottedmulberryready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+item HCPottedapricotsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small PottedApricot,
+        icon        		= HCPottedapricotsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedapricotsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small PottedApricot,
+        icon        		= HCPottedapricotsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedapricotsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small PottedApricot,
+        icon        		= HCPottedapricotsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedapricotdry
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry PottedApricot,
+        icon        		= HCPottedapricot,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedapricotdead
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead PottedApricot,
+        icon        		= HCPottedapricotdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedapricotready
+    {
+        Weight      		= 15,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready PottedApricot,
+        icon        		= HCPottedapricotready,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedapricot/HCPottedapricotsmall/HCPottedapricotsmalldead/HCPottedapricotsmalldry/HCPottedapricotdry/HCPottedapricotdead/HCPottedapricotready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+item HCPottedcelerysmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Celery,
+        icon        		= HCPottedcelerysmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcelerysmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Celery,
+        icon        		= HCPottedcelerysmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcelerysmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Celery,
+        icon        		= HCPottedcelerysmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcelerydry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Celery,
+        icon        		= HCPottedcelery,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedcelerydead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Celery,
+        icon        		= HCPottedcelerydead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedceleryready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Ready Potted Celery,
+        icon        		= HCPottedcelery,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedcelery/HCPottedcelerysmall/HCPottedcelerysmalldead/HCPottedcelerysmalldry/HCPottedcelerydry/HCPottedcelerydead/HCPottedceleryready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+item HCPottedspinachsmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Small Potted Spinach,
+        icon        		= HCPottedspinachsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedspinachsmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Small Potted Spinach,
+        icon        		= HCPottedspinachsmalldead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedspinachsmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Small Potted Spinach,
+        icon        		= HCPottedspinachsmall,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedspinachdry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dry Potted Spinach,
+        icon        		= HCPottedspinach,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedspinachdead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= Dead Potted Spinach,
+        icon        		= HCPottedspinachdead,
+		ResizeWorldIcon 	= 1.0,
+    }
+item HCPottedspinachready
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+		UseWhileEquipped	= FALSE,
+        DisplayName 		= ReadyPotted Spinach,
+        icon        		= HCPottedspinach,
+		ResizeWorldIcon 	= 1.0,
+    }
+	recipe Remove Crop
+	{    HCPottedspinach/HCPottedspinachsmall/HCPottedspinachsmalldead/HCPottedspinachsmalldry/HCPottedspinachdry/HCPottedspinachdead/HCPottedspinachready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:2000.0,
+    Category:Farming,
+	}
+
+		
+recipe Harvest Spirulina
+    	{
+    	keep HCSpirulinatank,
+    	Fertilizer,
+    	Water,
+    	Result:HCSpirulinafresh=5,
+    	CanBeDoneFromFloor:true,
+    	Time:6000.0,
+    	NeedToBeLearn:true,
+    	Category:Farming,
+    	OnGiveXP:HCFarming_OnGiveXP,
+    	}
+
+}

@@ -1,0 +1,905 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCCowboyhat
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Cowboy Hat,
+        icon 			= HCCowboyhat,
+    }
+
+item HCTophat
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Top Hat,
+        icon 			= HCTophat,
+    }
+
+item HCFez
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Fez,
+        icon 			= HCFez,
+    }
+
+item HCUshanka
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Ushanka,
+        icon 			= HCUshanka,
+    }
+
+item HCHatsnow
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Snow Hat,
+        icon 			= HCHatsnow,
+    }
+
+item HCHatmillitary
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Millitary Hat,
+        icon 			= HCHatmillitary,
+    }
+
+item HCHatcaptain
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Captain's Hat,
+        icon 			= HCHatcaptain,
+    }
+
+item HCHatbeanie
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Beanie Hat,
+        icon 			= HCHatbeanie,
+    }
+
+item HCSombrero
+    	{
+        Weight    		= 	0.2,
+        Type    		= 	Normal,
+        DisplayName         	= 	Sombrero,
+        Icon 			= 	HCSombrero,
+    	}
+
+item HCBandanna
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bandanna,
+        icon 			= HCBandanna,
+    }
+
+item HCMittens
+    {
+        Weight    		= 0.25,
+        Type    		= Normal,
+        DisplayName         	= Mittens,
+        icon 			= HCMittens,
+    }
+
+item HCSkimask
+   {
+	BodyLocation		= Head,
+        Weight    		= 0.1,
+	Type			= Clothing,
+	Temperature		= 10,
+	DisplayName		= Ski Mask,
+	Icon			= HCSkimask,
+	}
+
+item HCLuchadorwrestlingmask
+    	{
+        Weight    		= 	0.2,
+        Type    		= 	Normal,
+        DisplayName         	= 	Luchador Wrestling Mask,
+        Icon 			= 	HCLuchadorwrestlingmask,
+    	} 
+
+item HCNecklacepeace
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Peace Necklace,
+        icon 			= HCNecklacepeace,
+    } 
+
+item HCNecklacebling
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Gold Chain Bling,
+        icon 			= HCNecklacebling,
+    } 
+
+item HCDogtag
+	{
+	Weight 			= 0.1,
+	Type                	= Container,
+	Capacity             	= 0,
+	DisplayName 		= Dog Tag,
+	Icon			= HCDogtag,
+	}
+
+item HCNecktie1
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Neck Tie,
+        icon 			= HCNecktie1,
+    } 
+
+item HCNecktie2
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Neck Tie,
+        icon 			= HCNecktie2,
+    } 
+
+item HCNecktie3
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Neck Tie,
+        icon 			= HCNecktie3,
+    } 
+
+item HCNecktie4
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Neck Tie,
+        icon 			= HCNecktie4,
+    } 
+
+item HCNecktie5
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Neck Tie,
+        icon 			= HCNecktie5,
+    } 
+
+item HCNecktie6
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Neck Tie,
+        icon 			= HCNecktie6,
+    } 
+
+item HCNecktie7
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Neck Tie,
+        icon 			= HCNecktie7,
+    } 
+
+item HCNecktie8
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Neck Tie,
+        icon 			= HCNecktie8,
+    } 
+
+item HCNecktie9
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Neck Tie,
+        icon 			= HCNecktie9,
+    } 
+
+item HCNecktie10
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Neck Tie,
+        icon 			= HCNecktie10,
+    } 
+
+item HCRubberglove
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Rubber Gloves,
+        icon 			= HCRubberglove,
+    } 
+
+item HCGoogles
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Googles,
+        icon 			= HCGoogles,
+    } 
+
+item HCImprovisedgoggles
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Improvised Googles,
+        icon 			= HCImprovisedgoggles,
+    } 
+
+item HCBlacksmithgoogles
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Blacksmith Googles,
+        icon 			= HCBlacksmithgoogles,
+    } 
+
+item HCGasmask
+    {
+        Weight    	        = 0.9,
+        Type    	        = Normal,
+        DisplayName    	        = Gasmask,
+        Icon    	        = HCGasmask,
+    }
+
+item HCImprovisedgasmask
+    {
+        Weight    	        = 0.9,
+        Type    	        = Normal,
+        DisplayName    	        = Improvised Gasmask,
+        Icon    	        = HCImprovisedgasmask,
+    }
+
+
+item HCHazmat
+    {
+        Weight    	        = 1.3,
+        Type    	        = Normal,
+        DisplayName    	        = Hazmat Suit,
+        Icon    	        = HCHazmat,
+    }
+
+item HCImprovisedhazmat
+    {
+        Weight    	        = 1.3,
+        Type    	        = Normal,
+        DisplayName    	        = Improvised Hazmat Suit,
+        Icon    	        = HCImprovisedhazmat,
+    }
+
+item HCScavangeshroud
+   {
+	Palettes		= Shirt_White,
+	BodyLocation		= Top,
+	PalettesStart		= Shirt_,
+	Type			= Clothing,
+	Temperature		= 2,
+	SpriteName		= Shirt,
+	DisplayName		= Scavange Shroud,
+	Icon			= HCScavangeshroud,
+        ConditionLowerChanceOneIn = 10,
+        ConditionMax		= 7,
+        Insulation  		= 0.65,
+   }
+
+item HCRaincoat
+   {
+	Palettes		= Shirt_White,
+	BodyLocation		= Top,
+	PalettesStart		= Shirt_,
+	Type			= Clothing,
+	Temperature		= 15,
+	SpriteName		= Shirt,
+	DisplayName		= Raincoat,
+	Icon			= HCRaincoat,
+        ConditionLowerChanceOneIn = 20,
+        ConditionMax		= 12,
+        Insulation  		= 0.80,
+   }
+
+item HCRainponcho
+   {
+	Palettes		= Shirt_White,
+	BodyLocation		= Top,
+	PalettesStart		= Shirt_,
+	Type			= Clothing,
+	Temperature		= 10,
+	SpriteName		= Shirt,
+	DisplayName		= Rain Poncho,
+	Icon			= HCRainponcho,
+        ConditionLowerChanceOneIn = 10,
+        ConditionMax		= 5,
+        Insulation  		= 0.70,
+   }
+
+item HCMexicanponcho
+	{
+	Palettes		= 	Shirt_White,
+	BodyLocation		= 	Top,
+	PalettesStart		= 	Shirt_,
+	Type			= 	Clothing,
+	Temperature		= 	12,
+	SpriteName		= 	Shirt,
+	DisplayName		= 	Mexican Poncho,
+	Icon			= 	HCMexicanponcho,
+        ConditionLowerChanceOneIn = 15,
+        ConditionMax		= 10,
+        Insulation  		= 0.75,
+	}
+
+item HCDownjacket
+	{
+	Palettes		= Shirt_White,
+	BodyLocation		= Top,
+	PalettesStart		= Shirt_,
+	Type			= Clothing,
+	Temperature		= 25,
+	SpriteName		= Shirt,
+	DisplayName		= Down Jacket,
+	Icon			= HCDownjacket,
+        ConditionLowerChanceOneIn = 20,
+        ConditionMax		= 12,
+        Insulation  		= 1.0,
+	}
+
+item HCButtondownshirt
+	{
+	Palettes		= Shirt_White,
+	BodyLocation		= Top,
+	PalettesStart		= Shirt_,
+	Type			= Clothing,
+	Temperature		= 6,
+	SpriteName		= Shirt,
+	DisplayName		= Button-Down Shirt,
+	Icon			= HCButtondownshirt,
+        ConditionLowerChanceOneIn = 10,
+        ConditionMax		= 7,
+        Insulation  		= 0.65,
+	}
+
+item HCPoloshirt
+	{
+	Palettes		= Shirt_White,
+	BodyLocation		= Top,
+	PalettesStart		= Shirt_,
+	Type			= Clothing,
+	Temperature		= 6,
+	SpriteName		= Shirt,
+	DisplayName		= Polo Shirt,
+	Icon			= HCPoloshirt,
+        ConditionLowerChanceOneIn = 10,
+        ConditionMax		= 7,
+        Insulation  		= 0.65,
+	}
+
+item HCTshirt
+	{
+	Palettes		= Shirt_White,
+	BodyLocation		= Top,
+	PalettesStart		= Shirt_,
+	Type			= Clothing,
+	Temperature		= 6,
+	SpriteName		= Shirt,
+	DisplayName		= T-Shirt,
+	Icon			= HCTshirt,
+        ConditionLowerChanceOneIn = 10,
+        ConditionMax		= 7,
+        Insulation  		= 0.50,
+	}
+
+item HCTiedyeshirt
+	{
+	Palettes		= Shirt_White,
+	BodyLocation		= Top,
+	PalettesStart		= Shirt_,
+	Type			= Clothing,
+	Temperature		= 6,
+	SpriteName		= Shirt,
+	DisplayName		= Tie-Dye Shirt,
+	Icon			= HCTiedyeshirt,
+        ConditionLowerChanceOneIn = 10,
+        ConditionMax		= 7,
+        Insulation  		= 0.50,
+	}
+
+item HCHawaiianshirt
+	{
+	Palettes		= Shirt_White,
+	BodyLocation		= Top,
+	PalettesStart		= Shirt_,
+	Type			= Clothing,
+	Temperature		= 6,
+	SpriteName		= Shirt,
+	DisplayName		= Hawaiian Shirt,
+	Icon			= HCHawaiianshirt,
+        ConditionLowerChanceOneIn = 10,
+        ConditionMax		= 7,
+        Insulation  		= 0.50,
+	}
+
+item HCLifevest
+	{
+	Palettes		= Vest_White,
+	BodyLocation		= Top,
+	PalettesStart		= Vest_,
+	Type			= Clothing,
+	Temperature		= 5,
+	SpriteName		= Vest,
+	DisplayName		= Life Vest,
+	Icon			= HCLifevest,
+        ConditionLowerChanceOneIn = 16,
+        ConditionMax		= 8,
+        Insulation  		= 0.25,
+	}
+
+item HCBra
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bra,
+        icon 			= HCBra,
+    }
+
+item HCBra2
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bra,
+        icon 			= HCBra2,
+    }
+
+item HCBra3
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bra,
+        icon 			= HCBra3,
+    }
+
+item HCBra4
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bra,
+        icon 			= HCBra4,
+    }
+
+item HCBra5
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bra,
+        icon 			= HCBra5,
+    }
+
+item HCBriefs
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Briefs,
+        icon = HCBriefs,
+    }
+
+item HCBriefs2
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Briefs,
+        icon = HCBriefs2,
+    }
+
+item HCBriefs3
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Briefs,
+        icon = HCBriefs3,
+    }
+
+item HCBriefs4
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Briefs,
+        icon = HCBriefs4,
+    }
+
+item HCBriefs5
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Briefs,
+        icon = HCBriefs5,
+    }
+
+item HCBriefs6
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Briefs,
+        icon = HCBriefs6,
+    }
+
+item HCBriefs7
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Briefs,
+        icon = HCBriefs7,
+    }
+
+item HCBoxers
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Boxers,
+        icon = HCBoxers,
+    }
+
+item HCBoxers2
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Boxers,
+        icon = HCBoxers2,
+    }
+
+item HCBoxers3
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Boxers,
+        icon = HCBoxers3,
+    }
+
+item HCBoxers4
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Boxers,
+        icon = HCBoxers4,
+    }
+
+item HCBoxers5
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Boxers,
+        icon = HCBoxers5,
+    }
+
+item HCBoxers6
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Boxers,
+        icon = HCBoxers6,
+    }
+
+item HCPanties
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Panties,
+        icon = HCPanties,
+    }
+
+item HCPanties2
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Panties,
+        icon = HCPanties2,
+    }
+
+item HCPanties3
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Panties,
+        icon = HCPanties3,
+    }
+
+item HCPanties4
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Panties,
+        icon = HCPanties4,
+    }
+
+item HCPanties5
+    {
+        Weight    = 0.1,
+        Type    = Normal,
+        DisplayName         = Panties,
+        icon = HCPanties5,
+    }
+
+item HCRollerskates
+	{
+		BodyLocation	=	Shoes,
+		Type		=	Clothing,
+		Temperature	=	3,
+		SpriteName	=	Shoes1,
+		DisplayName	=	Roller Skates,
+		Icon		=	HCRollerskates,
+		ConditionLowerChanceOneIn = 9000,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1.0,
+	}
+
+item HCFlipflops
+	{
+		BodyLocation	=	Shoes,
+		Type		=	Clothing,
+		Temperature	=	1,
+		SpriteName	=	Shoes1,
+		DisplayName	=	Flip Flops,
+		Icon		=	HCFlipflops,
+		ConditionLowerChanceOneIn = 90,
+        	ConditionMax	=	10,
+        	Insulation  	=  	0.10,
+	}
+
+item HCSlippers
+	{
+		BodyLocation	=	Shoes,
+		Type		=	Clothing,
+		Temperature	=	6,
+		SpriteName	=	Shoes1,
+		DisplayName	=	Slippers,
+		Icon		=	HCSlippers,
+		ConditionLowerChanceOneIn = 900,
+        	ConditionMax	=	10,
+        	Insulation  	=  	0.40,
+	}
+
+item HCBunnyslippers
+	{
+		BodyLocation	=	Shoes,
+		Type		=	Clothing,
+		Temperature	=	6,
+		SpriteName	=	Shoes1,
+		DisplayName	=	Bunny Slippers,
+		Icon		=	HCBunnyslippers,
+		ConditionLowerChanceOneIn = 900,
+        	ConditionMax	=	10,
+        	Insulation  	=  	0.45,
+	}
+
+item HCBoots
+	{
+		BodyLocation	=	Shoes,
+		Type		=	Clothing,
+		Temperature	=	4,
+		SpriteName	=	Shoes1,
+		DisplayName	=	Boots,
+		Icon		=	HCBoots,
+		ConditionLowerChanceOneIn = 90000,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1.0,
+	}
+
+item HCBootcombat
+	{
+		BodyLocation	=	Shoes,
+		Type		=	Clothing,
+		Temperature	=	4,
+		SpriteName	=	Shoes1,
+		DisplayName	=	Combat Boots,
+		Icon		=	HCBootcombat,
+		ConditionLowerChanceOneIn = 90000,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1.0,
+	}
+
+item HCBootconstruction
+	{
+		BodyLocation	=	Shoes,
+		Type		=	Clothing,
+		Temperature	=	4,
+		SpriteName	=	Shoes1,
+		DisplayName	=	Construction Boots,
+		Icon		=	HCBootconstruction,
+		ConditionLowerChanceOneIn = 90000,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1.0,
+	}
+
+item HCBootriot
+	{
+		BodyLocation	=	Shoes,
+		Type		=	Clothing,
+		Temperature	=	4,
+		SpriteName	=	Shoes1,
+		DisplayName	=	Riot Boots,
+		Icon		=	HCBootriot,
+		ConditionLowerChanceOneIn = 90000,
+        	ConditionMax	=	10,
+        	Insulation  	=  	1.0,
+	}
+
+item HCBootcord
+	{
+		BodyLocation	=	Shoes,
+		Type		=	Clothing,
+		Temperature	=	4,
+		SpriteName	=	Shoes1,
+		DisplayName	=	Cord Boots,
+		Icon		=	HCBootcord,
+		ConditionLowerChanceOneIn = 900,
+        	ConditionMax	=	10,
+        	Insulation  	=  	0.75,
+	}
+
+item HCCleats
+	{
+		BodyLocation	=	Shoes,
+		Type		=	Clothing,
+		Temperature	=	4,
+		SpriteName	=	Shoes1,
+		DisplayName	=	Cleats,
+		Icon		=	HCCleats,
+		ConditionLowerChanceOneIn = 9000,
+        	ConditionMax	=	10,
+        	Insulation  	=  	0.90,
+	}
+
+item HCIceskates
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Ice Skates,
+        icon 			= HCIceskates,
+    }
+
+item HCMexicanpointyshoes
+	{
+		BodyLocation		= Shoes,
+		Type			= Clothing,
+		Temperature		= 4,
+		SpriteName		= Shoes1,
+		DisplayName		= Mexican Pointy Shoes,
+		Icon			= HCMexicanpointyshoes,
+		ConditionLowerChanceOneIn = 900,
+        	ConditionMax		= 10,
+        	Insulation  	=  	0.90,
+	}
+
+/************************RECIPES************************/
+    
+
+recipe Wear Glasses
+    {
+    	Glasses,
+    	Result:Glasses,
+    	Time:15,
+    	OnCreate:WearGlassesRecipe,
+       	Category:Health,
+    }	
+
+recipe Make Rain Poncho
+    {
+    	keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/HCKnifestone/HCBreadknife/HCMeatcleaver/HCPumpkinknife/Scissors/HCScalpel/SharpedStone/HCMachete/HCCombatknife/HCKatana/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCScalpelimprovised,
+    	Garbagebag,
+    	Result:HCRainponcho,
+    	Time:15,
+    	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }	
+
+recipe Rip Underwear
+    {
+    	HCBriefs/HCBriefs2/HCBriefs3/HCBriefs4/HCBriefs5/HCBriefs6/HCBriefs7/HCBoxers/HCBoxers2/HCBoxers3/HCBoxers4/HCBoxers5/HCBoxers6/HCPanties/HCPanties2/HCPanties3/HCPanties4/HCPanties5,
+    	Result:RippedSheets=2,
+	Sound:PZ_ClothesRipping,
+	Time:50.0,
+ 	Category:Weaving,
+    }	
+
+recipe Rip Sheets
+    {
+    	HCMexicanponcho/HCButtondownshirt/HCPoloshirt/HCTshirt/HCTiedyeshirt/HCHawaiianshirt/HCArmorlightjacket/HCJeans,
+    	Result:RippedSheets=8,
+	Sound:PZ_ClothesRipping,
+	Time:100.0,
+ 	Category:Weaving,
+    }
+
+recipe Make Blacksmith Googles
+    {
+	HCGlasspane,           
+        HCLeatherstrip,
+        Glue/HCSuperglue/HCRubbercement/HCHotgluegunfull/HCGluejar,
+	Thread,
+        keep Needle/HCBoneneedle,
+	keep Scissors,
+        keep HCGlasscutter,
+        NeedToBeLearn:true,
+        Result:HCImprovisedgoggles,
+        Time:150.0,
+        Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Improvised Googles
+    {
+	HCPlastic=2,
+        RubberBand=3,
+	DuctTape/Scotchtape/HCMaskingtape/HCPackingtape/HCElectrictape,                
+        RippedSheets=2,
+        Glue/HCSuperglue/HCRubbercement/HCHotgluegunfull/HCGluejar,
+        keep KitchenKnife/HuntingKnife/Scissors/HCScalpel/HCJackknife/HCScalpelimprovised,
+        Result:HCImprovisedgoggles,
+        Time:150.0,
+        Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Improvised Gasmask
+    {             
+         HCWaterbottlecutoff,
+         Glue/HCSuperglue/HCRubbercement/HCHotgluegunfull/HCGluejar,
+         HCSponge/Sponge,
+         RubberBand=4,
+         DuctTape/Scotchtape/HCMaskingtape/HCPackingtape/HCElectrictape,
+         keep KitchenKnife/HuntingKnife/Scissors/HCScalpel/HCJackknife/HCScalpelimprovised,
+         NeedToBeLearn:true,               
+         Result:HCImprovisedgasmask,
+	 Time:300.0,
+         Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Improvised Hazmat Suit
+    {
+	HCRaincoat,
+        Tarp,
+        Rainboots,
+	Thread,                
+        HCImprovisedgasmask/HCGasmask,
+        HCImprovisedgoggles/HCGoogles,
+        Glue/HCSuperglue/HCRubbercement/HCHotgluegunfull/HCGluejar,
+        HCRubberglove,
+        DuctTape/Scotchtape/HCMaskingtape/HCPackingtape/HCElectrictape,
+        keep KitchenKnife/HuntingKnife/Scissors/HCScalpel/HCJackknife/HCScalpelimprovised,
+        keep Needle/HCBoneneedle,
+        NeedToBeLearn:true,
+        Result:HCImprovisedhazmat,
+        Time:600.0,
+        Category:Health,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Scavange Shroud
+	{
+        HCGoogles/HCImprovisedgoggles,
+	Tarp,
+        Rope/Belt,
+	Thread, 
+        keep Needle/HCBoneneedle,
+	Result:HCScavangeshroud,
+        NeedToBeLearn:true,
+	Time:160.0,
+	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+	}
+}

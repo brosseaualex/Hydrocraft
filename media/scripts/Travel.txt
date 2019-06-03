@@ -1,0 +1,364 @@
+module Hydrocraft
+{
+	imports
+	{
+		Base,
+	}
+
+/************************ITEMS************************/
+
+item HCHelicopterL
+    {
+        Weight    		= 1000,
+	Type                	= Container,
+	Capacity             	= 1000,
+        DisplayName         	= Helicopter,
+        icon 			= HCHelicopterL,
+	ResizeWorldIcon 	= 4.0,
+    }
+
+item HCHelicopterR
+    {
+        Weight    		= 1000,
+	Type                	= Container,
+	Capacity             	= 1000,
+        DisplayName         	= Helicopter,
+        icon 			= HCHelicopterR,
+	ResizeWorldIcon 	= 4.0,
+    }
+
+item HCTicketBF
+	{
+	Weight			=	0.01,
+        Type			=	Normal,
+        DisplayName		=	Ticket to Bedford Falls,
+	Icon			=	HCCinematicket,
+	}
+
+item HCTicketCR
+	{
+	Weight			=	0.01,
+        Type			=	Normal,
+        DisplayName		=	Ticket to Crossroads,
+	Icon			=	HCCinematicket,
+	}
+
+item HCTicketND
+	{
+	Weight			=	0.01,
+        Type			=	Normal,
+        DisplayName		=	Ticket to New Denver,
+	Icon			=	HCCinematicket,
+	}
+
+item HCTicketVS
+	{
+	Weight			=	0.01,
+        Type			=	Normal,
+        DisplayName		=	Ticket to Valley Station,
+	Icon			=	HCCinematicket,
+	}
+
+item HCTicketOR
+	{
+	Weight			=	0.01,
+        Type			=	Normal,
+        DisplayName		=	Ticket Over the River,
+	Icon			=	HCCinematicket,
+	}
+
+item HCTicketMI
+	{
+	Weight			=	0.01,
+        Type			=	Normal,
+        DisplayName		=	Ticket Over to Midway Island,
+	Icon			=	HCCinematicket,
+	}
+
+/************************RECIPES************************/
+
+recipe Travel to Bedford Falls
+	{	
+		keep HCHelicopterL/HCHelicopterR,
+		keep HCMap,
+		keep HCCompass,
+		PetrolCan=16,
+		keep HCTicketBF,
+		Result:HCToyhelicopter,
+		CanBeDoneFromFloor:true,
+		Time:500.0,
+		OnCreate:travelToBF,
+    		Sound:chopper,
+		RemoveResultItem:true,
+		Category:Travel,
+	}
+
+recipe Travel to Crossroads
+	{
+		keep HCHelicopterL/HCHelicopterR,
+		keep HCMap,
+		keep HCCompass,
+		keep HCTicketCR,
+		PetrolCan=16,
+		Result:HCToyhelicopter,
+		CanBeDoneFromFloor:true,
+		Time:500.0,
+		OnCreate:travelToCR,
+    		Sound:chopper,
+		RemoveResultItem:true,
+		Category:Travel,
+	}
+
+recipe Travel to New Denver
+	{
+		keep HCHelicopterL/HCHelicopterR,
+		keep HCMap,
+		keep HCCompass,
+		keep HCTicketND,
+		PetrolCan=16,
+		Result:HCToyhelicopter,
+		CanBeDoneFromFloor:true,
+		Time:500.0,
+		OnCreate:travelToND,
+    		Sound:chopper,
+		RemoveResultItem:true,
+		Category:Travel,
+	}
+	
+recipe Travel to Valley Station
+	{	
+		keep HCHelicopterL/HCHelicopterR,
+		keep HCMap,
+		keep HCCompass,
+		keep HCTicketVS,
+		PetrolCan=16,
+		Result:HCToyhelicopter,
+		CanBeDoneFromFloor:true,
+		Time:500.0,
+		OnCreate:travelToVS,
+    		Sound:chopper,
+		RemoveResultItem:true,
+		Category:Travel,
+	}
+
+recipe Travel to Bedford Falls
+	{	
+		keep HCHelicopterL/HCHelicopterR,
+		keep HCGPS,
+		keep HCTicketBF,
+		PetrolCan=16,
+		Result:HCToyhelicopter,
+		CanBeDoneFromFloor:true,
+		Time:500.0,
+		OnCreate:travelToBF,
+    		Sound:chopper,
+		RemoveResultItem:true,
+		Category:Travel,
+	}
+
+recipe Travel to Crossroads
+	{
+		keep HCHelicopterL/HCHelicopterR,
+		keep HCGPS,
+		keep HCTicketCR,
+		PetrolCan=16,
+		Result:HCToyhelicopter,
+		CanBeDoneFromFloor:true,
+		Time:500.0,
+		OnCreate:travelToCR,
+    		Sound:chopper,
+		RemoveResultItem:true,
+		Category:Travel,
+	}
+
+recipe Travel to New Denver
+	{
+		keep HCHelicopterL/HCHelicopterR,
+		keep HCGPS,
+		keep HCTicketND,
+		PetrolCan=16,
+		Result:HCToyhelicopter,
+		CanBeDoneFromFloor:true,
+		Time:500.0,
+		OnCreate:travelToND,
+    		Sound:chopper,
+		RemoveResultItem:true,
+		Category:Travel,
+	}
+	
+recipe Travel to Valley Station
+	{	
+		keep HCHelicopterL/HCHelicopterR,
+		keep HCGPS,
+		keep HCTicketVS,
+		PetrolCan=16,
+		Result:HCToyhelicopter,
+		CanBeDoneFromFloor:true,
+		Time:500.0,
+		OnCreate:travelToVS,
+    		Sound:chopper,
+		RemoveResultItem:true,
+		Category:Travel,
+	}
+
+recipe Travel to West Point Docks
+	{	
+		keep HCRaftrubber,
+		HCRubbersheet,
+		HCRubbercement,
+		keep HCBicyclepump,
+		keep HCPaddlewood/HCPaddlemetal,
+		keep HCLifevest,
+		keep HCMap,
+		keep HCCompass,
+		Result:HCRaftrubber,
+		CanBeDoneFromFloor:true,
+		Time:100.0,
+		OnCreate:travelToWPD,
+		RemoveResultItem:true,
+		Category:Travel,
+	}
+
+recipe Travel to Valley Station Docks
+	{	
+		keep HCRaftrubber,
+		HCRubbersheet,
+		HCRubbercement,
+		keep HCBicyclepump,
+		keep HCPaddlewood/HCPaddlemetal,
+		keep HCLifevest,
+		keep HCMap,
+		keep HCCompass,
+		Result:HCRaftrubber,
+		CanBeDoneFromFloor:true,
+		Time:100.0,
+		OnCreate:travelToVSD,
+		RemoveResultItem:true,
+		Category:Travel,
+	}
+
+recipe Travel to Riverside
+	{	
+		keep HCRaftrubber,
+		HCRubbersheet,
+		HCRubbercement,
+		keep HCBicyclepump,
+		keep HCPaddlewood/HCPaddlemetal,
+		keep HCLifevest,
+		keep HCMap,
+		keep HCCompass,
+		Result:HCRaftrubber,
+		CanBeDoneFromFloor:true,
+		Time:100.0,
+		OnCreate:travelToRS,
+		RemoveResultItem:true,
+		Category:Travel,
+	}
+
+recipe Travel Over the River
+	{	
+		keep HCRaftrubber,
+		HCRubbersheet,
+		HCRubbercement,
+		keep HCBicyclepump,
+		keep HCPaddlewood/HCPaddlemetal,
+		keep HCLifevest,
+		keep HCMap,
+		keep HCCompass,
+		keep HCTicketOR,
+		Result:HCRaftrubber,
+		CanBeDoneFromFloor:true,
+		Time:100.0,
+		OnCreate:travelToOR,
+		RemoveResultItem:true,
+		Category:Travel,
+	}
+
+recipe Travel to West Point Docks
+	{	
+		keep HCRaftrubber,
+		HCRubbersheet,
+		HCRubbercement,
+		keep HCBicyclepump,
+		keep HCPaddlewood/HCPaddlemetal,
+		keep HCLifevest,
+		keep HCGPS,
+		Result:HCRaftrubber,
+		CanBeDoneFromFloor:true,
+		Time:100.0,
+		OnCreate:travelToWPD,
+		RemoveResultItem:true,
+		Category:Travel,
+	}
+
+recipe Travel to Valley Station Docks
+	{	
+		keep HCRaftrubber,
+		HCRubbersheet,
+		HCRubbercement,
+		keep HCBicyclepump,
+		keep HCPaddlewood/HCPaddlemetal,
+		keep HCLifevest,
+		keep HCGPS,
+		Result:HCRaftrubber,
+		CanBeDoneFromFloor:true,
+		Time:100.0,
+		OnCreate:travelToVSD,
+		RemoveResultItem:true,
+		Category:Travel,
+	}
+
+recipe Travel to Riverside
+	{	
+		keep HCRaftrubber,
+		HCRubbersheet,
+		HCRubbercement,
+		keep HCBicyclepump,
+		keep HCPaddlewood/HCPaddlemetal,
+		keep HCLifevest,
+		keep HCGPS,
+		Result:HCRaftrubber,
+		CanBeDoneFromFloor:true,
+		Time:100.0,
+		OnCreate:travelToRS,
+		RemoveResultItem:true,
+		Category:Travel,
+	}
+
+recipe Travel Over the River
+	{	
+		keep HCRaftrubber,
+		HCRubbersheet,
+		HCRubbercement,
+		keep HCBicyclepump,
+		keep HCPaddlewood/HCPaddlemetal,
+		keep HCLifevest,
+		keep HCGPS,
+		keep HCTicketOR,
+		Result:HCRaftrubber,
+		CanBeDoneFromFloor:true,
+		Time:100.0,
+		OnCreate:travelToOR,
+		RemoveResultItem:true,
+		Category:Travel,
+	}
+
+recipe Travel Over the River
+	{	
+		keep HCRaftrubber,
+		HCRubbersheet,
+		HCRubbercement,
+		keep HCBicyclepump,
+		keep HCPaddlewood/HCPaddlemetal,
+		keep HCLifevest,
+		keep HCGPS,
+		keep HCTicketMI,
+		Result:HCRaftrubber,
+		CanBeDoneFromFloor:true,
+		Time:100.0,
+		OnCreate:travelToMI,
+		RemoveResultItem:true,
+		Category:Travel,
+	}
+
+}

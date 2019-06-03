@@ -1,0 +1,569 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCDriverslicense
+    {
+        Weight			= 0.1,
+        Type			= Normal,
+        DisplayName		= Drivers License,
+        Icon			= HCDriverslicense,
+    }
+
+item HCHubcap
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Hubcap,
+        icon 			= HCHubcap,
+    }
+
+item HCAirfreshener
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Air Freshener,
+        icon 			= HCAirfreshener,
+    }
+
+item HCMotoroil
+    {
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Motor Oil,
+        icon 			= HCMotoroil,
+    }
+
+item HCSparkplug
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Spark Plug,
+        icon 			= HCSparkplug,
+    }
+
+item HCAirfilter
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Air Filter,
+        icon 			= HCAirfilter,
+    }
+
+item HCBreakpads
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Brake Pads,
+        icon 			= HCBreakpads,
+    }
+
+item HCCamshaft
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Camshaft,
+        icon 			= HCCamshaft,
+    }
+
+item HCClutch
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Clutch,
+        icon 			= HCClutch,
+    }
+
+item HCDrumbreak
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Drum Brake,
+        icon 			= HCDrumbreak,
+    }
+
+item HCFanbelt
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Fan Belt,
+        icon 			= HCFanbelt,
+    }
+
+item HCLicenceplate
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Licence Plate,
+        icon 			= HCLicenceplate,
+    }
+
+item HCOilfilter
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Oil Filter,
+        icon 			= HCOilfilter,
+    }
+
+item HCRadiator
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Radiator,
+        icon 			= HCRadiator,
+    }
+
+item HCRotor
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Rotor,
+        icon 			= HCRotor,
+    }
+
+item HCWiper
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Wiper,
+        icon 			= HCWiper,
+    }
+
+item HCStarterfluidempty
+    {
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Empty Starter Fluid,
+        icon 			= 	HCStarterfluid,
+    }
+
+item HCStarterfluid
+    {
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.25,
+        DisplayName         	= 	Starter Fluid,
+	ReplaceOnDeplete	=	HCStarterfluidempty,
+        icon 			= 	HCStarterfluid,
+    }
+
+item HCCarbattery
+    {
+        Weight    		        = 5,
+        Type    		        = Normal,
+	DisplayName			= Car Battery with Clamps,
+	Icon				= HCCarbattery,
+    }
+
+item HCJeepLeft
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Jeep,
+        icon 			= HCJeepLeft,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCJeepLeftDirty
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Jeep,
+        icon 			= HCJeepLeftDirty,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCJeepRight
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Jeep,
+        icon 			= HCJeepRight,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCJeepRightDirty
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Jeep,
+        icon 			= HCJeepRightDirty,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCTractorL
+    {
+        Weight    		= 50,
+	Type                	= Normal,
+        DisplayName         	= Tractor,
+        icon 			= HCTractorL,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCTractorR
+    {
+        Weight    		= 50,
+	Type                	= Normal,
+        DisplayName         	= Tractor,
+        icon 			= HCTractorR,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar1L
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar1L,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar1R
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar1R,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar2L
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar2L,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar2R
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar2R,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar3L
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar3L,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar3R
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar3R,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar4L
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar4L,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar4R
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar4R,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar5L
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar5L,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar5R
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar5R,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar6L
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar6L,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar6R
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar6R,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar7L
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar7L,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar7R
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar7R,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar8L
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar8L,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar8R
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar8R,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar9L
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar9L,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar9R
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar9R,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar10L
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar10L,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar10R
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar10R,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar11L
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar11L,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar11R
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar11R,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar12L
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar12L,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCar12R
+    {
+        Weight    		= 50,
+	Type                	= Container,
+	Capacity             	= 500,
+        DisplayName         	= Car,
+        icon 			= HCCar12R,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCBicycle
+	{
+	WeightReduction         	= 75,
+	Weight             		= 3,
+	Type                		= Container,
+	Capacity             		= 4,
+	DisplayName             	= Bicycle,
+	Icon				= HCBicycle,
+	ResizeWorldIcon 		= 1.0,
+	RequiresEquippedBothHands 	= true,
+	}
+
+item HCBicycle2
+	{
+	WeightReduction         	= 75,
+	Weight             		= 5,
+	Type                		= Container,
+	Capacity             		= 32,
+	DisplayName             	= Bicycle with Baskets,
+	Icon				= HCBicycle2,
+	ResizeWorldIcon 		= 1.0,
+	RequiresEquippedBothHands 	= true,
+	}
+
+item HCMotorcycle
+	{
+	WeightReduction         	= 75,
+	Weight             		= 20,
+	Type                		= Container,
+	Capacity             		= 4,
+	DisplayName             	= Motorcycle,
+	Icon				= HCMotorcycle,
+	ResizeWorldIcon 		= 1.0,
+	RequiresEquippedBothHands 	= true,
+	}
+
+item HCBicyclepump
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Bicycle Pump,
+        icon 			= HCBicyclepump,
+    }
+
+item HCBicyclewheel
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Bicycle Wheel,
+        icon 			= HCBicyclewheel,
+    }
+
+/************************RECIPES************************/	
+
+recipe Attach Clamps to Car Battery
+   {
+	SkillRequired:Electricity=1,
+	destroy CarBattery1/CarBattery2/CarBattery3,
+	HCElectricclamp=2,  
+        Result:HCCarbattery,
+        Time:50,
+       	Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Repair Bicycle
+   {
+	SkillRequired:Mechanics=1,  
+	HCJunkbicycle,
+	HCBicyclewheel,
+	DuctTape=4,
+	HCRubbercement=4,
+        keep Screwdriver,
+	keep HCPliers,
+	keep HCBicyclepump,
+        Result:HCBicycle,
+        Time:500,
+        NeedToBeLearn:true,
+       	Category:Engineer,
+    	OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Attach Baskets to Bicycle
+   {
+	HCStrawbasket=2,
+	Rope,  
+	HCBicycle,
+        Result:HCBicycle2,
+        Time:50,
+        NeedToBeLearn:true,
+       	Category:Engineer,
+    }
+
+recipe Remove Baskets to Bicycle
+   {
+	HCBicycle2,
+        Result:HCBicycle,
+        Time:50,
+        NeedToBeLearn:true,
+       	Category:Engineer,
+    	OnCreate:HCRemoveBikeBaskets,
+    }
+
+}

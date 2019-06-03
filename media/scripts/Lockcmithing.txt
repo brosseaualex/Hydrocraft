@@ -1,0 +1,275 @@
+module Hydrocraft
+{
+	imports
+	{
+		Base
+	}
+
+
+/************************ITEMS************************/
+
+item HCHingetitanium
+	{
+	Weight			= 0.3,
+	Type			= Normal,
+	DisplayName		= Titanium Hinge,
+	Icon			= HCHingetitanium,
+	}
+
+item SafeKey
+	{
+	Weight    		= 0.1,
+	Type    		= Normal,
+	DisplayName		= Safe Key,
+	Icon			= Key2,
+	}
+	
+item MetalSafe
+    	{
+        Weight    		= 30.0,
+	Capacity             	= 50,
+        Type    		= Container,
+        DisplayName         	= Metal Safe,
+        icon 			= SafeOpen,
+	ResizeWorldIcon 	= 2.0,
+    	}
+
+item MetalSafeClosed
+    	{
+        Weight    		= 1000.0,
+	Capacity             	= 50,
+        Type    		= Container,
+        DisplayName         	= Locked Metal Safe,
+        icon 			= SafeClosed,
+	ResizeWorldIcon 	= 2.0,
+    	}
+
+item MetalSafeClosedInner
+    	{
+        Weight    		= 1000.0,
+	Capacity             	= 50,
+        Type    		= Container,
+        DisplayName         	= KEY LOCKED,
+        icon 			= SafeClosed,
+	ResizeWorldIcon 	= 2.0,
+    	}
+	
+item MetalSafeCombo
+    	{
+        Weight    		= 30.0,
+	Capacity             	= 50,
+        Type    		= Container,
+        DisplayName         	= Metal Combination Safe,
+        icon 			= SafeOpen,
+	ResizeWorldIcon 	= 2.0,
+    	}
+
+item MetalSafeComboClosed
+    	{
+        Weight    		= 1000.0,
+	Capacity             	= 50,
+        Type    		= Container,
+        DisplayName         	= Locked Metal Combination Safe,
+        icon 			= SafeClosed,
+	ResizeWorldIcon 	= 2.0,
+    	}
+	
+item MetalSafeComboClosedInner
+    	{
+        Weight    		= 1000.0,
+	Capacity             	= 50,
+        Type    		= Container,
+        DisplayName         	= COMBINATION LOCKED,
+        icon 			= SafeClosed,
+	ResizeWorldIcon 	= 2.0,
+    	}
+
+/************************RECIPES************************/
+
+recipe Make Titanium Hinge
+	{
+	   	HCTitaniumingot,
+    		keep HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCHingetitanium,
+    		NeedToBeLearn:true,
+	   	Time:150.0,
+    		Category:Locksmithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Hinge
+	{
+	   	HCIroningot,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:Hinge,
+    		NeedToBeLearn:true,
+	   	Time:150.0,
+    		Category:Locksmithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Doorknob
+	{
+	   	HCBronzeingot,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:Doorknob,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+    		Category:Locksmithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Steel Padlock
+	{
+	   	HCSteelingot,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:Padlock,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+    		Category:Locksmithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Alter Doorknob to Match Key
+    {
+	SkillRequired:Mechanics=1,
+    	destroy Screwdriver,
+	keep Doorknob,
+	keep Key1/Key2/Key3/Key4/Key5,
+    	Result:Screwdriver,
+	OnCreate:matchDoorknobtoKey,
+    	Time:500.0,
+    	Category:Locksmithing,
+    	OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Alter Key to Match Doorknob
+    {
+	SkillRequired:Mechanics=1,
+    	destroy Screwdriver,
+	keep Doorknob,
+	keep Key1/Key2/Key3/Key4/Key5,
+    	Result:Screwdriver,
+	OnCreate:matchKeytoDoorknob,
+    	Time:500.0,
+    	Category:Locksmithing,
+    	OnGiveXP:HCMechanics_OnGiveXP,
+    }
+	
+recipe Lock Safe
+    {
+	keep MetalSafe,
+    	Result:Nothing,
+	OnCreate:LockSafe,
+	CanBeDoneFromFloor:true,
+    	Time:15.0,
+    	Category:Locksmithing,
+    }
+
+recipe Un-Lock Safe
+    {
+	keep MetalSafeClosed,
+	keep SafeKey,
+    	Result:Nothing,
+	OnCreate:UnLockSafe,
+	CanBeDoneFromFloor:true,
+    	Time:15.0,
+    	Category:Locksmithing,
+    }
+	
+recipe Lock Combination Safe
+    {
+	keep MetalSafeCombo,
+    	Result:Nothing,
+	OnCreate:ComboLockSafe,
+	CanBeDoneFromFloor:true,
+    	Time:15.0,
+    	Category:Locksmithing,
+    }
+
+recipe Un-Lock Combination Safe
+    {
+	keep MetalSafeComboClosed,
+    	Result:Nothing,
+	OnCreate:ComboOpenSafe,
+	CanBeDoneFromFloor:true,
+    	Time:15.0,
+    	Category:Locksmithing,
+    }
+
+recipe Make Metal Safe
+    {
+    	SkillRequired:Mechanics=3,
+	Padlock,
+	HCHingetitanium=2,
+        HCTitaniumsheet=6,
+        HCTitaniumrod=12,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        NeedToBeLearn:true,
+        Result:MetalSafe,
+	CanBeDoneFromFloor:true,
+        Time:1000,
+    	Category:Locksmithing,
+    	OnGiveXP:HCMechanicsWelding_OnGiveXP,
+    }
+
+recipe Make Metal Combination Safe
+    {
+    	SkillRequired:Mechanics=3,
+	CombinationPadlock,
+	HCHingetitanium=2,
+        HCTitaniumsheet=6,
+        HCTitaniumrod=12,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        NeedToBeLearn:true,
+        Result:MetalSafeCombo,
+	CanBeDoneFromFloor:true,
+        Time:1000,
+    	Category:Locksmithing,
+    	OnGiveXP:HCMechanicsWelding_OnGiveXP,
+    }
+
+recipe Attempt to Crack Safe Open
+    {
+    	SkillRequired:Mechanics=3,
+	keep MetalSafeComboClosed/MetalSafeClosed,
+	keep HCStethoscope,
+	keep Crowbar,
+	keep Hammer,
+	keep Screwdriver,
+	HCElectricmultitooldrillpowered,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+	Result:Nothing,
+    	Category:SafeStorage,
+	CanBeDoneFromFloor:true,
+	NeedToBeLearn:true,
+	Sound:safeclicking,
+    	Time:1000.0,
+	OnCreate:CrackOpenSafe,
+    	Category:Locksmithing,
+    	OnGiveXP:HCMechanics_OnGiveXP,
+    }
+		
+}

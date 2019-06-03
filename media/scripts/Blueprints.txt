@@ -1,0 +1,953 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCBlueprintpoatocannon
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Potato Cannon Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Craft Potato Cannon,
+        ReplaceOnUse    	=   	HCBlueprintpoatocannon,
+    }
+
+item HCBlueprintflamethrower
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Flamethrower Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Craft Flamethrower;Load Flamethrower,
+        ReplaceOnUse    	=   	HCBlueprintflamethrower,
+    }
+
+item HCBlueprintrocketlauncher
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Rocket Launcher Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Craft Rocket Launcher;Load Rocket Launcher,
+        ReplaceOnUse    	=   	HCBlueprintrocketlauncher,
+    }
+
+item HCBlueprintducttapefletching
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Duct Tape Fletching Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Duct Tape Fletching,
+        ReplaceOnUse    	=   	HCBlueprintducttapefletching,
+    }
+
+item HCBlueprintbonearrowhead
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Bone Arrowhead Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Bone Arrowhead,
+        ReplaceOnUse    	=   	HCBlueprintbonearrowhead,
+    }
+
+item HCBlueprintfishingrod
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Fishing Rod Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Fishing Rod;Fix Fishing Rod,
+        ReplaceOnUse    	=   	HCBlueprintfishingrod,
+    }
+
+item HCBlueprintfishingnet
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Fishing Net Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Fishing Net;Get Wire Back,
+        ReplaceOnUse    	=   	HCBlueprintfishingnet,
+    }
+
+item HCBlueprinttrapcrate
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Crate Trap Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Wooden Cage Trap,
+        ReplaceOnUse    	=   	HCBlueprinttrapcrate,
+    }
+
+item HCBlueprinttrapstick
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Stick Trap Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Stick Trap,
+        ReplaceOnUse    	=   	HCBlueprinttrapstick,
+    }
+
+item HCBlueprinttrapsnare
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Snare Trap Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Snare Trap,
+        ReplaceOnUse    	=   	HCBlueprinttrapsnare,
+    }
+
+item HCBlueprinttrapbox
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Trap Box Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Trap Box,
+        ReplaceOnUse    	=   	HCBlueprinttrapbox,
+    }
+
+item HCBlueprinttrapcage
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Cage Trap Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Cage Trap,
+        ReplaceOnUse    	=   	HCBlueprinttrapcage,
+    }
+
+item HCBlueprintmousetrap
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Mousetrap Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Mousetrap,
+        ReplaceOnUse    	=   	HCBlueprintmousetrap,
+    }
+
+item HCBlueprintnailtrap
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Nail Trap Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Spike Trap;Add Nails to Spike Trap;Set Nail Trap,
+        ReplaceOnUse    	=   	HCBlueprintnailtrap,
+    }
+
+item HCBlueprinthazmatsuit
+    {
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Hazmat Suit Blueprint,
+         Icon			=	HCBlueprint,
+         TeachedRecipes 	=   	Make Improvised Hazmat Suit,
+         ReplaceOnUse    	=   	HCBlueprinthazmatsuit,
+    }
+
+item HCBlueprintantibiotics
+    {
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Antibiotics Medical Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes 	=   	Make Penicillin,
+         ReplaceOnUse    	=   	HCBlueprintantibiotics,
+    }
+
+item HCBlueprintpainkillers
+    {
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Painkillers Medical Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes 	=   	Make Willow Bark Tea;Extract Acetylsalicylic Acid,
+         ReplaceOnUse    	=   	HCBlueprintpainkillers,
+    }
+
+item HCBlueprintantidepression
+    {
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Anti-Depression Medical Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes 	=   	Prepare Valerian;Dry Valerian;Make Anti-Depression Pills,
+         ReplaceOnUse    	=   	HCBlueprintantidepression,
+    }
+
+item HCBlueprintproflab
+    {
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Professional Lab Blueprints,
+         Icon			=	HCBlueprint,
+         TeachedRecipes 	=   	Build Professional Lab,
+         ReplaceOnUse    	=   	HCBlueprintproflab,
+    }
+
+item HCBlueprintmeth
+    {
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Crystal Meth Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes 	=   	Make Homemade Crystal Meth;Research Blue Meth,
+         ReplaceOnUse    	=   	HCBlueprintmeth,
+    }
+
+item HCBlueprintbluemeth
+    {
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Blue Meth Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes 	=   	Cook Blue Meth,
+         ReplaceOnUse    	=   	HCBlueprintbluemeth,
+    }
+
+item HCBlueprintinjections
+    {
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Injection Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes 	=   	Take Blood from Zombie;Inject Yourself with Human Blood;Inject Yourself with Rabbit Blood;Inject Yourself with Zombie Blood;Inject Rabbit with Rabbit Blood;Inject Rabbit with Human Blood;Inject Rabbit with Zombie Blood,
+         ReplaceOnUse    	=   	HCBlueprintinjections,
+    }
+
+item HCBlueprintskinanimal
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Skinning Animals Research,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Skin Animal,
+        ReplaceOnUse    	=   	HCBlueprintskinanimal,
+    }
+
+item HCBlueprintopium
+    {
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Opium Medical Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes 	=   	Rip Poppy Capsules;Knead Raw Opium;Cook Raw Opium;Ferment Opium Powder;Make Morphine Hydrochloride Solution;Add Water To Morphine Hydrochloride;Add Ammonia To Morphine Hydrochloride Solution;Add Ammonia To Morphine Hydrochloride Solution,
+         ReplaceOnUse    	=   	HCBlueprintopium,
+    }
+
+item HCBlueprintether
+    {
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Ether Medical Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes 	=   	Seperate Ether;Put Ether in Beaker;Soak Ripped Sheet with Selfmade Ether,
+         ReplaceOnUse    	=   	HCBlueprintether,
+    }
+
+item HCBlueprintsolarpark
+    {
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Solar Park Blueprint,
+         Icon			=	HCBlueprint,
+         TeachedRecipes  	=   	Build Battery Array;Build Solar Panel;Build Solar Park;Recharge Battery;Upgrade to Solar Generator;Plugin Solar Generator;Unplug Solar Generator,
+         ReplaceOnUse    	=   	HCBlueprintsolarpark,
+    }
+
+item HCBlueprinthmtd
+    {
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	HMTD Chemical Research,
+         Icon			=	HCChemicalresearch,
+         TeachedRecipes 	=   	Make Beaker with Hydrogen Peroxide;Cool Beaker with Hydrogen Peroxide;Add Hexamethylentetramin to Beaker with Hydrogen Peroxide;Cool Beaker with Hydrogen Peroxide and Hexamethylentetramin;Add Citric Acid to Beaker with Hydrogen Peroxide and Hexamethylentetramin;Cool Beaker with Hydrogen Peroxide Hexamethylentetramin and Citric Acid;Filtrate HMTD Crystals;Dry HMTD Crystals,
+         ReplaceOnUse    	=   	HCBlueprinthmtd,
+    }
+
+item HCBlueprintammonal
+    {
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Ammonal Chemical Research,
+         Icon			=	HCChemicalresearch,
+         TeachedRecipes 	=   	Make Ammonal;Dry Ammonal;Fill Ammonal in Bag,
+         ReplaceOnUse    	=   	HCBlueprintammonal,
+    }
+
+item HCBlueprintjackalope
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Taxadermy Jackalope Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Craft Taxidermy Jackalope,
+        ReplaceOnUse    	=   	HCBlueprintjackalope,
+    }
+
+item HCBlueprintsteampot
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Steam Pressure Pot Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Craft Steam Pressure Pot,
+        ReplaceOnUse    	=   	HCBlueprintsteampot,
+    }
+
+item HCBlueprintcarbon
+    {
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Carbon Fiber Chemical Research,
+         Icon			=	HCChemicalresearch,
+         TeachedRecipes 	=   	Make Carbon Powder;Make Carbon Nanorings;Make Carbon Nanochains;Make Carbon Nanofiber,
+         ReplaceOnUse    	=   	HCBlueprintcarbon,
+    }
+
+item HCBlueprintbetablocker
+    {
+         Weight			=	0.1,
+         Type			=	Literature,
+         DisplayName		=	Beta Blocker Medical Research,
+         Icon			=	HCMedicalresearch,
+         TeachedRecipes 	=   	Prepare Hawthorn Fruit;Dry Hawthorn Fruit;Make Beta Blocker Pills,
+         ReplaceOnUse    	=   	HCBlueprintbetablocker,
+    }
+
+item HCBlueprintcomposter2
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Spirulina Composter Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Build Spirulina Composter;Harvest Spirulina Composter,
+        ReplaceOnUse    	=   	HCBlueprintcomposter2,
+    }
+
+
+item HCBlueprintcomputermouse
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Computer Mouse Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Computer Mouse,
+        ReplaceOnUse    	=   	HCBlueprintcomputermouse,
+    }
+
+item HCBlueprintcomputerkeyboard
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Computer Keyboard Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Computer Keyboard,
+        ReplaceOnUse    	=   	HCBlueprintcomputerkeyboard,
+    }
+
+item HCBlueprintcomputermonitor
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Computer Monitor Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Computer Monitor,
+        ReplaceOnUse    	=   	HCBlueprintcomputermonitor,
+    }
+
+item HCBlueprintextractworkingcpu
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Extract Working CPU Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Extract Working CPU,
+        ReplaceOnUse    	=   	HCBlueprintextractworkingcpu,
+    }
+
+item HCBlueprintmakecomputerpsu
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Make Computer PSU Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Computer PSU,
+        ReplaceOnUse    	=   	HCBlueprintmakecomputerpsu,
+    }
+
+item HCBlueprintmakecomputerfan
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Make Computer Fan Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Computer Fan,
+        ReplaceOnUse    	=   	HCBlueprintmakecomputerfan,
+    }
+
+item HCBlueprintmakecomputertower
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Make Computer Tower Blueprint,
+        Icon			=	HCBlueprint,
+        TeachedRecipes 		=   	Make Computer Tower,
+        ReplaceOnUse    	=   	HCBlueprintmakecomputertower,
+    }
+
+/************************RECIPES************************/	
+
+
+recipe Make Potato Cannon Blueprint
+    {
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookgunsmithing,
+	keep HCBookplumbing,
+	keep HCBookphysics,
+   	Result:HCBlueprintpoatocannon,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Make Flamethrower Blueprint
+    {
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookgunsmithing,
+	keep HCBookwelding,
+	keep HCBookchemistry,
+   	Result:HCBlueprintflamethrower,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Make Rocket Launcher Blueprint
+    {
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookgunsmithing,
+	keep HCBookelectrical,
+	keep HCBookrocketry,
+   	Result:HCBlueprintrocketlauncher,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Make Duct Tape Fletching Blueprint
+    {
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep DuctTape,
+	keep HCBookarchery,
+   	Result:HCBlueprintducttapefletching,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Make Bone Arrowhead Blueprint
+    {
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBone/HCZombiebones,
+	keep HCBookarchery,
+   	Result:HCBlueprintbonearrowhead,
+    	Time:500,
+    	Category:Research,
+    } 
+
+recipe Make Fishing Rod Blueprint
+    {
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookanthropology,
+	keep HCBookfishguide,
+	keep BookFishing5,
+   	Result:HCBlueprintfishingrod,
+    	Time:500,
+    	Category:Research,
+    } 
+
+recipe Make Fishing Net Blueprint
+    {
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep BookTrapping5,
+	keep HCBookfishguide,
+	keep BookFishing5,
+   	Result:HCBlueprintfishingnet,
+    	Time:500,
+    	Category:Research,
+    } 
+
+recipe Make Crate Trap Blueprint
+    {
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookhunting,
+	keep HCBookmammalguide,
+	keep BookTrapping5,
+   	Result:HCBlueprinttrapcrate,
+    	Time:500,
+    	Category:Research,
+    } 
+
+recipe Make Stick Trap Blueprint
+    {
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookanthropology,
+	keep HCBookbirdgude,
+	keep BookTrapping5,
+   	Result:HCBlueprinttrapstick,
+    	Time:500,
+    	Category:Research,
+    } 
+
+recipe Make Snare Trap Blueprint
+    {
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookanthropology,
+	keep HCBookmammalguide,
+	keep BookTrapping5,
+   	Result:HCBlueprinttrapsnare,
+    	Time:500,
+    	Category:Research,
+    } 
+
+recipe Make Trap Box Blueprint
+    {
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep BookCarpentry5,
+	keep HCBookmammalguide,
+	keep BookTrapping5,
+   	Result:HCBlueprinttrapbox,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Make Cage Trap Blueprint
+    {
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBooksteelworking,
+	keep HCBookmammalguide,
+	keep BookTrapping5,
+   	Result:HCBlueprinttrapcage,
+    	Time:500,
+    	Category:Research,
+    }  
+
+recipe Make Mousetrap Blueprint
+    {
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookmammalguide,
+	keep BookTrapping4,
+   	Result:HCBlueprintmousetrap,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Make Nail Trap Blueprint
+    {
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep BookCarpentry1,
+	keep BookTrapping5,
+   	Result:HCBlueprintnailtrap,
+    	Time:500,
+    	Category:Research,
+    }
+
+
+recipe Make Hazmat Suit Blueprint
+    {
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookchemistry,
+	keep HCBookmedical,
+	keep HCBookbiology,
+   	Result:HCBlueprinthazmatsuit,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Research Painkillers
+    {
+       	SkillRequired:Doctor=3,
+	Notebook,
+	Pencil/Pen,
+	keep HCBooktreeguide,
+	keep HCBookmedical,
+	keep HCBookherbalism,
+	keep HCBookpharmacology,
+	keep HCMedicallab,
+        NeedToBeLearn:true,
+   	Result:HCBlueprintpainkillers,
+    	CanBeDoneFromFloor:true,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Research Anti-Depression Medication
+    {
+       	SkillRequired:Doctor=4,
+	Notebook,
+	Pencil/Pen,
+	keep HCBookflowerguide,
+	keep HCBookmedical,
+	keep HCBookherbalism,
+	keep HCBookpharmacology,
+	keep HCMedicallab,
+        NeedToBeLearn:true,
+   	Result:HCBlueprintantidepression,
+    	CanBeDoneFromFloor:true,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Research Antibiotics
+    {
+       	SkillRequired:Doctor=5,
+	Notebook,
+	Pencil/Pen,
+	keep HCBookchemistry,
+	keep HCBookmedical,
+	keep HCBookmicrobiology,
+	keep HCBookpharmacology,
+	keep HCMedicallab,
+        NeedToBeLearn:true,
+   	Result:HCBlueprintantibiotics,
+    	CanBeDoneFromFloor:true,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Research Professional Lab
+    {
+       	SkillRequired:Doctor=1,
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+        keep HCLab,
+        keep HCBookchemistry,
+	keep HCBookpharmacology,
+	keep HCBookmicrobiology,
+	keep HCBookwelding,
+        NeedToBeLearn:true,
+   	Result:HCBlueprintproflab,
+    	CanBeDoneFromFloor:true,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Research Crystal Meth 
+    {
+       	SkillRequired:Doctor=3,
+	Notebook,
+	Pencil/Pen,
+        keep HCLab,
+        keep HCBookchemistry,
+	keep HCBooklithiumworking,
+	keep HCBookpharmacology,
+        NeedToBeLearn:true,
+   	Result:HCBlueprintmeth,
+    	CanBeDoneFromFloor:true,
+    	Time:1000,
+    	Category:Research,
+    }
+
+recipe Research Blue Meth 
+    {
+       	SkillRequired:Doctor=4,
+	Notebook,
+	Pencil/Pen,
+        keep HCLabbig,
+        keep HCBookchemistry,
+	keep HCBookpharmacology,
+	keep HCBookaluminumworking,
+	keep HCBlueprintmeth,
+        NeedToBeLearn:true,
+   	Result:HCBlueprintbluemeth,
+    	CanBeDoneFromFloor:true,
+    	Time:1000,
+    	Category:Research,
+    }
+
+recipe Research Injections
+    {
+       	SkillRequired:Doctor=2,
+	Notebook,
+	Pencil/Pen,
+        keep HCBookvet,
+	keep HCBookmedical,
+	keep HCBookanatomy,
+	keep HCMedicallab,
+        NeedToBeLearn:true,
+   	Result:HCBlueprintinjections,
+    	CanBeDoneFromFloor:true,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Research Skinning Animals
+    {
+	Notebook,
+	Pencil/Pen,
+	keep BookTrapping1,
+	keep BookCooking1,
+   	Result:HCBlueprintskinanimal,
+    	Time:500,
+    	Category:Research,
+    } 
+
+recipe Research Opium
+    {
+       	SkillRequired:Doctor=3,
+	Notebook,
+	Pencil/Pen,
+        keep HCLab,
+        keep HCBookchemistry,
+	keep HCBookflowerguide,
+	keep HCBookherbalism,
+	keep HCBookpharmacology,
+        NeedToBeLearn:true,
+   	Result:HCBlueprintopium,
+    	CanBeDoneFromFloor:true,
+    	Time:1000,
+    	Category:Research,
+    }
+
+recipe Research Ether
+    {
+       	SkillRequired:Doctor=1,
+	Notebook,
+	Pencil/Pen,
+        keep HCLab,
+        keep HCBookchemistry,
+	keep HCBookmedical,
+	keep HCBookpharmacology,
+	keep HCMedicallab,
+        NeedToBeLearn:true,
+   	Result:HCBlueprintether,
+    	CanBeDoneFromFloor:true,
+    	Time:1000,
+    	Category:Research,
+    }
+
+recipe Research Battery Array
+    {
+	SkillRequired:Electricity=3,
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+        keep HCElectornicsbench,
+        keep HCBookelectrical,
+	keep HCCarbattery,
+	keep HCSolarpanel,
+   	Result:HCBlueprintsolarpark,
+    	CanBeDoneFromFloor:true,
+    	Time:1000,
+    	Category:Research,
+    }
+
+recipe Research HMTD
+    {
+	Notebook,
+	Pencil/Pen,
+	keep HCBookanarchist,
+	keep HCBookchemistry,
+	keep HCBookexplosives,
+   	Result:HCBlueprinthmtd,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Research Ammonal
+    {
+	Notebook,
+	Pencil/Pen,
+	keep HCBookanarchist,
+	keep HCBookchemistry,
+	keep HCBookexplosives,
+   	Result:HCBlueprintammonal,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Make Taxadermy Jackalope Blueprint
+    {
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBooktaxidermy,
+	keep HCBookmammalguide,
+	keep HCBookcryptozoology,
+   	Result:HCBlueprintjackalope,
+    	Time:500,
+    	Category:Research,
+    } 
+
+recipe Make Steam Pressure Pot Blueprint
+    {
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookplumbing,
+	keep HCBookphysics,
+   	Result:HCBlueprintsteampot,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Research Carbon Nanofibers
+    {
+	Notebook,
+	Pencil/Pen,
+        keep HCLab,
+	keep HCBookchemistry,
+	keep HCBookorganicchemistry,
+	keep HCBookcoalworking,
+   	Result:HCBlueprintcarbon,
+    	CanBeDoneFromFloor:true,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Research Beta Blocker Medication
+    {
+       	SkillRequired:Doctor=4,
+	Notebook,
+	Pencil/Pen,
+	keep HCBookflowerguide,
+	keep HCBookmedical,
+	keep HCBookherbalism,
+	keep HCBookpharmacology,
+	keep HCMedicallab,
+        NeedToBeLearn:true,
+   	Result:HCBlueprintbetablocker,
+    	CanBeDoneFromFloor:true,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Make Spirulina Composter Blueprint
+    {
+	SkillRequired:Electricity=1,
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookgardening,
+	keep HCBookoceanography,
+	keep BookFarming5,
+	keep BookFishing5,
+   	Result:HCBlueprintcomposter2,
+    	Time:500,
+    	Category:Research,
+    } 
+
+recipe Make Computer Mouse Blueprint
+    {
+	SkillRequired:Electricity=1,
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookwelding,
+	keep HCBookelectrical,
+	keep BookElectrician5,
+   	Result:HCBlueprintcomputermouse,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Make Computer Keyboard Blueprint
+    {
+	SkillRequired:Electricity=1,
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookwelding,
+	keep HCBookelectrical,
+	keep BookElectrician5,
+   	Result:HCBlueprintcomputerkeyboard,
+    	Time:700,
+    	Category:Research,
+    }
+
+recipe Make Computer Monitor Blueprint
+    {
+	SkillRequired:Electricity=1,
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookwelding,
+	keep HCBookelectrical,
+	keep BookElectrician5,
+   	Result:HCBlueprintcomputermonitor,
+    	Time:900,
+    	Category:Research,
+    }
+
+recipe Make Extract Working CPU Blueprint
+    {
+	SkillRequired:Electricity=1,
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookwelding,
+	keep HCBookelectrical,
+	keep BookElectrician5,
+   	Result:HCBlueprintextractworkingcpu,
+    	Time:200,
+    	Category:Research,
+    }
+
+recipe Make Computer Tower Blueprint
+    {
+	SkillRequired:Electricity=1,
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookwelding,
+	keep HCBookelectrical,
+	keep BookElectrician5,
+   	Result:HCBlueprintmakecomputertower,
+    	Time:1000,
+    	Category:Research,
+    }
+
+recipe Make Computer PSU Blueprint
+    {
+	SkillRequired:Electricity=1,
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookwelding,
+	keep HCBookelectrical,
+	keep BookElectrician5,
+   	Result:HCBlueprintmakecomputerpsu,
+    	Time:400,
+    	Category:Research,
+    }
+
+recipe Make Computer Fan Blueprint
+    {
+	SkillRequired:Electricity=1,
+	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	keep HCBookwelding,
+	keep HCBookelectrical,
+	keep BookElectrician5,
+   	Result:HCBlueprintmakecomputerfan,
+    	Time:200,
+    	Category:Research,
+    }
+
+}

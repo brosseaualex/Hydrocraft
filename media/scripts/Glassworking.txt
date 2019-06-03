@@ -1,0 +1,827 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCGlassshards
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Glass Shards,
+        icon 			= HCGlassshards,
+    }   
+
+item HCGlassingot
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Glass Ingot,
+        icon 			= HCGlassingot,
+    }   
+
+item HCIronblowpipe
+    {
+        Weight    		= 2,
+        Type    		= Normal,
+        DisplayName         	= Iron Blowpipe,
+        icon 			= HCIronblowpipe,
+    }
+
+item HCGlasspane
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Glass Pane,
+        icon 			= HCGlasspane,
+    } 
+
+item HCGlasspanelarge
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Large Glass Pane,
+        icon 			= HCGlasspanelarge,
+    } 
+
+item HCMicroscopeslide
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName     	= Microscope Slide,
+        icon 			= HCMicroscopeslide,
+    } 
+
+item HCWineglass
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Wine Glass,
+        icon 			= HCWineglass,
+    }   
+
+item HCBeerglass
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Beer Glass,
+        icon 			= HCBeerglass,
+    } 
+
+item HCGlassjug
+    	{
+        Weight    		= 	0.3,
+	CanStoreWater		= 	TRUE,
+        Type    		= 	Normal,
+        DisplayName         	= 	Glass Jug,
+	ReplaceOnUseOn		= 	WaterSource-HCGlassjugfull,
+        icon 			= 	HCGlassjug,
+	RainFactor 		= 	1,
+    	}
+
+item HCGlassjugfull
+    	{
+	IsWaterSource		=	TRUE,
+	Weight			=	1.3,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Glass Jug with Water,
+	ReplaceOnDeplete	=	HCGlassjug,
+	ReplaceOnUseOn		=	WaterSource-HCGlassjugfull,
+	Icon			=	HCGlassjugfull,
+	RainFactor 		= 	1,
+    	}
+
+item HCFiberglass
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Fiberglass,
+        icon 			= HCFiberglass,
+    }
+
+/************************RECIPES************************/
+
+item HCBrokenbottle
+	{
+		MaxRange			=	1,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		KnockBackOnNoDeath		=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		ConditionLowerChanceOneIn	=	1,
+		Weight				=	0.3,
+		SplatNumber			=	0,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.8,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		CloseKillMove 			= 	Jaw_Stab,
+		ConditionMax			=	3,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		WeaponWeight			=	0.3,
+		DisplayName			=	Broken Bottle,
+		MinRange			=	0.61,
+		SwingTime			=	2,
+		MinDamage			=	0.4,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	FALSE,
+		Icon				=	HCBrokenbottle,
+		RunAnim				=	Run_Weapon2,
+        	IdleAnim			=	Idle_Weapon2,
+        	BreakSound  			=   	PZ_BreakBottle,
+        	TreeDamage  			=   	0,
+        	EnduranceMod 			= 	0.5,
+	}
+
+item HCBrokenbottle2
+	{
+		MaxRange			=	1,
+		WeaponSprite			=	Knife,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		KnockBackOnNoDeath		=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		ConditionLowerChanceOneIn	=	1,
+		Weight				=	0.3,
+		SplatNumber			=	0,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.8,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		CloseKillMove 			= 	Jaw_Stab,
+		ConditionMax			=	3,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		WeaponWeight			=	0.3,
+		DisplayName			=	Broken Bottle,
+		MinRange			=	0.61,
+		SwingTime			=	2,
+		MinDamage			=	0.4,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	FALSE,
+		Icon				=	HCBrokenbottle2,
+		RunAnim				=	Run_Weapon2,
+        	IdleAnim			=	Idle_Weapon2,
+        	BreakSound  			=   	PZ_BreakBottle,
+        	TreeDamage  			=   	0,
+        	EnduranceMod 			= 	0.5,
+	}
+
+/************************RECIPES************************/
+
+
+recipe Break Bottle
+    {
+       	WhiskeyEmpty,
+       	Result:HCBrokenbottle,
+	Sound:PZ_BreakBottle,
+       	Time:15,
+	OnCreate:recipe_hcbreakbottle,
+	Category:Survivalist,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Break Bottle
+    {
+       	WineEmpty/WineEmpty2,
+       	Result:HCBrokenbottle2,
+	Sound:PZ_BreakBottle,
+       	Time:15,
+	OnCreate:recipe_hcbreakbottle,
+	Category:Survivalist,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+    
+recipe Make Iron Blowpipe
+	{
+	HCIroningot=2,
+    	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	Result:HCIronblowpipe,
+	Time:150.0,
+    	Category:Engineer,
+        OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Create Glass from Sand
+    {
+    Sandbag,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=2,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassingot=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glass from Sand
+    {
+    HCWoodenbucketsand,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=2,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassingot=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glass Pane
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlasspane,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Large Glass Pane
+    {
+    HCGlassingot=2,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlasspanelarge,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassflask,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassflaskbuchner,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassflaskflorence,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassflaskretort,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassbeaker,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBongempty,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:EmptyJar,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCBrownpigment,
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassbottleempty,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:WhiskeyEmpty,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassjug,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:WineEmpty,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassgraduatedcylinder,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlasstesttube=4,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassballoon,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassconnector,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlasspipe,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlasspipeelbow,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlasscooler,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassfunnel,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCWineglass=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCBeerglass=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCMeasuringcup,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    HCRubber,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCEyedropper,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    HCCinnabar,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCThermometer,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCSaltshakerempty,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCGlasscutter,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCPetridish=3,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glassware
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCGlasscutter,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCMicroscopeslide=4,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glass Animal Eyes
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCAnimalglasseye=10,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Create Glass Marbles
+    {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassmarbles,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+}

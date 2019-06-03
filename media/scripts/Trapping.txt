@@ -1,0 +1,210 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item Nothing
+	{
+	Weight    			= 	0.1,
+	Type    			= 	Normal,
+	DisplayName			=	No Result,
+	Icon				=	Nothing,
+	}
+	
+
+item HCSteelspring
+	{
+	Weight				=	0.1,
+	Type				=	Normal,
+	DisplayName			=	Steel Spring,
+	Icon				=	HCSteelspring,
+	}
+
+item PropaneTrap
+    {
+        Weight    			= 	25.0,
+        Type    			= 	Normal,
+        DisplayName         		= 	Set Propane Trap,
+        icon 				= 	Propanetrap,
+	ResizeWorldIcon 		= 	1.0,
+    }
+
+item PropaneTrapCloses
+    {
+        Weight    			= 	25.0,
+        Type    			= 	Normal,
+        DisplayName         		= 	Exloded Propane Trap,
+        icon 				= 	Propanetrap,
+	ResizeWorldIcon 		= 	1.0,
+    }
+
+item BearTrap
+    {
+        Weight    			= 	2.0,
+        Type    			= 	Normal,
+        DisplayName         		= 	Set Bear Trap,
+        icon 				= 	Beartrap,
+	ResizeWorldIcon 		= 	0.9,
+    }
+
+item BearTrapClosed
+    {
+        Weight    			= 	2.0,
+        Type    			= 	Normal,
+        DisplayName         		= 	Closed Bear Trap,
+        icon 				= 	Beartrapclosed,
+	ResizeWorldIcon 		= 	0.9,
+    }
+
+item SpikeTrap
+    {
+        Weight    			= 	3.0,
+        Type    			= 	Normal,
+        DisplayName         		= 	Set Nail Trap,
+        icon 				= 	Spiketrap,
+	ResizeWorldIcon 		= 	0.7,
+    }
+
+item SpikeTrapClosed
+    {
+        Weight    			= 	3.0,
+        Type    			= 	Normal,
+        DisplayName         		= 	Broken Nail Trap,
+        icon 				= 	Spiketrapclosed,
+	ResizeWorldIcon 		= 	0.7,
+    }
+
+/************************RECIPES************************/
+ 
+recipe Make Steel Spring
+    {
+        HCSteelingot,
+        Charcoal,
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+        keep Tongs,
+        keep Hammer,
+        keep HCWorkgloves/HCOvenmitts,
+        keep HCSmelter/HCSmelter2,
+        CanBeDoneFromFloor:true,
+        Result:HCSteelspring=4,
+        Time:100,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+        }
+
+recipe Make Mousetrap
+    {
+	HCWoodblock,
+	Wire,
+        HCSteelspring,
+	HCStaplegunfull,
+   	Result:TrapMouse,
+	SkillRequired:Trapping=2,
+        NeedToBeLearn:true,
+    	Time:50,
+        Category:Trapper,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Set Nail Trap
+    {
+	SkillRequired:Trapping=2,
+	keep SpikeTrap,
+    	Result:Nothing,
+        NeedToBeLearn:true,
+    	Time:10.0,
+	OnCreate:SetTrapDown,
+        Category:Trapper,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Set Bear Trap
+    {
+	SkillRequired:Trapping=4,
+	keep BearTrap,
+    	Result:Nothing,
+        NeedToBeLearn:true,
+    	Time:10.0,
+	OnCreate:SetTrapDown,
+        Category:Trapper,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Set Propane Bomb Trap
+    {
+	SkillRequired:Trapping=6,
+	keep PropaneTrap,
+    	Result:Nothing,
+        NeedToBeLearn:true,
+    	Time:10.0,
+	OnCreate:SetTrapDown,
+        Category:Trapper,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Make Spike Trap
+    {
+	SkillRequired:Trapping=2,
+	Nails=4,
+	HCWoodenpallet,
+	keep Hammer,
+	Result:SpikeTrap,
+	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+    	Time:200.0,
+	Sound:PZ_Hammer,
+        Category:Trapper,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Add Nails to Spike Trap
+    {
+	SkillRequired:Trapping=2,
+	SpikeTrapClosed,
+	Nails=3,
+	keep Hammer,
+	Result:SpikeTrap,
+	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+    	Time:100.0,
+        Category:Trapper,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Open Bear Trap
+    {
+	SkillRequired:Trapping=4,
+	BearTrapClosed,
+    	Result:BearTrap,
+	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+    	Time:10.0,
+        Category:Trapper,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Craft Propane Bomb Trap
+    {
+	SkillRequired:Trapping=6,
+	PropaneTank=8,
+	Pistol,
+	Bullets9mm,
+	HCWoodencrate,
+	Twine,
+	Result:PropaneTrap,
+	CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+    	Time:100.0,
+        Category:Trapper,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+
+
+}

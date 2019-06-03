@@ -1,0 +1,326 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCFeatherduster
+    {
+        Weight    		= 0.03,
+        Type    		= Normal,
+        DisplayName         	= Feather Duster,
+        icon 			= HCFeatherduster,
+    }
+
+item HCShopvac
+    {
+        Weight    		= 5,
+        Type    		= Normal,
+        DisplayName         	= Shop Vac,
+        icon 			= HCShopvac,
+    }
+
+
+item HCVacuum
+    {
+        Weight    		= 3,
+        Type    		= Normal,
+        DisplayName         	= Vacuum Cleaner,
+        icon 			= HCVacuum,
+    }
+
+item HCVac
+    {
+        Weight    		= 3,
+        Type    		= Normal,
+        DisplayName         	= Vacuum Cleaner,
+        icon 			= HCVac,
+    }
+
+item HCHandvac
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Hand Vacuum,
+        icon 			= HCHandvac,
+    }
+
+item HCDustpan
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Dust Pan,
+        icon 			= HCDustpan,
+    }
+
+item HCCleanerall
+    {
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= All Purpose Cleaner,
+        icon 			= HCCleanerall,
+    }
+
+item HCCleanerfabric
+    {
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Fabric Cleaner,
+        icon 			= HCCleanerfabric,
+    }
+
+item HCWindowcleaner
+    {
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Window Cleaner,
+        icon 			= HCWindowcleaner,
+    }
+
+item HCFabricsoftener
+    {
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Fabric Softener,
+        icon 			= HCFabricsoftener,
+    }
+
+item HCCleanser
+    {
+        Weight    		= 0.2,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Cleanser,
+        icon 			= HCCleanser,
+    }
+
+item HCAmmonia
+    {
+        Weight    		= 0.3,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Bottle of Ammonia,
+        icon 			= HCAmmonia,
+    }
+
+item HCWashboard
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Washboard,
+        icon 			= HCWashboard,
+    }
+
+item HCMothballs
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Mothballs,
+        icon 			= HCMothballs,
+    }
+
+item HCMothballsbox
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Box of Mothballs,
+        icon 			= HCMothballsbox,
+    }
+
+/************************WEAPONS************************/
+
+item HCBroom
+    {
+        MaxRange                 =    1.5,
+        WeaponSprite               =    Shovel,
+        MinAngle                    =    0.2,
+        Type                        =    Weapon,
+        MinimumSwingTime            =    1.5,
+        KnockBackOnNoDeath            =    TRUE,
+        SwingAmountBeforeImpact        =    0.02,
+        Categories                    =    Blunt,
+        ConditionLowerChanceOneIn        =    10,
+        Weight                =    1,
+        SplatNumber            =    1,
+        PushBackMod            =    0.25,
+        MaxDamage            =    0.5,
+        SubCategory            =    Swinging,
+        ConditionMax            =    15,
+        MaxHitCount            =    2,
+        DoorDamage            =    1,
+        IdleAnim                =    Idle_Weapon2,
+        SwingAnim                =    Bat,
+        CriticalChance            =    5,
+        WeaponWeight            =    0.5,
+        DisplayName            =    Broom,
+        MinRange                =    0.61,
+        SwingTime                =    2,
+        HitAngleMod            =    -30,
+        MinDamage                =    0.8,
+        KnockdownMod            =    0.5,
+        SplatBloodOnNoDeath        =    FALSE,
+        Icon                    =    HCBroom,
+        RunAnim                =    Run_Weapon2,
+      TwoHandWeapon             =     TRUE,
+            BreakSound             =       PZ_WoodSnap,
+        TreeDamage             =       1,
+    }
+
+item HCPushbroom
+    {
+        MaxRange                 =    1.8,
+        WeaponSprite               =    Shovel,
+        MinAngle                    =    0.2,
+        Type                        =    Weapon,
+        MinimumSwingTime            =    1.5,
+        KnockBackOnNoDeath            =    TRUE,
+        SwingAmountBeforeImpact        =    0.02,
+        Categories                    =    Blunt,
+        ConditionLowerChanceOneIn        =    10,
+        Weight                =    2,
+        SplatNumber            =    1,
+        PushBackMod            =    0.25,
+        MaxDamage            =    0.5,
+        SubCategory            =    Swinging,
+        ConditionMax            =    15,
+        MaxHitCount            =    2,
+        DoorDamage            =    1,
+        IdleAnim                =    Idle_Weapon2,
+        SwingAnim                =    Bat,
+        CriticalChance            =    5,
+        WeaponWeight            =    0.5,
+        DisplayName            =    Push Broom,
+        MinRange                =    0.61,
+        SwingTime                =    2,
+        HitAngleMod            =    -30,
+        MinDamage                =    0.8,
+        KnockdownMod            =    0.5,
+        SplatBloodOnNoDeath        =    FALSE,
+        Icon                    =    HCPushbroom,
+        RunAnim                =    Run_Weapon2,
+      TwoHandWeapon             =     TRUE,
+            BreakSound             =       PZ_WoodSnap,
+        TreeDamage             =       1,
+    }
+
+
+/************************RECIPES************************/
+
+recipe Box Mothballs
+    {
+    HCMothballs=100,
+    Result:HCMothballsbox,
+    Time:15,
+    }
+
+recipe Unbox Mothballs
+    {
+    HCMothballsbox,
+    Result:HCMothballs=100,
+    Time:15,
+    }
+
+recipe Wash Towel
+    {
+    	HCBathtoweldirty,
+	Bleach/Soap2/HCSoap/HCCleanerall/HCCleanerfabric/HCFabricsoftener/HCHandsoap/HCShampoo,
+       	Water=3,
+    	Result:BathTowelWet,
+    	Time:1000,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Wash Towel in Wash Tub
+    {
+    	HCBathtoweldirty,
+    	keep HCWashtubfull,
+	Bleach/Soap2/HCSoap/HCCleanerall/HCCleanerfabric/HCFabricsoftener/HCHandsoap/HCShampoo,
+       	Water=3,
+	keep Sponge/HCLoofah/HCSponge/HCWashboard,
+    	CanBeDoneFromFloor:true,
+    	Result:BathTowelWet,
+    	Time:100,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Wash Clothing
+    {
+       	keep Vest/Shirt/Trousers/Skirt/Blouse/Underwear1/Underwear2/HCScavangeshroud/HCRaincoat/HCRainponcho/HCMexicanponcho/HCDownjacket/HCButtondownshirt/HCPoloshirt/HCTshirt/HCTiedyeshirt/HCHawaiianshirt/HCLifevest/HCLinenshirt/HCLinenpants/HCSilkshirt/HCSilkpants/HCWoolshirt/HCWoolpants/HCCloakbearblack/HCCloakbear/HCFurcoat/HCFurpants/HCTrapperjacket/HCLeathercoat/HCLeatherpants/Jacket/PaddedJacket/PaddedTrousers/ShortsLong,
+       	Soap2/HCSoap/HCCleanerall/HCCleanerfabric/HCFabricsoftener/HCHandsoap/HCShampoo,
+       	Water=3,
+       	Result:Vest,
+       	OnTest:WashClothing_TestIsValid,
+       	Time:1000.0,
+       	OnCreate:WashClothing_OnCreate,
+       	RemoveResultItem:true,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Wash Clothing in Wash Tub
+    {
+    	keep HCWashtubfull,
+       	keep Vest/Shirt/Trousers/Skirt/Blouse/Underwear1/Underwear2/HCScavangeshroud/HCRaincoat/HCRainponcho/HCMexicanponcho/HCDownjacket/HCButtondownshirt/HCPoloshirt/HCTshirt/HCTiedyeshirt/HCHawaiianshirt/HCLifevest/HCLinenshirt/HCLinenpants/HCSilkshirt/HCSilkpants/HCWoolshirt/HCWoolpants/HCCloakbearblack/HCCloakbear/HCFurcoat/HCFurpants/HCTrapperjacket/HCLeathercoat/HCLeatherpants/Jacket/PaddedJacket/PaddedTrousers/ShortsLong,
+       	Soap2/HCSoap/HCCleanerall/HCCleanerfabric/HCFabricsoftener/HCHandsoap/HCShampoo,
+       	Soap2/HCSoap/HCCleanerall/HCCleanerfabric/HCFabricsoftener/HCHandsoap/HCShampoo,
+       	Water=3,
+	keep Sponge/HCLoofah/HCSponge/HCWashboard,
+    	CanBeDoneFromFloor:true,
+       	Result:Vest,
+       	OnTest:WashClothing_TestIsValid,
+       	Time:100.0,
+       	OnCreate:WashClothing_OnCreate,
+       	RemoveResultItem:true,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Wash Shoes
+    {
+       	keep Shoes/HCRollerskates/HCFlipflops/HCBoots/HCBootcombat/HCBootconstruction/HCBootriot/HCBootcord/HCCleats/HCMexicanpointyshoes/HCLeatherboots,
+       	Soap2/HCSoap/HCCleanerall/HCCleanerfabric/HCFabricsoftener/HCHandsoap/HCShampoo,
+       	Water=3,
+       	Result:Shoes,
+       	OnTest:WashClothing_TestIsValid,
+       	Time:1000.0,
+       	OnCreate:WashClothing_OnCreate,
+       	RemoveResultItem:true,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Wash Shoes in Wash Tub
+    {
+    	keep HCWashtubfull,
+       	keep Shoes/HCRollerskates/HCFlipflops/HCBoots/HCBootcombat/HCBootconstruction/HCBootriot/HCBootcord/HCCleats/HCMexicanpointyshoes/HCLeatherboots,
+       	Soap2/HCSoap/HCCleanerall/HCCleanerfabric/HCFabricsoftener/HCHandsoap/HCShampoo,
+       	Water=3,
+	keep Sponge/HCLoofah/HCSponge/HCWashboard,
+    	CanBeDoneFromFloor:true,
+       	Result:Shoes,
+       	OnTest:WashClothing_TestIsValid,
+       	Time:100.0,
+       	OnCreate:WashClothing_OnCreate,
+       	RemoveResultItem:true,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+    
+}

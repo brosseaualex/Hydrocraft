@@ -1,0 +1,1030 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCMinehole
+    {
+        Weight    		= 30,
+        Type    		= Normal,
+        DisplayName         	= Mine Hole,
+        icon 			= HCMinehole,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCMineholeB
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Mine Hole,
+        icon 			= HCMinehole,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCMinehole2
+    {
+        Weight    		= 30,
+        Type    		= Normal,
+        DisplayName         	= Mine Hole with Pully,
+        icon 			= HCMinehole2,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCMinehole2B
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Mine Hole with Pully,
+        icon 			= HCMinehole2,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCDarkmine
+    {
+        Weight    		= 30,
+        Type    		= Normal,
+        DisplayName         	= Dark Mine,
+        icon 			= HCDarkmine,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCDarkmineB
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Dark Mine,
+        icon 			= HCDarkmine,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCDarkmine2
+    {
+        Weight    		= 30,
+        Type    		= Normal,
+        DisplayName         	= Dark Mine with Pully,
+        icon 			= HCDarkmine2,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCDarkmine2B
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Dark Mine with Pully,
+        icon 			= HCDarkmine2,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCDarkmine3
+    {
+        Weight    		= 30,
+        Type    		= Normal,
+        DisplayName         	= Dark Mine with Steam Pully,
+        icon 			= HCDarkmine3,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCDarkmine3B
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Dark Mine with Steam Pully,
+        icon 			= HCDarkmine3,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCMinecart
+   {
+	WeightReduction        		= 50,
+	Weight             		= 20,
+	Type                		= Container,
+	Capacity             		= 200,
+	DisplayName             	= Mine Cart,
+	Icon				= HCMinecart,
+	ResizeWorldIcon 		= 2.0,
+	RequiresEquippedBothHands 	= true,
+   }
+
+item HCQuarrystone
+    {
+        Weight    		= 30,
+        Type    		= Normal,
+        DisplayName         	= Stone Quarry,
+        icon 			= HCQuarrystone,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCQuarrystone2
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Stone Quarry,
+        icon 			= HCQuarrystone,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCDirt
+    {
+    	Weight        	= 0.2,
+    	Type        	= Normal,
+    	DisplayName    	= Dirt,
+    	icon        	= HCDirt,
+    }
+
+item HCCoal
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Coal,
+        icon 			= HCCoal,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCCopperore
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName        	= Copper Ore,
+        icon 			= HCCopperore,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCTinore
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Tin Ore,
+        icon 			= HCTinore,
+	DisplayCategory 	= Mineral,
+    }     
+
+item HCIronore
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Iron Ore,
+        icon 			= HCIronore,
+	DisplayCategory 	= Mineral,
+    }     
+
+item HCLeadore
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Lead Ore,
+        icon 			= HCLeadore,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCBauxiteore
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Bauxite Ore,
+        icon 			= HCBauxiteore,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCSilverore
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Silver Ore,
+        icon 			= HCSilverore,
+	DisplayCategory 	= Mineral,
+    }     
+
+item HCGoldore
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Gold Ore,
+        icon 			= HCGoldore,
+	DisplayCategory 	= Mineral,
+    }     
+
+item HCPyrite
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Pyrite,
+        icon 			= HCPyrite,
+	DisplayCategory 	= Mineral,
+    }  
+
+item HCPlatinumore
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Platinum Ore,
+        icon 			= HCPlatinumore,
+	DisplayCategory 	= Mineral,
+    }  
+
+item HCSaltpeter
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Saltpeter,
+        icon 			= HCSaltpeter,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCSulphur
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Sulphur,
+        icon 			= HCSulphur,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCLithiumore
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Lithium Ore,
+        icon 			= HCLithiumore,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCBerlinite
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Berlinite,
+        icon 			= HCBerlinite,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCRocksalt
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Rock Salt,
+        icon 			= HCRocksalt,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCCinnabar 
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Cinnabar,
+        icon 			= HCCinnabar,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCSandstone
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Sandstone,
+        icon 			= HCSandstone,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCLimestone 
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Limestone,
+        icon 			= HCLimestone,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCGraphite
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Graphite,
+        icon 			= HCGraphite,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCChalkrock
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Chalk Rock,
+        icon 			= HCChalkrock,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCBorax
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Borax,
+        icon 			= HCBorax,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCFeldspar 
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Feldspar,
+        icon 			= HCFeldspar,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCAlbite 
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Albite,
+        icon 			= HCAlbite,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCGypsum 
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Gypsum,
+        icon 			= HCGypsum,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCMagnetite
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Magnetite,
+        icon 			= HCMagnetite,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCMeteorite
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Meteorite,
+        icon 			= HCMeteorite,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCObsidian
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Obsidian,
+        icon 			= HCObsidian,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCTungstenore
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Tungsten Ore,
+        icon 			= HCTungstenore,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCTitaniumore
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Titanium Ore,
+        icon 			= HCTitaniumore,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCMarble
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Marble,
+        icon 			= HCMarble,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCZincore 
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Sphalerite,
+        icon 			= HCZincore,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCNickelore 
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Pentlandite,
+        icon 			= HCNickelore,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCCobaltore 
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Cobalt Ore,
+        icon 			= HCCobaltore,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCDiatomite
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Diatomite,
+        icon 			= HCDiatomite,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCTrona
+	{
+	Weight			= 0.5,
+	Type			= Normal,
+	DisplayName		= Trona,
+	Icon			= HCTrona,
+	DisplayCategory 	= Mineral,
+	}
+
+item HCChromeore
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Chromite,
+        icon 			= HCChromite,
+	DisplayCategory 	= Mineral,
+    }
+
+item HCUraniumore 
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Uranium Ore,
+        icon 			= HCUraniumore,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCThoriumore
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Thorium Ore,
+        icon 			= HCThoriumore,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCAlabaster
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Alabaster,
+        icon 			= HCAlabaster,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCBasalt
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Basalt,
+        icon 			= HCBasalt,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCDacite
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Dacite,
+        icon 			= HCDacite,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCGabbro
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Gabbro,
+        icon 			= HCGabbro,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCKaolinite
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Kaolinite,
+        icon 			= HCKaolinite,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCKimberlite
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Kimberlite,
+        icon 			= HCKimberlite,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCRhyolite
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Rhyolite,
+        icon 			= HCRhyolite,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCSchist
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Schist,
+        icon 			= HCSchist,
+	DisplayCategory 	= Mineral,
+    } 
+
+item HCShale
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Shale,
+        icon 			= HCShale,
+	DisplayCategory 	= Mineral,
+    } 
+
+/************************RECIPES************************/	
+
+recipe Pack Dirt
+    {
+    	HCDirt=4,
+	EmptySandbag,
+	keep Shovel,
+    	Result:Dirtbag,
+    	Time:50,
+    	Category:Stoneworking,
+    }
+
+recipe Unpack Dirt
+    {
+    	Dirtbag,
+    	Result:HCDirt,
+    	Time:50,
+    	Category:Stoneworking,
+    }
+
+recipe Dig with Shoes
+    {
+    	keep Shoes,
+    	Result:HCDirt,
+    	Time:1000,
+    	Category:Survivalist,
+    	OnCreate:hcdigshoe,
+    }
+
+recipe Sift Dirt
+    {
+    	Dirtbag,
+    	keep HCColander,
+    	Result:HCColander,
+    	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Survivalist,
+    	OnCreate:HCSiftDirt,
+    	RemoveResultItem:true,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Sift Dirt
+    {
+    	HCDirt,
+    	keep HCColander,
+    	Result:HCColander,
+    	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Survivalist,
+    	OnCreate:HCSiftDirt,
+    	RemoveResultItem:true,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+
+recipe Dig Mine
+    {
+    	HCAuger,
+    	HCRopethick,
+    	TentPeg/HCStake/HCStakehard,
+    	TentPeg/HCStake/HCStakehard,
+    	TentPeg/HCStake/HCStakehard,
+    	HCWoodenladder,
+    	CanBeDoneFromFloor:true,
+    	Result:HCMinehole,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Anchor Mine
+    {
+    	HCMinehole,
+    	CanBeDoneFromFloor:true,
+    	Result:HCMineholeB,
+    	Time:100,
+    	Category:Anchor,
+    }
+
+recipe Upgrade Mine
+    {
+	HCWoodenbucket,
+    	HCRopethick=2,
+	HCPully/HCPullyiron/HCPullywood,
+    	HCMinehole/HCMineholeB,
+	HCPunchingstand=2,
+    	HCWeldingset,
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+    	CanBeDoneFromFloor:true,
+    	Result:HCMinehole2,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Anchor Mine
+    {
+    	HCMinehole2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCMinehole2B,
+    	Time:100,
+    	Category:Anchor,
+    }
+
+recipe Mine
+    {
+    	keep HCMinehole/HCMineholeB,
+    	keep HandShovel,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDirt,
+    	NeedToBeLearn:true,
+    	Time:2000,
+    	Category:Stoneworking,
+    	OnCreate:HCMine,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCMinehole2/HCMinehole2B,
+    	keep HandShovel,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDirt,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnCreate:HCMine,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCMinehole/HCMineholeB,
+    	keep Shovel,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDirt,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnCreate:HCMine,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCMinehole2/HCMinehole2B,
+    	keep Shovel,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDirt,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnCreate:HCMine,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCMinehole/HCMineholeB,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDirt,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnCreate:HCMine,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCMinehole2/HCMinehole2B,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDirt,
+    	NeedToBeLearn:true,
+    	Time:250,
+    	Category:Stoneworking,
+    	OnCreate:HCMine,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCMinehole/HCMineholeB,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDirt,
+    	NeedToBeLearn:true,
+    	Time:250,
+    	Category:Stoneworking,
+    	OnCreate:HCMine,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    	keep HCMinehole2/HCMinehole2B,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDirt,
+    	NeedToBeLearn:true,
+    	Time:125,
+    	Category:Stoneworking,
+    	OnCreate:HCMine,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Upgrade to Dark Mine
+    {
+	HCCandleholder2=6,
+	HCWoodbeam=12,
+	HCLumberstack=2,
+	HCSteelbeam=8,
+	HCPlankbarrier,
+    	HCMinehole2/HCMinehole2B,
+	keep Shovel,
+	keep HCPickaxe,
+    	keep HCWorkgloves,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDarkmine,
+    	NeedToBeLearn:true,
+    	Time:2000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Anchor Dark Mine
+    {
+    	HCDarkmine,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDarkmineB,
+    	Time:100,
+    	Category:Anchor,
+    }
+
+recipe Upgrade Dark Mine
+    {
+	SkillRequired:Mechanics=3,
+	HCMinecart,
+	HCPully,
+    	HCRopethick=6,
+	HCCrank,
+	HCSteelrod,
+	HCDarkmine/HCDarkmineB,
+    	keep HCWorkgloves,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDarkmine2,
+    	NeedToBeLearn:true,
+    	Time:2000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Anchor Dark Mine
+    {
+    	HCDarkmine2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDarkmine2B,
+    	Time:100,
+    	Category:Anchor,
+    }
+
+
+recipe Add Steam Machine to Dark Mine
+    {
+	SkillRequired:Mechanics=4,
+	HCSteammachine,
+	HCDarkmine2/HCDarkmine2B,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDarkmine3,
+    	NeedToBeLearn:true,
+    	Time:2000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Anchor Dark Mine
+    {
+    	HCDarkmine3,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDarkmine3B,
+    	Time:100,
+    	Category:Anchor,
+    }
+
+
+recipe Mine
+    {
+	HCMininghat/HCMininghatlamppowered,
+    	keep HCDarkmine/HCDarkmineB,
+    	keep Shovel,
+    	CanBeDoneFromFloor:true,
+    	Result:Stone,
+    	NeedToBeLearn:true,
+    	Time:2000,
+    	Category:Stoneworking,
+    	OnCreate:HCDarkmine,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+	keep HCMininghat/HCMininghatlamppowered,
+    	keep HCDarkmine2/HCDarkmine2B,
+    	keep Shovel,
+    	CanBeDoneFromFloor:true,
+    	Result:Stone,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnCreate:HCDarkmine,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+	HCMininghat/HCMininghatlamppowered,
+        Charcoal=1,
+        Water=10,
+    	keep HCDarkmine3/HCDarkmine3B,
+    	keep Shovel,
+    	CanBeDoneFromFloor:true,
+    	Result:Stone,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnCreate:HCDarkmine,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+	HCMininghat/HCMininghatlamppowered,
+    	keep HCDarkmine/HCDarkmineB,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:Stone,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnCreate:HCDarkmine,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+	HCMininghat/HCMininghatlamppowered,
+    	keep HCDarkmine2/HCDarkmine2B,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:Stone,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnCreate:HCDarkmine,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+	HCMininghat/HCMininghatlamppowered,
+        Charcoal=1,
+        Water=10,
+    	keep HCDarkmine3/HCDarkmine3B,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:Stone,
+    	NeedToBeLearn:true,
+    	Time:250,
+    	Category:Stoneworking,
+    	OnCreate:HCDarkmine,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+	HCMininghat/HCMininghatlamppowered,
+    	keep HCDarkmine/HCDarkmineB,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:Stone,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnCreate:HCDarkmine,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+	HCMininghat/HCMininghatlamppowered,
+    	keep HCDarkmine2/HCDarkmine2B,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:Stone,
+    	NeedToBeLearn:true,
+    	Time:250,
+    	Category:Stoneworking,
+    	OnCreate:HCDarkmine,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine
+    {
+	HCMininghat/HCMininghatlamppowered,
+        Charcoal=1,
+        Water=10,
+    	keep HCDarkmine3/HCDarkmine3B,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:Stone,
+    	NeedToBeLearn:true,
+    	Time:125,
+    	Category:Stoneworking,
+    	OnCreate:HCDarkmine,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Dig Quarry
+    {
+    	HCAuger,
+    	CanBeDoneFromFloor:true,
+    	Result:HCQuarrystone,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Anchor Quarry
+    {
+    	HCQuarrystone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCQuarrystone2,
+    	Time:100,
+    	Category:Anchor,
+    }
+
+recipe Mine Stone
+    {
+    	keep HCQuarrystone/HCQuarrystone2,
+    	keep HCPickaxe,
+    	CanBeDoneFromFloor:true,
+    	Result:Stone,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Mine Stone
+    {
+    	keep HCQuarrystone/HCQuarrystone2,
+    	HCMiningdrillpowered/HCMiningchiselpowered,
+    	CanBeDoneFromFloor:true,
+    	Result:Stone,
+    	NeedToBeLearn:true,
+    	Time:125,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+}

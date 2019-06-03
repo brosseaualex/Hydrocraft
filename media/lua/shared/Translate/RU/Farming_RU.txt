@@ -1,0 +1,17 @@
+Farming_RU = {
+  -- vegetables name (type of seed)
+  Farming_Bean = "Бобы",
+  Farming_BellPepper = "Болгарский перец",
+  Farming_Eggplant = "Баклажан",
+  Farming_Grape = "Виноград",
+  Farming_Leek = "Лук-порей",
+  Farming_Lettuce = "Латук",
+  Farming_Onion = "Лук",
+  Farming_Pea = "Горох",
+  Farming_Peanut = "Арахис",
+  Farming_Pumpkin = "Тыква",
+  Farming_Watermelon = "Арбуз",
+  Farming_Zucchini = "Цуккини",
+  Farming_Tooltip_TrellisRequired = "Необходима шпалера: ",
+
+}

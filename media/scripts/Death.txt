@@ -1,0 +1,294 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCSuicidenote
+    {
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Suicide Note,
+        Icon			=	HCSuicidenote,
+        TeachedRecipes 		=   	Kill Yourself;Hang Yourself;Shoot Yourself in the Head;Shoot Yourself in the Leg;Stab Yourself;Slit Your Wrist;Suffocate Yourself;Drink Poison;Add Poison to Inventory Food;Light Yourself on Fire;Scratch Yourself with Zombies Hand,
+        ReplaceOnUse    	=   	HCSuicidenote,
+    }
+
+/************************WEAPONS************************/
+
+
+
+/************************RECIPES************************/	
+
+recipe Write Suicide Note
+    {
+    	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+	Result:HCSuicidenote,
+    	Category:Death,
+    	Time:50.0,
+    }
+
+recipe Light Yourself on Fire
+    {
+	HCSuicidenote,
+    	Lighter/Matches,
+	HCLighterfluid=4,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	CanBeDoneFromFloor:true,
+	OnCreate:HCOnfire,
+    	Category:Death,
+	Sound:PZ_Fire,
+    	Time:10.0,
+    }
+
+recipe Light Yourself on Fire
+    {
+	HCSuicidenote,
+    	Lighter/Matches,
+	PetrolCan=4,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	CanBeDoneFromFloor:true,
+	OnCreate:HCOnfire,
+    	Category:Death,
+	Sound:PZ_Fire,
+    	Time:10.0,
+    }
+
+recipe Shoot Yourself in the Head
+    {
+	HCSuicidenote,
+    	keep Shotgun,
+	ShotgunShells,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCShoothead,
+    	Category:Death,
+	Sound:shotgun2,
+    	Time:10.0,
+    }
+
+recipe Shoot Yourself in the Head
+    {
+	HCSuicidenote,
+    	keep HuntingRifle,
+	308Bullets,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCShoothead,
+    	Category:Death,
+	Sound:hunterShot,
+    	Time:10.0,
+    }
+
+recipe Shoot Yourself in the Head
+    {
+	HCSuicidenote,
+    	keep VarmintRifle,
+        223Bullets,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCShoothead,
+    	Category:Death,
+	Sound:varmintShot,
+    	Time:10.0,
+    }
+
+recipe Shoot Yourself in the Head
+    {
+	HCSuicidenote,
+    	keep Pistol,
+	Bullets9mm,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCShoothead,
+    	Category:Death,
+	Sound:gunshot,
+    	Time:10.0,
+    }
+
+recipe Kill Yourself
+    {
+	HCSuicidenote,
+    	keep Shotgun,
+	ShotgunShells,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCKill,
+    	Category:Death,
+	Sound:shotgun2,
+    	Time:10.0,
+    }
+
+recipe Kill Yourself
+    {
+	HCSuicidenote,
+    	keep HuntingRifle,
+	308Bullets,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCKill,
+    	Category:Death,
+	Sound:hunterShot,
+    	Time:10.0,
+    }
+
+recipe Kill Yourself
+    {
+	HCSuicidenote,
+    	keep VarmintRifle,
+        223Bullets,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCKill,
+    	Category:Death,
+	Sound:varmintShot,
+    	Time:10.0,
+    }
+
+recipe Kill Yourself
+    {
+	HCSuicidenote,
+    	keep Pistol,
+	Bullets9mm,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCKill,
+    	Category:Death,
+	Sound:gunshot,
+    	Time:10.0,
+    }
+
+recipe Shoot Yourself in the Leg
+    {
+	HCSuicidenote,
+    	keep Shotgun,
+	ShotgunShells,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCShootleg,
+    	Category:Death,
+	Sound:shotgun2,
+    	Time:10.0,
+    }
+
+recipe Shoot Yourself in the Leg
+    {
+	HCSuicidenote,
+    	keep HuntingRifle,
+	308Bullets,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCShootleg,
+    	Category:Death,
+	Sound:hunterShot,
+    	Time:10.0,
+    }
+
+recipe Shoot Yourself in the Leg
+    {
+	HCSuicidenote,
+    	keep VarmintRifle,
+        223Bullets,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCShootleg,
+    	Category:Death,
+	Sound:varmintShot,
+    	Time:10.0,
+    }
+
+recipe Shoot Yourself in the Leg
+    {
+	HCSuicidenote,
+    	keep Pistol,
+	Bullets9mm,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCShootleg,
+    	Category:Death,
+	Sound:gunshot,
+    	Time:10.0,
+    }
+
+recipe Kill Yourself
+    {
+	HCSuicidenote,
+    	keep HCDaggersteel/HCDaggeriron/HCDaggercopper/HCDaggerbronze/HCBoneshiv/KitchenKnife/HuntingKnife/HCKnifestone/HCKnifesteel/HCSteakknife/HCPumpkinknife/HCJackknife/HCKnifeiron/HCKnifecopper/HCCombatknife/HCKnifebronze/HCBreadknife/HCMeatcleaver/HCKatana,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCKill,
+    	Category:Death,
+	Sound:stabbing,
+    	Time:10.0,
+    }
+
+recipe Stab Yourself
+    {
+	HCSuicidenote,
+    	keep HCDaggersteel/HCDaggeriron/HCDaggercopper/HCDaggerbronze/HCBoneshiv/KitchenKnife/HuntingKnife/HCKnifestone/HCKnifesteel/HCSteakknife/HCPumpkinknife/HCJackknife/HCKnifeiron/HCKnifecopper/HCCombatknife/HCKnifebronze/HCBreadknife/HCMeatcleaver/HCKatana,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCStab,
+    	Category:Death,
+	Sound:stabbing,
+    	Time:10.0,
+    }
+
+recipe Slit Your Wrist
+    {
+	HCSuicidenote,
+    	keep HCDaggersteel/HCDaggeriron/HCDaggercopper/HCDaggerbronze/HCBoxcutter/KitchenKnife/HuntingKnife/HCKnifestone/HCKnifesteel/HCSteakknife/HCPumpkinknife/HCJackknife/HCKnifeiron/HCKnifecopper/HCCombatknife/HCKnifebronze/HCBreadknife/HCMeatcleaver/HCKatana,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	CanBeDoneFromFloor:true,
+	OnCreate:HCSlit,
+	Sound:PZ_SliceBread,
+    	Category:Death,
+    	Time:10.0,
+    }
+
+recipe Suffocate Yourself
+    {
+	HCSuicidenote,
+    	keep Pillow/Garbagebag/Plasticbag,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCKill,
+    	Category:Death,
+	Sound:breathing,
+    	Time:500.0,
+    }
+
+recipe Hang Yourself
+    {
+	HCSuicidenote,
+    	SheetRope/Rope/HCRopethick,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	OnCreate:HCKill,
+    	Category:Death,
+	Sound:breathing,
+    	Time:500.0,
+    }
+
+recipe Scratch Yourself with Zombies Hand
+    {
+	HCSuicidenote,
+    	keep CorpseFemale/CorpseMale,
+	Result:HCSuicidenote,
+    	NeedToBeLearn:true,
+	CanBeDoneFromFloor:true,
+	OnCreate:HCInfect,
+	Sound:PZ_SliceBread,
+    	Category:Death,
+    	Time:10.0,
+    }
+
+}

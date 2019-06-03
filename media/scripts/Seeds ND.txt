@@ -1,0 +1,388 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, farming,
+
+    }
+
+
+/*-----------------------------------------------------*/
+
+item HCTomatocherryseeds
+	{
+	Type			= 	Normal,
+	DisplayName		= 	Tomatocherry Seeds,
+	Icon			= 	HCTomatocherryseeds,
+	Weight			= 	0.009,
+	}
+
+item HCTomatocherryseedspacket
+	{
+	Type			=  	Normal,
+	DisplayName		= 	Tomatocherry Packet,
+	Icon			= 	HCTomatocherryseedspacket,
+	Weight			= 	0.1,
+	}
+    recipe Put Tomatocherry Seeds in Packet
+    {
+        HCTomatocherryseeds=50,
+        Result:HCTomatocherryseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Tomatocherry Seeds
+	{
+        HCTomatocherryseedspacket,
+        Result:HCTomatocherryseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+/*-----------------------------------------------------*/
+
+item HCSquashsummerseeds
+	{
+	Type			= 	Normal,
+	DisplayName		= 	Squashsummer Seeds,
+	Icon			= 	HCSquashsummerseeds,
+	Weight			= 	0.009,
+	}
+
+item HCSquashsummerseedspacket
+	{
+	Type			=  	Normal,
+	DisplayName		= 	Squashsummer Packet,
+	Icon			= 	HCSquashsummerseedspacket,
+	Weight			= 	0.1,
+	}
+    recipe Put Squashsummer Seeds in Packet
+    {
+        HCSquashsummerseeds=50,
+        Result:HCSquashsummerseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Squashsummer Seeds
+	{
+        HCSquashsummerseedspacket,
+        Result:HCSquashsummerseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+/*-----------------------------------------------------*/
+
+item HCJalapenoseeds
+	{
+	Type			= 	Normal,
+	DisplayName		= 	Jalapeno Seeds,
+	Icon			= 	HCChiligreenseeds,
+	Weight			= 	0.009,
+	}
+
+item HCJalapenoseedspacket
+	{
+	Type			=  	Normal,
+	DisplayName		= 	Jalapeno Packet,
+	Icon			= 	HCChiligreenseedspacket,
+	Weight			= 	0.1,
+	}
+    recipe Put Jalapeno Seeds in Packet
+    {
+        HCJalapenoseeds=50,
+        Result:HCJalapenoseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Jalapeno Seeds
+	{
+        HCJalapenoseedspacket,
+        Result:HCJalapenoseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+/*-----------------------------------------------------*/
+item HCCauliflowerseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Cauliflower Seeds,
+        icon 			= HCCauliflowerseeds,
+    } 
+item HCCauliflowerseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Cauliflower Seeds Packet,
+	Icon			= HCCauliflowerseedspacket,
+	Weight			= 0.1,
+	}
+
+    recipe Put Cauliflower Seeds in Packet
+    {
+        HCCauliflowerseeds=50,
+        Result:HCCauliflowerseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Cauliflower Seeds
+	{
+        HCCauliflowerseedspacket,
+        Result:HCCauliflowerseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+/*-----------------------------------------------------*/
+item HCPersimmonseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Persimmon Seeds,
+        icon 			= HCPersimmonseeds,
+    } 
+item HCPersimmonseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Persimmon Seeds Packet,
+	Icon			= HCPersimmonseedspacket,
+	Weight			= 0.1,
+	}
+
+    recipe Put Persimmon Seeds in Packet
+    {
+        HCPersimmonseeds=50,
+        Result:HCPersimmonseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Persimmon Seeds
+	{
+        HCPersimmonseedspacket,
+        Result:HCPersimmonseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+/*-----------------------------------------------------*/
+item HCPlumseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Plum Seeds,
+        icon 			= HCPlumseeds,
+    } 
+item HCPlumseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Plum Seeds Packet,
+	Icon			= HCPlumseedspacket,
+	Weight			= 0.1,
+	}
+
+    recipe Put Plum Seeds in Packet
+    {
+        HCPlumseeds=50,
+        Result:HCPlumseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Plum Seeds
+	{
+        HCPlumseedspacket,
+        Result:HCPlumseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+/*-----------------------------------------------------*/
+item HCKiwiseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Kiwi Seeds,
+        icon 			= HCKiwiseeds,
+    } 
+item HCKiwiseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Kiwi Seeds Packet,
+	Icon			= HCKiwiseedspacket,
+	Weight			= 0.1,
+	}
+
+    recipe Put Kiwi Seeds in Packet
+    {
+        HCKiwiseeds=50,
+        Result:HCKiwiseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Kiwi Seeds
+	{
+        HCKiwiseedspacket,
+        Result:HCKiwiseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+/*-----------------------------------------------------*/
+item HCFigseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Fig Seeds,
+        icon 			= HCFigseeds,
+    } 
+item HCFigseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Fig Seeds Packet,
+	Icon			= HCFigseedspacket,
+	Weight			= 0.1,
+	}
+
+    recipe Put Fig Seeds in Packet
+    {
+        HCFigseeds=50,
+        Result:HCFigseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Fig Seeds
+	{
+        HCFigseedspacket,
+        Result:HCFigseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+/*-----------------------------------------------------*/
+
+item HCDateseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Date Seeds,
+        icon 			= HCDateseeds,
+    } 
+item HCDateseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Date Seeds Packet,
+	Icon			= HCDateseedspacket,
+	Weight			= 0.1,
+	}
+
+    recipe Put Date Seeds in Packet
+    {
+        HCDateseeds=50,
+        Result:HCDateseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Date Seeds
+	{
+        HCDateseedspacket,
+        Result:HCDateseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+/*-----------------------------------------------------*/
+
+item HCGrapesgreenseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Grape green Seeds,
+        icon 			= HCGrapesgreenseeds,
+    } 
+item HCGrapesgreenseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Grapesgreen Seeds Packet,
+	Icon			= HCGrapesgreenseedspacket,
+	Weight			= 0.1,
+	}
+
+    recipe Put Grapes Green Seeds in Packet
+    {
+        HCGrapesgreenseeds=50,
+        Result:HCGrapesgreenseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Grapes Green Seeds
+	{
+        HCGrapesgreenseedspacket,
+        Result:HCGrapesgreenseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+/*-----------------------------------------------------*/
+item HCLimeseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Lime Seeds,
+        icon 			= HCLimeseeds,
+    } 
+item HCLimeseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Lime Seeds Packet,
+	Icon			= HCLimeseedspacket,
+	Weight			= 0.1,
+	}
+	
+    recipe Put Lime Seeds in Packet
+    {
+        HCLimeseeds=50,
+        Result:HCLimeseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Lime Seeds
+	{
+        HCLimeseedspacket,
+        Result:HCLimeseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+/*-----------------------------------------------------*/
+item HCWheat
+	{
+	Type			= Normal,
+	DisplayName		= Wheat,
+	Icon			= HCwheat,
+	Weight			= 0.009,
+	}
+
+item HCWheatseedpacket
+	{
+	Type			=  Normal,
+	DisplayName		= Wheat Seeds Packet,
+	Icon			= HCwheatseedpacket,
+	Weight			= 0.1,
+	} 
+	
+    recipe Put Wheat in Packet
+    {
+        HCWheat=50,
+        Result:HCWheatseedpacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Wheat
+	{
+        HCWheatseedpacket,
+        Result:HCWheat=50,
+        Time:20.0,
+        Category:Farming,
+ 	}
+}

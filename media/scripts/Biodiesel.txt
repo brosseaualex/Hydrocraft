@@ -1,0 +1,193 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCWoodenbucketvegoil
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Bucket with Vegetable Oil,
+        icon 			= HCWoodenbucketvegoil,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCPotvegoil
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Pot of Uncooked Vegetable Oil,
+        icon 			= HCPotvegoil,
+    }
+
+item HCPotvegoilcooked
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Pot of Cooked Vegetable Oil,
+        icon 			= HCPotvegoilcooked,
+    }
+
+item HCWashtubmethoxide
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Washtub with Methoxide,
+        icon 			= HCWashtubmethoxide,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCWashtubrawbiodiesel
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Washtub with Raw Biodiesel,
+        icon 			= HCWashtubrawbiodiesel,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCWashtubunwashedbiodiesel
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Washtub with Unwashed Biodiesel,
+        icon 			= HCWashtubunwashedbiodiesel,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCWashtubwashedbiodiesel
+    {
+        Weight    		= 4,
+        Type    		= Normal,
+        DisplayName         	= Wooden Washtub with Washed Biodiesel,
+        icon 			= HCWashtubwashedbiodiesel,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCBiodieselcan
+	{
+	Weight			= 5,
+        Type    		= Normal,
+	DisplayName		= Biodiesel Can,
+	Icon			= HCBiodieselcan,
+	}
+
+/************************RECIPES************************/	
+
+recipe Pour Vegetable Oil into Pot
+	{
+		HCWoodenbucketvegoil,
+		Pot,
+		Result:HCPotvegoil,
+		Time:15,
+	   	Category:Cooking,
+    		OnCreate:recipe_hcwoodenbucket,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Cook Pot of Vegtable Oil
+        {
+                HCPotvegoil,
+                Charcoal,
+                Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    		keep HCWorkgloves/HCOvenmitts,
+                keep HCKiln/HCKiln2,
+                CanBeDoneFromFloor:true,
+                Result:HCPotvegoilcooked,
+                NeedToBeLearn:true,
+                Time:500,
+                Category:Alchemy,
+    		OnCreate:KilnUse,
+    		OnGiveXP:HCCooking_OnGiveXP,
+         }
+
+recipe Make Methoxide
+        {
+                HCMethanol,
+                HCWoodenbucketlye,
+		HCWashtub,
+    		keep HCSpatula/HCWoodenspatula,
+        	keep HCLatexgloves/HCRubberglove,
+		keep HCSafetyglasses,
+                Result:HCWashtubmethoxide,
+                NeedToBeLearn:true,
+                Time:500,
+                Category:Alchemy,
+    		OnCreate:recipe_hcwoodenbucketbottle,
+    		OnGiveXP:HCCooking_OnGiveXP,
+         }
+
+recipe Make Raw Biodiesel
+        {
+                HCWashtubmethoxide,
+                HCPotvegoilcooked,
+    		keep HCSpatula/HCWoodenspatula,
+        	keep HCLatexgloves/HCRubberglove,
+		keep HCSafetyglasses,
+                Result:HCWashtubrawbiodiesel,
+                NeedToBeLearn:true,
+                Time:1000,
+                Category:Alchemy,
+    		OnCreate:recipe_hcpot,
+    		OnGiveXP:HCCooking_OnGiveXP,
+         }
+
+recipe Remove Glycerin
+        {
+                HCWashtubrawbiodiesel,
+    		keep HCSpatula/HCWoodenspatula,
+        	keep HCLatexgloves/HCRubberglove,
+		keep HCSafetyglasses,
+                Result:HCWashtubunwashedbiodiesel,
+                NeedToBeLearn:true,
+                Time:1000,
+                Category:Alchemy,
+    		OnCreate:recipe_hcglycerin,
+    		OnGiveXP:HCCooking_OnGiveXP,
+         }
+
+recipe Wash Biodiesel
+        {
+                HCWashtubunwashedbiodiesel,
+         	Water=4,
+        	keep HCLatexgloves/HCRubberglove,
+		keep HCSafetyglasses,
+                Result:HCWashtubwashedbiodiesel,
+                NeedToBeLearn:true,
+                Time:1000,
+                Category:Alchemy,
+    		OnCreate:recipe_hcglycerin,
+    		OnGiveXP:HCCooking_OnGiveXP,
+         }
+
+recipe Store Biodiesel
+        {
+                HCWashtubwashedbiodiesel,
+		EmptyPetrolCan,
+		keep HCFunnel,
+                Result:HCBiodieselcan,
+                NeedToBeLearn:true,
+                Time:1000,
+                Category:Alchemy,
+    		OnCreate:recipe_hcwashtub,
+    		OnGiveXP:HCCooking_OnGiveXP,
+         }
+
+recipe Add Gasoline to Biodiesel
+        {
+                HCBiodieselcan,
+		PetrolCan,
+		keep HCFunnel,
+                Result:PetrolCan,
+                NeedToBeLearn:true,
+                Time:100,
+                Category:Alchemy,
+    		OnGiveXP:HCCooking_OnGiveXP,
+         }
+
+}

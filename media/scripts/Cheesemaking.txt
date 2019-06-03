@@ -1,0 +1,684 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+	
+item HCCheeserack
+	{
+	Weight 			= 10,
+	Type 			= Normal,
+	DisplayName 		= Cheese Rack,
+	Icon			= HCCheeserack,
+	ResizeWorldIcon 	= 1.0,
+	}
+
+item HCCheeserackfull
+	{
+	Weight 			= 10,
+	Type 			= Normal,
+	DisplayName 		= Cheese Rack with Cheese,
+	Icon			= HCCheeserackfull,
+	ResizeWorldIcon 	= 1.0,
+	}
+
+item HCCheeserackaged
+	{
+	Weight 			= 10,
+	Type 			= Normal,
+	DisplayName 		= Cheese Rack with Aged Cheese,
+	Icon			= HCCheeserackaged,
+	ResizeWorldIcon 	= 1.0,
+	}
+
+item HCCheeserackfullcheddar
+	{
+	Weight 			= 10,
+	Type 			= Normal,
+	DisplayName 		= Cheese Rack with Cheddar Cheese,
+	Icon			= HCCheeserackfullcheddar,
+	ResizeWorldIcon 	= 1.0,
+	}
+
+item HCCheeserackagedcheddar
+	{
+	Weight 			= 10,
+	Type 			= Normal,
+	DisplayName 		= Cheese Rack with Aged Cheddar Cheese,
+	Icon			= HCCheeserackagedcheddar,
+	ResizeWorldIcon 	= 1.0,
+	}
+
+
+item HCCheeserackfullcheddarwaxed
+	{
+	Weight 			= 10,
+	Type 			= Normal,
+	DisplayName 		= Cheese Rack with Waxed Cheddar Cheese,
+	Icon			= HCCheeserackfullcheddarwaxed,
+	ResizeWorldIcon 	= 1.0,
+	}
+
+item HCCheeserackagedcheddarwaxed
+	{
+	Weight 			= 10,
+	Type 			= Normal,
+	DisplayName 		= Cheese Rack with Aged Waxed Cheddar Cheese,
+	Icon			= HCCheeserackagedcheddarwaxed,
+	ResizeWorldIcon 	= 1.0,
+	}
+
+
+item HCRennet
+    {
+        Weight    		= 0.3,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+	ReplaceOnUse		= HCClayjarsmall,
+        DisplayName         	= Jar of Rennet,
+        icon 			= HCRennet,
+    }
+
+item HCVatcheese
+    {
+        Weight    		= 16,
+        Type    		= Normal,
+        DisplayName         	= Cheese Vat,
+        icon 			= HCVatcheese,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCCheesetray
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Cheese Tray,
+        icon 			= HCCheesetray,
+    }
+
+item HCCheesetrayfull
+    {
+        Weight    		= 1.7,
+        Type    		= Normal,
+        DisplayName         	= Full Cheese Tray,
+        icon 			= HCCheesetrayfull,
+    }
+
+item HCCheesecurd
+	{
+		HungerChange		=	-20,
+		Weight			=	0.2,
+		Type			=	Food,
+		DaysTotallyRotten	=	10,
+		DisplayName		=	Cheese Curd,
+		Icon			=	HCCheesecurd,
+		DaysFresh		=	7,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	6.8,
+        	Proteins 		= 	22,
+        	Lipids 			= 	8.6,
+        	Calories 		= 	196,
+	}
+
+item HCCheesewheel
+	{
+		HungerChange		=	-70,
+		Weight			=	1.2,
+		Type			=	Food,
+		DaysTotallyRotten	=	40,
+		DisplayName		=	Cheese Wheel,
+		Icon			=	HCCheesewheel,
+		DaysFresh		=	28,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	26.4,
+        	Proteins 		= 	300,
+        	Lipids 			= 	324,
+        	Calories 		= 	4272,
+	}
+
+item HCCheesecloth
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Cheese Cloth,
+        icon 			= HCCheesecloth,
+    }
+
+item HCPotcheeseclothwrappedwax
+    {
+        Weight    		= 6,
+        Type    		= Normal,
+        DisplayName         	= Pot with Cheese Cloth-Wrapped Beeswax,
+        icon 			= HCPotcheeseclothwrappedwax,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCPotrefinedwax
+    {
+        Weight    		= 6,
+        Type    		= Normal,
+        DisplayName         	= Pot with Refined Beeswax,
+        icon 			= HCPotrefinedwax,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCRefinedbeeswax
+    {
+        Weight                  = 0.4,
+        Type                    = Normal,
+        DisplayName             = Refined Beeswax,
+        icon                    = HCRefinedbeeswax,
+    }
+
+item HCPotmeltedrefinedwax
+    {
+        Weight    		= 5,
+        Type    		= Normal,
+        DisplayName         	= Pot of Melted Refined Beeswax,
+        icon 			= HCPotmeltedrefinedwax,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCurdkneaded
+	{
+		HungerChange		=	-35,
+		Weight			=	0.8,
+		Type			=	Food,
+		DaysTotallyRotten	=	10,
+		DisplayName		=	Kneaded Cheese Curd,
+		Icon			=	HCCheesecurdkneaded,
+		DaysFresh		=	7,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	27.2,
+        	Proteins 		= 	88,
+        	Lipids 			= 	34.4,
+        	Calories 		= 	784,
+	}
+
+item HCCurdcubed
+	{
+		HungerChange		=	-35,
+		Weight			=	0.8,
+		Type			=	Food,
+		DaysTotallyRotten	=	10,
+		DisplayName		=	Cubed Cheese Curd,
+		Icon			=	HCCheesecurdcubed,
+		DaysFresh		=	7,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	27.2,
+        	Proteins 		= 	88,
+        	Lipids 			= 	34.4,
+        	Calories 		= 	784,
+	}
+
+item HCCheddarcheesetrayfull
+        {
+                Weight                  = 1.7,
+                Type                    = Normal,
+                DisplayName             = Full Cheddar Cheese Tray,
+                icon                    = HCCheesetrayfull,
+        }
+
+item HCCheddarwheelunaged
+	{
+		HungerChange		=	-80,
+		Weight			=	1.2,
+		Type			=	Food,
+		DaysTotallyRotten	=	10,
+		DisplayName		=	Cheddar Wheel,
+		Icon			=	HCCheddarwheelunaged,
+		DaysFresh		=	7,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	15.6,
+        	Proteins 		= 	300,
+        	Lipids 			= 	396,
+        	Calories 		= 	4824,
+	}
+
+item HCCheddarwheelwaxed
+	{
+		HungerChange		=	-80,
+		Weight			=	1.2,
+		Type			=	Food,
+		DaysTotallyRotten	=	14,
+		DisplayName		=	Waxed Cheddar Wheel,
+		Icon			=	HCCheddarwheelwaxed,
+		DaysFresh		=	10,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	15.6,
+        	Proteins 		= 	300,
+        	Lipids 			= 	396,
+        	Calories 		= 	4824,
+	}
+
+item HCCheddarwheelaged
+	{
+		HungerChange		=	-80,
+		Weight			=	1.2,
+		Type			=	Food,
+		DaysTotallyRotten	=	40,
+		DisplayName		=	Aged Cheddar Wheel,
+		Icon			=	HCCheddarwheelwaxed,
+		DaysFresh		=	28,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	15.6,
+        	Proteins 		= 	300,
+        	Lipids 			= 	396,
+        	Calories 		= 	4824,
+	}
+
+item HCCheddar
+        {
+                Type                    =       Food,
+                DisplayName             =       Cheddar Cheese,
+                Icon                    =       HCCheddar,
+                Weight                  =       0.2,
+                HungerChange            =       -25,
+                DaysFresh               =       14,
+                DaysTotallyRotten       =       20,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	2.6,
+        	Proteins 		= 	50,
+        	Lipids 			= 	66,
+        	Calories 		= 	402,
+                EvolvedRecipe           =       Burger:6;Salad:6;Sandwich:6,
+	}
+
+item HCCreamcheeseculture
+    {
+	Type				=	Food,
+	DisplayName			=	Cream Cheese Culture,
+	Weight				=	1.2,
+	HungerChange 			=	-20,
+	ThirstChange			= 	5,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	7,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCWoodenbucketmilk,
+    }
+	
+item HCCreamcheese
+    {
+	Type				=	Food,
+	DisplayName			=	Cream Cheese,
+	Weight				=	1,
+	HungerChange 			=	-20,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	7,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCCreamcheese,
+	ReplaceOnUse			=	Bowl,
+        EvolvedRecipe         	 	=       Sandwich:4,
+    }
+
+
+item HCSmokedsalmoncreamcheese
+    {
+	Type				=	Food,
+	DisplayName			=	Smoked Salmon Cream Cheese,
+	Weight				=	1.2,
+	HungerChange 			=	-25,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			=	7,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCSmokedsalmoncreamcheese,
+	ReplaceOnUse			=	Bowl,
+        EvolvedRecipe         	 	=       Sandwich:5,
+    }
+
+
+item HCSmokedsalmoncreamcheesesandwich
+    {
+	Type				=	Food,
+	DisplayName			=	Smoked Salmon Cream Cheese Sandwich,
+	Weight				=	0.5,
+	HungerChange 			=	-20,
+	DaysTotallyRotten		=	7,
+	DaysFresh 			=	4,
+	FoodType			= 	NoExplicit,
+	Icon				=	HCSmokedsalmoncreamcheesesandwich,
+    }
+		
+/************************RECIPES************************/
+
+recipe Make Cheese Tray
+    {
+    	HCWoodenring,
+    	Plank,
+    	Nails,
+    	keep Saw,
+    	keep Hammer,
+    	Result:HCCheesetray,
+    	SkillRequired:Woodwork=1,
+    	Sound:PZ_Hammer,
+    	Time:15,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Cheese Rack
+    {
+	Plank=6,
+	Nails=4,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCCheeserack,
+	SkillRequired:Woodwork=4,
+    	Sound:PZ_Hammer,
+    	Time:400,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+    
+recipe Make Rennet
+    {
+       	SkillRequired:Cooking=8,
+    	HCClayjarsmall,
+	HCIntestines,
+	Vinegar,
+   	Charcoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCClaycauldron/HCCauldroniron,
+    	Result:HCRennet,
+    	NeedToBeLearn:true,
+    	Time:200,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Fill Cheese Vat
+    {
+       	SkillRequired:Cooking=8,
+    	HCRennet=4,
+	destroy HCWoodenbucketmilk=4,
+	HCVat,
+    	Result:HCVatcheese,
+    	NeedToBeLearn:true,
+   	CanBeDoneFromFloor:true,
+    	Time:50,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbucket4,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Harvest Cheese Curds
+    {
+       	SkillRequired:Cooking=8,
+    	HCVatcheese,
+    	Result:HCCheesecurd=16,
+    	NeedToBeLearn:true,
+   	CanBeDoneFromFloor:true,
+    	Time:1000,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenvat,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Fill Cheese Trays
+    {
+       	SkillRequired:Cooking=8,
+    	HCCheesecurd=4,
+    	HCCheesetray,
+    	Result:HCCheesetrayfull,
+    	NeedToBeLearn:true,
+    	Time:50,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Put Cheese on Rack
+    {
+       	SkillRequired:Cooking=8,
+    	HCCheesetrayfull,
+    	HCCheeserack,
+    	Result:HCCheeserackfull,
+    	NeedToBeLearn:true,
+   	CanBeDoneFromFloor:true,
+    	Time:100,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Remove Cheese from Rack
+    {
+       	SkillRequired:Cooking=8,
+    	HCCheeserackaged,
+    	Result:HCCheesewheel,
+    	NeedToBeLearn:true,
+   	CanBeDoneFromFloor:true,
+    	Time:100,
+	Category:Cooking,
+    	OnCreate:recipe_hccheesetray,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Cut Cheese Wheel
+    {
+    	HCCheesewheel,
+    	keep KitchenKnife/HuntingKnife/HCJackknife/HCSteakknife/HCKnifestone,
+    	Result:Cheese=8,
+	NeedToBeLearn:true,
+    	Time:15,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Prepare Cheese Cloth-Wrapped Wax
+	{
+	destroy WaterPot,
+        HCBeeswax=4,
+        Stone,
+	HCCheesecloth,
+	Result:HCPotcheeseclothwrappedwax,
+	Time:90.0,
+       	NeedToBeLearn:true,
+    	Time:50.0,
+	Category:Alchemy,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Pot of Refined Wax
+        {
+                HCPotcheeseclothwrappedwax,
+                Charcoal,
+                Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+                keep HCKiln/HCKiln2,
+                CanBeDoneFromFloor:true,
+                Result:HCPotrefinedwax,
+                NeedToBeLearn:true,
+                Time:100,
+                Category:Alchemy,
+		OnCreate:KilnUse,
+    		OnGiveXP:HCCooking_OnGiveXP,
+         }
+
+recipe Process Refined Wax
+        {
+                HCPotrefinedwax,
+                keep HuntingKnife/KitchenKnife/HCJackknife/HCSteakknife/HCKnifestone,
+                Result:HCRefinedbeeswax,
+                NeedToBeLearn:true,
+                Time:50,
+                OnCreate:recipe_Process_RWAX,
+                Category:Alchemy,
+    		OnGiveXP:HCCooking_OnGiveXP,
+         }
+
+recipe Prepare Pot of Melted Refined Wax
+        {
+		destroy WaterPot,
+                HCRefinedbeeswax,
+                Charcoal,
+                Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+                keep HCKiln/HCKiln2,
+                CanBeDoneFromFloor:true,
+                Result:HCPotmeltedrefinedwax,
+                NeedToBeLearn:true,
+                Time:100,
+                Category:Alchemy,
+		OnCreate:KilnUse,
+    		OnGiveXP:HCCooking_OnGiveXP,
+         }
+
+recipe Prepare Kneaded Cheese Curds
+        {
+                SkillRequired:Cooking=8,
+		keep RollingPin,
+                Salt;1,
+                HCCheesecurd=4,
+                Result:HCCurdkneaded,
+                NeedToBeLearn:true,
+                Time:100,
+                Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+        }
+
+recipe Prepare Cubed Cheese Curds
+        {
+                SkillRequired:Cooking=8,
+                keep HuntingKnife/KitchenKnife/HCJackknife/HCSteakknife/HCKnifestone,
+                HCCurdkneaded,
+                Result:HCCurdcubed,
+                NeedToBeLearn:true,
+                Time:50,
+                Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+        }
+
+recipe Fill Cheese Trays
+        {
+                SkillRequired:Cooking=8,
+                HCCurdcubed,
+                HCCheesetray,
+                Result:HCCheddarcheesetrayfull,
+                NeedToBeLearn:true,
+                Time:50,
+                Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+        }
+
+recipe Put Cheese on Rack
+    {
+       	SkillRequired:Cooking=8,
+    	HCCheddarcheesetrayfull,
+    	HCCheeserack,
+    	Result:HCCheeserackfullcheddar,
+    	NeedToBeLearn:true,
+   	CanBeDoneFromFloor:true,
+    	Time:100,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Remove Cheese from Rack
+    {
+       	SkillRequired:Cooking=8,
+    	HCCheeserackagedcheddar,
+    	Result:HCCheddarwheelunaged,
+    	NeedToBeLearn:true,
+   	CanBeDoneFromFloor:true,
+    	Time:100,
+	Category:Cooking,
+    	OnCreate:recipe_hccheesetray,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+
+recipe Wax Cheddar Cheese
+        {
+                SkillRequired:Cooking=8,
+                HCCheddarwheelunaged,
+                HCPotmeltedrefinedwax,
+                keep Paintbrush,
+                Result:HCCheddarwheelwaxed,
+                NeedToBeLearn:true,
+                Time:100,
+                Category:Cooking,
+    		OnCreate:recipe_hcpot,
+    		OnGiveXP:HCCooking_OnGiveXP,
+        }
+
+recipe Put Cheese on Rack
+    {
+       	SkillRequired:Cooking=8,
+    	HCCheddarwheelwaxed,
+    	HCCheeserack,
+    	Result:HCCheeserackfullcheddarwaxed,
+    	NeedToBeLearn:true,
+   	CanBeDoneFromFloor:true,
+    	Time:100,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Remove Cheese from Rack
+    {
+       	SkillRequired:Cooking=8,
+    	HCCheeserackagedcheddarwaxed,
+    	Result:HCCheddarwheelaged,
+    	NeedToBeLearn:true,
+   	CanBeDoneFromFloor:true,
+    	Time:100,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Cut Cheese Wheel
+        {
+                keep HuntingKnife/KitchenKnife/HCJackknife/HCSteakknife/HCKnifestone,
+                HCCheddarwheelaged,
+                Result:HCCheddar=6,
+		NeedToBeLearn:true,
+                Time:50,
+                Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+        }
+
+recipe Make Cream Cheese Culture
+    {
+       	SkillRequired:Cooking=8,
+    	HCWoodenbucketmilk,
+    	Vinegar,
+	Salt;1,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCClaycauldron/HCCauldroniron,
+	Result:HCCreamcheeseculture,
+	NeedToBeLearn:true,
+    	Time:200.0,
+    	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Strain Cream Cheese
+    {
+       	SkillRequired:Cooking=8,
+    	HCCreamcheeseculture,
+	Bowl,
+    	keep HCCheesecloth,
+	keep Stone,
+	Result:HCCreamcheese,
+	NeedToBeLearn:true,
+    	Time:2000.0,
+    	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbucket,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }			
+
+recipe Maked Smoked Salmon Cream Cheese
+    {
+       	SkillRequired:Cooking=8,
+    	HCCreamcheese,
+	HCSmokedsalmon,
+	Result:HCSmokedsalmoncreamcheese,
+    	Time:200.0,
+    	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }			
+	
+}

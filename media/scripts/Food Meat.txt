@@ -1,0 +1,1365 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, farming
+
+    }
+
+/************************ITEMS************************/
+
+item HCDuckmeat
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Duck Meat,
+        Icon				=	HCDuckmeat,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+        EvolvedRecipe 			= 	Soup:15;Stew:15;Pie:15;Stir fry:15;Sandwich:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			=   	Game,
+	Carbohydrates 			= 	10,
+        Proteins 			= 	69,
+       	Lipids 				= 	33,
+        Calories 			= 	603,
+    }
+
+item HCGoosemeat
+    {
+        HungerChange			=	-35,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Goose Meat,
+        Icon				=	HCGoosemeat,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+        EvolvedRecipe 			= 	Soup:15;Stew:15;Pie:15;Stir fry:15;Sandwich:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			=   	Game,
+	Carbohydrates			= 	10,
+        Proteins 			= 	87,
+        Lipids 				= 	39,
+        Calories 			= 	714,
+    }
+
+item HCTurkeymeat
+    {
+        HungerChange			=	-30,
+        Weight				=	0.3,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DisplayName			=	Turkey Meat,
+        Icon				=	HCTurkeymeat,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+        EvolvedRecipe 			= 	Soup:15;Stew:15;Pie:15;Stir fry:15;Sandwich:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        FoodType    			=   	Game,
+	Carbohydrates 			= 	10.3,
+      	Proteins 			= 	69,
+      	Lipids 				= 	5.7,
+      	Calories 			= 	336,
+    }
+
+item HCDogmeat
+    {
+        Weight				=	3,
+        Type				=	Food,
+        DisplayName			=	Dog Carcass,
+        Icon				=	HCDogmeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+    }
+
+item HCCatmeat
+    {
+        Weight				=	1,
+        Type				=	Food,
+        DisplayName			=	Cat Carcass,
+        Icon				=	HCCatmeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+    }
+
+item HCSheepmeat
+    {
+        Weight				=	3,
+        Type				=	Food,
+        DisplayName			=	Sheep Carcass,
+        Icon				=	HCSheepmeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+    }
+
+item HCGoatmeat
+    {
+        Weight				=	3,
+        Type				=	Food,
+        DisplayName			=	Goat Carcass,
+        Icon				=	HCGoatmeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+    }
+
+item HCPigmeat
+    {
+        Weight				=	10,
+        Type				=	Food,
+        DisplayName			=	Pig Carcass,
+        Icon				=	HCPigmeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+    }
+
+item HCCowmeat
+    {
+        Weight				=	10,
+        Type				=	Food,
+        DisplayName			=	Cow Carcass,
+        Icon				=	HCCowmeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.5,
+    }
+
+item HCCowmeat2
+    {
+        Weight				=	10,
+        Type				=	Food,
+        DisplayName			=	Cow Carcass,
+        Icon				=	HCCowmeat2,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.5,
+    }
+
+item HCDonkeymeat
+    {
+        Weight				=	10,
+        Type				=	Food,
+        DisplayName			=	Donkey Carcass,
+        Icon				=	HCDonkeymeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+    }
+
+item HCHorsemeat
+    {
+        Weight				=	15,
+        Type				=	Food,
+        DisplayName			=	Horse Carcass,
+        Icon				=	HCHorsemeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.5,
+    }
+
+
+item HCNutriameat
+    {
+        Weight				=	0.8,
+        Type				=	Food,
+        DisplayName			=	Nutria Carcass,
+        Icon				=	HCNutriameat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+        FoodType    			=   	Game,
+    }
+
+item HCBeavermeat
+    {
+        Weight				=	0.8,
+        Type				=	Food,
+        DisplayName			=	Beaver Carcass,
+        Icon				=	HCBeavermeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+        FoodType    			=   	Game,
+    }
+
+item HCPorcupinemeat
+    {
+        Weight				=	0.8,
+        Type				=	Food,
+        DisplayName			=	Porcupine Carcass,
+        Icon				=	HCPorcupinemeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+        FoodType    			=   	Game,
+    }
+
+item HCArmadillomeat
+    {
+        Weight				=	0.8,
+        Type				=	Food,
+        DisplayName			=	Armadillo Carcass,
+        Icon				=	HCArmadillomeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+        FoodType    			=   	Game,
+    }
+
+item HCFoxmeat
+    {
+        Weight				=	0.8,
+        Type				=	Food,
+        DisplayName			=	Fox Carcass,
+        Icon				=	HCFoxmeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+        FoodType    			=   	Game,
+    }
+
+item HCRaccoonmeat
+    {
+        Weight				=	0.4,
+        Type				=	Food,
+        DisplayName			=	Raccoon Carcass,
+        Icon				=	HCRaccoonmeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+        FoodType    			=   	Game,
+    }
+
+item HCOpossummeat
+    {
+        Weight				=	0.8,
+        Type				=	Food,
+        DisplayName			=	Opossum Carcass,
+        Icon				=	HCOpossummeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+        FoodType    			=   	Game,
+    }
+
+
+item HCSkunkmeat
+    {
+        Weight				=	0.8,
+        Type				=	Food,
+        DisplayName			=	Skunk Carcass,
+        Icon				=	HCSkunkmeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+        FoodType    			=   	Game,
+    }
+
+item HCBoarmeat
+    {
+        Weight				=	10,
+        Type				=	Food,
+        DisplayName			=	Boar Carcass,
+        Icon				=	HCBoarmeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+        FoodType    			=   	Game,
+    }
+
+item HCDeermeat
+    {
+        Weight				=	8,
+        Type				=	Food,
+        DisplayName			=	Deer Carcass,
+        Icon				=	HCDeermeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+        FoodType    			=   	Game,
+    }
+
+item HCDeermeat2
+    {
+        Weight				=	8,
+        Type				=	Food,
+        DisplayName			=	Deer Carcass,
+        Icon				=	HCDeermeat2,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+        FoodType    			=   	Game,
+    }
+
+item HCBlackbearmeat
+    {
+        Weight				=	10,
+        Type				=	Food,
+        DisplayName			=	Black Bear Carcass,
+        Icon				=	HCBlackbearmeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+        FoodType    			=   	Game,
+    }
+
+item HCBearmeat
+    {
+        Weight				=	10,
+        Type				=	Food,
+        DisplayName			=	Glizzly Bear Carcass,
+        Icon				=	HCBearmeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+        FoodType    			=   	Game,
+    }
+
+item HCCougarmeat
+    {
+        Weight				=	10,
+        Type				=	Food,
+        DisplayName			=	Cougar Carcass,
+        Icon				=	HCCougarmeat,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	ResizeWorldIcon 		= 	2.0,
+        FoodType    			=   	Game,
+    }
+
+item HCZedmeat
+    {
+        HungerChange			=	-100,
+        UnhappyChange	        	=	50,
+        StressChange            	=       20,
+       	ReduceInfectionPower    	= 	5,
+        Weight				=	10,
+        Type				=	Food,
+	FoodType    			=  	Meat,
+        DisplayName			=	Skinned Carcass,
+        Icon				=	HCZedmeat,
+	DaysTotallyRotten		=	1,
+	DaysFresh 			= 	1,
+        Poison                  	= 	true,
+	PoisonDetectionLevel 		= 	7,
+    	PoisonPower 			= 	40,
+    	UseForPoison 			= 	15,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	1,
+        MinutesToBurn			=	250,
+        MinutesToCook			=	150,
+        DaysFresh			=	1,
+	ResizeWorldIcon 		= 	2.0,
+    }
+
+item HCZedmeatheadless
+    {
+        HungerChange			=	-90,
+        UnhappyChange	        	=	50,
+        StressChange            	=       20,
+       	ReduceInfectionPower    	= 	5,
+        Weight				=	9,
+        Type				=	Food,
+	FoodType    			=  	Meat,
+        DisplayName			=	Headless Skinned Carcass,
+        Icon				=	HCZedmeatheadless,
+	DaysTotallyRotten		=	1,
+	DaysFresh 			= 	1,
+        Poison                  	= 	true,
+	PoisonDetectionLevel 		= 	7,
+    	PoisonPower 			= 	40,
+    	UseForPoison 			= 	15,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	1,
+        MinutesToBurn			=	250,
+        MinutesToCook			=	150,
+        DaysFresh			=	1,
+	ResizeWorldIcon 		= 	2.0,
+    }
+
+item HCZedhead
+	{
+	Weight 				= 	1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Head,
+	Icon				=	HCZedhead,
+	}
+
+item HCIntestines
+	{
+	Weight 				= 	0.1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Intestines,
+	Icon				=	HCIntestines,
+	}
+
+item HCCheval
+	{
+		HungerChange		=	-25,
+		Weight			=	0.3,
+		Type			=	Food,
+		IsCookable		=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn		=	70,
+		DisplayName		=	Cheval,
+		Icon			=	HCCheval,
+		DaysFresh		=	2,
+		MinutesToCook		=	50,
+        	EvolvedRecipe 		= 	Soup:15;Stew:15;Pie:15;Stir fry:15;Sandwich:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        	FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	97,
+       		Lipids 			= 	21,
+        	Calories 		= 	603,
+	}
+
+item HCSmallgamesteak
+	{
+		HungerChange		=	-20,
+		Weight			=	0.2,
+		Type			=	Food,
+		IsCookable		=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn		=	70,
+		DisplayName		=	Small Game Steak,
+		Icon			=	HCSmallgamesteak,
+		DaysFresh		=	2,
+		MinutesToCook		=	50,
+        	EvolvedRecipe 		= 	Soup:15;Stew:15;Pie:15;Stir fry:15;Sandwich:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        	FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	44,
+       		Lipids 			= 	5.4,
+        	Calories 		= 	232,
+	}
+
+item HCVenison
+	{
+		HungerChange		=	-25,
+		Weight			=	0.3,
+		Type			=	Food,
+		IsCookable		=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn		=	70,
+		DisplayName		=	Venison,
+		Icon			=	HCVenison,
+		DaysFresh		=	2,
+		MinutesToCook		=	50,
+        	EvolvedRecipe 		= 	Soup:15;Stew:15;Pie:15;Stir fry:15;Sandwich:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        	FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	66,
+       		Lipids 			= 	8.1,
+        	Calories 		= 	348,
+	}
+
+item HCBearsteak
+	{
+		HungerChange		=	-30,
+		Weight			=	0.3,
+		Type			=	Food,
+		IsCookable		=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn		=	70,
+		DisplayName		=	Bear Steak,
+		Icon			=	HCBearsteak,
+		DaysFresh		=	2,
+		MinutesToCook		=	50,
+        	EvolvedRecipe 		= 	Soup:15;Stew:15;Pie:15;Stir fry:15;Sandwich:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        	FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	60,
+       		Lipids 			= 	24.9,
+        	Calories 		= 	483,
+	}
+
+item HCCougarsteak
+	{
+		HungerChange		=	-30,
+		Weight			=	0.3,
+		Type			=	Food,
+		IsCookable		=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn		=	70,
+		DisplayName		=	Cougar Steak,
+		Icon			=	HCCougarsteak,
+		DaysFresh		=	2,
+		MinutesToCook		=	50,
+        	EvolvedRecipe 		= 	Soup:15;Stew:15;Pie:15;Stir fry:15;Sandwich:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        	FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	60,
+       		Lipids 			= 	24.9,
+        	Calories 		= 	483,
+	}
+
+item HCFreshham
+    {
+		HungerChange		=	-30,
+		Weight			=	0.3,
+		Type			=	Food,
+		IsCookable		=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn		=	70,
+		DisplayName		=	Fresh Ham,
+		Icon			=	Ham,
+		DaysFresh		=	2,
+		MinutesToCook		=	50,
+        	EvolvedRecipe 		= 	Soup:15;Stew:15;Pie:15;Stir fry:15;Sandwich:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        	FoodType    		=   	Meat,
+		Carbohydrates 		= 	4.2,
+        	Proteins 		= 	53.1,
+       		Lipids 			= 	28.8,
+        	Calories 		= 	486,
+     }
+
+item HCZedsteak
+	{
+		HungerChange		=	-5,
+                UnhappyChange	        =	50,
+                StressChange            =       50,
+        	ReduceInfectionPower    = 	5,
+		Weight			=	0.3,
+		Type			=	Food,
+		MinutesToBurn		=	70,
+		DisplayName		=	Odd Meat,
+	        IsCookable		=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	100,
+		EvolvedRecipe 		= 	Soup:15;Stew:15;Pie:15;Stir fry:15;Sandwich:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=  	Meat,
+	        DaysTotallyRotten	=	1,
+	        DaysFresh 		= 	1,
+		Icon			=	HCZedsteak,
+        	Poison                  = 	true,
+		PoisonDetectionLevel 	= 	7,
+    		PoisonPower 		= 	40,
+    		UseForPoison 		= 	15,
+                CustomEatSound 		= 	PZ_Eating,
+        }
+
+item HCTurduckhen
+    {
+        HungerChange			=	-50,
+        Weight				=	0.9,
+        Type				=	Food,
+        IsCookable			=	TRUE,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	7,
+        MinutesToBurn			=	100,
+        DisplayName			=	Turduckhen,
+        Icon				=	HCTurduckhen,
+	ReplaceOnUse			=	RoastingPan,
+        DaysFresh			=	3,
+        MinutesToCook			=	60,
+        FoodType    			=   	Game,
+	Carbohydrates 			= 	18,
+        Proteins 			= 	189,
+       	Lipids 				= 	135,
+        Calories 			= 	2070,
+    }
+
+item HCChristmashamcasserole
+    {
+	    HungerChange		=	-150,
+	    Weight			=	4,
+	    Type			=	Food,
+	    DisplayName			=	Christmas Ham Casserole,
+	    Icon			=	HCRoastingpanham,
+	    ReplaceOnUse		=	RoastingPan,
+	    IsCookable			=	TRUE,
+	    MinutesToCook		=	40,
+	    MinutesToBurn		=	80,
+	    DaysTotallyRotten		=	5,
+	    DaysFresh 			= 	3,
+	    Carbohydrates 		= 	120,
+	    Proteins 			= 	125,
+	    Lipids 			= 	90,
+	    Calories 			= 	1790,
+    }
+	
+/************************RECIPES************************/
+
+recipe Slice Amphibian
+    {
+        	keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        	Frog/HCToad/HCNewt/HCSalamander,
+        	Result:FrogMeat,
+        	Sound:PZ_FoodSwoosh,
+        	Time:50.0,
+        	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+
+recipe Butcher Turtle
+    {
+        	SkillRequired:Cooking=2,
+        	keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        	HCPondturtle,
+        	Result:Smallanimalmeat,
+        	Sound:PZ_FoodSwoosh,
+        	Time:50.0,
+        	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Butcher Turtle
+    {
+        	SkillRequired:Cooking=2,
+        	keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        	HCSnappingturtle,
+        	Result:Smallanimalmeat=2,
+        	Sound:PZ_FoodSwoosh,
+        	Time:50.0,
+        	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCChickendead/HCChickendead2,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCBrownfeathers=5,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcchickenbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCDuckdead,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCWhitefeathers=5,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcduckbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCPigeondead,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCWhitefeathers=2,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsmallbirdbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCSparrowdead,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCBrownfeathers=2,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsmallbirdbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCCardinaldead,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCRedfeather=2,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsmallbirdbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCBluejaydead,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCBluejayfeather=2,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsmallbirdbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCMagpiedead,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCWhitefeathers=3,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsmallbirdbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCCrowdead,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCBlackfeathers=4,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsmallbirdbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCSheepmeat,
+		keep HCMeatcleaver,
+		Result:HCSheepbones,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsheepbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCGoatmeat,
+		keep HCMeatcleaver,
+		Result:HCGoatbones,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsheepbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCPigmeat,
+		keep HCMeatcleaver,
+		Result:HCPigbones,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcpigbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCCowmeat,
+		keep HCMeatcleaver,
+		Result:HCCowbones,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hccowbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCCowmeat2,
+		keep HCMeatcleaver,
+		Result:HCCowbones2,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hccowbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCDonkeymeat,
+		keep HCMeatcleaver,
+		Result:HCDonkeybones,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcdonkeybutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCHorsemeat,
+		keep HCMeatcleaver,
+		Result:HCHorsebones,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hchorsebutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCCootdead,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCBlackfeathers=5,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcduckbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCBlackduckdead/HCBlackduckdead2,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCBlackfeathers=5,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcduckbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCCanvasbackduckdead/HCCanvasbackduckdead2,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCBrownfeathers=5,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcduckbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCMallarddead,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCBrownfeathers=5,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcduckbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCPintailduckdead/HCPintailduckdead2,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCBrownfeathers=5,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcduckbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCRedheadduckdead/HCRedheadduckdead2,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCBrownfeathers=5,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcduckbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCScaupduckdead/HCScaupduckdead2,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCBrownfeathers=5,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcduckbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCWoodduckdead/HCWoodduckdead2,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCBrownfeathers=5,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcduckbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCSnowgoosedead,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCWhitefeathers=6,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcgoosebutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCCanadiangoosedead,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCBrownfeathers=6,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcgoosebutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCQuaildead,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCBrownfeathers=2,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsmallbirdbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCGrousedead,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCBrownfeathers=2,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsmallbirdbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCTurkeydead,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    		Result:HCBrownfeathers=12,
+        	Sound:PZ_FoodSwoosh,
+		Time:100.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcturkeybutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+    {
+        	keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        	HCHamsterdead,
+        	Result:Smallanimalmeat,
+        	Sound:PZ_FoodSwoosh,
+        	Time:50.0,
+            	NeedToBeLearn:true,
+        	OnCreate:CutAnimal_OnCreate,
+        	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCNutriameat,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		Result:HCBone=2,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsmallgamebutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCBeavermeat,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		Result:HCBone=2,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsmallgamebutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCPorcupinemeat,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		Result:HCBone=2,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsmallgamebutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCArmadillomeat,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		Result:HCBone=2,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsmallgamebutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCFoxmeat,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		Result:HCFoxbones,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsmallgamebutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCRaccoonmeat,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		Result:HCRaccoonbones,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsmallgamebutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCOpossummeat,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		Result:HCBone=2,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsmallgamebutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCSkunkmeat,
+		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		Result:HCBone=2,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcsmallgamebutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCBoarmeat,
+		keep HCMeatcleaver,
+		Result:HCBoarbones,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcboarbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCDeermeat,
+		keep HCMeatcleaver,
+		Result:HCDeerbones,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcdeerbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCDeermeat2,
+		keep HCMeatcleaver,
+		Result:HCDeerbones2,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcdeerbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	} 
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCBlackbearmeat,
+		keep HCMeatcleaver,
+		Result:HCBlackbearbones,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcblackbearbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	} 
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCBearmeat,
+		keep HCMeatcleaver,
+		Result:HCBearbones,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hcbearbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCCougarmeat,
+		keep HCMeatcleaver,
+		Result:HCCougarbones,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hccougarbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCDogmeat,
+		keep HCMeatcleaver,
+		Result:HCDogbones,
+        	Sound:PZ_FoodSwoosh,
+		Time:2000.0,
+            	NeedToBeLearn:true,
+    		Category:Survivalist,
+        	OnCreate:recipe_hcdogbutcher,
+	}
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCCatmeat,
+		keep HCMeatcleaver,
+		Result:HCCatbones,
+        	Sound:PZ_FoodSwoosh,
+		Time:2000.0,
+            	NeedToBeLearn:true,
+    		Category:Survivalist,
+        	OnCreate:recipe_hccatbutcher,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCZedmeat,
+		keep HCMeatcleaver,
+		Result:HCZedbones,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hczedbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Remove Head
+	{
+		HCZedmeat,
+		keep HCMeatcleaver,
+		Result:HCZedmeatheadless,
+        	Sound:PZ_FoodSwoosh,
+		Time:50.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hczedhead,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Butcher Carcass
+	{
+        	SkillRequired:Cooking=2,
+		HCZedmeatheadless,
+		keep HCMeatcleaver,
+		Result:HCZedbonesheadless,
+        	Sound:PZ_FoodSwoosh,
+		Time:200.0,
+            	NeedToBeLearn:true,
+    		Category:Hunting,
+        	OnCreate:recipe_hczedbutcher,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Turduckhen
+	{
+        	SkillRequired:Cooking=6,
+		HCTurkeymeat,
+		HCDuckmeat,
+		Chicken,
+		RoastingPan,
+		Result:HCTurduckhen,
+		Time:200.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Christmas Ham 
+	{
+	    	Ham,
+            	Tomato=3,
+            	Potato=4,
+            	RoastingPan,             
+	    	Result:HCChristmashamcasserole,
+            	NeedToBeLearn:true,
+	    	Time:90.0,
+	    	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Empty Christmas Ham 
+	{
+	    	HCChristmashamcasserole,        
+	    	Result:RoastingPan,
+	    	Time:40.0,
+	    	Category:Cooking,
+	    	OnGiveXP:NoXP_OnGiveXP,
+    	}
+	
+}

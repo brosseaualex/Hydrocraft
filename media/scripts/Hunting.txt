@@ -1,0 +1,2515 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCToad
+	{
+	Weight 				= 	0.4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Toad,
+	Icon				=	HCToad,
+	}
+
+item HCTadpole
+    {
+        Type				= Food,
+        DisplayName			= Tadpole,
+        Icon				= HCTadpole,
+        Weight				= 0.1,
+        HungerChange 			= -1,
+        DaysFresh 			= 4,
+        DaysTotallyRotten 		= 8,
+        IsCookable	        	= true,
+        MinutesToBurn	   	 	= 60,
+        MinutesToCook	   	 	= 20,
+        EvolvedRecipe 			= Stew:1;Stir fry:1;Sandwich:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+        FoodType    			= Fish,
+        Carbohydrates 			= 0,
+        Proteins 			= 5,
+        Lipids 				= 0,
+        Calories 			= 15,
+    }
+
+item HCNewt
+	{
+	Weight 				= 	0.3,
+	Type 				= 	Normal,
+	DisplayName 			= 	Newt,
+	Icon				=	HCNewt,
+	}
+
+item HCSalamander
+	{
+	Weight 				= 	0.4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Salamander,
+	Icon				=	HCSalamander,
+	}
+
+item HCPondturtle
+	{
+	Weight 				= 	0.5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Pond Turtle,
+	Icon				=	HCPondturtle,
+	}
+
+item HCSnappingturtle
+	{
+	Weight 				= 	0.8,
+	Type 				= 	Normal,
+	DisplayName 			= 	Snapping Turtle,
+	Icon				=	HCSnappingturtle,
+	}
+
+item HCSparrowdead
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Sparrow,
+	Icon				=	HCSparrowdead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCCardinaldead
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Cardinal,
+	Icon				=	HCCardinaldead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCBluejaydead
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Bluejay,
+	Icon				=	HCBluejaydead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCMagpiedead
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Magpie,
+	Icon				=	HCMagpiedead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCCrowdead
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Crow,
+	Icon				=	HCCrowdead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCCootmale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Coot (Male),
+	Icon				=	HCCootmale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCCootfemale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Coot (Female),
+	Icon				=	HCCootfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCCootdead
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Coot,
+	Icon				=	HCCootdead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBlackduckmale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Black Duck (Male),
+	Icon				=	HCBlackduckmale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBlackduckfemale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Black Duck (Female),
+	Icon				=	HCBlackduckfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBlackduckdead
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Black Duck,
+	Icon				=	HCBlackduckdead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBlackduckdead2
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Dead Black Duck,
+	Icon				=	HCBlackduckdead2,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCCanvasbackduckmale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Canvasback Duck (Male),
+	Icon				=	HCCanvasbackduckmale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCCanvasbackduckfemale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Canvasback Duck (Female),
+	Icon				=	HCCanvasbackduckfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCCanvasbackduckdead
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Canvasback Duck,
+	Icon				=	HCCanvasbackduckdead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCCanvasbackduckdead2
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Canvasback Duck,
+	Icon				=	HCCanvasbackduckdead2,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCMallardmale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Mallard (Male),
+	Icon				=	HCMallardmale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCMallardfemale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Mallard (Female),
+	Icon				=	HCMallardfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCMallarddead
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Mallard,
+	Icon				=	HCMallarddead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCPintailduckmale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Pintail Duck (Male),
+	Icon				=	HCPintailduckmale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCPintailduckfemale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Pintail Duck (Female),
+	Icon				=	HCPintailduckfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCPintailduckdead
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Pintail Duck,
+	Icon				=	HCPintailduckdead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCPintailduckdead2
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Pintail Duck,
+	Icon				=	HCPintailduckdead2,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCRedheadduckmale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Redhead Duck (Male),
+	Icon				=	HCRedheadduckmale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCRedheadduckfemale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Redhead Duck (Female),
+	Icon				=	HCRedheadduckfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCRedheadduckdead
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Redhead Duck,
+	Icon				=	HCRedheadduckdead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCRedheadduckdead2
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Redhead Duck,
+	Icon				=	HCRedheadduckdead2,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCScaupduckmale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Scaup Duck (Male),
+	Icon				=	HCScaupduckmale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCScaupduckfemale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Scaup Duck (Female),
+	Icon				=	HCScaupduckfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCScaupduckdead
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Scaup Duck,
+	Icon				=	HCScaupduckdead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCScaupduckdead2
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Scaup Duck,
+	Icon				=	HCScaupduckdead2,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCWoodduckmale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Wood Duck (Male),
+	Icon				=	HCWoodduckmale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCWoodduckfemale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Wood Duck (Female),
+	Icon				=	HCWoodduckfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCWoodduckdead
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Wood Duck,
+	Icon				=	HCWoodduckdead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCWoodduckdead2
+	{
+	Weight 				= 	0.2,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Wood Duck,
+	Icon				=	HCWoodduckdead2,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCSnowgoosemale
+	{
+	Weight 				= 	0.4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Snow Goose (Male),
+	Icon				=	HCSnowgoosemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCSnowgoosefemale
+	{
+	Weight 				= 	0.4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Snow Goose (Female),
+	Icon				=	HCSnowgoosefemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCSnowgoosedead
+	{
+	Weight 				= 	0.4,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Snow Goose,
+	Icon				=	HCSnowgoosedead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCCanadiangoosemale
+	{
+	Weight 				= 	0.4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Canadian Goose (Male),
+	Icon				=	HCCanadiangoosemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCCanadiangoosefemale
+	{
+	Weight 				= 	0.4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Canadian Goose (Female),
+	Icon				=	HCCanadiangoosefemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCCanadiangoosedead
+	{
+	Weight 				= 	0.4,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	Type 				= 	Normal,
+	DisplayName 			= 	Dead Canadian Goose,
+	Icon				=	HCCanadiangoosedead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCQuailmale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Quail (Male),
+	Icon				=	HCQuailmale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCQuailfemale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Quail (Female),
+	Icon				=	HCQuailfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCQuaildead
+	{
+	Weight 				= 	0.2,
+      	Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+      	DaysFresh			=	2,
+      	FoodType    			=   	Game,
+	DisplayName 			= 	Dead Quail,
+	Icon				=	HCQuaildead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCGrousemale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Grouse (Male),
+	Icon				=	HCGrousemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCGrousefemale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Grouse (Female),
+	Icon				=	HCGrousefemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCGrousedead
+	{
+	Weight 				= 	0.2,
+      	Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+      	DaysFresh			=	2,
+      	FoodType    			=   	Game,
+	DisplayName 			= 	Dead Grouse,
+	Icon				=	HCGrousedead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCTurkeymale
+	{
+	Weight 				= 	0.5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Turkey (Male),
+	Icon				=	HCTurkeymale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCTurkeyfemale
+	{
+	Weight 				= 	0.5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Turkey (Female),
+	Icon				=	HCTurkeyfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCTurkeydead
+	{
+	Weight 				= 	0.5,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Turkey,
+	Icon				=	HCTurkeydead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCMuskratmale
+	{
+	Weight 				= 	0.3,
+	Type 				= 	Normal,
+	DisplayName 			= 	Muskrat (Male),
+	Icon				=	HCMuskratmale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCMuskratfemale
+	{
+	Weight 				= 	0.3,
+	Type 				= 	Normal,
+	DisplayName 			= 	Muskrat (Female),
+	Icon				=	HCMuskratfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCMuskratdead
+	{
+	Weight 				= 	0.3,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Muskrat,
+	Icon				=	HCMuskratdead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCGroundhogmale
+	{
+	Weight 				= 	0.4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Groundhog (Male),
+	Icon				=	HCGroundhogmale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCGroundhogfemale
+	{
+	Weight 				= 	0.4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Groundhog (Female),
+	Icon				=	HCGroundhogfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCGroundhogdead
+	{
+	Weight 				= 	0.4,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        DaysFresh			=	2,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Groundhog,
+	Icon				=	HCGroundhogdead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCNutriamale
+	{
+	Weight 				= 	0.5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Nutria (Male),
+	Icon				=	HCNutriamale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCNutriafemale
+	{
+	Weight 				= 	0.5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Nutria (Female),
+	Icon				=	HCNutriafemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCNutriadead
+	{
+        Weight				=	0.5,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Nutria,
+	Icon				=	HCNutriadead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBeavermale
+	{
+	Weight 				= 	0.6,
+	Type 				= 	Normal,
+	DisplayName 			= 	Beaver (Male),
+	Icon				=	HCBeavermale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBeaverfemale
+	{
+	Weight 				= 	0.6,
+	Type 				= 	Normal,
+	DisplayName 			= 	Beaver (Female),
+	Icon				=	HCBeaverfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBeaverdead
+	{
+        Weight				=	0.6,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Beaver,
+	Icon				=	HCBeaverdead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCPorcupinemale
+	{
+	Weight 				= 	0.6,
+	Type 				= 	Normal,
+	DisplayName 			= 	Porcupine (Male),
+	Icon				=	HCPorcupinemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCPorcupinefemale
+	{
+	Weight 				= 	0.6,
+	Type 				= 	Normal,
+	DisplayName 			= 	Porcupine (Female),
+	Icon				=	HCPorcupinefemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCPorcupinedead
+	{
+        Weight				=	0.6,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Porcupine,
+	Icon				=	HCPorcupinedead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCArmadillomale
+	{
+	Weight 				= 	0.8,
+	Type 				= 	Normal,
+	DisplayName 			= 	Armadillo (Male),
+	Icon				=	HCArmadillomale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCArmadillofemale
+	{
+	Weight 				= 	0.8,
+	Type 				= 	Normal,
+	DisplayName 			= 	Armadillo (Female),
+	Icon				=	HCArmadillofemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCArmadillodead
+	{
+        Weight				=	0.8,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Armadillo,
+	Icon				=	HCArmadillodead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCOpossummale
+	{
+	Weight 				= 	0.5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Opossum (Male),
+	Icon				=	HCOpossummale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCOpossumfemale
+	{
+	Weight 				= 	0.5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Opossum (Female),
+	Icon				=	HCOpossumfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCOpossumdead
+	{
+        Weight				=	0.5,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Opossum,
+	Icon				=	HCOpossumdead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCFoxmale
+	{
+	Weight 				= 	0.8,
+	Type 				= 	Normal,
+	DisplayName 			= 	Fox (Male),
+	Icon				=	HCFoxmale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCFoxfemale
+	{
+	Weight 				= 	0.8,
+	Type 				= 	Normal,
+	DisplayName 			= 	Fox (Female),
+	Icon				=	HCFoxfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCFoxdead
+	{
+        Weight				=	0.8,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Fox,
+	Icon				=	HCFoxdead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCSkunkmale
+	{
+	Weight 				= 	0.8,
+	Type 				= 	Normal,
+	DisplayName 			= 	Skunk (Male),
+	Icon				=	HCSkunkmale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCSkunkfemale
+	{
+	Weight 				= 	0.8,
+	Type 				= 	Normal,
+	DisplayName 			= 	Skunk (Female),
+	Icon				=	HCSkunkfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCSkunkdead
+	{
+        Weight				=	0.8,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Skunk,
+	Icon				=	HCSkunkdead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCRaccoonmale
+	{
+	Weight 				= 	1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Raccoon (Male),
+	Icon				=	HCRaccoonmale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCRaccoonfemale
+	{
+	Weight 				= 	1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Raccoon (Female),
+	Icon				=	HCRaccoonfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCRaccoondead
+	{
+        Weight				=	1,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Raccoon,
+	Icon				=	HCRaccoondead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBoarmale
+	{
+	Weight 				= 	8,
+	Type 				= 	Normal,
+	DisplayName 			= 	Boar (Male),
+	Icon				=	HCBoarmale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBoarfemale
+	{
+	Weight 				= 	8,
+	Type 				= 	Normal,
+	DisplayName 			= 	Boar (Female),
+	Icon				=	HCBoarfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBoardead
+	{
+        Weight				=	8,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Boar,
+	Icon				=	HCBoardead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCDeermale
+	{
+	Weight 				= 	10,
+	Type 				= 	Normal,
+	DisplayName 			= 	Deer (Male),
+	Icon				=	HCDeermale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCDeerfemale
+	{
+	Weight 				= 	10,
+	Type 				= 	Normal,
+	DisplayName 			= 	Deer (Female),
+	Icon				=	HCDeerfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCDeerdead
+	{
+        Weight				=	10,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Deer,
+	Icon				=	HCDeerdead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCDeerdead2
+	{
+        Weight				=	10,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Deer,
+	Icon				=	HCDeerdead2,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBearmale
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Grizzly Bear (Male),
+	Icon				=	HCBearmale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBearfemale
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Grizzly Bear (Female),
+	Icon				=	HCBearfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBeardead
+	{
+        Weight				=	12,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Grizzly Bear,
+	Icon				=	HCBeardead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBlackbearmale
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Black Bear (Male),
+	Icon				=	HCBlackbearmale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBlackbearfemale
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Black Bear (Female),
+	Icon				=	HCBlackbearfemale,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCBlackbeardead
+	{
+        Weight				=	12,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Black Bear,
+	Icon				=	HCBlackbeardead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCCougardead
+	{
+        Weight				=	12,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+        FoodType    			=   	Game,
+	DisplayName 			= 	Dead Cougar,
+	Icon				=	HCCougardead,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCDeerantlers
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Deer Antlers,
+        icon 			= HCDeerantlers,
+    }
+
+item HCSmallgamepoop
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Small Game Poop,
+        icon 			= HCSmallgamepoop,
+    }
+
+item HCBoarpoop
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Boar Poop,
+        icon 			= HCBoarpoop,
+    }
+
+item HCDeerpoop
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Deer Poop,
+        icon 			= HCDeerpoop,
+    }
+
+item HCBearpoop
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bear Poop,
+        icon 			= HCBearpoop,
+    }
+
+item HCCougarpoop
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cougar Poop,
+        icon 			= HCCougarpoop,
+    }
+		
+/************************RECIPES************************/
+
+recipe Kill Animal
+    {
+    	HCCootmale/HCCootfemale,
+    	Result:HCCootdead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+   
+recipe Kill Animal
+    {
+    	HCBlackduckmale,
+    	Result:HCBlackduckdead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCBlackduckfemale,
+    	Result:HCBlackduckdead2,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCCanvasbackduckmale,
+    	Result:HCCanvasbackduckdead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCCanvasbackduckfemale,
+    	Result:HCCanvasbackduckdead2,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCMallardmale/HCMallardfemale,
+    	Result:HCMallarddead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCPintailduckmale,
+    	Result:HCPintailduckdead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCPintailduckfemale,
+    	Result:HCPintailduckdead2,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCRedheadduckmale,
+    	Result:HCRedheadduckdead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCRedheadduckfemale,
+    	Result:HCRedheadduckdead2,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCScaupduckmale,
+    	Result:HCScaupduckdead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCScaupduckfemale,
+    	Result:HCScaupduckdead2,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCWoodduckmale,
+    	Result:HCWoodduckdead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCWoodduckfemale,
+    	Result:HCWoodduckdead2,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCCanadiangoosemale/HCCanadiangoosefemale,
+    	Result:HCCanadiangoosedead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCSnowgoosemale/HCSnowgoosefemale,
+    	Result:HCSnowgoosedead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCQuailmale/HCQuailfemale,
+    	Result:HCQuaildead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCGrousemale/HCGrousefemale,
+    	Result:HCQuaildead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCTurkeymale/HCTurkeyfemale,
+    	Result:HCTurkeydead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCMuskratmale/HCMuskratfemale,
+    	Result:HCMuskratdead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCGroundhogmale/HCGroundhogfemale,
+    	Result:HCGroundhogdead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCNutriamale/HCNutriafemale,
+    	Result:HCNutriadead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCBeavermale/HCBeaverfemale,
+    	Result:HCBeaverdead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCPorcupinemale/HCPorcupinefemale,
+    	Result:HCPorcupinedead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCArmadillomale/HCArmadillofemale,
+    	Result:HCArmadillodead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+ 
+recipe Kill Animal
+    {
+    	HCFoxmale/HCFoxfemale,
+    	Result:HCFoxdead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCOpossummale/HCOpossumfemale,
+    	Result:HCOpossumdead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCSkunkmale/HCSkunkfemale,
+    	Result:HCSkunkdead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCRaccoonmale/HCRaccoonfemale,
+    	Result:HCRaccoondead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCBoarmale/HCBoarfemale,
+    	Result:HCBoardead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCDeermale,
+    	Result:HCDeerdead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCDeerfemale,
+    	Result:HCDeerdead2,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCBlackbearmale/HCBlackbearfemale,
+    	Result:HCBlackbeardead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Animal
+    {
+    	HCBearmale/HCBearfemale,
+    	Result:HCBeardead,
+    	Time:15.0,
+    	NeedToBeLearn:true,
+    	Category:Death,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=1,
+    	HCBinoculars,
+    	WoodenLance=3,
+        HCSmallgamepoop,
+    	Result:HCBinoculars,
+	Sound:PZ_WoodSnap,
+        Time:1000.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+        OnCreate:HCHuntSmallGame,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=3,
+    	HCBinoculars,
+    	WoodenLance=3,
+    	HCDeerpoop,
+    	Result:HCBinoculars,
+	Sound:PZ_WoodSnap,
+    	Time:1000.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntDeer,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=4,
+    	HCBinoculars,
+    	WoodenLance=3,
+    	HCBoarpoop/HCPigpoopferal,
+    	Result:HCBinoculars,
+	Sound:PZ_WoodSnap,
+    	Time:1000.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntBoar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=5,
+    	HCBinoculars,
+    	WoodenLance=3,
+    	HCBearpoop,
+    	Result:HCBinoculars,
+	Sound:PZ_WoodSnap,
+    	Time:1000.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntBear,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=6,
+    	HCBinoculars,
+    	WoodenLance=3,
+    	HCCougarpoop,
+    	Result:HCBinoculars,
+	Sound:PZ_WoodSnap,
+    	Time:1000.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntCougar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=1,
+    	HCBinoculars,
+    	keep HCLongbow,
+    	HCArrow=3,
+        HCSmallgamepoop,
+    	Result:HCBinoculars,
+        Time:750.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+        OnCreate:HCHuntSmallGame,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=2,
+    	HCBinoculars,
+    	keep HCLongbow,
+    	HCArrow=3,
+    	HCBirdcall,
+    	Result:HCBinoculars,
+        Time:750.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+        OnCreate:HCHuntBird,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=2,
+    	HCBinoculars,
+    	keep HCLongbow,
+   	HCArrow=3,
+        HCDuckcall,
+    	Result:HCBinoculars,
+        Time:750.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+        OnCreate:HCHuntWaterfowl,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=3,
+    	HCBinoculars,
+    	keep HCLongbow,
+    	HCArrow=3,
+        HCDeerpoop,
+    	Result:HCBinoculars,
+        Time:750.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntDeer,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=4,
+    	HCBinoculars,
+    	keep HCLongbow,
+    	HCArrow=3,
+        HCBoarpoop/HCPigpoopferal,
+    	Result:HCBinoculars,
+        Time:750.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntBoar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=5,
+    	HCBinoculars,
+    	keep HCLongbow,
+    	HCArrow=3,
+        HCBearpoop,
+    	Result:HCBinoculars,
+        Time:750.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntBear,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=6,
+    	HCBinoculars,
+    	keep HCLongbow,
+    	HCArrow=3,
+        HCCougarpoop,
+    	Result:HCBinoculars,
+        Time:750.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntCougar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=1,
+    	HCBinoculars,
+    	keep HCCrossbow,
+    	HCXbowbolt=3,
+    	HCSmallgamepoop,
+    	Result:HCBinoculars,
+        Time:750.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+        OnCreate:HCHuntSmallGame,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=2,
+    	HCBinoculars,
+    	keep HCCrossbow,
+    	HCXbowbolt=3,
+    	HCBirdcall,
+    	Result:HCBinoculars,
+        Time:750.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+        OnCreate:HCHuntBird,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=2,
+    	HCBinoculars,
+    	keep HCCrossbow,
+    	HCXbowbolt=3,
+    	HCDuckcall,
+    	Result:HCBinoculars,
+        Time:750.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+        OnCreate:HCHuntWaterfowl,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=3,
+    	HCBinoculars,
+    	keep HCCrossbow,
+    	HCXbowbolt=3,
+    	HCDeerpoop,
+    	Result:HCBinoculars,
+        Time:750.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntDeer,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=4,
+    	HCBinoculars,
+    	keep HCCrossbow,
+    	HCXbowbolt=3,
+    	HCBoarpoop/HCPigpoopferal,
+    	Result:HCBinoculars,
+        Time:750.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntBoar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=5,
+    	HCBinoculars,
+    	keep HCCrossbow,
+    	HCXbowbolt=3,
+    	HCBearpoop,
+    	Result:HCBinoculars,
+        Time:750.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntBear,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=6,
+    	HCBinoculars,
+    	keep HCCrossbow,
+    	HCXbowbolt=3,
+    	HCCougarpoop,
+    	Result:HCBinoculars,
+        Time:750.0,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntCougar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=2,
+    	HCBinoculars,
+    	keep Shotgun,
+        ShotgunShells=3,
+   	HCBirdcall,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:shotgun2,
+    	Time:250.0,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntBird,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=2,
+    	HCBinoculars,
+    	keep Shotgun,
+        ShotgunShells=3,
+   	HCDuckcall,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:shotgun2,
+    	Time:250.0,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntWaterfowl,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=3,
+    	HCBinoculars,
+    	keep Shotgun,
+        ShotgunShells=3,
+    	HCDeerpoop,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:shotgun2,
+    	Time:250.0,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntDeer,
+        OnGiveXP:HCTrapping_OnGiveXP, 
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=4,
+    	HCBinoculars,
+    	keep Shotgun,
+        ShotgunShells=3,
+    	HCBoarpoop/HCPigpoopferal,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:shotgun2,
+    	Time:250.0,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntBoar,
+        OnGiveXP:HCTrapping_OnGiveXP, 
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=5,
+    	HCBinoculars,
+    	keep Shotgun,
+        ShotgunShells=3,
+    	HCBearpoop,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:shotgun2,
+    	Time:250.0,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntBear,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=5,
+    	HCBinoculars,
+    	keep Shotgun,
+        ShotgunShells=3,
+    	HCCougarpoop,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:shotgun2,
+    	Time:250.0,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntCougar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=1,
+    	HCBinoculars,
+    	keep VarmintRifle,
+        223Bullets=3,
+    	HCSmallgamepoop,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:varmintShot,
+    	Time:250.0,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntSmallGame,
+        OnGiveXP:HCTrapping_OnGiveXP,    
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=2,
+    	HCBinoculars,
+    	keep VarmintRifle,
+        223Bullets=3,
+    	HCBirdcall,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:varmintShot,
+    	Time:250.0,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntBird,
+        OnGiveXP:HCTrapping_OnGiveXP,    
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=2,
+    	HCBinoculars,
+    	keep VarmintRifle,
+        223Bullets=3,
+    	HCDuckcall,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:varmintShot,
+    	Time:250.0,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntWaterfowl,
+        OnGiveXP:HCTrapping_OnGiveXP,    
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=3,
+    	HCBinoculars,
+    	keep HuntingRifle,
+        308Bullets=3,
+    	HCDeerpoop,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:hunterShot,
+    	Time:250.0,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntDeer,
+        OnGiveXP:HCTrapping_OnGiveXP,      
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=4,
+    	HCBinoculars,
+    	keep HuntingRifle,
+        308Bullets=3,
+    	HCBoarpoop/HCPigpoopferal,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:hunterShot,
+    	Time:250.0,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntBoar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=5,
+    	HCBinoculars,
+    	keep HuntingRifle,
+        308Bullets=3,
+    	HCBearpoop,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:hunterShot,
+    	Time:250.0,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntBear,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	SkillRequired:Trapping=5,
+    	HCBinoculars,
+    	keep HuntingRifle,
+        308Bullets=3,
+    	HCCougarpoop,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:hunterShot,
+    	Time:250.0,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntCougar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+/************************Hunting Blind************************/
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	WoodenLance=3,
+        HCSmallgamepoop,
+    	Result:HCBinoculars,
+	Sound:PZ_WoodSnap,
+        Time:1000.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+        OnCreate:HCHuntSmallGame,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	WoodenLance=3,
+    	HCDeerpoop,
+    	Result:HCBinoculars,
+	Sound:PZ_WoodSnap,
+    	Time:1000.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntDeer,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	WoodenLance=3,
+    	HCBoarpoop/HCPigpoopferal,
+    	Result:HCBinoculars,
+	Sound:PZ_WoodSnap,
+    	Time:1000.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntBoar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	WoodenLance=3,
+    	HCBearpoop,
+    	Result:HCBinoculars,
+	Sound:PZ_WoodSnap,
+    	Time:1000.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntBear,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	WoodenLance=3,
+    	HCCougarpoop,
+    	Result:HCBinoculars,
+	Sound:PZ_WoodSnap,
+    	Time:1000.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntCougar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HCLongbow,
+    	HCArrow=3,
+        HCSmallgamepoop,
+    	Result:HCBinoculars,
+        Time:750.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+        OnCreate:HCHuntSmallGame,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HCLongbow,
+    	HCArrow=3,
+    	HCBirdcall,
+    	Result:HCBinoculars,
+        Time:750.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+        OnCreate:HCHuntBird,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HCLongbow,
+   	HCArrow=3,
+        HCDuckcall,
+    	Result:HCBinoculars,
+        Time:750.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+        OnCreate:HCHuntWaterfowl,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HCLongbow,
+    	HCArrow=3,
+        HCDeerpoop,
+    	Result:HCBinoculars,
+        Time:750.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntDeer,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HCLongbow,
+    	HCArrow=3,
+        HCBoarpoop/HCPigpoopferal,
+    	Result:HCBinoculars,
+        Time:750.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntBoar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HCLongbow,
+    	HCArrow=3,
+        HCBearpoop,
+    	Result:HCBinoculars,
+        Time:750.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntBear,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HCLongbow,
+    	HCArrow=3,
+        HCCougarpoop,
+    	Result:HCBinoculars,
+        Time:750.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntCougar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HCCrossbow,
+    	HCXbowbolt=3,
+    	HCSmallgamepoop,
+    	Result:HCBinoculars,
+        Time:750.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+        OnCreate:HCHuntSmallGame,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HCCrossbow,
+    	HCXbowbolt=3,
+    	HCBirdcall,
+    	Result:HCBinoculars,
+        Time:750.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+        OnCreate:HCHuntBird,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HCCrossbow,
+    	HCXbowbolt=3,
+    	HCDuckcall,
+    	Result:HCBinoculars,
+        Time:750.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+        OnCreate:HCHuntWaterfowl,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HCCrossbow,
+    	HCXbowbolt=3,
+    	HCDeerpoop,
+    	Result:HCBinoculars,
+        Time:750.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntDeer,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HCCrossbow,
+    	HCXbowbolt=3,
+    	HCBoarpoop/HCPigpoopferal,
+    	Result:HCBinoculars,
+        Time:750.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntBoar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HCCrossbow,
+    	HCXbowbolt=3,
+    	HCBearpoop,
+    	Result:HCBinoculars,
+        Time:750.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntBear,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HCCrossbow,
+    	HCXbowbolt=3,
+    	HCCougarpoop,
+    	Result:HCBinoculars,
+        Time:750.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Category:Hunting,
+    	OnCreate:HCHuntCougar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep Shotgun,
+        ShotgunShells=3,
+   	HCBirdcall,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:shotgun2,
+    	Time:250.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntBird,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep Shotgun,
+        ShotgunShells=3,
+   	HCDuckcall,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:shotgun2,
+    	Time:250.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntWaterfowl,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep Shotgun,
+        ShotgunShells=3,
+    	HCDeerpoop,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:shotgun2,
+    	Time:250.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntDeer,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true, 
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep Shotgun,
+        ShotgunShells=3,
+    	HCBoarpoop/HCPigpoopferal,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:shotgun2,
+    	Time:250.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntBoar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true, 
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep Shotgun,
+        ShotgunShells=3,
+    	HCBearpoop,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:shotgun2,
+    	Time:250.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntBear,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep Shotgun,
+        ShotgunShells=3,
+    	HCCougarpoop,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:shotgun2,
+    	Time:250.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntCougar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep VarmintRifle,
+        223Bullets=3,
+    	HCSmallgamepoop,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:varmintShot,
+    	Time:250.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntSmallGame,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,    
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep VarmintRifle,
+        223Bullets=3,
+    	HCBirdcall,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:varmintShot,
+    	Time:250.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntBird,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,    
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep VarmintRifle,
+        223Bullets=3,
+    	HCDuckcall,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:varmintShot,
+    	Time:250.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntWaterfowl,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,    
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HuntingRifle,
+        308Bullets=3,
+    	HCDeerpoop,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:hunterShot,
+    	Time:250.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntDeer,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,      
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HuntingRifle,
+        308Bullets=3,
+    	HCBoarpoop/HCPigpoopferal,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:hunterShot,
+    	Time:250.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntBoar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HuntingRifle,
+        308Bullets=3,
+    	HCBearpoop,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:hunterShot,
+    	Time:250.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntBear,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+
+recipe Hunt Animals
+    {
+	keep HCHuntingblind/HCHuntingblind2,
+    	keep HCBinoculars,
+    	keep HuntingRifle,
+        308Bullets=3,
+    	HCCougarpoop,
+    	Result:HCBinoculars,
+    	Category:Hunting,
+	Sound:hunterShot,
+    	Time:250.0,
+       	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	OnCreate:HCHuntCougar,
+        OnGiveXP:HCTrapping_OnGiveXP,
+    	RemoveResultItem:true,
+    }
+				
+}

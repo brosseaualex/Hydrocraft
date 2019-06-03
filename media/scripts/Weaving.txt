@@ -1,0 +1,1191 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCSpindle
+    {
+        Weight    	=    0.1,
+        Type    	=    Normal,
+        DisplayName    	=    Spindle,
+        Icon    	=    HCSpindle,
+    }
+
+item HCSpindlehead
+    {
+        Weight    	=    0.1,
+        Type    	=    Normal,
+        DisplayName    	=    Spindle Head,
+        Icon    	=    HCSpindlehead,
+    }
+
+item HCRopethin
+    {
+        Weight    	=    0.2,
+        Type    	=    Normal,
+        DisplayName    	=    Thin Rope,
+        Icon    	=    HCRopethin,
+    }
+
+item HCRopethick
+    {
+        Weight    	=    0.9,
+        Type    	=    Normal,
+        DisplayName    	=    Thick Rope,
+        Icon    	=    HCRopethick,
+    }
+
+item HCBarkstrip
+    {
+        Weight    	=    0.2,
+        Type    	=    Normal,
+        DisplayName    	=    Bark Strip,
+        Icon    	=    HCBarkstrip,
+    }
+
+item HCStraw
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Straw,
+        icon 			= HCStraw,
+    }
+
+item HCStrawbale
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Bale of Straw,
+        icon 			= HCStrawbale,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCHaystack
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Haystack,
+        icon 			= HCHaystack,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCStrawhat
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Straw Hat,
+        icon 			= HCStrawhat,
+    }
+
+item HCJutestems
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Fresh Jute Stems,
+        icon 			= HCJutestems,
+    }
+
+item HCJutestemswet
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Wet Jute Stems,
+        icon 			= HCJutestemswet,
+    }
+
+item HCJutestemsdry
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Dry Jute Stems,
+        icon 			= HCJutestemsdry,
+    }
+
+
+item HCJutefibers
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Jute Fibers,
+        icon 			= HCJutefibers,
+    }
+
+item HCBurlapcloth
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Burlap Cloth,
+        icon 			= HCBurlapcloth,
+    }
+
+item HCCottonraw
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Raw Cotton,
+        icon 			= HCCottonraw,
+    }
+
+item HCCottongin
+    {
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= Cotton Gin,
+        icon 			= HCCottongin,
+    }
+
+item HCCotton
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cotton,
+        icon 			= HCCotton,
+    }
+
+item HCCottonthread
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cotton Thread,
+        icon 			= HCCottonthread,
+    }
+
+item HCCottoncloth
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Cotton Cloth,
+        icon 			= HCCottoncloth,
+    }
+
+item HCPlantfibers
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Plant Fibers,
+        icon 			= HCPlantfibers,
+    }
+
+item HCLinenthread
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Linen Thread,
+        icon 			= HCLinenthread,
+    }
+
+item HCLinencloth
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Linen Cloth,
+        icon 			= HCLinencloth,
+    }
+
+item HCWool
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Wool,
+        icon 			= HCWool,
+    }
+
+item HCYarn
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Yarn,
+        icon 			= HCYarn,
+    }
+
+item HCYarnpurple
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Purple Yarn,
+        icon 			= HCYarnpurple,
+    }
+
+item HCYarnblue
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Blue Yarn,
+        icon 			= HCYarnblue,
+    }
+
+item HCYarngreen
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Green Yarn,
+        icon 			= HCYarngreen,
+    }
+
+item HCYarnyellow
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Yellow Yarn,
+        icon 			= HCYarnyellow,
+    }
+
+item HCYarnorange
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Orange Yarn,
+        icon 			= HCYarnorange,
+    }
+
+item HCYarnred
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Red Yarn,
+        icon 			= HCYarnred,
+    }
+
+item HCYarnblack
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Black Yarn,
+        icon 			= HCYarnblack,
+    }
+
+item HCWoolcloth
+    {
+        Weight    	=    0.2,
+        Type    	=    Normal,
+        DisplayName    	=    Wool Cloth,
+        Icon    	=    HCWoolcloth.png,
+    }
+
+item HCCloth
+    {
+        Weight    	=    0.2,
+        Type    	=    Normal,
+        DisplayName    	=    Cloth,
+        Icon    	=    HCCloth.png,
+    }
+
+item HCSilkfiber
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silk Filament,
+        icon 			= HCSilkfiber,
+    }
+
+item HCSilkthread
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silk Thread,
+        icon 			= HCSilkthread,
+    }
+
+item HCSilkcloth
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silk Cloth,
+        icon 			= HCSilkcloth,
+    }
+
+item HCReedmat
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Reed Mat,
+        icon 			= HCReedmat,
+    }
+
+item HCReedmatdry
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Dried Reed Mat,
+        icon 			= HCReedmatdry,
+    }
+
+item HCNyloncloth
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Nylon Cloth,
+        icon 			= HCNyloncloth,
+    }
+
+item HCZipper
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Zipper,
+        icon 			= HCZipper,
+    }
+
+/************************RECIPES************************/
+
+recipe Make Spindle
+    {
+    WoodenStick,
+    HCSpindlehead,
+    Result:HCSpindle,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+    
+recipe Make Thread
+    {
+    HCFloss=3,
+    Result:Thread,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Twine
+    {
+    HCGrass=3,
+    Result:Twine,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Twine
+    {
+    HCStraw=3,
+    Result:Twine,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Rope
+    {
+    SheetRope=3,
+    Result:Rope,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Rope
+    {
+    HCRopethick,
+    Result:Rope=3,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Thick Rope
+    {
+    Rope=3,
+    Result:HCRopethick,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Pack Straw
+    {
+    HCStraw=10,
+    Result:HCStrawbale,
+    Time:15,
+    Category:Farming,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Unpack Straw
+    {
+    HCStrawbale,
+    Result:HCStraw=10,
+    Time:15,
+    Category:Farming,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Pile Straw
+    {
+    HCStraw=100,
+    keep HCPitchfork,
+    Result:HCHaystack,
+    Time:15,
+    Category:Farming,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Unpile Straw
+    {
+    HCHaystack,
+    Result:HCStraw=100,
+    Time:15,
+    Category:Farming,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Straw Hat
+    {
+    HCStraw=4,
+    Result:HCStrawhat,
+    Time:15,
+    NeedToBeLearn:true,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Cotton Gin
+    {
+	HCCrank/HCCrankiron,
+	HCSteelrod=2,
+	BarbedWire=4,
+	HCGeariron=8,
+	HCRopethin,
+	Comb=6,
+	HCHotgluegunfull/HCSuperglue,
+	HCWoodencrate,
+	Result:HCCottongin,
+	Time:500.0,
+       	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Process Cotton
+    {
+    HCCottonraw,
+    keep HCCottongin,
+    Result:HCCotton,
+    CanBeDoneFromFloor:true,
+    Time:15,
+    Category:Weaving,
+    OnCreate:recipe_hccottonseeds,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Cotton Thread
+    {
+    HCCotton=3,
+    HCSpindle,
+    keep HCSpinningwheel,
+    Result:HCCottonthread,
+    CanBeDoneFromFloor:true,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Cotton Cloth
+    {
+    HCCottonthread=3,
+    keep HCLoom,
+    Result:HCCottoncloth,
+    CanBeDoneFromFloor:true,
+    Time:1000,
+    Category:Weaving,
+    OnCreate:recipe_hcspindle3,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Cotton Cloth
+    {
+    HCCottonthread=3,
+    keep HCLoomfloor,
+    Result:HCCottoncloth,
+    CanBeDoneFromFloor:true,
+    Time:500,
+    Category:Weaving,
+    OnCreate:recipe_hcspindle3,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Gym Towel
+    {
+    HCCottonthread=3,
+    keep HCLoom,
+    Result:HCGymtowel,
+    CanBeDoneFromFloor:true,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Weaving,
+    OnCreate:recipe_hcspindle3,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Gym Towel
+    {
+    HCCottonthread=3,
+    keep HCLoomfloor,
+    Result:HCGymtowel,
+    CanBeDoneFromFloor:true,
+    NeedToBeLearn:true,
+    Time:500,
+    Category:Weaving,
+    OnCreate:recipe_hcspindle3,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Linen Thread
+    {
+    HCPlantfibers=3,
+    HCSpindle,
+    keep HCSpinningwheel,
+    Result:HCLinenthread,
+    CanBeDoneFromFloor:true,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Linen Thread
+    {
+    HCFlax=3,
+    HCSpindle,
+    keep HCSpinningwheel,
+    Result:HCLinenthread,
+    CanBeDoneFromFloor:true,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Linen Cloth
+    {
+    HCLinenthread=3,
+    keep HCLoom,
+    Result:HCLinencloth,
+    CanBeDoneFromFloor:true,
+    Time:1000,
+    Category:Weaving,
+    OnCreate:recipe_hcspindle3,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Linen Cloth
+    {
+    HCLinenthread=3,
+    keep HCLoomfloor,
+    Result:HCLinencloth,
+    CanBeDoneFromFloor:true,
+    Time:500,
+    Category:Weaving,
+    OnCreate:recipe_hcspindle3,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Cheese Cloth
+    {
+    HCLinenthread=3,
+    keep HCLoom,
+    Result:HCCheesecloth,
+    CanBeDoneFromFloor:true,
+    Time:1000,
+    Category:Weaving,
+    OnCreate:recipe_hcspindle3,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Cheese Cloth
+    {
+    HCLinenthread=3,
+    keep HCLoomfloor,
+    Result:HCCheesecloth,
+    CanBeDoneFromFloor:true,
+    Time:500,
+    Category:Weaving,
+    OnCreate:recipe_hcspindle3,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Yarn
+    {
+    HCWool=3,
+    HCSpindle,
+    keep HCSpinningwheel,
+    Result:HCYarn,
+    CanBeDoneFromFloor:true,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Dye Yarn
+    {
+    HCYarn,
+    HCCharcoalpowder=2,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    Water,
+    keep HCClaycauldron/HCCauldroniron,
+    Result:HCYarnblack,
+    CanBeDoneFromFloor:true,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Dye Yarn
+    {
+    HCYarn,
+    HCRedpigment,
+    HCBluepigment,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    Water,
+    keep HCClaycauldron/HCCauldroniron,
+    Result:HCYarnpurple,
+    CanBeDoneFromFloor:true,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Dye Yarn
+    {
+    HCYarn,
+    HCBluepigment=2,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    Water,
+    keep HCClaycauldron/HCCauldroniron,
+    Result:HCYarnblue,
+    CanBeDoneFromFloor:true,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Dye Yarn
+    {
+    HCYarn,
+    HCGreenpigment=2,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    Water,
+    keep HCClaycauldron/HCCauldroniron,
+    Result:HCYarngreen,
+    CanBeDoneFromFloor:true,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Dye Yarn
+    {
+    HCYarn,
+    HCYellowpigment=2,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    Water,
+    keep HCClaycauldron/HCCauldroniron,
+    Result:HCYarnyellow,
+    CanBeDoneFromFloor:true,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Dye Yarn
+    {
+    HCYarn,
+    HCRedpigment,
+    HCYellowpigment,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    Water,
+    keep HCClaycauldron/HCCauldroniron,
+    Result:HCYarnorange,
+    CanBeDoneFromFloor:true,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Dye Yarn
+    {
+    HCYarn,
+    HCRedpigment=2,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    Water,
+    keep HCClaycauldron/HCCauldroniron,
+    Result:HCYarnred,
+    CanBeDoneFromFloor:true,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Wool Cloth
+    {
+    HCYarn=3,
+    keep HCLoom,
+    Result:HCWoolcloth,
+    CanBeDoneFromFloor:true,
+    Time:1000,
+    Category:Weaving,
+    OnCreate:recipe_hcspindle3,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Wool Cloth
+    {
+    HCYarn=3,
+    keep HCLoomfloor,
+    Result:HCWoolcloth,
+    CanBeDoneFromFloor:true,
+    Time:500,
+    Category:Weaving,
+    OnCreate:recipe_hcspindle3,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Silk Thread
+    {
+    HCSilkfiber=3,
+    HCSpindle,
+    keep HCSpinningwheel,
+    Result:HCSilkthread,
+    CanBeDoneFromFloor:true,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Silk Cloth
+    {
+    HCSilkthread=3,
+    keep HCLoom,
+    Result:HCSilkcloth,
+    CanBeDoneFromFloor:true,
+    Time:1000,
+    Category:Weaving,
+    OnCreate:recipe_hcspindle3,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Silk Cloth
+    {
+    HCSilkthread=3,
+    keep HCLoomfloor,
+    Result:HCSilkcloth,
+    CanBeDoneFromFloor:true,
+    Time:500,
+    Category:Weaving,
+    OnCreate:recipe_hcspindle3,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Sheet Rope
+    {
+    HCCottoncloth/HCLinencloth/HCWoolcloth/HCSilkcloth/HCWoolshirt/HCWoolpants/HCSilkshirt/HCSilkpants/HCLinenshirt/HCLinenpants/HCTiedyeshirt/HCTshirt,
+    Result:SheetRope,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }	
+
+recipe Make Ripped Sheets
+    {
+    HCCottoncloth/HCLinencloth/HCWoolcloth/HCSilkcloth/HCWoolshirt/HCWoolpants/HCSilkshirt/HCSilkpants/HCLinenshirt/HCLinenpants/HCTiedyeshirt/HCTshirt,
+    Result:RippedSheets=8,
+    Sound:PZ_ClothesRipping,
+    Time:100.0,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Thin Rope
+    {
+    HCHidestrap=3,
+    Result:HCRopethin,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Thin Rope
+    {
+    HCCottonthread=3,
+    Result:HCRopethin,
+    Time:15,
+    Category:Weaving,
+    OnCreate:recipe_hcspindle3,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Thin Rope
+    {
+    HCLinenthread=3,
+    Result:HCRopethin,
+    Time:15,
+    Category:Weaving,
+    OnCreate:recipe_hcspindle3,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }	
+
+recipe Make Thin Rope
+    {
+    HCYarn=3,
+    Result:HCRopethin,
+    Time:15,
+    Category:Weaving,
+    OnCreate:recipe_hcspindle3,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }	
+
+recipe Make Thin Rope
+    {
+    HCSilkthread=3,
+    Result:HCRopethin,
+    Time:15,
+    Category:Weaving,
+    OnCreate:recipe_hcspindle3,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }	
+
+recipe Make Thin Rope
+    {
+    Rope,
+    Result:HCRopethin=3,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Rope
+    {
+    HCRopethin=3,
+    Result:Rope,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Bark Strips
+    {
+    TreeBranch,
+    keep HuntingKnife/HCJackknife/HCKnifestone,
+    Result:HCBarkstrip=3,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Thin Rope
+    {
+    HCBarkstrip=3,
+    Result:HCRopethin,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Thin Rope
+    {
+    HCLeatherstrip=3,
+    Result:HCRopethin,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Thin Rope
+    {
+    HCLeatherstriphard=3,
+    Result:HCRopethin,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Thin Rope
+    {
+    HCLeatherstripfine=3,
+    Result:HCRopethin,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Jute Fibers
+    {
+    HCJutestemsdry,
+    keep HuntingKnife/HCJackknife/HCKnifestone,
+    Result:HCJutefibers,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Burlap Cloth
+    {
+    HCJutefibers=3,
+    keep HCLoom,
+    Result:HCBurlapcloth,
+    CanBeDoneFromFloor:true,
+    Time:1000,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Burlap Cloth
+    {
+    HCJutefibers=3,
+    keep HCLoomfloor,
+    Result:HCBurlapcloth,
+    CanBeDoneFromFloor:true,
+    Time:500,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Weave Reed Mat
+    {
+    HCReeds=3,
+    Result:HCReedmat,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Dry Reed Mat
+    {
+    HCReedmat,
+    keep HCHerbtable/HCDryingframe,
+    CanBeDoneFromFloor:true,
+    Result:HCReedmatdry,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Thread
+    {
+    HCSilkfiber=3,
+    keep HCSpinningwheel,
+    CanBeDoneFromFloor:true,
+    Result:Thread,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Thread
+    {
+    HCCotton=3,
+    keep HCSpinningwheel,
+    CanBeDoneFromFloor:true,
+    Result:Thread,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Thread
+    {
+    HCPlantfibers=3,
+    keep HCSpinningwheel,
+    CanBeDoneFromFloor:true,
+    Result:Thread,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Thread
+    {
+    HCFlax=3,
+    keep HCSpinningwheel,
+    CanBeDoneFromFloor:true,
+    Result:Thread,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Thread
+    {
+    HCWool=3,
+    keep HCSpinningwheel,
+    CanBeDoneFromFloor:true,
+    Result:Thread,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Cord Gloves
+    {
+    HCRopethin=4,
+    keep Needle/HCBoneneedle,
+    Thread=2,
+    Result:HCGlovecord,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Armor,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Cord Boots
+    {
+    HCRopethin=4,
+    keep Needle/HCBoneneedle,
+    Thread=2,
+    Result:HCBootcord,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Armor,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Bag
+    {
+    Schoolbag,
+    keep Scissors,
+    Result:HCNyloncloth=2,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnCreate:recipe_hczipper,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Bag
+    {
+    Duffelbag,
+    keep Scissors,
+    Result:HCNyloncloth=3,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnCreate:recipe_hczipper,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Bag
+    {
+    NormalHikingBag,
+    keep Scissors,
+    Result:HCNyloncloth=4,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnCreate:recipe_hczipper,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Bag
+    {
+    HCClimbingpack,
+    keep Scissors,
+    Result:HCNyloncloth=4,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnCreate:recipe_hczipper,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Bag
+    {
+    HCCampingpack,
+    keep Scissors,
+    Result:HCNyloncloth=6,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnCreate:recipe_hczipper,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Bag
+    {
+    BigHikingBag,
+    keep Scissors,
+    Result:HCNyloncloth=5,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnCreate:recipe_hczipper,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Bag
+    {
+    HCAlicepack2,
+    keep Scissors,
+    Result:HCNyloncloth=6,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnCreate:recipe_hczipper,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Bag
+    {
+    HCAlicepack,
+    keep Scissors,
+    Result:HCNyloncloth=7,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnCreate:recipe_hczipper,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Sack
+    {
+    EmptySandbag,
+    keep Scissors,
+    Result:HCBurlapcloth=2,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+
+recipe Recycle Sack
+    {
+    HCRiceempty,
+    keep Scissors,
+    Result:HCBurlapcloth,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Sack
+    {
+    HCFlourempty,
+    keep Scissors,
+    Result:HCBurlapcloth,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+	
+}

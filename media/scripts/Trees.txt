@@ -1,0 +1,432 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, farming
+
+    }
+
+/************************ITEMS************************/
+
+item HCResin
+    {
+        Weight    		= 0.1,
+        Type   			= Normal,
+        DisplayName         	= Resin,
+        icon 			= HCResin,
+    }
+
+item HCSoil
+    {
+        Weight    		= 1.0,
+        Type   			= Normal,
+        DisplayName         	= Fertile Soil,
+        icon 			= HCSoil,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCFir1
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Fir Sprout,
+        icon 			= HCFir1,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCFir2
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Fir Sapling,
+        icon 			= HCFir2,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCFir3
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Young Fir Tree,
+        icon 			= HCFir3,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCFir4
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Adult Fir Tree,
+        icon 			= HCFir4,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCFir5
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Elder Fir Tree,
+        icon 			= HCFir5,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCFir6
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Ancient Fir Tree,
+        icon 			= HCFir6,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCFirstump
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Fir Tree Stump,
+        icon 			= HCFirstump,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCOak1
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Oak Sprout,
+        icon 			= HCOak1,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCOak2
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Oak Sapling,
+        icon 			= HCOak2,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCOak3
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Young Oak Tree,
+        icon 			= HCOak3,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCOak4
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Adult Oak Tree,
+        icon 			= HCOak4,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCOak5
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Elder Oak Tree,
+        icon 			= HCOak5,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCOak6
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Ancient Oak Tree,
+        icon 			= HCOak6,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCOakstump
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Oak Tree Stump,
+        icon 			= HCOakstump,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCBirch1
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Birch Sprout,
+        icon 			= HCBirch1,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCBirch2
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Birch Sapling,
+        icon 			= HCBirch2,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCBirch3
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Young Birch Tree,
+        icon 			= HCBirch3,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCBirch4
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Adult Birch Tree,
+        icon 			= HCBirch4,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCBirch5
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Elder Birch Tree,
+        icon 			= HCBirch5,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCBirch6
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Ancient Birch Tree,
+        icon 			= HCBirch6,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCBirchstump
+    {
+        Weight    		= 1000.0,
+        Type   			= Normal,
+        DisplayName         	= Birch Tree Stump,
+        icon 			= HCBirchstump,
+	ResizeWorldIcon 	= 2.0,
+    }
+	
+/************************RECIPES************************/
+    
+
+recipe Make Fertile Soil
+    {
+	Water,
+	Fertilizer,
+    	keep Shovel,
+	keep HCGardenbench,
+    	Result:HCSoil,
+    	Time:15.0,
+       	NeedToBeLearn:true,
+    	CanBeDoneFromFloor:true,
+    	Category:Farming,
+    	OnGiveXP:HCFarming_OnGiveXP,
+    }
+
+recipe Plant Fir Cone
+    {
+	Water,
+	HCSoil,
+    	HCFircone,
+        keep HandShovel,
+    	Result:HCFir1,
+       	NeedToBeLearn:true,
+    	CanBeDoneFromFloor:true,
+    	Time:10.0,
+    	Category:Farming,
+    	OnGiveXP:HCFarming_OnGiveXP,
+    }
+
+recipe Cut Fir Tree
+    {
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/HCHatchetbronze/HCHatchetcopper/AxeStone,
+	HCFir3,
+    	Result:HCFirstump,
+    	CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+    	Time:250.0,
+    	Category:Carpentry,
+    	OnCreate:recipe_hccutfirtree3,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Cut Fir Tree
+    {
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/HCHatchetbronze/HCHatchetcopper,
+	HCFir4,
+    	Result:HCFirstump,
+    	CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+    	Time:500.0,
+    	Category:Carpentry,
+    	OnCreate:recipe_hccutfirtree4,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Cut Fir Tree
+    {
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/HCHatchetbronze,
+	HCFir5,
+    	Result:HCFirstump,
+    	CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+    	Time:1000.0,
+    	Category:Carpentry,
+    	OnCreate:recipe_hccutfirtree5,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Cut Fir Tree
+    {
+	keep Axe/HCMakeshiftaxe/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron,
+	HCFir6,
+    	Result:HCFirstump,
+    	CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+    	Time:2000.0,
+    	Category:Carpentry,
+    	OnCreate:recipe_hccutfirtree6,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Plant Acorn
+    {
+	Water,
+	HCSoil,
+    	HCAcorn,
+        keep HandShovel,
+    	Result:HCOak1,
+    	CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+    	Time:10.0,
+    	Category:Farming,
+    	OnGiveXP:HCFarming_OnGiveXP,
+    }
+
+recipe Cut Oak Tree
+    {
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/HCHatchetbronze/HCHatchetcopper/AxeStone,
+	HCOak3,
+    	Result:HCOakstump,
+    	CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+    	Time:250.0,
+    	Category:Carpentry,
+    	OnCreate:recipe_hccutoaktree3,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Cut Oak Tree
+    {
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/HCHatchetbronze/HCHatchetcopper,
+	HCOak4,
+    	Result:HCOakstump,
+    	CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+    	Time:500.0,
+    	Category:Carpentry,
+    	OnCreate:recipe_hccutoaktree4,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Cut Oak Tree
+    {
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/HCHatchetbronze,
+	HCOak5,
+    	Result:HCOakstump,
+    	CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+    	Time:1000.0,
+    	Category:Carpentry,
+    	OnCreate:recipe_hccutoaktree5,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Cut Oak Tree
+    {
+	keep Axe/HCMakeshiftaxe/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron,
+	HCOak6,
+    	Result:HCOakstump,
+    	CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+    	Time:2000.0,
+    	Category:Carpentry,
+    	OnCreate:recipe_hccutoaktree6,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Plant Birch Catkin
+    {
+	Water,
+	HCSoil,
+    	HCBirchcatkin,
+        keep HandShovel,
+    	Result:HCBirch1,
+    	CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+    	Time:10.0,
+    	Category:Farming,
+    	OnGiveXP:HCFarming_OnGiveXP,
+    }
+
+recipe Cut Birch Tree
+    {
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/HCHatchetbronze/HCHatchetcopper/AxeStone,
+	HCBirch3,
+    	Result:HCBirchstump,
+    	CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+    	Time:250.0,
+    	Category:Carpentry,
+    	OnCreate:recipe_hccutbirchtree3,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Cut Birch Tree
+    {
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/HCHatchetbronze/HCHatchetcopper,
+	HCBirch4,
+    	Result:HCBirchstump,
+    	CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+    	Time:500.0,
+    	Category:Carpentry,
+    	OnCreate:recipe_hccutbirchtree4,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Cut Birch Tree
+    {
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/HCHatchetbronze,
+	HCBirch5,
+    	Result:HCBirchstump,
+    	CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+    	Time:1000.0,
+    	Category:Carpentry,
+    	OnCreate:recipe_hccutbirchtree5,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Cut Birch Tree
+    {
+	keep Axe/HCMakeshiftaxe/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron,
+	HCBirch6,
+    	Result:HCBirchstump,
+    	CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+    	Time:2000.0,
+    	Category:Carpentry,
+    	OnCreate:recipe_hccutbirchtree6,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+			
+}

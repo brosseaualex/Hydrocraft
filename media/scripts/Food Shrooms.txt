@@ -1,0 +1,609 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCBunchofshrooms
+	{
+	HungerChange			=		-20,
+	BoredomChange			=		-10,
+	Weight				=		0.8,
+	Type				=		Food,
+	UnhappyChange			=		-15,
+	DisplayName			=		Bunch of Mushrooms,
+	Icon				=		HCBunchofshrooms,
+	DaysFresh			=		6,
+	DaysTotallyRotten		=		10,
+	FoodType    			=   		Vegetables,
+	Carbohydrates 			= 		23.2,
+        Proteins 			= 		9.9,
+        Lipids 				= 		1.8,
+        Calories 			= 		210,
+	}
+
+   item HCPortobello
+   {
+	HungerChange			=		-15,
+	Weight				=		0.2,
+	Type				=		Food,
+	DisplayName			=		Portobello Mushroom,
+	Icon				=		HCPortobello,
+	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   		Vegetables,
+	DaysFresh			=		2,
+	DaysTotallyRotten		=		3,
+	FoodType    			=   		Vegetables,
+	Carbohydrates 			= 		2.56,
+        Proteins 			= 		2.36,
+        Lipids 				= 		0.32,
+        Calories 			= 		38,
+   }
+
+   item HCShiitake
+   {
+	HungerChange			=		-15,
+	Weight				=		0.2,
+	Type				=		Food,
+	DisplayName			=		Shiitake Mushroom,
+	Icon				=		HCShiitake,
+	FoodType    			=   		Vegetables,
+	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DaysFresh			=		2,
+	DaysTotallyRotten		=		3,
+	FoodType    			=   		Vegetables,
+	Carbohydrates 			= 		2.56,
+        Proteins 			= 		2.36,
+        Lipids 				= 		0.32,
+        Calories 			= 		38,
+   }
+
+   item HCBlewitshroom
+   {
+	HungerChange			=		-15,
+	Weight				=		0.2,
+	Type				=		Food,
+	DisplayName			=		Blewit Mushroom,
+	Icon				=		HCBlewitmushroom,
+	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   		Vegetables,
+	DaysFresh			=		2,
+	DaysTotallyRotten		=		3,
+	FoodType    			=   		Vegetables,
+	Carbohydrates 			= 		2.56,
+        Proteins 			= 		2.36,
+        Lipids 				= 		0.32,
+        Calories 			= 		38,
+   }
+
+   item HCLobstershroom
+   {
+	HungerChange			=		-15,
+	Weight				=		0.2,
+	Type				=		Food,
+	DisplayName			=		Lobster Mushroom,
+	Icon				=		HCLobstermushroom,
+	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   		Vegetables,
+	DaysFresh			=		2,
+	DaysTotallyRotten		=		3,
+	FoodType    			=   		Vegetables,
+	Carbohydrates 			= 		2.56,
+        Proteins 			= 		2.36,
+        Lipids 				= 		0.32,
+        Calories 			= 		38,
+   }
+
+   item HCWitchshatshroom
+   {
+	HungerChange			=		-15,
+	Weight				=		0.2,
+	Type				=		Food,
+	IsCookable			=		TRUE,
+	DangerousUncooked		=		TRUE,
+	MinutesToCook			=		30,
+	MinutesToBurn			=		70,
+	DisplayName			=		Witch's Hat Mushroom,
+	Icon				=		HCWitchshatmushroom,
+	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   		Vegetables,
+	DaysFresh			=		2,
+	DaysTotallyRotten		=		3,
+	FoodType    			=   		Vegetables,
+	Carbohydrates 			= 		2.56,
+        Proteins 			= 		2.36,
+        Lipids 				= 		0.32,
+        Calories 			= 		38,
+   }
+
+   item HCYellowmorelshroom
+   {
+	HungerChange			=		-15,
+	Weight				=		0.2,
+	Type				=		Food,
+	IsCookable			=		TRUE,
+	DangerousUncooked		=		TRUE,
+	MinutesToCook			=		30,
+	MinutesToBurn			=		70,
+	DisplayName			=		Yellow Morel Mushroom,
+	Icon				=		HCYellowmorelmushroom,
+	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   		Vegetables,
+	DaysFresh			=		2,
+	DaysTotallyRotten		=		3,
+	FoodType    			=   		Vegetables,
+	Carbohydrates 			= 		2.56,
+        Proteins 			= 		2.36,
+        Lipids 				= 		0.32,
+        Calories 			= 		38,
+   }
+
+   item HCChantrelle
+   {
+	HungerChange			=		-15,
+	Weight				=		0.2,
+	Type				=		Food,
+	DisplayName			=		Chantrelle,
+	Icon				=		HCChantrelle,
+	EvolvedRecipe 			= 		Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   		Vegetables,
+	DaysFresh			=		2,
+	DaysTotallyRotten		=		3,
+	FoodType    			=   		Vegetables,
+	Carbohydrates 			= 		2.56,
+        Proteins 			= 		2.36,
+        Lipids 				= 		0.32,
+        Calories 			= 		38,
+   }
+
+
+/************************RECIPES************************/
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric1=2,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric1=3,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric1=4,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric2=2,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric2=3,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric2=4,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric3=2,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric3=3,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric3=4,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric4=2,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric4=3,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric4=4,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric5=2,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric5=3,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric5=4,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric6=2,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric6=3,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric6=4,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric7=2,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric7=3,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		MushroomGeneric7=4,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCPortobello=2,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCPortobello=3,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCPortobello=4,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCShiitake=2,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCShiitake=3,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCShiitake=4,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCBlewitshroom=2,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCBlewitshroom=3,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCBlewitshroom=4,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCLobstershroom=2,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCLobstershroom=3,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCLobstershroom=4,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCWitchshatshroom=2,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCWitchshatshroom=3,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCWitchshatshroom=4,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCYellowmorelshroom=2,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCYellowmorelshroom=3,
+		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Mushrooms
+	{
+		HCYellowmorelshroom=4,
+		Result:HCBunchofshrooms,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+}

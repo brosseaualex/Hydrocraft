@@ -1,0 +1,263 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCLargetup
+    {
+        Weight    			= 0.8,
+	CanStoreWater			= TRUE,
+        Type    			= Normal,
+        DisplayName         		= Large Tupperware Container,
+	ReplaceOnUseOn			= WaterSource-HCLargetupwater,
+        icon 				= HCLargetup,
+	RainFactor 			= 1,
+    }
+
+item HCLargetupfood
+	{
+	HungerChange			=	-60,
+	Weight				=	1.6,
+	Type				=	Food,
+	DaysTotallyRotten		=	30,
+	UnhappyChange			=	10,
+	DisplayName			=	Large Tupperware Container with Food,
+	Icon				=	HCLargetupfood,
+	ReplaceOnUse			=	HCLargetup,
+	DaysFresh			=	15,
+	}
+
+item HCLargetuplid
+    {
+        Weight    			= 0.4,
+        Type    			= Normal,
+        DisplayName         		= Large Tupperware Lid,
+        icon 				= HCLargetuplid,
+    }
+
+item HCLargetupbowl
+    {
+        Weight    			= 0.4,
+        Type    			= Normal,
+        DisplayName         		= Large Tupperware Container without Lid,
+        icon 				= HCLargetupbowl,
+    }
+
+item HCLargetupwater
+    {
+	IsWaterSource			=	TRUE,
+	Weight				=	1.6,
+	CanStoreWater			=	TRUE,
+	Type				=	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.02,
+	DisplayName			=	Large Tupperware Container with Water,
+	ReplaceOnDeplete		=	HCLargetup,
+	ReplaceOnUseOn			=	WaterSource-HCLargetupwater,
+	Icon				=	HCLargetupwater,
+	RainFactor 			= 	1,
+    }
+
+item HCMediumtup
+    {
+        Weight    			= 0.4,
+	CanStoreWater			= TRUE,
+        Type    			= Normal,
+        DisplayName         		= Medium Tupperware Container,
+	ReplaceOnUseOn			= WaterSource-HCMediumtupwater,
+        icon 				= HCMediumtup,
+	RainFactor 			= 1,
+    }
+
+item HCMediumtupfood
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten		=	30,
+	UnhappyChange			=	10,
+	DisplayName			=	Medium Tupperware Container with Food,
+	Icon				=	HCMediumtupfood,
+	ReplaceOnUse			=	HCMediumtup,
+	DaysFresh			=	15,
+	}
+
+item HCMediumtuplid
+    {
+        Weight    			= 0.2,
+        Type    			= Normal,
+        DisplayName         		= Medium Tupperware Lid,
+        icon 				= HCMediumtuplid,
+    }
+
+item HCMediumtupbowl
+    {
+        Weight    			= 0.2,
+        Type    			= Normal,
+        DisplayName         		= Medium Tupperware Container without Lid,
+        icon 				= HCMediumtupbowl,
+    }
+
+item HCMediumtupwater
+    {
+	IsWaterSource			=	TRUE,
+	Weight				=	0.8,
+	CanStoreWater			=	TRUE,
+	Type				=	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.08,
+	DisplayName			=	Medium Tupperware Container with Water,
+	ReplaceOnDeplete		=	HCMediumtup,
+	ReplaceOnUseOn			=	WaterSource-HCMediumtupwater,
+	Icon				=	HCMediumtupwater,
+	RainFactor 			= 	1,
+    }
+
+item HCSmalltup
+    {
+        Weight    			= 0.2,
+	CanStoreWater			= TRUE,
+        Type    			= Normal,
+        DisplayName         		= Small Tupperware Container,
+	ReplaceOnUseOn			= WaterSource-HCSmalltupwater,
+        icon 				= HCSmalltup,
+	RainFactor 			= 0.2,
+    }
+
+item HCSmalltupfood
+	{
+	HungerChange			=	-15,
+	Weight				=	0.4,
+	Type				=	Food,
+	DaysTotallyRotten		=	30,
+	UnhappyChange			=	10,
+	DisplayName			=	Small Tupperware Container with Food,
+	Icon				=	HCSmalltupfood,
+	ReplaceOnUse			=	HCSmalltup,
+	DaysFresh			=	15,
+	}
+
+item HCSmalltuplid
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Small Tupperware Lid,
+        icon 				= HCSmalltuplid,
+    }
+
+item HCSmalltupbowl
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Small Tupperware Container without Lid,
+        icon 				= HCSmalltupbowl,
+    }
+
+item HCSmalltupwater
+    {
+	IsWaterSource			=	TRUE,
+	Weight				=	1.6,
+	CanStoreWater			=	TRUE,
+	Type				=	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.08,
+	DisplayName			=	Small Tupperware Container with Water,
+	ReplaceOnDeplete		=	HCSmalltup,
+	ReplaceOnUseOn			=	WaterSource-HCSmalltupwater,
+	Icon				=	HCSmalltupwater,
+	RainFactor 			= 	0.2,
+    }
+
+
+/************************RECIPES************************/
+    
+
+
+recipe Put Lid on Large Tupperware Container
+    {
+    HCLargetuplid,
+    HCLargetupbowl,
+    Result:HCLargetup,
+    Time:15,
+    }
+
+recipe Remove Lid from Large Tupperware Container
+    {
+    HCLargetup,
+    Result:HCLargetupbowl,
+    Time:15,
+    OnCreate:recipe_hclargetuplid,
+    }
+
+recipe Put Lid on Medium Tupperware Container
+    {
+    HCMediumtuplid,
+    HCMediumtupbowl,
+    Result:HCMediumtup,
+    Time:15,
+    }
+
+recipe Remove Lid from Medium Tupperware Container
+    {
+    HCMediumtup,
+    Result:HCMediumtupbowl,
+    Time:15,
+    OnCreate:recipe_hcmediumtuplid,
+    }
+
+recipe Put Lid on Small Tupperware Container
+    {
+    HCSmalltuplid,
+    HCSmalltupbowl,
+    Result:HCSmalltup,
+    Time:15,
+    }
+
+recipe Remove Lid from Small Tupperware Container
+    {
+    HCSmalltup,
+    Result:HCSmalltupbowl,
+    Time:15,
+    OnCreate:recipe_hcsmalltuplid,
+    }
+
+recipe Fill Large Tupperware Container with Food
+    {
+    HCLargetup,
+    HCBunchofberries/Tofu/Yoghurt/CakeSlice/Cheese/Processedcheese/BreadSlices/Sandwich/GrilledCheese/Pizza/Fries/Pancakes/Waffles/HCBakedpotato/HCHashbrowns/HCPotatopancakes/HCFries/HCCornonthecob/Pie/PiePumpkin/FishFillet/Salmon/TunaTinOpen/CannedSardinesOpen/HCFriedherring/HCBBQsalmon/Corndog/DogfoodOpen/Burger/MeatPatty/Hotdog/MuttonChop/PorkChop/Rabbitmeat/Smallanimalmeat/Smallbirdmeat/Ham/Chicken/Egg/Steak/TunaTinOpen/Bacon/BaconRashers/BaconBits/FrogMeat/CannedCornedBeefOpen/HamSlice/HCCannedspamopen/HCFriedegg/HCHardboiledegg/HCBBQsteak/HCBBQchicken/HCBBQrat/Lettuce/BellPepper/Corn/Eggplant/Leek/Broccoli/Carrots/Peas/RedRadish/Potato/Cabbage/Zucchini/CannedCarrotsOpen/CannedCornOpen/CannedMushroomSoupOpen/CannedPeasOpen/CannedPotatoOpen/HCBunchofshrooms/HCSlicedonion/HCCannedgreenbeansopen/HCCannedshroomsopen/HCCannedpumpkinopen/HCBBQshroom/HCGrilledeggplant/Peach/Lemon/Grapes/Apple/Banana/Orange/WatermelonSliced/WatermelonSmashed/Tomato/HCPear/Pineapple/Avocado/Cherry/CannedTomatoOpen/HCSlicedtomato/HCCannedappleopen/HCCannedpearopen/HCCannedpeachopen/HCCannedcranberriesopen/HCBBQduck/HCBBQgoose/HCBBQturkey/HCBBQsmallbird/HCDuckmeat/HCGoosemeat/HCTurkeymeat/HCFreshham/HCSausagefrog/HCSausagebird/HCSausagechicken/HCSausageduck/HCSausagegoose/HCSausageturkey/HCSausagevermin/HCSausagerabbit/HCSausagesmallgame/HCSausagedeer/HCSausagebear/HCSausagemutton/HCSausagepork/HCSausagebeef/HCSausageitalian/HCSausagehot,
+HCBunchofberries/Tofu/Yoghurt/CakeSlice/Cheese/Processedcheese/BreadSlices/Sandwich/GrilledCheese/Pizza/Fries/Pancakes/Waffles/HCBakedpotato/HCHashbrowns/HCPotatopancakes/HCFries/HCCornonthecob/Pie/PiePumpkin/FishFillet/Salmon/TunaTinOpen/CannedSardinesOpen/HCFriedherring/HCBBQsalmon/Corndog/DogfoodOpen/Burger/MeatPatty/Hotdog/MuttonChop/PorkChop/Rabbitmeat/Smallanimalmeat/Smallbirdmeat/Ham/Chicken/Egg/Steak/TunaTinOpen/Bacon/BaconRashers/BaconBits/FrogMeat/CannedCornedBeefOpen/HamSlice/HCCannedspamopen/HCFriedegg/HCHardboiledegg/HCBBQsteak/HCBBQchicken/HCBBQrat/Lettuce/BellPepper/Corn/Eggplant/Leek/Broccoli/Carrots/Peas/RedRadish/Potato/Cabbage/Zucchini/CannedCarrotsOpen/CannedCornOpen/CannedMushroomSoupOpen/CannedPeasOpen/CannedPotatoOpen/HCBunchofshrooms/HCSlicedonion/HCCannedgreenbeansopen/HCCannedshroomsopen/HCCannedpumpkinopen/HCBBQshroom/HCGrilledeggplant/Peach/Lemon/Grapes/Apple/Banana/Orange/WatermelonSliced/WatermelonSmashed/Tomato/HCPear/Pineapple/Avocado/Cherry/CannedTomatoOpen/HCSlicedtomato/HCCannedappleopen/HCCannedpearopen/HCCannedpeachopen/HCCannedcranberriesopen/HCBBQduck/HCBBQgoose/HCBBQturkey/HCBBQsmallbird/HCDuckmeat/HCGoosemeat/HCTurkeymeat/HCFreshham/HCSausagefrog/HCSausagebird/HCSausagechicken/HCSausageduck/HCSausagegoose/HCSausageturkey/HCSausagevermin/HCSausagerabbit/HCSausagesmallgame/HCSausagedeer/HCSausagebear/HCSausagemutton/HCSausagepork/HCSausagebeef/HCSausageitalian/HCSausagehot,
+HCBunchofberries/Tofu/Yoghurt/CakeSlice/Cheese/Processedcheese/BreadSlices/Sandwich/GrilledCheese/Pizza/Fries/Pancakes/Waffles/HCBakedpotato/HCHashbrowns/HCPotatopancakes/HCFries/HCCornonthecob/Pie/PiePumpkin/FishFillet/Salmon/TunaTinOpen/CannedSardinesOpen/HCFriedherring/HCBBQsalmon/Corndog/DogfoodOpen/Burger/MeatPatty/Hotdog/MuttonChop/PorkChop/Rabbitmeat/Smallanimalmeat/Smallbirdmeat/Ham/Chicken/Egg/Steak/TunaTinOpen/Bacon/BaconRashers/BaconBits/FrogMeat/CannedCornedBeefOpen/HamSlice/HCCannedspamopen/HCFriedegg/HCHardboiledegg/HCBBQsteak/HCBBQchicken/HCBBQrat/Lettuce/BellPepper/Corn/Eggplant/Leek/Broccoli/Carrots/Peas/RedRadish/Potato/Cabbage/Zucchini/CannedCarrotsOpen/CannedCornOpen/CannedMushroomSoupOpen/CannedPeasOpen/CannedPotatoOpen/HCBunchofshrooms/HCSlicedonion/HCCannedgreenbeansopen/HCCannedshroomsopen/HCCannedpumpkinopen/HCBBQshroom/HCGrilledeggplant/Peach/Lemon/Grapes/Apple/Banana/Orange/WatermelonSliced/WatermelonSmashed/Tomato/HCPear/Pineapple/Avocado/Cherry/CannedTomatoOpen/HCSlicedtomato/HCCannedappleopen/HCCannedpearopen/HCCannedpeachopen/HCCannedcranberriesopen/HCBBQduck/HCBBQgoose/HCBBQturkey/HCBBQsmallbird/HCDuckmeat/HCGoosemeat/HCTurkeymeat/HCFreshham/HCSausagefrog/HCSausagebird/HCSausagechicken/HCSausageduck/HCSausagegoose/HCSausageturkey/HCSausagevermin/HCSausagerabbit/HCSausagesmallgame/HCSausagedeer/HCSausagebear/HCSausagemutton/HCSausagepork/HCSausagebeef/HCSausageitalian/HCSausagehot,
+HCBunchofberries/Tofu/Yoghurt/CakeSlice/Cheese/Processedcheese/BreadSlices/Sandwich/GrilledCheese/Pizza/Fries/Pancakes/Waffles/HCBakedpotato/HCHashbrowns/HCPotatopancakes/HCFries/HCCornonthecob/Pie/PiePumpkin/FishFillet/Salmon/TunaTinOpen/CannedSardinesOpen/HCFriedherring/HCBBQsalmon/Corndog/DogfoodOpen/Burger/MeatPatty/Hotdog/MuttonChop/PorkChop/Rabbitmeat/Smallanimalmeat/Smallbirdmeat/Ham/Chicken/Egg/Steak/TunaTinOpen/Bacon/BaconRashers/BaconBits/FrogMeat/CannedCornedBeefOpen/HamSlice/HCCannedspamopen/HCFriedegg/HCHardboiledegg/HCBBQsteak/HCBBQchicken/HCBBQrat/Lettuce/BellPepper/Corn/Eggplant/Leek/Broccoli/Carrots/Peas/RedRadish/Potato/Cabbage/Zucchini/CannedCarrotsOpen/CannedCornOpen/CannedMushroomSoupOpen/CannedPeasOpen/CannedPotatoOpen/HCBunchofshrooms/HCSlicedonion/HCCannedgreenbeansopen/HCCannedshroomsopen/HCCannedpumpkinopen/HCBBQshroom/HCGrilledeggplant/Peach/Lemon/Grapes/Apple/Banana/Orange/WatermelonSliced/WatermelonSmashed/Tomato/HCPear/Pineapple/Avocado/Cherry/CannedTomatoOpen/HCSlicedtomato/HCCannedappleopen/HCCannedpearopen/HCCannedpeachopen/HCCannedcranberriesopen/HCBBQduck/HCBBQgoose/HCBBQturkey/HCBBQsmallbird/HCDuckmeat/HCGoosemeat/HCTurkeymeat/HCFreshham/HCSausagefrog/HCSausagebird/HCSausagechicken/HCSausageduck/HCSausagegoose/HCSausageturkey/HCSausagevermin/HCSausagerabbit/HCSausagesmallgame/HCSausagedeer/HCSausagebear/HCSausagemutton/HCSausagepork/HCSausagebeef/HCSausageitalian/HCSausagehot,
+    Result:HCLargetupfood,
+    Time:15,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Fill Medium Tupperware Container with Food
+    {
+    HCMediumtup,
+HCBunchofberries/Tofu/Yoghurt/CakeSlice/Cheese/Processedcheese/BreadSlices/Sandwich/GrilledCheese/Pizza/Fries/Pancakes/Waffles/HCBakedpotato/HCHashbrowns/HCPotatopancakes/HCFries/HCCornonthecob/Pie/PiePumpkin/FishFillet/Salmon/TunaTinOpen/CannedSardinesOpen/HCFriedherring/HCBBQsalmon/Corndog/DogfoodOpen/Burger/MeatPatty/Hotdog/MuttonChop/PorkChop/Rabbitmeat/Smallanimalmeat/Smallbirdmeat/Ham/Chicken/Egg/Steak/TunaTinOpen/Bacon/BaconRashers/BaconBits/FrogMeat/CannedCornedBeefOpen/HamSlice/HCCannedspamopen/HCFriedegg/HCHardboiledegg/HCBBQsteak/HCBBQchicken/HCBBQrat/Lettuce/BellPepper/Corn/Eggplant/Leek/Broccoli/Carrots/Peas/RedRadish/Potato/Cabbage/Zucchini/CannedCarrotsOpen/CannedCornOpen/CannedMushroomSoupOpen/CannedPeasOpen/CannedPotatoOpen/HCBunchofshrooms/HCSlicedonion/HCCannedgreenbeansopen/HCCannedshroomsopen/HCCannedpumpkinopen/HCBBQshroom/HCGrilledeggplant/Peach/Lemon/Grapes/Apple/Banana/Orange/WatermelonSliced/WatermelonSmashed/Tomato/HCPear/Pineapple/Avocado/Cherry/CannedTomatoOpen/HCSlicedtomato/HCCannedappleopen/HCCannedpearopen/HCCannedpeachopen/HCCannedcranberriesopen/HCBBQduck/HCBBQgoose/HCBBQturkey/HCBBQsmallbird/HCDuckmeat/HCGoosemeat/HCTurkeymeat/HCFreshham/HCSausagefrog/HCSausagebird/HCSausagechicken/HCSausageduck/HCSausagegoose/HCSausageturkey/HCSausagevermin/HCSausagerabbit/HCSausagesmallgame/HCSausagedeer/HCSausagebear/HCSausagemutton/HCSausagepork/HCSausagebeef/HCSausageitalian/HCSausagehot,
+HCBunchofberries/Tofu/Yoghurt/CakeSlice/Cheese/Processedcheese/BreadSlices/Sandwich/GrilledCheese/Pizza/Fries/Pancakes/Waffles/HCBakedpotato/HCHashbrowns/HCPotatopancakes/HCFries/HCCornonthecob/Pie/PiePumpkin/FishFillet/Salmon/TunaTinOpen/CannedSardinesOpen/HCFriedherring/HCBBQsalmon/Corndog/DogfoodOpen/Burger/MeatPatty/Hotdog/MuttonChop/PorkChop/Rabbitmeat/Smallanimalmeat/Smallbirdmeat/Ham/Chicken/Egg/Steak/TunaTinOpen/Bacon/BaconRashers/BaconBits/FrogMeat/CannedCornedBeefOpen/HamSlice/HCCannedspamopen/HCFriedegg/HCHardboiledegg/HCBBQsteak/HCBBQchicken/HCBBQrat/Lettuce/BellPepper/Corn/Eggplant/Leek/Broccoli/Carrots/Peas/RedRadish/Potato/Cabbage/Zucchini/CannedCarrotsOpen/CannedCornOpen/CannedMushroomSoupOpen/CannedPeasOpen/CannedPotatoOpen/HCBunchofshrooms/HCSlicedonion/HCCannedgreenbeansopen/HCCannedshroomsopen/HCCannedpumpkinopen/HCBBQshroom/HCGrilledeggplant/Peach/Lemon/Grapes/Apple/Banana/Orange/WatermelonSliced/WatermelonSmashed/Tomato/HCPear/Pineapple/Avocado/Cherry/CannedTomatoOpen/HCSlicedtomato/HCCannedappleopen/HCCannedpearopen/HCCannedpeachopen/HCCannedcranberriesopen/HCBBQduck/HCBBQgoose/HCBBQturkey/HCBBQsmallbird/HCDuckmeat/HCGoosemeat/HCTurkeymeat/HCFreshham/HCSausagefrog/HCSausagebird/HCSausagechicken/HCSausageduck/HCSausagegoose/HCSausageturkey/HCSausagevermin/HCSausagerabbit/HCSausagesmallgame/HCSausagedeer/HCSausagebear/HCSausagemutton/HCSausagepork/HCSausagebeef/HCSausageitalian/HCSausagehot,
+    Result:HCMediumtupfood,
+    Time:15,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Fill Small Tupperware Container with Food
+    {
+    HCSmalltup,
+HCBunchofberries/Tofu/Yoghurt/CakeSlice/Cheese/Processedcheese/BreadSlices/Sandwich/GrilledCheese/Pizza/Fries/Pancakes/Waffles/HCBakedpotato/HCHashbrowns/HCPotatopancakes/HCFries/HCCornonthecob/Pie/PiePumpkin/FishFillet/Salmon/TunaTinOpen/CannedSardinesOpen/HCFriedherring/HCBBQsalmon/Corndog/DogfoodOpen/Burger/MeatPatty/Hotdog/MuttonChop/PorkChop/Rabbitmeat/Smallanimalmeat/Smallbirdmeat/Ham/Chicken/Egg/Steak/TunaTinOpen/Bacon/BaconRashers/BaconBits/FrogMeat/CannedCornedBeefOpen/HamSlice/HCCannedspamopen/HCFriedegg/HCHardboiledegg/HCBBQsteak/HCBBQchicken/HCBBQrat/Lettuce/BellPepper/Corn/Eggplant/Leek/Broccoli/Carrots/Peas/RedRadish/Potato/Cabbage/Zucchini/CannedCarrotsOpen/CannedCornOpen/CannedMushroomSoupOpen/CannedPeasOpen/CannedPotatoOpen/HCBunchofshrooms/HCSlicedonion/HCCannedgreenbeansopen/HCCannedshroomsopen/HCCannedpumpkinopen/HCBBQshroom/HCGrilledeggplant/Peach/Lemon/Grapes/Apple/Banana/Orange/WatermelonSliced/WatermelonSmashed/Tomato/HCPear/Pineapple/Avocado/Cherry/CannedTomatoOpen/HCSlicedtomato/HCCannedappleopen/HCCannedpearopen/HCCannedpeachopen/HCCannedcranberriesopen/HCBBQduck/HCBBQgoose/HCBBQturkey/HCBBQsmallbird/HCDuckmeat/HCGoosemeat/HCTurkeymeat/HCFreshham/HCSausagefrog/HCSausagebird/HCSausagechicken/HCSausageduck/HCSausagegoose/HCSausageturkey/HCSausagevermin/HCSausagerabbit/HCSausagesmallgame/HCSausagedeer/HCSausagebear/HCSausagemutton/HCSausagepork/HCSausagebeef/HCSausageitalian/HCSausagehot,
+    Result:HCSmalltupfood,
+    Time:15,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+}

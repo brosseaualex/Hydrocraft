@@ -1,0 +1,491 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, farming
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCTradingcone
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Trading Post Cone,
+        icon 			= HCPropcone,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCTradingpost
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Trading Post,
+        icon 			= HCTradingpost,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+
+/************************RECIPES************************/
+
+
+recipe Build Trading Post
+    {
+    	HCTradingcone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCTradingpost,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 5 Pennies for 1 Nickel
+    {
+    	HCPenny=5,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HCNickel,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 1 Nickle for 5 Pennies
+    {
+    	HCNickel,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HCPenny=5,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 2 Nickels for 1 Dime
+    {
+    	HCNickel=2,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDime,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 1 Dime for 2 Nickels
+    {
+    	HCDime,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HCNickel=2,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 2 Dimes and 1 Nickel for 1 Quarter
+    {
+    	HCDime=2,
+    	HCNickel,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HCQuarter,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 2 Quarters for 1 Half Dollar
+    {
+    	HCQuarter=2,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HCHalfdollar,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 1 Half Dollar for 2 Quarters
+    {
+    	HCHalfdollar,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HCQuarter=2,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 2 Half Dollars for 1 Dollar
+    {
+    	HCHalfdollar=2,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDollar,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 1 Dollars for 2 Half Dollars
+    {
+    	HCDollar,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HCHalfdollar=2,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 1 Dollar for 1 Dollar Bill
+    {
+    	HCDollar,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HC1dollarbill,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 1 Dollar Bill for 1 Dollar
+    {
+    	HC1dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDollar,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 1 Two Dollar Bill for 2 Dollar Bills
+    {
+    	HC2dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HC1dollarbill=2,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 2 Dollar Bills for 1 Two Dollar Bill
+    {
+    	HC1dollarbill=2,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HC2dollarbill,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 5 Dollar Bills for 1 Five Dollar Bill
+    {
+    	HC1dollarbill=5,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HC5dollarbill,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 1 Five Dollar Bill for 5 Dollar Bills
+    {
+    	HC5dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HC1dollarbill=5,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 2 Five Dollar Bill for 1 Ten Dollar Bill
+    {
+    	HC5dollarbill=2,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HC10dollarbill,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 1 Ten Dollar Bill for 2 Five Dollar Bills
+    {
+    	HC10dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HC5dollarbill=2,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 1 Twenty Dollar Bill for 2 Ten Dollar Bills
+    {
+    	HC20dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HC10dollarbill=2,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 2 Ten Dollar Bills for 1 Twenty Dollar Bill
+    {
+    	HC10dollarbill=2,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HC20dollarbill,
+    	Time:15,
+    	Category:Trade,
+    }
+
+
+recipe Exchange 5 Ten Dollar Bills for 1 Fifty Dollar Bill
+    {
+    	HC10dollarbill=5,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HC50dollarbill,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 1 Fifty Dollar Bill for 5 Ten Dollar Bills
+    {
+    	HC50dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HC10dollarbill=5,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 2 Fifty Dollar Bills for 1 One HUndred Dollar Bill
+    {
+    	HC50dollarbill=2,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HC100dollarbill,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Exchange 1 One Hundred Dollar Bill for 2 Fifty Dollar Bills
+    {
+    	HC100dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HC50dollarbill=2,
+    	Time:15,
+    	Category:Trade,
+    }
+
+/************************BUYING************************/
+
+recipe Buy Water Bottle
+    {
+    	HC5dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:WaterBottleFull,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Canned Beans
+    {
+    	HC10dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:TinnedBeans,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Can Opener
+    {
+    	HC5dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:TinOpener,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Lighter
+    {
+    	HC10dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:Lighter,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Bowl
+    {
+    	HC10dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:Bowl,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Kitchen Knife
+    {
+    	HC20dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:KitchenKnife,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Jack Knife
+    {
+    	HC20dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HCJackknife,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Baseball Bat
+    {
+    	HC50dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:BaseballBat,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Axe
+    {
+    	HC100dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:Axe,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Hammer
+    {
+    	HC10dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:Hammer,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Saw
+    {
+    	HC50dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:Saw,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Screwdriver
+    {
+    	HC20dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:Screwdriver,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Box of Nails
+    {
+    	HC10dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:NailsBox,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Trowel
+    {
+    	HC10dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HandShovel,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Raincoat
+    {
+    	HC50dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HCRaincoat,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Down Jacket
+    {
+    	HC50dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDownjacket,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy School Bag
+    {
+    	HC20dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:Schoolbag,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Map
+    {
+    	HC10dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HCMap,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Compass
+    {
+    	HC20dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCompass,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Pack of Toilet Paper
+    {
+    	HC20dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:HCToiletpaperpack,
+    	Time:15,
+    	Category:Trade,
+    }
+
+recipe Buy Pack of Garbage Bag
+    {
+    	HC1dollarbill,
+	keep HCTradingpost,
+    	CanBeDoneFromFloor:true,
+    	Result:Garbagebag,
+    	Time:15,
+    	Category:Trade,
+    }
+
+}
+
+
+
+

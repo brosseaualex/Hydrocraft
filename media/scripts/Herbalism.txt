@@ -1,0 +1,1352 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCHerbtable
+	{
+	Weight 			= 10,
+	Type 			= Normal,
+	DisplayName 		= Herbalist Table,
+	Icon			= HCHerbtable,
+	ResizeWorldIcon 	= 1.0,
+	}
+
+item HCHerbtable2
+	{
+	Weight 			= 10000,
+	Type 			= Normal,
+	DisplayName 		= Herbalist Table,
+	Icon			= HCHerbtable,
+	ResizeWorldIcon 	= 1.0,
+	}
+
+item HCPollen
+    {
+        Weight          	= 0.005,
+        Type            	= Normal,
+        DisplayName     	= Pollen,
+        Icon            	= HCPollen,
+        ResizeWorldIcon 	= 1.0,
+    }
+
+item HCHops
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Hops,
+        icon 			= HCHops,
+    } 
+
+item HCTeafresh
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Fresh Tea Leaves,
+        icon 			= HCTeafresh,
+    }  
+
+item HCTeagreen
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Green Tea Leaves,
+        icon 			= HCTeagreen,
+    }  
+
+item HCTeablack
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Black Tea Leaves,
+        icon 			= HCTeablack,
+    }  
+
+item HCCorncobpipe
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Corn Cob Pipe,
+        icon 			= HCCorncobpipe,
+    }
+
+item HCMulberryleaf
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Mulberry Leaf,
+        icon 			= HCMulberryleaf,
+    } 
+
+item HCMulberry
+	{
+	HungerChange			=	-10,
+	ThirstChange			=	-5,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Mulberry,
+	Icon				=	HCMulberry,
+	FoodType    			=   	Fruits,
+	Carbohydrates 			= 	9.8,
+        Proteins 			= 	4,
+        Lipids 				= 	0.4,
+        Calories 			= 	70,
+	}
+
+item HCCamomiledry
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Dried Camomile,
+        icon 			= 	HCCamomiledry,
+    }
+
+item HCCamomileteamug
+{
+	FatigueChange			=	20,
+	HungerChange			=	-1,
+	Weight				=	1,
+	Type				=	Food,
+	UnhappyChange			=	-5,
+	ThirstChange			=	-50,
+	DisplayName			=	Camomile Tea,
+	StressChange			=	-10,
+	ReplaceOnUse			=	Mugl,
+	Icon				=	MugFulll,
+	ReduceFoodSickness 		= 	5,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	10,
+	CantBeFrozen			=	TRUE,
+}
+
+item HCCamomileteaclaymug
+{
+	FatigueChange			=	20,
+	HungerChange			=	-1,
+	Weight				=	1,
+	Type				=	Food,
+	UnhappyChange			=	-5,
+	ThirstChange			=	-50,
+	DisplayName			=	Camomile Tea,
+	StressChange			=	-10,
+	ReplaceOnUse			=	HCClaymug,
+	Icon				=	HCHotcuppa,
+        ReduceFoodSickness 		= 	5,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	10,
+	CantBeFrozen			=	TRUE,
+}
+
+item HCNettlesdry
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Dried Nettles,
+        icon 			= 	HCNettlesdry,
+    }
+
+item HCNettleteamug
+	{
+	HungerChange		=	-1,
+	Weight			=	1,
+	Type			=	Food,
+	UnhappyChange		=	-5,
+	ThirstChange		=	-50,
+	DisplayName		=	Nettle Tea,
+	StressChange		=	-10,
+	ReplaceOnUse		=	Mugl,
+	Icon			=	MugFulll,
+	ReduceFoodSickness 	= 	10,
+	FluReduction		=	5,
+	ReduceInfectionPower    = 	5,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	0,
+        Proteins 		= 	2,
+        Lipids 			= 	0,
+        Calories 		= 	10,
+	CantBeFrozen		=	TRUE,
+	}
+
+item HCNettleteaclaymug
+	{
+	HungerChange		=	-1,
+	Weight			=	1,
+	Type			=	Food,
+	UnhappyChange		=	-5,
+	ThirstChange		=	-50,
+	DisplayName		=	Nettle Tea,
+	StressChange		=	-10,
+	ReplaceOnUse		=	HCClaymug,
+	Icon			=	HCHotcuppa,
+        ReduceFoodSickness 	= 	10,
+	FluReduction		=	5,
+	ReduceInfectionPower    = 	5,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	0,
+        Proteins 		= 	2,
+        Lipids 			= 	0,
+        Calories 		= 	10,
+	CantBeFrozen		=	TRUE,
+	}
+
+item HCThistledry
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Dried Thistle,
+        icon 			= 	HCThistledry,
+    }
+
+item HCThistleteamug
+{
+	HungerChange			=	-1,
+	Weight				=	1,
+	Type				=	Food,
+	UnhappyChange			=	-5,
+	ThirstChange			=	-50,
+	DisplayName			=	Thistle Tea,
+	StressChange			=	-10,
+	ReplaceOnUse			=	Mugl,
+	Icon				=	MugFulll,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	2,
+        Lipids 				= 	0,
+        Calories 			= 	10,
+	CantBeFrozen			=	TRUE,
+}
+
+item HCThistleteaclaymug
+{
+	HungerChange			=	-1,
+	Weight				=	1,
+	Type				=	Food,
+	UnhappyChange			=	-5,
+	ThirstChange			=	-50,
+	DisplayName			=	Thistle Tea,
+	StressChange			=	-10,
+	ReplaceOnUse			=	HCClaymug,
+	Icon				=	HCHotcuppa,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	2,
+        Lipids 				= 	0,
+        Calories 			= 	10,
+	CantBeFrozen			=	TRUE,
+}
+
+item HCSkullcapdry
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Dried Skullcap,
+        icon 			= 	HCSkullcapdry,
+    }
+
+item HCSkullcapteamug
+	{
+	FatigueChange		=	10,
+	HungerChange		=	-1,
+	Weight			=	1,
+	Type			=	Food,
+	UnhappyChange		=	-5,
+	ThirstChange		=	-50,
+	DisplayName		=	Skullcap Tea,
+	StressChange		=	-5,
+        PainReduction 		= 	5,
+	ReplaceOnUse		=	Mugl,
+	Icon			=	MugFulll,
+	FluReduction		=	5,
+	ReduceInfectionPower    = 	5,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	0,
+        Proteins 		= 	2,
+        Lipids 			= 	0,
+        Calories 		= 	10,
+	CantBeFrozen		=	TRUE,
+	}
+
+item HCSkullcapteaclaymug
+	{
+	FatigueChange		=	10,
+	HungerChange		=	-1,
+	Weight			=	1,
+	Type			=	Food,
+	UnhappyChange		=	-5,
+	ThirstChange		=	-50,
+	DisplayName		=	Skullcap Tea,
+	StressChange		=	-5,
+        PainReduction 		= 	5,
+	ReplaceOnUse		=	HCClaymug,
+	Icon			=	HCHotcuppa,
+	FluReduction		=	5,
+	ReduceInfectionPower    = 	5,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	0,
+        Proteins 		= 	2,
+        Lipids 			= 	0,
+        Calories 		= 	10,
+	CantBeFrozen		=	TRUE,
+	}
+
+item HCDaisydry
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Dried Daisy,
+        icon 			= 	HCDaisydry,
+    }
+
+item HCDaisyteamug
+	{
+	HungerChange		=	-1,
+	Weight			=	1,
+	Type			=	Food,
+	ThirstChange		=	-50,
+	DisplayName		=	Daisy Tea,
+	ReplaceOnUse		=	Mugl,
+	Icon			=	MugFulll,
+	ReduceFoodSickness 	= 	8,
+	FluReduction		=	8,
+	ReduceInfectionPower    = 	8,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	0,
+        Proteins 		= 	2,
+        Lipids 			= 	0,
+        Calories 		= 	10,
+	CantBeFrozen		=	TRUE,
+	}
+
+item HCDaisyteaclaymug
+	{
+	HungerChange		=	-1,
+	Weight			=	1,
+	Type			=	Food,
+	ThirstChange		=	-50,
+	DisplayName		=	Daisy Tea,
+	ReplaceOnUse		=	HCClaymug,
+	Icon			=	HCHotcuppa,
+	ReduceFoodSickness 	= 	8,
+	FluReduction		=	8,
+	ReduceInfectionPower    = 	8,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	0,
+        Proteins 		= 	2,
+        Lipids 			= 	0,
+        Calories 		= 	10,
+	CantBeFrozen		=	TRUE,
+	}
+
+item HCAnemomedry
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Dried Anemone,
+        icon 			= 	HCAnemomedry,
+    }
+
+item HCAnemometeamug
+	{
+	HungerChange		=	-1,
+	Weight			=	1,
+	Type			=	Food,
+	ThirstChange		=	-50,
+	DisplayName		=	Anemome Tea,
+	StressChange		=	-5,
+	ReplaceOnUse		=	Mugl,
+	Icon			=	MugFulll,
+	OnEat 			= 	HCBetaBlockerMild,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	0,
+        Proteins 		= 	2,
+        Lipids 			= 	0,
+        Calories 		= 	10,
+	CantBeFrozen		=	TRUE,
+	}
+
+item HCAnemometeaclaymug
+	{
+	HungerChange		=	-1,
+	Weight			=	1,
+	Type			=	Food,
+	ThirstChange		=	-50,
+	DisplayName		=	Anemome Tea,
+	StressChange		=	-5,
+	ReplaceOnUse		=	HCClaymug,
+	Icon			=	HCHotcuppa,
+	OnEat 			= 	HCBetaBlockerMild,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	0,
+        Proteins 		= 	2,
+        Lipids 			= 	0,
+        Calories 		= 	10,
+	CantBeFrozen		=	TRUE,
+	}
+
+item HCCamelliadry
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Dried Camellia,
+        icon 			= 	HCCamelliadry,
+    }
+
+item HCCamelliateamug
+	{
+	HungerChange		=	-1,
+	Weight			=	1,
+	Type			=	Food,
+	ThirstChange		=	-50,
+	DisplayName		=	Camellia Tea,
+	EnduranceChange		=	5,
+        FatigueChange		=	-5,
+	ReplaceOnUse		=	Mugl,
+	Icon			=	MugFulll,
+	OnEat 			= 	HCBetaBlockerMild,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	0,
+        Proteins 		= 	2,
+        Lipids 			= 	0,
+        Calories 		= 	10,
+	CantBeFrozen		=	TRUE,
+	}
+
+item HCCamelliateaclaymug
+	{
+	HungerChange		=	-1,
+	Weight			=	1,
+	Type			=	Food,
+	ThirstChange		=	-50,
+	DisplayName		=	Camellia Tea,
+	EnduranceChange		=	5,
+        FatigueChange		=	-5,
+	ReplaceOnUse		=	HCClaymug,
+	Icon			=	HCHotcuppa,
+	OnEat 			= 	HCBetaBlockerMild,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	0,
+        Proteins 		= 	2,
+        Lipids 			= 	0,
+        Calories 		= 	10,
+	CantBeFrozen		=	TRUE,
+	}
+
+
+item HCChilipepperstem
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Chili Pepper Stem,
+        icon 			= 	HCChilipepperstem,
+    }
+
+item HCChilipepperdry
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Dried Chili Peppers,
+        icon 			= HCChilipepperdry,
+    } 
+
+item HCRiceraw
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Raw Rice,
+
+	Icon			= 	HCRiceraw,
+
+	Weight			= 	0.1,
+
+	}
+
+item HCChaffrice
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Rice with Chaff,
+
+	Icon			= 	HCChaffrice,
+
+	Weight			= 	0.1,
+
+	}
+
+item HCChaff
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Chaff,
+
+	Icon			= 	HCChaff,
+
+	Weight			= 	0.1,
+
+	}
+
+item HCBran
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Bran,
+
+	Icon			= 	HCBran,
+
+	Weight			= 	0.1,
+
+	}
+
+item HCCob
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Corn Cob,
+
+	Icon			= 	HCCob,
+
+	Weight			= 	0.1,
+
+	}
+
+
+item HCHusk
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Corn Husk,
+
+	Icon			= 	HCHusk,
+
+	Weight			= 	0.1,
+
+	}
+
+item HCBamboo
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Bamboo,
+
+	Icon			= 	HCBamboo,
+
+	Weight			= 	1.0,
+
+	}
+
+item HCBamboogutter
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Bamboo Gutter,
+
+	Icon			= 	HCBamboogutter,
+
+	Weight			= 	0.5,
+
+	}
+
+item HCGarlicdry
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Dried Garlic,
+        icon 			= 	HCGarlicdry,
+    }
+
+item HCOniondry
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Dried Onion,
+        icon 			= 	HCOniondry,
+    }
+
+item HCJuniperberrydry
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Dried Juniper Berry,
+        icon 			= 	HCJuniperberrydry,
+    }
+
+item HCLavenderdry
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Dried Lavender,
+        icon 			= 	HCLavenderdry,
+    }
+
+/************************RECIPES************************/
+
+recipe Make Herbalist Table
+    {
+	SkillRequired:Woodwork=4,
+	Plank=3,
+	Nails=2,
+	Twine=2,
+	Bowl,
+	HCClayjarsmall=2,
+	HCTablewood,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCHerbtable,
+    	Sound:PZ_Hammer,
+    	Time:400,
+    	Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Anchor Herbalist Table
+    {
+	HCHerbtable,
+    	CanBeDoneFromFloor:true,
+   	Result:HCHerbtable2,
+    	Time:100,
+    	Category:Anchor,
+    }
+
+recipe Harvest Pollen
+    {
+        keep HCHerbtable/HCHerbtable2,
+        keep Tweezers,
+        Violets/HCRosebud/HCCamomile/HCLavender/HCSunflower/HCFlaxflower/HCDaisy/HCIris/HCSkullcap/HCBluebell/HCLotusflower/HCHyacinthflower/HCWaterlilyflower/HCValerian/HCThistle/HCAnemome/HCCamellia/HCRhododendron/HCDaffodil/HCTulip/HCMorningglory/HCCalily/HCBleedingheart/HCPansy/HCTetterwort/HCDogwood/HCMagnolia/HCSpeedwell/HCColumbine/HCCinquefoils/HCStrelitzia/HCMazus/HCCarnation/HCChrysanthemum/HCBluedaisy/HCSoapgrass/HCChicory/HCWolfsbane/HCKvann,
+        CanBeDoneFromFloor:true,
+        Result:HCPollen,
+        NeedToBeLearn:true,
+        Time:100.0,
+        Category:Alchemy,
+        OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Plantain Poultice
+    {
+        keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+        Plantain=5,
+    	CanBeDoneFromFloor:true,
+        Result:PlantainCataplasm,
+        Time:60.0,
+        Category:Health,
+        OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Make Plantain Poultice
+    {
+    	keep HCMacerator,
+    	PetrolCan,
+        Plantain=5,
+    	CanBeDoneFromFloor:true,
+        Result:PlantainCataplasm=2,
+        Time:60.0,
+        Category:Health,
+        OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Make Comfrey Poultice
+    {
+        keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+        Comfrey=5,
+    	CanBeDoneFromFloor:true,
+        Result:ComfreyCataplasm,
+        Time:60.0,
+        Category:Health,
+        OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Make Comfrey Poultice
+    {
+    	keep HCMacerator,
+    	PetrolCan,
+        Comfrey=5,
+    	CanBeDoneFromFloor:true,
+        Result:ComfreyCataplasm=2,
+        Time:60.0,
+        Category:Health,
+        OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Make Wild Garlic Poultice
+    {
+        keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+        WildGarlic=5,
+	CanBeDoneFromFloor:true,
+        Result:WildGarlicCataplasm,
+        Time:60.0,
+        Category:Health,
+        OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Make Wild Garlic Poultice
+    {
+    	keep HCMacerator,
+    	PetrolCan,
+        WildGarlic=5,
+    	CanBeDoneFromFloor:true,
+        Result:WildGarlicCataplasm=2,
+        Time:60.0,
+        Category:Health,
+        OnGiveXP:HCDoctor_OnGiveXP,
+    }
+ 
+recipe Dry Leaves
+    {
+    HCTeafresh,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCTeagreen,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Leaves
+    {
+    HCTeagreen,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCTeablack,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Teabag
+    {
+    HCTeagreen=2,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:Teabag,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Teabag
+    {
+    HCTeablack,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:Teabag,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Breed Silkmoths
+    {
+    HCSilkmothmale,
+    HCSilkmothfemale,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCSilkegg=10,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Ranching,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Feed Silkworm
+    {
+    HCSilkwom,
+    HCMulberryleaf/HCOakleaves,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCSilkcocoon,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Ranching,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Silk
+    {
+    HCSilkcocoon2,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCSilkcocoonempty,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Ranching,
+    OnCreate:getSilkmoth,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Cook Empty Silk Cocoon
+    {
+    HCSilkcocoonempty,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    Water,
+    keep HCClaycauldron/HCCauldroniron,
+    CanBeDoneFromFloor:true,
+    Result:HCSilkfiber,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Weaving,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Soak Fresh Jute Stems
+    {
+    HCJutestems,
+    HCWoodenbucketwater,
+    Result:HCJutestemswet,
+    NeedToBeLearn:true,
+    Time:500,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Jute Stems
+    {
+    HCJutestemswet,
+    keep HCHerbtable/HCHerbtable2/HCDryingframe,
+    CanBeDoneFromFloor:true,
+    Result:HCJutestemsdry,
+    NeedToBeLearn:true,
+    Time:500,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Craft Corn Cob Pipe
+    {
+    HCCob,
+    HCWoodblock,
+    keep HuntingKnife/HCJackknife/HCKnifestone,
+    Result:HCCorncobpipe,
+    Time:500,
+    SkillRequired:Woodwork=3,
+    Category:Carpentry,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Flower
+    {
+    HCCamomile,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCCamomiledry,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Herbal Tea
+    {
+   Mugl,
+    Water,
+    HCCamomiledry,
+    Result:HCCamomileteamug,
+    NeedToBeLearn:true,
+    Time:70.0,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Herbal Tea
+    {
+    HCClaymug,
+    Water,
+    HCCamomiledry,
+    Result:HCCamomileteaclaymug,
+    NeedToBeLearn:true,
+    Time:70.0,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Herbs
+    {
+    HCNettles,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCNettlesdry,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Herbal Tea
+    {
+    Mugl,
+    Water,
+    HCNettlesdry,
+    Result:HCNettleteamug,
+    NeedToBeLearn:true,
+    Time:70.0,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Herbal Tea
+    {
+    HCClaymug,
+    Water,
+    HCNettlesdry,
+    Result:HCNettleteaclaymug,
+    NeedToBeLearn:true,
+    Time:70.0,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Flower
+    {
+    HCThistle,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCThistledry,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Herbal Tea
+    {
+    Mugl,
+    Water,
+    HCThistledry,
+    Result:HCThistleteamug,
+    NeedToBeLearn:true,
+    Time:70.0,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Herbal Tea
+    {
+    HCClaymug,
+    Water,
+    HCThistledry,
+    Result:HCThistleteaclaymug,
+    NeedToBeLearn:true,
+    Time:70.0,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Flower
+    {
+    HCSkullcap,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCSkullcapdry,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Herbal Tea
+    {
+    Mugl,
+    Water,
+    HCSkullcapdry,
+    Result:HCSkullcapteamug,
+    NeedToBeLearn:true,
+    Time:70.0,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Herbal Tea
+    {
+    HCClaymug,
+    Water,
+    HCSkullcapdry,
+    Result:HCSkullcapteaclaymug,
+    NeedToBeLearn:true,
+    Time:70.0,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Flower
+    {
+    HCDaisy,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCDaisydry,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Herbal Tea
+    {
+    Mugl,
+    Water,
+    HCDaisydry,
+    Result:HCDaisyteamug,
+    NeedToBeLearn:true,
+    Time:70.0,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Herbal Tea
+    {
+    HCClaymug,
+    Water,
+    HCDaisydry,
+    Result:HCDaisyteaclaymug,
+    NeedToBeLearn:true,
+    Time:70.0,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Flower
+    {
+    	HCAnemome,
+    	keep HCHerbtable/HCHerbtable2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCAnemomedry,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Alchemy,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Herbal Tea
+    {
+    Mugl,
+    Water,
+    HCAnemomedry,
+    Result:HCAnemometeamug,
+    NeedToBeLearn:true,
+    Time:70.0,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Herbal Tea
+    {
+    HCClaymug,
+    Water,
+    HCAnemomedry,
+    Result:HCAnemometeaclaymug,
+    NeedToBeLearn:true,
+    Time:70.0,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Flower
+    {
+    	HCCamellia,
+    	keep HCHerbtable/HCHerbtable2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCamelliadry,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Alchemy,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Herbal Tea
+    {
+    Mugl,
+    Water,
+    HCCamelliadry,
+    Result:HCCamelliateamug,
+    NeedToBeLearn:true,
+    Time:70.0,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Herbal Tea
+    {
+    HCClaymug,
+    Water,
+    HCCamelliadry,
+    Result:HCCamelliateaclaymug,
+    NeedToBeLearn:true,
+    Time:70.0,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+
+recipe Dry into Straw
+	{
+    	HCGrass/HCPlantfibers/HCFlax/HCHusk/HCSoapgrass/HCAlfalfa,
+    	keep HCHerbtable/HCHerbtable2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCStraw,
+    	Time:1000,
+    	Category:Alchemy,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Cut Chili Pepper Stem
+    {
+    HCChilipepper,
+    keep HCHerbtable/HCHerbtable2,
+    keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    Result:HCChilipepperstem,
+    Time:50.0,
+    Category:Cooking,
+    OnCreate:recipe_hcchilipeppercut,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Spice
+    {
+    HCChilipepper=10,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCChilipepperdry,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Thresh Rice
+    {
+    	HCRiceraw,
+    	keep HCCurvedshaftsmall,
+    	CanBeDoneFromFloor:true,
+    	Result:HCChaffrice,
+    	Time:500,
+    	NeedToBeLearn:true,
+    	OnCreate:recipe_hcplantfibers,
+    	Category:Farming,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Thresh Rice
+    {
+    	HCRiceraw,
+    	keep HCThresher,
+    	CanBeDoneFromFloor:true,
+    	Result:HCChaffrice,
+    	Time:250,
+    	NeedToBeLearn:true,
+    	OnCreate:recipe_hcplantfibers,
+    	Category:Farming,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Thresh Rice
+    {
+    	HCRiceraw,
+    	keep HCThreshermech,
+    	CanBeDoneFromFloor:true,
+    	Result:HCChaffrice,
+    	Time:100,
+    	NeedToBeLearn:true,
+    	OnCreate:recipe_hcplantfibers,
+    	Category:Farming,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Extract Seed from Raw Rice
+    {
+    	HCRiceraw,
+    	keep HCHerbtable/HCHerbtable2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCRiceseeds,
+    	Time:100,
+    	NeedToBeLearn:true,
+    	Category:Farming,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Shuck Corn
+    {
+    Corn,
+    keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    keep HCHerbtable/HCHerbtable2,
+    Result:HCCornseeds=4,
+    NeedToBeLearn:true,
+    CanBeDoneFromFloor:true,
+    Time:500,
+    Category:Farming,
+    OnCreate:recipe_hccob,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Shuck Corn
+    {
+    HCCornwhite,
+    keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    keep HCHerbtable/HCHerbtable2,
+    Result:HCCornwhiteseeds=4,
+    NeedToBeLearn:true,
+    CanBeDoneFromFloor:true,
+    Time:500,
+    Category:Farming,
+    OnCreate:recipe_hccob,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Shuck Corn
+    {
+    HCCornred,
+    keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    keep HCHerbtable/HCHerbtable2,
+    Result:HCCornredseeds=4,
+    NeedToBeLearn:true,
+    CanBeDoneFromFloor:true,
+    Time:500,
+    Category:Farming,
+    OnCreate:recipe_hccob,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Shuck Corn
+    {
+    HCCornblue,
+    keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    keep HCHerbtable/HCHerbtable2,
+    Result:HCCornblueseeds=4,
+    NeedToBeLearn:true,
+    CanBeDoneFromFloor:true,
+    Time:500,
+    Category:Farming,
+    OnCreate:recipe_hccob,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Bamboo Gutter
+    	{
+	HCBamboo,
+	keep Saw/HCMachete,
+        Result:HCBamboogutter,
+        Time:15,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    	}
+
+recipe Dry Spice
+    {
+    HCGarlic,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCGarlicdry,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Spice
+    {
+    Onion,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCOniondry,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Berry
+    {
+    HCJuniperberry,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCJuniperberrydry,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Dry Flower
+    {
+    HCLavender,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCLavenderdry,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Glue
+    	{
+    		HCBluebell=10,
+    		Charcoal,
+    		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    		Water,
+    		keep HCClaycauldron/HCCauldroniron,
+    		CanBeDoneFromFloor:true,
+    		Result:Glue,
+    		NeedToBeLearn:true,
+    		Time:50,
+    		Category:Alchemy,
+    		OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Make Wood Glue
+    	{
+    		HCBluebell=10,
+		HCCandleberrywax/HCRefinedbeeswax/HCWaxrecycled,
+    		Charcoal,
+    		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    		Water,
+    		keep HCClaycauldron/HCCauldroniron,
+    		CanBeDoneFromFloor:true,
+    		Result:Woodglue,
+    		NeedToBeLearn:true,
+    		Time:50,
+    		Category:Alchemy,
+    		OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Make Super Glue
+    	{
+    		HCBluebell=10,
+		HCGlycerin,
+		HCGumstick/HCGumstick2/HCGumstick3,
+    		Charcoal,
+    		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    		Water,
+    		keep HCClaycauldron/HCCauldroniron,
+    		CanBeDoneFromFloor:true,
+    		Result:HCSuperglue,
+    		NeedToBeLearn:true,
+    		Time:50,
+    		Category:Alchemy,
+    		OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+
+}

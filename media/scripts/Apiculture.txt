@@ -1,0 +1,653 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCHoneybee
+	{
+	Weight 				= 	0.1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Honeybee,
+	Icon				=	HCHoneybee,
+	}
+
+item HCQueenbee
+	{
+	Weight 				= 	0.1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Queen Honeybee,
+	Icon				=	HCQueenbee,
+	}
+
+item HCBeekeeperhat
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Beekeeper Hat,
+	Icon				=	HCBeekeeperhat,
+	}
+
+item HCBeesmokerempty
+	{
+	Weight 				= 	0.5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Empty Bee Smoker,
+	Icon				=	HCBeesmoker,
+	}
+
+item HCBeesmokerfull
+	{
+	Weight 				= 	0.5,
+	Type				=	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.25,
+	DisplayName 			= 	Bee Smoker,
+	ReplaceOnDeplete		=	HCBeesmokerempty,
+	Icon				=	HCBeesmoker,
+	}
+
+item HCHoney
+	{
+	HungerChange			=	-60,
+	Weight				=	1,
+	Type				=	Food,
+	FoodType			=	NoExplicit,
+	UnhappyChange			=	-15,
+	DisplayName			=	Honey,
+	Icon				=	HCHoney,
+	BoredomChange			=	-10,
+	Carbohydrates 			= 	820,
+        Proteins 			= 	3,
+        Lipids 				= 	0,
+        Calories 			= 	3040,
+	Packaged 			= 	TRUE,	
+	}
+
+item HCJarhoney
+	{
+	HungerChange			=	-60,
+	Weight				=	1,
+	Type				=	Food,
+	FoodType			=	NoExplicit,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Honey,
+	Icon				=	HCJarhoney,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	Carbohydrates 			= 	820,
+        Proteins 			= 	3,
+        Lipids 				= 	0,
+        Calories 			= 	3040,
+	}
+
+item HCDryinghoney
+	{
+	HungerChange			=	-60,
+	Weight				=	1,
+	Type				=	Food,
+	FoodType			=	NoExplicit,
+	DisplayName			=	Drying Honey,
+	Icon				=	HCDriedhoney,
+	DaysFresh			=	50,
+	DaysTotallyRotten		=	100,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	FALSE,
+	MinutesToCook			=	40,
+	MinutesToBurn			=	60,
+	Carbohydrates 			= 	820,
+        Proteins 			= 	3,
+        Lipids 				= 	0,
+        Calories 			= 	3040,
+	ReplaceOnUse			=	BakingTray,
+	ReplaceOnCooked			= 	Hydrocraft.HCDriedhoney,
+	}	
+
+item HCDriedhoney
+	{
+	HungerChange			=	-60,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1,
+	Type				=	Food,
+	FoodType			=	NoExplicit,
+	ReplaceOnUse			=	BakingTray,
+	DisplayName			=	Dried Honey,
+	Icon				=	HCDriedhoney,
+	Carbohydrates 			= 	820,
+        Proteins 			= 	3,
+        Lipids 				= 	0,
+        Calories 			= 	3040,
+	}
+
+item HCHoneypowder
+	{
+	HungerChange			=	-60,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.1,
+	Type				=	Food,
+	FoodType			=	NoExplicit,
+	DisplayName			=	Honey Powder,
+	Icon				=	HCHoneypowder,
+	Carbohydrates 			= 	820,
+        Proteins 			= 	3,
+        Lipids 				= 	0,
+        Calories 			= 	3040,
+	}
+
+
+item HCWoodenbuckethoney
+    {
+        Weight    			= 4,
+        Type    			= Normal,
+        DisplayName         		= Wooden Bucket with Honey,
+        icon 				= HCWoodenbuckethoney,
+	ResizeWorldIcon 		= 2.0,
+    }
+
+
+item HCHoneycomb
+	{
+	Weight 				= 0.3,
+	Type 				= Normal,
+	DisplayName 			= Honeycomb,
+	Icon				= HCHoneycomb,
+	}
+
+item HCHoneycombframe
+	{
+	Weight 				= 1,
+	Type 				= Normal,
+	DisplayName 			= Honeycomb Frame,
+	Icon				= HCHoneycombframe,
+	}
+
+item HCBroodbox
+	{
+	Weight 				= 3,
+	Type 				= Normal,
+	DisplayName 			= Brood Box,
+	Icon				= HCBroodbox,
+	}
+
+item HCBeehive
+	{
+	Weight 				= 3,
+	Type 				= Normal,
+	DisplayName 			= Wild Beehive,
+	Icon				= HCBeehive,
+	}
+
+item HCBeehive1
+    {
+        Weight          		= 4,
+        Type            		= Normal,
+        DisplayName     		= Inactive Beehive (Stage 1),
+        Icon            		= HCBeehive1,
+        ResizeWorldIcon 		= 1.0,
+    }
+
+item HCBeehive2
+    {
+        Weight          		= 8,
+        Type            		= Normal,
+        DisplayName     		= Inactive Beehive (Stage 2),
+        Icon            		= HCBeehive2,
+        ResizeWorldIcon 		= 1.0,
+    }
+
+item HCBeehive3
+    {
+        Weight          		= 12,
+        Type            		= Normal,
+        DisplayName     		= Inactive Beehive (Stage 3),
+        Icon            		= HCBeehive3,
+        ResizeWorldIcon 		= 1.0,
+    }
+
+item HCBeehive1Active
+    {
+        Weight          		= 4,
+        Type            		= Normal,
+        DisplayName     		= Beehive (Stage 1),
+        Icon            		= HCBeehive1Active,
+        ResizeWorldIcon 		= 1.0,
+    }
+
+item HCBeehive2Active
+    {
+        Weight          		= 8,
+        Type            		= Normal,
+        DisplayName     		= Beehive (Stage 2),
+        Icon            		= HCBeehive2Active,
+        ResizeWorldIcon 		= 1.0,
+    }
+
+item HCBeehive3Active
+    {
+        Weight          		= 12,
+        Type            		= Normal,
+        DisplayName     		= Beehive (Stage 3),
+        Icon            		= HCBeehive3Active,
+        ResizeWorldIcon 		= 1.0,
+    }
+
+item HCBeehive1full
+    {
+        Weight          		= 4,
+        Type            		= Normal,
+        DisplayName     		= Beehive with Honey (Stage 1),
+        Icon            		= HCBeehive1full,
+        ResizeWorldIcon 		= 1.0,
+    }
+
+item HCBeehive2full
+    {
+        Weight          		= 8,
+        Type            		= Normal,
+        DisplayName     		= Beehive with Honey (Stage 2),
+        Icon            		= HCBeehive2full,
+        ResizeWorldIcon 		= 1.0,
+    }
+
+item HCBeehive3full
+    {
+        Weight          		= 12,
+        Type            		= Normal,
+        DisplayName     		= Beehive with Honey (Stage 3),
+        Icon            		= HCBeehive3full,
+        ResizeWorldIcon 		= 1.0,
+    }
+		
+/************************RECIPES************************/
+    
+recipe Build Honeycomb Frame
+    {
+	SkillRequired:Woodwork=4,
+	Plank,
+	Nails,
+    	keep Hammer,
+    	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+    	Result:HCHoneycombframe,
+       	NeedToBeLearn:true,
+    	Time:50.0,
+    	Category:Carpentry,
+    	Sound:PZ_Hammer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Build Brood Box
+    {
+	SkillRequired:Woodwork=4,
+	Plank=3,
+	Nails=2,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+    	keep Hammer,
+    	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+    	Result:HCBroodbox,
+       	NeedToBeLearn:true,
+    	Time:50.0,
+    	Category:Carpentry,
+    	Sound:PZ_Hammer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Build Beehive
+    {
+	SkillRequired:Woodwork=4,
+	Plank,
+	Nails,
+	HCBroodbox,
+	HCHoneycombframe=3,
+	HCBeehive,
+    	keep Hammer,
+    	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+    	Result:HCBeehive1,
+       	NeedToBeLearn:true,
+    	Time:50.0,
+    	Category:Carpentry,
+    	Sound:PZ_Hammer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Build Beehive
+    {
+	SkillRequired:Woodwork=4,
+	Plank,
+	Nails,
+	HCBroodbox,
+	HCHoneycombframe=3,
+	HCHoneybee=10,
+	HCQueenbee,
+    	keep Hammer,
+    	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+    	Result:HCBeehive1,
+       	NeedToBeLearn:true,
+    	Time:50.0,
+    	Category:Carpentry,
+    	Sound:PZ_Hammer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Upgrade Beehive
+    {
+	SkillRequired:Woodwork=5,
+	Plank,
+	Nails,
+	HCBroodbox,
+	HCHoneycombframe=3,
+	HCBeehive1,
+    	keep Hammer,
+    	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+    	Result:HCBeehive2,
+       	NeedToBeLearn:true,
+    	Time:50.0,
+    	Category:Carpentry,
+    	Sound:PZ_Hammer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Build Roof for Beehive
+    {
+	SkillRequired:Woodwork=6,
+	Nails=2,
+	HCWoodshingles=2,
+	HCBeehive2,
+    	keep Hammer,
+    	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+    	Result:HCBeehive3,
+       	NeedToBeLearn:true,
+    	Time:50.0,
+    	Category:Carpentry,
+    	Sound:PZ_Hammer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Fill Bee Smoker with Fuel
+    {
+    	HCBeesmokerempty,
+	SheetPaper/SheetPaper2/HCGrass/HCBark/HCBirchbark/HCOakleaves/HCWillowbranch/HCPinebough/HCFirbough,
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Result:HCBeesmokerfull,
+       	NeedToBeLearn:true,
+    	Time:50.0,
+    	Category:Farming,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Feed Beehive
+    {
+        HCBeehive1,
+        keep HCBeekeeperhat,
+        keep HCWorkgloves,
+        HCBeesmokerfull,
+        HCPollen=4,
+        Result:HCBeekeeperhat,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:100.0,
+        Category:Farming,
+        RemoveResultItem:true,
+        OnCreate:recipe_hcfeedbeehive1,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Feed Beehive
+    {
+        HCBeehive2,
+        keep HCBeekeeperhat,
+        keep HCWorkgloves,
+        HCBeesmokerfull,
+        HCPollen=8,
+        Result:HCBeekeeperhat,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:100.0,
+        Category:Farming,
+        RemoveResultItem:true,
+        OnCreate:recipe_hcfeedbeehive2,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Feed Beehive
+    {
+        HCBeehive3,
+        keep HCBeekeeperhat,
+        keep HCWorkgloves,
+        HCBeesmokerfull,
+        HCPollen=12,
+        Result:HCBeekeeperhat,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:100.0,
+        Category:Farming,
+        RemoveResultItem:true,
+        OnCreate:recipe_hcfeedbeehive3,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Collect Bees
+    {
+        keep HCBugnet,
+        HCBeehive1Active,
+        keep HCBeekeeperhat,
+        keep HCWorkgloves,
+        HCBeesmokerfull,
+        CanBeDoneFromFloor:true,
+        Result:HCHoneybee=2,
+        NeedToBeLearn:true,
+        Time:100.0,
+        Category:Farming,
+        OnCreate:recipe_hcbeehive1,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Collect Bees
+    {
+        keep HCBugnet,
+        HCBeehive2Active,
+        keep HCBeekeeperhat,
+        keep HCWorkgloves,
+        HCBeesmokerfull,
+        CanBeDoneFromFloor:true,
+        Result:HCHoneybee=5,
+        NeedToBeLearn:true,
+        Time:100.0,
+        Category:Farming,
+        OnCreate:recipe_hcbeehive2,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Collect Bees
+    {
+        keep HCBugnet,
+        HCBeehive3Active,
+        keep HCBeekeeperhat,
+        keep HCWorkgloves,
+        HCBeesmokerfull,
+        CanBeDoneFromFloor:true,
+        Result:HCHoneybee=10,
+        NeedToBeLearn:true,
+        Time:100.0,
+        Category:Farming,
+        OnCreate:recipe_hcbeehive3,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Collect New Queen Bee
+    {
+        keep HCBugnet,
+        HCBeehive3Active,
+        keep HCBeekeeperhat,
+        keep HCWorkgloves,
+        HCBeesmokerfull,
+        CanBeDoneFromFloor:true,
+        Result:HCQueenbee,
+        NeedToBeLearn:true,
+        Time:100.0,
+        Category:Farming,
+        OnCreate:recipe_hcbeehive3,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Harvest Honeycomb
+    {
+        HCBeehive1full,
+        keep HCBeekeeperhat,
+        keep HCWorkgloves,
+        HCBeesmokerfull,
+        CanBeDoneFromFloor:true,
+        Result:HCHoneycomb=4,
+        NeedToBeLearn:true,
+        Time:200.0,
+        Category:Farming,
+        OnCreate:recipe_hcbeehive1,
+        OnGiveXP:HCFarming_OnGiveXP,
+    }
+
+recipe Harvest Honeycomb
+    {
+        HCBeehive2full,
+        keep HCBeekeeperhat,
+        keep HCWorkgloves,
+        HCBeesmokerfull,
+        CanBeDoneFromFloor:true,
+        Result:HCHoneycomb=8,
+        NeedToBeLearn:true,
+        Time:200.0,
+        Category:Farming,
+        OnCreate:recipe_hcbeehive2,
+        OnGiveXP:HCFarming_OnGiveXP,
+    }
+
+recipe Harvest Honeycomb
+    {
+        HCBeehive3full,
+        keep HCBeekeeperhat,
+        keep HCWorkgloves,
+        HCBeesmokerfull,
+        CanBeDoneFromFloor:true,
+        Result:HCHoneycomb=12,
+        NeedToBeLearn:true,
+        Time:200.0,
+        Category:Farming,
+        OnCreate:recipe_hcbeehive3,
+        OnGiveXP:HCFarming_OnGiveXP,
+    }
+
+recipe Process Honeycomb
+    {
+    	HCWoodenbucket,
+	HCHoneycomb=4,
+    	Result:HCWoodenbuckethoney,
+       	NeedToBeLearn:true,
+    	Time:50.0,
+	Category:Cooking,
+    	OnCreate:recipe_hcbeeswax,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Jar Honey
+    {
+        SkillRequired:Cooking=4,
+    	HCJar=4,
+	HCWoodenbuckethoney,
+    	Result:HCJarhoney=4,
+    	Time:50.0,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbucket,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Bee Smoker
+	{
+	   	HCTincan=2,
+	   	Bellows,
+        	HCWeldingset,
+        	keep WeldingMask,
+        	keep HCWorkgloves,
+	   	Result:HCBeesmokerempty,
+       		NeedToBeLearn:true,
+	   	Time:150.0,
+    		Category:Farming,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Beekeeper Hat
+	{
+	   	HCStrawhat,
+	   	HCLeather,
+	   	HCNetting=3,
+	   	keep Needle/HCBoneneedle,
+	   	Thread,
+	   	Result:HCBeekeeperhat,
+       		NeedToBeLearn:true,
+	   	Time:150.0,
+    		Category:Farming,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Dry Honey
+	{
+        	SkillRequired:Cooking=3,
+		BakingTray,
+		HCHoney,
+		Result:HCDryinghoney,
+		Time:75.0,
+	   	Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+recipe Dry Honey
+	{
+        	SkillRequired:Cooking=3,
+		BakingTray,
+		HCJarhoney,
+		Result:HCDryinghoney,
+		Time:75.0,
+	   	Category:Cooking,
+		OnCreate:recipe_hcjar,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+recipe Make Honey Powder
+    {
+        	SkillRequired:Cooking=3,
+    		keep MortarPestle/HCMortarandpestle,
+    		HCDriedhoney,
+    		Result:HCHoneypowder,
+    		Time:50,
+		Category:Cooking,
+    		OnCreate:recipe_hcbakingtray,
+    		OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Bag of Sugar
+    {
+        	SkillRequired:Cooking=3,
+    		HCHoneypowder=4,
+		HCSugarempty,
+    		Result:Sugar,
+    		Time:50,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+    }
+				
+}

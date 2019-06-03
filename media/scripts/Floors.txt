@@ -1,0 +1,228 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, Radio
+
+    }
+
+/************************ITEMS************************/
+
+item HCFinewoodfloor
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_tilesandwood_01_45,
+	DisplayName		= Finewood Floor,
+	Icon			= default,
+	}
+
+item HCCarpetpurple
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_carpet_01_6,
+	DisplayName		= Violet Carpet,
+	Icon			= default,
+	}
+
+item HCCarpetblue
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_carpet_01_0,
+	DisplayName		= Blue Carpet,
+	Icon			= default,
+	}
+
+item HCCarpetgreen
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_carpet_01_5,
+	DisplayName		= Green Carpet,
+	Icon			= default,
+	}
+
+item HCCarpetyellow
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_carpet_01_10,
+	DisplayName		= Yellow Carpet,
+	Icon			= default,
+	}
+
+item HCCarpetorange
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_carpet_01_12,
+	DisplayName		= Orange Carpet,
+	Icon			= default,
+	}
+
+item HCCarpetred
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_carpet_01_9,
+	DisplayName		= Red Carpet,
+	Icon			= default,
+	}
+
+item HCCarpetwhite
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_carpet_01_11,
+	DisplayName		= White Carpet,
+	Icon			= default,
+	}
+
+item HCCarpetblack
+	{
+	Type 			= Moveable,
+	Weight 			= 0.5,
+	WorldObjectSprite 	= floors_interior_carpet_01_2,
+	DisplayName		= Black Carpet,
+	Icon			= default,
+	}
+
+/************************RECIPES************************/
+    
+recipe Make Finewood Floor
+    {
+	SkillRequired:Woodwork=3,
+    	HCPlankoil,
+	Nails,
+    	keep Hammer,
+	keep Saw,
+    	Result:HCFinewoodfloor,
+    	Sound:PZ_Hammer,
+    	Time:1000,
+    	Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Carpet
+    {
+   	HCYarnpurple=3,
+	HCWoolcloth,
+   	keep Needle/HCBoneneedle,
+    	Thread=3,
+    	keep HCLoomfloor,
+    	Result:HCCarpetpurple,
+    	CanBeDoneFromFloor:true,
+    	Time:1000,
+    	Category:Weaving,
+    	OnCreate:recipe_hcspindle3,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Carpet
+    {
+   	HCYarnblue=3,
+	HCWoolcloth,
+   	keep Needle/HCBoneneedle,
+    	Thread=3,
+    	keep HCLoomfloor,
+    	Result:HCCarpetblue,
+    	CanBeDoneFromFloor:true,
+    	Time:1000,
+    	Category:Weaving,
+    	OnCreate:recipe_hcspindle3,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Carpet
+    {
+   	HCYarngreen=3,
+	HCWoolcloth,
+   	keep Needle/HCBoneneedle,
+    	Thread=3,
+    	keep HCLoomfloor,
+    	Result:HCCarpetgreen,
+    	CanBeDoneFromFloor:true,
+    	Time:1000,
+    	Category:Weaving,
+    	OnCreate:recipe_hcspindle3,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Carpet
+    {
+   	HCYarnyellow=3,
+	HCWoolcloth,
+   	keep Needle/HCBoneneedle,
+    	Thread=3,
+    	keep HCLoomfloor,
+    	Result:HCCarpetyellow,
+    	CanBeDoneFromFloor:true,
+    	Time:1000,
+    	Category:Weaving,
+    	OnCreate:recipe_hcspindle3,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Carpet
+    {
+   	HCYarnorange=3,
+	HCWoolcloth,
+   	keep Needle/HCBoneneedle,
+    	Thread=3,
+    	keep HCLoomfloor,
+    	Result:HCCarpetorange,
+    	CanBeDoneFromFloor:true,
+    	Time:1000,
+    	Category:Weaving,
+    	OnCreate:recipe_hcspindle3,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Carpet
+    {
+   	HCYarnred=3,
+	HCWoolcloth,
+   	keep Needle/HCBoneneedle,
+    	Thread=3,
+    	keep HCLoomfloor,
+    	Result:HCCarpetred,
+    	CanBeDoneFromFloor:true,
+    	Time:1000,
+    	Category:Weaving,
+    	OnCreate:recipe_hcspindle3,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Carpet
+    {
+   	HCYarn=3,
+	HCWoolcloth,
+   	keep Needle/HCBoneneedle,
+    	Thread=3,
+    	keep HCLoomfloor,
+    	Result:HCCarpetwhite,
+    	CanBeDoneFromFloor:true,
+    	Time:1000,
+    	Category:Weaving,
+    	OnCreate:recipe_hcspindle3,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Carpet
+    {
+   	HCYarnblack=3,
+	HCWoolcloth,
+   	keep Needle/HCBoneneedle,
+    	Thread=3,
+    	keep HCLoomfloor,
+    	Result:HCCarpetblack,
+    	CanBeDoneFromFloor:true,
+    	Time:1000,
+    	Category:Weaving,
+    	OnCreate:recipe_hcspindle3,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+	
+}

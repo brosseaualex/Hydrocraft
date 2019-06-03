@@ -1,0 +1,62 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCCinematicket
+	{
+	Weight			=	0.01,
+        Type			=	Normal,
+        DisplayName		=	Cinema Ticket,
+	Icon			=	HCCinematicket,
+	}
+
+item HCMovieroll
+	{
+	Weight			=	0.5,
+        Type			=	Normal,
+        DisplayName		=	Movie Film Roll,
+	Icon			=	HCMovieroll,
+	}
+
+item HCFilmcan
+	{
+	Weight			=	1.0,
+        Type			=	Normal,
+        DisplayName		=	Movie Film Can,
+	Icon			=	HCFilmcan,
+	}
+
+item HCProjector
+	{
+	Weight			=	5.0,
+        Type			=	Normal,
+        DisplayName		=	Movie Projector,
+	Icon			=	HCProjector,
+	ResizeWorldIcon 	= 	2.0,
+	}
+
+item HC3Dglasses
+	{
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	3D Glasses,
+	Icon			=	HC3Dglasses,
+	}
+
+/************************RECIPES************************/
+
+
+
+
+}
+
+
+
+

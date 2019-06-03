@@ -1,0 +1,1553 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, Radio
+
+    }
+
+/************************ITEMS************************/
+
+item HCElectornicsbench
+    {
+	WeightReduction         = 0,
+	Weight             	= 10,
+	Type                	= Container,
+	Capacity             	= 50,
+        DisplayName         	= Electronics Workbench,
+        icon 			= HCElectornicsbench,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCCalculator
+    {
+        Weight    		= 0.7,
+        Type    		= Normal,
+        DisplayName         	= Calculator,
+        icon 			= HCCalculator,
+    }  
+
+item HCSolarcell
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Solar Cell,
+        icon 			= HCSolarcell,
+    }  
+
+item HCElectonicscale
+    {
+        Weight    			= 0.5,
+        Type    			= Normal,
+        DisplayName         		= Electronic Scale,
+        icon 				= HCElectronicscale,
+    }
+
+item HCRadioantenna
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Radio Antenna,
+        icon 			= HCRadioantenna,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCMag
+    {
+        Weight    	= 0.3,
+        Type    	= Normal,
+        DisplayName     = Magnetron,
+        icon 		= HCMag,
+    }
+
+item HCPowercord
+    {
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Powercord,
+        icon 				= HCPowercord,
+    }
+
+item HCControlpanel
+    {
+        Weight    			= 10,
+        Type    			= Normal,
+        DisplayName         		= Control Panel,
+        ResizeWorldIcon 	        = 1.0,
+        icon 				= HCControlpanel,
+    }
+
+item HCChargingunit
+    {
+        Weight    			= 20,
+        Type    			= Normal,
+        DisplayName         		= Charging Unit (On),
+        ResizeWorldIcon 	        = 1.0,
+        icon 				= HCChargingunit,
+    }
+
+item HCChargingunitoff
+    {
+        Weight    			= 20,
+        Type    			= Normal,
+        DisplayName         		= Charging Unit (Off),
+        ResizeWorldIcon 	        = 1.0,
+        icon 				= HCChargingunitoff,
+    }
+
+item HCCashregister
+    {
+        Weight    			= 1.0,
+        Type    			= Normal,
+        DisplayName         		= Cash Register,
+        icon 				= HCCashregister,
+    }  
+
+item HCFaxmachine
+    {
+        Weight    			= 1.0,
+        Type    			= Normal,
+        DisplayName         		= Fax Machine,
+        icon 				= HCFaxmachine,
+    } 
+
+item HCCopymachine
+    {
+        Weight    			= 10.0,
+        Type    			= Normal,
+        DisplayName         		= Copy Machine,
+        icon 				= HCCopymachine,
+        ResizeWorldIcon 	        = 1.0,
+    } 
+
+item HCPrinter
+    {
+        Weight    			= 1.0,
+        Type    			= Normal,
+        DisplayName         		= Printer,
+        icon 				= HCPrinter,
+    }
+
+item HCJoystick
+    {
+        Weight    			= 0.3,
+        Type    			= Normal,
+        DisplayName         		= Joystick,
+        icon 				= HCJoystick,
+    }
+
+item HCRouter
+    {
+        Weight    			= 0.5,
+        Type    			= Normal,
+        DisplayName         		= Router,
+        icon 				= HCRouter,
+    }
+
+item HCScaner
+    {
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Scanner,
+        icon 				= HCScaner,
+    }
+
+item HCComputermonitor
+    {
+        Weight    			= 1.0,
+        Type    			= Normal,
+        DisplayName         		= Computer Monitor,
+        icon 				= HCComputermonitor,
+    }
+
+item HCComputer
+    {
+        Weight    			= 2.0,
+        Type    			= Normal,
+        DisplayName         		= Computer,
+        icon 				= HCComputer,
+    }
+
+item HCComputerkeyboard
+    {
+        Weight    			= 0.5,
+        Type    			= Normal,
+        DisplayName         		= Computer Keyboard,
+        icon 				= HCComputerkeyboard,
+    }
+
+item HCElectricclamp
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Electric Clamp,
+        icon 				= HCElectricclamp,
+    }
+
+item HCCablecopper
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Copper Cable,
+        icon 				= HCCablecopper,
+    }
+
+item HCComputermouse
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Computer Mouse,
+        icon 				= HCComputermouse,
+    }
+
+item HCMousepad
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Mouse Pad,
+        icon 				= HCMousepad,
+    }
+
+item HCComputerfan
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Computer Fan,
+        icon 				= HCComputerfan,
+    }
+
+item HCCircutchip
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         		= Circut Chip,
+        icon 				= HCCircutchip,
+    }
+
+item HCSolder
+	{
+	Weight 				= 	0.1,
+	Type 				= 	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.1,
+	DisplayName 			= 	Solder,
+	Icon 				= 	HCSolder,
+	}
+
+item HCSoldergun
+	{
+	Weight				=	0.5,
+	Type				=	Normal,
+	DisplayName			=	Solder Gun,
+	Icon				=	HCSoldergun,
+	}
+
+item HCSoldergunpowered
+	{
+	Weight 				= 	0.5,
+	Type 				= 	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.125,
+	DisplayName 			= 	Solder Gun with Power,
+	ReplaceOnDeplete		=	HCSoldergundead,
+	Icon 				= 	HCSoldergunpowered,
+	}
+
+item HCSoldergundead
+    {
+        Weight    			= 	0.5,
+        Type    			= 	Normal,
+        DisplayName         		= 	Solder Gun with Dead Battery,
+        icon 				= 	HCSoldergun,
+    }
+
+item HCCabletangle
+    {
+        Weight   		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Tangled Cables,
+        icon 			= HCCabletangle,
+    }
+
+item HCCircuitboarduseless
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Useless Circuit Board,
+        icon 			= HCCircuitboarduseless,
+    }
+
+item HCElectronicpartsbroken
+
+    {
+	Weight				=	0.5,
+	Type				=	Drainable,
+	UseDelta			=	0.125,
+	DisplayName			=	Broken Electronic Parts,
+	ReplaceOnDeplete		=	HCCircuitboardpieces,
+	Icon				=	HCElectronicpartsbroken,
+    }
+
+item HCCircuitboardpieces
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Empty Circuitboard Pieces,
+        icon 			= HCCircuitboardpieces,
+    }
+
+item HCElectronicparts01
+    {
+        Weight   		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Small Electronic Parts,
+        icon 			= HCElectronicparts01,
+    }
+
+item HCElectronicparts02
+    {
+        Weight   		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Small Electronic Parts,
+        icon 			= HCElectronicparts02,
+    }
+
+item HCElectronicparts03
+    {
+        Weight   		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Small Electronic Parts,
+        icon 			= HCElectronicparts03,
+    }
+
+item HCElectronicparts04
+    {
+        Weight   		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Small Electronic Parts,
+        icon 			= HCElectronicparts04,
+    }
+
+item HCPlatinemovingsensor
+    {
+        Weight    		=    0.5,
+        Type    		=    Normal,
+        DisplayName    		=    Moving Sensor Platine,
+        Icon   		 	=    HCPlatinemovingsensor,
+    }
+
+item HCPlatineirremote
+    {
+        Weight    		=    0.5,
+        Type    		=    Normal,
+        DisplayName    		=    IR Remote Platine,
+        Icon   		 	=    HCPlatineirremote,
+    }
+
+item HCPlatineirreceiver
+    {
+        Weight    		=    0.5,
+        Type    		=    Normal,
+        DisplayName    		=    IR Receiver Platine,
+        Icon   		 	=    HCPlatineirreceiver,
+    }
+
+item HCCircuitboardcopperside
+	{
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Copper Circuit Board,
+	Icon			=	HCCircuitboardcopperside,
+	}
+
+item HCCircuitboardcoppersidephotolacquer
+	{
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Circuit Board With Photo Lacquer,
+	Icon			=	HCCircuitboardcoppersidephotolacquer,
+	}
+
+item HCCircuitprint
+	{
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Circuit Print,
+	Icon			=	HCCircuitprint,
+	}
+
+item HCCircuitboardprinted
+	{
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Printet Circuit Board,
+	Icon			=	HCCircuitboardprinted,
+	}
+
+item HCCircuitboarddeveloped
+	{
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Developed Circuit Board,
+	Icon			=	HCCircuitboardcopperside,
+	}
+
+item HCCircuitboardwashed01
+	{
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Washed Circuit Board,
+	Icon			=	HCCircuitboardwashed01,
+	}
+
+item HCCircuitboardwashed02
+	{
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Re-Washed Circuit Board,
+	Icon			=	HCCircuitboardwashed02,
+	}
+
+item HCCircuitboarddrilled
+	{
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Circuit Board With Holes,
+	Icon			=	HCCircuitboarddrilled,
+	}
+
+item HCCircuitboardempty
+	{
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Empty Circuit Board,
+	Icon			=	HCCircuitboardempty,
+	}
+
+item HCDisplay
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Display,
+        icon 			= HCDisplay,
+    }
+
+item HCSwitch
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Switch,
+        icon 			= HCSwitch,
+    }
+
+item HCLedred
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Red LED,
+        icon 			= HCLedred,
+    }
+
+item HCLedgreen
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Green LED,
+        icon 			= HCLedgreen,
+    }
+
+item HCLedyellow
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Yellow LED,
+        icon 			= HCLedyellow,
+    }
+
+item HCLedblue
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Blue LED,
+        icon 			= HCLedblue,
+    }
+
+item HCCapacitor01
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Capacitor,
+        icon 			= HCCapacitor01,
+    }
+
+item HCCapacitor02
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Capacitor,
+        icon 			= HCCapacitor02,
+    }
+
+item HCCeramicoscillator
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Ceramic Oscillator,
+        icon 			= HCCeramicoscillator,
+    }
+
+item HCColoredwire
+    {
+        Weight   		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Colored Wire,
+        icon 			= HCColoredwire,
+    }
+
+item HCComputerfandismantled
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Dismantled Computer Fan,
+        icon 			= HCComputerfandismantled,
+    }
+
+item HCCoppercablered
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Red Copper Cable,
+        icon 			= HCCoppercablered,
+    }
+
+item HCCoppercablestriped
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Striped Copper Cable,
+        icon 			= HCCoppercablestriped,
+    }
+
+item HCDiode
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Diode,
+        icon 			= HCDiode,
+    }
+
+item HCElectromotor
+    {
+        Weight   		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Large Electromotor,
+        icon 			= HCElectromotor,
+    }
+
+item HCElectromotorsmall
+    {
+        Weight   		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Small Electromotor,
+        icon 			= HCElectromotorsmall,
+    }
+
+item HCFuse
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Fuse,
+        icon 			= HCFuse,
+    }
+
+item HCGlowlamp
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Glowlamp,
+        icon 			= HCGlowlamp,
+    }
+
+item HCVacuumtube
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Vacuum Tube,
+        icon 			= HCVacuumtube,
+    }
+
+item HCHeatelement
+    {
+        Weight   		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Heat Element,
+        icon 			= HCHeatelement,
+    }
+
+item HCInduktor
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Inductor,
+        icon 			= HCInduktor,
+    }
+
+item HCIREmitter
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= IR Emitter,
+        icon 			= HCIREmitter,
+    }
+
+item HCIRReceiver
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= IR Receiver,
+        icon 			= HCIRReceiver,
+    }
+
+item HCLDR
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= LDR,
+        icon 			= HCLDR,
+    }
+
+item HCPoti
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Poti,
+        icon 			= HCPoti,
+    }
+
+item HCReceiverIC
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Receiver IC,
+        icon 			= HCReceiverIC,
+    }
+
+item HCIRDecoder
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= IR Decoder,
+        icon 			= HCReceiverIC,
+    }
+
+item HCIREncoder
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= IR Encoder,
+        icon 			= HCReceiverIC,
+    }
+
+item HCResistor
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Resistor,
+        icon 			= HCResistor,
+    }
+
+item HCResistorbox
+    {
+        Weight   		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Resistors,
+        icon 			= HCResistorbox,
+    }
+
+item HCTerminalstrip
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Terminal Strip,
+        icon 			= HCTerminalstrip,
+    }
+
+item HCTransistor
+    {
+        Weight   		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Transistor,
+        icon 			= HCTransistor,
+    }
+
+item HCWashingmachinepump
+    {
+        Weight   		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Washingmachine Pump,
+        icon 			= HCWashingmachinepump,
+    }
+
+item HCCPU
+    {
+        Weight			=	0.01,	
+        Type			=	Normal,
+        DisplayName		=	CPU,
+       	Icon			=	HCCPU,
+    }
+
+item HCComputerPSU
+    {
+        Weight			=	1.0,	
+        Type			=	Normal,
+        DisplayName		=	Computer PSU,
+       	Icon			=	HCPSU,
+    }
+
+/************************RECIPES************************/
+    
+recipe Make Electronics Workbench
+    {
+	SkillRequired:Electricity=1,
+	Notebook=3,
+	RadioRed/RadioBlack,
+	HamRadio1/HamRadio2,
+        HCComputermonitor,
+	HCComputer,
+	HCComputerkeyboard,
+	HCComputermouse,
+	HCPowercord,
+	HCWirecopper=3,
+	HCToolbox,
+	HCPlasticbin,
+	HCWorkbench,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCElectornicsbench,
+	Time:1000,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Control Panel
+    {
+	SkillRequired:Electricity=3,
+	HCSteelpole,
+        SheetMetal=4,
+	HCCablecopper=5,
+    	HCLedred=2,
+	HCLedyellow=2,
+	HCLedgreen=2,
+	HCSwitch,
+	HCDisplay,
+        HCPowercord,
+	HCTerminalstrip,
+	HCFuse,
+	HCSolder,
+	HCSoldergunpowered,
+    	HCWeldingset,
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+	keep HCElectornicsbench,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCControlpanel,
+        Time:1000,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Upgrade To Charging Unit
+    {
+	SkillRequired:Electricity=3,
+        HCSteammachine,
+	HCBatteryarray,
+	HCBicyclewheel=2,
+        HCSteelbeam,
+	HCSteelpole=4,
+	HCControlpanel,
+	HCCablecopper=5,
+        HCXmaslights,
+        HCDynamo,
+	HCSolder,
+	HCSoldergunpowered,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCChargingunitoff,
+        Time:1000,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Electricity
+    {
+	SkillRequired:Electricity=3,
+	HCChargingunitoff,
+        Charcoal=2,
+        Water=10,
+        keep HCPowercord,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCChargingunit,
+        Time:1000,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Turn Off Charging Unit
+    {
+	SkillRequired:Electricity=3,
+	HCChargingunit,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCChargingunitoff,
+        Time:1000,
+        Category:Electrical,
+    }
+
+recipe Make Circut Chip
+    {
+	SkillRequired:Electricity=1,
+        HCElectrumingot,
+        HCIroningot,
+        HCCablecopper,
+	HCSolder,
+	HCSoldergunpowered,
+	keep HCElectornicsbench,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCCircutchip,
+	Time:200,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Small Electric Motor
+    {
+	SkillRequired:Electricity=3,
+	HCTinboard=2,
+	HCCoil=2,
+	HCMagnetiteingot,
+	HCSteelrod,
+        HCCablecopper,
+	HCSolder,
+	HCSoldergunpowered,
+	keep HCPliers,
+	keep HCElectornicsbench,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCElectromotorsmall,
+	Time:400,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Electric Motor
+    {
+	SkillRequired:Electricity=4,
+	HCTinboard=4,
+	HCCoil=4,
+	HCMagnetiteingot,
+	HCSteelrod,
+        HCCablecopper,
+	HCSolder,
+	HCSoldergunpowered,
+	keep HCPliers,
+	keep HCElectornicsbench,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCElectromotor,
+	Time:800,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Insert Battery
+    {
+    	HCSoldergun,
+    	HCBatterysmall,
+    	Result:HCSoldergunpowered,
+    	Time:15,
+    	Category:Electrical,
+    }
+
+recipe Remove Battery
+    {
+    	HCSoldergundead,
+    	Result:HCSoldergun,
+    	Time:15,
+    	Category:Electrical,
+    	OnCreate:recipe_hcbatterysmalldead,
+    }
+
+recipe Loot Electronic Parts
+    {
+       	SkillRequired:Electricity=1,
+       	HCElectronicpartsbroken,
+       	HCSoldergunpowered,
+	keep HCElectornicsbench,
+        CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+       	Result:HCCircuitboardpieces,
+       	Time:200.0,
+       	Category:Electrical,
+       	OnCreate:recipe_hcelectronics02,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Loot Electronic Parts
+    {
+       	SkillRequired:Electricity=1,
+       	HCElectronicpartsbroken,
+       	HCSoldergunpowered,
+	keep Screwdriver,
+        CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+       	Result:HCCircuitboardpieces,
+       	Time:900.0,
+       	Category:Electrical,
+       	OnCreate:recipe_hcelectronics02,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Loot Electronics Parts
+    {
+       	SkillRequired:Electricity=1,
+       	ElectronicsScrap=2,
+       	HCSoldergunpowered,
+       	keep HCElectornicsbench,
+       	CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+       	Result:HCCabletangle,
+       	Time:200.0,
+       	Category:Electrical,
+       	OnCreate:recipe_hcelectronicparts,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Sort Electronic Parts
+    {
+       	HCElectronicparts01,
+       	keep HCElectornicsbench,
+       	CanBeDoneFromFloor:true,
+       	Result:HCCircuitboarduseless,
+       	Time:60.0,
+       	Category:Electrical,
+       	OnCreate:recipe_hcsortparts01,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Sort Electronic Parts
+    {
+       	HCElectronicparts02,
+       	keep HCElectornicsbench,
+       	CanBeDoneFromFloor:true,
+       	Result:HCCircuitboarduseless,
+       	Time:60.0,
+       	Category:Electrical,
+      	OnCreate:recipe_hcsortparts02,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Sort Electronic Parts
+    {
+       	HCElectronicparts03,
+       	keep HCElectornicsbench,
+       	CanBeDoneFromFloor:true,
+       	Result:HCCircuitboarduseless,
+       	Time:60.0,
+       	Category:Electrical,
+       	OnCreate:recipe_hcsortparts03,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Sort Electronic Parts
+    {
+       	HCElectronicparts04,
+       	keep HCElectornicsbench,
+       	CanBeDoneFromFloor:true,
+       	Result:HCCircuitboarduseless,
+       	Time:60.0,
+       	Category:Electrical,
+       	OnCreate:recipe_hcsortparts04,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Untangle Cables
+    {
+       	HCCabletangle,
+       	keep HCElectornicsbench,
+       	CanBeDoneFromFloor:true,
+       	Result:HCTerminalstrip=5,
+       	Time:120.0,
+       	Category:Electrical,
+       	OnCreate:recipe_hccabletangle,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Unbox Resistors
+    {
+       HCResistorbox,
+       Result:HCResistor=100,
+       Time:10.0,
+       Category:Electrical,
+    }
+
+recipe Box Resistors
+    {
+       HCResistor=100,
+       SheetPaper/SheetPaper2,
+       Result:HCResistorbox,
+       Time:50.0,
+       Category:Electrical,
+    }
+
+recipe Recycle Colored Wire
+    {
+       	keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+       	HCColoredwire,
+       	Result:HCCablecopper,
+       	Time:30.0,
+       	OnCreate:recipe_hcrecyclecable,
+       	Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Moving Sensor
+    {
+    	SkillRequired:Electricity=3,
+    	HCCircuitboardempty,
+    	HCResistor=4,
+    	HCCapacitor02=2,
+    	HCLedred,
+    	HCLDR,
+    	HCTransistor=2,
+    	HCSolder,
+    	HCSoldergunpowered,
+    	HCWirecopper,
+    	keep Tweezers,
+    	keep HCMagnifyglass,
+    	keep HCElectornicsbench,
+       	CanBeDoneFromFloor:true,
+    	Result:HCPlatinemovingsensor,
+    	NeedToBeLearn:true,
+    	Time:200,
+    	Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Put Sensor In Case
+    {
+    	SkillRequired:Electricity=1,
+    	keep Screwdriver,
+    	Screws=2,
+    	HCPlatinemovingsensor,
+    	destroy Battery,
+    	HCSelfmadeplasticcase,
+    	keep HCElectornicsbench,
+       	CanBeDoneFromFloor:true,
+    	Result:MotionSensor,
+    	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make IR Remote
+    {
+    	SkillRequired:Electricity=6,
+    	HCCircuitboardempty,
+    	HCResistor=3,
+    	HCCapacitor02=2,
+    	HCCeramicoscillator,
+    	HCIREncoder,
+    	HCIREmitter,
+    	HCSolder,
+    	HCSoldergunpowered,
+    	HCWirecopper,
+    	keep Tweezers,
+    	keep HCMagnifyglass,
+    	keep HCElectornicsbench,
+       	CanBeDoneFromFloor:true,
+    	Result:HCPlatineirremote,
+    	NeedToBeLearn:true,
+    	Time:200,
+    	Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Put Remote In Case
+    {
+    	SkillRequired:Electricity=1,
+    	keep Screwdriver,
+    	destroy Battery,
+    	Screws=2,
+    	HCPlatineirremote,
+    	HCSelfmadeplasticcase,
+    	keep HCElectornicsbench,
+       	CanBeDoneFromFloor:true,
+    	Result:RemoteCraftedV3,
+    	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make IR Receiver
+    {
+    	SkillRequired:Electricity=2,
+    	HCCircuitboardempty,
+    	HCIRReceiver,
+    	HCCapacitor02,
+    	HCResistor=2,
+    	HCIRDecoder,
+    	HCTransistor=2,
+    	HCSolder,
+    	HCSoldergunpowered,
+    	HCWirecopper,
+    	keep Tweezers,
+    	keep HCMagnifyglass,
+    	keep HCElectornicsbench,
+       	CanBeDoneFromFloor:true,
+    	Result:HCPlatineirreceiver,
+    	NeedToBeLearn:true,
+    	Time:200,
+    	Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Put Receiver In Case
+    {
+    	SkillRequired:Electricity=1,
+    	keep Screwdriver,
+    	Screws=2,
+    	destroy Battery,
+    	HCPlatineirreceiver,
+    	HCSelfmadeplasticcase,
+    	keep HCElectornicsbench,
+       	CanBeDoneFromFloor:true,
+    	Result:TriggerCrafted,
+    	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Spray Photo Lacquer on Platine
+    {
+    	HCCircuitboardcopperside,
+        HCPhotolacquer,
+        keep HCPhotobench,
+        CanBeDoneFromFloor:true,
+    	Result:HCCircuitboardcoppersidephotolacquer,
+    	Time:50,
+    	Category:Alchemy,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Circuit Print
+    {
+    	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+        keep HCBookelectrical,
+    	Result:HCCircuitprint,
+    	Time:60,
+    	Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Place Circuit Print On Circuit Board
+    {
+    	HCCookingoil,
+        HCCircuitprint,
+    	HCPlasticcanempty,
+        HCCircuitboardcoppersidephotolacquer,
+    	Result:HCCircuitboardprinted,
+    	Time:50,
+    	Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Expose Printed Circuit Board 
+    {
+        keep HCPhotobench,
+        HCCircuitboardprinted,
+    	Result:HCCircuitboarddeveloped,
+    	Time:250,
+    	Category:Alchemy,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Develope Exposed Circuit Board
+    {
+        keep HCPhotobench,
+	HCPhotodevloper/HCBeakersodiumhydroxidesolution,
+        HCCircuitboarddeveloped,
+    	Result:HCCircuitboardwashed01,
+    	Time:50,
+    	Category:Alchemy,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Etch Platine
+    {
+	HCAcidbathmuriaticacid,
+	HCCircuitboardwashed01,
+        Battery,
+        OnCreate:recipe_hcgetacidbathmuriatic,
+    	Result:HCCircuitboardwashed02,
+    	Time:200,
+    	Category:Alchemy,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Drill Holes In Platine
+    {
+	HCCircuitboardwashed02,
+	HCElectricmultitooldrillpowered,
+    	Result:HCCircuitboarddrilled,
+    	Time:100,
+    	Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Clean Platine
+    {
+	HCCircuitboarddrilled,
+	Soap/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid,
+        keep Sponge/HCLoofah/HCSponge/RippedSheets,
+    	Result:HCCircuitboardempty,
+    	Time:50,
+    	Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Computer Mouse
+    {
+	SkillRequired:Electricity=2,
+	HCPlastic=2,
+	Screws,
+	MotionSensor,
+	HCElectronicparts01/HCElectronicparts02/HCElectronicparts03/HCElectronicparts04,
+        HCCablecopper,
+	HCSolder,
+	HCSoldergunpowered,
+	keep HCPliers,
+	keep Screwdriver,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCComputermouse,
+	Time:4000,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Computer Mouse
+    {
+	SkillRequired:Electricity=2,
+	HCPlastic=2,
+	Screws,
+	MotionSensor,
+	HCElectronicparts01/HCElectronicparts02/HCElectronicparts03/HCElectronicparts04,
+        HCCablecopper,
+	HCSolder,
+	HCSoldergunpowered,
+	keep HCPliers,
+	keep Screwdriver,
+    	keep HCElectornicsbench,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCComputermouse,
+	Time:400,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Computer Keyboard
+    {
+	SkillRequired:Electricity=3,
+	HCPlastic=8,
+	Screws=4,
+	ElectronicsScrap=3,
+        HCCablecopper=2,
+	HCLedyellow=3,
+	HCSolder,
+	HCSoldergunpowered,
+	keep HCPliers,
+	keep Screwdriver,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCComputerkeyboard,
+	Time:6000,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Computer Keyboard
+    {
+	SkillRequired:Electricity=3,
+	HCPlastic=8,
+	Screws=4,
+	ElectronicsScrap=3,
+        HCCablecopper=2,
+	HCLedyellow=3,
+	HCSolder,
+	HCSoldergunpowered,
+	keep HCPliers,
+	keep Screwdriver,
+    	keep HCElectornicsbench,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCComputerkeyboard,
+	Time:600,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Computer Monitor
+    {
+	SkillRequired:Electricity=5,
+	HCGlowlamp=4,
+	HCGlasspane=1,
+	HCPlastic=20,
+	Screws=12,
+	HCTerminalstrip=2,
+	HCSwitch,
+	HCCapacitor02=3,
+	HCResistor=3,
+	HCDiode,
+	HCTransistor=3,
+	HCCircutchip,
+	ElectronicsScrap=5,
+	HCColoredwire=4,
+        HCCablecopper=2,
+	HCLedgreen,
+	HCSolder,
+	HCSoldergunpowered,
+	keep HCPliers,
+	keep Screwdriver,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCComputermonitor,
+	Time:8000,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Computer Monitor
+    {
+	SkillRequired:Electricity=5,
+	HCGlowlamp=4,
+	HCGlasspane=1,
+	HCPlastic=20,
+	Screws=12,
+	HCTerminalstrip=2,
+	HCSwitch,
+	HCCapacitor02=3,
+	HCResistor=3,
+	HCDiode,
+	HCTransistor=3,
+	HCCircutchip,
+	ElectronicsScrap=5,
+	HCColoredwire=4,
+        HCCablecopper=2,
+	HCLedgreen,
+	HCSolder,
+	HCSoldergunpowered,
+	keep HCPliers,
+	keep Screwdriver,
+    	keep HCElectornicsbench,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCComputermonitor,
+	Time:800,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Computer PSU
+    {
+	SkillRequired:Electricity=3,
+	HCMetalboard,
+	Screws=8,
+	ElectronicsScrap=3,
+        HCCablecopper=3,
+	HCLedred,
+	HCElectromotorsmall,
+	HCSwitch,
+	HCCapacitor01=1,
+	HCResistor=1,
+	HCDiode,
+	HCTransistor=2,		
+	HCSolder,
+	HCSoldergunpowered,
+	keep HCPliers,
+	keep Screwdriver,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCComputerPSU,
+	Time:6000,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Computer PSU
+    {
+	SkillRequired:Electricity=3,
+	HCMetalboard,
+	Screws=8,
+	ElectronicsScrap=3,
+        HCCablecopper=3,
+	HCLedred,
+	HCElectromotorsmall,
+	HCSwitch,
+	HCCapacitor01=1,
+	HCResistor=1,
+	HCDiode,
+	HCTransistor=2,		
+	HCSolder,
+	HCSoldergunpowered,
+	keep HCPliers,
+	keep Screwdriver,
+    	keep HCElectornicsbench,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCComputerPSU,
+	Time:600,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Computer Fan
+    {
+	SkillRequired:Electricity=1,
+	HCPlastic=5,
+	Screws=4,
+	HCElectromotorsmall,
+        HCCablecopper=2,
+	HCSolder,
+	HCSoldergunpowered,
+	keep HCPliers,
+	keep Screwdriver,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCComputerfan,
+	Time:6000,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Computer Fan
+    {
+	SkillRequired:Electricity=1,
+	HCPlastic=5,
+	Screws=4,
+	HCElectromotorsmall,
+        HCCablecopper=2,
+	HCSolder,
+	HCSoldergunpowered,
+	keep HCPliers,
+	keep Screwdriver,
+    	keep HCElectornicsbench,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCComputerfan,
+	Time:600,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Computer Tower
+    {
+	SkillRequired:Electricity=6,
+	HCMetalboard=3,
+	HCCPU,
+	HCComputerPSU,
+	HCComputerfan=2,
+	HCPlastic=10,
+	Screws=20,
+	HCTerminalstrip=3,
+	HCSwitch,
+	HCCapacitor02=5,
+	HCResistor=5,
+	HCDiode,
+	HCTransistor=5,
+	HCCircutchip=3,
+	ElectronicsScrap=8,
+	HCColoredwire=8,
+        HCCablecopper=5,
+	HCLedgreen,
+	HCLedred,		
+	HCSolder,
+	HCSoldergunpowered,
+	keep HCPliers,
+	keep Screwdriver,
+    	keep HCElectornicsbench,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCComputer,
+	Time:8000,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Computer Tower
+    {
+	SkillRequired:Electricity=6,
+	HCMetalboard=3,
+	HCCPU,
+	HCComputerPSU,
+	HCComputerfan=2,
+	HCPlastic=10,
+	Screws=20,
+	HCTerminalstrip=3,
+	HCSwitch,
+	HCCapacitor02=5,
+	HCResistor=5,
+	HCDiode,
+	HCTransistor=5,
+	HCCircutchip=3,
+	ElectronicsScrap=8,
+	HCColoredwire=8,
+        HCCablecopper=5,
+	HCLedgreen,
+	HCLedred,		
+	HCSolder,
+	HCSoldergunpowered,
+	keep HCPliers,
+	keep Screwdriver,
+    	keep HCElectornicsbench,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCComputer,
+	Time:800,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Extract Working CPU
+    {
+    	SkillRequired:Electricity=2,	
+    	ElectronicsScrap=30,
+        keep Screwdriver,
+    	Result:HCCPU,
+	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Extract Working CPU
+    {
+    	SkillRequired:Electricity=2,	
+    	ElectronicsScrap=30,
+        keep Screwdriver,
+    	keep HCElectornicsbench,
+    	Result:HCCPU,
+	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+}

@@ -1,0 +1,263 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCSolarpanel
+    {
+        Weight    		        = 5,
+        Type    		        = Normal,
+	DisplayName			= Solar Panel,
+	Icon				= HCSolarpanel,
+	ResizeWorldIcon 		= 1.0,
+    }
+
+item HCSelfmadesolarpanel
+    {
+        Weight    		        = 5,
+        Type    		        = Normal,
+	DisplayName			= Homemade Solar Panel,
+	Icon				= HCSelfmadesolarpanel,
+	ResizeWorldIcon 		= 2.0,
+    }
+
+item HCBatteryarray
+    {
+        Weight    		        = 8,
+        Type    		        = Normal,
+	DisplayName			= Battery Array,
+	Icon				= HCBatteryarray,
+	ResizeWorldIcon 		= 1.0,
+    }
+
+item HCSolarpark
+    {
+        Weight    		        = 20,
+        Type    		        = Normal,
+	DisplayName			= Solar Park,
+	Icon				= HCSolarpark,
+	ResizeWorldIcon 		= 1.0,
+    }
+
+item HCSolarparkcharged
+    {
+        Weight    		        = 20,
+	Type				= Drainable,
+	UseDelta			= 0.00390625,
+	ReplaceOnDeplete		= HCSolarpark,
+	DisplayName			= Charged Solar Park,
+	Icon				= HCSolarparkcharged,
+	ResizeWorldIcon 		= 1.0,
+    }
+
+item HCSolargen
+    {
+        Weight    		        = 20,
+        Type    		        = Normal,
+	DisplayName			= Solar Generator,
+	Icon				= HCSolargen,
+	ResizeWorldIcon 		= 1.0,
+    }
+
+item HCSolargen2
+    {
+        Weight    		        = 1000,
+        Type    		        = Normal,
+	DisplayName			= Solar Generator (Plugged In),
+	Icon				= HCSolargen2,
+	ResizeWorldIcon 		= 1.0,
+    }
+
+/************************RECIPES************************/
+
+recipe Build Battery Array
+    {
+    	SkillRequired:Electricity=3,
+    	HCCarbattery=8,
+    	SheetMetal=3,
+    	HCCoppercablered=2,
+    	HCCablecopper=2,
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+    	HCWeldingset,
+	keep HCElectornicsbench,
+        CanBeDoneFromFloor:true,
+    	Result:HCBatteryarray,
+    	Time:1250,
+    	Category:Electrical,
+    	NeedToBeLearn:true,
+    	CanBeDoneFromFloor:true,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+    
+recipe Build Solar Panel
+    {
+    	SkillRequired:Electricity=6,
+    	HCSolarcell=10,
+    	HCWirecopper,
+	HCGlasspane,
+    	HCWoodsheet,
+    	HCSoldergunpowered,
+    	HCSolder,
+	keep HCElectornicsbench,
+        CanBeDoneFromFloor:true,
+    	Result:HCSolarpanel,
+    	Time:1000,
+    	Category:Electrical,
+    	NeedToBeLearn:true,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Build Solar Park
+    {
+    	SkillRequired:Electricity=7,
+    	HCSolarpanel=4,
+    	HCSteelpole,
+    	HCBatteryarray,
+    	HCCoppercablered=2,
+    	HCCablecopper=2,
+    	HCLedred=2,
+    	HCLedyellow,
+    	HCLedgreen,
+    	HCSwitch,
+    	HCDisplay,
+    	HCPowercord,
+    	HCSoldergunpowered,
+    	HCSolder,
+	keep HCElectornicsbench,
+        CanBeDoneFromFloor:true,
+    	Result:HCSolarpark,
+    	Time:1250,
+    	Category:Electrical,
+    	NeedToBeLearn:true,
+    	CanBeDoneFromFloor:true,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Recharge Battery
+    {
+	SkillRequired:Electricity=3,
+        HCSolarparkcharged, 
+        HCBatterysmalldead,
+        keep HCCablecopper,
+        NeedToBeLearn:true,
+	Result:HCBatterysmall,
+	Time:15.0,
+        Category:Electrical,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Recharge Battery
+    {
+	SkillRequired:Electricity=3,
+        HCSolarparkcharged=2, 
+        HCBatterydead,
+        keep HCCablecopper,
+        NeedToBeLearn:true,
+	Result:Battery,
+	Time:15.0,
+        Category:Electrical,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Recharge Battery
+    {
+	SkillRequired:Electricity=3,
+        HCSolarparkcharged=3, 
+        HCBattery9voltdead,
+        keep HCCablecopper,
+        NeedToBeLearn:true,
+	Result:HCBattery9volt,
+	Time:15.0,
+        Category:Electrical,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Recharge Battery
+    {
+	SkillRequired:Electricity=3,
+        HCSolarparkcharged=4, 
+        HCBatterymediumdead,
+        keep HCCablecopper,
+        NeedToBeLearn:true,
+	Result:HCBatterymedium,
+	Time:15.0,
+        Category:Electrical,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Recharge Battery
+    {
+	SkillRequired:Electricity=3,
+        HCSolarparkcharged=8, 
+        HCBatterylargedead,
+        keep HCCablecopper,
+        NeedToBeLearn:true,
+	Result:HCBatterylarge,
+	Time:15.0,
+        Category:Electrical,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Recharge Battery
+    {
+	SkillRequired:Electricity=3,
+        HCSolarparkcharged=16, 
+        HCBatteryhugedead,
+        keep HCCablecopper,
+        NeedToBeLearn:true,
+	Result:HCBatteryhuge,
+	Time:15.0,
+        Category:Electrical,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Upgrade to Solar Generator
+    {
+	SkillRequired:Electricity=8,
+        HCSolarpark,
+	Generator,
+        keep Screwdriver,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        Result:HCSolargen,
+        Time:50,
+        Category:Electrical,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Plugin Solar Generator
+    {
+	SkillRequired:Electricity=3,
+        HCSolargen,
+        keep Screwdriver,
+        NeedToBeLearn:true,
+	CanBeDoneFromFloor:true,
+        Result:Screwdriver,
+        Time:50,
+        Category:Electrical,
+        OnCreate:HCSetSolarGen,
+    	RemoveResultItem:true,
+    }
+
+recipe Unplug Solar Generator
+    {
+	SkillRequired:Electricity=3,  
+        HCSolargen2,
+        keep Screwdriver,
+        NeedToBeLearn:true,
+	CanBeDoneFromFloor:true,
+        Result:HCSolargen,
+        Time:50,
+        Category:Electrical,
+        OnCreate:HCRemoveSolarGen,
+    } 
+
+}
+

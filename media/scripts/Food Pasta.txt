@@ -1,0 +1,186 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCFreshpasta
+	{
+	HungerChange			=	-20,
+	Weight				=	0.2,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	10,
+	MinutesToBurn			=	20,
+	DaysFresh			=	1,	
+	DaysTotallyRotten		=	3,
+	DisplayName			=	Fresh Pasta,
+	Icon				=	HCFreshpasta,
+	FoodType    			=   	Pasta,
+	Carbohydrates 			= 	48,
+        Proteins 			= 	10,
+        Lipids 				= 	4,
+        Calories 			= 	260,
+	}
+
+item HCLasagnauncooked
+	{
+	HungerChange			=	-70,
+	Type				=	Food,
+	DisplayName			=	Uncooked Lasagna,
+	MinutesToCook			=	40,
+	Weight				=	2,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	DaysTotallyRotten		=	4,
+	MinutesToBurn			=	80,
+	Icon				=	HCLasagnauncooked,
+	ReplaceOnCooked			=	Hydrocraft.HCLasagna,	
+	BoredomChange			=	15,
+	UnhappyChange			=	15,
+	DaysFresh			=	2,
+	FoodType    			=   	Pasta,
+	Carbohydrates 			= 	228,
+        Proteins 			= 	216,
+        Lipids 				= 	214,
+        Calories 			= 	3700,
+	}
+
+item HCLasagna
+	{
+	HungerChange			=	-70,
+	Type				=	Food,
+	DisplayName			=	Lasagna,
+	Weight				=	2,
+	DaysTotallyRotten		=	4,
+	Icon				=	HCLasagna,
+	ReplaceOnUse			=	RoastingPan,
+	BoredomChange			=	-35,
+	UnhappyChange			=	-35,
+	DaysFresh			=	2,
+	FoodType    			=   	Pasta,
+	Carbohydrates 			= 	228,
+        Proteins 			= 	216,
+        Lipids 				= 	214,
+        Calories 			= 	3700,
+	}
+
+item HCPastafettuccine
+    	{
+        Weight				=	2,
+        Type				=	Food,
+        DisplayName			=	Fettuccine Pasta,
+        Icon				=	HCPastafettuccine,
+        HungerChange    		=   	-60,
+        UnhappyChange   		=   	40,
+        ThirstChange    		=   	60,
+        Carbohydrates 			= 	656,
+        Proteins 			= 	112,
+        Lipids 				= 	16,
+        Calories 			= 	3360,
+        Packaged 			= 	TRUE,
+    	}
+
+item HCPastamacaroni
+    	{
+        Weight				=	2,
+        Type				=	Food,
+        DisplayName			=	Macaroni Pasta,
+        Icon				=	HCPastamacaroni,
+        HungerChange    		=   	-60,
+        UnhappyChange   		=   	40,
+        ThirstChange    		=   	60,
+        Carbohydrates 			= 	656,
+        Proteins 			= 	112,
+        Lipids 				= 	16,
+        Calories 			= 	3360,
+        Packaged 			= 	TRUE,
+    	}
+
+item HCPastarotini
+    	{
+        Weight				=	2,
+        Type				=	Food,
+        DisplayName			=	Rotini Pasta,
+        Icon				=	HCPastarotini,
+        HungerChange    		=   	-60,
+        UnhappyChange   		=   	40,
+        ThirstChange    		=   	60,
+        Carbohydrates 			= 	656,
+        Proteins 			= 	112,
+        Lipids 				= 	16,
+        Calories 			= 	3360,
+        Packaged 			= 	TRUE,
+    	}
+
+/************************RECIPES************************/
+
+recipe Prepare Fresh Pasta
+	{
+                SkillRequired:Cooking=5,
+		Flour/HCRiceflour,
+                Water=1,
+		Egg/WildEggs/HCGooseegg/HCTurkeyegg/HCSparrowegg,
+                Salt;1,
+                keep RollingPin,
+		Result:HCFreshpasta,
+    		NeedToBeLearn:true,
+		Time:80.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+
+recipe Prepare Lasagna
+	{
+       		SkillRequired:Cooking=6,
+		destroy RoastingPan,
+		HCFreshpasta,
+		HCTomatosaucebowl,
+		Broccoli/Eggplant/Ham/Steak/Chicken/Salmon/TunaTinOpen/Cheese/HCCheddar/BellPepper/HCBellpeppergreen/HCBellpepperyellow/HCCauliflower,
+		Cheese/HCCheddar,
+		Result:HCLasagnauncooked,
+    		NeedToBeLearn:true,
+		Time:100.0,
+	   	Category:Cooking,
+		OnCreate:HCRecipeBowls,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Place Pasta in Saucepan
+	{
+	   	HCPastafettuccine;10,
+	   	destroy WaterSaucepan,
+	   	Result:WaterSaucepanPasta,
+	   	Time:50.0,
+	   	Category:Cooking,
+	   	OnGiveXP:NoXP_OnGiveXP,
+	}
+
+recipe Place Pasta in Saucepan
+	{
+	   	HCPastamacaroni;10,
+	   	destroy WaterSaucepan,
+	   	Result:WaterSaucepanPasta,
+	   	Time:50.0,
+	   	Category:Cooking,
+	   	OnGiveXP:NoXP_OnGiveXP,
+	}
+
+recipe Place Pasta in Saucepan
+	{
+	   	HCPastarotini;10,
+	   	destroy WaterSaucepan,
+	   	Result:WaterSaucepanPasta,
+	   	Time:50.0,
+	   	Category:Cooking,
+	   	OnGiveXP:NoXP_OnGiveXP,
+	}
+	
+}

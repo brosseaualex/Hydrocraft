@@ -1,0 +1,696 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCPaintbrush
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Paintbrush,
+        icon 			= HCPaintbrush,
+    }
+
+item HCPainterpalette
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Painter Palette,
+        icon 			= HCPainterpalette,
+    }
+
+item HCInkroller
+	{
+	Weight			=	0.2,
+	Type			=	Normal,
+	DisplayName		=	ink Roller,
+	Icon			=	HCInkroller,
+	}
+
+item HCCanvas
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Canvas,
+        icon 			= HCCanvas,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCEasel
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Easel,
+        icon 			= HCEasel,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCTurpentine
+    {
+        Weight    		= 0.3,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 0.25,
+        DisplayName         	= Turpentine,
+        icon 			= HCTurpentine,
+    }
+
+item HCWhitepigment
+    {
+        Weight    		= 0.3,
+        Type    		= Drainable,
+	UseDelta		= 0.125,
+        DisplayName         	= White Pigment,
+        icon 			= HCWhitepigment,
+    }
+
+item HCBrownpigment
+    {
+        Weight    		= 0.3,
+        Type    		= Drainable,
+	UseDelta		= 0.125,
+        DisplayName         	= Brown Pigment,
+        icon 			= HCBrownpigment,
+    }
+
+item HCYellowpigment
+    {
+        Weight    		= 0.3,
+        Type    		= Drainable,
+	UseDelta		= 0.125,
+        DisplayName         	= Yellow Pigment,
+        icon 			= HCYellowpigment,
+    }  
+
+item HCRedpigment
+    {
+        Weight    		= 0.3,
+        Type    		= Drainable,
+	UseDelta		= 0.125,
+        DisplayName         	= Red Pigment,
+        icon 			= HCRedpigment,
+    }  
+
+item HCGreenpigment
+    {
+        Weight    		= 0.3,
+        Type    		= Drainable,
+	UseDelta		= 0.125,
+        DisplayName         	= Green Pigment,
+        icon 			= HCGreenpigment,
+    }  
+
+item HCBluepigment
+    {
+        Weight    		= 0.3,
+        Type    		= Drainable,
+	UseDelta		= 0.125,
+        DisplayName         	= Blue Pigment,
+        icon 			= HCBluepigment,
+    }  
+
+item HCPaintcan
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Empty Paint Can,
+        icon 			= HCPaintcan,
+    }  
+
+item HCJarpaintwhite
+    {
+        Weight    		= 0.6,
+        Type    		= Drainable,
+	UseDelta		= 0.25,
+        DisplayName         	= Jar of White Paint,
+        icon 			= HCJarpaintwhite,
+	ReplaceOnDeplete	= HCJar,
+    }
+
+item HCJarpaintyellow
+    {
+        Weight    		= 0.6,
+        Type    		= Drainable,
+	UseDelta		= 0.25,
+        DisplayName         	= Jar of Yellow Paint,
+        icon 			= HCJarpaintyellow,
+	ReplaceOnDeplete	= HCJar,
+    }
+
+item HCJarpaintred
+    {
+        Weight    		= 0.6,
+        Type    		= Drainable,
+	UseDelta		= 0.25,
+        DisplayName         	= Jar of Red Paint,
+        icon 			= HCJarpaintred,
+	ReplaceOnDeplete	= HCJar,
+    }
+
+item HCJarpaintblue
+    {
+        Weight    		= 0.6,
+        Type    		= Drainable,
+	UseDelta		= 0.25,
+        DisplayName         	= Jar of Blue Paint,
+        icon 			= HCJarpaintblue,
+	ReplaceOnDeplete	= HCJar,
+    }
+
+item HCJarpaintblack
+    {
+        Weight    		= 0.6,
+        Type    		= Drainable,
+	UseDelta		= 0.25,
+        DisplayName         	= Jar of Black Paint,
+        icon 			= HCJarpaintblack,
+	ReplaceOnDeplete	= HCJar,
+    }
+
+/************************RECIPES************************/
+
+recipe Make Easel
+    {
+	SkillRequired:Woodwork=4,
+    	WoodenStick=6,
+	Nails=4,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCEasel,
+    	Sound:PZ_Hammer,
+    	Time:400,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Painter Palette
+    {
+	SkillRequired:Woodwork=4,
+    	HCWoodblock,
+	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCPainterpalette,
+    	Sound:PZ_Saw,
+    	Time:200,
+    	Category:Carpentry,
+    	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Canvas
+    {
+	HCLinencloth,
+    	WoodenStick=4,
+	Nails=2,
+    	keep Hammer,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCCanvas,
+    	Sound:PZ_Hammer,
+    	Time:200,
+    	Category:Weaving,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Extract White Pigment
+    {
+    HCLeadpowder,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:HCWhitepigment,
+    Time:400,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Extract Brown Pigment
+    {
+    HCIronpowder/HCRedclay,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:HCBrownpigment,
+    Time:400,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Extract Yellow Pigment
+    {
+    HCIronpowder/HCTitaniumpowder/HCRedclay,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:HCYellowpigment,
+    Time:400,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Extract Red Pigment
+    {
+    HCIronpowder/HCCinnabar/HCLeadpowder/HCRedclay,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:HCRedpigment,
+    Time:400,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Extract Green Pigment
+    {
+    HCCopperpowder/HCMalachite,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:HCGreenpigment,
+    Time:400,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Extract Blue Pigment
+    {
+    Sandbag,
+    HCLimestone,
+    HCCopperpowder,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:HCBluepigment,
+    Time:400,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Extract Blue Pigment
+    {
+    HCLapislazulipowder/HCCobaltpowder/HCAzuritepowder,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:HCBluepigment,
+    Time:400,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Can of Pink Paint
+    {
+    HCPaintcan,
+    Glue/HCGluejar,
+    Glue/HCGluejar,
+    Water=2,
+    HCRedpigment,
+    HCWhitepigment,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:PaintPink,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Can of Red Paint
+    {
+    HCPaintcan,
+    Glue/HCGluejar,
+    Glue/HCGluejar,
+    Water=2,
+    HCRedpigment=2,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:PaintRed,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Can of Orange Paint
+    {
+    HCPaintcan,
+    Glue/HCGluejar,
+    Glue/HCGluejar,
+    Water=2,
+    HCRedpigment,
+    HCYellowpigment,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:PaintOrange,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Can of Brown Paint
+    {
+    HCPaintcan,
+    Glue/HCGluejar,
+    Glue/HCGluejar,
+    Water=2,
+    HCBrownpigment=2,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:PaintBrown,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Can of Light Brown Paint
+    {
+    HCPaintcan,
+    Glue/HCGluejar,
+    Glue/HCGluejar,
+    Water=2,
+    HCWhitepigment,
+    HCBrownpigment,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:PaintLightBrown,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Can of Yellow Paint
+    {
+    HCPaintcan,
+    Glue/HCGluejar,
+    Glue/HCGluejar,
+    Water=2,
+    HCYellowpigment=2,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:PaintYellow,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Can of Green Paint
+    {
+    HCPaintcan,
+    Glue/HCGluejar,
+    Glue/HCGluejar,
+    Water=2,
+    HCGreenpigment=2,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:PaintGreen,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Can of Turquoise Paint
+    {
+    HCPaintcan,
+    Glue/HCGluejar,
+    Glue/HCGluejar,
+    Water=2,
+    HCGreenpigment,
+    HCBluepigment,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:PaintTurquoise,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Can of Cyan Paint
+    {
+    HCPaintcan,
+    Glue/HCGluejar,
+    Glue/HCGluejar,
+    Water=2,
+    HCGreenpigment,
+    HCBluepigment,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:PaintCyan,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Can of Light Blue Paint
+    {
+    HCPaintcan,
+    Glue/HCGluejar,
+    Glue/HCGluejar,
+    Water=2,
+    HCWhitepigment,
+    HCBluepigment,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:PaintLightBlue,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Can of Blue Paint
+    {
+    HCPaintcan,
+    Glue/HCGluejar,
+    Glue/HCGluejar,
+    Water=2,
+    HCBluepigment=2,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:PaintBlue,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Can of Purple Paint
+    {
+    HCPaintcan,
+    Glue/HCGluejar,
+    Glue/HCGluejar,
+    Water=2,
+    HCRedpigment,
+    HCBluepigment,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:PaintPurple,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Can of Black Paint
+    {
+    HCPaintcan,
+    Glue/HCGluejar,
+    Glue/HCGluejar,
+    Water=2,
+    HCCharcoalpowder=2,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:PaintBlack,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Can of Grey Paint
+    {
+    HCPaintcan,
+    Glue/HCGluejar,
+    Glue/HCGluejar,
+    Water=2,
+    HCWhitepigment,
+    HCCharcoalpowder,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:PaintGrey,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Can of White Paint
+    {
+    HCPaintcan,
+    Glue/HCGluejar,
+    Glue/HCGluejar,
+    Water=2,
+    HCWhitepigment=2,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:PaintWhite,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Jar of White Paint
+    {
+    HCJar,
+    HCPaintcan,
+    Glue/HCGluejar,
+    Water,
+    HCWhitepigment,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:HCJarpaintwhite,
+    Time:100,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Jar of Yellow Paint
+    {
+    HCJar,
+    Glue/HCGluejar,
+    Water,
+    HCYellowpigment,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:HCJarpaintyellow,
+    Time:100,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Jar of Red Paint
+    {
+    HCJar,
+    Glue/HCGluejar,
+    Water,
+    HCRedpigment,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:HCJarpaintred,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Jar of Blue Paint
+    {
+    HCJar,
+    Glue/HCGluejar,
+    Water,
+    HCBluepigment,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:HCJarpaintblue,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Mix Jar of Black Paint
+    {
+    HCJar,
+    Glue/HCGluejar,
+    Water,
+    HCCharcoalpowder,
+    keep HCLab,
+    CanBeDoneFromFloor:true,
+    Result:HCJarpaintblack,
+    Time:150,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Paint on Canvas
+    {
+    	HCCanvas,
+    	HCJarpaintwhite,
+    	HCJarpaintyellow,
+    	HCJarpaintred,
+    	HCJarpaintblue,
+    	HCJarpaintblack,
+	keep HCPainterpalette,
+	keep HCPaintbrush,
+    	keep HCEasel,
+    	Result:HCPainting1,
+    	Time:3000,
+    	NeedToBeLearn:true,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Paint on Canvas
+    {
+    	HCCanvas,
+    	HCJarpaintwhite,
+    	HCJarpaintyellow,
+    	HCJarpaintred,
+    	HCJarpaintblue,
+    	HCJarpaintblack,
+	keep HCPainterpalette,
+	keep HCPaintbrush,
+    	keep HCEasel,
+    	Result:HCPainting2,
+    	Time:3000,
+    	NeedToBeLearn:true,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Paint on Canvas
+    {
+    	HCCanvas,
+    	HCJarpaintwhite,
+    	HCJarpaintyellow,
+    	HCJarpaintred,
+    	HCJarpaintblue,
+    	HCJarpaintblack,
+	keep HCPainterpalette,
+	keep HCPaintbrush,
+    	keep HCEasel,
+    	Result:HCPainting3,
+    	Time:3000,
+    	NeedToBeLearn:true,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Paint on Canvas
+    {
+    	HCCanvas,
+    	HCJarpaintwhite,
+    	HCJarpaintyellow,
+    	HCJarpaintred,
+    	HCJarpaintblue,
+    	HCJarpaintblack,
+	keep HCPainterpalette,
+	keep HCPaintbrush,
+    	keep HCEasel,
+    	Result:HCPainting4,
+    	Time:3000,
+    	NeedToBeLearn:true,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Paint on Canvas
+    {
+    	HCCanvas,
+    	HCJarpaintwhite,
+    	HCJarpaintyellow,
+    	HCJarpaintred,
+    	HCJarpaintblue,
+    	HCJarpaintblack,
+	keep HCPainterpalette,
+	keep HCPaintbrush,
+    	keep HCEasel,
+    	Result:HCPainting5,
+    	Time:3000,
+    	NeedToBeLearn:true,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+}

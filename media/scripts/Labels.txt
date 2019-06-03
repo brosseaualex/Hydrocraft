@@ -1,0 +1,473 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCLabelempty
+	{
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Empty Label,
+	Icon			=	HCLabelempty,
+	}
+
+item HCLabelammonia
+	{
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Ammonia Label,
+	Icon			=	HCLabelammonia,
+	}
+
+item HCLabeldetergent
+	{
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Liquid Soap Label,
+	Icon			=	HCLabeldetergent,
+	}
+
+item HCLabelmethylamin
+	{
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Methylamin Label,
+	Icon			=	HCLabelmethylamin,
+	}
+item HCLabelh2o2
+	{
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Hydrogen Peroxide Label,
+	Icon			=	HCLabelh2o2,
+	}
+
+item HCLabelphenylaceticacid
+	{
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Phenylacetic Acid Label,
+	Icon			=	HCLabelphenylaceticacid,
+	}
+
+item HCLabelpoison
+	{
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Insecticide Label,
+	Icon			=	HCLabelpoison,
+	}
+
+item HCLabelsulfuricacid
+	{
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Sulfuric Acid Label,
+	Icon			=	HCLabelsulfuricacid,
+	}
+
+item HCLabelselfmadeether
+	{
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Homemade Ether Label,
+	Icon			=	HCLabelselfmadeether,
+	}
+
+item HCLabelgasoline
+	{
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Gasoline Label,
+	Icon			=	HCLabelgasoline,
+	}
+
+item HCLabelpotassiumpermanganate
+	{
+	Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Potassiumper Manganate Label,
+	Icon			=	HCLabelpotassiumpermanganate,
+	}
+
+/************************RECIPES************************/
+
+recipe Make Label
+    {
+    	SheetPaper,
+	Glue/Woodglue/HCSuperglue/HCRubbercement/HCTar/HCHotgluegunfull/HCGluejar/HCWoodgluejar,
+	keep Scissors/HCBoxcutter/HCScalpel/HCScalpelimprovised/HCJackknife,
+    	Result:HCLabelempty,
+    	Time:500,
+    	Category:Papercraft,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Label For Ammonia
+    {
+    	HCLabelempty,
+        keep HCBookchemistry,
+        keep HCTypewriter/Pen/Pencil,
+	Crayons,
+    	Result:HCLabelammonia,
+    	Time:250,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Label For Liquid Soap
+    {
+    	HCLabelempty,
+        keep HCTypewriter/Pen/Pencil,
+	Crayons=4,
+    	Result:HCLabeldetergent,
+    	Time:250,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Label For Methylamin
+    {
+    	HCLabelempty,
+        keep HCBookchemistry,
+        keep HCTypewriter/Pen/Pencil,
+	Crayons,
+    	Result:HCLabelmethylamin,
+    	Time:250,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Label For Hydrogen Peroxide
+    {
+    	HCLabelempty,
+        keep HCBookchemistry,
+        keep HCTypewriter/Pen/Pencil,
+	Crayons,
+    	Result:HCLabelh2o2,
+    	Time:250,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Label For Phenylacetic Acid
+    {
+    	HCLabelempty,
+        keep HCBookchemistry,
+        keep HCTypewriter/Pen/Pencil,
+	Crayons,
+    	Result:HCLabelphenylaceticacid,
+    	Time:250,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Label For Insecticide
+    {
+    	HCLabelempty,
+	keep HCBookgardening,
+        keep HCTypewriter/Pen/Pencil,
+	Crayons=4,
+    	Result:HCLabelpoison,
+    	Time:250,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Label For Sulfuric Acid
+    {
+    	HCLabelempty,
+        keep HCBookchemistry,
+        keep HCTypewriter/Pen/Pencil,
+	Crayons,
+    	Result:HCLabelsulfuricacid,
+    	Time:250,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Label For Homemade Ether
+    {
+    	HCLabelempty,
+        keep HCBookchemistry,
+        keep HCTypewriter/Pen/Pencil,
+    	Result:HCLabelselfmadeether,
+    	Time:250,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Label For Gasoline
+    {
+    	HCLabelempty,
+        keep HCTypewriter/Pen/Pencil,
+	Crayons=4,
+    	Result:HCLabelgasoline,
+    	Time:250,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Label For Potassium Permanganate
+    {
+    	HCLabelempty,
+        keep HCTypewriter/Pen/Pencil,
+	Crayons=4,
+    	Result:HCLabelpotassiumpermanganate,
+    	Time:250,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Empty Can With Ammonia Label
+    {
+    	HCLabelammonia,
+        HCPlasticcanempty,
+    	Result:HCAmmoniacanempty,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Full Can With Ammonia Label
+    {
+    	HCLabelammonia,
+        HCPlasticcanammonia,
+    	Result:HCAmmoniacanfull,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Empty Metal Barrel With Ammonia Label
+    {
+    	HCLabelammonia,
+        HCBarrelmetalempty,
+    	Result:HCAmmoniabarrelempty,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Full Ammonia Barrel With Ammonia Label
+    {
+    	HCLabelammonia,
+        HCBarrelmetalammonia,
+    	Result:HCAmmoniabarrelfull,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Empty Blue Barrel With Ammonia Label
+    {
+    	HCLabelammonia,
+        HCBarrelblueempty,
+    	Result:HCAmmoniabarrelblueempty,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Empty Can With Liquid Soap Label
+    {
+    	HCLabeldetergent,
+        HCPlasticcanempty,
+    	Result:HCDetergentempty,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Full Can With Liquid Soap Label
+    {
+    	HCLabeldetergent,
+        HCPlasticcandetergent,
+    	Result:HCDetergent,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+
+recipe Label Empty Metal Barrel With Methylamin Label
+    {
+    	HCLabelmethylamin,
+        HCBarrelmetalempty,
+    	Result:HCMethylaminbarrelempty,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Full Methylamin Barrel With Methylamin Label
+    {
+    	HCLabelmethylamin,
+        HCBarrelmetalmethylamin,
+    	Result:HCMethylaminbarrelfull,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Empty Blue Barrel With Methylamin Label
+    {
+    	HCLabelmethylamin,
+        HCBarrelblueempty,
+    	Result:HCMethylaminbarrelblueempty,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Empty Can With Hydrogen Peroxide Label
+    {
+    	HCLabelh2o2,
+        HCPlasticcanempty,
+    	Result:HCh2o2canempty,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Full Can With Hydrogen Peroxide Label
+    {
+    	HCLabelh2o2,
+        HCPlasticcanh2o2,
+    	Result:HCh2o2can,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Empty Metal Barrel With Phenylacetic Acid Label
+    {
+    	HCLabelphenylaceticacid,
+        HCBarrelmetalempty,
+    	Result:HCPhenylbarrelempty,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Full Metal Barrel With Phenylacetic Acid Label
+    {
+    	HCLabelphenylaceticacid,
+        HCBarrelmetalphenyl,
+    	Result:HCPhenylbarrelfull,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Empty Blue Barrel With Phenylacetic Acid Label
+    {
+    	HCLabelphenylaceticacid,
+        HCBarrelblueempty,
+    	Result:HCPhenylbarrelblueempty,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Empty Can With Insecticide Label
+    {
+    	HCLabelpoison,
+        HCPlasticcanempty,
+    	Result:HCPoisonempty,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Full Can With Insecticide Label
+    {
+    	HCLabelpoison,
+        HCPlasticcanpoison,
+    	Result:HCPoison,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Empty Can With Sulfuric Acid Label
+    {
+    	HCLabelsulfuricacid,
+        HCPlasticcanempty,
+    	Result:HCSulfuricacidcanempty,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Full Can With Sulfuric Acid Label
+    {
+    	HCLabelsulfuricacid,
+        HCPlasticcansulfuricacid,
+    	Result:HCSulfuricacidcan,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Empty Metal Barrel With Sulfuric Acid Label
+    {
+    	HCLabelsulfuricacid,
+        HCBarrelmetalempty,
+    	Result:HCSulfuricacidbarrelempty,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Full Metal Barrel With Sulfuric Acid Label
+    {
+    	HCLabelsulfuricacid,
+        HCBarrelmetalsulfuricacid,
+    	Result:HCSulfuricacidbarrelfull,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Empty Blue Barrel With Sulfuric Acid Label
+    {
+    	HCLabelsulfuricacid,
+        HCBarrelblueempty,
+    	Result:HCSulfuricacidbarrelblueempty,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Empty Metal Barrel With Gasoline Label
+    {
+    	HCLabelgasoline,
+        HCBarrelmetalempty,
+    	Result:HCGasolinebarrelempty,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Label Full Gasoline Barrel With Gasoline Label
+    {
+    	HCLabelgasoline,
+        HCBarrelmetalgasoline,
+    	Result:HCGasolinebarrelfull,
+    	Time:15,
+    	Category:Alchemy,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+}
+
+
+
+

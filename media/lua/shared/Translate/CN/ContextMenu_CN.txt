@@ -1,0 +1,10 @@
+// * Hydrocraft MOD Simplified Chinese Translation
+// * Translation By：Sky_Orc_Mm
+// * Special Thanks：半夏微凉.柒染, JoJunIori
+// * Date：August 16, 2016 23:04
+
+ContextMenu_CN = {
+	ContextMenu_Sow_Trellis_Seed = "支葡萄架",
+	ContextMenu_Sniff = "闻味道",
+	ContextMenu_Inject = "注射",
+}

@@ -1,0 +1,318 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCAnimalglasseye
+    {
+        Weight    	= 0.1,
+        Type    	= Normal,
+        DisplayName     = Glass Animal Eye,
+        icon 		= HCAnimalglasseye,
+    }
+
+item HCArmaturesmallanimalwood
+    {
+        Weight    	= 1,
+        Type    	= Normal,
+        DisplayName     = Wooden Small Animal Armature,
+        icon 		= HCArmaturesmallanimalwood,
+    }
+
+item HCArmaturesmallanimalstraw
+    {
+        Weight    	= 1,
+        Type    	= Normal,
+        DisplayName     = Straw Small AnimalArmature,
+        icon 		= HCArmaturesmallanimalstraw,
+    }
+
+item HCArmaturesmallanimalclay
+    {
+        Weight    	= 1,
+        Type    	= Normal,
+        DisplayName     = Clay Small Animal Armature,
+        icon 		= HCArmaturesmallanimalclay,
+    }
+
+item HCTaxidermymouse
+    {
+        Weight    	= 1,
+        Type    	= Normal,
+        DisplayName     = Taxidermy Mouse,
+        icon 		= HCTaxidermymouse,
+    }
+
+item HCArmaturemediumanimalwood
+    {
+        Weight    	= 2,
+        Type    	= Normal,
+        DisplayName     = Wooden Medium Animal Armature,
+        icon 		= HCArmaturemediumanimalwood,
+    }
+
+item HCArmaturemediumanimalstraw
+    {
+        Weight    	= 2,
+        Type    	= Normal,
+        DisplayName     = Straw Medium Animal Armature,
+        icon 		= HCArmaturemediumanimalstraw,
+    }
+
+item HCArmaturemediumanimalclay
+    {
+        Weight    	= 2,
+        Type    	= Normal,
+        DisplayName    	= Clay Medium Animal Armature,
+        icon 		= HCArmaturemediumanimalclay,
+    }
+
+item HCTaxidermyrabbit
+    {
+        Weight    	= 2,
+        Type    	= Normal,
+        DisplayName     = Taxidermy Rabbit,
+        icon 		= HCTaxidermyrabbit,
+    }
+
+item HCTaxidermyjackalope
+    {
+        Weight    	= 3,
+        Type    	= Normal,
+        DisplayName     = Taxidermy Jackalope,
+        icon 		= HCTaxidermyjackalope,
+    }
+
+item HCTaxidermyworkbench
+    {
+	WeightReduction         = 0,
+	Weight             	= 10,
+	Type                	= Container,
+	Capacity             	= 50,
+        DisplayName         	= Taxidermy Workbench,
+        icon 			= HCTaxidermyworkbench,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+
+/************************RECIPES************************/	
+
+recipe Make Taxidermy Workbench
+    {
+	HCWorkbench,
+        HCBonesaw,
+        HCScalpel/HCScalpelimprovised,
+        HCSewingpinbox,
+        HCPincushion,
+        HCPliers,
+        HCCardboardbox=2,
+        HCBookanatomy,
+        HCBookmammalguide,
+	Nails,
+	keep Hammer,
+	keep Saw,
+        Result:HCTaxidermyworkbench,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:400,
+    	Sound:PZ_Hammer,
+	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+    
+recipe Craft Small Animal Armature
+    {
+    	WoodenStick=3,
+    	HCWoodblock,
+    	Wire,
+    	keep HCTaxidermyworkbench,
+        CanBeDoneFromFloor:true,
+    	Result:HCArmaturesmallanimalwood,
+    	NeedToBeLearn:true,
+    	Time:150,
+	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Attach Straw to Small Animal Armature
+    {
+    	HCStraw=2,
+    	HCArmaturesmallanimalwood,
+   	Wire,
+    	keep HCTaxidermyworkbench,
+        CanBeDoneFromFloor:true,
+    	Result:HCArmaturesmallanimalstraw,
+    	NeedToBeLearn:true,
+    	Time:150,
+	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Craft Taxidermy Mouse
+    {
+    	keep Needle/HCBoneneedle,
+    	HCArmaturesmallanimalstraw,
+    	Thread,
+    	HCAnimalglasseye=2,
+    	HCStraw,
+    	HCAnimalfur=2,
+    	keep HCTaxidermyworkbench,
+        CanBeDoneFromFloor:true,
+    	Result:HCTaxidermymouse,
+    	NeedToBeLearn:true,
+    	Time:300,
+	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Craft Medium Animal Armature
+    {
+    	WoodenStick=5,
+    	HCWoodblock,
+    	Wire,
+    	keep HCTaxidermyworkbench,
+        CanBeDoneFromFloor:true,
+    	Result:HCArmaturemediumanimalwood,
+    	NeedToBeLearn:true,
+    	Time:150,
+	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Attach Straw to Medium Animal Armature
+    {
+    	HCStraw=2,
+    	HCArmaturemediumanimalwood,
+    	Wire,
+    	keep HCTaxidermyworkbench,
+        CanBeDoneFromFloor:true,
+    	Result:HCArmaturemediumanimalstraw,
+    	NeedToBeLearn:true,
+    	Time:150,
+	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Craft Taxidermy Rabbit
+    {
+    	keep Needle/HCBoneneedle,
+    	HCArmaturemediumanimalstraw,
+    	Thread,
+    	HCAnimalglasseye=2,
+    	HCStraw,
+    	HCHidedriedrabbit,
+    	keep HCTaxidermyworkbench,
+        CanBeDoneFromFloor:true,
+    	Result:HCTaxidermyrabbit,
+    	NeedToBeLearn:true,
+    	Time:300,
+	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Craft Taxidermy Jackalope
+    {
+    	HCTaxidermyrabbit,
+    	HCDeerantlers,
+    	keep HCTaxidermyworkbench,
+        CanBeDoneFromFloor:true,
+    	Result:HCTaxidermyjackalope,
+    	NeedToBeLearn:true,
+    	Time:200,
+	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Craft Small Animal Armature
+    {
+    	HCRedclay=3,
+    	Wire,
+    	keep HCTaxidermyworkbench,
+        CanBeDoneFromFloor:true,
+    	Result:HCArmaturesmallanimalclay,
+    	NeedToBeLearn:true,
+    	Time:200,
+	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Craft Small Animal Armature
+    {
+    	HCGreyclay=3,
+    	Wire,
+    	keep HCTaxidermyworkbench,
+        CanBeDoneFromFloor:true,
+    	Result:HCArmaturesmallanimalclay,
+    	NeedToBeLearn:true,
+    	Time:200,
+	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Craft Medium Animal Armature
+    {
+    	HCRedclay=5,
+    	Wire,
+    	keep HCTaxidermyworkbench,
+        CanBeDoneFromFloor:true,
+    	Result:HCArmaturemediumanimalclay,
+    	NeedToBeLearn:true,
+    	Time:200,
+	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Craft Medium Animal Armature
+    {
+    	HCGreyclay=5,
+    	Wire,
+    	keep HCTaxidermyworkbench,
+        CanBeDoneFromFloor:true,
+    	Result:HCArmaturemediumanimalclay,
+    	NeedToBeLearn:true,
+    	Time:200,
+	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Craft Taxidermy Mouse
+    {
+    	keep Needle/HCBoneneedle,
+    	HCArmaturesmallanimalclay,
+    	Thread,
+    	HCAnimalglasseye=2,
+    	HCRedclay/HCGreyclay,
+    	HCAnimalfur=2,
+    	keep HCTaxidermyworkbench,
+        CanBeDoneFromFloor:true,
+    	Result:HCTaxidermymouse,
+    	NeedToBeLearn:true,
+    	Time:300,
+	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Craft Taxidermy Rabbit
+    {
+    	keep Needle/HCBoneneedle,
+    	HCArmaturemediumanimalclay,
+    	Thread,
+    	HCAnimalglasseye=2,
+    	HCRedclay/HCGreyclay,
+    	HCAnimalfur=2,
+    	keep HCTaxidermyworkbench,
+        CanBeDoneFromFloor:true,
+    	Result:HCTaxidermyrabbit,
+    	NeedToBeLearn:true,
+    	Time:300,
+	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+}

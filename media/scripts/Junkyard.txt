@@ -1,0 +1,509 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+    }
+
+/************************ITEMS************************/
+
+item HCJunk
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Junk,
+        icon 			= HCJunk,
+    }
+
+item HCJunkyardsmallempty
+    {
+        Weight    			= 10,
+        Type    			= Normal,
+        ResizeWorldIcon 	        = 1.0,
+        DisplayName         		= Small Empty Junkyard,
+        icon 				= HCJunkyardsmallempty,
+    }
+
+item HCJunkyardsmallfull
+    {
+        Weight    			= 15,
+        Type    			= Normal,
+        ResizeWorldIcon 	        = 1.0,
+        DisplayName         		= Small Full Junkyard,
+        icon 				= HCJunkyardsmallfull,
+    }
+
+item HCJunkyardmediumempty
+    {
+        Weight    			= 15,
+        Type    			= Normal,
+        ResizeWorldIcon 	        = 1.0,
+        DisplayName         		= Medium Empty Junkyard,
+        icon 				= HCJunkyardmediumempty,
+    }
+
+item HCJunkyardmediumfull
+    {
+        Weight    			= 20,
+        Type    			= Normal,
+        ResizeWorldIcon 	        = 1.0,
+        DisplayName         		= Medium Full Junkyard,
+        icon 				= HCJunkyardmediumfull,
+    }
+
+item HCJunkyardlargeempty
+    {
+        Weight    			= 15,
+	LightStrength	                = 0.8,
+        Type    			= Normal,
+        ResizeWorldIcon 	        = 1.0,
+        DisplayName         		= Large Empty Junkyard,
+        icon 				= HCJunkyardlargeempty,
+    }
+
+item HCJunkyardlargefull
+    {
+	WeightReduction         	= 0,
+        Weight    			= 30,
+	Type                		= Container,
+	Capacity             		= 500,
+        ResizeWorldIcon 	        = 1.0,
+        DisplayName         		= Large Full Junkyard,
+        icon 				= HCJunkyardlargefull,
+    }
+
+item HCMagnetgiant
+    {
+        Weight    			= 30,
+        Type    			= Normal,
+        DisplayName         		= Giant Magnet,
+        icon 				= HCMagnetgiant,
+        ResizeWorldIcon 	        = 2.0,
+    }
+
+item HCSled
+	{
+	WeightReduction	       		=	45,
+	Weight	               		=	5,
+	Type	               		=	Container,
+	Capacity	       		=	50,
+	DisplayName	       		=	Makeshift Sled,
+	Icon	               		=	HCSled,
+	RequiresEquippedBothHands 	= 	true,
+	}
+
+item HCDetector
+	{
+	Weight				=	1,
+	Type				=	Normal,
+	DisplayName			=	Metal Detector,
+	Icon				=	HCDetector,
+	}
+
+item HCDetectorpowered
+	{
+	Weight 				= 	1.0,
+	Type 				= 	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.125,
+	DisplayName 			= 	Metal Detector with Power,
+	ReplaceOnDeplete		=	HCDetectordead,
+	Icon 				= 	HCDetectorpowered,
+	}
+
+item HCDetectordead
+    {
+        Weight    			= 	1.0,
+        Type    			= 	Normal,
+        DisplayName         		= 	Metal Detector with Dead Battery,
+        icon 				= 	HCDetector,
+    }
+
+item HCTrashsmall
+	{
+	Weight				=	1,
+	Type				=	Normal,
+	DisplayName			=	Small Bag with Trash,
+	Icon				=	HCTrashsmall,
+        ResizeWorldIcon 	        = 	1.0,
+	}
+
+item HCTrashmedium
+	{
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Medium Box With Trash,
+	Icon				=	HCTrashmedium,
+        ResizeWorldIcon 	        = 	1.0,
+	}
+
+item HCTrashlarge
+	{
+	Weight				=	9,
+	Type				=	Normal,
+	DisplayName			=	Large Box With Trash,
+	Icon				=	HCTrashlarge,
+        ResizeWorldIcon 	        = 	1.0,
+	}
+
+item HCJunkmicro
+        {
+        Weight    			=       1,
+        Type    			=       Normal,
+        DisplayName         		=       Broken Microwave,
+        icon 				=       HCJunkmicro,
+        ResizeWorldIcon 	        = 	2.0,
+        }
+
+item HCJunktv
+	{
+	Weight				=	1.5,
+	Type				=	Normal,
+	DisplayName			=	Broken TV,
+	Icon				=	HCJunktv,
+        ResizeWorldIcon 	        = 	2.0,
+	}
+
+item HCJunkfridge
+	{
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Broken Fridge,
+	Icon				=	HCJunkfridge,
+        ResizeWorldIcon 	        = 	2.0,
+	}
+
+item HCJunkwash
+	{
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Broken Washing Machine,
+	Icon				=	HCJunkwash,
+        ResizeWorldIcon 	        = 	2.0,
+	}
+
+item HCJunkdryer
+	{
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Broken Drying Machine,
+	Icon				=	HCJunkdryer,
+        ResizeWorldIcon 	        = 	2.0,
+	}
+
+
+item HCJunkbicycle
+	{
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Broken Bicycle,
+	Icon				=	HCJunkbicycle,
+        ResizeWorldIcon 	        = 	2.0,
+	}
+
+item HCDynamo
+	{
+	Weight				=	0.1,
+	Type				=	Normal,
+	DisplayName			=	Dynamo,
+	Icon				=	HCDynamo,
+	}
+
+item HCJunktredmill
+	{
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Broken Tredmill,
+	Icon				=	HCJunktredmill,
+        ResizeWorldIcon 	        = 	2.0,
+	}
+
+item HCRadiator2
+    {
+        Weight    			= 10,
+        Type    			= Normal,
+        DisplayName         		= Broken Radiator,
+        icon 				= HCRadiator2,
+        ResizeWorldIcon 	        = 1.0,
+    }
+
+item HCBedsprings
+    {
+        Weight    			= 10,
+        Type    			= Normal,
+        DisplayName         		= Rusty Bed Springs,
+        icon 				= HCBedsprings,
+        ResizeWorldIcon 	        = 1.0,
+    }
+
+item HCWaterheater
+    {
+        Weight    			= 10,
+        Type    			= Normal,
+        DisplayName         		= Water Heater,
+        icon 				= HCWaterheater,
+        ResizeWorldIcon 	        = 1.0,
+    }
+
+/************************WEAPONS************************/
+
+	item HCChain
+	{
+		MaxRange					=	2,
+		WeaponSprite					=	Poolcue,
+		MinAngle					=	0.2,
+		Type						=	Weapon,
+		MinimumSwingTime				=	4.0,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		Categories					=	Blunt,
+		ConditionLowerChanceOneIn			=	15,
+		Weight						=	3.5,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		SubCategory					=	Swinging,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		DisplayName					=	Chain,
+		MinRange					=	0.61,
+		SwingTime					=	4.0,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCChain,
+		RunAnim						=	Run_Weapon2,
+        	BreakSound  					=   	PZ_MetalSnap,
+	}
+
+/************************RECIPES************************/
+
+recipe Make Small Junkyard
+    {
+       	keep Shovel,
+       	keep Hammer,
+       	Nails=3,
+       	Plank=3,
+       	Result:HCJunkyardsmallempty,
+       	Time:500,
+       	Category:Engineer,
+    	OnGiveXP:HCHungry_OnGiveXP,
+    }
+
+recipe Fill Small Junkyard
+    {
+       	HCJunkyardsmallempty,
+       	HCTrashsmall,
+       	CanBeDoneFromFloor:true,
+       	Result:HCJunkyardsmallfull,
+       	Time:1000,
+       	Category:Engineer,
+    	OnGiveXP:HCHungry_OnGiveXP,
+    }
+
+recipe Search Junk
+    {
+       	keep HCJunkyardsmallfull,
+       	HCTrashsmall,
+	keep HCWorkgloves, 
+       	Result:Garbagebag,
+       	CanBeDoneFromFloor:true,
+       	Time:100,
+       	Category:Engineer,
+       	OnCreate:hcjunksearchsmall,
+    	OnGiveXP:HCHungry_OnGiveXP,
+    }
+
+recipe Upgrade To Medium Junkyard
+    {
+       	HCJunkyardsmallfull,
+       	keep Shovel,
+       	HCSteelrod=3,
+       	HCChickenwire=8,
+       	keep Hammer,
+       	CanBeDoneFromFloor:true,
+       	Result:HCJunkyardmediumempty,
+       	Time:750,
+       	Category:Engineer,
+    	OnGiveXP:HCHungry_OnGiveXP,
+    }
+
+recipe Fill Medium Junkyard
+    {
+       	HCJunkyardmediumempty,
+       	HCTrashsmall=3,
+       	HCTrashmedium,
+       	CanBeDoneFromFloor:true,
+       	Result:HCJunkyardmediumfull,
+       	Time:2000,
+       	Category:Engineer,
+    	OnGiveXP:HCHungry_OnGiveXP,
+    }
+
+recipe Search Junk
+    {
+       	keep HCJunkyardmediumfull,
+       	HCTrashsmall,
+	keep HCWorkgloves, 
+       	Result:Garbagebag,
+       	CanBeDoneFromFloor:true,
+       	Time:100,
+       	Category:Engineer,
+       	OnCreate:hcjunksearchsmall,
+    	OnGiveXP:HCHungry_OnGiveXP,
+    }
+
+recipe Search Junk
+    {
+       	keep HCJunkyardmediumfull,
+       	HCTrashmedium,
+	keep HCWorkgloves, 
+       	Result:HCCardboardbox,
+       	CanBeDoneFromFloor:true,
+       	Time:200,
+       	Category:Engineer,
+       	OnCreate:hcjunksearchmedium,
+    	OnGiveXP:HCHungry_OnGiveXP,
+    }
+
+recipe Upgrade To Large Junkyard
+    {
+       	HCJunkyardmediumfull,
+       	keep Shovel,
+       	HCSteelbeam=6,
+       	HCSteelrod=12,
+       	keep Screwdriver,
+       	HCBolt=20,
+	HCNut=20,
+       	HCChain,
+       	HCMagnetgiant,
+       	HCCablecopper=4,
+       	keep Hammer,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCWorkgloves,
+       	CanBeDoneFromFloor:true,
+       	Result:HCJunkyardlargeempty,
+       	Time:1000,
+       	Category:Engineer,
+    	OnGiveXP:HCHungry_OnGiveXP,
+    }
+
+recipe Fill Large Junkyard
+    {
+       	HCJunkyardlargeempty,
+       	HCTrashsmall=6,
+       	HCTrashmedium=3,
+       	HCTrashlarge,
+       	CanBeDoneFromFloor:true,
+      	Result:HCJunkyardlargefull,
+       	Time:3000,
+       	Category:Engineer,
+    	OnGiveXP:HCHungry_OnGiveXP,
+    }
+
+recipe Search Junk
+    {
+       	keep HCJunkyardlargefull,
+       	HCTrashsmall,
+	keep HCWorkgloves, 
+       	Result:Garbagebag,
+       	CanBeDoneFromFloor:true,
+       	Time:100,
+       	Category:Engineer,
+       	OnCreate:hcjunksearchsmall,
+    	OnGiveXP:HCHungry_OnGiveXP,
+    }
+
+recipe Search Junk
+    {
+       	keep HCJunkyardlargefull,
+       	HCTrashmedium,
+	keep HCWorkgloves, 
+       	Result:HCCardboardbox,
+       	CanBeDoneFromFloor:true,
+       	Time:200,
+       	Category:Engineer,
+       	OnCreate:hcjunksearchmedium,
+    	OnGiveXP:HCHungry_OnGiveXP,
+    }
+
+recipe Search Junk
+    {
+       	keep HCJunkyardlargefull,
+	HCTrashlarge,
+	keep HCWorkgloves, 
+       	Result:HCCardboardbox,
+       	CanBeDoneFromFloor:true,
+       	Time:300,
+       	Category:Engineer,
+       	OnCreate:hcjunksearchlarge,
+    	OnGiveXP:HCHungry_OnGiveXP,
+    }
+
+recipe Search Junk with Giant Magnet
+    {
+        keep HCJunkyardlargefull,
+	HCTrashlarge,
+       	HCBatteryhuge,
+       	Result:HCCardboardbox,
+       	NeedToBeLearn:true,
+       	CanBeDoneFromFloor:true,
+       	Time:500,
+       	Category:Engineer,
+       	OnCreate:hcjunksearchmagnet,
+    	OnGiveXP:HCHungry_OnGiveXP,
+    }
+
+recipe Make Sled
+	{
+        Screws=2,
+	HCSteelpipe=2,
+        SheetMetal,
+        Rope,
+        keep Screwdriver,              
+	Result:HCSled,              
+	Time:500.0,
+	Category:Engineer,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Insert Battery
+    {
+    	HCDetector,
+    	HCBatterymedium,
+    	Result:HCDetectorpowered,
+    	Time:15,
+    	Category:Electrical,
+    }
+
+recipe Remove Battery
+    {
+    	HCDetectordead,
+    	Result:HCDetector,
+    	Time:15,
+    	Category:Electrical,
+    	OnCreate:recipe_hcbatterymediumdead,
+    }
+
+recipe Search For Metal
+	{
+	HCDetectorpowered,
+	keep HCWorkgloves,              
+	Result:HCDetector,              
+	Time:500.0,
+        Category:Engineer,
+	RemoveResultItem:true,
+        OnCreate:hcmetalsearch,
+    	OnGiveXP:HCHungry_OnGiveXP,
+	}
+
+}

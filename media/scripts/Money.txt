@@ -1,0 +1,557 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCPenny
+    {
+        Weight    		= 0.02,
+        Type    		= Normal,
+        DisplayName         	= Penny,
+        icon 			= HCPenny,
+	DisplayCategory 	= Money,
+    }
+
+item HCNickel
+    {
+        Weight    		= 0.03,
+        Type    		= Normal,
+        DisplayName         	= Nickel,
+        icon 			= HCNickel,
+	DisplayCategory 	= Money,
+    }
+
+item HCDime
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Dime,
+        icon 			= HCDime,
+	DisplayCategory 	= Money,
+    }
+
+item HCQuarter
+    {
+        Weight    		= 0.04,
+        Type    		= Normal,
+        DisplayName         	= Quarter,
+        icon 			= HCQuarter,
+	DisplayCategory 	= Money,
+    }
+
+item HCHalfdollar
+    {
+        Weight    		= 0.05,
+        Type   			= Normal,
+        DisplayName         	= Half Dollar,
+        icon 			= HCHalfdollar,
+	DisplayCategory 	= Money,
+    }
+
+item HCDollar
+    {
+        Weight    		= 0.04,
+        Type    		= Normal,
+        DisplayName         	= Dollar,
+        icon 			= HCDollar,
+	DisplayCategory 	= Money,
+    }
+
+item HC1dollarbill
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= 1 Dollar Bill,
+        icon 			= HC1dollarbill,
+	DisplayCategory 	= Money,
+    }
+
+
+item HC2dollarbill
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= 2 Dollar Bill,
+        icon 			= HC2dollarbill,
+	DisplayCategory 	= Money,
+    }
+
+
+item HC5dollarbill
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= 5 Dollar Bill,
+        icon 			= HC5dollarbill,
+	DisplayCategory 	= Money,
+    }
+
+
+item HC10dollarbill
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= 10 Dollar Bill,
+        icon 			= HC10dollarbill,
+	DisplayCategory 	= Money,
+    }
+
+
+item HC20dollarbill
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= 20 Dollar Bill,
+        icon 			= HC20dollarbill,
+	DisplayCategory 	= Money,
+    }
+
+
+item HC50dollarbill
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= 50 Dollar Bill,
+        icon 			= HC50dollarbill,
+	DisplayCategory 	= Money,
+    }
+
+
+item HC100dollarbill
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= 100 Dollar Bill,
+        icon 			= HC100dollarbill,
+	DisplayCategory 	= Money,
+    }
+
+item HCCheque
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Blank Cheque,
+        icon 			= HCCheque,
+	DisplayCategory 	= Money,
+    }
+
+item HCCoinpress
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Coin Press,
+        icon 			= HCCoinpress,
+    }
+
+item HCCoincopper
+    {
+        Weight    		= 0.04,
+        Type    		= Normal,
+        DisplayName         	= Copper Coin,
+        icon 			= HCCoincopper,
+	DisplayCategory 	= Money,
+    }
+
+item HCCoinsilver
+    {
+        Weight    		= 0.04,
+        Type    		= Normal,
+        DisplayName         	= Silver Coin,
+        icon 			= HCCoinsilver,
+	DisplayCategory 	= Money,
+    }
+
+item HCCoingold
+    {
+        Weight    		= 0.04,
+        Type    		= Normal,
+        DisplayName         	= Gold Coin,
+        icon 			= HCCoingold,
+	DisplayCategory 	= Money,
+    }
+
+item HCPiggybank
+    {
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Piggy Bank,
+        icon 			= HCPiggybank,
+    }
+
+item HCPiggybankopen
+    	{
+        	WeightReduction     	= 	25,
+        	Weight              	= 	0.4,
+        	Type                	= 	Container,
+        	Capacity            	= 	10,
+        	DisplayName        	= 	Piggy Bank,
+        	Icon                	= 	HCPiggybank,
+    	}
+
+item HCWallet
+    	{
+        	WeightReduction     	= 	25,
+        	Weight              	= 	0.2,
+        	Type                	= 	Container,
+        	Capacity            	= 	2,
+        	DisplayName        	= 	Wallet,
+        	Icon                	= 	Wallet_01,
+    	}
+
+item HCWallet2
+    	{
+        	WeightReduction     	= 	25,
+        	Weight              	= 	0.2,
+        	Type                	= 	Container,
+        	Capacity            	= 	2,
+        	DisplayName        	= 	Wallet,
+        	Icon                	= 	Wallet_02,
+    	}
+
+item HCWallet3
+    	{
+        	WeightReduction     	= 	25,
+        	Weight              	= 	0.2,
+        	Type                	= 	Container,
+        	Capacity            	= 	2,
+        	DisplayName        	= 	Wallet,
+        	Icon                	= 	Wallet_03,
+    	}
+
+item HCWallet4
+    	{
+        	WeightReduction     	= 	25,
+        	Weight              	= 	0.2,
+        	Type                	= 	Container,
+        	Capacity            	= 	2,
+        	DisplayName        	= 	Wallet,
+        	Icon                	= 	Wallet_04,
+    	} 
+
+item HCSlotmachine
+	{
+	Weight			=	10.0,
+        Type			=	Normal,
+        DisplayName		=	Slot Machine,
+	Icon			=	HCSlotmachine,
+	ResizeWorldIcon 	= 	2.0,
+	}
+
+item HCSlotmachine2
+    {
+        Weight    		= 	10000,
+        Type    		=	Normal,
+        DisplayName         	= 	Slot Machine,
+        icon 			= 	HCSlotmachine,
+	ResizeWorldIcon 	= 	2.0,
+    }
+
+item HCPokerchip
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Poker Chip,
+        icon 			= HCPokerchip,
+    }
+
+item HCRoulette
+	{
+	Weight			=	10.0,
+        Type			=	Normal,
+        DisplayName		=	Roulette Table,
+	Icon			=	HCRoulette,
+	ResizeWorldIcon 	= 	2.0,
+	}
+
+item HCRoulette2
+    {
+        Weight    		= 	10000,
+        Type    		=	Normal,
+        DisplayName         	= 	Roulette Table,
+        icon 			= 	HCRoulette,
+	ResizeWorldIcon 	= 	2.0,
+    }
+
+
+/************************RECIPES************************/
+    
+
+recipe Recycle Zinc
+    {
+    SkillRequired:MetalWelding=7,
+    HCPenny=100,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    Result:HCZincingot,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Zinc
+    {
+    SkillRequired:MetalWelding=7,
+    HCNickel=80,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    Result:HCZincingot,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Zinc
+    {
+    SkillRequired:MetalWelding=7,
+    HCDime=120,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    Result:HCZincingot,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Zinc
+    {
+    SkillRequired:MetalWelding=7,
+    HCQuarter=60,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    Result:HCZincingot,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Zinc
+    {
+    SkillRequired:MetalWelding=7,
+    HCHalfdollar=20,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    Result:HCZincingot,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Zinc
+    {
+    SkillRequired:MetalWelding=7,
+    HCDollar=40,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    Result:HCZincingot,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Copper
+    {
+    SkillRequired:MetalWelding=1,
+    HCCoincopper=20,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    Result:HCCopperingot,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Silver
+    {
+    SkillRequired:MetalWelding=2,
+    HCCoinsilver=20,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    Result:HCSilveringot,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Gold
+    {
+    SkillRequired:MetalWelding=3,
+    HCCoingold=20,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    Result:HCGoldingot,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Press Coin
+    {
+    HCCopperingot,
+    keep HCCoinpress,
+    Result:HCCoincopper=10,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Engineer,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Press Coin
+    {
+    HCSilveringot,
+    keep HCCoinpress,
+    Result:HCCoinsilver=10,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Engineer,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Press Coin
+    {
+    HCGoldingot,
+    keep HCCoinpress,
+    Result:HCCoingold=10,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Engineer,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Coin Press
+	{
+	   	HCSteelingot,
+	   	HCIroningot=5,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCCoinpress,
+    		NeedToBeLearn:true,
+	   	Time:150.0,
+       		Category:Engineer,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Open Wallet
+    {
+    Wallet,
+    Result:HCWallet,
+    Time:15,
+    OnCreate:recipe_hcwalletmoney,
+    }
+
+recipe Open Wallet
+    {
+    Wallet2,
+    Result:HCWallet2,
+    Time:15,
+    OnCreate:recipe_hcwalletmoney,
+    }
+
+recipe Open Wallet
+    {
+    Wallet3,
+    Result:HCWallet3,
+    Time:15,
+    OnCreate:recipe_hcwalletmoney,
+    }
+
+recipe Open Wallet
+    {
+    Wallet4,
+    Result:HCWallet4,
+    Time:15,
+    OnCreate:recipe_hcwalletmoney,
+    }
+
+recipe Open Piggy Bank
+    {
+    HCPiggybank,
+    Result:HCPiggybankopen,
+    Time:15,
+    OnCreate:recipe_hcwalletmoney,
+    }
+
+recipe Anchor Slot Machine
+    {
+	HCSlotmachine,
+    	CanBeDoneFromFloor:true,
+    	Result:HCSlotmachine2,
+    	Time:100,
+    	Category:Anchor,
+    }
+
+recipe Play Slot Machine
+    {
+    	HCDollar/HCCoingold,
+	keep HCSlotmachine/HCSlotmachine2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCoingold,
+    	Time:15,
+    	Category:Leisure,
+    	OnCreate:recipe_hcslotmachine,
+	RemoveResultItem:true,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Anchor Roulette Table
+    {
+	HCRoulette,
+    	CanBeDoneFromFloor:true,
+    	Result:HCRoulette2,
+    	Time:100,
+    	Category:Anchor,
+    }
+	
+}

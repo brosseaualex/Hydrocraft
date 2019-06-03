@@ -1,0 +1,431 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCChocolateshavings
+    {
+	Type				=	Food,
+	DisplayName			=	Chocolate Shavings,
+	UnhappyChange			=	-40,
+	HungerChange			=	-20,
+	Weight				=	0.2,
+	Icon				=	HCChocolateshavings,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	92,
+        Proteins 			= 	15.6,
+        Lipids 				= 	86,
+        Calories 			= 	1196,
+	CantBeFrozen 			= 	TRUE,
+    }
+
+item HCChocolatewhite
+	{
+	HungerChange			=	-40,
+	Weight				=	0.2,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	White Chocolate,
+	Icon				=	HCChocolatewhite,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	118,
+        Proteins 			= 	11.8,
+        Lipids 				= 	64,
+        Calories 			= 	1078,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	ReplaceOnUse			=	HCChocolatewhitetrash,
+	}
+
+item HCChocolatedark
+	{
+	HungerChange			=	-40,
+	Weight				=	0.2,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Dark Chocolate,
+	Icon				=	HCChocolatedark,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	92,
+        Proteins 			= 	15.6,
+        Lipids 				= 	86,
+        Calories 			= 	1196,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	ReplaceOnUse			=	HCChocolatedarktrash,
+	}
+	
+item HCTrailmix
+	{
+	HungerChange			=	-40,
+	UnhappyChange			=	-10,
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Trail Mix,
+	Icon				=	HCTrailmix,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	90,
+        Proteins 			= 	28,
+        Lipids 				= 	58,
+        Calories 			= 	924,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	ReplaceOnUse			=	HCTrailmixtrash,
+	}
+	
+item HCEnergybar	
+	{
+	HungerChange			=	-35,
+	UnhappyChange			=	-10,
+	FatigueChange			=	-10,
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Energy bar,
+	Icon				=	HCEnergybar,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	100,
+        Proteins 			= 	44,
+        Lipids 				= 	22,
+        Calories 			= 	772,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	}
+
+item HCGum
+    	{
+	Weight				=	0.1,
+	Type				=	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta    			=   	0.20,
+        Type   				= 	Normal,
+        DisplayName         		= 	Pack of Chewing Gum,
+        icon 				= 	HCGum,
+	ReplaceOnUse			=	HCGumtrash,
+    	}
+
+item HCGumstick
+	{
+	HungerChange			=	-1,
+	Weight				=	0.01,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Stick of Chewing Gum,
+	Icon				=	HCGumstick,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	9.7,
+        Proteins 			= 	0,
+        Lipids 				= 	0.03,
+        Calories 			= 	36,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	ReplaceOnUse			=	HCGumsticktrash,
+	}
+
+item HCGum2
+    	{
+	Weight				=	0.1,
+	Type				=	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta    			=   	0.20,
+        DisplayName         		= 	Pack of Chewing Gum,
+        icon 				= 	HCGum2,
+	ReplaceOnUse			= 	HCGum2trash,
+    	}
+
+item HCGumstick2
+	{
+	HungerChange			=	-1,
+	Weight				=	0.01,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Stick of Chewing Gum,
+	Icon				=	HCGumstick2,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	9.7,
+        Proteins 			= 	0,
+        Lipids 				= 	0.03,
+        Calories 			= 	36,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	ReplaceOnUse			=	HCGumsticktrash,
+	}
+
+item HCGum3
+    	{
+	Weight				=	0.1,
+	Type				=	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta    			=   	0.20,
+        DisplayName         		= 	Pack of Chewing Gum,
+        icon 				= 	HCGum3,
+	ReplaceOnUse			= 	HCGum2trash,
+    	}
+
+item HCGumstick3
+	{
+	HungerChange			=	-1,
+	Weight				=	0.01,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Stick of Chewing Gum,
+	Icon				=	HCGumstick3,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	9.7,
+        Proteins 			= 	0,
+        Lipids 				= 	0.03,
+        Calories 			= 	36,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	ReplaceOnUse			=	HCGumsticktrash,
+	}
+
+item HCCandycorn
+	{
+	HungerChange			=	-25,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Candy Corn,
+	Icon				=	HCCandycorn,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	92.5,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	360,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	ReplaceOnUse			=	HCCandycorntrash,
+	}
+
+item HCCandymnm
+	{
+	HungerChange			=	-30,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Rainbow Chocolate Candy,
+	Icon				=	HCCandymnm,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	71.4,
+        Proteins 			= 	4.3,
+        Lipids 				= 	21.4,
+        Calories 			= 	486,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	ReplaceOnUse			=	HCCandymnmtrash,
+	}
+
+item HCCandyrainbow
+	{
+	HungerChange			=	-25,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Rainbow Fruit Candy,
+	Icon				=	HCCandyrainbow,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	70,
+        Proteins 			= 	1,
+        Lipids 				= 	2,
+        Calories 			= 	390,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	ReplaceOnUse			=	HCCandyrainbowtrash,
+	}
+
+item HCGummybears
+	{
+	HungerChange			=	-25,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Gummy Bears,
+	Icon				=	HCGummybears,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	76.3,
+        Proteins 			= 	5.3,
+        Lipids 				= 	2,
+        Calories 			= 	316,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	ReplaceOnUse			=	HCGummybearstrash,
+	}
+
+item HCGummyworms
+	{
+	HungerChange			=	-25,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Gummy Worms,
+	Icon				=	HCGummyworms,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	76.3,
+        Proteins 			= 	5.3,
+        Lipids 				= 	2,
+        Calories 			= 	316,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	ReplaceOnUse			=	HCGummywormstrash,
+	}
+
+item HCJellybeans
+	{
+	HungerChange			=	-25,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Jellybeans,
+	Icon				=	HCJellybeans,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	93.6,
+        Proteins 			= 	0,
+        Lipids 				= 	1,
+        Calories 			= 	373,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	ReplaceOnUse			=	HCJellybeanstrash,
+	}
+
+item HCTaffy
+	{
+	HungerChange			=	-30,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Taffy,
+	Icon				=	HCTaffy,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	87,
+        Proteins 			= 	0,
+        Lipids 				= 	8.2,
+        Calories 			= 	435,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	ReplaceOnUse			=	HCTaffytrash,
+	}
+
+item HCCandycherry
+	{
+	HungerChange			=	-5,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Cherry Candy,
+	Icon				=	HCCandycherry,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	70,
+	CantBeFrozen 			= 	TRUE,
+	}
+
+item HCCandyapple
+	{
+	HungerChange			=	-5,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Apple Candy,
+	Icon				=	HCCandyapple,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	70,
+	CantBeFrozen 			= 	TRUE,
+	}
+
+item HCCandymixed
+	{
+	HungerChange	        	=	-50,
+	Weight	        		=	0.5,
+	Type	        		=	Food,
+	DisplayName			=	Mixed Candy,
+        UnhappyChange			=	-20,
+	Icon	        		=	HCCandymixed,
+	CustomContextMenu 		= 	Eat,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	410.5,
+        Proteins 			= 	27.4,
+        Lipids 				= 	59.1,
+        Calories 			= 	2025,
+	CantBeFrozen 			= 	TRUE,
+	}
+
+item HCFruitleather
+	{
+	HungerChange			=	-25,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Fruit Leather,
+	Icon				=	HCFruitleather,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	12,
+        Proteins 			= 	0,
+        Lipids 				= 	0.5,
+        Calories 			= 	50,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	}
+
+/************************RECIPES************************/
+
+recipe Make Chocolate Shavings
+    {
+    	HCChocolatedark,
+	keep HCCheesegrater,
+    	Result:HCChocolateshavings,
+	Time:50.0,
+   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Take Stick of Gum
+    {
+        HCGum,
+        Result:HCGumstick,
+        Sound:PZ_PutInBag,
+        Time:15,
+	Category:Cooking,
+    }
+
+recipe Take Stick of Gum
+    {
+        HCGum2,
+        Result:HCGumstick2,
+        Sound:PZ_PutInBag,
+        Time:15,
+	Category:Cooking,
+    }
+
+recipe Take Stick of Gum
+    {
+        HCGum3,
+        Result:HCGumstick3,
+        Sound:PZ_PutInBag,
+        Time:15,
+	Category:Cooking,
+    }
+
+recipe Make Mixed Candy
+	{
+	HCTrailmix/HCCandycorn/HCCandymnm/HCCandyrainbow/HCGummybears/HCGummyworms/HCJellybeans/HCTaffy/HCCandycherry/HCCandyapple,
+	HCTrailmix/HCCandycorn/HCCandymnm/HCCandyrainbow/HCGummybears/HCGummyworms/HCJellybeans/HCTaffy/HCCandycherry/HCCandyapple,
+	HCTrailmix/HCCandycorn/HCCandymnm/HCCandyrainbow/HCGummybears/HCGummyworms/HCJellybeans/HCTaffy/HCCandycherry/HCCandyapple,
+	HCTrailmix/HCCandycorn/HCCandymnm/HCCandyrainbow/HCGummybears/HCGummyworms/HCJellybeans/HCTaffy/HCCandycherry/HCCandyapple,
+	HCTrailmix/HCCandycorn/HCCandymnm/HCCandyrainbow/HCGummybears/HCGummyworms/HCJellybeans/HCTaffy/HCCandycherry/HCCandyapple,
+	Result:HCCandymixed,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+}

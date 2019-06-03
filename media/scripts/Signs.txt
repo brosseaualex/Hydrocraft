@@ -1,0 +1,34 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCSignkeepout
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Keep Out Sign,
+	Icon			=	HCSignkeepout,
+	ResizeWorldIcon 	= 	1.0,
+  	}
+
+item HCSignbiohazard
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Biohazard Sign,
+	Icon			=	HCSignbiohazard,
+	ResizeWorldIcon 	= 	1.0,
+  	}
+
+/************************RECIPES************************/	
+
+
+    
+
+}

@@ -1,0 +1,1108 @@
+module Base
+{
+
+/************************Books************************/
+
+    item MetalworkMag1
+    {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	The Metalwork Magazine Vol.1,
+        Icon		=	MagazineWelding1,
+        TeachedRecipes  =   	Make Metal Walls;Make Metal Roof,
+        ReplaceOnUse    =   	MetalworkMag1,
+    }
+
+    item MetalworkMag2
+    {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	The Metalwork Magazine Vol.2,
+        Icon		=	MagazineWelding2,
+        TeachedRecipes  =   	Make Metal Containers,
+        ReplaceOnUse    =   	MetalworkMag2,
+    }
+
+    item MetalworkMag3
+    {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	The Metalwork Magazine Vol.3,
+        Icon		=	MagazineWelding3,
+        TeachedRecipes  =   	Make Metal Fences,
+        ReplaceOnUse    =   	MetalworkMag3,
+    }
+
+    item MetalworkMag4
+    {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	The Metalwork Magazine Vol.4,
+        Icon		=	MagazineWelding3,
+        TeachedRecipes  =  	Make Metal Sheet,
+        ReplaceOnUse    =   	MetalworkMag4,
+    }
+
+    item SmithingMag1
+    {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	The Smithing Magazine Vol.1,
+        Icon		=	MagazineBlacksmith1,
+        TeachedRecipes  =   	Make Ball Peen Hammer,
+        ReplaceOnUse    =   	SmithingMag1,
+    }
+
+    item SmithingMag2
+    {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	The Smithing Magazine Vol.2,
+        Icon		=	MagazineBlacksmith2,
+        TeachedRecipes  =   	Make Tongs,
+        ReplaceOnUse    =   	SmithingMag2,
+    }
+
+    item SmithingMag3
+    {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	The Smithing Magazine Vol.3,
+        Icon		=	MagazineBlacksmith3,
+        TeachedRecipes  =   	Sheet Metal,
+        ReplaceOnUse    =   	SmithingMag3,
+    }
+
+    item SmithingMag4
+    {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	The Smithing Magazine Vol.4,
+        Icon		=	MagazineBlacksmith4,
+        TeachedRecipes  =   	Make Metal Drum,
+        ReplaceOnUse    =   	SmithingMag3,
+    }
+
+/************************Not Iron Metal Items************************/
+
+	item Doorknob
+	{
+		Weight		=	0.5,
+		Type		=	Normal,
+		DisplayName	=	Doorknob,
+		Icon		=	DoorKnob,
+	}
+
+/************************Containers************************/
+
+    	item NormalHikingBag
+	{
+		WeightReduction		=	70,
+		Weight			=	0.5,
+		Type			=	Container,
+		Capacity		=	20,
+		DisplayName		=	Normal Hiking Bag,
+		Icon			=	HCNormalhikingbag,
+        	CanBeEquipped 		= 	Back,
+        	OpenSound   		=   	PZ_OpenBag,
+        	CloseSound   		=   	PZ_CloseBag,
+        	PutInSound   		=   	PZ_PutInBag,
+	}
+
+    	item BigHikingBag
+	{
+		WeightReduction		=	80,
+		Weight			=	0.5,
+		Type			=	Container,
+		Capacity		=	22,
+		DisplayName		=	Big Hiking Bag,
+		Icon			=	HCBighikingbag,
+        	CanBeEquipped 		= 	Back,
+        	OpenSound   		=   	PZ_OpenBag,
+        	CloseSound   		=   	PZ_CloseBag,
+        	PutInSound   		=   	PZ_PutInBag,
+        	UseWhileEquipped	=	FALSE,
+	}
+
+/************************Food************************/
+
+    item CannedCornedBeefOpen
+    {
+        	Weight			=	0.8,
+        	Type			=	Food,
+        	DisplayName		=	Open Canned Corned Beef,
+        	Icon			=	CannedCornedBeefOpen,
+        	HungerChange 		=	-25,
+        	DaysFresh		=	2,
+        	DaysTotallyRotten	=	4,
+        	EvolvedRecipe   	=   	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;PastaPot:15;PastaPan:15;RicePot:15;RicePan:15,
+        	Carbohydrates 		= 	0,
+        	Proteins 		= 	78,
+        	Lipids 			= 	48,
+        	Calories 		= 	720,
+        	Packaged 		= 	TRUE,
+        	FoodType            	=       Meat,
+        	EvolvedRecipeName 	= 	Canned Corned Beef,
+		ReplaceOnUse		=	Hydrocraft.HCCannedcornedbeefempty,
+    }
+
+    item CannedBologneseOpen
+    {
+        	DisplayName		=	Open Canned Spaghetti Bolognese,
+        	Icon			=	CannedBologneseOpen,
+        	HungerChange 		=	-25,
+        	DaysFresh		=	3,
+        	DaysTotallyRotten	=	5,
+        	EvolvedRecipe   	=   	Stew:10;Stir fry:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+        	FoodType 		= 	Meat,
+        	Weight			=	0.8,
+        	Type			=	Food,
+        	Carbohydrates 		= 	68,
+        	Proteins 		= 	18,
+       		Lipids 			= 	22,
+        	Calories 		= 	540,
+        	Packaged 		= 	TRUE,
+        	EvolvedRecipeName 	= 	Canned Bolognese,
+		ReplaceOnUse		=	Hydrocraft.HCTincan,
+    }
+
+    item CannedCarrotsOpen
+    {
+        	Weight			=	0.7,
+        	Type			=	Food,
+        	DisplayName		=	Open Canned Carrots,
+        	Icon			=	CannedCarrotsOpen,
+        	HungerChange 		=	-12,
+        	EvolvedRecipe 		= 	Soup:12;Stew:12;Pie:12;Stir fry:12;Sandwich:12;Salad:12;Roasted Vegetables:12;RicePot:12;RicePan:12;PastaPot:12;PastaPan:12,
+        	DaysFresh		=	2,
+        	DaysTotallyRotten	=	4,
+        	Carbohydrates 		= 	28,
+        	Proteins 		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	10.5,
+        	Packaged 		= 	TRUE,
+        	FoodType    		= 	Vegetables,
+        	EvolvedRecipeName 	= 	Canned Carrots,
+		ReplaceOnUse		=	Hydrocraft.HCCannedcarrotsempty,
+    }
+
+    item CannedCornOpen
+    {
+        	Weight			=	0.7,
+        	Type			=	Food,
+        	DisplayName		=	Open Canned Corn,
+        	Icon			=	CannedCornOpen,
+        	HungerChange 		=	-15,
+        	EvolvedRecipe 		= 	Soup:15;Stew:15;Stir fry:15;Burger:8;Salad:15;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        	DaysFresh		=	2,
+        	DaysTotallyRotten	=	4,
+        	Carbohydrates 		= 	70,
+        	Proteins 		= 	7,
+        	Lipids 			= 	1.75,
+        	Calories 		= 	315,
+        	Packaged 		= 	TRUE,
+        	FoodType    		= 	Vegetables,
+        	EvolvedRecipeName 	= 	Canned Corn,
+		ReplaceOnUse		=	Hydrocraft.HCCannedcornempty,
+    }
+
+    item CannedMushroomSoupOpen
+    {
+        	Weight			=	0.7,
+        	Type			=	Food,
+        	DisplayName		=	Open Canned Mushroom Soup,
+        	Icon			=	CannedMushroomSoupOpen,
+        	HungerChange 		=	-10,
+        	DaysFresh		=	2,
+        	DaysTotallyRotten	=	4,
+       		Carbohydrates 		= 	19,
+        	Proteins 		= 	3,
+        	Lipids 			= 	8,
+        	Calories 		= 	160,
+        	Packaged 		= 	TRUE,
+		ReplaceOnUse		=	Hydrocraft.HCCannedmushroomsoupempty,
+    }
+
+    item CannedPeasOpen
+    {
+        	Weight			=	0.7,
+        	Type			=	Food,
+        	DisplayName		=	Open Canned Peas,
+        	Icon			=	CannedPeasOpen,
+        	HungerChange 		=	-15,
+        	EvolvedRecipe 		= 	Soup:15;Stew:15;Stir fry:15;Roasted Vegetables:15;RicePot:15;RicePan:15,
+        	DaysFresh		=	2,
+        	DaysTotallyRotten	=	4,
+        	Carbohydrates 		= 	52.5,
+        	Proteins 		= 	14,
+        	Lipids 			= 	0,
+        	Calories 		= 	280,
+        	Packaged 		= 	TRUE,
+        	FoodType    		= 	Vegetables,
+        	EvolvedRecipeName 	= 	Canned Peas,
+		ReplaceOnUse		=	Hydrocraft.HCCannedpeasempty,
+    }
+
+    item CannedPotatoOpen
+    {
+        	Weight			=	0.7,
+        	Type			=	Food,
+        	DisplayName		=	Open Canned Potato,
+        	Icon			=	CannedPotatoOpen,
+        	HungerChange 		=	-18,
+        	EvolvedRecipe       	=       Soup:18;Stew:18;Pie:18;Stir fry:18;Salad:9;Roasted Vegetables:18,
+        	DaysFresh		=	2,
+        	DaysTotallyRotten	=	4,
+        	Carbohydrates 		= 	35,
+        	Proteins 		= 	2.5,
+        	Lipids 			= 	0,
+        	Calories 		= 	175,
+        	Packaged 		= 	TRUE,
+        	FoodType    		= 	Vegetables,
+        	EvolvedRecipeName 	= 	Canned Potato,
+		ReplaceOnUse		=	Hydrocraft.HCCannedpotatoempty,
+    }
+
+    item CannedSardinesOpen
+    {
+        	Weight			=	0.7,
+        	Type			=	Food,
+        	DisplayName		=	Open Canned Sardines,
+        	Icon			=	CannedSardinesOpen,
+        	HungerChange 		=	-13,
+        	EvolvedRecipe 		= 	Stew:13;Stir fry:13;RicePot:13;RicePan:13;Sandwich:13,
+        	DaysFresh		=	2,
+        	DaysTotallyRotten	=	4,
+        	Carbohydrates 		= 	0,
+        	Proteins 		= 	14,
+        	Lipids 			= 	11,
+        	Calories 		= 	150,
+        	Packaged 		= 	TRUE,
+        	FoodType    		= 	Fish,
+        	EvolvedRecipeName 	= 	Canned Sardines,
+		ReplaceOnUse		=	Hydrocraft.HCCannedsardinesempty,
+    }
+
+    item CannedTomatoOpen
+    {
+        	Weight			=	0.7,
+        	Type			=	Food,
+        	DisplayName		=	Open Canned Tomato,
+        	Icon			=	CannedTomatoOpen,
+        	HungerChange 		=		-12,
+        	EvolvedRecipe       	=       Soup:12;Stew:12;Pie:12;Stir fry:12;Sandwich:6;Burger:6;Salad:12;Roasted Vegetables:12;RicePot:12;RicePan:12;PastaPot:12;PastaPan:12,
+        	DaysFresh		=	2,
+        	DaysTotallyRotten	=	4,
+        	Carbohydrates 		= 	18,
+        	Proteins 		= 	3,
+        	Lipids 			= 	0,
+        	Calories 		= 	90,
+        	Packaged 		= 	TRUE,
+        	FoodType    		= 	Vegetables,
+        	EvolvedRecipeName 	= 	Canned Tomato,
+		ReplaceOnUse		=	Hydrocraft.HCCannedtomatoempty,
+    }
+
+	item OpenBeans
+	{
+		HungerChange		=	-30,
+		Weight			=	0.8,
+		Type			=	Food,
+		DaysTotallyRotten	=	4,
+		UnhappyChange		=	10,
+		DisplayName		=	Open Canned Beans,
+		Icon			=	BeansOpen,
+		DaysFresh		=	2,
+        	Carbohydrates 		= 	33,
+        	Proteins 		= 	7,
+        	Lipids 			= 	1,
+        	Calories 		= 	170,
+        	Packaged 		= 	TRUE,
+		ReplaceOnUse		=	Hydrocraft.HCBeansempty,
+	}
+
+	item TinnedSoupOpen
+	{
+		HungerChange		=	-25,
+		Weight			=	0.8,
+		Type			=	Food,
+		DisplayName		=	Open Canned Soup,
+		Icon			=	SoupOpen,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		DaysTotallyRotten	=	4,
+        	DaysFresh 		= 	2,
+        	Carbohydrates 		= 	20,
+        	Proteins 		= 	7.5,
+        	Lipids 			= 	2.5,
+        	Calories 		= 	125,
+        	Packaged 		= 	TRUE,
+		ReplaceOnUse		=	Hydrocraft.HCTinnedsoupempty,
+	}
+
+	item TunaTinOpen
+	{
+		HungerChange		=	-17,
+		Weight			=	0.3,
+		Type			=	Food,
+		DaysTotallyRotten	=	4,
+		DisplayName		=	Open Tin of Tuna,
+		Icon			=	TunaOpen,
+		DaysFresh		=	2,
+		EvolvedRecipe 		= 	Stew:17;Stir fry:17;RicePot:17;RicePan:17;Sandwich:17,
+		FoodType 		= 	Fish,
+        	Carbohydrates 		= 	0,
+        	Proteins 		= 	15,
+        	Lipids 			= 	34,
+        	Calories 		= 	370,
+        	Packaged 		= 	TRUE,
+		ReplaceOnUse		=	Hydrocraft.HCTunatinempty,
+	}
+
+	item DogfoodOpen
+	{
+		HungerChange		=	-30,
+		Weight			=	1,
+		Type			=	Food,
+		DaysFresh		=	5,
+		DaysTotallyRotten	=	7,
+		UnhappyChange		=	50,
+		DisplayName		=	Open Dogfood,
+		Icon			=	DogfoodOpen,
+        	Carbohydrates 		= 	77.56,
+        	Proteins 		= 	16.04,
+        	Lipids 			= 	12.58,
+        	Calories 		= 	498,
+        	Packaged 		= 	TRUE,
+		ReplaceOnUse		=	Hydrocraft.HCDogfoodempty,
+	}
+
+    item CannedChiliOpen
+    {
+        	Weight			=	0.8,
+        	Type			=	Food,
+        	DisplayName		=	Open Canned Chili,
+        	Icon			=	CannedChiliOpen,
+        	HungerChange 		=	-15,
+        	DaysFresh		=	3,
+        	DaysTotallyRotten	=	5,
+        	EvolvedRecipe   	=   	Stew:15;Stir fry:15;Roasted Vegetables:15;RicePot:15;RicePan:15,
+        	Carbohydrates 		= 	33,
+        	Proteins 		= 	16,
+        	Lipids 			= 	7,
+        	Calories 		= 	260,
+        	Packaged 		= 	TRUE,
+        	FoodType 		= 	Meat,
+        	EvolvedRecipeName 	= 	Canned Chili,
+		ReplaceOnUse		=	Hydrocraft.HCCannedchiliempty,
+    }
+
+    item CannedBologneseOpen
+    {
+        	DisplayName		=	Open Canned Spaghetti Bolognese,
+        	Icon			=	CannedBologneseOpen,
+        	HungerChange 		=	-25,
+        	DaysFresh		=	3,
+        	DaysTotallyRotten	=	5,
+        	EvolvedRecipe   	=   	Stew:10;Stir fry:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+        	FoodType 		= 	Meat,
+        	Weight			=	0.8,
+        	Type			=	Food,
+        	Carbohydrates 		= 	68,
+        	Proteins 		= 	18,
+        	Lipids 			= 	22,
+        	Calories 		= 	540,
+        	Packaged 		= 	TRUE,
+        	EvolvedRecipeName 	= 	Canned Bolognese,
+		ReplaceOnUse		=	Hydrocraft.HCCannedbologneseempty,
+    }
+
+	item Crisps
+	{
+		HungerChange		=	-15,
+		Weight			=	0.2,
+		Type			=	Food,
+		DisplayName		=	Chips,
+		Icon			=	Crisps,
+        	Carbohydrates 		= 	72,
+        	Proteins 		= 	4.5,
+        	Lipids 			= 	45,
+        	Calories 		= 	720,
+        	Packaged 		= 	TRUE,
+        	CantBeFrozen 		= 	TRUE,
+		ReplaceOnUse		= 	Hydrocraft.HCCrispstrash,
+	}
+
+	item Crisps2
+	{
+		HungerChange		=	-15,
+		Weight			=	0.2,
+		Type			=	Food,
+		DisplayName		=	Chips,
+		Icon			=	Crisps2,
+        	Carbohydrates 		= 	72,
+        	Proteins 		= 	4.5,
+        	Lipids 			= 	45,
+        	Calories 		= 	720,
+        	Packaged 		= 	TRUE,
+        	CantBeFrozen 		= 	TRUE,
+		ReplaceOnUse		= 	Hydrocraft.HCCrisps2trash,
+	}
+
+	item Crisps3
+	{
+		HungerChange		=	-15,
+		Weight			=	0.2,
+		Type			=	Food,
+		DisplayName		=	Chips,
+		Icon			=	Crisps3,
+        	Carbohydrates 		= 	72,
+        	Proteins 		= 	4.5,
+        	Lipids 			= 	45,
+        	Calories 		= 	720,
+        	Packaged 		= 	TRUE,
+        	CantBeFrozen 		= 	TRUE,
+		ReplaceOnUse		= 	Hydrocraft.HCCrisps3trash,
+	}
+
+	item Crisps4
+	{
+		HungerChange		=	-15,
+		Weight			=	0.2,
+		Type			=	Food,
+		DisplayName		=	Chips,
+		Icon			=	Crisps4,
+        	Carbohydrates 		= 	72,
+        	Proteins 		= 	4.5,
+        	Lipids 			= 	45,
+        	Calories 		= 	720,
+        	Packaged 		= 	TRUE,
+        	CantBeFrozen 		= 	TRUE,
+		ReplaceOnUse		= 	Hydrocraft.HCCrisps4trash,
+	}
+
+    	item Salt
+	{
+		HungerChange		=	-10,
+		Weight			=	0.2,
+		Type			=	Food,
+		DisplayName		=	Salt,
+		Icon			=	Salt,
+		Spice   		=   	true,
+		ThirstChange		=	20,
+		BoredomChange		=	15,
+		UnhappyChange		=	20,
+		EvolvedRecipe 		= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+		CantBeFrozen 		= 	TRUE,
+		ReplaceOnDeplete	=	Hydrocraft.HCSaltshakerempty,
+	}
+
+	item Chocolate
+	{
+		HungerChange		=	-20,
+		Weight			=	0.2,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		DisplayName		=	Chocolate,
+		Icon			=	Chocolate,
+		EvolvedRecipe 		= 	Cake:10,
+		FoodType    		=   	NoExplicit,
+        	Carbohydrates 		= 	110,
+        	Proteins 		= 	10,
+        	Lipids 			= 	66,
+        	Calories 		= 	850,
+        	Packaged 		= 	TRUE,
+		ReplaceOnDeplete	=	Hydrocraft.HCChocolatetrash,
+	}
+
+    	item MintCandy
+    	{
+        	Type			=	Food,
+        	DisplayName		=	Mint Candy,
+        	Icon			=	MintCandy,
+        	Weight			=	0.1,
+        	HungerChange 		=	-2,
+        	UnhappyChange	    	=	-10,
+        	Carbohydrates 		= 	15,
+        	Proteins 		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	60,
+		ReplaceOnDeplete	=	Hydrocraft.HCMintcandytrash,
+    	}
+
+	item PeanutButter
+	{
+		HungerChange		=	-25,
+		Weight			=	0.3,
+		Type			=	Food,
+		UnhappyChange		=	-15,
+		DisplayName		=	Peanut Butter,
+		Icon			=	PeanutButter,
+		BoredomChange		=	-5,
+		EvolvedRecipe 		= 	Sandwich:7,
+		FoodType    		=   	NoExplicit,
+        	Carbohydrates 		= 	128,
+        	Proteins 		= 	84,
+        	Lipids 			= 	224,
+        	Calories 		= 	2660,
+        	Packaged 		= 	TRUE,
+		ReplaceOnDeplete	=	Hydrocraft.HCPeanutbutterjarempty,
+	}
+
+	item Pop
+	{
+		HungerChange		=	-8,
+		Weight			=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-60,
+		DisplayName		=	Pop,
+		Icon			=	Pop,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+        	Carbohydrates 		= 	39,
+        	Proteins 		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	140,
+        	Packaged 		= 	TRUE,
+        	CantBeFrozen 		= 	TRUE,
+		ReplaceOnDeplete	=	Hydrocraft.HCPoptrash,
+	}
+
+	item Pop2
+	{
+		HungerChange		=	-8,
+		Weight			=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-60,
+		DisplayName		=	Pop,
+		Icon			=	Pop2,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+        	Carbohydrates 		= 	39,
+        	Proteins 		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	140,
+        	Packaged 		= 	TRUE,
+        	CantBeFrozen 		= 	TRUE,
+		ReplaceOnDeplete	=	Hydrocraft.HCPop2trash,
+	}
+
+	item Pop3
+	{
+		HungerChange		=	-8,
+		Weight			=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-60,
+		DisplayName		=	Pop,
+		Icon			=	Pop3,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+        	Carbohydrates 		= 	39,
+        	Proteins 		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	140,
+        	Packaged 		= 	TRUE,
+        	CantBeFrozen 		= 	TRUE,
+		ReplaceOnDeplete	=	Hydrocraft.HCPop3trash,
+	}
+
+
+	item Vinegar
+    	{
+        	Type	            	=	Drainable,
+        	UseDelta	        =	0.1,
+        	UseWhileEquipped	=       FALSE,
+        	DisplayName		=	Vinegar,
+        	Icon			=	Vinegar,
+        	Weight			=	0.3,
+		ReplaceOnDeplete	=	Hydrocraft.HCVinegarempty,
+    	}
+
+
+    item Mustard
+	{
+		HungerChange		=	-20,
+		Weight			=	0.2,
+		Type			=	Food,
+		UnhappyChange		=	30,
+		DisplayName		=	Mustard,
+		Icon			=	Mustard,
+		EvolvedRecipe 		= 	Sandwich:2;Burger:2;Salad:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2,
+		Spice   		=   	true,
+        	Carbohydrates 		= 	0,
+        	Proteins 		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	510,
+        	Packaged 		= 	TRUE,
+        	CantBeFrozen 		= 	TRUE,
+		ReplaceOnDeplete	=	Hydrocraft.HCMustardempty,
+	}
+
+    item Ketchup
+	{
+		HungerChange		=	-20,
+		Weight			=	0.2,
+		Type			=	Food,
+		UnhappyChange		=	30,
+		DisplayName		=	Ketchup,
+		Icon			=	Ketchup,
+		EvolvedRecipe 		= 	Sandwich:2;Burger:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2,
+		Spice   		=   	true,
+        	Carbohydrates 		= 	370,
+        	Proteins 		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	1480,
+        	Packaged 		= 	TRUE,
+        	CantBeFrozen 		= 	TRUE,
+		ReplaceOnDeplete	=	Hydrocraft.HCKetchupempty,
+	}
+
+
+	item TVDinner
+	{
+		HungerChange		=	-23,
+		Weight			=	0.4,
+		Type			=	Food,
+		IsCookable		=	TRUE,
+		DangerousUncooked	=	TRUE,
+		UnhappyChange		=	25,
+		MinutesToBurn		=	15,
+		DisplayName		=	TV Dinner,
+		Icon			=	TVDinner,
+		MinutesToCook		=	10,
+		BoredomChange		=	30,
+        	Carbohydrates 		= 	81,
+        	Proteins 		= 	30,
+        	Lipids 			= 	25,
+        	Calories 		= 	670,
+        	Packaged 		= 	TRUE,
+		ReplaceOnDeplete	=	Hydrocraft.HCTVDinnerempty,
+	}
+
+	item Icecream
+	{
+		HungerChange		=	-30,
+		Weight			=	0.2,
+		UnhappyChange		=	-10,
+        	DaysFresh		=	1,
+        	DaysTotallyRotten	=	1,
+		AlwaysWelcomeGift	=	true,
+		Type			=	Food,
+		DisplayName		=	Icecream,
+		Icon			=	Icecream,
+        	Carbohydrates 		= 	180,
+        	Proteins 		= 	26,
+        	Lipids 			= 	84,
+        	Calories 		= 	1680,
+        	ReplaceOnRotten 	= 	IcecreamMelted,
+        	Packaged 		= 	TRUE,
+		ReplaceOnDeplete	=	Hydrocraft.HCIcecreamempty,
+	}
+
+	item IcecreamMelted
+	{
+		HungerChange		=	-30,
+		Weight			=	0.2,
+		Type			=	Food,
+		DisplayName		=	Melted Icecream,
+		Icon			=	IcecreamMelted,
+        	Carbohydrates 		= 	180,
+        	Proteins 		= 	26,
+        	Lipids 			= 	84,
+        	Calories 		= 	1680,
+        	Packaged 		= 	TRUE,
+		ReplaceOnDeplete	=	Hydrocraft.HCIcecreamempty,
+	}
+
+	item Milk
+	{
+		HungerChange		=	-10,
+		Weight			=	1.0,
+		AlwaysWelcomeGift	=	true,
+		Type			=	Food,
+		ThirstChange		=	-100,
+		DisplayName		=	Milk,
+		Icon			=	Milk,
+        	DaysFresh 		=	4,
+       	 	DaysTotallyRotten 	=	7,
+		CustomContextMenu	=	Drink,
+		CustomEatSound		=	PZ_DrinkingFromBottle,
+        	Carbohydrates 		= 	13,
+        	Proteins 		= 	8,
+        	Lipids 			= 	2.5,
+        	Calories 		= 	110,
+        	Packaged 		= 	TRUE,
+        	CantBeFrozen 		= 	TRUE,
+		ReplaceOnDeplete	=	Hydrocraft.HCMilkempty,
+	}
+
+
+    	item Yoghurt
+    	{
+        	Type			=	Food,
+       	 	DisplayName		=	Yogurt,
+        	Icon			=	Yoghurt,
+        	Weight			=	0.3,
+        	HungerChange 		=	-10,
+        	DaysFresh 		=	10,
+        	DaysTotallyRotten 	=	 15,
+        	Carbohydrates 		= 	1,
+        	Proteins 		= 	5,
+        	Lipids 			= 	1,
+        	Calories 		= 	30,
+        	Packaged 		= 	TRUE,
+		ReplaceOnDeplete	=	Hydrocraft.HCYoghurtempty,
+    	}
+
+	item Cereal
+	{
+		HungerChange		=	-40,
+		Weight			=	0.2,
+		AlwaysWelcomeGift	=	true,
+		Type			=	Food,
+		DisplayName		=	Cereal,
+		Icon			=	Cereal,
+        	Carbohydrates 		= 	572,
+        	Proteins 		= 	52,
+        	Lipids 			= 	26,
+        	Calories 		= 	2360,
+        	Packaged 		= 	TRUE,
+		ReplaceOnDeplete	=	Hydrocraft.HCCerealtrash,
+	}
+
+    	item OatsRaw
+	{
+		Weight			=	0.8,
+		Type			=	Food,
+		DisplayName		=	Can of Oats,
+		Icon			=	OatsRaw,
+		HungerChange 		= 	-50,
+        	Carbohydrates 		= 	405,
+        	Proteins 		= 	75,
+        	Lipids 			= 	45,
+        	Calories 		= 	1500,
+        	Packaged 		= 	TRUE,
+		ReplaceOnDeplete	=	Hydrocraft.HCOatsempty,
+	}
+
+	item Flour
+	{
+		Weight			=	1,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Flour,
+		Icon			=	Flour,
+		ReplaceOnDeplete	=	Hydrocraft.HCFlourempty,
+	}
+
+    	item Rice
+    	{
+        	Weight			=	2,
+        	Type			=	Food,
+        	DisplayName		=	Rice,
+        	Icon			=	RiceRaw,
+        	HungerChange    	=   	-60,
+        	UnhappyChange   	=   	40,
+        	ThirstChange    	=   	60,
+        	Carbohydrates 		= 	648,
+        	Proteins 		= 	72,
+        	Lipids 			= 	0,
+        	Calories 		= 	2880,
+        	Packaged 		= 	TRUE,
+		ReplaceOnDeplete	=	Hydrocraft.HCRiceempty,
+    	}
+
+	item Sugar
+	{
+		Weight			=	1,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.16,
+		DisplayName		=	Sugar,
+		Icon			=	Sugar,
+		ReplaceOnDeplete	=	Hydrocraft.HCSugarempty,
+	}
+
+/************************Misc************************/
+
+	item Fertilizer
+    	{
+        	Type			=	Drainable,
+        	DisplayName		=	NPK Fertilizer,
+       		Icon			=	TZ_IndieStoneNPK,
+        	Weight			=	2.0,
+       		UseDelta		=	0.25,
+        	UseWhileEquipped	=	false,
+		ReplaceOnDeplete	=	EmptySandbag,
+    	}
+
+	item PropaneTank
+	{
+		Weight			=	20,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.125,
+		DisplayName		=	Propane Tank,
+		Icon			=	PropaneTank,
+		ResizeWorldIcon 	= 	2.0,
+		ReplaceOnDeplete	=	Hydrocraft.HCPropanetankempty,
+	}
+
+	item Lighter
+	{
+		LightDistance		=	2,
+		Weight			=	0.1,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		TorchCone		=	FALSE,
+		LightStrength		=	0.4,
+		DisplayName		=	Lighter,
+		ActivatedItem		=	TRUE,
+		Icon			=	Lighter,
+		ReplaceOnDeplete	=	Hydrocraft.HCLighterempty,
+	}
+
+	item Battery
+	{
+		Weight			=	0.6,
+		Type			=	Drainable,
+		UseDelta		=	0.00001,
+		UseWhileEquipped	=	FALSE,
+		DisplayName		=	Battery,
+		Icon			=	HCBattery,
+		ReplaceOnDeplete	=	Hydrocraft.HCBatterydead,
+	}
+
+    	item Glue
+    	{
+        	Weight			=	0.1,
+        	Type			=	Drainable,
+        	UseDelta		=	0.2,
+        	UseWhileEquipped	=	FALSE,
+        	DisplayName		=	Glue,
+        	Icon			=	Glue,
+		ReplaceOnDeplete	=	Hydrocraft.HCGlueempty,
+    	}
+
+    	item Woodglue
+    	{
+        	Weight			=	0.1,
+        	Type	            	=	Drainable,
+       	 	UseDelta	        =	0.2,
+        	UseWhileEquipped	=	FALSE,
+        	DisplayName		=	Wood Glue,
+        	Icon			=	Woodglue,
+		ReplaceOnDeplete	=	Hydrocraft.HCWoodglueempty,
+    	}
+
+	item Scotchtape
+    	{
+        	Weight			=	0.1,
+        	Type			=	Drainable,
+        	UseDelta		=	0.25,
+        	DisplayName		=	Adhesive Tape,
+        	Icon			=	Scotchtape,
+		ReplaceOnDeplete	=	Hydrocraft.HCScotchtapeempty,
+    	}
+
+
+	item Cigarettes
+	{
+		Count			=	20,
+		HungerChange		=	0,
+		Weight			=	0.005,
+		RequireInHandOrInventory=	Lighter/Matches,
+		Type			=	Food,
+		DisplayName		=	Cigarettes,
+		StressChange		=	-5,
+		Icon			=	IckySticks,
+		CustomContextMenu 	= 	Smoke,
+		CantBeFrozen 		= 	TRUE,
+		OnEat 			= 	OnEat_Cigarettes,
+		ReplaceOnUse		=	Hydrocraft.HCCigarettebutt,
+		CustomEatSound 		=
+	}
+
+/************************Pain Cans************************/
+
+	item PaintPink
+	{
+		Weight			=	5,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Pink Paint,
+		Icon			=	Paint_Pink,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+	}
+
+  	item PaintRed
+	{
+		Weight			=	5,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Red Paint,
+		Icon			=	Paint_Red,
+		Tooltip 		= 	Tooltip_Paint,
+        	ReplaceOnUse 		= 	Hydrocraft.HCPaintcan,
+	}
+
+	item PaintOrange
+	{
+		Weight			=	5,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Orange Paint,
+		Icon			=	Paint_Orange,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+	}
+
+	item PaintBrown
+	{
+		Weight			=	5,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Brown Paint,
+		Icon			=	Paint_Brown,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+	}
+
+
+	item PaintLightBrown
+	{
+		Weight			=	5,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Light Brown Paint,
+		Icon			=	Paint_LightBrown,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+	}
+
+	item PaintYellow
+	{
+		Weight			=	5,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Yellow Paint,
+		Icon			=	Paint_Yellow,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+	}
+
+	item PaintGreen
+	{
+		Weight			=	5,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Green Paint,
+		Icon			=	Paint_Green,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+	}
+
+	item PaintTurquoise
+	{
+		Weight			=	5,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Turquoise Paint,
+		Icon			=	Paint_Turquoise,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+	}
+
+	item PaintCyan
+	{
+		Weight			=	5,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Cyan Paint,
+		Icon			=	Paint_Cyan,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+	}
+
+	item PaintLightBlue
+	{
+		Weight			=	5,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Light Blue Paint,
+		Icon			=	Paint_LightBlue,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+	}
+
+	item PaintBlue
+	{
+		Weight			=	5,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Blue Paint,
+		Icon			=	Paint_Blue,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+	}
+
+	item PaintPurple
+	{
+		Weight			=	5,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Purple Paint,
+		Icon			=	Paint_Purple,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+	}
+
+	item PaintBlack
+    	{
+       		Weight			=	5,
+        	Type			=	Drainable,
+        	UseWhileEquipped	=	FALSE,
+        	UseDelta		=	0.25,
+        	DisplayName		=	Black Paint,
+       		Icon			=	Paint_Black,
+        	Tooltip 		= 	Tooltip_Paint,
+        	ReplaceOnUse 		= 	Hydrocraft.HCPaintcan,
+    	}
+
+	item PaintGrey
+	{
+		Weight			=	5,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Grey Paint,
+		Icon			=	Paint_Grey,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+	}
+
+	item PaintWhite
+	{
+		Weight			=	5,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	White Paint,
+		Icon			=	Paint_White,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+	}
+
+
+
+/************************RECIPES************************/
+
+
+}

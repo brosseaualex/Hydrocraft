@@ -1,0 +1,248 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCComputerdesktop
+    {
+	Weight             	= 20,
+        Type    		= Normal,
+        DisplayName         	= Desktop Computer,
+        icon 			= HCComputerdesktop,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCFloppy
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk,
+        icon 			= HCFloppy,
+    }
+
+item HCFloppyevosim
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk with Evolution Simulator,
+        icon 			= HCFloppyfull,
+    }
+
+item HCFloppygesture
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk with Gesture Recognition Software,
+        icon 			= HCFloppyfull,
+    }
+
+item HCFloppyvoice
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk with Voice Recognition Software,
+        icon 			= HCFloppyfull,
+    }
+
+item HCFloppygraphics
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk with Graphics Software,
+        icon 			= HCFloppyfull,
+    }
+
+item HCFloppywriting
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk with Writing Software,
+        icon 			= HCFloppyfull,
+    }
+
+item HCFloppyweb
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk with Web Browser Software,
+        icon 			= HCFloppyfull,
+    }
+
+item HCFloppyaudio
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk with Audio Software,
+        icon 			= HCFloppyfull,
+    }
+
+item HCFloppyemail
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Floppy Disk with Email Software,
+        icon 			= HCFloppyfull,
+    }
+
+/************************RECIPES************************/	
+
+recipe Make Desktop Computer
+    {
+	SkillRequired:Electricity=1,
+        HCComputermonitor,
+        HCComputer,
+	HCComputerkeyboard,
+	HCComputermouse,
+	HCMousepad,
+	HCPowercord,
+	HCTablewood,
+	Generator,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCComputerdesktop,
+	Time:1000,
+        Category:Electrical,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Write Computer Program
+    {
+	SkillRequired:Electricity=5,
+	PetrolCan,
+	HCFloppy,
+	keep HCBookbiology,
+	keep HCBookmicrobiology,
+	keep HCBookorganicchemistry,
+	keep HCBookecology,
+	keep HCComputerdesktop,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCFloppyevosim,
+	Time:1000,
+        Category:Programing,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Write Computer Program
+    {
+	SkillRequired:Electricity=6,
+	PetrolCan,
+	HCFloppy,
+	keep HCFloppygraphics,
+	keep HCBookcalculus,
+	keep HCBookanthropology,
+	keep HCBooksociology,
+	keep HCBookcommunications,
+	keep HCBookanatomy,
+	keep HCComputerdesktop,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCFloppygesture,
+	Time:2000,
+        Category:Programing,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Write Computer Program
+    {
+	SkillRequired:Electricity=6,
+	PetrolCan,
+	HCFloppy,
+	keep HCFloppyaudio,
+	keep HCBookcalculus,
+	keep HCBookanthropology,
+	keep HCBooksociology,
+	keep HCBookcommunications,
+	keep HCBookmusic,
+	keep HCComputerdesktop,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCFloppyvoice,
+	Time:2000,
+        Category:Programing,
+    	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Play Computer Game
+    {
+	PetrolCan,
+	HCPCgame1,
+	keep HCComputerdesktop,
+        CanBeDoneFromFloor:true,
+	Result:HCPCgame1,
+	Time:2000,
+    	Category:Leisure,
+    	OnCreate:HC_ToyStatModifier,
+    }
+
+recipe Play Computer Game
+    {
+	PetrolCan,
+	HCPCgame2,
+	keep HCComputerdesktop,
+        CanBeDoneFromFloor:true,
+	Result:HCPCgame2,
+	Time:2000,
+    	Category:Leisure,
+    	OnCreate:HC_ToyStatModifier,
+    }
+
+
+recipe Play Computer Game
+    {
+	PetrolCan,
+	HCPCgame3,
+	keep HCComputerdesktop,
+        CanBeDoneFromFloor:true,
+	Result:HCPCgame3,
+	Time:2000,
+    	Category:Leisure,
+    	OnCreate:HC_ToyStatModifier,
+    }
+
+
+recipe Play Computer Game
+    {
+	PetrolCan,
+	HCPCgame4,
+	keep HCComputerdesktop,
+        CanBeDoneFromFloor:true,
+	Result:HCPCgame4,
+	Time:2000,
+    	Category:Leisure,
+    	OnCreate:HC_ToyStatModifier,
+    }
+
+
+recipe Play Computer Game
+    {
+	PetrolCan,
+	HCPCgame5,
+	keep HCComputerdesktop,
+        CanBeDoneFromFloor:true,
+	Result:HCPCgame5,
+	Time:2000,
+    	Category:Leisure,
+    	OnCreate:HC_ToyStatModifier,
+    }
+
+
+recipe Play Computer Game
+    {
+	PetrolCan,
+	HCPCgame6,
+	keep HCComputerdesktop,
+        CanBeDoneFromFloor:true,
+	Result:HCPCgame6,
+	Time:2000,
+    	Category:Leisure,
+    	OnCreate:HC_ToyStatModifier,
+    }
+
+}

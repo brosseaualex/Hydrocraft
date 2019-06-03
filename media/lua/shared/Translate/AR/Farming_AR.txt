@@ -1,0 +1,16 @@
+Farming_AR = {
+  -- vegetables name (type of seed)
+	Farming_Bean = "Frijoles",
+	Farming_BellPepper = "Pimiento",
+	Farming_Eggplant = "Berenjena",
+	Farming_Grape = "Uva",
+	Farming_Leek = "Puerro",
+	Farming_Lettuce = "Lechuga",
+	Farming_Onion = "Cebolla",
+	Farming_Pea = "Guisante",
+	Farming_Peanut = "Cacahuate",
+	Farming_Pumpkin = "Calabaza",
+	Farming_Watermelon = "Sandía",
+	Farming_Zucchini = "Calabacín",
+	Farming_Tooltip_TrellisRequired = "Se requiere kit de espaldera: ",
+}

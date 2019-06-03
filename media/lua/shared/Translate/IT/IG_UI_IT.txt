@@ -1,0 +1,6 @@
+IGUI_IT = {
+	IGUI_ItemCat_Toy = "Giocattolo",
+	IGUI_ItemCat_Trash = "Spazzatura",
+	IGUI_ItemCat_Money = "Soldi",
+	IGUI_ItemCat_Mineral = "Minerale",		
+}

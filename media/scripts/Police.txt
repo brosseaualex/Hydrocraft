@@ -1,0 +1,76 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCHandcuffs
+	{
+	Weight			=	0.3,
+        Type			=	Normal,
+        DisplayName		=	Handcuffs,
+	Icon			=	HCHandcuffs,
+	}
+
+item HCPolicebadge
+	{
+	Weight			=	0.3,
+        Type			=	Normal,
+        DisplayName		=	Police Badge,
+	Icon			=	HCPolicebadge,
+	}
+
+
+/************************WEAPONS************************/
+
+item HCBaton
+	{
+		MaxRange			=	1.5,
+		WeaponSprite			=	Baseballbat,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	30,
+		Weight				=	1,
+		SplatNumber			=	1,
+		PushBackMod			=	0.5,
+		MaxDamage			=	1.2,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	2,
+		DoorDamage			=	7,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	10,
+		WeaponWeight			=	1,
+		DisplayName			=	Police Baton,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		MinDamage			=	0.8,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	FALSE,
+		Icon				=	HCBaton,
+		RunAnim				=	Run_Weapon2,
+		BreakSound  			=   	PZ_MetalSnap,
+        	TreeDamage  			=   	1,
+	}
+
+/************************RECIPES************************/
+
+
+
+
+}
+
+
+
+

@@ -1,0 +1,496 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCPencilsharpener
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Pencil Sharpener,
+        icon 			= HCPencilsharpener,
+    }
+
+item HCPencilbox
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Pencils,
+        icon 			= HCPencilbox,
+    }
+
+item HCPenbox
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Pens,
+        icon 			= HCPenbox,
+    }
+
+item HCStaples
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Staples,
+        icon 			= HCStaples,
+    }
+
+item HCStaplesbox
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Staples,
+        icon 			= HCStaplesbox,
+    }
+
+item HCStapler
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName     	= Empty Stapler,
+        icon 			= HCStapler,
+    }
+
+item HCStaplerfull
+    {
+	Weight			=	0.6,
+	Type			=	Drainable,
+	UseDelta		=	0.25,
+	DisplayName		=	Stapler,
+	ReplaceOnDeplete	=	HCStapler,
+	Icon			=	HCStapler,
+    }
+
+item HCStaplegun
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName     	= Empty Staple Gun,
+        icon 			= HCStaplegun,
+    }
+
+item HCStaplegunfull
+    {
+	Weight			=	1,
+	Type			=	Drainable,
+	UseDelta		=	0.25,
+	DisplayName		=	Staple Gun,
+	ReplaceOnDeplete	=	HCStaplegun,
+	Icon			=	HCStaplegun,
+    }
+
+item HCPostit
+    	{
+        Weight			= 0.01,
+        Type			= Literature,
+        DisplayName		= Post-It Note,
+        Icon			= HCPostit,
+        CanBeWrite  		= true,
+        PageToWrite 		= 1,
+    	}
+
+item HCPostitpad
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Pad of Post-It Notes,
+        icon 			= HCPostitpad,
+    }
+
+item HCRubberbandbox
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Box of Rubberbands,
+        icon 			= HCRubberbandbox,
+    }
+
+item HCAbacus
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Abacus,
+        icon 			= HCAbacus,
+    }
+
+item HCTypewriter
+    {
+        Weight    		= 2,
+        Type    		= Normal,
+        DisplayName         	= Typewriter,
+        icon 			= HCTypewriter,
+    }
+
+item HCBinderclip
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Binder Clip,
+        icon 			= HCBinderclip,
+    }
+
+item HCBookend
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Bookend,
+        icon 			= HCBookend,
+    }
+
+item HCClipboard
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Clipboard,
+        icon 			= HCClipboard,
+    }
+
+item HCWhiteout
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Whiteout,
+        icon 			= HCWhiteout,
+    }
+
+item HCThumbtack
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Thumbtack,
+        icon 			= HCThumbtack,
+    }
+
+item HCHighlighter
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Highlighter,
+        icon 			= HCHighlighter,
+    }
+
+item HCRuler
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Ruler,
+        icon 			= HCRuler,
+    }
+
+item HCStapleremover
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Staple Remover,
+        icon 			= HCStapleremover,
+    }
+
+item HCTriangle
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Triangle,
+        icon 			= HCTriangle,
+    }
+
+
+item HCStamp
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Rubber Stamp,
+        icon 			= HCStamp,
+    }
+
+item HCFolder
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Folder,
+        icon 			= HCFolder,
+    }
+
+item HCFolder2
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Folder,
+        icon 			= HCFolder2,
+    }
+
+item HCManilaenvelope
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Manila Envelope,
+        icon 			= HCManilaenvelope,
+    }
+
+item HCManilaenvelope2
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Manila Envelope,
+        icon 			= HCManilaenvelope2,
+    }
+
+item HCCertificate
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Certificate,
+        icon 			= HCCertificate,
+    }
+
+item HCGlobe
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Globe,
+        icon 			= HCGlobe,
+    }
+
+item HCShipinbottle
+    {
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Ship in a Bottle,
+        icon 			= HCShipinbottle,
+    }
+
+item HCDucttapepack 
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName     	= Duct Tape Package,
+        icon 			= HCDucttapepack,
+    }
+
+item HCElectrictape
+    {
+        Weight			= 0.3,
+        Type			= Drainable,
+        UseDelta		= 0.25,
+        UseWhileEquipped	= FALSE,
+        DisplayName		= Electric Tape,
+        Icon			= HCElectrictape,
+    }
+
+item HCElectricaltapepack
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName     	= Electrical Tape Package,
+        icon 			= HCElectricaltapepack,
+    }
+
+item HCMaskingtape
+    {
+        Weight			= 0.3,
+        Type			= Drainable,
+        UseDelta		= 0.25,
+        UseWhileEquipped	= FALSE,
+        DisplayName		= Masking Tape,
+        Icon			= HCMaskingtape,
+    }
+
+item HCPackingtape
+    {
+        Weight			= 0.3,
+        Type			= Drainable,
+        UseDelta		= 0.25,
+        UseWhileEquipped	= FALSE,
+        DisplayName		= Packing Tape,
+        Icon			= HCPackingtape,
+    }
+
+item HCGluepack
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName     	= Glue Package,
+        icon 			= HCGluepack,
+    }
+
+item HCWoodgluepack
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName     	= Wood Glue Package,
+        icon 			= HCWoodgluepack,
+    }
+	
+item HCSuperglue
+    {
+        Type	            	= Drainable,
+        UseDelta	        = 0.2,
+        UseWhileEquipped	= FALSE,
+        DisplayName		= Super Glue,
+        Icon			= HCSuperglue,
+        Weight			= 0.1,
+    }
+
+item HCRubbercement
+    {
+        Type	            	= Drainable,
+        UseDelta	        = 0.2,
+        UseWhileEquipped	= FALSE,
+        DisplayName		= Rubber Cement,
+        Icon			= HCRubbercement,
+        Weight			= 0.1,
+    }
+
+/************************RECIPES************************/
+    
+
+recipe Box Pencils
+    {
+    Pencil=20,
+    Result:HCPencilbox,
+    Time:15,
+    }
+
+recipe Unbox Pencils
+    {
+    HCPencilbox,
+    Result:Pencil=20,
+    Time:15,
+    }
+
+recipe Box Pens
+    {
+    Pen=20,
+    Result:HCPenbox,
+    Time:15,
+    }
+
+recipe Unbox Pens
+    {
+    HCPenbox,
+    Result:Pen=20,
+    Time:15,
+    }   
+
+recipe Refill Stapler
+    {
+    HCStapler,
+    HCStaples=10,
+    Result:HCStaplerfull,
+    Time:15,
+    }
+
+recipe Refill Staple Gun
+    {
+    HCStaplegun,
+    HCStaples=10,
+    Result:HCStaplegunfull,
+    Time:15,
+    }
+
+recipe Box Staples
+    {
+    HCStaples=100,
+    Result:HCStaplesbox,
+    Time:15,
+    }
+
+recipe Unbox Staples
+    {
+    HCStaplesbox,
+    Result:HCStaples=100,
+    Time:15,
+    }   
+
+recipe Seperate Post-It Notes
+    {
+    HCPostitpad,
+    Result:HCPostit=100,
+    Time:15,
+    }  
+
+recipe Box Rubberbands
+    {
+    RubberBand=100,
+    Result:HCRubberbandbox,
+    Time:15,
+    }
+
+recipe Unbox Rubberbands
+    {
+    HCRubberbandbox,
+    Result:RubberBand=100,
+    Time:15,
+    }   
+
+recipe Erase Notebook
+    {
+    Notebook,
+    Eraser/HCWhiteout,
+    Result:Notebook,
+    Time:25,
+    }   
+
+recipe Erase Journal
+    {
+    Journal,
+    Eraser/HCWhiteout,
+    Result:Notebook,
+    Time:25,
+    }   
+
+recipe Pull out Pages
+    {
+    Book/HCBook,
+    Result:SheetPaper2=100,
+    Time:100,
+    } 
+
+recipe Pull out Pages
+    {
+    Journal/Notebook,
+    Result:SheetPaper2=20,
+    Time:20,
+    } 
+
+recipe Pull out Pages
+    {
+    HCBookphone,
+    Result:SheetPaper2=500,
+    Time:500,
+    } 
+
+recipe Open Duct Tape Package
+	{
+	HCDucttapepack,
+	Result:DuctTape=3,
+	Time:50.0,
+	}
+
+recipe Open Electrical Tape Package
+	{
+	HCElectricaltapepack,
+	Result:HCElectrictape=3,
+	Time:50.0,
+	}
+
+recipe Open Glue Package
+	{
+	HCGluepack,
+	Result:Glue=4,
+	Time:50.0,
+	}
+
+recipe Open Wood Glue Package
+	{
+	HCWoodgluepack,
+	Result:Woodglue=4,
+	Time:50.0,
+	}
+
+}

@@ -1,0 +1,4 @@
+ContextMenu_RU = {
+	ContextMenu_Sow_Trellis_Seed = "Посеять на шпалере",
+
+}

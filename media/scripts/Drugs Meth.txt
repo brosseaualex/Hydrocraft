@@ -1,0 +1,162 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCCrystalmeth
+    {
+        HungerChange            = -10,  
+        Weight                  = 0.8,
+        Type                    = Food,
+        ThirstChange            = -5,
+        UnhappyChange		= -15,
+        FatigueChange           = -20,
+	EnduranceChange		= 20,
+        StressChange            = 20,
+        Poison                  = true,
+        PoisonDetectionLevel    = 1,
+        PoisonPower             = 6,
+        UseForPoison            = 1,
+        DisplayName		= Homemade Crystal Meth,                                                    
+        ReplaceOnUse	        = HCZipperbag,    
+        Icon			= HCCrystalmeth,
+    }
+
+item HCBluemethtray
+    {
+        Weight    		= 3,
+        Type    		= Normal,
+        DisplayName     	= Bakingtray with Blue Meth,
+        icon 			= HCBluemethtray,
+    } 
+
+item HCBluemeth
+    {  
+        HungerChange            = -20,
+        Weight                  = 0.5,
+        Type                    = Food,
+        ThirstChange            = -5,
+        UnhappyChange		= -15,
+        FatigueChange           = -30,
+	EnduranceChange		= 30,
+        StressChange            = 30,
+        Poison                  = true,
+        PoisonDetectionLevel    = 1,
+        PoisonPower             = 3,
+        UseForPoison            = 1,
+        DisplayName		= Blue Meth,                                                                             
+	ReplaceOnUse	        = HCZipperbag,                                                                              
+	Icon			= HCBluemeth,
+     }
+
+/************************RECIPES************************/
+
+recipe Make Homemade Crystal Meth 
+    {
+       	SkillRequired:Doctor=5,        
+        keep HCLab,
+        keep HCGasmask/HCImprovisedgasmask,
+        keep HCLatexgloves/HCRubberglove,
+        HCLithiumpowder,
+        HCPhosphoruspowder,
+        HCEphedrinepowder,
+        HCZipperbag,
+        CanBeDoneFromFloor:true, 
+        NeedToBeLearn:true,
+        Result:HCCrystalmeth,
+        Time:600,
+    	Category:Alchemy,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Cook Blue Meth
+    {
+       	SkillRequired:Doctor=6,
+        keep HCLabbig,
+        keep HCHazmat/HCImprovisedhazmat,
+        BakingTray=5,
+        HCAluminumpowder=5,
+        HCMethylaminbarrelfull=20,
+        HCPhenylbarrelfull=20,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        OnGiveXP:MakeEphedrin_OnGiveXP, 
+   	Result:HCBluemethtray=5,
+    	Time:5000,
+    	Category:Alchemy,
+        OnCreate:hcmeth,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Cook Blue Meth
+    {
+       	SkillRequired:Doctor=6,
+        keep HCLabbig,
+        keep HCHazmat/HCImprovisedhazmat,
+        BakingTray=5,
+        HCAluminumpowder=5,
+        HCMethylaminbarrelbluefull=20,
+        HCPhenylbarrelfull=20,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+   	Result:HCBluemethtray=5,
+    	Time:5000,
+    	Category:Alchemy,
+        OnCreate:hcmeth,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Cook Blue Meth
+    {
+       	SkillRequired:Doctor=6,
+        keep HCLabbig,
+        keep HCHazmat/HCImprovisedhazmat,
+        BakingTray=5,
+        HCAluminumpowder=5,
+        HCMethylaminbarrelfull=20,
+        HCPhenylbarrelbluefull=20,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+   	Result:HCBluemethtray=5,
+    	Time:5000,
+    	Category:Alchemy,
+        OnCreate:hcmeth,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Cook Blue Meth
+    {
+       	SkillRequired:Doctor=6,
+        keep HCLabbig,
+        keep HCHazmat/HCImprovisedhazmat,
+        BakingTray=5,
+        HCAluminumpowder=5,
+        HCMethylaminbarrelbluefull=20,
+        HCPhenylbarrelbluefull=20,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+   	Result:HCBluemethtray=5,
+    	Time:5000,
+    	Category:Alchemy,
+        OnCreate:hcmeth,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Fill Blue Meth in Bags
+    {
+        HCBluemethtray=1,
+        keep KitchenKnife/HCSpatula,
+        HCZipperbag=5,
+   	Result:HCBluemeth=5,
+    	Time:500,
+    	Category:Alchemy,
+        OnCreate:hcbluemethrecipe,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+}

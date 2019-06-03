@@ -1,0 +1,351 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCPoppyflower
+    {
+	Weight			        = 0.1,
+        Type    		        = Normal,
+        DisplayName     	        = Poppy Flower,
+        Icon   		 	        = HCPoppyflower,
+    }
+
+item HCPoppycapsule
+    {
+	Weight			        = 0.1,
+        Type    		        = Normal,
+        DisplayName     	        = Poppy Capsule,
+        Icon   		 	        = HCPoppycapsule,
+    }
+
+item HCPoppycapsuleripped
+	{
+	Weight	                        = 0.1,
+        Type    		        = Normal,
+	DisplayName	                = Ripped Poppy Capsule,
+	Icon	                        = HCPoppycapsuleripped,
+	}
+
+item HCRawopium
+	{
+	Weight	                        = 0.1,
+        Type    		        = Normal,
+	DisplayName	                = Kneaded Raw Opium,
+	Icon	                        = HCRawopium,
+	}
+
+item HCOpiumpowder
+    {
+        PainReduction 		        = 10,
+        FatigueChange                   = 10,
+	Weight				= 0.1,
+	Type				= Food,
+	DisplayName			= Opium Powder,
+	StressChange			= -20,
+	UnhappyChange			= -25,
+        Poison                  	= true,
+        PoisonDetectionLevel    	= 1,
+        PoisonPower             	= 6,
+        UseForPoison            	= 1,
+	Icon				= HCOpiumpowder,
+	Alcoholic			= TRUE,
+	CustomContextMenu 		= Sniff,
+	CustomEatSound 			= 
+    }
+
+item HCJaropium
+	{
+	Weight	                        = 0.5,
+        Type    		        = Normal,
+	DisplayName	                = Jar With Fermented Opium,
+	Icon	                        = HCJaropium,
+	}
+
+item HCPureopium
+    {
+        Weight    		        = 0.1,
+        Type    		        = Normal,
+        DisplayName     	        = Pure Opium,
+        Icon   		 	        = HCPureopium,
+    }
+
+item HCPipeopiumpure
+    {
+        PainReduction 		        = 10,
+        FatigueChange                   = 10,
+	Weight				= 0.1,
+	RequireInHandOrInventory	= Lighter/Matches,
+	Type				= Food,
+	DisplayName			= Clay Pipe with Pure Opium,
+	StressChange			= -20,
+	UnhappyChange			= -25,
+	ReplaceOnUse			= HCClaypipesmoking,
+	Icon				= HCClaypipesmoking,
+	Alcoholic			= TRUE,
+	CustomContextMenu 		= Smoke,
+ 
+    }
+
+item HCCorncobpipeopiumpure
+    {
+        PainReduction 		        = 10,
+        FatigueChange                   = 10,
+	Weight				= 0.1,
+	RequireInHandOrInventory	= Lighter/Matches,
+	Type				= Food,
+	DisplayName			= Corn Cob Pipe with Pure Opium,
+	StressChange			= -20,
+	UnhappyChange			= -25,
+	ReplaceOnUse			= HCCorncobpipe,
+	Icon				= HCCorncobpipe,
+	Alcoholic			= TRUE,
+	CustomContextMenu 		= Smoke,
+ 
+    }
+
+item HCSyringeheroin
+    {
+        PainReduction 			= 30,
+        HungerChange            	= -10,  
+        Weight                  	= 0.3,
+        Type                    	= Food,
+        ThirstChange            	= -5,
+        UnhappyChange			= -25,
+        FatigueChange           	= 25,
+        StressChange            	= 20,
+        Poison                  	= true,
+        PoisonDetectionLevel    	= 1,
+        PoisonPower             	= 6,
+        UseForPoison            	= 1,
+        DisplayName			= Syringe with Heroin,                                                    
+        ReplaceOnUse	        	= HCSyringeempty,    
+        Icon				= HCSyringeheroin,
+	OtherHandUse			= TRUE,
+	RequireInHandOrInventory	= Belt,
+	Alcoholic			= TRUE,
+	CustomContextMenu 		= Inject,
+	CustomEatSound 			= 
+    }
+
+item HCSyringeuin
+    {  
+        PainReduction 			= 50,
+        HungerChange            	= -1,  
+        Weight                  	= 0.3,
+        Type                    	= Food,
+        UnhappyChange			= -15,
+        FatigueChange           	= 15,
+        StressChange            	= 10,
+        Poison                  	= true,
+        PoisonDetectionLevel    	= 1,
+        PoisonPower             	= 3,
+        UseForPoison            	= 1,
+        DisplayName			= Syringe with Morphine,                                                    
+        ReplaceOnUse	        	= HCSyringeempty,    
+        Icon				= HCSyringemorphin,
+	OtherHandUse			= TRUE,
+	RequireInHandOrInventory	= Belt,
+	Alcoholic			= TRUE,
+	CustomContextMenu 		= Inject,
+	CustomEatSound 			= 
+    }
+
+item HCBeakermorphinhydrochloridsolution
+	{
+		Weight			=	1,
+		Type			=	Food,
+		DisplayName		=	Beaker with Morphine Hydrochlorid Solution,
+		Icon			=	HCBeakermorphinhydrochloridsolution,
+	        IsCookable		=       TRUE,
+	        MinutesToCook		=	30,
+	        ReplaceOnUse		=	HCGlassbeaker,
+	        ReplaceOnCooked		=	Hydrocraft.HCBeakermorphinhydrochlorid,
+                Poison                  =       true,
+                PoisonDetectionLevel    =       1,
+                PoisonPower             =       8,
+                UseForPoison            =       1,
+	}
+
+item HCBeakermorphinhydrochlorid
+	{
+		Weight			=	0.7,
+		Type			=	Normal,
+		DisplayName		=	Beaker with Morphine Hydrochlorid,
+		Icon			=	HCBeakermorphinhydrochlorid,
+	}
+
+item HCBeakermorphinhydrochloridsolution02
+	{
+		Weight			=	1,
+		Type			=	Normal,
+		DisplayName		=	Beaker with Morphine Hydrochlorid Solution,
+		Icon			=	HCBeakermorphinhydrochloridsolution,
+	}
+
+item HCTesttubemorphinrubber
+	{
+		Weight			=	0.5,
+	        Type 			=       Drainable,
+	        UseDelta 		=       0.25,
+		DisplayName		=	Testtube with Morphine,
+		Icon			=	HCTesttubemorphinrubber,
+	}
+
+
+item HCTesttubemorphincork
+	{
+		Weight			=	0.5,
+	        Type 			=       Drainable,
+	        UseDelta 		=       0.25,
+		DisplayName		=	Testtube with Morphine,
+		Icon			=	HCTesttubemorphincork,
+	}
+
+/************************RECIPES************************/
+
+recipe Rip Poppy Capsules
+    {
+    keep HCScalpel/HCBoxcutter/HCScalpelimprovised/HCRazorblade,
+    HCPoppycapsule,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCPoppycapsuleripped,
+    Time:50,
+    NeedToBeLearn:true,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Knead Raw Opium
+    {
+    HCPoppycapsuleripped,
+    keep RollingPin,
+    keep HCLatexgloves/HCRubberglove,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCRawopium,
+    Time:500,
+    NeedToBeLearn:true,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Cook Raw Opium
+    {
+    HCRawopium,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    Charcoal,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCOpiumpowder,
+    Time:1000,
+    NeedToBeLearn:true,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Ferment Opium Powder
+    {
+    SkillRequired:Doctor=3,
+    HCOpiumpowder,
+    HCPetriaspergillus,
+    HCJar,
+    Water,
+    keep HCHerbtable/HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCJaropium,
+    Time:50,
+    NeedToBeLearn:true,
+    OnCreate:recipe_hcgetpetridish,
+    OnGiveXP:MakeEphedrin_OnGiveXP,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Put Opium in Pipe
+    {
+    HCPureopium,
+    HCClaypipesmoking,
+    Result:HCPipeopiumpure,
+    Time:15,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Put Opium in Pipe
+    {
+    HCPureopium,
+    HCCorncobpipe,
+    Result:HCCorncobpipeopiumpure,
+    Time:15,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Morphine Hydrochloride Solution
+    {
+    	SkillRequired:Doctor=5,
+    	HCBeakercalciumchloridesolution,
+    	destroy HCRawopium,
+    	keep HCLab,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakermorphinhydrochloridsolution,
+    	Time:150,
+    	NeedToBeLearn:true,
+    	Category:Alchemy,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Add Water To Morphine Hydrochloride
+    {
+    	SkillRequired:Doctor=5,
+    	HCBeakermorphinhydrochlorid,
+    	Water,
+    	keep HCLab,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakermorphinhydrochloridsolution02,
+    	Time:150,
+    	NeedToBeLearn:true,
+    	Category:Alchemy,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Add Ammonia To Morphine Hydrochloride Solution
+    {
+    	SkillRequired:Doctor=5,
+    	HCBeakermorphinhydrochloridsolution02,
+    	HCAmmonia,
+    	HCGlasstesttuberubberbung=2,
+    	keep HCLab,
+        CanBeDoneFromFloor:true,
+    	Result:HCTesttubemorphinrubber=2,
+    	Time:150,    
+    	OnCreate:recipe_hcgetbeaker,
+    	NeedToBeLearn:true,
+    	Category:Alchemy,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Add Ammonia To Morphine Hydrochloride Solution
+    {
+    	SkillRequired:Doctor=5,
+    	HCBeakermorphinhydrochloridsolution02,
+    	HCAmmonia,
+    	HCGlasstesttubecork=2,
+    	keep HCLab,
+        CanBeDoneFromFloor:true,
+    	Result:HCTesttubemorphincork=2,
+    	Time:150,    
+    	OnCreate:recipe_hcgetbeaker,
+    	NeedToBeLearn:true,
+    	Category:Alchemy,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+}

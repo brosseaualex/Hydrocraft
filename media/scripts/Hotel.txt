@@ -1,0 +1,29 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCDeskbell
+	{
+	Weight			=	0.2,
+        Type			=	Normal,
+        DisplayName		=	Desk Bell,
+	Icon			=	HCDeskbell,
+	}
+
+/************************RECIPES************************/
+
+
+
+
+}
+
+
+
+

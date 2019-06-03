@@ -1,0 +1,471 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCHoneybundough
+	{
+	HungerChange			=	-40,
+	Weight				=	0.4,
+	Type				=	Food,
+	UnhappyChange			=	5,
+	BoredomChange			=	5,
+	DisplayName			=	Honeybun Dough,
+	Icon				=	HCHoneybundough,
+	DaysTotallyRotten		=	5,
+	DaysFresh 			=	3,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	176,
+        Proteins 			= 	25.6,
+        Lipids 				= 	92,
+        Calories 			= 	1612,
+	}
+
+item HCHoneybununcooked
+	{
+	HungerChange			=	-40,
+	Weight				=	0.9,
+	Type				=	Food,
+	UnhappyChange			=	5,
+	BoredomChange			=	5,
+	IsCookable			=	TRUE,
+    	MinutesToCook			=	30,
+	MinutesToBurn			=	60,
+	ReplaceOnCooked			=	Hydrocraft.HCHoneybuntray,
+	DisplayName			=	Uncooked Tray of Honeybuns,
+	Icon				=	HCHoneybununcooked,
+	ReplaceOnUse			=	BakingTray,
+	DaysTotallyRotten		=	5,
+	DaysFresh 			=	3,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	176,
+        Proteins 			= 	25.6,
+        Lipids 				= 	92,
+        Calories 			= 	1612,
+	}
+
+item HCHoneybuntray
+	{
+	HungerChange			=	-40,
+	Weight				=	0.9,
+	Type				=	Food,
+	UnhappyChange			=	-20,
+	BoredomChange			=	-15,
+	DisplayName			=	Cooked Tray of Honeybuns,
+	Icon				=	HCHoneybuntray,
+	ReplaceOnUse			=	BakingTray,
+	DaysTotallyRotten		=	5,
+	DaysFresh 			=	3,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	176,
+        Proteins 			= 	25.6,
+        Lipids 				= 	92,
+        Calories 			= 	1612,
+	}
+
+item HCHoneybun
+	{
+	HungerChange			=	-15,
+	Weight				=	0.1,
+	Type				=	Food,
+	UnhappyChange			=	-20,
+	BoredomChange			=	-15,
+	DisplayName			=	Honeybun,
+	Icon				=	HCHoneybun,
+	DaysTotallyRotten		=	14,
+	DaysFresh 			=	7,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	44,
+        Proteins 			= 	6.4,
+        Lipids 				= 	23,
+        Calories 			= 	403,
+	}
+
+item HCCupcakebatter
+    {
+        	HungerChange		=	-40,
+        	Weight			=	0.7,
+        	Type			=	Food,
+        	UnhappyChange		=	5,
+		BoredomChange		=	5,
+       	 	DisplayName		=	Homemade Cupcake Batter,
+        	DaysTotallyRotten	=	5,
+        	DaysFresh 		= 	3,
+        	Icon			=	HCCupcakebatter,
+		ReplaceOnUse		=	Bowl,
+		IsCookable		=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	15,
+		MinutesToBurn		=	30,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	201,
+        	Proteins 		= 	12.9,
+        	Lipids 			= 	22.2,
+        	Calories 		= 	1830,
+    }
+
+item HCCupcakeshomemade
+	{
+		HungerChange		=	-40,
+		Weight			=	0.5,
+		Type			=	Food,
+		UnhappyChange		=	5,
+		BoredomChange		=	5,
+		IsCookable		=	TRUE,
+		DangerousUncooked	=	TRUE,
+        	DaysTotallyRotten	=	5,
+        	DaysFresh 		= 	3,    		
+		MinutesToCook		=	15,
+		MinutesToBurn		=	30,
+		ReplaceOnUse		=	HCMuffinpan,
+		ReplaceOnCooked		=	Hydrocraft.HCCupcakeshomemadecooked,
+		DisplayName		=	Uncooked Homemade Cupcakes,
+		Icon			=	HCCupcakeshomemade,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	201,
+        	Proteins 		= 	12.9,
+        	Lipids 			= 	22.2,
+        	Calories 		= 	1830,
+	}
+
+item HCCupcakeshomemadecooked
+	{
+		HungerChange		=	-40,
+		Weight			=	0.5,
+		Type			=	Food,
+		UnhappyChange		=	-15,
+		BoredomChange		=	-15,
+        	DaysTotallyRotten	=	5,
+        	DaysFresh 		= 	3, 		
+		ReplaceOnUse		=	HCMuffinpan,
+		DisplayName		=	Cooked Homemade Cupcake,
+		Icon			=	HCCupcakeshomemadecooked,
+		FoodType		=	NoExplicit,
+		Carbohydrates 		= 	201,
+        	Proteins 		= 	12.9,
+        	Lipids 			= 	22.2,
+        	Calories 		= 	1830,
+	}
+
+item HCFrosting
+	{
+	HungerChange			=	-15,
+	UnhappyChange			=	-5,
+	Weight				=	0.6,
+	Type				=	Food,
+	DisplayName			=	Bowl of Frosting,
+	Icon				=	HCFrosting,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	84,
+        Proteins 			= 	0.4,
+        Lipids 				= 	0.5,
+        Calories 			= 	341,
+	}
+
+item HCCupcake
+	{
+	HungerChange			=	-15,
+	UnhappyChange			=	-5,
+	BoredomChange			=	-5,
+	Weight				=	0.05,
+	AlwaysWelcomeGift		=	TRUE,
+	Type				=	Food,
+	DisplayName			=	Unfrosted Cupcake,
+	Icon				=	HCCupcake,
+	DaysTotallyRotten		=	14,
+	DaysFresh 			=	7,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	33.5,
+        Proteins 			= 	2.15,
+        Lipids 				= 	3.7,
+        Calories 			= 	305,
+	}
+
+item HCCupcakefrosted
+	{
+	HungerChange			=	-15,
+	UnhappyChange			=	-20,
+	BoredomChange			=	-15,
+	Weight				=	0.06,
+	AlwaysWelcomeGift		=	TRUE,
+	Type				=	Food,
+	DisplayName			=	Homemade Cupcake,
+	Icon				=	HCCupcakefrosted,
+	DaysTotallyRotten		=	14,
+	DaysFresh 			=	7,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	38.5,
+        Proteins 			= 	2.15,
+        Lipids 				= 	8.7,
+        Calories 			= 	355,
+	}
+
+item HCFruitcakebatter
+    	{
+	Weight				=	0.3,
+	Type				=	Food,
+	DisplayName			=	Fruit Cake Batter,
+	Icon				=	HCFruitcakebatter,
+    	}
+
+item HCFruitcakebattermold
+    	{
+	Weight				=	0.4,
+	Type				=	Food,
+	DisplayName			=	Fruit Cake Batter in Bread Mold,
+	Icon				=	HCFruitcakebattermold,
+	ReplaceOnCooked   		= 	Hydrocraft.HCFruitcakemold,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	40,
+	MinutesToBurn			=	80,
+    	}
+
+item HCFruitcakemold
+    	{
+	HungerChange			=	-50,
+	Weight				=	0.7,
+	Type				=	Food,
+	DisplayName			=	Fruit Cake in Bread Mold,
+	Icon				=	HCFruitcakemold,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	0,
+	MinutesToBurn			=	20,
+	DaysTotallyRotten		=	16,
+	DaysFresh 			= 	10,
+	UnhappyChange			=	-15,
+	BoredomChange			=	-10,
+	StressChange			=	-5,
+	Carbohydrates 			= 	60.41,
+	Proteins 			= 	50.24,
+	Lipids 				= 	25.82,
+	Calories 			= 	675,
+    	}
+
+item HCFruitcake
+    	{
+	HungerChange			=	-50,
+	Weight				=	0.5,
+	Type				=	Food,
+	DisplayName			=	Fruit Cake,
+	Icon				=	HCFruitcake,
+	DaysTotallyRotten		=	16,
+	DaysFresh 			= 	10,
+	UnhappyChange			=	-35,
+	BoredomChange			=	-25,
+	StressChange			=	-10,
+	Carbohydrates 			= 	60.41,
+	Proteins 			= 	50.24,
+	Lipids 				= 	25.82,
+	Calories 			= 	675,
+    	}
+
+item HCFruitcakeslices
+    	{
+	HungerChange			=	-16,
+	Weight				=	0.1,
+	Type				=	Food,
+	DisplayName			=	Fruit Cake Slices,
+	Icon				=	HCFruitcakeslices,
+	DaysTotallyRotten		=	10,
+	DaysFresh 			= 	6,
+	UnhappyChange			=	-12,
+	BoredomChange			=	-8,
+	StressChange			=	-3,
+	Carbohydrates 			= 	20.13,
+	Proteins 			= 	16.74,
+	Lipids 				= 	8.6,
+	Calories 			= 	225,
+    	}
+
+/************************RECIPES************************/
+   
+
+recipe Make Honeybun Dough
+	{
+       		SkillRequired:Cooking=5,
+		Water = 2,
+		Flour/HCPotatoflour/HCRiceflour,		
+		Honey,
+		Result:HCHoneybundough,
+		Time:90.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Honeybun Dough
+	{
+       		SkillRequired:Cooking=5,
+		Water = 2,
+		Flour/HCPotatoflour/HCRiceflour,		
+		HCHoney,
+		Result:HCHoneybundough,
+		Time:90.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	} 
+
+recipe Make Honeybun Dough
+	{
+       		SkillRequired:Cooking=5,
+		Water = 2,
+		Flour/HCPotatoflour/HCRiceflour,		
+		HCJarhoney = 1,
+		Result:HCHoneybundough,
+		Time:90.0,
+	   	Category:Cooking,
+		OnCreate:recipe_hcjar,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Honeybun
+	{
+       		SkillRequired:Cooking=5,
+		BakingTray,
+		HCHoneybundough,
+		Result:HCHoneybununcooked,
+		Time:50,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Remove Honeybuns from Tray
+	{
+		HCHoneybuntray,
+		Result:BakingTray,
+		Time:15,
+	   	Category:Cooking,
+    		OnCreate:recipe_HCHoneybun,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Homemade Cupcake Batter
+	{
+	   	SkillRequired:Cooking=5,
+		Bowl,
+		keep HCWhisk/HCEggbeater,
+       		Water=1,
+       		Flour/HCRiceflour,
+	   	Sugar=1,
+	   	Egg/WildEggs/HCGooseegg/HCTurkeyegg/HCSparrowegg,
+      	 	Result:HCCupcakebatter,
+       		Time:30.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Homemade Cupcakes
+	{
+	   	SkillRequired:Cooking=5,
+	   	keep HCIcecreamscoop/HCLadle,
+	   	HCMuffinpan,
+		HCCupcakebatter,
+		Result:HCCupcakeshomemade,
+       		Time:30.0,
+	   	Category:Cooking,
+    		OnCreate:recipe_hcbowl,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Remove Cupcakes from Pan
+	{
+		HCCupcakeshomemadecooked,
+		Result:HCMuffinpan,
+		Time:15,
+	   	Category:Cooking,
+    		OnCreate:recipe_HCCupcake,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Frosting
+	{
+	   	SkillRequired:Cooking=3,
+		Butter,
+		Milk,
+	   	Sugar,
+		Bowl,
+		keep HCSpatula/HCWoodenspatula,
+		Result:HCFrosting,
+       		Time:30.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Frost Cupcakes
+	{
+	   	SkillRequired:Cooking=5,
+	   	HCFrosting,
+	   	HCCupcake=6,
+		keep HCSpatula/HCWoodenspatula,
+		Result:HCCupcakefrosted=6,
+       		Time:30.0,
+	   	Category:Cooking,
+    		OnCreate:recipe_hcbowl,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Fruit Cake Batter  
+    	{
+            	keep Spoon,
+	    	Flour/HCRiceflour,
+	   	Butter,
+	   	Sugar=1,
+	    	HCDriedfruit=2,
+	    	Egg,
+	    	Yeast,
+	    	Milk,
+            	Bowl,
+	    	Result:HCFruitcakebatter,
+	    	NeedToBeLearn:true,
+	    	Time:90.0,
+	    	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Put Fruit Cake Batter in Bread Pan 
+	{
+            	keep Spoon,
+	    	HCFruitcakebatter=1,
+            	HCBreadpan,
+	    	Result:HCFruitcakebattermold,   
+            	OnCreate:recipe_hcpot,
+	    	Time:80.0,
+	    	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Empty Fruit Cake Batter in Bread Pan 
+	{
+	    	destroy HCFruitcakebattermold,
+	   	Result:HCBreadpan,
+	    	Time:60.0,
+	    	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Take Fruit Cake From Bread Pan  
+    	{
+	    	HCFruitcakemold=1,
+	    	Result:HCFruitcake=1,   
+	    	Time:70.0,
+	    	Category:Cooking,
+            	OnCreate:recipe_hcbreadpan,
+       		OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Slice Fruit Cake   
+    	{
+	   	keep KitchenKnife/ButterKnife/HuntingKnife/HCBreadknife/HCSteakknife/HCMachete/HCCombatknife/HCJackknife/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCKnifestone,
+            	HCFruitcake=1,
+	    	Result:HCFruitcakeslices=3,
+	    	Time:60.0,
+	    	Category:Cooking,
+            	Sound:PZ_SliceBread,
+       		OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+}

@@ -1,0 +1,874 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCSmoker
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Smoker,
+        ResizeWorldIcon 	= 1.0,
+        icon 			= HCSmoker,
+    }
+
+item HCSmokerfull
+	{
+	Weight				=	25,
+	Type				=	Normal,
+	DisplayName			=	Smoker with Fuel,
+	Icon				=	HCSmokerfull,
+	ResizeWorldIcon 		= 	1.0,	
+	}
+
+item HCSmokerfull2
+	{
+	Weight				=	10000,
+	Type				=	Normal,
+	DisplayName			=	Smoker with Fuel,
+	Icon				=	HCSmokerfull,
+	ResizeWorldIcon 		= 	1.0,	
+	}
+
+item HCSmokedfishfillet
+	{
+	HungerChange			=	-20,
+	Weight				=	0.2,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	BoredomChange			=	-10,
+	DisplayName			=	Smoked Fish Fillet,
+	Icon				=	HCSmokedfishfillet,
+	DaysTotallyRotten		=	100,
+	DaysFresh			=	60,	
+	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=   	Fish,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	46,
+        Lipids 				= 	1.8,
+        Calories 			= 	216,
+	}
+
+item HCSmokedham
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Smoked Ham,
+		Icon			=	HCSmokedham,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType		=   	Meat,
+		Carbohydrates 		= 	27.3,
+        	Proteins 		= 	35.1,
+        	Lipids 			= 	23.4,
+        	Calories 		= 	468,
+	}
+
+	
+item HCSmokedmutton
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Smoked Mutton,
+		Icon			=	HCSmokedmutton,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType		=   	Meat,
+		Carbohydrates 		= 	0.3,
+        	Proteins 		= 	99,
+        	Lipids 			= 	33,
+        	Calories 		= 	702,
+	}
+	
+item HCSmokedpork
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Smoked Pork,
+		Icon			=	HCSmokedpork,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType		=   	Meat,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	63,
+        	Lipids 			= 	27,
+        	Calories 		= 	450,
+	}
+
+item HCSmokedbeef
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Smoked Beef,
+		Icon			=	HCSmokedbeef,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Meat,
+		Carbohydrates 		= 	0,
+       		Proteins 		= 	78.2,
+       		Lipids 			= 	21.4,
+        	Calories 		= 	525,
+	}
+
+item HCSmokedcheval
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Smoked Cheval,
+		Icon			=	HCSmokedcheval,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Meat,
+		Carbohydrates 		= 	0,
+       		Proteins 		= 	97,
+       		Lipids 			= 	21,
+        	Calories 		= 	603,
+	}
+	
+item HCSmokedrabbit
+	{
+		HungerChange		=	-20,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.2,
+		Type			=	Food,
+		DisplayName		=	Smoked Rabbit,
+		Icon			=	HCSmokedrabbit,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+       		Proteins 		= 	44,
+       		Lipids 			= 	4.6,
+        	Calories 		= 	228,
+	}
+	
+item HCSmokedsalmon
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Smoked Salmon,
+		Icon			=	HCSmokedsalmon,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Fish,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	63.1,
+        	Lipids 			= 	13.3,
+        	Calories 		= 	381,
+	}
+
+item HCSmokedfrogmeat
+	{
+		HungerChange		=	-15,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.1,
+		Type			=	Food,
+		DisplayName		=	Smoked Frog Meat,
+		Icon			=	HCSmokedfrogmeat,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	16,
+        	Lipids 			= 	1.3,
+        	Calories 		= 	110,
+	}
+	
+item HCSmokedsmallanimalmeat
+	{
+		HungerChange		=	-15,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.1,
+		Type			=	Food,
+		DisplayName		=	Smoked Small Animal Meat,
+		Icon			=	HCSmokedsmallanimalmeat,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	44,
+        	Lipids 			= 	2.6,
+        	Calories 		= 	228,
+	}
+
+item HCSmokedsmallbirdmeat
+	{
+		HungerChange		=	-15,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.1,
+		Type			=	Food,
+		DisplayName		=	Smoked Small Bird Meat,
+		Icon			=	HCSmokedsmallbirdmeat,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	22,
+        	Lipids 			= 	1.3,
+        	Calories 		= 	134,
+	}
+
+item HCSmokedchicken
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Smoked Chicken,
+		Icon			=	HCSmokedchicken,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Meat,
+		Carbohydrates 		= 	2.1,
+       		Proteins 		= 	54,
+       		Lipids 			= 	30,
+        	Calories 		= 	495,
+	}
+
+item HCSmokedduck
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Smoked Duck,
+		Icon			=	HCSmokedduck,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	10,
+        	Proteins 		= 	69,
+       	 	Lipids 			= 	33,
+        	Calories 		= 	603,
+	}
+
+item HCSmokedgoose
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Smoked Goose,
+		Icon			=	HCSmokedgoose,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates		= 	10,
+        	Proteins 		= 	87,
+        	Lipids 			= 	39,
+        	Calories 		= 	714,
+	}
+
+
+item HCSmokedturkey
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Smoked Turkey,
+		Icon			=	HCSmokedturkey,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	10.3,
+      	 	Proteins 		= 	69,
+      	 	Lipids 			= 	5.7,
+      	  	Calories 		= 	336,
+	}
+
+item HCSmokedvenison
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Smoked Venison,
+		Icon			=	HCSmokedvenison,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+      	 	Proteins 		= 	90,
+      	 	Lipids 			= 	9.6,
+      	  	Calories 		= 	474,
+	}
+	
+
+item HCSmokedbear
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Smoked Bear,
+		Icon			=	HCSmokedbear,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+      	 	Proteins 		= 	60,
+      	 	Lipids 			= 	24.9,
+      	  	Calories 		= 	483,
+	}
+
+item HCSmokedcougar
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Smoked Cougar,
+		Icon			=	HCSmokedcougar,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+      	 	Proteins 		= 	60,
+      	 	Lipids 			= 	24.9,
+      	  	Calories 		= 	483,
+	}
+
+item HCSmokedsmallgame
+	{
+		HungerChange		=	-20,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.2,
+		Type			=	Food,
+		DisplayName		=	Smoked Small Game,
+		Icon			=	HCSmokedsmallgame,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+       		Proteins 		= 	44,
+       		Lipids 			= 	4.6,
+        	Calories 		= 	228,
+	}
+
+item HCSmokedtofu
+	{
+		HungerChange		=	-20,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.2,
+		Type			=	Food,
+		DisplayName		=	Smoked Tofu,
+		Icon			=	HCSmokedtofu,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	NoExcplicit,
+		Carbohydrates 		= 	5.6,
+       		Proteins 		= 	34,
+       		Lipids 			= 	17.4,
+        	Calories 		= 	288,
+	}
+
+item HCSmokedcheesewheel
+	{
+		HungerChange		=	-120,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	1.2,
+		Type			=	Food,
+		DisplayName		=	Smoked Cheese Wheel,
+		Icon			=	HCSmokedcheesewheel,
+		DaysTotallyRotten	=	200,
+		DaysFresh		=	120,
+		FoodType    		=   	NoExplicit,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		Carbohydrates 		= 	0,
+       		Proteins 		= 	296.3,
+       		Lipids 			= 	169.3,
+        	Calories 		= 	2963,
+	}
+
+item HCSmokedcheese
+	{
+		HungerChange		=	-20,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-10,
+		Weight			=	0.2,
+		Type			=	Food,
+		DisplayName		=	Smoked Cheese,
+		Icon			=	HCSmokedcheese,
+		DaysTotallyRotten	=	100,
+		DaysFresh		=	60,
+		EvolvedRecipe		= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	NoExcplicit,
+		Carbohydrates 		= 	0,
+       		Proteins 		= 	49.4,
+       		Lipids 			= 	28.2,
+        	Calories 		= 	493.8,
+	}
+
+
+/************************RECIPES************************/
+
+recipe Make Smoker
+    {
+	HCBarrelmetalempty=2,
+	HCSteelrod=6,
+        SheetMetal,
+        HCSteelpipe,
+	HCMetalring,
+	Hinge=3,
+	HCManometer,
+    	HCWeldingset,
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+	keep HCSawmetal,
+	keep HCPipebender,
+        NeedToBeLearn:true,
+    	CanBeDoneFromFloor:true,
+        Result:HCSmoker,
+        Time:1000,
+	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Anchor Smoker
+    {
+    HCSmokerfull,
+    CanBeDoneFromFloor:true,
+    Result:HCSmokerfull2,
+    Time:100,
+    Category:Anchor,
+    }
+   
+recipe Fill Smoker
+    {
+    	HCSmoker,
+    	Charcoal=8,
+	CanBeDoneFromFloor:true,
+        Result:HCSmokerfull,
+    	NeedToBeLearn:true, 
+        Time:500,
+	CanBeDoneFromFloor:true,
+    	Category:Engineer,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        FishFillet,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedfishfillet,
+    	NeedToBeLearn:true, 
+        Time:3000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        Ham,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedham,
+    	NeedToBeLearn:true, 
+        Time:4000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        MuttonChop,
+	Water=2, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+	HCHickoryleaves,
+        Result:HCSmokedmutton,
+    	NeedToBeLearn:true, 
+        Time:4000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        PorkChop,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedpork,
+    	NeedToBeLearn:true, 
+        Time:4000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        Steak,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedbeef,
+    	NeedToBeLearn:true, 
+        Time:4000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        HCCheval,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedcheval,
+    	NeedToBeLearn:true, 
+        Time:4000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        Rabbitmeat,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedrabbit,
+    	NeedToBeLearn:true, 
+	CanBeDoneFromFloor:true,
+        Time:3000.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        Salmon,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedsalmon,
+    	NeedToBeLearn:true, 
+        Time:3000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        FrogMeat,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedfrogmeat,
+    	NeedToBeLearn:true, 
+        Time:3000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        Smallanimalmeat,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedsmallanimalmeat,
+    	NeedToBeLearn:true, 
+        Time:3000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        Smallbirdmeat,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedsmallbirdmeat,
+    	NeedToBeLearn:true, 
+        Time:3000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        Chicken,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedchicken,
+    	NeedToBeLearn:true, 
+        Time:4000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        HCDuckmeat,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedduck,
+    	NeedToBeLearn:true, 
+        Time:4000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        HCGoosemeat,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedgoose,
+    	NeedToBeLearn:true, 
+        Time:4000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        HCTurkeymeat,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedturkey,
+    	NeedToBeLearn:true, 
+        Time:4000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        HCVenison,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedvenison,
+    	NeedToBeLearn:true, 
+        Time:4000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        HCBearsteak,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedbear,
+    	NeedToBeLearn:true, 
+        Time:4000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        HCCougarsteak,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedcougar,
+    	NeedToBeLearn:true, 
+        Time:4000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Meat
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        HCSmallgamesteak,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedsmallgame,
+    	NeedToBeLearn:true, 
+        Time:3000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Tofu
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        Tofu,
+	Water=2,
+	HCHickoryleaves, 
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedtofu,
+    	NeedToBeLearn:true, 
+        Time:3000.0,
+	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Smoke Cheese
+    {
+        SkillRequired:Cooking=8,
+        keep HCSmokerfull/HCSmokerfull2,
+        HCCheesewheel,
+	Water=2, 
+	HCHickoryleaves,
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	Charcoal,
+        Result:HCSmokedcheesewheel,
+    	NeedToBeLearn:true, 
+        Time:3000.0,
+   	CanBeDoneFromFloor:true,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+   }
+
+recipe Cut Cheese Wheel
+        {
+                keep HuntingKnife/KitchenKnife/HCJackknife/HCSteakknife/HCKnifestone,
+                HCSmokedcheesewheel,
+                Result:HCSmokedcheese=6,
+    		NeedToBeLearn:true, 
+                Time:50,
+                Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+        }
+
+}

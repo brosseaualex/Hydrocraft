@@ -1,0 +1,369 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCMicroscope
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName     	= Microscope,
+        icon 			= HCMicroscope,
+    } 
+
+item HCAgarempty
+    {
+        Weight    		        = 0.1,
+        Type    		        = Normal,
+	DisplayName			= Empty Agar Jar,
+	Icon				= HCAgarempty,
+    }
+
+item HCAgar
+    {
+	Weight 				= 0.5,
+	Type 				= Drainable,
+	UseDelta 			= 0.2,
+	DisplayName 			= Agar,
+	ReplaceOnDeplete		= HCAgarempty,
+	Icon				= HCAgar,
+    }
+
+item HCBeakeragar
+    {
+	Weight				= 1,
+	Type			        = Normal,
+	DisplayName 			= Beaker With Agar,
+	Icon				= HCBeakeragar,
+    }
+
+item HCPetriagar
+    {
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+	DisplayName			= Petri Dish With Agar,
+	Icon				= HCPetriagar,
+    }
+
+item HCPetridish
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName     	= Petri Dish,
+        icon 			= HCPetridish,
+    } 
+
+item HCPetribiowaste
+    {
+	Weight	                        = 0.01,
+        Type    			= Normal,
+	DisplayName	                = Petri Dish with Biowaste,
+	ReplaceOnDeplete                = HCPetridish,
+	Icon				= HCPetribiowaste,
+    }
+
+item HCPetripenicillium
+    {
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+        DisplayName     	        = Petri Dish with Penicilinum,
+        Icon   		 	        = HCPetripenicillium,
+    }
+
+item HCPetripenecilinumzoom
+	{
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+	DisplayName	                = Penecilinum Notate,
+	Icon	                        = HCPetripenecilinumzoom,
+	}
+
+item HCPetriaspergillus
+    {
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+        DisplayName     	        = Petri Dish with Aspergillus Niger,
+        Icon   		 	        = HCPetriaspergillus,
+    }
+
+item HCPetriaspergilluszoom
+	{
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+	DisplayName	                = Aspergillus Niger,
+        Icon	                        = HCPetriaspergilluszoom,
+	}
+
+item HCPetriyeast
+    {
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+        DisplayName     	        = Petri Dish with Live Yeast,
+        Icon   		 	        = HCPetriyeast,
+    }
+
+item HCPetriyeastzoom
+	{
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+	DisplayName	                = Live Yeast,
+        Icon	                        = HCPetriyeastzoom,
+	}
+
+item HCPetrididymium
+    {
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+        DisplayName     	        = Petri Dish with Slime Mold,
+        Icon   		 	        = HCPetrididymium,
+    }
+
+item HCPetrididymiumzoom
+	{
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+	DisplayName	                = Slime Mold,
+        Icon	                        = HCPetrididymiumzoom,
+	}
+
+item HCPetrinothing
+    {
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+        DisplayName     	        = Petri Dish with Nothing,
+        Icon   		 	        = HCPetridish,
+    }
+
+item HCPetrinothingzoom
+	{
+        Weight    		        = 0.01,
+        Type    		        = Normal,
+	DisplayName	                = Nothing,
+        Icon	                        = HCPetrinothingzoom,
+	}
+
+/************************RECIPES************************/
+
+recipe Make Homemade Agar
+    	{
+    		Sugar,
+		HCSoupbouillon,
+		HCGelatinpowder,
+		HCGlassbeaker,
+    		Charcoal,
+    		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    		Water,
+    		keep HCClaycauldron/HCCauldroniron,
+    		CanBeDoneFromFloor:true,
+    		Result:HCBeakeragar,
+    		NeedToBeLearn:true,
+    		Time:500,
+    		Category:Alchemy,
+    		OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Prepare Agar
+    {
+    	HCBeakerwaterhot,
+    	HCAgar,
+    	Result:HCBeakeragar,
+        NeedToBeLearn:true,
+    	Time:250,
+    	Category:Alchemy,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Prepare Petri Dish
+    {
+    	HCPetridish,
+    	HCBeakeragar,
+    	Result:HCPetriagar,
+        NeedToBeLearn:true,
+    	Time:150,
+    	Category:Health,
+    	OnCreate:recipe_hcgetbeaker,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Examine Biowaste
+    {
+    	HCMicroscope,
+    	HCPetribiowaste,
+    	Result:HCMicroscope,
+    	Time:250,
+    	NeedToBeLearn:true,
+    	OnCreate:recipe_hcmicroscopefunghi,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Clean Petri Dish
+    {
+    	HCPetribiowaste,
+	Bleach,
+	keep Sponge/HCSponge,
+	keep HCLatexgloves/HCRubberglove,
+    	Result:HCPetridish,
+    	Time:250,
+    	NeedToBeLearn:true,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Look Through Microscope
+    {
+    	keep HCMicroscope,
+    	HCPetripenicillium,
+    	Result:HCPetripenecilinumzoom,
+    	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Look Through Microscope
+    {
+    	keep HCMicroscope,
+    	HCPetriaspergillus,
+    	Result:HCPetriaspergilluszoom,
+    	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Look Through Microscope
+    {
+    	keep HCMicroscope,
+    	HCPetriyeast,
+    	Result:HCPetriyeastzoom,
+    	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Look Through Microscope
+    {
+    	keep HCMicroscope,
+    	HCPetrididymium,
+    	Result:HCPetrididymiumzoom,
+    	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Look Through Microscope
+    {
+    	keep HCMicroscope,
+    	HCPetrinothing,
+    	Result:HCPetrinothingzoom,
+    	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Cultivate Penicillium
+    {
+    	SkillRequired:Doctor=5,
+    	HCPetripenecilinumzoom,
+    	HCPetriagar,
+    	keep HCEyedropper,
+    	Result:HCPetripenicillium,
+    	Time:50,
+   	NeedToBeLearn:true,
+    	OnCreate:recipe_hcgetpetridish,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Cultivate Penicillium
+    {
+	SkillRequired:Doctor=5,
+	HCPetridish=3,
+	BreadSlices/HCSlicedorange/HCSlicedlemon/HCSlicedlime,
+   	Result:HCPetripenicillium=3,
+    	Time:600,
+   	NeedToBeLearn:true,
+	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Cultivate Aspergillus
+    {
+    	SkillRequired:Doctor=2,
+    	HCPetriaspergilluszoom,
+    	HCPetriagar,
+    	keep HCEyedropper,
+    	Result:HCPetriaspergillus,
+    	Time:50,
+    	NeedToBeLearn:true,
+    	OnCreate:recipe_hcgetpetridish,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Cultivate Yeast
+    {
+    	SkillRequired:Doctor=1,
+    	HCPetriyeastzoom,
+    	HCPetriagar,
+    	keep HCEyedropper,
+    	Result:HCPetriyeast,
+    	Time:50,
+    	NeedToBeLearn:true,
+    	OnCreate:recipe_hcgetpetridish,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Cultivate Slime Mold
+    {
+    	SkillRequired:Doctor=1,
+    	HCPetrididymiumzoom,
+    	HCPetriagar,
+    	keep HCEyedropper,
+    	Result:HCPetrididymium,
+    	Time:50,
+    	NeedToBeLearn:true,
+    	OnCreate:recipe_hcgetpetridish,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Extract Yeast
+    {
+    	SkillRequired:Doctor=3,
+    	HCPetriyeast,
+    	keep HCMedicallab,
+        CanBeDoneFromFloor:true,
+    	Result:Yeast,
+    	Time:50,
+    	NeedToBeLearn:true,
+    	OnCreate:recipe_hcgetpetridish,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+recipe Make Penicillin
+    {
+    	SkillRequired:Doctor=5,
+    	HCPetripenicillium,
+    	keep HCMedicallab,
+    	CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true,
+    	Result:Antibiotics=2,
+    	Time:5000.0,
+    	OnCreate:recipe_hcgetpetridish,
+    	Category:Health,
+    	OnGiveXP:HCDoctor_OnGiveXP,
+    }
+
+}

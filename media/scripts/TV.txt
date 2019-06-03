@@ -1,0 +1,58 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCVHStape1
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= VHS Tape,
+        icon 			= HCVHStape1,
+    }
+
+item HCVHStape2
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= VHS Tape,
+        icon 			= HCVHStape2,
+    }
+
+item HCVHStape3
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= VHS Tape,
+        icon 			= HCVHStape3,
+    }
+
+item HCVHStape4
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= VHS Tape,
+        icon 			= HCVHStape4,
+    }
+
+item HCVHStape5
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= VHS Tape,
+        icon 			= HCVHStape5,
+    }
+
+
+
+/************************RECIPES************************/	
+
+
+
+}

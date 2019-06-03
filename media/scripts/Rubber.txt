@@ -1,0 +1,262 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCRubber
+    {
+        Weight    		=    	0.1,
+        Type    		=    	Normal,
+        DisplayName    		=    	Rubber,
+        Icon    		=    	HCRubber,
+    }
+
+item HCRubbervulcanized
+    {
+        Weight    		=    	0.1,
+        Type    		=    	Normal,
+        DisplayName    		=    	Vulcanized Rubber,
+        Icon    		=    	HCRubbervulcanized,
+    }
+
+item HCRubbersheet
+    {
+        Weight    		=    	0.4,
+        Type    		=    	Normal,
+        DisplayName    		=    	Rubber Sheet,
+        Icon    		=    	HCRubbersheet,
+    }
+
+item HCSapcatcher
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Sap Catcher,
+
+	Icon			= 	HCSapcatcher,
+
+	Weight			= 	1.5,
+
+	}
+
+item HCPottedrubbertree2
+    {
+        Weight      		= 5,
+	Type			= Drainable,
+	UseWhileEquipped	= FALSE,
+	UseDelta		= 1.0,
+        DisplayName 		= Potted Rubber Tree with Sap Catchers,
+	ReplaceOnDeplete	= HCPlanter,
+        icon        		= HCPottedrubbertree2,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCWoodenbucketrubber
+    {
+        Weight    		= 4,
+        Type			= Drainable,
+	UseDelta		= 0.25,
+	ReplaceOnDeplete	= HCWoodenbucket,
+        DisplayName         	= Wooden Bucket with Rubber,
+        icon 			= HCWoodenbucketrubber,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+/************************RECIPES************************/	
+
+recipe Make Vulcanized Rubber
+    {
+    HCRubber,
+    HCSulphurpowder,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCRubbervulcanized,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Rubber
+    {
+    HCWoodenbucketrubber=4,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCRubber,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Sap Catcher
+    	{
+	HCBamboogutter,
+	Bowl,
+        HCRopethin,
+        Result:HCSapcatcher,
+        Time:15,
+    	NeedToBeLearn:true,
+	Category:Farming,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    	}
+
+recipe Add Sap Catchers to Rubber Tree
+    	{
+	HCSapcatcher=3,
+        destroy HCPottedrubbertree,
+        Result:HCPottedrubbertree2,
+        Time:15,
+    	NeedToBeLearn:true,
+	Category:Farming,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    	}
+
+recipe Harvest Crop
+    	{
+    	keep HCPottedrubbertree,
+	HCWoodenbucket,
+    	Fertilizer,
+    	Water,
+    	Result:HCWoodenbucketrubber,
+    	CanBeDoneFromFloor:true,
+    	Time:150.0,
+    	NeedToBeLearn:true,
+    	Category:Farming,
+    	OnGiveXP:HCFarming_OnGiveXP,
+    	}
+
+recipe Make Rubber Sheet
+    	{
+    	HCRubbervulcanized=4,
+    	keep Tongs,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCWorkgloves,
+    	keep HCRollingmillsmall,
+    	CanBeDoneFromFloor:true,
+    	Result:HCRubbersheet,
+    	NeedToBeLearn:true,
+    	Time:3000,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Rubber Hose
+    	{
+    	HCRubbersheet,
+    	keep HCWorkgloves,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCWorkgloves,
+    	CanBeDoneFromFloor:true,
+    	Result:HCRubberhose,
+    	NeedToBeLearn:true,
+    	Time:3000,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Rubber Hose
+    	{
+    	HCRubbersheet,
+    	keep HCWorkgloves,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCWorkgloves,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWeldinghose,
+    	NeedToBeLearn:true,
+    	Time:3000,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Rubber Hose
+    	{
+    	HCRubbersheet=10,
+    	keep HCWorkgloves,
+    	keep WeldingMask,
+    	HCWeldingset,
+    	keep HCWorkgloves,
+    	CanBeDoneFromFloor:true,
+    	Result:HCGardenhose,
+    	NeedToBeLearn:true,
+    	Time:9000,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Rubber Bungs
+    	{
+    	HCRubber,
+	HCBungmold,
+    	Charcoal,
+
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	HCIngotmold,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep HCSmelter/HCSmelter2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCRubberbung=4,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Alchemy,
+    	OnCreate:SmeltUse,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    	}
+
+recipe Make Rubber Cement
+    	{
+		HCRubber,
+		Disinfectant=4,
+		keep HCSafetyglasses,
+        	keep HCLatexgloves/HCRubberglove,
+        	keep HCFunnel/HCGlassfunnel,
+        	keep HCLab,
+        	CanBeDoneFromFloor:true,
+    		Result:HCRubbercement,
+    		NeedToBeLearn:true,
+    		Time:50,
+    		Category:Alchemy,
+   	 	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Make Rubber Cement
+    	{
+		HCRubber,
+		HCMethanol,
+		keep HCSafetyglasses,
+        	keep HCLatexgloves/HCRubberglove,
+        	keep HCFunnel/HCGlassfunnel,
+        	keep HCLab,
+        	CanBeDoneFromFloor:true,
+    		Result:HCRubbercement,
+    		NeedToBeLearn:true,
+    		Time:50,
+    		Category:Alchemy,
+   	 	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+}

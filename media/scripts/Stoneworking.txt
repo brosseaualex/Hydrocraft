@@ -1,0 +1,1179 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCStonepilebox
+    {
+        Weight    		= 12.0,
+        Type   			= Normal,
+        DisplayName         	= Pallet of Stones,
+        icon 			= HCStonepilebox,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCMortarandpestle
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Mortar and Pestle,
+        icon 			= HCMortarandpestle,
+    }  
+
+item HCMortar
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Mortar,
+        icon 			= HCMortar,
+    } 
+
+item HCSawstone
+    {
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Stone Saw,
+        icon 			= HCSawstone,
+    }
+
+item HCChisel
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Hand Chisel,
+        icon 			= HCChisel,
+    }
+
+item HCTombstone
+    {
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName         	= Tombstone,
+        icon 			= HCTombstone,
+	ResizeWorldIcon 	= 1.0,
+    } 
+
+item HCGrave
+    {
+        Weight    		= 30,
+        Type    		= Normal,
+        DisplayName         	= Grave,
+        icon 			= HCGrave,
+	ResizeWorldIcon 	= 1.0,
+    } 
+
+item HCRunestone
+    {
+        Weight    		= 15,
+        Type    		= Normal,
+        DisplayName         	= Rune Stone,
+        icon 			= HCRunestone,
+	ResizeWorldIcon 	= 2.0,
+    } 
+
+item HCObelisk
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Obelisk,
+        icon 			= HCObelisk,
+	ResizeWorldIcon 	= 1.0,
+    } 
+
+item HCTarkiln
+    {
+        Weight    		= 20.0,
+        Type    		= Normal,
+        DisplayName         	= Tar Kiln,
+        icon 			= HCTarkiln,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCTarkiln2
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Tar Kiln,
+        icon 			= HCTarkiln,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCWell
+    {
+        Weight    		= 15,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Empty Well,
+	ReplaceOnUseOn		= WaterSource-HCWellfull,
+        icon 			= HCWell,
+	ResizeWorldIcon 	= 1.0,
+	RainFactor 		= 0.01,
+    }
+
+item HCWellfull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	15,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		= 	0.00001,
+	DisplayName		=	Well,
+	ReplaceOnDeplete	=	HCWell,
+	ReplaceOnUseOn		=	WaterSource-HCWellfull,
+	Icon			=	HCWell,
+	ResizeWorldIcon 	= 	1.0,
+	RainFactor 		= 	0.01,
+    }
+
+item HCOilpress
+    {
+        Weight    		= 25,
+        Type    		= Normal,
+        DisplayName         	= Oil Press,
+        icon 			= HCOilpress,
+	ResizeWorldIcon 	= 2.0,
+    } 
+
+item HCOilpress2
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Oil Press,
+        icon 			= HCOilpress,
+	ResizeWorldIcon 	= 2.0,
+    } 
+
+item HCStonewheel
+    {
+        Weight    		= 5,
+        Type    		= Normal,
+        DisplayName         	= Stone Wheel,
+        icon 			= HCStonewheel,
+	ResizeWorldIcon 	= 2.0,
+    } 
+
+item HCGrindstone
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Grindstone,
+        icon 			= HCGrindstone,
+	ResizeWorldIcon 	= 2.0,
+    } 
+
+item HCGrindstone2
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Grindstone,
+        icon 			= HCGrindstone,
+	ResizeWorldIcon 	= 2.0,
+    } 
+
+item HCStampmill
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Stamp Mill,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCStampmill,
+    }
+
+item HCStampmillcrank
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Stamp Mill with Crank,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCStampmillcrank,
+    }
+
+item HCStampmillsteam
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Stamp Mill with Steam Machine,
+        ResizeWorldIcon 	= 1.0,
+        icon 			= HCStampmillsteam,
+    }
+
+item HCStampmillgen
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Stamp Mill with Generator,
+        ResizeWorldIcon 	= 2.0,
+        icon 			= HCStampmillgen,
+    }
+
+item HCWoodenbucketgravel
+	{
+	Weight			=	10,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.25,
+	DisplayName		=	Wooden Bucket with Gravel,
+	ReplaceOnDeplete	=	HCWoodenbucket,
+	Icon			=	HCWoodenbucketgravel,
+	ResizeWorldIcon 	= 	2.0,
+	}
+
+item HCWoodenbucketsand
+	{
+	Weight			=	10,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.25,
+	DisplayName		=	Wooden Bucket with Sand,
+	ReplaceOnDeplete	=	HCWoodenbucket,
+	Icon			=	HCWoodenbucketsand,
+	ResizeWorldIcon 	= 	2.0,
+	}
+
+item HCWoodenbucketconcrete
+	{
+	Weight			=	10,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.25,
+	DisplayName		=	Wooden Bucket with Concrete,
+	ReplaceOnDeplete	=	HCWoodenbucket,
+	Icon			=	HCWoodenbucketconcrete,
+	ResizeWorldIcon 	= 	2.0,
+	}
+
+item HCCellar
+    {
+	WeightReduction         	= 0,
+        Weight    			= 50,
+	Type                		= Container,
+	Capacity             		= 800,
+        DisplayName         		= Cellar,
+        icon 				= HCCellar,
+	ResizeWorldIcon 		= 2.0,
+	RequiresEquippedBothHands 	= true,
+    }
+
+item HCCellar2
+    {
+	WeightReduction         	= 0,
+        Weight    			= 10000,
+	Type                		= Container,
+	Capacity             		= 800,
+        DisplayName         		= Cellar,
+        icon 				= HCCellar,
+	ResizeWorldIcon 		= 2.0,
+	RequiresEquippedBothHands 	= true,
+    }
+
+item HCAnvilstone
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Stone Anvil,
+        icon 			= HCAnvilstone,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCAnvilstone2
+    {
+        Weight    		= 10000,
+        Type    		= Normal,
+        DisplayName         	= Stone Anvil,
+        icon 			= HCAnvilstone,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCVenus
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Venus Figurine,
+        icon 			= HCVenus,
+    }
+
+/************************RECIPES************************/
+
+recipe Construct Cellar
+    {
+    	HCMinehole,
+	HCStonepilebox=4,
+    	HCWoodenbucketconcrete=4,
+	HCWoodbeam=4,
+	HCLumberstack,
+	HCSteelrod,
+	Hinge=2,
+	Nails=12,
+    	keep Hammer,
+	keep Saw,
+    	keep HCMasontrowel,
+    	CanBeDoneFromFloor:true,
+   	Result:HCCellar,
+	SkillRequired:Woodwork=7,
+    	Sound:PZ_Hammer,
+    	NeedToBeLearn:true,
+    	Time:10000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Construct Cellar
+    {
+    	HCMinehole,
+	HCStonepilebox=4,
+    	HCMortar=4,
+	HCWoodbeam=4,
+	HCLumberstack,
+	HCSteelrod,
+	Hinge=2,
+	Nails=12,
+    	keep Hammer,
+	keep Saw,
+    	keep HCMasontrowel,
+    	CanBeDoneFromFloor:true,
+   	Result:HCCellar,
+	SkillRequired:Woodwork=7,
+    	Sound:PZ_Hammer,
+    	NeedToBeLearn:true,
+    	Time:10000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Anchor Cellar
+    {
+	HCCellar,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCellar2,
+    	Time:100,
+    	Category:Anchor,
+    }
+
+recipe Construct Tar Kiln
+    {
+    	HCWoodenbucket,
+    	Stone=50,
+    	HCWoodenbucketconcrete=4,
+    	keep HCMasontrowel,
+    	CanBeDoneFromFloor:true,
+    	Result:HCTarkiln,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Construct Tar Kiln
+    {
+    	HCWoodenbucket,
+    	Stone=50,
+    	HCMortar=4,
+    	keep HCMasontrowel,
+    	CanBeDoneFromFloor:true,
+    	Result:HCTarkiln,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Anchor Tar Kiln
+    {
+	HCTarkiln,
+    	CanBeDoneFromFloor:true,
+    	Result:HCTarkiln2,
+    	Time:100,
+    	Category:Anchor,
+    }
+
+recipe Construct Well
+    {
+	SkillRequired:Mechanics=2,
+    	HCWoodenbucket,
+	HCCrank/HCCrankiron,
+    	HCStonepilebox=3,
+    	HCWoodenbucketconcrete=8,
+    	Plank=3,
+    	HCRopethick,
+    	HCMinehole,
+    	keep HCMasontrowel,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWell,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Construct Well
+    {
+	SkillRequired:Mechanics=2,
+    	HCWoodenbucket,
+	HCCrank/HCCrankiron,
+    	HCStonepilebox=3,
+    	HCMortar=8,
+    	Plank=3,
+    	HCRopethick,
+    	HCMinehole,
+    	keep HCMasontrowel,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWell,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Pack Pallet of Stone
+    {
+    	Stone=100,
+    	HCRopethick,
+	HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCStonepilebox,
+    	Time:20.0,
+    	Category:Stoneworking,
+    }
+
+recipe Unpack Pallet of Stone
+    {
+    	HCStonepilebox,
+    	Result:Stone=100,
+    	Time:20.0,
+    	Category:Stoneworking,
+    	OnCreate:recipe_hcpallet,
+    }
+    
+recipe Make Stone Arrowhead
+    {
+    	SharpedStone,
+    	keep Stone/HCChisel,
+    	Result:HCStonearrowhead,
+    	NeedToBeLearn:true,
+    	Time:500,
+        Category:Survivalist,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Mortar and Pestle
+    {
+    	Stone=2,
+    	Result:HCMortarandpestle,
+    	Time:15,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Stone Saw
+    {
+    	SharpedStone=3,
+	TreeBranch,
+	Twine,
+    	Result:HCSawstone,
+    	Time:15,
+        Category:Survivalist,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Stone Knife
+    {
+    	SharpedStone,
+	Twigs,
+	Twine,
+    	Result:HCKnifestone,
+    	Time:15,
+        Category:Survivalist,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Tombstone 
+    {
+    	Stone=10,
+    	keep HCChisel,
+    	Result:HCTombstone,
+        NeedToBeLearn:true,
+    	Time:5000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Tombstone 
+    {
+    	Stone=10,
+    	HCMiningchiselpowered,
+    	Result:HCTombstone,
+        NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Grave
+    {
+    	HCTombstone,
+    	HCCoffinfull,
+    	keep Shovel,
+    	Result:HCGrave,
+    	Time:50,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Rune Stone
+    {
+    	Stone=15,
+    	keep HCChisel,
+    	Result:HCRunestone,
+    	NeedToBeLearn:true,
+    	Time:5000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Rune Stone
+    {
+    	Stone=15,
+    	HCMiningchiselpowered,
+    	Result:HCRunestone,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Obelisk
+    {
+    	Stone=30,
+    	keep HCChisel,
+    	Result:HCObelisk,
+    	NeedToBeLearn:true,
+    	Time:10000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Obelisk
+    {
+    	Stone=30,
+    	HCMiningchiselpowered,
+    	Result:HCObelisk,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Construct Oil Press
+    {
+	SkillRequired:Mechanics=1,
+    	Stone=25,
+    	Log=2,
+    	HCStonewheel=2,
+    	HCWoodenbucketconcrete=4,
+    	CanBeDoneFromFloor:true,
+    	Result:HCOilpress,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Construct Oil Press
+    {
+	SkillRequired:Mechanics=1,
+    	Stone=25,
+    	Log=2,
+    	HCStonewheel=2,
+    	HCMortar=4,
+    	CanBeDoneFromFloor:true,
+    	Result:HCOilpress,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Anchor Oil Press
+    {
+	HCOilpress,
+    	CanBeDoneFromFloor:true,
+    	Result:HCOilpress2,
+    	Time:100,
+    	Category:Anchor,
+    }
+
+recipe Make Stone Wheel
+    {
+    	Stone=5,
+    	keep HCChisel,
+    	Result:HCStonewheel,
+    	NeedToBeLearn:true,
+    	Time:5000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Stone Wheel
+    {
+    	Stone=5,
+    	HCMiningchiselpowered,
+    	Result:HCStonewheel,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Construct Grindstone
+    {
+    	Stone=20,
+    	HCWoodenbucketconcrete=4,
+    	Result:HCGrindstone,
+    	NeedToBeLearn:true,
+    	Time:400,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Construct Grindstone
+    {
+    	Stone=20,
+    	HCMortar=4,
+    	Result:HCGrindstone,
+    	NeedToBeLearn:true,
+    	Time:400,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Anchor Grindstone
+    {
+	HCGrindstone,
+    	CanBeDoneFromFloor:true,
+   	Result:HCGrindstone2,
+    	Time:100,
+    	Category:Anchor,
+    }
+
+recipe Build Stamp Mill
+    {
+	SkillRequired:Woodwork=8;Mechanics=3;,
+	Nails=12,
+        Screws=16,
+	HCWoodbeam=2,
+    	Plank=4,
+    	HCWoodenbucketconcrete=4,
+        SheetMetal=2,
+	HCSteelrod=5,
+	HCSteelingot=5,
+    	HCWeldingset,
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+	keep Hammer,
+        keep Saw,
+        keep Screwdriver,
+    	keep HCMasontrowel,
+    	CanBeDoneFromFloor:true,
+        Result:HCStampmill,
+        NeedToBeLearn:true,
+    	Sound:PZ_Hammer,
+        Time:1000,
+	Category:Engineer,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Upgrade Stamp Mill
+    {
+	SkillRequired:Woodwork=8;Mechanics=3;,
+	Nails=4,
+    	HCRopethick,
+	HCCrank/HCCrankiron,
+    	Plank=4,
+	HCStampmillwheel,
+	HCStampmill,
+	keep Hammer,
+        keep Saw,
+    	CanBeDoneFromFloor:true,
+        Result:HCStampmillcrank,
+        NeedToBeLearn:true,
+    	Sound:PZ_Hammer,
+        Time:1000,
+	Category:Engineer,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Upgrade Stamp Mill
+    {
+	SkillRequired:Mechanics=4,
+	HCSteammachine,
+	HCStampmill,
+    	CanBeDoneFromFloor:true,
+        Result:HCStampmillsteam,
+        NeedToBeLearn:true,
+        Time:1000,
+	Category:Engineer,
+    	OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Upgrade Stamp Mill
+    {
+	SkillRequired:Electricity=5;Mechanics=5;,
+	Generator,
+	HCStampmillcrank,
+    	CanBeDoneFromFloor:true,
+        Result:HCStampmillgen,
+        NeedToBeLearn:true,
+        Time:1000,
+        Category:Electrical,
+    	OnGiveXP:HCMechanicsElectricity_OnGiveXP,
+    }
+
+recipe Make Gravel
+    {
+    	EmptySandbag,
+    	Stone=10,
+    	keep Sledgehammer,
+    	Result:Gravelbag,
+        NeedToBeLearn:true,
+    	Time:4000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Gravel
+    {
+    	EmptySandbag,
+    	Stone=10,
+    	keep HCStampmillcrank,
+    	Result:Gravelbag,
+        NeedToBeLearn:true,
+    	Time:2000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Gravel
+    {
+    	EmptySandbag,
+    	Stone=10,
+        Charcoal=16,
+        Water=10,
+    	keep HCStampmillsteam,
+    	Result:Gravelbag,
+        NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Gravel
+    {
+    	EmptySandbag,
+    	Stone=10,
+	PetrolCan=4,
+    	keep HCStampmillgen,
+    	Result:Gravelbag,
+        NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Gravel
+    {
+    	EmptySandbag,
+    	Stone=10,
+    	HCMininggrinderpowered/HCMiningchiselpowered,
+    	Result:Gravelbag,
+        NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Gravel
+    {
+    	EmptySandbag=2,
+    	Stone=10,
+    	keep HCMacerator,
+    	PetrolCan,
+    	CanBeDoneFromFloor:true,
+    	Result:Gravelbag=2,
+        NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Gravel
+    {
+    	HCWoodenbucket,
+    	Stone=10,
+    	keep Sledgehammer,
+    	Result:HCWoodenbucketgravel,
+        NeedToBeLearn:true,
+    	Time:4000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Gravel
+    {
+    	HCWoodenbucket,
+    	Stone=10,
+    	keep HCStampmillcrank,
+    	Result:HCWoodenbucketgravel,
+        NeedToBeLearn:true,
+    	Time:2000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Gravel
+    {
+    	HCWoodenbucket,
+    	Stone=10,
+        Charcoal=16,
+        Water=10,
+    	keep HCStampmillsteam,
+    	Result:HCWoodenbucketgravel,
+        NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Gravel
+    {
+    	HCWoodenbucket,
+    	Stone=10,
+	PetrolCan=4,
+    	keep HCStampmillgen,
+    	Result:HCWoodenbucketgravel,
+        NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Gravel
+    {
+    	HCWoodenbucket,
+    	Stone=10,
+    	HCMininggrinderpowered/HCMiningchiselpowered,
+    	Result:HCWoodenbucketgravel,
+        NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Gravel
+    {
+    	HCWoodenbucket=2,
+    	Stone=10,
+    	keep HCMacerator,
+    	PetrolCan,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWoodenbucketgravel=2,
+        NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Sand
+    {
+    	EmptySandbag,
+    	HCSandstone=10,
+    	keep Sledgehammer,
+    	Result:Sandbag,
+        NeedToBeLearn:true,
+    	Time:4000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Sand
+    {
+    	EmptySandbag,
+    	HCSandstone=10,
+    	keep HCStampmillcrank,
+    	Result:Sandbag,
+        NeedToBeLearn:true,
+    	Time:2000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Sand
+    {
+    	EmptySandbag,
+    	HCSandstone=10,
+        Charcoal=16,
+        Water=10,
+    	keep HCStampmillsteam,
+    	Result:Sandbag,
+        NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Sand
+    {
+    	EmptySandbag,
+    	HCSandstone=10,
+	PetrolCan=4,
+    	keep HCStampmillgen,
+    	Result:Sandbag,
+        NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Sand
+    {
+    	EmptySandbag,
+    	HCSandstone=10,
+    	HCMininggrinderpowered,
+    	Result:Sandbag,
+        NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Sand
+    {
+    	EmptySandbag=2,
+    	HCSandstone=10,
+    	keep HCMacerator,
+    	PetrolCan,
+    	CanBeDoneFromFloor:true,
+    	Result:Sandbag=2,
+        NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Sand
+    {
+    	HCWoodenbucket,
+    	HCSandstone=10,
+    	keep Sledgehammer,
+    	Result:HCWoodenbucketsand,
+        NeedToBeLearn:true,
+    	Time:4000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Sand
+    {
+    	HCWoodenbucket,
+    	HCSandstone=10,
+    	keep HCStampmillcrank,
+    	Result:HCWoodenbucketsand,
+        NeedToBeLearn:true,
+    	Time:2000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Sand
+    {
+    	HCWoodenbucket,
+    	HCSandstone=10,
+        Charcoal=16,
+        Water=10,
+    	keep HCStampmillsteam,
+    	Result:HCWoodenbucketsand,
+        NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Sand
+    {
+    	HCWoodenbucket,
+    	HCSandstone=10,
+	PetrolCan=4,
+    	keep HCStampmillgen,
+    	Result:HCWoodenbucketsand,
+        NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Sand
+    {
+    	HCWoodenbucket,
+    	HCSandstone=10,
+    	HCMininggrinderpowered,
+    	Result:HCWoodenbucketsand,
+        NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Sand
+    {
+    	HCWoodenbucket=2,
+    	HCSandstone=10,
+    	keep HCMacerator,
+    	PetrolCan,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWoodenbucketsand=2,
+        NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Plaster
+    {
+    	keep HCSpatula/HCWoodenspatula,
+    	Glue/HCGluejar,
+    	Glue/HCGluejar,
+    	BucketEmpty,
+    	Water,
+    	Result:BucketPlasterFull,
+    	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Masonry,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Plaster
+    {
+    	keep HCSpatula/HCWoodenspatula,
+    	Flour=2,
+    	BucketEmpty,
+    	Water,
+    	Result:BucketPlasterFull,
+    	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Masonry,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Plaster
+    {
+    	keep HCSpatula/HCWoodenspatula,
+    	HCGreyclay=2,
+    	BucketEmpty,
+    	Water,
+    	Result:BucketPlasterFull,
+    	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Masonry,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Plaster
+    {
+    	keep HCSpatula/HCWoodenspatula,
+    	HCGypsumpowder=2,
+    	BucketEmpty,
+    	Water,
+    	Result:BucketPlasterFull,
+    	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Masonry,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Concrete Powder
+    {
+    	HCConcreteingot=4,
+    	keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    	CanBeDoneFromFloor:true,
+    	Result:ConcretePowder,
+    	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Masonry,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Concrete
+    {
+    	ConcretePowder,
+   	Water,
+    	HCWoodenbucket,
+    	Result:HCWoodenbucketconcrete,
+    	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Masonry,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Mortar
+    {
+	HCGreyclay=3,
+    	HCLimestone,
+	HCLard,
+    	keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    	CanBeDoneFromFloor:true,
+    	Result:HCMortar,
+    	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Masonry,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Anchor Stone Anvil
+    {
+	HCAnvilstone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCAnvilstone2,
+    	Time:100,
+    	Category:Anchor,
+    }
+
+recipe Make Stone Anvil
+    {
+    	Stone=25,
+    	keep HCChisel,
+    	Result:HCAnvilstone,
+    	NeedToBeLearn:true,
+    	Time:5000,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Stone Anvil
+    {
+    	Stone=25,
+    	HCMiningchiselpowered,
+    	Result:HCAnvilstone,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Stoneworking,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Carve Venus Figurine
+    {
+    	HCLimestone,
+    	keep HCChisel,
+    	Result:HCVenus,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Stoneworking,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+}

@@ -1,0 +1,17 @@
+IGUI_RU = {
+
+	IGUI_CraftCategory_Ranching = "Животноводство",
+	IGUI_CraftCategory_Alchemy = "Химия",
+	IGUI_CraftCategory_Death = "Суицид",
+	IGUI_CraftCategory_Loot = "Инвентарь",
+	IGUI_CraftCategory_Leisure = "Досуг",
+	IGUI_CraftCategory_Weaving = "Ткачество",
+	IGUI_CraftCategory_Blacksmithing = "Кузнечное дело",
+	IGUI_CraftCategory_Masonry = "Каменная кладка",
+	IGUI_CraftCategory_Pottery = "Керамика",
+	IGUI_CraftCategory_Stoneworking = "Обработка камня",
+	IGUI_CraftCategory_Glassworking = "Стеклоделие",
+	IGUI_ItemCat_Toy = "Игрушки",
+	IGUI_CraftCategory_Research = "Исследования"
+	IGUI_ItemCat_Trash = "Мусор",
+}

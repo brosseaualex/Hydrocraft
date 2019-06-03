@@ -1,0 +1,233 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCGreybrick
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Grey Brick,
+        icon 			= HCGreybrick,
+    }
+
+item HCGreybrickbox
+    {
+        Weight    		= 12.0,
+        Type   			= Normal,
+        DisplayName         	= Pallet of Grey Bricks,
+        icon 			= HCGreybrickbox,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCRedbrick
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Red Brick,
+        icon 			= HCRedbrick,
+    }
+
+item HCRedbrickbox
+    {
+        Weight    		= 12.0,
+        Type   			= Normal,
+        DisplayName         	= Pallet of Red Bricks,
+        icon 			= HCRedbrickbox,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCRefractorybrick
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Refractory Brick,
+        icon 			= HCRefractorybrick,
+    }
+
+item HCConcreteingot
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Concrete Ingot,
+        icon 			= HCConcreteingot,
+    }
+
+item HCConcreteblock
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Concrete Block,
+        icon 			= HCConcreteblock,
+    }
+
+item HCHempcreteblock
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Hempcrete Block,
+        icon 			= HCHempcreteblock,
+    }
+
+item HCLeadcreteblock
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Leadcrete Block,
+        icon 			= HCLeadcreteblock,
+    }
+
+/************************RECIPES************************/
+    
+
+recipe Pack Pallet of Grey Bricks
+    {
+    	HCGreybrick=100,
+    	HCRopethick,
+	HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCGreybrickbox,
+    	Time:20.0,
+    	Category:Masonry,
+    }
+
+recipe Unpack Pallet of Grey Bricks
+    {
+    	HCGreybrickbox,
+    	Result:HCGreybrick=100,
+    	Time:20.0,
+    	Category:Masonry,
+    	OnCreate:recipe_hcpallet,
+    }
+
+recipe Pack Pallet of Red Bricks
+    {
+    	HCRedbrick=100,
+    	HCRopethick,
+	HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCRedbrickbox,
+    	Time:20.0,
+    	Category:Masonry,
+    }
+
+recipe Unpack Pallet of Red Bricks
+    {
+    	HCRedbrickbox,
+    	Result:HCRedbrick=100,
+    	Time:20.0,
+    	Category:Masonry,
+    	OnCreate:recipe_hcpallet,
+    }
+
+recipe Make Grey Brick
+    {
+    	HCGreyclay,
+    	Charcoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCGreybrick,
+    	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Masonry,
+    	OnCreate:KilnUse,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Red Brick
+    {
+    	HCRedclay,
+   	Charcoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCRedbrick,
+    	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Masonry,
+    	OnCreate:KilnUse,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+
+recipe Make Refractory Brick
+    {
+	keep HCSpatula/HCWoodenspatula,
+	keep BucketEmpty/HCWoodenbucket,
+	HCGypsumpowder,
+	Sandbag,
+	Water,
+	HCBlockmold,
+    	Result:HCRefractorybrick,
+    	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Masonry,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Concrete Ingot
+    {
+    	Gravelbag,
+    	HCBonepowder,
+    	HCGreyclay,
+    	Charcoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	HCIngotmold,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	keep HCKiln/HCKiln2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCConcreteingot,
+    	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Masonry,
+    	OnCreate:KilnUse,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Concrete Block
+    {
+	HCWoodenbucketconcrete,
+    	HCBlockmold,
+    	CanBeDoneFromFloor:true,
+    	Result:HCConcreteblock,
+    	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Masonry,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Hempcrete Block
+    {
+	HCPlantfibers=3,
+	HCWoodenbucketconcrete,
+    	HCBlockmold,
+    	CanBeDoneFromFloor:true,
+    	Result:HCHempcreteblock,
+    	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Masonry,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Leadcrete Block
+    {
+	HCLeadpowder=3,
+	HCWoodenbucketconcrete,
+    	HCBlockmold,
+    	CanBeDoneFromFloor:true,
+    	Result:HCLeadcreteblock,
+    	NeedToBeLearn:true,
+    	Time:100,
+    	Category:Masonry,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+}

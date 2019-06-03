@@ -1,0 +1,17 @@
+Farming_IT = {
+  -- vegetables name (type of seed)
+	Farming_Bean = "Fagioli",
+	Farming_BellPepper = "Peperoni",
+	Farming_Corn = "Mais",
+	Farming_Eggplant = "Melanzana",
+	Farming_Grape = "Uva",
+	Farming_Leek = "Porro",
+	Farming_Lettuce = "Lattuga",
+	Farming_Onion = "Cipolla",
+	Farming_Pea = "Pisello",
+	Farming_Peanut = "Arachide",
+	Farming_Pumpkin = "Zucca",
+	Farming_Watermelon = "Melone",
+	Farming_Zucchini = "Zucchine",
+	Farming_Tooltip_TrellisRequired = "Kit Traliccio Richiesto: ",
+}

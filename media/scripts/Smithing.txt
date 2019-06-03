@@ -1,0 +1,1999 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCMetalsheetbox
+    {
+        Weight    		= 6.0,
+        Type   			= Normal,
+        DisplayName         	= Pallet of Metal Sheets,
+        icon 			= HCMetalsheetbox,
+	ResizeWorldIcon 	= 1.0,
+    }
+
+item HCCrank
+	{
+	Weight				=	0.5,
+	Type				=	Normal,
+	DisplayName			=	Steel Crank,
+	Icon				=	HCCrank,
+	}
+
+item HCCrankiron
+	{
+	Weight				=	0.5,
+	Type				=	Normal,
+	DisplayName			=	Iron Crank,
+	Icon				=	HCCrankiron,
+	}
+
+item HCLever
+	{
+	Weight				=	0.5,
+	Type				=	Normal,
+	DisplayName			=	Lever,
+	Icon				=	HCLever,
+	}
+
+item HCCopperrod
+	{
+	Weight				=	2,
+	Type				=	Normal,
+	DisplayName			=	Copper Rod,
+	Icon				=	HCCopperrod,
+	}
+
+item HCTinrod
+	{
+	Weight				=	2,
+	Type				=	Normal,
+	DisplayName			=	Tin Rod,
+	Icon				=	HCTinrod,
+	}
+
+item HCBronzerod
+	{
+	Weight				=	2,
+	Type				=	Normal,
+	DisplayName			=	Bronze Rod,
+	Icon				=	HCBronzerod,
+	}
+
+item HCIronrod
+	{
+	Weight				=	2,
+	Type				=	Normal,
+	DisplayName			=	Iron Rod,
+	Icon				=	HCIronrod,
+	}
+
+item HCInvarrod
+	{
+	Weight				=	2,
+	Type				=	Normal,
+	DisplayName			=	Invar Rod,
+	Icon				=	HCInvarrod,
+	}
+
+item HCLeadrod
+	{
+	Weight				=	2,
+	Type				=	Normal,
+	DisplayName			=	Lead Rod,
+	Icon				=	HCLeadrod,
+	}
+
+item HCSteelrod
+	{
+	Weight				=	2,
+	Type				=	Normal,
+	DisplayName			=	Steel Rod,
+	Icon				=	HCSteelrod,
+	}
+
+item HCTitaniumrod
+	{
+	Weight				=	2,
+	Type				=	Normal,
+	DisplayName			=	Titanium Rod,
+	Icon				=	HCTitaniumrod,
+	}
+
+item HCGraphiterod
+	{
+	Weight				=	2,
+	Type				=	Normal,
+	DisplayName			=	Graphite Rod,
+	Icon				=	HCGraphiterod,
+	}
+
+item HCIronpole
+    {
+        Weight    		        = 4,
+        Type    		        = Normal,
+	DisplayName			= Iron Pole,
+	Icon				= HCIronpole,
+    } 
+ 
+item HCSteelpole
+    {
+        Weight    		        = 4,
+        Type    		        = Normal,
+	DisplayName			= Steel Pole,
+	Icon				= HCSteelpole,
+    } 
+
+item HCMetalringiron
+	{
+	Weight				=	2,
+	Type				=	Normal,
+	DisplayName			=	Iron Ring,
+	Icon				=	HCMetalringiron,
+	}
+
+item HCMetalring
+	{
+	Weight				=	2,
+	Type				=	Normal,
+	DisplayName			=	Steel Ring,
+	Icon				=	HCMetalring,
+	}
+
+item HCSteelbeam
+	{
+	Weight				=	4,
+	Type				=	Normal,
+	DisplayName			=	Steel Beam,
+	Icon				=	HCSteelbeam,
+	}
+
+item HCCopperboard
+	{
+	Weight				=	0.3,
+	Type				=	Normal,
+	DisplayName			=	Small Copper Sheet,
+	Icon				=	HCCopperboard,
+	}
+
+item HCCoppersheet
+	{
+	Weight				=	1.5,
+	Type				=	Normal,
+	DisplayName			=	Copper Sheet,
+	Icon				=	HCCoppersheet,
+	}
+
+item HCCoppersheetlarge
+	{
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Large Copper Sheet,
+	Icon				=	HCCoppersheetlarge,
+	}
+
+item HCTinboard
+	{
+	Weight				=	0.3,
+	Type				=	Normal,
+	DisplayName			=	Small Tin Sheet,
+	Icon				=	HCTinboard,
+	}
+
+item HCTinsheet
+	{
+	Weight				=	1.5,
+	Type				=	Normal,
+	DisplayName			=	Tin Sheet,
+	Icon				=	HCTinsheet,
+	}
+
+item HCTinsheetlarge
+	{
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Large Tin Sheet,
+	Icon				=	HCTinsheetlarge,
+	}
+
+item HCBronzeboard
+	{
+	Weight				=	0.3,
+	Type				=	Normal,
+	DisplayName			=	Small Bronze Sheet,
+	Icon				=	HCBronzeboard,
+	}
+
+item HCBronzesheet
+	{
+	Weight				=	1.5,
+	Type				=	Normal,
+	DisplayName			=	Bronze Sheet,
+	Icon				=	HCBronzesheet,
+	}
+
+item HCBronzesheetlarge
+	{
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Large Bronze Sheet,
+	Icon				=	HCBronzesheetlarge,
+	}
+
+item HCSilversheet
+	{
+	Weight				=	1.5,
+	Type				=	Normal,
+	DisplayName			=	Silver Sheet,
+	Icon				=	HCSilversheet,
+	}
+
+item HCSilversheetlarge
+	{
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Large Silver Sheet,
+	Icon				=	HCSilversheetlarge,
+	}
+
+item HCIronboard
+	{
+	Weight				=	0.3,
+	Type				=	Normal,
+	DisplayName			=	Small Iron Sheet,
+	Icon				=	HCIronboard,
+	}
+
+item HCIronsheet
+	{
+	Weight				=	1.5,
+	Type				=	Normal,
+	DisplayName			=	Iron Sheet,
+	Icon				=	HCIronsheet,
+	}
+
+item HCIronsheetlarge
+	{
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Large Iron Sheet,
+	Icon				=	HCIronsheetlarge,
+	}
+
+item HCLeadboard
+	{
+	Weight				=	0.3,
+	Type				=	Normal,
+	DisplayName			=	Small Lead Sheet,
+	Icon				=	HCLeadboard,
+	}
+
+item HCLeadsheet
+	{
+	Weight				=	1.5,
+	Type				=	Normal,
+	DisplayName			=	Lead Sheet,
+	Icon				=	HCLeadsheet,
+	}
+
+item HCLeadsheetlarge
+	{
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Large Lead Sheet,
+	Icon				=	HCLeadsheetlarge,
+	}
+
+item HCSteelboard
+	{
+	Weight				=	0.3,
+	Type				=	Normal,
+	DisplayName			=	Small Steel Sheet,
+	Icon				=	HCSteelboard,
+	}
+
+item HCSteelsheet
+	{
+	Weight				=	1.5,
+	Type				=	Normal,
+	DisplayName			=	Steel Sheet,
+	Icon				=	HCSteelsheet,
+	}
+
+item HCSteelsheetlarge
+	{
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Large Steel Sheet,
+	Icon				=	HCSteelsheetlarge,
+	}
+
+item HCMetalboard
+	{
+	Weight				=	0.3,
+	Type				=	Normal,
+	DisplayName			=	Small Metal Sheet,
+	Icon				=	HCMetalboard,
+	}
+
+item HCLargesheetmetal
+	{
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Large Sheet Of Metal,
+	Icon				=	HCLargesheetmetal,
+	}
+
+item HCTitaniumboard
+	{
+	Weight				=	0.3,
+	Type				=	Normal,
+	DisplayName			=	Small Titanium Sheet,
+	Icon				=	HCTitaniumboard,
+	}
+
+item HCTitaniumsheet
+	{
+	Weight				=	1.5,
+	Type				=	Normal,
+	DisplayName			=	Titanium Sheet,
+	Icon				=	HCTitaniumsheet,
+	}
+
+item HCTitaniumsheetlarge
+	{
+	Weight				=	3,
+	Type				=	Normal,
+	DisplayName			=	Large Titanium Sheet,
+	Icon				=	HCTitaniumsheetlarge,
+	}
+
+item HCCopperpipe
+    {
+        Weight 			= 	1.25,
+        Type 			= 	Normal,
+        DisplayName 		= 	Copper Pipe,
+        Icon 			= 	HCCopperpipe,
+    }
+
+item HCPipefridge
+    {
+        Weight 			= 	7.5,
+        Type 			= 	Normal,
+        DisplayName 		= 	Copper Cooling Rack,
+        Icon 			= 	HCPipefridge,
+    }
+
+item HCCopperpipebox
+    {
+        Weight 			= 	6,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Copper Pipes,
+        Icon 			= 	HCCopperpipebox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCSteelpipebox
+    {
+        Weight 			= 	6,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Steel Pipes,
+        Icon 			= 	HCSteelpipebox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+/************************WEAPONS************************/
+
+	item HCSteelpipe
+	{
+		MaxRange			=	1.3,
+		WeaponSprite			=	Baseballbat,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath 		= 	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		Weight				=	1.5,
+		ConditionLowerChanceOneIn	=	70,
+		PushBackMod			=	0.5,
+		MinDamage			=	0.6,
+		MaxDamage			=	1.1,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	1,
+		DoorDamage			=	8,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	10,
+		WeaponWeight			=	4,
+		DisplayName			=	Steel Pipe,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		KnockdownMod			=	0,
+		Icon				=	HCSteelpipe,
+		RunAnim				=	Run_Weapon2,
+		BreakSound  			=   	PZ_MetalSnap,
+		TreeDamage  			=   	1,
+	}
+
+/************************RECIPES************************/
+
+recipe Pack Pallet of Metal Sheets
+    {
+    	SheetMetal=10,
+    	HCRopethick,
+	HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCMetalsheetbox,
+    	Time:20.0,
+    }
+
+recipe Unpack Pallet of Metal Sheets
+    {
+    	HCMetalsheetbox,
+    	Result:SheetMetal=10,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }
+
+recipe Pack Pallet of Copper Pipes
+    {
+    	HCCopperpipe=12,
+    	HCRopethick,
+	HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCopperpipebox,
+    	Time:20.0,
+    }
+
+recipe Unpack Pallet of Steel Pipes
+    {
+    	HCSteelpipebox,
+    	Result:HCSteelpipe=12,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }
+
+recipe Pack Pallet of Steel Pipes
+    {
+    	HCSteelpipe=12,
+    	HCRopethick,
+	HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCSteelpipebox,
+    	Time:20.0,
+    }
+
+recipe Unpack Pallet of Copper Pipes
+    {
+    	HCCopperpipebox,
+    	Result:HCCopperpipe=12,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }
+
+recipe Make Copper Circuit Board
+    {
+        keep HCSawmetal,
+    	HCCopperboard,
+        NeedToBeLearn:true, 
+    	Result:HCCircuitboardcopperside,
+    	Time:250,
+    	Category:Electrical,
+    }
+
+recipe Make Copper Circuit Board
+    {
+        HCElectricmultitoolsawpowered,
+    	HCCopperboard,
+        NeedToBeLearn:true, 
+    	Result:HCCircuitboardcopperside,
+    	Time:250,
+    	Category:Electrical,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+        keep HCSawmetal,
+    	HCCoppersheet,
+        NeedToBeLearn:true, 
+    	Result:HCCopperboard=2,
+    	Time:250,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+        HCElectricmultitoolsawpowered,
+    	HCCoppersheet,
+        NeedToBeLearn:true, 
+    	Result:HCCopperboard=2,
+    	Time:125,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+    	HCCoppersheet,
+    	HCWeldingset,
+        NeedToBeLearn:true, 
+    	Result:HCCopperboard=2,
+	SkillRequired:MetalWelding=1,
+    	Time:50,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+        keep HCSawmetal,
+    	HCTinsheet,
+        NeedToBeLearn:true, 
+    	Result:HCTinboard=2,
+    	Time:250,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+        HCElectricmultitoolsawpowered,
+    	HCTinsheet,
+        NeedToBeLearn:true, 
+    	Result:HCTinboard=2,
+    	Time:125,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+    	HCTinsheet,
+    	HCWeldingset,
+        NeedToBeLearn:true, 
+    	Result:HCTinboard=2,
+	SkillRequired:MetalWelding=1,
+    	Time:50,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+        keep HCSawmetal,
+    	HCBronzesheet,
+        NeedToBeLearn:true, 
+    	Result:HCBronzeboard=2,
+    	Time:250,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+        HCElectricmultitoolsawpowered,
+    	HCBronzesheet,
+        NeedToBeLearn:true, 
+    	Result:HCTinboard=2,
+    	Time:125,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+    	HCBronzesheet,
+    	HCWeldingset,
+        NeedToBeLearn:true, 
+    	Result:HCBronzeboard=2,
+	SkillRequired:MetalWelding=1,
+    	Time:50,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+        keep HCSawmetal,
+    	HCIronsheet,
+        NeedToBeLearn:true, 
+    	Result:HCIronboard=2,
+    	Time:250,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+        HCElectricmultitoolsawpowered,
+    	HCIronsheet,
+        NeedToBeLearn:true, 
+    	Result:HCIronboard=2,
+    	Time:125,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+    	HCIronsheet,
+    	HCWeldingset,
+        NeedToBeLearn:true, 
+    	Result:HCIronboard=2,
+	SkillRequired:MetalWelding=1,
+    	Time:50,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+        keep HCSawmetal,
+    	HCLeadsheet,
+        NeedToBeLearn:true, 
+    	Result:HCLeadboard=2,
+    	Time:250,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+        HCElectricmultitoolsawpowered,
+    	HCLeadsheet,
+        NeedToBeLearn:true, 
+    	Result:HCLeadboard=2,
+    	Time:125,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+    	HCLeadsheet,
+    	HCWeldingset,
+        NeedToBeLearn:true, 
+    	Result:HCLeadboard=2,
+	SkillRequired:MetalWelding=1,
+    	Time:50,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+        keep HCSawmetal,
+    	HCSteelsheet,
+        NeedToBeLearn:true, 
+    	Result:HCSteelboard=2,
+    	Time:250,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+        HCElectricmultitoolsawpowered,
+    	HCSteelsheet,
+        NeedToBeLearn:true, 
+    	Result:HCSteelboard=2,
+    	Time:125,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+    	HCSteelsheet,
+    	HCWeldingset,
+        NeedToBeLearn:true, 
+    	Result:HCSteelboard=2,
+	SkillRequired:MetalWelding=1,
+    	Time:50,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+        keep HCSawmetal,
+    	SheetMetal,
+        NeedToBeLearn:true, 
+    	Result:HCMetalboard=2,
+    	Time:250,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+        HCElectricmultitoolsawpowered,
+    	SheetMetal,
+        NeedToBeLearn:true, 
+    	Result:HCMetalboard=2,
+    	Time:125,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+    	HCSteelsheet,
+    	HCWeldingset,
+        NeedToBeLearn:true, 
+    	Result:HCMetalboard=2,
+	SkillRequired:MetalWelding=1,
+    	Time:50,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Cut Sheet Of Metal
+    {
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+    	HCTitaniumsheet,
+    	HCWeldingset,
+        NeedToBeLearn:true, 
+    	Result:HCTitaniumboard=2,
+	SkillRequired:MetalWelding=1,
+    	Time:50,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Small Sheet Of Metal
+	{
+	HCCopperingot=2,
+    	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    	CanBeDoneFromFloor:true,
+	Result:HCCopperboard,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Small Sheet Of Metal
+	{
+	HCTiningot=2,
+    	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    	CanBeDoneFromFloor:true,
+	Result:HCTinboard,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Small Sheet Of Metal
+	{
+	HCBronzeingot=2,
+    	keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    	CanBeDoneFromFloor:true,
+	Result:HCBronzeboard,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Small Sheet Of Metal
+	{
+	HCIroningot=2,
+    	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	Result:HCIronboard,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Small Sheet Of Metal
+	{
+	HCLeadingot=2,
+    	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	Result:HCLeadboard,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Small Sheet Of Metal
+	{
+	HCSteelingot=2,
+    	keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	Result:HCSteelboard,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Small Sheet Of Metal
+	{
+	HCAluminumingot=2,
+    	keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	Result:HCMetalboard,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Small Sheet Of Metal
+	{
+	HCTitaniumingot=2,
+    	keep HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	Result:HCTitaniumboard,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Sheet Of Metal
+	{
+	HCCopperingot=4,
+    	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    	CanBeDoneFromFloor:true,
+	Result:HCCoppersheet,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Sheet Of Metal
+	{
+	HCTiningot=4,
+    	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    	CanBeDoneFromFloor:true,
+	Result:HCTinsheet,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Sheet Of Metal
+	{
+	HCSilveringot=4,
+    	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    	CanBeDoneFromFloor:true,
+	Result:HCSilversheet,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Sheet Of Metal
+	{
+	HCBronzeingot=4,
+    	keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    	CanBeDoneFromFloor:true,
+	Result:HCBronzesheet,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Sheet Of Metal
+	{
+	HCIroningot=4,
+    	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	Result:HCIronsheet,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Sheet Of Metal
+	{
+	HCLeadingot=4,
+    	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	Result:HCLeadsheet,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Sheet Of Metal
+	{
+	HCSteelingot=4,
+    	keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	Result:HCSteelsheet,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Sheet Of Metal
+	{
+	HCAluminumingot=4,
+    	keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	Result:SheetMetal,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Sheet Of Metal
+	{
+	HCTitaniumingot=4,
+    	keep HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	Result:HCTitaniumsheet,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Large Sheet Of Metal
+	{
+	HCCopperingot=8,
+    	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    	CanBeDoneFromFloor:true,
+	Result:HCCoppersheetlarge,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Large Sheet Of Metal
+	{
+	HCTiningot=8,
+    	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    	CanBeDoneFromFloor:true,
+	Result:HCTinsheetlarge,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Large Sheet Of Metal
+	{
+	HCSilveringot=8,
+    	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    	CanBeDoneFromFloor:true,
+	Result:HCSilversheetlarge,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Large Sheet Of Metal
+	{
+	HCBronzeingot=8,
+    	keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    	CanBeDoneFromFloor:true,
+	Result:HCBronzesheetlarge,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Large Sheet Of Metal
+	{
+	HCIroningot=8,
+    	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	Result:HCIronsheetlarge,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Large Sheet Of Metal
+	{
+	HCLeadingot=8,
+    	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	Result:HCLeadsheetlarge,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Large Sheet Of Metal
+	{
+	HCSteelingot=8,
+    	keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	Result:HCSteelsheetlarge,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Large Sheet Of Metal
+	{
+	HCAluminumingot=8,
+    	keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	Result:HCLargesheetmetal,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Large Sheet Of Metal
+	{
+	HCTitaniumingot=8,
+    	keep HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	Result:HCTitaniumsheetlarge,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Large Sheet Of Metal
+    {
+        HCCoppersheet=2,
+        HCWeldingset,
+        keep HCWorkgloves,   
+        keep WeldingMask,
+        NeedToBeLearn:true,           
+	Result:HCCoppersheetlarge,              
+        Time:500.0,
+        Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Large Sheet Of Metal
+    {
+        HCTinsheet=2,
+        HCWeldingset,
+        keep HCWorkgloves,   
+        keep WeldingMask,
+        NeedToBeLearn:true,           
+	Result:HCTinsheetlarge,              
+        Time:500.0,
+        Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Large Sheet Of Metal
+    {
+        HCSilversheet=2,
+        HCWeldingset,
+        keep HCWorkgloves,   
+        keep WeldingMask,
+        NeedToBeLearn:true,           
+	Result:HCSilversheetlarge,              
+        Time:500.0,
+        Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Large Sheet Of Metal
+    {
+        HCBronzesheet=2,
+        HCWeldingset,
+        keep HCWorkgloves,   
+        keep WeldingMask,
+        NeedToBeLearn:true,           
+	Result:HCBronzesheetlarge,              
+        Time:500.0,
+        Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Large Sheet Of Metal
+    {
+        HCIronsheet=2,
+        HCWeldingset,
+        keep HCWorkgloves,   
+        keep WeldingMask,
+        NeedToBeLearn:true,           
+	Result:HCIronsheetlarge,              
+        Time:500.0,
+        Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Large Sheet Of Metal
+    {
+        HCLeadsheet=2,
+        HCWeldingset,
+        keep HCWorkgloves,   
+        keep WeldingMask,
+        NeedToBeLearn:true,           
+	Result:HCLeadsheetlarge,              
+        Time:500.0,
+        Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Large Sheet Of Metal
+    {
+        HCSteelsheet=2,
+        HCWeldingset,
+        keep HCWorkgloves,   
+        keep WeldingMask,
+        NeedToBeLearn:true,           
+	Result:HCSteelsheetlarge,              
+        Time:500.0,
+        Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Large Sheet Of Metal
+    {
+        SheetMetal=2,
+        HCWeldingset,
+        keep HCWorkgloves,   
+        keep WeldingMask,
+        NeedToBeLearn:true,           
+	Result:HCLargesheetmetal,              
+        Time:500.0,
+        Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Large Sheet Of Metal
+    {
+        HCTitaniumsheet=2,
+        HCWeldingset,
+        keep HCWorkgloves,   
+        keep WeldingMask,
+        NeedToBeLearn:true,           
+	Result:HCTitaniumsheetlarge,              
+        Time:500.0,
+        Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Steel Beam
+	{
+	HCSteelrod=3,
+	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	Charcoal,
+
+	Water,
+	keep HCSteamhammer/HCSteamhammer2,
+    	keep HCWorkgloves/HCOvenmitts,
+    	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true, 
+	Result:HCSteelbeam,
+	Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Cut Steel Pipe
+    {
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+    	HCSteelpipe,
+    	HCWeldingset,
+    	Result:Pipe=5,
+    	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Metal Pipe
+    {
+        HCSteelsheetlarge,
+        HCWeldingset,
+        keep HCWorkgloves,   
+        keep WeldingMask,
+        NeedToBeLearn:true,           
+	Result:HCSteelpipe,              
+        Time:500.0,
+        Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+ 
+recipe Make Metal Pipe
+    {
+        HCCoppersheetlarge,
+        HCWeldingset,
+        keep HCWorkgloves,   
+        keep WeldingMask,
+        NeedToBeLearn:true,           
+	Result:HCCopperpipe,              
+        Time:500.0,
+        Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+  
+recipe Make Crank
+	{
+	   	HCSteelrod,
+	   	HCWoodblock,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+        	NeedToBeLearn:true,   
+	   	Result:HCCrank,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Crank
+	{
+	   	HCIronrod,
+	   	HCWoodblock,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+        	NeedToBeLearn:true,   
+	   	Result:HCCrankiron,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Lever
+	{
+	   	HCSteelrod,
+	   	HCSteelingot,
+		Screws,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+        	NeedToBeLearn:true,   
+	   	Result:HCLever,
+	   	Time:150.0,
+		Category:Engineer,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Pipe Bender
+	{
+	   	HCSteelrod=2,
+	   	HCSteelingot,
+		Screws,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+        	NeedToBeLearn:true,   
+	   	Result:HCPipebender,
+	   	Time:150.0,
+		Category:Engineer,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Rod
+	{
+	   	HCCopperingot=4,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCCopperrod,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Tin Rod
+	{
+	   	HCTiningot=4,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCTinrod,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Rod
+	{
+	   	HCBronzeingot=4,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCBronzerod,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Rod
+	{
+	   	HCIroningot=4,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCIronrod,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Invar Rod
+	{
+	   	HCInvaringot=4,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCInvarrod,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Lead Rod
+	{
+	   	HCLeadingot=4,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLeadrod,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Steel Rod
+	{
+	   	HCSteelingot=4,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCSteelrod,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Titanium Rod
+	{
+	   	HCTitaniumingot=4,
+    		keep HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCTitaniumrod,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Graphite Rod
+	{
+	   	HCGraphiteingot=4,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCGraphiterod,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Pole
+    {
+    		HCIronrod=2,
+		keep HCTriphammer,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+    		CanBeDoneFromFloor:true,
+   		Result:HCIronpole,
+    		Time:300.0,
+    		NeedToBeLearn:true,
+    		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Iron Pole
+    {
+    		HCIronrod=2,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		Charcoal,
+
+		Water,
+		keep HCSteamhammer/HCSteamhammer2,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+    		CanBeDoneFromFloor:true,
+   		Result:HCIronpole,
+    		Time:150.0,
+    		NeedToBeLearn:true,
+    		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Steel Pole
+    {
+    		HCSteelrod=2,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		Charcoal,
+
+		Water,
+		keep HCSteamhammer/HCSteamhammer2,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+    		CanBeDoneFromFloor:true,
+   		Result:HCSteelpole,
+    		Time:150.0,
+    		NeedToBeLearn:true,
+    		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Metal Ring
+    {
+    		HCIronrod,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+   		Result:HCMetalringiron,
+    		Time:150.0,
+    		NeedToBeLearn:true,
+    		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Metal Ring
+    {
+    		HCSteelrod,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+   		Result:HCMetalring,
+    		Time:150.0,
+    		NeedToBeLearn:true,
+    		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Iron Cauldron
+	{
+		WoodenStick,
+		CampfireKit,
+	   	HCIroningot=10,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCCauldroniron,
+    		NeedToBeLearn:true,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Trowel
+	{
+	   	HCIroningot,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HandShovel,
+    		NeedToBeLearn:true,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Spade
+	{
+	   	HCIroningot=2,
+    		WoodenStick,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:Shovel,
+    		NeedToBeLearn:true,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}   
+
+recipe Make Steel Rake
+	{
+	   	HCSteelingot=2,
+    		WoodenStick,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCRake,
+    		NeedToBeLearn:true,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+
+recipe Make Steel Shears
+	{
+		SkillRequired:BladeMaintenance=2,
+	   	HCSteelingot,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCShears,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Steel Pruning Shears
+	{
+		SkillRequired:BladeMaintenance=2,
+	   	HCSteelingot,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCPruningsheers,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+
+recipe Make Steel Saw
+	{
+		SkillRequired:BladeMaintenance=1,
+	   	HCSteelingot,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+		HCWoodenring,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:Saw,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Tongs
+	{
+	   	HCIroningot,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs/HCSaladtongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:Tongs,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	} 
+
+recipe Make Iron Tongs
+	{
+	   	HCIroningot,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:Tongs,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	} 
+
+recipe Make Steel Hammer
+	{
+		SkillRequired:BluntMaintenance=1,
+	   	HCSteelingot,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+		WoodenStick,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:Hammer,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Sterling Silver Knife
+	{
+		SkillRequired:BluntMaintenance=1,
+	   	HCSterlingsilveringot,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:Hammer,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Sterling Silver Fork
+	{
+		SkillRequired:BluntMaintenance=1,
+	   	HCSterlingsilveringot,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:Hammer,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Sterling Silver Spoon
+	{
+		SkillRequired:BluntMaintenance=1,
+	   	HCSterlingsilveringot,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:Hammer,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+
+recipe Make Aluminum Tent Peg
+	{
+	   	HCAluminumingot,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:TentPeg=2,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Baking Pan
+	{
+	   	HCIroningot,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:BakingPan,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	} 
+
+recipe Make Iron Baking Tray
+	{
+	   	HCIroningot,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:BakingTray,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	} 
+
+recipe Make Iron Roasting Pan
+	{
+	   	HCIroningot=2,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:RoastingPan,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	} 
+
+recipe Make Iron Muffin Pan
+	{
+	   	HCIroningot,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCMuffinpan,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	} 
+
+recipe Make Iron Bread Pan
+	{
+	   	HCIroningot,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCBreadpan,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	} 
+
+recipe Make Iron Cooking Pot
+	{
+	   	HCIroningot=2,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:Pot,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	} 
+
+recipe Make Iron Kettle
+	{
+	   	HCIroningot=2,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:Kettle,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	} 
+
+recipe Make Copper Kettle
+	{
+	   	HCCopperingot=2,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCKettlecopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	} 
+
+recipe Make Bronze Candle Holder
+	{
+	   	HCBronzeingot,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCCandleholder,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Oil Lamp
+	{
+	   	HCBronzeingot=2,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCOillamp,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Oil Lamp
+	{
+	   	HCBrassingot=2,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCOillamp,
+	   	Time:150.0,
+    		NeedToBeLearn:true,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Cooling Rack
+	{
+		HCCopperpipe=6,
+		HCWeldingset,
+		keep WeldingMask,
+		keep HCWorkgloves/HCOvenmitts,
+    		keep Hammer,
+		keep HCPipebender,
+		Result:HCPipefridge,
+		NeedToBeLearn:true,
+		Time:500.0,
+		Category:Engineer,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Hand Drill
+	{
+	   	HCIroningot,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCDrillhand,
+		NeedToBeLearn:true,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+
+}

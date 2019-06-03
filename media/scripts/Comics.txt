@@ -1,0 +1,116 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCComic1
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic1,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+    }
+
+item HCComic2
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic2,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+    }
+
+item HCComic3
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic3,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+    }
+
+item HCComic4
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic4,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+    }
+
+item HCComic5
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic5,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+    }
+
+item HCComic6
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic6,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+    }
+
+item HCComic7
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic7,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+    }
+
+item HCComic8
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic8,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+    }
+
+item HCComic9
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic9,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+    }
+
+/************************RECIPES************************/	
+
+
+    
+
+}

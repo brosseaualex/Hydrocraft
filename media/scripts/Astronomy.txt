@@ -1,0 +1,160 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCTelescope
+    {
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName         	= Telescope,
+        icon 			= HCTelescope,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCTelescopescope
+    {
+        Weight    		= 7,
+        Type    		= Normal,
+        DisplayName         	= Telescope Scope,
+        icon 			= HCTelescopescope,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCTelescopetripod
+    {
+        Weight    		= 3,
+        Type    		= Normal,
+        DisplayName         	= Telescope Tripod,
+        icon 			= HCTelescopetripod,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+
+item HCTelescopebox
+    {
+        Weight    		= 5,
+        Type    		= Normal,
+        DisplayName         	= Telescope in Box,
+        icon 			= HCTelescopebox,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+item HCStarchart
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Star Chart,
+        icon 			= HCStarchart,
+    }
+
+item HCStarchartboard
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Star Chart Board,
+        icon 			= HCStarchartboard,
+	ResizeWorldIcon 	= 2.0,
+    }
+
+/************************RECIPES************************/	
+
+recipe Unbox Telescope
+    {
+    	HCTelescopebox,
+    	Result:HCCardboardbox,
+    	Time:100,
+    	Category:Leisure,
+    	OnCreate:recipe_hcopentelescope,
+    }
+
+recipe Box Telescope
+    {
+    	HCTelescopescope,
+    	HCTelescopetripod,
+	HCBubblewrap,
+    	HCCardboardbox,
+    	Result:HCTelescopebox,
+    	Time:100,
+    	Category:Leisure,
+    }
+
+recipe Assemble Telescope
+    {
+	SkillRequired:Mechanics=1,
+    	HCTelescopescope,
+    	HCTelescopetripod,
+	keep Screwdriver,
+    	Result:HCTelescope,
+        NeedToBeLearn:true,
+    	Time:100,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Disassemble Telescope
+    {
+	SkillRequired:Mechanics=1,
+    	HCTelescope,
+       	keep Screwdriver,
+    	Result:HCTelescopescope,
+        NeedToBeLearn:true,
+    	Time:100,
+    	Category:Leisure,
+    	OnCreate:recipe_hctelescopetripod,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Gaze Through Telescope
+    {   
+    	keep HCTelescope,
+	HCBookastronomy,
+    	Result:HCBookastronomy,
+    	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+    	Time:1000,
+    	OnCreate:HC_ToyStatModifier,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Build Star Chart Board
+    {
+	SkillRequired:Woodwork=4,
+	HCStarchart,
+	Nails=8,
+	Plank=2,
+	HCWoodbeam,
+	HCWoodsheet,
+    	keep Hammer,
+	keep Saw,
+	keep HCCarpenterbench,
+    	CanBeDoneFromFloor:true,
+   	Result:HCStarchartboard,
+        NeedToBeLearn:true,
+    	Sound:PZ_Hammer,
+    	Time:100,
+    	Category:Carpentry,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe View Star Chart Board
+    {
+    	keep HCStarchartboard,
+	HCBookastronomy,
+    	Result:HCBookastronomy,
+    	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+    	Time:1000,
+    	OnCreate:HC_ToyStatModifier,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+}

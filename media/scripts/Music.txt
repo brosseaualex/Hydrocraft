@@ -1,0 +1,617 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCBooksheetmusic
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Book of Sheet Music,
+        icon 			= HCBooksheetmusic,
+    }
+
+item HCNotebooksheetmusic
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Notebook of Sheet Music,
+        icon 			= HCNotebooksheetmusic,
+    }
+
+item HCPapersheetmusic
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sheet Music,
+        icon 			= HCPapersheetmusic,
+    }
+
+
+item HCVinylrecord1
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Vinyl Record,
+        icon 			= HCVinylrecord1,
+    }
+
+item HCVinylrecord2
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Vinyl Record,
+        icon 			= HCVinylrecord2,
+    }
+
+item HCVinylrecord3
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Vinyl Record,
+        icon 			= HCVinylrecord3,
+    }
+
+item HCVinylrecord4
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Vinyl Record,
+        icon 			= HCVinylrecord4,
+    }
+
+item HCVinylrecord5
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Vinyl Record,
+        icon 			= HCVinylrecord5,
+    }
+
+item HCPhonograph
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName         	= Phonograph,
+        icon 			= HCPhonograph,
+    }
+
+item HCDVD
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= DVD,
+        icon 			= HCDVD,
+    }
+
+item HCDVDCase
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Empty DVD Case,
+        icon 			= HCDVDCase,
+    }
+
+item HCDVDPlayer
+    {
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName         	= DVD Player,
+        icon 			= HCDVDPlayer,
+    }
+
+item HCCDcase
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Empty CD Case,
+        icon 			= HCCDcase,
+    }
+
+item HCCDcasefull
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= CD Case with CD,
+        icon 			= HCCDcasefull,
+    }
+
+item HCHarmonica
+    {
+	Weight			=	0.3,
+	Type			=	Normal,
+	DisplayName		=	Harmonica,
+	Icon			=	HCHarmonica,
+   }
+
+item HCViolin
+    {
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Violin,
+	Icon			=	HCViolin,
+   }
+
+item HCHarp
+    {
+	Weight			=	1.0,
+	Type			=	Normal,
+	DisplayName		=	Harp,
+	Icon			=	HCHarp,
+   }
+
+item HCUkulele
+    {
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Ukulele,
+	Icon			=	HCUkulele,
+   }
+
+item HCBanjo
+    {
+	Weight			=	1.0,
+	Type			=	Normal,
+	DisplayName		=	Banjo,
+	Icon			=	HCBanjo,
+   }
+
+item HCGuitar
+    {
+	Weight			=	1.0,
+	Type			=	Normal,
+	DisplayName		=	Guitar,
+	Icon			=	HCGuitar,
+	ResizeWorldIcon 	= 	2.0,
+   }
+
+item HCElectricguitar
+    {
+	Weight			=	1.0,
+	Type			=	Normal,
+	DisplayName		=	Electric Guitar,
+	Icon			=	HCElectricguitar,
+	ResizeWorldIcon 	= 	2.0,
+   }
+
+item HCElectricguitarbass
+    {
+	Weight			=	1.0,
+	Type			=	Normal,
+	DisplayName		=	Electric Bass Guitar,
+	Icon			=	HCElectricguitarbass,
+	ResizeWorldIcon 	= 	2.0,
+   }
+
+item HCGuitarpick
+    {
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Guitar Pick,
+	Icon			=	HCGuitarpick,
+   }
+
+item HCAmp
+    {
+	Weight			=	1.5,
+	Type			=	Normal,
+	DisplayName		=	Amp,
+	Icon			=	HCAmp,
+	ResizeWorldIcon 	= 	2.0,
+   }
+
+item HCGuitarcase
+    {
+        WeightReduction     	= 	60,
+        Weight              	= 	1.0,
+        Type                	= 	Container,
+        Capacity            	= 	10,
+        DisplayName         	= 	Guitar Case,
+        Icon                	= 	HCGuitarcase,
+	ResizeWorldIcon 	= 	2.0,
+    }
+
+item HCKazoo
+    {
+	Weight			=	0.1,
+	Type			=	Normal,
+	DisplayName		=	Kazoo,
+	Icon			=	HCKazoo,
+   }
+
+item HCFlute
+    {
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Flute,
+	Icon			=	HCFlute,
+   }
+
+item HCFlutewood
+    {
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Wood Flute,
+	Icon			=	HCFlutewood,
+   }
+
+item HCClarinet
+    {
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Clarinet,
+	Icon			=	HCClarinet,
+   }
+
+item HCSax
+    {
+	Weight			=	1.0,
+	Type			=	Normal,
+	DisplayName		=	Saxophone,
+	Icon			=	HCSax,
+   }
+
+item HCTrumpet
+    {
+	Weight			=	1.0,
+	Type			=	Normal,
+	DisplayName		=	Trumpet,
+	Icon			=	HCTrumpet,
+   }
+
+item HCTrombone
+    {
+	Weight			=	1.5,
+	Type			=	Normal,
+	DisplayName		=	Trombone,
+	Icon			=	HCTrombone,
+   }
+
+item HCDrumsticks
+    {
+	Weight			=	0.2,
+	Type			=	Normal,
+	DisplayName		=	Drum Sticks,
+	Icon			=	HCDrumsticks,
+   }
+
+item HCDrumkit
+    {
+	Weight			=	5.0,
+	Type			=	Normal,
+	DisplayName		=	Drum Kit,
+	Icon			=	HCDrumkit,
+	ResizeWorldIcon 	= 	1.0,
+   }
+
+item HCDrum
+    {
+	Weight			=	1.0,
+	Type			=	Normal,
+	DisplayName		=	Drum,
+	Icon			=	HCDrum,
+   }
+
+item HCMaracas
+    	{
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Maracas,
+	Icon			=	HCMaracas,
+  	}
+
+item HCCowbell
+    {
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Cow Bell,
+	Icon			=	HCCowbell,
+   }
+
+item HCPiano
+    {
+	Weight			=	20.0,
+	Type			=	Normal,
+	DisplayName		=	Piano,
+	Icon			=	HCPiano,
+	ResizeWorldIcon 	= 	1.0,
+   }
+
+item HCPianogrand
+    {
+	Weight			=	20.0,
+	Type			=	Normal,
+	DisplayName		=	Grand Piano,
+	Icon			=	HCPianogrand,
+	ResizeWorldIcon 	= 	1.0,
+   }
+
+/************************WEAPONS************************/
+
+
+
+/************************RECIPES************************/	
+
+recipe Read Music
+    {
+    	HCBooksheetmusic,
+    	NeedToBeLearn:true,
+    	Result:HCBooksheetmusic,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Read Music
+    {
+    	HCNotebooksheetmusic,
+    	NeedToBeLearn:true,
+    	Result:HCNotebooksheetmusic,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Read Music
+    {
+    	HCPapersheetmusic,
+    	NeedToBeLearn:true,
+    	Result:HCPapersheetmusic,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Write Music
+    {
+    	SheetPaper/SheetPaper2,
+	Pencil/Pen,
+    	NeedToBeLearn:true,
+    	Result:HCPapersheetmusic,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Write Music
+    {
+	Notebook,
+	Pencil/Pen,
+    	NeedToBeLearn:true,
+    	Result:HCNotebooksheetmusic,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Put CD in Case
+    {
+    	Disc,
+    	HCCDcase,
+    	Result:HCCDcasefull,
+    	Time:15,
+    	Category:Leisure,
+    }
+
+recipe Remove CD from Case
+    {
+    	HCCDcasefull,
+    	Result:Disc,
+    	Time:15,
+    	OnCreate:recipe_hccdcase,
+    	Category:Leisure,
+    } 
+
+recipe Play Music
+    	{
+	HCPhonograph,
+    	HCVinylrecord1/HCVinylrecord2/HCVinylrecord3/HCVinylrecord4/HCVinylrecord5,
+    	Result:HCPhonograph,
+    	Time:1000,
+    	OnCreate:HC_ToyStatModifier,
+   	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    	}
+
+recipe Play Music
+    {
+    	HCHarmonica,
+    	Result:HCHarmonica,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Music
+    {
+    	HCViolin,
+    	Result:HCViolin,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+   	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Music
+    {
+    	HCHarp,
+    	Result:HCHarp,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+   	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Music
+    {
+    	HCUkulele,
+    	Result:HCUkulele,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+   	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Music
+    {
+    	HCBanjo,
+    	Result:HCBanjo,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+   	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Music
+    {
+    	HCGuitar,
+    	Result:HCGuitar,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Music
+    {
+    	HCKazoo,
+    	Result:HCKazoo,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Music
+    {
+    	HCFlute,
+    	Result:HCFlute,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Music
+    {
+    	HCFlutewood,
+    	Result:HCFlutewood,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Music
+    {
+    	HCClarinet,
+    	Result:HCClarinet,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Music
+    {
+    	HCSax,
+    	Result:HCSax,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Music
+    {
+    	HCTrumpet,
+    	Result:HCTrumpet,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Music
+    {
+    	HCTrombone,
+    	Result:HCTrombone,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Music
+    {
+	HCDrumsticks,
+    	keep HCDrumkit,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDrumsticks,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Music
+    {
+    	HCDrum,
+    	Result:HCDrum,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+    	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Play Music
+    	{
+    	HCMaracas,
+    	Result:HCMaracas,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+   	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    	}
+
+recipe Play Music
+    	{
+    	HCCowbell,
+    	Result:HCCowbell,
+    	Time:500,
+    	OnCreate:HC_ToyStatModifier,
+   	Category:Leisure,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    	}
+
+}

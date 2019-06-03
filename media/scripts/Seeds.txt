@@ -1,0 +1,2385 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, farming
+
+    }
+
+/************************ITEMS************************/
+
+item HCMysteryseedspacket
+
+	{
+
+	Type			= Normal,
+
+	DisplayName		= Mystery Seeds Packet,
+
+	Icon			= HCMysteryseedspacket,
+
+	Weight			= 0.1,
+	} 
+
+item HCBeanseeds
+	{
+
+	Type			= Normal,
+
+	DisplayName		= Bean Seeds,
+
+	Icon			= HCBeanseeds,
+
+	Weight			= 0.009,
+
+	}
+
+item HCBeanseedspacket
+
+	{
+
+	Type			=  Normal,
+
+	DisplayName		= Bean Seeds Packet,
+
+	Icon			= HCBeanseedspacket,
+
+	Weight			= 0.1,
+	} 
+
+item HCPumpkinseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Pumpkin Seeds,
+        icon 			= HCPumpkinseeds,
+    }  
+
+item HCPumpkinseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Pumpkin Seeds Packet,
+	Icon			= HCPumpkinseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCTeaseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Tea Seeds,
+        icon 			= HCTeaseeds,
+    } 
+
+item HCTeaseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Tea Seeds Packet,
+	Icon			= HCTeaseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCHempseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Hemp Seeds,
+        icon 			= HCHempseeds,
+    }  
+
+item HCHempseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Hemp Seeds Packet,
+	Icon			= HCHempseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCTobaccoseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Tobacco Seeds,
+        icon 			= HCTobaccoseeds,
+    }  
+
+item HCTobaccoseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Tobacco Seeds Packet,
+	Icon			= HCTobaccoseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCJuteseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Jute Seeds,
+        icon 			= HCJuteseeds,
+    } 
+
+item HCJuteseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Jute Seeds Packet,
+	Icon			= HCJuteseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCAppleseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Apple Seeds Packet,
+	Icon			= HCAppleseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCAppleseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Apple Seeds,
+        icon 			= HCAppleseeds,
+    }  
+
+item HCBananaseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Banana Seeds Packet,
+	Icon			= HCBananaseedspacket,
+	Weight			= 0.1
+	}
+
+item HCBananaseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Banana Seeds,
+        icon 			= HCBananaseeds,
+    }  
+
+item HCBlackberryseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Blackberry Seeds Packet,
+	Icon			= HCBlackberryseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCBlackberryseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Blackberry Seeds,
+        icon 			= HCBlackberryseeds,
+    } 
+
+item HCBlueberryseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Blueberry Seeds Packet,
+	Icon			= HCBlueberryseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCBlueberryseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Blueberry Seeds,
+        icon 			= HCBlueberryseeds,
+    } 
+
+item HCGrapeseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Grape Seeds Packet,
+	Icon			= HCGrapeseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCGrapeseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Grape Seeds,
+        icon 			= HCGrapeseeds,
+    } 
+
+item HCLemonseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Lemon Seeds Packet,
+	Icon			= HCLemonseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCLemonseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Lemon Seeds,
+        icon 			= HCLemonseeds,
+    } 
+
+item HCOrangeseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Orange Seeds Packet,
+	Icon			= HCOrangeseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCOrangeseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Orange Seeds,
+        icon 			= HCOrangeseeds,
+    } 
+
+item HCPeachseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Peach Seeds Packet,
+	Icon			= HCPeachseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCPeachseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Peach Seeds,
+        icon 			= HCPeachseeds,
+    }
+
+item HCWatermelonseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Watermelon Seeds Packet,
+	Icon			= HCWatermelonseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCWatermelonseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Watermelon Seeds,
+        icon 			= HCWatermelonseeds,
+    }
+
+item HCBellpeppergreenseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Green Bell Pepper Seeds Packet,
+	Icon			= HCBellpeppergreenseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCBellpeppergreenseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Green Bell Pepper Seeds,
+        icon 			= HCBellpeppergreenseeds,
+    }
+
+item HCBellpepperredseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Red Bell Pepper Seeds Packet,
+	Icon			= HCBellpepperredseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCBellpepperredseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Red Bell Pepper Seeds,
+        icon 			= HCBellpepperredseeds,
+    }
+
+item HCBellpepperyellowseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Yellow Bell Pepper Seeds Packet,
+	Icon			= HCBellpepperyellowseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCBellpepperyellowseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Yellow Bell Pepper Seeds,
+        icon 			= HCBellpepperyellowseeds,
+    }
+
+item HCCornseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Corn Seeds Packet,
+	Icon			= HCCornseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCCornseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Corn Seeds,
+        icon 			= HCCornseeds,
+    }
+
+item HCEggplantseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Eggplant Seeds Packet,
+	Icon			= HCEggplantseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCEggplantseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Eggplant Seeds,
+        icon 			= HCEggplantseeds,
+    }
+
+item HCLeekseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Leek Seeds Packet,
+	Icon			= HCLeekseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCLeekseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Leek Seeds,
+        icon 			= HCLeekseeds,
+    }
+
+item HCLettuceseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Lettuce Seeds Packet,
+	Icon			= HCLettuceseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCLettuceseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Lettuce Seeds,
+        icon 			= HCLettuceseeds,
+    }
+
+item HCOnionseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Onion Seeds Packet,
+	Icon			= HCOnionseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCOnionseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Onion Seeds,
+        icon 			= HCOnionseeds,
+    }
+
+item HCPeaseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Pea Seeds Packet,
+	Icon			= HCPeaseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCPeaseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Pea Seeds,
+        icon 			= HCPeaseeds,
+    }
+
+item HCPeanutseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Peanut Seeds Packet,
+	Icon			= HCPeanutseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCPeanutseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Peanut Seeds,
+        icon 			= HCPeanutseeds,
+    }
+
+item HCAvacadoseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Avacado Seeds Packet,
+	Icon			= HCAvacadoseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCAvacadoseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Avacado Seeds,
+        icon 			= HCAvacadoseeds,
+    }
+
+item HCPearseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Pear Seeds Packet,
+	Icon			= HCPearseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCPearseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Pear Seeds,
+        icon 			= HCPearseeds,
+    }
+
+item HCCherryseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Cherry Seeds Packet,
+	Icon			= HCCherryseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCCherryseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Cherry Seeds,
+        icon 			= HCCherryseeds,
+    }
+
+item HCPineappleseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Pineapple Seeds Packet,
+	Icon			= HCPineappleseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCPineappleseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Pineapple Seeds,
+        icon 			= HCPineappleseeds,
+    }
+
+item HCZucchiniseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Zucchini Seeds Packet,
+	Icon			= HCZucchiniseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCZucchiniseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Zucchini Seeds,
+        icon 			= HCZucchiniseeds,
+    }
+
+item HCChinesecabbageseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Chinese Cabbage Seeds Packet,
+	Icon			= HCChinesecabbageseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCChinesecabbageseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Chinese Cabbage Seeds,
+        icon 			= HCChinesecabbageseeds,
+    }
+
+item HCCucumberseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Cucumber Seeds Packet,
+	Icon			= HCCucumberseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCCucumberseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Cucumber Seeds,
+        icon 			= HCCucumberseeds,
+    }
+
+item HCGingerseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Ginger Seeds Packet,
+	Icon			= HCGingerseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCGingerseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Ginger Seeds,
+        icon 			= HCGingerseeds,
+    }
+
+item HCGarlicseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Garlic Seeds Packet,
+	Icon			= HCGarlicseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCGarlicseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Garlic Seeds,
+        icon 			= HCGarlicseeds,
+    }
+
+item HCOniongreenseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Green Onion Seeds Packet,
+	Icon			= HCOniongreenseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCOniongreenseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Green Onion Seeds,
+        icon 			= HCOniongreenseeds,
+    }
+
+item HCPotatosweetseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Sweet Potato Seeds Packet,
+	Icon			= HCPotatosweetseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCPotatosweetseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Sweet Potato Seeds,
+        icon 			= HCPotatosweetseeds,
+    }
+
+item HCPumpkinlargeseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Large Pumpkin Seeds Packet,
+	Icon			= HCPumpkinlargeseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCPumpkinlargeseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Large Pumpkin Seeds,
+        icon 			= HCPumpkinlargeseeds,
+    } 
+
+item HCPumpkinwhiteseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= White Pumpkin Seeds Packet,
+	Icon			= HCPumpkinlargeseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCPumpkinwhiteseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= White Pumpkin Seeds,
+        icon 			= HCPumpkinwhiteseeds,
+    } 
+
+item HCPumpkingreenseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Green Pumpkin Seeds Packet,
+	Icon			= HCPumpkingreenseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCPumpkingreenseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Green Pumpkin Seeds,
+        icon 			= HCPumpkingreenseeds,
+    } 
+
+item HCPumpkinbuskinseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Buskin Pumpkin Packet,
+	Icon			= HCPumpkinbuskinseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCPumpkinbuskinseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Buskin Pumpkin Seeds,
+        icon 			= HCPumpkinbuskinseeds,
+    } 
+
+item HCCornwhiteseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= White Corn Seeds Packet,
+	Icon			= HCCornwhiteseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCCornwhiteseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= White Corn Seeds,
+        icon 			= HCCornwhiteseeds,
+    } 
+
+item HCCornredseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Red Corn Seeds Packet,
+	Icon			= HCCornredseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCCornredseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Red Corn Seeds,
+        icon 			= HCCornredseeds,
+    } 
+
+item HCCornblueseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Blue Corn Seeds Packet,
+	Icon			= HCCornblueseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCCornblueseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Blue Corn Seeds,
+        icon 			= HCCornblueseeds,
+    } 
+
+item HCApricotseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Apricot Seeds Packet,
+	Icon			= HCApricotseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCApricotseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Apricot Seeds,
+        icon 			= HCApricotseeds,
+    }
+
+item HCColewortseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Colewort Seeds Packet,
+	Icon			= HCColewortseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCColewortseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Colewort Seeds,
+        icon 			= HCColewortseeds,
+    }
+
+item HCCottonseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Cotton Seeds Packet,
+	Icon			= HCCottonseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCCottonseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Cotton Seeds,
+        icon 			= HCCottonseeds,
+    } 
+
+item HCCabbageredseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Red Cabbage Seeds Packet,
+	Icon			= HCCabbageredseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCCabbageredseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Red Cabbage Seeds,
+        icon 			= HCCabbageredseeds,
+    } 
+
+item HCCabbagewhiteseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= White Cabbage Seeds Packet,
+	Icon			= HCCabbagewhiteseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCCabbagewhiteseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= White Cabbage Seeds,
+        icon 			= HCCabbagewhiteseeds,
+    } 
+
+item HCPotatoredseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Red Potato Seeds Packet,
+	Icon			= HCPotatoredseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCPotatoredseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Red Potato Seeds,
+        icon 			= HCPotatoredseeds,
+    } 
+
+item HCPotatogoldenseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Golden Potato Seeds Packet,
+	Icon			= HCPotatogoldenseedspacket,
+	Weight			= 0.1,
+	}
+
+item HCPotatogoldenseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Golden Potato Seeds,
+        icon 			= HCPotatogoldenseeds,
+    } 
+
+item HCChilipepperseeds
+    {
+        Weight    		= 0.009,
+        Type    		= Normal,
+        DisplayName         	= Chili Pepper Seeds,
+        icon 			= HCChilipepperseeds,
+    }  
+
+item HCChilipepperseedspacket
+	{
+	Type			= Normal,
+	DisplayName		= Chili Pepper Seeds Packet,
+	Icon			= HCChilipepperseedspacket,
+	Weight			= 0.1
+	}
+
+item HCPoppyseedspack
+    {
+        Weight    		        = 0.1,
+        Type    		        = Normal,
+        DisplayName     	        = Poppy Seeds Packet,
+        Icon   		 	        = HCPoppyseedspack,
+    }
+
+item HCPoppyseeds
+    {
+	Weight			        = 0.009,
+        Type    		        = Normal,
+        DisplayName     	        = Poppy Seeds,
+        Icon   		 	        = HCPoppyseeds,
+    }
+
+item HCCactusseeds
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Cactus Seeds,
+
+	Icon			= 	HCCactusseeds,
+
+	Weight			= 	0.009,
+
+	}
+
+item HCCactusseedspacket
+
+	{
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Cactus Seeds Packet,
+
+	Icon			= 	HCCactusseedspacket,
+
+	Weight			= 	0.1,
+	} 
+
+item HCAgaveblueseeds
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Blue Agave Seeds,
+
+	Icon			= 	HCAgaveblueseeds,
+
+	Weight			= 	0.009,
+
+	}
+
+item HCAgaveblueseedspacket
+
+	{
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Blue Agave Packet,
+
+	Icon			= 	HCAgaveblueseedspacket,
+
+	Weight			= 	0.1,
+	}
+
+item HCPricklypearseeds
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Prickly Pear Seeds,
+
+	Icon			= 	HCPricklypearseeds,
+
+	Weight			= 	0.009,
+
+	}
+
+item HCPricklypearseedspacket
+
+	{
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Prickly Pear Seeds Packet,
+
+	Icon			= 	HCPricklypearseedspacket,
+
+	Weight			= 	0.1,
+	} 
+
+item HCChiligreenseeds
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Green Chili Seeds,
+
+	Icon			= 	HCChiligreenseeds,
+
+	Weight			= 	0.009,
+
+	}
+
+item HCChiligreenseedspacket
+
+	{
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Green Chili Packet,
+
+	Icon			= 	HCChiligreenseedspacket,
+
+	Weight			= 	0.1,
+	}
+
+item HCTomatilloseeds
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Tomatillo Seeds,
+
+	Icon			= 	HCTomatilloseeds,
+
+	Weight			= 	0.009,
+
+	}
+
+item HCTomatilloseedspacket
+
+	{
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Tomatillo Packet,
+
+	Icon			= 	HCTomatilloseedspacket,
+
+	Weight			= 	0.1,
+	}
+
+item HCRiceseeds
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Rice Seeds,
+
+	Icon			= 	HCRiceseeds,
+
+	Weight			= 	0.009,
+
+	}
+
+item HCRiceseedspacket
+
+	{
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Rice Packet,
+
+	Icon			= 	HCRiceseedspacket,
+
+	Weight			= 	0.1,
+	}
+
+item HCRubbertreeseeds
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Rubber Tree Seeds,
+
+	Icon			= 	HCRubbertreeseeds,
+
+	Weight			= 	0.009,
+
+	}
+
+item HCRubbertreeseedspacket
+
+	{
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Rubber Tree Packet,
+
+	Icon			= 	HCRubbertreeseedspacket,
+
+	Weight			= 	0.1,
+	}
+
+item HCSpirulinaseeds
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Spirulina Seeds,
+
+	Icon			= 	HCSpirulinaseeds,
+
+	Weight			= 	0.009,
+
+	}
+
+item HCSpirulinaseedspacket
+
+	{
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Spirulina Packet,
+
+	Icon			= 	HCSpirulinaseedspacket,
+
+	Weight			= 	0.1,
+	}
+
+item HCBasilseeds
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Basil Seeds,
+
+	Icon			= 	HCBasilseeds,
+
+	Weight			= 	0.009,
+
+	}
+
+item HCBasilseedspacket
+
+	{
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Basil Packet,
+
+	Icon			= 	HCBasilseedspacket,
+
+	Weight			= 	0.1,
+	}
+
+item HCAsparagusseeds
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Asparagus Seeds,
+
+	Icon			= 	HCAsparagusseeds,
+
+	Weight			= 	0.009,
+
+	}
+
+item HCAsparagusseedspacket
+
+	{
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Asparagus Packet,
+
+	Icon			= 	HCAsparagusseedspacket,
+
+	Weight			= 	0.1,
+	}
+
+item HCArtichokesseeds
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Artichoke Seeds,
+
+	Icon			= 	HCArtichokesseeds,
+
+	Weight			= 	0.009,
+
+	}
+
+item HCArtichokesseedspacket
+
+	{
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Artichoke Packet,
+
+	Icon			= 	HCArtichokesseedspacket,
+
+	Weight			= 	0.1,
+	}
+
+item HCAlfalfaseeds
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Alfalfa Seeds,
+
+	Icon			= 	HCAlfalfaseeds,
+
+	Weight			= 	0.009,
+
+	}
+
+item HCAlfalfaseedspacket
+
+	{
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Alfalfa Packet,
+
+	Icon			= 	HCAlfalfaseedspacket,
+
+	Weight			= 	0.1,
+	}
+
+item HCBambooseeds
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Bamboo Seeds,
+
+	Icon			= 	HCBambooseeds,
+
+	Weight			= 	0.009,
+
+	}
+
+item HCBambooseedspacket
+
+	{
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Bamboo Packet,
+
+	Icon			= 	HCBambooseedspacket,
+
+	Weight			= 	0.1,
+	}
+
+item HCMulberryseeds
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Mulberry Seeds,
+
+	Icon			= 	HCMulberryseeds,
+
+	Weight			= 	0.009,
+
+	}
+
+item HCMulberryseedspacket
+
+	{
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Mulberry Packet,
+
+	Icon			= 	HCMulberryseedspacket,
+
+	Weight			= 	0.1,
+	}
+
+item HCCeleryseeds
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Celery Seeds,
+
+	Icon			= 	HCCeleryseeds,
+
+	Weight			= 	0.009,
+
+	}
+
+item HCCeleryseedspacket
+
+	{
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Celery Packet,
+
+	Icon			= 	HCCeleryseedspacket,
+
+	Weight			= 	0.1,
+	}
+
+item HCSpinachseeds
+	{
+
+	Type			= 	Normal,
+
+	DisplayName		= 	Spinach Seeds,
+
+	Icon			= 	HCSpinachseeds,
+
+	Weight			= 	0.009,
+
+	}
+
+item HCSpinachseedspacket
+
+	{
+
+	Type			=  	Normal,
+
+	DisplayName		= 	Spinach Packet,
+
+	Icon			= 	HCSpinachseedspacket,
+
+	Weight			= 	0.1,
+	}
+
+/************************RECIPES************************/	
+
+    recipe Open Packet of Mystery Seeds
+	{
+        HCMysteryseedspacket,
+        Result:HCMysteryseedspacket,
+        Time:20.0,
+        Category:Farming,
+    	OnCreate:HCRandomseeds,
+    	RemoveResultItem:true,
+ 	}
+
+    recipe Put Bean Seeds in Packet
+    {
+        HCBeanseeds=50,
+        Result:HCBeanseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Bean Seeds
+	{
+        HCBeanseedspacket,
+        Result:HCBeanseeds=50,
+        Time:20.0,
+        Category:Farming,
+ 	}
+
+    recipe Put Pumpkin Seeds in Packet
+    {
+        HCPumpkinseeds=50,
+        Result:HCPumpkinseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Pumpkin Seeds
+	{
+        HCPumpkinseedspacket,
+        Result:HCPumpkinseeds=50,
+        Time:20.0,
+        Category:Farming,
+ 	}
+
+    recipe Put Tea Seeds in Packet
+    {
+        HCTeaseeds=50,
+        Result:HCTeaseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Tea Seeds
+	{
+        HCTeaseedspacket,
+        Result:HCTeaseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Hemp Seeds in Packet
+    {
+        HCHempseeds=50,
+        Result:HCHempseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Hemp Seeds
+	{
+        HCHempseedspacket,
+        Result:HCHempseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Tobacco Seeds in Packet
+    {
+        HCTobaccoseeds=50,
+        Result:HCTobaccoseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Tobacco Seeds
+	{
+        HCTobaccoseedspacket,
+        Result:HCTobaccoseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Jute Seeds in Packet
+    {
+        HCJuteseeds=50,
+        Result:HCJuteseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Jute Seeds
+	{
+        HCJuteseedspacket,
+        Result:HCJuteseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Apple Seeds in Packet
+    {
+        HCAppleseeds=50,
+        Result:HCAppleseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Apple Seeds
+	{
+        HCAppleseedspacket,
+        Result:HCAppleseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Banana Seeds in Packet
+    {
+        HCBananaseeds=50,
+        Result:HCBananaseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Banana Seeds
+	{
+        HCBananaseedspacket,
+        Result:HCBananaseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Blackberry Seeds in Packet
+    {
+        HCBlackberryseeds=50,
+        Result:HCBlackberryseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Blackberry Seeds
+	{
+        HCBlackberryseedspacket,
+        Result:HCBlackberryseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Blueberry Seeds in Packet
+    {
+        HCBlueberryseeds=50,
+        Result:HCBlueberryseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Blueberry Seeds
+	{
+        HCBlueberryseedspacket,
+        Result:HCBlueberryseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Grape Seeds in Packet
+    {
+        HCGrapeseeds=50,
+        Result:HCGrapeseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Grape Seeds
+	{
+        HCGrapeseedspacket,
+        Result:HCGrapeseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Lemon Seeds in Packet
+    {
+        HCLemonseeds=50,
+        Result:HCLemonseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Lemon Seeds
+	{
+        HCLemonseedspacket,
+        Result:HCLemonseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Orange Seeds in Packet
+    {
+        HCOrangeseeds=50,
+        Result:HCOrangeseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Orange Seeds
+	{
+        HCOrangeseedspacket,
+        Result:HCOrangeseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Peach Seeds in Packet
+    {
+        HCPeachseeds=50,
+        Result:HCPeachseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Peach Seeds
+	{
+        HCPeachseedspacket,
+        Result:HCPeachseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Watermelon Seeds in Packet
+    {
+        HCWatermelonseeds=50,
+        Result:HCWatermelonseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Watermelon Seeds
+	{
+        HCWatermelonseedspacket,
+        Result:HCWatermelonseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Green Bellpeper Seeds in Packet
+    {
+        HCBellpeppergreenseeds=50,
+        Result:HCBellpeppergreenseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Green Bellpeper Seeds
+	{
+        HCBellpeppergreenseedspacket,
+        Result:HCBellpeppergreenseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Red Bellpeper Seeds in Packet
+    {
+        HCBellpepperredseeds=50,
+        Result:HCBellpepperredseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Red Bellpeper Seeds
+	{
+        HCBellpepperredseedspacket,
+        Result:HCBellpepperredseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Yellow Bellpeper Seeds in Packet
+    {
+        HCBellpepperyellowseeds=50,
+        Result:HCBellpepperyellowseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Yellow Bellpeper Seeds
+	{
+        HCBellpepperyellowseedspacket,
+        Result:HCBellpepperyellowseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Corn Seeds in Packet
+    {
+        HCCornseeds=50,
+        Result:HCCornseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Corn Seeds
+	{
+        HCCornseedspacket,
+        Result:HCCornseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Eggplant Seeds in Packet
+    {
+        HCEggplantseeds=50,
+        Result:HCEggplantseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Eggplant Seeds
+	{
+        HCEggplantseedspacket,
+        Result:HCEggplantseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Leek Seeds in Packet
+    {
+        HCLeekseeds=50,
+        Result:HCLeekseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Leek Seeds
+	{
+        HCLeekseedspacket,
+        Result:HCLeekseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Lettuce Seeds in Packet
+    {
+        HCLettuceseeds=50,
+        Result:HCLettuceseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Lettuce Seeds
+	{
+        HCLettuceseedspacket,
+        Result:HCLettuceseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Onion Seeds in Packet
+    {
+        HCOnionseeds=50,
+        Result:HCOnionseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Onion Seeds
+	{
+        HCOnionseedspacket,
+        Result:HCOnionseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Pea Seeds in Packet
+    {
+        HCPeaseeds=50,
+        Result:HCPeaseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Pea Seeds
+	{
+        HCPeaseedspacket,
+        Result:HCPeaseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Peanut Seeds in Packet
+    {
+        HCPeanutseeds=50,
+        Result:HCPeanutseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Peanut Seeds
+	{
+        HCPeanutseedspacket,
+        Result:HCPeanutseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Avacado Seeds in Packet
+    {
+        HCAvacadoseeds=50,
+        Result:HCAvacadoseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Avacado Seeds
+	{
+        HCAvacadoseedspacket,
+        Result:HCAvacadoseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Pear Seeds in Packet
+    {
+        HCPearseeds=50,
+        Result:HCPearseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Pear Seeds
+	{
+        HCPearseedspacket,
+        Result:HCPearseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Cherry Seeds in Packet
+    {
+        HCCherryseeds=50,
+        Result:HCCherryseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Cherry Seeds
+	{
+        HCCherryseedspacket,
+        Result:HCCherryseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Pineapple Seeds in Packet
+    {
+        HCPineappleseeds=50,
+        Result:HCPineappleseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Pineapple Seeds
+	{
+        HCPineappleseedspacket,
+        Result:HCPineappleseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Zucchini Seeds in Packet
+    {
+        HCZucchiniseeds=50,
+        Result:HCZucchiniseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Zucchini Seeds
+	{
+        HCZucchiniseedspacket,
+        Result:HCZucchiniseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Chinese Cabbage Seeds in Packet
+    {
+        HCChinesecabbageseeds=50,
+        Result:HCChinesecabbageseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Chinese Cabbage Seeds
+	{
+        HCChinesecabbageseedspacket,
+        Result:HCChinesecabbageseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Cucumber Seeds in Packet
+    {
+        HCCucumberseeds=50,
+        Result:HCCucumberseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Cucumber Seeds
+	{
+        HCCucumberseedspacket,
+        Result:HCCucumberseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+
+    recipe Put Ginger Seeds in Packet
+    {
+        HCGingerseeds=50,
+        Result:HCGingerseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Ginger Seeds
+	{
+        HCGingerseedspacket,
+        Result:HCGingerseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Garlic Seeds in Packet
+    {
+        HCGarlicseeds=50,
+        Result:HCGarlicseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Garlic Seeds
+	{
+        HCGarlicseedspacket,
+        Result:HCGarlicseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Green Onion Seeds in Packet
+    {
+        HCOniongreenseeds=50,
+        Result:HCOniongreenseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Green Onion Seeds
+	{
+        HCOniongreenseedspacket,
+        Result:HCOniongreenseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Sweet Potato Seeds in Packet
+    {
+        HCPotatosweetseeds=50,
+        Result:HCPotatosweetseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Sweet Potato Seeds
+	{
+        HCPotatosweetseedspacket,
+        Result:HCPotatosweetseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Large Pumpkin Seeds in Packet
+    {
+        HCPumpkinlargeseeds=50,
+        Result:HCPumpkinlargeseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Large Pumpkin Seeds
+	{
+        HCPumpkinlargeseedspacket,
+        Result:HCPumpkinlargeseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put White Pumpkin Seeds in Packet
+    {
+        HCPumpkinwhiteseeds=50,
+        Result:HCPumpkinwhiteseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of White Pumpkin Seeds
+	{
+        HCPumpkinwhiteseedspacket,
+        Result:HCPumpkinwhiteseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Green Pumpkin Seeds in Packet
+    {
+        HCPumpkingreenseeds=50,
+        Result:HCPumpkingreenseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Green Pumpkin Seeds
+	{
+        HCPumpkingreenseedspacket,
+        Result:HCPumpkingreenseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Buskin Pumpkin Seeds in Packet
+    {
+        HCPumpkinbuskinseeds=50,
+        Result:HCPumpkinbuskinseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Buskin Pumpkin Seeds
+	{
+        HCPumpkinbuskinseedspacket,
+        Result:HCPumpkinbuskinseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put White Corn Seeds in Packet
+    {
+        HCCornwhiteseeds=50,
+        Result:HCCornwhiteseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of White Corn Seeds
+	{
+        HCCornwhiteseedspacket,
+        Result:HCCornwhiteseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Red Corn Seeds in Packet
+    {
+        HCCornredseeds=50,
+        Result:HCCornredseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Red Corn Seeds
+	{
+        HCCornredseedspacket,
+        Result:HCCornredseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Blue Corn Seeds in Packet
+    {
+        HCCornredseeds=50,
+        Result:HCCornredseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Blue Corn Seeds
+	{
+        HCCornblueseedspacket,
+        Result:HCCornblueseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Apricot Seeds in Packet
+    {
+        HCApricotseeds=50,
+        Result:HCApricotseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Apricot Seeds
+	{
+        HCApricotseedspacket,
+        Result:HCApricotseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Colewort Seeds in Packet
+    {
+        HCColewortseeds=50,
+        Result:HCColewortseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Colewort Seeds
+	{
+        HCColewortseedspacket,
+        Result:HCColewortseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Cotton Seeds in Packet
+    {
+        HCCottonseeds=50,
+        Result:HCCottonseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Cotton Seeds
+	{
+        HCCottonseedspacket,
+        Result:HCCottonseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Red Cabbage Seeds in Packet
+    {
+        HCCabbageredseeds=50,
+        Result:HCCabbageredseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Red Cabbage Seeds
+	{
+        HCCabbageredseedspacket,
+        Result:HCCabbageredseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put White Cabbage Seeds in Packet
+    {
+        HCCabbagewhiteseeds=50,
+        Result:HCCabbagewhiteseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of White Cabbage Seeds
+	{
+        HCCabbagewhiteseedspacket,
+        Result:HCCabbagewhiteseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Red Potato Seeds in Packet
+    {
+        HCPotatoredseeds=50,
+        Result:HCPotatoredseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Red Potato Seeds
+	{
+        HCPotatoredseedspacket,
+        Result:HCPotatoredseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Golden Potato Seeds in Packet
+    {
+        HCPotatogoldenseeds=50,
+        Result:HCPotatogoldenseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Golden Potato Seeds
+	{
+        HCPotatogoldenseedspacket,
+        Result:HCPotatogoldenseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Chili Pepper Seeds in Packet
+    {
+        HCChilipepperseeds=50,
+        Result:HCChilipepperseedspacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Chili Pepper Seeds
+	{
+        HCChilipepperseedspacket,
+        Result:HCChilipepperseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+    recipe Put Poppy Seeds in Packet
+    {
+        HCPoppyseeds=50,
+        Result:HCPoppyseedspack,
+        Time:10.0,
+        Category:Farming,
+    }
+
+    recipe Open Packet of Poppy Seeds
+	{
+        HCPoppyseedspack,
+        Result:HCPoppyseeds=50,
+        Time:20.0,
+        Category:Farming,
+ 	}
+
+recipe Put Cactus Seeds in Packet
+    	{
+        HCCactusseeds=50,
+        Result:HCCactusseedspacket,
+        Time:10.0,
+        Category:Farming,
+    	}
+
+recipe Open Packet of Cactus Seeds
+	{
+        HCCactusseedspacket,
+        Result:HCCactusseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Put Blue Agave Seeds in Packet
+    	{
+        HCAgaveblueseeds=50,
+        Result:HCAgaveblueseedspacket,
+        Time:10.0,
+        Category:Farming,
+    	}
+
+recipe Open Packet of Blue Agave Seeds
+	{
+        HCAgaveblueseedspacket,
+        Result:HCAgaveblueseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+
+recipe Put Prickly Pear Seeds in Packet
+    	{
+        HCPricklypearseeds=50,
+        Result:HCPricklypearseedspacket,
+        Time:10.0,
+        Category:Farming,
+    	}
+
+recipe Open Packet of Prickly Pear Seeds
+	{
+        HCPricklypearseedspacket,
+        Result:HCPricklypearseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Put Green Chili Seeds in Packet
+    	{
+        HCChiligreenseeds=50,
+        Result:HCChiligreenseedspacket,
+        Time:10.0,
+        Category:Farming,
+    	}
+
+recipe Open Packet of Green Chili Seeds
+	{
+        HCChiligreenseedspacket,
+        Result:HCChiligreenseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Put Tomatillo Seeds in Packet
+    	{
+        HCTomatilloseeds=50,
+        Result:HCTomatilloseedspacket,
+        Time:10.0,
+        Category:Farming,
+    	}
+
+recipe Open Packet of Tomatillo Seeds
+	{
+        HCTomatilloseedspacket,
+        Result:HCTomatilloseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Put Rice Seeds in Packet
+    	{
+        HCRiceseeds=50,
+        Result:HCRiceseedspacket,
+        Time:10.0,
+        Category:Farming,
+    	}
+
+recipe Open Packet of Rice Seeds
+	{
+        HCRiceseedspacket,
+        Result:HCRiceseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Put Rubber Tree Seeds in Packet
+    	{
+        HCRubbertreeseeds=50,
+        Result:HCRubbertreeseedspacket,
+        Time:10.0,
+        Category:Farming,
+    	}
+
+recipe Open Packet of Rubber Tree Seeds
+	{
+        HCRubbertreeseedspacket,
+        Result:HCRubbertreeseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Put Spirulina Seeds in Packet
+    	{
+        HCSpirulinaseeds=50,
+        Result:HCSpirulinaseedspacket,
+        Time:10.0,
+        Category:Farming,
+    	}
+
+recipe Open Packet of Spirulina Seeds
+	{
+        HCSpirulinaseedspacket,
+        Result:HCSpirulinaseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Put Basil Seeds in Packet
+    	{
+        HCBasilseeds=50,
+        Result:HCBasilseedspacket,
+        Time:10.0,
+        Category:Farming,
+    	}
+
+recipe Open Packet of Basil Seeds
+	{
+        HCBasilseedspacket,
+        Result:HCBasilseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Put Asparagus Seeds in Packet
+    	{
+        HCAsparagusseeds=50,
+        Result:HCAsparagusseedspacket,
+        Time:10.0,
+        Category:Farming,
+    	}
+
+recipe Open Packet of Asparagus Seeds
+	{
+        HCAsparagusseedspacket,
+        Result:HCAsparagusseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+
+recipe Put Artichoke Seeds in Packet
+    	{
+        HCArtichokesseeds=50,
+        Result:HCArtichokesseedspacket,
+        Time:10.0,
+        Category:Farming,
+    	}
+
+recipe Open Packet of Artichoke Seeds
+	{
+        HCArtichokesseedspacket,
+        Result:HCArtichokesseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Put Alfalfa Seeds in Packet
+    	{
+        HCAlfalfaseeds=50,
+        Result:HCAlfalfaseedspacket,
+        Time:10.0,
+        Category:Farming,
+    	}
+
+recipe Open Packet of Alfalfa Seeds
+	{
+        HCAlfalfaseedspacket,
+        Result:HCAlfalfaseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Put Bamboo Seeds in Packet
+    	{
+        HCBambooseeds=50,
+        Result:HCBambooseedspacket,
+        Time:10.0,
+        Category:Farming,
+    	}
+
+recipe Open Packet of Bamboo Seeds
+	{
+        HCBambooseedspacket,
+        Result:HCBambooseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Put Mulberry Seeds in Packet
+    	{
+        HCMulberryseeds=50,
+        Result:HCMulberryseedspacket,
+        Time:10.0,
+        Category:Farming,
+    	}
+
+recipe Open Packet of Celery Seeds
+	{
+        HCMulberryseedspacket,
+        Result:HCMulberryseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Put Celery Seeds in Packet
+    	{
+        HCCeleryseeds=50,
+        Result:HCCeleryseedspacket,
+        Time:10.0,
+        Category:Farming,
+    	}
+
+recipe Open Packet of Celery Seeds
+	{
+        HCCeleryseedspacket,
+        Result:HCCeleryseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+recipe Put Spinach Seeds in Packet
+    	{
+        HCSpinachseeds=50,
+        Result:HCSpinachseedspacket,
+        Time:10.0,
+        Category:Farming,
+    	}
+
+recipe Open Packet of Spinach Seeds
+	{
+        HCSpinachseedspacket,
+        Result:HCSpinachseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+  
+}

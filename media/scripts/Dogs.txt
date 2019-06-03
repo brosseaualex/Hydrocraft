@@ -1,0 +1,1650 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCDogpoop
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Dog Poop,
+        icon 			= HCDogpoop,
+    }
+
+item HCBeaglemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Beagle (Male),
+	Icon				=	HCBeaglemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCBeaglefemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Beagle (Female),
+	Icon				=	HCBeaglefemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCBeagledead
+	{
+	Weight 				= 	5,
+	Type                		= 	Normal,
+	DisplayName 			= 	Dead Beagle,
+	Icon				=	HCBeagledead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCBernesemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Bernese Mountain Dog (Male),
+	Icon				=	HCBernesemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCBernesefemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Bernese Mountain Dog (Female),
+	Icon				=	HCBernesefemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCBernesedead
+	{
+	Weight 				= 	10,
+	Type                		= 	Normal,
+	DisplayName 			= 	Dead Bernese Mountain Dog,
+	Icon				=	HCBernesedead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCBordercolliemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Border Collie (Male),
+	Icon				=	HCBordercolliemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCBordercolliefemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Border Collie (Female),
+	Icon				=	HCBordercolliefemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCBordercolliedead
+	{
+	Weight 				= 	5,
+	Type                		= 	Normal,
+	DisplayName 			= 	Dead Border Collie,
+	Icon				=	HCBordercolliedead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCBoxermale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Boxer (Male),
+	Icon				=	HCBoxermale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCBoxerfemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Boxer (Female),
+	Icon				=	HCBoxerfemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCBoxerdead
+	{
+	Weight 				= 	5,
+	Type                		= 	Normal,
+	DisplayName 			= 	Dead Boxer,
+	Icon				=	HCBoxerdead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCColliemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Collie (Male),
+	Icon				=	HCColliemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCColliefemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Collie (Female),
+	Icon				=	HCColliefemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCColliedead
+	{
+	Weight 				= 	5,
+	Type                		= 	Normal,
+	DisplayName 			= 	Dead Collie,
+	Icon				=	HCColliedead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCCorgimale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Corgi (Male),
+	Icon				=	HCCorgimale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCCorgifemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Corgi (Female),
+	Icon				=	HCCorgifemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCCorgidead
+	{
+	Weight 				= 	3,
+	Type                		= 	Normal,
+	DisplayName 			= 	Dead Corgi,
+	Icon				=	HCCorgidead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCDachshundmale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dachshund (Male),
+	Icon				=	HCDachshundmale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCDachshundfemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dachshund (Female),
+	Icon				=	HCDachshundfemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCDachshunddead
+	{
+	Weight 				= 	3,
+	Type                		= 	Normal,
+	DisplayName 			= 	Dead Dachshund,
+	Icon				=	HCDachshunddead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCDobermanmale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Doberman (Male),
+	Icon				=	HCDobermanmale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCDobermanfemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Doberman (Female),
+	Icon				=	HCDobermanfemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCDobermandead
+	{
+	Weight 				= 	5,
+	Type                		= 	Normal,
+	DisplayName 			= 	Dead Doberman,
+	Icon				=	HCDobermandead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCGermanshepherdmale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	German Shepherd (Male),
+	Icon				=	HCGermanshepherdmale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCGermanshepherdfemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	German Shepherd (Female),
+	Icon				=	HCGermanshepherdfemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCGermanshepherddead
+	{
+	Weight 				= 	5,
+	Type                		= 	Normal,
+	DisplayName 			= 	Dead German Shepherd,
+	Icon				=	HCGermanshepherddead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCGreatdanemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Great Dane (Male),
+	Icon				=	HCGreatdanemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCGreatdanefemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Great Dane (Female),
+	Icon				=	HCGreatdanefemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCGreatdanedead
+	{
+	Weight 				= 	10,
+	Type                		= 	Normal,
+	DisplayName 			= 	Dead Great Dane,
+	Icon				=	HCGreatdanedead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCGoldenmale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Golden Retriever (Male),
+	Icon				=	HCGoldenmale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCGoldenfemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Golden Retriever (Female),
+	Icon				=	HCGoldenfemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCGoldendead
+	{
+	Weight 				= 	5,
+	Type                		= 	Normal,
+	DisplayName 			= 	Dead Golden Retriever,
+	Icon				=	HCGoldendead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCHeelermale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Heeler (Male),
+	Icon				=	HCHeelermale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCHeelerfemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Heeler (Female),
+	Icon				=	HCHeelerfemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCHeelerdead
+	{
+	Weight 				= 	5,
+	Type                		= 	Normal,
+	DisplayName 			= 	Dead Heeler,
+	Icon				=	HCHeelerdead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCHuskymale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Husky (Male),
+	Icon				=	HCHuskymale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCHuskyfemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Husky (Female),
+	Icon				=	HCHuskyfemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCHuskydead
+	{
+	Weight 				= 	5,
+	Type                		= 	Normal,
+	DisplayName 			= 	Dead Husky,
+	Icon				=	HCHuskydead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCIrishsettermale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Irish Setter (Male),
+	Icon				=	HCIrishsettermale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCIrishsetterfemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Irish Setter (Female),
+	Icon				=	HCIrishsetterfemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCIrishsetterdead
+	{
+	Weight 				= 	5,
+	Type                		= 	Normal,
+	DisplayName 			= 	Dead Irish Setter,
+	Icon				=	HCIrishsetterdead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCLabradormale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Labrador (Male),
+	Icon				=	HCLabradormale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCLabradorfemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Labrador (Female),
+	Icon				=	HCLabradorfemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCLabradordead
+	{
+	Weight 				= 	5,
+	Type                		= 	Normal,
+	DisplayName 			= 	Dead Labrador,
+	Icon				=	HCLabradordead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCPitbullmale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Pitbull (Male),
+	Icon				=	HCPitbullmale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCPitbullfemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Pitbull (Female),
+	Icon				=	HCPitbullfemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCPitbulldead
+	{
+	Weight 				= 	5,
+	Type                		= 	Normal,
+	DisplayName 			= 	Dead Pitbull,
+	Icon				=	HCPitbulldead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCRottweilermale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Rottweiler (Male),
+	Icon				=	HCRottweilermale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCRottweilerfemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Rottweiler (Female),
+	Icon				=	HCRottweilerfemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCRottweilerdead
+	{
+	Weight 				= 	5,
+	Type                		= 	Normal,
+	DisplayName 			= 	Dead Rottweiler,
+	Icon				=	HCRottweilerdead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCShibainumale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Shiba Inu (Male),
+	Icon				=	HCShibainumale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCShibainufemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Shiba Inu (Female),
+	Icon				=	HCShibainufemale,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCShibainudead
+	{
+	Weight 				= 	5,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dead Shiba Inu,
+	Icon				=	HCShibainudead,
+	ResizeWorldIcon 		= 	1.0,
+	}
+
+item HCHuskymalepack
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 44,
+	DisplayName             	= Pack Husky (Male),
+	Icon				= HCHuskymalepack,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCHuskyfemalepack
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 44,
+	DisplayName             	= Pack Husky (Female),
+	Icon				= HCHuskyfemalepack,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCHuskymalepack2
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 50,
+	DisplayName             	= Pack Husky (Male),
+	Icon				= HCHuskymalepack2,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCHuskyfemalepack2
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 50,
+	DisplayName             	= Pack Husky (Female),
+	Icon				= HCHuskyfemalepack2,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCBernesemalepack
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 44,
+	DisplayName             	= Pack Bernese Mountain Dog (Male),
+	Icon				= HCBernesemalepack,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCBernesefemalepack
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 44,
+	DisplayName             	= Pack Bernese Mountain Dog (Female),
+	Icon				= HCBernesefemalepack,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCBernesemalepack2
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 50,
+	DisplayName             	= Pack Bernese Mountain Dog (Male),
+	Icon				= HCBernesemalepack2,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCBernesefemalepack2
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 50,
+	DisplayName             	= Pack Bernese Mountain Dog (Female),
+	Icon				= HCBernesefemalepack2,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCGreatdanemalepack
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 44,
+	DisplayName             	= Pack Great Dane (Male),
+	Icon				= HCGreatdanemalepack,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCGreatdanefemalepack
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 44,
+	DisplayName             	= Pack Great Dane (Female),
+	Icon				= HCGreatdanefemalepack,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCGreatdanemalepack2
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 50,
+	DisplayName             	= Pack Great Dane (Male),
+	Icon				= HCGreatdanemalepack2,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCGreatdanefemalepack2
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 50,
+	DisplayName             	= Pack Great Dane (Female),
+	Icon				= HCGreatdanefemalepack2,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCGermanshepherdmalepack
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 44,
+	DisplayName             	= Pack German Shepherd (Male),
+	Icon				= HCGermanshepherdmalepack,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCGermanshepherdfemalepack
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 44,
+	DisplayName             	= Pack German Shepherd (Female),
+	Icon				= HCGermanshepherdfemalepack,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCGermanshepherdmalepack2
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 50,
+	DisplayName             	= Pack German Shepherd (Male),
+	Icon				= HCGermanshepherdmalepack2,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCGermanshepherdfemalepack2
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 50,
+	DisplayName             	= Pack German Shepherd (Female),
+	Icon				= HCGermanshepherdfemalepack2,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCLabradormalepack
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 44,
+	DisplayName             	= Pack Labrador (Male),
+	Icon				= HCLabradormalepack,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCLabradorfemalepack
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 44,
+	DisplayName             	= Pack Labrador(Female),
+	Icon				= HCLabradorfemalepack,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCLabradormalepack2
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 50,
+	DisplayName             	= Pack Labrador (Male),
+	Icon				= HCLabradormalepack2,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCLabradorfemalepack2
+   {
+	WeightReduction        		= 100,
+	Weight             		= 0,
+	Type                		= Container,
+	Capacity             		= 50,
+	DisplayName             	= Pack Labrador (Female),
+	Icon				= HCLabradorfemalepack2,
+	ResizeWorldIcon 		= 1.0,
+   }
+
+item HCPitbullmaleinjured
+	{
+	Weight 				= 	1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Injured Pitbull (Male),
+	Icon				=	HCPitbullmaleinjured,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCPitbullfemaleinjured
+	{
+	Weight 				= 	1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Injured Pitbull (Female),
+	Icon				=	HCPitbullfemaleinjured,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCDobermanmaleinjured
+	{
+	Weight 				= 	1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Injured Doberman (Male),
+	Icon				=	HCDobermanmaleinjured,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCDobermanfemaleinjured
+	{
+	Weight 				= 	1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Injured Doberman (Female),
+	Icon				=	HCDobermanfemaleinjured,
+	ResizeWorldIcon 		= 	2.0,
+	}
+
+/************************WEAPONS************************/
+
+item HCPitbullmalewar
+	{
+		MaxRange			=	15,
+		WeaponSprite			=	Dog,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	50,
+		Weight				=	1,
+		SplatNumber			=	0,
+		PushBackMod			=	0.5,
+		MaxDamage			=	3,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	1,
+		DoorDamage			=	6,
+		SwingAnim			=	Bat,
+		WeaponWeight			=	0,
+		DisplayName			=	War Pitbull (Male),
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		MinDamage			=	0.6,
+		KnockdownMod			=	3,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCPitbullmalewar,
+		RunAnim				=	Run_Weapon2,
+		TwoHandWeapon 		 	= 	FALSE,
+        	IdleAnim			=	Idle_Weapon2,
+		BreakSound  			=   	PZ_WoodSnap,
+        	TreeDamage  			=   	1,
+		ResizeWorldIcon 		= 	2.0,
+	}
+	
+item HCPitbullfemalewar
+	{
+		MaxRange			=	15,
+		WeaponSprite			=	Dog,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	50,
+		Weight				=	1,
+		SplatNumber			=	0,
+		PushBackMod			=	0.5,
+		MaxDamage			=	3,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	1,
+		DoorDamage			=	6,
+		SwingAnim			=	Bat,
+		WeaponWeight			=	0,
+		DisplayName			=	War Pitbull (Female),
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		MinDamage			=	0.6,
+		KnockdownMod			=	3,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCPitbullfemalewar,
+		RunAnim				=	Run_Weapon2,
+		TwoHandWeapon 		 	= 	FALSE,
+        	IdleAnim			=	Idle_Weapon2,
+		BreakSound  			=   	PZ_WoodSnap,
+        	TreeDamage  			=   	1,
+		ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCDobermanmalewar
+	{
+		MaxRange			=	15,
+		WeaponSprite			=	Dog,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	50,
+		Weight				=	1,
+		SplatNumber			=	0,
+		PushBackMod			=	0.5,
+		MaxDamage			=	3,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	1,
+		DoorDamage			=	6,
+		SwingAnim			=	Bat,
+		WeaponWeight			=	0,
+		DisplayName			=	War Doberman (Male),
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		MinDamage			=	0.6,
+		KnockdownMod			=	3,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCDobermanmalewar,
+		RunAnim				=	Run_Weapon2,
+		TwoHandWeapon 		 	= 	FALSE,
+        	IdleAnim			=	Idle_Weapon2,
+		BreakSound  			=   	PZ_WoodSnap,
+        	TreeDamage  			=   	1,
+		ResizeWorldIcon 		= 	2.0,
+	}
+
+item HCDobermanfemalewar
+	{
+		MaxRange			=	15,
+		WeaponSprite			=	Dog,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	50,
+		Weight				=	1,
+		SplatNumber			=	0,
+		PushBackMod			=	0.5,
+		MaxDamage			=	3,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	1,
+		DoorDamage			=	6,
+		SwingAnim			=	Bat,
+		WeaponWeight			=	0,
+		DisplayName			=	War Doberman (Female),
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		MinDamage			=	0.6,
+		KnockdownMod			=	3,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCDobermanfemalewar,
+		RunAnim				=	Run_Weapon2,
+		TwoHandWeapon 		 	= 	FALSE,
+        	IdleAnim			=	Idle_Weapon2,
+		BreakSound  			=   	PZ_WoodSnap,
+        	TreeDamage  			=   	1,
+		ResizeWorldIcon 		= 	2.0,
+	}
+	
+/************************RECIPES************************/
+   
+recipe Search for Stray Dogs
+    {
+	HCBinoculars,
+    	HCDogwhistle,
+    	Result:HCBinoculars,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCDogCall,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Feed Dog
+    {
+	keep HCDogbowl,
+	Water,
+	HCDogbiscuit/DogfoodOpen/HCDogkibble/Rabbitmeat/PorkChop/MuttonChop/Steak/Ham/MeatPatty/Bacon/HCVenison/HCBearsteak/HCSmallgamesteak/HCCheval/Egg/BeefJerky/HCSimplejerky/HCTastyjerky/Apple/HCSlicedapple/Carrots/PeanutButter/HCPeanutbutter/CannedCornedBeefOpen/HCCannedspamopen/HCSausagefrog/HCSausagebird/HCSausagechicken/HCSausageduck/HCSausagegoose/HCSausageturkey/HCSausagevermin/HCSausagerabbit/HCSausagesmallgame/HCSausagedeer/HCSausagebear/HCSausagemutton/HCSausagepork/HCSausagebeef/HCSausageitalian,
+    	keep HCCorgimale/HCCorgifemale/HCBordercolliemale/HCBordercolliefemale/HCBoxermale/HCBoxerfemale/HCColliemale/HCColliefemale/HCDobermanmale/HCDobermanfemale/HCGreatdanemale/HCGreatdanefemale/HCGermanshepherdmale/HCGermanshepherdfemale/HCHeelermale/HCHeelerfemale/HCHuskymale/HCHuskyfemale/HCGoldenmale/HCGoldenfemale/HCLabradormale/HCLabradorfemale/HCRottweilermale/HCRottweilerfemale/HCShibainumale/HCShibainufemale/HCPitbullmale/HCPitbullfemale/HCBernesemale/HCBernesefemale/HCDachshundmale/HCDachshundfemale/HCIrishsettermale/HCIrishsetterfemale/HCBeaglemale/HCBeaglefemale/HCBernesemalepack/HCBernesefemalepack/HCBernesemalepack2/HCBernesefemalepack2/HCHuskymalepack/HCHuskyfemalepack/HCHuskymalepack2/HCHuskyfemalepack2/HCPitbullmalewar/HCPitbullfemalewar/HCPitbullmaleinjured/HCPitbullfemaleinjured,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDogpoop,
+    	Time:15.0,
+    	Category:Ranching,
+    	OnCreate:HC_ToyStatModifier,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Attach Armor to Dog
+    {
+	HCPitbullmale,
+	HCWardogarmor,
+    	Rope,
+    	Result:HCPitbullmalewar,
+    	Time:50.0,
+    	NeedToBeLearn:true,
+    	Category:Ranching,
+    }
+
+recipe Attach Armor to Dog
+    {
+	HCPitbullfemale,
+	HCWardogarmor,
+    	Rope,
+    	Result:HCPitbullfemalewar,
+    	Time:50.0,
+    	NeedToBeLearn:true,
+    	Category:Ranching,
+    }
+
+recipe Remove Armor from Wardog
+    {
+	HCPitbullmalewar,
+    	Result:HCPitbullmaleinjured,
+    	Time:50.0,
+    	NeedToBeLearn:true,
+    	Category:Ranching,
+    }
+
+recipe Remove Armor from Wardog
+    {
+	HCPitbullfemalewar,
+    	Result:HCPitbullfemaleinjured,
+    	Time:50.0,
+    	NeedToBeLearn:true,
+    	Category:Ranching,
+    }
+
+recipe Attach Armor to Dog
+    {
+	HCDobermanmale,
+	HCWardogarmor,
+    	Rope,
+    	Result:HCDobermanmalewar,
+    	Time:50.0,
+    	NeedToBeLearn:true,
+    	Category:Ranching,
+    }
+
+recipe Attach Armor to Dog
+    {
+	HCDobermanfemale,
+	HCWardogarmor,
+    	Rope,
+    	Result:HCDobermanfemalewar,
+    	Time:50.0,
+    	NeedToBeLearn:true,
+    	Category:Ranching,
+    }
+
+recipe Remove Armor from Wardog
+    {
+	HCDobermanmalewar,
+    	Result:HCDobermanmaleinjured,
+    	Time:50.0,
+    	NeedToBeLearn:true,
+    	Category:Ranching,
+    }
+
+recipe Remove Armor from Wardog
+    {
+	HCDobermanfemalewar,
+    	Result:HCDobermanfemaleinjured,
+    	Time:50.0,
+    	NeedToBeLearn:true,
+    	Category:Ranching,
+    }
+
+recipe Attach Bags to Dog
+    {
+	BigHikingBag=2,
+    	Rope,
+	HCHuskymale,
+    	Result:HCHuskymalepack,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCHuskymalepack,
+    	Result:HCHuskymale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack,
+    }
+
+recipe Attach Bags to Dog
+    {
+	BigHikingBag=2,
+    	Rope,
+	HCHuskyfemale,
+    	Result:HCHuskyfemalepack,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCHuskyfemalepack,
+    	Result:HCHuskyfemale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack,
+    }
+
+recipe Attach Bags to Dog
+    {
+	HCBighikingbagpouch=2,
+    	Rope,
+	HCHuskymale,
+    	Result:HCHuskymalepack2,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCHuskymalepack2,
+    	Result:HCHuskymale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack2,
+    }
+
+recipe Attach Bags to Dog
+    {
+	HCBighikingbagpouch=2,
+    	Rope,
+	HCHuskyfemale,
+    	Result:HCHuskyfemalepack2,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCHuskyfemalepack2,
+    	Result:HCHuskyfemale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack2,
+    }
+
+recipe Attach Bags to Dog
+    {
+	BigHikingBag=2,
+    	Rope,
+	HCBernesemale,
+    	Result:HCBernesemalepack,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCBernesemalepack,
+    	Result:HCBernesemale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack,
+    }
+
+recipe Attach Bags to Dog
+    {
+	BigHikingBag=2,
+    	Rope,
+	HCBernesefemale,
+    	Result:HCBernesefemalepack,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCBernesefemalepack,
+    	Result:HCBernesefemale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack,
+    }
+
+recipe Attach Bags to Dog
+    {
+	HCBighikingbagpouch=2,
+    	Rope,
+	HCBernesemale,
+    	Result:HCBernesemalepack2,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCBernesemalepack2,
+    	Result:HCBernesemale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack2,
+    }
+
+recipe Attach Bags to Dog
+    {
+	HCBighikingbagpouch=2,
+    	Rope,
+	HCBernesefemale,
+    	Result:HCBernesefemalepack2,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCBernesefemalepack2,
+    	Result:HCBernesefemale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack2,
+    }
+
+recipe Attach Bags to Dog
+    {
+	BigHikingBag=2,
+    	Rope,
+	HCGreatdanemale,
+    	Result:HCGreatdanemalepack,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCGreatdanemalepack,
+    	Result:HCGreatdanemale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack,
+    }
+
+recipe Attach Bags to Dog
+    {
+	BigHikingBag=2,
+    	Rope,
+	HCGreatdanefemale,
+    	Result:HCGreatdanefemalepack,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCGreatdanefemalepack,
+    	Result:HCGreatdanefemale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack,
+    }
+
+recipe Attach Bags to Dog
+    {
+	HCBighikingbagpouch=2,
+    	Rope,
+	HCGreatdanemale,
+    	Result:HCGreatdanemalepack2,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCGreatdanemalepack2,
+    	Result:HCGreatdanemale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack2,
+    }
+
+recipe Attach Bags to Dog
+    {
+	HCBighikingbagpouch=2,
+    	Rope,
+	HCGreatdanefemale,
+    	Result:HCGreatdanefemalepack2,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCGreatdanefemalepack2,
+    	Result:HCGreatdanefemale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack2,
+    }
+
+recipe Attach Bags to Dog
+    {
+	BigHikingBag=2,
+    	Rope,
+	HCGermanshepherdmale,
+    	Result:HCGermanshepherdmalepack,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCGermanshepherdmalepack,
+    	Result:HCGermanshepherdmale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack,
+    }
+
+recipe Attach Bags to Dog
+    {
+	BigHikingBag=2,
+    	Rope,
+	HCGermanshepherdfemale,
+    	Result:HCGermanshepherdfemalepack,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCGermanshepherdfemalepack,
+    	Result:HCGermanshepherdfemale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack,
+    }
+
+recipe Attach Bags to Dog
+    {
+	HCBighikingbagpouch=2,
+    	Rope,
+	HCGermanshepherdmale,
+    	Result:HCGermanshepherdmalepack2,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCGermanshepherdmalepack2,
+    	Result:HCGermanshepherdmale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack2,
+    }
+
+recipe Attach Bags to Dog
+    {
+	HCBighikingbagpouch=2,
+    	Rope,
+	HCGermanshepherdfemale,
+    	Result:HCGermanshepherdfemalepack2,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCGermanshepherdfemalepack2,
+    	Result:HCGermanshepherdfemale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack2,
+    }
+
+recipe Attach Bags to Dog
+    {
+	BigHikingBag=2,
+    	Rope,
+	HCLabradormale,
+    	Result:HCLabradormalepack,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCLabradormalepack,
+    	Result:HCLabradormale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack,
+    }
+
+recipe Attach Bags to Dog
+    {
+	BigHikingBag=2,
+    	Rope,
+	HCLabradorfemale,
+    	Result:HCLabradorfemalepack,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCLabradorfemalepack,
+    	Result:HCLabradorfemale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack,
+    }
+
+recipe Attach Bags to Dog
+    {
+	HCBighikingbagpouch=2,
+    	Rope,
+	HCLabradormale,
+    	Result:HCLabradormalepack2,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCLabradormalepack2,
+    	Result:HCLabradormale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack2,
+    }
+
+recipe Attach Bags to Dog
+    {
+	HCBighikingbagpouch=2,
+    	Rope,
+	HCLabradorfemale,
+    	Result:HCLabradorfemalepack2,
+    	Time:50.0,
+    	Category:Ranching,
+    }
+
+recipe Remove Bags from Dog
+    {
+	HCLabradorfemalepack2,
+    	Result:HCLabradorfemale,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:HCRemoveDogPack2,
+    }
+
+recipe Heal Dog
+    {
+	SkillRequired:Doctor=1,
+        HCPitbullmaleinjured,
+	Bandaid/AlcoholBandage/HCDiaperAlcohol/AlcoholRippedSheets/HCMenstrualpadAlcohol,
+	Pills,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCPitbullmale,
+	Time:500.0,
+	Category:Health,
+        OnGiveXP:Healdog_OnGiveXP,
+    }
+
+recipe Heal Dog
+    {
+	SkillRequired:Doctor=1,
+        HCPitbullfemaleinjured,
+	Bandaid/AlcoholBandage/HCDiaperAlcohol/AlcoholRippedSheets/HCMenstrualpadAlcohol,
+	Pills,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCPitbullfemale,
+	Time:500.0,
+	Category:Health,
+        OnGiveXP:Healdog_OnGiveXP,
+    }
+
+recipe Heal Dog
+    {
+	SkillRequired:Doctor=1,
+        HCDobermanmaleinjured,
+	Bandaid/AlcoholBandage/HCDiaperAlcohol/AlcoholRippedSheets/HCMenstrualpadAlcohol,
+	Pills,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCDobermanmale,
+	Time:500.0,
+	Category:Health,
+        OnGiveXP:Healdog_OnGiveXP,
+    }
+
+recipe Heal Dog
+    {
+	SkillRequired:Doctor=1,
+        HCDobermanfemaleinjured,
+	Bandaid/AlcoholBandage/HCDiaperAlcohol/AlcoholRippedSheets/HCMenstrualpadAlcohol,
+	Pills,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+	Result:HCDobermanfemale,
+	Time:500.0,
+	Category:Health,
+        OnGiveXP:Healdog_OnGiveXP,
+    }
+
+recipe Kill Dog
+    {
+	HCBeaglemale/HCBeaglefemale,
+    	Result:HCBeagledead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Kill Dog
+    {
+	HCBernesemale/HCBernesefemale,
+    	Result:HCBernesedead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Kill Dog
+    {
+	HCBordercolliemale/HCBordercolliefemale,
+    	Result:HCBordercolliedead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Kill Dog
+    {
+	HCBoxermale/HCBoxerfemale,
+    	Result:HCBoxerdead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Kill Dog
+    {
+	HCColliemale/HCColliefemale,
+    	Result:HCColliedead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Kill Dog
+    {
+	HCCorgimale/HCCorgifemale,
+    	Result:HCCorgidead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Kill Dog
+    {
+	HCDachshundmale/HCDachshundfemale,
+    	Result:HCDachshunddead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Kill Dog
+    {
+	HCDobermanmale/HCDobermanfemale,
+    	Result:HCDobermandead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Kill Dog
+    {
+	HCGreatdanemale/HCGreatdanefemale,
+    	Result:HCGreatdanedead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Kill Dog
+    {
+	HCGermanshepherdmale/HCGermanshepherdfemale,
+    	Result:HCGermanshepherddead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Kill Dog
+    {
+	HCGoldenmale/HCGoldenfemale,
+    	Result:HCGoldendead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Kill Dog
+    {
+	HCHeelermale/HCHeelerfemale/HCHuskymale,
+    	Result:HCHeelerdead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Kill Dog
+    {
+	HCHuskymale/HCHuskyfemale,
+    	Result:HCHuskydead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Kill Dog
+    {
+	HCIrishsettermale/HCIrishsetterfemale,
+    	Result:HCIrishsetterdead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Kill Dog
+    {
+	HCLabradormale/HCLabradorfemale,
+    	Result:HCLabradordead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Kill Dog
+    {
+	HCPitbullmale/HCPitbullfemale/HCPitbullmaleinjured/HCPitbullfemaleinjured,
+    	Result:HCPitbulldead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Kill Dog
+    {
+	HCRottweilermale/HCRottweilerfemale,
+    	Result:HCRottweilerdead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+
+recipe Kill Dog
+    {
+	HCShibainumale/HCShibainufemale,
+    	Result:HCShibainudead,
+    	Time:15.0,
+    	Category:Death,
+        CanBeDoneFromFloor:true,
+    }
+				
+}

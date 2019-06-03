@@ -1,0 +1,499 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCBakedpotato
+	{
+	HungerChange			=	-20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	Baked Potato,
+	Icon				=	HCBakedpotato,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	33,
+        Proteins 			= 	8.7,
+        Lipids 				= 	11.1,
+        Calories 			= 	264,
+	}
+
+item HCHashbrowns
+	{
+	HungerChange			=	-30,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-10,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	DaysTotallyRotten		=	6,
+	DisplayName			=	Hashbrowns,
+	DaysFresh			=	3,
+	Icon				=	HCHashbrowns,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	105,
+        Proteins 			= 	9,
+        Lipids 				= 	39,
+        Calories 			= 	795,
+}
+
+item HCPotatopancakes
+	{
+	HungerChange			=	-30,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.2,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	DaysTotallyRotten		=	6,
+	DisplayName			=	Potato Pancakes,
+	DaysFresh			=	3,
+	Icon				=	HCPotatopancakes,
+	FoodType    			=	NoExplicit,
+        Carbohydrates 			= 	56,
+        Proteins 			= 	12.2,
+        Lipids 				= 	30,
+        Calories 			= 	536,
+	}
+
+item HCMashedpotatosplain
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	50,
+	DaysFresh			=	3,	
+	DaysTotallyRotten		=	6,
+	Icon				=	PotFull,
+	ReplaceOnCooked			=	Hydrocraft.HCMashedpotatosplaincooked,
+	ReplaceOnUse			=	Pot, 
+	DisplayName			=	Plain Mashed Potatos,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	60,
+        Proteins 			= 	5.7,
+        Lipids 				= 	0.3,
+        Calories 			= 	261,
+}
+
+item HCMashedpotatoscreamy
+	{
+	HungerChange			=	-40,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	50,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	6,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot, 	
+	ReplaceOnCooked			=	Hydrocraft.HCMashedpotatoscreamycooked,
+	DisplayName			=	Creamy Mashed Potatos,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	51,
+        Proteins 			= 	5.7,
+        Lipids 				= 	12.6,
+        Calories 			= 	339,
+	}	
+
+
+item HCMashedpotatosplaincooked
+	{
+	HungerChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	DaysFresh			=	3,	
+	DaysTotallyRotten		=	6,
+	DisplayName			=	Cooked Plain Mashed Potatos,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot, 
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	60,
+        Proteins 			= 	5.7,
+        Lipids 				= 	0.3,
+        Calories 			= 	261,	
+}
+	
+item HCMashedpotatoscreamycooked
+	{
+	HungerChange			=	-40,
+	BoredomChange			=	-20,
+	UnhappyChange			=	-30,
+	Weight				=	0.3,
+	Type				=	Food,
+	DaysFresh			=	3,	
+	DaysTotallyRotten		=	6,
+	DisplayName			=	Cooked Creamy Mashed Potatos,
+	Icon				=	PotFull,
+	ReplaceOnUse			=	Pot,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	51,
+        Proteins 			= 	5.7,
+        Lipids 				= 	12.6,
+        Calories 			= 	339, 	
+}
+
+item HCMashedpotatosplainbowl
+	{
+	HungerChange			=	-15,
+	Weight				=	0.3,
+	Type				=	Food,
+	DaysFresh			=	3,	
+	DaysTotallyRotten		=	6,
+	DisplayName			=	Bowl of Plain Mashed Potatos,
+	Icon				=	HCMashedbowl,
+	ReplaceOnUse			=	Bowl,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	30,
+        Proteins 			= 	2.85,
+        Lipids 				= 	0.15,
+        Calories 			= 	130.5, 	
+}
+
+item HCMashedpotatoscreamybowl
+	{
+	HungerChange			=	-20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.3,
+	Type				=	Food,
+	DaysFresh			=	3,	
+	DaysTotallyRotten		=	6,
+	DisplayName			=	Bowl of Creamy Mashed Potatos,
+	Icon				=	HCMashedbowl,
+	ReplaceOnUse			=	Bowl,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	25.5,
+        Proteins 			= 	2.85,
+        Lipids 				= 	6.3,
+        Calories 			= 	169.5, 	
+	}
+
+item HCFries
+    {
+	HungerChange			=	-25,
+	Weight				=	0.2,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	DisplayName			=	Homemade Fries,
+	DaysTotallyRotten		=	5,
+	DaysFresh 			= 	3,
+	Icon				=	Fries,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	10,
+	MinutesToBurn			=	30,
+	FoodType    			=	NoExplicit,
+        Carbohydrates 			= 	74,
+        Proteins 			= 	7,
+        Lipids 				= 	28,
+        Calories 			= 	578,
+    }
+
+item HCSpiffoscheesefries
+	{
+	HungerChange			=	-25,
+	Weight				=	0.4,
+	Type				=	Food,
+	UnhappyChange			=	-35,
+	BoredomChange			=	-35,
+	StressChange			=	-15,
+	DisplayName			=	Spiffo's Cheese Fries,
+	Icon				=	HCSpiffoscheesefries,
+	DaysTotallyRotten		=	5,
+	DaysFresh 			= 	3,
+	CustomContextMenu 		= 	Eat,
+        Carbohydrates 			= 	74,
+        Proteins 			= 	7,
+        Lipids 				= 	28,
+        Calories 			= 	578,
+	}
+
+item HCPotatoflour
+	{
+	Weight				=	1,
+	Type				=	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.25,
+	DisplayName			=	Bag of Potato Flour,
+	ReplaceOnUse			=	HCZipperbag,
+	Icon				=	HCPotatoflour,
+	}
+	
+item HCPotatomush
+	{
+	HungerChange			=	-30,
+	Weight				=	0.2,
+	Type				=	Food,
+	UnhappyChange			=	10,
+	BoredomChange			=	10,
+	DisplayName			=	Tray of Potato Mush,
+	IsCookable 			= 	TRUE,
+	MinutesToCook			=	45,
+	MinutesToBurn			=	70,
+	ReplaceOnCooked			=	Hydrocraft.HCPotatomushbaked,
+	ReplaceOnUse			=	BakingTray,
+	DaysTotallyRotten		=	7,
+	DaysFresh 			= 	4,
+	Icon				=	HCPotatomush,
+	FoodType    			=	NoExplicit,
+        Carbohydrates 			= 	162,
+        Proteins 			= 	16.6,
+        Lipids 				= 	0.8,
+        Calories 			= 	708,
+	}
+
+item HCPotatomushbaked
+	{
+	HungerChange			=	-30,
+	Weight				=	2,
+	Type				=	Food,
+	UnhappyChange			=	-10,
+	BoredomChange			=	-10,
+	DisplayName			=	Tray of Dried Potato Mush,
+	ReplaceOnUse			=	BakingTray,
+	Icon				=	HCPotatomush,
+	FoodType    			=	NoExplicit,
+        Carbohydrates 			= 	162,
+        Proteins 			= 	16.6,
+        Lipids 				= 	0.8,
+        Calories 			= 	708,
+	}
+
+/************************RECIPES************************/
+  
+recipe Bake Potato
+	{
+		keep BakingTray,
+		Potato/HCPotatogolden/HCPotatored,
+		Butter;5,
+		Result:HCBakedpotato,
+		Time:55.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Bake Potato
+	{
+		keep BakingTray,
+		Potato/HCPotatogolden/HCPotatored,
+		HCCookingoil,
+		Result:HCBakedpotato,
+		Time:55.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+  
+recipe Make Hashbrowns
+	{
+       		SkillRequired:Cooking=2,
+		keep Pan,
+		keep HCCheesegrater,
+		keep HCPotatopeeler,
+		Potato/HCPotatogolden/HCPotatored,
+		Result:HCHashbrowns,
+		Time:50.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+recipe Make Potato Pancakes
+	{
+       		SkillRequired:Cooking=2,
+		keep Pan,
+		Butter/HCCookingoil,
+		HCMashedpotatosplain,
+		Result:HCPotatopancakes,
+		Time:50.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Plain Mashed Potatos
+	{
+		Potato=2,
+		keep HCPotatopeeler,
+		Pot,
+		Water=2,
+		keep HCPotatomasher,
+		Result:HCMashedpotatosplain,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+}
+
+recipe Make Plain Mashed Potatos
+	{
+		HCPotatogolden=2,
+		keep HCPotatopeeler,
+		Pot,
+		Water=2,
+		keep HCPotatomasher,
+		Result:HCMashedpotatosplain,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+}
+
+
+recipe Make Plain Mashed Potatos
+	{
+		HCPotatored=2,
+		keep HCPotatopeeler,
+		Pot,
+		Water=2,
+		keep HCPotatomasher,
+		Result:HCMashedpotatosplain,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+}
+
+recipe Make Creamy Mashed Potatos
+	{
+       		SkillRequired:Cooking=1,
+		Potato=2,
+		keep HCPotatopeeler,
+		Pot,
+		Butter/HCCookingoil,
+		keep HCPotatomasher,
+		Result:HCMashedpotatoscreamy,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+recipe Make Creamy Mashed Potatos
+	{
+       		SkillRequired:Cooking=1,
+		HCPotatogolden=2,
+		keep HCPotatopeeler,
+		Pot,
+		Butter/HCCookingoil,
+		keep HCPotatomasher,
+		Result:HCMashedpotatoscreamy,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+recipe Make Creamy Mashed Potatos
+	{
+       		SkillRequired:Cooking=1,
+		HCPotatored=2,
+		keep HCPotatopeeler,
+		Pot,
+		Butter/HCCookingoil,
+		keep HCPotatomasher,
+		Result:HCMashedpotatoscreamy,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+		
+recipe Make Bowl of Plain Mashed Potatos
+	{
+		Bowl=2,
+		HCMashedpotatosplaincooked,
+		Result:HCMashedpotatosplainbowl=2,
+		Time:35.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}		
+
+recipe Make Bowl of Creamy Mashed Potatos
+	{
+		Bowl=2,
+		HCMashedpotatoscreamycooked,
+		Result:HCMashedpotatoscreamybowl=2,
+		Time:35.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make French Fries
+	{
+       		SkillRequired:Cooking=2,
+		keep Pot,
+		keep KitchenKnife,
+		keep HCPotatopeeler,
+		Potato/HCPotatogolden/HCPotatored,
+		HCCookingoil=2,
+		Result:HCFries,
+		Time:85.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Potato Flour
+	{
+       		SkillRequired:Cooking=2,
+		keep HCPotatomasher,
+		destroy BakingTray,
+		Potato=2,
+		keep HCPotatopeeler,
+		Result:HCPotatomush,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Potato Flour
+	{
+       		SkillRequired:Cooking=2,
+		keep HCPotatomasher,
+		destroy BakingTray,
+		HCPotatogolden=2,
+		keep HCPotatopeeler,
+		Result:HCPotatomush,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Potato Flour
+	{
+       		SkillRequired:Cooking=2,
+		keep HCPotatomasher,
+		destroy BakingTray,
+		HCPotatored=2,
+		keep HCPotatopeeler,
+		Result:HCPotatomush,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+		
+recipe Smash Dried Potato to Flour
+	{
+       		SkillRequired:Cooking=2,
+		keep HCPotatomasher,
+		HCPotatomushbaked,
+		HCZipperbag,
+		Result:HCPotatoflour,
+		Time:55.0,
+		Category:Cooking,
+    		OnCreate:recipe_hcbakingtray,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+	
+}

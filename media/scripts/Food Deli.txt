@@ -1,0 +1,185 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCSlicedtomato
+	{
+	Type				=	Food,
+	DisplayName			=	Sliced Tomato,
+	Icon				=	HCSlicedtomato,
+	Weight				=	0.05,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	12,
+	HungerChange			=	-2,
+	ThirstChange			=	-3,
+	EvolvedRecipe 			=	Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	0.88,
+        Proteins 			= 	0.32,
+        Lipids 				= 	0.05,
+        Calories 			= 	3.5,
+	}
+		
+item HCSlicedonion
+	{
+	Type				=	Food,
+	DisplayName			=	Sliced Onion,
+	Icon				=	HCSlicedonion,
+	Weight				=	0.1,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	12,
+	HungerChange			=	-5,
+	EvolvedRecipe 			=	Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:5;PastaPot:5;PastaPan:5,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	3.28,
+        Proteins 			= 	0.38,
+        Lipids 				= 	0.04,
+        Calories 			= 	8,
+	}
+
+item HCSalami
+	{
+	HungerChange			=	-40,
+	Weight				=	0.4,
+	Type				=	Food,
+	DisplayName			=	Salami,
+	Icon				=	HCSalami,
+	EvolvedRecipe 			= 	Sandwich:10;Burger:10;Salad:10,
+	FoodType    			=	Meat,
+        Carbohydrates 			= 	4.8,
+        Proteins 			= 	88,
+        Lipids 				= 	148,
+        Calories 			= 	1700,
+	}	
+	
+item HCSlicedsalami
+	{
+	HungerChange			=	-10,
+	Weight				=	0.1,
+	Type				=	Food,
+	DisplayName			=	Sliced Salami,
+	Icon				=	HCSlicedsalami,
+	EvolvedRecipe 			= 	Sandwich:5;Burger:5;Salad:5,
+	FoodType    			=	Meat,
+        Carbohydrates 			= 	1.2,
+        Proteins 			= 	22,
+        Lipids 				= 	37,
+        Calories 			= 	425,
+	}
+
+item HCPeanutjellysandwich
+	{
+	HungerChange			=	-20,
+	Weight				=	0.1,
+	Type				=	Food,
+	DisplayName			=	Peanut Butter and Jelly Sandwich,
+	Icon				=	HCJellysandwich,
+	BoredomChange			=	-10,
+	DaysTotallyRotten		=	6,
+	DaysFresh 			= 	3,
+	FoodType    			=	NoExplicit,
+        Carbohydrates 			= 	66,
+        Proteins 			= 	8,
+        Lipids 				= 	22,
+        Calories 			= 	484,
+	}
+
+item HCJellysandwich
+	{
+	HungerChange			=	-15,
+	Weight				=	0.1,
+	Type				=	Food,
+	DisplayName			=	Jelly Sandwich,
+	Icon				=	HCJellysandwich,
+	BoredomChange			=	-10,
+	DaysTotallyRotten		=	6,
+	DaysFresh 			= 	3,
+	FoodType    			=	NoExplicit,
+        Carbohydrates 			= 	46,
+        Proteins 			= 	4,
+        Lipids 				= 	11,
+        Calories 			= 	250,
+	}
+	
+item HCSpiffoburger
+	{
+	HungerChange			=	-35,
+	Weight				=	0.4,
+	Type				=	Food,
+	UnhappyChange			=	-25,
+	BoredomChange			=	-25,
+	StressChange			=	-20,
+	DisplayName			=	Spiffo Burger,
+	Icon				=	HCSpiffoburger,
+	DaysTotallyRotten		=	5,
+	DaysFresh 			= 	3,
+	CustomContextMenu 		= 	Eat,
+	Carbohydrates 			= 	1.2,
+    	Proteins 			= 	26,
+    	Lipids 				= 	37.8,
+   	Calories 			= 	480,
+	}
+
+/************************RECIPES************************/
+   
+
+recipe Slice Tomato
+	{
+		keep KitchenKnife,
+		Tomato,	
+		Result:HCSlicedtomato = 4,
+		Time:100.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	  
+recipe Slice Onion
+	{
+		keep KitchenKnife,
+		Onion,		
+	    	Result:HCSlicedonion = 2,
+		Time:100.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Slice Salami
+	{
+		keep KitchenKnife,
+		HCSalami,
+		Result:HCSlicedsalami=4,
+		Time:150.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make some Peanut Butter and Jelly Sandwiches
+	{
+		BreadSlices=4,
+		PeanutButter/HCPeanutbutter,
+		HCJamgrape/HCJamapple/HCJamorange/HCJampeach/HCJampear/HCJamwatermelon/HCJampineapple/HCJamcherry/HCJamblueberry/HCJamblackberry/HCJamwildberry,
+		Result:HCPeanutjellysandwich=2,
+		Time:50.0,
+	   	Category:Cooking,
+    		OnCreate:recipe_hcjar,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Jelly Sandwich
+	{
+		BreadSlices=2,
+		HCJamgrape/HCJamapple/HCJamorange/HCJampeach/HCJampear/HCJamwatermelon/HCJampineapple/HCJamcherry/HCJamblueberry/HCJamblackberry/HCJamwildberry,
+		Result:HCJellysandwich,
+		Time:50.0,
+	   	Category:Cooking,
+    		OnCreate:recipe_hcjar,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+}

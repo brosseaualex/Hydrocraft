@@ -1,0 +1,385 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, farming
+
+    }
+
+/************************ITEMS************************/
+
+item HCPoppack1
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Pack of Pop,
+        icon 			= HCPoppack1,
+    }
+
+item HCPoppack2
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Pack of Pop,
+        icon 			= HCPoppack2,
+    }
+
+item HCPoppack3
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Pack of Pop,
+        icon 			= HCPoppack3,
+    }
+
+item HCPoppack6
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Pack of Pop,
+        icon 			= HCPoppack6,
+    }
+
+item HCPop4
+	{
+	HungerChange		=	-8,
+	Weight			=	0.3,
+	AlwaysWelcomeGift	=	TRUE,
+	Type			=	Food,
+	UnhappyChange		=	-10,
+	ThirstChange		=	-60,
+	DisplayName		=	Pop,
+	Icon			=	HCPop4,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+        Carbohydrates 		= 	39,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	140,
+        Packaged 		= 	TRUE,
+        CantBeFrozen 		= 	TRUE,
+	ReplaceOnDeplete	=	Hydrocraft.HCPop4trash,
+	}
+
+item HCPop5
+	{
+	HungerChange		=	-8,
+	Weight			=	0.3,
+	AlwaysWelcomeGift	=	TRUE,
+	Type			=	Food,
+	UnhappyChange		=	-10,
+	ThirstChange		=	-60,
+	DisplayName		=	Pop,
+	Icon			=	HCPop5,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+        Carbohydrates 		= 	39,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	140,
+        Packaged 		= 	TRUE,
+        CantBeFrozen 		= 	TRUE,
+	ReplaceOnDeplete	=	Hydrocraft.HCPop5trash,
+	}
+
+item HCPop6
+	{
+	HungerChange		=	-8,
+	Weight			=	0.3,
+	AlwaysWelcomeGift	=	TRUE,
+	Type			=	Food,
+	UnhappyChange		=	-10,
+	ThirstChange		=	-60,
+	DisplayName		=	Pop,
+	Icon			=	Pop,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+        Carbohydrates 		= 	39,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	140,
+        Packaged 		= 	TRUE,
+        CantBeFrozen 		= 	TRUE,
+	ReplaceOnDeplete	=	Hydrocraft.HCPop6trash,
+	}
+	
+item HCSodacherry
+	{
+		HungerChange		=	-15,
+		Weight			=	0.8,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-85,
+		DisplayName		=	Cherry Soda,
+		ReplaceOnUse		=	PopBottleEmpty,
+		Icon			=	HCSodacherry,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       	 	Carbohydrates 		= 	80,
+        	Proteins 		= 	0.8,
+        	Lipids 			= 	0,
+        	Calories 		= 	328,
+        	CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+	}
+
+item HCSodacola
+	{
+		FatigueChange		=	-10,
+		HungerChange		=	-15,
+		Weight			=	0.8,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-85,
+		DisplayName		=	Cola Soda,
+		ReplaceOnUse		=	PopBottleEmpty,
+		Icon			=	HCSodacola,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       	 	Carbohydrates 		= 	80,
+        	Proteins 		= 	0.8,
+        	Lipids 			= 	0,
+        	Calories 		= 	304,
+        	CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+	}
+
+item HCSodacream
+	{
+		HungerChange		=	-15,
+		Weight			=	0.8,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-85,
+		DisplayName		=	Cream Soda,
+		ReplaceOnUse		=	PopBottleEmpty,
+		Icon			=	HCSodacream,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       	 	Carbohydrates 		= 	104,
+        	Proteins 		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	408,
+        	CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+	}
+
+item HCSodadrpepper
+	{
+		FatigueChange		=	-5,
+		HungerChange		=	-15,
+		Weight			=	0.8,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-85,
+		DisplayName		=	Dr. Pickins Soda,
+		ReplaceOnUse		=	PopBottleEmpty,
+		Icon			=	HCSodadrpepper,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       	 	Carbohydrates 		= 	89.2,
+        	Proteins 		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	338,
+        	CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+	}
+
+item HCSodagingerale
+	{
+		HungerChange		=	-15,
+		Weight			=	0.8,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-85,
+		DisplayName		=	Ginger Ale Soda,
+		ReplaceOnUse		=	PopBottleEmpty,
+		Icon			=	HCSodagingerale,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       	 	Carbohydrates 		= 	70.4,
+        	Proteins 		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	272,
+        	CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+	}
+
+item HCSodagrape
+	{
+		HungerChange		=	-15,
+		Weight			=	0.8,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-85,
+		DisplayName		=	Grape Soda,
+		ReplaceOnUse		=	PopBottleEmpty,
+		Icon			=	HCSodagrape,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       	 	Carbohydrates 		= 	88,
+        	Proteins 		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	344,
+        	CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+	}
+
+item HCSodagrapefruit
+	{
+		HungerChange		=	-15,
+		Weight			=	0.8,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-85,
+		DisplayName		=	Grapefruit Soda,
+		ReplaceOnUse		=	PopBottleEmpty,
+		Icon			=	HCSodagrapefruit,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       	 	Carbohydrates 		= 	101,
+        	Proteins 		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	406,
+        	CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+	}
+
+item HCSodalemonlime
+	{
+		HungerChange		=	-15,
+		Weight			=	0.8,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-85,
+		DisplayName		=	Lemon Lime Soda,
+		ReplaceOnUse		=	PopBottleEmpty,
+		Icon			=	HCSodalemonlime,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       	 	Carbohydrates 		= 	80,
+        	Proteins 		= 	0.8,
+        	Lipids 			= 	0,
+        	Calories 		= 	328,
+        	CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+	}
+
+item HCSodapineapple
+	{
+		HungerChange		=	-15,
+		Weight			=	0.8,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-85,
+		DisplayName		=	Pineapple Soda,
+		ReplaceOnUse		=	PopBottleEmpty,
+		Icon			=	HCSodapineapple,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       	 	Carbohydrates 		= 	85,
+        	Proteins 		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	335,
+        	CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+	}
+
+item HCSodarootbeer
+	{
+		HungerChange		=	-15,
+		Weight			=	0.8,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-85,
+		DisplayName		=	Root Beer Soda,
+		ReplaceOnUse		=	PopBottleEmpty,
+		Icon			=	HCSodarootbeer,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       	 	Carbohydrates 		= 	83,
+        	Proteins 		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	331,
+        	CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+	}
+
+/************************RECIPES************************/
+    
+
+recipe Pack Pop
+    {
+    	Pop=6,
+    	Result:HCPoppack1,
+    	Time:15,
+	Category:Cooking,
+    }
+
+recipe Unpack Pop
+    {
+    	HCPoppack1,
+    	Result:Pop=6,
+    	Time:15,
+	Category:Cooking,
+    }
+
+recipe Pack Pop
+    {
+    	Pop2=6,
+    	Result:HCPoppack2,
+    	Time:15,
+	Category:Cooking,
+    }
+
+recipe Unpack Pop
+    {
+    	HCPoppack2,
+    	Result:Pop2=6,
+    	Time:15,
+	Category:Cooking,
+    }
+
+recipe Pack Pop
+    {
+    	Pop3=6,
+    	Result:HCPoppack3,
+    	Time:15,
+	Category:Cooking,
+    }
+
+recipe Unpack Pop
+    {
+    	HCPoppack3,
+    	Result:Pop3=6,
+    	Time:15,
+	Category:Cooking,
+    }
+
+recipe Pack Pop
+    {
+    	HCPop6=6,
+    	Result:HCPoppack6,
+    	Time:15,
+	Category:Cooking,
+    }
+
+recipe Unpack Pop
+    {
+    	HCPoppack6,
+    	Result:HCPop6=6,
+    	Time:15,
+	Category:Cooking,
+    }
+	
+}

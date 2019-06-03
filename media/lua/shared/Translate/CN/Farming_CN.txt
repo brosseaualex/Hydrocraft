@@ -1,0 +1,20 @@
+// * Hydrocraft MOD Simplified Chinese Translation
+// * Translation By：Sky_Orc_Mm
+// * Special Thanks：半夏微凉.柒染, JoJunIori
+// * Date：August 16, 2016 23:04
+
+Farming_CN = {
+  Farming_Bean = "菜豆",
+  Farming_BellPepper = "柿子椒",
+  Farming_Eggplant = "茄子",
+  Farming_Grape = "葡萄",
+  Farming_Leek = "韭菜",
+  Farming_Lettuce = "生菜",
+  Farming_Onion = "洋葱",
+  Farming_Pea = "豌豆",
+  Farming_Peanut = "花生",
+  Farming_Pumpkin = "南瓜",
+  Farming_Watermelon = "西瓜",
+  Farming_Zucchini = "西葫芦",
+  Farming_Tooltip_TrellisRequired = "架子需求: ",
+}

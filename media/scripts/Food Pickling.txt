@@ -1,0 +1,784 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCPickledtomatoes
+	{
+	HungerChange			=	-15,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Tomatoes,
+	Icon				=	HCPickledtomato,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	39,
+        Proteins 			= 	9,
+        Lipids 				= 	2,
+        Calories 			= 	180,
+	}
+
+item HCPickledradish
+	{
+	HungerChange			=	-15,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Radish,
+	Icon				=	HCPickledradish,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	34,
+        Proteins 			= 	7,
+        Lipids 				= 	1,
+        Calories 			= 	160,
+	}
+	
+item HCPickledbroccoli
+	{
+	HungerChange			=	-25,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Broccoli,
+	Icon				=	HCPickledbroccoli,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	66,
+        Proteins 			= 	28,
+        Lipids 				= 	4,
+        Calories 			= 	340,
+	}	
+
+item HCPickledeggplant
+	{
+	HungerChange			=	-20,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Eggplant,
+	Icon				=	HCPickledeggplant,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	59,
+        Proteins 			= 	10,
+        Lipids 				= 	2,
+        Calories 			= 	250,
+	}
+
+item HCPickledcarrots
+	{
+	HungerChange			=	-30,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Carrots,
+	Icon				=	HCPickledcarrots,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	96,
+        Proteins 			= 	9,
+        Lipids 				= 	2,
+        Calories 			= 	410,
+	}
+
+item HCPickledbellpepperred
+	{
+	HungerChange			=	-25,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Red Bellpeppers,
+	Icon				=	HCPickledbellpepperred,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	60,
+        Proteins 			= 	10,
+        Lipids 				= 	3,
+        Calories 			= 	310,
+	}
+
+item HCPickledbellpepperyellow
+	{
+	HungerChange			=	-20,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Yellow Bellpeppers,
+	Icon				=	HCPickledbellpepperyellow,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	63,
+        Proteins 			= 	10,
+        Lipids 				= 	2,
+        Calories 			= 	270,
+	}
+
+item HCPickledbellpeppergreen
+	{
+	HungerChange			=	-20,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Green Bellpeppers,
+	Icon				=	HCPickledbellpeppergreen,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	46,
+        Proteins 			= 	9,
+        Lipids 				= 	2,
+        Calories 			= 	200,
+	}
+
+item HCPickledginger
+	{
+	HungerChange			=	-25,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Ginger,
+	Icon				=	HCPickledginger,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	90,
+        Proteins 			= 	9,
+        Lipids 				= 	4,
+        Calories 			= 	400,
+	}
+
+item HCPickledgarlic
+	{
+	HungerChange			=	-30,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Garlic,
+	Icon				=	HCPickledgarlic,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	165,
+        Proteins 			= 	32,
+        Lipids 				= 	2.5,
+        Calories 			= 	475,
+	}
+
+item HCPickledonion
+	{
+	HungerChange			=	-35,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Onions,
+	Icon				=	HCPickledonion,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	93,
+        Proteins 			= 	11,
+        Lipids 				= 	1,
+        Calories 			= 	400,
+	}
+
+item HCPickledoniongreen
+	{
+	HungerChange			=	-25,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Green Onions,
+	Icon				=	HCPickledoniongreen,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	73,
+        Proteins 			= 	18,
+        Lipids 				= 	2,
+        Calories 			= 	320,
+	}
+
+item HCPickledcucumbers
+	{
+	HungerChange			=	-15,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Cucumbers,
+	Icon				=	HCPickledcucumbers,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	36,
+        Proteins 			= 	7,
+        Lipids 				= 	1,
+        Calories 			= 	150,
+	}
+
+item HCPickledchinesecabbage
+	{
+	HungerChange			=	-15,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Chinese Cabbage,
+	Icon				=	HCPickledchinesecabbage,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	22,
+        Proteins 			= 	15,
+        Lipids 				= 	2,
+        Calories 			= 	130,
+	}
+
+item HCPickledartichoke
+	{
+	HungerChange			=	-15,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Artichokes,
+	Icon				=	HCPickledartichoke,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	2,
+        Proteins 			= 	0,
+        Lipids 				= 	4,
+        Calories 			= 	53,
+	}
+
+item HCPickledzucchini
+	{
+	HungerChange			=	-15,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Zucchini,
+	Icon				=	HCPickledzucchini,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	14.57,
+        Proteins 			= 	1.79,
+        Lipids 				= 	0.41,
+        Calories 			= 	63,
+	}
+		
+item HCSauerkraut
+	{
+	HungerChange			=	-20,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Sauerkraut,
+	Icon				=	HCSauerkraut,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	58,
+        Proteins 			= 	13,
+        Lipids 				= 	1,
+        Calories 			= 	250,
+	}
+
+item HCPickledeggs
+	{
+	HungerChange			=	-30,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Eggs,
+	Icon				=	HCPickledeggs,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Egg,
+        Carbohydrates 			= 	4.2,
+        Proteins 			= 	55,
+        Lipids 				= 	41,
+        Calories 			= 	411,
+	}
+
+item HCPickledherring
+	{
+	HungerChange			=	-35,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Pickled Herring,
+	Icon				=	HCPickledherring,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Fish,
+        Carbohydrates 			= 	0,
+        Proteins 			= 	90,
+        Lipids 				= 	45,
+        Calories 			= 	713,
+	}
+	
+item HCSpicypaste
+	{
+	HungerChange			=	-10,
+	Weight				=	0.6,
+	Type				=	Food,
+	DisplayName			=	Bowl of Spicy Paste,
+	ReplaceOnUse			=	Bowl,
+	Icon				=	HCTomatosaucebowl,
+	DaysTotallyRotten		=	8,
+	DaysFresh 			= 	5,
+	CustomContextMenu 		= 	Eat,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+        Carbohydrates 			= 	22,
+        Proteins 			= 	1.3,
+        Lipids 				= 	0.2,
+        Calories 			= 	95,
+	}
+	
+item HCKimchi
+	{
+	HungerChange			=	-20,	
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	Weight				=	1,
+	Type				=	Food,
+	ReplaceOnUse			=	HCJar,
+	DisplayName			=	Jar of Kimchi,
+	Icon				=	HCPickledkimchi,
+	EvolvedRecipe 			=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType    			=	Vegetables,
+        Carbohydrates 			= 	58,
+        Proteins 			= 	13,
+        Lipids 				= 	1,
+        Calories 			= 	250,
+	}
+
+item HCJarpickles
+	{
+	Weight				=	1,
+	Type				=	Normal,
+	DisplayName			=	Jar of Pickles,
+	Icon				=	HCJarpickles,
+	}
+
+/************************RECIPES************************/
+
+recipe Pickle Vegetables
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		Tomato=5,	
+		Result:HCPickledtomatoes,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+recipe Pickle Vegetables
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		RedRadish=5,	
+		Result:HCPickledradish,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+recipe Pickle Vegetables
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		Broccoli=5,	
+		Result:HCPickledbroccoli,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Pickle Vegetables
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		Eggplant=5,	
+		Result:HCPickledeggplant,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Pickle Vegetables
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		BellPepper=5,	
+		Result:HCPickledbellpepperred,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Pickle Vegetables
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		HCBellpepperyellow=5,	
+		Result:HCPickledbellpepperyellow,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Pickle Vegetables
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		HCBellpeppergreen=5,	
+		Result:HCPickledbellpeppergreen,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Pickle Vegetables
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		Carrots=5,	
+		Result:HCPickledcarrots,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Pickle Vegetables
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		HCGinger=5,
+		keep KitchenKnife,	
+		Result:HCPickledginger,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Pickle Vegetables
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		HCGarlic=5,	
+		Result:HCPickledgarlic,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Pickle Vegetables
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		Onion=5,	
+		Result:HCPickledonion,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Pickle Vegetables
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		HCOniongreen=5,	
+		Result:HCPickledoniongreen,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Pickle Vegetables
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		HCCucumber=5,	
+		Result:HCPickledcucumbers,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Pickle Vegetables
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		HCChinesecabbage=5,
+		keep KitchenKnife,	
+		Result:HCPickledchinesecabbage,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Pickle Vegetables
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		HCArtichoke=5,
+		keep KitchenKnife,	
+		Result:HCPickledartichoke,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Pickle Vegetables
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		Zucchini=5,
+		keep KitchenKnife,	
+		Result:HCPickledzucchini,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+recipe Make Sauerkraut
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		Cabbage=5,
+		keep KitchenKnife,	
+		Result:HCSauerkraut,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sauerkraut
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		HCCabbagered=5,
+		keep KitchenKnife,	
+		Result:HCSauerkraut,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sauerkraut
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		HCCabbagewhite=5,
+		keep KitchenKnife,	
+		Result:HCSauerkraut,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+    
+recipe Pickle Eggs
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		HCHardboiledegg=5,	
+		Result:HCPickledeggs,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Pickled Fish
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Vinegar,
+		Salt;1,	
+		HCHerring=5,	
+		Result:HCPickledherring,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Spicy Paste
+	{
+		Bowl,
+		Pepper;1,
+		RedRadish,
+		Tomato,	
+		Result:HCSpicypaste,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Kimchi
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Salt;1,	
+		Cabbage=5,
+		HCSpicypaste,	
+		Result:HCKimchi,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+		OnCreate:HCRecipeBowls,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Kimchi
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Salt;1,	
+		HCChinesecabbage=5,
+		HCSpicypaste,	
+		Result:HCKimchi,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+		OnCreate:HCRecipeBowls,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Kimchi
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Salt;1,	
+		HCCabbagewhite=5,
+		HCSpicypaste,	
+		Result:HCKimchi,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+		OnCreate:HCRecipeBowls,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Kimchi
+	{
+        	SkillRequired:Cooking=4,
+		HCJar,
+		Salt;1,	
+		HCCabbagered=5,
+		HCSpicypaste,	
+		Result:HCKimchi,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+		OnCreate:HCRecipeBowls,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Open Jar of Pickles
+	{
+		HCJarpickles,	
+		Result:Pickles=10,
+		Time:25.0,
+	   	Category:Cooking,
+		OnCreate:recipe_hcjar,
+	}
+	
+}

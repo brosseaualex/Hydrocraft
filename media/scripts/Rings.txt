@@ -1,0 +1,497 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCRingcopper
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Copper Ring,
+        icon 			= HCRingcopper,
+    } 
+
+item HCRingiron
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Iron Ring,
+        icon 			= HCRingiron,
+    } 
+
+item HCRingsteel
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Steel Ring,
+        icon 			= HCRingsteel,
+    } 
+
+item HCRingsilver
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring,
+        icon 			= HCRingsilver,
+    } 
+
+item HCRingsilverjade
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Jade,
+        icon 			= HCRingsilverjade,
+    } 
+
+item HCRingsilverquartz
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Quartz Crystal,
+        icon 			= HCRingsilverquartz,
+    } 
+
+item HCRingsilverquartzblue
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Blue Quartz Crystal,
+        icon 			= HCRingsilverquartzblue,
+    } 
+
+item HCRingsilverquartzrose
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Rose Quartz Crystal,
+        icon 			= HCRingsilverquartzrose,
+    } 
+
+item HCRingsilverquartzsmokey
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Smokey Quartz Crystal,
+        icon 			= HCRingsilverquartzsmokey,
+    } 
+
+item HCRingsilverquartzcitrine
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Citrine Quartz Crystal,
+        icon 			= HCRingsilverquartzcitrine,
+    } 
+
+item HCRingsilveramethyst
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Amethyst,
+        icon 			= HCRingsilveramethyst,
+    }
+
+item HCRingsilverazurite
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Azurite,
+        icon 			= HCRingsilverazurite,
+    }
+
+item HCRingsilverdiamond
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Diamond,
+        icon 			= HCRingsilverdiamond,
+    }
+
+item HCRingsilveremerald
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Emerald,
+        icon 			= HCRingsilveremerald,
+    }
+
+item HCRingsilverfireagate
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Fire Agate,
+        icon 			= HCRingsilverfireagate,
+    }
+
+item HCRingsilvergarnet
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Garnet,
+        icon 			= HCRingsilvergarnet,
+    }
+
+item HCRingsilverlapislazuli
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Lapis Lazuli,
+        icon 			= HCRingsilverlapislazuli,
+    }
+
+item HCRingsilvermalachite
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Malachite,
+        icon 			= HCRingsilvermalachite,
+    }
+
+item HCRingsilverolivine
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Olivine,
+        icon 			= HCRingsilverolivine,
+    }
+
+item HCRingsilverrhodonite
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Rhodonite,
+        icon 			= HCRingsilverrhodonite,
+    }
+
+item HCRingsilverruby
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Ruby,
+        icon 			= HCRingsilverruby,
+    }
+
+item HCRingsilversapphire
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Sapphire,
+        icon 			= HCRingsilversapphire,
+    }
+
+item HCRingsilvertopaz
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Topaz,
+        icon 			= HCRingsilvertopaz,
+    }
+
+item HCRingsilverturquoise
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Silver Ring with Turquoise,
+        icon 			= HCRingsilverturquoise,
+    }
+
+/************************RECIPES************************/	
+
+recipe Make Ring
+    {
+    HCCopperingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCRingmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCRingcopper=4,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Ring
+    {
+    HCIroningot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCRingmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCRingiron=4,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Ring
+    {
+    HCSteelingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCRingmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCRingsteel=4,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Ring
+    {
+    HCSilveringot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCRingmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCRingsilver=4,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCJadecut,
+	HCRingsilver,
+    	Result:HCRingsilverjade,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCQuartzcut,
+	HCRingsilver,
+    	Result:HCRingsilverquartz,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCQuartzbluecut,
+	HCRingsilver,
+    	Result:HCRingsilverquartzblue,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCQuartzrosecut,
+	HCRingsilver,
+    	Result:HCRingsilverquartzrose,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCQuartzsmokeycut,
+	HCRingsilver,
+    	Result:HCRingsilverquartzsmokey,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCQuartzcitrinecut,
+	HCRingsilver,
+    	Result:HCRingsilverquartzcitrine,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCAmethystcut,
+	HCRingsilver,
+    	Result:HCRingsilveramethyst,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCAzuritecut,
+	HCRingsilver,
+    	Result:HCRingsilverazurite,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCDiamondcut,
+	HCRingsilver,
+    	Result:HCRingsilverdiamond,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCEmeraldcut,
+	HCRingsilver,
+    	Result:HCRingsilveremerald,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCFireagatecut,
+	HCRingsilver,
+    	Result:HCRingsilverfireagate,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCGarnetcut,
+	HCRingsilver,
+    	Result:HCRingsilvergarnet,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCLapislazulicut,
+	HCRingsilver,
+    	Result:HCRingsilverlapislazuli,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCMalachitecut,
+	HCRingsilver,
+    	Result:HCRingsilvermalachite,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCOlivinecut,
+	HCRingsilver,
+    	Result:HCRingsilverolivine,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCRhodonitecut,
+	HCRingsilver,
+    	Result:HCRingsilverrhodonite,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCRubycut,
+	HCRingsilver,
+    	Result:HCRingsilverruby,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCSapphirecut,
+	HCRingsilver,
+    	Result:HCRingsilversapphire,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCTopazcut,
+	HCRingsilver,
+    	Result:HCRingsilvertopaz,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Set Gem in Ring
+    {
+    	HCTurquoisecut,
+	HCRingsilver,
+    	Result:HCRingsilverturquoise,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Jewelry,
+   	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+}

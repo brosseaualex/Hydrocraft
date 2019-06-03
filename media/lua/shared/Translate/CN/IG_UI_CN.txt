@@ -1,0 +1,31 @@
+// * Hydrocraft MOD Simplified Chinese Translation
+// * Translation By：Sky_Orc_Mm
+// * Special Thanks：半夏微凉.柒染, JoJunIori
+// * Date：August 16, 2016 23:04
+
+IGUI_CN = {	
+	IGUI_ItemCat_Toy = "玩具",
+	IGUI_ItemCat_Trash = "垃圾",
+	IGUI_ItemCat_Money = "货币",
+	IGUI_CraftCategory_Alchemy = "炼金",
+	IGUI_CraftCategory_Ranching = "畜牧",
+	IGUI_CraftCategory_Leisure = "娱乐",
+	IGUI_CraftCategory_Weaving = "编织",
+	IGUI_CraftCategory_Blacksmithing = "锻造",
+	IGUI_CraftCategory_Pottery = "陶器",
+	IGUI_CraftCategory_Masonry = "砖石",
+	IGUI_CraftCategory_Pottery = "陶器",
+	IGUI_CraftCategory_Stoneworking = "石材",
+	IGUI_CraftCategory_Glassworking = "玻璃",
+	IGUI_CraftCategory_Research = "研究",
+	IGUI_CraftCategory_Death = "自杀",
+	IGUI_CraftCategory_Loot = "资源",
+	IGUI_CraftCategory_Armor = "护甲",
+	IGUI_CraftCategory_Firecraft = "火源",
+	IGUI_CraftCategory_Anchor = "建筑",
+	IGUI_CraftCategory_Jewelry = "宝石",
+	IGUI_CraftCategory_Locksmithing = "锁匠",
+	IGUI_CraftCategory_Terrain = "地理",
+	IGUI_CraftCategory_Programing = "程序",
+	IGUI_CraftCategory_Trade = "交易",
+}

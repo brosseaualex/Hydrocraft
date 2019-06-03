@@ -1,0 +1,286 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCCereal2
+	{
+	HungerChange			=	-40,
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Marshmellow Cereal,
+	Icon				=	HCCereal2,
+        Carbohydrates 			= 	472,
+        Proteins 			= 	12,
+        Lipids 				= 	26,
+        Calories 			= 	2560,
+        Packaged 			= 	TRUE,
+	ReplaceOnDeplete		=	Hydrocraft.HCCereal2trash,
+	}
+	
+item HCCereal3
+	{
+	HungerChange			=	-40,
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Corn Cereal,
+	Icon				=	HCCereal3,
+        Carbohydrates 			= 	572,
+        Proteins 			= 	52,
+        Lipids 				= 	26,
+        Calories 			= 	2360,
+        Packaged 			= 	TRUE,
+	ReplaceOnDeplete	=	Hydrocraft.HCCereal3trash,
+	}
+
+item HCBowlofcereal
+	{
+	HungerChange			=	-20,
+	ThirstChange			=	-20,
+	UnhappyChange			=	-10,
+	Weight				=	0.2,
+	Type				=	Food,
+	DaysFresh 			= 	3,
+	DaysTotallyRotten		=	3,
+	DisplayName			=	Bowl of Cereal,
+	ReplaceOnUse			=	Bowl,
+	DaysFresh			=	1,
+	Icon				=	HCCerealbowl,	
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	15,
+        Proteins 			= 	2,
+        Lipids 				= 	2,
+        Calories 			= 	255,
+	CantBeFrozen 			= 	TRUE,
+	}
+	
+item HCFriedegg
+	{
+	HungerChange			=	-20,
+	Type				=	Food,
+	DisplayName			=	Fried Egg,
+	MinutesToCook			=	10,
+	Weight				=	0.1,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	DaysTotallyRotten		=	4,
+	MinutesToBurn			=	20,
+	DaysFresh			=	2,
+	Icon				=	HCFriedegg,
+	EvolvedRecipe 			= 	Stir fry:10;Sandwich:10|Cooked;Burger:10;Salad:10|Cooked;Roasted Vegetables:10,	
+	FoodType			=	Egg,
+	Carbohydrates 			= 	0.8,
+        Proteins 			= 	14,
+        Lipids 				= 	15,
+        Calories 			= 	196,
+	CantBeFrozen 			= 	TRUE,
+}
+
+item HCScrambledegg
+	{
+	HungerChange			=	-20,
+	Type				=	Food,
+	DisplayName			=	Scrambled Egg,
+	MinutesToCook			=	10,
+	Weight				=	0.1,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	DaysTotallyRotten		=	4,
+	MinutesToBurn			=	20,
+	DaysFresh			=	2,
+	Icon				=	HCScrambledegg,
+	EvolvedRecipe 			= 	Stir fry:10;Sandwich:10|Cooked;Burger:10;Salad:10|Cooked;Roasted Vegetables:10,	
+	FoodType			=	Egg,
+	Carbohydrates 			= 	1,
+        Proteins 			= 	6,
+        Lipids 				= 	7,
+        Calories 			= 	91,
+	CantBeFrozen 			= 	TRUE,
+}
+
+item HCScrambledeggcheese
+	{
+	HungerChange			=	-20,
+	Type				=	Food,
+	DisplayName			=	Scrambled Egg with Cheese,
+	MinutesToCook			=	10,
+	Weight				=	0.1,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	DaysTotallyRotten		=	4,
+	MinutesToBurn			=	20,
+	DaysFresh			=	2,
+	Icon				=	HCScrambledeggcheese,
+	EvolvedRecipe 			= 	Stir fry:10;Sandwich:10|Cooked;Burger:10;Salad:10|Cooked;Roasted Vegetables:10,	
+	FoodType			=	Egg,
+	Carbohydrates 			= 	2.5,
+        Proteins 			= 	22,
+        Lipids 				= 	28,
+        Calories 			= 	34,
+	CantBeFrozen 			= 	TRUE,
+}
+
+item HCOmelet
+	{
+	HungerChange			=	-20,
+	Type				=	Food,
+	DisplayName			=	Omelet,
+	MinutesToCook			=	10,
+	Weight				=	0.1,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	DaysTotallyRotten		=	4,
+	MinutesToBurn			=	20,
+	DaysFresh			=	2,
+	Icon				=	HCOmelet,
+	EvolvedRecipe 			= 	Stir fry:10;Sandwich:10|Cooked;Burger:10;Salad:10|Cooked;Roasted Vegetables:10,	
+	FoodType			=	Egg,
+	Carbohydrates 			= 	2.5,
+        Proteins 			= 	22,
+        Lipids 				= 	28,
+        Calories 			= 	34,
+	CantBeFrozen 			= 	TRUE,
+}
+
+item HCOmeletveg
+	{
+	HungerChange			=	-20,
+	Type				=	Food,
+	DisplayName			=	Vegetable Omelet,
+	MinutesToCook			=	10,
+	Weight				=	0.1,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	DaysTotallyRotten		=	4,
+	MinutesToBurn			=	20,
+	DaysFresh			=	2,
+	Icon				=	HCOmeletveg,
+	EvolvedRecipe 			= 	Stir fry:10;Sandwich:10|Cooked;Burger:10;Salad:10|Cooked;Roasted Vegetables:10,	
+	FoodType			=	Egg,
+	Carbohydrates 			= 	13.9,
+        Proteins 			= 	22,
+        Lipids 				= 	28,
+        Calories 			= 	64,
+	CantBeFrozen 			= 	TRUE,
+}
+
+item HCHardboiledegg
+	{
+	HungerChange			=	-15,
+	Type				=	Food,
+	MinutesToCook			=	10,
+	Weight				=	0.1,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	DaysTotallyRotten		=	4,
+	MinutesToBurn			=	20,
+	DisplayName			=	Hard Boiled Egg,
+	DaysTotallyRotten		=	25,
+	DaysFresh			=	12,
+	Icon				=	Egg,
+	EvolvedRecipe 			= 	Stir fry:10;Sandwich:10;Burger:10;Salad:10;Roasted Vegetables:10,
+	FoodType			=	Egg,
+	Carbohydrates 			= 	1.1,
+        Proteins 			= 	13,
+        Lipids 				= 	11,
+        Calories 			= 	155,
+	CantBeFrozen 			= 	TRUE,
+	}
+
+	
+/************************RECIPES************************/
+   
+
+recipe Make Bowl of Cereal
+	{
+		Cereal,
+		Milk/HCUHTmilk/HCSoymilk,
+		Bowl,
+		Result:HCBowlofcereal,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+recipe Fry Egg
+	{
+		keep Pan,
+		Egg,
+		Butter/HCCookingoil,
+		Result:HCFriedegg,
+		Time:45.0,
+    		NeedToBeLearn:true,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Scrambled Eggs
+	{
+		keep Pan,
+		keep HCSpatula/HCWoodenspatula,
+		Egg,
+		Result:HCScrambledegg,
+		Time:45.0,
+    		NeedToBeLearn:true,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Scrambled Eggs with Cheese
+	{
+		keep Pan,
+		keep HCSpatula/HCWoodenspatula,
+		Egg,
+		HCGratedcheese/HCGratedcheddar/Processedcheese,
+		Result:HCScrambledeggcheese,
+		Time:45.0,
+    		NeedToBeLearn:true,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Omelet
+	{
+		keep Pan,
+		keep HCSpatula/HCWoodenspatula,
+		Egg,
+		HCGratedcheese/HCGratedcheddar/Processedcheese,
+		Result:HCOmelet,
+		Time:45.0,
+    		NeedToBeLearn:true,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Vegetable Omelet
+	{
+		keep Pan,
+		keep HCSpatula/HCWoodenspatula,
+		Egg,
+		HCGratedcheese/HCGratedcheddar/Processedcheese,
+		BellPepper/HCBellpepperyellow/HCBellpeppergreen/Broccoli/Leek/Eggplant/HCBunchofshrooms/HCSlicedonion/HCSlicedtomato/HCDriedtomatobag/HCCannedshrooms/HCSpinach/HCChiligreen/HCChilipepper,
+		Result:HCOmeletveg,
+		Time:45.0,
+    		NeedToBeLearn:true,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Boil Egg
+	{
+		Egg,
+		Water,
+		keep Pot,
+		Result:HCHardboiledegg,
+		Time:50.0,
+    		NeedToBeLearn:true,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+}

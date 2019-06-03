@@ -1,0 +1,1907 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, farming
+
+    }
+
+/************************ITEMS************************/
+
+item HCCoffeeirish
+	{
+	FatigueChange			=	-15,
+	UnhappyChange			=	-15,
+	StressChange			=	-10,
+	HungerChange			=	-5,
+	Weight				=	0.5,
+	Type				=	Food,
+	ThirstChange			=	-50,
+	DisplayName			=	Cup of Irish Coffee,
+	ReplaceOnUse			=	Mugl,
+	Icon				=	HCCoffeecup,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+        Carbohydrates 			= 	6,
+        Proteins 			= 	0.9,
+        Lipids 				= 	13.2,
+        Calories 			= 	261,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCCoffeeirish2
+	{
+	FatigueChange			=	-15,
+	UnhappyChange			=	-15,
+	StressChange			=	-10,
+	HungerChange			=	-5,
+	Weight				=	0.5,
+	Type				=	Food,
+	ThirstChange			=	-50,
+	DisplayName			=	Cup of Irish Coffee,
+	ReplaceOnUse			=	HCClaymug,
+	Icon				=	HCHotcuppa,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+        Carbohydrates 			= 	6,
+        Proteins 			= 	0.9,
+        Lipids 				= 	13.2,
+        Calories 			= 	261,
+        CantBeFrozen 			= 	TRUE,
+	}
+	
+item HCWhiskey1
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Whiskey,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCWhiskey1,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	2142,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCWhiskey2
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Whiskey,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCWhiskey1,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	2142,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCWhiskey3
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Whiskey,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCWhiskey3,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	2142,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCWhiskey4
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Whiskey,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCWhiskey4,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	2142,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCWhiskeycorn
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Corn Whiskey,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCWhiskeycorn,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	2142,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBourbon1
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Bourbon,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCBourbon1,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	2142,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBourbon2
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Bourbon,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCBourbon2,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	2142,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCScotch1
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Scotch,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCScotch1,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	2142,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCRum1
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Rum,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCRum1,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	2142,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCGin1
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Gin,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCGin1,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	2142,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCGin2
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Gin,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCGin2,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	2142,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCGin3
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Gin,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCGin3,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	2142,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCVodka1
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Vodka,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCVodka1,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	2142,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCVodka2
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Vodka,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCVodka2,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	2142,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeer1
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCBeer1,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeer2
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCBeer2,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeer3
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCBeer3,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeer4
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCBeer4,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeer5
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCBeer5,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeer6
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCBeer6,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeer7
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCBeer7,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeer8
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCBeer8,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeercan1
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Can of Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	HCBeercan,
+	Icon	        	=	HCBeercan1,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeercan2
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Can of Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	HCBeercan,
+	Icon	        	=	HCBeercan2,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeercan3
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Can of Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	HCBeercan,
+	Icon	        	=	HCBeercan3,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeercan4
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Can of Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	HCBeercan,
+	Icon	        	=	HCBeercan4,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeercan5
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Can of Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	HCBeercan,
+	Icon	        	=	HCBeercan5,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeercan6
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Can of Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	HCBeercan,
+	Icon	        	=	HCBeercan6,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeercan7
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Can of Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	HCBeercan,
+	Icon	        	=	HCBeercan7,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeercan8
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Can of Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	HCBeercan,
+	Icon	        	=	HCBeercan8,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeercan9
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Can of Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	HCBeercan,
+	Icon	        	=	HCBeercan9,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBeercan10
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Can of Beer,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	HCBeercan,
+	Icon	        	=	HCBeercan10,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	13,
+        Proteins 		= 	2.5,
+        Lipids 			= 	0,
+        Calories 		= 	215,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCBitters
+	{
+	Weight			=	1.0,
+	Type			=	Drainable,
+	DisplayName		=	Bottle of Bitters,
+        UseDelta		=	0.025,
+	ReplaceOnDeplete	=	WineEmpty2,
+	Icon	        	= 	HCBitters,
+        }
+
+item HCTriplesec
+	{
+	Weight			=	1.0,
+	Type			=	Drainable,
+	DisplayName		=	Bottle of Triple Sec,
+        UseDelta		=	0.025,
+	ReplaceOnDeplete	=	WhiskeyEmpty,
+	Icon	        	= 	HCTriplesec,
+        }
+
+item HCVermouth
+	{
+	Weight			=	1.0,
+	Type			=	Drainable,
+	DisplayName		=	Bottle of Vermouth,
+        UseDelta		=	0.025,
+	ReplaceOnDeplete	=	WineEmpty,
+	Icon	        	= 	HCVermouth,
+        }
+
+item HCAbsinth
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Absinth,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCAbsinth,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	82,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCHerballiqueur
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Herbal Liqueur,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCHerballiqueur,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	11,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	103,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
+item HCDrinkoldfashioned
+
+	{
+	HungerChange		=	-5,
+	Weight			=	0.3,
+	Type			=	Food,
+	ThirstChange		=	-5,
+	DisplayName		=	Old Fashioned Drink,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	StressChange		=	-10,
+	ReplaceOnUse		=	HCShortglassempty,
+	Icon			=	HCDrinkoldfashioned,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	AlcoholPower 		= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	15,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	431,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCDrinkmartini
+
+	{
+	HungerChange		=	-5,
+	Weight			=	0.3,
+	Type			=	Food,
+	ThirstChange		=	-5,
+	DisplayName		=	Martini Drink,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	StressChange		=	-10,
+	ReplaceOnUse		=	HCCocktailglassempty,
+	Icon			=	HCDrinkmartini,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	AlcoholPower 		= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	428,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCDrinkmanhattan
+
+	{
+	HungerChange		=	-5,
+	Weight			=	0.3,
+	Type			=	Food,
+	ThirstChange		=	-5,
+	DisplayName		=	Manhattan Drink,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	StressChange		=	-10,
+	ReplaceOnUse		=	HCCocktailglassempty,
+	Icon			=	HCDrinkmanhattan,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	AlcoholPower 		= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	428,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCDrinkdaquiri
+
+	{
+	HungerChange		=	-5,
+	Weight			=	0.3,
+	Type			=	Food,
+	ThirstChange		=	-5,
+	DisplayName		=	Daquiri Drink,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	StressChange		=	-10,
+	ReplaceOnUse		=	HCCocktailglassempty,
+	Icon			=	HCDrinkdaquiri,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	AlcoholPower 		= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	15,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	431,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCDrinkbloodymary
+
+	{
+	HungerChange		=	-10,
+	Weight			=	0.3,
+	Type			=	Food,
+	ThirstChange		=	-5,
+	DisplayName		=	Bloody Mary Drink,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	StressChange		=	-10,
+	ReplaceOnUse		=	HCGlasstallempty,
+	Icon			=	HCDrinkbloodymary,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	AlcoholPower 		= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	5,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	429,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCDrinkwhiskeysour
+
+	{
+	HungerChange		=	-5,
+	Weight			=	0.3,
+	Type			=	Food,
+	ThirstChange		=	-5,
+	DisplayName		=	Whiskey Sour Drink,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	StressChange		=	-10,
+	ReplaceOnUse		=	HCGlassshortempty,
+	Icon			=	HCDrinkwhiskeysour,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	AlcoholPower 		= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	15,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	434,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCDrinkmaitai
+
+	{
+	HungerChange		=	-5,
+	Weight			=	0.3,
+	Type			=	Food,
+	ThirstChange		=	-5,
+	DisplayName		=	Mai Tai Drink,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	StressChange		=	-10,
+	ReplaceOnUse		=	HCGlassshortempty,
+	Icon			=	HCDrinkmaitai,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	AlcoholPower 		= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	15,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	434,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCDrinkcosmo
+
+	{
+	HungerChange		=	-5,
+	Weight			=	0.3,
+	Type			=	Food,
+	ThirstChange		=	-5,
+	DisplayName		=	Cosmopolitan Drink,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	StressChange		=	-10,
+	ReplaceOnUse		=	HCCocktailglassempty,
+	Icon			=	HCDrinkcosmo,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	AlcoholPower 		= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	428,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCDrinktomcollins
+
+	{
+	HungerChange		=	-5,
+	Weight			=	0.3,
+	Type			=	Food,
+	ThirstChange		=	-5,
+	DisplayName		=	Tom Collins Drink,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	StressChange		=	-10,
+	ReplaceOnUse		=	HCGlasstallempty,
+	Icon			=	HCDrinktomcollins,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	AlcoholPower 		= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	15,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	434,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCDrinklongisland
+
+	{
+	HungerChange		=	-5,
+	Weight			=	0.3,
+	Type			=	Food,
+	ThirstChange		=	-5,
+	DisplayName		=	Long Island Iced Tea Drink,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	StressChange		=	-10,
+	ReplaceOnUse		=	HCGlasstallempty,
+	Icon			=	HCDrinklongisland,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	AlcoholPower 		= 	3,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	15,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	443,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCDrinkgimlet
+
+	{
+	HungerChange		=	-5,
+	Weight			=	0.3,
+	Type			=	Food,
+	ThirstChange		=	-5,
+	DisplayName		=	Gimlet Drink,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	StressChange		=	-10,
+	ReplaceOnUse		=	HCCocktailglassempty,
+	Icon			=	HCDrinkgimlet,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	AlcoholPower 		= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	15,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	434,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCDrinkplanterspunch
+
+	{
+	HungerChange		=	-5,
+	Weight			=	0.3,
+	Type			=	Food,
+	ThirstChange		=	-5,
+	DisplayName		=	Planter's Punch Drink,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	StressChange		=	-10,
+	ReplaceOnUse		=	HCGlassshortempty,
+	Icon			=	HCDrinkplanterspunch,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	AlcoholPower 		= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	15,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	439,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCDrinkwhiskeyandcoke
+
+	{
+	HungerChange		=	-5,
+	Weight			=	0.3,
+	Type			=	Food,
+	ThirstChange		=	-5,
+	DisplayName		=	Whiskey and Coke,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	StressChange		=	-10,
+	ReplaceOnUse		=	HCGlasstallempty,
+	Icon			=	HCDrinkwhiskeyandcoke,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	AlcoholPower 		= 	3,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	40,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	485,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCDrinkwhiskey
+	{
+	HungerChange		=	-5,
+	Weight			=	0.2,
+	Type			=	Food,
+	ThirstChange		=	-10,
+        UnhappyChange		=	-10,
+	DisplayName		=	Glass of Whiskey,
+	Alcoholic		=	TRUE,
+	ReplaceOnUse		=	HCGlassshortempty,
+	Icon			=	HCDrinkwhiskey,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	395,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCTequila
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Tequila,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-20,
+	BoredomChange		=	-15,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCTequila,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	96,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCMezcal
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Mezcal,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-20,
+	BoredomChange		=	-15,
+	ReplaceOnUse		=	HCMezcalemptyworm,
+	Icon	        	=	HCMezcal,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	104,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCMezcalemptyworm
+	{
+	Weight	        	=	0.2,
+	Type	        	=	Normal,
+	DisplayName		=	Empty Mezcal Bottle with Worm,
+	Icon	        	=	HCMezcalemptyworm,
+	}
+
+item HCMezcalworm
+	{
+	HungerChange	        =	-1,
+	Weight	        	=	0.05,
+	Type	        	=	Food,
+	ThirstChange		=	-5,
+	DisplayName		=	Mezcal Worm,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-10,
+	BoredomChange		=	-10,
+	Icon	        	=	HCMezcalworm,
+	AlcoholPower      	= 	5,
+	CustomContextMenu 	= 	Eat,
+	FoodType		=	NoExplicit,
+	Carbohydrates 		= 	1.34,
+        Proteins 		= 	3.6,
+        Lipids 			= 	1.32,
+        Calories 		= 	20,
+	}
+
+item HCDrinkmargarita
+	{
+	HungerChange	        =	-5,
+	Weight	        	=	0.5,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Margarita Drink,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-20,
+	BoredomChange		=	-15,
+	ReplaceOnUse		=	HCCocktailglassempty,
+	Icon	        	=	HCDrinkmargarita,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	1,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	7,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	280,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCSake
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Sake,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-20,
+	BoredomChange		=	-15,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCSake,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	39,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCApplejack
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Applejack,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-20,
+	BoredomChange		=	-15,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCApplejack,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	69,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+
+item HCPeachschnapps
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Peach Schnapps,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-20,
+	BoredomChange		=	-15,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCPeachschnapps,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	63,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCFlip
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Flip,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-20,
+	BoredomChange		=	-15,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCFlip,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	69,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCMead
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Mead,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-20,
+	BoredomChange		=	-15,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCMead,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	40,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	356,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCMead2
+	{
+	HungerChange	        =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName		=	Mead,
+	Alcoholic		=	TRUE,
+        UnhappyChange		=	-20,
+	BoredomChange		=	-15,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCMead2,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	AlcoholPower      	= 	2,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	40,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	356,
+        CantBeFrozen 		= 	TRUE,
+	}
+
+item HCAguaardiente 
+    {
+         ThirstChange		= 	-10,
+	 Weight			=	0.9,
+	 Type			=	Food,
+	 DisplayName		=	Agua Ardiente Bottle,
+	 Icon			=	HCAguaardiente,
+         CustomContextMenu 	= 	Drink,
+         CustomEatSound		= 	PZ_DrinkingFromBottle,
+         Alcoholic		=	TRUE
+         AlcoholPower 		= 	3,
+	 UnhappyChange		=	-25,
+	 StressChange		=	-15,
+	 Calories 		= 	2150,
+	 Proteins 		= 	0,
+	 Lipids 		= 	0,
+	 Carbohydrates 		= 	537,
+         Packaged 		= 	TRUE,
+    }
+
+item HCEggnogpot 
+    {
+	HungerChange		=	-40,
+        ThirstChange		= 	-200,
+	Weight			=	1.1,
+	Type			=	Food,
+	DisplayName		=	Eggnog Pot,
+	Icon			=	HCEggnogpot,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound		= 	PZ_DrinkingFromBottle,
+	Alcoholic		=	TRUE,
+	AlcoholPower 		= 	2,
+	DaysFresh 		= 	8,
+	DaysTotallyRotten 	= 	10,
+	ReplaceOnUse		=	Pot,
+	UnhappyChange		=	-25,
+	BoredomChange		=	-25,
+	StressChange		=	-30,
+	Carbohydrates 		= 	140,
+	Proteins 		= 	21,
+	Lipids 			= 	40,
+	Calories 		= 	1004,
+    }
+
+item HCEggnogmug 
+    {
+	HungerChange		=	-10,
+        ThirstChange		= 	-60,
+	Weight			=	0.2,
+	Type			=	Food,
+	DisplayName		=	Eggnog Cuppa,
+	Icon			=	HCEggnogmug,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound		= 	PZ_DrinkingFromBottle,
+	Alcoholic		=	TRUE,
+	AlcoholPower 		= 	0.5,
+	DaysFresh 		= 	8,
+	DaysTotallyRotten 	= 	10,
+	ReplaceOnUse		=	Mugl,
+	UnhappyChange		=	-10,
+	BoredomChange		=	-5,
+	StressChange		=	-15,
+	Carbohydrates 		= 	28,
+	Proteins 		= 	6,
+	Lipids 			= 	8,
+	Calories 		= 	200.8,
+    }
+
+item HCWhiskeyeggnogbottle 
+    {
+	HungerChange		=	-25,
+        ThirstChange		= 	-150,
+	Weight			=	0.8,
+	Type			=	Food,
+	DisplayName		=	Whiskey Eggnog Bottle,
+	Icon			=	HCWhiskeyeggnogfull,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound		= 	PZ_DrinkingFromBottle,
+	Alcoholic		=	TRUE,
+	AlcoholPower 		= 	1,
+	DaysFresh 		= 	8,
+	DaysTotallyRotten 	= 	10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	UnhappyChange		=	-22,
+	BoredomChange		=	-12,
+	StressChange		=	-26,
+	Carbohydrates 		= 	56,
+	Proteins 		= 	10,
+	Lipids 			= 	20,
+	Calories 		= 	502,
+    }
+
+item HCColademonopot 
+    {
+	HungerChange		=	-40,
+       	ThirstChange		= 	-200,
+	Weight			=	1.1,
+	Type			=	Food,
+	DisplayName		=	Monkey Tail Pot,
+	Icon			=	HCColademonopot,
+        CustomContextMenu 	= 	Drink,
+        CustomEatSound		= 	PZ_DrinkingFromBottle,
+        Alcoholic		=	TRUE
+        AlcoholPower 		= 	3,
+        DaysFresh 		= 	8,
+        DaysTotallyRotten 	= 	10,
+	ReplaceOnUse		=	Pot,
+	UnhappyChange		=	-25,
+	BoredomChange		=	-25,
+	StressChange		=	-30,
+	Carbohydrates 		= 	160,
+	Proteins 		= 	21,
+	Lipids 			= 	40,
+	Calories 		= 	1084,
+    }
+
+item HCColademonomug 
+    {
+	HungerChange		=	-10,
+        ThirstChange		= 	-60,
+	Weight			=	0.2,
+	Type			=	Food,
+	DisplayName		=	Monkey Tail Mug,
+	Icon			=	HCColademonomug,
+        CustomContextMenu 	= 	Drink,
+        CustomEatSound		= 	PZ_DrinkingFromBottle,
+        Alcoholic		=	TRUE
+        AlcoholPower 		= 	2,
+        DaysFresh 		= 	8,
+        DaysTotallyRotten 	= 	10,
+	ReplaceOnUse		=	Mugl,
+	UnhappyChange		=	-10,
+	BoredomChange		=	-5,
+	StressChange		=	-15,
+	Carbohydrates 		= 	44,
+	Proteins 		= 	6,
+	Lipids 			= 	8,
+	Calories 		= 	220.8,
+    }
+
+item HCWhiskeycolademonobottle 
+    {
+	HungerChange		=	-25,
+        ThirstChange		= 	-150,
+	Weight			=	0.8,
+	Type			=	Food,
+	DisplayName		=	Whiskey Monkey Tail Bottle,
+	Icon			=	HCWhiskeycolademonofull,
+        CustomContextMenu 	= 	Drink,
+        CustomEatSound		= 	PZ_DrinkingFromBottle,
+        Alcoholic		=	TRUE
+        AlcoholPower 		= 	3,
+        DaysFresh 		= 	8,
+        DaysTotallyRotten 	= 	10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	UnhappyChange		=	-22,
+	BoredomChange		=	-12,
+	StressChange		=	-26,
+	Carbohydrates 		= 	72,
+	Proteins 		= 	10,
+	Lipids 			= 	20,
+	Calories 		= 	542,
+    }
+
+/************************RECIPES************************/
+    
+	
+recipe Brew Irish Coffee
+	{
+		Mugl,
+		Water,
+		Coffee2,
+		WhiskeyFull/HCWhiskey1/HCWhiskey2/HCWhiskey3/HCWhiskey4,
+		Result:HCCoffeeirish,
+		Time:70.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+
+recipe Brew Irish Coffee
+	{
+		HCClaymug,
+		Water,
+		Coffee2,
+		WhiskeyFull/HCWhiskey1/HCWhiskey2/HCWhiskey3/HCWhiskey4,
+		Result:HCCoffeeirish2,
+		Time:70.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,	 	  
+	}
+
+recipe Mix Old Fashioned
+	{
+	keep HCCocktailshaker,
+	HCGlassshortempty,
+	WhiskeyFull/HCWhiskey1/HCWhiskey2/HCWhiskey3/HCWhiskey3,
+	HCBitters,
+	Sugar/HCSugarcubes,
+	HCSlicedorange,
+	Result:HCDrinkoldfashioned,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	 
+	}
+
+recipe Mix Martini
+	{
+	keep HCCocktailshaker,
+	HCCocktailglassempty,
+	HCGin1/HCGin2/HCGin3,
+	HCBitters,
+	HCVermouth,
+	Result:HCDrinkmartini,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	
+	}
+
+recipe Mix Manhattan
+	{
+	keep HCCocktailshaker,
+	HCCocktailglassempty,
+	WhiskeyFull/HCWhiskey1/HCWhiskey2/HCWhiskey3/HCWhiskey3,
+	HCVermouth,
+	HCBitters,
+	Result:HCDrinkmanhattan,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	
+	}
+
+recipe Mix Daquiri
+	{
+	keep HCCocktailshaker,
+	HCCocktailglassempty,
+	HCRum1,
+	HCLimejuicebowl/HCLimejuicebottle/HCPopbottlelimejuice/HCWaterbottlelimejuice/HCRemouladelimejuice/HCMayonnaiselimejuice/HCWhiskeylimejuice,
+	Sugar/HCSugarcubes,
+	HCSlicedlime,
+	Result:HCDrinkdaquiri,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Mix Bloody Mary
+	{
+	keep HCCocktailshaker,
+	HCGlasstallempty,
+	HCVodka/HCVodka1/HCVodka2,
+	Tomato,
+	keep HCJuicer/HCJuicer2,
+	Result:HCDrinkbloodymary,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Mix Whiskey Sour
+	{
+	keep HCCocktailshaker,
+	HCGlassshortempty,
+	WhiskeyFull/HCWhiskey1/HCWhiskey2/HCWhiskey3/HCWhiskey3,
+	HCLemonjuicebowl/HCLemonjuicebottle/HCPopbottlelemonjuice/HCWaterbottlelemonjuice/HCRemouladelemonjuice/HCMayonnaiselemonjuice/HCWhiskeylemonjuice,
+	Sugar/HCSugarcubes,
+	Result:HCDrinkwhiskeysour,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Mix Mai Tai
+	{
+	keep HCCocktailshaker,
+	HCGlassshortempty,
+	HCRum1,
+	HCLimejuicebowl/HCLimejuicebottle/HCPopbottlelimejuice/HCWaterbottlelimejuice/HCRemouladelimejuice/HCMayonnaiselimejuice/HCWhiskeylimejuice,
+	Sugar/HCSugarcubes,
+	HCTriplesec,
+	Result:HCDrinkmaitai,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Mix Cosmopolitan
+	{
+	keep HCCocktailshaker,
+	HCCocktailglassempty,
+	HCVodka/HCVodka1/HCVodka2,
+	HCTriplesec,
+	HCLimejuicebowl/HCLimejuicebottle/HCPopbottlelimejuice/HCWaterbottlelimejuice/HCRemouladelimejuice/HCMayonnaiselimejuice/HCWhiskeylimejuice,
+	Result:HCDrinkcosmo,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Mix Tom Collins
+	{
+	keep HCCocktailshaker,
+	HCGlasstallempty,
+	HCGin1/HCGin2/HCGin3,
+	HCLemonjuicebowl/HCLemonjuicebottle/HCPopbottlelemonjuice/HCWaterbottlelemonjuice/HCRemouladelemonjuice/HCMayonnaiselemonjuice/HCWhiskeylemonjuice,
+	Sugar/HCSugarcubes,
+	Result:HCDrinktomcollins,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Mix Long Island Iced Tea
+	{
+	keep HCCocktailshaker,
+	HCGlasstallempty,
+	HCVodka/HCVodka1/HCVodka2,
+	HCRum1,
+	HCGin1/HCGin2/HCGin3,
+	HCLemonjuicebowl/HCLemonjuicebottle/HCPopbottlelemonjuice/HCWaterbottlelemonjuice/HCRemouladelemonjuice/HCMayonnaiselemonjuice/HCWhiskeylemonjuice,
+	HCLimejuicebowl/HCLimejuicebottle/HCPopbottlelimejuice/HCWaterbottlelimejuice/HCRemouladelimejuice/HCMayonnaiselimejuice/HCWhiskeylimejuice,
+	HCTriplesec,
+	Sugar/HCSugarcubes,
+	Result:HCDrinklongisland,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Mix Gimlet
+	{
+	keep HCCocktailshaker,
+	HCGlassshortempty,
+	HCGin1/HCGin2/HCGin3,
+	HCLimejuicebowl/HCLimejuicebottle/HCPopbottlelimejuice/HCWaterbottlelimejuice/HCRemouladelimejuice/HCMayonnaiselimejuice/HCWhiskeylimejuice,
+	Sugar/HCSugarcubes,
+	Result:HCDrinkgimlet,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Mix Planter's Punch
+	{
+	keep HCCocktailshaker,
+	HCGlassshortempty,
+	HCRum1,
+	HCBitters,
+	HCLemonjuicebowl/HCLemonjuicebottle/HCPopbottlelemonjuice/HCWaterbottlelemonjuice/HCRemouladelemonjuice/HCMayonnaiselemonjuice/HCWhiskeylemonjuice,
+	Sugar/HCSugarcubes,
+	Result:HCDrinkplanterspunch,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Pour Glasses of Whiskey
+	{
+	HCGlassshortempty=4,
+	WhiskeyFull/HCWhiskey1/HCWhiskey2/HCWhiskey3/HCWhiskey3,
+	Result:HCDrinkwhiskey=4,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Whiskey and Coke
+	{
+	HCGlasstallempty,
+	WhiskeyFull/HCWhiskey1/HCWhiskey2/HCWhiskey3/HCWhiskey3,
+	HCSodacola,
+	Result:HCDrinkwhiskeyandcoke,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Remove Mezcal Worm from Bottle
+	{
+	HCMezcalemptyworm,
+	Result:HCMezcalworm,
+	Time:50.0,
+	OnCreate:WhiskeyEmpty,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Mix Margarita
+	{
+	keep HCCocktailshaker,
+	HCMargaritaglassempty,
+	HCTequila;5,
+	HCTriplesec,
+	HCLimejuicebowl/HCLimejuicebottle/HCPopbottlelimejuice/HCWaterbottlelimejuice/HCRemouladelimejuice/HCMayonnaiselimejuice/HCWhiskeylimejuice,
+	Salt;1,
+	HCSlicedlime,
+	Result:HCDrinkmargarita,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Eggnog Pot 
+	{
+	Milk,
+        Egg,
+        WhiskeyFull;1,
+        Pot,
+	Result:HCEggnogpot,
+        NeedToBeLearn:true,
+	Time:90.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Make Eggnog Cuppa 
+	{
+	HCEggnogpot,
+        Chocolate,
+        Mugl=4,
+	Result:HCEggnogmug=4,
+        OnCreate:recipe_hcpot,
+	Time:90.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Make Eggnog Bottle 
+	{
+	HCEggnogpot,
+        WhiskeyEmpty=2,
+	Result:HCWhiskeyeggnogbottle=2,
+        OnCreate:recipe_hcpot,
+	Time:70.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Make Monkey Tail Pot 
+	{
+	Milk,
+        Sugar=1, 
+        HCAguaardiente,
+        Coffee2,            
+        Pot,          
+	Result:HCColademonopot,
+        NeedToBeLearn:true,
+	Time:90.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Make Monkey Tail Mug 
+	{
+	HCColademonopot,
+        Mugl=4,      
+	Result:HCColademonomug=4,
+        OnCreate:recipe_hcpot,
+	Time:90.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Make Monkey Tail Bottle 
+	{
+	HCColademonopot,
+        WhiskeyEmpty=2,
+	Result:HCWhiskeycolademonobottle=2,
+        OnCreate:recipe_hcpot,
+	Time:70.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    	}
+	
+}

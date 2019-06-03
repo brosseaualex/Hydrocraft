@@ -1,0 +1,18 @@
+IGUI_ES = {
+
+IGUI_CraftCategory_Ranching = "Ganaderia",
+IGUI_CraftCategory_Alchemy = "Alquimia",
+IGUI_CraftCategory_Leisure = "Ocio",
+IGUI_CraftCategory_Weaving = "Costura",
+IGUI_CraftCategory_Blacksmithing = "Fragua",
+IGUI_CraftCategory_Masonry = "Albañilería",
+IGUI_CraftCategory_Pottery = "Cerámica",
+IGUI_CraftCategory_Stoneworking = "Cantería",
+IGUI_CraftCategory_Glassworking = "Vidrios",
+IGUI_CraftCategory_Research = "Investigación",
+IGUI_CraftCategory_Reloading = "Municiones",
+IGUI_CraftCategory_Death = "Muerte",
+IGUI_CraftCategory_Loot = "Botín",
+IGUI_ItemCat_Toy = "Juguete",
+IGUI_ItemCat_Trash = "Residuos",
+}

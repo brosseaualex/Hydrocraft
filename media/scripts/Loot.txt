@@ -1,0 +1,191 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCBoxart
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Art Supplies,
+        Icon                	= HCCardboardboxsealed,
+	ResizeWorldIcon     	= FALSE,
+    }
+
+item HCBoxelectronic
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Electronic Equipment,
+        Icon                	= HCCardboardboxsealed,
+	ResizeWorldIcon     	= FALSE,
+    }
+
+item HCBoxgarden
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Garden Equipment,
+        Icon                	= HCCardboardboxsealed,
+	ResizeWorldIcon     	= FALSE,
+    }
+
+item HCBoxholiday
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Holiday Supplies,
+        Icon                	= HCCardboardboxsealed,
+	ResizeWorldIcon     	= FALSE,
+    }
+
+item HCBoxlab
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Lab Equipment,
+        Icon                	= HCCardboardboxsealed,
+	ResizeWorldIcon     	= FALSE,
+    }
+
+item HCBoxoffice
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Office Supplies,
+        Icon                	= HCCardboardboxsealed,
+	ResizeWorldIcon     	= FALSE,
+    }
+
+item HCBoxpet
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Pet Equipment,
+        Icon                	= HCCardboardboxsealed,
+	ResizeWorldIcon     	= FALSE,
+    }
+
+item HCBoxphoto
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Photography Equipment,
+        Icon                	= HCCardboardboxsealed,
+	ResizeWorldIcon     	= FALSE,
+    }
+
+
+item HCBoxtoy
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Toys,
+        Icon                	= HCCardboardboxsealed,
+	ResizeWorldIcon     	= FALSE,
+    }
+
+/************************RECIPES************************/
+
+
+recipe Open Box
+    {
+	HCBoxart,
+	keep HCBoxcutter,
+   	Result:HCCardboardbox,
+    	Time:50,
+    	OnCreate:recipe_hclootart,
+    	Category:Loot,
+    }
+
+recipe Open Box
+    {
+	HCBoxelectronic,
+	keep HCBoxcutter,
+   	Result:HCCardboardbox,
+    	Time:50,
+    	OnCreate:recipe_hclootelectronic,
+    	Category:Loot,
+    }
+
+recipe Open Box
+    {
+	HCBoxgarden,
+	keep HCBoxcutter,
+   	Result:HCCardboardbox,
+    	Time:50,
+    	OnCreate:recipe_hclootgarden,
+    	Category:Loot,
+    }
+
+recipe Open Box
+    {
+	HCBoxholiday,
+	keep HCBoxcutter,
+   	Result:HCCardboardbox,
+    	Time:50,
+    	OnCreate:recipe_hclootholiday,
+    	Category:Loot,
+    }
+
+recipe Open Box
+    {
+	HCBoxlab,
+	keep HCBoxcutter,
+   	Result:HCCardboardbox,
+    	Time:50,
+    	OnCreate:recipe_hclootlab,
+    	Category:Loot,
+    }
+
+recipe Open Box
+    {
+	HCBoxoffice,
+	keep HCBoxcutter,
+   	Result:HCCardboardbox,
+    	Time:50,
+    	OnCreate:recipe_hclootoffice,
+    	Category:Loot,
+    }
+
+recipe Open Box
+    {
+	HCBoxpet,
+	keep HCBoxcutter,
+   	Result:HCCardboardbox,
+    	Time:50,
+    	OnCreate:recipe_hclootpet,
+    	Category:Loot,
+    }
+
+recipe Open Box
+    {
+	HCBoxphoto,
+	keep HCBoxcutter,
+   	Result:HCCardboardbox,
+    	Time:50,
+    	OnCreate:recipe_hclootphoto,
+    	Category:Loot,
+    }
+
+recipe Open Box
+    {
+	HCBoxtoy,
+	keep HCBoxcutter,
+   	Result:HCCardboardbox,
+    	Time:50,
+    	OnCreate:recipe_hcloottoy,
+    	Category:Loot,
+    }
+
+
+}
+
+
+
+

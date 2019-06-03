@@ -1,0 +1,652 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCSaltshakerempty
+    {
+        	Weight    		= 	0.1,
+        	Type    		= 	Normal,
+        	DisplayName         	= 	Empty Salt Shaker,
+        	icon 			= 	HCSaltshakerempty,
+    }
+
+item HCCuringsalt
+	{
+		HungerChange		=	-2,
+		BoredomChange		=	0,
+		UnhappyChange		=	10,
+		StressChange		=	10,
+		ThirstChange		=	100,
+		Weight			=	1.0,
+		Type			=	Drainable,
+		UseDelta 		= 	0.05,
+		DisplayName		=	Curing Salt,
+		ReplaceOnDeplete 	= 	HCCuringsaltempty,
+		Icon			=	HCCuringsalt,
+	}
+	
+item HCCuringsaltempty
+	{
+		Weight			=	0.1,
+		Type			=	Normal,
+		DisplayName		=	Empty Curing Salt Bag,
+		Icon			=	HCCuringsaltempty,
+	}
+	
+item HCSaltedfishfillet
+	{
+		HungerChange		=	-20,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Fish Fillet,
+		Icon			=	HCSaltedfishfillet,
+		DaysTotallyRotten	=	200,
+		DaysFresh		=	120,
+        	EvolvedRecipe   	=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Fish,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	46,
+        	Lipids 			= 	1.8,
+        	Calories 		= 	216,
+	}
+	
+item HCSaltedham
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Ham,
+		Icon			=	HCSaltedham,
+		DaysTotallyRotten	=	200,
+		DaysFresh		=	120,
+	        EvolvedRecipe   	=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType		=   	Meat,
+		Carbohydrates 		= 	27.3,
+        	Proteins 		= 	35.1,
+        	Lipids 			= 	23.4,
+        	Calories 		= 	468,
+	}
+
+	
+item HCSaltedmutton
+	{
+		HungerChange		=	-35,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Mutton,
+		Icon			=	HCSaltedmutton,
+		DaysTotallyRotten	=	120,
+		DaysFresh		=	80,
+	        EvolvedRecipe   	=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType		=   	Meat,
+		Carbohydrates 		= 	0.3,
+        	Proteins 		= 	99,
+        	Lipids 			= 	33,
+        	Calories 		= 	702,
+	}
+	
+item HCSaltedpork
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Pork,
+		Icon			=	HCSaltedpork,
+		DaysTotallyRotten	=	200,
+		DaysFresh		=	120,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType		=   	Meat,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	63,
+        	Lipids 			= 	27,
+        	Calories 		= 	450,
+	}
+
+item HCSaltedbeef
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Beef,
+		Icon			=	HCSaltedbeef,
+		DaysTotallyRotten	=	400,
+		DaysFresh		=	300,
+	        EvolvedRecipe   	=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Meat,
+		Carbohydrates 		= 	0,
+       		Proteins 		= 	78.2,
+       		Lipids 			= 	21.4,
+        	Calories 		= 	525,
+	}
+
+item HCSaltedcheval
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Cheval,
+		Icon			=	HCSaltedcheval,
+		DaysTotallyRotten	=	400,
+		DaysFresh		=	300,
+	        EvolvedRecipe   	=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Meat,
+		Carbohydrates 		= 	0,
+       		Proteins 		= 	97,
+       		Lipids 			= 	21,
+        	Calories 		= 	603,
+	}
+	
+item HCSaltedrabbit
+	{
+		HungerChange		=	-20,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.2,
+		Type			=	Food,
+		DisplayName		=	Salted Rabbit,
+		Icon			=	HCSaltedrabbit,
+		DaysTotallyRotten	=	120,
+		DaysFresh		=	80,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+       		Proteins 		= 	44,
+       		Lipids 			= 	4.6,
+        	Calories 		= 	228,
+	}
+	
+item HCSaltedsalmon
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Salmon,
+		Icon			=	HCSaltedsalmon,
+		DaysTotallyRotten	=	60,
+		DaysFresh		=	30,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Fish,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	63.1,
+        	Lipids 			= 	13.3,
+        	Calories 		= 	381,
+	}
+	
+item HCSaltedsmallanimalmeat
+	{
+		HungerChange		=	-15,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.1,
+		Type			=	Food,
+		DisplayName		=	Salted Small Animal Meat,
+		Icon			=	HCSaltedsmallanimalmeat,
+		DaysTotallyRotten	=	120,
+		DaysFresh		=	80,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	44,
+        	Lipids 			= 	2.6,
+        	Calories 		= 	228,
+	}
+	
+item HCSaltedsmallbirdmeat
+	{
+		HungerChange		=	-15,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.1,
+		Type			=	Food,
+		DisplayName		=	Salted Small Bird Meat,
+		Icon			=	HCSaltedsmallbirdmeat,
+		DaysTotallyRotten	=	120,
+		DaysFresh		=	80,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+        	Proteins 		= 	22,
+        	Lipids 			= 	1.3,
+        	Calories 		= 	134,
+	}
+
+item HCSaltedduck
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Duck,
+		Icon			=	HCSaltedduck,
+		DaysTotallyRotten	=	120,
+		DaysFresh		=	80,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	10,
+        	Proteins 		= 	69,
+       	 	Lipids 			= 	33,
+        	Calories 		= 	603,
+	}
+
+item HCSaltedgoose
+	{
+		HungerChange		=	-35,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Goose,
+		Icon			=	HCSaltedgoose,
+		DaysTotallyRotten	=	120,
+		DaysFresh		=	80,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates		= 	10,
+        	Proteins 		= 	87,
+        	Lipids 			= 	39,
+        	Calories 		= 	714,
+	}
+
+item HCSaltedturkey
+	{
+		HungerChange		=	-30,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Turkey,
+		Icon			=	HCSaltedturkey,
+		DaysTotallyRotten	=	120,
+		DaysFresh		=	80,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	10.3,
+      	 	Proteins 		= 	69,
+      	 	Lipids 			= 	5.7,
+      	  	Calories 		= 	336,
+	}
+
+item HCSaltedvenison
+	{
+		HungerChange		=	-35,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Venison,
+		Icon			=	HCSaltedvenison,
+		DaysTotallyRotten	=	400,
+		DaysFresh		=	300,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+      	 	Proteins 		= 	90,
+      	 	Lipids 			= 	9.6,
+      	  	Calories 		= 	474,
+	}	
+
+item HCSaltedbear
+	{
+		HungerChange		=	-35,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Bear Steak,
+		Icon			=	HCSaltedbear,
+		DaysTotallyRotten	=	400,
+		DaysFresh		=	300,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+      	 	Proteins 		= 	60,
+      	 	Lipids 			= 	24.9,
+      	  	Calories 		= 	483,
+	}
+
+item HCSaltedcougar
+	{
+		HungerChange		=	-35,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.3,
+		Type			=	Food,
+		DisplayName		=	Salted Cougar Steak,
+		Icon			=	HCSaltedcougar,
+		DaysTotallyRotten	=	400,
+		DaysFresh		=	300,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+      	 	Proteins 		= 	60,
+      	 	Lipids 			= 	24.9,
+      	  	Calories 		= 	483,
+	}
+
+item HCSaltedsmallgame
+	{
+		HungerChange		=	-20,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		ThirstChange		=	15,
+		Weight			=	0.2,
+		Type			=	Food,
+		DisplayName		=	Salted Small Game Steak,
+		Icon			=	HCSaltedsmallgame,
+		DaysTotallyRotten	=	400,
+		DaysFresh		=	300,
+		EvolvedRecipe		= 	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    		=   	Game,
+		Carbohydrates 		= 	0,
+       		Proteins 		= 	44,
+       		Lipids 			= 	4.6,
+        	Calories 		= 	228,
+	}
+	
+/************************RECIPES************************/
+
+recipe Make Salt Powder
+    {
+    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    HCRocksalt,
+    CanBeDoneFromFloor:true,
+    Result:HCSaltpowder,
+    NeedToBeLearn:true,
+    Time:50,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Salt Powder
+    {
+    keep HCMacerator,
+    PetrolCan,
+    HCRocksalt,
+    CanBeDoneFromFloor:true,
+    Result:HCSaltpowder=2,
+    NeedToBeLearn:true,
+    Time:50,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Refill Salt Shaker
+       {
+       	SkillRequired:Cooking=3,
+       	HCSaltpowder=8,
+       	destroy HCSaltshakerempty,
+       	keep HCFunnel,
+       	Result:Salt, 
+       	Time:200,
+       	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+       }
+
+recipe Refill Bag With Curing Salt
+       {
+       	SkillRequired:Cooking=3,
+       	HCSaltpeterpowder=8,
+       	destroy HCCuringsaltempty,
+       	keep HCFunnel,
+       	Result:HCCuringsalt,
+    	NeedToBeLearn:true, 
+       	Time:200,
+       	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+       }
+
+recipe Salt Meat
+    {
+        SkillRequired:Cooking=3,
+        HCCuringsalt/HCSaltpeterpowder,
+        FishFillet,
+        Result:HCSaltedfishfillet,
+    	NeedToBeLearn:true, 
+        Time:3000.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+	
+recipe Salt Meat
+    {
+        SkillRequired:Cooking=3,
+        HCCuringsalt/HCSaltpeterpowder,
+        Ham,
+        Result:HCSaltedham,
+    	NeedToBeLearn:true, 
+        Time:5000.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Salt Meat
+    {
+	SkillRequired:Cooking=3,
+	HCFreshham,
+	Water=2,
+	HCCuringsalt/HCSaltpeterpowder,
+	Result:Ham,
+    	NeedToBeLearn:true, 
+	Time:2500.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,	
+    }
+
+recipe Salt Meat
+    {
+        SkillRequired:Cooking=3,
+        HCCuringsalt/HCSaltpeterpowder,
+        MuttonChop,
+        Result:HCSaltedmutton,
+    	NeedToBeLearn:true, 
+        Time:4000.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+	
+recipe Salt Meat
+    {
+        SkillRequired:Cooking=3,
+        HCCuringsalt/HCSaltpeterpowder,
+        PorkChop,
+        Result:HCSaltedpork,
+    	NeedToBeLearn:true, 
+        Time:5000.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Salt Meat
+    {
+        SkillRequired:Cooking=3,
+        HCCuringsalt/HCSaltpeterpowder,
+        Steak,
+        Result:HCSaltedbeef,
+    	NeedToBeLearn:true, 
+        Time:5000.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Salt Meat
+    {
+        SkillRequired:Cooking=3,
+        HCCuringsalt/HCSaltpeterpowder,
+        HCCheval,
+        Result:HCSaltedbeef,
+    	NeedToBeLearn:true, 
+        Time:5000.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+	
+recipe Salt Meat
+    {
+        SkillRequired:Cooking=3,
+        HCCuringsalt/HCSaltpeterpowder,
+        Rabbitmeat,
+        Result:HCSaltedrabbit,
+    	NeedToBeLearn:true, 
+        Time:4000.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+	
+recipe Salt Meat
+    {
+        SkillRequired:Cooking=3,
+        HCCuringsalt/HCSaltpeterpowder,
+        Salmon,
+        Result:HCSaltedsalmon,
+    	NeedToBeLearn:true, 
+        Time:4000.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+	
+recipe Salt Meat
+    {
+        SkillRequired:Cooking=3,
+        HCCuringsalt/HCSaltpeterpowder,
+        Smallanimalmeat,
+        Result:HCSaltedsmallanimalmeat,
+    	NeedToBeLearn:true, 
+        Time:3500.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+	
+recipe Salt Meat
+    {
+        SkillRequired:Cooking=3,
+        HCCuringsalt/HCSaltpeterpowder,
+        Smallbirdmeat,
+        Result:HCSaltedsmallbirdmeat,
+    	NeedToBeLearn:true, 
+        Time:3500.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Salt Meat
+    {
+        SkillRequired:Cooking=3,
+        HCCuringsalt/HCSaltpeterpowder,
+        HCDuckmeat,
+        Result:HCSaltedduck,
+    	NeedToBeLearn:true, 
+        Time:4000.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Salt Meat
+    {
+        SkillRequired:Cooking=3,
+        HCCuringsalt/HCSaltpeterpowder,
+        HCGoosemeat,
+        Result:HCSaltedgoose,
+    	NeedToBeLearn:true, 
+        Time:4500.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Salt Meat
+    {
+        SkillRequired:Cooking=3,
+        HCCuringsalt/HCSaltpeterpowder,
+        HCTurkeymeat,
+        Result:HCSaltedturkey,
+    	NeedToBeLearn:true, 
+        Time:5000.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Salt Meat
+    {
+        SkillRequired:Cooking=3,
+        HCCuringsalt/HCSaltpeterpowder,
+        HCVenison,
+        Result:HCSaltedvenison,
+    	NeedToBeLearn:true, 
+        Time:5000.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Salt Meat
+    {
+        SkillRequired:Cooking=3,
+        HCCuringsalt/HCSaltpeterpowder,
+        HCBearsteak,
+        Result:HCSaltedbear,
+    	NeedToBeLearn:true, 
+        Time:5000.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Salt Meat
+    {
+        SkillRequired:Cooking=3,
+        HCCuringsalt/HCSaltpeterpowder,
+        HCCougarsteak,
+        Result:HCSaltedcougar,
+    	NeedToBeLearn:true, 
+        Time:5000.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Salt Meat
+    {
+        SkillRequired:Cooking=3,
+        HCCuringsalt/HCSaltpeterpowder,
+        HCSmallgamesteak,
+        Result:HCSaltedsmallgame,
+    	NeedToBeLearn:true, 
+        Time:5000.0,
+	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+	   	
+}

@@ -1,0 +1,97 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCPlastic
+    {
+        Weight    		=    	0.1,
+        Type    		=    	Normal,
+        DisplayName    		=    	Plastic,
+        Icon    		=    	HCPlastic,
+    }
+
+item HCBioplastic
+	{
+	Weight			= 0.1,
+        Type    		= Normal,
+	DisplayName		= Bioplastic,
+	Icon			= HCBioplastic,
+	}
+
+item HCSelfmadeplasticcase
+	{
+	Weight			=	0.3,
+	Type			=	Normal,
+	DisplayName		=	Homemade Plastic Case,
+	Icon			=	HCSelfmadeplasticcase,
+	}
+
+/************************RECIPES************************/	
+
+recipe Make Bioplastic
+    	{
+        	HCBiodieselcan,
+		HCResin=4,
+		keep HCSafetyglasses,
+        	keep HCLatexgloves/HCRubberglove,
+        	keep HCLab,
+        	CanBeDoneFromFloor:true,
+        	Result:HCBioplastic=4,
+                NeedToBeLearn:true,
+        	Time:250,
+    		Category:Alchemy,
+        	OnCreate:recipe_hcbiodieselcan,
+    		OnGiveXP:HCCooking_OnGiveXP,
+    	}
+
+recipe Recycle Plastic Can
+    {
+    	HCPlasticcanempty,
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+    	Result:HCPlastic=5,
+    	Time:50,
+    	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Plastic Case
+    {
+    	Glue/HCGluejar,
+        keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+        HCPlastic=6,
+    	Result:HCSelfmadeplasticcase,
+    	Time:50,
+    	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Plastic
+    {
+    HCToypeople/HCToyarmyman/HCToyarmyman2/HCToydragon/HCToybrontosaurus/HCToypterodactyl/HCToystegosaurus/HCToytrex/HCToytriceratops/HCToyshark/HCToyoctopus/HCToyactionfigure1/HCToyactionfigure2/HCToyactionfigure3/HCToyactionfigure4,
+    HCToypeople/HCToyarmyman/HCToyarmyman2/HCToydragon/HCToybrontosaurus/HCToypterodactyl/HCToystegosaurus/HCToytrex/HCToytriceratops/HCToyshark/HCToyoctopus/HCToyactionfigure1/HCToyactionfigure2/HCToyactionfigure3/HCToyactionfigure4,
+    HCToypeople/HCToyarmyman/HCToyarmyman2/HCToydragon/HCToybrontosaurus/HCToypterodactyl/HCToystegosaurus/HCToytrex/HCToytriceratops/HCToyshark/HCToyoctopus/HCToyactionfigure1/HCToyactionfigure2/HCToyactionfigure3/HCToyactionfigure4,
+    Charcoal,
+
+
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCPlastic,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+}

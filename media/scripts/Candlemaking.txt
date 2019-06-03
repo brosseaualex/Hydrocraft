@@ -1,0 +1,230 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCCandleberrywax
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Candleberry Wax,
+        icon 			= 	HCCandleberrywax,
+    }   
+
+item HCBeeswax
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Beeswax,
+        icon 			= 	HCBeeswax,
+    }   
+
+item HCCandletallow
+   {
+	Weight			=	0.2,
+	Type			=	Normal,
+	DisplayName		=	Tallow Candle,
+	Icon			=	HCCandletallow,
+    }
+
+item HCCandletallowlit
+    {
+	LightDistance		=	3,
+	Weight			=	0.2,
+	Type			=	Drainable,
+	TorchCone		=	FALSE,
+	UseDelta		=	0.003,
+	LightStrength		=	0.6,
+	DisplayName		=	Lit Tallow Candle,
+	ActivatedItem		=	TRUE,
+	Icon			=	HCCandletallowlit,
+    }
+
+item HCCandleholder
+   {
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Candle Holder,
+	Icon			=	HCCandleholder,
+    }
+
+item HCCandleholder2
+   {
+	Weight			=	0.7,
+	Type			=	Normal,
+	DisplayName		=	Candle in Holder,
+	Icon			=	HCCandleholder2,
+    }
+
+item HCCandleholder3
+    {
+	LightDistance		=	6,
+	Weight			=	0.2,
+	Type			=	Drainable,
+	TorchCone		=	FALSE,
+	UseDelta		=	0.003,
+	LightStrength		=	0.8,
+	DisplayName		=	Lit Candle in Holder,
+	ActivatedItem		=	TRUE,
+	Icon			=	HCCandleholder3,
+	ReplaceOnDeplete	=	Hydrocraft.HCCandleholder,
+    }
+
+item HCMininghat
+    {
+        Weight    		= 0.5,
+        Type			= Drainable,
+	UseDelta		= 0.1,
+	ReplaceOnUse		= HCHardhat,
+        DisplayName         	= Candle Mining Hat,
+        icon 			= HCMininghat,
+    }
+
+item HCMininghatlamp
+    {
+        Weight    		= 0.5,
+        Type			= Normal,
+        DisplayName         	= Flashlight Mining Hat,
+        icon 			= HCMininghat2,
+    }
+
+item HCMininghatlamppowered
+    {
+        Weight    		= 0.5,
+        Type			= Drainable,
+	UseDelta		= 0.3,
+	ReplaceOnUse		= HCMininghatlampdead,
+        DisplayName         	= Flashlight Mining Hat with Power,
+        icon 			= HCMininghat2,
+    }
+
+item HCMininghatlampdead
+    {
+        Weight    		= 0.5,
+        Type			= Normal,
+        DisplayName         	= Flashlight Mining Hat with Dead Battery,
+        icon 			= HCMininghat2,
+    }
+
+/************************RECIPES************************/
+
+
+recipe Make Mining Hat
+  	{
+   	   	Candle/HCCandletallow,
+   	   	HCHardhat,
+		HCRopethin,
+   	  	Result:HCMininghat,
+    		NeedToBeLearn:true,
+	   	Time:50.0,
+    		Category:Firecraft,
+    		OnGiveXP:HCHunger_OnGiveXP,
+  	}
+
+recipe Make Mining Hat
+  	{
+   	   	HCFlashlightoff,
+		DuctTape=2,
+   	   	HCHardhat,
+		HCRopethin,
+   	  	Result:HCMininghatlamp,
+    		NeedToBeLearn:true,
+	   	Time:50.0,
+    		Category:Firecraft,
+    		OnGiveXP:HCHunger_OnGiveXP,
+  	}
+
+recipe Put Candle in Candle Holder
+  	{
+   	   	Candle/HCCandletallow,
+   	   	HCCandleholder,
+   	   	Result:HCCandleholder2,
+	   	Time:30.0,
+    		Category:Firecraft,
+    		OnGiveXP:HCHunger_OnGiveXP,
+  	}
+    
+recipe Light Candle
+  	{
+   	   	Candle,
+   	   	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+   	   	Result:CandleLit,
+	   	Time:30.0,
+    		Category:Firecraft,
+  	}
+
+recipe Light Candle
+  	{
+   	   	HCCandletallow,
+   	   	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+   	   	Result:HCCandletallowlit,
+	   	Time:30.0,
+    		Category:Firecraft,
+  	}
+
+recipe Light Candle
+  	{
+   	   	HCCandleholder2,
+   	   	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+   		Result:HCCandleholder3,
+		Time:30.0,
+    		Category:Firecraft,
+  	}
+
+recipe Make Candleberry Wax
+    {
+    		HCCandleberry=5,
+    		Result:HCCandleberrywax,
+    		NeedToBeLearn:true,
+    		Time:100,
+    		Category:Alchemy,
+    		OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Wax Candle
+    {
+    		HCCandleberrywax/HCRefinedbeeswax/HCWaxrecycled,
+		HCRopethin,
+    		Result:Candle,
+    		NeedToBeLearn:true,
+    		Time:100,
+    		Category:Alchemy,
+    		OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Tallow Candle
+    {
+    		HCTallow,
+		HCRopethin,
+    		Result:HCCandletallow,
+    		NeedToBeLearn:true,
+    		Time:100,
+    		Category:Alchemy,
+    		OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Insert Battery
+    {
+    HCMininghatlamp,
+    HCBatterysmall,
+    Result:HCMininghatlamppowered,
+    Time:15,
+    Category:Electrical,
+    }
+
+recipe Remove Battery
+    {
+    HCMininghatlampdead,
+    Result:HCMininghatlamp,
+    Time:15,
+    Category:Electrical,
+    OnCreate:recipe_hcbatterysmalldead,
+    }
+
+}

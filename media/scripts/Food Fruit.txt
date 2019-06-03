@@ -1,0 +1,929 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCPear
+	{
+		HungerChange		=	-15,
+		Weight			=	0.2,
+		Type			=	Food,
+		DaysTotallyRotten	=	8,
+		DisplayName		=	Pear,
+		Icon			=	HCPear,
+		DaysFresh		=	5,
+		FoodType    		=  	Fruits,
+		EvolvedRecipe 		= 	Salad:8;Cake:8,
+        	Carbohydrates 		= 	30,
+        	Proteins		= 	0.8,
+        	Lipids 			= 	0.2,
+        	Calories 		= 	114,
+		ReplaceOnUse		=	Hydrocraft.HCPearseeds,
+	}
+
+item HCLime
+	{
+		HungerChange		=	-15,
+		Weight			=	0.2,
+		Type			=	Food,
+		DaysTotallyRotten	=	9,
+		DisplayName		=	Lime,
+		Icon			=	HCLime,
+		DaysFresh		=	7,
+		EvolvedRecipe 		= 	Cake:8,
+		FoodType    		=   	Fruits,
+        	Carbohydrates 		= 	22,
+        	Proteins		= 	1.4,
+        	Lipids 			= 	0.4,
+        	Calories 		= 	60,
+	}
+
+item HCGrapesgreen
+    	{
+        	HungerChange		=	-15,
+        	Weight			=	0.2,
+        	Type			=	Food,
+        	DaysTotallyRotten	=	8,
+        	DisplayName		=	Green Grapes,
+        	Icon			=	HCGrapesgreen,
+        	DaysFresh		=	5,
+        	EvolvedRecipe 		= 	Cake:8,
+        	FoodType    		=   	Fruits,
+        	Carbohydrates 		= 	34,
+        	Proteins		= 	1.2,
+        	Lipids 			= 	0.8,
+        	Calories 		= 	134,
+    	}
+
+item HCBunchofberries
+	{
+	HungerChange			=	-20,
+	BoredomChange			=	-10,
+	Weight				=	0.4,
+	Type				=	Food,
+	UnhappyChange			=	-15,
+	DisplayName			=	Bunch of Berries,
+	Icon				=	HCBunchofberries,
+	DaysFresh			=	6,
+	DaysTotallyRotten		=	10,
+        FoodType    			=   	Fruits,
+        Carbohydrates 			= 	30.8,
+        Proteins			= 	12,
+        Lipids 				= 	1.2,
+        Calories 			= 	240,
+	}
+
+item HCCactusfruit
+	{
+	HungerChange	        	=	-10,
+        ThirstChange			=	-15,
+	Weight	        		=	0.2,
+	Type	        		=	Food,
+	DisplayName			=	Cactus Fruit,
+	Icon	        		=	HCCactusfruit,
+	CustomContextMenu 		= 	Eat,
+	FoodType			=	Fruits,
+        Carbohydrates 			= 	27,
+        Proteins			= 	4,
+        Lipids 				= 	5,
+        Calories 			= 	167,
+	ReplaceOnUse			=	Hydrocraft.HCCactusseeds,
+	}
+
+item HCPricklypearfruit
+	{
+	HungerChange	        	=	-10,
+        ThirstChange			=	-15,
+	Weight	        		=	0.2,
+	DaysFresh 			=	10,
+	DaysTotallyRotten 		=	20,
+	Type	        		=	Food,
+	DisplayName			=	Prickly Pear Fruit,
+	Icon	        		=	HCPricklypearfruit,
+	CustomContextMenu 		= 	Eat,
+	FoodType			=	Fruits,
+        Carbohydrates 			= 	10,
+        Proteins			= 	1,
+        Lipids 				= 	1,
+        Calories 			= 	42,
+	ReplaceOnUse			=	Hydrocraft.HCPricklypearseeds,
+	}
+
+item HCApricot
+	{
+		HungerChange		=	-15,
+		Weight			=	0.2,
+		Type			=	Food,
+		DaysTotallyRotten	=	8,
+		DisplayName		=	Apricot,
+		Icon			=	HCApricot,
+		DaysFresh		=	5,
+		FoodType    		=  	Fruits,
+		EvolvedRecipe 		= 	Salad:8;Cake:8,
+        	Carbohydrates 		= 	18,
+        	Proteins		= 	2.3,
+        	Lipids 			= 	0.6,
+        	Calories 		= 	79,
+		ReplaceOnUse		=	Hydrocraft.HCApricotseeds,
+	}
+
+item HCDates
+	{
+		HungerChange		=	-15,
+		Weight			=	0.2,
+		Type			=	Food,
+		DaysTotallyRotten	=	8,
+		DisplayName		=	Dates,
+		Icon			=	HCDates,
+		DaysFresh		=	5,
+		FoodType    		=  	Fruits,
+		EvolvedRecipe 		= 	Salad:8;Cake:8,
+        	Carbohydrates 		= 	18,
+        	Proteins		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	66,
+	}
+
+item HCFigs
+	{
+		HungerChange		=	-15,
+		Weight			=	0.2,
+		Type			=	Food,
+		DaysTotallyRotten	=	8,
+		DisplayName		=	Figs,
+		Icon			=	HCFigs,
+		DaysFresh		=	5,
+		FoodType    		=  	Fruits,
+		EvolvedRecipe 		= 	Salad:8;Cake:8,
+        	Carbohydrates 		= 	12,
+        	Proteins		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	47,
+	}
+
+item HCKiwi
+	{
+		HungerChange		=	-15,
+		Weight			=	0.2,
+		Type			=	Food,
+		DaysTotallyRotten	=	8,
+		DisplayName		=	Kiwi,
+		Icon			=	HCKiwi,
+		DaysFresh		=	5,
+		FoodType    		=  	Fruits,
+		EvolvedRecipe 		= 	Salad:8;Cake:8,
+        	Carbohydrates 		= 	21,
+        	Proteins		= 	2,
+        	Lipids 			= 	1,
+        	Calories 		= 	85,
+	}
+
+item HCPlum
+	{
+		HungerChange		=	-15,
+		Weight			=	0.2,
+		Type			=	Food,
+		DaysTotallyRotten	=	8,
+		DisplayName		=	Plum,
+		Icon			=	HCPlum,
+		DaysFresh		=	5,
+		FoodType    		=  	Fruits,
+		EvolvedRecipe 		= 	Salad:8;Cake:8,
+        	Carbohydrates 		= 	16,
+        	Proteins		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	70,
+	}
+
+item HCPersimmon
+	{
+		HungerChange		=	-15,
+		Weight			=	0.2,
+		Type			=	Food,
+		DaysTotallyRotten	=	8,
+		DisplayName		=	Persimmon,
+		Icon			=	HCPersimmon,
+		DaysFresh		=	5,
+		FoodType    		=  	Fruits,
+		EvolvedRecipe 		= 	Salad:8;Cake:8,
+        	Carbohydrates 		= 	0,
+        	Proteins		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	360,
+	}
+
+/************************RECIPES************************/
+
+
+recipe Make Bunch of Berries
+	{
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		Strewberrie=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		Strewberrie=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		Strewberrie=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryBlack=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryBlack=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryBlack=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryBlue=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryBlue=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryBlue=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryGeneric1=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryGeneric1=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryGeneric1=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryGeneric2=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries 
+	{
+		BerryGeneric2=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryGeneric2=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryGeneric3=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryGeneric3=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryGeneric3=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+recipe Make Bunch of Berries
+	{
+		BerryGeneric4=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryGeneric4=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryGeneric4=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryGeneric5=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryGeneric5=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		BerryGeneric5=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCCandleberry=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCCandleberry=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCCandleberry=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCHuckleberry=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCHuckleberry=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCHuckleberry=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCCranberry=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCCranberry=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCCranberry=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCSeaberry=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCSeaberry=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCSeaberry=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCBlackcurrant=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCBlackcurrant=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCBlackcurrant=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCRedcurrant=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCRedcurrant=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCRedcurrant=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCArrowwoodberry=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCArrowwoodberry=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCArrowwoodberry=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCRaspberry=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCRaspberry=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCRaspberry=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCBlackthornberry=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCBlackthornberry=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCBlackthornberry=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCCrampbarkberry=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCCrampbarkberry=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCCrampbarkberry=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCCrowberry=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCCrowberry=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCCrowberry=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCGooseberry=2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCGooseberry=3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCGooseberry=4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCHawthornfruit =2,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCHawthornfruit =3,
+		Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bunch of Berries
+	{
+		HCHawthornfruit =4,
+		Result:HCBunchofberries,
+    		NeedToBeLearn:true,
+		Time:75.0,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+}

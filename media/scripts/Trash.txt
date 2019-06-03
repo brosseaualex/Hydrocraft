@@ -1,0 +1,1739 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, farming
+
+    }
+
+/************************ITEMS************************/
+
+item HCRustyshards
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Rusty Shards,
+        icon 			= HCRustyshards,
+    }  
+
+item HCCrispstrash
+	{
+		Weight				=	0.02,
+		Type				=	Normal,
+		DisplayName			=	Empty Chip Bag,
+		Icon				=	HCCrispstrash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCCrisps2trash
+	{
+		Weight				=	0.02,
+		Type				=	Normal,
+		DisplayName			=	Empty Chip Bag,
+		Icon				=	HCCrisps2trash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCCrisps3trash
+	{
+		Weight				=	0.02,
+		Type				=	Normal,
+		DisplayName			=	Empty Chip Bag,
+		Icon				=	HCCrisps3trash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCCrisps4trash
+	{
+		Weight				=	0.02,
+		Type				=	Normal,
+		DisplayName			=	Empty Chip Bag,
+		Icon				=	HCCrisps4trash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCCrisps5trash
+	{
+		Weight				=	0.02,
+		Type				=	Normal,
+		DisplayName			=	Empty Chip Bag,
+		Icon				=	HCCrisps5trash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCCrisps6trash
+	{
+		Weight				=	0.02,
+		Type				=	Normal,
+		DisplayName			=	Empty Chip Bag,
+		Icon				=	HCCrisps6trash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCCrisps7trash
+	{
+		Weight				=	0.02,
+		Type				=	Normal,
+		DisplayName			=	Empty Chip Bag,
+		Icon				=	HCCrisps7trash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCCrisps8trash
+	{
+		Weight				=	0.02,
+		Type				=	Normal,
+		DisplayName			=	Empty Pack,
+		Icon				=	HCCrisps8trash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCCrisps9trash
+	{
+		Weight				=	0.02,
+		Type				=	Normal,
+		DisplayName			=	Empty Chip Bag,
+		Icon				=	HCCrisps9trash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCCookieschocolatechipbagtrash
+	{
+		Weight				=	0.02,
+		Type				=	Normal,
+		DisplayName			=	Empty Cookie Bag,
+		Icon				=	HCCookieschocolatechipbagtrash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCCookiesmintbagtrash
+	{
+		Weight				=	0.02,
+		Type				=	Normal,
+		DisplayName			=	Empty Cookie Bag,
+		Icon				=	HCCookiesmintbagtrash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCCookiesbrowniebagtrash
+	{
+		Weight				=	0.02,
+		Type				=	Normal,
+		DisplayName			=	Empty Cookie Bag,
+		Icon				=	HCCookiesbrowniebagtrash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCRamenchickentrash
+    	{
+        	Weight    			= 	0.02,
+        	Type    			= 	Normal,
+        	DisplayName     		= 	Plastic Packaging,
+        	icon 				= 	HCRamenchickentrash,
+		DisplayCategory 		= 	Trash,
+    	}  
+
+item HCRamenbeeftrash
+    	{
+        	Weight    			= 	0.02,
+        	Type    			= 	Normal,
+        	DisplayName     		= 	Plastic Packaging,
+        	icon 				= 	HCRamenchickentrash,
+		DisplayCategory 		= 	Trash,
+    	}  
+
+item HCRamenshrimptrash
+    	{
+        	Weight    			= 	0.02,
+        	Type    			= 	Normal,
+        	DisplayName     		= 	Plastic Packaging,
+        	icon 				= 	HCRamenchickentrash,
+		DisplayCategory 		= 	Trash,
+    	}  
+
+item HCRamencheesetrash
+    	{
+        	Weight    			= 	0.02,
+        	Type    			= 	Normal,
+        	DisplayName     		= 	Plastic Packaging,
+        	icon 				= 	HCRamenchickentrash,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCChocolatetrash
+	{
+		Weight				=	0.01,
+		Type				=	Normal,
+		DisplayName			=	Empty Candy Wrapper,
+		Icon				=	HCChocolatetrash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCChocolatedarktrash
+	{
+		Weight				=	0.01,
+		Type				=	Normal,
+		DisplayName			=	Empty Candy Wrapper,
+		Icon				=	HCChocolatedarktrash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCChocolatewhitetrash
+	{
+		Weight				=	0.01,
+		Type				=	Normal,
+		DisplayName			=	Empty Candy Wrapper,
+		Icon				=	HCChocolatewhitetrash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCTrailmixtrash
+	{
+		Weight				=	0.02,
+		Type				=	Normal,
+		DisplayName			=	Empty Candy Wrapper,
+		Icon				=	HCTrailmixtrash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCCandycorntrash
+    	{
+        	DisplayName			=	Empty Candy Wrapper,
+        	Icon				=	HCCandycorntrash,
+        	Weight				=	0.05,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCCandymnmtrash
+    	{
+        	DisplayName			=	Empty Candy Wrapper,
+        	Icon				=	HCCandymnmtrash,
+        	Weight				=	0.05,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCCandyrainbowtrash
+    	{
+        	DisplayName			=	Empty Candy Wrapper,
+        	Icon				=	HCCandyrainbowtrash,
+        	Weight				=	0.05,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCGummybearstrash
+    	{
+        	DisplayName			=	Empty Candy Wrapper,
+        	Icon				=	HCGummybearstrash,
+        	Weight				=	0.05,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCGummywormstrash
+    	{
+        	DisplayName			=	Empty Candy Wrapper,
+        	Icon				=	HCGummywormstrash,
+        	Weight				=	0.05,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCJellybeanstrash
+    	{
+        	DisplayName			=	Empty Candy Wrapper,
+        	Icon				=	HCJellybeanstrash,
+        	Weight				=	0.05,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCTaffytrash
+    	{
+        	DisplayName			=	Empty Candy Wrapper,
+        	Icon				=	HCTaffytrash,
+        	Weight				=	0.05,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCMintcandytrash
+    	{
+        	DisplayName			=	Empty Candy Wrapper,
+        	Icon				=	HCMintcandytrash,
+        	Weight				=	0.01,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCGumtrash
+    	{
+        	DisplayName			=	Empty Pack of Chewing Gum,
+        	Icon				=	HCGumtrash,
+        	Weight				=	0.05,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCGum2trash
+    	{
+        	DisplayName			=	Empty Pack of Chewing Gum,
+        	Icon				=	HCGum2trash,
+        	Weight				=	0.05,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCGum3trash
+    	{
+        	DisplayName			=	Empty Pack of Chewing Gum,
+        	Icon				=	HCGum3trash,
+        	Weight				=	0.05,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCGumsticktrash
+    	{
+        	DisplayName			=	Gum Wrapper,
+        	Icon				=	HCGumsticktrash,
+        	Weight				=	0.01,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+
+item HCBeercan
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	Empty Aluminum Can,
+		Icon				=	HCBeercan,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCPoptrash
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	Empty Aluminum Can,
+		Icon				=	HCPoptrash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCPop2trash
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	Empty Aluminum Can,
+		Icon				=	HCPop2trash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCPop3trash
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	Empty Aluminum Can,
+		Icon				=	HCPop3trash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCPop6trash
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	Empty Aluminum Can,
+		Icon				=	HCPop6trash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCEnergydrinktrash
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	Empty Aluminum Can,
+		Icon				=	HCEnergydrinktrash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCEnergydrink2trash
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	Empty Aluminum Can,
+		Icon				=	HCEnergydrink2trash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCTincan
+    {
+        	Weight    			=    	0.1,
+		CanStoreWater			=	TRUE,
+        	Type    			=    	Normal,
+        	DisplayName    			=    	Tincan,
+		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
+        	Icon    			=    	HCTincan,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+    }
+
+item HCTincanwater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.5,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.3,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCTincan,
+		ReplaceOnUseOn			=	WaterSource-HCTincanwater,
+		Icon				=	HCTincanwater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedcornedbeefempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedcornedbeefwater,
+		Icon				=	HCCannedcornedbeefempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedcornedbeefwater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.5,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.3,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedcornedbeefempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedcornedbeefwater,
+		Icon				=	HCCannedcornedbeefwater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedcornempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedcornwater,
+		Icon				=	HCCannedcornempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedcornwater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.6,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.2,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedcornempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedcornwater,
+		Icon				=	HCCannedcornwater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedmushroomsoupempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedmushroomsoupwater,
+		Icon				=	HCCannedmushroomsoupempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedmushroomsoupwater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.6,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.2,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedmushroomsoupempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedmushroomsoupwater,
+		Icon				=	HCCannedmushroomsoupwater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedpeasempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedpeaswater,
+		Icon				=	HCCannedpeasempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedpeaswater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.6,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.2,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedpeasempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedpeaswater,
+		Icon				=	HCCannedpeaswater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedpotatoempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedpotatowater,
+		Icon				=	HCCannedpotatoempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedpotatowater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.6,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.2,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedpotatoempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedpotatowater,
+		Icon				=	HCCannedpotatowater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedsardinesempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedsardineswater,
+		Icon				=	HCCannedsardinesempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedsardineswater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.3,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.5,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedsardinesempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedsardineswater,
+		Icon				=	HCCannedsardineswater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedtomatoempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedtomatowater,
+		Icon				=	HCCannedtomatoempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedtomatowater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.6,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.2,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedtomatoempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedtomatowater,
+		Icon				=	HCCannedtomatowater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedcarrotsempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedcarrotswater,
+		Icon				=	HCCannedcarrotsempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedcarrotswater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.6,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.2,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedcarrotsempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedcarrotswater,
+		Icon				=	HCCannedcarrotswater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCBeansempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCBeanswater,
+		Icon				=	HCBeansempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCBeanswater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.6,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.2,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCBeansempty,
+		ReplaceOnUseOn			=	WaterSource-HCBeanswater,
+		Icon				=	HCBeanswater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCTinnedsoupempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCTinnedsoupwater,
+		Icon				=	HCSoupempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCTinnedSoupWater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.6,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.2,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCTinnedsoupempty,
+		ReplaceOnUseOn			=	WaterSource-HCTinnedsoupwater,
+		Icon				=	HCSoupwater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCTunatinempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCTunatinwater,
+		Icon				=	HCTunaempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCTunatinwater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.3,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.5,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCTunatinempty,
+		ReplaceOnUseOn			=	WaterSource-HCTunatinwater,
+		Icon				=	HCTunawater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCDogfoodempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCDogfoodwater,
+		Icon				=	HCDogfoodempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCDogfoodwater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.6,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.2,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCDogfoodempty,
+		ReplaceOnUseOn			=	WaterSource-HCDogfoodwater,
+		Icon				=	HCDogfoodwater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedbologneseempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedbolognesewater,
+		Icon				=	HCCannedbologneseempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedbolognesewater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.6,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.2,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedbologneseempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedbolognesewater,
+		Icon				=	HCCannedbolognesewater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedchiliempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedchiliwater,
+		Icon				=	HCCannedchiliempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedchiliwater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.6,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.2,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedchiliempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedchiliwater,
+		Icon				=	HCCannedchiliwater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedsoupclassicempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedsoupclassicwater,
+		Icon				=	HCCannedsoupclassicempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedsoupclassicwater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.5,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.3,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedsoupclassicempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedsoupclassicwater,
+		Icon				=	HCCannedsoupclassicwater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedappleempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedapplewater,
+		Icon				=	HCCannedappleempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedapplewater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.5,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.3,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedappleempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedapplewater,
+		Icon				=	HCCannedapplewater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+	
+item HCCannedpearempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedpearwater,
+		Icon				=	HCCannedpearempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedpearwater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.5,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.3,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedpearempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedpearwater,
+		Icon				=	HCCannedpearwater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedpeachempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedpeachwater,
+		Icon				=	HCCannedpeachempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedpeachwater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.5,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.3,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedpeachempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedpeachwater,
+		Icon				=	HCCannedpeachwater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedgreenbeansempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedgreenbeanswater,
+		Icon				=	HCCannedgreenbeansempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+
+	}
+
+item HCCannedgreenbeanswater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.5,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.3,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedgreenbeansempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedgreenbeanswater,
+		Icon				=	HCCannedgreenbeanswater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedmushroomsempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedmushroomswater,
+		Icon				=	HCCannedmushroomsempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedmushroomswater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.5,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.3,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedmushroomsempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedmushroomswater,
+		Icon				=	HCCannedmushroomswater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+	
+item HCCannedpumpkinempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedpumpkinwater,
+		Icon				=	HCCannedpumpkinempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedpumpkinwater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.5,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.3,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedpumpkinempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedpumpkinwater,
+		Icon				=	HCCannedpumpkinwater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedspamempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		Icon				=	HCCannedspamempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedcranberriesempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedcranberrieswater,
+		Icon				=	HCCannedcranberriesempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedcranberrieswater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.5,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.3,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedcranberriesempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedcranberrieswater,
+		Icon				=	HCCannedcranberrieswater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedpineappleempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedpineapplewater,
+		Icon				=	HCCannedpineappleempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedpineapplewater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.5,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.3,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedpineappleempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedpineapplewater,
+		Icon				=	HCCannedpineapplewater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedrefriedbeansempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedrefriedbeanswater,
+		Icon				=	HCCannedrefriedbeansempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedrefriedbeanswater
+	{
+		IsWaterSource			=	TRUE,
+		Weight				=	0.5,
+		CanStoreWater			=	TRUE,
+		Type				=	Drainable,
+		UseWhileEquipped		=	FALSE,
+		UseDelta			=	0.3,
+		DisplayName			=	Tin Can with Water,
+		ReplaceOnDeplete		=	HCCannedrefriedbeansempty,
+		ReplaceOnUseOn			=	WaterSource-HCCannedrefriedbeanswater,
+		Icon				=	HCCannedrefriedbeanswater,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCanbangedupopenempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE
+		Type				=	Normal,
+		DisplayName			=	DentedTin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCanbangedupopenwater,
+		Icon				=	HCCoffeelargeempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCanbangedupopenwater
+	{
+		IsWaterSource			= 	TRUE,
+		Weight				= 	0.5,
+		CanStoreWater			= 	TRUE,
+		Type				= 	Drainable,
+		UseWhileEquipped		= 	FALSE,
+		UseDelta			= 	0.03,
+		DisplayName			= 	Tin Can with Water,
+		ReplaceOnDeplete		= 	HCCanbangedupopenempty,
+		ReplaceOnUseOn			= 	WaterSource-HCCanbangedupopenwater,
+		Icon				= 	HCCanbangedupopenwater,
+		IsCookable			= 	TRUE,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedcheesesauceopenempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedcheesesauceopenwater,
+		Icon				=	HCCoffeelargeempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedcheesesauceopenwater
+	{
+		IsWaterSource			= 	TRUE,
+		Weight				= 	0.5,
+		CanStoreWater			= 	TRUE,
+		Type				= 	Drainable,
+		UseWhileEquipped		= 	FALSE,
+		UseDelta			= 	0.03,
+		DisplayName			= 	Tin Can with Water,
+		ReplaceOnDeplete		= 	HCCannedcheesesauceopenempty,
+		ReplaceOnUseOn			= 	WaterSource-HCCannedcheesesauceopenwater,
+		Icon				= 	HCCannedcheesesauceopenwater,
+		IsCookable			= 	TRUE,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedchickenbreastopenempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedchickenbreastopenwater,
+		Icon				=	HCCannedchickenbreastopenempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedchickenbreastopenwater
+	{
+		IsWaterSource			= 	TRUE,
+		Weight				= 	0.5,
+		CanStoreWater			= 	TRUE,
+		Type				= 	Drainable,
+		UseWhileEquipped		= 	FALSE,
+		UseDelta			= 	0.03,
+		DisplayName			= 	Tin Can with Water,
+		ReplaceOnDeplete		= 	HCCannedchickenbreastopenempty,
+		ReplaceOnUseOn			= 	WaterSource-HCCannedchickenbreastopenwater,
+		Icon				= 	HCCannedchickenbreastopenwater,
+		IsCookable			= 	TRUE,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedfruitcocktailopenempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedfruitcocktailopenwater,
+		Icon				=	HCCannedfruitcocktailopenempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+item HCCannedfruitcocktailopenwater
+	{
+		IsWaterSource			= 	TRUE,
+		Weight				= 	0.5,
+		CanStoreWater			= 	TRUE,
+		Type				= 	Drainable,
+		UseWhileEquipped		= 	FALSE,
+		UseDelta			= 	0.03,
+		DisplayName			= 	Tin Can with Water,
+		ReplaceOnDeplete		= 	HCCannedfruitcocktailopenempty,
+		ReplaceOnUseOn			= 	WaterSource-HCCannedfruitcocktailopenwater,
+		Icon				= 	HCCannedfruitcocktailopenwater,
+		IsCookable			= 	TRUE,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedgovermentbeefopenempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedgovermentbeefopenwater,
+		Icon				=	HCCannedgovermentbeefopenempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedgovermentbeefopenwater
+	{
+		IsWaterSource			= 	TRUE,
+		Weight				= 	0.5,
+		CanStoreWater			= 	TRUE,
+		Type				= 	Drainable,
+		UseWhileEquipped		= 	FALSE,
+		UseDelta			= 	0.03,
+		DisplayName			= 	Tin Can with Water,
+		ReplaceOnDeplete		= 	HCCannedgovermentbeefopenempty,
+		ReplaceOnUseOn			= 	WaterSource-HCCannedgovermentbeefopenwater,
+		Icon				= 	HCCannedgovermentbeefopenwater,
+		IsCookable			= 	TRUE,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedgovermentbreadopenempty 
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedgovermentbreadopenwater,
+		Icon				=	HCCannedgovermentbreadopenempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedgovermentbreadopenwater
+	{
+		IsWaterSource			= 	TRUE,
+		Weight				= 	0.5,
+		CanStoreWater			= 	TRUE,
+		Type				= 	Drainable,
+		UseWhileEquipped		= 	FALSE,
+		UseDelta			= 	0.03,
+		DisplayName			= 	Tin Can with Water,
+		ReplaceOnDeplete		= 	HCCannedgovermentbreadopenempty,
+		ReplaceOnUseOn			= 	WaterSource-HCCannedgovermentbreadopenwater,
+		Icon				= 	HCCannedgovermentbreadopenwater,
+		IsCookable			= 	TRUE,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,	
+	}	
+
+item HCCannedgovermentchickenopenempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedgovermentchickenopen,
+		Icon				=	HCCannedgovermentchickenopenempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedgovermentchickenopenwater
+	{
+		IsWaterSource			= 	TRUE,
+		Weight				= 	0.5,
+		CanStoreWater			= 	TRUE,
+		Type				= 	Drainable,
+		UseWhileEquipped		= 	FALSE,
+		UseDelta			= 	0.03,
+		DisplayName			= 	Tin Can with Water,
+		ReplaceOnDeplete		= 	HCCannedgovermentchickenopenempty,
+		ReplaceOnUseOn			= 	WaterSource-HCCannedgovermentchickenopenwater,
+		Icon				= 	HCCannedgovermentchickenopenwater,
+		IsCookable			= 	TRUE,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedgovermentporkopenempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedgovermentporkopenwater,
+		Icon				=	HCCannedgovermentporkopenempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedgovermentporkopenwater
+	{
+		IsWaterSource			= 	TRUE,
+		Weight				=	0.5,
+		CanStoreWater			= 	TRUE,
+		Type				= 	Drainable,
+		UseWhileEquipped		= 	FALSE,
+		UseDelta			= 	0.03,
+		DisplayName			= 	Tin Can with Water,
+		ReplaceOnDeplete		= 	HCCannedgovermentporkopenempty,
+		ReplaceOnUseOn			= 	WaterSource-HCCannedgovermentporkopenwater,
+		Icon				= 	HCCannedgovermentporkopenwater,
+		IsCookable			= 	TRUE,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCCannedmacncheeseopenempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedmacncheeseopenwater,
+		Icon				=	HCCannedmacncheeseopenempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+item HCCannedmacncheeseopenwater
+	{
+		IsWaterSource			= 	TRUE,
+		Weight				= 	0.5,
+		CanStoreWater			= 	TRUE,
+		Type				= 	Drainable,
+		UseWhileEquipped		= 	FALSE,
+		UseDelta			= 	0.03,
+		DisplayName			= 	Tin Can with Water,
+		ReplaceOnDeplete		= 	HCCannedmacncheeseopenempty,
+		ReplaceOnUseOn			= 	WaterSource-HCCannedmacncheeseopenwater,
+		Icon				= 	HCCannedmacncheeseopenwater,
+		IsCookable			= 	TRUE,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}	
+
+item HCCannedpiefillingappleopenempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedpiefillingappleopenwater,
+		Icon				=	HCCannedpiefillingappleopenempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedpiefillingappleopenwater
+	{
+		IsWaterSource			= 	TRUE,
+		Weight				= 	0.5,
+		CanStoreWater			= 	TRUE,
+		Type				= 	Drainable,
+		UseWhileEquipped		= 	FALSE,
+		UseDelta			= 	0.03,
+		DisplayName			= 	Tin Can with Water,
+		ReplaceOnDeplete		= 	HCCannedpiefillingappleopenempty,
+		ReplaceOnUseOn			= 	WaterSource-HCCannedpiefillingappleopenwater,
+		Icon				= 	HCCannedpiefillingappleopenwater,
+		IsCookable			= 	TRUE,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,	
+	}	
+
+item HCCannedpiefillingcherryopenempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedpiefillingcherryopenwater,
+		Icon				=	HCCannedpiefillingcherryopenempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedpiefillingcherryopenwater
+	{
+		IsWaterSource			= 	TRUE,
+		Weight				= 	0.5,
+		CanStoreWater			= 	TRUE,
+		Type				= 	Drainable,
+		UseWhileEquipped		= 	FALSE,
+		UseDelta			= 	0.03,
+		DisplayName			= 	Tin Can with Water,
+		ReplaceOnDeplete		= 	HCCannedpiefillingcherryopenempty,
+		ReplaceOnUseOn			= 	WaterSource-HCCannedpiefillingcherryopenwater,
+		Icon				= 	HCCannedpiefillingcherryopenwater,
+		IsCookable			= 	TRUE,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,	
+	}	
+
+item HCCannedpiefillingblueberryopenempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedpiefillingblueberryopenwater,
+		Icon				=	HCCannedpiefillingblueberryopenempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedpiefillingblueberryopenwater
+	{
+		IsWaterSource			= 	TRUE,
+		Weight				= 	0.5,
+		CanStoreWater			= 	TRUE,
+		Type				= 	Drainable,
+		UseWhileEquipped		= 	FALSE,
+		UseDelta			= 	0.03,
+		DisplayName			= 	Tin Can with Water,
+		ReplaceOnDeplete		=	 HCCannedpiefillingblueberryopenempty,
+		ReplaceOnUseOn			= 	WaterSource-HCCannedpiefillingblueberryopenwater,
+		Icon				= 	HCCannedpiefillingblueberryopenwater,
+		IsCookable			= 	TRUE,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}	
+
+item HCCannedravioliopenempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedravioliopenopenwater,
+		Icon				=	HCCannedravioliopenempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedravioliopenopenwater
+	{
+		IsWaterSource			= 	TRUE,
+		Weight				= 	0.5,
+		CanStoreWater			= 	TRUE,
+		Type				= 	Drainable,
+		UseWhileEquipped		= 	FALSE,
+		UseDelta			= 	0.03,
+		DisplayName			= 	Tin Can with Water,
+		ReplaceOnDeplete		= 	HCCannedravioliopenempty,
+		ReplaceOnUseOn			= 	WaterSource-HCCannedravioliopenopenwater,
+		Icon				= 	HCCannedravioliopenopenwater,
+		IsCookable			= 	TRUE,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}	
+
+item HCCannedspaghettiringsopenempty
+	{
+		Weight				=	0.1,
+		CanStoreWater			=	TRUE
+		Type				=	Normal,
+		DisplayName			=	Tin Can,
+		ReplaceOnUseOn			=	WaterSource-HCCannedspaghettiringsopenwater,
+		Icon				=	HCCannedspaghettiringsopenempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCannedspaghettiringsopenwater
+	{
+		IsWaterSource			= 	TRUE,
+		Weight				= 	0.5,
+		CanStoreWater			= 	TRUE,
+		Type				= 	Drainable,
+		UseWhileEquipped		= 	FALSE,
+		UseDelta			= 	0.03,
+		DisplayName			= 	Tin Can with Water,
+		ReplaceOnDeplete		= 	HCCannedspaghettiringsopenempty,
+		ReplaceOnUseOn			= 	WaterSource-HCCannedspaghettiringsopenwater,
+		Icon				= 	HCCannedspaghettiringsopenwater,
+		IsCookable			= 	TRUE,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}	
+
+item HCCoffeelargeempty
+	{
+		Weight				=	0.2,
+		CanStoreWater			=	TRUE,
+		Type				=	Normal,
+		DisplayName			=	Coffee Can,
+		ReplaceOnUseOn			=	WaterSource-HCCoffeelargewater,
+		Icon				=	HCCoffeelargeempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+	}
+
+item HCCoffeelargewater
+	{
+		IsWaterSource			= 	TRUE,
+		Weight				= 	2,
+		CanStoreWater			= 	TRUE,
+		Type				= 	Drainable,
+		UseWhileEquipped		= 	FALSE,
+		UseDelta			= 	0.03,
+		DisplayName			= 	Coffee Can of Water,
+		ReplaceOnDeplete		= 	Pot,
+		ReplaceOnUseOn			= 	WaterSource-WaterPot,
+		Icon				= 	HCCoffeelarge,
+		IsCookable			= 	TRUE,
+		RainFactor 			= 	1,
+		Tooltip 			= 	Tooltip_item_RainFromGround,
+	}
+
+item HCTVDinnerpackage
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	TV Dinner Package,
+		Icon				=	HCTVDinnerpackage,
+		DisplayCategory 		= 	Trash,
+	}
+item HCMustardempty
+	{
+		Weight				=	0.05,
+		Type				=	Normal,
+		DisplayName			=	Empty Mustard Bottle,
+		Icon				=	HCMustardempty,
+		DisplayCategory 		= 	Trash,
+	}
+item HCKetchupempty
+	{
+		Weight				=	0.05,
+		Type				=	Normal,
+		DisplayName			=	Empty Ketchup Bottle,
+		Icon				=	HCKetchupempty,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCPeanutbutterjarempty
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	Peanut Butter Jar,
+		Icon				=	HCPeanutbutterjarempty,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCUHTmilkempty
+    {
+        	Weight                  	=    	0.1,
+        	Type                    	=    	Normal,
+       	 	DisplayName        		=    	Empty UHT Milkpackage,
+        	Icon                    	=    	HCUHTmilkempty,
+		DisplayCategory 		= 	Trash,
+    }
+
+item HCMilkempty
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	Empty Milk Carton,
+		Icon				=	HCMilkempty,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCMilkjugempty
+    	{
+        	Weight    			=   	0.1,
+		CanStoreWater			=	TRUE,
+        	Type    			=   	Normal,
+        	DisplayName    			=   	Empty Milk Jug,
+		ReplaceOnUseOn			=	WaterSource-HCMilkjugwater,
+        	Icon    			=   	HCMilkjugempty,
+		DisplayCategory 		= 	Trash,
+		RainFactor 			= 	1,
+    	}
+	
+item HCMilkjugchocolateempty
+    	{
+        	Weight    			= 	0.1,
+        	Type    			= 	Normal,
+        	DisplayName     		= 	Empty Milk Jug,
+        	icon 				= 	HCMilkjugchocolateempty,
+		DisplayCategory 		= 	Trash,
+    	} 
+
+item HCMilkjugchocolateempty
+    	{
+        	Weight    			=   	0.1,
+		CanStoreWater			=	TRUE,
+        	Type    			=   	Normal,
+        	DisplayName    			=   	Empty Milk Jug,
+		ReplaceOnUseOn			=	WaterSource-HCMilkjugchocolatewater,
+        	Icon    			=   	HCMilkjugchocolateempty,
+		DisplayCategory 		=	Trash,
+		RainFactor 			= 	1,
+    	}
+
+item HCEvaporatedmilkopenempty
+    	{
+        	Weight    			= 	0.1,
+        	Type    			= 	Normal,
+        	DisplayName     		= 	Plastic Packaging,
+        	icon 				= 	HCEvaporatedmilkopenempty,
+		DisplayCategory 		= 	Trash,
+    	} 
+
+item HCYoghurtempty
+    	{
+        	DisplayName			=	Empty Yoghurt,
+        	Icon				=	HCYoghurtempty,
+        	Weight				=	0.1,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCIcecreamempty
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	Empty Ice Cream Can,
+		Icon				=	HCIcecreamempty,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCCerealtrash
+	{
+		Weight				=	0.04,
+		Type				=	Normal,
+		DisplayName			=	Empty Cereal Box,
+		Icon				=	HCCerealtrash,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCCereal2trash
+	{
+		Weight				=	0.04,
+		Type				=	Normal,
+		DisplayName			=	Empty Cereal Box,
+		Icon				=	HCCereal2trash,
+		DisplayCategory 		= 	Trash,
+	}
+
+
+item HCCereal3trash
+	{
+		Weight				=	0.04,
+		Type				=	Normal,
+		DisplayName			=	Empty Cereal Box,
+		Icon				=	HCCereal3trash,
+		DisplayCategory 		= 	Trash,
+	}
+
+
+item HCOatsempty
+	{
+		Weight				=	0.04,
+		Type				=	Normal,
+		DisplayName			=	Empty Can of Oats,
+		Icon				=	HCOatsempty,
+		DisplayCategory 		= 	Trash,
+	}
+
+item HCFlourempty
+    	{
+        	DisplayName			=	Empty Flour Bag,
+        	Icon				=	HCFlourempty,
+        	Weight				=	0.15,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCRiceempty
+    	{
+        	DisplayName			=	Empty Rice Bag,
+        	Icon				=	HCRiceempty,
+        	Weight				=	0.15,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCSugarempty
+    	{
+        	DisplayName			=	Empty Sugar Pack,
+        	Icon				=	HCSugarempty,
+        	Weight				=	0.05,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCVinegarempty
+    	{
+        	DisplayName			=	Empty Vinegar Bottle,
+        	Icon				=	HCVinegarempty,
+        	Weight				=	0.1,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCGlueempty
+    	{
+       	 	DisplayName			=	Empty Glue Bottle,
+        	Icon				=	HCGlueempty,
+        	Weight				=	0.05,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+item HCWoodglueempty
+    	{
+        	DisplayName			=	Empty Glue Bottle,
+        	Icon				=	HCWoodglueempty,
+        	Weight				=	0.05,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+item HCScotchtapeempty
+    	{
+        	DisplayName			=	Empty Adhesive Tape,
+        	Icon				=	HCScotchtapeempty,
+        	Weight				=	0.05,
+		Type				=	Normal,
+		DisplayCategory 		= 	Trash,
+    	}
+
+/************************RECIPES************************/
+
+
+
+
+
+
+}
+
+
+
+

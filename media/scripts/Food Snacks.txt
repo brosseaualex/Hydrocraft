@@ -1,0 +1,217 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCPumpkinseedsnack
+	{
+	HungerChange			=	-15,
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Bag of Pumpkin Seeds,
+	Icon				=	HCPumpkinseedsnack,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	108,
+        Proteins 			= 	38,
+        Lipids 				= 	38,
+        Calories 			= 	892,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	}
+
+item HCSunflowerseedsnack
+	{
+	HungerChange			=	-15,
+	BoredomChange			=	-5,
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Bag of Sunflower Seeds,
+	Icon				=	HCSunflowerseedsnack,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	48,
+        Proteins 			= 	38,
+        Lipids 				= 	50,
+        Calories 			= 	1164,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	}
+
+item HCPeanutsnack
+	{
+	HungerChange			=	-15,
+	BoredomChange			=	-5,
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Can of Roasted Peanuts,
+	Icon				=	HCPeanutsnack,
+	FoodType			=	NoExplicit,
+	Carbohydrates 			= 	200,
+        Proteins 			= 	7,
+        Lipids 				= 	14,
+        Calories 			= 	170,
+	CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	}
+
+item HCCrisps5
+	{
+	HungerChange			=	-15,
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Chips,
+	Icon				=	HCCrisps5,
+        Carbohydrates 			= 	72,
+        Proteins 			= 	4.5,
+        Lipids 				= 	45,
+        Calories 			= 	720,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	ReplaceOnUse			= 	Hydrocraft.HCCrisps5trash,
+	}
+
+item HCCrisps6
+	{
+	HungerChange			=	-15,
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Chips,
+	Icon				=	HCCrisps6,
+        Carbohydrates 			= 	72,
+        Proteins 			= 	4.5,
+        Lipids 				= 	45,
+        Calories 			= 	720,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	ReplaceOnUse			= 	Hydrocraft.HCCrisps6trash,
+	}
+
+item HCCrisps7
+	{
+	HungerChange			=	-15,
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Chips,
+	Icon				=	HCCrisps7,
+        Carbohydrates 			= 	72,
+        Proteins 			= 	4.5,
+        Lipids 				= 	45,
+        Calories 			= 	720,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	ReplaceOnUse			= 	Hydrocraft.HCCrisps7trash,
+	}
+
+item HCCrisps8
+	{
+	HungerChange			=	-15,
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Chips,
+	Icon				=	HCCrisps8,
+        Carbohydrates 			= 	72,
+        Proteins 			= 	4.5,
+        Lipids 				= 	45,
+        Calories 			= 	720,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	ReplaceOnUse			= 	Hydrocraft.HCCrisps8trash,
+	}
+
+item HCCrisps9
+	{
+	HungerChange			=	-15,
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Chips,
+	Icon				=	HCCrisps9,
+        Carbohydrates 			= 	72,
+        Proteins 			= 	4.5,
+        Lipids 				= 	45,
+        Calories 			= 	720,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	ReplaceOnUse			= 	Hydrocraft.HCCrisps9trash,
+	}
+
+item HCSnacktartsred
+	{
+	HungerChange			=	-12,
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Cherry Snack Tarts,
+	Icon				=	HCSnacktartsred,
+        Carbohydrates 			= 	76,
+        Proteins 			= 	4.1,
+        Lipids 				= 	35,
+        Calories 			= 	400,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	}
+	
+item HCSnacktartsblue
+	{
+	HungerChange			=	-12,
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Berry Snack Tarts,
+	Icon				=	HCSnacktartsblue,
+        Carbohydrates 			= 	76,
+        Proteins 			= 	4.1,
+        Lipids 				= 	35,
+        Calories 			= 	400,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	}
+	
+item HCSnacktartsbluebox
+	{
+	Weight				=	0.5,
+	Type				=	Food,
+	DisplayName			=	Box of Berry Snack Tarts,
+	Icon				=	HCSnacktartsbluebox,
+        Carbohydrates 			= 	304,
+        Proteins 			= 	16.4,
+        Lipids 				= 	140,
+        Calories 			= 	1600,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	}
+	
+item HCSnacktartsredbox
+	{
+	Weight				=	0.5,
+	Type				=	Food,
+	DisplayName			=	Box of Cherry Snack Tarts,
+	Icon				=	HCSnacktartsredbox,
+        Carbohydrates 			= 	304,
+        Proteins 			= 	16.4,
+        Lipids 				= 	140,
+        Calories 			= 	1600,
+        Packaged 			= 	TRUE,
+        CantBeFrozen 			= 	TRUE,
+	}
+	
+/************************RECIPES************************/
+
+recipe Open Box of Berry Snack Tarts
+    {
+       		HCSnacktartsbluebox,
+       		Result:HCSnacktartsblue=4,
+       		Time:50.0,
+	   	Category:Cooking,
+    }
+	
+recipe Open Box of Cherry Snack Tarts
+    {
+       		HCSnacktartsredbox,
+       		Result:HCSnacktartsred=4,
+       		Time:50.0,
+	   	Category:Cooking,
+    }
+  	
+}

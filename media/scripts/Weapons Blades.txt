@@ -1,0 +1,2314 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, camping
+
+    }
+
+/************************ITEMS************************/
+
+
+/************************WEAPONS************************/
+
+	item HCMachete
+	{
+		DisplayName					=	Machete,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Knife,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCMachete,
+		Weight						=	0.5,
+		WeaponWeight					=	0.5,
+		MaxRange					=	1.30,
+		MinRange					=	0.61,
+		MaxDamage					=	1,
+		MinDamage					=	0.5,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	1,
+		PushBackMod					=	0.5,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	1,
+		ConditionLowerChanceOneIn			=	35,
+		ConditionMax					=	10,
+		SplatNumber					=	1,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	2.25,
+		MinimumSwingTime				=	2.25,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0,
+		TwoHandWeapon 					= 	FALSE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	20,
+	}
+
+	item HCCombatknife	
+	{
+		DisplayName					=	Combat Knife,
+		Type						=	Weapon,
+		SubCategory					=	Stab,
+		Categories					=	Blade,
+		WeaponSprite					=	Knife,
+		SwingAnim					=	Stab,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	0.8,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCCombatknife,
+		Weight						=	0.75,
+		WeaponWeight					=	0.75,
+		MaxRange					=	1,
+		MinRange					=	0.61,
+		MaxDamage					=	1.15,
+		MinDamage					=	0.5,
+		CriticalChance					=	25,
+		DoorDamage					=	3,
+		MaxHitCount					=	1,
+		PushBackMod					=	0.1,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	1,
+		ConditionLowerChanceOneIn			=	20,
+		ConditionMax					=	10,
+		SplatNumber					=	2,
+		SplatSize					=	3,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	1.9,
+		MinimumSwingTime				=	1.9,
+		SwingAmountBeforeImpact				=	0.002,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= 	FALSE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	1,
+	}
+
+	item HCKatana	
+	{
+		DisplayName					=	Katana,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Poolcue,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCKatana,
+		ImpactSound					=	Boilguy1,
+		Weight						=	1,
+		WeaponWeight					=	0.5,
+		MaxRange					=	2,
+		MinRange					=	0.5,
+		MaxDamage					=	2,
+		MinDamage					=	0.8,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	2.25,
+		ConditionLowerChanceOneIn			=	20,
+		ConditionMax					=	10,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	2.2,
+		MinimumSwingTime				=	2.2,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= 	TRUE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	10,
+	}
+
+item HCShurikensteel
+    {
+        MaxRange		=	20,
+        Type			=	Weapon,
+        MinimumSwingTime	=	1.5,
+        SwingAnim		=	Bat,
+        UseSelf			=	TRUE,
+        DisplayName		=	Steel Shuriken,
+        SwingTime		=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject		=	NoiseGenerator,
+        MaxDamage		=	0.6,
+        MinDamage		=	0.3,
+        Weight			=	0.2,
+        MaxHitCount		=	0,
+        Icon			=	HCShurikensteel,
+        NoiseRange  		=   	1,
+    }
+
+item HCShurikeniron
+    {
+        MaxRange		=	15,
+        Type			=	Weapon,
+        MinimumSwingTime	=	1.5,
+        SwingAnim		=	Bat,
+        UseSelf			=	TRUE,
+        DisplayName		=	Iron Shuriken,
+        SwingTime		=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject		=	NoiseGenerator,
+        MaxDamage		=	0.6,
+        MinDamage		=	0.3,
+        Weight			=	0.2,
+        MaxHitCount		=	0,
+        Icon			=	HCShurikeniron,
+        NoiseRange  		=   	1,
+    }
+
+item HCShurikenbronze
+    {
+        MaxRange		=	10,
+        Type			=	Weapon,
+        MinimumSwingTime	=	1.5,
+        SwingAnim		=	Bat,
+        UseSelf			=	TRUE,
+        DisplayName		=	Bronze Shuriken,
+        SwingTime		=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject		=	NoiseGenerator,
+        MaxDamage		=	0.6,
+        MinDamage		=	0.3,
+        Weight			=	0.2,
+        MaxHitCount		=	0,
+        Icon			=	HCShurikenbronze,
+        NoiseRange  		=   	1,
+    }
+
+item HCShurikencopper
+    {
+        MaxRange		=	5,
+        Type			=	Weapon,
+        MinimumSwingTime	=	1.5,
+        SwingAnim		=	Bat,
+        UseSelf			=	TRUE,
+        DisplayName		=	Copper Shuriken,
+        SwingTime		=	1.5,
+        SwingAmountBeforeImpact	=	0.1,
+        PhysicsObject		=	NoiseGenerator,
+        MaxDamage		=	0.6,
+        MinDamage		=	0.3,
+        Weight			=	0.2,
+        MaxHitCount		=	0,
+        Icon			=	HCShurikencopper,
+        NoiseRange  		=   	1,
+    }
+
+	item HCKnifesteel
+	{
+		MaxRange					=	0.9,
+		WeaponSprite					=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime				=	2,
+		KnockBackOnNoDeath				=	FALSE,
+		SwingAmountBeforeImpact				=	0.02,
+		Categories					=	Blade,
+		ConditionLowerChanceOneIn			=	20,
+		Weight						=	0.3,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.6,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax					=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon				=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight					=	1.7,
+		DisplayName					=	Steel Knife,
+		MinRange					=	0.61,
+		CloseKillMove 					= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.3,
+		KnockdownMod					=	0,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCKnifesteel,
+		RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	1,
+        	EnduranceMod 					= 	0.5,
+	}
+
+	item HCKnifeiron
+	{
+		MaxRange					=	0.9,
+		WeaponSprite					=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime				=	2,
+		KnockBackOnNoDeath				=	FALSE,
+		SwingAmountBeforeImpact				=	0.02,
+		Categories					=	Blade,
+		ConditionLowerChanceOneIn			=	15,
+		Weight						=	0.3,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.6,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax					=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon				=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight					=	1.7,
+		DisplayName					=	Iron Knife,
+		MinRange					=	0.61,
+		CloseKillMove 					= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.3,
+		KnockdownMod					=	0,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCKnifeiron,
+		RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	1,
+        	EnduranceMod 					= 	0.5,
+	}
+
+	item HCKnifebronze
+	{
+		MaxRange					=	0.9,
+		WeaponSprite					=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime				=	2,
+		KnockBackOnNoDeath				=	FALSE,
+		SwingAmountBeforeImpact				=	0.02,
+		Categories					=	Blade,
+		ConditionLowerChanceOneIn			=	10,
+		Weight						=	0.3,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.6,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax					=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon				=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight					=	1.7,
+		DisplayName					=	Bronze Knife,
+		MinRange					=	0.61,
+		CloseKillMove 					= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.3,
+		KnockdownMod					=	0,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCKnifebronze,
+		RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	1,
+        	EnduranceMod 					= 	0.5,
+	}
+
+	item HCKnifecopper
+	{
+		MaxRange					=	0.9,
+		WeaponSprite					=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime				=	2,
+		KnockBackOnNoDeath				=	FALSE,
+		SwingAmountBeforeImpact				=	0.02,
+		Categories					=	Blade,
+		ConditionLowerChanceOneIn			=	5,
+		Weight						=	0.3,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.6,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax					=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon				=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight					=	1.7,
+		DisplayName					=	Copper Knife,
+		MinRange					=	0.61,
+		CloseKillMove 					= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.3,
+		KnockdownMod					=	0,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCKnifecopper,
+		RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	1,
+        	EnduranceMod 					= 	0.5,
+	}
+
+
+	item HCKnifestone
+	{
+		MaxRange					=	0.9,
+		WeaponSprite					=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime				=	2,
+		KnockBackOnNoDeath				=	FALSE,
+		SwingAmountBeforeImpact				=	0.02,
+		Categories					=	Blade,
+		ConditionLowerChanceOneIn			=	3,
+		Weight						=	0.3,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.6,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax					=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon				=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight					=	1.7,
+		DisplayName					=	Stone Knife,
+		MinRange					=	0.61,
+		CloseKillMove 					= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.3,
+		KnockdownMod					=	0,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCKnifestone,
+		RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	1,
+        	EnduranceMod 					= 	0.5,
+	}
+
+    item HCDaggersteel
+	{
+		MaxRange					=	0.9,
+		WeaponSprite					=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime				=	2,
+		KnockBackOnNoDeath				=	FALSE,
+		SwingAmountBeforeImpact				=	0.02,
+		Categories					=	Blade,
+		ConditionLowerChanceOneIn			=	20,
+		Weight						=	0.3,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.7,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax					=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon				=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight					=	1.7,
+		DisplayName					=	Steel Dagger,
+		MinRange					=	0.61,
+		CloseKillMove 					= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.3,
+		KnockdownMod					=	0,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCDaggersteel,
+		RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	TreeDamage  					=   	2,
+        	EnduranceMod 					= 	0.5,
+	}
+
+    item HCDaggeriron
+	{
+		MaxRange					=	0.9,
+		WeaponSprite					=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime				=	2,
+		KnockBackOnNoDeath				=	FALSE,
+		SwingAmountBeforeImpact				=	0.02,
+		Categories					=	Blade,
+		ConditionLowerChanceOneIn			=	15,
+		Weight						=	0.3,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.7,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax					=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon				=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight					=	1.7,
+		DisplayName					=	Iron Dagger,
+		MinRange					=	0.61,
+		CloseKillMove 					= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.3,
+		KnockdownMod					=	0,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCDaggeriron,
+		RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	TreeDamage  					=   	2,
+        	EnduranceMod 					= 	0.5,
+	}
+
+    item HCDaggerbronze
+	{
+		MaxRange					=	0.9,
+		WeaponSprite					=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime				=	2,
+		KnockBackOnNoDeath				=	FALSE,
+		SwingAmountBeforeImpact				=	0.02,
+		Categories					=	Blade,
+		ConditionLowerChanceOneIn			=	10,
+		Weight						=	0.3,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.7,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax					=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon				=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight					=	1.7,
+		DisplayName					=	Bronze Dagger,
+		MinRange					=	0.61,
+		CloseKillMove 					= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.3,
+		KnockdownMod					=	0,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCDaggerbronze,
+		RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	TreeDamage  					=   	2,
+        	EnduranceMod 					= 	0.5,
+	}
+
+    item HCDaggercopper
+	{
+		MaxRange					=	0.9,
+		WeaponSprite					=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime				=	2,
+		KnockBackOnNoDeath				=	FALSE,
+		SwingAmountBeforeImpact				=	0.02,
+		Categories					=	Blade,
+		ConditionLowerChanceOneIn			=	5,
+		Weight						=	0.3,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.7,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax					=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon				=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight					=	1.7,
+		DisplayName					=	Copper Dagger,
+		MinRange					=	0.61,
+		CloseKillMove 					= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.3,
+		KnockdownMod					=	0,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCDaggercopper,
+		RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	TreeDamage  					=   	2,
+        	EnduranceMod 					= 	0.5,
+	}
+
+	item HCShortswordsteel
+	{
+		DisplayName					=	Steel Short Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Knife,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCShortswordsteel,
+		Weight						=	0.5,
+		WeaponWeight					=	0.5,
+		MaxRange					=	1.30,
+		MinRange					=	0.61,
+		MaxDamage					=	1,
+		MinDamage					=	0.5,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	1,
+		PushBackMod					=	0.5,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	1,
+		ConditionLowerChanceOneIn			=	20,
+		ConditionMax					=	10,
+		SplatNumber					=	1,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	2.25,
+		MinimumSwingTime				=	2.25,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0,
+		TwoHandWeapon 					= 	FALSE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	10,
+	}
+
+	item HCShortswordiron
+	{
+		DisplayName					=	Iron Short Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Knife,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCShortswordiron,
+		Weight						=	0.5,
+		WeaponWeight					=	0.5,
+		MaxRange					=	1.30,
+		MinRange					=	0.61,
+		MaxDamage					=	1,
+		MinDamage					=	0.5,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	1,
+		PushBackMod					=	0.5,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	1,
+		ConditionLowerChanceOneIn			=	15,
+		ConditionMax					=	10,
+		SplatNumber					=	1,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	2.25,
+		MinimumSwingTime				=	2.25,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0,
+		TwoHandWeapon 					= 	FALSE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	10,
+	}
+
+	item HCShortswordbronze
+	{
+		DisplayName					=	Bronze Short Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Knife,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCShortswordbronze,
+		Weight						=	0.5,
+		WeaponWeight					=	0.5,
+		MaxRange					=	1.30,
+		MinRange					=	0.61,
+		MaxDamage					=	1,
+		MinDamage					=	0.5,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	1,
+		PushBackMod					=	0.5,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	1,
+		ConditionLowerChanceOneIn			=	10,
+		ConditionMax					=	10,
+		SplatNumber					=	1,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	2.25,
+		MinimumSwingTime				=	2.25,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0,
+		TwoHandWeapon 					= 	FALSE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	10,
+	}
+
+	item HCShortswordcopper
+	{
+		DisplayName					=	Copper Short Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Knife,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCShortswordcopper,
+		Weight						=	0.5,
+		WeaponWeight					=	0.5,
+		MaxRange					=	1.30,
+		MinRange					=	0.61,
+		MaxDamage					=	1,
+		MinDamage					=	0.5,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	1,
+		PushBackMod					=	0.5,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	1,
+		ConditionLowerChanceOneIn			=	5,
+		ConditionMax					=	10,
+		SplatNumber					=	1,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	2.25,
+		MinimumSwingTime				=	2.25,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0,
+		TwoHandWeapon 					= 	FALSE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	10,
+	}
+
+	item HCLongswordsteel	
+	{
+		DisplayName					=	Steel Long Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Poolcue,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCLongswordsteel,
+		ImpactSound					=	PZ_FoodSwoosh,
+		Weight						=	1,
+		WeaponWeight					=	1,
+		MaxRange					=	2,
+		MinRange					=	0.5,
+		MaxDamage					=	2,
+		MinDamage					=	0.8,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	2.25,
+		ConditionLowerChanceOneIn			=	20,
+		ConditionMax					=	10,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	3,
+		MinimumSwingTime				=	3,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= 	TRUE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	10,
+	}
+
+	item HCLongswordiron	
+	{
+		DisplayName					=	Iron Long Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Poolcue,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCLongswordiron,
+		ImpactSound					=	PZ_FoodSwoosh,
+		Weight						=	1,
+		WeaponWeight					=	1,
+		MaxRange					=	2,
+		MinRange					=	0.5,
+		MaxDamage					=	2,
+		MinDamage					=	0.8,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	2.25,
+		ConditionLowerChanceOneIn			=	15,
+		ConditionMax					=	10,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	3,
+		MinimumSwingTime				=	3,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= 	TRUE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	10,
+	}
+
+	item HCLongswordbronze	
+	{
+		DisplayName					=	Bronze Long Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Poolcue,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCLongswordbronze,
+		ImpactSound					=	PZ_FoodSwoosh,
+		Weight						=	1,
+		WeaponWeight					=	1,
+		MaxRange					=	2,
+		MinRange					=	0.5,
+		MaxDamage					=	2,
+		MinDamage					=	0.8,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	2.25,
+		ConditionLowerChanceOneIn			=	10,
+		ConditionMax					=	10,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	3,
+		MinimumSwingTime				=	3,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= 	TRUE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	10,
+	}
+
+	item HCLongswordcopper	
+	{
+		DisplayName					=	Copper Long Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Poolcue,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCLongswordcopper,
+		ImpactSound					=	PZ_FoodSwoosh,
+		Weight						=	1,
+		WeaponWeight					=	1,
+		MaxRange					=	2,
+		MinRange					=	0.5,
+		MaxDamage					=	2,
+		MinDamage					=	0.8,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	2.25,
+		ConditionLowerChanceOneIn			=	5,
+		ConditionMax					=	10,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	3,
+		MinimumSwingTime				=	3,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= 	TRUE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	10,
+	}
+
+	item HCBastardswordsteel	
+	{
+		DisplayName					=	Steel Bastard Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Poolcue,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCBastardswordsteel,
+		ImpactSound					=	PZ_FoodSwoosh,
+		Weight						=	1.5,
+		WeaponWeight					=	1.5,
+		MaxRange					=	2,
+		MinRange					=	0.5,
+		MaxDamage					=	2.5,
+		MinDamage					=	0.8,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	2.25,
+		ConditionLowerChanceOneIn			=	20,
+		ConditionMax					=	10,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	3,
+		MinimumSwingTime				=	3,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= 	TRUE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	10,
+	}
+
+	item HCBastardswordiron	
+	{
+		DisplayName					=	Iron Bastard Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Poolcue,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCBastardswordiron,
+		ImpactSound					=	PZ_FoodSwoosh,
+		Weight						=	1.5,
+		WeaponWeight					=	1.5,
+		MaxRange					=	2,
+		MinRange					=	0.5,
+		MaxDamage					=	2.5,
+		MinDamage					=	0.8,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	2.25,
+		ConditionLowerChanceOneIn			=	15,
+		ConditionMax					=	10,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	3,
+		MinimumSwingTime				=	3,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= 	TRUE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	10,
+	}
+
+	item HCBastardswordbronze
+	{
+		DisplayName					=	Bronze Bastard Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Poolcue,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCBastardswordbronze,
+		ImpactSound					=	PZ_FoodSwoosh,
+		Weight						=	1.5,
+		WeaponWeight					=	1.5,
+		MaxRange					=	2,
+		MinRange					=	0.5,
+		MaxDamage					=	2.5,
+		MinDamage					=	0.8,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	2.25,
+		ConditionLowerChanceOneIn			=	10,
+		ConditionMax					=	10,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	3,
+		MinimumSwingTime				=	3,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= 	TRUE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	10,
+	}
+
+	item HCBastardswordcopper
+	{
+		DisplayName					=	Copper Bastard Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Poolcue,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCBastardswordcopper,
+		ImpactSound					=	PZ_FoodSwoosh,
+		Weight						=	1.5,
+		WeaponWeight					=	1.5,
+		MaxRange					=	2,
+		MinRange					=	0.5,
+		MaxDamage					=	2.5,
+		MinDamage					=	0.8,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	2.25,
+		ConditionLowerChanceOneIn			=	5,
+		ConditionMax					=	10,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	3,
+		MinimumSwingTime				=	3,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= 	TRUE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	10,
+	}
+
+	item HCGreatswordsteel	
+	{
+		DisplayName					=	Steel Great Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Poolcue,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCGreatswordsteel,
+		ImpactSound					=	PZ_FoodSwoosh,
+		Weight						=	2,
+		WeaponWeight					=	2,
+		MaxRange					=	2,
+		MinRange					=	0.5,
+		MaxDamage					=	3,
+		MinDamage					=	0.8,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	2.25,
+		ConditionLowerChanceOneIn			=	20,
+		ConditionMax					=	10,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	3,
+		MinimumSwingTime				=	3,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= 	TRUE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	10,
+		RequiresEquippedBothHands 			= 	true,
+	}
+
+	item HCGreatswordiron	
+	{
+		DisplayName					=	Iron Great Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Poolcue,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCGreatswordiron,
+		ImpactSound					=	PZ_FoodSwoosh,
+		Weight						=	2,
+		WeaponWeight					=	2,
+		MaxRange					=	2,
+		MinRange					=	0.5,
+		MaxDamage					=	3,
+		MinDamage					=	0.8,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	2.25,
+		ConditionLowerChanceOneIn			=	15,
+		ConditionMax					=	10,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	3,
+		MinimumSwingTime				=	3,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= 	TRUE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	10,
+		RequiresEquippedBothHands 			= 	true,
+	}
+
+	item HCGreatswordbronze	
+	{
+		DisplayName					=	Bronze Great Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Poolcue,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCGreatswordbronze,
+		ImpactSound					=	PZ_FoodSwoosh,
+		Weight						=	2,
+		WeaponWeight					=	2,
+		MaxRange					=	2,
+		MinRange					=	0.5,
+		MaxDamage					=	3,
+		MinDamage					=	0.8,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	2.25,
+		ConditionLowerChanceOneIn			=	10,
+		ConditionMax					=	10,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	3,
+		MinimumSwingTime				=	3,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= 	TRUE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	10,
+		RequiresEquippedBothHands 			= 	true,
+	}
+
+	item HCGreatswordcopper
+	{
+		DisplayName					=	Copper Great Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Poolcue,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCGreatswordcopper,
+		ImpactSound					=	PZ_FoodSwoosh,
+		Weight						=	2,
+		WeaponWeight					=	2,
+		MaxRange					=	2,
+		MinRange					=	0.5,
+		MaxDamage					=	3,
+		MinDamage					=	0.8,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	2.25,
+		ConditionLowerChanceOneIn			=	5,
+		ConditionMax					=	10,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	3,
+		MinimumSwingTime				=	3,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 					= 	TRUE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	10,
+		RequiresEquippedBothHands 			= 	true,
+	}
+
+	item HCSicklesteel
+	{
+		DisplayName					=	Steel Sickle,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Knife,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCSicklesteel,
+		Weight						=	0.5,
+		WeaponWeight					=	0.5,
+		MaxRange					=	1.30,
+		MinRange					=	0.61,
+		MaxDamage					=	1,
+		MinDamage					=	0.5,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	1,
+		PushBackMod					=	0.5,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	1,
+		ConditionLowerChanceOneIn			=	20,
+		ConditionMax					=	10,
+		SplatNumber					=	1,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	2.25,
+		MinimumSwingTime				=	2.25,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0,
+		TwoHandWeapon 					= 	FALSE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	20,
+	}
+
+	item HCSickleiron
+	{
+		DisplayName					=	Iron Sickle,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Knife,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCSickleiron,
+		Weight						=	0.5,
+		WeaponWeight					=	0.5,
+		MaxRange					=	1.30,
+		MinRange					=	0.61,
+		MaxDamage					=	1,
+		MinDamage					=	0.5,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	1,
+		PushBackMod					=	0.5,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	1,
+		ConditionLowerChanceOneIn			=	15,
+		ConditionMax					=	10,
+		SplatNumber					=	1,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	2.25,
+		MinimumSwingTime				=	2.25,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0,
+		TwoHandWeapon 					= 	FALSE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	20,
+	}
+
+	item HCSicklebronze
+	{
+		DisplayName					=	Bronze Sickle,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Knife,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCSicklebronze,
+		Weight						=	0.5,
+		WeaponWeight					=	0.5,
+		MaxRange					=	1.30,
+		MinRange					=	0.61,
+		MaxDamage					=	1,
+		MinDamage					=	0.5,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	1,
+		PushBackMod					=	0.5,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	1,
+		ConditionLowerChanceOneIn			=	10,
+		ConditionMax					=	10,
+		SplatNumber					=	1,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	2.25,
+		MinimumSwingTime				=	2.25,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0,
+		TwoHandWeapon 					= 	FALSE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	20,
+	}
+
+	item HCSicklecopper
+	{
+		DisplayName					=	Copper Sickle,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	Blade,
+		WeaponSprite					=	Knife,
+		SwingAnim					=	Bat,
+		CloseKillMove 					= 	Jaw_Stab,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCSicklecopper,
+		Weight						=	0.5,
+		WeaponWeight					=	0.5,
+		MaxRange					=	1.30,
+		MinRange					=	0.61,
+		MaxDamage					=	1,
+		MinDamage					=	0.5,
+		CriticalChance					=	25,
+		DoorDamage					=	15,
+		MaxHitCount					=	1,
+		PushBackMod					=	0.5,
+		KnockBackOnNoDeath				=	TRUE,
+		KnockdownMod					=	1,
+		ConditionLowerChanceOneIn			=	5,
+		ConditionMax					=	10,
+		SplatNumber					=	1,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		SwingTime					=	2.25,
+		MinimumSwingTime				=	2.25,
+		SwingAmountBeforeImpact				=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0,
+		TwoHandWeapon 					= 	FALSE,
+        	BreakSound  					=   	PZ_MetalSnap,
+        	TreeDamage  					=   	20,
+	}
+
+/************************RECIPES************************/	
+
+recipe Make Steel Shuriken
+	{
+		SkillRequired:BladeMaintenance=1,
+	   	HCSteelingot,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCShurikensteel,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Shuriken
+	{
+		SkillRequired:BladeMaintenance=1,
+	   	HCIroningot,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCShurikeniron,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Shuriken
+	{
+		SkillRequired:BladeMaintenance=1,
+	   	HCBronzeingot,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCShurikenbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Shuriken
+	{
+		SkillRequired:BladeMaintenance=1,
+	   	HCBronzeingot,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCShurikenbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Shuriken
+	{
+		SkillRequired:BladeMaintenance=1,
+	   	HCCopperingot,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCShurikencopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Shuriken
+	{
+		SkillRequired:BladeMaintenance=1,
+	   	HCCopperingot,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCShurikencopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Steel Knife
+	{
+		SkillRequired:BladeMaintenance=1,
+	   	HCSteelingot,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCKnifesteel,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Knife
+	{
+		SkillRequired:BladeMaintenance=1,
+	   	HCIroningot,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCKnifeiron,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Knife
+	{
+		SkillRequired:BladeMaintenance=1,
+	   	HCBronzeingot,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCKnifebronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Knife
+	{
+		SkillRequired:BladeMaintenance=1,
+	   	HCBronzeingot,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCKnifebronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Knife
+	{
+		SkillRequired:BladeMaintenance=1,
+	   	HCCopperingot,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCKnifecopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Knife
+	{
+		SkillRequired:BladeMaintenance=1,
+	   	HCCopperingot,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCKnifecopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Steel Dagger
+	{
+		SkillRequired:BladeMaintenance=2,
+	   	HCSteelingot,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCDaggersteel,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Dagger
+	{
+		SkillRequired:BladeMaintenance=2,
+	   	HCIroningot,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCDaggeriron,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Dagger
+	{
+		SkillRequired:BladeMaintenance=2,
+	   	HCBronzeingot,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCDaggerbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Dagger
+	{
+		SkillRequired:BladeMaintenance=2,
+	   	HCBronzeingot,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCDaggerbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Dagger
+	{
+		SkillRequired:BladeMaintenance=2,
+	   	HCCopperingot,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCDaggercopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Dagger
+	{
+		SkillRequired:BladeMaintenance=2,
+	   	HCCopperingot,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCDaggercopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Steel Short Sword
+	{
+		SkillRequired:BladeMaintenance=3,
+	   	HCSteelingot=2,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCShortswordsteel,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Short Sword
+	{
+		SkillRequired:BladeMaintenance=3,
+	   	HCIroningot=2,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCShortswordiron,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Short Sword
+	{
+		SkillRequired:BladeMaintenance=3,
+	   	HCBronzeingot=2,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCShortswordbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Short Sword
+	{
+		SkillRequired:BladeMaintenance=3,
+	   	HCBronzeingot=2,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCShortswordbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Short Sword
+	{
+		SkillRequired:BladeMaintenance=3,
+	   	HCCopperingot=2,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCShortswordcopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Short Sword
+	{
+		SkillRequired:BladeMaintenance=3,
+	   	HCCopperingot=2,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCShortswordcopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Steel Long Sword
+	{
+		SkillRequired:BladeMaintenance=4,
+	   	HCSteelingot=3,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLongswordsteel,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Long Sword
+	{
+		SkillRequired:BladeMaintenance=4,
+	   	HCIroningot=3,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLongswordiron,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Long Sword
+	{
+		SkillRequired:BladeMaintenance=4,
+	   	HCBronzeingot=3,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLongswordbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Long Sword
+	{
+		SkillRequired:BladeMaintenance=4,
+	   	HCBronzeingot=3,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLongswordbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Long Sword
+	{
+		SkillRequired:BladeMaintenance=4,
+	   	HCCopperingot=3,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLongswordcopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Long Sword
+	{
+		SkillRequired:BladeMaintenance=4,
+	   	HCCopperingot=3,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCLongswordcopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Steel Bastard Sword
+	{
+		SkillRequired:BladeMaintenance=5,
+	   	HCSteelingot=4,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCBastardswordsteel,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Bastard Sword
+	{
+		SkillRequired:BladeMaintenance=5,
+	   	HCIroningot=4,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCBastardswordiron,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Bastard Sword
+	{
+		SkillRequired:BladeMaintenance=5,
+	   	HCBronzeingot=4,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCBastardswordbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Bastard Sword
+	{
+		SkillRequired:BladeMaintenance=5,
+	   	HCBronzeingot=4,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCBastardswordbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Bastard Sword
+	{
+		SkillRequired:BladeMaintenance=5,
+	   	HCCopperingot=4,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCBastardswordcopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Bastard Sword
+	{
+		SkillRequired:BladeMaintenance=5,
+	   	HCCopperingot=4,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCBastardswordcopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Steel Great Sword
+	{
+		SkillRequired:BladeMaintenance=6,
+	   	HCSteelingot=5,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCGreatswordsteel,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Great Sword
+	{
+		SkillRequired:BladeMaintenance=6,
+	   	HCIroningot=5,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCGreatswordiron,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Great Sword
+	{
+		SkillRequired:BladeMaintenance=6,
+	   	HCBronzeingot=5,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCGreatswordbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Great Sword
+	{
+		SkillRequired:BladeMaintenance=6,
+	   	HCBronzeingot=5,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCGreatswordbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Great Sword
+	{
+		SkillRequired:BladeMaintenance=6,
+	   	HCCopperingot=5,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCGreatswordcopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Great Sword
+	{
+		SkillRequired:BladeMaintenance=6,
+	   	HCCopperingot=5,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCGreatswordcopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Steel Sickle
+	{
+		SkillRequired:BladeMaintenance=3,
+	   	HCSteelingot=2,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCSicklesteel,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Sickle
+	{
+		SkillRequired:BladeMaintenance=3,
+	   	HCIroningot=2,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCSickleiron,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Sickle
+	{
+		SkillRequired:BladeMaintenance=3,
+	   	HCBronzeingot=2,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCSicklebronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Sickle
+	{
+		SkillRequired:BladeMaintenance=3,
+	   	HCBronzeingot=2,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCSicklebronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Sickle
+	{
+		SkillRequired:BladeMaintenance=3,
+	   	HCCopperingot=2,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCSicklecopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Sickle
+	{
+		SkillRequired:BladeMaintenance=3,
+	   	HCCopperingot=2,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCSicklecopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+/************************FIXING************************/
+
+fixing Fix Kitchen Knife
+    {
+       		Require : KitchenKnife,
+
+		Fixer : HCGluejar=2,
+		Fixer : HCMaskingtape=2,
+		Fixer : HCPackingtape=2,
+		Fixer : HCElectrictape=2,
+		Fixer : HCRubbercement=2,
+		Fixer : HCSuperglue,
+		Fixer : HCHotgluegunfull=2,
+    }
+
+	fixing Fix Steel Knife
+    {
+		Require : HCKnifesteel,
+
+		Fixer : HCSteelingot,
+    }
+
+	fixing Fix Iron Knife
+    {
+		Require : HCKnifeiron,
+
+		Fixer : HCIroningot,
+    }
+
+	fixing Fix Bronze Knife
+    {
+		Require : HCKnifebronze,
+
+		Fixer : HCBronzeingot,
+    }
+
+	fixing Fix Copper Knife
+    {
+		Require : HCKnifecopper,
+
+		Fixer : HCCopperingot,
+    }
+
+	fixing Fix Steel Dagger
+    {
+		Require : HCDaggersteel,
+
+		Fixer : HCSteelingot,
+    }
+
+	fixing Fix Iron Dagger
+    {
+		Require : HCDaggeriron,
+
+		Fixer : HCIroningot,
+    }
+
+	fixing Fix Bronze Dagger
+    {
+		Require : HCDaggerbronze,
+
+		Fixer : HCBronzeingot,
+    }
+
+	fixing Fix Copper Dagger
+    {
+		Require : HCDaggercopper,
+
+		Fixer : HCCopperingot,
+    }
+
+	fixing Fix Steel Short Sword
+    {
+		Require : HCShortswordsteel,
+
+		Fixer : HCSteelingot,
+    }
+
+	fixing Fix Iron Short Sword
+    {
+		Require : HCShortswordiron,
+
+		Fixer : HCIroningot,
+    }
+
+	fixing Fix Bronze Short Sword
+    {
+		Require : HCShortswordbronze,
+
+		Fixer : HCBronzeingot,
+    }
+
+	fixing Fix Copper Short Sword
+    {
+		Require : HCShortswordcopper,
+
+		Fixer : HCCopperingot,
+    }
+
+	fixing Fix Steel Long Sword
+    {
+		Require : HCLongswordsteel,
+
+		Fixer : HCSteelingot,
+    }
+
+	fixing Fix Iron Long Sword
+    {
+		Require : HCLongswordiron,
+
+		Fixer : HCIroningot,
+    }
+
+	fixing Fix Bronze Long Sword
+    {
+		Require : HCLongswordbronze,
+
+		Fixer : HCBronzeingot,
+    }
+
+	fixing Fix Copper Long Sword
+    {
+		Require : HCLongswordcopper,
+
+		Fixer : HCCopperingot,
+    }
+
+	fixing Fix Copper Short Sword
+    {
+		Require : HCBastardswordcopper,
+
+		Fixer : HCCopperingot,
+    }
+
+	fixing Fix Steel Bastard Sword
+    {
+		Require : HCBastardswordsteel,
+
+		Fixer : HCSteelingot,
+    }
+
+	fixing Fix Iron Bastard Sword
+    {
+		Require : HCBastardswordiron,
+
+		Fixer : HCIroningot,
+    }
+
+	fixing Fix Bronze Bastard Sword
+    {
+		Require : HCLongswordbronze,
+
+		Fixer : HCBronzeingot,
+    }
+
+	fixing Fix Copper Bastard Sword
+    {
+		Require : HCBastardswordcopper,
+
+		Fixer : HCCopperingot,
+    }
+
+	fixing Fix Copper Short Sword
+    {
+		Require : HCBastardswordcopper,
+
+		Fixer : HCCopperingot,
+    }
+
+	fixing Fix Steel Great Sword
+    {
+		Require : HCGreatswordsteel,
+
+		Fixer : HCSteelingot,
+    }
+
+	fixing Fix Iron Great Sword
+    {
+		Require : HCGreatswordiron,
+
+		Fixer : HCIroningot,
+    }
+
+	fixing Fix Bronze Great Sword
+    {
+		Require : HCGreatswordbronze,
+
+		Fixer : HCBronzeingot,
+    }
+
+	fixing Fix Copper Great Sword
+    {
+		Require : HCGreatswordcopper,
+
+		Fixer : HCCopperingot,
+    }
+
+	fixing Fix Steel Sickle
+    {
+		Require : HCSicklesteel,
+
+		Fixer : HCSteelingot,
+    }
+
+	fixing Fix Iron Sickle
+    {
+		Require : HCSickleiron,
+
+		Fixer : HCIroningot,
+    }
+
+	fixing Fix Bronze Sickle
+    {
+		Require : HCSicklebronze,
+
+		Fixer : HCBronzeingot,
+    }
+
+	fixing Fix Copper Sickle
+    {
+		Require : HCSicklecopper,
+
+		Fixer : HCCopperingot,
+    }
+
+
+}

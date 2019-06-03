@@ -1,0 +1,129 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+    item HCWickerbasket
+    {
+        WeightReduction     = 10,
+        Weight              = 0.2,
+        Type                = Container,
+        Capacity            = 6,
+        DisplayName         = Wicker Basket,
+        Icon                = HCWickerbasket,
+    }
+
+    item HCBirchbarkbasket
+    {
+        WeightReduction     = 10,
+        Weight              = 0.2,
+        Type                = Container,
+        Capacity            = 9,
+        DisplayName         = Birch Bark Basket,
+        Icon                = HCBirchbarkbasket,
+    }
+
+    item HCStrawbasket
+    {
+        WeightReduction     = 10,
+        Weight              = 0.2,
+        Type                = Container,
+        Capacity            = 16,
+        DisplayName         = Straw Basket,
+        Icon                = HCStrawbasket,
+    }
+
+    item HCBirchbarkcup
+    {
+        WeightReduction     = 10,
+        Weight              = 0.2,
+        Type                = Container,
+        Capacity            = 9,
+        DisplayName         = Birch Bark Cup,
+        Icon                = HCBirchbarkcup,
+    }
+
+item HCBirchbarkcup
+    {
+        Weight    		= 0.2,
+	CanStoreWater		= TRUE,
+        Type    		= Normal,
+        DisplayName         	= Birch Bark Cup,
+	ReplaceOnUseOn		= WaterSource-HCBirchbarkcupfull,
+        icon 			= HCBirchbarkcup,
+	RainFactor 		= 0.2,
+    }
+
+item HCBirchbarkcupfull
+    {
+	IsWaterSource		=	TRUE,
+	Weight			=	1,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Birch Bark Cup with Water,
+	ReplaceOnDeplete	=	HCBirchbarkcup,
+	ReplaceOnUseOn		=	WaterSource-HCBirchbarkcupfull,
+	Icon			=	HCBirchbarkcup,
+	RainFactor 		= 	0.2,
+    }
+
+/************************RECIPES************************/
+    
+recipe Make Wicker Basket
+    {
+    Twigs=10,
+    Result:HCWickerbasket,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Birch Bark Basket
+    {
+    HCBirchbark=5,
+    Result:HCBirchbarkbasket,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Straw Basket
+    {
+    HCStraw=16,
+    Result:HCStrawbasket,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Fishing Basket
+    {
+    HCStraw=10,
+    HCLeather,
+    Result:HCFishingbasket,
+    NeedToBeLearn:true,
+    Time:15,
+    Category:Weaving,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Birch Bark Cup
+    {
+    HCBirchbark=2,
+    Result:HCBirchbarkcup,
+    Time:15,
+    Category:Survivalist,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+	
+}

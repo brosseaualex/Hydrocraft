@@ -1,0 +1,319 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCSleepingbag
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sleeping Bag in Bag,
+        icon 			= HCSleepingbag,
+    }
+
+item HCSleepingbagsleepin
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Sleeping Bag,
+        icon 			= HCSleepingbagsleepin,
+	ResizeWorldIcon 	= 1.0,
+	Tooltip 		= Tooltip_HCSleep,
+    }
+
+item HCSleepingbag2
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sleeping Bag in Bag,
+        icon 			= HCSleepingbag2,
+    }
+
+item HCSleepingbag2sleepin
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Sleeping Bag,
+        icon 			= HCSleepingbag2sleepin,
+	ResizeWorldIcon 	= 1.0,
+	Tooltip 		= Tooltip_HCSleep,
+    }
+
+item HCSleepingbag3
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sleeping Bag in Bag,
+        icon 			= HCSleepingbag3,
+    }
+
+item HCSleepingbag3sleepin
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Sleeping Bag,
+        icon 			= HCSleepingbag3sleepin,
+	ResizeWorldIcon 	= 1.0,
+	Tooltip 		= Tooltip_HCSleep,
+    }
+
+item HCForestbedsleepin
+    {
+        Weight    		= 10,
+        Type    		= Normal,
+        DisplayName         	= Forest Bed,
+        icon 			= HCForestbedsleepin,
+	ResizeWorldIcon 	= 1.0,
+	Tooltip 		= Tooltip_HCSleep,
+    }
+
+item HCTentkit
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Dome Tent Kit,
+        icon 			= HCTentkit,
+    }
+
+item HCTentsleepin
+    {
+	WeightReduction     	= 0,
+        Weight    		= 0.6,
+        Type                	= Container,
+        Capacity            	= 50,
+        DisplayName         	= Dome Tent,
+        icon 			= HCTent,
+	ResizeWorldIcon 	= 1.0,
+	Tooltip 		= Tooltip_HCSleep,
+    }
+
+item HCTentkit2
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Dome Tent Kit,
+        icon 			= HCTentkit2,
+    }
+
+item HCTent2sleepin
+    {
+	WeightReduction     	= 0,
+        Weight    		= 0.6,
+        Type                	= Container,
+        Capacity            	= 50,
+        DisplayName         	= Dome Tent,
+        icon 			= HCTent2,
+	ResizeWorldIcon 	= 1.0,
+	Tooltip 		= Tooltip_HCSleep,
+    }
+
+item HCTentkit3
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Dome Tent Kit,
+        icon 			= HCTentkit3,
+    }
+
+item HCTent3sleepin
+    {
+	WeightReduction     	= 0,
+        Weight    		= 0.6,
+        Type                	= Container,
+        Capacity            	= 50,
+        DisplayName         	= Dome Tent,
+        icon 			= HCTent3,
+	ResizeWorldIcon 	= 1.0,
+	Tooltip 		= Tooltip_HCSleep,
+    }
+
+item HCTentkit4
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Dome Tent Kit,
+        icon 			= HCTentkit4,
+    }
+
+item HCTent4sleepin
+    {
+	WeightReduction     	= 0,
+        Weight    		= 0.6,
+        Type                	= Container,
+        Capacity            	= 50,
+        DisplayName         	= Dome Tent,
+        icon 			= HCTent4,
+	ResizeWorldIcon 	= 1.0,
+	Tooltip 		= Tooltip_HCSleep,
+    }
+
+/************************RECIPES************************/	
+
+
+recipe Unpack Sleeping Bag
+    {
+    HCSleepingbag,
+    Result:HCSleepingbagsleepin,
+    Time:15,
+    }
+
+recipe Pack Sleeping Bag
+    {
+    HCSleepingbagsleepin,
+    Result:HCSleepingbag,
+    Time:15,
+    } 
+
+recipe Unpack Sleeping Bag
+    {
+    HCSleepingbag2,
+    Result:HCSleepingbag2sleepin,
+    Time:15,
+    }
+
+recipe Pack Sleeping Bag
+    {
+    HCSleepingbag2sleepin,
+    Result:HCSleepingbag2,
+    Time:15,
+    } 
+
+recipe Unpack Sleeping Bag
+    {
+    HCSleepingbag3,
+    Result:HCSleepingbag3sleepin,
+    Time:15,
+    }
+
+recipe Pack Sleeping Bag
+    {
+    HCSleepingbag3sleepin,
+    Result:HCSleepingbag3,
+    Time:15,
+    } 
+
+recipe Build Forest Bed
+    {
+    HCSleepingbag3sleepin,
+    Result:HCSleepingbag3,
+    Time:200,
+    OnGiveXP:HCWoodwork_OnGiveXP,
+    } 
+
+recipe Build Forest Bed
+    {
+	SkillRequired:Woodwork=1,
+	Log=6,
+	Twine=12,
+	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
+	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
+	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
+	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
+	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
+	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
+	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
+	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
+	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
+	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
+	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
+	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
+    	keep Hammer/HammerStone,
+	keep Saw,
+    	CanBeDoneFromFloor:true,
+   	Result:HCForestbedsleepin,
+    	Sound:PZ_Hammer,
+    	Time:500,
+    	Category:Carpentry,
+   	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Build Forest Bed
+    {
+	SkillRequired:Woodwork=1,
+	Log=6,
+	Twine=12,
+	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
+	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
+	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
+	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
+	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
+	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
+	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
+	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
+	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
+	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
+	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
+	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
+    	keep Hammer/HammerStone,
+	HCSawstone,
+    	CanBeDoneFromFloor:true,
+   	Result:HCForestbedsleepin,
+    	Sound:PZ_Hammer,
+    	Time:500,
+    	Category:Carpentry,
+   	OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Unpack Dome Tent
+    {
+    HCTentkit,
+    Result:HCTentsleepin,
+    Time:15,
+    }
+
+recipe Pack Dome Tent
+    {
+    HCTentsleepin,
+    Result:HCTentkit,
+    Time:15,
+    } 
+
+recipe Unpack Dome Tent
+    {
+    HCTentkit2,
+    Result:HCTent2sleepin,
+    Time:15,
+    }
+
+recipe Pack Dome Tent
+    {
+    HCTent2sleepin,
+    Result:HCTentkit2,
+    Time:15,
+    }
+
+recipe Unpack Dome Tent
+    {
+    HCTentkit3,
+    Result:HCTent3sleepin,
+    Time:15,
+    }
+
+recipe Pack Dome Tent
+    {
+    HCTent3sleepin,
+    Result:HCTentkit3,
+    Time:15,
+    }
+
+recipe Unpack Dome Tent
+    {
+    HCTentkit4,
+    Result:HCTent4sleepin,
+    Time:15,
+    }
+
+recipe Pack Dome Tent
+    {
+    HCTent4sleepin,
+    Result:HCTentkit4,
+    Time:15,
+    }
+
+}

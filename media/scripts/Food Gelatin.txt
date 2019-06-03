@@ -1,0 +1,1814 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCChocolatepudding
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-2,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight				=	0.4,
+	Type				=	Food,
+	DaysFresh			= 	7,
+	DaysTotallyRotten		= 	10,
+	DisplayName			=	Chocolate Pudding Cup,
+	ReplaceOnUse			=	HCPuddingcupempty,
+	Icon				=	HCChocolatepudding,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=  	NoExplicit,
+	Packaged			=	true,
+	Carbohydrates 			= 	17,
+        Proteins 			= 	1,
+        Lipids 				= 	0,
+        Calories 			= 	70,
+	}
+	
+item HCVanillapudding
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-2,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight				=	0.4,
+	Type				=	Food,
+	DaysFresh			= 	7,
+	DaysTotallyRotten		= 	10,
+	DisplayName			=	Vanilla Pudding Cup,
+	ReplaceOnUse			=	HCPuddingcupempty,
+	Icon				=	HCVanillapudding,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Packaged			=	true,
+	Carbohydrates 			= 	17,
+        Proteins 			= 	1,
+        Lipids 				= 	0,
+        Calories 			= 	70,
+	}
+
+item HCPuddingcupempty
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName     	=	Empty Pudding Cup,
+        icon 			= 	HCPuddingcupempty,
+    }
+
+item HCJellopacketapple
+{
+	HungerChange			= -10,
+	ThirstChange			= 25,
+	Weight				= 0.2,
+	Type				= Food,
+	UnhappyChange			= 15,
+	DisplayName			= Apple Jello Packet,
+	Icon				= HCJellopacketapple,
+    	Carbohydrates 			= 68,
+    	Proteins 			= 4,
+    	Lipids 				= 0,
+    	Calories 			= 280,
+    	Packaged 			= TRUE,
+}
+
+item HCJellopacketblueberry
+{
+	HungerChange			= -10,
+	ThirstChange			= 25,
+	Weight				= 0.2,
+	Type				= Food,
+	UnhappyChange			= 15,
+	DisplayName			= Blueberry Jello Packet,
+	Icon				= HCJellopacketblueberry,
+    	Carbohydrates 			= 68,
+    	Proteins 			= 4,
+    	Lipids 				= 0,
+    	Calories 			= 280,
+    	Packaged 			= TRUE,
+}
+
+item HCJellopacketcherry
+{
+	HungerChange			= -10,
+	ThirstChange			= 25,
+	Weight				= 0.2,
+	Type				= Food,
+	UnhappyChange			= 15,
+	DisplayName			= Cherry Jello Packet,
+	Icon				= HCJellopacketcherry,
+    	Carbohydrates 			= 68,
+    	Proteins 			= 4,
+    	Lipids 				= 0,
+    	Calories 			= 280,
+    	Packaged 			= TRUE,
+}
+item HCJellopacketchocolate
+{
+	HungerChange			= -10,
+	ThirstChange			= 25,
+	Weight				= 0.2,
+	Type				= Food,
+	UnhappyChange			= 15,
+	DisplayName			= Chocolate Pudding Packet,
+	Icon				= HCJellopacketchocolate,
+    	Carbohydrates 			= 92,
+    	Proteins 			= 8,
+    	Lipids 				= 0,
+    	Calories 			= 568,
+    	Packaged 			= TRUE,
+}
+
+item HCJellopacketlemon
+{
+	HungerChange			= -10,
+	ThirstChange			= 25,
+	Weight				= 0.2,
+	Type				= Food,
+	UnhappyChange			= 15,
+	DisplayName			= Lemon Jello Packet,
+	Icon				= HCJellopacketlemon,
+    	Carbohydrates 			= 68,
+    	Proteins 			= 4,
+    	Lipids 				= 0,
+    	Calories 			= 280,
+    	Packaged 			= TRUE,
+}
+item HCJellopacketlime
+{
+	HungerChange			= -10,
+	ThirstChange			= 25,
+	Weight				= 0.2,
+	Type				= Food,
+	UnhappyChange			= 15,
+	DisplayName			= Lime Jello Packet,
+	Icon				= HCJellopacketlime,
+    	Carbohydrates 			= 68,
+    	Proteins 			= 4,
+    	Lipids 				= 0,
+    	Calories 			= 280,
+    	Packaged 			= TRUE,
+}
+
+item HCJellopacketorange
+{
+	HungerChange		= -10,
+	ThirstChange		= 25,
+	Weight				= 0.2,
+	Type				= Food,
+	UnhappyChange		= 15,
+	DisplayName			= Orange Jello Packet,
+	Icon				= HCJellopacketorange,
+    Carbohydrates 		= 68,
+    Proteins 			= 4,
+    Lipids 				= 0,
+    Calories 			= 280,
+    Packaged 			= TRUE,
+}
+item HCJellopacketstrawberry
+{
+	HungerChange		= -10,
+	ThirstChange		= 25,
+	Weight				= 0.2,
+	Type				= Food,
+	UnhappyChange		= 15,
+	DisplayName			= Strawberry Jello Packet,
+	Icon				= HCJellopacketstrawberry,
+    Carbohydrates 		= 68,
+    Proteins 			= 4,
+    Lipids 				= 0,
+    Calories 			= 280,
+    Packaged 			= TRUE,
+}
+item HCJellopacketwatermelon
+{
+	HungerChange		= -10,
+	ThirstChange		= 25,
+	Weight				= 0.2,
+	Type				= Food,
+	UnhappyChange		= 15,
+	DisplayName			= Watermelon Jello Packet,
+	Icon				= HCJellopacketwatermelon,
+    Carbohydrates 		= 68,
+    Proteins 			= 4,
+    Lipids 				= 0,
+    Calories 			= 280,
+    Packaged 			= TRUE,
+}
+item HCJellopacketvanilla
+{
+	HungerChange			= -10,
+	ThirstChange			= 25,
+	Weight				= 0.2,
+	Type				= Food,
+	UnhappyChange			= 15,
+	DisplayName			= Vanilla Pudding Packet,
+	Icon				= HCJellopacketvanilla,
+    	Carbohydrates 			= 92,
+    	Proteins 			= 8,
+   	Lipids 				= 0,
+    	Calories 			= 568,
+    	Packaged 			= TRUE,
+}
+
+
+item HCJelloappleprep
+	{
+	HungerChange				=	-15,
+	ThirstChange				=	-25,
+	BoredomChange				=	-15,
+	UnhappyChange				=	-20,
+	Weight					=	1.5,
+	Type					=	Food,
+	DaysFresh				= 	3,
+	DaysTotallyRotten			= 	5,
+	DisplayName				=	Saucepan of Apple Jello Mix,
+	Icon					=	HCJelloappleprep,
+	ReplaceOnUse				=	Saucepan,
+	IsCookable				=	TRUE,
+	MinutesToCook				=	30,
+	MinutesToBurn				=	50,
+	ReplaceOnCooked				=	Hydrocraft.HCJelloapplecooked,
+	DaysFresh 				= 	3,
+	DaysTotallyRotten			=	5,     
+	CustomContextMenu 			= 	Eat,
+	FoodType    				=   	NoExplicit,
+	Carbohydrates 				= 	68,
+        Proteins 				= 	4,
+        Lipids 					= 	0,
+        Calories 				= 	280,
+	}
+	
+item HCJelloapplecooked
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1.5,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Saucepan of Heated Apple Jello,
+	Icon					=	HCJelloappleprep,
+	ReplaceOnUse			=	Saucepan,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJelloapple1hot
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Cooling Apple Jello Mold,
+	Icon					=	HCJelloapple1hot,
+	ReplaceOnUse			=	HCJellomold1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJelloapple1cold
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Apple Jello Mold,
+	Icon					=	HCJelloapple1cold,
+	ReplaceOnUse			=	HCJellomold1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJelloapple1
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	0.5,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Formed Apple Jello,
+	Icon					=	HCJelloapple1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJelloapplecubes
+	{
+	HungerChange			=	-4,
+	ThirstChange			=	-7,
+	BoredomChange			=	-4,
+	UnhappyChange			=	-5,
+	Weight					=	0.125,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Apple Jello Cubes,
+	Icon					=	HCJelloapplecubes,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	17,
+        Proteins 			= 	1,
+        Lipids 				= 	0,
+        Calories 			= 	70,
+	}
+
+item HCJelloapplebowl
+	{
+	HungerChange			=	-8,
+	ThirstChange			=	-14,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	0.5,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Apple Jello Dessert,
+	Icon					=	HCJelloapplebowl,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	38,
+        Proteins 			= 	2,
+        Lipids 				= 	2,
+        Calories 			= 	156,
+	}
+	
+
+item HCJelloblueberryprep
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1.5,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Saucepan of Blueberry Jello Mix,
+	Icon					=	HCJelloblueberryprep,
+	ReplaceOnUse			=	Saucepan,
+	IsCookable				=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	50,
+	ReplaceOnCooked			=	Hydrocraft.HCJelloblueberrycooked,
+	DaysFresh 				= 	3,
+	DaysTotallyRotten		=	5,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJelloblueberrycooked
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1.5,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Saucepan of Heated Blueberry Jello,
+	Icon					=	HCJelloblueberryprep,
+	ReplaceOnUse			=	Saucepan,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJelloblueberry1hot
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Cooling Blueberry Jello Mold,
+	Icon					=	HCJelloblueberry1hot,
+	ReplaceOnUse			=	HCJellomold1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJelloblueberry1cold
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Blueberry Jello Mold,
+	Icon					=	HCJelloblueberry1cold,
+	ReplaceOnUse			=	HCJellomold1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJelloblueberry1
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	0.5,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Formed Blueberry Jello,
+	Icon					=	HCJelloblueberry1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJelloblueberrycubes
+	{
+	HungerChange			=	-4,
+	ThirstChange			=	-7,
+	BoredomChange			=	-4,
+	UnhappyChange			=	-5,
+	Weight					=	0.125,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Blueberry Jello Cubes,
+	Icon					=	HCJelloblueberrycubes,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	17,
+        Proteins 			= 	1,
+        Lipids 				= 	0,
+        Calories 			= 	70,
+	}
+
+item HCJelloblueberrybowl
+	{
+	HungerChange			=	-8,
+	ThirstChange			=	-14,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	0.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Blueberry Jello Dessert,
+	Icon					=	HCJelloblueberrybowl,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	38,
+        Proteins 			= 	2,
+        Lipids 				= 	2,
+        Calories 			= 	156,
+	}
+
+item HCJellocherryprep
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1.5,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Saucepan of Cherry Jello Mix,
+	Icon					=	HCJellocherryprep,
+	ReplaceOnUse			=	Saucepan,
+	IsCookable				=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	50,
+	ReplaceOnCooked			=	Hydrocraft.HCJelloapplecooked,
+	DaysFresh 				= 	3,
+	DaysTotallyRotten		=	5,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellocherrycooked
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1.5,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Saucepan of Heated Cherry Jello,
+	Icon					=	HCJellocherryprep,
+	ReplaceOnUse			=	Saucepan,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellocherry1hot
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Cooling Cherry Jello Mold,
+	Icon					=	HCJellocherry1hot,
+	ReplaceOnUse			=	HCJellomold1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellocherry1cold
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Cherry Jello Mold,
+	Icon					=	HCJellocherry1cold,
+	ReplaceOnUse			=	HCJellomold1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellocherry1
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	0.5,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Formed Apple Jello,
+	Icon					=	HCJelloapple1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellocherrycubes
+	{
+	HungerChange			=	-4,
+	ThirstChange			=	-7,
+	BoredomChange			=	-4,
+	UnhappyChange			=	-5,
+	Weight					=	0.125,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Cherry Jello Cubes,
+	Icon					=	HCJellocherrycubes,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	17,
+        Proteins 			= 	1,
+        Lipids 				= 	0,
+        Calories 			= 	70,
+	}
+
+item HCJellocherrybowl
+	{
+	HungerChange			=	-8,
+	ThirstChange			=	-14,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	0.5,
+	Type					=	Food,
+	DaysFresh				= 3,
+	DaysTotallyRotten		= 5,
+	DisplayName				=	Cherry Jello Dessert,
+	Icon					=	HCJelloapplebowl,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	38,
+        Proteins 			= 	2,
+        Lipids 				= 	2,
+        Calories 			= 	156,
+	}	
+
+item HCJellolemonprep
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Saucepan of Lemon Jello Mix,
+	Icon					=	HCJellolemonprep,
+	ReplaceOnUse			=	Saucepan,
+	IsCookable				=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	50,
+	ReplaceOnCooked			=	Hydrocraft.HCJellolemoncooked,
+	DaysFresh 				= 	3,
+	DaysTotallyRotten		=	5,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellolemoncooked
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Saucepan of Heated Lemon Jello,
+	Icon					=	HCJellolemonprep,
+	ReplaceOnUse			=	Saucepan,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellolemon1hot
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Cooling Lemon Jello Mold,
+	Icon					=	HCJellolemon1hot,
+	ReplaceOnUse			=	HCJellomold1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellolemon1cold
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Lemon Jello Mold,
+	Icon					=	HCJellolemon1cold,
+	ReplaceOnUse			=	HCJellomold1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellolemon1
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	0.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Formed Lemon Jello,
+	Icon					=	HCJellolemon1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellolemoncubes
+	{
+	HungerChange			=	-4,
+	ThirstChange			=	-7,
+	BoredomChange			=	-4,
+	UnhappyChange			=	-5,
+	Weight					=	0.125,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Lemon Jello Cubes,
+	Icon					=	HCJellolemoncubes,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	17,
+        Proteins 			= 	1,
+        Lipids 				= 	0,
+        Calories 			= 	70,
+	}
+
+item HCJellolemonbowl
+	{
+	HungerChange			=	-8,
+	ThirstChange			=	-14,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	0.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Lemon Jello Dessert,
+	Icon					=	HCJellolemonbowl,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	38,
+        Proteins 			= 	2,
+        Lipids 				= 	2,
+        Calories 			= 	156,
+	}
+	
+
+item HCJelloorangeprep
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Saucepan of Orange Jello Mix,
+	Icon					=	HCJelloorangeprep,
+	ReplaceOnUse			=	Saucepan,
+	IsCookable				=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	50,
+	ReplaceOnCooked			=	Hydrocraft.HCJelloorangecooked,
+	DaysFresh 				= 	3,
+	DaysTotallyRotten		=	5,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJelloorangecooked
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Saucepan of Heated Orange Jello,
+	Icon					=	HCJelloorangeprep,
+	ReplaceOnUse			=	Saucepan,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJelloorange1hot
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Cooling Orange Jello Mold,
+	Icon					=	HCJelloorange1hot,
+	ReplaceOnUse			=	HCJellomold1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJelloorange1cold
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Orange Jello Mold,
+	Icon					=	HCJelloorange1cold,
+	ReplaceOnUse			=	HCJellomold1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJelloorange1
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	0.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Formed Orange Jello,
+	Icon					=	HCJelloorange1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJelloorangecubes
+	{
+	HungerChange			=	-4,
+	ThirstChange			=	-7,
+	BoredomChange			=	-4,
+	UnhappyChange			=	-5,
+	Weight					=	0.125,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Orange Jello Cubes,
+	Icon					=	HCJelloorangecubes,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	17,
+        Proteins 			= 	1,
+        Lipids 				= 	0,
+        Calories 			= 	70,
+	}
+
+item HCJelloorangebowl
+	{
+	HungerChange			=	-8,
+	ThirstChange			=	-14,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	0.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Orange Jello Dessert,
+	Icon					=	HCJelloorangebowl,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	38,
+        Proteins 			= 	2,
+        Lipids 				= 	2,
+        Calories 			= 	156,
+	}
+	
+
+item HCJellolimeprep
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Saucepan of Lime Jello Mix,
+	Icon					=	HCJellolimeprep,
+	ReplaceOnUse			=	Saucepan,
+	IsCookable				=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	50,
+	ReplaceOnCooked			=	Hydrocraft.HCJellolimecooked,
+	DaysFresh 				= 	3,
+	DaysTotallyRotten		=	5,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellolimecooked
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Saucepan of Heated Lime Jello,
+	Icon					=	HCJellolimeprep,
+	ReplaceOnUse			=	Saucepan,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellolime1hot
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Cooling Lime Jello Mold,
+	Icon					=	HCJellolime1hot,
+	ReplaceOnUse			=	HCJellomold1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellolime1cold
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Lime Jello Mold,
+	Icon					=	HCJellolime1cold,
+	ReplaceOnUse			=	HCJellomold1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellolime1
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	0.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Formed Lime Jello,
+	Icon					=	HCJellolime1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellolimecubes
+	{
+	HungerChange			=	-4,
+	ThirstChange			=	-7,
+	BoredomChange			=	-4,
+	UnhappyChange			=	-5,
+	Weight					=	0.125,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Lime Jello Cubes,
+	Icon					=	HCJellolimecubes,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	17,
+        Proteins 			= 	1,
+        Lipids 				= 	0,
+        Calories 			= 	70,
+	}
+
+item HCJellolimebowl
+	{
+	HungerChange			=	-8,
+	ThirstChange			=	-14,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	0.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Lime Jello Dessert,
+	Icon					=	HCJellolimebowl,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	38,
+        Proteins 			= 	2,
+        Lipids 				= 	2,
+        Calories 			= 	156,
+	}
+	
+
+item HCJellowatermelonprep
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Saucepan of Watermelon Jello Mix,
+	Icon					=	HCJellowatermelonprep,
+	ReplaceOnUse			=	Saucepan,
+	IsCookable				=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	50,
+	ReplaceOnCooked			=	Hydrocraft.HCJellowatermeloncooked,
+	DaysFresh 				= 	3,
+	DaysTotallyRotten		=	5,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellowatermeloncooked
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Saucepan of Heated Watermelon Jello,
+	Icon					=	HCJellowatermelonprep,
+	ReplaceOnUse			=	Saucepan,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellowatermelon1hot
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Cooling Watermelon Jello Mold,
+	Icon					=	HCJellowatermelon1hot,
+	ReplaceOnUse			=	HCJellomold1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellowatermelon1cold
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Watermelon Jello Mold,
+	Icon					=	HCJellowatermelon1cold,
+	ReplaceOnUse			=	HCJellomold1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellowatermelon1
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	0.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Formed Watermelon Jello,
+	Icon					=	HCJellowatermelon1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellowatermeloncubes
+	{
+	HungerChange			=	-4,
+	ThirstChange			=	-7,
+	BoredomChange			=	-4,
+	UnhappyChange			=	-5,
+	Weight					=	0.125,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Watermelon Jello Cubes,
+	Icon					=	HCJellowatermeloncubes,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	17,
+        Proteins 			= 	1,
+        Lipids 				= 	0,
+        Calories 			= 	70,
+	}
+
+item HCJellowatermelonbowl
+	{
+	HungerChange			=	-8,
+	ThirstChange			=	-14,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	0.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Watermelon Jello Dessert,
+	Icon					=	HCJellowatermelonbowl,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	38,
+        Proteins 			= 	2,
+        Lipids 				= 	2,
+        Calories 			= 	156,
+	}
+	
+
+item HCJellostrawberryprep
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Saucepan of Strawberry Jello Mix,
+	Icon					=	HCJellostrawberryprep,
+	ReplaceOnUse			=	Saucepan,
+	IsCookable				=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	50,
+	ReplaceOnCooked			=	Hydrocraft.HCJellostrawberrycooked,
+	DaysFresh 				= 	3,
+	DaysTotallyRotten		=	5,     
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellostrawberrycooked
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Saucepan of Heated Strawberry Jello,
+	Icon					=	HCJellostrawberryprep,
+	ReplaceOnUse			=	Saucepan,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellostrawberry1hot
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Cooling Strawberry Jello Mold,
+	Icon					=	HCJellostrawberry1hot,
+	ReplaceOnUse			=	HCJellomold1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellostrawberry1cold
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	1,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Strawberry Jello Mold,
+	Icon					=	HCJellostrawberry1cold,
+	ReplaceOnUse			=	HCJellomold1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellostrawberry1
+	{
+	HungerChange			=	-15,
+	ThirstChange			=	-25,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	0.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Formed Strawberry Jello,
+	Icon					=	HCJellostrawberry1,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	68,
+        Proteins 			= 	4,
+        Lipids 				= 	0,
+        Calories 			= 	280,
+	}
+	
+item HCJellostrawberrycubes
+	{
+	HungerChange			=	-4,
+	ThirstChange			=	-7,
+	BoredomChange			=	-4,
+	UnhappyChange			=	-5,
+	Weight					=	0.125,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Strawberry Jello Cubes,
+	Icon					=	HCJellostrawberrycubes,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	17,
+        Proteins 			= 	1,
+        Lipids 				= 	0,
+        Calories 			= 	70,
+	}
+
+item HCJellostrawberrybowl
+	{
+	HungerChange			=	-8,
+	ThirstChange			=	-14,
+	BoredomChange			=	-15,
+	UnhappyChange			=	-20,
+	Weight					=	0.5,
+	Type					=	Food,
+	DaysFresh				=      3,
+	DaysTotallyRotten		= 	   5,
+	DisplayName				=	Strawberry Jello Dessert,
+	Icon					=	HCJellostrawberrybowl,  
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	38,
+        Proteins 			= 	2,
+        Lipids 				= 	2,
+        Calories 			= 	156,
+	}
+						
+	
+/************************RECIPES************************/
+
+recipe Prepare Apple Jello
+	{
+        	SkillRequired:Cooking=1,
+		keep HCWhisk/Spoon/HCPlasticspoon/HCWoodenspoon/HCSpork,
+		WaterSaucepan,
+		HCJellopacketapple,
+		Result:HCJelloappleprep,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Move Apple Jello Into Mold
+	{
+        	SkillRequired:Cooking=1,
+		HCJelloapplecooked,
+		HCJellomold1,
+		Result:HCJelloapple1hot,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Remove Apple Jello From Mold
+	{
+        	SkillRequired:Cooking=1,
+		HCJelloapple1cold,
+		HCJellomold1,
+		Result:HCJelloapple1,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Apple Jello Dessert
+	{
+        	SkillRequired:Cooking=0,
+		HCJelloapplecubes=2,
+		Bowl,
+		HCWhippedcreamcan,
+		Result:HCJelloapplebowl,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Blueberry Jello
+	{
+        SkillRequired:Cooking=1,
+		keep HCWhisk/Spoon/HCPlasticspoon/HCWoodenspoon/HCSpork,
+		WaterSaucepan,
+		HCJellopacketblueberry,
+		Result:HCJelloblueberryprep,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Move Blueberry Jello Into Mold
+	{
+        SkillRequired:Cooking=1,
+		HCJelloblueberrycooked,
+		HCJellomold1,
+		Result:HCJelloblueberry1hot,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Remove Blueberry Jello From Mold
+	{
+        SkillRequired:Cooking=1,
+		HCJelloblueberry1cold,
+		HCJellomold1,
+		Result:HCJelloblueberry1,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Make Blueberry Jello Dessert
+	{
+        SkillRequired:Cooking=0,
+		HCJelloblueberrycubes=2,
+		Bowl,
+		HCWhippedcreamcan,
+		Result:HCJelloblueberrybowl,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Lemon Jello
+	{
+        SkillRequired:Cooking=1,
+		keep HCWhisk/Spoon/HCPlasticspoon/HCWoodenspoon/HCSpork,
+		WaterSaucepan,
+		HCJellopacketlemon,
+		Result:HCJellolemonprep,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Move Lemon Jello Into Mold
+	{
+        SkillRequired:Cooking=1,
+		HCJellolemoncooked,
+		HCJellomold1,
+		Result:HCJellolemon1hot,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Remove Lemon Jello From Mold
+	{
+        SkillRequired:Cooking=1,
+		HCJellolemon1cold,
+		HCJellomold1,
+		Result:HCJellolemon1,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Make Lemon Jello Dessert
+	{
+        SkillRequired:Cooking=0,
+		HCJellolemoncubes=2,
+		Bowl,
+		HCWhippedcreamcan,
+		Result:HCJellolemonbowl,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Orange Jello
+	{
+        SkillRequired:Cooking=1,
+		keep HCWhisk/Spoon/HCPlasticspoon/HCWoodenspoon/HCSpork,
+		WaterSaucepan,
+		HCJellopacketorange,
+		Result:HCJelloorangeprep,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Move Orange Jello Into Mold
+	{
+        SkillRequired:Cooking=1,
+		HCJelloorangecooked,
+		HCJellomold1,
+		Result:HCJelloorange1hot,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Remove Orange Jello From Mold
+	{
+        SkillRequired:Cooking=1,
+		HCJelloorange1cold,
+		HCJellomold1,
+		Result:HCJelloorange1,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Make Orange Jello Dessert
+	{
+        SkillRequired:Cooking=0,
+		HCJelloorangecubes=2,
+		Bowl,
+		HCWhippedcreamcan,
+		Result:HCJelloorangebowl,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Lime Jello
+	{
+        SkillRequired:Cooking=1,
+		keep HCWhisk/Spoon/HCPlasticspoon/HCWoodenspoon/HCSpork,
+		WaterSaucepan,
+		HCJellopacketlime,
+		Result:HCJellolimeprep,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Move Lime Jello Into Mold
+	{
+        SkillRequired:Cooking=1,
+		HCJellolimecooked,
+		HCJellomold1,
+		Result:HCJellolime1hot,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Remove Lime Jello From Mold
+	{
+        SkillRequired:Cooking=1,
+		HCJellolime1cold,
+		HCJellomold1,
+		Result:HCJellolime1,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Make Lime Jello Dessert
+	{
+        SkillRequired:Cooking=0,
+		HCJellolimecubes=2,
+		Bowl,
+		HCWhippedcreamcan,
+		Result:HCJellolimebowl,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Watermelon Jello
+	{
+        SkillRequired:Cooking=1,
+		keep HCWhisk/Spoon/HCPlasticspoon/HCWoodenspoon/HCSpork,
+		WaterSaucepan,
+		HCJellopacketwatermelon,
+		Result:HCJellowatermelonprep,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Move Watermelon Jello Into Mold
+	{
+        SkillRequired:Cooking=1,
+		HCJellowatermeloncooked,
+		HCJellomold1,
+		Result:HCJellowatermelon1hot,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Remove Watermelon Jello From Mold
+	{
+        SkillRequired:Cooking=1,
+		HCJellowatermelon1cold,
+		HCJellomold1,
+		Result:HCJellowatermelon1,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Make Watermelon Jello Dessert
+	{
+        SkillRequired:Cooking=0,
+		HCJellowatermeloncubes=2,
+		Bowl,
+		HCWhippedcreamcan,
+		Result:HCJellowatermelonbowl,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Prepare Strawberry Jello
+	{
+        SkillRequired:Cooking=1,
+		keep HCWhisk/Spoon/HCPlasticspoon/HCWoodenspoon/HCSpork,
+		WaterSaucepan,
+		HCJellopacketstrawberry,
+		Result:HCJellostrawberryprep,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Move Strawberry Jello Into Mold
+	{
+        SkillRequired:Cooking=1,
+		HCJellostrawberrycooked,
+		HCJellomold1,
+		Result:HCJellostrawberry1hot,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Remove Strawberry Jello From Mold
+	{
+        SkillRequired:Cooking=1,
+		HCJellostrawberry1cold,
+		HCJellomold1,
+		Result:HCJellostrawberry1,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Make Strawberry Jello Dessert
+	{
+        SkillRequired:Cooking=0,
+		HCJellostrawberrycubes=2,
+		Bowl,
+		HCWhippedcreamcan,
+		Result:HCJellostrawberrybowl,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Cut Jello Into Cubes
+	{
+        SkillRequired:Cooking=0,
+		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticsknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
+		HCJelloapple1,
+		Result:HCJelloapplecubes=4,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Cut Jello Into Cubes
+	{
+        SkillRequired:Cooking=0,
+		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticsknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
+		HCJelloblueberry1,
+		Result:HCJelloblueberrycubes=4,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Cut Jello Into Cubes
+	{
+        SkillRequired:Cooking=0,
+		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticsknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
+		HCJellocherry1,
+		Result:HCJellocherrycubes=4,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Cut Jello Into Cubes
+	{
+        SkillRequired:Cooking=0,
+		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticsknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
+		HCJellolemon1,
+		Result:HCJellolemoncubes=4,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Cut Jello Into Cubes
+	{
+        SkillRequired:Cooking=0,
+		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticsknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
+		HCJellolime1,
+		Result:HCJellolimecubes=4,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Cut Jello Into Cubes
+	{
+        SkillRequired:Cooking=0,
+		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticsknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
+		HCJelloorange1,
+		Result:HCJelloorangecubes=4,
+		Time:50.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Cut Jello Into Cubes
+	{
+        	SkillRequired:Cooking=0,
+		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticsknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
+		HCJellostrawberry1,
+		Result:HCJellostrawberrycubes=4,
+		Time:50.0,
+   		Category:Cooking,
+	}
+
+ recipe Cut Jello Into Cubes
+	{
+        	SkillRequired:Cooking=0,
+		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticsknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
+		HCJellowatermelon1,
+		Result:HCJellowatermeloncubes=4,
+		Time:50.0,
+   		Category:Cooking,
+	}
+
+		
+}
