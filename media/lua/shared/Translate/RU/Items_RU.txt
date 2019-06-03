@@ -5902,8 +5902,5 @@ Items_RU = {
 	DisplayName_Dutch_Oven = "Чугунная жаровня",
 	DisplayName_Log_Stack_(Four) = "Кипа из 4 бревен",
 	DisplayName_Log_Stack_(Three) = "Кипа из 3 бревен",
-	DisplayName_Log_Stack_(Two) = "Кипа из 2 бревен",
-	DisplayName_ = "",
-	
-	
+	DisplayName_Log_Stack_(Two) = "Кипа из 2 бревен",	
 }
