@@ -5856,7 +5856,6 @@ Items_RU = {
 	DisplayName_Open_Canned_Sardines = "Консервированные сардины *",
 	DisplayName_WildWheat = "Дикая пшеница",
 	DisplayName_Astronomy_Textbook = "Учебник по астрономии",
-
 	DisplayName_Battery_(Small) = "Батарейка 1.5v",
 	DisplayName_Dead_Battery_(Small) = "Севшая батарейка 1.5v",
 	DisplayName_Battery_Case_(Small) = "Корпус батарейки 1.5v",
@@ -5895,12 +5894,15 @@ Items_RU = {
 	DisplayName_Tupperware_Bottom_(Small) = "Маленький контейнер без крышки",
 	DisplayName_Tupperware_Lid_(Small) = "Крышка от маленького контейнера",
 	DisplayName_Burlap_Cloth = "Мешковина",
-	DisplayName_Padded_Pants = "Тёплые штаны ",
+	DisplayName_Padded_Pants = "Тёплые штаны",
 	DisplayName_Wild_Potatoes = "Дикий картофель",
 	DisplayName_Dead_Pheasant = "Мертвый фазан",
 	DisplayName_Pheasant_Meat = "Фазанина",
 	DisplayName_Fur_Coat = "Меховая шуба",
 	DisplayName_Dutch_Oven = "Чугунная жаровня",
+	DisplayName_Log_Stack_(Four) = "Кипа из 4 бревен",
+	DisplayName_Log_Stack_(Three) = "Кипа из 3 бревен",
+	DisplayName_Log_Stack_(Two) = "Кипа из 2 бревен",
 	DisplayName_ = "",
 	
 	

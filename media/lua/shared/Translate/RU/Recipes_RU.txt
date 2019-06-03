@@ -3151,4 +3151,7 @@ Recipe_Cut_Open_Canned_Tuna = "Вскрыть тунец",
 Recipe_Use_As_Bucket = "Использовать как ведро",
 Recipe_Butcher_Pheasant = "Освежевать фазана",
 Recipe_Recycle_Car_Parts = "Разобрать автозапчасти",
+Recipe_Add_Barbs = "Сделать колючую проволоку",
+Recipe_Remove_Barbs = "Удалить колючки",
+
 }
