@@ -194,4 +194,4 @@ HCObjects.OnLoadGridSquare = function(square)
 	end
 end
 
-Events.LoadGridsquare.Add(HCObjects.OnLoadGridSquare);
+--Events.LoadGridsquare.Add(HCObjects.OnLoadGridSquare);
