@@ -1732,7 +1732,7 @@ recipe Make Strawberry Jello Dessert
 recipe Cut Jello Into Cubes
 	{
         SkillRequired:Cooking=0,
-		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticsknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
+		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
 		HCJelloapple1,
 		Result:HCJelloapplecubes=4,
 		Time:50.0,
@@ -1742,7 +1742,7 @@ recipe Cut Jello Into Cubes
 recipe Cut Jello Into Cubes
 	{
         SkillRequired:Cooking=0,
-		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticsknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
+		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
 		HCJelloblueberry1,
 		Result:HCJelloblueberrycubes=4,
 		Time:50.0,
@@ -1752,7 +1752,7 @@ recipe Cut Jello Into Cubes
 recipe Cut Jello Into Cubes
 	{
         SkillRequired:Cooking=0,
-		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticsknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
+		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
 		HCJellocherry1,
 		Result:HCJellocherrycubes=4,
 		Time:50.0,
@@ -1762,7 +1762,7 @@ recipe Cut Jello Into Cubes
 recipe Cut Jello Into Cubes
 	{
         SkillRequired:Cooking=0,
-		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticsknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
+		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
 		HCJellolemon1,
 		Result:HCJellolemoncubes=4,
 		Time:50.0,
@@ -1772,7 +1772,7 @@ recipe Cut Jello Into Cubes
 recipe Cut Jello Into Cubes
 	{
         SkillRequired:Cooking=0,
-		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticsknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
+		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
 		HCJellolime1,
 		Result:HCJellolimecubes=4,
 		Time:50.0,
@@ -1782,7 +1782,7 @@ recipe Cut Jello Into Cubes
 recipe Cut Jello Into Cubes
 	{
         SkillRequired:Cooking=0,
-		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticsknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
+		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
 		HCJelloorange1,
 		Result:HCJelloorangecubes=4,
 		Time:50.0,
@@ -1793,7 +1793,7 @@ recipe Cut Jello Into Cubes
 recipe Cut Jello Into Cubes
 	{
         	SkillRequired:Cooking=0,
-		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticsknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
+		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
 		HCJellostrawberry1,
 		Result:HCJellostrawberrycubes=4,
 		Time:50.0,
@@ -1803,7 +1803,7 @@ recipe Cut Jello Into Cubes
  recipe Cut Jello Into Cubes
 	{
         	SkillRequired:Cooking=0,
-		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticsknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
+		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
 		HCJellowatermelon1,
 		Result:HCJellowatermeloncubes=4,
 		Time:50.0,

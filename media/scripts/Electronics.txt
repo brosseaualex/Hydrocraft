@@ -996,7 +996,7 @@ recipe Unbox Resistors
 recipe Box Resistors
     {
        HCResistor=100,
-       SheetPaper/SheetPaper2,
+       SheetPaper2,
        Result:HCResistorbox,
        Time:50.0,
        Category:Electrical,
@@ -1147,7 +1147,7 @@ recipe Spray Photo Lacquer on Platine
 
 recipe Make Circuit Print
     {
-    	SheetPaper/SheetPaper2,
+    	SheetPaper2,
 	Pencil/Pen,
         keep HCBookelectrical,
     	Result:HCCircuitprint,
@@ -1214,7 +1214,7 @@ recipe Drill Holes In Platine
 recipe Clean Platine
     {
 	HCCircuitboarddrilled,
-	Soap/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid,
+	Soap2/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid,
         keep Sponge/HCLoofah/HCSponge/RippedSheets,
     	Result:HCCircuitboardempty,
     	Time:50,

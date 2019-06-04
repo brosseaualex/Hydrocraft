@@ -1,208 +1,184 @@
 module Hydrocraft
 {
-    imports
-    {
-        Base
-
-    }
-
+	imports
+	{
+		Base
+	}
 /************************ITEMS************************/
-
 item HCGroomingbrush
-    	{
-        Weight				= 	0.1,
-        Type    			= 	Normal,
-        DisplayName         		= 	Grooming Brush,
-        icon 				= 	HCGroomingbrush,
-    	}
-
+		{
+		Weight				= 	0.1,
+		Type    			= 	Normal,
+		DisplayName         		= 	Grooming Brush,
+		icon 				= 	HCGroomingbrush,
+		}
 item HCHorsesaddle
-    {
+	{
 	WeightReduction        		= 	50,
-        Weight				=	3,
+		Weight				=	3,
 	Type                		= 	Container,
 	Capacity             		= 	40,
-        DisplayName			=	Horse Saddle,
-        Icon				=	HCHorsesaddle,
+		DisplayName			=	Horse Saddle,
+		Icon				=	HCHorsesaddle,
 	ResizeWorldIcon 		= 	2.0,
-    }
-
+	}
 item HCHorsecollar
-    {
-        Weight				=	2,
-        Type				=	Normal,
-        DisplayName			=	Horse Collar,
-        Icon				=	HCHorsecollar,
+	{
+		Weight				=	2,
+		Type				=	Normal,
+		DisplayName			=	Horse Collar,
+		Icon				=	HCHorsecollar,
 	ResizeWorldIcon 		= 	2.0,
-    }
-
+	}
 item HCPetcone
-    	{
-        Weight				= 	0.1,
-        Type    			= 	Normal,
-        DisplayName         		= 	Pet Cone,
-        icon 				= 	HCPetcone,
-    	}
-
+		{
+		Weight				= 	0.1,
+		Type    			= 	Normal,
+		DisplayName         		= 	Pet Cone,
+		icon 				= 	HCPetcone,
+		}
 item HCPooperscooper
-    	{
-        Weight				= 	0.5,
-        Type    			= 	Normal,
-        DisplayName         		= 	Pooper Scooper,
-        icon 				= 	HCPooperscooper,
-    	}
-
+		{
+		Weight				= 	0.5,
+		Type    			= 	Normal,
+		DisplayName         		= 	Pooper Scooper,
+		icon 				= 	HCPooperscooper,
+		}
 item HCDogropetoy
-    	{
-        Weight				= 	0.1,
-        Type    			= 	Normal,
-        DisplayName         		= 	Dog Rope Toy,
-        icon 				= 	HCDogropetoy,
-    	}
-
+		{
+		Weight				= 	0.1,
+		Type    			= 	Normal,
+		DisplayName         		= 	Dog Rope Toy,
+		icon 				= 	HCDogropetoy,
+		}
 item HCAnimalcage
-    {
-        Weight    		= 1,
-        Type    		= Container,
-        Capacity    		= 2,
-        DisplayName         	= Medium Animal Cage,
-        icon 			= HCAnimalcage,
-    }
-
+	{
+		Weight    		= 1,
+		Type    		= Container,
+		Capacity    		= 2,
+		DisplayName         	= Medium Animal Cage,
+		icon 			= HCAnimalcage,
+	}
 item HCBirdcage
-    {
-        Weight    		= 1,
-        Type    		= Container,
-        Capacity    		= 2,
-        DisplayName         	= Bird Cage,
-        icon 			= HCBirdcage,
-    }
-
+	{
+		Weight    		= 1,
+		Type    		= Container,
+		Capacity    		= 2,
+		DisplayName         	= Bird Cage,
+		icon 			= HCBirdcage,
+	}
 item HCAnimalcagesmall
-    {
-        Weight    		= 0.5,
-        Type    		= Container,
-        Capacity    		= 1,
-        DisplayName         	= Small Animal Cage,
-        icon 			= HCAnimalcagesmall,
-    }
-
+	{
+		Weight    		= 0.5,
+		Type    		= Container,
+		Capacity    		= 1,
+		DisplayName         	= Small Animal Cage,
+		icon 			= HCAnimalcagesmall,
+	}
 item HCHamsterwheel
-    {
-        Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName         	= Hamster Wheel,
-        icon 			= HCHamsterwheel,
-    }
-
+	{
+		Weight    		= 0.1,
+		Type    		= Normal,
+		DisplayName         	= Hamster Wheel,
+		icon 			= HCHamsterwheel,
+	}
 item HCRodentfood
-    {
-        Weight    		= 0.2,
+	{
+		Weight    		= 0.2,
 	Type			= Drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
-        DisplayName         	= Can of Rodent Food,
-        icon 			= HCRodentfood,
-    }
-
+		DisplayName         	= Can of Rodent Food,
+		icon 			= HCRodentfood,
+	}
 item HCRodentfood2
-    {
-        Weight    		= 0.2,
+	{
+		Weight    		= 0.2,
 	Type			= Drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
-        DisplayName         	= Box of Rodent Food,
-        icon 			= HCRodentfood2,
-    }
-
+		DisplayName         	= Box of Rodent Food,
+		icon 			= HCRodentfood2,
+	}
 item HCBirdfeeder
-    	{
-        Weight				= 	0.2,
-        Type    			= 	Normal,
-        DisplayName         		= 	Bird Feeder,
-        icon 				= 	HCBirdfeeder,
-    	}
-
+		{
+		Weight				= 	0.2,
+		Type    			= 	Normal,
+		DisplayName         		= 	Bird Feeder,
+		icon 				= 	HCBirdfeeder,
+		}
 item HCBirdfoodbox
-    {
-        Weight    		= 0.2,
+	{
+		Weight    		= 0.2,
 	Type			= Drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
-        DisplayName         	= Box of Bird Food,
-        icon 			= HCBirdfoodbox,
-    }
-
+		DisplayName         	= Box of Bird Food,
+		icon 			= HCBirdfoodbox,
+	}
 item HCBirdfoodbag
-    {
-        Weight    		= 0.2,
+	{
+		Weight    		= 0.2,
 	Type			= Drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
-        DisplayName         	= Bag of Bird Food,
-        icon 			= HCBirdfoodbag,
-    }
-
+		DisplayName         	= Bag of Bird Food,
+		icon 			= HCBirdfoodbag,
+	}
 item HCDogbowl
-    {
-        Weight    		= 0.5,
-        Type    		= Normal,
-        DisplayName         	= Pet Bowl,
-        icon 			= HCDogbowl,
-    }
-
+	{
+		Weight    		= 0.5,
+		Type    		= Normal,
+		DisplayName         	= Pet Bowl,
+		icon 			= HCDogbowl,
+	}
 item HCDogbiscuit
-    {
-        Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName         	= Dog Biscuit,
-        icon 			= HCDogbiscuit,
-    }
-
+	{
+		Weight    		= 0.1,
+		Type    		= Normal,
+		DisplayName         	= Dog Biscuit,
+		icon 			= HCDogbiscuit,
+	}
 item HCDogkibble
-    {
-        Weight    		= 1,
+	{
+		Weight    		= 1,
 	Type			= Drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.15,
-        DisplayName         	= Bag of Dog Kibble,
-        icon 			= HCDogkibble,
-    }
-
+		DisplayName         	= Bag of Dog Kibble,
+		icon 			= HCDogkibble,
+	}
 item HCFishfood
-    {
-        Weight    		= 0.2,
+	{
+		Weight    		= 0.2,
 	Type			= Drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
-        DisplayName         	= Box of Fish Food,
-        icon 			= HCFishfood,
-    }
-
+		DisplayName         	= Box of Fish Food,
+		icon 			= HCFishfood,
+	}
 item HCFishfood2
-    {
-        Weight    		= 0.2,
+	{
+		Weight    		= 0.2,
 	Type			= Drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
-        DisplayName         	= Can of Fish Food,
-        icon 			= HCFishfood2,
-    }
-
+		DisplayName         	= Can of Fish Food,
+		icon 			= HCFishfood2,
+	}
 item HCFishbowl
-    {
-        Weight    		= 	1,
+	{
+		Weight    		= 	1,
 	CanStoreWater		= 	TRUE,
-        Type    		= 	Normal,
-        DisplayName         	= 	Fish Bowl,
+		Type    		= 	Normal,
+		DisplayName         	= 	Fish Bowl,
 	ReplaceOnUseOn		= 	WaterSource-HCFishbowlfull,
-        icon 			= 	HCFishbowl,
+		icon 			= 	HCFishbowl,
 	ResizeWorldIcon 	= 	2.0,
 	RainFactor 		= 	1,
-    }
-
+	}
 item HCFishbowlfull
-    {
+	{
 	IsWaterSource		=	TRUE,
 	Weight			=	2,
 	CanStoreWater		=	TRUE,
@@ -215,22 +191,20 @@ item HCFishbowlfull
 	Icon			=	HCFishbowlfull,
 	ResizeWorldIcon 	= 	2.0,
 	RainFactor 		= 	1,
-    }
-
+	}
 item HCFishtank
-    {
-        Weight    		= 	2,
+	{
+		Weight    		= 	2,
 	CanStoreWater		= 	TRUE,
-        Type    		= 	Normal,
-        DisplayName         	= 	Fish Tank,
+		Type    		= 	Normal,
+		DisplayName         	= 	Fish Tank,
 	ReplaceOnUseOn		= 	WaterSource-HCFishtankfull,
-        icon 			= 	HCFishtank,
+		icon 			= 	HCFishtank,
 	ResizeWorldIcon 	= 	2.0,
 	RainFactor 		= 	1,
-    }
-
+	}
 item HCFishtankfull
-    {
+	{
 	IsWaterSource		=	TRUE,
 	Weight			=	6,
 	CanStoreWater		=	TRUE,
@@ -243,40 +217,36 @@ item HCFishtankfull
 	Icon			=	HCFishtankfull,
 	ResizeWorldIcon 	= 	2.0,
 	RainFactor 		= 	1,
-    }
-
+	}
 item HCZedtank
-    {
+	{
 	Weight			=	7,
 	Type			=	Normal,
 	DisplayName		=	Fish Tank with Head,
 	Icon			=	HCZedtank,
 	ResizeWorldIcon 	= 	2.0,
-    }
-
+	}
 item HCCatlitter
-    {
-        Weight    		= 0.5,
+	{
+		Weight    		= 0.5,
 	Type			= Drainable,
 	UseWhileEquipped	= FALSE,
 	UseDelta		= 0.25,
-        DisplayName         	= Bag of Kitty Litter,
-        icon 			= HCCatlitter,
-    }
-
+		DisplayName         	= Bag of Kitty Litter,
+		icon 			= HCCatlitter,
+	}
 item HCCatfood
 	{
 	Weight			=	0.3,
 	Type			=	Food,
 	DisplayName		=	Cat Food,
 	Icon			=	HCCatfood,
-        Carbohydrates 		= 	0,
-        Proteins 		= 	15,
-        Lipids 			= 	34,
-        Calories 		= 	370,
-        Packaged 		= 	TRUE,
+		Carbohydrates 		= 	0,
+		Proteins 		= 	15,
+		Lipids 			= 	34,
+		Calories 		= 	370,
+		Packaged 		= 	TRUE,
 	}
-
 item HCCatfoodopen
 	{
 	HungerChange		=	-17,
@@ -288,14 +258,13 @@ item HCCatfoodopen
 	Icon			=	HCCatfoodopen,
 	DaysFresh		=	2,
 	FoodType 		= 	Fish,
-        Carbohydrates 		= 	0,
-        Proteins 		= 	15,
-        Lipids 			= 	34,
-        Calories 		= 	370,
-        Packaged 		= 	TRUE,
-        ReplaceOnUse    	=   	TinCanEmpty,
+		Carbohydrates 		= 	0,
+		Proteins 		= 	15,
+		Lipids 			= 	34,
+		Calories 		= 	370,
+		Packaged 		= 	TRUE,
+		ReplaceOnUse    	=   	TinCanEmpty,
 	}
-
 item HCDogwhistle
 	{
 	Weight 				= 	0.1,
@@ -303,46 +272,39 @@ item HCDogwhistle
 	DisplayName 			= 	Dog Whistle,
 	Icon				=	HCDogwhistle,
 	}
-
 item HCShears
-    {
-        Weight    		= 0.2,
-        Type    		= Normal,
-        DisplayName         	= Shears,
-        icon 			= HCShears,
-    }
-	
+	{
+		Weight    		= 0.2,
+		Type    		= Normal,
+		DisplayName         	= Shears,
+		icon 			= HCShears,
+	}
 /************************RECIPES************************/
-    
-
 recipe Put Head in Fish Tank
-    {
-        destroy HCFishtankfull,
-        HCZedhead,
-   	Result:HCZedtank,
-    	Time:15,
-    	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
+	{
+		destroy HCFishtankfull,
+		HCZedhead,
+	Result:HCZedtank,
+		Time:15,
+		Category:Leisure,
+		OnGiveXP:HCHunger_OnGiveXP,
+	}
 recipe Feed Head
-    {
-    	HCZedtank,
+	{
+		HCZedtank,
 	HCFishfood/HCFishfood2,
-    	Result:HCZedtank,
-    	OnCreate:HC_ToyStatModifier,
-    	Time:15.0,
-    	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
+		Result:HCZedtank,
+		OnCreate:HC_ToyStatModifier,
+		Time:15.0,
+		Category:Leisure,
+		OnGiveXP:HCHunger_OnGiveXP,
+	}
 recipe Open Cat Food
-    {
-       		HCCatfood,
-       		keep TinOpener,
-       		Result:HCCatfoodopen,
-       		Time:80.0,
-	   	Category:Cooking,
-    }
-				
+	{
+			HCCatfood,
+			keep TinOpener,
+			Result:HCCatfoodopen,
+			Time:80.0,
+		Category:Cooking,
+	}
 }

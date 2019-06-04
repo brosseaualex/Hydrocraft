@@ -415,7 +415,7 @@ item HCBlueprintmakecomputertower
 
 recipe Make Potato Cannon Blueprint
     {
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookgunsmithing,
 	keep HCBookplumbing,
@@ -427,7 +427,7 @@ recipe Make Potato Cannon Blueprint
 
 recipe Make Flamethrower Blueprint
     {
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookgunsmithing,
 	keep HCBookwelding,
@@ -439,7 +439,7 @@ recipe Make Flamethrower Blueprint
 
 recipe Make Rocket Launcher Blueprint
     {
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookgunsmithing,
 	keep HCBookelectrical,
@@ -451,7 +451,7 @@ recipe Make Rocket Launcher Blueprint
 
 recipe Make Duct Tape Fletching Blueprint
     {
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep DuctTape,
 	keep HCBookarchery,
@@ -462,7 +462,7 @@ recipe Make Duct Tape Fletching Blueprint
 
 recipe Make Bone Arrowhead Blueprint
     {
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBone/HCZombiebones,
 	keep HCBookarchery,
@@ -473,7 +473,7 @@ recipe Make Bone Arrowhead Blueprint
 
 recipe Make Fishing Rod Blueprint
     {
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookanthropology,
 	keep HCBookfishguide,
@@ -485,7 +485,7 @@ recipe Make Fishing Rod Blueprint
 
 recipe Make Fishing Net Blueprint
     {
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep BookTrapping5,
 	keep HCBookfishguide,
@@ -497,7 +497,7 @@ recipe Make Fishing Net Blueprint
 
 recipe Make Crate Trap Blueprint
     {
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookhunting,
 	keep HCBookmammalguide,
@@ -509,7 +509,7 @@ recipe Make Crate Trap Blueprint
 
 recipe Make Stick Trap Blueprint
     {
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookanthropology,
 	keep HCBookbirdgude,
@@ -521,7 +521,7 @@ recipe Make Stick Trap Blueprint
 
 recipe Make Snare Trap Blueprint
     {
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookanthropology,
 	keep HCBookmammalguide,
@@ -533,7 +533,7 @@ recipe Make Snare Trap Blueprint
 
 recipe Make Trap Box Blueprint
     {
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep BookCarpentry5,
 	keep HCBookmammalguide,
@@ -545,7 +545,7 @@ recipe Make Trap Box Blueprint
 
 recipe Make Cage Trap Blueprint
     {
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBooksteelworking,
 	keep HCBookmammalguide,
@@ -557,7 +557,7 @@ recipe Make Cage Trap Blueprint
 
 recipe Make Mousetrap Blueprint
     {
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookmammalguide,
 	keep BookTrapping4,
@@ -568,7 +568,7 @@ recipe Make Mousetrap Blueprint
 
 recipe Make Nail Trap Blueprint
     {
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep BookCarpentry1,
 	keep BookTrapping5,
@@ -580,7 +580,7 @@ recipe Make Nail Trap Blueprint
 
 recipe Make Hazmat Suit Blueprint
     {
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookchemistry,
 	keep HCBookmedical,
@@ -644,7 +644,7 @@ recipe Research Antibiotics
 recipe Research Professional Lab
     {
        	SkillRequired:Doctor=1,
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
         keep HCLab,
         keep HCBookchemistry,
@@ -755,7 +755,7 @@ recipe Research Ether
 recipe Research Battery Array
     {
 	SkillRequired:Electricity=3,
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
         keep HCElectornicsbench,
         keep HCBookelectrical,
@@ -793,7 +793,7 @@ recipe Research Ammonal
 
 recipe Make Taxadermy Jackalope Blueprint
     {
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBooktaxidermy,
 	keep HCBookmammalguide,
@@ -805,7 +805,7 @@ recipe Make Taxadermy Jackalope Blueprint
 
 recipe Make Steam Pressure Pot Blueprint
     {
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookplumbing,
 	keep HCBookphysics,
@@ -848,7 +848,7 @@ recipe Research Beta Blocker Medication
 recipe Make Spirulina Composter Blueprint
     {
 	SkillRequired:Electricity=1,
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookgardening,
 	keep HCBookoceanography,
@@ -862,7 +862,7 @@ recipe Make Spirulina Composter Blueprint
 recipe Make Computer Mouse Blueprint
     {
 	SkillRequired:Electricity=1,
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookwelding,
 	keep HCBookelectrical,
@@ -875,7 +875,7 @@ recipe Make Computer Mouse Blueprint
 recipe Make Computer Keyboard Blueprint
     {
 	SkillRequired:Electricity=1,
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookwelding,
 	keep HCBookelectrical,
@@ -888,7 +888,7 @@ recipe Make Computer Keyboard Blueprint
 recipe Make Computer Monitor Blueprint
     {
 	SkillRequired:Electricity=1,
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookwelding,
 	keep HCBookelectrical,
@@ -901,7 +901,7 @@ recipe Make Computer Monitor Blueprint
 recipe Make Extract Working CPU Blueprint
     {
 	SkillRequired:Electricity=1,
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookwelding,
 	keep HCBookelectrical,
@@ -914,7 +914,7 @@ recipe Make Extract Working CPU Blueprint
 recipe Make Computer Tower Blueprint
     {
 	SkillRequired:Electricity=1,
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookwelding,
 	keep HCBookelectrical,
@@ -927,7 +927,7 @@ recipe Make Computer Tower Blueprint
 recipe Make Computer PSU Blueprint
     {
 	SkillRequired:Electricity=1,
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookwelding,
 	keep HCBookelectrical,
@@ -940,7 +940,7 @@ recipe Make Computer PSU Blueprint
 recipe Make Computer Fan Blueprint
     {
 	SkillRequired:Electricity=1,
-	SheetPaper/SheetPaper2,
+	SheetPaper2,
 	Pencil/Pen,
 	keep HCBookwelding,
 	keep HCBookelectrical,

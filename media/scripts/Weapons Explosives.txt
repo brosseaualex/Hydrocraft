@@ -749,25 +749,6 @@ recipe Make Dynamite
     {
 	HCGlycerin,
        	HCNitricacid,
-       	SheetPaper=3,
-       	HCDiatomitepowder=3,
-       	Twine=3,
-       	HCSawdust=3,
-       	HCMotoroil,
-       	GunPowder=3, 
-	keep HCLab/HCLabbig,
-       	CanBeDoneFromFloor:true,
-       	NeedToBeLearn:true,
-       	Result:HCDynamite=3,
-       	Time:2000,
-       	Category:Alchemy,
-    	OnGiveXP:HCCooking_OnGiveXP,
-    }
-
-recipe Make Dynamite
-    {
-	HCGlycerin,
-       	HCNitricacid,
        	SheetPaper2=3,
        	HCDiatomitepowder=3,
        	Twine=3,

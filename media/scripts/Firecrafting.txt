@@ -402,19 +402,6 @@ recipe Make Charcoal
 
 recipe Make Charcoal
     {
-    	SheetPaper=48,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
-    	CanBeDoneFromFloor:true,
-    	Result:Charcoal,
-    	Time:100,
-    	Category:Firecraft,
-    	OnCreate:KilnUse,
-       	OnGiveXP:HCCooking_OnGiveXP,
-    }
-
-recipe Make Charcoal
-    {
     	SheetPaper2=48,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     	keep HCKiln/HCKiln2,

@@ -383,7 +383,7 @@ recipe Build Roof for Beehive
 recipe Fill Bee Smoker with Fuel
     {
     	HCBeesmokerempty,
-	SheetPaper/SheetPaper2/HCGrass/HCBark/HCBirchbark/HCOakleaves/HCWillowbranch/HCPinebough/HCFirbough,
+	SheetPaper2/HCGrass/HCBark/HCBirchbark/HCOakleaves/HCWillowbranch/HCPinebough/HCFirbough,
 	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     	Result:HCBeesmokerfull,
        	NeedToBeLearn:true,

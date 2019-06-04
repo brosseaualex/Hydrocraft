@@ -1712,7 +1712,7 @@ recipe Cut Dry Fur
 
 recipe Cut Dry Fur
     {
-    	HCHidedriedboar/HCHidedrieddeer/HCHidedriedbearblack/HCHidedriedpig/HCHidedrieddonkey/HCHidedrieddcougar,
+    	HCHidedriedboar/HCHidedrieddeer/HCHidedriedbearblack/HCHidedriedpig/HCHidedrieddonkey/HCHidedriedcougar,
         keep HuntingKnife/HCJackknife/Scissors/HCKnifestone,
     	CanBeDoneFromFloor:true,
         Result:HCAnimalfurdried=6,

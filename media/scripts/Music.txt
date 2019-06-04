@@ -376,7 +376,7 @@ recipe Read Music
 
 recipe Write Music
     {
-    	SheetPaper/SheetPaper2,
+    	SheetPaper2,
 	Pencil/Pen,
     	NeedToBeLearn:true,
     	Result:HCPapersheetmusic,

@@ -100,7 +100,7 @@ item HCLabelpotassiumpermanganate
 
 recipe Make Label
     {
-    	SheetPaper,
+    	SheetPaper2,
 	Glue/Woodglue/HCSuperglue/HCRubbercement/HCTar/HCHotgluegunfull/HCGluejar/HCWoodgluejar,
 	keep Scissors/HCBoxcutter/HCScalpel/HCScalpelimprovised/HCJackknife,
     	Result:HCLabelempty,

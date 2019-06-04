@@ -2128,7 +2128,7 @@ recipe Attatch Corpse Scarecrow
 
 recipe Build Archery Target
     {
-    	SheetPaper/SheetPaper2,
+    	SheetPaper2,
 	Pencil/Pen/Crayons,
 	HCStrawbale,
 	Plank=4,
@@ -2462,7 +2462,7 @@ recipe Upgrade Vending Stand
 recipe Make Folding Sign
     {
 	SkillRequired:Woodwork=1,
-    	SheetPaper/SheetPaper2,
+    	SheetPaper2,
 	Pencil/Pen/Crayons,
 	Hinge,
 	HCRopethin=2,

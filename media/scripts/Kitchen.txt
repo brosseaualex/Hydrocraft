@@ -873,7 +873,7 @@ item HCJellomold1
 		EnduranceMod 			= 	0.5,
 	}
 
-	item HCPlasticsknife
+	item HCPlasticknife
 	{
 		MaxRange			=	0.6,
 		WeaponSprite			=	Knife,

@@ -404,7 +404,7 @@ recipe Rechnarge Dynamo Flashlight
 
 recipe Make Lamp Shade
     {
-    	SheetPaper/SheetPaper2,
+    	SheetPaper2,
     	Wire=4,
     	Result:HCLampshade,
     	Time:100,

@@ -76,7 +76,7 @@ item HCPaperscreendry
 
 recipe Fold Paper
     {
-    SheetPaper/SheetPaper2,
+    SheetPaper2,
     Result:HCPapercrane,
     Time:500,
     Category:Leisure,
@@ -84,7 +84,7 @@ recipe Fold Paper
 
 recipe Fold Paper
     {
-    SheetPaper/SheetPaper2,
+    SheetPaper2,
     Result:HCPaperairplane,
     Time:500,
     Category:Leisure,
@@ -164,7 +164,7 @@ recipe Remove Paper Screen
 	HCPaperscreendry,
 	keep HCRuler,
 	keep Scissors/HCBoxcutter/HCScalpel/HCScalpelimprovised/HCJackknife,
-   	Result:SheetPaper,
+   	Result:SheetPaper2,
     	Time:20,
     	Category:Papercraft,
     	NeedToBeLearn:true,
