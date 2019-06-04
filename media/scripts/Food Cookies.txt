@@ -839,5 +839,37 @@ recipe Make Frosted Christmas Cookies
 		Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
     	}
+		
+	item HCBakingTrayTestCookie
+	{
+		HungerChange			=	-20,
+		Weight				=	0.56,
+		Type				=	Food,
+		UnhappyChange			=	5,
+		BoredomChange			=	5,
+		IsCookable			=	TRUE,
+		MinutesToCook			=	30,
+		MinutesToBurn			=	60,
+		DisplayName			=	Baking Tray of Test Cookies,
+		Icon				=	HCBakingtraycookiesraw,
+		ReplaceOnUse			=	BakingTray,
+		DaysTotallyRotten		=	5,
+		DaysFresh 			=	3,
+		FoodType			=	NoExplicit,
+		Carbohydrates 			= 	46.8,
+        Proteins 			= 	2.4,
+        Lipids 				= 	15,
+        Calories 			= 	300,
+	}
+	
+	recipe Take Test Cookies From Baking Tray 
+	{
+		HCBakingTrayTestCookie,
+		Result:HCCookie=6,   
+		Time:100.0,
+		OnTest:RemoveCookies_TestIsValid,
+		OnCreate:OnRemoveCookiesFromBakingTray_OnCreate,
+		OnGiveXP:Give3CookingXP,
+	}
 
 }

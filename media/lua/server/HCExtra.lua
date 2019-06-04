@@ -2561,6 +2561,18 @@ function BoltsArrows.arrowBoltSpawn(roomName, containerName, containerID)
     end
 end
 
+function RemoveCookies_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCBakingTrayTestCookie" then
+        return sourceItem:isCooked()
+    end
+    return true
+	
+end
+
+function OnRemoveCookies_OnCreate(items,result,player)
+    player:getInventory():AddItem("Base.BakingTray");
+end
+
 -- Events.OnWeaponHitCharacter.Add(BoltsArrows.arrowBoltHit);
 Events.OnFillContainer.Add(BoltsArrows.arrowBoltSpawn);
 
