@@ -8,66 +8,6 @@ module Hydrocraft
 
 /************************ITEMS************************/
 
-item HCCookiewhite
-	{
-	HungerChange			=	-20,
-	Weight				=	0.56,
-	Type				=	Food,
-	UnhappyChange			=	5,
-	BoredomChange			=	5,
-	IsCookable			=	TRUE,
-    	MinutesToCook			=	30,
-	MinutesToBurn			=	60,
-	ReplaceOnCooked			=	Hydrocraft.HCCookiewhitebakedtray,
-	DisplayName			=	Uncooked Tray of White Chocolate Chip Cookies,
-	Icon				=	HCCookiewhite,
-	ReplaceOnUse			=	BakingTray,
-	DaysTotallyRotten		=	5,
-	DaysFresh 			=	3,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	49.2,
-        Proteins 			= 	3.6,
-        Lipids 				= 	16.2,
-        Calories 			= 	354,
-	}
-
-item HCCookiewhitebakedtray
-	{
-	HungerChange			=	-20,
-	Weight				=	0.56,
-	Type				=	Food,
-	UnhappyChange			=	-20,
-	BoredomChange			=	-15,
-	DisplayName			=	Tray of White Chocolate Chip Cookies,
-	Icon				=	HCCookiewhitebaked,
-	ReplaceOnUse			=	BakingTray,
-	DaysTotallyRotten		=	10,
-	DaysFresh 			=	7,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	49.2,
-        Proteins 			= 	3.6,
-        Lipids 				= 	16.2,
-        Calories 			= 	354,
-	}
-
-item HCCookiewhitebaked
-	{
-	HungerChange			=	-10,
-	Weight				=	0.01,
-	Type				=	Food,
-	UnhappyChange			=	-20,
-	BoredomChange			=	-15,
-	DisplayName			=	White Chocolate Chip Cookie,
-	Icon				=	HCCookiewhitebaked,
-	DaysTotallyRotten		=	10,
-	DaysFresh 			=	7,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	8.2,
-        Proteins 			= 	0.6,
-        Lipids 				= 	2.7,
-        Calories 			= 	59,
-	}
-
 item HCCookiepeanutbutter
 	{
 	HungerChange			=	-20,
@@ -483,26 +423,6 @@ recipe Make Gingerbread Man Cookie
 		Result:HCGingerbreadman,
 		Time:50,
 	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
-	}
-
-recipe Remove Cookies from Tray
-	{
-		HCCookiebakedtray,
-		Result:BakingTray,
-		Time:15,
-	   	Category:Cooking,
-    		OnCreate:recipe_HCCookiebaked,
-       		OnGiveXP:HCCooking_OnGiveXP,
-	}
-
-recipe Remove Chocolate Chip Cookies from Tray
-	{
-		HCChipcookiebakedtray,
-		Result:BakingTray,
-		Time:15,
-	   	Category:Cooking,
-    		OnCreate:recipe_HCChipcookiebaked,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
 

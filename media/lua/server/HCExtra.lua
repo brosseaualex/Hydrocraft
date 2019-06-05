@@ -2575,6 +2575,13 @@ function RemoveChocolateChipCookies_TestIsValid(sourceItem, result)
     return true
 end
 
+function RemoveWhiteChocolateCookies_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCCookieswhitetray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
 function OnRemoveCookies_OnCreate(items,result,player)
     player:getInventory():AddItem("Base.BakingTray");
 end
