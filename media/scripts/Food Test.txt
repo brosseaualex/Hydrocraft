@@ -181,7 +181,7 @@ module Hydrocraft
 	
 	recipe Remove Homemade Cookies From Baking Tray 
 	{
-		HCBakingtrayhomemadecookies,
+		HCHomemadecookiestray,
 		Result:HCHomemadecookie=6,
         Time:60.0,
 		OnTest:RemoveHomemadeCookies_TestIsValid,
