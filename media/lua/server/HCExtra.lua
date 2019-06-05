@@ -2561,12 +2561,18 @@ function BoltsArrows.arrowBoltSpawn(roomName, containerName, containerID)
     end
 end
 
-function RemoveCookies_TestIsValid(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.HCBakingTrayTestCookie" then
+function RemoveHomemadeCookies_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCHomemadecookiestray" then
         return sourceItem:isCooked()
     end
     return true
-	
+end
+
+function RemoveChocolateChipCookies_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCChipcookietray" then
+        return sourceItem:isCooked()
+    end
+    return true
 end
 
 function OnRemoveCookies_OnCreate(items,result,player)
