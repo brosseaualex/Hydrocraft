@@ -70,103 +70,64 @@ item HCPotatopancakes
         Calories 			= 	536,
 	}
 
-item HCMashedpotatosplain
+	item HCMashedpotatosplain
 	{
-	HungerChange			=	-30,
-	Weight				=	0.3,
-	Type				=	Food,
-	IsCookable			=	TRUE,
-	DangerousUncooked		=	TRUE,
-	MinutesToCook			=	30,
-	MinutesToBurn			=	50,
-	DaysFresh			=	3,	
-	DaysTotallyRotten		=	6,
-	Icon				=	PotFull,
-	ReplaceOnCooked			=	Hydrocraft.HCMashedpotatosplaincooked,
-	ReplaceOnUse			=	Pot, 
-	DisplayName			=	Plain Mashed Potatos,
-	FoodType    			=	Vegetables,
-        Carbohydrates 			= 	60,
-        Proteins 			= 	5.7,
-        Lipids 				= 	0.3,
-        Calories 			= 	261,
-}
+		HungerChange		=	-30,
+		Weight				=	0.3,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	50,
+		DaysFresh			=	3,	
+		DaysTotallyRotten	=	6,
+		Icon				=	PotFull,
+		ReplaceOnUse		=	Base.Pot, 
+		DisplayName			=	Plain Mashed Potatos,
+		FoodType    		=	Vegetables,
+		Carbohydrates 		= 	60,
+		Proteins 			= 	5.7,
+		Lipids 				= 	0.3,
+		Calories 			= 	261,
+	}
 
-item HCMashedpotatoscreamy
+	item HCMashedpotatoscreamy
 	{
-	HungerChange			=	-40,
-	Weight				=	0.3,
-	Type				=	Food,
-	IsCookable			=	TRUE,
-	DangerousUncooked		=	TRUE,
-	MinutesToCook			=	30,
-	MinutesToBurn			=	50,
-	DaysFresh			=	3,
-	DaysTotallyRotten		=	6,
-	Icon				=	PotFull,
-	ReplaceOnUse			=	Pot, 	
-	ReplaceOnCooked			=	Hydrocraft.HCMashedpotatoscreamycooked,
-	DisplayName			=	Creamy Mashed Potatos,
-	FoodType    			=	Vegetables,
-        Carbohydrates 			= 	51,
+		HungerChange		=	-40,
+		Weight				=	0.3,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	50,
+		DaysFresh			=	3,
+		DaysTotallyRotten	=	6,
+		Icon				=	PotFull,
+		ReplaceOnUse		=	Base.Pot, 	
+		DisplayName			=	Creamy Mashed Potatos,
+		FoodType    		=	Vegetables,
+        Carbohydrates 		= 	51,
         Proteins 			= 	5.7,
         Lipids 				= 	12.6,
         Calories 			= 	339,
 	}	
 
-
-item HCMashedpotatosplaincooked
+	item HCMashedpotatosplainbowl
 	{
-	HungerChange			=	-30,
-	Weight				=	0.3,
-	Type				=	Food,
-	DaysFresh			=	3,	
-	DaysTotallyRotten		=	6,
-	DisplayName			=	Cooked Plain Mashed Potatos,
-	Icon				=	PotFull,
-	ReplaceOnUse			=	Pot, 
-	FoodType    			=	Vegetables,
-        Carbohydrates 			= 	60,
-        Proteins 			= 	5.7,
-        Lipids 				= 	0.3,
-        Calories 			= 	261,	
-}
-	
-item HCMashedpotatoscreamycooked
-	{
-	HungerChange			=	-40,
-	BoredomChange			=	-20,
-	UnhappyChange			=	-30,
-	Weight				=	0.3,
-	Type				=	Food,
-	DaysFresh			=	3,	
-	DaysTotallyRotten		=	6,
-	DisplayName			=	Cooked Creamy Mashed Potatos,
-	Icon				=	PotFull,
-	ReplaceOnUse			=	Pot,
-	FoodType    			=	Vegetables,
-        Carbohydrates 			= 	51,
-        Proteins 			= 	5.7,
-        Lipids 				= 	12.6,
-        Calories 			= 	339, 	
-}
-
-item HCMashedpotatosplainbowl
-	{
-	HungerChange			=	-15,
-	Weight				=	0.3,
-	Type				=	Food,
-	DaysFresh			=	3,	
-	DaysTotallyRotten		=	6,
-	DisplayName			=	Bowl of Plain Mashed Potatos,
-	Icon				=	HCMashedbowl,
-	ReplaceOnUse			=	Bowl,
-	FoodType    			=	Vegetables,
-        Carbohydrates 			= 	30,
+		HungerChange		=	-15,
+		Weight				=	0.3,
+		Type				=	Food,
+		DaysFresh			=	3,	
+		DaysTotallyRotten	=	6,
+		DisplayName			=	Bowl of Plain Mashed Potatos,
+		Icon				=	HCMashedbowl,
+		ReplaceOnUse		=	Bowl,
+		FoodType    		=	Vegetables,
+		Carbohydrates 		= 	30,
         Proteins 			= 	2.85,
         Lipids 				= 	0.15,
         Calories 			= 	130.5, 	
-}
+	}
 
 item HCMashedpotatoscreamybowl
 	{
@@ -412,7 +373,7 @@ recipe Make Creamy Mashed Potatos
 recipe Make Bowl of Plain Mashed Potatos
 	{
 		Bowl=2,
-		HCMashedpotatosplaincooked,
+		HCMashedpotatosplain,
 		Result:HCMashedpotatosplainbowl=2,
 		Time:35.0,
 		Category:Cooking,
@@ -422,7 +383,7 @@ recipe Make Bowl of Plain Mashed Potatos
 recipe Make Bowl of Creamy Mashed Potatos
 	{
 		Bowl=2,
-		HCMashedpotatoscreamycooked,
+		HCMashedpotatoscreamy,
 		Result:HCMashedpotatoscreamybowl=2,
 		Time:35.0,
 		Category:Cooking,
