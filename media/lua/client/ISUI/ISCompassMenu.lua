@@ -137,7 +137,7 @@ ISCompassMenu.createMenuEntries = function(_player, _context, _items)
 	for i,v in ipairs(clickedItems) do	
 		local inv = getPlayer():getInventory()	
 		local item = v;	if not instanceof(v, "InventoryItem") then
-			item = v.items[1];
+		item = v.items[1];
 		end
 		if instanceof(item, "InventoryItem") then
 			if item:getName() == "Compass" and not inv:FindAndReturn("HCMap") then
