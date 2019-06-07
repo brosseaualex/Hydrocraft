@@ -2561,28 +2561,35 @@ function BoltsArrows.arrowBoltSpawn(roomName, containerName, containerID)
     end
 end
 
-function RemoveHomemadeCookies_TestIsValid(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.HCHomemadecookiestray" then
+function RemoveCookies_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCCookiebakedtray" then
         return sourceItem:isCooked()
     end
     return true
 end
 
 function RemoveChocolateChipCookies_TestIsValid(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.HCChipcookietray" then
+    if sourceItem:getFullType() == "Hydrocraft.HCChipcookiebakedtray" then
         return sourceItem:isCooked()
     end
     return true
 end
 
 function RemoveWhiteChocolateCookies_TestIsValid(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.HCCookieswhitetray" then
+    if sourceItem:getFullType() == "Hydrocraft.HCCookiewhitebakedtray" then
         return sourceItem:isCooked()
     end
     return true
 end
 
-function OnRemoveCookies_OnCreate(items,result,player)
+function RemovePeanutButterCookies_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCCookiepeanutbutterbakedtray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function ReturnBakingTray_OnCreate(items,result,player)
     player:getInventory():AddItem("Base.BakingTray");
 end
 
