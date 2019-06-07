@@ -133,7 +133,7 @@ item HCLimejuicebowl
         Calories 			= 	25,
 	}
 	
-item HCDryingappleslices
+	item HCDryingappleslices
 	{
 	HungerChange			=	-5,
 	Weight				=	0.6,
