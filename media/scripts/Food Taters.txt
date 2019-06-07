@@ -212,6 +212,7 @@ module Hydrocraft
 		IsCookable 			= 	TRUE,
 		MinutesToCook		=	45,
 		MinutesToBurn		=	70,
+		DangerousUncooked	=	TRUE,
 		ReplaceOnUse		=	BakingTray,
 		DaysTotallyRotten	=	7,
 		DaysFresh 			= 	4,
