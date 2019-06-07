@@ -1273,17 +1273,53 @@ function recipe_unboxramenflat(items, result, player)
 
 end
 
---Kitchen Stuff
+--Kitchen Stuff (Food Functions)
 
-function recipe_hcnapkinholder(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCNapkinholder");
+function RemoveCookies_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCCookiebakedtray" then
+        return sourceItem:isCooked()
+    end
+    return true
 end
 
-function recipe_hcbakingtray(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Base.BakingTray");
+function RemoveChocolateChipCookies_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCChipcookiebakedtray" then
+        return sourceItem:isCooked()
+    end
+    return true
 end
+
+function RemoveWhiteChocolateCookies_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCCookiewhitebakedtray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemovePeanutButterCookies_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCCookiepeanutbutterbakedtray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemoveChocolateCookies_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCChocolatecookiebakedtray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemoveDoubleChocolateCookies_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCDoublechocolatecookiebakedtray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function recipe_HCGingerbreadmanbaked(items, result, player)
+	HCAddManySameItem("Hydrocraft.HCGingerbreadmanbaked", 5, player);
+end 
 
 function recipe_HCHoneybun(items, result, player)
 	HCAddManySameItem("Hydrocraft.HCHoneybun", 3, player);
@@ -1293,33 +1329,22 @@ function recipe_HCCupcake(items, result, player)
 	HCAddManySameItem("Hydrocraft.HCCupcake", 5, player);
 end 
 
-function recipe_HCCookiebaked(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCookiebaked", 5, player);
-end 
+--Kitchen Stuff (Item Functions)
 
-function recipe_HCChipcookiebaked(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCChipcookiebaked", 5, player);
-end 
+function recipe_hcnapkinholder(items, result, player)
+	local inv = player:getInventory();
+	inv:AddItem("Hydrocraft.HCNapkinholder");
+end
 
-function recipe_HCCookiewhitebaked(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCookiewhitebaked", 5, player);
-end 
+function ReturnBakingTray_OnCreate(items,result,player)
+    player:getInventory():AddItem("Base.BakingTray");
+end
 
-function recipe_HCCookiepeanutbutterbaked(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCookiepeanutbutterbaked", 5, player);
-end 
-
-function recipe_HCChocolatecookiebaked(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCChocolatecookiebaked", 5, player);
-end 
-
-function recipe_HCDoublechocolatecookiebaked(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCDoublechocolatecookiebaked", 5, player);
-end 
-
-function recipe_HCGingerbreadmanbaked(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCGingerbreadmanbaked", 5, player);
-end 
+-- baking tray will be obsolete
+function recipe_hcbakingtray(items, result, player)
+	local inv = player:getInventory();
+	inv:AddItem("Base.BakingTray");
+end
 
 function recipe_hcbreadpan(items, result, player)
 	local inv = player:getInventory();
@@ -2561,37 +2586,6 @@ function BoltsArrows.arrowBoltSpawn(roomName, containerName, containerID)
     end
 end
 
-function RemoveCookies_TestIsValid(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.HCCookiebakedtray" then
-        return sourceItem:isCooked()
-    end
-    return true
-end
-
-function RemoveChocolateChipCookies_TestIsValid(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.HCChipcookiebakedtray" then
-        return sourceItem:isCooked()
-    end
-    return true
-end
-
-function RemoveWhiteChocolateCookies_TestIsValid(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.HCCookiewhitebakedtray" then
-        return sourceItem:isCooked()
-    end
-    return true
-end
-
-function RemovePeanutButterCookies_TestIsValid(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.HCCookiepeanutbutterbakedtray" then
-        return sourceItem:isCooked()
-    end
-    return true
-end
-
-function ReturnBakingTray_OnCreate(items,result,player)
-    player:getInventory():AddItem("Base.BakingTray");
-end
 
 -- Events.OnWeaponHitCharacter.Add(BoltsArrows.arrowBoltHit);
 Events.OnFillContainer.Add(BoltsArrows.arrowBoltSpawn);
