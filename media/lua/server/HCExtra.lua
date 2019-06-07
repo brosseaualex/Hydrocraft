@@ -1276,50 +1276,67 @@ end
 --Kitchen Stuff (Food Functions)
 
 function RemoveCookies_TestIsValid(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.HCCookiebakedtray" then
+    if sourceItem:getFullType() == "Hydrocraft.HCHomemadecookietray" then
         return sourceItem:isCooked()
     end
     return true
 end
 
 function RemoveChocolateChipCookies_TestIsValid(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.HCChipcookiebakedtray" then
+    if sourceItem:getFullType() == "Hydrocraft.HCChipcookietray" then
         return sourceItem:isCooked()
     end
     return true
 end
 
 function RemoveWhiteChocolateCookies_TestIsValid(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.HCCookiewhitebakedtray" then
+    if sourceItem:getFullType() == "Hydrocraft.HCCookiewhitetray" then
         return sourceItem:isCooked()
     end
     return true
 end
 
 function RemovePeanutButterCookies_TestIsValid(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.HCCookiepeanutbutterbakedtray" then
+    if sourceItem:getFullType() == "Hydrocraft.HCCookiepeanutbuttertray" then
         return sourceItem:isCooked()
     end
     return true
 end
 
 function RemoveChocolateCookies_TestIsValid(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.HCChocolatecookiebakedtray" then
+    if sourceItem:getFullType() == "Hydrocraft.HCChocolatecookietray" then
         return sourceItem:isCooked()
     end
     return true
 end
 
 function RemoveDoubleChocolateCookies_TestIsValid(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.HCDoublechocolatecookiebakedtray" then
+    if sourceItem:getFullType() == "Hydrocraft.HCDoublechocolatecookietray" then
         return sourceItem:isCooked()
     end
     return true
 end
 
-function recipe_HCGingerbreadmanbaked(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCGingerbreadmanbaked", 5, player);
-end 
+function RemoveGingerbreadManCookies_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCGingerbreadmantray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemoveChristmasCookies_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCChristmascookietray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemoveFrostedChristmasCookies_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCFrostedchristmascookietray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
 
 function recipe_HCHoneybun(items, result, player)
 	HCAddManySameItem("Hydrocraft.HCHoneybun", 3, player);
@@ -2078,17 +2095,17 @@ function HCJarCookies(items, result, player)
 	local cookie = ZombRand(6);
 	local count = ZombRand(10);
 	if cookie == 0 then
-		HCAddManySameItem("Hydrocraft.HCCookiebaked", count+1, player);
+		HCAddManySameItem("Hydrocraft.HCHomemadecookie", count+1, player);
 	elseif cookie == 1 then
-		HCAddManySameItem("Hydrocraft.HCChipcookiebaked", count+1, player);
+		HCAddManySameItem("Hydrocraft.HCChipcookie", count+1, player);
 	elseif cookie == 2 then
-		HCAddManySameItem("Hydrocraft.HCCookiewhitebaked", count+1, player);
+		HCAddManySameItem("Hydrocraft.HCCookiewhite", count+1, player);
 	elseif cookie == 3 then
-		HCAddManySameItem("Hydrocraft.HCCookiepeanutbutterbaked", count+1, player);
+		HCAddManySameItem("Hydrocraft.HCCookiepeanutbutter", count+1, player);
 	elseif cookie == 4 then
-		HCAddManySameItem("Hydrocraft.HCChocolatecookiebaked", count+1, player);
+		HCAddManySameItem("Hydrocraft.HCChocolatecookie", count+1, player);
 	elseif cookie == 5 then
-		HCAddManySameItem("Hydrocraft.HCDoublechocolatecookiebaked", count+1, player);
+		HCAddManySameItem("Hydrocraft.HCChocolatecookie", count+1, player);
 	end
 end
 

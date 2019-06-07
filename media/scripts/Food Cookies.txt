@@ -8,76 +8,76 @@ module Hydrocraft
 
 /************************ITEMS************************/
 
-item HCCookieschocolatechipbag
+	item HCCookieschocolatechipbag
 	{
-	HungerChange			=	-30,
-	Weight				=	0.01,
-	Type				=	Food,
-	DisplayName			=	Bag of Chocolate Chip Cookies,
-	Icon				=	HCCookieschocolatechipbag,
-	UnhappyChange			=	-20,
-	BoredomChange			=	-15,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	196.8,
-        Proteins 			= 	12.4,
-        Lipids 				= 	68,
-        Calories 			= 	1416,
-	ReplaceOnUse			= 	Hydrocraft.HCCookieschocolatechipbagtrash,
+		HungerChange			=	-30,
+		Weight				=	0.01,
+		Type				=	Food,
+		DisplayName			=	Bag of Chocolate Chip Cookies,
+		Icon				=	HCCookieschocolatechipbag,
+		UnhappyChange			=	-20,
+		BoredomChange			=	-15,
+		FoodType			=	NoExplicit,
+		Carbohydrates 			= 	196.8,
+		Proteins 			= 	12.4,
+		Lipids 				= 	68,
+		Calories 			= 	1416,
+		ReplaceOnUse			= 	Hydrocraft.HCCookieschocolatechipbagtrash,
 	}
 
-item HCCookiesmintbag
+	item HCCookiesmintbag
 	{
-	HungerChange			=	-30,
-	Weight				=	0.01,
-	Type				=	Food,
-	DisplayName			=	Bag of Mint Cookies,
-	Icon				=	HCCookiesmintbag,
-	UnhappyChange			=	-20,
-	BoredomChange			=	-15,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	196.8,
-        Proteins 			= 	12.4,
-        Lipids 				= 	68,
-        Calories 			= 	1416,
-	ReplaceOnUse			= 	Hydrocraft.HCCookiesmintbagtrash,
+		HungerChange			=	-30,
+		Weight				=	0.01,
+		Type				=	Food,
+		DisplayName			=	Bag of Mint Cookies,
+		Icon				=	HCCookiesmintbag,
+		UnhappyChange			=	-20,
+		BoredomChange			=	-15,
+		FoodType			=	NoExplicit,
+		Carbohydrates 			= 	196.8,
+		Proteins 			= 	12.4,
+		Lipids 				= 	68,
+		Calories 			= 	1416,
+		ReplaceOnUse			= 	Hydrocraft.HCCookiesmintbagtrash,
 	}
 
-item HCCookiesbrowniebag
+	item HCCookiesbrowniebag
 	{
-	HungerChange			=	-30,
-	Weight				=	0.01,
-	Type				=	Food,
-	DisplayName			=	Bag of Brownie Cookies,
-	Icon				=	HCCookiesbrowniebag,
-	UnhappyChange			=	-20,
-	BoredomChange			=	-15,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	196.8,
-        Proteins 			= 	12.4,
-        Lipids 				= 	68,
-        Calories 			= 	1416,
-	ReplaceOnUse			= 	Hydrocraft.HCCookiesbrowniebagtrash,
+		HungerChange			=	-30,
+		Weight				=	0.01,
+		Type				=	Food,
+		DisplayName			=	Bag of Brownie Cookies,
+		Icon				=	HCCookiesbrowniebag,
+		UnhappyChange			=	-20,
+		BoredomChange			=	-15,
+		FoodType			=	NoExplicit,
+		Carbohydrates 			= 	196.8,
+		Proteins 			= 	12.4,
+		Lipids 				= 	68,
+		Calories 			= 	1416,
+		ReplaceOnUse			= 	Hydrocraft.HCCookiesbrowniebagtrash,
 	}
 
-item HCCookiedough
+	item HCCookiedough
 	{
-	Type				=	Food,
-	DisplayName			=	Cookie Dough,
-	Icon				=	HCCookiedough,
-	Weight				=	0.06,
-	HungerChange			=	-20,
-	UnhappyChange			=	5,
-	BoredomChange			=	5,
-	DaysTotallyRotten		=	5,
-	DaysFresh 			=	3,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	46.8,
-        Proteins 			= 	2.4,
-        Lipids 				= 	15,
-        Calories 			= 	300,
+		Type				=	Food,
+		DisplayName			=	Cookie Dough,
+		Icon				=	HCCookiedough,
+		Weight				=	0.06,
+		HungerChange			=	-20,
+		UnhappyChange			=	5,
+		BoredomChange			=	5,
+		DaysTotallyRotten		=	5,
+		DaysFresh 			=	3,
+		FoodType			=	NoExplicit,
+		Carbohydrates 			= 	46.8,
+		Proteins 			= 	2.4,
+		Lipids 				= 	15,
+		Calories 			= 	300,
 	}
 
-	item HCCookiebaked
+	item HCHomemadecookie
 	{
 		HungerChange		=	-10,
 		Weight				=	0.01,
@@ -95,7 +95,7 @@ item HCCookiedough
 		Calories 			= 	50,
 	}
 	
-	item HCCookiebakedtray
+	item HCHomemadecookietray
 	{
 		HungerChange		=	-20,
 		Weight				=	0.56,
@@ -117,13 +117,13 @@ item HCCookiedough
 		Calories 			= 	300,
 	}
 	
-	item HCChipcookiebaked
+	item HCChipcookie
 	{
 		HungerChange		=	-10,
 		Weight				=	0.01,
 		Type				=	Food,
 		DisplayName			=	Chocolate Chip Cookie,
-		Icon				=	HCChipcookie,
+		Icon				=	HCChipcookiebaked,
 		UnhappyChange		=	-20,
 		BoredomChange		=	-15,
 		DaysTotallyRotten	=	10,
@@ -135,7 +135,7 @@ item HCCookiedough
 		Calories 			= 	59,
 	}
 
-	item HCChipcookiebakedtray
+	item HCChipcookietray
 	{
 		HungerChange		=	-20,
 		Weight				=	0.56,
@@ -157,7 +157,7 @@ item HCCookiedough
 		Calories 			= 	300,
 	}
 	
-	item HCCookiewhitebaked
+	item HCCookiewhite
 	{
 		HungerChange		=	-10,
 		Weight				=	0.01,
@@ -175,7 +175,7 @@ item HCCookiedough
 		Calories 			= 	59,
 	}
 
-	item HCCookiewhitebakedtray
+	item HCCookiewhitetray
 	{
 		HungerChange		=	-20,
 		Weight				=	0.56,
@@ -197,7 +197,7 @@ item HCCookiedough
 		Calories 			= 	300,
 	}
 	
-	item HCCookiepeanutbutterbaked
+	item HCCookiepeanutbutter
 	{
 		HungerChange		=	-10,
 		Weight				=	0.01,
@@ -215,7 +215,7 @@ item HCCookiedough
 		Calories 			= 	75,
 	}
 
-	item HCCookiepeanutbutterbakedtray
+	item HCCookiepeanutbuttertray
 	{
 		HungerChange		=	-20,
 		Weight				=	0.56,
@@ -237,7 +237,7 @@ item HCCookiedough
 		Calories 			= 	300,
 	}	
 	
-	item HCChocolatecookiebaked
+	item HCChocolatecookie
 	{
 		HungerChange		=	-10,
 		Weight				=	0.01,
@@ -255,7 +255,7 @@ item HCCookiedough
 		Calories 			= 	59,
 	}
 
-	item HCChocolatecookiebakedtray
+	item HCChocolatecookietray
 	{
 		HungerChange		=	-20,
 		Weight				=	0.56,
@@ -276,37 +276,15 @@ item HCCookiedough
 		Lipids 				= 	16.2,
 		Calories 			= 	354,
 	}
-
-	item HCDoublechocolatecookiebakedtray
-	{
-		HungerChange		=	-20,
-		Weight				=	0.56,
-		Type				=	Food,
-		UnhappyChange		=	5,
-		BoredomChange		=	5,
-		IsCookable			=	TRUE,
-		MinutesToCook		=	30,
-		MinutesToBurn		=	60,
-		DisplayName			=	Tray of Double Chocolate Chip Cookies,
-		Icon				=	HCBakingtraycookiesraw,
-		ReplaceOnUse		=	BakingTray,
-		DaysTotallyRotten	=	5,
-		DaysFresh 			=	3,
-		FoodType			=	NoExplicit,
-		Carbohydrates 		= 	54,
-		Proteins 			= 	9.6,
-		Lipids 				= 	16.8,
-		Calories 			= 	450,
-	}
-
-	item HCDoublechocolatecookiebaked
+	
+	item HCDoublechocolatecookie
 	{
 		HungerChange		=	-10,
 		Weight				=	0.01,
 		Type				=	Food,
 		UnhappyChange		=	-30,
 		BoredomChange		=	-20,
-		DisplayName			=	Double Chocolate Chip Cookie,
+		DisplayName			=	Double Chocolate Cookie,
 		Icon				=	HCDoublechocolatecookiebaked,
 		DaysTotallyRotten	=	10,
 		DaysFresh 			=	7,
@@ -317,175 +295,182 @@ item HCCookiedough
 		Calories 			= 	75,
 	}
 
-item HCFortunecookie
-    	{
-        Weight    			= 0.02,
-        Type   				= Normal,
-        DisplayName         		= Fortune Cookie,
-        icon 				= HCFortunecookie,
-    	}
-
-item HCFortunecookiebroken
+	item HCDoublechocolatecookietray
 	{
-	HungerChange			=	-10,
-	Weight				=	0.01,
-	Type				=	Food,
-	UnhappyChange			=	-10,
-	DisplayName			=	Broken Fortune Cookie,
-	Icon				=	HCFortunecookiebroken,
-	DaysTotallyRotten		=	10,
-	DaysFresh 			=	7,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	6.7,
-        Proteins 			= 	0.3,
-        Lipids 				= 	0.2,
-        Calories 			= 	30,
+		HungerChange		=	-20,
+		Weight				=	0.56,
+		Type				=	Food,
+		UnhappyChange		=	5,
+		BoredomChange		=	5,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DisplayName			=	Tray of Double Chocolate Cookies,
+		Icon				=	HCBakingtraycookiesraw,
+		ReplaceOnUse		=	BakingTray,
+		DaysTotallyRotten	=	5,
+		DaysFresh 			=	3,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	54,
+		Proteins 			= 	9.6,
+		Lipids 				= 	16.8,
+		Calories 			= 	450,
+	}
+	
+	item HCGingerbreadman
+	{
+		HungerChange		=	-10,
+		Weight				=	0.01,
+		Type				=	Food,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		DisplayName			=	Gingerbread Man Cookie,
+		Icon				=	HCGingerbreadman,
+		DaysTotallyRotten	=	10,
+		DaysFresh 			=	7,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	7.8,
+		Proteins 			= 	0.5,
+		Lipids 				= 	1.3,
+		Calories 			= 	44.4,
 	}
 
-item HCFortune
-    	{
-        Weight    			= 0.01,
-        Type   				= Normal,
-        DisplayName         		= Paper Fortune,
-        icon 				= HCFortune,
-    	}
-
-item HCCookiecutter
+	item HCGingerbreadmantray
 	{
-	    	Weight 			= 0.1,
-        	Type 			= Normal,
-        	DisplayName 		= Cookiecutter,
-        	Icon 			= HCCookiecutter,
+		HungerChange		=	-20,
+		Weight				=	0.56,
+		Type				=	Food,
+		UnhappyChange		=	5,
+		BoredomChange		=	5,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DisplayName			=	Tray of Gingerbread Man Cookies,
+		Icon				=	HCBakingtraycookiesraw,
+		ReplaceOnUse		=	BakingTray,
+		DaysTotallyRotten	=	5,
+		DaysFresh 			=	3,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	46.8,
+		Proteins 			= 	3,
+		Lipids 				= 	7.8,
+		Calories 			= 	266.4,
 	}
-
-item HCGingerbreadman
-	{
-	HungerChange			=	-20,
-	Weight				=	0.56,
-	Type				=	Food,
-	UnhappyChange			=	5,
-	BoredomChange			=	5,
-	IsCookable			=	TRUE,
-    	MinutesToCook			=	30,
-	MinutesToBurn			=	60,
-	ReplaceOnCooked			=	Hydrocraft.HCGingerbreadmanbakedtray,
-	DisplayName			=	Uncooked Tray of Gingerbread Man Cookies,
-	Icon				=	HCGingerbreadman,
-	ReplaceOnUse			=	BakingTray,
-	DaysTotallyRotten		=	5,
-	DaysFresh 			=	3,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	46.8,
-        Proteins 			= 	3,
-        Lipids 				= 	7.8,
-        Calories 			= 	266.4,
-	}
-
-item HCGingerbreadmanbakedtray
-	{
-	HungerChange			=	-20,
-	Weight				=	0.56,
-	Type				=	Food,
-	UnhappyChange			=	-20,
-	BoredomChange			=	-15,
-	DisplayName			=	Cooked Tray of Gingerbread Man Cookies,
-	Icon				=	HCGingerbreadman,
-	ReplaceOnUse			=	BakingTray,
-	DaysTotallyRotten		=	10,
-	DaysFresh 			=	7,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	46.8,
-        Proteins 			= 	3,
-        Lipids 				= 	7.8,
-        Calories 			= 	266.4,
-	}
-
-item HCGingerbreadmanbaked
-	{
-	HungerChange			=	-10,
-	Weight				=	0.01,
-	Type				=	Food,
-	UnhappyChange			=	-20,
-	BoredomChange			=	-15,
-	DisplayName			=	Gingerbread Man Cookie,
-	Icon				=	HCGingerbreadman,
-	DaysTotallyRotten		=	10,
-	DaysFresh 			=	7,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	7.8,
-        Proteins 			= 	0.5,
-        Lipids 				= 	1.3,
-        Calories 			= 	44.4,
-	}
-
-item HCBakingtrayrawcookies
-    	{
-	HungerChange			=	-20,
-	Weight				=	0.8,
-	Type				=	Food,
-	DisplayName			=	Baking Tray with Raw Christmas Cookies,
-	Icon				=	HCBakingtraycookiesraw,
-	ReplaceOnUse			=	BakingTray,
-	ReplaceOnCooked   		= 	Hydrocraft.HCBakingtraycookies,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	20,
-	UnhappyChange			=	+20,
-	Carbohydrates 			= 	60,
-	Proteins 			= 	10,
-	Lipids 				= 	20,
-	Calories 			= 	460,
-    	}	
-
-item HCBakingtraycookies
-    	{
-	HungerChange			=	-35,
-	Weight				=	0.8,
-	Type				=	Food,
-	DisplayName			=	Baking Tray with Chirstmas Cookies,
-	Icon				=	HCBakingtrayhomemadecookies,
-	ReplaceOnUse			=	BakingTray,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	0,
-	MinutesToBurn			=	20,
-	UnhappyChange			=	-5,
-	BoredomChange			=	-2,
-	Carbohydrates 			= 	60,
-	Proteins 			= 	10,
-	Lipids 				= 	20,
-	Calories 			= 	460,
-    	}
-
-item HCHomemadecookies
-    	{
-	HungerChange			=	-35,
-	Weight				=	0.3,
-	Type				=	Food,
-	DisplayName			=	Christmas Cookies,
-	Icon				=	HCHomemadecookies,
-	UnhappyChange			=	-15,
-	BoredomChange			=	-10,
-	StressChange			=	-10,
-	Carbohydrates 			= 	60,
-	Proteins 			= 	10,
-	Lipids 				= 	20,
-	Calories 			= 	460,
-    	}	
-
-	item HCChristmascookies
+	
+	item HCChristmascookie
     {
-	HungerChange			=	-35,
-	Weight				=	0.3,
-	Type				=	Food,
-	DisplayName			=	Frosted Christmas Cookies,
-	Icon				=	HCChristmascookies,
-	UnhappyChange			=	-30,
-	BoredomChange			=	-20,
-	StressChange			=	-20,
-	Carbohydrates 			= 	80,
-	Proteins 			= 	10,
-	Lipids 				= 	20,
-	Calories 			= 	540,
-    	}
+		HungerChange		=	-35,
+		Weight				=	0.3,
+		Type				=	Food,
+		UnhappyChange		=	-15,
+		BoredomChange		=	-10,
+		StressChange		=	-10,
+		DisplayName			=	Christmas Cookie,
+		Icon				=	HCHomemadecookies,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	60,
+		Proteins 			= 	10,
+		Lipids 				= 	20,
+		Calories 			= 	460,
+    }	
+
+	item HCChristmascookietray
+    {
+		HungerChange		=	-20,
+		Weight				=	0.56,
+		Type				=	Food,
+		UnhappyChange		=	5,
+		BoredomChange		=	5,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DisplayName			=	Tray of Chirstmas Cookies,
+		Icon				=	HCBakingtraycookiesraw,
+		ReplaceOnUse		=	BakingTray,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	60,
+		Proteins 			= 	10,
+		Lipids 				= 	20,
+		Calories 			= 	460,
+	}
+
+	item HCFrostedchristmascookie
+    {
+		HungerChange		=	-35,
+		Weight				=	0.3,
+		Type				=	Food,
+		UnhappyChange		=	-30,
+		BoredomChange		=	-20,
+		StressChange		=	-20,
+		DisplayName			=	Frosted Christmas Cookie,
+		Icon				=	HCChristmascookies,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	80,
+		Proteins 			= 	10,
+		Lipids 				= 	20,
+		Calories 			= 	540,
+    }
+		
+	item HCFrostedchristmascookietray
+    {
+		HungerChange		=	-20,
+		Weight				=	0.56,
+		Type				=	Food,
+		UnhappyChange		=	5,
+		BoredomChange		=	5,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DisplayName			=	Tray of Frosted Chirstmas Cookies,
+		Icon				=	HCBakingtraycookiesraw,
+		ReplaceOnUse		=	BakingTray,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	80,
+		Proteins 			= 	10,
+		Lipids 				= 	20,
+		Calories 			= 	540,
+    }
+		
+	item HCFortunecookie
+    {
+		Weight    			= 0.02,
+		Type   				= Normal,
+		DisplayName         		= Fortune Cookie,
+		icon 				= HCFortunecookie,
+	}
+
+	item HCFortunecookiebroken
+	{
+		HungerChange			=	-10,
+		Weight				=	0.01,
+		Type				=	Food,
+		UnhappyChange			=	-10,
+		DisplayName			=	Broken Fortune Cookie,
+		Icon				=	HCFortunecookiebroken,
+		DaysTotallyRotten		=	10,
+		DaysFresh 			=	7,
+		FoodType			=	NoExplicit,
+		Carbohydrates 			= 	6.7,
+		Proteins 			= 	0.3,
+		Lipids 				= 	0.2,
+		Calories 			= 	30,
+	}
+
+	item HCFortune
+    {
+		Weight    			= 0.01,
+		Type   				= Normal,
+		DisplayName         		= Paper Fortune,
+		icon 				= HCFortune,
+	}
+
+	item HCCookiecutter
+	{
+		Weight 			= 0.1,
+		Type 			= Normal,
+		DisplayName 		= Cookiecutter,
+		Icon 			= HCCookiecutter,
+	}
 	
 /************************RECIPES************************/
    
@@ -501,94 +486,119 @@ item HCHomemadecookies
 		OnGiveXP:HCCooking_OnGiveXP,
 	} 
 
-	recipe Make Cookie
+	recipe Make Tray of Homemade Cookies
 	{
 		SkillRequired:Cooking=3,
 		BakingTray,
 		HCCookiedough,
-		Result:HCCookiebakedtray,
+		Result:HCHomemadecookietray,
 		Time:50,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Make Chocolate Chip Cookie
+	recipe Make Tray of Chocolate Chip Cookies
 	{
 		SkillRequired:Cooking=4,
 		BakingTray,
 		HCCookiedough,
 		Chocolate/HCChocolatedark,
-		Result:HCChipcookiebakedtray,
+		Result:HCChipcookietray,
 		Time:50,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-	recipe Make White Chocolate Chip Cookie
+	recipe Make Tray of White Chocolate Chip Cookies
 	{
 		SkillRequired:Cooking=4,
 		BakingTray,
 		HCCookiedough,
 		HCChocolatewhite,
-		Result:HCCookiewhitebakedtray,
+		Result:HCCookiewhitetray,
 		Time:50,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-	recipe Make Peanutbutter Cookie
+	recipe Make Tray of Peanutbutter Cookies
 	{
 		SkillRequired:Cooking=4,
 		BakingTray,
 		HCCookiedough,
 		PeanutButter/HCPeanutbutter,
-		Result:HCCookiepeanutbutterbakedtray,
+		Result:HCCookiepeanutbuttertray,
 		Time:50,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-	recipe Make Chocolate Cookie
+	recipe Make Tray of Chocolate Cookies
 	{
 		SkillRequired:Cooking=4,
 		BakingTray,
 		HCCookiedough,
 		Chocolate/HCChocolatewhite/HCChocolatedark,
-		Result:HCChocolatecookiebakedtray,
+		Result:HCChocolatecookietray,
 		Time:50,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-	recipe Make Double Chocolate Chip Cookie
+	recipe Make Tray of Double Chocolate Chip Cookies
 	{
 		SkillRequired:Cooking=5,
 		BakingTray,
 		HCCookiedough,
 		Chocolate/HCChocolatewhite/HCChocolatedark,
 		Chocolate/HCChocolatewhite/HCChocolatedark,
-		Result:HCDoublechocolatecookiebakedtray,
+		Result:HCDoublechocolatecookietray,
 		Time:50,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-	recipe Make Gingerbread Man Cookie
+	recipe Make Tray of Gingerbread Man Cookies
 	{
-       		SkillRequired:Cooking=5,
+		SkillRequired:Cooking=5,
 		BakingTray,
 		keep HCCookiecutter,
 		HCCookiedough,
-		Result:HCGingerbreadman,
+		Result:HCGingerbreadmantray,
 		Time:50,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
-
-	recipe Remove Cookies from Tray
+	
+	recipe Make Tray of Christmas Cookies
 	{
-		HCCookiebakedtray,
-		Result:HCCookiebaked=6,
+        keep HCCookiemold,
+        keep RollingPin,
+        BakingTray,
+        HCCookiedough,
+		Result:HCChristmascookietray,
+		Time:90.0,
+		Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+		
+	recipe Make Tray of Frosted Christmas Cookies
+	{
+		keep Bowl/Spoon,
+		Water;5,
+		Sugar=1,
+		HCChristmascookie,	
+		Result:HCFrostedchristmascookietray, 
+		Time:90.0,
+		//NeedToBeLearn:true, (disabled for testing)
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+    }		
+
+	recipe Remove Homemade Cookies from Tray
+	{
+		HCHomemadecookietray,
+		Result:HCHomemadecookie=6,
 		Time:60.0,
 		OnTest:RemoveCookies_TestIsValid,
 		OnCreate:ReturnBakingTray_OnCreate,
@@ -598,8 +608,8 @@ item HCHomemadecookies
 
 	recipe Remove Chocolate Chip Cookies from Tray
 	{
-		HCChipcookiebakedtray,
-		Result:HCChipcookiebaked=6,
+		HCChipcookietray,
+		Result:HCChipcookie=6,
 		Time:15,
 		Category:Cooking,
 		OnTest:RemoveChocolateChipCookies_TestIsValid,
@@ -609,8 +619,8 @@ item HCHomemadecookies
 
 	recipe Remove White Chocolate Chip Cookies from Tray
 	{
-		HCCookiewhitebakedtray,
-		Result:HCCookiewhitebaked=6,
+		HCCookiewhitetray,
+		Result:HCCookiewhite=6,
 		Time:15,
 		Category:Cooking,
 		OnTest:RemoveWhiteChocolateCookies_TestIsValid,
@@ -620,8 +630,8 @@ item HCHomemadecookies
 
 	recipe Remove Peanutbutter Cookies from Tray
 	{
-		HCCookiepeanutbutterbakedtray,
-		Result:HCCookiepeanutbutterbaked=6,
+		HCCookiepeanutbuttertray,
+		Result:HCCookiepeanutbutter=6,
 		Time:15,
 	   	Category:Cooking,
 		OnTest:RemovePeanutButterCookies_TestIsValid,
@@ -631,8 +641,8 @@ item HCHomemadecookies
 
 	recipe Remove Chocolate Cookies from Tray
 	{
-		HCChocolatecookiebakedtray,
-		Result:HCChocolatecookiebaked=6,
+		HCChocolatecookietray,
+		Result:HCChocolatecookie=6,
 		Time:15,
 	   	Category:Cooking,
 		OnTest:RemoveChocolateCookies_TestIsValid,
@@ -642,8 +652,8 @@ item HCHomemadecookies
 
 	recipe Remove Double Chocolate Chip Cookies from Tray
 	{
-		HCDoublechocolatecookiebakedtray,
-		Result:HCDoublechocolatecookiebaked=6,
+		HCDoublechocolatecookietray,
+		Result:HCDoublechocolatecookie=6,
 		Time:15,
 	   	Category:Cooking,
 		OnTest:RemoveDoubleChocolateCookies_TestIsValid,
@@ -651,77 +661,55 @@ item HCHomemadecookies
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Remove Gingerbread Man Cookies from Tray
+	recipe Remove Gingerbread Man Cookies from Tray
 	{
-		HCGingerbreadmanbakedtray,
-		Result:BakingTray,
+		HCGingerbreadmantray,
+		Result:HCGingerbreadman=6,
 		Time:15,
-	   	Category:Cooking,
-    		OnCreate:recipe_HCGingerbreadmanbaked,
-       		OnGiveXP:HCCooking_OnGiveXP,
-	}
-
-recipe Open Cookie Jar
-    {
-    HCCookiejar,
-    Result:HCJunk,
-    Time:15,
-    Category:Cooking,
-    OnCreate:HCJarCookies,
-    }
-
-recipe Open Fortune Cookie
-    {
-    HCFortunecookie,
-    Result:HCFortunecookiebroken,
-    Time:15,
-    Category:Cooking,
-    OnCreate:recipe_hcfortune,
-    } 
-
-recipe Place Christmas Cookies in Baking Tray 
-	{
-        	keep HCCookiemold,
-        	keep RollingPin,
-        	BakingTray,
-        	HCCookiedough,
-		Result:HCBakingtrayrawcookies,
-		Time:90.0,
 		Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
-    	}
-
-recipe Empty Baking Tray With Chirstmas Cookies  
+		OnTest:RemoveGingerbreadManCookies_TestIsValid,
+		OnCreate:ReturnBakingTray_OnCreate,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+	recipe Remove Chirstmas Cookies From Baking Tray 
 	{
-		destroy HCBakingtrayrawcookies/HCBakingtraycookies,
-		Result:BakingTray,     
+		HCChristmascookietray,
+		Result:HCChristmascookie=3,   
 		Time:60.0,
 		Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
-    	}
+		OnTest:RemoveChristmasCookies_TestIsValid,
+		OnCreate:ReturnBakingTray_OnCreate,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
 
-recipe Remove Chirstmas Cookies From Baking Tray 
-        {
-		HCBakingtraycookies,
-		Result:HCHomemadecookies=3,   
-        	Time:60.0,
-        	OnCreate:recipe_hcbakingtray,
+	recipe Remove Frosted Chirstmas Cookies From Baking Tray 
+	{
+		HCFrostedchristmascookietray,
+		Result:HCFrostedchristmascookie=3,   
+		Time:60.0,
 		Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
-    	}
+		OnTest:RemoveFrostedChristmasCookies_TestIsValid,
+		OnCreate:ReturnBakingTray_OnCreate,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
 
-
-recipe Make Frosted Christmas Cookies 
-        {
-		keep Bowl/Spoon,
-		Water;5,
-		Sugar=1,
-		HCHomemadecookies,	
-		Result:HCChristmascookies, 
-		Time:90.0,
-        	NeedToBeLearn:true,
+	recipe Open Cookie Jar
+	{
+		HCCookiejar,
+		Result:HCJunk,
+		Time:15,
 		Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
-    	}
+		OnCreate:HCJarCookies,
+    }
 
+	recipe Open Fortune Cookie
+    {
+		HCFortunecookie,
+		Result:HCFortunecookiebroken,
+		Time:15,
+		Category:Cooking,
+		OnCreate:recipe_hcfortune,
+    }
+	
 }
