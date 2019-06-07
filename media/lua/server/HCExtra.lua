@@ -1273,7 +1273,7 @@ function recipe_unboxramenflat(items, result, player)
 
 end
 
---Kitchen Stuff (Food Functions)
+--Kitchen Stuff (Cookies Functions)
 
 function RemoveCookies_TestIsValid(sourceItem, result)
     if sourceItem:getFullType() == "Hydrocraft.HCHomemadecookietray" then
@@ -1331,12 +1331,14 @@ function RemoveChristmasCookies_TestIsValid(sourceItem, result)
     return true
 end
 
-function RemoveFrostedChristmasCookies_TestIsValid(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.HCFrostedchristmascookietray" then
+function RemoveAppleJello_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJelloapplemix" then
         return sourceItem:isCooked()
     end
     return true
 end
+
+--Kitchen Stuff (Jello Functions)
 
 function recipe_HCHoneybun(items, result, player)
 	HCAddManySameItem("Hydrocraft.HCHoneybun", 3, player);
@@ -1355,6 +1357,10 @@ end
 
 function ReturnBakingTray_OnCreate(items,result,player)
     player:getInventory():AddItem("Base.BakingTray");
+end
+
+function ReturnSaucePan_OnCreate(items,result,player)
+    player:getInventory():AddItem("Base.Saucepan");
 end
 
 -- baking tray will be obsolete

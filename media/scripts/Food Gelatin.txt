@@ -217,7 +217,7 @@ item HCJellopacketvanilla
 }
 
 
-item HCJelloappleprep
+item HCJelloapplemix
 	{
 	HungerChange				=	-15,
 	ThirstChange				=	-25,
@@ -231,9 +231,9 @@ item HCJelloappleprep
 	Icon					=	HCJelloappleprep,
 	ReplaceOnUse				=	Saucepan,
 	IsCookable				=	TRUE,
+	DangerousUncooked		=	TRUE,
 	MinutesToCook				=	30,
 	MinutesToBurn				=	50,
-	ReplaceOnCooked				=	Hydrocraft.HCJelloapplecooked,
 	DaysFresh 				= 	3,
 	DaysTotallyRotten			=	5,     
 	CustomContextMenu 			= 	Eat,
@@ -243,28 +243,7 @@ item HCJelloappleprep
         Lipids 					= 	0,
         Calories 				= 	280,
 	}
-	
-item HCJelloapplecooked
-	{
-	HungerChange			=	-15,
-	ThirstChange			=	-25,
-	BoredomChange			=	-15,
-	UnhappyChange			=	-20,
-	Weight					=	1.5,
-	Type					=	Food,
-	DaysFresh				= 3,
-	DaysTotallyRotten		= 5,
-	DisplayName				=	Saucepan of Heated Apple Jello,
-	Icon					=	HCJelloappleprep,
-	ReplaceOnUse			=	Saucepan,  
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   NoExplicit,
-	Carbohydrates 			= 	68,
-        Proteins 			= 	4,
-        Lipids 				= 	0,
-        Calories 			= 	280,
-	}
-	
+		
 item HCJelloapple1hot
 	{
 	HungerChange			=	-15,
@@ -534,7 +513,7 @@ item HCJellocherryprep
 	IsCookable				=	TRUE,
 	MinutesToCook			=	30,
 	MinutesToBurn			=	50,
-	ReplaceOnCooked			=	Hydrocraft.HCJelloapplecooked,
+	ReplaceOnCooked			=	Hydrocraft.HCJellocherrycooked,
 	DaysFresh 				= 	3,
 	DaysTotallyRotten		=	5,     
 	CustomContextMenu 		= 	Eat,
@@ -1431,32 +1410,34 @@ recipe Prepare Apple Jello
 		keep HCWhisk/Spoon/HCPlasticspoon/HCWoodenspoon/HCSpork,
 		WaterSaucepan,
 		HCJellopacketapple,
-		Result:HCJelloappleprep,
+		Result:HCJelloapplemix,
 		Time:50.0,
 	   	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Move Apple Jello Into Mold
+	recipe Move Apple Jello Into Mold
 	{
-        	SkillRequired:Cooking=1,
-		HCJelloapplecooked,
+        SkillRequired:Cooking=1,
+		HCJelloapplemix,
 		HCJellomold1,
 		Result:HCJelloapple1hot,
 		Time:50.0,
 	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		OnTest:RemoveAppleJello_TestIsValid,
+		OnCreate:ReturnSaucepan_OnCreate,
+       	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Remove Apple Jello From Mold
 	{
-        	SkillRequired:Cooking=1,
+        SkillRequired:Cooking=1,
 		HCJelloapple1cold,
 		HCJellomold1,
 		Result:HCJelloapple1,
 		Time:50.0,
 	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+       	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Apple Jello Dessert
