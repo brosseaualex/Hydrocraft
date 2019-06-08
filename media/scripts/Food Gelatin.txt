@@ -1274,7 +1274,7 @@ item HCJellostrawberrybowl
 		Result:HCJelloapple1hot,
 		Time:50.0,
 		Category:Cooking,
-		OnTest:RemoveAppleJello_TestIsValid,
+		OnTest:RemoveAppleJello_CheckIfCooked,
 		OnCreate:ReturnBakingTray_OnCreate,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -1322,7 +1322,7 @@ item HCJellostrawberrybowl
 		Result:HCJelloblueberry1hot,
 		Time:50.0,
 		Category:Cooking,
-		OnTest:RemoveBlueberryJello_TestIsValid,
+		OnTest:RemoveBlueberryJello_CheckIfCooked,
 		OnCreate:ReturnSaucepan_OnCreate,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -1370,7 +1370,7 @@ item HCJellostrawberrybowl
 		Result:HCJellocherry1hot,
 		Time:50.0,
 		Category:Cooking,
-		OnTest:RemoveCherryJello_TestIsValid,
+		OnTest:RemoveCherryJello_CheckIfCooked,
 		OnCreate:ReturnSaucepan_OnCreate,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -1418,7 +1418,7 @@ item HCJellostrawberrybowl
 		Result:HCJellolemon1hot,
 		Time:50.0,
 		Category:Cooking,
-		OnTest:RemoveLemonJello_TestIsValid,
+		OnTest:RemoveLemonJello_CheckIfCooked,
 		OnCreate:ReturnSaucepan_OnCreate,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -1466,7 +1466,7 @@ item HCJellostrawberrybowl
 		Result:HCJelloorange1hot,
 		Time:50.0,
 		Category:Cooking,	
-		OnTest:RemoveOrangeJello_TestIsValid,
+		OnTest:RemoveOrangeJello_CheckIfCooked,
 		OnCreate:ReturnSaucepan_OnCreate,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -1514,7 +1514,7 @@ item HCJellostrawberrybowl
 		Result:HCJellolime1hot,
 		Time:50.0,
 		Category:Cooking,
-		OnTest:RemoveLimeJello_TestIsValid,
+		OnTest:RemoveLimeJello_CheckIfCooked,
 		OnCreate:ReturnSaucepan_OnCreate,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -1562,7 +1562,7 @@ item HCJellostrawberrybowl
 		Result:HCJellowatermelon1hot,
 		Time:50.0,
 		Category:Cooking,
-		OnTest:RemoveWatermelonJello_TestIsValid,
+		OnTest:RemoveWatermelonJello_CheckIfCooked,
 		OnCreate:ReturnSaucepan_OnCreate,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -1610,7 +1610,7 @@ item HCJellostrawberrybowl
 		Result:HCJellostrawberry1hot,
 		Time:50.0,
 		Category:Cooking,
-		OnTest:RemoveStrawberryJello_TestIsValid,
+		OnTest:RemoveStrawberryJello_CheckIfCooked,
 		OnCreate:ReturnSaucepan_OnCreate,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}

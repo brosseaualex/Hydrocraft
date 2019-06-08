@@ -340,7 +340,7 @@ recipe Make Tasty Pizza
 		//NeedToBeLearn:true, DEBUGGING
 		Time:20.0,
 		Category:Cooking,
-		OnTest:CutBoringPizza_TestIsValid,
+		OnTest:CutBoringPizza_CheckIfCooked,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
@@ -352,7 +352,7 @@ recipe Make Tasty Pizza
 		//NeedToBeLearn:true, DEBUGGING
 		Time:20.0,
 		Category:Cooking,
-		OnTest:CutHCSimplePizza_TestIsValid,
+		OnTest:CutHCSimplePizza_CheckIfCooked,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
@@ -364,7 +364,7 @@ recipe Make Tasty Pizza
 		//NeedToBeLearn:true, DEBUGGING
 		Time:20.0,
 		Category:Cooking,
-		OnTest:CutTastyPizza_TestIsValid,
+		OnTest:CutTastyPizza_CheckIfCooked,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 		

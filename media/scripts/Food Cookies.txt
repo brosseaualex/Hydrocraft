@@ -600,7 +600,7 @@ module Hydrocraft
 		HCHomemadecookietray,
 		Result:HCHomemadecookie=6,
 		Time:60.0,
-		OnTest:RemoveCookies_TestIsValid,
+		OnTest:RemoveCookies_CheckIfCooked,
 		OnCreate:ReturnBakingTray_OnCreate,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
@@ -612,7 +612,7 @@ module Hydrocraft
 		Result:HCChipcookie=6,
 		Time:15,
 		Category:Cooking,
-		OnTest:RemoveChocolateChipCookies_TestIsValid,
+		OnTest:RemoveChocolateChipCookies_CheckIfCooked,
 		OnCreate:ReturnBakingTray_OnCreate,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -623,7 +623,7 @@ module Hydrocraft
 		Result:HCCookiewhite=6,
 		Time:15,
 		Category:Cooking,
-		OnTest:RemoveWhiteChocolateCookies_TestIsValid,
+		OnTest:RemoveWhiteChocolateCookies_CheckIfCooked,
 		OnCreate:ReturnBakingTray_OnCreate,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}	
@@ -634,7 +634,7 @@ module Hydrocraft
 		Result:HCCookiepeanutbutter=6,
 		Time:15,
 	   	Category:Cooking,
-		OnTest:RemovePeanutButterCookies_TestIsValid,
+		OnTest:RemovePeanutButterCookies_CheckIfCooked,
 		OnCreate:ReturnBakingTray_OnCreate,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -645,7 +645,7 @@ module Hydrocraft
 		Result:HCChocolatecookie=6,
 		Time:15,
 	   	Category:Cooking,
-		OnTest:RemoveChocolateCookies_TestIsValid,
+		OnTest:RemoveChocolateCookies_CheckIfCooked,
 		OnCreate:ReturnBakingTray_OnCreate,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -656,7 +656,7 @@ module Hydrocraft
 		Result:HCDoublechocolatecookie=6,
 		Time:15,
 	   	Category:Cooking,
-		OnTest:RemoveDoubleChocolateCookies_TestIsValid,
+		OnTest:RemoveDoubleChocolateCookies_CheckIfCooked,
 		OnCreate:ReturnBakingTray_OnCreate,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -667,7 +667,7 @@ module Hydrocraft
 		Result:HCGingerbreadman=6,
 		Time:15,
 		Category:Cooking,
-		OnTest:RemoveGingerbreadManCookies_TestIsValid,
+		OnTest:RemoveGingerbreadManCookies_CheckIfCooked,
 		OnCreate:ReturnBakingTray_OnCreate,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -678,7 +678,7 @@ module Hydrocraft
 		Result:HCChristmascookie=3,   
 		Time:60.0,
 		Category:Cooking,
-		OnTest:RemoveChristmasCookies_TestIsValid,
+		OnTest:RemoveChristmasCookies_CheckIfCooked,
 		OnCreate:ReturnBakingTray_OnCreate,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -689,7 +689,7 @@ module Hydrocraft
 		Result:HCFrostedchristmascookie=3,   
 		Time:60.0,
 		Category:Cooking,
-		OnTest:RemoveFrostedChristmasCookies_TestIsValid,
+		OnTest:RemoveFrostedChristmasCookies_CheckIfCooked,
 		OnCreate:ReturnBakingTray_OnCreate,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
