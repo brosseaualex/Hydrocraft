@@ -1400,46 +1400,46 @@ item HCJellostrawberrybowl
         Lipids 				= 	2,
         Calories 			= 	156,
 	}
-						
 	
 /************************RECIPES************************/
 
-recipe Prepare Apple Jello
+	recipe Prepare Apple Jello
 	{
-        SkillRequired:Cooking=1,
+		SkillRequired:Cooking=1,
 		keep HCWhisk/Spoon/HCPlasticspoon/HCWoodenspoon/HCSpork,
 		destroy WaterSaucepan,
 		HCJellopacketapple,
 		Result:HCJelloapplemix,
 		Time:50.0,
-	   	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 	recipe Move Apple Jello Into Mold
 	{
-        SkillRequired:Cooking=1,
+		SkillRequired:Cooking=1,
 		HCJelloapplemix,
 		HCJellomold1,
 		Result:HCJelloapple1hot,
 		Time:50.0,
-	   	Category:Cooking,
+		Category:Cooking,
 		OnTest:RemoveAppleJello_TestIsValid,
 		OnCreate:ReturnSaucepan_OnCreate,
-       	OnGiveXP:HCCooking_OnGiveXP,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Remove Apple Jello From Mold
+	recipe Remove Apple Jello From Mold
 	{
-        SkillRequired:Cooking=1,
+		SkillRequired:Cooking=1,
 		HCJelloapple1cold,
-		Result:HCJelloapple1/HCJellomold1,
+		Result:HCJelloapple1,
 		Time:50.0,
-	   	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
+		Category:Cooking,
+		OnCreate:ReturnJelloMold_OnCreate,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Make Apple Jello Dessert
+	recipe Make Apple Jello Dessert
 	{
 		SkillRequired:Cooking=0,
 		HCJelloapplecubes=2,
@@ -1447,31 +1447,33 @@ recipe Make Apple Jello Dessert
 		HCWhippedcreamcan,
 		Result:HCJelloapplebowl,
 		Time:50.0,
-	   	Category:Cooking,
+		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Prepare Blueberry Jello
+	recipe Prepare Blueberry Jello
 	{
-        SkillRequired:Cooking=1,
+		SkillRequired:Cooking=1,
 		keep HCWhisk/Spoon/HCPlasticspoon/HCWoodenspoon/HCSpork,
 		WaterSaucepan,
 		HCJellopacketblueberry,
 		Result:HCJelloblueberryprep,
 		Time:50.0,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
-recipe Move Blueberry Jello Into Mold
+	
+	recipe Move Blueberry Jello Into Mold
 	{
-        SkillRequired:Cooking=1,
+		SkillRequired:Cooking=1,
 		HCJelloblueberrycooked,
 		HCJellomold1,
 		Result:HCJelloblueberry1hot,
 		Time:50.0,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
+	
 recipe Remove Blueberry Jello From Mold
 	{
         SkillRequired:Cooking=1,

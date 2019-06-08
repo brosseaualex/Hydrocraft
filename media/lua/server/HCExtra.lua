@@ -1363,6 +1363,10 @@ function ReturnSaucePan_OnCreate(items,result,player)
     player:getInventory():AddItem("Base.Saucepan");
 end
 
+function ReturnJelloMold_OnCreate(items,result,player)
+    player:getInventory():AddItem("Hydrocraft.HCJellomold1");
+end
+
 -- baking tray will be obsolete
 function recipe_hcbakingtray(items, result, player)
 	local inv = player:getInventory();
