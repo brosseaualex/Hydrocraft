@@ -1378,8 +1378,6 @@ function RemoveStrawberryJello_TestIsValid(sourceItem, result)
     end
     return true
 end
-
-
 --Kitchen Stuff (Jello Functions)
 
 function recipe_HCHoneybun(items, result, player)
@@ -1401,7 +1399,7 @@ function ReturnBakingTray_OnCreate(items,result,player)
     player:getInventory():AddItem("Base.BakingTray");
 end
 
-function ReturnSaucePan_OnCreate(items,result,player)
+function ReturnSaucepan_OnCreate(items,result,player)
     player:getInventory():AddItem("Base.Saucepan");
 end
 
