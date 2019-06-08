@@ -1406,14 +1406,14 @@ item HCJellostrawberrybowl
 
 recipe Prepare Apple Jello
 	{
-        	SkillRequired:Cooking=1,
+        SkillRequired:Cooking=1,
 		keep HCWhisk/Spoon/HCPlasticspoon/HCWoodenspoon/HCSpork,
-		WaterSaucepan,
+		destroy WaterSaucepan,
 		HCJellopacketapple,
 		Result:HCJelloapplemix,
 		Time:50.0,
 	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+       	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 	recipe Move Apple Jello Into Mold
@@ -1433,8 +1433,7 @@ recipe Remove Apple Jello From Mold
 	{
         SkillRequired:Cooking=1,
 		HCJelloapple1cold,
-		HCJellomold1,
-		Result:HCJelloapple1,
+		Result:HCJelloapple1/HCJellomold1,
 		Time:50.0,
 	   	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -1442,14 +1441,14 @@ recipe Remove Apple Jello From Mold
 
 recipe Make Apple Jello Dessert
 	{
-        	SkillRequired:Cooking=0,
+		SkillRequired:Cooking=0,
 		HCJelloapplecubes=2,
 		Bowl,
 		HCWhippedcreamcan,
 		Result:HCJelloapplebowl,
 		Time:50.0,
 	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Prepare Blueberry Jello
