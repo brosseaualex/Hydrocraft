@@ -1395,7 +1395,7 @@ function recipe_HCCupcake(items, result, player)
 	HCAddManySameItem("Hydrocraft.HCCupcake", 5, player);
 end 
 
---Kitchen Stuff (Item Functions)
+--Kitchen Stuff (Item Returns)
 
 function recipe_hcnapkinholder(items, result, player)
 	local inv = player:getInventory();

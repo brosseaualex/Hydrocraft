@@ -8,73 +8,72 @@ module Hydrocraft
 
 /************************ITEMS************************/
 
-
-item HCChocolatepudding
+	item HCChocolatepudding
 	{
-	HungerChange			=	-15,
-	ThirstChange			=	-2,
-	BoredomChange			=	-15,
-	UnhappyChange			=	-20,
-	Weight				=	0.4,
-	Type				=	Food,
-	DaysFresh			= 	7,
-	DaysTotallyRotten		= 	10,
-	DisplayName			=	Chocolate Pudding Cup,
-	ReplaceOnUse			=	HCPuddingcupempty,
-	Icon				=	HCChocolatepudding,  
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=  	NoExplicit,
-	Packaged			=	true,
-	Carbohydrates 			= 	17,
-        Proteins 			= 	1,
-        Lipids 				= 	0,
-        Calories 			= 	70,
+		HungerChange		=	-15,
+		ThirstChange		=	-2,
+		BoredomChange		=	-15,
+		UnhappyChange		=	-20,
+		Weight				=	0.4,
+		Type				=	Food,
+		DaysFresh			= 	7,
+		DaysTotallyRotten	= 	10,
+		DisplayName			=	Chocolate Pudding Cup,
+		ReplaceOnUse		=	HCPuddingcupempty,
+		Icon				=	HCChocolatepudding,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=  	NoExplicit,
+		Packaged			=	true,
+		Carbohydrates 		= 	17,
+		Proteins 			= 	1,
+		Lipids 				= 	0,
+		Calories 			= 	70,
 	}
 	
-item HCVanillapudding
+	item HCVanillapudding
 	{
-	HungerChange			=	-15,
-	ThirstChange			=	-2,
-	BoredomChange			=	-15,
-	UnhappyChange			=	-20,
-	Weight				=	0.4,
-	Type				=	Food,
-	DaysFresh			= 	7,
-	DaysTotallyRotten		= 	10,
-	DisplayName			=	Vanilla Pudding Cup,
-	ReplaceOnUse			=	HCPuddingcupempty,
-	Icon				=	HCVanillapudding,  
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
-	Packaged			=	true,
-	Carbohydrates 			= 	17,
-        Proteins 			= 	1,
-        Lipids 				= 	0,
-        Calories 			= 	70,
+		HungerChange		=	-15,
+		ThirstChange		=	-2,
+		BoredomChange		=	-15,
+		UnhappyChange		=	-20,
+		Weight				=	0.4,
+		Type				=	Food,
+		DaysFresh			= 	7,
+		DaysTotallyRotten	= 	10,
+		DisplayName			=	Vanilla Pudding Cup,
+		ReplaceOnUse		=	HCPuddingcupempty,
+		Icon				=	HCVanillapudding,  
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=  	NoExplicit,
+		Packaged			=	true,
+		Carbohydrates 		= 	17,
+		Proteins 			= 	1,
+		Lipids 				= 	0,
+		Calories 			= 	70,
 	}
 
-item HCPuddingcupempty
+	item HCPuddingcupempty
     {
-        Weight    		= 	0.1,
-        Type    		= 	Normal,
-        DisplayName     	=	Empty Pudding Cup,
-        icon 			= 	HCPuddingcupempty,
+		Weight    			= 	0.1,
+		Type    			= 	Normal,
+		DisplayName     	=	Empty Pudding Cup,
+		icon 				= 	HCPuddingcupempty,
     }
 
-item HCJellopacketapple
-{
-	HungerChange			= -10,
-	ThirstChange			= 25,
-	Weight				= 0.2,
-	Type				= Food,
-	UnhappyChange			= 15,
-	DisplayName			= Apple Jello Packet,
-	Icon				= HCJellopacketapple,
-    	Carbohydrates 			= 68,
-    	Proteins 			= 4,
-    	Lipids 				= 0,
-    	Calories 			= 280,
-    	Packaged 			= TRUE,
+	item HCJellopacketapple
+	{
+		HungerChange		= -10,
+		ThirstChange		= 25,
+		Weight				= 0.2,
+		Type				= Food,
+		UnhappyChange		= 15,
+		DisplayName			= Apple Jello Packet,
+		Icon				= HCJellopacketapple,
+		Carbohydrates 		= 68,
+		Proteins 			= 4,
+		Lipids 				= 0,
+		Calories 			= 280,
+		Packaged 			= TRUE,
 }
 
 item HCJellopacketblueberry
@@ -200,21 +199,22 @@ item HCJellopacketwatermelon
     Calories 			= 280,
     Packaged 			= TRUE,
 }
-item HCJellopacketvanilla
-{
-	HungerChange			= -10,
-	ThirstChange			= 25,
-	Weight				= 0.2,
-	Type				= Food,
-	UnhappyChange			= 15,
-	DisplayName			= Vanilla Pudding Packet,
-	Icon				= HCJellopacketvanilla,
-    	Carbohydrates 			= 92,
-    	Proteins 			= 8,
-   	Lipids 				= 0,
-    	Calories 			= 568,
-    	Packaged 			= TRUE,
-}
+
+	item HCJellopacketvanilla
+	{
+		HungerChange		= -10,
+		ThirstChange		= 25,
+		Weight				= 0.2,
+		Type				= Food,
+		UnhappyChange		= 15,
+		DisplayName			= Vanilla Pudding Packet,
+		Icon				= HCJellopacketvanilla,
+		Carbohydrates 		= 92,
+		Proteins 			= 8,
+		Lipids 				= 0,
+		Calories 			= 568,
+		Packaged 			= TRUE,
+	}
 
 	item HCJelloappleprep
 	{
