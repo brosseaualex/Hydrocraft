@@ -1332,11 +1332,53 @@ function RemoveChristmasCookies_TestIsValid(sourceItem, result)
 end
 
 function RemoveAppleJello_TestIsValid(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.HCJelloapplemix" then
+    if sourceItem:getFullType() == "Hydrocraft.HCJelloappleprep" then
         return sourceItem:isCooked()
     end
     return true
 end
+
+function RemoveBlueberryJello_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJelloblueberryprep" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemoveLemonJello_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJellolemonprep" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemoveOrangeJello_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJelloorangeprep" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemoveLimeJello_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJellolimeprep" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+function RemoveWatermelonJello_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJellowatermelonprep" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemoveStrawberryJello_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJellostrawberryprep" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
 
 --Kitchen Stuff (Jello Functions)
 

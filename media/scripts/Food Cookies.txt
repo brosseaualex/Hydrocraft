@@ -590,7 +590,7 @@ module Hydrocraft
 		HCChristmascookie,	
 		Result:HCFrostedchristmascookietray, 
 		Time:90.0,
-		//NeedToBeLearn:true, (disabled for testing)
+		NeedToBeLearn:true,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
     }		
