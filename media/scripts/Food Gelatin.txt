@@ -374,23 +374,23 @@ item HCJellopacketvanilla
 	
 	item HCJelloblueberry1hot
 	{
-	HungerChange			=	-15,
-	ThirstChange			=	-25,
-	BoredomChange			=	-15,
-	UnhappyChange			=	-20,
-	Weight					=	1,
-	Type					=	Food,
-	DaysFresh				= 3,
-	DaysTotallyRotten		= 5,
-	DisplayName				=	Cooling Blueberry Jello Mold,
-	Icon					=	HCJelloblueberry1hot,
-	ReplaceOnUse			=	HCJellomold1,  
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   NoExplicit,
-	Carbohydrates 			= 	68,
-        Proteins 			= 	4,
-        Lipids 				= 	0,
-        Calories 			= 	280,
+		HungerChange			=	-15,
+		ThirstChange			=	-25,
+		BoredomChange			=	-15,
+		UnhappyChange			=	-20,
+		Weight					=	1,
+		Type					=	Food,
+		DaysFresh				= 3,
+		DaysTotallyRotten		= 5,
+		DisplayName				=	Cooling Blueberry Jello Mold,
+		Icon					=	HCJelloblueberry1hot,
+		ReplaceOnUse			=	HCJellomold1,  
+		CustomContextMenu 		= 	Eat,
+		FoodType    			=   NoExplicit,
+		Carbohydrates 			= 	68,
+		Proteins 			= 	4,
+		Lipids 				= 	0,
+		Calories 			= 	280,
 	}
 	
 item HCJelloblueberry1cold
@@ -553,8 +553,8 @@ item HCJellocherry1
 	Type					=	Food,
 	DaysFresh				= 3,
 	DaysTotallyRotten		= 5,
-	DisplayName				=	Formed Apple Jello,
-	Icon					=	HCJelloapple1,  
+	DisplayName				=	Formed Cherry Jello,
+	Icon					=	HCJellocherry1,  
 	CustomContextMenu 		= 	Eat,
 	FoodType    			=   NoExplicit,
 	Carbohydrates 			= 	68,
@@ -1345,6 +1345,54 @@ item HCJellostrawberrybowl
 		Bowl,
 		HCWhippedcreamcan,
 		Result:HCJelloblueberrybowl,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+	recipe Prepare Cherry Jello
+	{
+		SkillRequired:Cooking=1,
+		keep HCWhisk/Spoon/HCPlasticspoon/HCWoodenspoon/HCSpork,
+		destroy WaterSaucepan,
+		HCJellopacketcherry,
+		Result:HCJellocherryprep,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+	recipe Move Cherry Jello Into Mold
+	{
+		SkillRequired:Cooking=1,
+		HCJellocherryprep,
+		HCJellomold1,
+		Result:HCJellocherry1hot,
+		Time:50.0,
+		Category:Cooking,
+		OnTest:RemoveCherryJello_TestIsValid,
+		OnCreate:ReturnSaucepan_OnCreate,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+	recipe Remove Cherry Jello From Mold
+	{
+		SkillRequired:Cooking=1,
+		HCJellocherry1cold,
+		Result:HCJellocherry1,
+		Time:50.0,
+		Category:Cooking,
+		OnCreate:ReturnJelloMold_OnCreate,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+	recipe Make Cherry Jello Dessert
+	{
+		SkillRequired:Cooking=0,
+		HCJellocherrycubes=2,
+		Bowl,
+		HCWhippedcreamcan,
+		Result:HCJellocherrybowl,
 		Time:50.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,

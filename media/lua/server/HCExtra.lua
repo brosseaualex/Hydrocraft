@@ -1345,6 +1345,13 @@ function RemoveBlueberryJello_TestIsValid(sourceItem, result)
     return true
 end
 
+function RemoveCherryJello_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJellocherryprep" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
 function RemoveLemonJello_TestIsValid(sourceItem, result)
     if sourceItem:getFullType() == "Hydrocraft.HCJellolemonprep" then
         return sourceItem:isCooked()
