@@ -128,8 +128,8 @@ item HCTomatosaucebowl
     {
 		Weight				=	0.8,
 		HungerChange		=	-35,
-		UnhappyChange		=	20,
-		BoredomChange		=	20,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-20,
 		Type				=	Food,
 		DisplayName			=	Cheese Pizza,
 		IsCookable 			= 	TRUE,
@@ -332,37 +332,40 @@ recipe Make Tasty Pizza
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Cut Pizza
+	recipe Cut Pizza
 	{
 		keep HCPizzacutter,
-		HCBoringpizzabaked,
+		HCBoringpizza,
 		Result:HCBoringpizzaslice=4,
-    		NeedToBeLearn:true,
+		//NeedToBeLearn:true, DEBUGGING
 		Time:20.0,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		Category:Cooking,
+		OnTest:CutBoringPizza_TestIsValid,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-recipe Cut Pizza
+	recipe Cut Pizza
 	{
 		keep HCPizzacutter,
-		HCSimplepizzabaked,
+		HCSimplepizza,
 		Result:HCSimplepizzaslice=4,
-    		NeedToBeLearn:true,
+		//NeedToBeLearn:true, DEBUGGING
 		Time:20.0,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		Category:Cooking,
+		OnTest:CutHCSimplePizza_TestIsValid,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-recipe Cut Pizza
+	recipe Cut Pizza
 	{
 		keep HCPizzacutter,
-		HCTastypizzabaked,
+		HCTastypizza,
 		Result:HCTastypizzaslice=4,
-    		NeedToBeLearn:true,
+		//NeedToBeLearn:true, DEBUGGING
 		Time:20.0,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		Category:Cooking,
+		OnTest:CutTastyPizza_TestIsValid,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 		
 }

@@ -1331,6 +1331,7 @@ function RemoveChristmasCookies_TestIsValid(sourceItem, result)
     return true
 end
 
+--Kitchen Stuff (Jello Functions)
 function RemoveAppleJello_TestIsValid(sourceItem, result)
     if sourceItem:getFullType() == "Hydrocraft.HCJelloappleprep" then
         return sourceItem:isCooked()
@@ -1385,7 +1386,29 @@ function RemoveStrawberryJello_TestIsValid(sourceItem, result)
     end
     return true
 end
---Kitchen Stuff (Jello Functions)
+
+--Kitchen Stuff (Pizza Functions)
+
+function CutBoringPizza_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCBoringpizza" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function CutHCSimplePizza_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCSimplepizza" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function CutTastyPizza_TestIsValid(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCTastypizza" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
 
 function recipe_HCHoneybun(items, result, player)
 	HCAddManySameItem("Hydrocraft.HCHoneybun", 3, player);
