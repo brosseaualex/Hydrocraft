@@ -133,29 +133,31 @@ ISCompassMenu.createMenuEntries = function(_player, _context, _items)
 			end
 		end
 	end
-	for i,v in ipairs(clickedItems) do
-		local inv = getPlayer():getInventory()
-		for i = 1,#v.items do
-			local item = v.items[i];
-			if instanceof(item, "InventoryItem") then
-				if item:getName() == "Compass" and not inv:FindAndReturn("HCMap") then
-					ISCompassMenu.finishFunction("onlyCompass", item:getName())
-					break
-				elseif item:getName() == "Map" and not inv:FindAndReturn("HCCompass") then
-					ISCompassMenu.finishFunction("map", item:getName())
-					break
-				elseif item:getName() == "GPS" then
-					ISCompassMenu.finishFunction("GPS", item:getName())
-					break
-				elseif item:getName() == "Map" and inv:FindAndReturn("HCCompass") then
-					ISCompassMenu.finishFunction("mapAndCompass", item:getName())
-					break
-				elseif item:getName() == "Compass" and inv:FindAndReturn("HCMap") then
-					ISCompassMenu.finishFunction("mapAndCompass", item:getName())
-					break
-				end
-			end
+	
+	for i,v in ipairs(clickedItems) do	
+		local inv = getPlayer():getInventory()	
+		local item = v;	if not instanceof(v, "InventoryItem") then
+		item = v.items[1];
 		end
-    end
+		if instanceof(item, "InventoryItem") then
+			if item:getName() == "Compass" and not inv:FindAndReturn("HCMap") then
+				ISCompassMenu.finishFunction("onlyCompass", item:getName())	
+			break	
+			elseif item:getName() == "Map" and not inv:FindAndReturn("HCCompass") then		
+				ISCompassMenu.finishFunction("map", item:getName())		
+			break	
+			elseif item:getName() == "GPS" then		
+				ISCompassMenu.finishFunction("GPS", item:getName())		
+			break
+			elseif item:getName() == "Map" and inv:FindAndReturn("HCCompass") then		
+				ISCompassMenu.finishFunction("mapAndCompass", item:getName())		
+			break	
+			elseif item:getName() == "Compass" and inv:FindAndReturn("HCMap") then	
+				ISCompassMenu.finishFunction("mapAndCompass", item:getName())		
+			break	
+		end
+	end 
+end
+
 end
 Events.OnPreFillInventoryObjectContextMenu.Add(ISCompassMenu.createMenuEntries);
