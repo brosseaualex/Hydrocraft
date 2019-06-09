@@ -337,7 +337,7 @@ recipe Make Tasty Pizza
 		keep HCPizzacutter,
 		HCBoringpizza,
 		Result:HCBoringpizzaslice=4,
-		//NeedToBeLearn:true, DEBUGGING
+		NeedToBeLearn:true,
 		Time:20.0,
 		Category:Cooking,
 		OnTest:CutBoringPizza_CheckIfCooked,
@@ -349,7 +349,7 @@ recipe Make Tasty Pizza
 		keep HCPizzacutter,
 		HCSimplepizza,
 		Result:HCSimplepizzaslice=4,
-		//NeedToBeLearn:true, DEBUGGING
+		NeedToBeLearn:true,
 		Time:20.0,
 		Category:Cooking,
 		OnTest:CutHCSimplePizza_CheckIfCooked,
@@ -361,7 +361,7 @@ recipe Make Tasty Pizza
 		keep HCPizzacutter,
 		HCTastypizza,
 		Result:HCTastypizzaslice=4,
-		//NeedToBeLearn:true, DEBUGGING
+		NeedToBeLearn:true,
 		Time:20.0,
 		Category:Cooking,
 		OnTest:CutTastyPizza_CheckIfCooked,
