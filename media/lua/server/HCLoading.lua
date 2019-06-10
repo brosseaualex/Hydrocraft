@@ -1637,8 +1637,6 @@ end
 	table.insert(SuburbsDistributions["all"]["crate"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["crate"].items, "Hydrocraft.HCTerminalstrip");
 	table.insert(SuburbsDistributions["all"]["crate"].items, 1);
-	table.insert(SuburbsDistributions["all"]["crate"].items, "Hydrocraft.HCMetalboard");
-	table.insert(SuburbsDistributions["all"]["crate"].items, 1);
 	table.insert(SuburbsDistributions["all"]["crate"].items, "Hydrocraft.HCElectronicpartsbroken");
 	table.insert(SuburbsDistributions["all"]["crate"].items, 1);
 	table.insert(SuburbsDistributions["all"]["crate"].items, "Hydrocraft.HCElectronicparts04");
@@ -1858,8 +1856,6 @@ end
 	table.insert(SuburbsDistributions["all"]["metal_shelves"].items, "Hydrocraft.HCPipebender");
 	table.insert(SuburbsDistributions["all"]["metal_shelves"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["metal_shelves"].items, "Hydrocraft.HCTerminalstrip");
-	table.insert(SuburbsDistributions["all"]["metal_shelves"].items, 1);
-	table.insert(SuburbsDistributions["all"]["metal_shelves"].items, "Hydrocraft.HCMetalboard");
 	table.insert(SuburbsDistributions["all"]["metal_shelves"].items, 1);
 	table.insert(SuburbsDistributions["all"]["metal_shelves"].items, "Hydrocraft.HCElectronicpartsbroken");
 	table.insert(SuburbsDistributions["all"]["metal_shelves"].items, 1);
@@ -6316,8 +6312,6 @@ end
 	table.insert(SuburbsDistributions["garagestorage"]["all"].items, 1);	
 	table.insert(SuburbsDistributions["garagestorage"]["all"].items, "Hydrocraft.HCTerminalstrip");
 	table.insert(SuburbsDistributions["garagestorage"]["all"].items, 1);
-	table.insert(SuburbsDistributions["garagestorage"]["all"].items, "Hydrocraft.HCMetalboard");
-	table.insert(SuburbsDistributions["garagestorage"]["all"].items, 1);
 	table.insert(SuburbsDistributions["garagestorage"]["all"].items, "Hydrocraft.HCElectronicpartsbroken");
 	table.insert(SuburbsDistributions["garagestorage"]["all"].items, 1);
 	table.insert(SuburbsDistributions["garagestorage"]["all"].items, "Hydrocraft.HCElectronicparts04");
@@ -6637,8 +6631,6 @@ end
 	table.insert(SuburbsDistributions["shed"]["other"].items, "Hydrocraft.HCIcesaw");
 	table.insert(SuburbsDistributions["shed"]["other"].items, 1);	
 	table.insert(SuburbsDistributions["shed"]["other"].items, "Hydrocraft.HCTerminalstrip");
-	table.insert(SuburbsDistributions["shed"]["other"].items, 1);
-	table.insert(SuburbsDistributions["shed"]["other"].items, "Hydrocraft.HCMetalboard");
 	table.insert(SuburbsDistributions["shed"]["other"].items, 1);
 	table.insert(SuburbsDistributions["shed"]["other"].items, "Hydrocraft.HCElectronicpartsbroken");
 	table.insert(SuburbsDistributions["shed"]["other"].items, 1);
@@ -9857,8 +9849,6 @@ end
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, "Hydrocraft.HCTerminalstrip");
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, 1);
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, "Hydrocraft.HCPhotolacquer");
-	table.insert(SuburbsDistributions["storageunit"]["all"].items, 1);
-	table.insert(SuburbsDistributions["storageunit"]["all"].items, "Hydrocraft.HCMetalboard");
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, 1);
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, "Hydrocraft.HCElectronicpartsbroken");
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, 1);
