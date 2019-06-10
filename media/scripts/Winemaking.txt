@@ -436,5 +436,21 @@ recipe Make Bottle of Sake
     	OnCreate:recipe_hcwoodenbarrel,
     	OnGiveXP:HCCooking_OnGiveXP,	
 	}
+	
+	recipe Empty Wooden Bucket with Grape Juice
+    {
+		destroy HCWoodenbucketgrape,
+		Result:HCWoodenbucket,
+		Time:50,
+		Category:Cooking,
+    }
+	
+	recipe Empty Wooden Bucket with White Grape Juice
+    {
+		destroy HCWoodenbucketgrapegreen,
+		Result:HCWoodenbucket,
+		Time:50,
+		Category:Cooking,
+    }
 
 }
