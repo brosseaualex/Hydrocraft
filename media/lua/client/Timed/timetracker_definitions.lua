@@ -965,7 +965,7 @@ ItemTimeTrackerMod["HCJellochocolatepuddinghot"]["TurnInto"] = "Hydrocraft.HCJel
 
 --Drainable Food Items Rotting
 ItemTimeTrackerMod["HCWhippedcreamcan"] = {};   
-ItemTimeTrackerMod["HCWhippedcreamcan"]["Life"] = 1.0;
+ItemTimeTrackerMod["HCWhippedcreamcan"]["Life"] = 720.0; -- Whipped Cream will be good for one in-game month
 ItemTimeTrackerMod["HCWhippedcreamcan"]["TurnInto"] = "Hydrocraft.HCWhippedcreamcanRotten";
 
 --Plants ===========================================================================

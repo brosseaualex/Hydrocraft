@@ -171,7 +171,7 @@ item HCCream
 	DaysTotallyRotten		=	7,
 	DaysFresh 			=	4,
 	Icon				=	HCCream,
-        FoodType            		=       NoExplicit,
+		FoodType            		=       NoExplicit,
         Carbohydrates 			= 	7.1,
         Proteins 			= 	3.5,
         Lipids 				= 	11,
@@ -179,14 +179,14 @@ item HCCream
         Packaged 			= 	TRUE,
     }
 
-item HCWhippedcreamcan
+	item HCWhippedcreamcan
 	{
-		Weight			= 0.5,
-		Type			= Drainable,
-		DisplayName		= Can of Whipped Cream,
-        	UseWhileEquipped 	= FALSE,
-		Icon			= HCWhippedcreamcan,
-        	UseDelta		= 0.1,
+		Weight				= 0.5,
+		Type				= Drainable,
+		DisplayName			= Can of Whipped Cream,
+		UseDelta			= 0.1,
+		UseWhileEquipped 	= FALSE,
+		Icon				= HCWhippedcreamcan,
 		ReplaceOnDeplete 	= HCWhippedcreamcanempty,
 	}
 

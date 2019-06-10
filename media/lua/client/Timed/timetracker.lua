@@ -117,7 +117,7 @@ function WorldItemReplace(item,square)
 					if (temp) then 
 						loadItem(temp) 
 						dataCheck(item,temp)
-					end ;
+					end
                   temp = square:AddWorldInventoryItem(temp, 0.5, 0.5, 0, true);   
                   --print("item:getModData().TurnInto",item:getModData().TurnInto)         
                 end
