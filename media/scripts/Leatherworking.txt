@@ -2532,4 +2532,28 @@ recipe  Make Leather Ball
     	OnGiveXP:HCHunger_OnGiveXP,
 	}
 	
+	recipe Empty Wooden Bucket with Tannin
+    {
+		destroy HCWoodenbuckettan,
+		Result:HCWoodenbucket,
+		Time:50,
+		Category:Alchemy,
+    }
+	
+	recipe Empty Wooden Bucket with Rose Tanning Oil
+    {
+		destroy HCWoodenbucketrose,
+		Result:HCWoodenbucket,
+		Time:50,
+		Category:Alchemy,
+    }
+	
+	recipe Empty Wooden Bucket with Milk of Lime
+    {
+		destroy HCWoodenbucketlime,
+		Result:HCWoodenbucket,
+		Time:50,
+		Category:Alchemy,
+    }
+	
 }

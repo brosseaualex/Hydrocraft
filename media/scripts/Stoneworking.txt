@@ -1175,5 +1175,29 @@ recipe Carve Venus Figurine
     	Category:Stoneworking,
         OnGiveXP:HCHunger_OnGiveXP,
     }
+	
+	recipe Empty Wooden Bucket with Gravel
+    {
+		destroy HCWoodenbucketgravel,
+		Result:HCWoodenbucket,
+		Time:50,
+		Category:Stoneworking,
+    }
+	
+	recipe Empty Wooden Bucket with Sand
+    {
+		destroy HCWoodenbucketsand,
+		Result:HCWoodenbucket,
+		Time:50,
+		Category:Stoneworking,
+    }
+	
+	recipe Empty Wooden Bucket with Concrete
+    {
+		destroy HCWoodenbucketconcrete,
+		Result:HCWoodenbucket,
+		Time:50,
+		Category:Stoneworking,
+    }
 
 }

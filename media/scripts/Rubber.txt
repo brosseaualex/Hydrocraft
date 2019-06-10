@@ -258,5 +258,13 @@ recipe Make Rubber Cement
     		Category:Alchemy,
    	 	OnGiveXP:HCCooking_OnGiveXP,
     	}
+		
+	recipe Empty Wooden Bucket with Rubber
+    {
+		destroy HCWoodenbucketrubber,
+		Result:HCWoodenbucket,
+		Time:50,
+		Category:Farming,
+    }
 
 }

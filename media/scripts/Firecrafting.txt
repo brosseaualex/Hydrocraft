@@ -1080,5 +1080,14 @@ recipe Make Carbon Nanofiber
     	OnCreate:IFurnUse,
        	OnGiveXP:HCCooking_OnGiveXP,
     }
+	
+	recipe Empty Wooden Bucket with Creosote Oil
+    {
+		destroy HCWoodenbucketcreosote,
+		Result:HCWoodenbucket,
+		Time:50,
+		Category:Firecraft,
+    }
+	
 
 }
