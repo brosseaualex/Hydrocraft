@@ -1099,10 +1099,48 @@ module Base
 		Icon			=	Paint_White,
 		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
 	}
+	
+/************************METAL SHEETS************************/
 
-
+	item SmallSheetMetal
+    {
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Small Aluminum Sheet,
+        Icon	=	HCMetalboard,
+        MetalValue = 20,
+    }
+	
+	item SheetMetal
+    {
+        Weight	=	1.5,
+        Type	=	Normal,
+        DisplayName	=	Aluminum Sheet,
+        Icon	=	SheetMetal,
+        MetalValue = 80,
+    }
 
 /************************RECIPES************************/
+
+	item Pipe
+    {
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	PVC Pipe,
+        Icon	=	HCPVCpipe,
+    }
+	
+	item MetalPipe
+    {
+        Weight = 1,
+        Type = Normal,
+        DisplayName	= Aluminum Pipe,
+        Icon = MetalTube,
+        MetalValue = 30,
+    }
+
+/************************RECIPES************************/
+
 
 
 }

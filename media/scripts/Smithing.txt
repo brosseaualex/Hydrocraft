@@ -12,7 +12,7 @@ item HCMetalsheetbox
     {
         Weight    		= 6.0,
         Type   			= Normal,
-        DisplayName         	= Pallet of Metal Sheets,
+        DisplayName         	= Pallet of Aluminum Sheets,
         icon 			= HCMetalsheetbox,
 	ResizeWorldIcon 	= 1.0,
     }
@@ -313,19 +313,11 @@ item HCSteelsheetlarge
 	Icon				=	HCSteelsheetlarge,
 	}
 
-item HCMetalboard
-	{
-	Weight				=	0.3,
-	Type				=	Normal,
-	DisplayName			=	Small Metal Sheet,
-	Icon				=	HCMetalboard,
-	}
-
-item HCLargesheetmetal
+	item HCLargesheetmetal
 	{
 	Weight				=	3,
 	Type				=	Normal,
-	DisplayName			=	Large Sheet Of Metal,
+	DisplayName			=	Large Aluminum Sheet,
 	Icon				=	HCLargesheetmetal,
 	}
 
@@ -721,7 +713,7 @@ recipe Cut Sheet Of Metal
         keep HCSawmetal,
     	SheetMetal,
         NeedToBeLearn:true, 
-    	Result:HCMetalboard=2,
+    	Result:SmallSheetMetal=2,
     	Time:250,
     	Category:Welding,
     	OnGiveXP:HCWelding_OnGiveXP,
@@ -732,7 +724,7 @@ recipe Cut Sheet Of Metal
         HCElectricmultitoolsawpowered,
     	SheetMetal,
         NeedToBeLearn:true, 
-    	Result:HCMetalboard=2,
+    	Result:SmallSheetMetal=2,
     	Time:125,
     	Category:Welding,
     	OnGiveXP:HCWelding_OnGiveXP,
@@ -745,7 +737,7 @@ recipe Cut Sheet Of Metal
     	HCSteelsheet,
     	HCWeldingset,
         NeedToBeLearn:true, 
-    	Result:HCMetalboard=2,
+    	Result:SmallSheetMetal=2,
 	SkillRequired:MetalWelding=1,
     	Time:50,
     	Category:Welding,
@@ -858,7 +850,7 @@ recipe Make Small Sheet Of Metal
     	keep HCWorkgloves/HCOvenmitts,
 	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
-	Result:HCMetalboard,
+	Result:SmallSheetMetal,
 	Time:150.0,
         Category:Smithing,
     	OnGiveXP:HCWelding_OnGiveXP,

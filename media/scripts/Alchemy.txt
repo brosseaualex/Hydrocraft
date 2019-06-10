@@ -2166,5 +2166,13 @@ recipe Make Mercuric Oxide
     	Category:Alchemy,
     	OnGiveXP:HCCooking_OnGiveXP,
     }
+	
+	recipe Empty Wooden Bucket with Lye
+    {
+		destroy HCWoodenbucketlye,
+		Result:HCWoodenbucket,
+		Time:50,
+		Category:Alchemy,
+    }
 
 }

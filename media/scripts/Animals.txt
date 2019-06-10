@@ -1165,7 +1165,7 @@ item HCWoodenbucketmilk
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Milk,
         icon 			= HCWoodenbucketmilk,
-	ResizeWorldIcon 	= 2.0,
+		ResizeWorldIcon 	= 2.0,
     }
 	
 /************************RECIPES************************/
@@ -2051,5 +2051,12 @@ recipe Add Horses to Covered Wagon
 		Time:250,
 		Category:Carpentry,
     }
-				
+	
+	recipe Empty Wooden Bucket with Milk
+    {
+		destroy HCWoodenbucketmilk,
+		Result:HCWoodenbucket,
+		Time:50,
+		Category:Ranching,
+    }
 }

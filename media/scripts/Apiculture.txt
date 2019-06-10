@@ -649,5 +649,12 @@ recipe Make Bag of Sugar
 		Category:Cooking,
     		OnGiveXP:HCCooking_OnGiveXP,
     }
-				
+
+	recipe Empty Wooden Bucket with Honey
+    {
+		destroy HCWoodenbuckethoney,
+		Result:HCWoodenbucket,
+		Time:50,
+		Category:Farming,
+    }
 }

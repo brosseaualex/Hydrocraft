@@ -903,5 +903,14 @@ recipe Prepare Boiled Mussel
         	OnCreate:recipe_HCMusselshell,
     		OnGiveXP:HCCooking_OnGiveXP,
 	}
-				
+	
+	recipe Empty Wooden Bucket with Fish Oil
+    {
+		destroy HCWoodenbucketfishoil,
+		Result:HCWoodenbucket,
+		Time:50,
+		Category:Cooking,
+    }
+	
+	
 }

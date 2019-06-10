@@ -1102,7 +1102,7 @@ item HCJellomold1
 		SwingAnim	=	Bat,
 		CriticalChance	=	20,
 		WeaponWeight	=	1.8,
-		DisplayName	=	Meat cleaver,
+		DisplayName	=	Meat Cleaver,
 		MinRange	=	0.61,
 		SwingTime	=	2,
 		HitAngleMod	=	-30,

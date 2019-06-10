@@ -1286,7 +1286,7 @@ recipe Remove Saw
 
 recipe Craft Hand Powered Pump
     {
-    HCMetalboard=2,
+    SmallSheetMetal=2,
     keep HCBookplumbing,
     HCSteelpipe=2,
     HCCrank,

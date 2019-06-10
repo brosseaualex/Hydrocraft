@@ -635,7 +635,7 @@ recipe Make Crossbow
 recipe Craft Potato Cannon
      {
 	SkillRequired:Mechanics=3,
-        HCPVCpipe,
+        Pipe,
         PopBottleEmpty/WaterBottleEmpty,
         Screws,
         Lighter=32,

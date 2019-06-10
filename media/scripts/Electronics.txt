@@ -1368,7 +1368,7 @@ recipe Make Computer Monitor
 recipe Make Computer PSU
     {
 	SkillRequired:Electricity=3,
-	HCMetalboard,
+	SmallSheetMetal,
 	Screws=8,
 	ElectronicsScrap=3,
         HCCablecopper=3,
@@ -1394,7 +1394,7 @@ recipe Make Computer PSU
 recipe Make Computer PSU
     {
 	SkillRequired:Electricity=3,
-	HCMetalboard,
+	SmallSheetMetal,
 	Screws=8,
 	ElectronicsScrap=3,
         HCCablecopper=3,
@@ -1460,7 +1460,7 @@ recipe Make Computer Fan
 recipe Make Computer Tower
     {
 	SkillRequired:Electricity=6,
-	HCMetalboard=3,
+	SmallSheetMetal=3,
 	HCCPU,
 	HCComputerPSU,
 	HCComputerfan=2,
@@ -1494,7 +1494,7 @@ recipe Make Computer Tower
 recipe Make Computer Tower
     {
 	SkillRequired:Electricity=6,
-	HCMetalboard=3,
+	SmallSheetMetal=3,
 	HCCPU,
 	HCComputerPSU,
 	HCComputerfan=2,

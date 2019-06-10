@@ -190,4 +190,11 @@ recipe Add Gasoline to Biodiesel
     		OnGiveXP:HCCooking_OnGiveXP,
          }
 
+	recipe Empty Wooden Bucket with Vegetable Oil
+    {
+		destroy HCWoodenbucketvegoil,
+		Result:HCWoodenbucket,
+		Time:50,
+		Category:Farming,
+    }
 }

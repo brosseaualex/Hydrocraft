@@ -1347,7 +1347,7 @@ recipe Make Selfmade Heater
     {
         HCSolder,
         HCSoldergunpowered,
-    	HCMetalboard,
+    	SmallSheetMetal,
         HCWireconstantan,
         Nails=4,
         HCSwitch,
