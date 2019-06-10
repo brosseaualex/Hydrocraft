@@ -85,7 +85,7 @@ item HCEnergybar
 	FatigueChange			=	-10,
 	Weight				=	0.2,
 	Type				=	Food,
-	DisplayName			=	Energy bar,
+	DisplayName			=	Energy Bar,
 	Icon				=	HCEnergybar,
 	FoodType			=	NoExplicit,
 	Carbohydrates 			= 	100,
