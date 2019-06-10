@@ -353,7 +353,7 @@ recipe Recycle Aluminum
 	recipe Recycle Aluminum
     {
 		SkillRequired:MetalWelding=6,
-		UnusableMetal=3,
+		UnusableMetal=5,
 		Charcoal,
 		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
 		HCIngotmold,
