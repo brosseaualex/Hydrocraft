@@ -1122,6 +1122,16 @@ module Base
 
 /************************RECIPES************************/
 
+	item Pipe
+    {
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	PVC Pipe,
+        Icon	=	HCPVCpipe,
+    }
+
+/************************RECIPES************************/
+
 
 
 }

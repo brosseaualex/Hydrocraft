@@ -35,7 +35,7 @@ recipe Build Biogas Collector
 	HCPropanetankempty,
 	HCWeldinghose,
 	HCFunnel,
-    	HCPVCpipe=2,
+    	Pipe=2,
     	HCBarrelblueempty,
     	Worm=5,
     	Result:HCBiogas,

@@ -48,14 +48,6 @@ item HCWaterbottlecutoff
         Icon                    =    	HCTrashbottle,
     }
 
-item HCPVCpipe
-    {
-        Weight 			= 	1,
-        Type 			= 	Normal,
-        DisplayName 		= 	PVC Pipe,
-        Icon 			= 	HCPVCpipe,
-    }
-
 item HCPVCpipebox
     {
         Weight 			= 	6,
@@ -85,7 +77,7 @@ recipe Remove Can Label
 recipe Unpack Pallet of PVC Pipes
     {
     	HCPVCpipebox,
-    	Result:HCPVCpipe=12,
+    	Result:Pipe=12,
     	Time:20.0,
     	Category:Stoneworking,
     	OnCreate:recipe_hcpallet,
@@ -93,7 +85,7 @@ recipe Unpack Pallet of PVC Pipes
 
 recipe Pack Pallet of PVC Pipes
     {
-    	HCPVCpipe=12,
+    	Pipe=12,
     	HCRopethick,
 	HCWoodenpallet,
     	CanBeDoneFromFloor:true,
