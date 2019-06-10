@@ -12,7 +12,7 @@ item HCMetalsheetbox
     {
         Weight    		= 6.0,
         Type   			= Normal,
-        DisplayName         	= Pallet of Metal Sheets,
+        DisplayName         	= Pallet of Aluminum Sheets,
         icon 			= HCMetalsheetbox,
 	ResizeWorldIcon 	= 1.0,
     }

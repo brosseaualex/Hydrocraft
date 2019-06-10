@@ -1129,6 +1129,15 @@ module Base
         DisplayName	=	PVC Pipe,
         Icon	=	HCPVCpipe,
     }
+	
+	item MetalPipe
+    {
+        Weight = 1,
+        Type = Normal,
+        DisplayName	= Aluminum Pipe,
+        Icon = MetalTube,
+        MetalValue = 30,
+    }
 
 /************************RECIPES************************/
 
