@@ -169,3 +169,26 @@ function RemovePancakeFromPan_CheckIfCooked(sourceItem, result)
     end
     return true
 end
+
+--Food Pastry OnTest
+
+function RemoveHoneyBun_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCHoneybuntray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemoveCupcakes_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCCupcakeshomemadepan" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemoveFruitCake_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCFruitcakepan" then
+        return sourceItem:isCooked()
+    end
+    return true
+end

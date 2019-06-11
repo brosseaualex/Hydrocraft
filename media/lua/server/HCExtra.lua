@@ -1270,16 +1270,7 @@ end
 --Unbox Flat of Ramen
 function recipe_unboxramenflat(items, result, player)
 	HCAddManySameItem("Hydrocraft.HCCardboardflat", 0, player);
-
 end
-
-function recipe_HCHoneybun(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCHoneybun", 3, player);
-end 
-
-function recipe_HCCupcake(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCupcake", 5, player);
-end 
 
 --Kitchen Stuff (Item Returns)
 
@@ -1298,6 +1289,11 @@ end
 
 function recipe_jellomold(items,result,player)
     player:getInventory():AddItem("Hydrocraft.HCJellomold1");
+end
+
+function recipe_hcmuffinpan(items, result, player)
+	local inv = player:getInventory();
+	inv:AddItem("Hydrocraft.HCMuffinpan");
 end
 
 function recipe_hcbakingtray(items, result, player)
