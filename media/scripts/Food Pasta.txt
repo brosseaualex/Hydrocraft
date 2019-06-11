@@ -43,8 +43,8 @@ item HCLasagna
 		MinutesToBurn		=	80,
 		Icon				=	HCLasagna,
 		ReplaceOnUse		=	RoastingPan,
-		DaysFresh			=	7,
-		DaysTotallyRotten	=	12,
+		DaysFresh			=	2,
+		DaysTotallyRotten	=	4,
 		FoodType    		= 	Pasta,
 		Carbohydrates 		= 	228,
 		Proteins 			= 	216,
@@ -154,7 +154,7 @@ recipe Place Pasta in Saucepan
 	   	OnGiveXP:NoXP_OnGiveXP,
 	}
 
-recipe Place Pasta in Saucepan
+	recipe Place Pasta in Saucepan
 	{
 	   	HCPastarotini;10,
 	   	destroy WaterSaucepan,
@@ -162,6 +162,36 @@ recipe Place Pasta in Saucepan
 	   	Time:50.0,
 	   	Category:Cooking,
 	   	OnGiveXP:NoXP_OnGiveXP,
+	}
+	
+	recipe Place Pasta in Cooking Pot
+	{
+		HCPastafettuccine;10,
+		destroy WaterPot,
+		Result:WaterPotPasta,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP:NoXP_OnGiveXP,
+	}
+
+	recipe Place Pasta in Cooking Pot
+	{
+		HCPastamacaroni;10,
+		destroy WaterPot,
+		Result:WaterPotPasta,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP:NoXP_OnGiveXP,
+	}
+
+	recipe Place Pasta in Cooking Pot
+	{
+		HCPastarotini;10,
+		destroy WaterPot,
+		Result:WaterPotPasta,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP:NoXP_OnGiveXP,
 	}
 	
 }
