@@ -601,7 +601,7 @@ module Hydrocraft
 		Result:HCHomemadecookie=6,
 		Time:60.0,
 		OnTest:RemoveCookies_CheckIfCooked,
-		OnCreate:ReturnBakingTray_OnCreate,
+		OnCreate:recipe_hcbakingtray,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -613,7 +613,7 @@ module Hydrocraft
 		Time:15,
 		Category:Cooking,
 		OnTest:RemoveChocolateChipCookies_CheckIfCooked,
-		OnCreate:ReturnBakingTray_OnCreate,
+		OnCreate:recipe_hcbakingtray,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
@@ -624,7 +624,7 @@ module Hydrocraft
 		Time:15,
 		Category:Cooking,
 		OnTest:RemoveWhiteChocolateCookies_CheckIfCooked,
-		OnCreate:ReturnBakingTray_OnCreate,
+		OnCreate:recipe_hcbakingtray,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}	
 
@@ -635,7 +635,7 @@ module Hydrocraft
 		Time:15,
 	   	Category:Cooking,
 		OnTest:RemovePeanutButterCookies_CheckIfCooked,
-		OnCreate:ReturnBakingTray_OnCreate,
+		OnCreate:recipe_hcbakingtray,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
@@ -646,7 +646,7 @@ module Hydrocraft
 		Time:15,
 	   	Category:Cooking,
 		OnTest:RemoveChocolateCookies_CheckIfCooked,
-		OnCreate:ReturnBakingTray_OnCreate,
+		OnCreate:recipe_hcbakingtray,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
@@ -657,7 +657,7 @@ module Hydrocraft
 		Time:15,
 	   	Category:Cooking,
 		OnTest:RemoveDoubleChocolateCookies_CheckIfCooked,
-		OnCreate:ReturnBakingTray_OnCreate,
+		OnCreate:recipe_hcbakingtray,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
@@ -668,29 +668,29 @@ module Hydrocraft
 		Time:15,
 		Category:Cooking,
 		OnTest:RemoveGingerbreadManCookies_CheckIfCooked,
-		OnCreate:ReturnBakingTray_OnCreate,
+		OnCreate:recipe_hcbakingtray,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Remove Chirstmas Cookies From Baking Tray 
+	recipe Remove Chirstmas Cookies from Baking Tray 
 	{
 		HCChristmascookietray,
 		Result:HCChristmascookie=3,   
 		Time:60.0,
 		Category:Cooking,
 		OnTest:RemoveChristmasCookies_CheckIfCooked,
-		OnCreate:ReturnBakingTray_OnCreate,
+		OnCreate:recipe_hcbakingtray,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-	recipe Remove Frosted Chirstmas Cookies From Baking Tray 
+	recipe Remove Frosted Chirstmas Cookies from Baking Tray 
 	{
 		HCFrostedchristmascookietray,
 		Result:HCFrostedchristmascookie=3,   
 		Time:60.0,
 		Category:Cooking,
 		OnTest:RemoveFrostedChristmasCookies_CheckIfCooked,
-		OnCreate:ReturnBakingTray_OnCreate,
+		OnCreate:recipe_hcbakingtray,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 

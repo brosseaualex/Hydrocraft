@@ -1275,7 +1275,7 @@ item HCJellostrawberrybowl
 		Time:50.0,
 		Category:Cooking,
 		OnTest:RemoveAppleJello_CheckIfCooked,
-		OnCreate:ReturnBakingTray_OnCreate,
+		OnCreate:recipe_hcbakingtray,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
@@ -1286,7 +1286,7 @@ item HCJellostrawberrybowl
 		Result:HCJelloapple1,
 		Time:50.0,
 		Category:Cooking,
-		OnCreate:ReturnJelloMold_OnCreate,
+		OnCreate:recipe_jellomold,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
@@ -1334,7 +1334,7 @@ item HCJellostrawberrybowl
 		Result:HCJelloblueberry1,
 		Time:50.0,
 		Category:Cooking,
-		OnCreate:ReturnJelloMold_OnCreate,
+		OnCreate:recipe_jellomold,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
@@ -1382,7 +1382,7 @@ item HCJellostrawberrybowl
 		Result:HCJellocherry1,
 		Time:50.0,
 		Category:Cooking,
-		OnCreate:ReturnJelloMold_OnCreate,
+		OnCreate:recipe_jellomold,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
@@ -1430,7 +1430,7 @@ item HCJellostrawberrybowl
 		Result:HCJellolemon1,
 		Time:50.0,
 		Category:Cooking,
-		OnCreate:ReturnJelloMold_OnCreate,
+		OnCreate:recipe_jellomold,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
@@ -1478,7 +1478,7 @@ item HCJellostrawberrybowl
 		Result:HCJelloorange1,
 		Time:50.0,
 		Category:Cooking,
-		OnCreate:ReturnJelloMold_OnCreate,
+		OnCreate:recipe_jellomold,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
@@ -1526,7 +1526,7 @@ item HCJellostrawberrybowl
 		Result:HCJellolime1,
 		Time:50.0,
 		Category:Cooking,
-		OnCreate:ReturnJelloMold_OnCreate,
+		OnCreate:recipe_jellomold,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
@@ -1574,7 +1574,7 @@ item HCJellostrawberrybowl
 		Result:HCJellowatermelon1,
 		Time:50.0,
 		Category:Cooking,
-		OnCreate:ReturnJelloMold_OnCreate,
+		OnCreate:recipe_jellomold,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
@@ -1622,7 +1622,7 @@ item HCJellostrawberrybowl
 		Result:HCJellostrawberry1,
 		Time:50.0,
 		Category:Cooking,
-		OnCreate:ReturnJelloMold_OnCreate,
+		OnCreate:recipe_jellomold,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	

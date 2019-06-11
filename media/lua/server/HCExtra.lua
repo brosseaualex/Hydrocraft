@@ -1288,19 +1288,18 @@ function recipe_hcnapkinholder(items, result, player)
 	inv:AddItem("Hydrocraft.HCNapkinholder");
 end
 
-function ReturnBakingTray_OnCreate(items,result,player)
-    player:getInventory():AddItem("Base.BakingTray");
+function recipe_bakingpan(items,result,player)
+    player:getInventory():AddItem("Base.Pan");
 end
 
-function ReturnSaucepan_OnCreate(items,result,player)
+function recipe_saucepan(items,result,player)
     player:getInventory():AddItem("Base.Saucepan");
 end
 
-function ReturnJelloMold_OnCreate(items,result,player)
+function recipe_jellomold(items,result,player)
     player:getInventory():AddItem("Hydrocraft.HCJellomold1");
 end
 
--- baking tray will be obsolete
 function recipe_hcbakingtray(items, result, player)
 	local inv = player:getInventory();
 	inv:AddItem("Base.BakingTray");

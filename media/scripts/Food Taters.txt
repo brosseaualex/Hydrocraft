@@ -437,7 +437,7 @@ recipe Prepare Potato Flour
 		Result:HCPotatoflour,
 		Time:55.0,
 		Category:Cooking,
-    	OnCreate:ReturnBakingTray_OnCreate,
+    	OnCreate:recipe_hcbakingtray,
     	OnGiveXP:HCCooking_OnGiveXP,
 	}
 	

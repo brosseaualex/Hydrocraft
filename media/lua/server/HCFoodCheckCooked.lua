@@ -139,3 +139,33 @@ function CutTastyPizza_CheckIfCooked(sourceItem, result)
     end
     return true
 end
+
+--Food Flour OnTest
+
+function RemovePumpkinBread_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCPumpkinbreadpan" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemoveRaisinBread_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCRaisinbreadpan" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemoveCornBread_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCCornbreadpan" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemovePancakeFromPan_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCPancakeshomemadepan" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
