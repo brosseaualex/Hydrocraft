@@ -192,3 +192,26 @@ function RemoveFruitCake_CheckIfCooked(sourceItem, result)
     end
     return true
 end
+
+--Food Pies OnTest
+
+function RemoveApplePie_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCPieapplepan" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemoveBlueberryPie_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCPieblueberrypan" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemovePeachPie_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCPiepeachpan" then
+        return sourceItem:isCooked()
+    end
+    return true
+end

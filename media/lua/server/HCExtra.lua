@@ -1283,6 +1283,10 @@ function recipe_bakingpan(items,result,player)
     player:getInventory():AddItem("Base.Pan");
 end
 
+function recipe_piepan(items,result,player)
+    player:getInventory():AddItem("Hydrocraft.HCPiepan");
+end
+
 function recipe_saucepan(items,result,player)
     player:getInventory():AddItem("Base.Saucepan");
 end

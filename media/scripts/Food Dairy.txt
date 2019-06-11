@@ -188,6 +188,7 @@ item HCCream
 		Type				=	Food,
 		DaysFresh			= 	14,
 		DaysTotallyRotten	= 	30,
+		CantBeFrozen 		= 	TRUE,
 		DisplayName			=	Can of Whipped Cream,
 		ReplaceOnUse		=	HCWhippedcreamcanempty,
 		Icon				=	HCWhippedcreamcan,

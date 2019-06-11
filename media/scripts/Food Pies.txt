@@ -33,130 +33,136 @@ item HCPiecrust
         Calories 			= 	527,
 	}
 
-item HCPieapple
+	item HCPieapplepan
 	{
-	HungerChange			=	-40,
-	Weight				=	1.1,
-	Type				=	Food,
-	DaysTotallyRotten		=	10,
-	DisplayName			=	Uncooked Apple Pie,
-	Icon				=	HCPieapple,
-	ReplaceOnUse			=	HCPiepan,
-	ReplaceOnCooked			=	Hydrocraft.HCPieapplebaked,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	30,
-	MinutesToBurn			=	60,
-	DaysFresh			=	5,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	240,
-        Proteins 			= 	13.2,
-        Lipids 				= 	78,
-        Calories 			= 	1662,
+		HungerChange		=	-40,
+		Weight				=	1.1,
+		Type				=	Food,
+		DaysTotallyRotten	=	10,
+		DisplayName			=	Apple Pie in a Pan,
+		Icon				=	HCPieapple,
+		ReplaceOnUse		=	HCPiepan,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DaysFresh			=	5,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	240,
+		Proteins 			= 	13.2,
+		Lipids 				= 	78,
+		Calories 			= 	1662,
 	}
 
-item HCPieapplebaked
+	item HCPieapple
 	{
-	HungerChange			=	-40,
-	Weight				=	1.1,
-	Type				=	Food,
-	DaysTotallyRotten		=	10,
-	DisplayName			=	Baked Apple Pie,
-	Icon				=	HCPieapple,
-	ReplaceOnUse			=	HCPiepan,
-	DaysFresh			=	5,
-	UnhappyChange			=	-20,
-	BoredomChange			=	-15,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	240,
-        Proteins 			= 	13.2,
-        Lipids 				= 	78,
-        Calories 			= 	1662,
+		HungerChange		=	-40,
+		Weight				=	1.1,
+		Type				=	Food,
+		DaysTotallyRotten	=	10,
+		DisplayName			=	Apple Pie,
+		Icon				=	HCPieapple,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	0,
+		MinutesToBurn		=	30,
+		DaysFresh			=	5,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	240,
+		Proteins 			= 	13.2,
+		Lipids 				= 	78,
+		Calories 			= 	1662,
 	}
 
-item HCPieblueberry
+	item HCPieblueberrypan
 	{
-	HungerChange			=	-40,
-	Weight				=	1.1,
-	Type				=	Food,
-	DaysTotallyRotten		=	10,
-	DisplayName			=	Uncooked Blueberry Pie,
-	Icon				=	HCPieblueberry,
-	ReplaceOnUse			=	HCPiepan,
-	ReplaceOnCooked			=	Hydrocraft.HCPieblueberrybaked,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	30,
-	MinutesToBurn			=	60,
-	DaysFresh			=	5,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	240,
-        Proteins 			= 	13.2,
-        Lipids 				= 	78,
-        Calories 			= 	1662,
+		HungerChange		=	-40,
+		Weight				=	1.1,
+		Type				=	Food,
+		DaysTotallyRotten	=	10,
+		DisplayName			=	Blueberry Pie in a Pan,
+		Icon				=	HCPieblueberry,
+		ReplaceOnUse		=	HCPiepan,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DaysFresh			=	5,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	240,
+		Proteins 			= 	13.2,
+		Lipids 				= 	78,
+		Calories 			= 	1662,
 	}
 
-item HCPieblueberrybaked
+	item HCPieblueberry
 	{
-	HungerChange			=	-40,
-	Weight				=	1.1,
-	Type				=	Food,
-	DaysTotallyRotten		=	10,
-	DisplayName			=	Baked Blueberry Pie,
-	Icon				=	HCPieblueberry,
-	ReplaceOnUse			=	HCPiepan,
-	DaysFresh			=	5,
-	UnhappyChange			=	-20,
-	BoredomChange			=	-15,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	240,
-        Proteins 			= 	13.2,
-        Lipids 				= 	78,
-        Calories 			= 	1662,
+		HungerChange		=	-40,
+		Weight				=	1.1,
+		Type				=	Food,
+		DaysTotallyRotten	=	10,
+		DisplayName			=	Blueberry Pie,
+		Icon				=	HCPieblueberry,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	0,
+		MinutesToBurn		=	30,
+		DaysFresh			=	5,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	240,
+		Proteins 			= 	13.2,
+		Lipids 				= 	78,
+		Calories 			= 	1662,
 	}
 
-item HCPiepeach
+	item HCPiepeachpan
 	{
-	HungerChange			=	-40,
-	Weight				=	1.1,
-	Type				=	Food,
-	DaysTotallyRotten		=	10,
-	DisplayName			=	Uncooked Peach Pie,
-	Icon				=	HCPiepeach,
-	ReplaceOnUse			=	HCPiepan,
-	ReplaceOnCooked			=	Hydrocraft.HCPiepeachbaked,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	30,
-	MinutesToBurn			=	60,
-	DaysFresh			=	5,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	240,
-        Proteins 			= 	13.2,
-        Lipids 				= 	78,
-        Calories 			= 	1662,
+		HungerChange		=	-40,
+		Weight				=	1.1,
+		Type				=	Food,
+		DaysTotallyRotten	=	10,
+		DisplayName			=	Peach Pie in a Pan,
+		Icon				=	HCPiepeach,
+		ReplaceOnUse		=	HCPiepan,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DaysFresh			=	5,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	240,
+		Proteins 			= 	13.2,
+		Lipids 				= 	78,
+		Calories 			= 	1662,
 	}
 
-item HCPiepeachbaked
+	item HCPiepeach
 	{
-	HungerChange			=	-40,
-	Weight				=	1.1,
-	Type				=	Food,
-	DaysTotallyRotten		=	10,
-	DisplayName			=	Baked Peach Pie,
-	Icon				=	HCPiepeach,
-	ReplaceOnUse			=	HCPiepan,
-	DaysFresh			=	5,
-	UnhappyChange			=	-20,
-	BoredomChange			=	-15,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	240,
-        Proteins 			= 	13.2,
-        Lipids 				= 	78,
-        Calories 			= 	1662,
+		HungerChange		=	-40,
+		Weight				=	1.1,
+		Type				=	Food,
+		DaysTotallyRotten	=	10,
+		DisplayName			=	Peach Pie,
+		Icon				=	HCPiepeach,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	0,
+		MinutesToBurn		=	30,
+		DaysFresh			=	5,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-15,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	240,
+		Proteins 			= 	13.2,
+		Lipids 				= 	78,
+		Calories 			= 	1662,
 	}
 
 item HCPiepear
@@ -385,34 +391,67 @@ recipe Make Pie Crust
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
  
-recipe Make Apple Pie
+	recipe Make Apple Pie
 	{
 		HCPiecrust,
 		Apple/HCCannedappleopen,
-		Result:HCPieapple,
+		Result:HCPieapplepan,
 		Time:90.0,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Make Blueberry Pie
+	recipe Remove Apple Pie from Pie Pan
+	{
+		HCPieapplepan,
+		Result:HCPieapple,
+		Time:90.0,
+		OnTest:RemoveApplePie_CheckIfCooked,
+		OnCreate:recipe_piepan,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+	recipe Make Blueberry Pie
 	{
 		HCPiecrust,
 		BerryBlue=10,
-		Result:HCPieblueberry,
+		Result:HCPieblueberrypan,
 		Time:90.0,
 	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+	recipe Remove Blueberry Pie from Pie Pan
+	{
+		HCPieblueberrypan,
+		Result:HCPieblueberry,
+		Time:90.0,
+		OnTest:RemoveBlueberryPie_CheckIfCooked,
+		OnCreate:recipe_piepan,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Make Peach Pie
+	recipe Make Peach Pie
 	{
 		HCPiecrust,
 		Peach/HCCannedpeachopen,
+		Result:HCPiepeachpan,
+		Time:90.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+	recipe Remove Peach Pie from Pie Pan
+	{
+		HCPiepeachpan,
 		Result:HCPiepeach,
 		Time:90.0,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		OnTest:RemovePeachPie_CheckIfCooked,
+		OnCreate:recipe_piepan,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Pear Pie
