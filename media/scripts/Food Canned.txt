@@ -1049,7 +1049,7 @@ recipe Open Canned Cheese Sauce
 	{
 		HCCannedcheesesauce,
 	   	keep TinOpener, 
-	   	Result:HCCannedcheesesauce,
+	   	Result:HCCannedcheesesauceopen,
 	   	Time:80.0,
 	   	Category:Cooking,
 	}

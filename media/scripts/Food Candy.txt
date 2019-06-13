@@ -44,7 +44,7 @@ item HCChocolatewhite
 
 item HCChocolatedark
 	{
-	HungerChange			=	-40,
+	HungerChange			=	-20,
 	Weight				=	0.2,
 	Type				=	Food,
 	UnhappyChange			=	-10,
