@@ -1929,37 +1929,43 @@ recipe Incubate Egg
 
 recipe Attach Bags to Donkey
     {
-	HCAlicepack3=2,
-    	Rope,
-	HCDonkeymale,
+		HCAlicepack3=2,
+		Rope,
+		HCDonkeymale,
+		
     	Result:HCDonkeymalepack,
     	Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Donkey
+	recipe Remove Bags from Donkey
     {
-	HCDonkeymalepack,
+		HCDonkeymalepack,
+		
     	Result:HCDonkeymale,
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCRemoveDonkeyPack,
     }
 
-recipe Attach Bags to Donkey
+	recipe Attach Bags to Donkey
     {
-	HCAlicepack3=2,
+		HCAlicepack3=2,
     	Rope,
-	HCDonkeyfemale,
+		HCDonkeyfemale,
+		
     	Result:HCDonkeyfemalepack,
     	Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Donkey
+	recipe Remove Bags from Donkey
     {
-	HCDonkeyfemalepack,
-    	Result:HCDonkeyfemale,
+		HCDonkeyfemalepack,
+    	
+		Result:HCDonkeyfemale,
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCRemoveDonkeyPack,
