@@ -100,7 +100,7 @@ module Hydrocraft
 	
 	item HCHomemadecookietray
 	{
-		HungerChange		=	-60,
+		HungerChange		=	-30,
 		Weight				=	0.56,
 		Type				=	Food,
 		UnhappyChange		=	-20,
@@ -144,7 +144,7 @@ module Hydrocraft
 
 	item HCChipcookietray
 	{
-		HungerChange		=	-60,
+		HungerChange		=	-30,
 		Weight				=	0.56,
 		Type				=	Food,
 		UnhappyChange		=	-20,
@@ -188,7 +188,7 @@ module Hydrocraft
 
 	item HCCookiewhitetray
 	{
-		HungerChange		=	-60,
+		HungerChange		=	-30,
 		Weight				=	0.56,
 		Type				=	Food,
 		UnhappyChange		=	-20,
@@ -232,7 +232,7 @@ module Hydrocraft
 
 	item HCCookiepeanutbuttertray
 	{
-		HungerChange		=	-60,
+		HungerChange		=	-30,
 		Weight				=	0.56,
 		Type				=	Food,
 		UnhappyChange		=	-20,
@@ -276,7 +276,7 @@ module Hydrocraft
 
 	item HCChocolatecookietray
 	{
-		HungerChange		=	-60,
+		HungerChange		=	-30,
 		Weight				=	0.56,
 		Type				=	Food,
 		UnhappyChange		=	-20,
@@ -320,7 +320,7 @@ module Hydrocraft
 
 	item HCDoublechocolatecookietray
 	{
-		HungerChange		=	-60,
+		HungerChange		=	-30,
 		Weight				=	0.56,
 		Type				=	Food,
 		UnhappyChange		=	-20,
@@ -364,7 +364,7 @@ module Hydrocraft
 
 	item HCGingerbreadmantray
 	{
-		HungerChange		=	-60,
+		HungerChange		=	-30,
 		Weight				=	0.56,
 		Type				=	Food,
 		UnhappyChange		=	-20,
@@ -407,7 +407,7 @@ module Hydrocraft
 
 	item HCChristmascookietray
     {
-		HungerChange		=	-105,
+		HungerChange		=	-70,
 		Weight				=	0.56,
 		Type				=	Food,
 		UnhappyChange		=	-20,
@@ -448,7 +448,7 @@ module Hydrocraft
 		
 	item HCFrostedchristmascookietray
     {
-		HungerChange		=	-105,
+		HungerChange		=	-70,
 		Weight				=	0.56,
 		Type				=	Food,
 		UnhappyChange		=	-20,

@@ -105,7 +105,7 @@ item HCTomatosaucebowl
 	item HCBoringpizza
     {
 		Weight				=	0.5,
-		HungerChange		=	-40,
+		HungerChange		=	-20,
 		UnhappyChange		=	-15,
 		BoredomChange		=	-15,
 		Type				=	Food,
@@ -127,7 +127,7 @@ item HCTomatosaucebowl
 	item HCSimplepizza
     {
 		Weight				=	0.8,
-		HungerChange		=	-80,
+		HungerChange		=	-40,
 		UnhappyChange		=	-20,
 		BoredomChange		=	-20,
 		Type				=	Food,
@@ -149,9 +149,9 @@ item HCTomatosaucebowl
 	item HCTastypizza
 	{
 		Weight				=	1.2,
-		HungerChange		=	-100,
-		UnhappyChange		=	-35,
-		BoredomChange		=	-35,
+		HungerChange		=	-50,
+		UnhappyChange		=	-25,
+		BoredomChange		=	-25,
 		Type				=	Food,		
 		DisplayName			=	Tasty Pizza,
 		IsCookable 			= 	TRUE,

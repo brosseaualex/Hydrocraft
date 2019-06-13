@@ -62,7 +62,7 @@ item HCFriedrice
 
 	item HCRiceandbeanspot
 	{
-		HungerChange		=	-120,
+		HungerChange		=	-60,
 		Weight				=	4,
 		Type				=	Food,
 		UnhappyChange		=	-20,
@@ -109,7 +109,7 @@ item HCFriedrice
 	
 	item HCChilipot
 	{
-		HungerChange		=	-140,
+		HungerChange		=	-70,
 		Weight				=	4,
 		Type				=	Food,
 		IsCookable			=	TRUE,
@@ -156,7 +156,7 @@ item HCFriedrice
 	
 	item HCRicepuddingpot
 	{
-		HungerChange		=	-140,
+		HungerChange		=	-70,
 		Weight				=	4,
 		Type				=	Food,
 		IsCookable			=	TRUE,
@@ -249,7 +249,7 @@ item HCRisotto
 	
 item HCShroomsoup
 	{
-	HungerChange			=	-80,
+	HungerChange			=	-40,
 	Weight				=	4,
 	Type				=	Food,
 	IsCookable			=	TRUE,
@@ -295,7 +295,7 @@ item HCShroomsoup
 	
 item HCNoodlesoup
 	{
-	HungerChange			=	-60,
+	HungerChange			=	-30,
 	Weight				=	4,
 	Type				=	Food,
 	IsCookable			=	TRUE,

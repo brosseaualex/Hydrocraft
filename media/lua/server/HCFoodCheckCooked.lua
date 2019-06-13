@@ -215,3 +215,38 @@ function RemovePeachPie_CheckIfCooked(sourceItem, result)
     end
     return true
 end
+
+function RemovePearPie_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCPiepearpan" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemovePumpkinPie_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCPiepumpkinpan" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemoveCherryPie_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCPiecherrypan" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemoveBlackberryPie_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCPieblackberrypan" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function RemoveQuiche_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCQuichepan" then
+        return sourceItem:isCooked()
+    end
+    return true
+end

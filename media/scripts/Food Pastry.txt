@@ -10,7 +10,7 @@ module Hydrocraft
 
 item HCHoneybundough
 	{
-	HungerChange			=	-60,
+	HungerChange			=	-30,
 	Weight				=	0.4,
 	Type				=	Food,
 	UnhappyChange			=	5,
@@ -28,7 +28,7 @@ item HCHoneybundough
 
 item HCHoneybuntray
 	{
-	HungerChange			=	-60,
+	HungerChange			=	-30,
 	Weight				=	0.9,
 	Type				=	Food,
 	UnhappyChange			=	-20,
@@ -72,7 +72,7 @@ item HCHoneybun
 
 item HCCupcakebatter
     {
-        	HungerChange		=	-90,
+        	HungerChange		=	-45,
         	Weight			=	0.7,
         	Type			=	Food,
         	UnhappyChange		=	5,
@@ -95,7 +95,7 @@ item HCCupcakebatter
 
 item HCCupcakeshomemadepan
 	{
-		HungerChange		=	-90,
+		HungerChange		=	-45,
 		Weight			=	0.5,
 		Type			=	Food,
 		UnhappyChange		=	-15,
@@ -185,7 +185,7 @@ item HCFruitcakebatter
 
 	item HCFruitcakepan
 	{
-	HungerChange		=	-50,
+	HungerChange		=	-30,
 	Weight				=	0.7,
 	Type				=	Food,
 	DisplayName			=	Fruit Cake in Bread Pan,
@@ -208,7 +208,7 @@ item HCFruitcakebatter
 
 	item HCFruitcake
 	{
-	HungerChange		=	-50,
+	HungerChange		=	-30,
 	Weight				=	0.7,
 	Type				=	Food,
 	DisplayName			=	Fruit Cake,
