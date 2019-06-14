@@ -1049,381 +1049,441 @@ recipe Remove Armor from Wardog
     	Category:Ranching,
     }
 
-recipe Attach Bags to Dog
+	recipe Attach Bags to Dog
     {
-	BigHikingBag=2,
+		BigHikingBag=2,
+		Rope,
+		HCHuskymale,
+		
+		Result:HCHuskymalepack,		
+		Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
+		Category:Ranching,
+    }
+
+	recipe Remove Bags from Dog
+    {
+		HCHuskymalepack,
+		
+		Result:HCHuskymale,		
+		Time:50.0,
+		Category:Ranching,
+		OnCreate:HCRemoveDogPack,
+    }
+
+	recipe Attach Bags to Dog
+    {
+		BigHikingBag=2,
+		Rope,
+		HCHuskyfemale,
+		
+		Result:HCHuskyfemalepack,		
+		Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
+		Category:Ranching,
+    }
+
+	recipe Remove Bags from Dog
+    {
+		HCHuskyfemalepack,
+		
+		Result:HCHuskyfemale,		
+		Time:50.0,
+		Category:Ranching,
+		OnCreate:HCRemoveDogPack,
+    }
+
+	recipe Attach Bags to Dog
+    {
+		HCBighikingbagpouch=2,
+		Rope,
+		HCHuskymale,		
+		
+		Result:HCHuskymalepack2,		
+		Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
+		Category:Ranching,
+    }
+
+	recipe Remove Bags from Dog
+    {
+		HCHuskymalepack2,
+		
+		Result:HCHuskymale,		
+		Time:50.0,
+		Category:Ranching,
+		OnCreate:HCRemoveDogPack2,
+    }
+
+	recipe Attach Bags to Dog
+    {
+		HCBighikingbagpouch=2,
+		Rope,
+		HCHuskyfemale,
+		
+    	Result:HCHuskyfemalepack2,		
+		Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
+    	Category:Ranching,
+    }
+
+	recipe Remove Bags from Dog
+    {
+		HCHuskyfemalepack2,
+
+    	Result:HCHuskyfemale,		
+    	Time:50.0,
+		Category:Ranching,
+		OnCreate:HCRemoveDogPack2,
+    }
+
+	recipe Attach Bags to Dog
+    {
+		BigHikingBag=2,
     	Rope,
-	HCHuskymale,
-    	Result:HCHuskymalepack,
+		HCBernesemale,
+		
+    	Result:HCBernesemalepack,		
     	Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Dog
+	recipe Remove Bags from Dog
     {
-	HCHuskymalepack,
-    	Result:HCHuskymale,
-    	Time:50.0,
-    	Category:Ranching,
-    	OnCreate:HCRemoveDogPack,
-    }
-
-recipe Attach Bags to Dog
-    {
-	BigHikingBag=2,
-    	Rope,
-	HCHuskyfemale,
-    	Result:HCHuskyfemalepack,
-    	Time:50.0,
-    	Category:Ranching,
-    }
-
-recipe Remove Bags from Dog
-    {
-	HCHuskyfemalepack,
-    	Result:HCHuskyfemale,
-    	Time:50.0,
-    	Category:Ranching,
-    	OnCreate:HCRemoveDogPack,
-    }
-
-recipe Attach Bags to Dog
-    {
-	HCBighikingbagpouch=2,
-    	Rope,
-	HCHuskymale,
-    	Result:HCHuskymalepack2,
-    	Time:50.0,
-    	Category:Ranching,
-    }
-
-recipe Remove Bags from Dog
-    {
-	HCHuskymalepack2,
-    	Result:HCHuskymale,
-    	Time:50.0,
-    	Category:Ranching,
-    	OnCreate:HCRemoveDogPack2,
-    }
-
-recipe Attach Bags to Dog
-    {
-	HCBighikingbagpouch=2,
-    	Rope,
-	HCHuskyfemale,
-    	Result:HCHuskyfemalepack2,
-    	Time:50.0,
-    	Category:Ranching,
-    }
-
-recipe Remove Bags from Dog
-    {
-	HCHuskyfemalepack2,
-    	Result:HCHuskyfemale,
-    	Time:50.0,
-    	Category:Ranching,
-    	OnCreate:HCRemoveDogPack2,
-    }
-
-recipe Attach Bags to Dog
-    {
-	BigHikingBag=2,
-    	Rope,
-	HCBernesemale,
-    	Result:HCBernesemalepack,
-    	Time:50.0,
-    	Category:Ranching,
-    }
-
-recipe Remove Bags from Dog
-    {
-	HCBernesemalepack,
+		HCBernesemalepack,
+		
     	Result:HCBernesemale,
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCRemoveDogPack,
     }
 
-recipe Attach Bags to Dog
+	recipe Attach Bags to Dog
     {
-	BigHikingBag=2,
+		BigHikingBag=2,
     	Rope,
-	HCBernesefemale,
+		HCBernesefemale,
+		
     	Result:HCBernesefemalepack,
     	Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Dog
+	recipe Remove Bags from Dog
     {
-	HCBernesefemalepack,
-    	Result:HCBernesefemale,
-    	Time:50.0,
-    	Category:Ranching,
-    	OnCreate:HCRemoveDogPack,
+		HCBernesefemalepack,
+		Result:HCBernesefemale,
+		
+		Time:50.0,
+		Category:Ranching,
+		OnCreate:HCRemoveDogPack,
     }
 
-recipe Attach Bags to Dog
+	recipe Attach Bags to Dog
     {
-	HCBighikingbagpouch=2,
+		HCBighikingbagpouch=2,
     	Rope,
-	HCBernesemale,
+		HCBernesemale,
+	
     	Result:HCBernesemalepack2,
     	Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Dog
+	recipe Remove Bags from Dog
     {
-	HCBernesemalepack2,
+		HCBernesemalepack2,
+	
     	Result:HCBernesemale,
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCRemoveDogPack2,
     }
 
-recipe Attach Bags to Dog
+	recipe Attach Bags to Dog
     {
-	HCBighikingbagpouch=2,
+		HCBighikingbagpouch=2,
     	Rope,
-	HCBernesefemale,
+		HCBernesefemale,
+		
     	Result:HCBernesefemalepack2,
     	Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Dog
+	recipe Remove Bags from Dog
     {
-	HCBernesefemalepack2,
+		HCBernesefemalepack2,
+	
     	Result:HCBernesefemale,
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCRemoveDogPack2,
     }
 
-recipe Attach Bags to Dog
+	recipe Attach Bags to Dog
     {
-	BigHikingBag=2,
+		BigHikingBag=2,
     	Rope,
-	HCGreatdanemale,
-    	Result:HCGreatdanemalepack,
-    	Time:50.0,
+		HCGreatdanemale,
+		
+    	Result:HCGreatdanemalepack,    	
+		Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Dog
+	recipe Remove Bags from Dog
     {
-	HCGreatdanemalepack,
+		HCGreatdanemalepack,
+	
     	Result:HCGreatdanemale,
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCRemoveDogPack,
     }
 
-recipe Attach Bags to Dog
+	recipe Attach Bags to Dog
     {
-	BigHikingBag=2,
+		BigHikingBag=2,
     	Rope,
-	HCGreatdanefemale,
-    	Result:HCGreatdanefemalepack,
+		HCGreatdanefemale,
+    	
+		Result:HCGreatdanefemalepack,
     	Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Dog
+	recipe Remove Bags from Dog
     {
-	HCGreatdanefemalepack,
-    	Result:HCGreatdanefemale,
+		HCGreatdanefemalepack,
+    	
+		Result:HCGreatdanefemale,
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCRemoveDogPack,
     }
 
-recipe Attach Bags to Dog
+	recipe Attach Bags to Dog
     {
-	HCBighikingbagpouch=2,
+		HCBighikingbagpouch=2,
     	Rope,
-	HCGreatdanemale,
-    	Result:HCGreatdanemalepack2,
+		HCGreatdanemale,
+    	
+		Result:HCGreatdanemalepack2,
     	Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Dog
+	recipe Remove Bags from Dog
     {
-	HCGreatdanemalepack2,
-    	Result:HCGreatdanemale,
+		HCGreatdanemalepack2,
+    	
+		Result:HCGreatdanemale,
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCRemoveDogPack2,
     }
 
-recipe Attach Bags to Dog
+	recipe Attach Bags to Dog
     {
-	HCBighikingbagpouch=2,
+		HCBighikingbagpouch=2,
     	Rope,
-	HCGreatdanefemale,
-    	Result:HCGreatdanefemalepack2,
+		HCGreatdanefemale,
+    	
+		Result:HCGreatdanefemalepack2,
     	Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Dog
+	recipe Remove Bags from Dog
     {
-	HCGreatdanefemalepack2,
-    	Result:HCGreatdanefemale,
+		HCGreatdanefemalepack2,
+    	
+		Result:HCGreatdanefemale,
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCRemoveDogPack2,
     }
 
-recipe Attach Bags to Dog
+	recipe Attach Bags to Dog
     {
-	BigHikingBag=2,
+		BigHikingBag=2,
     	Rope,
-	HCGermanshepherdmale,
-    	Result:HCGermanshepherdmalepack,
+		HCGermanshepherdmale,
+    	
+		Result:HCGermanshepherdmalepack,
     	Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Dog
+	recipe Remove Bags from Dog
     {
-	HCGermanshepherdmalepack,
-    	Result:HCGermanshepherdmale,
+		HCGermanshepherdmalepack,
+    	
+		Result:HCGermanshepherdmale,
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCRemoveDogPack,
     }
 
-recipe Attach Bags to Dog
+	recipe Attach Bags to Dog
     {
-	BigHikingBag=2,
+		BigHikingBag=2,
     	Rope,
-	HCGermanshepherdfemale,
-    	Result:HCGermanshepherdfemalepack,
+		HCGermanshepherdfemale,
+    	
+		Result:HCGermanshepherdfemalepack,
     	Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Dog
+	recipe Remove Bags from Dog
     {
-	HCGermanshepherdfemalepack,
-    	Result:HCGermanshepherdfemale,
+		HCGermanshepherdfemalepack,
+    	
+		Result:HCGermanshepherdfemale,
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCRemoveDogPack,
     }
 
-recipe Attach Bags to Dog
+	recipe Attach Bags to Dog
     {
-	HCBighikingbagpouch=2,
+		HCBighikingbagpouch=2,
     	Rope,
-	HCGermanshepherdmale,
-    	Result:HCGermanshepherdmalepack2,
+		HCGermanshepherdmale,
+    	
+		Result:HCGermanshepherdmalepack2,
     	Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Dog
+	recipe Remove Bags from Dog
     {
-	HCGermanshepherdmalepack2,
-    	Result:HCGermanshepherdmale,
+		HCGermanshepherdmalepack2,
+    	
+		Result:HCGermanshepherdmale,
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCRemoveDogPack2,
     }
 
-recipe Attach Bags to Dog
+	recipe Attach Bags to Dog
     {
-	HCBighikingbagpouch=2,
+		HCBighikingbagpouch=2,
     	Rope,
-	HCGermanshepherdfemale,
-    	Result:HCGermanshepherdfemalepack2,
+		HCGermanshepherdfemale,
+    	
+		Result:HCGermanshepherdfemalepack2,
     	Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Dog
+	recipe Remove Bags from Dog
     {
-	HCGermanshepherdfemalepack2,
-    	Result:HCGermanshepherdfemale,
+		HCGermanshepherdfemalepack2,
+    	
+		Result:HCGermanshepherdfemale,
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCRemoveDogPack2,
     }
 
-recipe Attach Bags to Dog
+	recipe Attach Bags to Dog
     {
-	BigHikingBag=2,
+		BigHikingBag=2,
     	Rope,
-	HCLabradormale,
-    	Result:HCLabradormalepack,
+		HCLabradormale,
+    	
+		Result:HCLabradormalepack,
     	Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Dog
+	recipe Remove Bags from Dog
     {
-	HCLabradormalepack,
-    	Result:HCLabradormale,
+		HCLabradormalepack,
+    	
+		Result:HCLabradormale,
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCRemoveDogPack,
     }
 
-recipe Attach Bags to Dog
+	recipe Attach Bags to Dog
     {
-	BigHikingBag=2,
+		BigHikingBag=2,
     	Rope,
-	HCLabradorfemale,
-    	Result:HCLabradorfemalepack,
+		HCLabradorfemale,
+    	
+		Result:HCLabradorfemalepack,
     	Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Dog
+	recipe Remove Bags from Dog
     {
-	HCLabradorfemalepack,
-    	Result:HCLabradorfemale,
+		HCLabradorfemalepack,
+    	
+		Result:HCLabradorfemale,
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCRemoveDogPack,
     }
 
-recipe Attach Bags to Dog
+	recipe Attach Bags to Dog
     {
-	HCBighikingbagpouch=2,
+		HCBighikingbagpouch=2,
     	Rope,
-	HCLabradormale,
-    	Result:HCLabradormalepack2,
+		HCLabradormale,
+    	
+		Result:HCLabradormalepack2,
     	Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Dog
+	recipe Remove Bags from Dog
     {
-	HCLabradormalepack2,
-    	Result:HCLabradormale,
+		HCLabradormalepack2,
+    	
+		Result:HCLabradormale,
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCRemoveDogPack2,
     }
 
-recipe Attach Bags to Dog
+	recipe Attach Bags to Dog
     {
-	HCBighikingbagpouch=2,
+		HCBighikingbagpouch=2,
     	Rope,
-	HCLabradorfemale,
-    	Result:HCLabradorfemalepack2,
+		HCLabradorfemale,
+    	
+		Result:HCLabradorfemalepack2,
     	Time:50.0,
+		OnCreate:HCEmptyContainerOnRecipe,
     	Category:Ranching,
     }
 
-recipe Remove Bags from Dog
+	recipe Remove Bags from Dog
     {
-	HCLabradorfemalepack2,
-    	Result:HCLabradorfemale,
+		HCLabradorfemalepack2,
+    	
+		Result:HCLabradorfemale,
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCRemoveDogPack2,

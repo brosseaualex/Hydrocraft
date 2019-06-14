@@ -1023,60 +1023,62 @@ recipe Unpack Stack of Cardboard Boxes
 	}
 
 
-		recipe Craft Duct Tape Pouch
+	recipe Craft Duct Tape Pouch
 	{
-			DuctTape=4,
+		DuctTape=4,
 			
-			Result:HCDucttapepouch,
-			Time:125.0,
-       			Category:Engineer,
-    			OnGiveXP:HCHunger_OnGiveXP,
+		Result:HCDucttapepouch,
+		Time:125.0,
+		Category:Engineer,
+		OnGiveXP:HCHunger_OnGiveXP,
 	}
 
-		recipe Add Duct Tape Pouches to Schoolbag
+	recipe Add Duct Tape Pouches to Schoolbag
 	{
-			HCDucttapepouch=2,
-			destroy Schoolbag,
+		HCDucttapepouch=2,
+		destroy Schoolbag,
 			
-			Result:HCSchoolbagpouch,
-			Time:100.0,
-       			Category:Engineer,
-    			OnGiveXP:HCHunger_OnGiveXP,
+		Result:HCSchoolbagpouch,
+		Time:100.0,
+		Category:Engineer,
+		OnCreate:HCEmptyContainerOnRecipe,
+		OnGiveXP:HCHunger_OnGiveXP,
 	}
 
-
-		recipe Add Duct Tape Pouches to Normal Hiking Bag
+	recipe Add Duct Tape Pouches to Normal Hiking Bag
 	{
-			HCDucttapepouch=2,
-			destroy NormalHikingBag,
+		HCDucttapepouch=2,
+		destroy NormalHikingBag,
 			
-			Result:HCNormalhikingbagpouch,
-			Time:100.0,
-       			Category:Engineer,
-    			OnGiveXP:HCHunger_OnGiveXP,
+		Result:HCNormalhikingbagpouch,
+		Time:100.0,
+		Category:Engineer,
+		OnCreate:HCEmptyContainerOnRecipe,
+		OnGiveXP:HCHunger_OnGiveXP,
 	}
 
-
-		recipe Add Duct Tape Pouches to Big Hiking Bag
+	recipe Add Duct Tape Pouches to Big Hiking Bag
 	{
-			HCDucttapepouch=2,
-			destroy BigHikingBag,
+		HCDucttapepouch=2,
+		destroy BigHikingBag,
 			
-			Result:HCBighikingbagpouch,
-			Time:100.0,
-       			Category:Engineer,
-    			OnGiveXP:HCHunger_OnGiveXP,
+		Result:HCBighikingbagpouch,
+		Time:100.0,
+		Category:Engineer,
+		OnCreate:HCEmptyContainerOnRecipe,
+		OnGiveXP:HCHunger_OnGiveXP,
 	}
 
-		recipe Add Duct Tape Pouches to Duffelbag
+	recipe Add Duct Tape Pouches to Duffelbag
 	{
-			HCDucttapepouch=2,
-			destroy Duffelbag,
+		HCDucttapepouch=2,
+		destroy Duffelbag,
 			
-			Result:HCDuffelbagpouch,
-			Time:100.0,
-       			Category:Engineer,
-    			OnGiveXP:HCHunger_OnGiveXP,
+		Result:HCDuffelbagpouch,
+		Time:100.0,
+		Category:Engineer,
+		OnCreate:HCEmptyContainerOnRecipe,
+		OnGiveXP:HCHunger_OnGiveXP,
 	}
 
 }
