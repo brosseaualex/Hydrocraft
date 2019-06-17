@@ -250,3 +250,96 @@ function RemoveQuiche_CheckIfCooked(sourceItem, result)
     end
     return true
 end
+
+--Food Dried Fruits OnTest
+
+function StoreDriedApples_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCDriedapplestray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function StoreDriedPeach_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCDriedpeachtray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function StoreDriedOrange_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCDriedorangetray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function StoreDriedLemon_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCDriedlemontray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function StoreDriedLime_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCDriedlimetray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function StoreDriedBanana_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCDriedbananachipstray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function StoreDriedStrawberry_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCDriedstrawberrytray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function StoreDriedBerries_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCDriedberriestray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function StoreDriedTomato_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCDriedtomatotray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function StoreDriedPumpkinSeeds_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCDriedpumpkinseedstray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function StoreDriedRaisins_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCDriedrasinstray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function StoreDriedCrasins_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCDriedcrasinstray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function StoreDriedFruits_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCDriedfruittray" then
+        return sourceItem:isCooked()
+    end
+    return true
+end

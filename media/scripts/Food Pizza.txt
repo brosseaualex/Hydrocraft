@@ -42,48 +42,48 @@ item HCGratedcheddar
         Calories 		= 	402,
 }
 	
-item HCTomatosaucepot
+	item HCTomatosaucepot
 	{
-	HungerChange			=	-10,
-	Weight				=	1.4,
-	Type				=	Food,
-	IsCookable			=	TRUE,
-	MinutesToBurn			=	140,
-	DisplayName			=	Pot of Tomato Sauce,
-	ReplaceOnUse			=	Pot,
-	Icon				=	PotFull,
-	MinutesToCook			=	40,
-	MinutesToBurn			=	70,
-	DaysTotallyRotten		=	8,
-	DaysFresh 			= 	5,
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	21.2,
-        Proteins 			= 	1.2,
-        Lipids 				= 	4.8,
-        Calories 			= 	96,
+		HungerChange		=	-10,
+		Weight				=	1.4,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		MinutesToBurn		=	140,
+		DisplayName			=	Pot of Tomato Sauce,
+		ReplaceOnUse		=	Pot,
+		Icon				=	PotFull,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	70,
+		DaysTotallyRotten	=	8,
+		DaysFresh 			= 	5,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		= 	NoExplicit,
+		Carbohydrates 		= 	21.2,
+		Proteins 			= 	1.2,
+		Lipids 				= 	4.8,
+		Calories 			= 	96,
 	}
 	
-item HCTomatosaucebowl
+	item HCTomatosaucebowl
 	{
-	HungerChange			=	-5,
-	Weight				=	0.7,
-	Type				=	Food,
-	IsCookable			=	TRUE,
-	MinutesToBurn			=	140,
-	DisplayName			=	Bowl of Tomato Sauce,
-	ReplaceOnUse			=	Bowl,
-	Icon				=	HCTomatosaucebowl,
-	MinutesToCook			=	40,
-	MinutesToBurn			=	70,
-	DaysTotallyRotten		=	8,
-	DaysFresh 			= 	5,
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	10.6,
-        Proteins 			= 	0.6,
-        Lipids 				= 	2.4,
-        Calories 			= 	48,
+		HungerChange		=	-5,
+		Weight				=	0.7,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		MinutesToBurn		=	140,
+		DisplayName			=	Bowl of Tomato Sauce,
+		ReplaceOnUse		=	Bowl,
+		Icon				=	HCTomatosaucebowl,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	70,
+		DaysTotallyRotten	=	8,
+		DaysFresh 			= 	5,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=  	NoExplicit,
+		Carbohydrates 		= 	10.6,
+		Proteins 			= 	0.6,
+		Lipids 				= 	2.4,
+		Calories 			= 	48,
 	}
 
 	item HCPizzadough
@@ -247,30 +247,31 @@ recipe Grate Cheddar
 	}
 
 
-recipe Make Tomato Sauce
+	recipe Make Tomato Sauce
 	{
-       		SkillRequired:Cooking=3,
+		SkillRequired:Cooking=3,
 		Pot,
 		Tomato=4,
 		Salt;1,	
 		HCGarlicpowder;1,
 		HCHerbs;1,		
 		Result:HCTomatosaucepot,
-    		NeedToBeLearn:true, 
+		NeedToBeLearn:true,
 		Time:100.0,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-recipe Fill Tomato Sauce into Bowls
+	recipe Fill Tomato Sauce into Bowls
 	{
 		Bowl=2,
 		HCTomatosaucepot,
 		Result:HCTomatosaucebowl=2,
-    		NeedToBeLearn:true, 
+		NeedToBeLearn:true,
 		Time:100.0,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		Category:Cooking,
+		OnCreate:recipe_hcpot,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Knead Pizza Dough
