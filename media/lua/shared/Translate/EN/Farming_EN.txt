@@ -14,4 +14,6 @@ Farming_EN = {
 	Farming_Watermelon = "Watermelon",
 	Farming_Zucchini = "Zucchini",
 	Farming_Tooltip_TrellisRequired = "Trellis Kit Required: ",
+	Farming_Trellised_Land = "Trellised Land",
+	Farming_Vine_Information = "Planted Trellis Kit",
 }
