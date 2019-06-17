@@ -343,3 +343,110 @@ function StoreDriedFruits_CheckIfCooked(sourceItem, result)
     end
     return true
 end
+
+--Food Jam OnTest
+
+function MakeGrapeJam_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJamgrapepot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function MakeAppleJam_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJamapplepot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function MakeOrangeJam_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJamorangepot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function MakePeachJam_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJampeachpot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function MakePearJam_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJampearpot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function MakeWatermelonJam_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJamwatermelonpot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function MakePineappleJam_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJampineapplepot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function MakeCherryJam_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJamcherrypot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function MakeStrawberryJam_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJamstrawberrypot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function MakeBlueberryJam_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJamblueberrypot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function MakeBlackberryJam_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJamblackberrypot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function MakeWildberryJam_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJamwildberrypot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function MakeHuckleberryJam_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJamhuckleberrypot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function MakeCranberryJam_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJamcranberrypot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function MakeRaspberryJam_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJamraspberrypot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
