@@ -4,5 +4,4 @@ Tooltip_EN = {
 	Tooltip_HCBluebarrelcorpse = "Will turn into Toxic Waste.",
 	Tooltip_HCFeedme = "Feed to keep alive.",
 	Tooltip_HCSleep = "Drop on floor to use.",
-
 }
