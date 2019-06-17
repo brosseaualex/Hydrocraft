@@ -47,27 +47,8 @@ item HCJarredmelonpot
 	IsCookable			=	TRUE,
 	MinutesToCook			=	40,
 	MinutesToBurn			=	60,
-	ReplaceOnCooked			=	Hydrocraft.HCJarredmeloncooked,
 	DaysFresh 			= 	4,
 	DaysTotallyRotten		=	6,     
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	Fruits,
-        Carbohydrates 			= 	166.4,
-        Proteins			= 	8.4,
-        Lipids 				= 	2.8,
-        Calories 			= 	620,
-	}
-
-item HCJarredmeloncooked
-	{
-	HungerChange			=	-40,
-	BoredomChange			=	-10,
-	UnhappyChange			=	-15,
-	Weight				=	4,
-	Type				=	Food,
-	DisplayName			=	Pot of Cooked Watermelon,
-	Icon				=	PotFull,
-	ReplaceOnUse			=	Pot,  
 	CustomContextMenu 		= 	Eat,
 	FoodType    			=   	Fruits,
         Carbohydrates 			= 	166.4,
@@ -123,7 +104,6 @@ item HCJarredapplepot
 	IsCookable			=	TRUE,
 	MinutesToCook			=	40,
 	MinutesToBurn			=	60,
-	ReplaceOnCooked			=	Hydrocraft.HCJarredapplecooked,
 	DaysFresh 			= 	4,
 	DaysTotallyRotten		=	6,     
 	CustomContextMenu 		= 	Eat,
@@ -134,34 +114,21 @@ item HCJarredapplepot
         Calories 			= 	938,
 	}
 
-item HCJarredapplecooked
+item HCJarredapplesaucepot
 	{
 	HungerChange			=	-50,
 	BoredomChange			=	-10,
 	UnhappyChange			=	-15,
 	Weight				=	4,
 	Type				=	Food,
-	DisplayName			=	Pot of Cooked Apples,
+	DisplayName			=	Pot of Apple Sauce,
 	Icon				=	PotFull,
 	ReplaceOnUse			=	Pot,  
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	Fruits,
-        Carbohydrates 			= 	238,
-        Proteins			= 	2.8,
-        Lipids 				= 	5.6,
-        Calories 			= 	938,
-	}
-
-item HCJarredapplesmashedcooked
-	{
-	HungerChange			=	-50,
-	BoredomChange			=	-10,
-	UnhappyChange			=	-15,
-	Weight				=	4,
-	Type				=	Food,
-	DisplayName			=	Pot of Smashed Cooked Apples,
-	Icon				=	PotFull,
-	ReplaceOnUse			=	Pot,  
+	IsCookable			=	TRUE,
+	MinutesToCook			=	0,
+	MinutesToBurn			=	20,
+	DaysFresh 			= 	4,
+	DaysTotallyRotten		=	6,  
 	CustomContextMenu 		= 	Eat,
 	FoodType    			=   	Fruits,
         Carbohydrates 			= 	238,
@@ -200,27 +167,8 @@ item HCJarredpeachpot
 	IsCookable			=	TRUE,
 	MinutesToCook			=	40,
 	MinutesToBurn			=	60,
-	ReplaceOnCooked			=	Hydrocraft.HCJarredpeachcooked,
 	DaysFresh 			= 	4,
 	DaysTotallyRotten		=	6,     
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	Fruits,
-        Carbohydrates 			= 	252,
-        Proteins			= 	7,
-        Lipids 				= 	2.8,
-        Calories 			= 	1008,
-	}
-
-item HCJarredpeachcooked
-	{
-	HungerChange			=	-40,
-	BoredomChange			=	-10,
-	UnhappyChange			=	-15,
-	Weight				=	4,
-	Type				=	Food,
-	DisplayName			=	Pot of Cooked Peaches,
-	Icon				=	PotFull,
-	ReplaceOnUse			=	Pot,  
 	CustomContextMenu 		= 	Eat,
 	FoodType    			=   	Fruits,
         Carbohydrates 			= 	252,
@@ -259,27 +207,8 @@ item HCJarredorangepot
 	IsCookable			=	TRUE,
 	MinutesToCook			=	40,
 	MinutesToBurn			=	60,
-	ReplaceOnCooked			=	Hydrocraft.HCJarredorangecooked,
 	DaysFresh 			= 	4,
 	DaysTotallyRotten		=	6,     
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	Fruits,
-        Carbohydrates 			= 	324,
-        Proteins			= 	4.2,
-        Lipids 				= 	0,
-        Calories 			= 	1092,
-	}
-
-item HCJarredorangecooked
-	{
-	HungerChange			=	-50,
-	BoredomChange			=	-10,
-	UnhappyChange			=	-15,
-	Weight				=	4,
-	Type				=	Food,
-	DisplayName			=	Pot of Cooked Oranges,
-	Icon				=	PotFull,
-	ReplaceOnUse			=	Pot,  
 	CustomContextMenu 		= 	Eat,
 	FoodType    			=   	Fruits,
         Carbohydrates 			= 	324,
@@ -318,27 +247,8 @@ item HCJarredlemonpot
 	IsCookable			=	TRUE,
 	MinutesToCook			=	40,
 	MinutesToBurn			=	60,
-	ReplaceOnCooked			=	Hydrocraft.HCJarredlemoncooked,
 	DaysFresh 			= 	4,
 	DaysTotallyRotten		=	6,     
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	Fruits,
-        Carbohydrates 			= 	455.2,
-        Proteins			= 	5.6,
-        Lipids 				= 	2.8,
-        Calories 			= 	664,
-	}
-
-item HCJarredlemoncooked
-	{
-	HungerChange 			= 	-40,
-	BoredomChange 			= 	-10,
-	UnhappyChange 			= 	-5,
-	Weight 				= 	4,
-	Type 				= 	Food,
-	DisplayName 			= 	Pot of Cooked Lemons,
-	Icon 				= 	PotFull,
-	ReplaceOnUse 			= 	Pot,
 	CustomContextMenu 		= 	Eat,
 	FoodType    			=   	Fruits,
         Carbohydrates 			= 	455.2,
@@ -377,27 +287,8 @@ item HCJarredlimepot
 	IsCookable			=	TRUE,
 	MinutesToCook			=	40,
 	MinutesToBurn			=	60,
-	ReplaceOnCooked			=	Hydrocraft.HCJarredlimecooked,
 	DaysFresh 			= 	4,
 	DaysTotallyRotten		=	6,     
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	Fruits,
-        Carbohydrates 			= 	455.2,
-        Proteins			= 	5.6,
-        Lipids 				= 	2.8,
-        Calories 			= 	664,
-	}
-
-item HCJarredlimecooked
-	{
-	HungerChange 			= 	-40,
-	BoredomChange 			= 	-10,
-	UnhappyChange 			= 	-5,
-	Weight 				= 	4,
-	Type 				= 	Food,
-	DisplayName 			= 	Pot of Cooked Limes,
-	Icon 				= 	PotFull,
-	ReplaceOnUse 			= 	Pot,
 	CustomContextMenu 		= 	Eat,
 	FoodType    			=   	Fruits,
         Carbohydrates 			= 	455.2,
@@ -436,27 +327,8 @@ item HCJarredgrapespot
 	IsCookable			=	TRUE,
 	MinutesToCook			=	40,
 	MinutesToBurn			=	60,
-	ReplaceOnCooked			=	Hydrocraft.HCJarredgrapescooked,
 	DaysFresh 			= 	4,
 	DaysTotallyRotten		=	6,     
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	Fruits,
-        Carbohydrates 			= 	280,
-        Proteins			= 	7,
-        Lipids 				= 	1.4,
-        Calories 			= 	1064,
-	}
-
-item HCJarredgrapescooked
-	{
-	HungerChange			=	-50,
-	BoredomChange			=	-10,
-	UnhappyChange			=	-15,
-	Weight				=	4,
-	Type				=	Food,
-	DisplayName			=	Pot of Cooked Grapes,
-	Icon				=	PotFull,
-	ReplaceOnUse			=	Pot,  
 	CustomContextMenu 		= 	Eat,
 	FoodType    			=   	Fruits,
         Carbohydrates 			= 	280,
@@ -495,27 +367,8 @@ item HCJarredberriespot
 	IsCookable			=	TRUE,
 	MinutesToCook			=	40,
 	MinutesToBurn			=	60,
-	ReplaceOnCooked			=	Hydrocraft.HCJarredberriescooked,
 	DaysFresh 			= 	4,
 	DaysTotallyRotten		=	6,     
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	Fruits,
-        Carbohydrates 			= 	336,
-        Proteins			= 	8.4,
-        Lipids 				= 	4.2,
-        Calories 			= 	1088,
-	}
-
-item HCJarredberriescooked
-	{
-	HungerChange			=	-40,
-	BoredomChange			=	-10,
-	UnhappyChange			=	-15,
-	Weight				=	4,
-	Type				=	Food,
-	DisplayName			=	Pot of Cooked Berries,
-	Icon				=	PotFull,
-	ReplaceOnUse			=	Pot,  
 	CustomContextMenu 		= 	Eat,
 	FoodType    			=   	Fruits,
         Carbohydrates 			= 	336,
@@ -571,7 +424,6 @@ item HCCurdlemonpot
 	IsCookable			=	TRUE,
 	MinutesToCook			=	90,
 	MinutesToBurn			=	140,
-	ReplaceOnCooked			=	Hydrocraft.HCCurdlemoncooked,
 	DaysFresh 			= 	4,
 	DaysTotallyRotten		=	6,     
 	CustomContextMenu 		= 	Eat,
@@ -584,7 +436,7 @@ item HCCurdlemonpot
 
 item HCCurdlimepot
 	{
-	HungerChange			=	-30,
+	HungerChange			=	-80,
 	BoredomChange			=	-10,
 	UnhappyChange			=	-15,
 	Weight				=	4,
@@ -595,45 +447,8 @@ item HCCurdlimepot
 	IsCookable			=	TRUE,
 	MinutesToCook			=	90,
 	MinutesToBurn			=	140,
-	ReplaceOnCooked			=	Hydrocraft.HCCurdlimecooked,
 	DaysFresh 			= 	4,
 	DaysTotallyRotten		=	6,     
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	Fruits,
-        Carbohydrates 			= 	868,
-        Proteins			= 	0,
-        Lipids 				= 	56,
-        Calories 			= 	2128,
-	}
-
-item HCCurdlemoncooked
-	{
-	HungerChange			=	-30,
-	BoredomChange			=	-10,
-	UnhappyChange			=	-15,
-	Weight				=	4,
-	Type				=	Food,
-	DisplayName			=	Pot of Cooked Lemon Curd,
-	Icon				=	PotFull,
-	ReplaceOnUse			=	Pot,  
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	Fruits,
-        Carbohydrates 			= 	868,
-        Proteins			= 	0,
-        Lipids 				= 	56,
-        Calories 			= 	2128,
-	}
-
-item HCCurdlimecooked
-	{
-	HungerChange			=	-30,
-	BoredomChange			=	-10,
-	UnhappyChange			=	-15,
-	Weight				=	4,
-	Type				=	Food,
-	DisplayName			=	Pot of Cooked Lime Curd,
-	Icon				=	PotFull,
-	ReplaceOnUse			=	Pot,  
 	CustomContextMenu 		= 	Eat,
 	FoodType    			=   	Fruits,
         Carbohydrates 			= 	868,
@@ -694,10 +509,11 @@ recipe Jar Cooked Watermelon
 	{
         	SkillRequired:Cooking=4,
 		HCJar=2,
-		HCJarredmeloncooked,
+		HCJarredmelonpot,
 		Result:HCJarredmelon=2,
 		Time:75.0,
 	   	Category:Cooking,
+		OnTest:JarWatermelon_CheckIfCooked,
     		OnCreate:recipe_hcpot,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -708,7 +524,7 @@ recipe Prepare Jarred Apples
 		destroy WaterPot,
 		HCLemonjuicebowl/HCLemonjuicebottle,
 		Sugar,
-		HCSlicedapple= 8,	
+		HCSlicedapple=8,	
 		Result:HCJarredapplepot,
 		Time:75.0,
 	   	Category:Cooking,
@@ -719,10 +535,11 @@ recipe Make Apple Sauce
 	{
         	SkillRequired:Cooking=4,
 		keep Hammer/BaseballBat/Plank,
-		HCJarredapplecooked,
-		Result:HCJarredapplesmashedcooked,
+		HCJarredapplepot,
+		Result:HCJarredapplesaucepot,
 		Time:75.0,
 	   	Category:Cooking,
+		OnTest:MakeAppleSauce_CheckIfCooked,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
@@ -730,10 +547,11 @@ recipe Jar Cooked Apples
 	{
         	SkillRequired:Cooking=4,
 		HCJar=2,	
-		HCJarredapplecooked,
+		HCJarredapplepot,
 		Result:HCJarredapples=2,
 		Time:75.0,
 	   	Category:Cooking,
+		OnTest:JarApple_CheckIfCooked,
     		OnCreate:recipe_hcpot,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -755,10 +573,11 @@ recipe Jar Cooked Peaches
 	{
         	SkillRequired:Cooking=4,
 		HCJar=2,	
-		HCJarredpeachcooked,
+		HCJarredpeachpot,
 		Result:HCJarredpeach=2,
 		Time:75.0,
 	   	Category:Cooking,
+		OnTest:JarPeach_CheckIfCooked,
     		OnCreate:recipe_hcpot,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}	
@@ -767,10 +586,11 @@ recipe Jar Apple Sauce
 	{
         	SkillRequired:Cooking=4,
 		HCJar=2,
-		HCJarredapplesmashedcooked,
+		HCJarredapplesaucepot,
 		Result:HCJarredapplesauce=2,
 		Time:75.0,
 	   	Category:Cooking,
+		OnTest:JarAppleSauce_CheckIfCooked,
     		OnCreate:recipe_hcpot
        		OnGiveXP:HCCooking_OnGiveXP,
 	}	
@@ -792,10 +612,11 @@ recipe Jar Cooked Oranges
 	{
         	SkillRequired:Cooking=4,
 		HCJar =2,	
-		HCJarredorangecooked,
+		HCJarredorangepot,
 		Result:HCJarredorange=2,
 		Time:75.0,
 	   	Category:Cooking,
+		OnTest:JarOrange_CheckIfCooked,
     		OnCreate:recipe_hcpot,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}	
@@ -817,10 +638,11 @@ recipe Jar Cooked Lemons
 	{
 		SkillRequired:Cooking=4,
 		HCJar =2,
-		HCJarredlemoncooked,
+		HCJarredlemonpot,
 		Result:HCJarredlemon=2,
 		Time:75.0,
 		Category:Cooking,
+		OnTest:JarLemons_CheckIfCooked,
 		OnCreate:recipe_hcpot,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -842,10 +664,11 @@ recipe Jar Cooked Limes
 	{
 		SkillRequired:Cooking=4,
 		HCJar =2,
-		HCJarredlimecooked,
+		HCJarredlimepot,
 		Result:HCJarredlime=2,
 		Time:75.0,
 		Category:Cooking,
+		OnTest:JarLimes_CheckIfCooked,
 		OnCreate:recipe_hcpot,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -867,10 +690,11 @@ recipe Jar Cooked Grapes
 	{
         	SkillRequired:Cooking=4,
 		HCJar =2,	
-		HCJarredgrapescooked,
+		HCJarredgrapespot,
 		Result:HCJarredgrapes=2,
 		Time:75.0,
 	   	Category:Cooking,
+		OnTest:JarGrapes_CheckIfCooked,
     		OnCreate:recipe_hcpot,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -892,10 +716,11 @@ recipe Jar Cooked Berries
 	{
         	SkillRequired:Cooking=4,
 		HCJar=2,
-		HCJarredberriescooked,
+		HCJarredberriespot,
 		Result:HCJarredberries=2,
 		Time:75.0,
   		Category:Cooking,
+		OnTest:JarBerries_CheckIfCooked,
     		OnCreate:recipe_hcpot,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -930,10 +755,11 @@ recipe Make Jar of Lemon Curd
 	{
         	SkillRequired:Cooking=4,
 		HCJar=2,
-		HCCurdlemoncooked,
+		HCCurdlemonpot,
 		Result: HCCurdlemon=2,
 		Time:25.0,
 	   	Category:Cooking,
+		OnTest:JarLemonCurd_CheckIfCooked,
     		OnCreate:recipe_hcpot,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -942,10 +768,11 @@ recipe Make Jar of Lime Curd
 	{
         	SkillRequired:Cooking=4,
 		HCJar=2,
-		HCCurdlimecooked,
+		HCCurdlimepot,
 		Result: HCCurdlime=2,
 		Time:25.0,
 	   	Category:Cooking,
+		OnTest:JarLimeCurd_CheckIfCooked,
     		OnCreate:recipe_hcpot,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}

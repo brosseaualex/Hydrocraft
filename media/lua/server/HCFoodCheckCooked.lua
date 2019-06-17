@@ -450,3 +450,89 @@ function MakeRaspberryJam_CheckIfCooked(sourceItem, result)
     end
     return true
 end
+
+--Food Jarred Fruits OnTest
+
+function MakeAppleSauce_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJarredapplepot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function JarWatermelon_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJarredmelonpot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function JarApple_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJarredapplepot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function JarPeach_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJarredpeachpot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function JarAppleSauce_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJarredapplesaucepot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function JarOrange_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJarredorangepot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function JarLemons_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJarredlemonpot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function JarLimes_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJarredlimepot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function JarGrapes_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJarredgrapespot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function JarBerries_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJarredberriespot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function JarLemonCurd_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCCurdlemonpot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function JarLimeCurd_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCCurdlimepot" then
+        return sourceItem:isCooked()
+    end
+    return true
+end

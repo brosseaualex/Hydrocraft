@@ -368,6 +368,10 @@ item HCJamorangepot
 
 item HCJampeachpot
 	{
+	HungerChange			=	-60,
+	ThirstChange			=	20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
 	Weight				=	1.5,
 	Type				=	Food,
 	DisplayName			=	Pot of Peach Jam,
