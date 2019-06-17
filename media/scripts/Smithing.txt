@@ -1256,19 +1256,6 @@ recipe Make Steel Beam
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Cut Steel Pipe
-    {
-    	keep WeldingMask,
-    	keep HCWorkgloves,
-    	HCSteelpipe,
-    	HCWeldingset,
-    	Result:Pipe=5,
-    	NeedToBeLearn:true,
-    	Time:50,
-    	Category:Welding,
-    	OnGiveXP:HCWelding_OnGiveXP,
-    }
-
 recipe Make Metal Pipe
     {
         HCSteelsheetlarge,
