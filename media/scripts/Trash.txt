@@ -1724,6 +1724,122 @@ item HCScotchtapeempty
 		Type				=	Normal,
 		DisplayCategory 		= 	Trash,
     	}
+		
+		item HCERFBtrashbag
+	{
+		DisplayName 		=Plastic Packaging,
+		Icon 		= HCERFBtrash,
+		Weight 		= 0.1,
+		Type 		= Normal,
+	}
+
+item HCMREempty
+	{
+		DisplayName 		=Plastic Packaging,
+		Icon 		= HCMREtrash,
+		Weight 		= 0.01,
+		Type 		= Normal,
+	}
+
+item HCMREsidetrash
+	{
+		DisplayName 		= Cardboard Packaging,
+		Icon 		= HCMREsidetrash,
+		Weight 		= 0.1,
+		Type 		= Normal,
+	}
+	
+item HCMREdrinkpackettrash
+	{
+		DisplayName 		= Plastic Packaging,
+		Icon 		= HCMREdrinkpackettrash,
+		Weight 		= 0.01,
+		Type 		= Normal,
+	}
+item HCMREcrackerstrash
+	{
+		DisplayName 		= Plastic Packaging,
+		Icon 		= HCMREcrackerstrash,
+		Weight 		= 0.1,
+		Type 		= Normal,
+	}
+	
+item HCMREmealprepedtrash
+	{
+		DisplayName 		= Plastic Packaging,
+		Icon 		= HCMREmealprepedtrash,
+		Weight 		= 0.01,
+		Type 		= Normal,
+	}
+item HCMREmealtrash
+	{
+		DisplayName 		= Cardboard Packaging,
+		Icon 		= HCMREmealtrash,
+		Weight 		= 0.1,
+		Type 		= Normal,
+	}
+item HCMREmealsideprepedtrash
+	{
+		DisplayName 		= Plastic Packaging,
+		Icon 		= HCMREmealsideprepedtrash,
+		Weight 		= 0.01,
+		Type 		= Normal,
+	}
+item HCMREmealsidetrash
+	{
+		DisplayName 		= Cardboard Packaging,
+		Icon 		= HCMREmealsidetrash,
+		Weight 		= 0.1,
+		Type 		= Normal,
+	}
+	
+item HCMREFRHused
+	{
+		DisplayName = Expended Flameless Ration Heater,
+		Icon 		= HCMREFRHtrash,
+		Weight 		= 0.1,
+		Type 		= Normal,
+	}
+
+item HCCandybar1trash
+	{
+		DisplayName 		= Candy Bar Wrapper,
+		Icon 		= HCCandybarsnackerstrash,
+		Weight 		= 0.01,
+		Type 		= Normal,
+	}
+
+item HCCandybar2trash
+	{
+		DisplayName 		= Candy Bar Wrapper,
+		Icon 		= HCCandybarcoconuttrash,
+		Weight 		= 0.01,
+		Type 		= Normal,
+	}
+	
+item HCCandybar3trash
+	{
+		DisplayName 		= Candy Bar Wrapper,
+		Icon 		= HCCandybarpeanutbuttertrash,
+		Weight 		= 0.01,
+		Type 		= Normal,
+	}
+	
+item HCCandybar4trash
+	{
+		DisplayName 		= Candy Bar Wrapper,
+		Icon 		= HCCandybarzedtrash,
+		Weight 		= 0.01,
+		Type 		= Normal,
+	}
+
+item HCCheesecrackerstrash
+	{
+		DisplayName 		= Empty Box,
+		Icon 		= HCCheesecrackerstrash,
+		Weight 		= 0.1,
+		Type 		= Normal,
+	}
 
 /************************RECIPES************************/
 

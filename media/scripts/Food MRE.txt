@@ -1,29 +1,509 @@
 module Hydrocraft
 {
-    imports
-    {
-        Base
-
-    }
-
-/************************ITEMS************************/
-
-item HCMRE
+	imports
 	{
-		DisplayName		=	MRE,
-		HungerChange		=	-40,
-		Weight			=	0.5,
-		Type			=	Food,
-		Icon			=	HCMRE,
-		FoodType    		=   	NoExplicit,
-		Carbohydrates 		= 	167,
-        	Proteins 		= 	31,
-        	Lipids 			= 	56,
-        	Calories 		= 	1264,
-        	Packaged 		= 	TRUE,
-        	CantBeFrozen 		= 	TRUE,	
+		Base,
 	}
 
+/*****ITEMS******/
+	
+
+	
+item HCMRE
+	{
+		DisplayName 		= MRE,
+		Type 				= Food,
+		Weight 				= 0.5,
+		Icon 				= HCMRE,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 64,
+		Proteins 			= 28,
+		Lipids 				= 34,
+		Calories 			= 1210,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+	
+item HCMREmeal
+	{
+		DisplayName 		= MRE Meal,
+		UnhappyChange 		= +10,
+		BordemChange 		= +10,
+		HungerChange 		= -25,
+		Weight 				= 0.2,
+		Type 				= Food,
+		Icon 				= HCMREmeal,
+		ReplaceOnUse 		= HCMREmealtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 29,
+		Proteins 			= 18,
+		Lipids 				= 12,
+		Calories 			= 500,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+
+	
+item HCMREmealside
+	{
+		DisplayName 		= MRE Side Meal,
+		UnhappyChange 		= +10,
+		BordemChange 		= +10,
+		HungerChange 		= -15,
+		Weight 				= 0.2,
+		Type 				= Food,
+		Icon 				= HCMREside,
+		ReplaceOnUse 		= HCMREsidetrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 13,
+		Proteins 			= 9,
+		Lipids 				= 5,
+		Calories 			= 300,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+
+
+/**Extended*Meals**/
+
+item HCMREmealprepedA
+	{
+		DisplayName 		= MRE Pork w/Rice in BBQ Sauce,
+		HungerChange 		= -30,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 12,
+		Proteins 			= 11,
+		Lipids 				= 19,
+		Calories 			= 220,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+	
+item HCMREmealprepedB
+	{
+		DisplayName 		= MRE Corned Beef Hash,
+		HungerChange 		= -30,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 23,
+		Proteins 			= 17,
+		Lipids 				= 25,
+		Calories 			= 380,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+	
+item HCMREmealprepedC
+	{
+		DisplayName 		= MRE Chicken Stew,
+		HungerChange 		= -30,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 26,
+		Proteins 			= 11,
+		Lipids 				= 3.5,
+		Calories 			= 170,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+	
+	
+item HCMREmealprepedD
+	{
+		DisplayName 		= MRE Omelet with Ham,
+		HungerChange 		= -30,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 0,
+		Proteins 			= 5,
+		Lipids 				= 5,
+		Calories 			= 110,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+
+item HCMREmealprepedE
+	{
+		DisplayName 		= MRE Spaghetti w/ Meat Sauce,
+		HungerChange 		= -30,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 27,
+		Proteins 			= 4,
+		Lipids 				= 14,
+		Calories 			= 233,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+	
+item HCMREmealprepedF
+	{
+		DisplayName 		= MRE Smoky Franks,
+		HungerChange 		= -30,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 71,
+		Proteins 			= 21,
+		Lipids 				= 1,
+		Calories 			= 368,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+	
+item HCMREmealprepedG
+	{
+		DisplayName 		= MRE Beef Stew,
+		HungerChange 		= -30,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 18,
+		Proteins 			= 20,
+		Lipids 				= 8,
+		Calories 			= 230,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+
+item HCMREmealprepedH
+	{
+		DisplayName 		= MRE Pork Chow Mein,
+		HungerChange 		= -20,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 48,
+		Proteins 			= 16,
+		Lipids 				= 12,
+		Calories 			= 361,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+
+item HCMREmealprepedI
+	{
+		DisplayName 		= MRE Tuna w/ Noodles ,
+		HungerChange 		= -20,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 29,
+		Proteins 			= 26,
+		Lipids 				= 13,
+		Calories 			= 336,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}	
+
+item HCMREmealprepedJ
+	{
+		DisplayName 		= MRE Chicken w/Rice,
+		HungerChange 		= -20,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 64,
+		Proteins 			= 44,
+		Lipids 				= 24,
+		Calories 			= 660,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+	
+item HCMREmealprepedK
+	{
+		DisplayName 		= MRE Escalloped Potatoes w/Ham,
+		HungerChange 		= -20,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 37,
+		Proteins 			= 6,
+		Lipids 				= 12,
+		Calories 			= 227,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+
+/**Extended*Side*Meals**/
+item HCMREmealsideprepedA
+	{
+		DisplayName 		= MRE Apple Sauce Pouch,
+		HungerChange 		= -20,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 33,
+		Proteins 			= 0,
+		Lipids 				= 6,
+		Calories 			= 130,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+item HCMREmealsideprepedB
+	{
+		DisplayName 		= MRE Rehydrated Fruit Pouch,
+		HungerChange 		= -20,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 0,
+		Proteins 			= 0,
+		Lipids 				= 15,
+		Calories 			= 120,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+
+item HCMREmealsideprepedC
+	{
+		DisplayName 		= MRE Potatoes Au Gratin,
+		HungerChange 		= -20,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 0,
+		Proteins 			= 0,
+		Lipids 				= 0,
+		Calories 			= 200,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}	
+	
+item HCMREmealsideprepedD
+	{
+		DisplayName 		= MRE Chow Mein Noodles,
+		HungerChange 		= -20,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 72,
+		Proteins 			= 8,
+		Lipids 				= 15,
+		Calories 			= 475,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}	
+
+item HCMREmealsideprepedE
+	{
+		DisplayName 		= MRE Pound Cake,
+		HungerChange 		= -20,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 49,
+		Proteins 			= 6,
+		Lipids 				= 15,
+		Calories 			= 350,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+item HCMREmealsideprepedF
+	{
+		DisplayName 		= MRE Chocolate Covered Cookie,
+		HungerChange 		= -20,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 37,
+		Proteins 			= 2,
+		Lipids 				= 12,
+		Calories 			= 290,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+
+item HCMREmealsideprepedG
+	{
+		DisplayName 		= MRE Chocolate Covered Brownie,
+		HungerChange 		= -20,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 36,
+		Proteins 			= 2,
+		Lipids 				= 12,
+		Calories 			= 251,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}	
+	
+item HCMREmealsideprepedH
+	{
+		DisplayName 		= MRE Potato Sticks,
+		HungerChange 		= -20,
+		Weight 				= 0.2,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 4,
+		Type 				= Food,
+		Icon 				= HCMREmealpreped,
+		ReplaceOnUse 		= HCMREmealprepedtrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 16,
+		Proteins 			= 2,
+		Lipids 				= 11,
+		Calories 			= 160,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+
+/**END*SEGMENT**/	
+
+	
+item HCMREcrackers
+	{
+		DisplayName 		= MRE Crackers,
+		HungerChange 		= -15,
+		Weight 				= 0.1,
+		Type 				= Food,
+		Icon 				= HCMREcrackers,
+		ReplaceOnUse 		= HCMREcrackerstrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 27,
+		Proteins 			= 3,
+		Lipids 				= 6,
+		Calories 			= 170,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+item HCMREbread
+	{
+		DisplayName 		= MRE Snack Bread,
+		HungerChange 		= -15,
+		Weight 				= 0.1,
+		Type 				= Food,
+		Icon 				= HCMREbread,
+		ReplaceOnUse 		= HCMREcrackerstrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 30,
+		Proteins 			= 4,
+		Lipids 				= 6,
+		Calories 			= 180,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE, 
+	}
+item HCMREpoundcake
+	{
+		DisplayName 		= MRE Pound Cake,
+		HungerChange 		= -20,
+		Weight 				= 0.2,
+		Type 				= Food,
+		Icon 				= HCMREbread,
+		ReplaceOnUse 		= HCMREcrackerstrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 36,
+		Proteins 			= 3,
+		Lipids 				= 13,
+		Calories 			= 280,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE, 
+	}
+item HCMREdrinkpacket
+	{
+		DisplayName 		= MRE Drink Packet,
+		HungerChange 		= -2,
+		ThirstChange 		= +30,
+		UnhappyChange 		= +20,
+		Weight 				= 0.1,
+		Type 				= Food,
+		Icon 				= HCMREdrinkpacket,
+		ReplaceOnUse 		= HCMREdrinkpackettrash,
+		FoodType 			= NoExplicit,
+		Carbohydrates 		= 16,
+		Proteins 			= 0,
+		Lipids 				= 5,
+		Calories 			= 60,
+		Packaged 			= TRUE,
+		CantBeFrozen 		= TRUE,
+	}
+item HCMREFRH
+	{
+		DisplayName 		= Flameless Ration Heater,
+		Icon 				= HCMREFRH,
+		Weight 				= 0.1,
+		Type 				= Normal,
+	}
+	
 item HCMREbox
 	{
 		Weight			=	2,
@@ -35,38 +515,78 @@ item HCMREpalletsmall
     {
         Weight    		= 12.0,
         Type   			= Normal,
-        DisplayName         	= Small Pallet of MREs,
+        DisplayName     = Small Pallet of MREs,
         icon 			= HCMREpalletsmall,
-	ResizeWorldIcon 	= 2.0,
     }
 
 item HCMREpalletmedium
     {
         Weight    		= 12.0,
         Type   			= Normal,
-        DisplayName         	= Medium Pallet of MREs,
+        DisplayName     = Medium Pallet of MREs,
         icon 			= HCMREpalletmedium,
-	ResizeWorldIcon 	= 2.0,
     }
 
 item HCMREpalletlarge
     {
         Weight    		= 12.0,
         Type   			= Normal,
-        DisplayName         	= Large Pallet of MREs,
+        DisplayName     = Large Pallet of MREs,
         icon 			= HCMREpalletlarge,
-	ResizeWorldIcon 	= 2.0,
     }
-		
-/************************RECIPES************************/
-    
+	
+/******RECIPES*****/
+
+recipe Open MRE Package
+	{
+		HCMRE,
+		Result 		: HCMREempty,
+		RemoveResult: true,
+		OnCreate	: recipe_HCMRE_OpenPackage,
+		Time 		: 25.0,
+		Category 	: Cooking,
+	}
+
+recipe Heat MRE Contents
+	{
+		HCMREFRH,
+		Water,
+		HCSaltpacket,
+		HCPepperpacket,
+		HCMREmeal,
+		HCMREmealside,
+		Result: HCMREFRHused,
+		OnCreate: recipe_HCMRE_HeatPackage,
+		Time: 25.0,
+		Category: Cooking,
+	}
+
+recipe Mix into Bottle
+	{
+		WaterBottleEmpty,
+		Water=10,
+		Result 		: HCMREdrinkpackettrash,
+		OnCreate	: recipe_HCMRE_MixDrinkWaterBottle,
+		Time 		: 25.0,
+		Category 	: Cooking,
+	}
+recipe Mix into Bottle
+	{
+		PopBottleEmpty,
+		Water=10,
+		Result 		: HCMREdrinkpackettrash,
+		OnCreate	: recipe_HCMRE_MixDrinkPopBottle,
+		Time 		: 25.0,
+		Category 	: Cooking,
+	}
+	
 recipe Unbox MREs
-    	{
-	HCMREbox,
-	Result:HCMRE=20,
-	Time:15.0,
-	Category:Cooking,
-    	}	
+    {
+		HCMREbox,
+		Result:HCMRE=20,
+		Time:15.0,
+		Category:Cooking,
+    }	
 
 recipe Unpack Small Pallet of MREs
     {
@@ -81,7 +601,7 @@ recipe Pack Small Pallet of MREs
     {
     	HCMREbox=8,
     	HCRopethick,
-	HCWoodenpallet,
+		HCWoodenpallet,
     	Result:HCMREpalletsmall,
     	Time:20.0,
     	Category:Cooking,
@@ -100,7 +620,7 @@ recipe Pack Medium Pallet of MREs
     {
     	HCMREbox=16,
     	HCRopethick,
-	HCWoodenpallet,
+		HCWoodenpallet,
     	Result:HCMREpalletmedium,
     	Time:20.0,
     	Category:Cooking,
@@ -119,10 +639,10 @@ recipe Pack Large Pallet of MREs
     {
     	HCMREbox=24,
     	HCRopethick,
-	HCWoodenpallet,
+		HCWoodenpallet,
     	Result:HCMREpalletlarge,
     	Time:20.0,
     	Category:Cooking,
-    }
-			
+    }	
+
 }
