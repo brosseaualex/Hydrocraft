@@ -414,18 +414,19 @@ recipe Take Stick of Gum
         Time:15,
 	Category:Cooking,
     }
-
-recipe Make Mixed Candy
+	
+	recipe Make Mixed Candy
 	{
-	HCTrailmix/HCCandycorn/HCCandymnm/HCCandyrainbow/HCGummybears/HCGummyworms/HCJellybeans/HCTaffy/HCCandycherry/HCCandyapple,
-	HCTrailmix/HCCandycorn/HCCandymnm/HCCandyrainbow/HCGummybears/HCGummyworms/HCJellybeans/HCTaffy/HCCandycherry/HCCandyapple,
-	HCTrailmix/HCCandycorn/HCCandymnm/HCCandyrainbow/HCGummybears/HCGummyworms/HCJellybeans/HCTaffy/HCCandycherry/HCCandyapple,
-	HCTrailmix/HCCandycorn/HCCandymnm/HCCandyrainbow/HCGummybears/HCGummyworms/HCJellybeans/HCTaffy/HCCandycherry/HCCandyapple,
-	HCTrailmix/HCCandycorn/HCCandymnm/HCCandyrainbow/HCGummybears/HCGummyworms/HCJellybeans/HCTaffy/HCCandycherry/HCCandyapple,
-	Result:HCCandymixed,
-	Time:50.0,
-	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
+		HCTrailmix/HCCandycorn,
+		HCCandymnm/HCCandyrainbow,
+		HCGummybears/HCGummyworms,
+		HCJellybeans/HCTaffy,
+		HCCandycherry/HCCandyapple,
+		Result:HCCandymixed,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
+	
 	
 }

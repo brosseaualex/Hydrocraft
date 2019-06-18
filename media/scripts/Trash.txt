@@ -273,8 +273,8 @@ item HCGumtrash
         	DisplayName			=	Empty Pack of Chewing Gum,
         	Icon				=	HCGumtrash,
         	Weight				=	0.05,
-		Type				=	Normal,
-		DisplayCategory 		= 	Trash,
+			Type				=	Normal,
+			DisplayCategory 	= 	Trash,
     	}
 
 item HCGum2trash
