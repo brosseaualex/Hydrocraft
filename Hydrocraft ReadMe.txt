@@ -1,7 +1,8 @@
-Hydrocraft v10.5b
+Hydrocraft v11.0
+
 Credits
 
-Coders - arrukus, BrokenMnemonic, Daantje, Flamester, Hydromancerx, IanSchot, JackMods, Man_In_The_Purple_Hat, Minnigin, MisterInSayne, UngratefulDead, Yossitaru
+Coders - arrukus, BrokenMnemonic, Daantje, DemolitionDerby, Flamester, Hydromancerx, IanSchot, JackMods, Man_In_The_Purple_Hat, Minnigin, MisterInSayne, UngratefulDead, Yossitaru
 
 Artists - Atoxwarrior, Batura, billwa, Crowborn, Cyrrent Eiledoll, DeadlyStr1ke, Filthy Mollie, fluffe9911, Fuji, Hydromancerx, IanSchot, Kaltag, Kittysong, Leliana, Man_In_The_Purple_Hat, Minnigin, Nitengal, ORMtnMan, Rampage132003, Rhodix, Scyoni, Sparrow, StalkerCZ, Svarog, UngratefulDead, WolfeClaw, Zombadger
 

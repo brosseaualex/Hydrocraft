@@ -1735,7 +1735,7 @@ item HCScotchtapeempty
 
 item HCMREempty
 	{
-		DisplayName 		=Plastic Packaging,
+		DisplayName = Plastic Packaging,
 		Icon 		= HCMREtrash,
 		Weight 		= 0.01,
 		Type 		= Normal,
@@ -1842,10 +1842,6 @@ item HCCheesecrackerstrash
 	}
 
 /************************RECIPES************************/
-
-
-
-
 
 
 }

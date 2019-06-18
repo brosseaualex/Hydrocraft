@@ -540,11 +540,10 @@ item HCMREpalletlarge
 recipe Open MRE Package
 	{
 		HCMRE,
-		Result 		: HCMREempty,
-		RemoveResult: true,
-		OnCreate	: recipe_HCMRE_OpenPackage,
-		Time 		: 25.0,
-		Category 	: Cooking,
+		Result 			: HCMREempty,
+		OnCreate		: recipe_HCMRE_OpenPackage,
+		Time 			: 25.0,
+		Category 		: Cooking,
 	}
 
 recipe Heat MRE Contents
