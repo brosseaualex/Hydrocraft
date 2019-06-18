@@ -17,7 +17,7 @@ function loadItem(item)
         item:getModData().TurnInto = ItemTimeTrackerMod[item:getType()]["TurnInto"];
         item:getModData().StartTime = getGameTime():getWorldAgeHours();
         
-        print("loadItem ",item:getType(),item:getModData().Life,item:getModData().TurnInto,item:getModData().StartTime)
+        --print("loadItem ",item:getType(),item:getModData().Life,item:getModData().TurnInto,item:getModData().StartTime)
         return true;
     else
         return false;
@@ -31,7 +31,7 @@ function replaceItem(container,item)
                         --item:getModData().Life = item:getModData().Life - (getGameTime():getWorldAgeHours() - item:getModData().Life);
 						if item:getModData().Life~=nil and item:getModData().StartTime~=nil then
 						local delta = (getGameTime():getWorldAgeHours() - item:getModData().StartTime)
-              print("replaceItem",item:getType(),item:getModData().Life,getGameTime():getWorldAgeHours(),item:getModData().StartTime,delta)
+              --print("replaceItem",item:getType(),item:getModData().Life,getGameTime():getWorldAgeHours(),item:getModData().StartTime,delta)
 							if delta<0 then
 								--FIx server time error bug
 								item:getModData().StartTime = getGameTime():getWorldAgeHours();
@@ -47,13 +47,13 @@ function replaceItem(container,item)
 										dataCheck(item,temp)
 																		
 										container:addItemOnServer(temp);  
-										print("item:getModData().TurnInto",item:getModData().TurnInto) 
+										--print("item:getModData().TurnInto",item:getModData().TurnInto) 
 									end      
 								end
 								
 								container:DoRemoveItem(item);
 								container:removeItemOnServer(item);
-								print("replaceItem",item:getType(),item:getModData().TurnInto,item:getModData().Life,getGameTime():getWorldAgeHours(),item:getModData().StartTime,delta)
+								--print("replaceItem",item:getType(),item:getModData().TurnInto,item:getModData().Life,getGameTime():getWorldAgeHours(),item:getModData().StartTime,delta)
 							end
 						end
 end
