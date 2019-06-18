@@ -542,38 +542,37 @@ item HCTomatillo
 
    item HCSpirulinafresh
    {
-	Type				=		Food,
-	DisplayName			=		Spirulina,
-	Icon				=		HCSpirulinafresh,
-	Weight				=		0.1,
-	HungerChange 			=		-5,
-	DaysFresh 			=		5,
-	DaysTotallyRotten 		=	 	10,
-	IsCookable			=		TRUE,
-	MinutesToCook			=		40,
-	MinutesToBurn			=		60,
-	ReplaceOnUse			=		BakingTray,
-	ReplaceOnCooked			= 		Hydrocraft.HCSpirulinapowder,
-	FoodType    			=   		Vegetables,
-	EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-        Carbohydrates 			= 		1.7,
-        Proteins 			= 		4,
-        Lipids 				= 		0.5,
-        Calories 			=		20,
+		Type				=		Food,
+		DisplayName			=		Spirulina,
+		Icon				=		HCSpirulinafresh,
+		Weight				=		0.1,
+		HungerChange 		=		-5,
+		DaysFresh 			=		5,
+		DaysTotallyRotten 	=	 	10,
+		IsCookable			=		TRUE,
+		MinutesToCook		=		40,
+		MinutesToBurn		=		60,
+		ReplaceOnUse		=		BakingTray,
+		FoodType    		=   	Vegetables,
+		EvolvedRecipe       =       Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		Carbohydrates 		= 		1.7,
+		Proteins 			= 		4,
+		Lipids 				= 		0.5,
+		Calories 			=		20,
     }
 
    item HCSpirulinapowder
    {
-	Type				=		Food,
-	DisplayName			=		Spirulina Powder,
-	Icon				=		HCSpirulinapowder,
-	Weight				=		0.1,
-	HungerChange 			=		-5,
-	FoodType    			=   		Vegetables,
-        Carbohydrates 			= 		1.7,
-        Proteins 			= 		4,
-        Lipids 				= 		0.5,
-        Calories 			=		20,
+		Type				=		Food,
+		DisplayName			=		Spirulina Powder,
+		Icon				=		HCSpirulinapowder,
+		Weight				=		0.1,
+		HungerChange 		=		-5,
+		FoodType    		=   	Vegetables,
+		Carbohydrates 		= 		1.7,
+		Proteins 			= 		4,
+		Lipids 				= 		0.5,
+		Calories 			=		20,
     }
 
    item HCBeet
@@ -788,5 +787,16 @@ recipe Slice Buskin Pumpkin
        	Category:Cooking,
     	OnGiveXP:HCCooking_OnGiveXP,
        }
+	   
+	recipe Make Spirulina Powder
+	{	
+		keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+		HCSpirulinafresh,
+		CanBeDoneFromFloor:true,
+		Result:HCSpirulinapowder,
+		Time:50,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
 	
 }

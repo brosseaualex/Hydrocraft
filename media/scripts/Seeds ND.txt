@@ -364,7 +364,7 @@ item HCWheat
 
 item HCWheatseedpacket
 	{
-	Type			=  Normal,
+	Type			= Normal,
 	DisplayName		= Wheat Seeds Packet,
 	Icon			= HCwheatseedpacket,
 	Weight			= 0.1,

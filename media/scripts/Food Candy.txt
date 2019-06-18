@@ -44,7 +44,7 @@ item HCChocolatewhite
 
 item HCChocolatedark
 	{
-	HungerChange			=	-40,
+	HungerChange			=	-20,
 	Weight				=	0.2,
 	Type				=	Food,
 	UnhappyChange			=	-10,
@@ -184,22 +184,22 @@ item HCGumstick3
 	ReplaceOnUse			=	HCGumsticktrash,
 	}
 
-item HCCandycorn
+	item HCCandycorn
 	{
-	HungerChange			=	-25,
-	Weight				=	0.1,
-	Type				=	Food,
-	UnhappyChange			=	-10,
-	DisplayName			=	Candy Corn,
-	Icon				=	HCCandycorn,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	92.5,
+		HungerChange		=	-25,
+		Weight				=	0.1,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		DisplayName			=	Candy Corn,
+		Icon				=	HCCandycorn,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	92,
         Proteins 			= 	0,
         Lipids 				= 	0,
         Calories 			= 	360,
-	CantBeFrozen 			= 	TRUE,
-	Packaged			=	TRUE,
-	ReplaceOnUse			=	HCCandycorntrash,
+		CantBeFrozen 		= 	TRUE,
+		Packaged			=	TRUE,
+		ReplaceOnUse		=	HCCandycorntrash,
 	}
 
 item HCCandymnm
@@ -414,18 +414,19 @@ recipe Take Stick of Gum
         Time:15,
 	Category:Cooking,
     }
-
-recipe Make Mixed Candy
+	
+	recipe Make Mixed Candy
 	{
-	HCTrailmix/HCCandycorn/HCCandymnm/HCCandyrainbow/HCGummybears/HCGummyworms/HCJellybeans/HCTaffy/HCCandycherry/HCCandyapple,
-	HCTrailmix/HCCandycorn/HCCandymnm/HCCandyrainbow/HCGummybears/HCGummyworms/HCJellybeans/HCTaffy/HCCandycherry/HCCandyapple,
-	HCTrailmix/HCCandycorn/HCCandymnm/HCCandyrainbow/HCGummybears/HCGummyworms/HCJellybeans/HCTaffy/HCCandycherry/HCCandyapple,
-	HCTrailmix/HCCandycorn/HCCandymnm/HCCandyrainbow/HCGummybears/HCGummyworms/HCJellybeans/HCTaffy/HCCandycherry/HCCandyapple,
-	HCTrailmix/HCCandycorn/HCCandymnm/HCCandyrainbow/HCGummybears/HCGummyworms/HCJellybeans/HCTaffy/HCCandycherry/HCCandyapple,
-	Result:HCCandymixed,
-	Time:50.0,
-	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
+		HCTrailmix/HCCandycorn,
+		HCCandymnm/HCCandyrainbow,
+		HCGummybears/HCGummyworms,
+		HCJellybeans/HCTaffy,
+		HCCandycherry/HCCandyapple,
+		Result:HCCandymixed,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
+	
 	
 }

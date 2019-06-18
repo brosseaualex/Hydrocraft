@@ -60,198 +60,144 @@ item HCFriedrice
 	EvolvedRecipe 			= 	Soup:15;Stew:15;Stir fry:15,	 	
 	}
 
-item HCRiceandbeanspot
+	item HCRiceandbeanspot
 	{
-	HungerChange			=	-50,
-	Weight				=	4,
-	Type				=	Food,
-	IsCookable			=	TRUE,
-	UnhappyChange			=	-20,
-	MinutesToCook			=	90,
-	MinutesToBurn			=	140,
-	DisplayName			=	Pot of Rice and Beans,
-	ReplaceOnUse			=	Pot,
-	ReplaceOnCooked			=	Hydrocraft.HCRiceandbeanscooked,
-	Icon				=	PotFull,
-	BoredomChange			=	-15,
-	DaysTotallyRotten		=	4,
-	DaysFresh 			= 	2,
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	260,
-        Proteins 			= 	122,
-        Lipids 				= 	76,
-        Calories 			= 	2060,
+		HungerChange		=	-50,
+		Weight				=	4,
+		Type				=	Food,
+		UnhappyChange		=	-20,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	90,
+		MinutesToBurn		=	140,
+		DisplayName			=	Pot of Rice and Beans,
+		ReplaceOnUse		=	Pot,
+		Icon				=	PotFull,
+		BoredomChange		=	-20,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	3,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=	NoExplicit,
+		Carbohydrates 		= 	260,
+		Proteins 			= 	122,
+		Lipids 				= 	76,
+		Calories 			= 	2060,
+	}
+
+	item HCRiceandbeansbowl
+	{
+		HungerChange		=	-30,
+		Weight				=	1,
+		Type				=	Food,
+		UnhappyChange		=	-5,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	90,
+		MinutesToBurn		=	140,
+		DisplayName			=	Bowl of Rice and Beans,
+		ReplaceOnUse		=	Bowl,
+		Icon				=	HCChilibowl,
+		BoredomChange		=	-5,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	3,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	65,
+		Proteins 			= 	30.5,
+		Lipids 				= 	19,
+		Calories 			= 	515,
+		EvolvedRecipe 		= 	Soup:20;Stew:20;Stir fry:20,	
 	}
 	
-item HCRiceandbeanscooked
+	item HCChilipot
 	{
-	HungerChange			=	-50,
-	Weight				=	4,
-	Type				=	Food,
-	UnhappyChange			=	-20,
-	DisplayName			=	Pot of Fresh Rice and Beans,
-	ReplaceOnUse			=	Pot,
-	Icon				=	PotFull,
-	BoredomChange			=	-15,
-	DaysTotallyRotten		=	7,
-	DaysFresh 			= 	3,
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	260,
-        Proteins 			= 	122,
-        Lipids 				= 	76,
-        Calories 			= 	2060,
+		HungerChange		=	-50,
+		Weight				=	4,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		UnhappyChange		=	-20,
+		MinutesToCook		=	90,
+		MinutesToBurn		=	140,
+		DisplayName			=	Pot of Chili,
+		ReplaceOnUse		=	Pot,
+		Icon				=	PotFull,
+		BoredomChange		=	-20,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	3,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=  	NoExplicit,
+		Carbohydrates 		= 	92,
+		Proteins 			= 	260,
+		Lipids 				= 	196,
+		Calories 			= 	3140,
 	}
 
-item HCRiceandbeansbowl
+	item HCChilibowl
 	{
-	HungerChange			=	-30,
-	Weight				=	1,
-	Type				=	Food,
-	UnhappyChange			=	-5,
-	DisplayName			=	Bowl of Rice and Beans,
-	ReplaceOnUse			=	Bowl,
-	Icon				=	HCChilibowl,
-	BoredomChange			=	-5,
-	DaysTotallyRotten		=	7,
-	DaysFresh 			= 	3,
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	65,
-        Proteins 			= 	30.5,
-        Lipids 				= 	19,
-        Calories 			= 	515,
-	EvolvedRecipe 			= 	Soup:20;Stew:20;Stir fry:20,	
+		HungerChange		=	-35,
+		Weight				=	1,
+		Type				=	Food,
+		UnhappyChange		=	-5,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	90,
+		MinutesToBurn		=	140,
+		DisplayName			=	Bowl of Fresh Chili,
+		ReplaceOnUse		=	Bowl,
+		Icon				=	HCChilibowl,
+		BoredomChange		=	-5,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	3,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	23,
+		Proteins 			= 	65,
+		Lipids 				= 	49,
+		Calories 			= 	785,
+		EvolvedRecipe 		= 	Soup:15;Stew:15;Sandwich:5;Burger:5;Salad:5,	
 	}
 	
-item HCChili
+	item HCRicepuddingpot
 	{
-	HungerChange			=	-60,
-	Weight				=	4,
-	Type				=	Food,
-	IsCookable			=	TRUE,
-	UnhappyChange			=	-20,
-	MinutesToCook			=	90,
-	MinutesToBurn			=	140,
-	DisplayName			=	Pot of Chili,
-	ReplaceOnUse			=	Pot,
-	ReplaceOnCooked			=	Hydrocraft.HCChilicooked,
-	Icon				=	PotFull,
-	BoredomChange			=	-15,
-	DaysTotallyRotten		=	4,
-	DaysFresh 			= 	2,
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	92,
-        Proteins 			= 	260,
-        Lipids 				= 	196,
-        Calories 			= 	3140,
+		HungerChange		=	-50,
+		Weight				=	4,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		UnhappyChange		=	-20,
+		MinutesToCook		=	90,
+		MinutesToBurn		=	140,
+		DisplayName			=	Pot of Rice Pudding,
+		ReplaceOnUse		=	Pot,
+		Icon				=	PotFull,
+		BoredomChange		=	-20,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	3,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	500,
+		Proteins 			= 	64,
+		Lipids 				= 	74,
+		Calories 			= 	2920,
 	}
 
-item HCChilicooked
+	item HCRicepuddingbowl
 	{
-	HungerChange			=	-60,
-	Weight				=	4,
-	Type				=	Food,
-	UnhappyChange			=	-20,
-	DisplayName			=	Pot of Fresh Chili,
-	ReplaceOnUse			=	Pot,
-	Icon				=	PotFull,
-	BoredomChange			=	-15,
-	DaysTotallyRotten		=	7,
-	DaysFresh 			= 	3,
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	92,
-        Proteins 			= 	260,
-        Lipids 				= 	196,
-        Calories 			= 	3140,
-	}
-
-item HCChilibowl
-	{
-	HungerChange			=	-35,
-	Weight				=	1,
-	Type				=	Food,
-	UnhappyChange			=	-5,
-	DisplayName			=	Bowl of Fresh Chili,
-	ReplaceOnUse			=	Bowl,
-	Icon				=	HCChilibowl,
-	BoredomChange			=	-5,
-	DaysTotallyRotten		=	7,
-	DaysFresh 			= 	3,
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	23,
-        Proteins 			= 	65,
-        Lipids 				= 	49,
-        Calories 			= 	785,
-	EvolvedRecipe 			= 	Soup:15;Stew:15;Sandwich:5;Burger:5;Salad:5,	
-	}
-	
-item HCRicepudding
-{
-	HungerChange			=	-60,
-	Weight				=	4,
-	Type				=	Food,
-	IsCookable			=	TRUE,
-	UnhappyChange			=	-20,
-	MinutesToCook			=	90,
-	MinutesToBurn			=	140,
-	DisplayName			=	Pot of Rice Pudding,
-	ReplaceOnUse			=	Pot,
-	ReplaceOnCooked			=	Hydrocraft.HCRicepuddingcooked,
-	Icon				=	PotFull,
-	BoredomChange			=	-15,
-	DaysTotallyRotten		=	4,
-	DaysFresh 			= 	2,
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	500,
-        Proteins 			= 	64,
-        Lipids 				= 	74,
-        Calories 			= 	2920,
-	}
-
-item HCRicepuddingcooked
-	{
-	HungerChange			=	-60,
-	Weight				=	4,
-	Type				=	Food,
-	UnhappyChange			=	-20,
-	DisplayName			=	Pot of Cooked Rice Pudding,
-	ReplaceOnUse			=	Pot,
-	Icon				=	PotFull,
-	BoredomChange			=	-15,
-	DaysTotallyRotten		=	7,
-	DaysFresh 			= 	3,
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	500,
-        Proteins 			= 	64,
-        Lipids 				= 	74,
-        Calories 			= 	2920,
-	}
-
-item HCRicepuddingbowl
-	{
-	HungerChange			=	-35,
-	Weight				=	1,
-	Type				=	Food,
-	UnhappyChange			=	-5,
-	DisplayName			=	Bowl of Rice Pudding,
-	ReplaceOnUse			=	Bowl,
-	Icon				=	HCRicebowl,
-	BoredomChange			=	-5,
-	DaysTotallyRotten		=	7,
-	DaysFresh 			= 	3,
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	125,
-        Proteins 			= 	16,
-        Lipids 				= 	18.5,
-        Calories 			= 	730,
+		HungerChange		=	-35,
+		Weight				=	1,
+		Type				=	Food,
+		UnhappyChange		=	-5,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	90,
+		MinutesToBurn		=	140,
+		DisplayName			=	Bowl of Rice Pudding,
+		ReplaceOnUse		=	Bowl,
+		Icon				=	HCRicebowl,
+		BoredomChange		=	-5,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	3,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	125,
+		Proteins 			= 	16,
+		Lipids 				= 	18.5,
+		Calories 			= 	730,
 	}
 
 item HCRisotto
@@ -271,34 +217,34 @@ item HCRisotto
 	DaysTotallyRotten		=	6,
 	DaysFresh 			= 	3,
 	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
+	FoodType    			=   NoExplicit,
 	Carbohydrates 			= 	381,
         Proteins 			= 	39,
         Lipids 				= 	6.5,
         Calories 			= 	1740,
 	}
 
-item HCBrothbowl
+	item HCBrothbowl
 	{
-	HungerChange			=	-5,
-	Weight				=	1,
-	Type				=	Food,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	40,
-	MinutesToBurn			=	60,
-	DisplayName			=	Bowl of Broth,
-	ReplaceOnUse			=	Bowl,
-	Icon				=	HCSoupbowl,
-	BoredomChange			=	-5,
-	UnhappyChange			=	-5,
-	DaysTotallyRotten		=	5,
-	DaysFresh 			= 	2,
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	4.5,
-        Proteins 			= 	1,
-        Lipids 				= 	0.5,
-        Calories 			= 	25,
+		HungerChange		=	-5,
+		Weight				=	1,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	60,
+		DisplayName			=	Bowl of Broth,
+		ReplaceOnUse		=	Bowl,
+		Icon				=	HCSoupbowl,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		DaysTotallyRotten	=	5,
+		DaysFresh 			= 	2,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	4.5,
+		Proteins 			= 	1,
+		Lipids 				= 	0.5,
+		Calories 			= 	25,
 	}
 	
 item HCShroomsoup
@@ -313,7 +259,7 @@ item HCShroomsoup
 	DisplayName			=	Pot of Mushroom Soup,
 	ReplaceOnUse			=	Pot,
 	Icon				=	PotFull,
-	BoredomChange			=	-15,
+	BoredomChange			=	-20,
 	DaysTotallyRotten		=	5,
 	DaysFresh 			= 	2,
 	CustomContextMenu 		= 	Eat,
@@ -324,32 +270,32 @@ item HCShroomsoup
         Calories 			= 	1060,
 	}
 
-item HCShroomsoupbowl
+	item HCShroomsoupbowl
 	{
-	HungerChange			=	-20,
-	Weight				=	1,
-	Type				=	Food,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	40,
-	MinutesToBurn			=	60,
-	DisplayName			=	Bowl of Mushroom Soup,
-	ReplaceOnUse			=	Bowl,
-	Icon				=	HCSoupbowl,
-	BoredomChange			=	-5,
-	UnhappyChange			=	-5,
-	DaysTotallyRotten		=	5,
-	DaysFresh 			= 	2,
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	19.1,
-        Proteins 			= 	4.8,
-        Lipids 				= 	18.5,
-        Calories 			= 	265,
+		HungerChange			=	-20,
+		Weight				=	1,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		MinutesToCook			=	40,
+		MinutesToBurn			=	60,
+		DisplayName			=	Bowl of Mushroom Soup,
+		ReplaceOnUse			=	Bowl,
+		Icon				=	HCSoupbowl,
+		BoredomChange			=	-5,
+		UnhappyChange			=	-5,
+		DaysTotallyRotten		=	5,
+		DaysFresh 			= 	2,
+		CustomContextMenu 		= 	Eat,
+		FoodType    			=   	NoExplicit,
+		Carbohydrates 			= 	19.1,
+		Proteins 			= 	4.8,
+		Lipids 				= 	18.5,
+		Calories 			= 	265,
 	}
 	
 item HCNoodlesoup
 	{
-	HungerChange			=	-35,
+	HungerChange			=	-30,
 	Weight				=	4,
 	Type				=	Food,
 	IsCookable			=	TRUE,
@@ -359,7 +305,7 @@ item HCNoodlesoup
 	DisplayName			=	Pot of Noodle Soup,
 	ReplaceOnUse			=	Pot,
 	Icon				=	PotFull,
-	BoredomChange			=	-15,
+	BoredomChange			=	-20,
 	DaysTotallyRotten		=	5,
 	DaysFresh 			= 	2,
 	CustomContextMenu 		= 	Eat,
@@ -581,9 +527,9 @@ item HCRamennoodlebowlcheese
 /************************RECIPES************************/
    
 	
-recipe Cook Fried Rice
+	recipe Make Fried Rice
 	{
-       		SkillRequired:Cooking=1,
+		SkillRequired:Cooking=1,
 		keep Pan,
 		destroy RiceBowl,
 		Butter/HCCookingoil,
@@ -592,10 +538,10 @@ recipe Cook Fried Rice
 		Result:HCFriedrice,
 		Time:75.0,
 		Category:Cooking,
-    		OnGiveXP:HCCooking_OnGiveXP,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Cook Pot of Rice and Beans	
+	recipe Make Pot of Rice and Beans
 	{
 		destroy WaterPot,
 		OpenBeans,
@@ -604,69 +550,69 @@ recipe Cook Pot of Rice and Beans
 		Result:HCRiceandbeanspot,
 		Time:95.0,
 		Category:Cooking,
-    		OnGiveXP:HCCooking_OnGiveXP,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Fill Rice and Beans into Bowls
+	recipe Fill Rice and Beans into Bowls
 	{
 		Bowl=4,
-		HCRiceandbeanscooked,
+		HCRiceandbeanspot,
 		Result:HCRiceandbeansbowl=4,
 		Time:50.0,
 		Category:Cooking,
-    		OnCreate:recipe_hcpot,
-    		OnGiveXP:HCCooking_OnGiveXP,
+		OnCreate:recipe_hcpot,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-recipe Cook Pot of Chili
+	recipe Make Pot of Chili
 	{
-       		SkillRequired:Cooking=1,
-		HCRiceandbeanspot/HCRiceandbeanscooked,
+		SkillRequired:Cooking=1,
+		HCRiceandbeanspot,
 		Onion/HCOniongreen,
 		Pepper/HCBellpeppergreen/HCBellpepperyellow,
 		Steak/BeefJerky/HCSimplejerky/HCTastyjerky,
-		Result:HCChili,
+		Result:HCChilipot,
 		Time:95.0,
 		Category:Cooking,
-    		OnGiveXP:HCCooking_OnGiveXP,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}	
 	
-recipe Fill Chili into Bowls
+	recipe Fill Chili into Bowls
 	{
 		Bowl=4,
-		HCChilicooked,
+		HCChilipot,
 		Result:HCChilibowl=4,
 		Time:50.0,
 		Category:Cooking,
-    		OnCreate:recipe_hcpot,
-    		OnGiveXP:HCCooking_OnGiveXP,
+		OnCreate:recipe_hcpot,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Cook Pot of Rice Pudding
+	recipe Make Pot of Rice Pudding
 	{
-       		SkillRequired:Cooking=1,
+       	SkillRequired:Cooking=1,
 		destroy WaterPot,
 		Rice/HCRicebrown,
 		Sugar,
 		Milk/HCUHTmilk/HCSoymilk,
-		Result:HCRicepudding,
+		Result:HCRicepuddingpot,
 		Time:95.0,
 		Category:Cooking,
-    		OnGiveXP:HCCooking_OnGiveXP,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}	
 	
-recipe Fill Rice Pudding into Bowls
+	recipe Fill Rice Pudding into Bowls
 	{
 		destroy Bowl=4,
-		HCRicepuddingcooked,
+		HCRicepuddingpot,
 		Result:HCRicepuddingbowl=4,
 		Time:50.0,
 		Category:Cooking,
-    		OnCreate:recipe_hcpot,
-    		OnGiveXP:HCCooking_OnGiveXP,
+		OnCreate:recipe_hcpot,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Cook Risotto
+recipe Make Risotto
 	{
        		SkillRequired:Cooking=5,
 	    	destroy Pan,
@@ -687,7 +633,7 @@ recipe Make Bowl of Broth
 		Result:HCBrothbowl,
 		Time:40.0,
 		Category:Cooking,
-    		OnGiveXP:HCCooking_OnGiveXP,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
 recipe Make Pot of Mushroom Soup
@@ -698,7 +644,7 @@ recipe Make Pot of Mushroom Soup
 		Result:HCShroomsoup,
 		Time:75.0,
 		Category:Cooking,
-    		OnGiveXP:HCCooking_OnGiveXP,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}	
 
 recipe Fill Mushroom Soup into Bowls

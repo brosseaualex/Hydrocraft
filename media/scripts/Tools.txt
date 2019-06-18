@@ -500,8 +500,8 @@ item HCElectricmultitoolpowered
 	Type				=	Drainable,
 	UseDelta			=	0.125,
 	DisplayName			=	Powered Electric Multitool,
-	ReplaceOnDeplete		=	HCElectricmultitooldead,
-	Icon				=	HCElectricmultitoolpowered,
+	ReplaceOnDeplete	=	HCElectricmultitooldead,
+	Icon				=	HCElectricmultitooloff,
     }
 
 item HCElectricmultitooldead
@@ -509,7 +509,7 @@ item HCElectricmultitooldead
         Weight    		= 0.4,
         Type    		= Normal,
         DisplayName         	= Dead Electric Multitool,
-        icon 			= HCElectricmultitooldead,
+        icon 			= HCElectricmultitooloff,
     }
 
 item HCElectricmultitoolsawoff

@@ -255,7 +255,7 @@ item HCCatfoodopen
 	DaysTotallyRotten	=	4,
 	DisplayName		=	Open Cat Food,
 	UnhappyChange		=	50,
-	Icon			=	HCCatfoodopen,
+	Icon			=	HCCatfoodOpen,
 	DaysFresh		=	2,
 	FoodType 		= 	Fish,
 		Carbohydrates 		= 	0,

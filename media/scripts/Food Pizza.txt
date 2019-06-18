@@ -42,187 +42,130 @@ item HCGratedcheddar
         Calories 		= 	402,
 }
 	
-item HCTomatosaucepot
+	item HCTomatosaucepot
 	{
-	HungerChange			=	-10,
-	Weight				=	1.4,
-	Type				=	Food,
-	IsCookable			=	TRUE,
-	MinutesToBurn			=	140,
-	DisplayName			=	Pot of Tomato Sauce,
-	ReplaceOnUse			=	Pot,
-	Icon				=	PotFull,
-	MinutesToCook			=	40,
-	MinutesToBurn			=	70,
-	DaysTotallyRotten		=	8,
-	DaysFresh 			= 	5,
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	21.2,
-        Proteins 			= 	1.2,
-        Lipids 				= 	4.8,
-        Calories 			= 	96,
+		HungerChange		=	-10,
+		Weight				=	1.4,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		MinutesToBurn		=	140,
+		DisplayName			=	Pot of Tomato Sauce,
+		ReplaceOnUse		=	Pot,
+		Icon				=	PotFull,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	70,
+		DaysTotallyRotten	=	8,
+		DaysFresh 			= 	5,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		= 	NoExplicit,
+		Carbohydrates 		= 	21.2,
+		Proteins 			= 	1.2,
+		Lipids 				= 	4.8,
+		Calories 			= 	96,
 	}
 	
-item HCTomatosaucebowl
+	item HCTomatosaucebowl
 	{
-	HungerChange			=	-5,
-	Weight				=	0.7,
-	Type				=	Food,
-	IsCookable			=	TRUE,
-	MinutesToBurn			=	140,
-	DisplayName			=	Bowl of Tomato Sauce,
-	ReplaceOnUse			=	Bowl,
-	Icon				=	HCTomatosaucebowl,
-	MinutesToCook			=	40,
-	MinutesToBurn			=	70,
-	DaysTotallyRotten		=	8,
-	DaysFresh 			= 	5,
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	10.6,
-        Proteins 			= 	0.6,
-        Lipids 				= 	2.4,
-        Calories 			= 	48,
+		HungerChange		=	-5,
+		Weight				=	0.7,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		MinutesToBurn		=	140,
+		DisplayName			=	Bowl of Tomato Sauce,
+		ReplaceOnUse		=	Bowl,
+		Icon				=	HCTomatosaucebowl,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	70,
+		DaysTotallyRotten	=	8,
+		DaysFresh 			= 	5,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=  	NoExplicit,
+		Carbohydrates 		= 	10.6,
+		Proteins 			= 	0.6,
+		Lipids 				= 	2.4,
+		Calories 			= 	48,
 	}
 
-item HCPizzadough
+	item HCPizzadough
 	{
-	Type				=	Food,
-	DisplayName			=	Pizza Dough,
-	Icon				=	HCPizzadough,
-	Weight				=	0.3,
-	HungerChange			=	-25,
-	DaysTotallyRotten		=	6,
-	DaysFresh 			= 	3,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	65.9,
-        Proteins 			= 	10,
-        Lipids 				= 	3.3,
-        Calories 			= 	336.5,
+		Type				=	Food,
+		DisplayName			=	Pizza Dough,
+		Icon				=	HCPizzadough,
+		Weight				=	0.3,
+		HungerChange			=	-25,
+		DaysTotallyRotten		=	6,
+		DaysFresh 			= 	3,
+		FoodType    			=   	NoExplicit,
+		Carbohydrates 			= 	65.9,
+		Proteins 			= 	10,
+		Lipids 				= 	3.3,
+		Calories 			= 	336.5,
 	}
 
-item HCBoringpizza
-    	{
-	HungerChange			=	-25,
-	Weight				=	0.5,
-	Type				=	Food,
-	UnhappyChange			=	-15,
-	BoredomChange			=	-15,
-	DisplayName			=	Boring Pizza,
-	IsCookable 			= 	TRUE,
-        DangerousUncooked		=	TRUE,
-	MinutesToCook			=	45,
-	MinutesToBurn			=	70,
-	ReplaceOnCooked			=	Hydrocraft.HCBoringpizzabaked,
-	DaysTotallyRotten		=	7,
-	DaysFresh 			= 	4,
-	Icon				=	HCPizzaA,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	76.5,
-        Proteins 			= 	10.6,
-        Lipids 				= 	5.7,
-        Calories 			= 	384.5,
+	item HCBoringpizza
+    {
+		Weight				=	0.5,
+		HungerChange		=	-20,
+		UnhappyChange		=	-15,
+		BoredomChange		=	-15,
+		Type				=	Food,
+		DisplayName			=	Boring Pizza,
+		IsCookable 			= 	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	45,
+		MinutesToBurn		=	70,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	4,
+		Icon				=	HCPizzaA,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	76.5,
+		Proteins 			= 	10.6,
+		Lipids 				= 	5.7,
+		Calories 			= 	384.5,
 	}
 
-item HCBoringpizzabaked
-    	{
-	HungerChange			=	-25,
-	Weight				=	0.5,
-	Type				=	Food,
-	UnhappyChange			=	-15,
-	BoredomChange			=	-15,
-	DisplayName			=	Baked Boring Pizza,
-	DaysTotallyRotten		=	7,
-	DaysFresh 			= 	4,
-	Icon				=	HCPizzaA,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	76.5,
-        Proteins 			= 	10.6,
-        Lipids 				= 	5.7,
-        Calories 			= 	384.5,
+	item HCSimplepizza
+    {
+		Weight				=	0.8,
+		HungerChange		=	-40,
+		UnhappyChange		=	-20,
+		BoredomChange		=	-20,
+		Type				=	Food,
+		DisplayName			=	Cheese Pizza,
+		IsCookable 			= 	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	45,
+		MinutesToBurn		=	70,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	4,
+		Icon				=	HCPizzaB,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	79.1,
+		Proteins 			= 	60.6,
+		Lipids 				= 	71.7,
+		Calories 			= 	786.5,
 	}
 
-item HCSimplepizza
-    	{
-	HungerChange			=	-35,
-	Weight				=	0.8,
-	Type				=	Food,
-	UnhappyChange			=	20,
-	BoredomChange			=	20,
-	DisplayName			=	Cheese Pizza,
-	IsCookable 			= 	TRUE,
-        DangerousUncooked		=	TRUE,
-	MinutesToCook			=	45,
-	MinutesToBurn			=	70,
-	ReplaceOnCooked			=	Hydrocraft.HCSimplepizzabaked,
-	DaysTotallyRotten		=	7,
-	DaysFresh 			= 	4,
-	Icon				=	HCPizzaB,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	79.1,
-        Proteins 			= 	60.6,
-        Lipids 				= 	71.7,
-        Calories 			= 	786.5,
-	}
-
-item HCSimplepizzabaked
-    	{
-	HungerChange			=	-35,
-	Weight				=	0.8,
-	Type				=	Food,
-	UnhappyChange			=	20,
-	BoredomChange			=	20,
-	DisplayName			=	Baked Cheese Pizza,
-	DaysTotallyRotten		=	7,
-	DaysFresh 			= 	4,
-	Icon				=	HCPizzaB,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	79.1,
-        Proteins 			= 	60.6,
-        Lipids 				= 	71.7,
-        Calories 			= 	786.5,
-	}
-
-item HCTastypizza
+	item HCTastypizza
 	{
-	HungerChange			=	-40,
-	Weight				=	1.2,
-	Type				=	Food,
-	UnhappyChange			=	-35,
-	BoredomChange			=	-35,
-	DisplayName			=	Tasty Pizza,
-	IsCookable 			= 	TRUE,
-        DangerousUncooked		=	TRUE,
-	MinutesToCook			=	45,
-	MinutesToBurn			=	70,
-	ReplaceOnCooked			=	Hydrocraft.HCTastypizzabaked,
-	DaysTotallyRotten		=	7,
-	DaysFresh 			= 	4,
-	Icon				=	HCPizzaC,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	88.3,
-        Proteins 			= 	125.5,
-        Lipids 				= 	85.4,
-        Calories 			= 	1207.5,
-	}
-
-item HCTastypizzabaked
-	{
-	HungerChange			=	-40,
-	Weight				=	1.2,
-	Type				=	Food,
-	UnhappyChange			=	-35,
-	BoredomChange			=	-35,
-	DisplayName			=	Baked Tasty Pizza,
-	DaysTotallyRotten		=	7,
-	DaysFresh 			= 	4,
-	Icon				=	HCPizzaC,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	88.3,
-        Proteins 			= 	125.5,
-        Lipids 				= 	85.4,
-        Calories 			= 	1207.5,
+		Weight				=	1.2,
+		HungerChange		=	-50,
+		UnhappyChange		=	-25,
+		BoredomChange		=	-25,
+		Type				=	Food,		
+		DisplayName			=	Tasty Pizza,
+		IsCookable 			= 	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	45,
+		MinutesToBurn		=	70,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	4,
+		Icon				=	HCPizzaC,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	88.3,
+		Proteins 			= 	125.5,
+		Lipids 				= 	85.4,
+		Calories 			= 	1207.5,
 	}
 
 item HCBoringpizzaslice
@@ -304,30 +247,31 @@ recipe Grate Cheddar
 	}
 
 
-recipe Make Tomato Sauce
+	recipe Make Tomato Sauce
 	{
-       		SkillRequired:Cooking=3,
+		SkillRequired:Cooking=3,
 		Pot,
 		Tomato=4,
 		Salt;1,	
 		HCGarlicpowder;1,
 		HCHerbs;1,		
 		Result:HCTomatosaucepot,
-    		NeedToBeLearn:true, 
+		NeedToBeLearn:true,
 		Time:100.0,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-recipe Fill Tomato Sauce into Bowls
+	recipe Fill Tomato Sauce into Bowls
 	{
 		Bowl=2,
 		HCTomatosaucepot,
 		Result:HCTomatosaucebowl=2,
-    		NeedToBeLearn:true, 
+		NeedToBeLearn:true,
 		Time:100.0,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		Category:Cooking,
+		OnCreate:recipe_hcpot,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Knead Pizza Dough
@@ -389,37 +333,40 @@ recipe Make Tasty Pizza
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Cut Pizza
+	recipe Cut Pizza
 	{
 		keep HCPizzacutter,
-		HCBoringpizzabaked,
+		HCBoringpizza,
 		Result:HCBoringpizzaslice=4,
-    		NeedToBeLearn:true,
+		NeedToBeLearn:true,
 		Time:20.0,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		Category:Cooking,
+		OnTest:CutBoringPizza_CheckIfCooked,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-recipe Cut Pizza
+	recipe Cut Pizza
 	{
 		keep HCPizzacutter,
-		HCSimplepizzabaked,
+		HCSimplepizza,
 		Result:HCSimplepizzaslice=4,
-    		NeedToBeLearn:true,
+		NeedToBeLearn:true,
 		Time:20.0,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		Category:Cooking,
+		OnTest:CutHCSimplePizza_CheckIfCooked,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-recipe Cut Pizza
+	recipe Cut Pizza
 	{
 		keep HCPizzacutter,
-		HCTastypizzabaked,
+		HCTastypizza,
 		Result:HCTastypizzaslice=4,
-    		NeedToBeLearn:true,
+		NeedToBeLearn:true,
 		Time:20.0,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		Category:Cooking,
+		OnTest:CutTastyPizza_CheckIfCooked,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 		
 }

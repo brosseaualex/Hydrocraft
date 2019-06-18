@@ -1239,7 +1239,7 @@ end
 
 --Seafood Stuff
 
-function recipe_hcmusselshell(items, result, player)
+function recipe_hcgivemusselshell(items, result, player)
 	local inv = player:getInventory();
 	inv:AddItem("Hydrocraft.HCMusselshell");
 end
@@ -1271,56 +1271,40 @@ end
 --Unbox Flat of Ramen
 function recipe_unboxramenflat(items, result, player)
 	HCAddManySameItem("Hydrocraft.HCCardboardflat", 0, player);
-
 end
 
---Kitchen Stuff
+--Kitchen Stuff (Item Returns)
 
 function recipe_hcnapkinholder(items, result, player)
 	local inv = player:getInventory();
 	inv:AddItem("Hydrocraft.HCNapkinholder");
 end
 
+function recipe_bakingpan(items,result,player)
+    player:getInventory():AddItem("Base.Pan");
+end
+
+function recipe_piepan(items,result,player)
+    player:getInventory():AddItem("Hydrocraft.HCPiepan");
+end
+
+function recipe_saucepan(items,result,player)
+    player:getInventory():AddItem("Base.Saucepan");
+end
+
+function recipe_jellomold(items,result,player)
+    player:getInventory():AddItem("Hydrocraft.HCJellomold1");
+end
+
+function recipe_hcmuffinpan(items, result, player)
+	local inv = player:getInventory();
+	inv:AddItem("Hydrocraft.HCMuffinpan");
+end
+
 function recipe_hcbakingtray(items, result, player)
 	local inv = player:getInventory();
 	inv:AddItem("Base.BakingTray");
 end
-
-function recipe_HCHoneybun(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCHoneybun", 3, player);
-end 
-
-function recipe_HCCupcake(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCupcake", 5, player);
-end 
-
-function recipe_HCCookiebaked(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCookiebaked", 5, player);
-end 
-
-function recipe_HCChipcookiebaked(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCChipcookiebaked", 5, player);
-end 
-
-function recipe_HCCookiewhitebaked(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCookiewhitebaked", 5, player);
-end 
-
-function recipe_HCCookiepeanutbutterbaked(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCookiepeanutbutterbaked", 5, player);
-end 
-
-function recipe_HCChocolatecookiebaked(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCChocolatecookiebaked", 5, player);
-end 
-
-function recipe_HCDoublechocolatecookiebaked(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCDoublechocolatecookiebaked", 5, player);
-end 
-
-function recipe_HCGingerbreadmanbaked(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCGingerbreadmanbaked", 5, player);
-end 
 
 function recipe_hcbreadpan(items, result, player)
 	local inv = player:getInventory();
@@ -2057,17 +2041,17 @@ function HCJarCookies(items, result, player)
 	local cookie = ZombRand(6);
 	local count = ZombRand(10);
 	if cookie == 0 then
-		HCAddManySameItem("Hydrocraft.HCCookiebaked", count+1, player);
+		HCAddManySameItem("Hydrocraft.HCHomemadecookie", count+1, player);
 	elseif cookie == 1 then
-		HCAddManySameItem("Hydrocraft.HCChipcookiebaked", count+1, player);
+		HCAddManySameItem("Hydrocraft.HCChipcookie", count+1, player);
 	elseif cookie == 2 then
-		HCAddManySameItem("Hydrocraft.HCCookiewhitebaked", count+1, player);
+		HCAddManySameItem("Hydrocraft.HCCookiewhite", count+1, player);
 	elseif cookie == 3 then
-		HCAddManySameItem("Hydrocraft.HCCookiepeanutbutterbaked", count+1, player);
+		HCAddManySameItem("Hydrocraft.HCCookiepeanutbutter", count+1, player);
 	elseif cookie == 4 then
-		HCAddManySameItem("Hydrocraft.HCChocolatecookiebaked", count+1, player);
+		HCAddManySameItem("Hydrocraft.HCChocolatecookie", count+1, player);
 	elseif cookie == 5 then
-		HCAddManySameItem("Hydrocraft.HCDoublechocolatecookiebaked", count+1, player);
+		HCAddManySameItem("Hydrocraft.HCChocolatecookie", count+1, player);
 	end
 end
 
@@ -2602,6 +2586,7 @@ function HCEmptyContainerOnRecipe(item, resultItem, player)
 		pInv:AddItem(k3); --add items to player inventory
 	end
 end
+
 
 -- Events.OnWeaponHitCharacter.Add(BoltsArrows.arrowBoltHit);
 Events.OnFillContainer.Add(BoltsArrows.arrowBoltSpawn);

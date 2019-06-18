@@ -250,73 +250,6 @@ item HCTortillaflour
         Calories 			= 	52,
 	}
 
-item HCTortillacornuncooked
-	{
-	HungerChange			=	-5,
-	Weight				=	0.02,
-	Type				=	Food,
-	DaysTotallyRotten		=	9,
-	DisplayName			=	Uncooked Corn Tortilla,
-	Icon				=	HCTortillacorn,
-	ReplaceOnUse			=	Pan,
-	ReplaceOnCooked			=	Hydrocraft.HCTortillacorn,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	20,
-	MinutesToBurn			=	50,
-	DaysFresh			=	4,
-	UnhappyChange			=	10,
-	BoredomChange			=	15,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	11,
-        Proteins 			= 	1,
-        Lipids 				= 	1,
-        Calories 			= 	52,
-	}
-
-item HCTortillaflouruncooked
-	{
-	HungerChange			=	-5,
-	Weight				=	0.02,
-	Type				=	Food,
-	DaysTotallyRotten		=	9,
-	DisplayName			=	Uncooked Flour Tortilla,
-	Icon				=	HCTortillaflour,
-	ReplaceOnUse			=	Pan,
-	ReplaceOnCooked			=	Hydrocraft.HCTortillaflour,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	20,
-	MinutesToBurn			=	50,
-	DaysFresh			=	4,
-	UnhappyChange			=	10,
-	BoredomChange			=	15,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	11,
-        Proteins 			= 	1,
-        Lipids 				= 	1,
-        Calories 			= 	52,
-	}
-
-item HCQuesadillauncooked
-	{
-	HungerChange			=	-35,
-	Weight				=	0.2,
-	Type				=	Food,
-	DisplayName			=	Uncooked Quesadilla,
-	Icon				=	HCQuesadilla,
-	ReplaceOnUse			=	Pan,
-	ReplaceOnCooked			=	Hydrocraft.HCQuesadilla,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	20,
-	MinutesToBurn			=	50,
-	DaysFresh			=	2,
-	DaysTotallyRotten		=	4,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	49,
-        Proteins 			= 	33,
-        Lipids 				= 	47,
-        Calories 			= 	754,
-	}
-
 item HCQuesadilla
 	{
 	HungerChange			=	-35,
@@ -335,29 +268,6 @@ item HCQuesadilla
         Calories 			= 	754,
 	}
 
-item HCBurritouncooked
-	{
-	HungerChange			=	-25,
-	Weight				=	0.2,
-	Type				=	Food,
-	DisplayName			=	Uncooked Burrito,
-	Icon				=	HCBurritouncooked,
-	ReplaceOnUse			=	Pan,
-	ReplaceOnCooked			=	Hydrocraft.HCBurrito,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	30,
-	MinutesToBurn			=	60,
-	DaysFresh			=	3,
-	DaysTotallyRotten		=	5,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	58,
-        Proteins 			= 	14,
-        Lipids 				= 	11,
-        Calories 			= 	379,
-	}
-
 item HCBurrito
 	{
 	HungerChange			=	-25,
@@ -366,6 +276,9 @@ item HCBurrito
 	DisplayName			=	Burrito,
 	Icon				=	HCBurrito,
 	ReplaceOnUse			=	Pan,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	60,
 	DaysFresh			=	3,
 	DaysTotallyRotten		=	5,
 	UnhappyChange			=	-15,
@@ -375,29 +288,6 @@ item HCBurrito
         Proteins 			= 	14,
         Lipids 				= 	11,
         Calories 			= 	379,
-	}
-
-item HCBurritograndeuncooked
-	{
-	HungerChange			=	-35,
-	Weight				=	0.4,
-	Type				=	Food,
-	DisplayName			=	Uncooked Burrito Grande,
-	Icon				=	HCBurritouncooked,
-	ReplaceOnUse			=	Pan,
-	ReplaceOnCooked			=	Hydrocraft.HCBurritogrande,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	30,
-	MinutesToBurn			=	60,
-	DaysFresh			=	3,
-	DaysTotallyRotten		=	5,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	116,
-        Proteins 			= 	28,
-        Lipids 				= 	22,
-        Calories 			= 	758,
 	}
 
 item HCBurritogrande
@@ -408,6 +298,9 @@ item HCBurritogrande
 	DisplayName			=	Burrito Grande,
 	Icon				=	HCBurrito,
 	ReplaceOnUse			=	Pan,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	60,
 	DaysFresh			=	3,
 	DaysTotallyRotten		=	5,
 	UnhappyChange			=	-30,
@@ -419,29 +312,6 @@ item HCBurritogrande
         Calories 			= 	758,
 	}
 
-item HCTaquitouncooked
-	{
-	HungerChange			=	-20,
-	Weight				=	0.2,
-	Type				=	Food,
-	DisplayName			=	Uncooked Taquito,
-	Icon				=	HCTaquitouncooked,
-	ReplaceOnUse			=	Pan,
-	ReplaceOnCooked			=	Hydrocraft.HCTaquito,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	30,
-	MinutesToBurn			=	60,
-	DaysFresh			=	3,
-	DaysTotallyRotten		=	5,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	34,
-        Proteins 			= 	9.2,
-        Lipids 				= 	13,
-        Calories 			= 	284,
-	}
-
 item HCTaquito
 	{
 	HungerChange			=	-20,
@@ -450,6 +320,10 @@ item HCTaquito
 	DisplayName			=	Taquito,
 	Icon				=	HCTaquito,
 	ReplaceOnUse			=	Pan,
+	IsCookable			=	TRUE,
+	DangerousUncooked	=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	60,
 	DaysFresh			=	3,
 	DaysTotallyRotten		=	5,
 	UnhappyChange			=	-15,
@@ -459,29 +333,6 @@ item HCTaquito
         Proteins 			= 	9.2,
         Lipids 				= 	13,
         Calories 			= 	284,
-	}
-
-item HCTacocornuncooked
-	{
-	HungerChange			=	-20,
-	Weight				=	0.1,
-	Type				=	Food,
-	DisplayName			=	Uncooked Taco,
-	Icon				=	HCTacocorn,
-	ReplaceOnUse			=	Pan,
-	ReplaceOnCooked			=	Hydrocraft.HCTacocorn,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	30,
-	MinutesToBurn			=	60,
-	DaysFresh			=	3,
-	DaysTotallyRotten		=	5,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	20,
-        Proteins 			= 	12,
-        Lipids 				= 	10,
-        Calories 			= 	217,
 	}
 
 item HCTacocorn
@@ -492,6 +343,10 @@ item HCTacocorn
 	DisplayName			=	Taco,
 	Icon				=	HCTacocorn,
 	ReplaceOnUse			=	Pan,
+	IsCookable			=	TRUE,
+	DangerousUncooked	=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	60,
 	DaysFresh			=	3,
 	DaysTotallyRotten		=	5,
 	UnhappyChange			=	-15,
@@ -501,29 +356,6 @@ item HCTacocorn
         Proteins 			= 	12,
         Lipids 				= 	10,
         Calories 			= 	217,
-	}
-
-item HCTacocorngradeuncooked
-	{
-	HungerChange			=	-30,
-	Weight				=	0.2,
-	Type				=	Food,
-	DisplayName			=	Uncooked Taco Grande,
-	Icon				=	HCTacocorn,
-	ReplaceOnUse			=	Pan,
-	ReplaceOnCooked			=	Hydrocraft.HCTacocorngrande,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	30,
-	MinutesToBurn			=	60,
-	DaysFresh			=	3,
-	DaysTotallyRotten		=	5,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	40,
-        Proteins 			= 	24,
-        Lipids 				= 	20,
-        Calories 			= 	434,
 	}
 
 item HCTacocorngrande
@@ -534,6 +366,9 @@ item HCTacocorngrande
 	DisplayName			=	Taco Grande,
 	Icon				=	HCTacocorn,
 	ReplaceOnUse			=	Pan,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	60,
 	DaysFresh			=	3,
 	DaysTotallyRotten		=	5,
 	UnhappyChange			=	-30,
@@ -543,29 +378,6 @@ item HCTacocorngrande
         Proteins 			= 	24,
         Lipids 				= 	20,
         Calories 			= 	434,
-	}
-
-item HCTacoflouruncooked
-	{
-	HungerChange			=	-20,
-	Weight				=	0.1,
-	Type				=	Food,
-	DisplayName			=	Uncooked Soft Taco,
-	Icon				=	HCTacoflour,
-	ReplaceOnUse			=	Pan,
-	ReplaceOnCooked			=	Hydrocraft.HCTacoflour,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	30,
-	MinutesToBurn			=	60,
-	DaysFresh			=	3,
-	DaysTotallyRotten		=	5,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	20,
-        Proteins 			= 	12,
-        Lipids 				= 	10,
-        Calories 			= 	217,
 	}
 
 item HCTacoflour
@@ -576,6 +388,10 @@ item HCTacoflour
 	DisplayName			=	Soft Taco,
 	Icon				=	HCTacoflour,
 	ReplaceOnUse			=	Pan,
+	IsCookable			=	TRUE,
+	DangerousUncooked	=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	60,
 	DaysFresh			=	3,
 	DaysTotallyRotten		=	5,
 	UnhappyChange			=	-15,
@@ -587,29 +403,6 @@ item HCTacoflour
         Calories 			= 	217,
 	}
 
-item HCTacoflourgrandeuncooked
-	{
-	HungerChange			=	-30,
-	Weight				=	0.2,
-	Type				=	Food,
-	DisplayName			=	Uncooked Soft Taco Grande,
-	Icon				=	HCTacoflour,
-	ReplaceOnUse			=	Pan,
-	ReplaceOnCooked			=	Hydrocraft.HCTacoflourgrande,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	30,
-	MinutesToBurn			=	60,
-	DaysFresh			=	3,
-	DaysTotallyRotten		=	5,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	40,
-        Proteins 			= 	24,
-        Lipids 				= 	20,
-        Calories 			= 	434,
-	}
-
 item HCTacoflourgrande
 	{
 	HungerChange			=	-30,
@@ -618,6 +411,9 @@ item HCTacoflourgrande
 	DisplayName			=	Soft Taco Grande,
 	Icon				=	HCTacoflour,
 	ReplaceOnUse			=	Pan,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	60,
 	DaysFresh			=	3,
 	DaysTotallyRotten		=	5,
 	UnhappyChange			=	-30,
@@ -627,29 +423,6 @@ item HCTacoflourgrande
         Proteins 			= 	24,
         Lipids 				= 	20,
         Calories 			= 	434,
-	}
-
-item HCTacofishuncooked
-	{
-	HungerChange			=	-30,
-	Weight				=	0.2,
-	Type				=	Food,
-	DisplayName			=	Uncooked Fish Taco,
-	Icon				=	HCTacofish,
-	ReplaceOnUse			=	Pan,
-	ReplaceOnCooked			=	Hydrocraft.HCTacofish,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	30,
-	MinutesToBurn			=	60,
-	DaysFresh			=	3,
-	DaysTotallyRotten		=	5,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	28,
-        Proteins 			= 	11,
-        Lipids 				= 	16,
-        Calories 			= 	300,
 	}
 
 item HCTacofish
@@ -660,6 +433,10 @@ item HCTacofish
 	DisplayName			=	Fish Taco,
 	Icon				=	HCTacofish,
 	ReplaceOnUse			=	Pan,
+	IsCookable			=	TRUE,
+	DangerousUncooked	=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	60,
 	DaysFresh			=	3,
 	DaysTotallyRotten		=	5,
 	UnhappyChange			=	-15,
@@ -671,29 +448,6 @@ item HCTacofish
         Calories 			= 	300,
 	}
 
-item HCTacocornedbeefuncooked
-	{
-	HungerChange			=	-20,
-	Weight				=	0.1,
-	Type				=	Food,
-	DisplayName			=	Uncooked Corned Beef Taco,
-	Icon				=	HCTacocorn,
-	ReplaceOnUse			=	Pan,
-	ReplaceOnCooked			=	Hydrocraft.HCTacocornedbeef,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	30,
-	MinutesToBurn			=	60,
-	DaysFresh			=	3,
-	DaysTotallyRotten		=	5,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	21,
-        Proteins 			= 	12,
-        Lipids 				= 	11,
-        Calories 			= 	221,
-	}
-
 item HCTacocornedbeef
 	{
 	HungerChange			=	-20,
@@ -702,6 +456,9 @@ item HCTacocornedbeef
 	DisplayName			=	Corned Beef Taco,
 	Icon				=	HCTacocorn,
 	ReplaceOnUse			=	Pan,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	60,
 	DaysFresh			=	3,
 	DaysTotallyRotten		=	5,
 	UnhappyChange			=	-15,
@@ -713,29 +470,6 @@ item HCTacocornedbeef
         Calories 			= 	221,
 	}
 
-item HCEnchiladauncooked
-	{
-	HungerChange			=	-25,
-	Weight				=	0.2,
-	Type				=	Food,
-	DisplayName			=	Uncooked Enchiladas,
-	Icon				=	HCEnchiladauncooked,
-	ReplaceOnUse			=	Pan,
-	ReplaceOnCooked			=	Hydrocraft.HCEnchilada,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	30,
-	MinutesToBurn			=	60,
-	DaysFresh			=	3,
-	DaysTotallyRotten		=	5,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	21,
-        Proteins 			= 	15,
-        Lipids 				= 	25,
-        Calories 			= 	374,
-	}
-
 item HCEnchilada
 	{
 	HungerChange			=	-25,
@@ -743,7 +477,11 @@ item HCEnchilada
 	Type				=	Food,
 	DisplayName			=	Enchiladas,
 	Icon				=	HCEnchilada,
-	ReplaceOnUse			=	RoastingPan,
+	ReplaceOnUse			=	Pan,
+	IsCookable			=	TRUE,
+	DangerousUncooked	=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	60,
 	DaysFresh			=	3,
 	DaysTotallyRotten		=	5,
 	UnhappyChange			=	-30,
@@ -755,7 +493,7 @@ item HCEnchilada
         Calories 			= 	374,
 	}
 
-item HCTortillachipsbag
+	item HCTortillachipsbag
 	{
 	HungerChange			=	-30,
 	Weight				=	0.1,
@@ -840,30 +578,10 @@ item HCStuffedbellpeppergreen
 	IsCookable			=	TRUE,
 	MinutesToCook			=	90,
 	MinutesToBurn			=	140,
-	DisplayName			=	Uncooked Stuffed Green Bell Pepper,
-	ReplaceOnCooked			=	Hydrocraft.HCStuffedbellpeppergreencooked,
-	Icon				=	HCStuffedbellpeppergreen,
+	DisplayName			=	Stuffed Green Bell Pepper,
+	Icon				=	HCStuffedbellpeppergreencooked,
 	DaysTotallyRotten		=	4,
 	DaysFresh 			= 	2,
-	CustomContextMenu 		= 	Eat,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	25,
-        Proteins 			= 	24,
-        Lipids 				= 	24,
-        Calories 			= 	418,
-	}
-
-item HCStuffedbellpeppergreencooked
-	{
-	HungerChange			=	-30,
-	Weight				=	0.3,
-	Type				=	Food,
-	DisplayName			=	Cooked Stuffed Green Bell Pepper,
-	Icon				=	HCStuffedbellpeppergreencooked,
-	DaysTotallyRotten		=	7,
-	DaysFresh 			= 	3,
 	CustomContextMenu 		= 	Eat,
 	UnhappyChange			=	-20,
 	BoredomChange			=	-15,
@@ -882,30 +600,10 @@ item HCStuffedbellpepperred
 	IsCookable			=	TRUE,
 	MinutesToCook			=	90,
 	MinutesToBurn			=	140,
-	DisplayName			=	Uncooked Stuffed Red Bell Pepper,
-	ReplaceOnCooked			=	Hydrocraft.HCStuffedbellpepperredcooked,
-	Icon				=	HCStuffedbellpepperred,
+	DisplayName			=	Stuffed Red Bell Pepper,
+	Icon				=	HCStuffedbellpepperredcooked,
 	DaysTotallyRotten		=	4,
 	DaysFresh 			= 	2,
-	CustomContextMenu 		= 	Eat,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	25,
-        Proteins 			= 	24,
-        Lipids 				= 	24,
-        Calories 			= 	418,
-	}
-
-item HCStuffedbellpepperredcooked
-	{
-	HungerChange			=	-30,
-	Weight				=	0.3,
-	Type				=	Food,
-	DisplayName			=	Cooked Stuffed Red Bell Pepper,
-	Icon				=	HCStuffedbellpepperredcooked,
-	DaysTotallyRotten		=	7,
-	DaysFresh 			= 	3,
 	CustomContextMenu 		= 	Eat,
 	UnhappyChange			=	-20,
 	BoredomChange			=	-15,
@@ -924,30 +622,10 @@ item HCStuffedbellpepperyellow
 	IsCookable			=	TRUE,
 	MinutesToCook			=	90,
 	MinutesToBurn			=	140,
-	DisplayName			=	Uncooked Stuffed Yellow Bell Pepper,
-	ReplaceOnCooked			=	Hydrocraft.HCStuffedbellpepperyellowcooked,
-	Icon				=	HCStuffedbellpepperyellow,
+	DisplayName			=	Stuffed Yellow Bell Pepper,
+	Icon				=	HCStuffedbellpepperyellowcooked,
 	DaysTotallyRotten		=	4,
 	DaysFresh 			= 	2,
-	CustomContextMenu 		= 	Eat,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	25,
-        Proteins 			= 	24,
-        Lipids 				= 	24,
-        Calories 			= 	418,
-	}
-
-item HCStuffedbellpepperyellowcooked
-	{
-	HungerChange			=	-30,
-	Weight				=	0.3,
-	Type				=	Food,
-	DisplayName			=	Cooked Stuffed Yellow Bell Pepper,
-	Icon				=	HCStuffedbellpepperyellowcooked,
-	DaysTotallyRotten		=	7,
-	DaysFresh 			= 	3,
 	CustomContextMenu 		= 	Eat,
 	UnhappyChange			=	-20,
 	BoredomChange			=	-15,
@@ -966,30 +644,10 @@ item HCStuffedeggplant
 	IsCookable			=	TRUE,
 	MinutesToCook			=	90,
 	MinutesToBurn			=	140,
-	DisplayName			=	Uncooked Stuffed Eggplant,
-	ReplaceOnCooked			=	Hydrocraft.HCStuffedeggplantcooked,
-	Icon				=	HCStuffedbellpepperyellow,
+	DisplayName			=	Stuffed Eggplant,
+	Icon				=	HCStuffedeggplantcooked,
 	DaysTotallyRotten		=	4,
 	DaysFresh 			= 	2,
-	CustomContextMenu 		= 	Eat,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	27,
-        Proteins 			= 	9,
-        Lipids 				= 	21,
-        Calories 			= 	324,
-	}
-
-item HCStuffedeggplantcooked
-	{
-	HungerChange			=	-30,
-	Weight				=	0.3,
-	Type				=	Food,
-	DisplayName			=	Cooked Stuffed Eggplant,
-	Icon				=	HCStuffedeggplantcooked,
-	DaysTotallyRotten		=	7,
-	DaysFresh 			= 	3,
 	CustomContextMenu 		= 	Eat,
 	UnhappyChange			=	-20,
 	BoredomChange			=	-15,
@@ -1008,30 +666,10 @@ item HCStuffedsquash
 	IsCookable			=	TRUE,
 	MinutesToCook			=	90,
 	MinutesToBurn			=	140,
-	DisplayName			=	Uncooked Stuffed Squash,
-	ReplaceOnCooked			=	Hydrocraft.HCStuffedsquashcooked,
-	Icon				=	HCStuffedbellpepperyellow,
+	DisplayName			=	Stuffed Squash,
+	Icon				=	HCStuffedsquashcooked,
 	DaysTotallyRotten		=	4,
 	DaysFresh 			= 	2,
-	CustomContextMenu 		= 	Eat,
-	UnhappyChange			=	10,
-	BoredomChange			=	10,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	64,
-        Proteins 			= 	18,
-        Lipids 				= 	28,
-        Calories 			= 	580,
-	}
-
-item HCStuffedsquashcooked
-	{
-	HungerChange			=	-30,
-	Weight				=	0.3,
-	Type				=	Food,
-	DisplayName			=	Cooked Stuffed Squash,
-	Icon				=	HCStuffedsquashcooked,
-	DaysTotallyRotten		=	7,
-	DaysFresh 			= 	3,
 	CustomContextMenu 		= 	Eat,
 	UnhappyChange			=	-20,
 	BoredomChange			=	-15,
@@ -1125,7 +763,7 @@ recipe Make Corn Tortilla
 		Water,
 		HCCookingoil,
 		Pan,
-		Result:HCTortillacornuncooked,
+		Result:HCTortillacorn,
     		NeedToBeLearn:true,
 		Time:75.0,
 	   	Category:Cooking,
@@ -1139,7 +777,7 @@ recipe Make Flour Tortilla
 		Water,
 		Salt;1,
 		Pan,
-		Result:HCTortillaflouruncooked,
+		Result:HCTortillaflour,
     		NeedToBeLearn:true,
 		Time:75.0,
 	   	Category:Cooking,
@@ -1152,7 +790,7 @@ recipe Make Quesadilla
        		HCTortillaflour,
 		HCGratedcheese/HCGratedcheddar/Processedcheese,
 		Pan,
-		Result:HCQuesadillauncooked,
+		Result:HCQuesadilla,
     		NeedToBeLearn:true,
 		Time:75.0,
 	   	Category:Cooking,
@@ -1166,7 +804,7 @@ recipe Make Burrito
 		HCGratedcheese/HCGratedcheddar/Processedcheese,
 		HCCannedrefriedbeansopen,
 		Pan,
-		Result:HCBurritouncooked,
+		Result:HCBurrito,
     		NeedToBeLearn:true,
 		Time:100.0,
 	   	Category:Cooking,
@@ -1184,7 +822,7 @@ recipe Make Burrito Grande
 		HCSalsajar/HCSalsabowl/HCSalsagreenjar,
 		HCSourcream,
 		Pan,
-		Result:HCBurritograndeuncooked,
+		Result:HCBurritogrande,
     		NeedToBeLearn:true,
 		Time:150.0,
 	   	Category:Cooking,
@@ -1199,7 +837,7 @@ recipe Make Taquito
 		HCCookingoil,
 		MeatPatty/Chicken,
 		Pan,
-		Result:HCTaquitouncooked,
+		Result:HCTaquito,
     		NeedToBeLearn:true,
 		Time:100.0,
 	   	Category:Cooking,
@@ -1218,7 +856,7 @@ recipe Make Taco
 		HCSlicedonion,
 		HCTacosaucebottle/HCTacosaucebowl,
 		Pan,
-		Result:HCTacocornuncooked,
+		Result:HCTacocorn,
     		NeedToBeLearn:true,
 		Time:100.0,
 	   	Category:Cooking,
@@ -1229,11 +867,11 @@ recipe Make Taco
 recipe Make Taco Grande
 	{
        		SkillRequired:Cooking=3,
-       		HCTacocornuncooked,
+       		HCTacocorn,
 		HCGuacamolejar/HCGuacamolebowl,
 		HCSalsajar/HCSalsabowl/HCSalsagreenjar,
 		HCSourcream,
-		Result:HCTacocorngradeuncooked,
+		Result:HCTacocorngrande,
     		NeedToBeLearn:true,
 		Time:100.0,
 	   	Category:Cooking,
@@ -1253,7 +891,7 @@ recipe Make Soft Taco
 		HCSlicedonion,
 		HCTacosaucebottle/HCTacosaucebowl,
 		Pan,
-		Result:HCTacoflouruncooked,
+		Result:HCTacoflour,
     		NeedToBeLearn:true,
 		Time:100.0,
 	   	Category:Cooking,
@@ -1264,11 +902,11 @@ recipe Make Soft Taco
 recipe Make Soft Taco Grande
 	{
        		SkillRequired:Cooking=3,
-       		HCTacoflouruncooked,
+       		HCTacoflour,
 		HCGuacamolejar/HCGuacamolebowl,
 		HCSalsajar/HCSalsabowl/HCSalsagreenjar,
 		HCSourcream,
-		Result:HCTacoflourgrandeuncooked,
+		Result:HCTacoflourgrande,
     		NeedToBeLearn:true,
 		Time:100.0,
 	   	Category:Cooking,
@@ -1287,7 +925,7 @@ recipe Make Fish Taco
 		HCSlicedonion,
 		HCTacosaucebottle/HCTacosaucebowl,
 		Pan,
-		Result:HCTacofishuncooked,
+		Result:HCTacofish,
     		NeedToBeLearn:true,
 		Time:100.0,
 	   	Category:Cooking,
@@ -1305,7 +943,7 @@ recipe Make Corned Beef Taco
 		HCTacosaucebottle/HCTacosaucebowl,
 		MayonnaiseFull,
 		Pan,
-		Result:HCTacocornedbeefuncooked,
+		Result:HCTacocornedbeef,
     		NeedToBeLearn:true,
 		Time:100.0,
 	   	Category:Cooking,
@@ -1323,7 +961,7 @@ recipe Make Enchilada
 		HCTacosaucebottle/HCTacosaucebowl,
 		HCSourcream,
 		RoastingPan,
-		Result:HCEnchiladauncooked,
+		Result:HCEnchilada,
     		NeedToBeLearn:true,
 		Time:150.0,
 	   	Category:Cooking,

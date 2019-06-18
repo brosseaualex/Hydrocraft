@@ -50,68 +50,49 @@ item HCFriedherring
         Calories 			= 	500,
 	}
 
-item HCCrab
+	item HCCrab
 	{
-	Type				=	Food,
-	DisplayName			=	Crab,
-	Icon				=	HCCrab,
-	IsCookable			=	TRUE,
-	DangerousUncooked		=	TRUE,
-	Weight				=	0.2,
-	MinutesToCook			=	20,
-	MinutesToBurn			=	40,
-	HungerChange			=	-20,
-	BoredomChange			=	-10,
-	DaysTotallyRotten		=	4,
-	DaysFresh 			= 	2,
-        EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-        FoodType    			=   	Fish,
-        Carbohydrates 			= 	0,
-        Proteins 			= 	54,
-        Lipids 				= 	2.1,
-        Calories 			= 	249,
+		Type				=	Food,
+		DisplayName			=	Crab,
+		Icon				=	HCCrab,
+		IsCookable			=	TRUE,
+		DangerousUncooked		=	TRUE,
+		Weight				=	0.2,
+		MinutesToCook			=	20,
+		MinutesToBurn			=	40,
+		HungerChange			=	-20,
+		BoredomChange			=	-10,
+		DaysTotallyRotten		=	4,
+		DaysFresh 			= 	2,
+		EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    			=   	Fish,
+		Carbohydrates 			= 	0,
+		Proteins 			= 	54,
+		Lipids 				= 	2.1,
+		Calories 			= 	249,
 	}
 
-item HCCrabpot
+	item HCCrabpot
 	{
-	Type				=	Food,
-	DisplayName			=	Pot of Crab,
-	IsCookable			=	TRUE,
-	DangerousUncooked		=	TRUE,
-	Weight				=	0.6,
-	MinutesToCook			=	10,
-	MinutesToBurn			=	20,
-	ReplaceOnCooked			=	Hydrocraft.HCCrabcooked,
-	HungerChange			=	-20,
-	BoredomChange			=	-10,
-	DaysTotallyRotten		=	4,
-	DaysFresh 			= 	2,
-        FoodType    			=   	Fish,
-	Icon				=	PotFull,
-	ReplaceOnUse			=	Pot,
-        Carbohydrates 			= 	0,
-        Proteins 			= 	54,
-        Lipids 				= 	2.1,
-        Calories 			= 	249, 
-	}
-
-item HCCrabcooked
-	{
-	Type				=	Food,
-	DisplayName			=	Boiled Crab,
-	ReplaceOnUse			=	Pot,
-	Icon				=	HCCrabcooked,
-	Weight				=	0.2,
-	HungerChange			=	-30,
-	BoredomChange			=	-15,
-	DaysTotallyRotten		=	4,
-	DaysFresh 			= 	2,
-        EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-        FoodType    			=   	Fish,
-        Carbohydrates 			= 	0,
-        Proteins 			= 	54,
-        Lipids 				= 	2.1,
-        Calories 			= 	249,
+		HungerChange		=	-30,
+		BoredomChange		=	-15,
+		Type				=	Food,
+		DisplayName			=	Cooking Pot with Crab,
+		ReplaceOnUse		=	Pot,
+		Icon				=	PotFull,
+		Weight				=	0.5,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	20,
+		MinutesToBurn		=	40,
+		DaysTotallyRotten	=	4,
+		DaysFresh 			= 	2,
+		ReplaceOnUse		=	Pot,
+		FoodType    		=   Fish,
+		Carbohydrates 		= 	0,
+		Proteins 			= 	54,
+		Lipids 				= 	2.1,
+		Calories 			= 	249,
 	}
 
 item HCCrayfish
@@ -122,8 +103,8 @@ item HCCrayfish
 	IsCookable			=	TRUE,
 	DangerousUncooked		=	TRUE,
 	Weight				=	0.2,
-	MinutesToCook			=	10,
-	MinutesToBurn			=	20,
+	MinutesToCook			=	20,
+	MinutesToBurn			=	40,
 	HungerChange			=	-15,
 	BoredomChange			=	-5,
 	DaysTotallyRotten		=	4,
@@ -136,82 +117,39 @@ item HCCrayfish
         Calories 			= 	154,
 	}
 
-item HCCrayfishpot
+	item HCCrayfishpot
 	{
-	Type				=	Food,
-	DisplayName			=	Pot of Crayfish,
-	IsCookable			=	TRUE,
-	DangerousUncooked		=	TRUE,
-	Weight				=	0.6,
-	MinutesToCook			=	10,
-	MinutesToBurn			=	20,
-	ReplaceOnCooked			=	Hydrocraft.HCCrayfishcooked,
-	HungerChange			=	-15,
-	BoredomChange			=	-5,
-	DaysTotallyRotten		=	4,
-	DaysFresh 			= 	2,
-        FoodType    			=   	Fish,
-	Icon				=	PotFull,
-	ReplaceOnUse			=	Pot,
+		HungerChange			=	-25,
+		BoredomChange			=	-5,
+		Type				=	Food,
+		DisplayName			=	Cooking Pot with Crayfish,
+		ReplaceOnUse			=	Pot,
+		Icon				=	PotFull,
+		Weight				=	0.6,
+		IsCookable			=	TRUE,
+		DangerousUncooked		=	TRUE,	
+		MinutesToCook			=	20,
+		MinutesToBurn			=	40,
+		DaysTotallyRotten		=	4,
+		DaysFresh 			= 	2,
+		FoodType    			=   	Fish,
+		ReplaceOnUse		=	Pot,
         Carbohydrates 			= 	0,
         Proteins 			= 	32,
         Lipids 				= 	2,
         Calories 			= 	154, 
-	}
-
-item HCCrayfishcooked
-	{
-	Type				=	Food,
-	DisplayName			=	Boiled Crayfish,
-	ReplaceOnUse			=	Pot,
-	Icon				=	HCCrayfishcooked,
-	Weight				=	0.2,
-	HungerChange			=	-15,
-	BoredomChange			=	-10,
-	DaysTotallyRotten		=	4,
-	DaysFresh 			= 	2,
-        EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-        FoodType    			=   	Fish,
-        Carbohydrates 			= 	0,
-        Proteins 			= 	32,
-        Lipids 				= 	2,
-        Calories 			= 	154, 
-	}
-
-item HCMussel
-	{
-	Type				=	Food,
-	DisplayName			=	Mussel,
-	Icon				=	HCMussel,
-	ReplaceOnUse			=	HCMusselshell,
-	IsCookable			=	TRUE,
-	DangerousUncooked		=	TRUE,
-	Weight				=	0.2,
-	MinutesToCook			=	10,
-	MinutesToBurn			=	20,
-	HungerChange			=	-15,
-	BoredomChange			=	-5,
-	DaysTotallyRotten		=	4,
-	DaysFresh 			= 	2,
-        EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-        FoodType    			=   	Fish,
-        Carbohydrates 			= 	6,
-        Proteins 			= 	20,
-        Lipids 				= 	3.8,
-        Calories 			= 	146,
 	}
 
 item HCMusselpot
 	{
 	Type				=	Food,
-	DisplayName			=	Pot of Mussel,
+	DisplayName			=	Cooking Pot with Mussel,
 	IsCookable			=	TRUE,
 	DangerousUncooked		=	TRUE,
 	Weight				=	0.6,
-	MinutesToCook			=	10,
-	MinutesToBurn			=	20,
-	ReplaceOnCooked			=	Hydrocraft.HCMusselcooked,
-	HungerChange			=	-15,
+	MinutesToCook			=	20,
+	MinutesToBurn			=	40,
+	HungerChange			=	-25,
 	BoredomChange			=	-5,
 	DaysTotallyRotten		=	4,
 	DaysFresh 			= 	2,
@@ -224,23 +162,27 @@ item HCMusselpot
         Calories 			= 	146, 
 	}
 
-item HCMusselcooked
+item HCMussel
 	{
-	Type				=	Food,
-	DisplayName			=	Boiled Mussel,
-	ReplaceOnUse			=	Pot,
-	Icon				=	HCMusselcooked,
-	Weight				=	0.2,
-	HungerChange			=	-15,
-	BoredomChange			=	-10,
-	DaysTotallyRotten		=	4,
-	DaysFresh 			= 	2,
-        EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-        FoodType    			=   	Fish,
-        Carbohydrates 			= 	6,
-        Proteins 			= 	20,
-        Lipids 				= 	3.8,
-        Calories 			= 	146, 
+		Type				=	Food,
+		DisplayName			=	Shelled Mussel,
+		Icon				=	HCMussel,
+		ReplaceOnUse		=	HCMusselshell,
+		IsCookable			=	TRUE,
+		DangerousUncooked		=	TRUE,
+		Weight				=	0.2,
+		MinutesToCook			=	20,
+		MinutesToBurn			=	40,
+		HungerChange			=	-15,
+		BoredomChange			=	-5,
+		DaysTotallyRotten		=	4,
+		DaysFresh 			= 	2,
+		EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+		FoodType    			=   	Fish,
+		Carbohydrates 			= 	6,
+		Proteins 			= 	20,
+		Lipids 				= 	3.8,
+		Calories 			= 	146,
 	}
 
 
@@ -867,41 +809,41 @@ recipe Prepare Fried Herring
     		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Prepare Boiled Crab
+	recipe Prepare Boiled Crab
 	{
-       		SkillRequired:Cooking=1,
+       	SkillRequired:Cooking=1,
 		destroy WaterPot,
 		HCCrab,
 		Salt;1,		
 		Result:HCCrabpot,
 		Time:25.0,
 		Category:Cooking,
-    		OnGiveXP:HCCooking_OnGiveXP,
+    	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Prepare Boiled Crayfish
+	recipe Prepare Boiled Crayfish
 	{
-       		SkillRequired:Cooking=1,
+       	SkillRequired:Cooking=1,
 		destroy WaterPot,
 		HCCrayfish,
 		Salt;1,		
 		Result:HCCrayfishpot,
 		Time:25.0,
 		Category:Cooking,
-    		OnGiveXP:HCCooking_OnGiveXP,
+    	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Prepare Boiled Mussel
+	recipe Prepare Boiled Mussel
 	{
-       		SkillRequired:Cooking=1,
+       	SkillRequired:Cooking=1,
 		destroy WaterPot,
 		HCMussel,
 		Salt;1,		
 		Result:HCMusselpot,
 		Time:25.0,
 		Category:Cooking,
-        	OnCreate:recipe_HCMusselshell,
-    		OnGiveXP:HCCooking_OnGiveXP,
+        OnCreate:recipe_hcgivemusselshell,
+    	OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
 	recipe Empty Wooden Bucket with Fish Oil

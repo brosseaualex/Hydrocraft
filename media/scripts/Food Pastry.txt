@@ -10,7 +10,7 @@ module Hydrocraft
 
 item HCHoneybundough
 	{
-	HungerChange			=	-40,
+	HungerChange			=	-30,
 	Weight				=	0.4,
 	Type				=	Food,
 	UnhappyChange			=	5,
@@ -26,37 +26,18 @@ item HCHoneybundough
         Calories 			= 	1612,
 	}
 
-item HCHoneybununcooked
-	{
-	HungerChange			=	-40,
-	Weight				=	0.9,
-	Type				=	Food,
-	UnhappyChange			=	5,
-	BoredomChange			=	5,
-	IsCookable			=	TRUE,
-    	MinutesToCook			=	30,
-	MinutesToBurn			=	60,
-	ReplaceOnCooked			=	Hydrocraft.HCHoneybuntray,
-	DisplayName			=	Uncooked Tray of Honeybuns,
-	Icon				=	HCHoneybununcooked,
-	ReplaceOnUse			=	BakingTray,
-	DaysTotallyRotten		=	5,
-	DaysFresh 			=	3,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	176,
-        Proteins 			= 	25.6,
-        Lipids 				= 	92,
-        Calories 			= 	1612,
-	}
-
 item HCHoneybuntray
 	{
-	HungerChange			=	-40,
+	HungerChange			=	-30,
 	Weight				=	0.9,
 	Type				=	Food,
 	UnhappyChange			=	-20,
 	BoredomChange			=	-15,
-	DisplayName			=	Cooked Tray of Honeybuns,
+	IsCookable			=	TRUE,
+	DangerousUncooked	=	TRUE,
+    MinutesToCook			=	30,
+	MinutesToBurn			=	60,
+	DisplayName			=	Tray of Honeybuns,
 	Icon				=	HCHoneybuntray,
 	ReplaceOnUse			=	BakingTray,
 	DaysTotallyRotten		=	5,
@@ -75,6 +56,9 @@ item HCHoneybun
 	Type				=	Food,
 	UnhappyChange			=	-20,
 	BoredomChange			=	-15,
+	IsCookable			=	TRUE,
+    MinutesToCook			=	0,
+	MinutesToBurn			=	30,
 	DisplayName			=	Honeybun,
 	Icon				=	HCHoneybun,
 	DaysTotallyRotten		=	14,
@@ -88,7 +72,7 @@ item HCHoneybun
 
 item HCCupcakebatter
     {
-        	HungerChange		=	-40,
+        	HungerChange		=	-45,
         	Weight			=	0.7,
         	Type			=	Food,
         	UnhappyChange		=	5,
@@ -109,13 +93,13 @@ item HCCupcakebatter
         	Calories 		= 	1830,
     }
 
-item HCCupcakeshomemade
+item HCCupcakeshomemadepan
 	{
-		HungerChange		=	-40,
+		HungerChange		=	-45,
 		Weight			=	0.5,
 		Type			=	Food,
-		UnhappyChange		=	5,
-		BoredomChange		=	5,
+		UnhappyChange		=	-15,
+		BoredomChange		=	-15,
 		IsCookable		=	TRUE,
 		DangerousUncooked	=	TRUE,
         	DaysTotallyRotten	=	5,
@@ -123,28 +107,8 @@ item HCCupcakeshomemade
 		MinutesToCook		=	15,
 		MinutesToBurn		=	30,
 		ReplaceOnUse		=	HCMuffinpan,
-		ReplaceOnCooked		=	Hydrocraft.HCCupcakeshomemadecooked,
-		DisplayName		=	Uncooked Homemade Cupcakes,
+		DisplayName		=	Homemade Cupcakes in Muffin Pan,
 		Icon			=	HCCupcakeshomemade,
-		FoodType		=	NoExplicit,
-		Carbohydrates 		= 	201,
-        	Proteins 		= 	12.9,
-        	Lipids 			= 	22.2,
-        	Calories 		= 	1830,
-	}
-
-item HCCupcakeshomemadecooked
-	{
-		HungerChange		=	-40,
-		Weight			=	0.5,
-		Type			=	Food,
-		UnhappyChange		=	-15,
-		BoredomChange		=	-15,
-        	DaysTotallyRotten	=	5,
-        	DaysFresh 		= 	3, 		
-		ReplaceOnUse		=	HCMuffinpan,
-		DisplayName		=	Cooked Homemade Cupcake,
-		Icon			=	HCCupcakeshomemadecooked,
 		FoodType		=	NoExplicit,
 		Carbohydrates 		= 	201,
         	Proteins 		= 	12.9,
@@ -172,6 +136,9 @@ item HCCupcake
 	HungerChange			=	-15,
 	UnhappyChange			=	-5,
 	BoredomChange			=	-5,
+	IsCookable			=	TRUE,
+    MinutesToCook			=	0,
+	MinutesToBurn			=	15,
 	Weight				=	0.05,
 	AlwaysWelcomeGift		=	TRUE,
 	Type				=	Food,
@@ -191,10 +158,13 @@ item HCCupcakefrosted
 	HungerChange			=	-15,
 	UnhappyChange			=	-20,
 	BoredomChange			=	-15,
+	IsCookable			=	TRUE,
+    MinutesToCook			=	0,
+	MinutesToBurn			=	15,
 	Weight				=	0.06,
 	AlwaysWelcomeGift		=	TRUE,
 	Type				=	Food,
-	DisplayName			=	Homemade Cupcake,
+	DisplayName			=	Frosted Cupcake,
 	Icon				=	HCCupcakefrosted,
 	DaysTotallyRotten		=	14,
 	DaysFresh 			=	7,
@@ -213,60 +183,53 @@ item HCFruitcakebatter
 	Icon				=	HCFruitcakebatter,
     	}
 
-item HCFruitcakebattermold
-    	{
-	Weight				=	0.4,
-	Type				=	Food,
-	DisplayName			=	Fruit Cake Batter in Bread Mold,
-	Icon				=	HCFruitcakebattermold,
-	ReplaceOnCooked   		= 	Hydrocraft.HCFruitcakemold,
-	IsCookable			=	TRUE,
-	MinutesToCook			=	40,
-	MinutesToBurn			=	80,
-    	}
-
-item HCFruitcakemold
-    	{
-	HungerChange			=	-50,
+	item HCFruitcakepan
+	{
+	HungerChange		=	-30,
 	Weight				=	0.7,
 	Type				=	Food,
-	DisplayName			=	Fruit Cake in Bread Mold,
+	DisplayName			=	Fruit Cake in Bread Pan,
 	Icon				=	HCFruitcakemold,
+	ReplaceOnUse		=	BakingTray,
+	DangerousUncooked	=	TRUE,
 	IsCookable			=	TRUE,
-	MinutesToCook			=	0,
-	MinutesToBurn			=	20,
-	DaysTotallyRotten		=	16,
+	MinutesToCook		=	40,
+	MinutesToBurn		=	80,
+	DaysTotallyRotten	=	16,
 	DaysFresh 			= 	10,
-	UnhappyChange			=	-15,
-	BoredomChange			=	-10,
-	StressChange			=	-5,
-	Carbohydrates 			= 	60.41,
+	UnhappyChange		=	-15,
+	BoredomChange		=	-10,
+	StressChange		=	-5,
+	Carbohydrates 		= 	60.41,
 	Proteins 			= 	50.24,
 	Lipids 				= 	25.82,
 	Calories 			= 	675,
-    	}
+	}
 
-item HCFruitcake
-    	{
-	HungerChange			=	-50,
-	Weight				=	0.5,
+	item HCFruitcake
+	{
+	HungerChange		=	-30,
+	Weight				=	0.7,
 	Type				=	Food,
 	DisplayName			=	Fruit Cake,
 	Icon				=	HCFruitcake,
-	DaysTotallyRotten		=	16,
+	IsCookable			=	TRUE,
+	MinutesToCook		=	0,
+	MinutesToBurn		=	40,
+	DaysTotallyRotten	=	16,
 	DaysFresh 			= 	10,
-	UnhappyChange			=	-35,
-	BoredomChange			=	-25,
-	StressChange			=	-10,
-	Carbohydrates 			= 	60.41,
+	UnhappyChange		=	-15,
+	BoredomChange		=	-10,
+	StressChange		=	-5,
+	Carbohydrates 		= 	60.41,
 	Proteins 			= 	50.24,
 	Lipids 				= 	25.82,
 	Calories 			= 	675,
-    	}
+	}
 
 item HCFruitcakeslices
     	{
-	HungerChange			=	-16,
+	HungerChange			=	-18,
 	Weight				=	0.1,
 	Type				=	Food,
 	DisplayName			=	Fruit Cake Slices,
@@ -284,7 +247,6 @@ item HCFruitcakeslices
 
 /************************RECIPES************************/
    
-
 recipe Make Honeybun Dough
 	{
        		SkillRequired:Cooking=5,
@@ -327,20 +289,21 @@ recipe Make Honeybun
        		SkillRequired:Cooking=5,
 		BakingTray,
 		HCHoneybundough,
-		Result:HCHoneybununcooked,
+		Result:HCHoneybuntray,
 		Time:50,
 	   	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Remove Honeybuns from Tray
+	recipe Remove Honeybuns from Tray
 	{
 		HCHoneybuntray,
-		Result:BakingTray,
+		Result:HCHoneybun=4,
 		Time:15,
-	   	Category:Cooking,
-    		OnCreate:recipe_HCHoneybun,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		OnTest:RemoveHoneyBun_CheckIfCooked,
+    	OnCreate:recipe_hcbakingtray,
+		Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Homemade Cupcake Batter
@@ -364,21 +327,22 @@ recipe Make Homemade Cupcakes
 	   	keep HCIcecreamscoop/HCLadle,
 	   	HCMuffinpan,
 		HCCupcakebatter,
-		Result:HCCupcakeshomemade,
+		Result:HCCupcakeshomemadepan,
        		Time:30.0,
 	   	Category:Cooking,
     		OnCreate:recipe_hcbowl,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Remove Cupcakes from Pan
+	recipe Remove Cupcakes from Pan
 	{
-		HCCupcakeshomemadecooked,
-		Result:HCMuffinpan,
+		HCCupcakeshomemadepan,
+		Result:HCCupcake=6,
 		Time:15,
-	   	Category:Cooking,
-    		OnCreate:recipe_HCCupcake,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		OnTest:RemoveCupcakes_CheckIfCooked,
+		OnCreate:recipe_hcmuffinpan,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Frosting
@@ -426,35 +390,27 @@ recipe Make Fruit Cake Batter
        		OnGiveXP:HCCooking_OnGiveXP,
     	}
 
-recipe Put Fruit Cake Batter in Bread Pan 
+recipe Place Fruit Cake Batter in Bread Pan 
 	{
             	keep Spoon,
 	    	HCFruitcakebatter=1,
             	HCBreadpan,
-	    	Result:HCFruitcakebattermold,   
+	    	Result:HCFruitcakepan,   
             	OnCreate:recipe_hcpot,
 	    	Time:80.0,
 	    	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
     	}
 
-recipe Empty Fruit Cake Batter in Bread Pan 
-	{
-	    	destroy HCFruitcakebattermold,
-	   	Result:HCBreadpan,
-	    	Time:60.0,
-	    	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
-    	}
-
-recipe Take Fruit Cake From Bread Pan  
+	recipe Remove Fruit Cake from Bread Pan  
     	{
-	    	HCFruitcakemold=1,
-	    	Result:HCFruitcake=1,   
-	    	Time:70.0,
-	    	Category:Cooking,
-            	OnCreate:recipe_hcbreadpan,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		HCFruitcakepan=1,
+		Result:HCFruitcake=1,
+		Time:70.0,
+		OnTest:RemoveFruitCake_CheckIfCooked,
+		OnCreate:recipe_hcbreadpan,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
     	}
 
 recipe Slice Fruit Cake   

@@ -29,46 +29,27 @@ item HCFreshpasta
         Calories 			= 	260,
 	}
 
-item HCLasagnauncooked
-	{
-	HungerChange			=	-70,
-	Type				=	Food,
-	DisplayName			=	Uncooked Lasagna,
-	MinutesToCook			=	40,
-	Weight				=	2,
-	IsCookable			=	TRUE,
-	DangerousUncooked		=	TRUE,
-	DaysTotallyRotten		=	4,
-	MinutesToBurn			=	80,
-	Icon				=	HCLasagnauncooked,
-	ReplaceOnCooked			=	Hydrocraft.HCLasagna,	
-	BoredomChange			=	15,
-	UnhappyChange			=	15,
-	DaysFresh			=	2,
-	FoodType    			=   	Pasta,
-	Carbohydrates 			= 	228,
-        Proteins 			= 	216,
-        Lipids 				= 	214,
-        Calories 			= 	3700,
-	}
-
 item HCLasagna
 	{
-	HungerChange			=	-70,
-	Type				=	Food,
-	DisplayName			=	Lasagna,
-	Weight				=	2,
-	DaysTotallyRotten		=	4,
-	Icon				=	HCLasagna,
-	ReplaceOnUse			=	RoastingPan,
-	BoredomChange			=	-35,
-	UnhappyChange			=	-35,
-	DaysFresh			=	2,
-	FoodType    			=   	Pasta,
-	Carbohydrates 			= 	228,
-        Proteins 			= 	216,
-        Lipids 				= 	214,
-        Calories 			= 	3700,
+		HungerChange		=	-70,
+		Type				=	Food,
+		Weight				=	2,	
+		BoredomChange		=	-35,
+		UnhappyChange		=	-35,
+		DisplayName			=	Lasagna,
+		MinutesToCook		=	40,	
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToBurn		=	80,
+		Icon				=	HCLasagna,
+		ReplaceOnUse		=	RoastingPan,
+		DaysFresh			=	2,
+		DaysTotallyRotten	=	4,
+		FoodType    		= 	Pasta,
+		Carbohydrates 		= 	228,
+		Proteins 			= 	216,
+		Lipids 				= 	214,
+		Calories 			= 	3700,
 	}
 
 item HCPastafettuccine
@@ -145,7 +126,7 @@ recipe Prepare Lasagna
 		HCTomatosaucebowl,
 		Broccoli/Eggplant/Ham/Steak/Chicken/Salmon/TunaTinOpen/Cheese/HCCheddar/BellPepper/HCBellpeppergreen/HCBellpepperyellow/HCCauliflower,
 		Cheese/HCCheddar,
-		Result:HCLasagnauncooked,
+		Result:HCLasagna,
     		NeedToBeLearn:true,
 		Time:100.0,
 	   	Category:Cooking,
@@ -173,7 +154,7 @@ recipe Place Pasta in Saucepan
 	   	OnGiveXP:NoXP_OnGiveXP,
 	}
 
-recipe Place Pasta in Saucepan
+	recipe Place Pasta in Saucepan
 	{
 	   	HCPastarotini;10,
 	   	destroy WaterSaucepan,
@@ -181,6 +162,36 @@ recipe Place Pasta in Saucepan
 	   	Time:50.0,
 	   	Category:Cooking,
 	   	OnGiveXP:NoXP_OnGiveXP,
+	}
+	
+	recipe Place Pasta in Cooking Pot
+	{
+		HCPastafettuccine;10,
+		destroy WaterPot,
+		Result:WaterPotPasta,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP:NoXP_OnGiveXP,
+	}
+
+	recipe Place Pasta in Cooking Pot
+	{
+		HCPastamacaroni;10,
+		destroy WaterPot,
+		Result:WaterPotPasta,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP:NoXP_OnGiveXP,
+	}
+
+	recipe Place Pasta in Cooking Pot
+	{
+		HCPastarotini;10,
+		destroy WaterPot,
+		Result:WaterPotPasta,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP:NoXP_OnGiveXP,
 	}
 	
 }

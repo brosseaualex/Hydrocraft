@@ -181,13 +181,24 @@ item HCCream
 
 	item HCWhippedcreamcan
 	{
-		Weight				= 0.5,
-		Type				= Drainable,
-		DisplayName			= Can of Whipped Cream,
-		UseDelta			= 0.1,
-		UseWhileEquipped 	= FALSE,
-		Icon				= HCWhippedcreamcan,
-		ReplaceOnDeplete 	= HCWhippedcreamcanempty,
+		HungerChange		=	-25,
+		BoredomChange		=	-20,
+		UnhappyChange		=	-20,
+		Weight				=	0.4,
+		Type				=	Food,
+		DaysFresh			= 	14,
+		DaysTotallyRotten	= 	30,
+		CantBeFrozen 		= 	TRUE,
+		DisplayName			=	Can of Whipped Cream,
+		ReplaceOnUse		=	HCWhippedcreamcanempty,
+		Icon				=	HCWhippedcreamcan,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=  	NoExplicit,
+		Packaged			=	true,
+		Carbohydrates 		= 	46,
+		Proteins 			= 	12,
+		Lipids 				= 	81,
+		Calories 			= 	949,
 	}
 
 item HCWhippedcreamcanRotten
@@ -202,7 +213,7 @@ item HCWhippedcreamcanempty
 	{
 		Weight			 = 0.1,
 		Type			 = Normal,
-		DisplayName		 = Empty Whipped Cream Can,
+		DisplayName		 = Empty Can of Whipped Cream,
 		Icon			 = HCWhippedcreamcan,
 	}
 
