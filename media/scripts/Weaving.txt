@@ -1066,7 +1066,7 @@ recipe Recycle Bag
     NeedToBeLearn:true,
     Time:200.0,
     Category:Weaving,
-    OnCreate:recipe_hczipper,
+    OnCreate:recipe_recyclebag,
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
@@ -1078,7 +1078,7 @@ recipe Recycle Bag
     NeedToBeLearn:true,
     Time:200.0,
     Category:Weaving,
-    OnCreate:recipe_hczipper,
+    OnCreate:recipe_recyclebag,
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
@@ -1090,7 +1090,7 @@ recipe Recycle Bag
     NeedToBeLearn:true,
     Time:200.0,
     Category:Weaving,
-    OnCreate:recipe_hczipper,
+    OnCreate:recipe_recyclebag,
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
@@ -1102,7 +1102,7 @@ recipe Recycle Bag
     NeedToBeLearn:true,
     Time:200.0,
     Category:Weaving,
-    OnCreate:recipe_hczipper,
+    OnCreate:recipe_recyclebag,
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
@@ -1114,7 +1114,7 @@ recipe Recycle Bag
     NeedToBeLearn:true,
     Time:200.0,
     Category:Weaving,
-    OnCreate:recipe_hczipper,
+    OnCreate:recipe_recyclebag,
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
@@ -1126,7 +1126,7 @@ recipe Recycle Bag
     NeedToBeLearn:true,
     Time:200.0,
     Category:Weaving,
-    OnCreate:recipe_hczipper,
+    OnCreate:recipe_recyclebag,
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
@@ -1138,7 +1138,7 @@ recipe Recycle Bag
     NeedToBeLearn:true,
     Time:200.0,
     Category:Weaving,
-    OnCreate:recipe_hczipper,
+    OnCreate:recipe_recyclebag,
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
@@ -1150,7 +1150,7 @@ recipe Recycle Bag
     NeedToBeLearn:true,
     Time:200.0,
     Category:Weaving,
-    OnCreate:recipe_hczipper,
+    OnCreate:recipe_recyclebag,
     OnGiveXP:HCHunger_OnGiveXP,
     }
 

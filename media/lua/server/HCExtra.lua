@@ -430,7 +430,8 @@ function recipe_hcpillowcase(items, result, player)
 	inv:AddItem("Hydrocraft.HCPillowcase");
 end
 
-function recipe_hczipper(items, result, player)
+function recipe_recyclebag(items, result, player)
+	HCEmptyContainerOnRecipe(items, result, player);
 	local inv = player:getInventory();
 	inv:AddItem("Hydrocraft.HCZipper");
 end
