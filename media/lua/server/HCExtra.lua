@@ -1238,7 +1238,7 @@ end
 
 --Seafood Stuff
 
-function recipe_hcmusselshell(items, result, player)
+function recipe_hcgivemusselshell(items, result, player)
 	local inv = player:getInventory();
 	inv:AddItem("Hydrocraft.HCMusselshell");
 end

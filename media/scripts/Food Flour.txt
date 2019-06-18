@@ -177,7 +177,7 @@ item HCPumpkinbreaddough
 		MinutesToCook		=	30,
 		MinutesToBurn		=	60,
 		DisplayName			=	Pumpkin Bread,
-		Icon				=	HCRaisinbread,
+		Icon				=	HCPumpkinbreadbaked,
 		DaysTotallyRotten	=	15,
 		DaysFresh 			= 	10,
 		FoodType    		=   NoExplicit,

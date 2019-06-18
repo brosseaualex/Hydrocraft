@@ -140,29 +140,6 @@ item HCCrayfish
         Calories 			= 	154, 
 	}
 
-item HCMusselshell
-	{
-	Type				=	Food,
-	DisplayName			=	Shelled Mussel,
-	Icon				=	HCMussel,
-	ReplaceOnUse			=	HCMussel,
-	IsCookable			=	TRUE,
-	DangerousUncooked		=	TRUE,
-	Weight				=	0.2,
-	MinutesToCook			=	20,
-	MinutesToBurn			=	40,
-	HungerChange			=	-15,
-	BoredomChange			=	-5,
-	DaysTotallyRotten		=	4,
-	DaysFresh 			= 	2,
-        EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-        FoodType    			=   	Fish,
-        Carbohydrates 			= 	6,
-        Proteins 			= 	20,
-        Lipids 				= 	3.8,
-        Calories 			= 	146,
-	}
-
 item HCMusselpot
 	{
 	Type				=	Food,
@@ -187,21 +164,25 @@ item HCMusselpot
 
 item HCMussel
 	{
-	Type				=	Food,
-	DisplayName			=	Mussel,
-	ReplaceOnUse			=	Pot,
-	Icon				=	HCMusselcooked,
-	Weight				=	0.2,
-	HungerChange			=	-15,
-	BoredomChange			=	-10,
-	DaysTotallyRotten		=	4,
-	DaysFresh 			= 	2,
+		Type				=	Food,
+		DisplayName			=	Shelled Mussel,
+		Icon				=	HCMussel,
+		ReplaceOnUse		=	HCMusselshell,
+		IsCookable			=	TRUE,
+		DangerousUncooked		=	TRUE,
+		Weight				=	0.2,
+		MinutesToCook			=	20,
+		MinutesToBurn			=	40,
+		HungerChange			=	-15,
+		BoredomChange			=	-5,
+		DaysTotallyRotten		=	4,
+		DaysFresh 			= 	2,
 		EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
 		FoodType    			=   	Fish,
 		Carbohydrates 			= 	6,
 		Proteins 			= 	20,
 		Lipids 				= 	3.8,
-		Calories 			= 	146, 
+		Calories 			= 	146,
 	}
 
 
@@ -861,7 +842,7 @@ recipe Prepare Fried Herring
 		Result:HCMusselpot,
 		Time:25.0,
 		Category:Cooking,
-        OnCreate:recipe_HCMusselshell,
+        OnCreate:recipe_hcgivemusselshell,
     	OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
