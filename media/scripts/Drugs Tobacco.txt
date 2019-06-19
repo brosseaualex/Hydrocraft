@@ -10,10 +10,11 @@ module Hydrocraft
 
 item HCCigarettebutt
     {
-        Weight			= 0.01,
-        Type    		= Normal,
-        DisplayName         	= Cigarette Butt,
-        icon 			= HCCigarettebutt,
+        Weight				= 0.01,
+        Type    			= Normal,
+        DisplayName        	= Cigarette Butt,
+        icon 				= HCCigarettebutt,
+		ResizeWorldIcon 	= 0.5,
     }
 
 item HCCigarettecarton
