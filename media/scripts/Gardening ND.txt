@@ -3369,7 +3369,7 @@ recipe Plant Crop
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Peanut Plant,
-        icon        		= HCPottedpeanutplantsmall,
+        icon        		= HCPottedpeanutplantsmalldead,
 		ResizeWorldIcon 	= 1.0,
     }
     item HCPottedpeanutplantdry
@@ -3378,7 +3378,7 @@ recipe Plant Crop
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Peanut Plant,
-        icon        		= HCPottedpeanutplant,
+        icon        		= HCPottedpeanutplantdead,
 		ResizeWorldIcon 	= 1.0,
     }
     item HCPottedpeanutplantdead
@@ -3396,7 +3396,7 @@ recipe Plant Crop
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Peanut Plant,
-        icon        		= HCPottedpeanutplantready,
+        icon        		= HCPottedpeanutplant,
 		ResizeWorldIcon 	= 1.0,
     }
 	recipe Remove Crop
