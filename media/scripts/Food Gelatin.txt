@@ -1266,7 +1266,7 @@ item HCJellostrawberrybowl
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-	recipe Move Apple Jello Into Mold
+	recipe Pour Apple Jello Into Mold
 	{
 		SkillRequired:Cooking=1,
 		HCJelloappleprep,
@@ -1314,7 +1314,7 @@ item HCJellostrawberrybowl
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Move Blueberry Jello Into Mold
+	recipe Pour Blueberry Jello Into Mold
 	{
 		SkillRequired:Cooking=1,
 		HCJelloblueberryprep,
@@ -1362,7 +1362,7 @@ item HCJellostrawberrybowl
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Move Cherry Jello Into Mold
+	recipe Pour Cherry Jello Into Mold
 	{
 		SkillRequired:Cooking=1,
 		HCJellocherryprep,
@@ -1410,7 +1410,7 @@ item HCJellostrawberrybowl
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Move Lemon Jello Into Mold
+	recipe Pour Lemon Jello Into Mold
 	{
 		SkillRequired:Cooking=1,
 		HCJellolemonprep,
@@ -1458,7 +1458,7 @@ item HCJellostrawberrybowl
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Move Orange Jello Into Mold
+	recipe Pour Orange Jello Into Mold
 	{
 		SkillRequired:Cooking=1,
 		HCJelloorangeprep,
@@ -1506,7 +1506,7 @@ item HCJellostrawberrybowl
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Move Lime Jello Into Mold
+	recipe Pour Lime Jello Into Mold
 	{
 		SkillRequired:Cooking=1,
 		HCJellolimeprep,
@@ -1554,7 +1554,7 @@ item HCJellostrawberrybowl
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Move Watermelon Jello Into Mold
+	recipe Pour Watermelon Jello Into Mold
 	{
 		SkillRequired:Cooking=1,
 		HCJellowatermelonprep,
@@ -1602,7 +1602,7 @@ item HCJellostrawberrybowl
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Move Strawberry Jello Into Mold
+	recipe Pour Strawberry Jello Into Mold
 	{
 		SkillRequired:Cooking=1,
 		HCJellostrawberryprep,

@@ -710,7 +710,7 @@ module Hydrocraft
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Remove Chirstmas Cookies from Baking Tray 
+	recipe Remove Chirstmas Cookies from Tray 
 	{
 		HCChristmascookietray,
 		Result:HCChristmascookie=3,   
@@ -721,7 +721,7 @@ module Hydrocraft
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-	recipe Remove Frosted Chirstmas Cookies from Baking Tray 
+	recipe Remove Frosted Chirstmas Cookies from Tray 
 	{
 		HCFrostedchristmascookietray,
 		Result:HCFrostedchristmascookie=3,   

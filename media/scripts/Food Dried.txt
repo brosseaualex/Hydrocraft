@@ -1319,7 +1319,7 @@ recipe Make Lime Juice
 
 	recipe Empty Baking Tray
 	{
-	    HCDriedapples/HCDriedpeach/HCDriedorange/HCDriedlemon/HCDriedlime/HCDriedbananachips/HCDriedstrawberryslices/HCDriedberries/HCDriedtomato/HCDriedpumpkinseeds/HCDriedrasins/HCDriedcrasins/HCBakingtrayfruit,
+	    HCDriedappletray/HCDriedpeachtray/HCDriedorangetray/HCDriedlemontray/HCDriedlimetray/HCDriedbananachipstray/HCDriedstrawberrytray/HCDriedberriestray/HCDriedtomatotray/HCDriedpumpkinseedstray/HCDriedrasinstray/HCDriedcrasinstray/HCBakingtrayfruittray,
 	    Result:BakingTray,
 	    Time:60.0,
 	    Category:Cooking,

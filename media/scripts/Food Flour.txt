@@ -1182,18 +1182,18 @@ recipe Make Flatbread
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Remove Homemade Pancake from Baking Pan
+	recipe Remove Homemade Pancake from Pan
 	{
 		HCPancakeshomemadepan,
 		Result:HCPancakeshomemade,   
 		Time:60.0,
 		Category:Cooking,
 		OnTest:RemovePancakeFromPan_CheckIfCooked,
-		OnCreate:recipe_bakingpan,
+		OnCreate:recipe_hcbakingpan,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Remove Pumpkin Bread from Bread Pan
+	recipe Remove Pumpkin Bread from Pan
 	{
 		HCPumpkinbreadpan,
 		Result:HCPumpkinbread,   
@@ -1204,7 +1204,7 @@ recipe Make Flatbread
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Remove Raisin Bread from Bread Pan
+	recipe Remove Raisin Bread from Pan
 	{
 		HCRaisinbreadpan,
 		Result:HCRaisinbread,   
@@ -1215,7 +1215,7 @@ recipe Make Flatbread
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Remove Raisin Bread from Bread Pan
+	recipe Remove Corn Bread from Pan
 	{
 		HCCornbreadpan,
 		Result:HCCornbread,   
