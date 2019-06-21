@@ -1288,11 +1288,11 @@ function recipe_piepan(items,result,player)
     player:getInventory():AddItem("Hydrocraft.HCPiepan");
 end
 
-function recipe_saucepan(items,result,player)
+function recipe_hcsaucepan(items,result,player)
     player:getInventory():AddItem("Base.Saucepan");
 end
 
-function recipe_jellomold(items,result,player)
+function recipe_hcjellomold(items,result,player)
     player:getInventory():AddItem("Hydrocraft.HCJellomold1");
 end
 
