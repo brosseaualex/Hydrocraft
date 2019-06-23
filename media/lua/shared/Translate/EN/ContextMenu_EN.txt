@@ -3,4 +3,5 @@ ContextMenu_EN = {
 	ContextMenu_Sniff = "Sniff",
 	ContextMenu_Inject = "Inject",
 	ContextMenu_Build_Trellis = "Install Trellis",
+	ContextMenu_Cauterize_Wounds = "Cauterize Wound",
 }
