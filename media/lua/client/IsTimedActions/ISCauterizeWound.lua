@@ -7,12 +7,7 @@ function ISCauterizeWound:isValid()
 	if ISHealthPanel.DidPatientMove(self.character, self.otherPlayer, self.bandagedPlayerX, self.bandagedPlayerY) then
 		return false
 	end
-    if self.item then
-        return self.character:getInventory():contains(self.item);
-    else
-        if not self.bodyPart:bandaged() then return false end
-        return true
-    end
+    return true;
 end
 
 function ISCauterizeWound:update()
@@ -23,15 +18,15 @@ function ISCauterizeWound:update()
     ISHealthPanel.setBodyPartActionForPlayer(self.otherPlayer, self.bodyPart, self, jobType, {CauterizeWound = true})
 end
 
-function ISCleanBurn:start()
+function ISCauterizeWound:start()
 end
 
-function ISCleanBurn:stop()
+function ISCauterizeWound:stop()
     ISHealthPanel.setBodyPartActionForPlayer(self.otherPlayer, self.bodyPart, nil, nil, nil)
     ISBaseTimedAction.stop(self);
 end
 
-function ISCleanBurn:perform()
+function ISCauterizeWound:perform()
     -- needed to remove from queue / start next.
     ISBaseTimedAction.perform(self);
 
@@ -40,14 +35,13 @@ function ISCleanBurn:perform()
     end
 
     self.character:getXp():AddXP(Perks.Doctor, 10);
-    local addPain = (60 - (self.doctorLevel * 1))
+    local addPain = (60 - (self.doctorLevel * 1));
     if self.character:getAccessLevel() ~= "None" then
         self.bodyPart:setAdditionalPain(self.bodyPart:getAdditionalPain() + addPain);
-		self.bodyPart:setBleeding(false);
-		self.bodyPart:SetBleedingStemmed(true);
-		self.bodyPart:setBleedingTime(0);
-		self.bodyPart:AddDamage(1);
     end
+	self.bodyPart:setBleeding(false);
+	self.bodyPart:setBleedingTime(0);
+	self.bodyPart:AddDamage(1);
     self.bodyPart:setNeedBurnWash(true);
 
     if isClient() then
@@ -60,7 +54,7 @@ function ISCleanBurn:perform()
     ISHealthPanel.setBodyPartActionForPlayer(self.otherPlayer, self.bodyPart, nil, nil, nil)
 end
 
-function ISCleanBurn:new(doctor, otherPlayer, bandage, bodyPart)
+function ISCauterizeWound:new(doctor, otherPlayer, bandage, bodyPart)
 	local o = {}
 	setmetatable(o, self)
 	self.__index = self
