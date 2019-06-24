@@ -37,7 +37,7 @@ item HCHoneybuntray
 	DangerousUncooked	=	TRUE,
     MinutesToCook			=	30,
 	MinutesToBurn			=	60,
-	DisplayName			=	Tray of Honeybuns,
+	DisplayName			=	Tray With Honeybuns,
 	Icon				=	HCHoneybuntray,
 	ReplaceOnUse			=	BakingTray,
 	DaysTotallyRotten		=	5,
@@ -423,5 +423,7 @@ recipe Slice Fruit Cake
             	Sound:PZ_SliceBread,
        		OnGiveXP:HCCooking_OnGiveXP,
     	}
+		
+
 
 }

@@ -1352,14 +1352,5 @@ recipe Make Christmas Ham
 	    	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
     	}
-
-recipe Empty Christmas Ham 
-	{
-	    	HCChristmashamcasserole,        
-	    	Result:RoastingPan,
-	    	Time:40.0,
-	    	Category:Cooking,
-	    	OnGiveXP:NoXP_OnGiveXP,
-    	}
-	
+		
 }

@@ -181,7 +181,7 @@ item HCCream
 
 	item HCWhippedcreamcan
 	{
-		HungerChange		=	-25,
+		HungerChange		=	-50,
 		BoredomChange		=	-20,
 		UnhappyChange		=	-20,
 		Weight				=	0.4,

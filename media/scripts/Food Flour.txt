@@ -111,7 +111,7 @@ item HCGruelbowlsweet
 		DaysTotallyRotten	=	15,
 		DaysFresh 			= 	10,
 		ReplaceOnUse		=	Pan,
-		DisplayName			=	Homemade Pancake in a Pan,
+		DisplayName			=	Baking Pan with Homemade Pancake,
 		Icon				=	Pancakes,
 		FoodType    		=   NoExplicit,
 		Carbohydrates 		= 	66,
@@ -198,7 +198,7 @@ item HCPumpkinbreaddough
 		DangerousUncooked	=	TRUE,
 		MinutesToCook		=	30,
 		MinutesToBurn		=	60,
-		DisplayName			=	Pumpkin Bread in a Pan,
+		DisplayName			=	Bread Pan with Pumkpin Bread,
 		Icon				=	HCPumpkinbread,
 		ReplaceOnUse		=	HCBreadpan,
 		DaysTotallyRotten	=	15,
@@ -242,7 +242,7 @@ item HCPumpkinbreaddough
 		DangerousUncooked	=	TRUE,
 		MinutesToCook		=	30,
 		MinutesToBurn		=	60,
-		DisplayName			=	Raisin Bread in a Pan,
+		DisplayName			=	Bread Pan with Raisin Bread,
 		Icon				=	HCPumpkinbread,
 		ReplaceOnUse		=	HCBreadpan,
 		DaysTotallyRotten	=	15,
@@ -286,7 +286,7 @@ item HCPumpkinbreaddough
 		DangerousUncooked	=	TRUE,
 		MinutesToCook		=	30,
 		MinutesToBurn		=	60,
-		DisplayName			=	Cornbread in a Pan,
+		DisplayName			=	Bread Pan with Cornbread,
 		Icon				=	HCPumpkinbread,
 		ReplaceOnUse		=	HCBreadpan,
 		DaysTotallyRotten	=	15,
@@ -1225,6 +1225,4 @@ recipe Make Flatbread
 		OnCreate:recipe_hcbreadpan,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
-		
-		
 }

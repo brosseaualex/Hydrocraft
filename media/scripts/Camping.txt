@@ -50,6 +50,7 @@ item HCCanteen
 	ReplaceOnUseOn		= 	WaterSource-HCCanteenfull,
         icon 			= 	HCCanteen,
 	RainFactor 		= 	1,
+	Tooltip = Tooltip_item_RainFromGround,
     	}
 
 item HCCanteenfull
@@ -59,12 +60,14 @@ item HCCanteenfull
 	CanStoreWater		=	TRUE,
 	Type			=	Drainable,
 	UseWhileEquipped	=	FALSE,
+	IsCookable		=	TRUE,
 	UseDelta		=	0.07,
 	DisplayName		=	Canteen with Water,
 	ReplaceOnDeplete	=	HCCanteen,
 	ReplaceOnUseOn		=	WaterSource-HCCanteenfull,
 	Icon			=	HCCanteenfull,
 	RainFactor 		= 	1,
+	Tooltip = Tooltip_item_RainFromGround,
     	}
 
 item HCStrappedcanteen
@@ -76,6 +79,7 @@ item HCStrappedcanteen
 	ReplaceOnUseOn		= 	WaterSource-HCStrappedcanteenfull,
         icon 			= 	HCStrappedcanteen,
 	RainFactor 		= 	1,
+	Tooltip = Tooltip_item_RainFromGround,
     	}
 
 item HCStrappedcanteenfull
@@ -85,12 +89,14 @@ item HCStrappedcanteenfull
 	CanStoreWater		=	TRUE,
 	Type			=	Drainable,
 	UseWhileEquipped	=	FALSE,
+	IsCookable		=	TRUE,
 	UseDelta		=	0.035,
 	DisplayName		=	Strapped Canteens with Water,
 	ReplaceOnDeplete	=	HCStrappedcanteen,
 	ReplaceOnUseOn		=	WaterSource-HCStrappedcanteenfull,
 	Icon			=	HCStrappedcanteen,
 	RainFactor 		= 	1,
+	Tooltip = Tooltip_item_RainFromGround,
     	}
 
 item HCMagnesiumstriker

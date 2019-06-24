@@ -57,6 +57,7 @@ item HCBirchbarkcup
 	ReplaceOnUseOn		= WaterSource-HCBirchbarkcupfull,
         icon 			= HCBirchbarkcup,
 	RainFactor 		= 0.2,
+	Tooltip = Tooltip_item_RainFromGround,
     }
 
 item HCBirchbarkcupfull
@@ -67,11 +68,13 @@ item HCBirchbarkcupfull
 	Type			=	Drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta		=	0.07,
+	IsCookable		=	TRUE,
 	DisplayName		=	Birch Bark Cup with Water,
 	ReplaceOnDeplete	=	HCBirchbarkcup,
 	ReplaceOnUseOn		=	WaterSource-HCBirchbarkcupfull,
 	Icon			=	HCBirchbarkcup,
 	RainFactor 		= 	0.2,
+	Tooltip = Tooltip_item_RainFromGround,
     }
 
 /************************RECIPES************************/

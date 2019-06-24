@@ -1,0 +1,64 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+    }
+
+	recipe Empty Baking Tray
+	{
+		HCHomemadecookietray/HCChipcookietray/HCCookiewhitetray/HCCookiepeanutbuttertray/HCChocolatecookietray/HCDoublechocolatecookietray/HCGingerbreadmantray/HCChristmascookietray/HCFrostedchristmascookietray/HCHoneybuntray/HCDriedappletray/HCDriedpeachtray/HCDriedorangetray/HCDriedlemontray/HCDriedlimetray/HCDriedbananachipstray/HCDriedstrawberrytray/HCDriedberriestray/HCDriedtomatotray/HCDriedpumpkinseedstray/HCDriedrasinstray/HCDriedcrasinstray/HCBakingtrayfruittray,
+		Result:BakingTray,
+		Time:40.0,
+		Category:Cooking,
+		OnGiveXP:NoXP_OnGiveXP,
+	}
+	
+	recipe Empty Muffin Pan
+	{
+		HCCupcakeshomemadepan,
+		Result:Hydrocraft.HCMuffinpan,
+		Time:40.0,
+		Category:Cooking,
+		OnGiveXP:NoXP_OnGiveXP,
+	}
+	
+	recipe Empty Bread Pan
+	{
+		HCPumpkinbreadpan/HCRaisinbreadpan/HCCornbreadpan/HCFruitcakepan,
+		Result:Hydrocraft.HCBreadpan,   
+		Time:40.0,
+		Category:Cooking,
+		OnGiveXP:NoXP_OnGiveXP,
+	}
+	
+	recipe Empty Pie Pan
+	{
+		HCPieapplepan/HCPieblueberrypan/HCPiepeachpan/HCPiepearpan/HCPiepumpkinpan/HCPiecherrypan/HCPieblackberrypan/HCQuichepan,
+		Result:Hydrocraft.HCPiepan,
+		Time:40.0,
+		Category:Cooking,
+		OnGiveXP:NoXP_OnGiveXP,
+	}
+	
+	recipe Empty Frying Pan
+	{
+	   destroy HCPancakeshomemadepan/HCBurritogrande/HCTaquito/HCTacocorn/HCTacocorngrande/HCTacoflour/HCTacoflourgrande/HCTacofish/HCTacocornedbeef/HCEnchilada,
+
+	   Result:Pan,
+	   OnGiveXP:NoXP_OnGiveXP,
+	   Time:40.0,
+	   Category:Cooking,
+	}
+
+	recipe Empty Roasting Pan
+	{
+	   destroy HCLasagna/HCTurduckhen/HCChristmashamcasserole/HCChristmashamcasserole,
+
+	   Result:RoastingPan,
+	   OnGiveXP:NoXP_OnGiveXP,
+	   Time:40.0,
+	   Category:Cooking,
+	}
+	
+}

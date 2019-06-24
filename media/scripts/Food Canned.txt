@@ -175,6 +175,10 @@ item HCCannedsoupclassic
         Weight				=	0.8,
         Type				=	Food,
 	DisplayCategory 		=	Item,
+	Carbohydrates 			= 	3,
+        Proteins 			= 	7.5,
+        Lipids 				= 	2.8,
+        Calories 			= 	150,
         DisplayName			=	Canned Soup Classic,
         Icon				=	HCCannedsoupclassic,
     }
