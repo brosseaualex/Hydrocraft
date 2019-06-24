@@ -104,7 +104,7 @@ module Hydrocraft
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
 		Icon						=	HCKatana,
-		ImpactSound					=	Boilguy1,
+		ImpactSound					=	PZ_FoodSwoosh,
 		Weight						=	1,
 		WeaponWeight					=	0.5,
 		MaxRange					=	2,

@@ -1580,18 +1580,18 @@ ItemTimeTrackerMod["HCPottedteaready"] = {};
 ItemTimeTrackerMod["HCPottedteaready"]["Life"] = 48.0;
 ItemTimeTrackerMod["HCPottedteaready"]["TurnInto"] = "Hydrocraft.HCPottedtea";
 
---HCHempbudfresh
-ItemTimeTrackerMod["HCHempbudfreshsmall"] = {};
-ItemTimeTrackerMod["HCHempbudfreshsmall"]["Life"] = 72.0;
-ItemTimeTrackerMod["HCHempbudfreshsmall"]["TurnInto"] = "Hydrocraft.HCHempbudfresh";
+--HCPottedhemp
+ItemTimeTrackerMod["HCPottedhempsmall"] = {};
+ItemTimeTrackerMod["HCPottedhempsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedhempsmall"]["TurnInto"] = "Hydrocraft.HCPottedhemp";
 
-ItemTimeTrackerMod["HCHempbudfresh"] = {};
-ItemTimeTrackerMod["HCHempbudfresh"]["Life"] = 72.0;
-ItemTimeTrackerMod["HCHempbudfresh"]["TurnInto"] = "Hydrocraft.HCHempbudfreshready";
+ItemTimeTrackerMod["HCPottedhemp"] = {};
+ItemTimeTrackerMod["HCPottedhemp"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedhemp"]["TurnInto"] = "Hydrocraft.HCPottedhempready";
 
-ItemTimeTrackerMod["HCHempbudfreshready"] = {};
-ItemTimeTrackerMod["HCHempbudfreshready"]["Life"] = 48.0;
-ItemTimeTrackerMod["HCHempbudfreshready"]["TurnInto"] = "Hydrocraft.HCHempbudfreshdead";
+ItemTimeTrackerMod["HCPottedhempready"] = {};
+ItemTimeTrackerMod["HCPottedhempready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedhempready"]["TurnInto"] = "Hydrocraft.HCPottedhempdead";
 
 --HCPottedtobacco
 ItemTimeTrackerMod["HCPottedtobaccosmall"] = {};
