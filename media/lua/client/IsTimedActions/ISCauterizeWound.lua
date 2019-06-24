@@ -43,6 +43,7 @@ function ISCauterizeWound:perform()
 	self.bodyPart:setBleedingTime(0);
 	self.bodyPart:AddDamage(1);
     self.bodyPart:setNeedBurnWash(true);
+	self.bandage:Use();
 
     if isClient() then
         sendCauterizeWound(self.otherPlayer:getOnlineID(), self.bodyPart:getIndex());
