@@ -1579,15 +1579,6 @@ item HCMilkjugempty
 	
 item HCMilkjugchocolateempty
     	{
-        	Weight    			= 	0.1,
-        	Type    			= 	Normal,
-        	DisplayName     		= 	Empty Milk Jug,
-        	icon 				= 	HCMilkjugchocolateempty,
-		DisplayCategory 		= 	Trash,
-    	} 
-
-item HCMilkjugchocolateempty
-    	{
         	Weight    			=   	0.1,
 		CanStoreWater			=	TRUE,
         	Type    			=   	Normal,
@@ -1603,7 +1594,7 @@ item HCEvaporatedmilkopenempty
         	Weight    			= 	0.1,
         	Type    			= 	Normal,
         	DisplayName     		= 	Plastic Packaging,
-        	icon 				= 	HCEvaporatedmilkopenempty,
+        	icon 				= 	HCEvaporatedmilkempty,
 		DisplayCategory 		= 	Trash,
     	} 
 
