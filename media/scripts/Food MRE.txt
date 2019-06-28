@@ -582,7 +582,7 @@ recipe Mix into Bottle
 recipe Unbox MREs
     {
 		HCMREbox,
-		Result:HCMRE=20,
+		Result:HCMRE=8,
 		Time:15.0,
 		Category:Cooking,
     }	
@@ -590,7 +590,7 @@ recipe Unbox MREs
 recipe Unpack Small Pallet of MREs
     {
     	HCMREpalletsmall,
-    	Result:HCMREbox=8,
+    	Result:HCMREbox=4,
     	Time:20.0,
     	Category:Cooking,
     	OnCreate:recipe_hcpallet,
@@ -598,7 +598,7 @@ recipe Unpack Small Pallet of MREs
 
 recipe Pack Small Pallet of MREs
     {
-    	HCMREbox=8,
+    	HCMREbox=4,
     	HCRopethick,
 		HCWoodenpallet,
     	Result:HCMREpalletsmall,
@@ -609,7 +609,7 @@ recipe Pack Small Pallet of MREs
 recipe Unpack Medium Pallet of MREs
     {
     	HCMREpalletmedium,
-    	Result:HCMREbox=16,
+    	Result:HCMREbox=8,
     	Time:20.0,
     	Category:Cooking,
     	OnCreate:recipe_hcpallet,
@@ -617,7 +617,7 @@ recipe Unpack Medium Pallet of MREs
 
 recipe Pack Medium Pallet of MREs
     {
-    	HCMREbox=16,
+    	HCMREbox=8,
     	HCRopethick,
 		HCWoodenpallet,
     	Result:HCMREpalletmedium,
@@ -628,7 +628,7 @@ recipe Pack Medium Pallet of MREs
 recipe Unpack Large Pallet of MREs
     {
     	HCMREpalletlarge,
-    	Result:HCMREbox=24,
+    	Result:HCMREbox=12,
     	Time:20.0,
     	Category:Cooking,
     	OnCreate:recipe_hcpallet,
@@ -636,7 +636,7 @@ recipe Unpack Large Pallet of MREs
 
 recipe Pack Large Pallet of MREs
     {
-    	HCMREbox=24,
+    	HCMREbox=12,
     	HCRopethick,
 		HCWoodenpallet,
     	Result:HCMREpalletlarge,
