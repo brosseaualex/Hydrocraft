@@ -19,7 +19,7 @@ module Base
 		HungerChange		=	-25,
 		DaysTotallyRotten	=	6,
 		DaysFresh 			= 	3,
-		FoodType    		=   	NoExplicit,
+		FoodType    		=   NoExplicit,
 		Carbohydrates 		= 	65.9,
 		Proteins 			= 	10,
 		Lipids 				= 	3.3,
