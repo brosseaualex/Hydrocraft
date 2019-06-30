@@ -688,7 +688,6 @@ recipe Make Homemade Pancake Batter
 		Water=1,
 		Flour/HCRiceflour,
 		Sugar=1,
-		Make Homemade Pancake Batter
 		Egg/WildEggs/HCGooseegg/HCTurkeyegg/HCSparrowegg,
 		Result:HCPancakebatter,
 		Time:30.0,

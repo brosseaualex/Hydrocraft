@@ -782,7 +782,7 @@ recipe Jar Homemade Yogurt
     {
 	SkillRequired:Cooking=8,
     	HCJarhomemadeyogurt,
-  	HCDriedapplesbag,
+  	HCDriedapplebag,
 	HCDriedrasinsbag,
 	HCSunflowerseedsnack;5,
 	HCJampear;5,
