@@ -1594,6 +1594,89 @@ item HCWhiskeycolademonobottle
 	Lipids 			= 	20,
 	Calories 		= 	542,
     }
+	
+/****BEER*SIX*PACKS*START****/
+item HCBeercan1pack
+	{
+		DisplayName 		= Pack of Beer,
+		Type 				= Food,
+		Weight 				= 1,
+		Icon 				= HCBeercan1pack,
+		CantBeFrozen 		= TRUE,
+	}
+item HCBeercan2pack
+	{
+		DisplayName 		= Pack of Beer,
+		Type 				= Food,
+		Weight 				= 1,
+		Icon 				= HCBeercan2pack,
+		CantBeFrozen 		= TRUE,
+	}
+item HCBeercan3pack
+	{
+		DisplayName 		= Pack of Beer,
+		Type 				= Food,
+		Weight 				= 1,
+		Icon 				= HCBeercan3pack,
+		CantBeFrozen 		= TRUE,
+	}
+item HCBeercan4pack
+	{
+		DisplayName 		= Pack of Beer,
+		Type 				= Food,
+		Weight 				= 1,
+		Icon 				= HCBeercan4pack,
+		CantBeFrozen 		= TRUE,
+	}
+item HCBeercan5pack
+	{
+		DisplayName 		= Pack of Beer,
+		Type 				= Food,
+		Weight 				= 1,
+		Icon 				= HCBeercan5pack,
+		CantBeFrozen 		= TRUE,
+	}
+item HCBeercan6pack
+	{
+		DisplayName 		= Pack of Beer,
+		Type 				= Food,
+		Weight 				= 1,
+		Icon 				= HCBeercan6pack,
+		CantBeFrozen 		= TRUE,
+	}
+item HCBeercan7pack
+	{
+		DisplayName 		= Pack of Beer,
+		Type 				= Food,
+		Weight 				= 1,
+		Icon 				= HCBeercan7pack,
+		CantBeFrozen 		= TRUE,
+	}
+item HCBeercan8pack
+	{
+		DisplayName 		= Pack of Beer,
+		Type 				= Food,
+		Weight 				= 1,
+		Icon 				= HCBeercan8pack,
+		CantBeFrozen 		= TRUE,
+	}
+item HCBeercan9pack
+	{
+		DisplayName 		= Pack of Beer,
+		Type 				= Food,
+		Weight 				= 1,
+		Icon 				= HCBeercan9pack,
+		CantBeFrozen 		= TRUE,
+	}
+item HCBeercan10pack
+	{
+		DisplayName 		= Pack of Beer,
+		Type 				= Food,
+		Weight 				= 1,
+		Icon 				= HCBeercan10pack,
+		CantBeFrozen 		= TRUE,
+	}
+/****BEER*SIX*PACKS*END******/
 
 /************************RECIPES************************/
     
@@ -1903,5 +1986,151 @@ recipe Make Monkey Tail Bottle
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
     	}
+		
+/****BEER*OPEN*SIX*PACKS*START******/
+recipe Open Pack of Beer
+	{	
+		HCBeercan1pack,
+		Result 		: HCBeercan1=6,
+		Time 		: 50.0,
+		Category:Cooking,
+	}
+recipe Open Pack of Beer
+	{	
+		HCBeercan2pack,
+		Result 		: HCBeercan2=6,
+		Time 		: 50.0,
+		Category:Cooking,
+	}		
+recipe Open Pack of Beer
+	{	
+		HCBeercan3pack,
+		Result 		: HCBeercan3=6,
+		Time 		: 50.0,
+		Category:Cooking,
+	}		
+recipe Open Pack of Beer
+	{	
+		HCBeercan4pack,
+		Result 		: HCBeercan4=6,
+		Time 		: 50.0,
+		Category:Cooking,
+	}		
+recipe Open Pack of Beer
+	{	
+		HCBeercan5pack,
+		Result 		: HCBeercan5=6,
+		Time 		: 50.0,
+		Category:Cooking,
+	}		
+recipe Open Pack of Beer
+	{	
+		HCBeercan6pack,
+		Result 		: HCBeercan6=6,
+		Time 		: 50.0,
+		Category:Cooking,
+	}		
+recipe Open Pack of Beer
+	{	
+		HCBeercan7pack,
+		Result 		: HCBeercan7=6,
+		Time 		: 50.0,
+		Category:Cooking,
+	}		
+recipe Open Pack of Beer
+	{	
+		HCBeercan8pack,
+		Result 		: HCBeercan8=6,
+		Time 		: 50.0,
+		Category:Cooking,
+	}		
+recipe Open Pack of Beer
+	{	
+		HCBeercan9pack,
+		Result 		: HCBeercan9=6,
+		Time 		: 50.0,
+		Category:Cooking,
+	}		
+recipe Open Pack of Beer
+	{	
+		HCBeercan10pack,
+		Result 		: HCBeercan10=6,
+		Time 		: 50.0,
+		Category:Cooking,
+	}
+/***BEER*OPEN*END*******************/
+		
+/***BEER*PACK*START*****************/
+recipe Pack Beer
+	{	
+		HCBeercan1=6,
+		Result 		: HCBeercan1pack,
+		Time 		: 50.0,
+		Category:Cooking,
+	}
+recipe Pack Beer
+	{	
+		HCBeercan2=6,
+		Result 		: HCBeercan2pack,
+		Time 		: 50.0,
+		Category:Cooking,
+	}
+recipe Pack Beer
+	{	
+		HCBeercan3=6,
+		Result 		: HCBeercan3pack,
+		Time 		: 50.0,
+		Category:Cooking,
+	}
+recipe Pack Beer
+	{	
+		HCBeercan4=6,
+		Result 		: HCBeercan4pack,
+		Time 		: 50.0,
+		Category:Cooking,
+	}
+recipe Pack Beer
+	{	
+		HCBeercan5=6,
+		Result 		: HCBeercan5pack,
+		Time 		: 50.0,
+		Category:Cooking,
+	}
+recipe Pack Beer
+	{	
+		HCBeercan6=6,
+		Result 		: HCBeercan6pack,
+		Time 		: 50.0,
+		Category:Cooking,
+	}
+recipe Pack Beer
+	{	
+		HCBeercan7=6,
+		Result 		: HCBeercan7pack,
+		Time 		: 50.0,
+		Category:Cooking,
+	}
+recipe Pack Beer
+	{	
+		HCBeercan8=6,
+		Result 		: HCBeercan8pack,
+		Time 		: 50.0,
+		Category:Cooking,
+	}
+recipe Pack Beer
+	{	
+		HCBeercan9=6,
+		Result 		: HCBeercan9pack,
+		Time 		: 50.0,
+		Category:Cooking,
+	}
+recipe Pack Beer
+	{	
+		HCBeercan10=6,
+		Result 		: HCBeercan10pack,
+		Time 		: 50.0,
+		Category:Cooking,
+	}
+/***BEER*PACK*END*******************/
 	
 }

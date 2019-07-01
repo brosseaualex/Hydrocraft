@@ -138,7 +138,7 @@ item HCOilpress
         Type    		= Normal,
         DisplayName         	= Oil Press,
         icon 			= HCOilpress,
-	ResizeWorldIcon 	= 2.0,
+		ResizeWorldIcon 	= 1.0,
     } 
 
 item HCOilpress2
@@ -147,7 +147,7 @@ item HCOilpress2
         Type    		= Normal,
         DisplayName         	= Oil Press,
         icon 			= HCOilpress,
-	ResizeWorldIcon 	= 2.0,
+		ResizeWorldIcon 	= 1.0,
     } 
 
 item HCStonewheel
@@ -156,7 +156,7 @@ item HCStonewheel
         Type    		= Normal,
         DisplayName         	= Stone Wheel,
         icon 			= HCStonewheel,
-	ResizeWorldIcon 	= 2.0,
+		ResizeWorldIcon 	= 1.0,
     } 
 
 item HCGrindstone
@@ -165,7 +165,7 @@ item HCGrindstone
         Type    		= Normal,
         DisplayName         	= Grindstone,
         icon 			= HCGrindstone,
-	ResizeWorldIcon 	= 2.0,
+		ResizeWorldIcon 	= 1.0,
     } 
 
 item HCGrindstone2
@@ -174,7 +174,7 @@ item HCGrindstone2
         Type    		= Normal,
         DisplayName         	= Grindstone,
         icon 			= HCGrindstone,
-	ResizeWorldIcon 	= 2.0,
+		ResizeWorldIcon 	= 1.0,
     } 
 
 item HCStampmill

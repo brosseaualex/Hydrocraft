@@ -524,7 +524,7 @@ item HCDissectiontable
         Type   			= Normal,
         DisplayName         	= Dissection Table,
         icon 			= HCDissectiontable,
-	ResizeWorldIcon 	= 2.0,
+		ResizeWorldIcon 	= 1.0,
     }
 
 item HCDissectiontablebody
@@ -533,7 +533,7 @@ item HCDissectiontablebody
         Type   			= Normal,
         DisplayName         	= Dissection Table with Corpse,
         icon 			= HCDissectiontablebody,
-	ResizeWorldIcon 	= 2.0,
+		ResizeWorldIcon 	= 1.0,
     }
 
 item HCDissectiontabledissected
@@ -542,7 +542,7 @@ item HCDissectiontabledissected
         Type   			= Normal,
         DisplayName         	= Dissection Table with Dissected Corpse,
         icon 			= HCDissectiontabledissected,
-	ResizeWorldIcon 	= 2.0,
+		ResizeWorldIcon 	= 1.0,
     }
 
 item HCDissectiontablebloody
@@ -551,7 +551,7 @@ item HCDissectiontablebloody
         Type   			= Normal,
         DisplayName         	= Bloody Dissection Table,
         icon 			= HCDissectiontablebloody,
-	ResizeWorldIcon 	= 2.0,
+		ResizeWorldIcon 	= 1.0,
     }
 
 item HCZedbrain

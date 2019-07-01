@@ -299,7 +299,7 @@ item HCCoop
         Type    		= Normal,
         DisplayName         	= Empty Chicken Coop,
         icon 			= HCCoop,
-	ResizeWorldIcon 	= 2.0,
+		ResizeWorldIcon 	= 1.0,
     }
 
 item HCCoophungry
@@ -308,7 +308,7 @@ item HCCoophungry
         Type    		= Normal,
         DisplayName         	= Coop with Hungry Chickens,
         icon 			= HCCoopfull,
-	ResizeWorldIcon 	= 2.0,
+		ResizeWorldIcon 	= 1.0,
     }
 
 item HCCoopfull
@@ -317,7 +317,7 @@ item HCCoopfull
         Type    		= Normal,
         DisplayName         	= Coop with Chickens,
         icon 			= HCCoopfull,
-	ResizeWorldIcon 	= 2.0,
+		ResizeWorldIcon 	= 1.0,
     }
 
 item HCCooptired
@@ -326,7 +326,7 @@ item HCCooptired
         Type    		= Normal,
         DisplayName         	= Coop with Tired Chickens,
         icon 			= HCCoopfull,
-	ResizeWorldIcon 	= 2.0,
+		ResizeWorldIcon 	= 1.0,
     }
 
 item HCPigmale

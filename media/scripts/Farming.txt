@@ -16,7 +16,7 @@ item HCGardenbench
 	Capacity             	= 50,
         DisplayName         	= Gardening Workbench,
         icon 			= HCGardenbench,
-	ResizeWorldIcon 	= 2.0,
+		ResizeWorldIcon 	= 1.0,
     }
 
 item HCGardenhose
