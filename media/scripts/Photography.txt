@@ -77,7 +77,7 @@ item HCPhotobench
 	Capacity             	= 50,
         DisplayName         	= Photography Workbench,
         icon 			= HCPhotobench,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.8,
     }
 
 

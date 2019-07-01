@@ -15,7 +15,7 @@ item HCSmelter
         Type    		= Normal,
         DisplayName         	= Smelter,
         icon 			= HCSmelter,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.8,
     }
 
 item HCSmelter2
@@ -24,7 +24,7 @@ item HCSmelter2
         Type    		= Normal,
         DisplayName         	= Smelter,
         icon 			= HCSmelter,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.8,
     }
 
 
@@ -34,7 +34,7 @@ item HCBlastfurnace
         Type    		= Normal,
         DisplayName         	= Blast Furnace,
         icon 			= HCBlastfurnace,
-	ResizeWorldIcon 	= 1.0,
+	ResizeWorldIcon 	= 0.8,
     }
 
 item HCBlastfurnace2
@@ -43,7 +43,7 @@ item HCBlastfurnace2
         Type    		= Normal,
         DisplayName         	= Blast Furnace,
         icon 			= HCBlastfurnace,
-	ResizeWorldIcon 	= 1.0,
+	ResizeWorldIcon 	= 0.8,
     }
 
 item HCCopperingot
@@ -284,7 +284,7 @@ item HCAnvil
         Type    		= Normal,
         DisplayName         	= Iron Anvil,
         icon 			= HCAnvil,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.0,
     }
 
 item HCAnvil2
@@ -293,7 +293,7 @@ item HCAnvil2
         Type    		= Normal,
         DisplayName         	= Iron Anvil,
         icon 			= HCAnvil,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.0,
     }
 
 item HCAnvillead
@@ -302,7 +302,7 @@ item HCAnvillead
         Type    		= Normal,
         DisplayName         	= Lead Anvil,
         icon 			= HCAnvillead,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.0,
     }
 
 item HCAnvillead2
@@ -311,7 +311,7 @@ item HCAnvillead2
         Type    		= Normal,
         DisplayName         	= Lead Anvil,
         icon 			= HCAnvillead,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.0,
     }
 
 item HCCauldroniron
@@ -322,7 +322,7 @@ item HCCauldroniron
         DisplayName         	= Iron Cauldron,
 	ReplaceOnUseOn		= WaterSource-HCCauldronironfull,
         icon 			= HCCauldroniron,
-	ResizeWorldIcon 	= 1.0,
+	ResizeWorldIcon 	= 0.8,
 	RainFactor 		= 1,
     }
 
@@ -338,7 +338,7 @@ item HCCauldronironfull
 	ReplaceOnDeplete	=	HCCauldroniron,
 	ReplaceOnUseOn		=	WaterSource-HCCauldronironfull,
 	Icon			=	HCCauldronironfull,
-	ResizeWorldIcon 	= 	1.0,
+	ResizeWorldIcon 	= 	0.8,
 	IsCookable		=	TRUE,
 	RainFactor 		= 	1,
     }

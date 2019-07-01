@@ -27,7 +27,7 @@ item HCGardenhose
         icon 				= HCGardenhose,
 	UseDelta 			= 0.1,
 	UseWhileEquipped 		= false,
-	ResizeWorldIcon 		= 2.0,
+	ResizeWorldIcon 		= 1.0,
     }
 
 item HCGardenapron
@@ -116,7 +116,7 @@ item HCLawnmower
         Type    			= Normal,
         DisplayName         		= Lawnmower,
         icon 				= HCLawnmower,
-	ResizeWorldIcon 		= 2.0,
+	ResizeWorldIcon 		= 1.8,
     }
 
 item TrellisKit

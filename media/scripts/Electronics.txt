@@ -16,7 +16,7 @@ item HCElectornicsbench
 	Capacity             	= 50,
         DisplayName         	= Electronics Workbench,
         icon 			= HCElectornicsbench,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.8,
     }
 
 item HCCalculator

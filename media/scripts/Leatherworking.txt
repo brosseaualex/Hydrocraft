@@ -892,7 +892,7 @@ item HCDryingframe
         Type    		= Normal,
         DisplayName         	= Drying Frame,
         icon 			= HCDryingframe,
-	ResizeWorldIcon 	= 1.0,
+	ResizeWorldIcon 	= 0.8,
     }
 
 item HCWoodenbuckettan

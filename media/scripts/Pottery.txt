@@ -65,7 +65,7 @@ item HCKiln
         Type    		= Normal,
         DisplayName         	= Kiln,
         icon 			= HCKiln,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.8,
     }
 
 item HCKiln2
@@ -74,7 +74,7 @@ item HCKiln2
         Type    		= Normal,
         DisplayName         	= Kiln,
         icon 			= HCKiln,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.8,
     }
 
 item HCIngotmold
@@ -250,7 +250,7 @@ item HCClaycauldron
         DisplayName         	= Clay Cauldron,
 	ReplaceOnUseOn		= HCClaycauldronfull,
         icon 			= HCClaycauldron,
-	ResizeWorldIcon 	= 1.0,
+	ResizeWorldIcon 	= 0.8,
 	RainFactor 		= 1,
     }
 
@@ -266,7 +266,7 @@ item HCClaycauldronfull
 	ReplaceOnDeplete	=	HCClaycauldron,
 	ReplaceOnUseOn		=	WaterSource-HCClaycauldronfull,
 	Icon			=	HCClaycauldronfull,
-	ResizeWorldIcon 	= 	1.0,
+	ResizeWorldIcon 	= 	0.8,
 	IsCookable		=	TRUE,
 	RainFactor 		= 	1,
     }

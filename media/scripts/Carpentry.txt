@@ -117,7 +117,7 @@ item HCWorkbench
 	Capacity             	= 50,
         DisplayName         	= Workbench,
         icon 			= HCWorkbench,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.8,
     }
 
 item HCTablewood
@@ -137,7 +137,7 @@ item HCCarpenterbench
 	Capacity             	= 50,
         DisplayName         	= Carpenter Bench,
         icon 			= HCCarpenterbench,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.8,
     }
 
 item HCSawbuck
@@ -146,7 +146,7 @@ item HCSawbuck
         Type   			= Normal,
         DisplayName         	= Sawbuck,
         icon 			= HCSawbuck,
-	ResizeWorldIcon 	= 1.0
+	ResizeWorldIcon 	= 0.8
     }
 
 item HCPlankbarrier
@@ -626,7 +626,7 @@ item HCScarecrowstand
         Type    		= Normal,
         DisplayName         	= Scarecrow Stand,
         icon 			= HCScarecrowstand,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.8,
     }
 
 item HCScarecrow
@@ -635,7 +635,7 @@ item HCScarecrow
         Type    		= Normal,
         DisplayName         	= Scarecrow,
         icon 			= HCScarecrow,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.8,
     }
 
 item HCScarecrow2
@@ -644,7 +644,7 @@ item HCScarecrow2
         Type    		= Normal,
         DisplayName         	= Scarecrow,
         icon 			= HCScarecrow2,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.8,
     }
 
 item HCScarezed
@@ -653,7 +653,7 @@ item HCScarezed
         Type    		= Normal,
         DisplayName         	= Corpse Scarecrow,
         icon 			= HCScarezed,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.8,
     }
 
 item HCScarezed2
@@ -662,7 +662,7 @@ item HCScarezed2
         Type    		= Normal,
         DisplayName         	= Corpse Scarecrow,
         icon 			= HCScarezed2,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.8,
     }
 
 item HCHaytarget
@@ -671,7 +671,7 @@ item HCHaytarget
         Type    		= Normal,
         DisplayName         	= Archery Target,
         icon 			= HCHaytarget,
-	ResizeWorldIcon 	= 2.0,
+	ResizeWorldIcon 	= 1.8,
     }
 
 item HCBirdcall
