@@ -321,33 +321,38 @@ item HCPumpkinbreaddough
 		Calories 			= 	1388, 
 	}
 
-item HCGritsbowl
+	item HCGritsbowl
 	{
-	HungerChange			=	-25,
-	Weight				=	0.6,
-	Type				=	Food,
-	DisplayName			=	Bowl of Grits,
-	ReplaceOnUse			=	Bowl,
-	Icon				=	HCGritsbowl,
-	DaysTotallyRotten		=	3,
-	DaysFresh 			= 	6,
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	77,
-        Proteins 			= 	10,
-        Lipids 				= 	1.8,
-        Calories 			= 	347, 
+		HungerChange		=	-25,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		Weight				=	0.6,
+		Type				=	Food,
+		DisplayName			=	Bowl of Grits,
+		ReplaceOnUse		=	Bowl,
+		Icon				=	HCGritsbowl,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	50,
+		DaysTotallyRotten	=	3,
+		DaysFresh 			= 	6,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	77,
+		Proteins 			= 	10,
+		Lipids 				= 	1.8,
+		Calories 			= 	347, 
 	}
 
 	item HCGritscheesypot
 	{
-		HungerChange		=	-40,
+		HungerChange		=	-50,
 		Weight				=	1.4,
 		Type				=	Food,
 		IsCookable			=	TRUE,
 		DangerousUncooked	=	TRUE,
-		UnhappyChange		=	-10,
-		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		BoredomChange		=	-15,
 		MinutesToCook		=	30,
 		MinutesToBurn		=	50,
 		DaysFresh			=	3,	
@@ -364,10 +369,15 @@ item HCGritsbowl
 
 	item HCGritscheesybowl
 	{
-	HungerChange			=	-25,
+	HungerChange			=	-30,
+	UnhappyChange		=	-15,
+	BoredomChange		=	-15,
 	Weight				=	0.6,
 	Type				=	Food,
 	DisplayName			=	Bowl of Cheesy Grits,
+	IsCookable			=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	50,
 	ReplaceOnUse			=	Bowl,
 	Icon				=	HCGritscheesybowl,
 	DaysTotallyRotten		=	3,
@@ -1132,15 +1142,15 @@ recipe Make Pot of Grits
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Fill Grits into Bowls
+	recipe Fill Grits into Bowls
 	{
 		Bowl=4,
-		HCGritspotcooked,
+		HCGritspot,
 		Result:HCGritsbowl=4,
 		Time:50.0,
 		Category:Cooking,
-    		OnCreate:recipe_hcpot,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		OnCreate:recipe_hcpot,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Pot of Cheesy Grits
@@ -1157,15 +1167,15 @@ recipe Make Pot of Cheesy Grits
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Fill Cheesy Grits into Bowls
+	recipe Fill Cheesy Grits into Bowls
 	{
 		Bowl=4,
-		HCGritscheesypotcooked,
+		HCGritscheesypot,
 		Result:HCGritscheesybowl=4,
 		Time:50.0,
 		Category:Cooking,
-    		OnCreate:recipe_hcpot,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		OnCreate:recipe_hcpot,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Flatbread

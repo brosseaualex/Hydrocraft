@@ -411,9 +411,9 @@ ItemTimeTrackerMod["HCBarrelgrapegreen"]["TurnInto"] = "Hydrocraft.HCBarrelwinew
 --Mead
 --14 Days for Honey Brew to Mead
 
-ItemTimeTrackerMod["HCBarrelhoneybrew"] = {};   
-ItemTimeTrackerMod["HCBarrelhoneybrew"]["Life"] = 336.0;
-ItemTimeTrackerMod["HCBarrelhoneybrew"]["TurnInto"] = "Hydrocraft.HCBarrelmead";
+ItemTimeTrackerMod["HCBarrelhoney"] = {};   
+ItemTimeTrackerMod["HCBarrelhoney"]["Life"] = 336.0;
+ItemTimeTrackerMod["HCBarrelhoney"]["TurnInto"] = "Hydrocraft.HCBarrelmead";
 
 --Mead
 --14 Days for Rice Mash to Sake

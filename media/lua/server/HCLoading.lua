@@ -287,8 +287,8 @@ end
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
 
 	-- Add items for Kitchen Counter
-	table.insert(SuburbsDistributions["kitchen"]["counter"].items, "Hydrocraft.BakingTray");
-	table.insert(SuburbsDistributions["kitchen"]["counter"].items, 1);
+	table.insert(SuburbsDistributions["kitchen"]["counter"].items, "Base.BakingTray");
+	table.insert(SuburbsDistributions["kitchen"]["counter"].items, 5);
 	table.insert(SuburbsDistributions["kitchen"]["counter"].items, "Hydrocraft.HCSpork");
 	table.insert(SuburbsDistributions["kitchen"]["counter"].items, 0.5);
 	table.insert(SuburbsDistributions["kitchen"]["counter"].items, "Hydrocraft.HCSteakknife");
@@ -9313,8 +9313,8 @@ end
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, 0.001);	
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, "Hydrocraft.HCLegarmorsamurai");
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, 0.001);		
-	table.insert(SuburbsDistributions["storageunit"]["all"].items, "Hydrocraft.BakingTray");
-	table.insert(SuburbsDistributions["storageunit"]["all"].items, 1);
+	table.insert(SuburbsDistributions["storageunit"]["all"].items, "Base.BakingTray");
+	table.insert(SuburbsDistributions["storageunit"]["all"].items, 5);
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, "Hydrocraft.HCSpork");
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, 0.5);
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, "Hydrocraft.HCSteakknife");
