@@ -10102,7 +10102,28 @@ end
 	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan9");
 	table.insert(SuburbsDistributions["bar"]["shelves"].items, 1);
 	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan10");
-	table.insert(SuburbsDistributions["bar"]["shelves"].items, 1);	
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 1);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan1pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan2pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan3pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan4pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan5pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan6pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan7pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan8pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan9pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan10pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	
 
 	-- Add items for Bar Counters
 	table.insert(SuburbsDistributions["bar"]["counter"].items, "Hydrocraft.HCCueball");
@@ -10216,7 +10237,27 @@ end
 	table.insert(SuburbsDistributions["bar"]["counter"].items, "Hydrocraft.HCBeercan9");
 	table.insert(SuburbsDistributions["bar"]["counter"].items, 1);
 	table.insert(SuburbsDistributions["bar"]["counter"].items, "Hydrocraft.HCBeercan10");
-	table.insert(SuburbsDistributions["bar"]["counter"].items, 1);	
+	table.insert(SuburbsDistributions["bar"]["counter"].items, 1);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan1pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan2pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan3pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan4pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan5pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan6pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan7pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan8pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan9pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, "Hydrocraft.HCBeercan10pack");
+	table.insert(SuburbsDistributions["bar"]["shelves"].items, 0.2);
 
 	-- Add items for Gun Store Locker
 	table.insert(SuburbsDistributions["gunstore"]["locker"].items, "Hydrocraft.HCGrenade");
