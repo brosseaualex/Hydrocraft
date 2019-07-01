@@ -60,7 +60,7 @@ item HCBaton
 		SplatBloodOnNoDeath		=	FALSE,
 		Icon				=	HCBaton,
 		RunAnim				=	Run_Weapon2,
-		BreakSound  			=   	PZ_MetalSnap,
+		BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	1,
 	}
 

@@ -41,7 +41,7 @@ item HCSmithyhammertitanium
 		Icon				=	HCSmithyhammertitanium,
 		RunAnim				=	Run_Weapon2,
         	IdleAnim			=	Idle_Weapon2,
-        	BreakSound  			=   	PZ_MetalSnap,
+        	BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	1,
 	}
 
@@ -75,7 +75,7 @@ item HCSmithyhammersteel
 		Icon				=	HCSmithyhammersteel,
 		RunAnim				=	Run_Weapon2,
         	IdleAnim			=	Idle_Weapon2,
-        	BreakSound  			=   	PZ_MetalSnap,
+        	BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	1,
 	}
 
@@ -109,7 +109,7 @@ item HCSmithyhammeriron
 		Icon				=	HCSmithyhammeriron,
 		RunAnim				=	Run_Weapon2,
         	IdleAnim			=	Idle_Weapon2,
-        	BreakSound  			=   	PZ_MetalSnap,
+        	BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	1,
 	}
 
@@ -143,7 +143,7 @@ item HCSmithyhammerbronze
 		Icon				=	HCSmithyhammerbronze,
 		RunAnim				=	Run_Weapon2,
         	IdleAnim			=	Idle_Weapon2,
-        	BreakSound  			=   	PZ_MetalSnap,
+        	BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	1,
 	}
 
@@ -177,7 +177,7 @@ item HCSmithyhammercopper
 		Icon				=	HCSmithyhammercopper,
 		RunAnim				=	Run_Weapon2,
         	IdleAnim			=	Idle_Weapon2,
-        	BreakSound  			=   	PZ_MetalSnap,
+        	BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	1,
 	}
 
@@ -214,7 +214,7 @@ item HCWarhammersteel
 		Icon				=	HCWarhammersteel,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
        		TreeDamage  			=   	10,
 		RequiresEquippedBothHands 	= 	true
 	}
@@ -252,7 +252,7 @@ item HCWarhammeriron
 		Icon				=	HCWarhammeriron,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
        		TreeDamage  			=   	10,
 		RequiresEquippedBothHands 	= 	true
 	}
@@ -290,7 +290,7 @@ item HCWarhammerbronze
 		Icon				=	HCWarhammerbronze,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
        		TreeDamage  			=   	10,
 		RequiresEquippedBothHands 	= 	true
 	}
@@ -328,7 +328,7 @@ item HCWarhammercopper
 		Icon				=	HCWarhammercopper,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
        		TreeDamage  			=   	10,
 		RequiresEquippedBothHands 	= 	true
 	}
@@ -366,7 +366,7 @@ item HCWarhammercopper
 		Icon				=	HCSpikedmacesteel,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
 	}
 
@@ -403,7 +403,7 @@ item HCWarhammercopper
 		Icon				=	HCSpikedmaceiron,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
 	}
 
@@ -440,7 +440,7 @@ item HCWarhammercopper
 		Icon				=	HCSpikedmacebronze,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
 	}
 
@@ -477,7 +477,7 @@ item HCWarhammercopper
 		Icon				=	HCSpikedmacecopper,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
 	}
 
@@ -514,7 +514,7 @@ item HCWarhammercopper
 		Icon				=	HCSpikedflailsteel,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
 	}
 
@@ -552,7 +552,7 @@ item HCWarhammercopper
 		Icon				=	HCSpikedflailiron,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
 	}
 
@@ -589,7 +589,7 @@ item HCWarhammercopper
 		Icon				=	HCSpikedflailbronze,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
 	}
 
@@ -626,7 +626,7 @@ item HCWarhammercopper
 		Icon				=	HCSpikedflailcopper,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
 	}
 
@@ -664,7 +664,7 @@ item HCWarhammercopper
 		Icon				=	HCFlailstone,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
 	}
 

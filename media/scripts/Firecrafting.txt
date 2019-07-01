@@ -199,7 +199,7 @@ item HCPlanktreated
 		Icon				=	HCPlanktreated,
 		RunAnim				=	Run_Weapon2,
         	IdleAnim			=	Idle_Weapon2,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	0,
 	}
 

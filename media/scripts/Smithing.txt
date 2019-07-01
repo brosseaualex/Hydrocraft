@@ -411,7 +411,7 @@ item HCSteelpipebox
 		KnockdownMod			=	0,
 		Icon				=	HCSteelpipe,
 		RunAnim				=	Run_Weapon2,
-		BreakSound  			=   	PZ_MetalSnap,
+		BreakSound  			=   	BreakMetalItem,
 		TreeDamage  			=   	1,
 	}
 

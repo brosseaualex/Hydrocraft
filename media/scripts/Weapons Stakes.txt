@@ -46,7 +46,7 @@ item HCStakecrude
 		Icon				=	HCStakecrude,
 		RunAnim				=	Run_Weapon2,
         	IdleAnim			=	Idle_Weapon2,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
        		TreeDamage  			=   	0,
         	EnduranceMod 			= 	0.5,
 	}
@@ -84,7 +84,7 @@ item HCStake
 		Icon				=	HCStake,
 		RunAnim				=	Run_Weapon2,
         	IdleAnim			=	Idle_Weapon2,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	0,
         	EnduranceMod 			= 	0.5,
 	}
@@ -123,7 +123,7 @@ item HCStakehard
 		Icon				=	HCStakehard,
 		RunAnim				=	Run_Weapon2,
         	IdleAnim			=	Idle_Weapon2,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
         	EnduranceMod 			= 	0.5,
 	}

@@ -205,7 +205,7 @@ item HCBoxcutter
 		Icon				=	HCBoxcutter,
 		RunAnim				=	Run_Weapon2,
         	IdleAnim			=	Idle_Weapon2,
-       	 	BreakSound  			=   	PZ_MetalSnap,
+       	 	BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	1,
         	EnduranceMod 			= 	0.5,
 	}

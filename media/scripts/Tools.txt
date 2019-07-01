@@ -681,7 +681,7 @@ item HCScissorlift
         	ClipSize 			= 	10,
         	ReloadTime 			= 	10,
         	AimingTime 			= 	40,
-        	BreakSound  			=   	PZ_MetalSnap,
+        	BreakSound  			=   	BreakMetalItem,
 	}
 
 	item HCWrench
@@ -714,7 +714,7 @@ item HCScissorlift
 		KnockdownMod			=	0,
 		Icon				=	HCWrench,
 		RunAnim				=	Run_Weapon2,
-		BreakSound  			=   PZ_MetalSnap,
+		BreakSound  			=   BreakMetalItem,
 		TreeDamage  			=   1,
 	}
 
@@ -748,7 +748,7 @@ item HCScissorlift
 		KnockdownMod			=	0,
 		Icon				=	HCMonkeywrench,
 		RunAnim				=	Run_Weapon2,
-		BreakSound  			=   	PZ_MetalSnap,
+		BreakSound  			=   	BreakMetalItem,
 		TreeDamage  			=   	1,
 	}
 
@@ -785,7 +785,7 @@ item HCScissorlift
         	Icon                    	=    HCCane,
         	RunAnim                		=    Run_Weapon2,
       		TwoHandWeapon             	=    TRUE,
-            	BreakSound             		=    PZ_WoodSnap,
+            	BreakSound             		=    BreakWoodItem,
         	TreeDamage             		=    1,
     	}
 
@@ -824,7 +824,7 @@ item HCScissorlift
 		HitAngleMod					=	-30,
 		MinAngle					=	0.2,
 		TwoHandWeapon 					= 	FALSE,
-        	BreakSound  					=   	PZ_WoodSnap,
+        	BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	10,
         	TwoHandWeapon 					= 	TRUE,
 	}
@@ -863,7 +863,7 @@ item HCScissorlift
         	Icon    					=    	ChainSaw,
         	RunAnim    					=    	Run_Weapon2,
         	TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	125,
         
     }
@@ -902,7 +902,7 @@ item HCScissorlift
         	Icon    					=    	ChainSaw,
         	RunAnim    					=    	Run_Weapon2,
         	TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	3,
     }
 

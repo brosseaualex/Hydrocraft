@@ -280,7 +280,7 @@ item HCWaterheater
 		SplatBloodOnNoDeath				=	TRUE,
 		Icon						=	HCChain,
 		RunAnim						=	Run_Weapon2,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
 	}
 
 /************************RECIPES************************/

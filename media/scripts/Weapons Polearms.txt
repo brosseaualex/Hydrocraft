@@ -45,7 +45,7 @@ module Hydrocraft
 		Icon						=	HCHalberdsteel,
 		RunAnim						=	Run_Weapon2,
         	TwoHandWeapon 					= 	TRUE,
-       		BreakSound  					=   	PZ_WoodSnap,
+       		BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	25,
 		RequiresEquippedBothHands 			= 	true
 	}
@@ -84,7 +84,7 @@ module Hydrocraft
 		Icon						=	HCHalberdiron,
 		RunAnim						=	Run_Weapon2,
         	TwoHandWeapon 					= 	TRUE,
-       		BreakSound  					=   	PZ_WoodSnap,
+       		BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	25,
 		RequiresEquippedBothHands 			= 	true
 	}
@@ -123,7 +123,7 @@ module Hydrocraft
 		Icon						=	HCHalberdbronze,
 		RunAnim						=	Run_Weapon2,
         	TwoHandWeapon 					= 	TRUE,
-       		BreakSound  					=   	PZ_WoodSnap,
+       		BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	25,
 		RequiresEquippedBothHands 			= 	true
 	}
@@ -162,7 +162,7 @@ module Hydrocraft
 		Icon						=	HCHalberdcopper,
 		RunAnim						=	Run_Weapon2,
         	TwoHandWeapon 					= 	TRUE,
-       		BreakSound  					=   	PZ_WoodSnap,
+       		BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	25,
 		RequiresEquippedBothHands 			= 	true
 	}
@@ -197,7 +197,7 @@ module Hydrocraft
         	Icon						=	HCSpearsteel,
         	RunAnim						=	Run_Weapon2,
         	IdleAnim					=	Idle_Weapon2,
-        	BreakSound  					=   	PZ_WoodSnap,
+        	BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
     }
@@ -232,7 +232,7 @@ module Hydrocraft
         	Icon						=	HCSpeariron,
         	RunAnim						=	Run_Weapon2,
         	IdleAnim					=	Idle_Weapon2,
-        	BreakSound  					=   	PZ_WoodSnap,
+        	BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
     }
@@ -267,7 +267,7 @@ module Hydrocraft
         	Icon						=	HCSpearbronze,
         	RunAnim						=	Run_Weapon2,
         	IdleAnim					=	Idle_Weapon2,
-        	BreakSound  					=   	PZ_WoodSnap,
+        	BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
     }
@@ -302,7 +302,7 @@ module Hydrocraft
         	Icon						=	HCSpearcopper,
         	RunAnim						=	Run_Weapon2,
         	IdleAnim					=	Idle_Weapon2,
-        	BreakSound  					=   	PZ_WoodSnap,
+        	BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
     }
@@ -337,7 +337,7 @@ module Hydrocraft
         	Icon						=	HCSpearobsidian,
         	RunAnim						=	Run_Weapon2,
         	IdleAnim					=	Idle_Weapon2,
-        	BreakSound  					=   	PZ_WoodSnap,
+        	BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
     }
@@ -373,7 +373,7 @@ module Hydrocraft
         	Icon						=	HCSpearstone,
         	RunAnim						=	Run_Weapon2,
         	IdleAnim					=	Idle_Weapon2,
-        	BreakSound  					=   	PZ_WoodSnap,
+        	BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
     }
@@ -410,7 +410,7 @@ module Hydrocraft
         	RunAnim						=	Run_Weapon2,
         	IdleAnim					=	Idle_Weapon2,
         	TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	PZ_WoodSnap,
+        	BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	0,
 	}
 
@@ -444,7 +444,7 @@ module Hydrocraft
         	Icon						=	HCPitchfork,
         	RunAnim						=	Run_Weapon2,
         	IdleAnim					=	Idle_Weapon2,
-        	BreakSound  					=   	PZ_WoodSnap,
+        	BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
     }
@@ -479,7 +479,7 @@ module Hydrocraft
         	Icon						=	HCTridentsteel,
         	RunAnim						=	Run_Weapon2,
         	IdleAnim					=	Idle_Weapon2,
-        	BreakSound  					=   	PZ_WoodSnap,
+        	BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
     }
@@ -514,7 +514,7 @@ module Hydrocraft
         	Icon						=	HCTridentiron,
         	RunAnim						=	Run_Weapon2,
         	IdleAnim					=	Idle_Weapon2,
-        	BreakSound  					=   	PZ_WoodSnap,
+        	BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
     }
@@ -549,7 +549,7 @@ module Hydrocraft
         	Icon						=	HCTridentbronze,
         	RunAnim						=	Run_Weapon2,
         	IdleAnim					=	Idle_Weapon2,
-        	BreakSound  					=   	PZ_WoodSnap,
+        	BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
     }
@@ -584,7 +584,7 @@ module Hydrocraft
         	Icon						=	HCTridentcopper,
         	RunAnim						=	Run_Weapon2,
         	IdleAnim					=	Idle_Weapon2,
-        	BreakSound  					=   	PZ_WoodSnap,
+        	BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
     }
@@ -623,7 +623,7 @@ module Hydrocraft
 		SplatBloodOnNoDeath				=	TRUE,
 		RunAnim						=	Run_Weapon2,
         	TwoHandWeapon 					= 	TRUE,
-       		BreakSound  					=   	PZ_WoodSnap,
+       		BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	25,
 		RequiresEquippedBothHands 			= 	true
 	}
@@ -662,7 +662,7 @@ module Hydrocraft
 		SplatBloodOnNoDeath				=	TRUE,
 		RunAnim						=	Run_Weapon2,
         	TwoHandWeapon 					= 	TRUE,
-       		BreakSound  					=   	PZ_WoodSnap,
+       		BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	25,
 		RequiresEquippedBothHands 			= 	true
 	}
@@ -701,7 +701,7 @@ module Hydrocraft
 		SplatBloodOnNoDeath				=	TRUE,
 		RunAnim						=	Run_Weapon2,
         	TwoHandWeapon 					= 	TRUE,
-       		BreakSound  					=   	PZ_WoodSnap,
+       		BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	25,
 		RequiresEquippedBothHands 			= 	true
 	}
@@ -740,7 +740,7 @@ module Hydrocraft
 		SplatBloodOnNoDeath				=	TRUE,
 		RunAnim						=	Run_Weapon2,
         	TwoHandWeapon 					= 	TRUE,
-       		BreakSound  					=   	PZ_WoodSnap,
+       		BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	25,
 		RequiresEquippedBothHands 			= 	true
 	}

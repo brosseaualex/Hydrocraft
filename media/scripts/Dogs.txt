@@ -829,7 +829,7 @@ item HCPitbullmalewar
 		RunAnim				=	Run_Weapon2,
 		TwoHandWeapon 		 	= 	FALSE,
         	IdleAnim			=	Idle_Weapon2,
-		BreakSound  			=   	PZ_WoodSnap,
+		BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
 		ResizeWorldIcon 		= 	2.0,
 	}
@@ -865,7 +865,7 @@ item HCPitbullfemalewar
 		RunAnim				=	Run_Weapon2,
 		TwoHandWeapon 		 	= 	FALSE,
         	IdleAnim			=	Idle_Weapon2,
-		BreakSound  			=   	PZ_WoodSnap,
+		BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
 		ResizeWorldIcon 		= 	2.0,
 	}
@@ -901,7 +901,7 @@ item HCDobermanmalewar
 		RunAnim				=	Run_Weapon2,
 		TwoHandWeapon 		 	= 	FALSE,
         	IdleAnim			=	Idle_Weapon2,
-		BreakSound  			=   	PZ_WoodSnap,
+		BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
 		ResizeWorldIcon 		= 	2.0,
 	}
@@ -937,7 +937,7 @@ item HCDobermanfemalewar
 		RunAnim				=	Run_Weapon2,
 		TwoHandWeapon 		 	= 	FALSE,
         	IdleAnim			=	Idle_Weapon2,
-		BreakSound  			=   	PZ_WoodSnap,
+		BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
 		ResizeWorldIcon 		= 	2.0,
 	}

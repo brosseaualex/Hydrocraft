@@ -802,7 +802,7 @@ item HCScalpel
 		Icon				=	HCScalpel,
 		RunAnim				=	Run_Weapon2,
         	IdleAnim			=	Idle_Weapon2,
-        	BreakSound  			=   	PZ_MetalSnap,
+        	BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	1,
         	EnduranceMod 			= 	0.5,
 	}
@@ -840,7 +840,7 @@ item HCCrutch
         	Icon                    	=    HCCrutch,
         	RunAnim                		=    Run_Weapon2,
       		TwoHandWeapon             	=    TRUE,
-            	BreakSound             		=    PZ_WoodSnap,
+            	BreakSound             		=    BreakWoodItem,
         	TreeDamage             		=    1,
     }
 
@@ -877,7 +877,7 @@ item HCCrutchaluminium
         	Icon                    	=    HCCrutchaluminium,
         	RunAnim                		=    Run_Weapon2,
       		TwoHandWeapon             	=    TRUE,
-            	BreakSound             		=    PZ_WoodSnap,
+            	BreakSound             		=    BreakWoodItem,
         	TreeDamage             		=    1,
     }
 
@@ -914,7 +914,7 @@ item HCCrutchmakeshift
         	Icon                    	=    HCCrutchmakeshift,
         	RunAnim                		=    Run_Weapon2,
       		TwoHandWeapon             	=    TRUE,
-            	BreakSound             		=    PZ_WoodSnap,
+            	BreakSound             		=    BreakWoodItem,
         	TreeDamage             		=    1,
     }
 

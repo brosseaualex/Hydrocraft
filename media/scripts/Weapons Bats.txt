@@ -44,7 +44,7 @@ module Hydrocraft
 		Icon	=	HCHomemadebatcrude,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -81,7 +81,7 @@ module Hydrocraft
 		Icon	=	HCHomemadebatcrudenails,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -118,7 +118,7 @@ module Hydrocraft
 		Icon	=	HCHomemadebatcrudebarbedwire,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -155,7 +155,7 @@ module Hydrocraft
 		Icon	=	HCHomemadebatcrudescrews,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -192,7 +192,7 @@ module Hydrocraft
 		Icon	=	HCHomemadebatcrudetentpegs,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -229,7 +229,7 @@ module Hydrocraft
 		Icon	=	HCHomemadebatcrudewrench,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -266,7 +266,7 @@ module Hydrocraft
 		Icon	=	HCHomemadebatcrudecutter,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
 	}
 
@@ -303,7 +303,7 @@ module Hydrocraft
 		Icon	=	HCHomemadebatcrudetrimmer,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
 	}
 
@@ -340,7 +340,7 @@ module Hydrocraft
 		Icon	=	HCHomemadebat,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -377,7 +377,7 @@ module Hydrocraft
 		Icon	=	HCHomemadebatnails,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -414,7 +414,7 @@ module Hydrocraft
 		Icon	=	HCHomemadebatbarbedwire,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -451,7 +451,7 @@ module Hydrocraft
 		Icon	=	HCHomemadebatscrews,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -488,7 +488,7 @@ module Hydrocraft
 		Icon	=	HCHomemadebattentpegs,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -525,7 +525,7 @@ module Hydrocraft
 		Icon				=	HCHomemadebatwrench,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-		BreakSound  			=   	PZ_WoodSnap,
+		BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
 	}
 
@@ -562,7 +562,7 @@ module Hydrocraft
 		Icon	=	HCHomemadebatcutter,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
 	}
 
@@ -599,7 +599,7 @@ module Hydrocraft
 		Icon	=	HCHomemadebattrimmer,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
 	}
 
@@ -636,7 +636,7 @@ module Hydrocraft
 		Icon	=	HCBaseballbatbarbedwire,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -673,7 +673,7 @@ module Hydrocraft
 		Icon	=	HCBaseballbatscrews,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -710,7 +710,7 @@ module Hydrocraft
 		Icon	=	HCBaseballbattentpegs,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -747,7 +747,7 @@ module Hydrocraft
 		Icon	=	HCBaseballbatwrench,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -784,7 +784,7 @@ module Hydrocraft
 		Icon	=	HCBaseballbatcutter,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
 	}
 
@@ -821,7 +821,7 @@ module Hydrocraft
 		Icon	=	HCBaseballbattrimmer,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
 	}
 
@@ -858,7 +858,7 @@ module Hydrocraft
 		Icon	=	HCGnomestick,
 		RunAnim	=	Run_Weapon2,
         TwoHandWeapon = TRUE,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -892,7 +892,7 @@ module Hydrocraft
 		Icon	=	HCHomemadeclubcrude,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -926,7 +926,7 @@ module Hydrocraft
 		Icon	=	HCHomemadeclubcrudenails,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -960,7 +960,7 @@ module Hydrocraft
 		Icon	=	HCHomemadeclubcrudebarbedwire,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -994,7 +994,7 @@ module Hydrocraft
 		Icon	=	HCHomemadeclubcrudescrews,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -1028,7 +1028,7 @@ module Hydrocraft
 		Icon	=	HCHomemadeclubcrudetentpegs,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -1062,7 +1062,7 @@ module Hydrocraft
 		Icon	=	HCHomemadeclubcrudewrench,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -1096,7 +1096,7 @@ module Hydrocraft
 		Icon	=	HCHomemadeclubcrudecutter,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
 	}
 
@@ -1130,7 +1130,7 @@ module Hydrocraft
 		Icon	=	HCHomemadeclubcrudetrimmer,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
 	}
 
@@ -1164,7 +1164,7 @@ module Hydrocraft
 		Icon	=	HCHomemadeclub,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -1198,7 +1198,7 @@ module Hydrocraft
 		Icon	=	HCHomemadeclubnails,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -1232,7 +1232,7 @@ module Hydrocraft
 		Icon	=	HCHomemadeclubbarbedwire,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -1266,7 +1266,7 @@ module Hydrocraft
 		Icon	=	HCHomemadeclubscrews,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -1300,7 +1300,7 @@ module Hydrocraft
 		Icon	=	HCHomemadeclubtentpegs,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -1334,7 +1334,7 @@ module Hydrocraft
 		Icon	=	HCHomemadeclubwrench,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -1368,7 +1368,7 @@ module Hydrocraft
 		Icon	=	HCHomemadeclubcutter,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
 	}
 
@@ -1402,7 +1402,7 @@ module Hydrocraft
 		Icon	=	HCHomemadeclubtrimmer,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
 	}
 
@@ -1436,7 +1436,7 @@ module Hydrocraft
 		Icon	=	HCMasterclub,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -1470,7 +1470,7 @@ module Hydrocraft
 		Icon	=	HCMasterclubnails,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -1504,7 +1504,7 @@ module Hydrocraft
 		Icon	=	HCMasterclubbarbedwire,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -1538,7 +1538,7 @@ module Hydrocraft
 		Icon	=	HCMasterclubscrews,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -1572,7 +1572,7 @@ module Hydrocraft
 		Icon	=	HCMasterclubtentpegs,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -1606,7 +1606,7 @@ module Hydrocraft
 		Icon	=	HCMasterclubwrench,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
 	}
 
@@ -1640,7 +1640,7 @@ module Hydrocraft
 		Icon	=	HCMasterclubcutter,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
 	}
 
@@ -1674,7 +1674,7 @@ module Hydrocraft
 		Icon	=	HCMasterclubtrimmer,
 		RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
-		BreakSound  =   PZ_WoodSnap,
+		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
 	}
 

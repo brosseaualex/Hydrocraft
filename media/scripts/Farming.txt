@@ -162,7 +162,7 @@ item HCRake
         Icon                    		=    HCRake,
         RunAnim                			=    Run_Weapon2,
       	TwoHandWeapon             		=    TRUE,
-        BreakSound             			=    PZ_WoodSnap,
+        BreakSound             			=    BreakWoodItem,
         TreeDamage             			=    1,
     }
 
@@ -200,7 +200,7 @@ item HCRake
 		Icon				=	HCHedgetrimmer,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-        	BreakSound  			=   	PZ_MetalSnap,
+        	BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	10,
 	}
 

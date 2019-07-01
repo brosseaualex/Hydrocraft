@@ -5239,7 +5239,7 @@ end
 	table.insert(SuburbsDistributions["electronicsstore"]["counter"].items, "Hydrocraft.HCWirecopper");
 	table.insert(SuburbsDistributions["electronicsstore"]["counter"].items, 1);
 	table.insert(SuburbsDistributions["electronicsstore"]["counter"].items, "Hydrocraft.HCElectricclamp");
-	table.insert(SuburbsDistributions["electronicsstore"]["counter"].items, 1);		
+	table.insert(SuburbsDistributions["electronicsstore"]["counter"].items, 2.5);		
 	table.insert(SuburbsDistributions["electronicsstore"]["counter"].items, "Hydrocraft.HCComputermouse");
 	table.insert(SuburbsDistributions["electronicsstore"]["counter"].items, 1);	
 	table.insert(SuburbsDistributions["electronicsstore"]["counter"].items, "Hydrocraft.HCMousepad");
@@ -6304,7 +6304,7 @@ end
 	table.insert(SuburbsDistributions["garagestorage"]["all"].items, "Hydrocraft.HCWirecopper");
 	table.insert(SuburbsDistributions["garagestorage"]["all"].items, 1);
 	table.insert(SuburbsDistributions["garagestorage"]["all"].items, "Hydrocraft.HCElectricclamp");
-	table.insert(SuburbsDistributions["garagestorage"]["all"].items, 1);	
+	table.insert(SuburbsDistributions["garagestorage"]["all"].items, 2.5);	
 	table.insert(SuburbsDistributions["garagestorage"]["all"].items, "Hydrocraft.HCWiresteel");
 	table.insert(SuburbsDistributions["garagestorage"]["all"].items, 1);	
 	table.insert(SuburbsDistributions["garagestorage"]["all"].items, "Hydrocraft.HCMaskingtape");
@@ -10436,7 +10436,7 @@ end
 	table.insert(SuburbsDistributions["mechanic"]["metal_shelves"].items, "Hydrocraft.HCWeldingtank");
 	table.insert(SuburbsDistributions["mechanic"]["metal_shelves"].items, 1);
 	table.insert(SuburbsDistributions["mechanic"]["metal_shelves"].items, "Hydrocraft.HCElectricclamp");
-	table.insert(SuburbsDistributions["mechanic"]["metal_shelves"].items, 1);		
+	table.insert(SuburbsDistributions["mechanic"]["metal_shelves"].items, 2.5);		
 		
 	-- Add items for Mechanic Wardrobe
 	table.insert(SuburbsDistributions["mechanic"]["wardrobe"].items, "Hydrocraft.HCAirfreshener");

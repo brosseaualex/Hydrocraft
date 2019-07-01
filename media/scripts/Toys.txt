@@ -871,7 +871,7 @@ item HCCardgame1
 		Icon				=	HCAluminiumbat,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-		BreakSound  			=   	PZ_MetalSnap,
+		BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	1,
 	}
 
@@ -908,7 +908,7 @@ item HCCardgame1
 		Icon				=	HCWifflebat,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-		BreakSound  			=   	PZ_MetalSnap,
+		BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	1,
 	}
 
@@ -945,7 +945,7 @@ item HCCardgame1
 		Icon				=	HCToysaber,
 		RunAnim				=	Run_Weapon2,
         	TwoHandWeapon 			= 	TRUE,
-		BreakSound  			=   	PZ_MetalSnap,
+		BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	1,
 	}
 

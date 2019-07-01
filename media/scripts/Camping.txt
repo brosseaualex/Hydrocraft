@@ -210,7 +210,7 @@ item HCSpaceblanket
 		ConditionMax 			= 	10,
 		Categories 			=	Blunt,
 		TwoHandWeapon 			= 	TRUE,
-		BreakSound  			=   	PZ_WoodSnap,
+		BreakSound  			=   	BreakWoodItem,
 		KnockdownMod			=	2,
         	KnockBackOnNoDeath		=	TRUE,
 	}
@@ -244,7 +244,7 @@ item HCSpaceblanket
 		ConditionMax 			= 	20,
 		Categories 			=	Blunt,
 		TwoHandWeapon 			= 	TRUE,
-		BreakSound  			=   	PZ_MetalSnap,
+		BreakSound  			=   	BreakMetalItem,
 		KnockdownMod			=	2,
         	KnockBackOnNoDeath		=	TRUE,
 	}

@@ -83,7 +83,7 @@ item HCFirehook
 		SplatBloodOnNoDeath		=	FALSE,
 		Icon				=	HCFirehook,
 		RunAnim				=	Run_Weapon2,
-		BreakSound  			=   	PZ_MetalSnap,
+		BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	1,
 	}
 

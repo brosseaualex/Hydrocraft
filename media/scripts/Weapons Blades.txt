@@ -47,7 +47,7 @@ module Hydrocraft
 		HitAngleMod					=	-30,
 		MinAngle					=	0,
 		TwoHandWeapon 					= 	FALSE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	20,
 	}
 
@@ -87,7 +87,7 @@ module Hydrocraft
 		HitAngleMod					=	-30,
 		MinAngle					=	0.2,
 		TwoHandWeapon 					= 	FALSE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	1,
 	}
 
@@ -128,7 +128,7 @@ module Hydrocraft
 		HitAngleMod					=	-30,
 		MinAngle					=	0.2,
 		TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 	}
 
@@ -241,7 +241,7 @@ item HCShurikencopper
 		Icon						=	HCKnifesteel,
 		RunAnim						=	Run_Weapon2,
         	IdleAnim					=	Idle_Weapon2,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	1,
         	EnduranceMod 					= 	0.5,
 	}
@@ -279,7 +279,7 @@ item HCShurikencopper
 		Icon						=	HCKnifeiron,
 		RunAnim						=	Run_Weapon2,
         	IdleAnim					=	Idle_Weapon2,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	1,
         	EnduranceMod 					= 	0.5,
 	}
@@ -317,7 +317,7 @@ item HCShurikencopper
 		Icon						=	HCKnifebronze,
 		RunAnim						=	Run_Weapon2,
         	IdleAnim					=	Idle_Weapon2,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	1,
         	EnduranceMod 					= 	0.5,
 	}
@@ -355,7 +355,7 @@ item HCShurikencopper
 		Icon						=	HCKnifecopper,
 		RunAnim						=	Run_Weapon2,
         	IdleAnim					=	Idle_Weapon2,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	1,
         	EnduranceMod 					= 	0.5,
 	}
@@ -394,7 +394,7 @@ item HCShurikencopper
 		Icon						=	HCKnifestone,
 		RunAnim						=	Run_Weapon2,
         	IdleAnim					=	Idle_Weapon2,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	1,
         	EnduranceMod 					= 	0.5,
 	}
@@ -583,7 +583,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0,
 		TwoHandWeapon 					= 	FALSE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 	}
 
@@ -623,7 +623,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0,
 		TwoHandWeapon 					= 	FALSE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 	}
 
@@ -663,7 +663,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0,
 		TwoHandWeapon 					= 	FALSE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 	}
 
@@ -703,7 +703,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0,
 		TwoHandWeapon 					= 	FALSE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 	}
 
@@ -744,7 +744,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0.2,
 		TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 	}
 
@@ -785,7 +785,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0.2,
 		TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 	}
 
@@ -826,7 +826,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0.2,
 		TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 	}
 
@@ -867,7 +867,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0.2,
 		TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 	}
 
@@ -908,7 +908,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0.2,
 		TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 	}
 
@@ -949,7 +949,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0.2,
 		TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 	}
 
@@ -990,7 +990,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0.2,
 		TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 	}
 
@@ -1031,7 +1031,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0.2,
 		TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 	}
 
@@ -1072,7 +1072,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0.2,
 		TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 		RequiresEquippedBothHands 			= 	true,
 	}
@@ -1114,7 +1114,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0.2,
 		TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 		RequiresEquippedBothHands 			= 	true,
 	}
@@ -1156,7 +1156,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0.2,
 		TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 		RequiresEquippedBothHands 			= 	true,
 	}
@@ -1198,7 +1198,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0.2,
 		TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 		RequiresEquippedBothHands 			= 	true,
 	}
@@ -1239,7 +1239,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0,
 		TwoHandWeapon 					= 	FALSE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	20,
 	}
 
@@ -1279,7 +1279,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0,
 		TwoHandWeapon 					= 	FALSE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	20,
 	}
 
@@ -1319,7 +1319,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0,
 		TwoHandWeapon 					= 	FALSE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	20,
 	}
 
@@ -1359,7 +1359,7 @@ item HCShurikencopper
 		HitAngleMod					=	-30,
 		MinAngle					=	0,
 		TwoHandWeapon 					= 	FALSE,
-        	BreakSound  					=   	PZ_MetalSnap,
+        	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	20,
 	}
 

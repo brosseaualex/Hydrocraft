@@ -393,7 +393,7 @@ item HCWoodgluejar
 		Icon				=	HCBoneshiv,
 		RunAnim				=	Run_Weapon2,
         	IdleAnim			=	Idle_Weapon2,
-        	BreakSound  			=   	PZ_WoodSnap,
+        	BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
         	EnduranceMod 			= 	0.5,
 	}
