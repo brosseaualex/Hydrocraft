@@ -562,6 +562,7 @@ recipe Heat MRE Contents
 
 recipe Mix into Bottle
 	{
+		HCMREdrinkpacket,
 		WaterBottleEmpty,
 		Water=10,
 		Result 		: HCMREdrinkpackettrash,
@@ -571,6 +572,7 @@ recipe Mix into Bottle
 	}
 recipe Mix into Bottle
 	{
+		HCMREdrinkpacket,
 		PopBottleEmpty,
 		Water=10,
 		Result 		: HCMREdrinkpackettrash,
