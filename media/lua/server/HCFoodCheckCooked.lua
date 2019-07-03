@@ -1,5 +1,5 @@
 -- ***********************************************************
--- **	            DemolitionDerby June 2019            	**
+-- **	              DemolitionDerby 2019              	**
 -- **			      Food OnTest Functions					**
 -- ***********************************************************
 
@@ -62,6 +62,7 @@ function RemoveChristmasCookies_CheckIfCooked(sourceItem, result)
 end
 
 -- Food Jello OnTest
+
 function RemoveAppleJello_CheckIfCooked(sourceItem, result)
     if sourceItem:getFullType() == "Hydrocraft.HCJelloappleprep" then
         return sourceItem:isCooked()

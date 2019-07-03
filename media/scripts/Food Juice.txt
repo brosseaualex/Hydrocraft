@@ -1986,7 +1986,7 @@ item HCEmptyjuiceboxgrape
 
 recipe Make Bottle of Juice
 	{
-       		SkillRequired:Cooking=2,
+		SkillRequired:Cooking=2,
 		HCLemonjuicebowl/HCLemonjuicebottle,
 		Sugar,
 		Water=2,
@@ -2014,15 +2014,16 @@ recipe Make Bottle of Juice
 
 recipe Make Bottle of Juice
 	{
-       		SkillRequired:Cooking=2,
+		SkillRequired:Cooking=2,
 		destroy PopBottleEmpty,
 		Apple=4,
 		keep HCJuicer/HCJuicer2,
 		Result:HCPopbottleapplejuice,
-    		NeedToBeLearn:true,
+		NeedToBeLearn:true,
 		Time:70.0,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		OnTest:MakeAppleJuice_CheckIfFresh,
+		Category:Cooking,		
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Bottle of Juice
@@ -2034,6 +2035,7 @@ recipe Make Bottle of Juice
 		Result:HCPopbottlecarrotjuice,
     		NeedToBeLearn:true,
 		Time:70.0,
+		OnTest:MakeCarrotJuice_CheckIfFresh,
 	   	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -2047,6 +2049,7 @@ recipe Make Bottle of Juice
 		Result:HCPopbottlegrapejuice,
     		NeedToBeLearn:true,
 		Time:70.0,
+		OnTest:MakeGrapeJuice_CheckIfFresh,
 	   	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -2060,6 +2063,7 @@ recipe Make Bottle of Juice
 		Result:HCPopbottlelemonjuice,
     		NeedToBeLearn:true,
 		Time:70.0,
+		OnTest:MakeLemonJuice_CheckIfFresh,
 	   	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -2073,6 +2077,7 @@ recipe Make Bottle of Juice
 		Result:HCPopbottleorangejuice,
     		NeedToBeLearn:true,
 		Time:70.0,
+		OnTest:MakeOrangeJuice_CheckIfFresh,
 	   	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -2086,6 +2091,7 @@ recipe Make Bottle of Juice
 		Result:HCPopbottlelimejuice,
     		NeedToBeLearn:true,
 		Time:70.0,
+		OnTest:MakeLimeJuice_CheckIfFresh,
 		Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -2099,6 +2105,7 @@ recipe Make Bottle of Juice
 		Result:HCPopbottlestrawberryjuice,
     		NeedToBeLearn:true,
 		Time:70.0,
+		OnTest:MakeStrawberryJuice_CheckIfFresh,
 	   	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -2112,6 +2119,7 @@ recipe Make Bottle of Juice
 		Result:HCPopbottletomatojuice,
     		NeedToBeLearn:true,
 		Time:70.0,
+		OnTest:MakeTomatoJuice_CheckIfFresh,
 	   	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -2125,6 +2133,7 @@ recipe Make Bottle of Juice
 		Result:HCPopbottlewatermelonjuice,
     		NeedToBeLearn:true,
 		Time:70.0,
+		OnTest:MakeWatermelonFullJuice_CheckIfFresh,
 	   	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -2138,6 +2147,7 @@ recipe Make Bottle of Juice
 		Result:HCPopbottlewatermelonjuice,
     		NeedToBeLearn:true,
 		Time:70.0,
+		OnTest:MakeWatermelonSliceJuice_CheckIfFresh,
 	   	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -2151,6 +2161,7 @@ recipe Make Bottle of Juice
 		Result:HCPopbottlewatermelonjuice,
     		NeedToBeLearn:true,
 		Time:70.0,
+		OnTest:MakeWatermelonSmashedJuice_CheckIfFresh,
 	   	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -2814,6 +2825,7 @@ recipe Make Bottle of Juice
 		Result:HCMayonnaisecarrotjuice,
     		NeedToBeLearn:true,
 		Time:70.0,
+		OnTest:MakeCarrotJuice_CheckIfFresh,
 	   	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -2827,6 +2839,7 @@ recipe Make Bottle of Juice
 		Result:HCMayonnaisegrapejuice,
     		NeedToBeLearn:true,
 		Time:70.0,
+		OnTest:MakeGrapeJuice_CheckIfFresh,
 	   	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -2840,6 +2853,7 @@ recipe Make Bottle of Juice
 		Result:HCMayonnaiselemonjuice,
     		NeedToBeLearn:true,
 		Time:70.0,
+		OnTest:MakeLemonJuice_CheckIfFresh,
 	   	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -2853,6 +2867,7 @@ recipe Make Bottle of Juice
 		Result:HCMayonnaiseorangejuice,
     		NeedToBeLearn:true,
 		Time:70.0,
+		OnTest:MakeOrangeJuice_CheckIfFresh,
 	   	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -2866,6 +2881,7 @@ recipe Make Bottle of Juice
 		Result:HCMayonnaiselimejuice,
     		NeedToBeLearn:true,
 		Time:70.0,
+		OnTest:MakeLimeJuice_CheckIfFresh,
 		Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -2879,8 +2895,9 @@ recipe Make Bottle of Juice
 		Result:HCMayonnaisestrawberryjuice,
     		NeedToBeLearn:true,
 		Time:70.0,
+		OnTest:MakeStrawberryJuice_CheckIfFresh,
 	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Bottle of Juice

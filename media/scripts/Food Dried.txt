@@ -900,6 +900,7 @@ recipe Make Lemon Juice
 		destroy Bowl,	
 		Result:HCLemonjuicebowl,
 		Time:40.0,
+		OnTest:MakeLemonJuice_CheckIfFresh,
 	   	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
@@ -913,8 +914,9 @@ recipe Make Lime Juice
 		destroy Bowl,	
 		Result:HCLimejuicebowl,
 		Time:40.0,
+		OnTest:MakeLimeJuice_CheckIfFresh,
 	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 	recipe Dry Fruit
