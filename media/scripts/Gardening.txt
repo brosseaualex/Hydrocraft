@@ -14,7 +14,7 @@ module Hydrocraft
     Type        	= Normal,
     DisplayName    	= Planter,
     icon        	= HCPlanter,
-    ResizeWorldIcon 	= 0.5,
+    ResizeWorldIcon 	= 1.0,
     }
 
   item HCClayflowerpotwithdirt
