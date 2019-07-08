@@ -79,3 +79,66 @@ function MakeWatermelonSmashedJuice_CheckIfFresh(sourceItem, result)
     end
     return true
 end
+
+function MakePineappleJuice_CheckIfFresh(sourceItem, result)
+    if sourceItem:getFullType() == "Pineapple" then
+        return sourceItem:isFresh()
+    end
+    return true
+end
+
+function MakeBerryBlueJuice_CheckIfFresh(sourceItem, result)
+    if sourceItem:getFullType() == "BerryBlue" then
+        return sourceItem:isFresh()
+    end
+    return true
+end
+
+function MakeBerryBlackJuice_CheckIfFresh(sourceItem, result)
+    if sourceItem:getFullType() == "BerryBlack" then
+        return sourceItem:isFresh()
+    end
+    return true
+end
+
+function MakeBerryGeneric1Juice_CheckIfFresh(sourceItem, result)
+    if sourceItem:getFullType() == "BerryGeneric1" then
+        return sourceItem:isFresh()
+    end
+    return true
+end
+
+function MakeBerryGeneric2Juice_CheckIfFresh(sourceItem, result)
+    if sourceItem:getFullType() == "BerryGeneric2" then
+        return sourceItem:isFresh()
+    end
+    return true
+end
+
+function MakeBerryGeneric3Juice_CheckIfFresh(sourceItem, result)
+    if sourceItem:getFullType() == "BerryGeneric3" then
+        return sourceItem:isFresh()
+    end
+    return true
+end
+
+function MakeBerryGeneric4Juice_CheckIfFresh(sourceItem, result)
+    if sourceItem:getFullType() == "BerryGeneric4" then
+        return sourceItem:isFresh()
+    end
+    return true
+end
+
+function MakeBerryGeneric5Juice_CheckIfFresh(sourceItem, result)
+    if sourceItem:getFullType() == "BerryGeneric5" then
+        return sourceItem:isFresh()
+    end
+    return true
+end
+
+function MakeCherryJuice_CheckIfFresh(sourceItem, result)
+    if sourceItem:getFullType() == "Cherry" then
+        return sourceItem:isFresh()
+    end
+    return true
+end
