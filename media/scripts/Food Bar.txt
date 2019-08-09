@@ -1998,52 +1998,61 @@ recipe Brew Irish Coffee
 	}
 
 recipe Mix Old Fashioned
-	{
-	keep HCCocktailshaker,
-	HCGlassshortempty,
-	WhiskeyFull/HCWhiskey1/HCWhiskey2/HCWhiskey3/HCWhiskey3,
-	HCBitters,
-	Sugar/HCSugarcubes,
-	HCSlicedorange,
-	Result:HCDrinkoldfashioned,
-	Time:50.0,
-	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,	 
-	}
+	{	
+		keep HCCocktailshaker/Spoon,
+		HCDrinkglassshortwhiskey,
+		HCBitters;1,
+		Sugar;1,
+		HCSlicedorange,
+		Result 		: HCDrinkoldfashioned,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+    }
+	
+	recipe Mix Old Fashioned
+	{	
+		keep HCCocktailshaker/Spoon,
+		HCDrinkglassshortwhiskey,
+		HCBitters;1,
+		HCSugarcubes;2,
+		HCSlicedorange,
+		Result 		: HCDrinkoldfashioned,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+    }
 
 recipe Mix Martini
-	{
-	keep HCCocktailshaker,
-	HCCocktailglassempty,
-	HCGin1/HCGin2/HCGin3,
-	HCBitters,
-	HCVermouth,
-	Result:HCDrinkmartini,
-	Time:50.0,
-	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,	
-	}
+	{	
+		keep HCCocktailshaker/Spoon,
+		HCDrinkcocktailglassgin,
+		HCBitters;1,
+		HCVermouth;1,
+		Result 		: HCDrinkmartini,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+    }
 
 recipe Mix Manhattan
-	{
-	keep HCCocktailshaker,
-	HCCocktailglassempty,
-	WhiskeyFull/HCWhiskey1/HCWhiskey2/HCWhiskey3/HCWhiskey3,
-	HCVermouth,
-	HCBitters,
-	Result:HCDrinkmanhattan,
-	Time:50.0,
-	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,	
-	}
+	{	
+		keep HCCocktailshaker/Spoon,
+		HCDrinkcocktailglasswhiskey,
+		HCBitters;1,
+		HCVermouth;1,
+		Result 		: HCDrinkmanhattan,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+    }
 
 recipe Mix Daquiri
 	{
-	keep HCCocktailshaker,
-	HCCocktailglassempty,
-	HCRum1,
-	HCLimejuicebowl/HCLimejuicebottle/HCPopbottlelimejuice/HCWaterbottlelimejuice/HCRemouladelimejuice/HCMayonnaiselimejuice/HCWhiskeylimejuice,
-	Sugar/HCSugarcubes,
+	keep HCCocktailshaker/Spoon,
+	HCDrinkcocktailglassrum,
+	HCLimemixer;2,
+	Sugar;1,
 	HCSlicedlime,
 	Result:HCDrinkdaquiri,
 	Time:50.0,
@@ -2051,6 +2060,18 @@ recipe Mix Daquiri
        	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
+recipe Mix Daquiri
+	{
+	keep HCCocktailshaker/Spoon,
+	HCDrinkcocktailglassrum,
+	HCLimemixer;2,
+	HCSugarcubes;2,
+	HCSlicedlime,
+	Result:HCDrinkdaquiri,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
 recipe Mix Bloody Mary
 	{
 	keep HCCocktailshaker/Spoon,
@@ -2064,11 +2085,22 @@ recipe Mix Bloody Mary
 
 recipe Mix Whiskey Sour
 	{
-	keep HCCocktailshaker,
-	HCGlassshortempty,
-	WhiskeyFull/HCWhiskey1/HCWhiskey2/HCWhiskey3/HCWhiskey3,
-	HCLemonjuicebowl/HCLemonjuicebottle/HCPopbottlelemonjuice/HCWaterbottlelemonjuice/HCRemouladelemonjuice/HCMayonnaiselemonjuice/HCWhiskeylemonjuice,
-	Sugar/HCSugarcubes,
+	keep HCCocktailshaker/Spoon,
+	HCDrinkglassshortwhiskey,
+	HCLemonmixer;2,
+	Sugar;1,
+	Result:HCDrinkwhiskeysour,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Mix Whiskey Sour
+	{
+	keep HCCocktailshaker/Spoon,
+	HCDrinkglassshortwhiskey,
+	HCLemonmixer;2,
+	HCSugarcubes;2,
 	Result:HCDrinkwhiskeysour,
 	Time:50.0,
 	Category:Cooking,
@@ -2077,12 +2109,24 @@ recipe Mix Whiskey Sour
 
 recipe Mix Mai Tai
 	{
-	keep HCCocktailshaker,
-	HCGlassshortempty,
-	HCRum1,
-	HCLimejuicebowl/HCLimejuicebottle/HCPopbottlelimejuice/HCWaterbottlelimejuice/HCRemouladelimejuice/HCMayonnaiselimejuice/HCWhiskeylimejuice,
-	Sugar/HCSugarcubes,
-	HCTriplesec,
+	keep HCCocktailshaker/Spoon,
+	HCDrinkglassshortrum,
+	HCLimemixer;2,
+	Sugar;1,
+	HCTriplesec;1,
+	Result:HCDrinkmaitai,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Mix Mai Tai
+	{
+	keep HCCocktailshaker/Spoon,
+	HCDrinkglassshortrum,
+	HCLimemixer;2,
+	HCSugarcubes;2,
+	HCTriplesec;1,
 	Result:HCDrinkmaitai,
 	Time:50.0,
 	Category:Cooking,
@@ -2091,11 +2135,11 @@ recipe Mix Mai Tai
 
 recipe Mix Cosmopolitan
 	{
-	keep HCCocktailshaker,
-	HCCocktailglassempty,
-	HCVodka/HCVodka1/HCVodka2,
-	HCTriplesec,
-	HCLimejuicebowl/HCLimejuicebottle/HCPopbottlelimejuice/HCWaterbottlelimejuice/HCRemouladelimejuice/HCMayonnaiselimejuice/HCWhiskeylimejuice,
+	keep HCCocktailshaker/Spoon,
+	HCDrinkcocktailglassvodka,
+	HCTriplesec;1,
+	HCLimemixer;2,
+	HCSlicedlime,
 	Result:HCDrinkcosmo,
 	Time:50.0,
 	Category:Cooking,
@@ -2104,11 +2148,22 @@ recipe Mix Cosmopolitan
 
 recipe Mix Tom Collins
 	{
-	keep HCCocktailshaker,
-	HCGlasstallempty,
-	HCGin1/HCGin2/HCGin3,
-	HCLemonjuicebowl/HCLemonjuicebottle/HCPopbottlelemonjuice/HCWaterbottlelemonjuice/HCRemouladelemonjuice/HCMayonnaiselemonjuice/HCWhiskeylemonjuice,
-	Sugar/HCSugarcubes,
+	keep HCCocktailshaker/Spoon,
+	HCDrinkglasstallgin,
+	HCLemonmixer;2,
+	Sugar;1,
+	Result:HCDrinktomcollins,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Mix Tom Collins
+	{
+	keep HCCocktailshaker/Spoon,
+	HCDrinkglasstallgin,
+	HCLemonmixer;2,
+	HCSugarcubes;2,
 	Result:HCDrinktomcollins,
 	Time:50.0,
 	Category:Cooking,
@@ -2117,15 +2172,28 @@ recipe Mix Tom Collins
 
 recipe Mix Long Island Iced Tea
 	{
-	keep HCCocktailshaker,
-	HCGlasstallempty,
-	HCVodka/HCVodka1/HCVodka2,
-	HCRum1,
-	HCGin1/HCGin2/HCGin3,
-	HCLemonjuicebowl/HCLemonjuicebottle/HCPopbottlelemonjuice/HCWaterbottlelemonjuice/HCRemouladelemonjuice/HCMayonnaiselemonjuice/HCWhiskeylemonjuice,
-	HCLimejuicebowl/HCLimejuicebottle/HCPopbottlelimejuice/HCWaterbottlelimejuice/HCRemouladelimejuice/HCMayonnaiselimejuice/HCWhiskeylimejuice,
-	HCTriplesec,
-	Sugar/HCSugarcubes,
+	keep HCCocktailshaker/Spoon,
+	HCDrinkglasstallvodka,
+	HCRum1;2,
+	HCLemonmixer;2,
+	HCLimemixer;2,
+	HCTriplesec;1,
+	Sugar;1,
+	Result:HCDrinklongisland,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Mix Long Island Iced Tea
+	{
+	keep HCCocktailshaker/Spoon,
+	HCDrinkglasstallvodka,
+	HCRum1;2,
+	HCLemonmixer;2,
+	HCLimemixer;2,
+	HCTriplesec;1,
+	HCSugarcubes;2,
 	Result:HCDrinklongisland,
 	Time:50.0,
 	Category:Cooking,
@@ -2134,12 +2202,37 @@ recipe Mix Long Island Iced Tea
 
 recipe Mix Gimlet
 	{
-	keep HCCocktailshaker,
-	HCGlassshortempty,
-	HCGin1/HCGin2/HCGin3,
-	HCLimejuicebowl/HCLimejuicebottle/HCPopbottlelimejuice/HCWaterbottlelimejuice/HCRemouladelimejuice/HCMayonnaiselimejuice/HCWhiskeylimejuice,
-	Sugar/HCSugarcubes,
+	keep HCCocktailshaker/Spoon,
+	HCDrinkcocktailglassgin,
+	HCLimemixer;2,
+	Sugar;1,
 	Result:HCDrinkgimlet,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Mix Gimlet
+	{
+	keep HCCocktailshaker/Spoon,
+	HCDrinkcocktailglassgin,
+	HCLimemixer;2,
+	HCSugarcubes;2,
+	Result:HCDrinkgimlet,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+recipe Mix Planter's Punch
+	{
+	keep HCCocktailshaker/Spoon,
+	HCGlassshortempty,
+	HCDrinkglassshortrum,
+	HCBitters;1,
+	HCLemonmixer;2,
+	Sugar;1,
+	Result:HCDrinkplanterspunch,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2147,13 +2240,24 @@ recipe Mix Gimlet
 
 recipe Mix Planter's Punch
 	{
-	keep HCCocktailshaker,
+	keep HCCocktailshaker/Spoon,
 	HCGlassshortempty,
-	HCRum1,
-	HCBitters,
-	HCLemonjuicebowl/HCLemonjuicebottle/HCPopbottlelemonjuice/HCWaterbottlelemonjuice/HCRemouladelemonjuice/HCMayonnaiselemonjuice/HCWhiskeylemonjuice,
-	Sugar/HCSugarcubes,
+	HCDrinkglassshortrum,
+	HCBitters;1,
+	HCLemonmixer;2,
+	HCSugarcubes;2,
 	Result:HCDrinkplanterspunch,
+	Time:50.0,
+	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+
+recipe Whiskey and Coke
+	{
+	HCDrinkglasstallwhiskey,
+	Pop/Pop2,
+	Result:HCDrinkwhiskeyandcoke,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2161,15 +2265,14 @@ recipe Mix Planter's Punch
 
 recipe Whiskey and Coke
 	{
-	HCGlasstallempty,
-	WhiskeyFull/HCWhiskey1/HCWhiskey2/HCWhiskey3/HCWhiskey3,
-	HCSodacola,
+	HCDrinkglasstallwhiskey,
+	HCSodacola;7.5,
 	Result:HCDrinkwhiskeyandcoke,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
 	}
-
+	
 recipe Remove Mezcal Worm from Bottle
 	{
 	HCMezcalemptyworm,
@@ -2182,11 +2285,11 @@ recipe Remove Mezcal Worm from Bottle
 
 recipe Mix Margarita
 	{
-	keep HCCocktailshaker,
+	keep HCCocktailshaker/Spoon,
 	HCMargaritaglassempty,
-	HCTequila;5,
-	HCTriplesec,
-	HCLimejuicebowl/HCLimejuicebottle/HCPopbottlelimejuice/HCWaterbottlelimejuice/HCRemouladelimejuice/HCMayonnaiselimejuice/HCWhiskeylimejuice,
+	HCTequila;2,
+	HCTriplesec;1,
+	HCLemonmixer;2,
 	Salt;1,
 	HCSlicedlime,
 	Result:HCDrinkmargarita,
@@ -2443,8 +2546,7 @@ recipe Pack Beer
 		Time 		: 50.0,
 		Category:Cooking,
 	}
-	
-/***POURING*COCKTAIL*GLASSES*GIN***/
+
 recipe Pour Cocktail Glass of Gin
 	{	
 		HCCocktailglassempty,
@@ -2473,11 +2575,10 @@ recipe Pour Cocktail Glass of Gin
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-/***POURING*SHORT*GLASSES*GIN***/
 recipe Pour Short Glass of Gin
 	{	
 		HCGlassshortempty,
-		HCGin1;4,
+		HCGin1;2,
 		Result 		: HCDrinkglassshortgin,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2486,7 +2587,7 @@ recipe Pour Short Glass of Gin
 recipe Pour Short Glass of Gin
 	{	
 		HCGlassshortempty,
-		HCGin2;4,
+		HCGin2;2,
 		Result 		: HCDrinkglassshortgin,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2495,18 +2596,17 @@ recipe Pour Short Glass of Gin
 recipe Pour Short Glass of Gin
 	{	
 		HCGlassshortempty,
-		HCGin3;4,
+		HCGin3;2,
 		Result 		: HCDrinkglassshortgin,
 		Time 		: 50.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
-
-/***POURING*TALL*GLASSES*GIN***/
+	
 recipe Pour Tall Glass of Gin
 	{	
 		HCGlasstallempty,
-		HCGin1;6,
+		HCGin1;2,
 		Result 		: HCDrinkglasstallgin,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2515,7 +2615,7 @@ recipe Pour Tall Glass of Gin
 recipe Pour Tall Glass of Gin
 	{	
 		HCGlasstallempty,
-		HCGin2;6,
+		HCGin2;2,
 		Result 		: HCDrinkglasstallgin,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2524,18 +2624,17 @@ recipe Pour Tall Glass of Gin
 recipe Pour Tall Glass of Gin
 	{	
 		HCGlasstallempty,
-		HCGin3;6,
+		HCGin3;2,
 		Result 		: HCDrinkglasstallgin,
 		Time 		: 50.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}		
 
-/***POURING*SHORT*GLASSES*WHISKEY***/
 recipe Pour Short Glass of Whiskey
 	{	
 		HCGlassshortempty,
-		WhiskeyFull;4,
+		WhiskeyFull;2,
 		Result 		: HCDrinkglassshortwhiskey,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2544,7 +2643,7 @@ recipe Pour Short Glass of Whiskey
 recipe Pour Short Glass of Whiskey
 	{	
 		HCGlassshortempty,
-		HCWhiskey1;4,
+		HCWhiskey1;2,
 		Result 		: HCDrinkglassshortwhiskey,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2553,7 +2652,7 @@ recipe Pour Short Glass of Whiskey
 recipe Pour Short Glass of Whiskey
 	{	
 		HCGlassshortempty,
-		HCWhiskey2;4,
+		HCWhiskey2;2,
 		Result 		: HCDrinkglassshortwhiskey,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2562,7 +2661,7 @@ recipe Pour Short Glass of Whiskey
 recipe Pour Short Glass of Whiskey
 	{	
 		HCGlassshortempty,
-		HCWhiskey3;4,
+		HCWhiskey3;2,
 		Result 		: HCDrinkglassshortwhiskey,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2571,7 +2670,7 @@ recipe Pour Short Glass of Whiskey
 recipe Pour Short Glass of Whiskey
 	{	
 		HCGlassshortempty,
-		HCWhiskey4;4,
+		HCWhiskey4;2,
 		Result 		: HCDrinkglassshortwhiskey,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2580,18 +2679,17 @@ recipe Pour Short Glass of Whiskey
 recipe Pour Short Glass of Whiskey
 	{	
 		HCGlassshortempty,
-		HCWhiskeycorn;4,
+		HCWhiskeycorn;2,
 		Result 		: HCDrinkglassshortwhiskey,
 		Time 		: 50.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}	
 
-/***POURING*TALL*GLASSES*WHISKEY***/
 recipe Pour Tall Glass of Whiskey
 	{	
 		HCGlasstallempty,
-		WhiskeyFull;6,
+		WhiskeyFull;2,
 		Result 		: HCDrinkglasstallwhiskey,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2600,7 +2698,7 @@ recipe Pour Tall Glass of Whiskey
 recipe Pour Tall Glass of Whiskey
 	{	
 		HCGlasstallempty,
-		HCWhiskey1;6,
+		HCWhiskey1;2,
 		Result 		: HCDrinkglasstallwhiskey,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2609,7 +2707,7 @@ recipe Pour Tall Glass of Whiskey
 recipe Pour Tall Glass of Whiskey
 	{	
 		HCGlasstallempty,
-		HCWhiskey2;6,
+		HCWhiskey2;2,
 		Result 		: HCDrinkglasstallwhiskey,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2618,7 +2716,7 @@ recipe Pour Tall Glass of Whiskey
 recipe Pour Tall Glass of Whiskey
 	{	
 		HCGlasstallempty,
-		HCWhiskey3;6,
+		HCWhiskey3;2,
 		Result 		: HCDrinkglasstallwhiskey,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2627,7 +2725,7 @@ recipe Pour Tall Glass of Whiskey
 recipe Pour Tall Glass of Whiskey
 	{	
 		HCGlasstallempty,
-		HCWhiskey4;6,
+		HCWhiskey4;2,
 		Result 		: HCDrinkglasstallwhiskey,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2636,15 +2734,13 @@ recipe Pour Tall Glass of Whiskey
 recipe Pour Tall Glass of Whiskey
 	{	
 		HCGlasstallempty,
-		HCWhiskeycorn;6,
+		HCWhiskeycorn;2,
 		Result 		: HCDrinkglasstallwhiskey,
 		Time 		: 50.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}	
 
-
-/***POURING*COCKTAIL*GLASSES*WHISKEY***/
 recipe Pour Cocktail Glass of Whiskey
 	{	
 		HCCocktailglassempty,
@@ -2700,7 +2796,6 @@ recipe Pour Cocktail Glass of Whiskey
 		OnGiveXP:HCCooking_OnGiveXP,
 	}	
 
-/***POURING*COCKTAIL*GLASSES*VODKA***/
 recipe Pour Cocktail Glass of Vodka
 	{	
 		HCCocktailglassempty,
@@ -2729,12 +2824,10 @@ recipe Pour Cocktail Glass of Vodka
 		OnGiveXP:HCCooking_OnGiveXP,
 	}		
 
-
-/***POURING*SHORT*GLASSES*VODKA***/
 recipe Pour Short Glass of Vodka
 	{	
 		HCGlassshortempty,
-		HCVodka;4,
+		HCVodka;2,
 		Result 		: HCDrinkglassshortvodka,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2743,7 +2836,7 @@ recipe Pour Short Glass of Vodka
 recipe Pour Short Glass of Vodka
 	{	
 		HCGlassshortempty,
-		HCVodka1;4,
+		HCVodka1;2,
 		Result 		: HCDrinkglassshortvodka,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2752,18 +2845,17 @@ recipe Pour Short Glass of Vodka
 recipe Pour Short Glass of Vodka
 	{	
 		HCGlassshortempty,
-		HCVodka2;4,
+		HCVodka2;2,
 		Result 		: HCDrinkglassshortvodka,
 		Time 		: 50.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}		
 
-/***POURING*TALL*GLASSES*VODKA***/
 recipe Pour Tall Glass of Vodka
 	{	
 		HCGlasstallempty,
-		HCVodka;6,
+		HCVodka;2,
 		Result 		: HCDrinkglasstallvodka,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2772,7 +2864,7 @@ recipe Pour Tall Glass of Vodka
 recipe Pour Tall Glass of Vodka
 	{	
 		HCGlasstallempty,
-		HCVodka1;6,
+		HCVodka1;2,
 		Result 		: HCDrinkglasstallvodka,
 		Time 		: 50.0,
 		Category:Cooking,
@@ -2781,36 +2873,33 @@ recipe Pour Tall Glass of Vodka
 recipe Pour Tall Glass of Vodka
 	{	
 		HCGlasstallempty,
-		HCVodka2;6,
+		HCVodka2;2,
 		Result 		: HCDrinkglasstallvodka,
 		Time 		: 50.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}		
 
-/***POURING*SHORT*GLASSES*RUM***/
 recipe Pour Short Glass of Rum
 	{	
 		HCGlassshortempty,
-		HCRum1;4,
+		HCRum1;2,
 		Result 		: HCDrinkglassshortrum,
 		Time 		: 50.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}		
 
-/***POURING*TALL*GLASSES*RUM***/
 recipe Pour Tall Glass of Rum
 	{	
 		HCGlasstallempty,
-		HCRum1;6,
+		HCRum1;2,
 		Result 		: HCDrinkglasstallrum,
 		Time 		: 50.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}		
 
-/***POURING*COCKTAIL*GLASSES*RUM***/
 recipe Pour Cocktail Glass of Rum
 	{	
 		HCCocktailglassempty,
@@ -2821,7 +2910,6 @@ recipe Pour Cocktail Glass of Rum
 		OnGiveXP:HCCooking_OnGiveXP,
 	}		
 
-/***POURING*WINE*GLASSES***/
 recipe Pour Glass of Red Wine
 	{	
 		HCWineglass,
