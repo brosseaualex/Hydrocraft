@@ -378,6 +378,257 @@ item HCSteelpipebox
         Icon 			= 	HCSteelpipebox,
 	ResizeWorldIcon 	= 	1.0,
     }
+	
+	item HCBrasssheet
+	{
+	Weight				=	1.5,
+	Type				=	Normal,
+	DisplayName			=	Brass Sheet,
+	Icon				=	HCBrasssheet,
+	}
+
+item HCMetalbarbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Metal Bars,
+        Icon 			= 	HCMetalbarbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCMetalpipebox
+    {
+        Weight 			= 	6,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Aluminum Pipes,
+        Icon 			= 	HCAluminumpipebox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCAluminumingotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Aluminum Ingots,
+        Icon 			= 	HCAluminumingotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+	
+item HCBrassingotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Brass Ingots,
+        Icon 			= 	HCBrassingotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCBronzeingotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Bronze Ingots,
+        Icon 			= 	HCBronzeingotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCConcreteingotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Concrete Ingots,
+        Icon 			= 	HCConcreteingotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCConstantaningotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Constantan Ingots,
+        Icon 			= 	HCConstantaningotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCCopperingotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Copper Ingots,
+        Icon 			= 	HCCopperingotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCElectrumingotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Electrum Ingots,
+        Icon 			= 	HCElectrumingotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCGlassingotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Glass Ingots,
+        Icon 			= 	HCGlassingotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCGoldingotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Gold Ingots,
+        Icon 			= 	HCGoldingotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCGraphiteingotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Graphite Ingots,
+        Icon 			= 	HCGraphiteingotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCIroningotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Iron Ingots,
+        Icon 			= 	HCIroningotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCLeadingotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Lead Ingots,
+        Icon 			= 	HCLeadingotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCMagnetiteingotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Magnetite Ingots,
+        Icon 			= 	HCMagnetiteingotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCNickelingotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Nickel Ingots,
+        Icon 			= 	HCNickelingotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCPewteringotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Pewter Ingots,
+        Icon 			= 	HCPewteringotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCSilveringotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Silver Ingots,
+        Icon 			= 	HCSilveringotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCSteelingotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Steel Ingots,
+        Icon 			= 	HCSteelingotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }	
+	
+item HCTiningotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Tin Ingots,
+        Icon 			= 	HCTiningotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCTitaniumingotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Titanium Ingots,
+        Icon 			= 	HCTitaniumingotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCZincingotbox
+    {
+        Weight 			= 	12,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Zinc Ingots,
+        Icon 			= 	HCZincingotbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+
+item HCCoppersheetbox
+    {
+        Weight 			= 	6,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Copper Sheets,
+        Icon 			= 	HCCoppersheetbox,
+	ResizeWorldIcon 	= 	1.0,
+    }	
+	
+item HCIronsheetbox
+    {
+        Weight 			= 	6,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Iron Sheets,
+        Icon 			= 	HCIronsheetbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+	
+item HCRubbersheetbox
+    {
+        Weight 			= 	6,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Rubber Sheets,
+        Icon 			= 	HCRubbersheetbox,
+	ResizeWorldIcon 	= 	1.0,
+    }
+		
+item HCSteelsheetbox
+    {
+        Weight 			= 	6,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Steel Sheets,
+        Icon 			= 	HCSteelsheetbox,
+	ResizeWorldIcon 	= 	1.0,
+    }		
+	
+item HCTinsheetbox
+    {
+        Weight 			= 	6,
+        Type 			= 	Normal,
+        DisplayName 		= 	Pallet of Tin Sheets,
+        Icon 			= 	HCTinsheetbox,
+	ResizeWorldIcon 	= 	1.0,
+    }		
 
 /************************WEAPONS************************/
 
@@ -1973,6 +2224,487 @@ recipe Make Iron Hand Drill
        		Category:Smithing,
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
+	
+	recipe Make Sheet Of Metal
+	{
+		HCBrassingot=4,
+    	keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+		Result:HCSteelsheet,
+		Time:150.0,
+        Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}	
+	
+recipe Pack Pallet of Metal Pipes
+    {
+    	MetalPipe=12,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCMetalpipebox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Metal Pipes
+    {
+    	HCMetalpipebox,
+    	Result:MetalPipe=12,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }
+	
+recipe Pack Pallet of Ingots
+    {
+    	HCAluminumingot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCAluminumingotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCAluminumingotbox,
+    	Result:HCAluminumingot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+	
+recipe Pack Pallet of Ingots
+    {
+    	HCBrassingot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCBrassingotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCBrassingotbox,
+    	Result:HCBrassingot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+		
+recipe Pack Pallet of Ingots
+    {
+    	HCConcreteingot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCConcreteingotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCConcreteingotbox,
+    	Result:HCConcreteingot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+			
+recipe Pack Pallet of Ingots
+    {
+    	HCConstantaningot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCConstantaningotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCConstantaningotbox,
+    	Result:HCConstantaningot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+			
+recipe Pack Pallet of Ingots
+    {
+    	HCCopperingot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCopperingotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCCopperingotbox,
+    	Result:HCCopperingot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+		
+recipe Pack Pallet of Ingots
+    {
+    	HCElectrumingot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCElectrumingotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCElectrumingotbox,
+    	Result:HCElectrumingot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+			
+recipe Pack Pallet of Ingots
+    {
+    	HCGlassingot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCGlassingotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCGlassingotbox,
+    	Result:HCGlassingot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+			
+recipe Pack Pallet of Ingots
+    {
+    	HCGoldingot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCGoldingotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCGoldingotbox,
+    	Result:HCGoldingot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+			
+recipe Pack Pallet of Ingots
+    {
+    	HCGraphiteingot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCGraphiteingotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCGraphiteingotbox,
+    	Result:HCGraphiteingot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+			
+recipe Pack Pallet of Ingots
+    {
+    	HCIroningot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCIroningotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCIroningotbox,
+    	Result:HCIroningot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+			
+recipe Pack Pallet of Ingots
+    {
+    	HCLeadingot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCLeadingotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCLeadingotbox,
+    	Result:HCLeadingot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+						
+recipe Pack Pallet of Ingots
+    {
+    	HCMagnetiteingot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCMagnetiteingotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCMagnetiteingotbox,
+    	Result:HCMagnetiteingot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+						
+recipe Pack Pallet of Ingots
+    {
+    	HCNickelingot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCNickelingotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCNickelingotbox,
+    	Result:HCNickelingot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+				
+recipe Pack Pallet of Ingots
+    {
+    	HCPewteringot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCPewteringotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCPewteringotbox,
+    	Result:HCPewteringot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+		
+recipe Pack Pallet of Ingots
+    {
+    	HCSilveringot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCSilveringotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCSilveringotbox,
+    	Result:HCSilveringot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+			
+recipe Pack Pallet of Ingots
+    {
+    	HCSteelingot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCSteelingotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCSteelingotbox,
+    	Result:HCSteelingot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+			
+recipe Pack Pallet of Ingots
+    {
+    	HCTiningot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCTiningotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCTiningotbox,
+    	Result:HCTiningot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+			
+recipe Pack Pallet of Ingots
+    {
+    	HCTitaniumingot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCTitaniumingotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCTitaniumingotbox,
+    	Result:HCTitaniumingot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+					
+recipe Pack Pallet of Ingots
+    {
+    	HCZincingot=32,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCZincingotbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Ingots
+    {
+    	HCZincingotbox,
+    	Result:HCZincingot=32,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
+					
+recipe Pack Pallet of Sheets
+    {
+    	HCCoppersheet=10,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCoppersheetbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Sheets
+    {
+    	HCCoppersheetbox,
+    	Result:HCCoppersheet=10,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }	
 
+recipe Pack Pallet of Sheets
+    {
+    	HCIronsheet=10,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCIronsheetbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Sheets
+    {
+    	HCIronsheetbox,
+    	Result:HCIronsheet=10,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }		
+	
+recipe Pack Pallet of Sheets
+    {
+    	HCRubbersheet=10,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCRubbersheetbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Sheets
+    {
+    	HCRubbersheetbox,
+    	Result:HCRubbersheet=10,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }		
+		
+recipe Pack Pallet of Sheets
+    {
+    	HCSteelsheet=10,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCSteelsheetbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Sheets
+    {
+    	HCSteelsheetbox,
+    	Result:HCSteelsheet=10,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }		
+			
+recipe Pack Pallet of Sheets
+    {
+    	HCTinsheet=10,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCTinsheetbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Sheets
+    {
+    	HCTinsheetbox,
+    	Result:HCTinsheet=10,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }		
+			
+recipe Pack Pallet of Metal Bars
+    {
+    	MetalBar=50,
+    	HCRopethick,
+		HCWoodenpallet,
+    	CanBeDoneFromFloor:true,
+    	Result:HCMetalbarbox,
+    	Time:20.0,
+    }
+	
+recipe Unpack Pallet of Metal Bars
+    {
+    	HCMetalbarbox,
+    	Result:MetalBar=50,
+    	Time:20.0,
+    	OnCreate:recipe_hcpallet,
+    }
 
 }

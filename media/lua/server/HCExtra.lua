@@ -738,6 +738,177 @@ function recipe_hcdismantlebreaks(items, result, player)
 	inv:AddItem("Hydrocraft.HCBreakpads");
 end
 
+function recipe_hcreturngen(items, result, player)
+    HCAddManySameItem("Base.Generator", 0, player);
+    HCAddManySameItem("Hydrocraft.HCPowercord", 0, player);
+end
+
+function recipe_hcdismantlemetal(items, result, player)
+    HCAddManySameItem("Base.SheetMetal", 10, player);
+    HCAddManySameItem("Hydrocraft.HCMetalwheeliron", 3, player);
+    HCAddManySameItem("Base.SmallSheetMetal", 1, player);
+end
+
+function recipe_hcdismantleforklift(items, result, player)  
+    HCAddManySameItem("Hydrocraft.HCLargesheetmetal", 1, player);
+    HCAddManySameItem("Hydrocraft.HCSteelsheetlarge", 1, player);
+    HCAddManySameItem("Hydrocraft.HCCablecopper,", 1, player);
+    HCAddManySameItem("Hydrocraft.HCLedblue", 0, player);
+    HCAddManySameItem("Hydrocraft.HCLedred", 0, player);
+    HCAddManySameItem("Hydrocraft.HCLedgreen", 0, player);
+    HCAddManySameItem("Base.SheetMetal", 11, player);
+    HCAddManySameItem("Base.ElectronicsScrap", 19, player);
+    HCAddManySameItem("Base.NormalCarSeat1", 0, player);
+    HCAddManySameItem("Base.MetalBar", 23, player);
+    HCAddManySameItem("Base.EngineParts", 9, player);
+    HCAddManySameItem("Base.MetalPipe", 0, player);
+    HCAddManySameItem("Base.CarBattery1", 0, player);
+    HCAddManySameItem("Base.LightBulbOrange", 0, player);
+    HCAddManySameItem("Base.Mirror", 1, player);
+end
+
+function recipe_hcdismantlescissorlift(items, result, player)  
+    HCAddManySameItem("Hydrocraft.HCLargesheetmetal", 5, player);
+    HCAddManySameItem("Hydrocraft.HCCablecopper,", 0, player);
+    HCAddManySameItem("Hydrocraft.HCLedred", 0, player);
+    HCAddManySameItem("Hydrocraft.HCLedgreen", 0, player);
+    HCAddManySameItem("Hydrocraft.HCLedyellow", 0, player);
+    HCAddManySameItem("Base.SheetMetal", 3, player);
+    HCAddManySameItem("Base.ElectronicsScrap", 19, player);
+    HCAddManySameItem("Base.MetalBar", 54, player);
+    HCAddManySameItem("Base.EngineParts", 9, player);
+    HCAddManySameItem("Base.MetalPipe", 0, player);
+    HCAddManySameItem("Base.CarBattery1", 0, player);
+    HCAddManySameItem("Base.RemoteCraftedV3", 0, player);
+end
+
+function recipe_hcdismantleteslamachine(items, result, player)  
+    HCAddManySameItem("Hydrocraft.HCAluminumscrap", 1, player);
+    HCAddManySameItem("Hydrocraft.HCRubberbelt", 3, player);
+    HCAddManySameItem("Hydrocraft.HCPully", 3, player);
+    HCAddManySameItem("Hydrocraft.HCLargesheetmetal", 4, player);
+    HCAddManySameItem("Hydrocraft.HCLever", 1, player);
+    HCAddManySameItem("Hydrocraft.HCConstantanheatingcoil", 7, player);
+    HCAddManySameItem("Hydrocraft.HCCopperpipe", 1, player);
+    HCAddManySameItem("Hydrocraft.HCCablecopper,", 3, player);
+    HCAddManySameItem("Hydrocraft.HCLedred", 0, player);
+    HCAddManySameItem("Hydrocraft.HCLedgreen", 0, player);
+    HCAddManySameItem("Base.SmallSheetMetal", 11, player);
+    HCAddManySameItem("Base.SheetMetal", 1, player);
+end
+
+function recipe_hcdismantlecopymachine(items, result, player)  
+    HCAddManySameItem("Hydrocraft.HCLedblue", 0, player);
+    HCAddManySameItem("Hydrocraft.HCLedyellow,", 0, player);
+    HCAddManySameItem("Hydrocraft.HCLedred", 0, player);
+    HCAddManySameItem("Hydrocraft.HCLedgreen", 0, player);
+    HCAddManySameItem("Hydrocraft.HCCablecopper,", 3, player);
+    HCAddManySameItem("Hydrocraft.HCElectromotor,", 0, player);
+    HCAddManySameItem("Hydrocraft.HCCircutchip,", 1, player);
+    HCAddManySameItem("Hydrocraft.HCPlasticscrap,", 29, player);
+    HCAddManySameItem("Hydrocraft.HCCoppercablered,", 0, player);
+    HCAddManySameItem("Hydrocraft.HCColoredwire,", 0, player);
+    HCAddManySameItem("Hydrocraft.HCTransistor", 1, player);
+    HCAddManySameItem("Hydrocraft.HCIREncoder", 0, player);
+	HCAddManySameItem("Hydrocraft.HCIREmitter", 0, player);
+	HCAddManySameItem("Hydrocraft.HCIRReceiver", 0, player);
+    HCAddManySameItem("Hydrocraft.HCReceiverIC", 0, player);
+    HCAddManySameItem("Hydrocraft.HCResistor", 1, player);
+    HCAddManySameItem("Hydrocraft.HCCapacitor02", 1, player);
+    HCAddManySameItem("Hydrocraft.HCDiode", 3, player);
+	HCAddManySameItem("Hydrocraft.HCLDR", 0, player);
+end
+
+function recipe_hcdismantlepallettruck(items, result, player)
+    HCAddManySameItem("Base.MetalBar", 3, player);
+    HCAddManySameItem("Hydrocraft.HCMetalwheel", 2, player);
+    HCAddManySameItem("Hydrocraft.HCRubberscrap", 5, player);
+    HCAddManySameItem("Hydrocraft.HCSteelsheet", 1, player);
+end
+
+function recipe_hcdismantletoywagon(items, result, player)
+    HCAddManySameItem("Base.MetalBar", 3, player);
+    HCAddManySameItem("Hydrocraft.HCMetalwheel", 3, player);
+    HCAddManySameItem("Hydrocraft.HCRubberscrap", 7, player);
+    HCAddManySameItem("Hydrocraft.HCSteelsheet", 3, player);
+end
+
+function recipe_hcdismantlehanddolly(items, result, player)
+    HCAddManySameItem("Base.MetalBar", 9, player);
+    HCAddManySameItem("Hydrocraft.HCMetalwheel", 1, player);
+    HCAddManySameItem("Hydrocraft.HCRubberscrap", 3, player);
+end
+
+function recipe_hcdismantlepushcart(items, result, player)
+    HCAddManySameItem("Base.MetalBar", 6, player);
+    HCAddManySameItem("Hydrocraft.HCMetalwheel", 3, player);
+    HCAddManySameItem("Hydrocraft.HCAluminumscrap",11, player);
+    HCAddManySameItem("Hydrocraft.HCPlasticscrap", 9, player);
+    HCAddManySameItem("Hydrocraft.HCPlastic", 0, player);
+end
+
+function recipe_hcdismantlepushcart(items, result, player)
+    HCAddManySameItem("Base.MetalBar", 3, player);
+    HCAddManySameItem("Hydrocraft.HCMetalwheel", 3, player);
+    HCAddManySameItem("Hydrocraft.HCRubbercrap", 7, player);
+end
+
+function recipe_hcdismantlebedsprings(items, result, player)
+    HCAddManySameItem("Base.MetalBar", 3, player);
+    HCAddManySameItem("Hydrocraft.HCAluminumscrap",19, player);
+end
+
+function recipe_hcdismantleglovebox(items, result, player)
+    HCAddManySameItem("Base.Sheetmetal", 8, player);
+    HCAddManySameItem("Hydrocraft.HCPlasticscrap", 7, player);
+    HCAddManySameItem("Hydrocraft.HCRubberglove", 0, player);
+    HCAddManySameItem("Hydrocraft.HCLedred", 1, player);
+    HCAddManySameItem("Hydrocraft.HCLedgreen", 0, player);
+    HCAddManySameItem("Hydrocraft.HCCablecopper,", 2, player);
+    HCAddManySameItem("Hydrocraft.HCCircutchip,", 1, player);
+    HCAddManySameItem("Hydrocraft.HCColoredwire,", 1, player);
+    HCAddManySameItem("Hydrocraft.HCTransistor", 1, player);
+    HCAddManySameItem("Hydrocraft.HCIREncoder", 0, player);
+	HCAddManySameItem("Hydrocraft.HCIREmitter", 0, player);
+	HCAddManySameItem("Hydrocraft.HCIRReceiver", 0, player);
+    HCAddManySameItem("Hydrocraft.HCReceiverIC", 0, player);
+    HCAddManySameItem("Hydrocraft.HCResistor", 1, player);
+    HCAddManySameItem("Hydrocraft.HCCapacitor02", 1, player);
+    HCAddManySameItem("Hydrocraft.HCDiode", 1, player);
+	HCAddManySameItem("Hydrocraft.HCLDR", 0, player);
+    HCAddManySameItem("Base.SmallSheetMetal", 5, player);
+    HCAddManySameItem("Base.MetalPipe", 0, player);
+end
+
+function recipe_hcdismantlebrokenradiator(items, result, player)
+    HCAddManySameItem("Hydrocraft.HCBrassscrap", 3, player);
+end
+
+function recipe_hcdismantlelawnmower(items, result, player)
+    HCAddManySameItem("Hydrocraft.HCSawcircularblade", 0, player);
+    HCAddManySameItem("Hydrocraft.HCPlasticscrap", 5, player);
+    HCAddManySameItem("Base.EngineParts", 9, player);
+    HCAddManySameItem("Hydrocraft.HCCablecopper,", 0, player);
+    HCAddManySameItem("Base.MetalBar,", 7, player);
+end
+
+function recipe_hcdismantleprojector(items, result, player)
+    HCAddManySameItem("Hydrocraft.HCIREncoder", 0, player);
+	HCAddManySameItem("Hydrocraft.HCIREmitter", 0, player);
+    HCAddManySameItem("Hydrocraft.HCIRReceiver", 0, player);
+    HCAddManySameItem("Hydrocraft.HCElectromotor,", 0, player);
+    HCAddManySameItem("Hydrocraft.HCReceiverIC", 0, player);
+    HCAddManySameItem("Hydrocraft.HCCircutchip,", 1, player);
+    HCAddManySameItem("Hydrocraft.HCCablecopper,", 3, player);
+    HCAddManySameItem("Hydrocraft.HCCapacitor02", 1, player);
+    HCAddManySameItem("Hydrocraft.HCDiode", 3, player);
+	HCAddManySameItem("Hydrocraft.HCLDR", 0, player);
+    HCAddManySameItem("Hydrocraft.HCLargesheetmetal", 2, player);
+    HCAddManySameItem("Base.MetalBar", 3, player);
+    HCAddManySameItem("Base.Sheetmetal", 11, player);
+    HCAddManySameItem("Base.SmallSheetMetal", 3, player);
+end
+
 --Battery Stuff
 
 function recipe_hcbatterysmalldead(items, result, player)

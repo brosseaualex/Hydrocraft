@@ -576,6 +576,14 @@ item HCLabbig
         ResizeWorldIcon 	= 2.0,
         icon 			= HCLabbig,
     } 
+	
+	item HCRubberbelt
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Rubber Belt,
+        icon 			= HCRubberbelt,
+    } 
 
 
 /************************RECIPES************************/

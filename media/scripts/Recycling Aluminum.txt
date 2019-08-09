@@ -5,8 +5,22 @@ module Hydrocraft
         Base
 
     }
+	
+/************************ITEMS************************/
+
+item HCAluminumscrap
+    {
+        Weight    		=    	0.1,
+        Type    		=    	Normal,
+        DisplayName    		=    	Scrap Aluminum,
+        Icon    		=    	HCAluminumscrap,
+    }
+
+/************************ITEMS************************/
 
 /************************RECIPES************************/
+
+
 
 recipe Recycle Aluminum
     {
@@ -370,5 +384,43 @@ recipe Recycle Aluminum
 		OnCreate:BFurnUse,
 		OnGiveXP:HCWelding_OnGiveXP,
     }  
+	
+	recipe Recycle Aluminum
+    {
+    SkillRequired:MetalWelding=6,
+    HCPropanetankempty,
+    Charcoal,                                                                     
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,           
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,                         
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCAluminumingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+	
+	recipe Recycle Aluminum
+    {
+    SkillRequired:MetalWelding=6,
+    HCAluminumscrap,
+    Charcoal,                                                                     
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,           
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,                         
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCAluminumingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }	
 
 }

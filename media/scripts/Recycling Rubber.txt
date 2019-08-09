@@ -5,7 +5,19 @@ module Hydrocraft
         Base
 
     }
+	
+/************************ITEMS************************/
+	
+	item HCRubberscrap
+    {
+        Weight    		=    	0.1,
+        Type    		=    	Normal,
+        DisplayName    		=    	Scrap Rubber,
+        Icon    		=    	HCRubberscrap,
+    }
 
+/************************ITEMS************************/
+	
 /************************RECIPES************************/
 
 recipe Recycle Rubber
@@ -369,5 +381,43 @@ recipe Recycle Rubber
     OnCreate:SmeltUse,
     OnGiveXP:HCWelding_OnGiveXP,
     }
+	
+	recipe Recycle Rubber
+    {
+    HCRubberbelt,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCRubber,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+	
+recipe Recycle Rubber
+    {
+    HCRubberscrap=2,
+    Charcoal,
+
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCRubber,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Alchemy,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }	
 
 }

@@ -823,5 +823,263 @@ recipe Create Glass Marbles
     OnCreate:SmeltUse,
     OnGiveXP:HCWelding_OnGiveXP,
     }
+	
+	recipe Make Car Window
+    {
+		HCGlassingot=2,
+		HCPlastic=2,
+		Charcoal,
+
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep Tongs,
+		keep HCWorkgloves/HCOvenmitts,
+		keep HCFurnace,HCFurnace2,
+		CanBeDoneFromFloor:true,
+		Result:FrontWindow1,
+		SkillRequired:MetalWelding=8,
+		NeedToBeLearn:true,
+		Time:1000,
+		Category:Glassworking,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCWelding_OnGiveXP,
+    }
+	
+recipe Make Car Window
+    {
+		HCGlassingot=2,
+		HCPlastic=2,
+		Charcoal,
+
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep Tongs,
+		keep HCWorkgloves/HCOvenmitts,
+		keep HCFurnace,HCFurnace2,
+		CanBeDoneFromFloor:true,
+		Result:FrontWindow2,
+		SkillRequired:MetalWelding=8,
+		NeedToBeLearn:true,
+		Time:1000,
+		Category:Glassworking,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCWelding_OnGiveXP,
+    }
+	
+recipe Make Car Window
+    {
+		HCGlassingot=2,
+		HCPlastic=2,
+		Charcoal,
+
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep Tongs,
+		keep HCWorkgloves/HCOvenmitts,
+		keep HCFurnace,HCFurnace2,
+		CanBeDoneFromFloor:true,
+		Result:FrontWindow3,
+		SkillRequired:MetalWelding=8,
+		NeedToBeLearn:true,
+		Time:1000,
+		Category:Glassworking,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCWelding_OnGiveXP,
+    }
+		
+recipe Make Car Window
+    {
+		HCGlassingot=2,
+		HCPlastic=2,
+		Charcoal,
+
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep Tongs,
+		keep HCWorkgloves/HCOvenmitts,
+		keep HCFurnace,HCFurnace2,
+		CanBeDoneFromFloor:true,
+		Result:RearWindow1,
+		SkillRequired:MetalWelding=8,
+		NeedToBeLearn:true,
+		Time:1000,
+		Category:Glassworking,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCWelding_OnGiveXP,
+    }
+	
+recipe Make Car Window
+    {
+		HCGlassingot=2,
+		HCPlastic=2,
+		Charcoal,
+
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep Tongs,
+		keep HCWorkgloves/HCOvenmitts,
+		keep HCFurnace,HCFurnace2,
+		CanBeDoneFromFloor:true,
+		Result:RearWindow2,
+		SkillRequired:MetalWelding=8,
+		NeedToBeLearn:true,
+		Time:1000,
+		Category:Glassworking,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCWelding_OnGiveXP,
+    }	
+	
+recipe Make Car Window
+    {
+		HCGlassingot=2,
+		HCPlastic=2,
+		Charcoal,
+
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep Tongs,
+		keep HCWorkgloves/HCOvenmitts,
+		keep HCFurnace,HCFurnace2,
+		CanBeDoneFromFloor:true,
+		Result:RearWindow3,
+		SkillRequired:MetalWelding=8,
+		NeedToBeLearn:true,
+		Time:1000,
+		Category:Glassworking,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCWelding_OnGiveXP,
+    }		
+
+recipe Make Car Windshield
+	 {
+		HCGlassingot=4,
+		HCPlastic=4,
+		Charcoal,
+
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep Tongs,
+		keep HCWorkgloves/HCOvenmitts,
+		keep HCFurnace,HCFurnace2,
+		CanBeDoneFromFloor:true,
+		Result:Windshield1,
+		SkillRequired:MetalWelding=8,
+		NeedToBeLearn:true,
+		Time:1000,
+		Category:Glassworking,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCWelding_OnGiveXP,
+    }
+	
+recipe Make Car Windshield
+	 {
+		HCGlassingot=4,
+		HCPlastic=4,
+		Charcoal,
+
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep Tongs,
+		keep HCWorkgloves/HCOvenmitts,
+		keep HCFurnace,HCFurnace2,
+		CanBeDoneFromFloor:true,
+		Result:Windshield2,
+		SkillRequired:MetalWelding=8,
+		NeedToBeLearn:true,
+		Time:1000,
+		Category:Glassworking,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCWelding_OnGiveXP,
+    }
+	
+recipe Make Car Windshield
+	 {
+		HCGlassingot=4,
+		HCPlastic=4,
+		Charcoal,
+
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep Tongs,
+		keep HCWorkgloves/HCOvenmitts,
+		keep HCFurnace,HCFurnace2,
+		CanBeDoneFromFloor:true,
+		Result:Windshield3,
+		SkillRequired:MetalWelding=8,
+		NeedToBeLearn:true,
+		Time:1000,
+		Category:Glassworking,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCWelding_OnGiveXP,
+    }	
+	
+recipe Make Car Windshield
+	 {
+		HCGlassingot=4,
+		HCPlastic=4,
+		Charcoal,
+
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep Tongs,
+		keep HCWorkgloves/HCOvenmitts,
+		keep HCFurnace,HCFurnace2,
+		CanBeDoneFromFloor:true,
+		Result:RearWindshield1,
+		SkillRequired:MetalWelding=8,
+		NeedToBeLearn:true,
+		Time:1000,
+		Category:Glassworking,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCWelding_OnGiveXP,
+    }	 
+  
+recipe Make Car Windshield
+	 {
+		HCGlassingot=4,
+		HCPlastic=4,
+		Charcoal,
+
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep Tongs,
+		keep HCWorkgloves/HCOvenmitts,
+		keep HCFurnace,HCFurnace2,
+		CanBeDoneFromFloor:true,
+		Result:RearWindshield2,
+		SkillRequired:MetalWelding=8,
+		NeedToBeLearn:true,
+		Time:1000,
+		Category:Glassworking,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCWelding_OnGiveXP,
+    }	
+
+recipe Make Car Windshield
+	 {
+		HCGlassingot=4,
+		HCPlastic=4,
+		Charcoal,
+
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep Tongs,
+		keep HCWorkgloves/HCOvenmitts,
+		keep HCFurnace,HCFurnace2,
+		CanBeDoneFromFloor:true,
+		Result:RearWindshield3,
+		SkillRequired:MetalWelding=8,
+		NeedToBeLearn:true,
+		Time:1000,
+		Category:Glassworking,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCWelding_OnGiveXP,
+    }		
+	
+recipe Create Glassware
+    {
+		HCGlassingot,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep Tongs,
+		keep HCIronblowpipe,
+		keep HCWorkgloves/HCOvenmitts,
+		keep HCSmelter/HCSmelter2,
+		CanBeDoneFromFloor:true,
+		Result:HCBlackink0,
+		NeedToBeLearn:true,
+		Time:1000,
+		Category:Glassworking,
+		OnCreate:SmeltUse,
+		OnGiveXP:HCWelding_OnGiveXP,
+    }	
 
 }

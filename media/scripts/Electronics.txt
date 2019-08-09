@@ -703,6 +703,15 @@ item HCComputerPSU
         DisplayName		=	Computer PSU,
        	Icon			=	HCPSU,
     }
+	
+	item HCCopymachineGen
+    {
+        Weight                = 20.0,
+        Type                = Normal,
+        DisplayName                 = Copy Machine With Generator,
+        icon                 = HCCopymachineGen,
+        ResizeWorldIcon             = 1.0,
+    }
 
 /************************RECIPES************************/
     
@@ -1548,6 +1557,28 @@ recipe Extract Working CPU
     	Time:100,
     	Category:Electrical,
        	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+	
+	recipe Add Generator to Copy Machine
+    {
+		SkillRequired:Electricity=3,
+		HCCopymachine,
+		HCPowercord,
+		Generator,
+    	CanBeDoneFromFloor:true,
+		Result:HCCopymachineGen,
+    	Time:400,
+        Category:Engineer,
+    }
+
+recipe Remove Generator from Copy Machine
+    {
+		SkillRequired:Electricity=3,
+    	CanBeDoneFromFloor:true,
+		Result:HCCopymachine,
+    	Time:400,
+		OnCreate:recipe_returngen,
+        Category:Engineer,
     }
 
 }

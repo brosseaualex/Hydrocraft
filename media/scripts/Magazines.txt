@@ -85,14 +85,13 @@ module Hydrocraft
         	ReplaceOnUse    =   	HCMagazinemetalworking1,
 	}
 
-
 	item HCMagazinemetalworking2
 	{
 		Weight		=	0.1,
 		Type		=	Literature,
 		DisplayName	=	Metalworking Monthly Magazine,
 		Icon		=	HCMagazinemetalworking2,
-		TeachedRecipes  =   	Make Metal Pipe;Cut Steel Pipe,
+		TeachedRecipes  =   	Make Metal Pipe,                                         
         	ReplaceOnUse    =   	HCMagazinemetalworking2,
 	}
 

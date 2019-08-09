@@ -822,10 +822,9 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Glass Working Textbook,
 		Icon		=	HCBookglassworking,
-		TeachedRecipes  =   	Create Glass from Sand;Recycle Glass;Create Glass Pane;Create Large Glass Pane;Create Glassware,
+		TeachedRecipes  =   	Create Glass from Sand;Recycle Glass;Create Glass Pane;Create Large Glass Pane;Create Glassware;Make Car Window;Make Car Windshield,
         	ReplaceOnUse    =   	HCBookglassworking,
 	}
-
 	item HCBookcopperworking
 	{
 		Weight		=	0.5,
@@ -1131,10 +1130,10 @@ module Hydrocraft
 	item HCBookwelding
 	{
 		Weight		=	0.5,
-		Type		=	Literature,
-		DisplayName	=	Welding Textbook,
+		Type		=	Literature,											
+		DisplayName	=	Welding Textbook,                                   
 		Icon		=	HCBookwelding,
-		TeachedRecipes  =   	Build Industrial Furnace;Build Arc Furnace;Cut Steel Pipe;Cut Sheet Of Metal;Make Large Sheet Of Metal;Make Metal Pipe;Make Steel Beam;Make Metal Barrel;Make Propane Tank;Make Metal Casing;Weld Flag Pole;Weld Punching Bag Stand;Weld Weight Bench;Repair Treadmill;Make Dissection Table;Make Metal Wheels;Make Pulley;Make Mine Cart;Make Chain;Construct Barbed Wire Barricade;Construct Concertina Wire Barricade,
+		TeachedRecipes  =   	Build Industrial Furnace;Build Arc Furnace;Cut Sheet Of Metal;Make Large Sheet Of Metal;Make Metal Pipe;Make Steel Beam;Make Metal Barrel;Make Propane Tank;Make Metal Casing;Weld Flag Pole;Weld Punching Bag Stand;Weld Weight Bench;Repair Treadmill;Make Dissection Table;Make Metal Wheels;Make Pulley;Make Mine Cart;Make Chain;Construct Barbed Wire Barricade;Construct Concertina Wire Barricade,
         	ReplaceOnUse    =   	HCBookwelding,
 	}
 

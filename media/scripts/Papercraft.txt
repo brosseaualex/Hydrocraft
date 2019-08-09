@@ -71,6 +71,33 @@ item HCPaperscreendry
         DisplayName    	=    Dry Paper Screen,
         Icon    	=    HCPaperscreendry,
     }
+	
+	item HCQuill
+    {
+        Weight    		= 0.1,
+	Type 			= Drainable,
+	UseDelta 		= 1.00,
+        DisplayName         	= Quill,
+        icon 			= HCQuill,
+    }
+
+item HCBlackink
+    {
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 1.00,
+        DisplayName         	= Ink Well,
+        icon 			= HCInkwell1,
+	ReplaceOnDeplete    = HCBlackink0,
+    }
+	
+item HCBlackink0
+    {
+        Weight    		= 0.1,
+	Type 			= Normal,
+        DisplayName         	= Empty Ink Well,
+        icon 			= HCInkwell0,
+    }
 
 /************************RECIPES************************/
 
@@ -171,5 +198,16 @@ recipe Remove Paper Screen
     	OnCreate:recipe_hcpaperscreen,
     	OnGiveXP:HCHunger_OnGiveXP,
     }
+	
+	recipe Make Quill
+	{
+		HCBlackfeathers/HCWhitefeathers/HCBrownfeathers/HCStripedfeather/HCBluejayfeather,
+		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/HCBreadknife/HCScalpel/HCMachete/HCCombatknife/HCKatana/HCKnifesteel/HCKnifeiron,
+		keep HCPliers,
+		Result:HCQuill,
+        Time:100,
+        NeedToBeLearn:false,
+        Category:Papercraft,
+	}	
 
 }

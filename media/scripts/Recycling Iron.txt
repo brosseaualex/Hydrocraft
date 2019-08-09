@@ -947,5 +947,24 @@ recipe Recycle Iron
     OnCreate:SmeltUse,
     OnGiveXP:HCWelding_OnGiveXP,
     }
+	
+	recipe Recycle Iron
+    {
+    SkillRequired:MetalWelding=5,
+    HCMetalwheeliron,
+    Charcoal,                                                                     
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,           
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,                         
+    keep HCSmelter/HCSmelter2,
+    CanBeDoneFromFloor:true,
+    Result:HCIroningot=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
 
 }

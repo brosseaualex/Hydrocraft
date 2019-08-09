@@ -80,7 +80,7 @@ module Base
         DisplayName	=	The Smithing Magazine Vol.4,
         Icon		=	MagazineBlacksmith4,
         TeachedRecipes  =   	Make Metal Drum,
-        ReplaceOnUse    =   	SmithingMag3,
+        ReplaceOnUse    =   	SmithingMag4,
     }
 
 /************************Not Iron Metal Items************************/

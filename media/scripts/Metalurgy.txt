@@ -1471,5 +1471,81 @@ recipe Make Fishhooks
     OnCreate:IFurnUse,
     OnGiveXP:HCWelding_OnGiveXP,
     }
+	
+	recipe Make Metal Pipe
+    {
+		SkillRequired:MetalWelding=5,
+		HCSteelingot=4,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		HCPipemold,
+		keep Tongs,
+		keep HCWorkgloves/HCOvenmitts,
+		keep HCBlastfurnace/HCBlastfurnace2,
+		CanBeDoneFromFloor:true,
+		Result:HCSteelPipe,
+		NeedToBeLearn:true,
+		Time:1000,
+		Category:Smithing,
+		OnCreate:BFurnUse,
+		OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Metal Pipe
+    {
+		SkillRequired:MetalWelding=4,
+		HCCopperingot=4,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		HCPipemold,
+		keep Tongs,
+		keep HCWorkgloves/HCOvenmitts,
+		keep HCSmelter/HCSmelter2,
+		CanBeDoneFromFloor:true,
+		Result:HCCopperpipe,
+		NeedToBeLearn:true,
+		Time:1000,
+		Category:Smithing,
+		OnCreate:SmeltUse,
+		OnGiveXP:HCWelding_OnGiveXP,
+    }
+	
+ recipe Make Metal Pipe
+    {
+		SkillRequired:MetalWelding=6,
+		HCAluminumingot=4,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		HCPipemold,
+		keep Tongs,
+		keep HCWorkgloves/HCOvenmitts,
+		keep HCSmelter/HCSmelter2,
+		CanBeDoneFromFloor:true,
+		Result:MetalPipe,
+		NeedToBeLearn:true,
+		Time:1000,
+		Category:Smithing,
+		OnCreate:SmeltUse,
+		OnGiveXP:HCWelding_OnGiveXP,
+    }
+	
+recipe Make Metal Bar
+    {
+		SkillRequired:MetalWelding=2,
+		HCSteelingot=2,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		HCBarmold,
+		keep Tongs,
+		keep HCWorkgloves/HCOvenmitts,
+		keep HCBlastfurnace/HCBlastfurnace2,
+		CanBeDoneFromFloor:true,
+		Result:MetalBar,
+		NeedToBeLearn:true,
+		Time:1000,
+		Category:Smithing,
+		OnCreate:BFurnUse,
+		OnGiveXP:HCWelding_OnGiveXP,
+    }
 
 }

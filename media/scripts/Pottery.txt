@@ -509,6 +509,24 @@ item HCPorcelainvase
         DisplayName         	= Porcelain vase,
         icon 			= HCPorcelainvase,
     }
+	
+	item HCPipemold
+    {
+    Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+    DisplayName         	= Pipe Mold,
+    icon 			= HCPipemold,
+    }
+
+	item HCBarmold
+    {
+    Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+    DisplayName         	= Bar Mold,
+    icon 			= HCBarmold,
+    }
 
 /************************RECIPES************************/
 
@@ -1320,6 +1338,66 @@ recipe Make Clay Mold
     keep HCKiln/HCKiln2,
     CanBeDoneFromFloor:true,
     Result:HCBlockmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+	
+	recipe Make Clay Mold
+    {
+    HCGreyclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCPipemold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+	
+recipe Make Clay Mold
+    {
+    HCRedclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCPipemold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Clay Mold
+    {
+    HCGreyclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCBarmold,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Pottery,
+    OnCreate:KilnUse,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+	
+recipe Make Clay Mold
+    {
+    HCRedclay,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCKiln/HCKiln2,
+    CanBeDoneFromFloor:true,
+    Result:HCBarmold,
     NeedToBeLearn:true,
     Time:100,
     Category:Pottery,

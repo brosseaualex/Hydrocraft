@@ -71,16 +71,17 @@ module Hydrocraft
        OnGiveXP:DismantleElectronics_OnGiveXP,
     }
 
-    recipe Dismantle
+	recipe Dismantle
     {
-       HCCopymachine,
-       keep Screwdriver,
-
-       Result:ElectronicsScrap=3,
-       Time:30.0,
-       Category:Electrical,
-       OnCreate:recipe_hcelectronics02,
-       OnGiveXP:DismantleElectronics_OnGiveXP,
+       HCCopymachine,                                
+	   keep Screwdriver,
+	   keep HCPliers,
+       Result:ElectronicsScrap=20,
+       Time:2000.0,
+	   OnCreate:recipe_hcdismantlecopymachine,
+       Category:Welding,
+	   SkillRequired:Electricity=4,
+	   OnGiveXP:HCElectricity_OnGiveXP,
     }
 
     recipe Dismantle
@@ -365,6 +366,373 @@ module Hydrocraft
        Time:30.0,
        Category:Electrical,
        OnGiveXP:DismantleElectronics_OnGiveXP,
+    }
+	
+	recipe Dismantle
+    {
+       HCPully,
+       keep HCSawmetal,
+	   keep Screwdriver,
+       Result:HCMetalwheel,
+       Time:200.0,
+       Category:Welding,
+	   OnGiveXP:HCWelding_OnGiveXP,
+    }
+	
+recipe Dismantle
+    {
+       HCPully,
+       HCElectricmultitoolsawpowered,
+	   keep Screwdriver,
+       Result:HCMetalwheel,
+       Time:100.0,
+       Category:Welding,
+	   OnGiveXP:HCWelding_OnGiveXP,
+    }	
+	
+recipe Dismantle
+    {
+       HCPullyiron,
+       keep HCSawmetal,
+	   keep Screwdriver,
+       Result:HCMetalwheeliron,
+       Time:200.0,
+       Category:Welding,
+	   OnGiveXP:HCWelding_OnGiveXP,
+    }
+	
+recipe Dismantle
+    {
+       HCPullyiron,
+       HCElectricmultitoolsawpowered,
+	   keep Screwdriver,
+       Result:HCMetalwheeliron,
+       Time:100.0,
+       Category:Welding,
+	   OnGiveXP:HCWelding_OnGiveXP,
+    }
+	
+recipe Dismantle
+    {
+       HCStepladder,
+       keep HCSawmetal,
+	   keep Screwdriver,
+       Result:Metalbar=40,
+       Time:3000.0,
+	   OnCreate:recipe_hcdismantlemetal,
+       Category:Welding,
+	   OnGiveXP:HCWelding_OnGiveXP,
+    }
+	
+recipe Dismantle
+    {
+       HCStepladder,
+       HCElectricmultitoolsawpowered,
+	   keep Screwdriver,
+       Result:Metalbar=40,
+       Time:1500.0,
+	   OnCreate:recipe_hcdismantlemetal,
+       Category:Welding,
+	   OnGiveXP:HCWelding_OnGiveXP,
+    }
+	
+recipe Dismantle
+    {
+       HCForklift,
+       keep HCSawmetal,
+	   keep Screwdriver,
+	   keep HCWrench,
+	   keep LugWrench,
+	   keep Jack,
+	   keep HCPliers,
+       Result:NormalTire1=4,
+       Time:6000.0,
+	   OnCreate:recipe_hcdismantleforklift,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }
+	
+recipe Dismantle
+    {
+       HCForklift,
+       HCElectricmultitoolsawpowered,
+	   keep Screwdriver,
+	   keep HCWrench,
+	   keep LugWrench,
+	   keep Jack,
+	   keep HCPliers,
+       Result:NormalTire1=4,
+       Time:3000.0,
+	   OnCreate:recipe_hcdismantleforklift,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }
+	
+recipe Dismantle
+    {
+       HCScissorlift,
+       keep HCSawmetal,
+	   keep Screwdriver,
+	   keep HCWrench,
+	   keep LugWrench,
+	   keep Jack,
+	   keep HCPliers,
+       Result:NormalTire1=4,
+       Time:6000.0,
+	   OnCreate:recipe_hcdismantlescissorlift,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }
+	
+recipe Dismantle
+    {
+       HCScissorlift,
+       HCElectricmultitoolsawpowered,
+	   keep Screwdriver,
+	   keep HCWrench,
+	   keep LugWrench,
+	   keep Jack,
+	   keep HCPliers,
+       Result:NormalTire1=4,
+       Time:3000.0,
+	   OnCreate:recipe_hcdismantlescissorlift,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Dismantle
+    {
+       HCTeslamachine,
+	   keep Screwdriver,
+	   keep HCPliers,
+       Result:ElectronicsScrap=150,
+       Time:3000.0,
+	   OnCreate:recipe_hcdismantleteslamachine,
+       Category:Welding,
+	   SkillRequired:Electricity=6,
+	   OnGiveXP:HCElectricity_OnGiveXP,
+    }
+	
+	recipe Dismantle     
+    {
+       HCPallettruck,                                
+	   keep HCSawmetal,
+	   keep Screwdriver,
+       Result:HCSteelsheetlarge=2,
+       Time:3000.0,
+	   OnCreate:recipe_hcdismantlepallettruck,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }
+	
+recipe Dismantle     
+    {
+       HCPallettruck,                                
+	   HCElectricmultitoolsawpowered,
+	   keep Screwdriver,
+       Result:HCSteelsheetlarge=2,
+       Time:1500.0,
+	   OnCreate:recipe_hcdismantlepallettruck,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }
+	
+recipe Dismantle     
+    {
+       HCToywagon,                                
+	   keep HCSawmetal,
+	   keep Screwdriver,
+       Result:HCSteelsheetlarge,
+       Time:3000.0,
+	   OnCreate:recipe_hcdismantletoywagon,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }
+	
+recipe Dismantle     
+    {
+       HCToywagon,                                
+	   HCElectricmultitoolsawpowered,
+	   keep Screwdriver,
+       Result:HCSteelsheetlarge,
+       Time:1500.0,
+	   OnCreate:recipe_hcdismantletoywagon,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }
+		
+recipe Dismantle     
+    {
+       HCHanddolly,                                
+	   keep HCSawmetal,
+	   keep Screwdriver,
+       Result:SheetMetal,
+       Time:3000.0,
+	   OnCreate:recipe_hcdismantlehanddolly,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }
+	
+recipe Dismantle     
+    {
+       HCHanddolly,                                
+	   HCElectricmultitoolsawpowered,
+	   keep Screwdriver,
+       Result:SheetMetal,
+       Time:1500.0,
+	   OnCreate:recipe_hcdismantlehanddolly,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }		
+
+recipe Dismantle     
+    {
+       HCShoppingcart,                                
+	   keep HCSawmetal,
+	   keep Screwdriver,
+       Result:SheetMetal,
+       Time:3000.0,
+	   OnCreate:recipe_hcdismantleshoppingcart,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }
+	
+recipe Dismantle     
+    {
+       HCShoppingcart,                                
+	   HCElectricmultitoolsawpowered,
+	   keep Screwdriver,
+       Result:SheetMetal,
+       Time:1500.0,
+	   OnCreate:recipe_hcdismantleshoppingcart,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Dismantle     
+    {
+       HCPushcart,                                
+	   keep HCSawmetal,
+	   keep Screwdriver,
+       Result:HCSteelsheetlarge,
+       Time:3000.0,
+	   OnCreate:recipe_hcdismantlepushcart,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }
+	
+recipe Dismantle     
+    {
+       HCPushcart,                                
+	   HCElectricmultitoolsawpowered,
+	   keep Screwdriver,
+       Result:HCSteelsheetlarge,
+       Time:1500.0,
+	   OnCreate:recipe_hcdismantlepushcart,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Dismantle     
+    {
+       HCBedsprings,                                
+	   keep HCSawmetal,
+	   keep Screwdriver,
+       Result:HCSteelspring=24,
+       Time:2000.0,
+	   OnCreate:recipe_hcdismantlebedsprings,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }
+	
+recipe Dismantle     
+    {
+       HCBedsprings,                                
+	   HCElectricmultitoolsawpowered,
+	   keep Screwdriver,
+       Result:HCSteelspring=24,
+       Time:1000.0,
+	   OnCreate:recipe_hcdismantlebedsprings,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }		
+	
+recipe Dismantle     
+    {
+       HCGlovebox,                                
+	   keep HCSawmetal,
+	   keep Screwdriver,
+	   keep HCPliers,
+       Result:Metalbar=4,
+       Time:5000.0,
+	   OnCreate:recipe_hcdismantleglovebox,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }
+	
+recipe Dismantle     
+    {
+       HCGlovebox,                                
+	   HCElectricmultitoolsawpowered,
+	   keep Screwdriver,
+	   keep HCPliers,
+       Result:Metalbar=4,
+       Time:2500.0,
+	   OnCreate:recipe_hcdismantleglovebox,
+       Category:Welding,
+	   OnGiveXP:HCElectricity_OnGiveXP,
+    }	
+	
+recipe Dismantle     
+    {
+       HCRadiator2,                                
+	   keep HCSawmetal,
+	   keep Screwdriver,
+	   keep HCPliers,
+       Result:HCBrasssheet=10,
+       Time:3000.0,
+	   OnCreate:recipe_hcdismantleradiator,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }
+	
+recipe Dismantle     
+    {
+       HCRadiator2,                                
+	   HCElectricmultitoolsawpowered,
+	   keep Screwdriver,
+	   keep HCPliers,
+       Result:HCBrasssheet=10,
+       Time:1500.0,
+	   OnCreate:recipe_hcdismantleradiator,
+       Category:Welding,
+	   OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Dismantle     
+    {
+       HCLawnmower,                                
+	   keep Screwdriver,
+	   keep HCPliers,
+       Result:HCMetalwheel=4,
+       Time:2000.0,
+	   OnCreate:recipe_hcdismantlelawnmower,
+       Category:Welding,
+	   SkillRequired:Electricity=2,
+	   OnGiveXP:HCElectricity_OnGiveXP,
+    }
+	
+recipe Dismantle     
+    {
+       HCProjector,  
+	   keep Screwdriver,
+	   keep HCPliers,
+       Result:HCMetalwheeliron,
+       Time:3000.0,
+	   OnCreate:recipe_hcdismantleprojector,
+       Category:Welding,
+	   SkillRequired:Electricity=4,
+	   OnGiveXP:HCElectricity_OnGiveXP,
     }
 
 recipe Dismantle Fridge

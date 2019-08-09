@@ -2075,29 +2075,6 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    Pipe=5,
-    Charcoal,
-
-
-
-
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    HCIngotmold,
-    keep Tongs,
-    keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
-    CanBeDoneFromFloor:true,
-    Result:HCSteelingot,
-    NeedToBeLearn:true,
-    Time:1000,
-    Category:Smithing,
-    OnCreate:BFurnUse,
-    OnGiveXP:HCWelding_OnGiveXP,
-    }
-
-recipe Recycle Steel
-    {
-    SkillRequired:MetalWelding=5,
     IcePick=3,
     Charcoal,
 
@@ -3531,6 +3508,25 @@ recipe Recycle Steel
     keep HCBlastfurnace/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+	
+	recipe Recycle Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCMetalwheel,
+    Charcoal,                                                                     
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,           
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,                         
+    keep HCBlastfurnace/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSteelingot=2,
     NeedToBeLearn:true,
     Time:1000,
     Category:Smithing,
