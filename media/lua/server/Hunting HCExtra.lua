@@ -221,6 +221,39 @@ function HCHuntBear(items, result, player)
 	end
 end
 
+function HCHuntCougar(items, result, player)
+	if not player:isOutside() then
+		player:Say("There are no animals indoors.");
+	return;
+	end
+	local chance = 0;
+	--Base chance per weapon type.
+	for x=0, items:size()-1 do
+		if items:get(x):getType() == "WoodenLance" then
+			chance = 19;
+		elseif items:get(x):getType() == "HCLongbow" or items:get(x):getType() == "HCCrossbow" then
+			chance = 29;
+		elseif items:get(x):getType() == "Shotgun" or items:get(x):getType() == "VarmintRifle" or items:get(x):getType() == "HuntingRifle" then
+			chance = 49;
+		end
+	end
+	--Add skill bonuses.
+	chance = chance + ((player:getPerkLevel(Perks.Aiming) + player:getPerkLevel(Perks.Sneak)) * 1.5);
+	--Dog bonus.
+	chance = chance + (countDogs(player) * 5);
+		if chance < 0 then
+			HCSpeaking(player, 0);
+		else
+			actual = ZombRand(100);
+			if actual <= chance then				
+					player:getInventory():AddItem("Hydrocraft.HCCougardead");
+				HCSpeaking(player, 1);
+			else
+				HCSpeaking(player, 2);
+			end
+	end
+end
+
 function HCHuntBird(items, result, player)
 	if not player:isOutside() then
 		player:Say("There are no animals indoors.");

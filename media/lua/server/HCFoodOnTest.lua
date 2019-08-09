@@ -544,20 +544,6 @@ end
 
 -- ****** JUICES ONTEST START ******
 
-function MakeLimeJuice_CheckIfFresh(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.HCLime" then
-        return sourceItem:isFresh()
-    end
-    return true
-end
-
-function MakeLemonJuice_CheckIfFresh(sourceItem, result)
-    if sourceItem:getFullType() == "Hydrocraft.Lemon" then
-        return sourceItem:isFresh()
-    end
-    return true
-end
-
 function MakeAppleJuice_CheckIfFresh(sourceItem, result)
     if sourceItem:getFullType() == "Apple" then
         return sourceItem:isFresh()
@@ -579,8 +565,22 @@ function MakeGrapeJuice_CheckIfFresh(sourceItem, result)
     return true
 end
 
+function MakeLemonJuice_CheckIfFresh(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.Lemon" then
+        return sourceItem:isFresh()
+    end
+    return true
+end
+
 function MakeOrangeJuice_CheckIfFresh(sourceItem, result)
     if sourceItem:getFullType() == "Orange" then
+        return sourceItem:isFresh()
+    end
+    return true
+end
+
+function MakeLimeJuice_CheckIfFresh(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCLime" then
         return sourceItem:isFresh()
     end
     return true
