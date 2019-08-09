@@ -1483,7 +1483,7 @@ recipe Make Fishhooks
 		keep HCWorkgloves/HCOvenmitts,
 		keep HCBlastfurnace/HCBlastfurnace2,
 		CanBeDoneFromFloor:true,
-		Result:HCSteelPipe,
+		Result:HCSteelpipe,
 		NeedToBeLearn:true,
 		Time:1000,
 		Category:Smithing,

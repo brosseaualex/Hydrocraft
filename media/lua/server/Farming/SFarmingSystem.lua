@@ -240,13 +240,26 @@ function SFarmingSystem:growPlant(luaObject, nextGrowing, updateNbOfGrow)
 		elseif(luaObject.typeOfSeed == "Potatoes") then
 			luaObject = farming_vegetableconf.growPotato(luaObject, nextGrowing, updateNbOfGrow)
 		elseif(luaObject.typeOfSeed == "Cabbages") then
-			luaObject = farming_vegetableconf.growCabbage(luaObject, nextGrowing, updateNbOfGrow)
-		elseif luaObject.typeOfSeed then
-			if farming_vegetableconf.props[luaObject.typeOfSeed].growCode ~= nil then
-				local growCode = farming_vegetableconf.props[luaObject.typeOfSeed].growCode
-				luaObject = assert(loadstring('return '..growCode..'(...)'))(luaObject, nextGrowing, updateNbOfGrow)
-			end
+			luaObject = farming_vegetableconf.growCabbage(luaObject, nextGrowing, updateNbOfGrow)			
+		-- Hydrocraft Seeds			
+		elseif(luaObject.typeOfSeed == "Corn") then
+			luaObject = HCfarming_vegetableconf.growCorn(luaObject, nextGrowing, updateNbOfGrow)			
+		elseif(luaObject.typeOfSeed == "Leek") then
+			luaObject = HCfarming_vegetableconf.growLeek(luaObject, nextGrowing, updateNbOfGrow)			
+		elseif(luaObject.typeOfSeed == "Lettuce") then
+			luaObject = HCfarming_vegetableconf.growLettuce(luaObject, nextGrowing, updateNbOfGrow)			
+		elseif(luaObject.typeOfSeed == "Onion") then
+			luaObject = HCfarming_vegetableconf.growOnion(luaObject, nextGrowing, updateNbOfGrow)			
+		elseif(luaObject.typeOfSeed == "Peanut") then
+			luaObject = HCfarming_vegetableconf.growPeanut(luaObject, nextGrowing, updateNbOfGrow)			
+		elseif(luaObject.typeOfSeed == "Pumpkin") then
+			luaObject = HCfarming_vegetableconf.growPumpkin(luaObject, nextGrowing, updateNbOfGrow)			
+		elseif(luaObject.typeOfSeed == "Watermelon") then
+			luaObject = HCfarming_vegetableconf.growWatermelon(luaObject, nextGrowing, updateNbOfGrow)			
+		elseif(luaObject.typeOfSeed == "Zucchini") then
+			luaObject = HCfarming_vegetableconf.growZucchini(luaObject, nextGrowing, updateNbOfGrow)
 		end
+		
 		-- maybe this plant gonna be disease
 		if not new and luaObject.nbOfGrow > 0 then
 			self:diseaseThis(luaObject, true)

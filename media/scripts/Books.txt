@@ -1173,7 +1173,8 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Gunsmithing Textbook,
 		Icon		=	HCBookgunsmithing,
-        	ReplaceOnUse    =   	HCBookgunsmithing,
+		TeachedRecipes  =	Make Gunpowder;Make 9mm Bullets;Make .223 Bullets;Make .308 Bullets;Make Shotgun Shells,
+        ReplaceOnUse    =   	HCBookgunsmithing,
 	}
 
 	item HCBookrocketry
