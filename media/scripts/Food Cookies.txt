@@ -198,7 +198,7 @@ module Hydrocraft
 		MinutesToCook		=	30,
 		MinutesToBurn		=	60,
 		DisplayName			=	Tray with White Chocolate Cookies,
-		Icon				=	HCBakingtraycookiesraw,
+		Icon				=	HCWhitechocolatecookietray,
 		ReplaceOnUse		=	BakingTray,
 		DaysTotallyRotten	=	10,
 		DaysFresh 			=	7,

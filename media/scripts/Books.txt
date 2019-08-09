@@ -823,7 +823,7 @@ module Hydrocraft
 		DisplayName	=	Glass Working Textbook,
 		Icon		=	HCBookglassworking,
 		TeachedRecipes  =   	Create Glass from Sand;Recycle Glass;Create Glass Pane;Create Large Glass Pane;Create Glassware;Make Car Window;Make Car Windshield,
-        	ReplaceOnUse    =   	HCBookglassworking,
+        ReplaceOnUse    =   	HCBookglassworking,
 	}
 	item HCBookcopperworking
 	{

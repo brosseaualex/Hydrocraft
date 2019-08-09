@@ -1593,7 +1593,7 @@ item HCEvaporatedmilkopenempty
     	{
         	Weight    			= 	0.1,
         	Type    			= 	Normal,
-        	DisplayName     		= 	Plastic Packaging,
+        	DisplayName     		= 	Empty Evaporated Milk,
         	icon 				= 	HCEvaporatedmilkempty,
 		DisplayCategory 		= 	Trash,
     	} 
