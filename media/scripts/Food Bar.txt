@@ -8,6 +8,69 @@ module Hydrocraft
 
 /************************ITEMS************************/
 
+item HCBloodymarymixer
+	{
+	HungerChange	    =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName			=	Bloody Mary Mixer,
+    UnhappyChange		=	+10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCBloodymarymixer,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 	= 	48,
+        Proteins 		= 	8,
+        Lipids 			= 	0,
+        Calories 		= 	400,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+	
+item HCLemonmixer
+	{
+	HungerChange	    =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName			=	Lemon Mixer,
+    UnhappyChange		=	+10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCLemonmixer,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 	= 	132,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	550,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+	
+item HCLimemixer
+	{
+	HungerChange	    =	-20,
+	Weight	        	=	1,
+	Type	        	=	Food,
+	ThirstChange		=	-20,
+	DisplayName			=	Lime Mixer,
+    UnhappyChange		=	+10,
+	ReplaceOnUse		=	WhiskeyEmpty,
+	Icon	        	=	HCLimemixer,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	FoodType		=	NoExplicit,
+       	Carbohydrates 	= 	132,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	550,
+        CantBeFrozen 		= 	TRUE,
+	Packaged		=	TRUE,
+	}
+
 item HCCoffeeirish
 	{
 	FatigueChange			=	-15,
@@ -1174,27 +1237,6 @@ item HCDrinkwhiskeyandcoke
         CantBeFrozen 		= 	TRUE,
 	}
 
-item HCDrinkwhiskey
-	{
-	HungerChange		=	-5,
-	Weight			=	0.2,
-	Type			=	Food,
-	ThirstChange		=	-10,
-        UnhappyChange		=	-10,
-	DisplayName		=	Glass of Whiskey,
-	Alcoholic		=	TRUE,
-	ReplaceOnUse		=	HCGlassshortempty,
-	Icon			=	HCDrinkwhiskey,
-	CustomContextMenu 	= 	Drink,
-	CustomEatSound 		= 	PZ_DrinkingFromBottle,
-	FoodType		=	NoExplicit,
-       	Carbohydrates 		= 	0,
-        Proteins 		= 	0,
-        Lipids 			= 	0,
-        Calories 		= 	395,
-        CantBeFrozen 		= 	TRUE,
-	}
-
 item HCTequila
 	{
 	HungerChange	        =	-20,
@@ -1761,11 +1803,9 @@ recipe Mix Daquiri
 
 recipe Mix Bloody Mary
 	{
-	keep HCCocktailshaker,
-	HCGlasstallempty,
-	HCVodka/HCVodka1/HCVodka2,
-	Tomato,
-	keep HCJuicer/HCJuicer2,
+	keep HCCocktailshaker/Spoon,
+	HCDrinkglasstallvodka,
+	HCBloodymarymixer;5,
 	Result:HCDrinkbloodymary,
 	Time:50.0,
 	Category:Cooking,
@@ -1864,16 +1904,6 @@ recipe Mix Planter's Punch
 	HCLemonjuicebowl/HCLemonjuicebottle/HCPopbottlelemonjuice/HCWaterbottlelemonjuice/HCRemouladelemonjuice/HCMayonnaiselemonjuice/HCWhiskeylemonjuice,
 	Sugar/HCSugarcubes,
 	Result:HCDrinkplanterspunch,
-	Time:50.0,
-	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-	}
-
-recipe Pour Glasses of Whiskey
-	{
-	HCGlassshortempty=4,
-	WhiskeyFull/HCWhiskey1/HCWhiskey2/HCWhiskey3/HCWhiskey3,
-	Result:HCDrinkwhiskey=4,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2125,12 +2155,42 @@ recipe Pack Beer
 		Category:Cooking,
 	}
 recipe Pack Beer
-	{	
+	{
 		HCBeercan10=6,
 		Result 		: HCBeercan10pack,
 		Time 		: 50.0,
 		Category:Cooking,
 	}
-/***BEER*PACK*END*******************/
 	
+/***BEER*PACK*END*******************/
+
+	recipe Make Lemon Mixer
+	{	
+		WhiskeyEmpty,
+		HCLemonjuicebowl/HCLemonjuicebottle/HCPopbottlelemonjuice/HCWaterbottlelemonjuice/HCRemouladelemonjuice/HCMayonnaiselemonjuice/HCWhiskeylemonjuice,
+		Result 		: HCLemonmixer,
+		Time 		: 50.0,
+		Category:Cooking,
+	}
+	
+	recipe Make Lime Mixer
+	{
+		WhiskeyEmpty,
+		HCLimejuicebowl/HCLimejuicebottle/HCPopbottlelimejuice/HCWaterbottlelimejuice/HCRemouladelimejuice/HCMayonnaiselimejuice/HCWhiskeylimejuice,
+		Result 		: HCLimemixer,
+		Time 		: 50.0,
+		Category:Cooking,
+	}
+	
+	recipe Make Bloody Mary Mixer
+	{	
+		WhiskeyEmpty,
+		Salt;2,
+		Pepper;2,
+		HCHotsauce/HCSriracha,
+		HCPopbottletomatojuice/HCWaterbottletomatojuice/HCRemouladetomatojuice/HCMayonnaisetomatojuice/HCWhiskeytomatojuice/HCClingmugtomatojuice,
+		Result 		: HCBloodymarymixer,
+		Time 		: 50.0,
+		Category:Cooking,
+	}
 }
