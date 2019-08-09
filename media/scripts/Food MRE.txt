@@ -517,6 +517,7 @@ item HCMREpalletsmall
         Type   			= Normal,
         DisplayName     = Small Pallet of MREs,
         icon 			= HCMREpalletsmall,
+		ResizeWorldIcon 	= 1.0,
     }
 
 item HCMREpalletmedium
@@ -525,6 +526,7 @@ item HCMREpalletmedium
         Type   			= Normal,
         DisplayName     = Medium Pallet of MREs,
         icon 			= HCMREpalletmedium,
+		ResizeWorldIcon 	= 1.0,
     }
 
 item HCMREpalletlarge
@@ -533,6 +535,7 @@ item HCMREpalletlarge
         Type   			= Normal,
         DisplayName     = Large Pallet of MREs,
         icon 			= HCMREpalletlarge,
+		ResizeWorldIcon 	= 1.0,
     }
 	
 /******RECIPES*****/
