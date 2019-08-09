@@ -8,6 +8,256 @@ module Hydrocraft
 
 /************************ITEMS************************/
 
+item HCDrinkglassshortgin
+	{
+	HungerChange		=	-5,
+	Weight				=	0.2,
+	Type				=	Food,
+	ThirstChange		=	-10,
+    UnhappyChange		=	-10,
+	DisplayName			=	Short Glass of Gin,
+	Alcoholic			=	TRUE,
+	ReplaceOnUse		=	HCGlassshortempty,
+	Icon				=	HCGlassshortempty,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 	= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	395,
+        CantBeFrozen 	= 	TRUE,
+	}
+	
+item HCDrinkglasstallgin
+	{
+	HungerChange		=	-5,
+	Weight				=	0.2,
+	Type				=	Food,
+	ThirstChange		=	-10,
+    UnhappyChange		=	-10,
+	DisplayName			=	Tall Glass of Gin,
+	Alcoholic			=	TRUE,
+	ReplaceOnUse		=	HCGlasstallempty,
+	Icon				=	HCGlasstallempty,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 	= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	395,
+        CantBeFrozen 	= 	TRUE,
+	}
+	
+item HCDrinkcocktailglassgin
+	{
+	HungerChange		=	-5,
+	Weight				=	0.2,
+	Type				=	Food,
+	ThirstChange		=	-10,
+    UnhappyChange		=	-10,
+	DisplayName			=	Cocktail Glass of Gin,
+	Alcoholic			=	TRUE,
+	ReplaceOnUse		=	HCCocktailglassempty,
+	Icon				=	HCCocktailglassempty,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 	= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	395,
+        CantBeFrozen 	= 	TRUE,
+	}		
+
+item HCDrinkglassshortwhiskey
+	{
+	HungerChange		=	-5,
+	Weight				=	0.2,
+	Type				=	Food,
+	ThirstChange		=	-10,
+    UnhappyChange		=	-10,
+	DisplayName			=	Short Glass of Whiskey,
+	Alcoholic			=	TRUE,
+	ReplaceOnUse		=	HCGlassshortempty,
+	Icon				=	HCDrinkshortwhiskey,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 	= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	395,
+        CantBeFrozen 	= 	TRUE,
+	}
+	
+item HCDrinkglasstallwhiskey
+	{
+	HungerChange		=	-5,
+	Weight				=	0.2,
+	Type				=	Food,
+	ThirstChange		=	-10,
+    UnhappyChange		=	-10,
+	DisplayName			=	Tall Glass of Whiskey,
+	Alcoholic			=	TRUE,
+	ReplaceOnUse		=	HCGlasstallempty,
+	Icon				=	HCDrinktallwhiskey,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 	= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	395,
+        CantBeFrozen 	= 	TRUE,
+	}	
+	
+item HCDrinkcocktailglasswhiskey
+	{
+	HungerChange		=	-5,
+	Weight				=	0.2,
+	Type				=	Food,
+	ThirstChange		=	-10,
+    UnhappyChange		=	-10,
+	DisplayName			=	Cocktail Glass of Whiskey,
+	Alcoholic			=	TRUE,
+	ReplaceOnUse		=	HCCocktailglassempty,
+	Icon				=	HCDrinkcocktailwhiskey,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 	= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	395,
+        CantBeFrozen 	= 	TRUE,
+	}	
+
+item HCDrinkglassshortrum
+	{
+	HungerChange		=	-5,
+	Weight				=	0.2,
+	Type				=	Food,
+	ThirstChange		=	-10,
+    UnhappyChange		=	-10,
+	DisplayName			=	Short Glass of Rum,
+	Alcoholic			=	TRUE,
+	ReplaceOnUse		=	HCGlassshortempty,
+	Icon				=	HCDrinkshortclear,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 	= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	395,
+        CantBeFrozen 	= 	TRUE,
+	}
+	
+item HCDrinkglasstallrum
+	{
+	HungerChange		=	-5,
+	Weight				=	0.2,
+	Type				=	Food,
+	ThirstChange		=	-10,
+    UnhappyChange		=	-10,
+	DisplayName			=	Tall Glass of Rum,
+	Alcoholic			=	TRUE,
+	ReplaceOnUse		=	HCGlasstallempty,
+	Icon				=	HCDrinktallclear,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 	= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	395,
+        CantBeFrozen 	= 	TRUE,
+	}	
+	
+item HCDrinkcocktailglassrum
+	{
+	HungerChange		=	-5,
+	Weight				=	0.2,
+	Type				=	Food,
+	ThirstChange		=	-10,
+    UnhappyChange		=	-10,
+	DisplayName			=	Cocktail Glass of Rum,
+	Alcoholic			=	TRUE,
+	ReplaceOnUse		=	HCCocktailglassempty,
+	Icon				=	HCCocktailglassempty,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 	= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	395,
+        CantBeFrozen 	= 	TRUE,
+	}	
+
+	item HCDrinkglassshortvodka
+	{
+	HungerChange		=	-5,
+	Weight				=	0.2,
+	Type				=	Food,
+	ThirstChange		=	-10,
+    UnhappyChange		=	-10,
+	DisplayName			=	Short Glass of Vodka,
+	Alcoholic			=	TRUE,
+	ReplaceOnUse		=	HCGlassshortempty,
+	Icon				=	HCDrinkshortclear,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 	= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	395,
+        CantBeFrozen 	= 	TRUE,
+	}
+item HCDrinkglasstallvodka
+	{
+	HungerChange		=	-5,
+	Weight				=	0.2,
+	Type				=	Food,
+	ThirstChange		=	-10,
+    UnhappyChange		=	-10,
+	DisplayName			=	Tall Glass of Vodka,
+	Alcoholic			=	TRUE,
+	ReplaceOnUse		=	HCGlasstallempty,
+	Icon				=	HCDrinktallclear,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 	= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	395,
+        CantBeFrozen 	= 	TRUE,
+	}
+item HCDrinkcocktailglassvodka
+	{
+	HungerChange		=	-5,
+	Weight				=	0.2,
+	Type				=	Food,
+	ThirstChange		=	-10,
+    UnhappyChange		=	-10,
+	DisplayName			=	Cocktail Glass of Vodka,
+	Alcoholic			=	TRUE,
+	ReplaceOnUse		=	HCCocktailglassempty,
+	Icon				=	HCCocktailglassempty,
+	CustomContextMenu 	= 	Drink,
+	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 	= 	0,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	395,
+        CantBeFrozen 	= 	TRUE,
+	}		
+
 item HCBloodymarymixer
 	{
 	HungerChange	    =	-20,
@@ -2193,4 +2443,402 @@ recipe Pack Beer
 		Time 		: 50.0,
 		Category:Cooking,
 	}
+	
+/***POURING*COCKTAIL*GLASSES*GIN***/
+recipe Pour Cocktail Glass of Gin
+	{	
+		HCCocktailglassempty,
+		HCGin1;2,
+		Result 		: HCDrinkcocktailglassgin,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Cocktail Glass of Gin
+	{	
+		HCCocktailglassempty,
+		HCGin2;2,
+		Result 		: HCDrinkcocktailglassgin,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+recipe Pour Cocktail Glass of Gin
+	{	
+		HCCocktailglassempty,
+		HCGin3;2,
+		Result 		: HCDrinkcocktailglassgin,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+/***POURING*SHORT*GLASSES*GIN***/
+recipe Pour Short Glass of Gin
+	{	
+		HCGlassshortempty,
+		HCGin1;4,
+		Result 		: HCDrinkglassshortgin,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Short Glass of Gin
+	{	
+		HCGlassshortempty,
+		HCGin2;4,
+		Result 		: HCDrinkglassshortgin,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Short Glass of Gin
+	{	
+		HCGlassshortempty,
+		HCGin3;4,
+		Result 		: HCDrinkglassshortgin,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+/***POURING*TALL*GLASSES*GIN***/
+recipe Pour Tall Glass of Gin
+	{	
+		HCGlasstallempty,
+		HCGin1;6,
+		Result 		: HCDrinkglasstallgin,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Tall Glass of Gin
+	{	
+		HCGlasstallempty,
+		HCGin2;6,
+		Result 		: HCDrinkglasstallgin,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Tall Glass of Gin
+	{	
+		HCGlasstallempty,
+		HCGin3;6,
+		Result 		: HCDrinkglasstallgin,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}		
+
+/***POURING*SHORT*GLASSES*WHISKEY***/
+recipe Pour Short Glass of Whiskey
+	{	
+		HCGlassshortempty,
+		WhiskeyFull;4,
+		Result 		: HCDrinkglassshortwhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Short Glass of Whiskey
+	{	
+		HCGlassshortempty,
+		HCWhiskey1;4,
+		Result 		: HCDrinkglassshortwhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Short Glass of Whiskey
+	{	
+		HCGlassshortempty,
+		HCWhiskey2;4,
+		Result 		: HCDrinkglassshortwhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Short Glass of Whiskey
+	{	
+		HCGlassshortempty,
+		HCWhiskey3;4,
+		Result 		: HCDrinkglassshortwhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Short Glass of Whiskey
+	{	
+		HCGlassshortempty,
+		HCWhiskey4;4,
+		Result 		: HCDrinkglassshortwhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Short Glass of Whiskey
+	{	
+		HCGlassshortempty,
+		HCWhiskeycorn;4,
+		Result 		: HCDrinkglassshortwhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+/***POURING*TALL*GLASSES*WHISKEY***/
+recipe Pour Tall Glass of Whiskey
+	{	
+		HCGlasstallempty,
+		WhiskeyFull;6,
+		Result 		: HCDrinkglasstallwhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Tall Glass of Whiskey
+	{	
+		HCGlasstallempty,
+		HCWhiskey1;6,
+		Result 		: HCDrinkglasstallwhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Tall Glass of Whiskey
+	{	
+		HCGlasstallempty,
+		HCWhiskey2;6,
+		Result 		: HCDrinkglasstallwhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Tall Glass of Whiskey
+	{	
+		HCGlasstallempty,
+		HCWhiskey3;6,
+		Result 		: HCDrinkglasstallwhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Tall Glass of Whiskey
+	{	
+		HCGlasstallempty,
+		HCWhiskey4;6,
+		Result 		: HCDrinkglasstallwhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Tall Glass of Whiskey
+	{	
+		HCGlasstallempty,
+		HCWhiskeycorn;6,
+		Result 		: HCDrinkglasstallwhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+
+/***POURING*COCKTAIL*GLASSES*WHISKEY***/
+recipe Pour Cocktail Glass of Whiskey
+	{	
+		HCCocktailglassempty,
+		WhiskeyFull;2,
+		Result 		: HCDrinkcocktailglasswhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Cocktail Glass of Whiskey
+	{	
+		HCCocktailglassempty,
+		HCWhiskey1;2,
+		Result 		: HCDrinkcocktailglasswhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Cocktail Glass of Whiskey
+	{	
+		HCCocktailglassempty,
+		HCWhiskey2;2,
+		Result 		: HCDrinkcocktailglasswhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Cocktail Glass of Whiskey
+	{	
+		HCCocktailglassempty,
+		HCWhiskey3;2,
+		Result 		: HCDrinkcocktailglasswhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Cocktail Glass of Whiskey
+	{	
+		HCCocktailglassempty,
+		HCWhiskey4;2,
+		Result 		: HCDrinkcocktailglasswhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Cocktail Glass of Whiskey
+	{	
+		HCCocktailglassempty,
+		HCWhiskeycorn;2,
+		Result 		: HCDrinkcocktailglasswhiskey,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+/***POURING*COCKTAIL*GLASSES*VODKA***/
+recipe Pour Cocktail Glass of Vodka
+	{	
+		HCCocktailglassempty,
+		HCVodka;2,
+		Result 		: HCDrinkcocktailglassvodka,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Cocktail Glass of Vodka
+	{	
+		HCCocktailglassempty,
+		HCVodka1;2,
+		Result 		: HCDrinkcocktailglassvodka,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Cocktail Glass of Vodka
+	{	
+		HCCocktailglassempty,
+		HCVodka2;2,
+		Result 		: HCDrinkcocktailglassvodka,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}		
+
+
+/***POURING*SHORT*GLASSES*VODKA***/
+recipe Pour Short Glass of Vodka
+	{	
+		HCGlassshortempty,
+		HCVodka;4,
+		Result 		: HCDrinkglassshortvodka,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Short Glass of Vodka
+	{	
+		HCGlassshortempty,
+		HCVodka1;4,
+		Result 		: HCDrinkglassshortvodka,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Short Glass of Vodka
+	{	
+		HCGlassshortempty,
+		HCVodka2;4,
+		Result 		: HCDrinkglassshortvodka,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}		
+
+/***POURING*TALL*GLASSES*VODKA***/
+recipe Pour Tall Glass of Vodka
+	{	
+		HCGlasstallempty,
+		HCVodka;6,
+		Result 		: HCDrinkglasstallvodka,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Tall Glass of Vodka
+	{	
+		HCGlasstallempty,
+		HCVodka1;6,
+		Result 		: HCDrinkglasstallvodka,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+recipe Pour Tall Glass of Vodka
+	{	
+		HCGlasstallempty,
+		HCVodka2;6,
+		Result 		: HCDrinkglasstallvodka,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}		
+
+/***POURING*SHORT*GLASSES*RUM***/
+recipe Pour Short Glass of Rum
+	{	
+		HCGlassshortempty,
+		HCRum1;4,
+		Result 		: HCDrinkglassshortrum,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}		
+
+/***POURING*TALL*GLASSES*RUM***/
+recipe Pour Tall Glass of Rum
+	{	
+		HCGlasstallempty,
+		HCRum1;6,
+		Result 		: HCDrinkglasstallrum,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}		
+
+/***POURING*COCKTAIL*GLASSES*RUM***/
+recipe Pour Cocktail Glass of Rum
+	{	
+		HCCocktailglassempty,
+		HCRum1;2,
+		Result 		: HCDrinkcocktailglassrum,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}		
+
+/***POURING*WINE*GLASSES***/
+recipe Pour Glass of Red Wine
+	{	
+		HCWineglass,
+		Wine2;2,
+		Result 		: HCWineglassfull2,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}		
+recipe Pour Glass of White Wine
+	{	
+		HCWineglass,
+		Wine;2,
+		Result 		: HCWineglassfull,
+		Time 		: 50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}		
+	
 }
