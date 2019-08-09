@@ -331,6 +331,8 @@ item HCCoffeeirish
 	Type				=	Food,
 	ThirstChange			=	-50,
 	DisplayName			=	Cup of Irish Coffee,
+	Alcoholic		=	TRUE,
+	AlcoholPower      	= 	0.5,
 	ReplaceOnUse			=	Mugl,
 	Icon				=	HCCoffeecup,
 	CustomContextMenu 		= 	Drink,
@@ -352,6 +354,8 @@ item HCCoffeeirish2
 	Type				=	Food,
 	ThirstChange			=	-50,
 	DisplayName			=	Cup of Irish Coffee,
+	Alcoholic		=	TRUE,
+	AlcoholPower      	= 	0.5,
 	ReplaceOnUse			=	HCClaymug,
 	Icon				=	HCHotcuppa,
 	CustomContextMenu 		= 	Drink,
@@ -1972,29 +1976,28 @@ item HCBeercan10pack
 
 /************************RECIPES************************/
     
-	
 recipe Brew Irish Coffee
 	{
 		Mugl,
 		Water,
-		Coffee2,
-		WhiskeyFull/HCWhiskey1/HCWhiskey2/HCWhiskey3/HCWhiskey4,
+		Coffee2;10,
+		HCDrinkcocktailglasswhiskey/HCDrinkglassshortwhiskey/HCDrinkglasstallwhiskey,
 		Result:HCCoffeeirish,
 		Time:70.0,
 	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,	  
+       	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Brew Irish Coffee
 	{
 		HCClaymug,
 		Water,
-		Coffee2,
-		WhiskeyFull/HCWhiskey1/HCWhiskey2/HCWhiskey3/HCWhiskey4,
+		Coffee2;10,
+		HCDrinkcocktailglasswhiskey/HCDrinkglassshortwhiskey/HCDrinkglasstallwhiskey,
 		Result:HCCoffeeirish2,
 		Time:70.0,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,	 	  
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,	 	  
 	}
 
 recipe Mix Old Fashioned
@@ -2005,6 +2008,7 @@ recipe Mix Old Fashioned
 		Sugar;1,
 		HCSlicedorange,
 		Result 		: HCDrinkoldfashioned,
+		NeedToBeLearn:true,
 		Time 		: 50.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
@@ -2018,6 +2022,7 @@ recipe Mix Old Fashioned
 		HCSugarcubes;2,
 		HCSlicedorange,
 		Result 		: HCDrinkoldfashioned,
+		NeedToBeLearn:true,
 		Time 		: 50.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
@@ -2030,6 +2035,7 @@ recipe Mix Martini
 		HCBitters;1,
 		HCVermouth;1,
 		Result 		: HCDrinkmartini,
+		NeedToBeLearn:true,
 		Time 		: 50.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
@@ -2042,6 +2048,7 @@ recipe Mix Manhattan
 		HCBitters;1,
 		HCVermouth;1,
 		Result 		: HCDrinkmanhattan,
+		NeedToBeLearn:true,
 		Time 		: 50.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
@@ -2055,6 +2062,7 @@ recipe Mix Daquiri
 	Sugar;1,
 	HCSlicedlime,
 	Result:HCDrinkdaquiri,
+	NeedToBeLearn:true,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2068,6 +2076,7 @@ recipe Mix Daquiri
 	HCSugarcubes;2,
 	HCSlicedlime,
 	Result:HCDrinkdaquiri,
+	NeedToBeLearn:true,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2078,6 +2087,7 @@ recipe Mix Bloody Mary
 	HCDrinkglasstallvodka,
 	HCBloodymarymixer;5,
 	Result:HCDrinkbloodymary,
+	NeedToBeLearn:true,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2090,6 +2100,7 @@ recipe Mix Whiskey Sour
 	HCLemonmixer;2,
 	Sugar;1,
 	Result:HCDrinkwhiskeysour,
+	NeedToBeLearn:true,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2102,6 +2113,7 @@ recipe Mix Whiskey Sour
 	HCLemonmixer;2,
 	HCSugarcubes;2,
 	Result:HCDrinkwhiskeysour,
+	NeedToBeLearn:true,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2115,6 +2127,7 @@ recipe Mix Mai Tai
 	Sugar;1,
 	HCTriplesec;1,
 	Result:HCDrinkmaitai,
+	NeedToBeLearn:true,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2128,6 +2141,7 @@ recipe Mix Mai Tai
 	HCSugarcubes;2,
 	HCTriplesec;1,
 	Result:HCDrinkmaitai,
+	NeedToBeLearn:true,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2141,6 +2155,7 @@ recipe Mix Cosmopolitan
 	HCLimemixer;2,
 	HCSlicedlime,
 	Result:HCDrinkcosmo,
+	NeedToBeLearn:true,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2153,6 +2168,7 @@ recipe Mix Tom Collins
 	HCLemonmixer;2,
 	Sugar;1,
 	Result:HCDrinktomcollins,
+	NeedToBeLearn:true,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2165,6 +2181,7 @@ recipe Mix Tom Collins
 	HCLemonmixer;2,
 	HCSugarcubes;2,
 	Result:HCDrinktomcollins,
+	NeedToBeLearn:true,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2180,6 +2197,7 @@ recipe Mix Long Island Iced Tea
 	HCTriplesec;1,
 	Sugar;1,
 	Result:HCDrinklongisland,
+	NeedToBeLearn:true,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2195,6 +2213,7 @@ recipe Mix Long Island Iced Tea
 	HCTriplesec;1,
 	HCSugarcubes;2,
 	Result:HCDrinklongisland,
+	NeedToBeLearn:true,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2207,6 +2226,7 @@ recipe Mix Gimlet
 	HCLimemixer;2,
 	Sugar;1,
 	Result:HCDrinkgimlet,
+	NeedToBeLearn:true,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2219,6 +2239,7 @@ recipe Mix Gimlet
 	HCLimemixer;2,
 	HCSugarcubes;2,
 	Result:HCDrinkgimlet,
+	NeedToBeLearn:true,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2233,6 +2254,7 @@ recipe Mix Planter's Punch
 	HCLemonmixer;2,
 	Sugar;1,
 	Result:HCDrinkplanterspunch,
+	NeedToBeLearn:true,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -2247,11 +2269,11 @@ recipe Mix Planter's Punch
 	HCLemonmixer;2,
 	HCSugarcubes;2,
 	Result:HCDrinkplanterspunch,
+	NeedToBeLearn:true,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
 	}
-
 
 recipe Whiskey and Coke
 	{
@@ -2293,25 +2315,26 @@ recipe Mix Margarita
 	Salt;1,
 	HCSlicedlime,
 	Result:HCDrinkmargarita,
+	NeedToBeLearn:true,
 	Time:50.0,
 	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Make Eggnog Pot 
+recipe Make Eggnog Pot
 	{
-	Milk,
+		Milk,
         Egg,
-        WhiskeyFull;1,
+        WhiskeyFull;5,
         Pot,
-	Result:HCEggnogpot,
-        NeedToBeLearn:true,
-	Time:90.0,
-	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-    	}
+		Result:HCEggnogpot,
+		NeedToBeLearn:true,
+		Time:90.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
 
-recipe Make Eggnog Cuppa 
+recipe Make Eggnog Cuppa
 	{
 	HCEggnogpot,
         Chocolate,
@@ -2540,7 +2563,19 @@ recipe Pack Beer
 		WhiskeyEmpty,
 		Salt;2,
 		Pepper;2,
-		HCHotsauce/HCSriracha,
+		HCHotsauce;2,
+		HCPopbottletomatojuice/HCWaterbottletomatojuice/HCRemouladetomatojuice/HCMayonnaisetomatojuice/HCWhiskeytomatojuice/HCClingmugtomatojuice,
+		Result 		: HCBloodymarymixer,
+		Time 		: 50.0,
+		Category:Cooking,
+	}
+	
+	recipe Make Bloody Mary Mixer
+	{	
+		WhiskeyEmpty,
+		Salt;2,
+		Pepper;2,
+		HCSriracha;2,
 		HCPopbottletomatojuice/HCWaterbottletomatojuice/HCRemouladetomatojuice/HCMayonnaisetomatojuice/HCWhiskeytomatojuice/HCClingmugtomatojuice,
 		Result 		: HCBloodymarymixer,
 		Time 		: 50.0,

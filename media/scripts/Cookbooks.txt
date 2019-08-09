@@ -190,6 +190,16 @@ module Hydrocraft
 		TeachedRecipes  =   	Ferment Milk;Jar Homemade Yogurt;Jar Homemade Tzatziki,
         	ReplaceOnUse    =   	HCCookbookyogurt,
 	}
+	
+	item HCCookbookalcoholic
+	{
+		Weight			=	0.5,
+		Type			=	Literature,
+		DisplayName		=	Alcoholic Beverages Cookbook,
+		Icon			=	HCCookbook,
+		TeachedRecipes  =   Mix Old Fashioned;Mix Martini;Mix Manhattan;Mix Daquiri;Mix Bloody Mary;Mix Whiskey Sour;Mix Mai Tai;Mix Cosmopolitan;Mix Tom Collins;Mix Long Island Iced Tea;Mix Gimlet;Mix Planter's Punch;Mix Margarita;Make Eggnog Pot,
+        ReplaceOnUse    =   HCCookbookalcoholic,
+	}
 
 /************************RECIPES************************/	
 
