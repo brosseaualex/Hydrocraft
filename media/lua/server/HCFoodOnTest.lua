@@ -120,6 +120,20 @@ function RemoveStrawberryJello_CheckIfCooked(sourceItem, result)
     return true
 end
 
+function ChocolatePudding_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJellochocolateprep" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function VanillaPudding_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCJellovanillaprep" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
 --Food Pizza OnTest
 
 function CutBoringPizza_CheckIfCooked(sourceItem, result)

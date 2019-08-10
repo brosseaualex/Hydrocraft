@@ -107,21 +107,6 @@ item HCJellopacketcherry
     	Calories 			= 280,
     	Packaged 			= TRUE,
 }
-item HCJellopacketchocolate
-{
-	HungerChange			= -10,
-	ThirstChange			= 25,
-	Weight				= 0.2,
-	Type				= Food,
-	UnhappyChange			= 15,
-	DisplayName			= Chocolate Pudding Packet,
-	Icon				= HCJellopacketchocolate,
-    	Carbohydrates 			= 92,
-    	Proteins 			= 8,
-    	Lipids 				= 0,
-    	Calories 			= 568,
-    	Packaged 			= TRUE,
-}
 
 item HCJellopacketlemon
 {
@@ -200,6 +185,22 @@ item HCJellopacketwatermelon
     Packaged 			= TRUE,
 }
 
+	item HCJellopacketchocolate
+	{
+		HungerChange		= -10,
+		ThirstChange		= 25,
+		Weight				= 0.2,
+		Type				= Food,
+		UnhappyChange		= 15,
+		DisplayName			= Chocolate Pudding Packet,
+		Icon				= HCJellopacketchocolate,
+    	Carbohydrates 		= 92,
+    	Proteins 			= 8,
+    	Lipids 				= 0,
+    	Calories 			= 568,
+    	Packaged 			= TRUE,
+	}
+
 	item HCJellopacketvanilla
 	{
 		HungerChange		= -10,
@@ -214,6 +215,102 @@ item HCJellopacketwatermelon
 		Lipids 				= 0,
 		Calories 			= 568,
 		Packaged 			= TRUE,
+	}
+	
+	item HCJellochocolateprep
+	{
+		HungerChange		=	-15,
+		ThirstChange		=	-25,
+		BoredomChange		=	-15,
+		UnhappyChange		=	-20,
+		Weight				=	1.5,
+		Type				=	Food,
+		DaysFresh			= 	3,
+		DaysTotallyRotten	= 	5,
+		DisplayName			=	Saucepan of Chocolate Pudding Mix,
+		Icon				=	HCJellochocolateprep,
+		ReplaceOnUse		=	Saucepan,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	50,
+		DaysFresh 			= 	3,
+		DaysTotallyRotten	=	5,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 92,
+		Proteins 			= 8,
+		Lipids 				= 0,
+		Calories 			= 568,
+	}
+	
+	item HCJellovanillaprep
+	{
+		HungerChange		=	-15,
+		ThirstChange		=	-25,
+		BoredomChange		=	-15,
+		UnhappyChange		=	-20,
+		Weight				=	1.5,
+		Type				=	Food,
+		DaysFresh			= 	3,
+		DaysTotallyRotten	= 	5,
+		DisplayName			=	Saucepan of Vanilla Pudding Mix,
+		Icon				=	HCJellovanillaprep,
+		ReplaceOnUse		=	Saucepan,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	50,
+		DaysFresh 			= 	3,
+		DaysTotallyRotten	=	5,     
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	92,
+		Proteins 			= 	8,
+		Lipids 				= 	0,
+		Calories 			= 	568,
+	}
+	
+	item HCJellochocolatebowl
+	{
+		HungerChange		=	-10,
+		ThirstChange		=	-15,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	1,
+		Type				=	Food,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 5,
+		DisplayName			=	Bowl of Chocolate Pudding,
+		Icon				=	HCJellochocolatebowl,
+		ReplaceOnUse		=	Bowl,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	23,
+		Proteins 			= 	2,
+		Lipids 				= 	0,
+		Calories 			= 	142,
+	}
+	
+	item HCJellovanillabowl
+	{
+		HungerChange		=	-10,
+		ThirstChange		=	-15,
+		BoredomChange		=	-10,
+		UnhappyChange		=	-15,
+		Weight				=	1,
+		Type				=	Food,
+		DaysFresh			= 3,
+		DaysTotallyRotten	= 5,
+		DisplayName			=	Bowl of Vanilla Pudding,
+		Icon				=	HCJellovanillabowl,
+		ReplaceOnUse		=	Bowl,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	23,
+		Proteins 			= 	2,
+		Lipids 				= 	0,
+		Calories 			= 	142,
 	}
 
 	item HCJelloappleprep
@@ -1254,6 +1351,56 @@ item HCJellostrawberrybowl
 	
 /************************RECIPES************************/
 
+	recipe Prepare Chocolate Pudding
+	{
+		SkillRequired:Cooking=1,
+		keep HCWhisk/Spoon/HCPlasticspoon/HCWoodenspoon/HCSpork,
+		destroy WaterSaucepan,
+		HCJellopacketchocolate,
+		Result:HCJellochocolateprep,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+	recipe Prepare Vanilla Pudding
+	{
+		SkillRequired:Cooking=1,
+		keep HCWhisk/Spoon/HCPlasticspoon/HCWoodenspoon/HCSpork,
+		destroy WaterSaucepan,
+		HCJellopacketvanilla,
+		Result:HCJellovanillaprep,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+	recipe Pour Chocolate Pudding into Bowl
+	{
+		SkillRequired:Cooking=1,
+		HCJellochocolateprep,
+		Bowl=4,
+		Result:HCJellochocolatebowl=4,
+		Time:50.0,
+		Category:Cooking,
+		OnTest:ChocolatePudding_CheckIfCooked,
+		OnCreate:recipe_hcsaucepan,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+	recipe Pour Vanilla Pudding into Bowl
+	{
+		SkillRequired:Cooking=1,
+		HCJellovanillaprep,
+		Bowl=4,
+		Result:HCJellovanillabowl=4,
+		Time:50.0,
+		Category:Cooking,
+		OnTest:VanillaPudding_CheckIfCooked,
+		OnCreate:recipe_hcsaucepan,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
 	recipe Prepare Apple Jello
 	{
 		SkillRequired:Cooking=1,
@@ -1266,7 +1413,7 @@ item HCJellostrawberrybowl
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-	recipe Pour Apple Jello Into Mold
+	recipe Pour Apple Jello into Mold
 	{
 		SkillRequired:Cooking=1,
 		HCJelloappleprep,
@@ -1292,7 +1439,7 @@ item HCJellostrawberrybowl
 
 	recipe Make Apple Jello Dessert
 	{
-		SkillRequired:Cooking=0,
+		
 		HCJelloapplecubes=2,
 		Bowl,
 		HCWhippedcreamcan;5,
@@ -1314,7 +1461,7 @@ item HCJellostrawberrybowl
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Pour Blueberry Jello Into Mold
+	recipe Pour Blueberry Jello into Mold
 	{
 		SkillRequired:Cooking=1,
 		HCJelloblueberryprep,
@@ -1340,7 +1487,7 @@ item HCJellostrawberrybowl
 	
 	recipe Make Blueberry Jello Dessert
 	{
-		SkillRequired:Cooking=0,
+		
 		HCJelloblueberrycubes=2,
 		Bowl,
 		HCWhippedcreamcan;5,
@@ -1362,7 +1509,7 @@ item HCJellostrawberrybowl
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Pour Cherry Jello Into Mold
+	recipe Pour Cherry Jello into Mold
 	{
 		SkillRequired:Cooking=1,
 		HCJellocherryprep,
@@ -1388,7 +1535,7 @@ item HCJellostrawberrybowl
 	
 	recipe Make Cherry Jello Dessert
 	{
-		SkillRequired:Cooking=0,
+		
 		HCJellocherrycubes=2,
 		Bowl,
 		HCWhippedcreamcan;5,
@@ -1410,7 +1557,7 @@ item HCJellostrawberrybowl
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Pour Lemon Jello Into Mold
+	recipe Pour Lemon Jello into Mold
 	{
 		SkillRequired:Cooking=1,
 		HCJellolemonprep,
@@ -1436,7 +1583,7 @@ item HCJellostrawberrybowl
 	
 	recipe Make Lemon Jello Dessert
 	{
-		SkillRequired:Cooking=0,
+		
 		HCJellolemoncubes=2,
 		Bowl,
 		HCWhippedcreamcan;5,
@@ -1458,7 +1605,7 @@ item HCJellostrawberrybowl
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Pour Orange Jello Into Mold
+	recipe Pour Orange Jello into Mold
 	{
 		SkillRequired:Cooking=1,
 		HCJelloorangeprep,
@@ -1484,7 +1631,6 @@ item HCJellostrawberrybowl
 	
 	recipe Make Orange Jello Dessert
 	{
-		SkillRequired:Cooking=0,
 		HCJelloorangecubes=2,
 		Bowl,
 		HCWhippedcreamcan;5,
@@ -1506,7 +1652,7 @@ item HCJellostrawberrybowl
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Pour Lime Jello Into Mold
+	recipe Pour Lime Jello into Mold
 	{
 		SkillRequired:Cooking=1,
 		HCJellolimeprep,
@@ -1532,7 +1678,6 @@ item HCJellostrawberrybowl
 	
 	recipe Make Lime Jello Dessert
 	{
-		SkillRequired:Cooking=0,
 		HCJellolimecubes=2,
 		Bowl,
 		HCWhippedcreamcan;5,
@@ -1554,7 +1699,7 @@ item HCJellostrawberrybowl
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Pour Watermelon Jello Into Mold
+	recipe Pour Watermelon Jello into Mold
 	{
 		SkillRequired:Cooking=1,
 		HCJellowatermelonprep,
@@ -1580,7 +1725,6 @@ item HCJellostrawberrybowl
 	
 	recipe Make Watermelon Jello Dessert
 	{
-		SkillRequired:Cooking=0,
 		HCJellowatermeloncubes=2,
 		Bowl,
 		HCWhippedcreamcan;5,
@@ -1602,7 +1746,7 @@ item HCJellostrawberrybowl
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Pour Strawberry Jello Into Mold
+	recipe Pour Strawberry Jello into Mold
 	{
 		SkillRequired:Cooking=1,
 		HCJellostrawberryprep,
@@ -1628,7 +1772,6 @@ item HCJellostrawberrybowl
 	
 	recipe Make Strawberry Jello Dessert
 	{
-		SkillRequired:Cooking=0,
 		HCJellostrawberrycubes=2,
 		Bowl,
 		HCWhippedcreamcan;5,
@@ -1638,9 +1781,8 @@ item HCJellostrawberrybowl
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Cut Jello Into Cubes
+recipe Cut Jello into Cubes
 	{
-        SkillRequired:Cooking=0,
 		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
 		HCJelloapple1,
 		Result:HCJelloapplecubes=4,
@@ -1649,9 +1791,8 @@ recipe Cut Jello Into Cubes
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-recipe Cut Jello Into Cubes
+recipe Cut Jello into Cubes
 	{
-        SkillRequired:Cooking=0,
 		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
 		HCJelloblueberry1,
 		Result:HCJelloblueberrycubes=4,
@@ -1660,9 +1801,8 @@ recipe Cut Jello Into Cubes
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-recipe Cut Jello Into Cubes
-	{
-        SkillRequired:Cooking=0,
+recipe Cut Jello into Cubes
+	{        
 		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
 		HCJellocherry1,
 		Result:HCJellocherrycubes=4,
@@ -1671,9 +1811,8 @@ recipe Cut Jello Into Cubes
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-recipe Cut Jello Into Cubes
-	{
-        SkillRequired:Cooking=0,
+recipe Cut Jello into Cubes
+	{        
 		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
 		HCJellolemon1,
 		Result:HCJellolemoncubes=4,
@@ -1682,9 +1821,8 @@ recipe Cut Jello Into Cubes
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-recipe Cut Jello Into Cubes
-	{
-        SkillRequired:Cooking=0,
+recipe Cut Jello into Cubes
+	{        
 		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
 		HCJellolime1,
 		Result:HCJellolimecubes=4,
@@ -1693,9 +1831,8 @@ recipe Cut Jello Into Cubes
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-recipe Cut Jello Into Cubes
-	{
-        SkillRequired:Cooking=0,
+recipe Cut Jello into Cubes
+	{        
 		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
 		HCJelloorange1,
 		Result:HCJelloorangecubes=4,
@@ -1704,9 +1841,8 @@ recipe Cut Jello Into Cubes
        		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Cut Jello Into Cubes
-	{
-        	SkillRequired:Cooking=0,
+recipe Cut Jello into Cubes
+	{        	
 		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
 		HCJellostrawberry1,
 		Result:HCJellostrawberrycubes=4,
@@ -1714,9 +1850,8 @@ recipe Cut Jello Into Cubes
    		Category:Cooking,
 	}
 
- recipe Cut Jello Into Cubes
-	{
-        	SkillRequired:Cooking=0,
+ recipe Cut Jello into Cubes
+	{        	
 		keep KitchenKnife/HuntingKnife/HCJackknife/HCPlasticknife/HCBreadknife/ButterKnife/HCSteakknife/HCSterlingsilverknife/HCPumpkinknife,
 		HCJellowatermelon1,
 		Result:HCJellowatermeloncubes=4,
