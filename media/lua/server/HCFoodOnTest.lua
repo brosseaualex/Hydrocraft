@@ -540,6 +540,29 @@ function JarLimeCurd_CheckIfCooked(sourceItem, result)
     return true
 end
 
+--Food Coffee OnTest
+
+function BlackCoffeeKettle_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCKettlecoffee" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function CoffeeBlack_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCCoffeeblack" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
+function CoffeeBlack2_CheckIfCooked(sourceItem, result)
+    if sourceItem:getFullType() == "Hydrocraft.HCCoffeeblack2" then
+        return sourceItem:isCooked()
+    end
+    return true
+end
+
 -- ****** FOOD ONTEST END ******
 
 -- ****** JUICES ONTEST START ******

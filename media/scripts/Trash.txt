@@ -1831,6 +1831,14 @@ item HCCheesecrackerstrash
 		Weight 		= 0.1,
 		Type 		= Normal,
 	}
+	
+	item HCCoffeelargeempty
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Empty Coffee Can,
+        icon 			= HCCoffeelarge,
+    }  
 
 /************************RECIPES************************/
 
