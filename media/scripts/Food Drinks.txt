@@ -73,26 +73,6 @@ module Hydrocraft
 		Packaged		=	TRUE,
 	}
 	
-	
-	item Coffee2
-    {
-        Weight				=	1,
-        Type				=	Food,
-        HungerChange    		=   	-30,
-        UnhappyChange   		=   	20,
-        ThirstChange    		=   	50,
-        FatigueChange			=	-25,
-        DisplayName			=	Instant Coffee,
-        Icon				=	InstantCoffee,
-        EvolvedRecipe   		=   	HotDrink:5,
-        FoodType    			=   	Coffee,
-        Carbohydrates 			= 	0,
-        Proteins 			= 	1,
-        Lipids 				= 	0,
-        Calories 			= 	2,
-        Packaged 			= 	TRUE,
-    }
-	
 	item HCCoffeelarge
     {
         Weight			=	2,
