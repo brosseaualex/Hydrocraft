@@ -51,6 +51,29 @@ module Hydrocraft
 		ReplaceOnUse		= 	Hydrocraft.HCEnergydrink2trash,
 	}
 	
+		
+	item HCApplecider
+	{
+		HungerChange		=	-15,
+		Weight			=	0.8,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-85,
+		DisplayName		=	Apple Cider,
+		ReplaceOnUse		=	HCGlassjug,
+		Icon			=	HCApplecider,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	35.4,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	336,
+        CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+	}
+	
+	
 	item Coffee2
     {
         Weight				=	1,
@@ -168,6 +191,7 @@ module Hydrocraft
 		Type				=	Food,
 		ThirstChange			=	-50,
 		DisplayName			=	Cup of Black Coffee,
+		IsCookable				=	TRUE,
 		MinutesToCook			=	5,
 		MinutesToBurn			=	20,
 		ReplaceOnUse			=	Mugl,
@@ -181,7 +205,7 @@ module Hydrocraft
         CantBeFrozen 			= 	TRUE,
 	}
 	
-	item HCCoffeeblackcream
+	item HCCoffeeblackmilk
 	{
 		FatigueChange			=	-18,
 		UnhappyChange			=	-8,
@@ -189,11 +213,12 @@ module Hydrocraft
 		Weight					=	0.5,
 		Type					=	Food,
 		ThirstChange			=	-50,
-		DisplayName				=	Cup of Coffee with Cream,
+		DisplayName				=	Cup of Coffee with Milk,
+		IsCookable				=	TRUE,
 		MinutesToCook			=	5,
 		MinutesToBurn			=	20,
 		ReplaceOnUse			=	Mugl,
-		Icon					=	HCCoffeewithcream,
+		Icon					=	HCCoffeewithmilk,
 		CustomContextMenu 		= 	Drink,
 		FoodType				=	NoExplicit,
         Carbohydrates 		= 	0,
@@ -203,7 +228,7 @@ module Hydrocraft
         CantBeFrozen 		= 	TRUE,
 	}
 		
-	item HCCoffeeblackcreamsugar
+	item HCCoffeeblackmilksugar
 	{
 		FatigueChange			=	-20,
 		UnhappyChange			=	-12,
@@ -211,11 +236,12 @@ module Hydrocraft
 		Weight					=	0.5,
 		Type					=	Food,
 		ThirstChange			=	-50,
-		DisplayName				=	Cup of Coffee with Cream and Sugar,
+		DisplayName				=	Cup of Coffee with Milk and Sugar,
+		IsCookable				=	TRUE,
 		MinutesToCook			=	5,
 		MinutesToBurn			=	20,
 		ReplaceOnUse			=	Mugl,
-		Icon					=	HCCoffeecup,
+		Icon					=	HCCoffeewithmilk,
 		CustomContextMenu 		= 	Drink,
 		FoodType				=	NoExplicit,
         Carbohydrates 		= 	0,
@@ -234,6 +260,7 @@ module Hydrocraft
 		Type				=	Food,
 		ThirstChange			=	-50,
 		DisplayName			=	Cup of Black Coffee,
+		IsCookable				=	TRUE,
 		MinutesToCook			=	5,
 		MinutesToBurn			=	20,
 		ReplaceOnUse			=	HCClaymug,
@@ -247,7 +274,7 @@ module Hydrocraft
         CantBeFrozen 			= 	TRUE,
 	}
 	
-	item HCCoffeeblack2cream
+	item HCCoffeeblack2milk
 	{
 		FatigueChange			=	-18,
 		UnhappyChange			=	-8,
@@ -255,11 +282,12 @@ module Hydrocraft
 		Weight					=	0.5,
 		Type					=	Food,
 		ThirstChange			=	-50,
-		DisplayName				=	Cup of Coffee with Cream,
+		DisplayName				=	Cup of Coffee with Milk,
+		IsCookable				=	TRUE,
 		MinutesToCook			=	5,
 		MinutesToBurn			=	20,
 		ReplaceOnUse			=	HCClaymug,
-		Icon					=	HCHotcuppa,
+		Icon					=	HCCoffeewithmilk2,
 		CustomContextMenu 		= 	Drink,
 		FoodType				=	NoExplicit,
         Carbohydrates 		= 	0,
@@ -269,7 +297,7 @@ module Hydrocraft
         CantBeFrozen 		= 	TRUE,
 	}
 	
-	item HCCoffeeblack2creamsugar
+	item HCCoffeeblack2milksugar
 	{
 		FatigueChange			=	-20,
 		UnhappyChange			=	-12,
@@ -277,11 +305,12 @@ module Hydrocraft
 		Weight					=	0.5,
 		Type					=	Food,
 		ThirstChange			=	-50,
-		DisplayName				=	Cup of Coffee with Cream and Sugar,
+		DisplayName				=	Cup of Coffee with Milk and Sugar,
+		IsCookable				=	TRUE,
 		MinutesToCook			=	5,
 		MinutesToBurn			=	20,
 		ReplaceOnUse			=	HCClaymug,
-		Icon					=	HCCoffeewithcream2,
+		Icon					=	HCCoffeewithmilk2,
 		CustomContextMenu 		= 	Drink,
 		FoodType				=	NoExplicit,
         Carbohydrates 		= 	0,
@@ -290,28 +319,7 @@ module Hydrocraft
         Calories 			= 	3,
         CantBeFrozen 		= 	TRUE,
 	}	
-	
-	item HCApplecider
-	{
-		HungerChange		=	-15,
-		Weight			=	0.8,
-		Type			=	Food,
-		UnhappyChange		=	-10,
-		ThirstChange		=	-85,
-		DisplayName		=	Apple Cider,
-		ReplaceOnUse		=	HCGlassjug,
-		Icon			=	HCApplecider,
-		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
-		FoodType		=	NoExplicit,
-       	Carbohydrates 		= 	35.4,
-        Proteins 		= 	0,
-        Lipids 			= 	0,
-        Calories 		= 	336,
-        CantBeFrozen 		= 	TRUE,
-		Packaged		=	TRUE,
-	}
-	
+
 	item HCKettlecoffee
 	{
 		HungerChange			=	-20,
@@ -321,6 +329,7 @@ module Hydrocraft
 		Weight					=	2,
 		Type					=	Food,
 		ThirstChange			=	-200,
+		DangerousUncooked		=	TRUE,
 		DisplayName				=	Kettle of Black Coffee,
 		ReplaceOnUse			=	Kettle,
 		IsCookable				=	TRUE,
@@ -334,6 +343,66 @@ module Hydrocraft
         Lipids 				= 	0,
         Calories 			= 	10,
         CantBeFrozen 		= 	TRUE,
+	}
+	
+	item HCThermoscoffee
+	{
+		FatigueChange			=	-30,
+		UnhappyChange			=	-5,
+		StressChange			=	-10,
+		Weight					=	2,
+		Type					=	Food,
+		ThirstChange			=	-100,
+		DisplayName				=	Thermos of Black Coffee,
+		ReplaceOnUse			=	HCThermos,
+		Icon					=	HCThermos,
+		CustomContextMenu 		= 	Drink,
+		FoodType				=	NoExplicit,
+		Carbohydrates 		= 	0,
+		Proteins 			= 	1.5,
+		Lipids 				= 	0,
+		Calories 			= 	10,
+		CantBeFrozen 		= 	TRUE,
+	}
+	
+	item HCThermoscoffeemilk
+	{
+		FatigueChange			=	-33,
+		UnhappyChange			=	-8,
+		StressChange			=	-14,
+		Weight					=	2,
+		Type					=	Food,
+		ThirstChange			=	-100,
+		DisplayName				=	Thermos of Coffee with Milk,
+		ReplaceOnUse			=	HCThermos,
+		Icon					=	HCThermos,
+		CustomContextMenu 		= 	Drink,
+		FoodType				=	NoExplicit,
+		Carbohydrates 		= 	0,
+		Proteins 			= 	1.5,
+		Lipids 				= 	0,
+		Calories 			= 	10,
+		CantBeFrozen 		= 	TRUE,
+	}
+	
+	item HCThermoscoffeemilksugar
+	{
+		FatigueChange			=	-35,
+		UnhappyChange			=	-12,
+		StressChange			=	-18,
+		Weight					=	2,
+		Type					=	Food,
+		ThirstChange			=	-100,
+		DisplayName				=	Thermos of Coffee with Milk and Sugar,
+		ReplaceOnUse			=	HCThermos,
+		Icon					=	HCThermos,
+		CustomContextMenu 		= 	Drink,
+		FoodType				=	NoExplicit,
+		Carbohydrates 		= 	0,
+		Proteins 			= 	1.5,
+		Lipids 				= 	0,
+		Calories 			= 	10,
+		CantBeFrozen 		= 	TRUE,
 	}
 	
 /************************RECIPES************************/
@@ -380,7 +449,7 @@ module Hydrocraft
 		OnGiveXP:HCCooking_OnGiveXP,	  
 	}
 	
-	recipe Pour Mug of Black Coffee
+	recipe Pour Black Coffee into Mug
 	{
 		Mugl,
 		HCKettlecoffee;5,
@@ -391,7 +460,7 @@ module Hydrocraft
 		OnGiveXP:HCCooking_OnGiveXP,	  
 	}
 	
-	recipe Pour Mug of Black Coffee
+	recipe Pour Black Coffee into Mug
 	{
 		HCClaymug,
 		HCKettlecoffee;5,
@@ -402,11 +471,22 @@ module Hydrocraft
 		OnGiveXP:HCCooking_OnGiveXP,	  
 	}
 	
+	recipe Pour Black Coffee into Thermos
+	{
+		HCThermos,
+		HCKettlecoffee;10,
+		Result:HCThermoscoffee,
+		OnTest:BlackCoffeeKettle_CheckIfCooked,
+		Time:25,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,	
+	}
+
 	recipe Add Milk From Carton
 	{
 		HCCoffeeblack,
 		Milk;1,
-		Result:HCCoffeeblackcream,
+		Result:HCCoffeeblackmilk,
 		OnTest:CoffeeBlack_CheckIfCooked,
 		Time:15.0,
 	   	Category:Cooking,
@@ -417,8 +497,18 @@ module Hydrocraft
 	{
 		HCCoffeeblack2,
 		Milk;1,
-		Result:HCCoffeeblack2cream,
+		Result:HCCoffeeblack2milk,
 		OnTest:CoffeeBlack2_CheckIfCooked,
+		Time:15.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Add Milk From Carton
+	{
+		HCThermoscoffee,
+		Milk;2,
+		Result:HCThermoscoffeemilk,
 		Time:15.0,
 	   	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,	  
@@ -428,7 +518,7 @@ module Hydrocraft
 	{
 		HCCoffeeblack,
 		HCMilkjug;1,
-		Result:HCCoffeeblackcream,
+		Result:HCCoffeeblackmilk,
 		OnTest:CoffeeBlack_CheckIfCooked,
 		Time:15.0,
 	   	Category:Cooking,
@@ -439,8 +529,18 @@ module Hydrocraft
 	{
 		HCCoffeeblack2,
 		HCMilkjug;1,
-		Result:HCCoffeeblack2cream,
+		Result:HCCoffeeblack2milk,
 		OnTest:CoffeeBlack2_CheckIfCooked,
+		Time:15.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Add Milk From Jug
+	{
+		HCThermoscoffee,
+		HCMilkjug;2,
+		Result:HCThermoscoffeemilk,
 		Time:15.0,
 	   	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,	  
@@ -448,9 +548,9 @@ module Hydrocraft
 	
 	recipe Add Sugar From Bag
 	{
-		HCCoffeeblackcream,
-		Sugar;1,
-		Result:HCCoffeeblackcreamsugar,
+		HCCoffeeblackmilk,
+		Sugar;0.5,
+		Result:HCCoffeeblackmilksugar,
 		Time:15.0,
 	   	Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,	  
@@ -458,9 +558,19 @@ module Hydrocraft
 	
 	recipe Add Sugar From Bag
 	{
-		HCCoffeeblack2cream,
+		HCCoffeeblack2milk,
+		Sugar;0.5,
+		Result:HCCoffeeblack2milksugar,
+		Time:15.0,
+	   	Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Add Sugar From Bag
+	{
+		HCThermoscoffeemilk,
 		Sugar;1,
-		Result:HCCoffeeblack2creamsugar,
+		Result:HCThermoscoffeemilksugar,
 		Time:15.0,
 	   	Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,	  
@@ -468,9 +578,9 @@ module Hydrocraft
 	
 	recipe Add Sugar Cubes
 	{
-		HCCoffeeblackcream,
+		HCCoffeeblackmilk,
 		HCSugarcubes;1,
-		Result:HCCoffeeblackcreamsugar,
+		Result:HCCoffeeblackmilksugar,
 		Time:15.0,
 	   	Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,	  
@@ -478,9 +588,19 @@ module Hydrocraft
 	
 	recipe Add Sugar Cubes
 	{
-		HCCoffeeblack2cream,
+		HCCoffeeblack2milk,
 		HCSugarcubes;1,
-		Result:HCCoffeeblack2creamsugar,
+		Result:HCCoffeeblack2milksugar,
+		Time:15.0,
+	   	Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Add Sugar Cubes
+	{
+		HCThermoscoffeemilk,
+		HCSugarcubes;2,
+		Result:HCThermoscoffeemilksugar,
 		Time:15.0,
 	   	Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,	  

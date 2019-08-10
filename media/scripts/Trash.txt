@@ -1489,7 +1489,7 @@ item HCCoffeelargeempty
 		Weight				=	0.2,
 		CanStoreWater			=	TRUE,
 		Type				=	Normal,
-		DisplayName			=	Coffee Can,
+		DisplayName			=	Large Can of Coffee,
 		ReplaceOnUseOn			=	WaterSource-HCCoffeelargewater,
 		Icon				=	HCCoffeelargeempty,
 		DisplayCategory 		= 	Trash,
@@ -1504,7 +1504,7 @@ item HCCoffeelargewater
 		Type				= 	Drainable,
 		UseWhileEquipped		= 	FALSE,
 		UseDelta			= 	0.03,
-		DisplayName			= 	Coffee Can of Water,
+		DisplayName			= 	Full Large Can of Coffee,
 		ReplaceOnDeplete		= 	Pot,
 		ReplaceOnUseOn			= 	WaterSource-WaterPot,
 		Icon				= 	HCCoffeelarge,
@@ -1831,14 +1831,6 @@ item HCCheesecrackerstrash
 		Weight 		= 0.1,
 		Type 		= Normal,
 	}
-	
-	item HCCoffeelargeempty
-    {
-        Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName     = Empty Coffee Can,
-        icon 			= HCCoffeelarge,
-    }  
 
 /************************RECIPES************************/
 
