@@ -8,6 +8,22 @@ module Hydrocraft
 
 /************************ITEMS************************/
 
+	item HCPizzadough
+	{
+		Type				=	Food,
+		DisplayName			=	Pizza Dough,
+		Icon				=	HCPizzadough,
+		Weight				=	0.3,
+		HungerChange		=	-25,
+		DaysTotallyRotten	=	6,
+		DaysFresh 			= 	3,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	65.9,
+		Proteins 			= 	10,
+		Lipids 				= 	3.3,
+		Calories 			= 	336.5,
+	}
+
 item HCGratedcheese
 {
 	Type			=	Food,
@@ -78,7 +94,6 @@ item HCGratedcheddar
 		DaysFresh 			= 	5,
 		CustomContextMenu 	= 	Eat,
 		FoodType    		=  	NoExplicit,
-		EvolvedRecipe		=	Pizza:5,
 		Carbohydrates 		= 	10.6,
 		Proteins 			= 	0.6,
 		Lipids 				= 	2.4,

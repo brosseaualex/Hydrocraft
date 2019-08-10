@@ -476,7 +476,7 @@ module Hydrocraft
         Capacity            = 10,
         DisplayName         = Wooden Crate,
         Icon                = HCWoodencrate,
-	ResizeWorldIcon     = 1.0,
+		ResizeWorldIcon     = 2.0,
     }
 
     item HCToychest
@@ -509,7 +509,7 @@ module Hydrocraft
         Capacity            = 20,
         DisplayName         = Large Plastic Bin,
         Icon                = HCPlasticbin,
-	ResizeWorldIcon     = 2.0,
+	ResizeWorldIcon     = 1.0,
     }
 
     item HCPlasticbin2
