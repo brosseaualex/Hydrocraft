@@ -62,12 +62,6 @@ local function load3Dmodels()
         --                    (model name        , modelLocation, textureLocation )
         loadStaticZomboidModel("weapons_" .. string.lower(name), locationModel, locationTexture ) ;    
         ---------------------------
-        name = "HCTireiron";
-        locationModel = dir .. "/media/models/" .. "weapons_" .. name .. em;
-        locationTexture = dir .. "/media/textures/" .. "Objects_weaponsteel" .. et;
-        --                    (model name        , modelLocation, textureLocation )
-        loadStaticZomboidModel("weapons_" .. string.lower(name), locationModel, locationTexture ) ;    
-        ---------------------------
         name = "HCSteelpipe";
         locationModel = dir .. "/media/models/" .. "weapons_" .. name .. em;
         locationTexture = dir .. "/media/textures/" .. "Objects_weaponsteel" .. et;

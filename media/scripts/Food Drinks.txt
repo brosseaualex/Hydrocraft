@@ -185,20 +185,20 @@ module Hydrocraft
         CantBeFrozen 			= 	TRUE,
 	}
 	
-	item HCCoffeeblackmilk
+	item HCCoffeeblacksugar
 	{
-		FatigueChange			=	-18,
+		FatigueChange			=	-17,
 		UnhappyChange			=	-8,
 		StressChange			=	-14,
 		Weight					=	0.5,
 		Type					=	Food,
 		ThirstChange			=	-50,
-		DisplayName				=	Cup of Coffee with Milk,
+		DisplayName				=	Cup of Coffee with Sugar,
 		IsCookable				=	TRUE,
 		MinutesToCook			=	5,
 		MinutesToBurn			=	20,
 		ReplaceOnUse			=	Mugl,
-		Icon					=	HCCoffeewithmilk,
+		Icon					=	HCCoffeecup,
 		CustomContextMenu 		= 	Drink,
 		FoodType				=	NoExplicit,
         Carbohydrates 		= 	0,
@@ -208,7 +208,7 @@ module Hydrocraft
         CantBeFrozen 		= 	TRUE,
 	}
 		
-	item HCCoffeeblackmilksugar
+	item HCCoffeeblacksugarmilk
 	{
 		FatigueChange			=	-20,
 		UnhappyChange			=	-12,
@@ -216,7 +216,7 @@ module Hydrocraft
 		Weight					=	0.5,
 		Type					=	Food,
 		ThirstChange			=	-50,
-		DisplayName				=	Cup of Coffee with Milk and Sugar,
+		DisplayName				=	Cup of Coffee with Sugar and Milk,
 		IsCookable				=	TRUE,
 		MinutesToCook			=	5,
 		MinutesToBurn			=	20,
@@ -254,20 +254,20 @@ module Hydrocraft
         CantBeFrozen 			= 	TRUE,
 	}
 	
-	item HCCoffeeblack2milk
+	item HCCoffeeblack2sugar
 	{
-		FatigueChange			=	-18,
+		FatigueChange			=	-17,
 		UnhappyChange			=	-8,
 		StressChange			=	-14,
 		Weight					=	0.5,
 		Type					=	Food,
 		ThirstChange			=	-50,
-		DisplayName				=	Cup of Coffee with Milk,
+		DisplayName				=	Cup of Coffee with Sugar,
 		IsCookable				=	TRUE,
 		MinutesToCook			=	5,
 		MinutesToBurn			=	20,
 		ReplaceOnUse			=	HCClaymug,
-		Icon					=	HCCoffeewithmilk2,
+		Icon					=	HCHotcuppa,
 		CustomContextMenu 		= 	Drink,
 		FoodType				=	NoExplicit,
         Carbohydrates 		= 	0,
@@ -277,7 +277,7 @@ module Hydrocraft
         CantBeFrozen 		= 	TRUE,
 	}
 	
-	item HCCoffeeblack2milksugar
+	item HCCoffeeblack2sugarmilk
 	{
 		FatigueChange			=	-20,
 		UnhappyChange			=	-12,
@@ -285,7 +285,7 @@ module Hydrocraft
 		Weight					=	0.5,
 		Type					=	Food,
 		ThirstChange			=	-50,
-		DisplayName				=	Cup of Coffee with Milk and Sugar,
+		DisplayName				=	Cup of Coffee with Sugar and Milk,
 		IsCookable				=	TRUE,
 		MinutesToCook			=	5,
 		MinutesToBurn			=	20,
@@ -345,15 +345,15 @@ module Hydrocraft
 		CantBeFrozen 		= 	TRUE,
 	}
 	
-	item HCThermoscoffeemilk
+	item HCThermoscoffeesugar
 	{
-		FatigueChange			=	-33,
+		FatigueChange			=	-32,
 		UnhappyChange			=	-8,
 		StressChange			=	-14,
 		Weight					=	2,
 		Type					=	Food,
 		ThirstChange			=	-100,
-		DisplayName				=	Thermos of Coffee with Milk,
+		DisplayName				=	Thermos of Coffee with Sugar,
 		ReplaceOnUse			=	HCThermos,
 		Icon					=	HCThermos,
 		CustomContextMenu 		= 	Drink,
@@ -365,7 +365,7 @@ module Hydrocraft
 		CantBeFrozen 		= 	TRUE,
 	}
 	
-	item HCThermoscoffeemilksugar
+	item HCThermoscoffeesugarmilk
 	{
 		FatigueChange			=	-35,
 		UnhappyChange			=	-12,
@@ -373,7 +373,7 @@ module Hydrocraft
 		Weight					=	2,
 		Type					=	Food,
 		ThirstChange			=	-100,
-		DisplayName				=	Thermos of Coffee with Milk and Sugar,
+		DisplayName				=	Thermos of Coffee with Sugar and Milk,
 		ReplaceOnUse			=	HCThermos,
 		Icon					=	HCThermos,
 		CustomContextMenu 		= 	Drink,
@@ -460,77 +460,14 @@ module Hydrocraft
 		Time:25,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,	
-	}
-
-	recipe Add Milk From Carton
-	{
-		HCCoffeeblack,
-		Milk;1,
-		Result:HCCoffeeblackmilk,
-		OnTest:CoffeeBlack_CheckIfCooked,
-		Time:15.0,
-	   	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,	  
-	}
-	
-	recipe Add Milk From Carton
-	{
-		HCCoffeeblack2,
-		Milk;1,
-		Result:HCCoffeeblack2milk,
-		OnTest:CoffeeBlack2_CheckIfCooked,
-		Time:15.0,
-	   	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,	  
-	}
-	
-	recipe Add Milk From Carton
-	{
-		HCThermoscoffee,
-		Milk;2,
-		Result:HCThermoscoffeemilk,
-		Time:15.0,
-	   	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,	  
-	}
-
-	recipe Add Milk From Jug
-	{
-		HCCoffeeblack,
-		HCMilkjug;1,
-		Result:HCCoffeeblackmilk,
-		OnTest:CoffeeBlack_CheckIfCooked,
-		Time:15.0,
-	   	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,	  
-	}
-	
-	recipe Add Milk From Jug
-	{
-		HCCoffeeblack2,
-		HCMilkjug;1,
-		Result:HCCoffeeblack2milk,
-		OnTest:CoffeeBlack2_CheckIfCooked,
-		Time:15.0,
-	   	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,	  
-	}
-	
-	recipe Add Milk From Jug
-	{
-		HCThermoscoffee,
-		HCMilkjug;2,
-		Result:HCThermoscoffeemilk,
-		Time:15.0,
-	   	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,	  
-	}
-	
+	}	
+		
 	recipe Add Sugar From Bag
 	{
-		HCCoffeeblackmilk,
+		HCCoffeeblack,
 		Sugar;0.5,
-		Result:HCCoffeeblackmilksugar,
+		Result:HCCoffeeblacksugar,
+		OnTest:CoffeeBlack_CheckIfCooked,
 		Time:15.0,
 	   	Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,	  
@@ -538,9 +475,10 @@ module Hydrocraft
 	
 	recipe Add Sugar From Bag
 	{
-		HCCoffeeblack2milk,
+		HCCoffeeblack2,
 		Sugar;0.5,
-		Result:HCCoffeeblack2milksugar,
+		Result:HCCoffeeblack2sugar,
+		OnTest:CoffeeBlack2_CheckIfCooked,
 		Time:15.0,
 	   	Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,	  
@@ -548,9 +486,9 @@ module Hydrocraft
 	
 	recipe Add Sugar From Bag
 	{
-		HCThermoscoffeemilk,
+		HCThermoscoffee,
 		Sugar;1,
-		Result:HCThermoscoffeemilksugar,
+		Result:HCThermoscoffeesugar,
 		Time:15.0,
 	   	Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,	  
@@ -558,9 +496,10 @@ module Hydrocraft
 	
 	recipe Add Sugar Cubes
 	{
-		HCCoffeeblackmilk,
+		HCCoffeeblack,
 		HCSugarcubes;1,
-		Result:HCCoffeeblackmilksugar,
+		Result:HCCoffeeblacksugar,
+		OnTest:CoffeeBlack_CheckIfCooked,
 		Time:15.0,
 	   	Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,	  
@@ -568,9 +507,10 @@ module Hydrocraft
 	
 	recipe Add Sugar Cubes
 	{
-		HCCoffeeblack2milk,
+		HCCoffeeblack2,
 		HCSugarcubes;1,
-		Result:HCCoffeeblack2milksugar,
+		Result:HCCoffeeblack2sugar,
+		OnTest:CoffeeBlack2_CheckIfCooked,
 		Time:15.0,
 	   	Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,	  
@@ -578,12 +518,72 @@ module Hydrocraft
 	
 	recipe Add Sugar Cubes
 	{
-		HCThermoscoffeemilk,
+		HCThermoscoffee,
 		HCSugarcubes;2,
-		Result:HCThermoscoffeemilksugar,
+		Result:HCThermoscoffeesugar,
 		Time:15.0,
 	   	Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+
+	recipe Add Milk From Carton
+	{
+		HCCoffeeblacksugar,
+		Milk;1,
+		Result:HCCoffeeblacksugarmilk,
+		Time:15.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Add Milk From Carton
+	{
+		HCCoffeeblack2sugar,
+		Milk;1,
+		Result:HCCoffeeblack2sugarmilk,
+		Time:15.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Add Milk From Carton
+	{
+		HCThermoscoffeesugar,
+		Milk;2,
+		Result:HCThermoscoffeesugarmilk,
+		Time:15.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+
+	recipe Add Milk From Jug
+	{
+		HCCoffeeblacksugar,
+		HCMilkjug;1,
+		Result:HCCoffeeblacksugarmilk,
+		Time:15.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Add Milk From Jug
+	{
+		HCCoffeeblack2sugar,
+		HCMilkjug;1,
+		Result:HCCoffeeblack2sugarmilk,
+		Time:15.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Add Milk From Jug
+	{
+		HCThermoscoffeesugar,
+		HCMilkjug;2,
+		Result:HCThermoscoffeesugarmilk,
+		Time:15.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
 	}
 
 	recipe Make Cup of Hot Chocolate

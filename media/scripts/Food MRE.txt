@@ -28,7 +28,7 @@ item HCMREmeal
 	{
 		DisplayName 		= MRE Meal,
 		UnhappyChange 		= +10,
-		BordemChange 		= +10,
+		BoredomChange 		= +10,
 		HungerChange 		= -25,
 		Weight 				= 0.2,
 		Type 				= Food,
@@ -48,7 +48,7 @@ item HCMREmealside
 	{
 		DisplayName 		= MRE Side Meal,
 		UnhappyChange 		= +10,
-		BordemChange 		= +10,
+		BoredomChange 		= +10,
 		HungerChange 		= -15,
 		Weight 				= 0.2,
 		Type 				= Food,

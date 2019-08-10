@@ -16,8 +16,6 @@ FGP3DWeapons.inject3Dmodels = function()
 		print ( "*** injecting 3D code into Hydrocraft... ");
 
 		local newCode = {
-			-- File: Auto.txt
-			"Hydrocraft.HCTireiron", "HCTireiron",
 
 			-- File: Boneworking.txt
 			"Hydrocraft.HCBoneshiv", "HCStake",

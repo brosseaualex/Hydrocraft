@@ -3923,7 +3923,6 @@ ItemValueTable["Hydrocraft.HCTinrod"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCTinsheet"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCTinsheetlarge"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCTire"] = 0.00 ;
-ItemValueTable["Hydrocraft.HCTireiron"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCTissuebox"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCTitaniumboard"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCTitaniumingot"] = 0.00 ;
