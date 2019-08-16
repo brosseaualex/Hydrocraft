@@ -213,7 +213,6 @@ item HCSmellingsalts
 	DisplayName			=	Vial of Smelling Salts,
 	Icon				=	HCSmellingsaltscork,
 	CustomContextMenu 		= 	Sniff,
-	CustomEatSound 			= 
 	}
 
 item HCSmellingsalts2	
@@ -227,7 +226,6 @@ item HCSmellingsalts2
 	DisplayName			=	Vial of Smelling Salts,
 	Icon				=	HCSmellingsaltsbung,
 	CustomContextMenu 		= 	Sniff,
-	CustomEatSound 			= 
 	}
 
 item HCPillbox
@@ -280,7 +278,6 @@ item HCSyringeadrenalin
         ReplaceOnUse	        	= HCSyringeempty,    
         Icon				= HCSyringeadrenalin,
 	CustomContextMenu 		= Inject,
-	CustomEatSound 			= 
     }
 
 item HCEthersheet
