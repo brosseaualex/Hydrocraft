@@ -56,7 +56,6 @@ item HCOpiumpowder
 	Icon				= HCOpiumpowder,
 	Alcoholic			= TRUE,
 	CustomContextMenu 		= Sniff,
-	CustomEatSound 			= 
     }
 
 item HCJaropium
@@ -89,6 +88,7 @@ item HCPipeopiumpure
 	Icon				= HCClaypipesmoking,
 	Alcoholic			= TRUE,
 	CustomContextMenu 		= Smoke,
+	CustomEatSound = HC_LightUp,
  
     }
 
@@ -106,6 +106,7 @@ item HCCorncobpipeopiumpure
 	Icon				= HCCorncobpipe,
 	Alcoholic			= TRUE,
 	CustomContextMenu 		= Smoke,
+	CustomEatSound = HC_LightUp,
  
     }
 
@@ -130,7 +131,6 @@ item HCSyringeheroin
 	RequireInHandOrInventory	= Belt,
 	Alcoholic			= TRUE,
 	CustomContextMenu 		= Inject,
-	CustomEatSound 			= 
     }
 
 item HCSyringeuin
@@ -153,7 +153,6 @@ item HCSyringeuin
 	RequireInHandOrInventory	= Belt,
 	Alcoholic			= TRUE,
 	CustomContextMenu 		= Inject,
-	CustomEatSound 			= 
     }
 
 item HCBeakermorphinhydrochloridsolution

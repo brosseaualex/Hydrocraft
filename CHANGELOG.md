@@ -1,14 +1,13 @@
 # Hydrocraft Changelog
 
-## [11.1] - 2019-XX-XX
+## [11.1] - 2019-08-16
 ### LUA Changes
 - Added Hemp to Potted Planting
-- Added Beer Can Packs, Jello Mold, Large Can of Coffee, Alcoholic Beverages Cookbook to Item Distribution
-- Increased Baking Tray spawn rate
+- Added Beer Can Packs, Jello Mold, Large Can of Coffee, Alcoholic Beverages Cookbook, Coffee Filter Box to Item Distribution
+- Increased Baking Tray, Electric Clamp, Coffee Filter spawn rate
 - Fixed Honey Barrel not turning into Mead Barrel
-- Increased Electric Clamp spawnrate a bit (2.5 instead of 1)
-- Reduced MRE Spawn and will give less MREs per box
 - Juices can now only be made with Fresh fruits
+- Reduced MRE Spawn and will give less MREs per box
 - Fixed Cougar Hunting
 - Small changes to farming code that will (hopefully) resolve rare cases of Hydrocraft crops breaking on server crash
 - Removed remaining HCTireiron associations
@@ -43,9 +42,12 @@
 - Added Rubber Belt item & recycle recipe
 - Added Pallets of Steel Sheet, Copper Sheet, Rubber Sheet, Tin Sheet, Iron Sheet, Metal Bars, Aluminum Pipes items and their respective recipes
 - Added Dismantling for Pallet Truck, Toy Wagon, Hand Dolly, Shopping Cart, Push Cart, Glove Box, Lawn Mower, Radiator, Projector, Bed Strings
+- Added Coffee Filter Box
+- Added Custom Smoking Sound (Thanks jiggawutt!)
 - Removed PVC pipes to steel recipe
 - Removed "Cut Steel Pipes" book recipes
 - Removed 2 old recipes in Welding Textbook (Construct Barricades)
+- Removed Hot Cuppa recipes and items (replaced by new Coffees)
 
 ### Fixed Recipes
 - Fixed Jar Homemade Yogurt Recipe

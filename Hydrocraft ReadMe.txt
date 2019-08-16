@@ -2,9 +2,9 @@ Hydrocraft v11.1
 
 Credits
 
-Coders - arrukus, BrokenMnemonic, Daantje, DemolitionDerby, Flamester, Hydromancerx, IanSchot, JackMods, Man_In_The_Purple_Hat, Minnigin, MisterInSayne, UngratefulDead, Yossitaru, YuriNikolai
+Coders - arrukus, BrokenMnemonic, Daantje, DemolitionDerby, Flamester, Hydromancerx, IanSchot, JackMods, Man_In_The_Purple_Hat, Minnigin, MisterInSayne, New Wise Man, UngratefulDead, Yossitaru, YuriNikolai
 
-Artists - Atoxwarrior, Batura, billwa, Crowborn, Cyrrent Eiledoll, DeadlyStr1ke, Filthy Mollie, fluffe9911, Fuji, Hydromancerx, IanSchot, Kaltag, Kittysong, Leliana, Man_In_The_Purple_Hat, Minnigin, Nitengal, ORMtnMan, Rampage132003, Rhodix, Scyoni, Sparrow, StalkerCZ, Svarog, UngratefulDead, WolfeClaw, YuriNikolai, Zombadger
+Artists - Atoxwarrior, Batura, billwa, Crowborn, Cyrrent Eiledoll, DeadlyStr1ke, Filthy Mollie, fluffe9911, Fuji, Hydromancerx, IanSchot, Kaltag, Kittysong, Leliana, Man_In_The_Purple_Hat, Minnigin, New Wise Man, Nitengal, ORMtnMan, Rampage132003, Rhodix, Scyoni, Sparrow, StalkerCZ, Svarog, UngratefulDead, WolfeClaw, YuriNikolai, Zombadger
 
 Included Parts from the following Mods
 - Advanced Trading Post Mod By Nolan

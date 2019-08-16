@@ -1980,7 +1980,7 @@ recipe Brew Irish Coffee
 	{
 		Mugl,
 		Water,
-		Coffee2;5,
+		Coffee2;6,
 		HCDrinkcocktailglasswhiskey/HCDrinkglassshortwhiskey/HCDrinkglasstallwhiskey,
 		Result:HCCoffeeirish,
 		Time:70.0,
@@ -1992,7 +1992,7 @@ recipe Brew Irish Coffee
 	{
 		HCClaymug,
 		Water,
-		Coffee2;5,
+		Coffee2;6,
 		HCDrinkcocktailglasswhiskey/HCDrinkglassshortwhiskey/HCDrinkglasstallwhiskey,
 		Result:HCCoffeeirish2,
 		Time:70.0,
@@ -2004,7 +2004,7 @@ recipe Brew Irish Coffee
 	{
 		Mugl,
 		Water,
-		HCCoffeelarge;5,
+		HCCoffeelarge;6,
 		HCDrinkcocktailglasswhiskey/HCDrinkglassshortwhiskey/HCDrinkglasstallwhiskey,
 		Result:HCCoffeeirish,
 		Time:70.0,
@@ -2016,7 +2016,7 @@ recipe Brew Irish Coffee
 	{
 		HCClaymug,
 		Water,
-		HCCoffeelarge;5,
+		HCCoffeelarge;6,
 		HCDrinkcocktailglasswhiskey/HCDrinkglassshortwhiskey/HCDrinkglasstallwhiskey,
 		Result:HCCoffeeirish2,
 		Time:70.0,

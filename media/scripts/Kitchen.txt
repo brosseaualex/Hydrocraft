@@ -131,6 +131,14 @@ item HCCoffeefilterdry
         DisplayName         		= Dry Coffee Filter,
         icon 				= HCCoffeefilterdry,
     }
+	
+	item HCCoffeefilterbox
+    {
+        Weight    			= 0.1,
+        Type    			= Normal,
+        DisplayName         = Coffee Filter Box,
+        icon 				= HCCoffeefilterbox,
+    }
 
 item HCCoffeefilterwet
     {
@@ -1398,12 +1406,26 @@ recipe Remove Battery
     Category:Electrical,
     OnCreate:recipe_hcbatterymediumdead,
     }
+	
+	recipe Open Coffee Filter Box
+    {
+    HCCoffeefilterbox,
+    Result:HCCoffeefilterdry=50,
+    Time:15,
+    }
+	
+	recipe Pack Coffee Filter Box
+    {
+    HCCoffeefilterdry=50,
+    Result:HCCoffeefilterbox,
+    Time:15,
+    }
 
 /************************FIXING************************/
 
 fixing Fix Pan
     {
-       		Require : Pan,
+       	Require : Pan,
 
 		Fixer : HCGluejar=2,
 		Fixer : HCMaskingtape=2,

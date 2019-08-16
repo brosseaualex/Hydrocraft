@@ -924,10 +924,10 @@ module Base
 		StressChange		=	-5,
 		Icon			=	IckySticks,
 		CustomContextMenu 	= 	Smoke,
+		CustomEatSound = HC_LightUp,
 		CantBeFrozen 		= 	TRUE,
 		OnEat 			= 	OnEat_Cigarettes,
 		ReplaceOnUse		=	Hydrocraft.HCCigarettebutt,
-		CustomEatSound 		=
 	}
 
 /************************Pain Cans************************/

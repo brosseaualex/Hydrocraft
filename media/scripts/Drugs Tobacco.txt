@@ -58,6 +58,7 @@ item HCCigaretteslights
 		StressChange			= -5,
 		Icon				= HCCigaretteslights,
 		CustomContextMenu 		= Smoke,
+		CustomEatSound = HC_LightUp,
 		CantBeFrozen			= TRUE,
 		OnEat				= OnEat_Cigarettes,
 		ReplaceOnUse			= Hydrocraft.HCCigarettebutt,
@@ -88,9 +89,10 @@ item HCCigarettesmenthol
 		StressChange				= -5,
 		Icon					= HCCigarettesmenthol,
 		CustomContextMenu 			= Smoke,
+		CustomEatSound = HC_LightUp,
 		CantBeFrozen				= TRUE,
 		OnEat					= OnEat_Cigarettes,
-		ReplaceOnUse				= Hydrocraft.HCCigarettebutt,
+		ReplaceOnUse				= Hydrocraft.HCCigarettebutt,		
 }
 
 item HCTobaccoleaffresh
@@ -139,8 +141,9 @@ item HCCigar
 	UnhappyChange			=	5,
 	Icon				=	HCCigar,
 	CustomContextMenu 		= 	Smoke,
+	CustomEatSound = HC_LightUp,
 	CantBeFrozen 			= 	TRUE,
-	OnEat 				= 	OnEat_Cigarettes,
+	OnEat 				= 	OnEat_Cigarettes,	
      }
 
 item HCCigarhandrolled
@@ -155,8 +158,10 @@ item HCCigarhandrolled
 	UnhappyChange			=	-5,
 	Icon				=	HCCigarhandrolled,
 	CustomContextMenu 		= 	Smoke,
+	CustomEatSound = HC_LightUp,
 	CantBeFrozen 			= 	TRUE,
 	OnEat 				= 	OnEat_Cigarettes,
+	
     }
 
 item HCPipetobacco
@@ -171,6 +176,7 @@ item HCPipetobacco
 	ReplaceOnUse			=	HCClaypipesmoking,
 	Icon				=	HCClaypipesmoking,
 	CustomContextMenu 		= 	Smoke,
+	CustomEatSound = HC_LightUp,
 	CantBeFrozen 			= 	TRUE,
 	OnEat 				= 	OnEat_Cigarettes, 
     }
@@ -187,6 +193,7 @@ item HCCorncobpipetobacco
 	ReplaceOnUse			=	HCCorncobpipe,
 	Icon				=	HCCorncobpipe,
 	CustomContextMenu 		= 	Smoke,
+	CustomEatSound = HC_LightUp,
 	CantBeFrozen 			= 	TRUE,
 	OnEat 				= 	OnEat_Cigarettes,
     }

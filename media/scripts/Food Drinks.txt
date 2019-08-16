@@ -142,28 +142,9 @@ module Hydrocraft
         CantBeFrozen 			= 	TRUE,
 	}
 	
-	item HCHotcuppa
-	{
-		FatigueChange			=	-5,
-		HungerChange			=	-5,
-		Weight				=	0.5,
-		Type				=	Food,
-		UnhappyChange			=	-5,
-		ThirstChange			=	-50,
-		DisplayName			=	Hot Cuppa,
-		StressChange			=	-10,
-		ReplaceOnUse			=	HCClaymug,
-		Icon				=	HCHotcuppa,
-		FoodType			=	NoExplicit,
-        Carbohydrates 			= 	34,
-        Proteins 			= 	0.3,
-        Lipids 				= 	0,
-        Calories 			= 	103,
-        CantBeFrozen 			= 	TRUE,
-	}
-	
 	item HCCoffeeblack
 	{
+		HungerChange			=	-10,
 		FatigueChange			=	-15,
 		UnhappyChange			=	-5,
 		StressChange			=	-10,
@@ -187,6 +168,7 @@ module Hydrocraft
 	
 	item HCCoffeeblacksugar
 	{
+		HungerChange			=	-10,
 		FatigueChange			=	-17,
 		UnhappyChange			=	-8,
 		StressChange			=	-14,
@@ -210,6 +192,7 @@ module Hydrocraft
 		
 	item HCCoffeeblacksugarmilk
 	{
+		HungerChange			=	-10,
 		FatigueChange			=	-20,
 		UnhappyChange			=	-12,
 		StressChange			=	-18,
@@ -233,6 +216,7 @@ module Hydrocraft
 	
 	item HCCoffeeblack2
 	{
+		HungerChange			=	-10,
 		FatigueChange			=	-15,
 		UnhappyChange			=	-5,
 		StressChange			=	-10,
@@ -256,6 +240,7 @@ module Hydrocraft
 	
 	item HCCoffeeblack2sugar
 	{
+		HungerChange			=	-10,
 		FatigueChange			=	-17,
 		UnhappyChange			=	-8,
 		StressChange			=	-14,
@@ -279,6 +264,7 @@ module Hydrocraft
 	
 	item HCCoffeeblack2sugarmilk
 	{
+		HungerChange			=	-10,
 		FatigueChange			=	-20,
 		UnhappyChange			=	-12,
 		StressChange			=	-18,
@@ -327,7 +313,8 @@ module Hydrocraft
 	
 	item HCThermoscoffee
 	{
-		FatigueChange			=	-30,
+		HungerChange			=	-25,
+		FatigueChange			=	-40,
 		UnhappyChange			=	-5,
 		StressChange			=	-10,
 		Weight					=	2,
@@ -347,7 +334,8 @@ module Hydrocraft
 	
 	item HCThermoscoffeesugar
 	{
-		FatigueChange			=	-32,
+		HungerChange			=	-25,
+		FatigueChange			=	-42,
 		UnhappyChange			=	-8,
 		StressChange			=	-14,
 		Weight					=	2,
@@ -367,7 +355,8 @@ module Hydrocraft
 	
 	item HCThermoscoffeesugarmilk
 	{
-		FatigueChange			=	-35,
+		HungerChange			=	-25,
+		FatigueChange			=	-45,
 		UnhappyChange			=	-12,
 		StressChange			=	-18,
 		Weight					=	2,
