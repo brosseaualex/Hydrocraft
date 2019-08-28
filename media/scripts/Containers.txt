@@ -198,7 +198,7 @@ module Hydrocraft
 	Capacity             		= 150,
 	DisplayName             	= Toy Wagon,
 	Icon				= HCToywagon,
-	ResizeWorldIcon 		= 2.0,
+	ResizeWorldIcon 		= 1.0,
    }
 
     item HCPaperbag
