@@ -1430,7 +1430,7 @@ recipe Fill Rabbit Hutch Food
 		Corn/HCCornred/HCCornblue/HCCornwhite,
 		Cabbage/HCCabbagered/HCCabbagewhite/HCChinesecabbage,
 		Potato/Tomato/BellPepper/Lettuce/Carrots/Banana/Peach,
-		HCGrass/HCStraw/,
+		HCGrass/HCStraw,
 		Water=10,
     	CanBeDoneFromFloor:true,
     	Result:HCRabbithutchfull,
@@ -1472,7 +1472,7 @@ recipe Fill Chicken Coop Food
     	HCCoophungry/HCCoopfull,
 		Corn/HCCornred/HCCornblue/HCCornwhite,
 		Popcorn/Cereal/BreadSlices,
-		Worm/Cricket/Grasshopper/Cockroach
+		Worm/Cricket/Grasshopper/Cockroach,
 		HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada,
 		HCBirdfoodbox/HCBirdfoodbag,
 		Water=10,
