@@ -448,7 +448,7 @@ recipe Harvest Crop
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Golden Potatoes,
-        icon        		= HCPottedpotatoready,
+        icon        		= HCPottedpotato,
 		ResizeWorldIcon 	= 1.0,
     }
 	recipe Remove Crop

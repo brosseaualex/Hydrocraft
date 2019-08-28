@@ -1138,6 +1138,15 @@ recipe Open Blueberry Pie Filling
 	   	Time:80.0,
 	   	Category:Cooking,
 	}
+	
+	recipe Open Cherry Pie Filling
+	{
+		HCCannedpiefillingcherry,
+	   	keep TinOpener, 
+	   	Result:HCCannedpiefillingcherryopen,
+	   	Time:80.0,
+	   	Category:Cooking,
+	}	
 
 recipe Open Canned Ravioli
 	{

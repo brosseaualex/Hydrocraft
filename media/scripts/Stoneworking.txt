@@ -1199,5 +1199,13 @@ recipe Carve Venus Figurine
 		Time:50,
 		Category:Stoneworking,
     }
+	
+	recipe Empty Well
+    {
+		destroy HCWellfull,
+		Result:HCWell,
+		Time:1000,
+		Category:Stoneworking,
+    }
 
 }
