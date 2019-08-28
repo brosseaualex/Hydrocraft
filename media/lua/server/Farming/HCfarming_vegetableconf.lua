@@ -46,7 +46,7 @@ HCfarming_vegetableconf.growCorn = function(planting, nextGrowing, updateNbOfGro
 			badPlant(water, waterMax, diseaseLvl, planting, nextGrowing, updateNbOfGrow);
 		end
 	elseif (planting.state ~= "rotten") then -- rotten
-		basicFarming.rottenThis(planting);
+		planting.rottenThis(planting);
 	end
 	return planting;
 end

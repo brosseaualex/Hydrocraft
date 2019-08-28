@@ -391,7 +391,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 	UseWhileEquipped	= FALSE,
-        DisplayName 		= Potted Potatogolden,
+        DisplayName 		= Potted Golden Potatoes,
         icon        		= HCPottedpotato,
 	ResizeWorldIcon 	= 1.0,
     }
@@ -401,7 +401,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Small Potted Potatogolden,
+        DisplayName 		= Small Potted Golden Potatoes,
         icon        		= HCPottedpotatosmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -410,7 +410,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Small Potted Potatogolden,
+        DisplayName 		= Dead Small Potted Golden Potatoes,
         icon        		= HCPottedpotatosmalldead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -419,7 +419,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Small Potted Potatogolden,
+        DisplayName 		= Dry Small Potted Golden Potatoes,
         icon        		= HCPottedpotatosmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -429,7 +429,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Potted Potatogolden,
+        DisplayName 		= Dry Potted Golden Potatoes,
         icon        		= HCPottedpotato,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -438,7 +438,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Potted Potatogolden,
+        DisplayName 		= Dead Potted Golden Potatoes,
         icon        		= HCPottedpotatodead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -447,7 +447,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Ready Potted Potatogolden,
+        DisplayName 		= Ready Potted Golden Potatoes,
         icon        		= HCPottedpotatoready,
 		ResizeWorldIcon 	= 1.0,
     }
