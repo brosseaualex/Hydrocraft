@@ -11,7 +11,7 @@ module Hydrocraft
         Weight      		= 5,
     	Type        		= Normal,
 	UseWhileEquipped	= FALSE,
-        DisplayName 		= Potted Tomatocherry,
+        DisplayName 		= Potted Cherry Tomato,
         icon        		= HCPottedtomato,
 	ResizeWorldIcon 	= 1.0,
     }
@@ -20,7 +20,7 @@ module Hydrocraft
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Small Potted Tomatocherry,
+        DisplayName 		= Small Potted Cherry Tomato,
         icon        		= HCPottedtomatosmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -29,7 +29,7 @@ module Hydrocraft
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Small Potted Tomatocherry,
+        DisplayName 		= Dead Small Potted Cherry Tomato,
         icon        		= HCPottedtomatosmalldead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -38,7 +38,7 @@ module Hydrocraft
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Small Potted Tomatocherry,
+        DisplayName 		= Dry Small Potted Cherry Tomato,
         icon        		= HCPottedtomatosmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -47,7 +47,7 @@ module Hydrocraft
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Potted Tomatocherry,
+        DisplayName 		= Dry Potted Cherry Tomato,
         icon        		= HCPottedtomato,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -56,7 +56,7 @@ module Hydrocraft
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Potted Tomatocherry,
+        DisplayName 		= Dead Potted Cherry Tomato,
         icon        		= HCPottedtomatodead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -65,7 +65,7 @@ module Hydrocraft
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Ready Potted Tomatocherry,
+        DisplayName 		= Ready Potted Cherry Tomato,
         icon        		= HCPottedtomatoready,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -105,7 +105,7 @@ item HCPottedBeetsugar
         Weight      		= 5,
     	Type        		= Normal,
 	UseWhileEquipped	= FALSE,
-        DisplayName 		= Potted Beetsugar,
+        DisplayName 		= Potted Sugar Beet,
         icon        		= HCPottedbeets,
 	ResizeWorldIcon 	= 1.0,
     }
@@ -114,7 +114,7 @@ item HCPottedBeetsugarsmall
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Small Potted Beetsugar,
+        DisplayName 		= Small Potted Sugar Beet,
         icon        		= HCPottedbeetssmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -123,7 +123,7 @@ item HCPottedBeetsugarsmalldead
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Small Potted Beetsugar,
+        DisplayName 		= Dead Small Potted Sugar Beet,
         icon        		= HCPottedbeetssmalldead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -132,7 +132,7 @@ item HCPottedBeetsugarsmalldry
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Small Potted Beetsugar,
+        DisplayName 		= Dry Small Potted Sugar Beet,
         icon        		= HCPottedbeetssmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -141,7 +141,7 @@ item HCPottedBeetsugardry
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Potted Beetsugar,
+        DisplayName 		= Dry Potted Sugar Beet,
         icon        		= HCPottedbeets,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -150,7 +150,7 @@ item HCPottedBeetsugardead
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Potted Beetsugar,
+        DisplayName 		= Dead Potted Sugar Beet,
         icon        		= HCPottedbeetsdead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -159,7 +159,7 @@ item HCPottedBeetsugarready
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Ready Potted Beetsugar,
+        DisplayName 		= Ready Potted Sugar Beet,
         icon        		= HCPottedbeets,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -199,7 +199,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 	UseWhileEquipped	= FALSE,
-        DisplayName 		= Potted Squashsummer,
+        DisplayName 		= Potted Summer Squash,
         icon        		= HCPottedSquashsummer,
 	ResizeWorldIcon 	= 1.0,
     }
@@ -209,7 +209,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Small Potted Squashsummer,
+        DisplayName 		= Small Potted Summer Squash,
         icon        		= HCPottedSquashsummersmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -218,7 +218,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Small Potted Squashsummer,
+        DisplayName 		= Dead Small Potted Summer Squash,
         icon        		= HCPottedSquashsummersmalldead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -227,7 +227,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Small Potted Squashsummer,
+        DisplayName 		= Dry Small Potted Summer Squash,
         icon        		= HCPottedSquashsummersmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -237,7 +237,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Potted Squashsummer,
+        DisplayName 		= Dry Potted Summer Squash,
         icon        		= HCPottedSquashsummer,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -246,7 +246,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Potted Squashsummer,
+        DisplayName 		= Dead Potted Summer Squash,
         icon        		= HCPottedSquashsummerdead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -255,7 +255,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Ready Potted Squashsummer,
+        DisplayName 		= Ready Potted Summer Squash,
         icon        		= HCPottedSquashsummerready,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -295,7 +295,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 	UseWhileEquipped	= FALSE,
-        DisplayName 		= Potted Potatored,
+        DisplayName 		= Potted Red Potato,
         icon        		= HCPottedpotato,
 	ResizeWorldIcon 	= 1.0,
     }
@@ -305,7 +305,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Small Potted Potatored,
+        DisplayName 		= Small Potted Red Potato,
         icon        		= HCPottedpotatosmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -314,7 +314,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Small Potted Potatored,
+        DisplayName 		= Dead Small Potted Red Potato,
         icon        		= HCPottedpotatosmalldead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -323,7 +323,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Small Potted Potatored,
+        DisplayName 		= Dry Small Potted Red Potato,
         icon        		= HCPottedpotatosmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -333,7 +333,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Potted Potatored,
+        DisplayName 		= Dry Potted Red Potato,
         icon        		= HCPottedpotato,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -342,7 +342,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Potted Potatored,
+        DisplayName 		= Dead Potted Red Potato,
         icon        		= HCPottedpotatodead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -351,7 +351,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Ready Potted Potatored,
+        DisplayName 		= Ready Potted Red Potato,
         icon        		= HCPottedpotatoready,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -488,7 +488,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 	UseWhileEquipped	= FALSE,
-        DisplayName 		= Potted Cabbagewhite,
+        DisplayName 		= Potted White Cabbage,
         icon        		= HCPottedCabbagewhite,
 	ResizeWorldIcon 	= 1.0,
     }
@@ -498,7 +498,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Small Potted Cabbagewhite,
+        DisplayName 		= Small Potted White Cabbage,
         icon        		= HCPottedCabbagewhitesmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -507,7 +507,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Small Potted Cabbagewhite,
+        DisplayName 		= Dead Small Potted White Cabbage,
         icon        		= HCPottedCabbagewhitesmalldead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -516,7 +516,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Small Potted Cabbagewhite,
+        DisplayName 		= Dry Small Potted White Cabbage,
         icon        		= HCPottedCabbagewhitesmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -526,7 +526,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Potted Cabbagewhite,
+        DisplayName 		= Dry Potted White Cabbage,
         icon        		= HCPottedCabbagewhite,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -535,7 +535,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Potted Cabbagewhite,
+        DisplayName 		= Dead Potted White Cabbage,
         icon        		= HCPottedCabbagewhitedead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -544,7 +544,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Ready Potted Cabbagewhite,
+        DisplayName 		= Ready Potted White Cabbage,
         icon        		= HCPottedCabbagewhiteready,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -584,7 +584,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 	UseWhileEquipped	= FALSE,
-        DisplayName 		= Potted Cabbagered,
+        DisplayName 		= Potted Red Cabbage,
         icon        		= HCPottedCabbagered,
 	ResizeWorldIcon 	= 1.0,
     }
@@ -594,7 +594,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Small Potted Cabbagered,
+        DisplayName 		= Small Potted Red Cabbage,
         icon        		= HCPottedCabbageredsmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -603,7 +603,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Small Potted Cabbagered,
+        DisplayName 		= Dead Small Potted Red Cabbage,
         icon        		= HCPottedCabbageredsmalldead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -612,7 +612,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Small Potted Cabbagered,
+        DisplayName 		= Dry Small Potted Red Cabbage,
         icon        		= HCPottedCabbageredsmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -622,7 +622,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Potted Cabbagered,
+        DisplayName 		= Dry Potted Red Cabbage,
         icon        		= HCPottedCabbagered,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -631,7 +631,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Potted Cabbagered,
+        DisplayName 		= Dead Potted Red Cabbage,
         icon        		= HCPottedCabbagereddead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -640,7 +640,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Ready Potted Cabbagered,
+        DisplayName 		= Ready Potted Red Cabbage,
         icon        		= HCPottedCabbageredready,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -681,7 +681,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 	UseWhileEquipped	= FALSE,
-        DisplayName 		= Potted Bellpepperyellow,
+        DisplayName 		= Potted Yellow Bell Pepper,
         icon        		= HCPottedbellpepper,
 	ResizeWorldIcon 	= 1.0,
     }
@@ -691,7 +691,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Small Potted Bellpepperyellow,
+        DisplayName 		= Small Potted Yellow Bell Pepper,
         icon        		= HCPottedbellpeppersmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -700,7 +700,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Small Potted Bellpepperyellow,
+        DisplayName 		= Dead Small Potted Yellow Bell Pepper,
         icon        		= HCPottedbellpeppersmalldead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -709,7 +709,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Small Potted Bellpepperyellow,
+        DisplayName 		= Dry Small Potted Yellow Bell Pepper,
         icon        		= HCPottedbellpeppersmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -719,7 +719,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Potted Bellpepperyellow,
+        DisplayName 		= Dry Potted Yellow Bell Pepper,
         icon        		= HCPottedbellpepper,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -728,7 +728,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Potted Bellpepperyellow,
+        DisplayName 		= Dead Potted Yellow Bell Pepper,
         icon        		= HCPottedbellpepperdead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -737,7 +737,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Ready Potted Bellpepperyellow,
+        DisplayName 		= Ready Potted Yellow Bell Pepper,
         icon        		= HCPottedBellpepperyellowready,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -778,7 +778,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 	UseWhileEquipped	= FALSE,
-        DisplayName 		= Potted Bellpeppergreen,
+        DisplayName 		= Potted Green Bell Pepper,
         icon        		= HCPottedbellpepper,
 	ResizeWorldIcon 	= 1.0,
     }
@@ -788,7 +788,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Small Potted Bellpeppergreen,
+        DisplayName 		= Small Potted Green Bell Pepper,
         icon        		= HCPottedbellpeppersmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -797,7 +797,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Small Potted Bellpeppergreen,
+        DisplayName 		= Dead Small Potted Green Bell Pepper,
         icon        		= HCPottedbellpeppersmalldead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -806,7 +806,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Small Potted Bellpeppergreen,
+        DisplayName 		= Dry Small Potted Green Bell Pepper,
         icon        		= HCPottedbellpeppersmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -816,7 +816,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Potted Bellpeppergreen,
+        DisplayName 		= Dry Potted Green Bell Pepper,
         icon        		= HCPottedbellpepper,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -825,7 +825,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Potted Bellpeppergreen,
+        DisplayName 		= Dead Potted Green Bell Pepper,
         icon        		= HCPottedbellpepperdead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -834,7 +834,7 @@ recipe Harvest Crop
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Ready Potted Bellpeppergreen,
+        DisplayName 		= Ready Potted Green Bell Pepper,
         icon        		= HCPottedBellpeppergreenready,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -6150,7 +6150,7 @@ item HCPottedapricotsmall
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Small PottedApricot,
+        DisplayName 		= Small Potted Apricot,
         icon        		= HCPottedapricotsmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -6159,7 +6159,7 @@ item HCPottedapricotsmalldead
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead Small PottedApricot,
+        DisplayName 		= Dead Small Potted Apricot,
         icon        		= HCPottedapricotsmalldead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -6168,7 +6168,7 @@ item HCPottedapricotsmalldry
         Weight      		= 5,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry Small PottedApricot,
+        DisplayName 		= Dry Small Potted Apricot,
         icon        		= HCPottedapricotsmall,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -6177,7 +6177,7 @@ item HCPottedapricotdry
         Weight      		= 15,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dry PottedApricot,
+        DisplayName 		= Dry Potted Apricot,
         icon        		= HCPottedapricot,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -6186,7 +6186,7 @@ item HCPottedapricotdead
         Weight      		= 15,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Dead PottedApricot,
+        DisplayName 		= Dead Potted Apricot,
         icon        		= HCPottedapricotdead,
 		ResizeWorldIcon 	= 1.0,
     }
@@ -6195,7 +6195,7 @@ item HCPottedapricotready
         Weight      		= 15,
     	Type        		= Normal,
 		UseWhileEquipped	= FALSE,
-        DisplayName 		= Ready PottedApricot,
+        DisplayName 		= Ready Potted Apricot,
         icon        		= HCPottedapricotready,
 		ResizeWorldIcon 	= 1.0,
     }

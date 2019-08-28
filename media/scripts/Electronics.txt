@@ -1005,7 +1005,6 @@ recipe Unbox Resistors
 recipe Box Resistors
     {
        HCResistor=100,
-       SheetPaper2,
        Result:HCResistorbox,
        Time:50.0,
        Category:Electrical,

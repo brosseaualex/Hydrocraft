@@ -1427,8 +1427,8 @@ recipe Feed Rabbit
 recipe Fill Rabbit Hutch Food
     {
     	HCRabbithutchhungry/HCRabbithutchfull,
-		Cabbage/HCCabbagered/HCCabbagewhite/HCChinesecabbage,
 		Corn/HCCornred/HCCornblue/HCCornwhite,
+		Cabbage/HCCabbagered/HCCabbagewhite/HCChinesecabbage,
 		Potato/Tomato/BellPepper/Lettuce/Carrots/Banana/Peach,
 		HCGrass/HCStraw/,
 		Water=10,
