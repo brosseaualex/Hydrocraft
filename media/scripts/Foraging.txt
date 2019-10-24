@@ -818,6 +818,14 @@ item HCBluedaisy
         icon 			= 	HCBluedaisy,
     }
 
+item HCCrabappleflower
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Crabapple Flower,
+        icon 			= 	HCCrabappleflower,
+    }
+
 item HCBark
     {
         HungerChange        	=    	-5,    

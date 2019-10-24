@@ -632,7 +632,7 @@ recipe Harvest Pollen
     {
         keep HCHerbtable/HCHerbtable2,
         keep Tweezers,
-        Violets/HCRosebud/HCCamomile/HCLavender/HCSunflower/HCFlaxflower/HCDaisy/HCIris/HCSkullcap/HCBluebell/HCLotusflower/HCHyacinthflower/HCWaterlilyflower/HCValerian/HCThistle/HCAnemome/HCCamellia/HCRhododendron/HCDaffodil/HCTulip/HCMorningglory/HCCalily/HCBleedingheart/HCPansy/HCTetterwort/HCDogwood/HCMagnolia/HCSpeedwell/HCColumbine/HCCinquefoils/HCStrelitzia/HCMazus/HCCarnation/HCChrysanthemum/HCBluedaisy/HCSoapgrass/HCChicory/HCWolfsbane/HCKvann,
+        Violets/HCRosebud/HCCamomile/HCLavender/HCSunflower/HCFlaxflower/HCDaisy/HCIris/HCSkullcap/HCBluebell/HCLotusflower/HCHyacinthflower/HCWaterlilyflower/HCValerian/HCThistle/HCAnemome/HCCamellia/HCRhododendron/HCDaffodil/HCTulip/HCMorningglory/HCCalily/HCBleedingheart/HCPansy/HCTetterwort/HCDogwood/HCMagnolia/HCSpeedwell/HCColumbine/HCCinquefoils/HCStrelitzia/HCMazus/HCCarnation/HCChrysanthemum/HCBluedaisy/HCSoapgrass/HCChicory/HCWolfsbane/HCKvann/HCCrabappleflower,
         CanBeDoneFromFloor:true,
         Result:HCPollen,
         NeedToBeLearn:true,

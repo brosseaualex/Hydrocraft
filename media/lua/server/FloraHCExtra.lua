@@ -37,7 +37,7 @@ player:getStats():setFatigue(player:getStats():getFatigue()+0.05)
     chance = ZombRand(4096);
     secondChance = 0;
     if chance <= floraLvl10 then
-		secondChance = ZombRand(10);
+		secondChance = ZombRand(11);
 		if secondChance == 0 then
 			player:getInventory():AddItem("Hydrocraft.HCCrabapple");
 		elseif secondChance == 1 then
@@ -57,11 +57,13 @@ player:getStats():setFatigue(player:getStats():getFatigue()+0.05)
 		elseif secondChance == 8 then
 			player:getInventory():AddItem("Hydrocraft.HCGooseberry");
 		elseif secondChance == 9 then
-			player:getInventory():AddItem("Hydrocraft.HCBleedingheart");			
+			player:getInventory():AddItem("Hydrocraft.HCBleedingheart");
+		elseif secondChance == 10 then
+			player:getInventory():AddItem("Hydrocraft.HCCrabappleflower");				
 		end
 		player:getXp():AddXP(Perks.PlantScavenging, 10);
     elseif chance <= floraLvl9+floraLvl10 then
-        secondChance = ZombRand(6);
+        secondChance = ZombRand(7);
         if secondChance == 0 then
             player:getInventory():AddItem("Base.Corn");
         elseif secondChance == 1 then
