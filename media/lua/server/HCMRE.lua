@@ -20,7 +20,7 @@ end
 --Heat MRE With FRH
 function recipe_HCMRE_HeatPackage(items, result, player)
     local getsA = ZombRand(1);
-    local itemSetA = {"Hydrocraft.HCMREmealprepedA", "Hydrocraft.HCMREmealprepedB", "Hydrocraft.HCMREmealprepedC", "Hydrocraft.HCMREmealprepedD", "Hydrocraft.HCMREmealprepedE", "Hydrocraft.HCMREmealprepedF", "Hydrocraft.HCMREmealprepedG", "Hydrocraft.HCMREmealprepedH"};
+    local itemSetA = {"Hydrocraft.HCMREmealprepedA", "Hydrocraft.HCMREmealprepedB", "Hydrocraft.HCMREmealprepedC", "Hydrocraft.HCMREmealprepedD", "Hydrocraft.HCMREmealprepedE", "Hydrocraft.HCMREmealprepedF", "Hydrocraft.HCMREmealprepedG", "Hydrocraft.HCMREmealprepedH", "Hydrocraft.HCMREmealprepedI", "Hydrocraft.HCMREmealprepedJ", "Hydrocraft.HCMREmealprepedK"};
     for x=0, getsA do
         HCItemGet(player, itemSetA);
 end

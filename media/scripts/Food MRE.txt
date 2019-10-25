@@ -221,7 +221,7 @@ item HCMREmealprepedH
 
 item HCMREmealprepedI
 	{
-		DisplayName 		= MRE Tuna w/ Noodles ,
+		DisplayName 		= MRE Tuna w/Noodles,
 		HungerChange 		= -20,
 		Weight 				= 0.2,
 		DaysFresh			= 3,
