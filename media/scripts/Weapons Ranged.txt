@@ -850,7 +850,7 @@ recipe Shoot Target
 
 recipe Craft Rocket Launcher
      {
-	SkillRequired:Electricity=5;Mechanics=5;
+		SkillRequired:Electricity=5;Mechanics=5,
         HCSteelingot=2,
         Charcoal=2,
         Water=10,
@@ -875,7 +875,7 @@ recipe Craft Rocket Launcher
 
 recipe Craft Rocket
      {
-	SkillRequired:Mechanics=5,
+		SkillRequired:Mechanics=5,
         Charcoal=1,
         Water=5,
         Pipe,
