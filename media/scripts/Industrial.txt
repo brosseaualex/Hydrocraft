@@ -1464,6 +1464,7 @@ recipe Make Industrial Press
         HCWeldingset,
         keep WeldingMask,
         keep HCWorkgloves,
+		CanBeDoneFromFloor:true,
     	Result:HCIndustrialpress,
     	NeedToBeLearn:true,
     	Time:5000,

@@ -46,14 +46,14 @@ function recipe_NDPlantsHarvest(items, result, player)
 		for i=0, ZombRand(3) do
 			player:getInventory():AddItem("Hydrocraft.HCPersimmonseeds");
 		end
-	elseif plant:getType()=="HCPottedDate" then
+	elseif plant:getType()=="HCPottedDateready" then
 		for i=0, ZombRand(10) do
 			player:getInventory():AddItem("Hydrocraft.HCDates");
 		end
 		for i=0, ZombRand(3) do
 			player:getInventory():AddItem("Hydrocraft.HCDateseeds");
 		end
-	elseif plant:getType()=="HCPottedFig" then
+	elseif plant:getType()=="HCPottedFigready" then
 		for i=0, ZombRand(10) do
 			player:getInventory():AddItem("Hydrocraft.HCFigs");
 		end

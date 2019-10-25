@@ -552,7 +552,6 @@ item HCTomatillo
 		IsCookable			=		TRUE,
 		MinutesToCook		=		40,
 		MinutesToBurn		=		60,
-		ReplaceOnUse		=		BakingTray,
 		FoodType    		=   	Vegetables,
 		EvolvedRecipe       =       Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
 		Carbohydrates 		= 		1.7,
