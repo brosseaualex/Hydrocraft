@@ -851,7 +851,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Bronze Working Textbook,
 		Icon		=	HCBookbronzeworking,
-		TeachedRecipes  =   	Make Bronze Ingot;Make Brass Ingot;Recycle Bronze;Make Bronze Rod;Make Bronze Candle Holder;Make Oil Lamp;Make Brass Bullet Casings;,
+		TeachedRecipes  =   	Make Bronze Ingot;Make Brass Ingot;Recycle Bronze;Recycle Brass;Make Bronze Rod;Make Bronze Candle Holder;Make Oil Lamp;Make Brass Bullet Casings;,
         	ReplaceOnUse    =   	HCBookbronzeworking,
 	}
 

@@ -3,9 +3,7 @@ module Hydrocraft
     imports
     {
         Base
-
     }
-
 
 item HCBrassscrap
     {
