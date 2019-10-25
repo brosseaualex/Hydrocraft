@@ -871,7 +871,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Metalurgy Textbook,
 		Icon		=	HCBookmetalurgy,
-		TeachedRecipes  =   	Make Nickel Ingot;Make Zinc Ingot;Make Chrome Ingot;Make Tungsten Ingot;Recycle Zinc;Make Nickel Powder;Make Cobalt Powder;Make Zinc Powder;Make Chrome Powder;Make Tungsten Powder,
+		TeachedRecipes  =   	Make Metal Bar;Make Nickel Ingot;Make Zinc Ingot;Make Chrome Ingot;Make Tungsten Ingot;Recycle Zinc;Make Nickel Powder;Make Cobalt Powder;Make Zinc Powder;Make Chrome Powder;Make Tungsten Powder,
         	ReplaceOnUse    =   	HCBookmetalurgy,
 	}
 
