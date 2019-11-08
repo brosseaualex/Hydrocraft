@@ -1,0 +1,1283 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, camping
+
+    }
+
+/************************ITEMS************************/
+
+
+/************************WEAPONS************************/
+
+	item HCHalberdsteel
+	{
+		MaxRange					=	2.0,
+		WeaponSprite					=	Fireaxe,
+		MinAngle					=	0.2,
+		Type						=	Weapon,
+		MinimumSwingTime				=	4.0,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		Categories					=	Axe,
+		ConditionLowerChanceOneIn			=	20,
+		Weight						=	3.5,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		SubCategory					=	Swinging,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		DisplayName					=	Steel Halberd,
+		MinRange					=	0.61,
+		SwingTime					=	4.0,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCHalberdsteel,
+		RunAnim						=	Run_Weapon2,
+        	TwoHandWeapon 					= 	TRUE,
+       		BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	25,
+		RequiresEquippedBothHands 			= 	true
+	}
+
+	item HCHalberdiron
+	{
+		MaxRange					=	2.0,
+		WeaponSprite					=	Fireaxe,
+		MinAngle					=	0.2,
+		Type						=	Weapon,
+		MinimumSwingTime				=	4.0,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		Categories					=	Axe,
+		ConditionLowerChanceOneIn			=	15,
+		Weight						=	3.5,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		SubCategory					=	Swinging,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		DisplayName					=	Iron Halberd,
+		MinRange					=	0.61,
+		SwingTime					=	4.0,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCHalberdiron,
+		RunAnim						=	Run_Weapon2,
+        	TwoHandWeapon 					= 	TRUE,
+       		BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	25,
+		RequiresEquippedBothHands 			= 	true
+	}
+
+	item HCHalberdbronze
+	{
+		MaxRange					=	2.0,
+		WeaponSprite					=	Fireaxe,
+		MinAngle					=	0.2,
+		Type						=	Weapon,
+		MinimumSwingTime				=	4.0,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		Categories					=	Axe,
+		ConditionLowerChanceOneIn			=	10,
+		Weight						=	3.5,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		SubCategory					=	Swinging,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		DisplayName					=	Bronze Halberd,
+		MinRange					=	0.61,
+		SwingTime					=	4.0,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCHalberdbronze,
+		RunAnim						=	Run_Weapon2,
+        	TwoHandWeapon 					= 	TRUE,
+       		BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	25,
+		RequiresEquippedBothHands 			= 	true
+	}
+
+	item HCHalberdcopper
+	{
+		MaxRange					=	2.0,
+		WeaponSprite					=	Fireaxe,
+		MinAngle					=	0.2,
+		Type						=	Weapon,
+		MinimumSwingTime				=	4.0,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		Categories					=	Axe,
+		ConditionLowerChanceOneIn			=	5,
+		Weight						=	3.5,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		SubCategory					=	Swinging,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		DisplayName					=	Copper Halberd,
+		MinRange					=	0.61,
+		SwingTime					=	4.0,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCHalberdcopper,
+		RunAnim						=	Run_Weapon2,
+        	TwoHandWeapon 					= 	TRUE,
+       		BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	25,
+		RequiresEquippedBothHands 			= 	true
+	}
+
+     item HCSpearsteel
+    	{
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	Poolcue,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Blade,
+        	ConditionLowerChanceOneIn			=	20,
+        	Weight						=	0.4,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.7,
+        	SubCategory					=	Swinging,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Bat,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Steel Spear,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.5,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCSpearsteel,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+    }
+
+     item HCSpeariron
+    	{
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	Poolcue,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Blade,
+        	ConditionLowerChanceOneIn			=	15,
+        	Weight						=	0.4,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.7,
+        	SubCategory					=	Swinging,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Bat,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Iron Spear,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.5,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCSpeariron,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+    }
+
+     item HCSpearbronze
+    	{
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	Poolcue,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Blade,
+        	ConditionLowerChanceOneIn			=	10,
+        	Weight						=	0.4,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.7,
+        	SubCategory					=	Swinging,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Bat,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Bronze Spear,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.5,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCSpearbronze,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+    }
+
+     item HCSpearcopper
+    	{
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	Poolcue,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Blade,
+        	ConditionLowerChanceOneIn			=	5,
+        	Weight						=	0.4,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.7,
+        	SubCategory					=	Swinging,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Bat,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Copper Spear,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.5,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCSpearcopper,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+    }
+
+     item HCSpearobsidian
+    	{
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	Poolcue,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Blade,
+        	ConditionLowerChanceOneIn			=	4,
+        	Weight						=	0.4,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.7,
+        	SubCategory					=	Swinging,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Bat,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Obsidian Spear,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.5,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCSpearobsidian,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+    }
+
+
+     item HCSpearstone
+    	{
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	Poolcue,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Blade,
+        	ConditionLowerChanceOneIn			=	3,
+        	Weight						=	0.4,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.7,
+        	SubCategory					=	Swinging,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Bat,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Stone Spear,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.5,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCSpearstone,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+    }
+
+
+   item HCQuarterstaff
+    {
+		MaxRange					=	2,
+		WeaponSprite					=	Poolcue,
+		MinAngle					=	0.2,
+		Type						=	Weapon,
+		MinimumSwingTime				=	2,
+		KnockBackOnNoDeath				=	FALSE,
+		SwingAmountBeforeImpact				=	0.02,
+		Categories					=	Improvised;Blunt,
+		ConditionLowerChanceOneIn			=	20,
+		Weight						=	1,
+		SplatNumber					=	0,
+		PushBackMod					=	0.75,
+		MaxDamage					=	0.7,
+		SubCategory					=	Swinging,
+		ConditionMax					=	10,
+		MaxHitCount					=	3,
+		DoorDamage					=	2,
+		SwingAnim					=	Bat,
+		WeaponWeight					=	1,
+		DisplayName					=	Quarterstaff,
+		MinRange					=	0.61,
+		SwingTime					=	2,
+		MinDamage					=	0.5,
+		KnockdownMod					=	2.25,
+		SplatBloodOnNoDeath				=	FALSE,
+		Icon						=	HCQuarterstaff,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	TwoHandWeapon 					= 	TRUE,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+	}
+
+     item HCPitchfork
+    	{
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	Poolcue,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Blade,
+        	ConditionLowerChanceOneIn			=	20,
+        	Weight						=	0.5,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.9,
+        	SubCategory					=	Swinging,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Bat,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Pitchfork,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.7,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCPitchfork,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+    }
+
+     item HCTridentsteel
+    	{
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	Poolcue,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Blade,
+        	ConditionLowerChanceOneIn			=	20,
+        	Weight						=	0.5,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.9,
+        	SubCategory					=	Swinging,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Bat,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Steel Trident,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.7,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCTridentsteel,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+    }
+
+     item HCTridentiron
+    	{
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	Poolcue,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Blade,
+        	ConditionLowerChanceOneIn			=	15,
+        	Weight						=	0.5,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.9,
+        	SubCategory					=	Swinging,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Bat,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Iron Trident,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.7,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCTridentiron,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+    }
+
+     item HCTridentbronze
+    	{
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	Poolcue,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Blade,
+        	ConditionLowerChanceOneIn			=	10,
+        	Weight						=	0.5,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.9,
+        	SubCategory					=	Swinging,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Bat,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Bronze Trident,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.7,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCTridentbronze,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+    }
+
+     item HCTridentcopper
+    	{
+        	MaxRange					=	1.5,
+        	WeaponSprite					=	Poolcue,
+        	MinAngle					=	0.2,
+        	Type						=	Weapon,
+        	MinimumSwingTime				=	2,
+        	KnockBackOnNoDeath				=	FALSE,
+        	SwingAmountBeforeImpact				=	0.02,
+        	Categories					=	Blade,
+        	ConditionLowerChanceOneIn			=	10,
+        	Weight						=	0.5,
+        	SplatNumber					=	0,
+        	PushBackMod					=	0.3,
+        	MaxDamage					=	0.9,
+        	SubCategory					=	Swinging,
+        	ConditionMax					=	10,
+        	MaxHitCount					=	2,
+        	DoorDamage					=	2,
+        	SwingAnim					=	Bat,
+        	WeaponWeight					=	1,
+        	DisplayName					=	Copper Trident,
+        	MinRange					=	0.61,
+        	SwingTime					=	2,
+        	MinDamage					=	0.7,
+        	KnockdownMod					=	0,
+        	SplatBloodOnNoDeath				=	FALSE,
+        	Icon						=	HCTridentcopper,
+        	RunAnim						=	Run_Weapon2,
+        	IdleAnim					=	Idle_Weapon2,
+        	BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	0,
+        	TwoHandWeapon 					= 	TRUE,
+    }
+
+	item HCScythesteel
+	{
+		DisplayName					=	Steel Scythe,
+		Type						=	Weapon,
+		Categories					=	Axe,
+		SubCategory					=	Swinging,
+		WeaponSprite					=	Fireaxe,
+		Icon						=	HCScythesteel,
+		MaxRange					=	1.5,
+		ConditionLowerChanceOneIn			=	20,
+		Weight						=	2.0,
+		MinAngle					=	0.2,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		MinRange					=	0.61,
+		SwingTime					=	2.5,
+		MinimumSwingTime				=	2.5,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		RunAnim						=	Run_Weapon2,
+        	TwoHandWeapon 					= 	TRUE,
+       		BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	25,
+		RequiresEquippedBothHands 			= 	true
+	}
+
+	item HCScytheiron
+	{
+		DisplayName					=	Iron Scythe,
+		Type						=	Weapon,
+		Categories					=	Axe,
+		SubCategory					=	Swinging,
+		WeaponSprite					=	Fireaxe,
+		Icon						=	HCScytheiron,
+		MaxRange					=	1.5,
+		ConditionLowerChanceOneIn			=	15,
+		Weight						=	2.0,
+		MinAngle					=	0.2,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		MinRange					=	0.61,
+		SwingTime					=	2.5,
+		MinimumSwingTime				=	2.5,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		RunAnim						=	Run_Weapon2,
+        	TwoHandWeapon 					= 	TRUE,
+       		BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	25,
+		RequiresEquippedBothHands 			= 	true
+	}
+
+	item HCScythebronze
+	{
+		DisplayName					=	Bronze Scythe,
+		Type						=	Weapon,
+		Categories					=	Axe,
+		SubCategory					=	Swinging,
+		WeaponSprite					=	Fireaxe,
+		Icon						=	HCScythebronze,
+		MaxRange					=	1.5,
+		ConditionLowerChanceOneIn			=	10,
+		Weight						=	2.0,
+		MinAngle					=	0.2,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		MinRange					=	0.61,
+		SwingTime					=	2.5,
+		MinimumSwingTime				=	2.5,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		RunAnim						=	Run_Weapon2,
+        	TwoHandWeapon 					= 	TRUE,
+       		BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	25,
+		RequiresEquippedBothHands 			= 	true
+	}
+
+	item HCScythecopper
+	{
+		DisplayName					=	Copper Scythe,
+		Type						=	Weapon,
+		Categories					=	Axe,
+		SubCategory					=	Swinging,
+		WeaponSprite					=	Fireaxe,
+		Icon						=	HCScythecopper,
+		MaxRange					=	1.5,
+		ConditionLowerChanceOneIn			=	5,
+		Weight						=	2.0,
+		MinAngle					=	0.2,
+		KnockBackOnNoDeath				=	TRUE,
+		SwingAmountBeforeImpact				=	0.002,
+		SplatNumber					=	1,
+		PushBackMod					=	0.3,
+		MinDamage					=	1,
+		MaxDamage					=	2.5,
+		ConditionMax					=	15,
+		MaxHitCount					=	2,
+		DoorDamage					=	25,
+		IdleAnim					=	Idle_Weapon2,
+		SwingAnim					=	Bat,
+		CriticalChance					=	20,
+		WeaponWeight					=	3.5,
+		MinRange					=	0.61,
+		SwingTime					=	2.5,
+		MinimumSwingTime				=	2.5,
+		HitAngleMod					=	-30,
+		SplatSize					=	5,
+		KnockdownMod					=	2,
+		SplatBloodOnNoDeath				=	TRUE,
+		RunAnim						=	Run_Weapon2,
+        	TwoHandWeapon 					= 	TRUE,
+       		BreakSound  					=   	BreakWoodItem,
+        	TreeDamage  					=   	25,
+		RequiresEquippedBothHands 			= 	true
+	}
+
+/************************RECIPES************************/	
+
+recipe Make Steel Halberd
+	{
+		SkillRequired:BladeMaintenance=6,
+	   	HCSteelingot=3,
+    		WoodenStick,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCHalberdsteel,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Halberd
+	{
+		SkillRequired:BladeMaintenance=6,
+	   	HCIroningot=3,
+    		WoodenStick,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCHalberdiron,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Halberd
+	{
+		SkillRequired:BladeMaintenance=6,
+	   	HCBronzeingot=3,
+    		WoodenStick,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCHalberdbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Halberd
+	{
+		SkillRequired:BladeMaintenance=6,
+	   	HCBronzeingot=3,
+    		WoodenStick,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCHalberdbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Halberd
+	{
+		SkillRequired:BladeMaintenance=6,
+	   	HCCopperingot=3,
+    		WoodenStick,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCHalberdcopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Halberd
+	{
+		SkillRequired:BladeMaintenance=6,
+	   	HCCopperingot=3,
+    		WoodenStick,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCHalberdcopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Steel Spear
+	{
+		SkillRequired:BladeMaintenance=2,
+	   	HCSteelingot,
+    		WoodenStick/TreeBranch,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCSpearsteel,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Spear
+	{
+		SkillRequired:BladeMaintenance=2,
+	   	HCIroningot,
+    		WoodenStick/TreeBranch,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCSpeariron,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Spear
+	{
+		SkillRequired:BladeMaintenance=2,
+	   	HCBronzeingot,
+    		WoodenStick/TreeBranch,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCSpearbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Spear
+	{
+		SkillRequired:BladeMaintenance=2,
+	   	HCBronzeingot,
+    		WoodenStick/TreeBranch,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCSpearbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Spear
+	{
+		SkillRequired:BladeMaintenance=2,
+	   	HCCopperingot,
+    		WoodenStick/TreeBranch,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCSpearcopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Spear
+	{
+		SkillRequired:BladeMaintenance=2,
+	   	HCCopperingot,
+    		WoodenStick/TreeBranch,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCSpearcopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Obsdian Spear
+	{
+		SkillRequired:BladeMaintenance=2,
+	   	HCObsidian,
+    		WoodenStick/TreeBranch,
+    		Twine,
+    		keep Stone/HCChisel,
+	   	Result:HCSpearobsidian,
+	   	Time:100.0,
+    		Category:Survivalist,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Stone Spear
+	{
+		SkillRequired:BladeMaintenance=2,
+    		SharpedStone,
+    		WoodenStick/TreeBranch,
+    		Twine,
+    		keep Stone/HCChisel,
+	   	Result:HCSpearstone,
+	   	Time:50.0,
+    		Category:Survivalist,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Quarterstaff
+	{
+    		TreeBranch,
+	   	Result:HCQuarterstaff,
+	   	Time:25.0,
+    		Category:Survivalist,
+    		OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Make Steel Trident
+	{
+		SkillRequired:BladeMaintenance=4,
+	   	HCSteelingot=2,
+    		WoodenStick/TreeBranch,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCTridentsteel,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Trident
+	{
+		SkillRequired:BladeMaintenance=4,
+	   	HCIroningot=2,
+    		WoodenStick/TreeBranch,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCTridentiron,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Trident
+	{
+		SkillRequired:BladeMaintenance=4,
+	   	HCBronzeingot=2,
+    		WoodenStick/TreeBranch,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCTridentbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Trident
+	{
+		SkillRequired:BladeMaintenance=4,
+	   	HCBronzeingot=2,
+    		WoodenStick/TreeBranch,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCTridentbronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Trident
+	{
+		SkillRequired:BladeMaintenance=4,
+	   	HCCopperingot=2,
+    		WoodenStick/TreeBranch,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCTridentcopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Trident
+	{
+		SkillRequired:BladeMaintenance=4,
+	   	HCCopperingot=2,
+    		WoodenStick/TreeBranch,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCTridentcopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Steel Scythe
+	{
+		SkillRequired:BladeMaintenance=5,
+	   	HCSteelingot=2,
+    		WoodenStick,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCScythesteel,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Scythe
+	{
+		SkillRequired:BladeMaintenance=5,
+	   	HCIroningot=2,
+    		WoodenStick,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCScytheiron,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Scythe
+	{
+		SkillRequired:BladeMaintenance=5,
+	   	HCBronzeingot=2,
+    		WoodenStick,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCScythebronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Bronze Scythe
+	{
+		SkillRequired:BladeMaintenance=5,
+	   	HCBronzeingot=2,
+    		WoodenStick,
+    		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCScythebronze,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Scythe
+	{
+		SkillRequired:BladeMaintenance=5,
+	   	HCCopperingot=2,
+    		WoodenStick,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCScythecopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Copper Scythe
+	{
+		SkillRequired:BladeMaintenance=5,
+	   	HCCopperingot=2,
+    		WoodenStick,
+    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		HCTongswood,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCScythecopper,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+/************************FIXING************************/
+
+	fixing Fix Steel Halberd
+    {
+		Require : HCHalberdsteel,
+
+		Fixer : HCSteelingot,
+    }
+
+	fixing Fix Iron Halberd
+    {
+		Require : HCHalberdiron,
+
+		Fixer : HCIroningot,
+    }
+
+	fixing Fix Bronze Halberd
+    {
+		Require : HCHalberdbronze,
+
+		Fixer : HCBronzeingot,
+    }
+
+	fixing Fix Copper Halberd
+    {
+		Require : HCHalberdcopper,
+
+		Fixer : HCCopperingot,
+    }
+
+	fixing Fix Steel Spear
+    {
+		Require : HCSpearsteel,
+
+		Fixer : HCSteelingot,
+    }
+
+	fixing Fix Iron Spear
+    {
+		Require : HCSpeariron,
+
+		Fixer : HCIroningot,
+    }
+
+	fixing Fix Bronze Spear
+    {
+		Require : HCSpearbronze,
+
+		Fixer : HCBronzeingot,
+    }
+
+	fixing Fix Copper Spear
+    {
+		Require : HCSpearcopper,
+
+		Fixer : HCCopperingot,
+    }
+
+	fixing Fix Steel Trident
+    {
+		Require : HCTridentsteel,
+
+		Fixer : HCSteelingot,
+    }
+
+	fixing Fix Iron Trident
+    {
+		Require : HCTridentiron,
+
+		Fixer : HCIroningot,
+    }
+
+	fixing Fix Bronze Trident
+    {
+		Require : HCTridentbronze,
+
+		Fixer : HCBronzeingot,
+    }
+
+	fixing Fix Copper Trident
+    {
+		Require : HCTridentcopper,
+
+		Fixer : HCCopperingot,
+    }
+
+	fixing Fix Steel Scythe
+    {
+		Require : HCScythesteel,
+
+		Fixer : HCSteelingot,
+    }
+
+	fixing Fix Iron Scythe
+    {
+		Require : HCScytheiron,
+
+		Fixer : HCIroningot,
+    }
+
+	fixing Fix Bronze Scythe
+    {
+		Require : HCScythebronze,
+
+		Fixer : HCBronzeingot,
+    }
+
+	fixing Fix Copper Scythe
+    {
+		Require : HCScythecopper,
+
+		Fixer : HCCopperingot,
+    }
+
+}
