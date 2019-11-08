@@ -1567,7 +1567,7 @@ recipe Make 9mm Bullets
     GunPowder=10,
     HCBulletcasings=10,
     HCBullettips=10,
-    Result:BulletsBox,
+    Result:Base.BulletsBox,
     Time:100,
     Category:Engineer,
     OnGiveXP:HCHunger_OnGiveXP,

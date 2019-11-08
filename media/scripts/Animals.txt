@@ -3,7 +3,6 @@ module Hydrocraft
     imports
     {
         Base
-
     }
 
 /************************ITEMS************************/
@@ -1375,7 +1374,7 @@ recipe Kill Horse
 recipe Feed Hamster
     {
     	HCHamstermale/HCHamstermalehungry,
-	HCRodentfood/HCRodentfood2/Carrots/Cabbage/Corn/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	HCRodentfood/HCRodentfood2/Carrots/Base.Cabbage/Corn/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCHamstermale,
@@ -1388,7 +1387,7 @@ recipe Feed Hamster
 recipe Feed Hamster
     {
     	HCHamsterfemale/HCHamsterfemalehungry,
-	HCRodentfood/HCRodentfood2/Carrots/Cabbage/Corn/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	HCRodentfood/HCRodentfood2/Carrots/Base.Cabbage/Corn/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCHamsterfemale,
@@ -1401,7 +1400,7 @@ recipe Feed Hamster
 recipe Feed Rabbit
     {
     	HCRabbitmale/HCRabbitmalehungry,
-	Carrots/Cabbage/Potato/Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Carrots/Base.Cabbage/Base.Potato/Base.Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCRabbitmale,
@@ -1414,7 +1413,7 @@ recipe Feed Rabbit
 recipe Feed Rabbit
     {
     	HCRabbitfemale/HCRabbitfemalehungry,
-	Carrots/Cabbage/Potato/Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Carrots/Base.Cabbage/Base.Potato/Base.Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCRabbitfemale,
@@ -1428,8 +1427,8 @@ recipe Fill Rabbit Hutch Food
     {
     	HCRabbithutchhungry/HCRabbithutchfull,
 		Corn/HCCornred/HCCornblue/HCCornwhite,
-		Cabbage/HCCabbagered/HCCabbagewhite/HCChinesecabbage,
-		Potato/Tomato/BellPepper/Lettuce/Carrots/Banana/Peach,
+		Base.Cabbage/HCCabbagered/HCCabbagewhite/HCChinesecabbage,
+		Base.Potato/Base.Tomato/BellPepper/Lettuce/Carrots/Banana/Peach,
 		HCGrass/HCStraw,
 		Water=10,
     	CanBeDoneFromFloor:true,
@@ -1488,7 +1487,7 @@ recipe Fill Chicken Coop Food
 recipe Feed Pig
     {
     	HCPigmale/HCPigmalehungry,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCPigmale,
@@ -1502,7 +1501,7 @@ recipe Feed Pig
 recipe Feed Pig
     {
     	HCPigfemale/HCPigfemalehungry,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCPigfemale,
@@ -1516,7 +1515,7 @@ recipe Feed Pig
 recipe Feed Sheep
     {
     	HCSheepmale/HCSheepmalehungry,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCSheepmale,
@@ -1530,7 +1529,7 @@ recipe Feed Sheep
 recipe Feed Sheep
     {
     	HCSheepfemale/HCSheepfemalehungry,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCSheepfemale,
@@ -1544,7 +1543,7 @@ recipe Feed Sheep
 recipe Feed Goat
     {
     	HCGoatmale/HCGoatmalehungry,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCGoatmale,
@@ -1558,7 +1557,7 @@ recipe Feed Goat
 recipe Feed Goat
     {
     	HCGoatfemale/HCGoatfemalehungry,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCGoatfemale,
@@ -1572,7 +1571,7 @@ recipe Feed Goat
 recipe Feed Cow
     {
     	HCCowmale/HCCowmalehungry,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCCowmale,
@@ -1586,7 +1585,7 @@ recipe Feed Cow
 recipe Feed Cow
     {
     	HCCowfemale/HCCowfemalehungry,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCCowfemale,
@@ -1600,7 +1599,7 @@ recipe Feed Cow
 recipe Feed Donkey
     {
     	HCDonkeymale/HCDonkeymalehungry,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCDonkeymale,
@@ -1614,7 +1613,7 @@ recipe Feed Donkey
 recipe Feed Donkey
     {
     	HCDonkeyfemale/HCDonkeyfemalehungry,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCDonkeyfemale,
@@ -1628,7 +1627,7 @@ recipe Feed Donkey
 recipe Feed Horse
     {
     	HCHorsemale/HCHorsemalehungry,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCHorsemale,
@@ -1642,7 +1641,7 @@ recipe Feed Horse
 recipe Feed Horse
     {
     	HCHorsefemale/HCHorsefemalehungry,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCHorsefemale,
@@ -1668,7 +1667,7 @@ recipe Put Rabbits in Hutch
 recipe Breed Rabbits
     {
 	HCRabbithutchfull,
-	Carrots/Cabbage/Potato/Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Carrots/Base.Cabbage/Base.Potato/Base.Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	Result:HCRabbithutchtired,
     	CanBeDoneFromFloor:true,
@@ -1696,7 +1695,7 @@ recipe Breed Pigs
     {
     	HCPigmale,
     	HCPigfemale,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCPigfemaletired,
@@ -1712,7 +1711,7 @@ recipe Breed Sheep
     {
     	HCSheepmale,
 	HCSheepfemale,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCSheepfemaletired,
@@ -1728,7 +1727,7 @@ recipe Breed Goats
     {
     	HCGoatmale,
 	HCGoatfemale,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCGoatfemaletired,
@@ -1744,7 +1743,7 @@ recipe Breed Cows
     {
     	HCCowfemale,
 	HCCowmale,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCCowfemaletired,
@@ -1760,7 +1759,7 @@ recipe Breed Donkeys
     {
     	HCDonkeymale,
 	HCDonkeyfemale,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCDonkeyfemaletired,
@@ -1776,7 +1775,7 @@ recipe Breed Horses
     {
     	HCHorsemale,
 	HCHorsefemale,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCHorsefemaletired,
@@ -1792,7 +1791,7 @@ recipe Milk Cow
     {
     	HCCowfemaletired,
     	HCWoodenbucket,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCWoodenbucketmilk,
@@ -1807,7 +1806,7 @@ recipe Milk Goat
     {
     	HCGoatfemaletired,
     	HCWoodenbucket,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCWoodenbucketmilk,
@@ -1822,7 +1821,7 @@ recipe Shear Sheep
     {
     	HCSheepmale,
     	keep HCShears,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	Result:HCWool,
     	Time:15.0,
@@ -1836,7 +1835,7 @@ recipe Shear Sheep
     {
     	HCSheepfemale,
     	keep HCShears,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	Result:HCWool,
     	Time:15.0,
@@ -1850,7 +1849,7 @@ recipe Sheer Goat
     {
     	HCGoatmale,
     	keep HCShears,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCWool,
@@ -1865,7 +1864,7 @@ recipe Sheer Goat
     {
     	HCGoatfemale,
     	keep HCShears,
-	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Apple/Carrots/Base.Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
 	Water,
     	CanBeDoneFromFloor:true,
     	Result:HCWool,
