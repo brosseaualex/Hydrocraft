@@ -848,7 +848,7 @@ recipe Dismantle Bicycle
 recipe Dismantle Auto Parts
    {
 	EngineParts,
-	keep Spanner,
+	keep Base.Spanner,
         keep Screwdriver,
 	keep HCPliers,
         Result:ScrapMetal,
@@ -862,7 +862,7 @@ recipe Dismantle Auto Parts
 recipe Dismantle Auto Parts
    {
 	OldBrake1/OldBrake2/OldBrake3/NormalBrake1/NormalBrake2/NormalBrake3/ModernBrake1/ModernBrake2/ModernBrake3,
-	keep Spanner,
+	keep Base.Spanner,
         keep Screwdriver,
 	keep HCPliers,
         Result:HCDrumbreak,

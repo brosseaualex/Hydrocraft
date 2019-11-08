@@ -856,7 +856,7 @@ recipe Bury Trash
     {
     	destroy Garbagebag,
 	HCWorkgloves,
-    	keep HandShovel,
+    	keep Base.HandShovel,
     	Result:HCWorkgloves,
     	Time:2000,
     	OnGiveXP:HCHunger_OnGiveXP,
@@ -968,7 +968,7 @@ recipe Unpack Stack of Cardboard Boxes
 	{
 			HCPillowcase,
 			SheetRope=4,
-			keep Screwdriver/Pencil/Pen/KitchenKnife/HuntingKnife/TentPeg/HCKnifestone,
+			keep Screwdriver/Pencil/Pen/KitchenKnife/HuntingKnife/Base.TentPeg/HCKnifestone,
 		
 			Result:HCPillowcasebackpack,
 			Time:125.0,
@@ -1036,7 +1036,7 @@ recipe Unpack Stack of Cardboard Boxes
 	recipe Add Duct Tape Pouches to Schoolbag
 	{
 		HCDucttapepouch=2,
-		destroy Schoolbag,
+		destroy Base.Schoolbag,
 			
 		Result:HCSchoolbagpouch,
 		Time:100.0,
@@ -1072,7 +1072,7 @@ recipe Unpack Stack of Cardboard Boxes
 	recipe Add Duct Tape Pouches to Duffelbag
 	{
 		HCDucttapepouch=2,
-		destroy Duffelbag,
+		destroy Base.Duffelbag,
 			
 		Result:HCDuffelbagpouch,
 		Time:100.0,

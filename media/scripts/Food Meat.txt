@@ -1343,8 +1343,8 @@ recipe Prepare Turduckhen
 recipe Make Christmas Ham 
 	{
 	    	Ham,
-            	Tomato=3,
-            	Potato=4,
+            	Base.Tomato=3,
+            	Base.Potato=4,
             	RoastingPan,             
 	    	Result:HCChristmashamcasserole,
             	NeedToBeLearn:true,

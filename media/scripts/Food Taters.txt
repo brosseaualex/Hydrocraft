@@ -229,7 +229,7 @@ module Hydrocraft
 	recipe Bake Potato
 	{
 		keep BakingTray,
-		Potato/HCPotatogolden/HCPotatored,
+		Base.Potato/HCPotatogolden/HCPotatored,
 		Butter;5,
 		Result:HCBakedpotato,
 		Time:55.0,
@@ -240,7 +240,7 @@ module Hydrocraft
 	recipe Bake Potato
 	{
 		keep BakingTray,
-		Potato/HCPotatogolden/HCPotatored,
+		Base.Potato/HCPotatogolden/HCPotatored,
 		HCCookingoil,
 		Result:HCBakedpotato,
 		Time:55.0,
@@ -254,7 +254,7 @@ module Hydrocraft
 		keep Pan,
 		keep HCCheesegrater,
 		keep HCPotatopeeler,
-		Potato/HCPotatogolden/HCPotatored,
+		Base.Potato/HCPotatogolden/HCPotatored,
 		Result:HCHashbrowns,
 		Time:50.0,
 		Category:Cooking,
@@ -381,7 +381,7 @@ module Hydrocraft
 		keep Pot,
 		keep KitchenKnife,
 		keep HCPotatopeeler,
-		Potato/HCPotatogolden/HCPotatored,
+		Base.Potato/HCPotatogolden/HCPotatored,
 		HCCookingoil=2,
 		Result:HCFries,
 		Time:85.0,

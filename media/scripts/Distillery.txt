@@ -461,7 +461,7 @@ recipe Prepare Pot of Potato Mash
        		SkillRequired:Cooking=3,
 		keep HCPotatomasher,
 		destroy Pot,
-		Potato=10,
+		Base.Potato=10,
                 Water=5,
                 Yeast=1,
 		Result:HCPotofpotatomash,

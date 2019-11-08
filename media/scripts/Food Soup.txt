@@ -409,7 +409,7 @@ recipe Make Pot of Noodle Soup
 	{
 		destroy WaterPot,
 		HCSoupbouillon,
-		Carrots/Broccoli/Cabbage/HCBunchofshrooms/HCChinesecabbage/HCCabbagered/HCCabbagewhite/HCPeapod,
+		Carrots/Broccoli/Base.Cabbage/HCBunchofshrooms/HCChinesecabbage/HCCabbagered/HCCabbagewhite/HCPeapod,
 		Pasta,
 		Result:HCNoodlesoup,
 		Time:75.0,

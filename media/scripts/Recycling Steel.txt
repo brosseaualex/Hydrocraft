@@ -1227,7 +1227,7 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    Spanner=2,
+    Base.Spanner=2,
     Charcoal,
 
 

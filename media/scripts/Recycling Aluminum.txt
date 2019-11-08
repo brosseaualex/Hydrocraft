@@ -25,7 +25,7 @@ item HCAluminumscrap
 recipe Recycle Aluminum
     {
     SkillRequired:MetalWelding=6,
-    TentPeg=5,
+    Base.TentPeg=5,
     Charcoal,
 
 

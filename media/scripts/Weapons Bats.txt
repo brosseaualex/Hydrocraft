@@ -1740,7 +1740,7 @@ module Hydrocraft
 	recipe Craft Crude Bat with Tent Pegs
 	{
 	   HCHomemadebatcrude,
-	   TentPeg=10,
+	   Base.TentPeg=10,
 	   keep Hammer,
 
 	   Result:HCHomemadebatcrudetentpegs,
@@ -1840,7 +1840,7 @@ module Hydrocraft
 	recipe Craft Homemade Bat with Tent Pegs
 	{
 	   HCHomemadebat,
-	   TentPeg=10,
+	   Base.TentPeg=10,
 	   keep Hammer,
 
 	   Result:HCHomemadebattentpegs,
@@ -1929,7 +1929,7 @@ module Hydrocraft
 	recipe Craft Baseballbat with Tent Pegs
 	{
 	   BaseballBat,
-	   TentPeg=10,
+	   Base.TentPeg=10,
 	   keep Hammer,
 
 	   Result:HCBaseballbattentpegs,
@@ -2042,7 +2042,7 @@ module Hydrocraft
 	recipe Craft Crude Club with Tent Pegs
 	{
 	   HCHomemadeclubcrude,
-	   TentPeg=10,
+	   Base.TentPeg=10,
 	   keep Hammer,
 
 	   Result:HCHomemadeclubcrudetentpegs,
@@ -2140,7 +2140,7 @@ module Hydrocraft
 	recipe Craft Homemade Club with Tent Pegs
 	{
 	   HCHomemadeclub,
-	   TentPeg=10,
+	   Base.TentPeg=10,
 	   keep Hammer,
 
 	   Result:HCHomemadeclubtentpegs,
@@ -2237,7 +2237,7 @@ module Hydrocraft
 	recipe Craft Club with Tent Pegs
 	{
 	   HCMasterclub,
-	   TentPeg=10,
+	   Base.TentPeg=10,
 	   keep Hammer,
 
 	   Result:HCMasterclubtentpegs,
@@ -2395,7 +2395,7 @@ module Hydrocraft
 		Fixer : DuctTape=2,
 		Fixer : Glue=2,
 		Fixer : Scotchtape=4,
-		Fixer : TentPeg,
+		Fixer : Base.TentPeg,
 		Fixer : HCWoodgluejar=2; Woodwork=2,
 		Fixer : HCGluejar=2,
 		Fixer : HCMaskingtape=2,
@@ -2546,7 +2546,7 @@ module Hydrocraft
 		Fixer : DuctTape=2,
 		Fixer : Glue=2,
 		Fixer : Scotchtape=4,
-		Fixer : TentPeg,
+		Fixer : Base.TentPeg,
 		Fixer : HCWoodgluejar=2; Woodwork=2,
 		Fixer : HCGluejar=2,
 		Fixer : HCMaskingtape=2,
@@ -2830,7 +2830,7 @@ module Hydrocraft
 		Fixer : DuctTape=1,
 		Fixer : Glue=2,
 		Fixer : Scotchtape=3,
-		Fixer : TentPeg,
+		Fixer : Base.TentPeg,
 		Fixer : HCWoodgluejar=2; Woodwork=2,
 		Fixer : HCGluejar=2,
 		Fixer : HCMaskingtape=2,
@@ -2981,7 +2981,7 @@ module Hydrocraft
 		Fixer : DuctTape=1,
 		Fixer : Glue=2,
 		Fixer : Scotchtape=3,
-		Fixer : TentPeg,
+		Fixer : Base.TentPeg,
 		Fixer : HCWoodgluejar=2; Woodwork=2,
 		Fixer : HCGluejar=2,
 		Fixer : HCMaskingtape=2,
@@ -3132,7 +3132,7 @@ module Hydrocraft
 		Fixer : DuctTape=1,
 		Fixer : Glue=2,
 		Fixer : Scotchtape=3,
-		Fixer : TentPeg,
+		Fixer : Base.TentPeg,
 		Fixer : HCWoodgluejar=2; Woodwork=2,
 		Fixer : HCGluejar=2,
 		Fixer : HCMaskingtape=2,

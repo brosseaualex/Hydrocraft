@@ -415,7 +415,7 @@ recipe Make Charcoal
 
 recipe Make Charcoal
     {
-    	Socks=48,
+    	Base.Socks=48,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     	keep HCKiln/HCKiln2,
    	 CanBeDoneFromFloor:true,
@@ -428,7 +428,7 @@ recipe Make Charcoal
 
 recipe Make Charcoal
     {
-    	Socks2=48,
+    	Base.Socks2=48,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     	keep HCKiln/HCKiln2,
     	CanBeDoneFromFloor:true,

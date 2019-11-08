@@ -81,7 +81,7 @@ recipe Recycle Rubber
 
 recipe Recycle Rubber
     {
-    Rainboots,
+    Base.Rainboots,
     Charcoal,
 
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,

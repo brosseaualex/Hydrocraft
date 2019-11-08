@@ -873,7 +873,7 @@ recipe Make Improvised Hazmat Suit
     {
 	HCRaincoat,
         Tarp,
-        Rainboots,
+        Base.Rainboots,
 	Thread,                
         HCImprovisedgasmask/HCGasmask,
         HCImprovisedgoggles/HCGoogles,

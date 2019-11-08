@@ -913,7 +913,7 @@ recipe Cut Wrench
     {
     HCWrench,
     keep HCSawmetal,
-    Result:Spanner,
+    Result:Base.Spanner,
     Time:250,
     Category:Welding,
     OnGiveXP:HCWelding_OnGiveXP,

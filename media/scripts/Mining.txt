@@ -620,9 +620,9 @@ recipe Dig Mine
     {
     	HCAuger,
     	HCRopethick,
-    	TentPeg/HCStake/HCStakehard,
-    	TentPeg/HCStake/HCStakehard,
-    	TentPeg/HCStake/HCStakehard,
+    	Base.TentPeg/HCStake/HCStakehard,
+    	Base.TentPeg/HCStake/HCStakehard,
+    	Base.TentPeg/HCStake/HCStakehard,
     	HCWoodenladder,
     	CanBeDoneFromFloor:true,
     	Result:HCMinehole,
@@ -671,7 +671,7 @@ recipe Anchor Mine
 recipe Mine
     {
     	keep HCMinehole/HCMineholeB,
-    	keep HandShovel,
+    	keep Base.HandShovel,
     	CanBeDoneFromFloor:true,
     	Result:HCDirt,
     	NeedToBeLearn:true,
@@ -684,7 +684,7 @@ recipe Mine
 recipe Mine
     {
     	keep HCMinehole2/HCMinehole2B,
-    	keep HandShovel,
+    	keep Base.HandShovel,
     	CanBeDoneFromFloor:true,
     	Result:HCDirt,
     	NeedToBeLearn:true,

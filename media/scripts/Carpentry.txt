@@ -2072,7 +2072,7 @@ recipe Attatch Scarecrow
     {
 	HCStraw=10,
 	HCStrawhat,
-	Shirt,
+	Base.Shirt,
 	Trousers,
 	Rope=3,
 	HCScarecrowstand,
@@ -2087,7 +2087,7 @@ recipe Attatch Scarecrow
     {
 	HCStraw=10,
 	HCStrawhat,
-	Shirt,
+	Base.Shirt,
 	Trousers,
 	Rope=3,
 	HCScarecrowstand,
@@ -2101,7 +2101,7 @@ recipe Attatch Scarecrow
 recipe Attatch Corpse Scarecrow
     {
 	CorpseMale/CorpseFemale,
-	Shirt,
+	Base.Shirt,
 	Trousers,
 	Rope=3,
 	HCScarecrowstand,
@@ -2115,7 +2115,7 @@ recipe Attatch Corpse Scarecrow
 recipe Attatch Corpse Scarecrow
     {
 	CorpseMale/CorpseFemale,
-	Shirt,
+	Base.Shirt,
 	Trousers,
 	Rope=3,
 	HCScarecrowstand,
@@ -2266,7 +2266,7 @@ recipe Make Yoke
     {
 	HCWoodbeam,
 	HCWoodenring=2,
-	TentPeg,
+	Base.TentPeg,
 	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
     	keep Hammer,
 	keep Saw,
