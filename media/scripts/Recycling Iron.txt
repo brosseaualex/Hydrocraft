@@ -251,7 +251,7 @@ recipe Recycle Iron
 recipe Recycle Iron
     {
     SkillRequired:MetalWelding=4,
-    GardeningSprayEmpty,
+    Base.GardeningSprayEmpty,
     Charcoal,
 
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
@@ -271,7 +271,7 @@ recipe Recycle Iron
 recipe Recycle Iron
     {
     SkillRequired:MetalWelding=4,
-    WateredCan,
+    Base.WateredCan,
     Charcoal,
 
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,

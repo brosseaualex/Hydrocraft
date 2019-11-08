@@ -439,7 +439,7 @@ recipe Buy School Bag
     	HC20dollarbill,
 	keep HCTradingpost,
     	CanBeDoneFromFloor:true,
-    	Result:Schoolbag,
+    	Result:Base.Schoolbag,
     	Time:15,
     	Category:Trade,
     }

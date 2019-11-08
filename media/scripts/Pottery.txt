@@ -803,7 +803,7 @@ recipe Make Clay Teapot
 
 recipe Make Clay Cauldron
     {
-	CampfireKit,
+	Base.CampfireKit,
 	Stone=4,
     	HCGreyclay=10,
     	Charcoal,
@@ -820,7 +820,7 @@ recipe Make Clay Cauldron
 
 recipe Make Clay Cauldron
     {
-	CampfireKit,
+	Base.CampfireKit,
     	Stone=4,
     	HCRedclay=10,
     	Charcoal,

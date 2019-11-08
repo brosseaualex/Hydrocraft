@@ -287,7 +287,7 @@ recipe Hang Clothes
     {
     	HCClothespin=6,
     	Underwear1/Underwear2/HCBriefs/HCBriefs2/HCBriefs3/HCBriefs4/HCBriefs5/HCBriefs6/HCBriefs7/HCPanties/HCPanties2/HCPanties3/HCPanties4/HCPanties5,
-    	Vest,
+    	Base.Vest,
     	Trousers,
     	HCClothesline,
     	CanBeDoneFromFloor:true,
@@ -301,9 +301,9 @@ recipe Hang Clothes
     {
     	HCClothespin=12,
     	Underwear1/Underwear2/HCBriefs/HCBriefs2/HCBriefs3/HCBriefs4/HCBriefs5/HCBriefs6/HCBriefs7/HCPanties/HCPanties2/HCPanties3/HCPanties4/HCPanties5,
-    	Vest,
+    	Base.Vest,
     	Trousers,
-    	Socks/Socks2,
+    	Base.Socks/Base.Socks2,
     	destroy BathTowel/BathTowelWet,
     	Sheet,
     	HCClothesline2,

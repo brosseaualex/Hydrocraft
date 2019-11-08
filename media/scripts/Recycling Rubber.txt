@@ -62,7 +62,7 @@ recipe Recycle Rubber
 
 recipe Recycle Rubber
     {
-    Shoes=3,
+    Base.Shoes=3,
     Charcoal,
 
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,

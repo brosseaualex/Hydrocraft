@@ -275,7 +275,7 @@ module Hydrocraft
 
 	recipe Make Plain Mashed Potatos
 	{
-		Potato=2,
+		Base.Potato=2,
 		keep HCPotatopeeler,
 		Pot,
 		Water=2,
@@ -316,7 +316,7 @@ module Hydrocraft
 	recipe Make Creamy Mashed Potatos
 	{
 		SkillRequired:Cooking=1,
-		Potato=2,
+		Base.Potato=2,
 		keep HCPotatopeeler,
 		Pot,
 		Butter/HCCookingoil,
@@ -394,7 +394,7 @@ module Hydrocraft
 		SkillRequired:Cooking=2,
 		keep HCPotatomasher,
 		destroy BakingTray,
-		Potato=2,
+		Base.Potato=2,
 		keep HCPotatopeeler,
 		Result:HCPotatomush,
 		Time:75.0,

@@ -582,7 +582,7 @@ recipe Unpack Dirt
 
 recipe Dig with Shoes
     {
-    	keep Shoes,
+    	keep Base.Shoes,
     	Result:HCDirt,
     	Time:1000,
     	Category:Survivalist,

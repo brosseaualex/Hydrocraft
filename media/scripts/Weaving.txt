@@ -1060,7 +1060,7 @@ recipe Make Cord Boots
 
 recipe Recycle Bag
     {
-    Schoolbag,
+    Base.Schoolbag,
     keep Scissors,
     Result:HCNyloncloth=2,
     NeedToBeLearn:true,
@@ -1072,7 +1072,7 @@ recipe Recycle Bag
 
 recipe Recycle Bag
     {
-    Duffelbag,
+    Base.Duffelbag,
     keep Scissors,
     Result:HCNyloncloth=3,
     NeedToBeLearn:true,

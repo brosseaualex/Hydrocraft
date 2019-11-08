@@ -885,7 +885,7 @@ recipe Harvest Spirulina
     recipe Plant Crop
     {
         SkillRequired:Farming=7,
-        Strewberrie/StrewberrieSeed,
+        Base.Strewberrie/Base.StrewberrieSeed,
         HCPlanter,
         keep Base.HandShovel,
         Result:HCPottedstrawberrybushsmall,
@@ -918,7 +918,7 @@ recipe Harvest Spirulina
     recipe Plant Crop
     {
         SkillRequired:Farming=7,
-        BroccoliSeed,
+        Base.BroccoliSeed,
         HCPlanter,
         keep Base.HandShovel,
         Result:HCPottedbroccolismall,
@@ -929,7 +929,7 @@ recipe Harvest Spirulina
     recipe Plant Crop
     {
         SkillRequired:Farming=7,
-        CabbageSeed,
+        Base.CabbageSeed,
         HCPlanter,
         keep Base.HandShovel,
         Result:HCPottedcabbagesmall,
@@ -940,7 +940,7 @@ recipe Harvest Spirulina
     recipe Plant Crop
     {
         SkillRequired:Farming=7,
-        Carrots/CarrotSeed,
+        Carrots/Base.Base.CarrotSeed,
         HCPlanter,
         keep Base.HandShovel,
         Result:HCPottedcarrotssmall,
@@ -1018,7 +1018,7 @@ recipe Harvest Spirulina
     recipe Plant Crop
     {
         SkillRequired:Farming=7,
-        Base.Potato/PotatoSeed,
+        Base.Potato/Base.PotatoSeed,
         HCPlanter,
         keep Base.HandShovel,
         Result:HCPottedpotatosmall,
@@ -1051,7 +1051,7 @@ recipe Harvest Spirulina
     recipe Plant Crop
     {
         SkillRequired:Farming=7,
-        Tomato/TomatoSeed,
+        Base.Tomato/Base.TomatoSeed,
         HCPlanter,
         keep Base.HandShovel,
         Result:HCPottedtomatosmall,

@@ -1817,7 +1817,7 @@ recipe Make Metal Ring
 recipe Make Iron Cauldron
 	{
 		WoodenStick,
-		CampfireKit,
+		Base.CampfireKit,
 	   	HCIroningot=10,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
