@@ -693,7 +693,7 @@ recipe Jar Homemade Yogurt
     {
 	SkillRequired:Cooking=8,
     	HCJarhomemadeyogurt,
-  	Base.Strewberrie=4,
+  	farming.Strewberrie=4,
 	keep Bowl,
 	Sugar,
     	Result:HCJarhomemadeyogurtstrawberries,

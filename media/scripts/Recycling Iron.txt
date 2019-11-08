@@ -291,7 +291,7 @@ recipe Recycle Iron
 recipe Recycle Iron
     {
     SkillRequired:MetalWelding=4,
-    Base.HandShovel=2,
+    farming.HandShovel=2,
     Charcoal,
 
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,

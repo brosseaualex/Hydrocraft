@@ -89,11 +89,11 @@ player:getStats():setFatigue(player:getStats():getFatigue()+0.05)
 		elseif secondChance == 3 then
             player:getInventory():AddItem("farming.RedRadish");
 		elseif secondChance == 4 then
-            player:getInventory():AddItem("farming.HCCamellia");
+            player:getInventory():AddItem("Hydrocraft.HCCamellia");
 		elseif secondChance == 5 then
-            player:getInventory():AddItem("farming.HCMorningglory");
+            player:getInventory():AddItem("Hydrocraft.HCMorningglory");
 		elseif secondChance == 6 then
-            player:getInventory():AddItem("farming.HCStrelitzia");			
+            player:getInventory():AddItem("Hydrocraft.HCStrelitzia");			
         end
 		player:getXp():AddXP(Perks.PlantScavenging, 10);
     elseif chance <= floraLvl7+floraLvl8+floraLvl9+floraLvl10 then

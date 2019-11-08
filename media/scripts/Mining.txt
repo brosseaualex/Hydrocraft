@@ -671,7 +671,7 @@ recipe Anchor Mine
 recipe Mine
     {
     	keep HCMinehole/HCMineholeB,
-    	keep Base.HandShovel,
+    	keep farming.HandShovel,
     	CanBeDoneFromFloor:true,
     	Result:HCDirt,
     	NeedToBeLearn:true,
@@ -684,7 +684,7 @@ recipe Mine
 recipe Mine
     {
     	keep HCMinehole2/HCMinehole2B,
-    	keep Base.HandShovel,
+    	keep farming.HandShovel,
     	CanBeDoneFromFloor:true,
     	Result:HCDirt,
     	NeedToBeLearn:true,

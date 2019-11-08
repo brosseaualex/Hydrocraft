@@ -222,10 +222,10 @@ item HCPersimmon
 
 recipe Make Bunch of Berries
 	{
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -235,9 +235,9 @@ recipe Make Bunch of Berries
 
 recipe Make Bunch of Berries
 	{
-		Base.Strewberrie=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie=2,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -247,8 +247,8 @@ recipe Make Bunch of Berries
 
 recipe Make Bunch of Berries
 	{
-		Base.Strewberrie=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie=3,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -258,7 +258,7 @@ recipe Make Bunch of Berries
 
 recipe Make Bunch of Berries
 	{
-		Base.Strewberrie=4,
+		farming.Strewberrie=4,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -269,8 +269,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		BerryBlack=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -281,7 +281,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		BerryBlack=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -302,8 +302,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		BerryBlue=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -314,7 +314,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		BerryBlue=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -335,8 +335,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		BerryGeneric1=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -347,7 +347,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		BerryGeneric1=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -368,8 +368,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		BerryGeneric2=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -380,7 +380,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries 
 	{
 		BerryGeneric2=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -401,8 +401,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		BerryGeneric3=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -413,7 +413,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		BerryGeneric3=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -434,8 +434,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		BerryGeneric4=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -446,7 +446,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		BerryGeneric4=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -467,8 +467,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		BerryGeneric5=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -479,7 +479,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		BerryGeneric5=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -500,8 +500,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCCandleberry=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -512,7 +512,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCCandleberry=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -533,8 +533,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCHuckleberry=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -545,7 +545,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCHuckleberry=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -566,8 +566,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCCranberry=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -578,7 +578,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCCranberry=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -599,8 +599,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCSeaberry=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -611,7 +611,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCSeaberry=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -632,8 +632,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCBlackcurrant=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -644,7 +644,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCBlackcurrant=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -665,8 +665,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCRedcurrant=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -677,7 +677,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCRedcurrant=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -698,8 +698,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCArrowwoodberry=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -710,7 +710,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCArrowwoodberry=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -731,8 +731,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCRaspberry=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -743,7 +743,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCRaspberry=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -764,8 +764,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCBlackthornberry=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -776,7 +776,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCBlackthornberry=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -797,8 +797,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCCrampbarkberry=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -809,7 +809,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCCrampbarkberry=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -830,8 +830,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCCrowberry=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -842,7 +842,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCCrowberry=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -863,8 +863,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCGooseberry=2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -875,7 +875,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCGooseberry=3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -896,8 +896,8 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCHawthornfruit =2,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,
@@ -908,7 +908,7 @@ recipe Make Bunch of Berries
 recipe Make Bunch of Berries
 	{
 		HCHawthornfruit =3,
-		Base.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
+		farming.Strewberrie/BerryBlack/BerryBlue/BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/HCCandleberry/HCHuckleberry/HCCranberry/HCSeaberry/HCBlackcurrant/HCRedcurrant/HCArrowwoodberry/HCRaspberry/HCBlackthornberry/HCCrampbarkberry/HCCrowberry/HCGooseberry/HCHawthornfruit,
 		Result:HCBunchofberries,
     		NeedToBeLearn:true,
 		Time:75.0,

@@ -855,7 +855,7 @@ recipe Bury Trash
     {
     	destroy Garbagebag,
 	HCWorkgloves,
-    	keep Base.HandShovel,
+    	keep farming.HandShovel,
     	Result:HCWorkgloves,
     	Time:2000,
     	OnGiveXP:HCHunger_OnGiveXP,

@@ -499,8 +499,8 @@ recipe Make Shish Kebab
 	{
 		WoodenLance/HCChopsticks,
     		FishFillet/Salmon/HCHerring/HCCrab/Steak/MuttonChop/PorkChop/HCFreshham/Ham/Chicken/HCBearsteak/HCVenison/HCSmallgamesteak/Rabbitmeat/Smallanimalmeat/Smallbirdmeat/HCDuckmeat/HCGoosemeat/HCTurkeymeat/FrogMeat/HCSausagefrog/HCSausagebird/HCSausagechicken/HCSausageduck/HCSausagegoose/HCSausageturkey/HCSausagevermin/HCSausagerabbit/HCSausagesmallgame/HCSausagedeer/HCSausagebear/HCSausagemutton/HCSausagepork/HCSausagebeef/HCSausageitalian/HCSausagehot/HCCheval/HCSausagecheval,
-		BellPepper/HCBellpeppergreen/HCBellpepperyellow/Eggplant/Leek/HCOniongreen/Onion/HCGarlic/Broccoli/HCCauliflower/Carrots/Base.RedRadish/Base.Potato/HCSweetpotato/HCPotatogolden/HCPotatored/Zucchini/Base.Tomato/Pineapple/HCPortobello/HCShiitake/MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7,
-		BellPepper/HCBellpeppergreen/HCBellpepperyellow/Eggplant/Leek/HCOniongreen/Onion/HCGarlic/Broccoli/HCCauliflower/Carrots/Base.RedRadish/Base.Potato/HCSweetpotato/HCPotatogolden/HCPotatored/Zucchini/Base.Tomato/Pineapple/HCPortobello/HCShiitake/MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7,
+		BellPepper/HCBellpeppergreen/HCBellpepperyellow/Eggplant/Leek/HCOniongreen/Onion/HCGarlic/farming.Broccoli/HCCauliflower/Carrots/farming.RedRadish/farming.Potato/HCSweetpotato/HCPotatogolden/HCPotatored/Zucchini/farming.Tomato/Pineapple/HCPortobello/HCShiitake/MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7,
+		BellPepper/HCBellpeppergreen/HCBellpepperyellow/Eggplant/Leek/HCOniongreen/Onion/HCGarlic/farming.Broccoli/HCCauliflower/Carrots/farming.RedRadish/farming.Potato/HCSweetpotato/HCPotatogolden/HCPotatored/Zucchini/farming.Tomato/Pineapple/HCPortobello/HCShiitake/MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7,
 		keep KitchenKnife,
 		Result:HCShishkebab,
     		NeedToBeLearn:true, 

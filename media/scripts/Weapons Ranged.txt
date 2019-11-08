@@ -179,7 +179,7 @@ item HCLongbow
 
 item HCPotatocannon
     {
-        AmmoType 				= 	Base.Potato,
+        AmmoType 				= 	farming.Potato,
         ImpactSound    				=    	null,
         MaxRange    				=    	18,
         WeaponSprite    			=    	Shotgun,
@@ -776,7 +776,7 @@ recipe Shoot Target
 recipe Shoot Target
     {
     	keep HCPotatocannon,
-    	Base.Potato,
+    	farming.Potato,
 	HCBookarchery,
 	keep HCHaytarget,
     	CanBeDoneFromFloor:true,
