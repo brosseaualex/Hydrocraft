@@ -6,6 +6,8 @@ require "Items/SuburbsDistributions"
 require "Items/ItemPicker"
 require "HCLoading"
 
+--[[
+
 FGP3DWeapons = {}
 
 --Ensures exisance of graphics.
@@ -235,3 +237,5 @@ FGP3DWeapons.inject3Dmodels = function()
 end
 
 Events.OnPreMapLoad.Add(FGP3DWeapons.inject3Dmodels);
+
+]]

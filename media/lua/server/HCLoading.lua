@@ -7,6 +7,8 @@ require "Items/SuburbsDistributions"
 require "Items/ItemPicker"
 HCSprites = {}
 
+--[[
+
 --Ensures exisance of graphics.
 HCSprites.getSprites = function()
 	getTexture("media/textures/Object_HCStonepillar.png");			
@@ -287,8 +289,6 @@ end
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
 
 	-- Add items for Kitchen Counter
-	table.insert(SuburbsDistributions["kitchen"]["counter"].items, "Base.BakingTray");
-	table.insert(SuburbsDistributions["kitchen"]["counter"].items, 5);
 	table.insert(SuburbsDistributions["kitchen"]["counter"].items, "Hydrocraft.HCSpork");
 	table.insert(SuburbsDistributions["kitchen"]["counter"].items, 0.5);
 	table.insert(SuburbsDistributions["kitchen"]["counter"].items, "Hydrocraft.HCSteakknife");
@@ -11147,5 +11147,5 @@ SuburbsDistributions["firestation"] = {
 Events.OnPreMapLoad.Add(HCSprites.getSprites);
 print("Hydrocraft: SuburbsDistributions added. ");
 
-
+]]
 

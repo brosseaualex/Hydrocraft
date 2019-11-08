@@ -2,6 +2,8 @@
 -- author: francogp
 -- **********************************
 
+--[[
+
 local MOD_ID = "Hydrocraft";
 local MOD_NAME = "Hydrocraft 3D weapon models";
 local MOD_VERSION = "0.2";
@@ -655,3 +657,5 @@ local function load3Dmodels()
 end    
 
 Events.OnGameBoot.Add(load3Dmodels); 
+
+]]

@@ -2,6 +2,8 @@ require "Reloading/ISReloadManager"
 require "Reloading/ISReloadUtil"
 
 --Nail clip for advanced unloading.
+
+--[[
 local HCNailclip = { type = "HCNailclip",
 moduleName = 'Hydrocraft',
 reloadClass = 'ISReloadableMagazine',
@@ -110,3 +112,5 @@ ReloadUtil:addWeaponType(HCLongbow)
 ReloadUtil:addWeaponType(HCSlingshot)
 ReloadUtil:addWeaponType(HCSling)
 ReloadUtil:addWeaponType(HCPotatocannon)
+
+]]
