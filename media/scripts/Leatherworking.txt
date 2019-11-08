@@ -142,7 +142,6 @@ item HCHiderawarmadillo
         	DisplayName 	= 	Raw Armadillo Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawarmadillo,
-		ResizeWorldIcon = 	1.0,
 	}
 
 item HCHiderawfox
@@ -183,7 +182,7 @@ item HCHiderawboar
         	DisplayName 	= 	Raw Boar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawboar,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHiderawdeer
@@ -192,7 +191,7 @@ item HCHiderawdeer
         	DisplayName 	= 	Raw Deer Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawdeer,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHiderawbearblack
@@ -201,7 +200,7 @@ item HCHiderawbearblack
         	DisplayName 	= 	Raw Black Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawbearblack,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHiderawbear
@@ -210,7 +209,7 @@ item HCHiderawbear
         	DisplayName 	= 	Raw Grizzly Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawbear,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHiderawcougar
@@ -219,7 +218,7 @@ item HCHiderawcougar
         	DisplayName 	= 	Raw Cougar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawcougar,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHiderawdog
@@ -243,7 +242,7 @@ item HCHiderawsheep
         	DisplayName 	= 	Raw Sheep Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawsheep,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHiderawgoat
@@ -252,7 +251,7 @@ item HCHiderawgoat
         	DisplayName 	= 	Raw Goat Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawgoat,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHiderawpig
@@ -261,7 +260,7 @@ item HCHiderawpig
         	DisplayName 	= 	Raw Pig Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawpig,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHiderawcow
@@ -270,7 +269,7 @@ item HCHiderawcow
         	DisplayName 	= 	Raw Cow Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawcow,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHiderawbull
@@ -279,7 +278,7 @@ item HCHiderawbull
         	DisplayName 	= 	Raw Bull Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawbull,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHiderawdonkey
@@ -288,7 +287,7 @@ item HCHiderawdonkey
         	DisplayName 	= 	Raw Donkey Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawdonkey,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHiderawhorse
@@ -297,7 +296,7 @@ item HCHiderawhorse
         	DisplayName 	= 	Raw Horse Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawhorse,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidestrap
@@ -370,7 +369,6 @@ item HCHidedriedarmadillo
         	DisplayName 	= 	Dried Armadillo Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedarmadillo,
-		ResizeWorldIcon = 	1.0,
 	}
 
 item HCHidedriedfox
@@ -411,7 +409,7 @@ item HCHidedriedboar
         	DisplayName 	= 	Dried Boar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedboar,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidedrieddeer
@@ -420,7 +418,7 @@ item HCHidedrieddeer
         	DisplayName 	= 	Dried Deer Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedrieddeer,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidedriedbearblack
@@ -429,7 +427,7 @@ item HCHidedriedbearblack
         	DisplayName 	= 	Dried Black Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedbearblack,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidedriedbear
@@ -438,7 +436,7 @@ item HCHidedriedbear
         	DisplayName 	= 	Dried Grizzly Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedbear,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidedriedcougar
@@ -447,7 +445,7 @@ item HCHidedriedcougar
         	DisplayName 	= 	Dried Cougar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedcougar,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidedrieddog
@@ -472,7 +470,7 @@ item HCHidedriedsheep
         	DisplayName 	= 	Dried Sheep Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedsheep,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidedriedgoat
@@ -481,7 +479,7 @@ item HCHidedriedgoat
         	DisplayName 	= 	Dried Goat Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedgoat,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidedriedpig
@@ -490,7 +488,7 @@ item HCHidedriedpig
         	DisplayName 	= 	Dried Pig Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedpig,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidedriedcow
@@ -499,7 +497,7 @@ item HCHidedriedcow
         	DisplayName 	= 	Dried Cow Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedcow,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidedriedbull
@@ -508,7 +506,7 @@ item HCHidedriedbull
         	DisplayName 	= 	Dried Bull Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedbull,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidedrieddonkey
@@ -517,7 +515,7 @@ item HCHidedrieddonkey
         	DisplayName 	= 	Dried Donkey Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedrieddonkey,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidedriedhorse
@@ -526,7 +524,7 @@ item HCHidedriedhorse
         	DisplayName 	= 	Dried Horse Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedhorse,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCAnimalfurlime
@@ -591,7 +589,6 @@ item HCHidelimedarmadillo
         	DisplayName 	= 	Limed Armadillo Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedarmadillo,
-		ResizeWorldIcon = 	1.0,
 	}
 
 item HCHidelimedfox
@@ -632,7 +629,7 @@ item HCHidelimedboar
         	DisplayName 	= 	Limed Boar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedboar,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidelimeddeer
@@ -641,7 +638,7 @@ item HCHidelimeddeer
         	DisplayName 	= 	Limed Deer Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimeddeer,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidelimedbearblack
@@ -650,7 +647,7 @@ item HCHidelimedbearblack
         	DisplayName 	= 	Limed Black Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedbearblack,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidelimedbear
@@ -659,7 +656,7 @@ item HCHidelimedbear
         	DisplayName 	= 	Limed Grizzly Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedbear,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidelimedcougar
@@ -668,7 +665,7 @@ item HCHidelimedcougar
         	DisplayName 	= 	Limed Cougar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedcougar,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidelimeddog
@@ -692,7 +689,7 @@ item HCHidelimedsheep
         	DisplayName 	= 	Limed Sheep Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedsheep,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidelimedgoat
@@ -701,7 +698,7 @@ item HCHidelimedgoat
         	DisplayName 	= 	Limed Goat Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedgoat,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidelimedpig
@@ -710,7 +707,7 @@ item HCHidelimedpig
         	DisplayName 	= 	Limed Pig Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedpig,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidelimedcow
@@ -719,7 +716,7 @@ item HCHidelimedcow
         	DisplayName 	= 	Limed Cow Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedcow,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidelimedbull
@@ -728,7 +725,7 @@ item HCHidelimedbull
         	DisplayName 	= 	Limed Bull Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedbull,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidelimeddonkey
@@ -737,7 +734,7 @@ item HCHidelimeddonkey
         	DisplayName 	= 	Limed Donkey Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimeddonkey,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCHidelimedhorse
@@ -746,7 +743,7 @@ item HCHidelimedhorse
         	DisplayName 	= 	Limed Horse Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedhorse,
-		ResizeWorldIcon = 	2.0,
+		
 	}
 
 item HCZedskin
@@ -892,7 +889,7 @@ item HCDryingframe
         Type    		= Normal,
         DisplayName         	= Drying Frame,
         icon 			= HCDryingframe,
-	ResizeWorldIcon 	= 0.8,
+	
     }
 
 item HCWoodenbuckettan
@@ -901,7 +898,7 @@ item HCWoodenbuckettan
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Tannin,
         icon 			= HCWoodenbuckettan,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCWoodenbucketrose
@@ -910,7 +907,7 @@ item HCWoodenbucketrose
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Rose Tanning Oil,
         icon 			= HCWoodenbucketrose,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCWoodenbucketlime
@@ -919,7 +916,7 @@ item HCWoodenbucketlime
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Milk of Lime,
         icon 			= HCWoodenbucketlime,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCLeatherboots

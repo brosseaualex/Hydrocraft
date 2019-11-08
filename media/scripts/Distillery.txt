@@ -54,7 +54,7 @@ item HCBarrelpotato
         DisplayName         	= Barrel of Potato Mash,
         ReplaceOnDeplete        = Hydrocraft.HCWoodenbarrel,
         icon 			= HCWinebarrel,
-	ResizeWorldIcon 	= 1.0,
+	
 	}
 
 item HCDistillery
@@ -63,7 +63,7 @@ item HCDistillery
         Type    		= Normal,
         DisplayName         	= Distillery,
         icon 			= HCDistillery,
-	ResizeWorldIcon 	= 1.0,
+	
 	}
 
 item HCCoppercooler
@@ -94,7 +94,7 @@ item HCVodka
 	ReplaceOnUse		=	WhiskeyEmpty,
 	Icon	        	=	Whiskey_Water_Full,
 	CustomContextMenu 	= 	Drink,
-	CustomEatSound    	= 	PZ_DrinkingFromBottle,
+	CustomEatSound    	= 	DrinkingFromBottle,
 	AlcoholPower      	= 	2,
 	FoodType    		=   	NoExplicit,
 	Carbohydrates 		= 	0,
@@ -119,7 +119,7 @@ item HCAgavebluecut
 	Type	        	=	Normal,
 	DisplayName		=	Cut Blue Agave,
 	Icon	        	=	HCAgavebluecut,
-	ResizeWorldIcon 	= 	2.0,
+	
 	}
 
 item HCPotofblueagavemash
@@ -158,7 +158,7 @@ item HCBarrelblueagave
         DisplayName         		= 	Barrel of Blue Agave Mash,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCPotofapplemash
@@ -197,7 +197,7 @@ item HCBarrelapple
         DisplayName         		= 	Barrel of Apple Mash,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCPotofpeachmash
@@ -236,7 +236,7 @@ item HCBarrelpeach
         DisplayName         		= 	Barrel of Peach Mash,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCPotofpumpkinmash
@@ -275,7 +275,7 @@ item HCBarrelpumpkin
         DisplayName         		= 	Barrel of Pumpkin Mash,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCPotofjunipermash
@@ -315,7 +315,7 @@ item HCBarreljuniper
         DisplayName         	= Barrel of Juniper Berry Mash,
         ReplaceOnDeplete        = Hydrocraft.HCWoodenbarrel,
         icon 			= HCWinebarrel,
-	ResizeWorldIcon 	= 1.0,
+	
 	}
 
 item HCPotofflourmash
@@ -355,7 +355,7 @@ item HCBarrelflour
         DisplayName         	= Barrel of Flour Mash,
         ReplaceOnDeplete        = Hydrocraft.HCWoodenbarrel,
         icon 			= HCWinebarrel,
-	ResizeWorldIcon 	= 1.0,
+	
 	}
 
 item HCPotofcornmash
@@ -395,7 +395,7 @@ item HCBarrelcorn
         DisplayName         	= Barrel of Corn Mash,
         ReplaceOnDeplete        = Hydrocraft.HCWoodenbarrel,
         icon 			= HCWinebarrel,
-	ResizeWorldIcon 	= 1.0,
+	
 	}
 
 /************************RECIPES************************/	

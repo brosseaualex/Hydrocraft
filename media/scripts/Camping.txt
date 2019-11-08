@@ -131,7 +131,7 @@ item HCRaftrubber
 	Type 				= 	Normal,
 	DisplayName 			= 	Rubber Raft,
 	Icon				=	HCRaftrubber,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCSpaceblanket

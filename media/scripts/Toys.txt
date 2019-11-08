@@ -655,7 +655,7 @@ item HCPinata
 	Type	        	=	Normal,
 	DisplayName		=	Pinata,
 	Icon	        	=	HCPinata,
-	ResizeWorldIcon 	= 	2.0,
+	
 	}
 
 item HCPinatabroken
@@ -664,7 +664,7 @@ item HCPinatabroken
 	Type	        	=	Normal,
 	DisplayName		=	Broken Pinata,
 	Icon	        	=	HCPinatabroken,
-	ResizeWorldIcon 	= 	2.0,
+	
 	}
 
 item HCToyblock

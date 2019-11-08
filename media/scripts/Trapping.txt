@@ -32,7 +32,7 @@ item PropaneTrap
         Type    			= 	Normal,
         DisplayName         		= 	Set Propane Trap,
         icon 				= 	Propanetrap,
-	ResizeWorldIcon 		= 	1.0,
+	
     }
 
 item PropaneTrapCloses
@@ -41,7 +41,7 @@ item PropaneTrapCloses
         Type    			= 	Normal,
         DisplayName         		= 	Exloded Propane Trap,
         icon 				= 	Propanetrap,
-	ResizeWorldIcon 		= 	1.0,
+	
     }
 
 item BearTrap
@@ -50,7 +50,6 @@ item BearTrap
         Type    			= 	Normal,
         DisplayName         		= 	Set Bear Trap,
         icon 				= 	Beartrap,
-	ResizeWorldIcon 		= 	0.9,
     }
 
 item BearTrapClosed
@@ -59,7 +58,6 @@ item BearTrapClosed
         Type    			= 	Normal,
         DisplayName         		= 	Closed Bear Trap,
         icon 				= 	Beartrapclosed,
-	ResizeWorldIcon 		= 	0.9,
     }
 
 item SpikeTrap
@@ -68,7 +66,6 @@ item SpikeTrap
         Type    			= 	Normal,
         DisplayName         		= 	Set Nail Trap,
         icon 				= 	Spiketrap,
-	ResizeWorldIcon 		= 	0.7,
     }
 
 item SpikeTrapClosed
@@ -77,7 +74,6 @@ item SpikeTrapClosed
         Type    			= 	Normal,
         DisplayName         		= 	Broken Nail Trap,
         icon 				= 	Spiketrapclosed,
-	ResizeWorldIcon 		= 	0.7,
     }
 
 /************************RECIPES************************/

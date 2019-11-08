@@ -217,7 +217,7 @@ item HCClotheslinefull
         Type    		= Normal,
         DisplayName         	= Clothes Line with Clothes,
         icon 			= HCClotheslinefull,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCClotheslinefull2
@@ -226,7 +226,7 @@ item HCClotheslinefull2
         Type    		= Normal,
         DisplayName         	= Double Clothes Line with Clothes,
         icon 			= HCClotheslinefull2,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCBathtoweldirty

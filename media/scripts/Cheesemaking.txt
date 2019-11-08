@@ -14,7 +14,7 @@ item HCCheeserack
 	Type 			= Normal,
 	DisplayName 		= Cheese Rack,
 	Icon			= HCCheeserack,
-	ResizeWorldIcon 	= 1.0,
+	
 	}
 
 item HCCheeserackfull
@@ -23,7 +23,7 @@ item HCCheeserackfull
 	Type 			= Normal,
 	DisplayName 		= Cheese Rack with Cheese,
 	Icon			= HCCheeserackfull,
-	ResizeWorldIcon 	= 1.0,
+	
 	}
 
 item HCCheeserackaged
@@ -32,7 +32,7 @@ item HCCheeserackaged
 	Type 			= Normal,
 	DisplayName 		= Cheese Rack with Aged Cheese,
 	Icon			= HCCheeserackaged,
-	ResizeWorldIcon 	= 1.0,
+	
 	}
 
 item HCCheeserackfullcheddar
@@ -41,7 +41,7 @@ item HCCheeserackfullcheddar
 	Type 			= Normal,
 	DisplayName 		= Cheese Rack with Cheddar Cheese,
 	Icon			= HCCheeserackfullcheddar,
-	ResizeWorldIcon 	= 1.0,
+	
 	}
 
 item HCCheeserackagedcheddar
@@ -50,7 +50,7 @@ item HCCheeserackagedcheddar
 	Type 			= Normal,
 	DisplayName 		= Cheese Rack with Aged Cheddar Cheese,
 	Icon			= HCCheeserackagedcheddar,
-	ResizeWorldIcon 	= 1.0,
+	
 	}
 
 
@@ -60,7 +60,7 @@ item HCCheeserackfullcheddarwaxed
 	Type 			= Normal,
 	DisplayName 		= Cheese Rack with Waxed Cheddar Cheese,
 	Icon			= HCCheeserackfullcheddarwaxed,
-	ResizeWorldIcon 	= 1.0,
+	
 	}
 
 item HCCheeserackagedcheddarwaxed
@@ -69,7 +69,7 @@ item HCCheeserackagedcheddarwaxed
 	Type 			= Normal,
 	DisplayName 		= Cheese Rack with Aged Waxed Cheddar Cheese,
 	Icon			= HCCheeserackagedcheddarwaxed,
-	ResizeWorldIcon 	= 1.0,
+	
 	}
 
 
@@ -89,7 +89,7 @@ item HCVatcheese
         Type    		= Normal,
         DisplayName         	= Cheese Vat,
         icon 			= HCVatcheese,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCCheesetray
@@ -154,7 +154,7 @@ item HCPotcheeseclothwrappedwax
         Type    		= Normal,
         DisplayName         	= Pot with Cheese Cloth-Wrapped Beeswax,
         icon 			= HCPotcheeseclothwrappedwax,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCPotrefinedwax
@@ -163,7 +163,7 @@ item HCPotrefinedwax
         Type    		= Normal,
         DisplayName         	= Pot with Refined Beeswax,
         icon 			= HCPotrefinedwax,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCRefinedbeeswax
@@ -180,7 +180,7 @@ item HCPotmeltedrefinedwax
         Type    		= Normal,
         DisplayName         	= Pot of Melted Refined Beeswax,
         icon 			= HCPotmeltedrefinedwax,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCurdkneaded

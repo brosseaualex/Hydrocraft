@@ -14,7 +14,6 @@ item HCPlasticcanempty
 	Weight			=	0.1,
 	CanStoreWater		=	TRUE,
         Type			=	Drainable,
-	ResizeWorldIcon 	=       2.0,
 	ReplaceOnUseOn		=	WaterSource-HCDetergentwater,
         DisplayName		=	Empty Plastic Can,
 	Icon			=	HCPlasticcanempty,
@@ -27,7 +26,7 @@ item HCPlasticcanammonia
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Plastic Can With Ammonia,
 	Icon				=	HCPlasticcanammonia,
 	}
@@ -38,7 +37,7 @@ item HCPlasticcanbiodiesel
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Plastic Can With Biodiesel,
 	Icon				=	HCPlasticcanbiodiesel,
 	}
@@ -49,7 +48,7 @@ item HCPlasticcancoppersulfatesolution
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Plastic Can With Copper Sulfate Solution,
 	Icon				=	HCPlasticcancoppersulfatesolution,
 	}
@@ -60,7 +59,7 @@ item HCPlasticcandetergent
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Plastic Can With Liqiud Soap,
 	Icon				=	HCPlasticcandetergent,
 	}
@@ -73,7 +72,7 @@ item HCPlasticcanh2o2
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Plastic Can With Hydrogen Peroxide,
 	Icon				=	HCPlasticcanh2o2,
 	}
@@ -86,7 +85,7 @@ item HCPlasticcanlime
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Plastic Can With Milk of Lime,
 	Icon				=	HCPlasticcanlime,
 	}
@@ -97,7 +96,7 @@ item HCPlasticcanlye
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Plastic Can With Lye,
 	Icon				=	HCPlasticcanlye,
 	}
@@ -108,7 +107,7 @@ item HCPlasticcanmethanol
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Plastic Can With Methanol,
 	Icon				=	HCPlasticcanmethanol,
 	}
@@ -124,7 +123,7 @@ item HCPlasticcanmilk
 	DaysFresh 			=	250,
 	ReplaceOnUse		        =	HCPlasticcanempty,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	Icon				=	HCPlasticcanmilk,
 	}
 
@@ -134,7 +133,7 @@ item HCPlasticcanmuriaticacid
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Plastic Can With Muriatic Acid,
 	Icon				=	HCPlasticcanmuriaticacid,
 	}
@@ -145,7 +144,7 @@ item HCPlasticcannickelsulfatesolution
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Plastic Can With Nickel Sulfate Solution,
 	Icon				=	HCPlasticcannickelsulfatesolution,
 	}
@@ -156,7 +155,7 @@ item HCPlasticcannitricacid
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Plastic Can With Nitric Acid,
 	Icon				=	HCPlasticcannitricacid,
 	}
@@ -167,7 +166,7 @@ item HCPlasticcanoil
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Plastic Can With Oil,
 	Icon				=	HCPlasticcanoil,
 	}
@@ -180,7 +179,7 @@ item HCPlasticcanrose
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Plastic Can With Rose Tanning Oil,
 	Icon				=	HCPlasticcanrose,
 	}
@@ -191,7 +190,7 @@ item HCPlasticcansulfuricacid
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Plastic Can With Sulfuric Acid,
 	Icon				=	HCPlasticcansulfuricacid,
 	}
@@ -202,7 +201,7 @@ item HCPlasticcantan
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Plastic Can With Tannin,
 	Icon				=	HCPlasticcantan,
 	}
@@ -213,7 +212,7 @@ item HCPlasticcanvegoil
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Plastic Can With Vegetable Oil,
 	Icon				=	HCPlasticcanvegoil,
 	}
@@ -224,7 +223,7 @@ item HCAmmoniacanempty
 	{
 	Weight			=	0.1,
         Type			=	Normal,
-	ResizeWorldIcon 	=      	2.0,
+	
         DisplayName		=	Empty Ammonia Can,
 	Icon			=	HCAmmoniacanempty,
 	}
@@ -235,7 +234,7 @@ item HCAmmoniacanfull
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCAmmoniacanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Ammonia,
 	Icon				=	HCAmmoniacanfull,
 	}
@@ -244,7 +243,7 @@ item HCh2o2canempty
 	{
 	Weight			=	0.1,
         Type			=	Normal,
-	ResizeWorldIcon 	=       2.0,
+	
         DisplayName		=	Empty Hydrogen Peroxide Can,
 	Icon			=	HCh2o2canempty,
 	}
@@ -255,7 +254,7 @@ item HCh2o2can
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCh2o2canempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Hydrogen Peroxide,
 	Icon				=	HCh2o2can,
 	}
@@ -264,7 +263,7 @@ item HCSulfuricacidcanempty
 	{
 	Weight			=	0.1,
         Type			=	Normal,
-	ResizeWorldIcon 	=       2.0,
+	
         DisplayName		=	Empty Sulfuric Acid Can,
 	Icon			=	HCSulfuricacidcanempty,
 	}
@@ -275,7 +274,7 @@ item HCSulfuricacidcan
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCSulfuricacidcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Sulfuric Acid,
 	Icon				=	HCSulfuricacidcan,
 	}
@@ -291,7 +290,7 @@ item HCPlasticcangrape
 	DisplayName			=	Plastic Can With Grape Juice,
 	ReplaceOnUse		        =	HCPlasticcanempty,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	Icon				=	HCPlasticcangrape,
 	}
 
@@ -305,7 +304,7 @@ item HCPlasticcanhoney
 	HungerChange			=	-105,
 	ReplaceOnUse		        =	HCPlasticcanempty,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Plastic Can With Honey,
 	Icon				=	HCPlasticcanhoney,
 	}
@@ -321,7 +320,7 @@ item HCPlasticcanmilk
 	DaysFresh 			=	250,
 	ReplaceOnUse		        =	HCPlasticcanempty,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	Icon				=	HCPlasticcanmilk,
 	}
 
@@ -335,7 +334,7 @@ item HCPlasticcanpoison
 	PoisonPower 		        =       100,
 	ReplaceOnUse		        =	HCPlasticcanempty,
 	ReplaceOnDeplete	        =	HCPlasticcanempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	Icon				=	HCPlasticcanpoison,
 	}
 
@@ -351,7 +350,7 @@ item HCPlasticcanwater
 	DisplayName		=	Plastic Can With Water,
 	ReplaceOnDeplete	=	HCPlasticcanempty,
 	ReplaceOnUseOn		=	WaterSource-HCPlasticcanwater,
-	ResizeWorldIcon 	=       2.0,
+	
 	Icon			=	HCPlasticcanwater,
 	RainFactor 		= 	1,
 	}

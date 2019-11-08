@@ -14,7 +14,7 @@ item HCHerbtable
 	Type 			= Normal,
 	DisplayName 		= Herbalist Table,
 	Icon			= HCHerbtable,
-	ResizeWorldIcon 	= 1.0,
+	
 	}
 
 item HCHerbtable2
@@ -23,7 +23,7 @@ item HCHerbtable2
 	Type 			= Normal,
 	DisplayName 		= Herbalist Table,
 	Icon			= HCHerbtable,
-	ResizeWorldIcon 	= 1.0,
+	
 	}
 
 item HCPollen
@@ -32,7 +32,7 @@ item HCPollen
         Type            	= Normal,
         DisplayName     	= Pollen,
         Icon            	= HCPollen,
-        ResizeWorldIcon 	= 1.0,
+        
     }
 
 item HCHops

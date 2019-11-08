@@ -97,7 +97,7 @@ item HCTaxidermyworkbench
 	Capacity             	= 50,
         DisplayName         	= Taxidermy Workbench,
         icon 			= HCTaxidermyworkbench,
-	ResizeWorldIcon 	= 1.8,
+	
     }
 
 

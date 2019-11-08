@@ -62,7 +62,7 @@ item HCStrawbale
         Type    		= Normal,
         DisplayName         	= Bale of Straw,
         icon 			= HCStrawbale,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCHaystack
@@ -71,7 +71,7 @@ item HCHaystack
         Type    		= Normal,
         DisplayName         	= Haystack,
         icon 			= HCHaystack,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCStrawhat

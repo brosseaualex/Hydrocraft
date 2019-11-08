@@ -31,7 +31,7 @@ item MetalSafe
         Type    		= Container,
         DisplayName         	= Metal Safe,
         icon 			= SafeOpen,
-	ResizeWorldIcon 	= 2.0,
+	
     	}
 
 item MetalSafeClosed
@@ -41,7 +41,7 @@ item MetalSafeClosed
         Type    		= Container,
         DisplayName         	= Locked Metal Safe,
         icon 			= SafeClosed,
-	ResizeWorldIcon 	= 2.0,
+	
     	}
 
 item MetalSafeClosedInner
@@ -51,7 +51,7 @@ item MetalSafeClosedInner
         Type    		= Container,
         DisplayName         	= KEY LOCKED,
         icon 			= SafeClosed,
-	ResizeWorldIcon 	= 2.0,
+	
     	}
 	
 item MetalSafeCombo
@@ -61,7 +61,7 @@ item MetalSafeCombo
         Type    		= Container,
         DisplayName         	= Metal Combination Safe,
         icon 			= SafeOpen,
-	ResizeWorldIcon 	= 2.0,
+	
     	}
 
 item MetalSafeComboClosed
@@ -71,7 +71,7 @@ item MetalSafeComboClosed
         Type    		= Container,
         DisplayName         	= Locked Metal Combination Safe,
         icon 			= SafeClosed,
-	ResizeWorldIcon 	= 2.0,
+	
     	}
 	
 item MetalSafeComboClosedInner
@@ -81,7 +81,7 @@ item MetalSafeComboClosedInner
         Type    		= Container,
         DisplayName         	= COMBINATION LOCKED,
         icon 			= SafeClosed,
-	ResizeWorldIcon 	= 2.0,
+	
     	}
 
 /************************RECIPES************************/

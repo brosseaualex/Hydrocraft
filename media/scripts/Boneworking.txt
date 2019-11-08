@@ -124,7 +124,7 @@ item HCSheepbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Sheep Skeleton,
 	Icon				=	HCSheepbones,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGoatbones
@@ -133,7 +133,7 @@ item HCGoatbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Goat Skeleton,
 	Icon				=	HCGoatbones,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGoathorn
@@ -150,7 +150,7 @@ item HCPigbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Pig Skeleton,
 	Icon				=	HCPigbones,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCowbones
@@ -159,7 +159,7 @@ item HCCowbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Cow Skeleton,
 	Icon				=	HCCowbones,
-	ResizeWorldIcon 		= 	2.5,
+	
 	}
 
 item HCCowbones2
@@ -168,7 +168,7 @@ item HCCowbones2
 	Type 				= 	Normal,
 	DisplayName 			= 	Cow Skeleton,
 	Icon				=	HCCowbones2,
-	ResizeWorldIcon 		= 	2.5,
+	
 	}
 
 item HCDonkeybones
@@ -177,7 +177,7 @@ item HCDonkeybones
 	Type 				= 	Normal,
 	DisplayName 			= 	Donkey Skeleton,
 	Icon				=	HCDonkeybones,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCHorsebones
@@ -186,7 +186,7 @@ item HCHorsebones
 	Type 				= 	Normal,
 	DisplayName 			= 	Horse Skeleton,
 	Icon				=	HCHorsebones,
-	ResizeWorldIcon 		= 	2.5,
+	
 	}
 
 item HCFoxbones
@@ -195,7 +195,7 @@ item HCFoxbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Fox Skeleton,
 	Icon				=	HCFoxbones,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCRaccoonbones
@@ -204,7 +204,7 @@ item HCRaccoonbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Raccoon Skeleton,
 	Icon				=	HCRaccoonbones,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBoarbones
@@ -213,7 +213,7 @@ item HCBoarbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Boar Skeleton,
 	Icon				=	HCBoarbones,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBoartusk
@@ -230,7 +230,7 @@ item HCDeerbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Deer Skeleton,
 	Icon				=	HCDeerbones,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDeerbones2
@@ -239,7 +239,7 @@ item HCDeerbones2
 	Type 				= 	Normal,
 	DisplayName 			= 	Deer Skeleton,
 	Icon				=	HCDeerbones2,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDeerantlers
@@ -256,7 +256,7 @@ item HCBearbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Grizzly Bear Skeleton,
 	Icon				=	HCBearbones,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBlackbearbones
@@ -265,7 +265,7 @@ item HCBlackbearbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Black Bear Skeleton,
 	Icon				=	HCBlackbearbones,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCougarbones
@@ -274,7 +274,7 @@ item HCCougarbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Cougar Skeleton,
 	Icon				=	HCCougarbones,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCZedbones
@@ -283,7 +283,7 @@ item HCZedbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Skeleton,
 	Icon				=	HCZedbones,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCZedbonesheadless
@@ -292,7 +292,7 @@ item HCZedbonesheadless
 	Type 				= 	Normal,
 	DisplayName 			= 	Headless Skeleton,
 	Icon				=	HCZedbonesheadless,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCZedskull
@@ -309,7 +309,7 @@ item HCSkullpile
 	Type 				= 	Normal,
 	DisplayName 			= 	Skull Pile,
 	Icon				=	HCSkullpile,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCDicebone

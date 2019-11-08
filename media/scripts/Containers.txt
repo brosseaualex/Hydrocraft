@@ -124,7 +124,7 @@ module Hydrocraft
 	Capacity             		= 200,
 	DisplayName             	= Wheelbarrow,
 	Icon				= HCWheelbarrow,
-	ResizeWorldIcon 		= 2.0,
+	
 	RequiresEquippedBothHands 	= true,
    }
 
@@ -137,7 +137,7 @@ module Hydrocraft
 	Capacity             		= 190,
 	DisplayName             	= Pallet Truck,
 	Icon				= HCPallettruck,
-	ResizeWorldIcon 		= 1.0,
+	
 	RequiresEquippedBothHands 	= true,
    }
 
@@ -150,7 +150,7 @@ module Hydrocraft
 	Capacity             		= 180,
 	DisplayName             	= Push Cart,
 	Icon				= HCPushcart,
-	ResizeWorldIcon 		= 1.0,
+	
 	RequiresEquippedBothHands 	= true,
    }
 
@@ -162,7 +162,7 @@ module Hydrocraft
 	Capacity             		= 170,
 	DisplayName             	= Hand Dolly,
 	Icon				= HCHanddolly,
-	ResizeWorldIcon 		= 1.0,
+	
 	RequiresEquippedBothHands 	= true,
    }
 
@@ -174,7 +174,7 @@ module Hydrocraft
 	Capacity             		= 200,
 	DisplayName             	= Forklift,
 	Icon				= HCForklift,
-	ResizeWorldIcon 		= 1.0,
+	
 	RequiresEquippedBothHands 	= true,
    }
 
@@ -186,7 +186,7 @@ module Hydrocraft
 	Capacity             		= 160,
 	DisplayName             	= Shopping Cart,
 	Icon				= HCShoppingcart,
-	ResizeWorldIcon 		= 2.0,
+	
 	RequiresEquippedBothHands 	= true,
    }
 
@@ -198,7 +198,7 @@ module Hydrocraft
 	Capacity             		= 150,
 	DisplayName             	= Toy Wagon,
 	Icon				= HCToywagon,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
     item HCPaperbag
@@ -476,7 +476,7 @@ module Hydrocraft
         Capacity            = 10,
         DisplayName         = Wooden Crate,
         Icon                = HCWoodencrate,
-		ResizeWorldIcon     = 2.0,
+		
     }
 
     item HCToychest
@@ -487,7 +487,7 @@ module Hydrocraft
         Capacity            = 25,
         DisplayName         = Toy Chest,
         Icon                = HCToychest,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCWardrobe
@@ -498,7 +498,7 @@ module Hydrocraft
         Capacity            = 100,
         DisplayName         = Wardrobe,
         Icon                = HCWardrobe,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCPlasticbin
@@ -509,7 +509,7 @@ module Hydrocraft
         Capacity            = 20,
         DisplayName         = Large Plastic Bin,
         Icon                = HCPlasticbin,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCPlasticbin2
@@ -530,7 +530,7 @@ module Hydrocraft
         Capacity            = 20,
         DisplayName         = Cardboard Box,
         Icon                = HCCardboardbox,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCCardboardboxstack
@@ -539,7 +539,7 @@ module Hydrocraft
         Type    	     = Normal,
         DisplayName          = Stack of Cardboard Boxes,
         icon 		     = HCCardboardboxstack,
-	ResizeWorldIcon      = 1.0,
+	
     }
 
     item HCCardboardflat
@@ -598,7 +598,7 @@ module Hydrocraft
         Capacity            = 32,
         DisplayName         = Trunk,
         Icon                = HCTrunk,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCChest
@@ -609,7 +609,6 @@ module Hydrocraft
         Capacity            		= 32,
         DisplayName         		= Chest,
         Icon                		= HCChest,
-	ResizeWorldIcon     		= 2.0,
 	RequiresEquippedBothHands 	= true,
     }
 
@@ -631,7 +630,7 @@ module Hydrocraft
         Capacity            		= 16,
         DisplayName         		= Ice Chest,
         Icon                		= HCIcechest,
-	ResizeWorldIcon 		= 2.0,
+	
 	RequiresEquippedBothHands 	= true,
     }
 
@@ -774,7 +773,7 @@ module Hydrocraft
         Capacity            = 1350,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate1,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCShipcrate2
@@ -785,7 +784,7 @@ module Hydrocraft
         Capacity            = 1350,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate2,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCShipcrate3
@@ -796,7 +795,7 @@ module Hydrocraft
         Capacity            = 1350,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate3,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCShipcrate4
@@ -807,7 +806,7 @@ module Hydrocraft
         Capacity            = 300,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate4,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCShipcrate5
@@ -818,7 +817,7 @@ module Hydrocraft
         Capacity            = 300,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate5,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCShipcrate6
@@ -829,7 +828,7 @@ module Hydrocraft
         Capacity            = 300,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate6,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCShipcrate7
@@ -840,7 +839,7 @@ module Hydrocraft
         Capacity            = 300,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate7,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
 /************************RECIPES************************/

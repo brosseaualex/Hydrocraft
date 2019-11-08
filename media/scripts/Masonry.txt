@@ -23,7 +23,7 @@ item HCGreybrickbox
         Type   			= Normal,
         DisplayName         	= Pallet of Grey Bricks,
         icon 			= HCGreybrickbox,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCRedbrick
@@ -40,7 +40,7 @@ item HCRedbrickbox
         Type   			= Normal,
         DisplayName         	= Pallet of Red Bricks,
         icon 			= HCRedbrickbox,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCRefractorybrick

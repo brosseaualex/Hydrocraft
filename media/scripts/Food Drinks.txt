@@ -25,7 +25,7 @@ module Hydrocraft
         Packaged 		= 	TRUE,
         CantBeFrozen 		= 	TRUE,
 		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
 		ReplaceOnUse		=	Hydrocraft.HCEnergydrinktrash,
 	}
 
@@ -47,7 +47,7 @@ module Hydrocraft
         Packaged 		= 	TRUE,
         CantBeFrozen 		= 	TRUE,
 		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
 		ReplaceOnUse		= 	Hydrocraft.HCEnergydrink2trash,
 	}
 	
@@ -63,7 +63,7 @@ module Hydrocraft
 		ReplaceOnUse		=	HCGlassjug,
 		Icon			=	HCApplecider,
 		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
 		FoodType		=	NoExplicit,
        	Carbohydrates 		= 	35.4,
         Proteins 		= 	0,

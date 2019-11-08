@@ -16,7 +16,7 @@ item HCElectornicsbench
 	Capacity             	= 50,
         DisplayName         	= Electronics Workbench,
         icon 			= HCElectornicsbench,
-	ResizeWorldIcon 	= 1.8,
+	
     }
 
 item HCCalculator
@@ -49,7 +49,7 @@ item HCRadioantenna
         Type    		= Normal,
         DisplayName         	= Radio Antenna,
         icon 			= HCRadioantenna,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCMag
@@ -73,7 +73,7 @@ item HCControlpanel
         Weight    			= 10,
         Type    			= Normal,
         DisplayName         		= Control Panel,
-        ResizeWorldIcon 	        = 1.0,
+        
         icon 				= HCControlpanel,
     }
 
@@ -82,7 +82,7 @@ item HCChargingunit
         Weight    			= 20,
         Type    			= Normal,
         DisplayName         		= Charging Unit (On),
-        ResizeWorldIcon 	        = 1.0,
+        
         icon 				= HCChargingunit,
     }
 
@@ -91,7 +91,7 @@ item HCChargingunitoff
         Weight    			= 20,
         Type    			= Normal,
         DisplayName         		= Charging Unit (Off),
-        ResizeWorldIcon 	        = 1.0,
+        
         icon 				= HCChargingunitoff,
     }
 
@@ -117,7 +117,7 @@ item HCCopymachine
         Type    			= Normal,
         DisplayName         		= Copy Machine,
         icon 				= HCCopymachine,
-        ResizeWorldIcon 	        = 1.0,
+        
     } 
 
 item HCPrinter
@@ -710,7 +710,6 @@ item HCComputerPSU
         Type                = Normal,
         DisplayName                 = Copy Machine With Generator,
         icon                 = HCCopymachineGen,
-        ResizeWorldIcon             = 1.0,
     }
 
 /************************RECIPES************************/

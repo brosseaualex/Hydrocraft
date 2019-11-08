@@ -147,7 +147,7 @@ item HCWoodenbuckethoney
         Type    			= Normal,
         DisplayName         		= Wooden Bucket with Honey,
         icon 				= HCWoodenbuckethoney,
-	ResizeWorldIcon 		= 2.0,
+	
     }
 
 
@@ -189,7 +189,7 @@ item HCBeehive1
         Type            		= Normal,
         DisplayName     		= Inactive Beehive (Stage 1),
         Icon            		= HCBeehive1,
-        ResizeWorldIcon 		= 1.0,
+        
     }
 
 item HCBeehive2
@@ -198,7 +198,7 @@ item HCBeehive2
         Type            		= Normal,
         DisplayName     		= Inactive Beehive (Stage 2),
         Icon            		= HCBeehive2,
-        ResizeWorldIcon 		= 1.0,
+        
     }
 
 item HCBeehive3
@@ -207,7 +207,7 @@ item HCBeehive3
         Type            		= Normal,
         DisplayName     		= Inactive Beehive (Stage 3),
         Icon            		= HCBeehive3,
-        ResizeWorldIcon 		= 1.0,
+        
     }
 
 item HCBeehive1Active
@@ -216,7 +216,7 @@ item HCBeehive1Active
         Type            		= Normal,
         DisplayName     		= Beehive (Stage 1),
         Icon            		= HCBeehive1Active,
-        ResizeWorldIcon 		= 1.0,
+        
     }
 
 item HCBeehive2Active
@@ -225,7 +225,7 @@ item HCBeehive2Active
         Type            		= Normal,
         DisplayName     		= Beehive (Stage 2),
         Icon            		= HCBeehive2Active,
-        ResizeWorldIcon 		= 1.0,
+        
     }
 
 item HCBeehive3Active
@@ -234,7 +234,7 @@ item HCBeehive3Active
         Type            		= Normal,
         DisplayName     		= Beehive (Stage 3),
         Icon            		= HCBeehive3Active,
-        ResizeWorldIcon 		= 1.0,
+        
     }
 
 item HCBeehive1full
@@ -243,7 +243,7 @@ item HCBeehive1full
         Type            		= Normal,
         DisplayName     		= Beehive with Honey (Stage 1),
         Icon            		= HCBeehive1full,
-        ResizeWorldIcon 		= 1.0,
+        
     }
 
 item HCBeehive2full
@@ -252,7 +252,7 @@ item HCBeehive2full
         Type            		= Normal,
         DisplayName     		= Beehive with Honey (Stage 2),
         Icon            		= HCBeehive2full,
-        ResizeWorldIcon 		= 1.0,
+        
     }
 
 item HCBeehive3full
@@ -261,7 +261,7 @@ item HCBeehive3full
         Type            		= Normal,
         DisplayName     		= Beehive with Honey (Stage 3),
         Icon            		= HCBeehive3full,
-        ResizeWorldIcon 		= 1.0,
+        
     }
 		
 /************************RECIPES************************/

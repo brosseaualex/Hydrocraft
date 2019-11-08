@@ -15,7 +15,7 @@ item HCPropcone
         Type    		= Normal,
         DisplayName         	= Prop Cone,
         icon 			= HCPropcone,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCLogstackinfinate
@@ -24,7 +24,7 @@ item HCLogstackinfinate
         Type   			= Normal,
         DisplayName         	= Infinate Log Stack,
         icon 			= HCLogstack4,
-	ResizeWorldIcon 	= 0.5,
+	
     }
 
 item HCBoulder
@@ -33,7 +33,7 @@ item HCBoulder
         Type    		= Normal,
         DisplayName         	= Boulders,
         icon 			= HCBoulder,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCBoulder2
@@ -42,7 +42,7 @@ item HCBoulder2
         Type    		= Normal,
         DisplayName         	= Large Boulder,
         icon 			= HCBoulder2,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCVeincopper
@@ -51,7 +51,7 @@ item HCVeincopper
         Type    		= Normal,
         DisplayName         	= Copper Vein,
         icon 			= HCVein,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCVeintin
@@ -60,7 +60,7 @@ item HCVeintin
         Type    		= Normal,
         DisplayName         	= Tin Vein,
         icon 			= HCVein,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 
@@ -70,7 +70,7 @@ item HCVeiniron
         Type    		= Normal,
         DisplayName         	= Iron Vein,
         icon 			= HCVein,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCVeinlead
@@ -79,7 +79,7 @@ item HCVeinlead
         Type    		= Normal,
         DisplayName         	= Lead Vein,
         icon 			= HCVein,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCVeinbauxite
@@ -88,7 +88,7 @@ item HCVeinbauxite
         Type    		= Normal,
         DisplayName         	= Bauxite Vein,
         icon 			= HCVein,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCVeinsilver
@@ -97,7 +97,7 @@ item HCVeinsilver
         Type    		= Normal,
         DisplayName         	= Silver Vein,
         icon 			= HCVein,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCVeingold
@@ -106,7 +106,7 @@ item HCVeingold
         Type    		= Normal,
         DisplayName         	= Gold Vein,
         icon 			= HCVein,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCVeinplatinum
@@ -115,7 +115,7 @@ item HCVeinplatinum
         Type    		= Normal,
         DisplayName         	= Platinum Vein,
         icon 			= HCVein,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCVeinmagnetite
@@ -124,7 +124,7 @@ item HCVeinmagnetite
         Type    		= Normal,
         DisplayName         	= Magnetite Vein,
         icon 			= HCVein,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCVeintitanium
@@ -133,7 +133,7 @@ item HCVeintitanium
         Type    		= Normal,
         DisplayName         	= Titanium Vein,
         icon 			= HCVein,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCVeinzinc
@@ -142,7 +142,7 @@ item HCVeinzinc
         Type    		= Normal,
         DisplayName         	= Sphalerite Vein,
         icon 			= HCVein,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCVeinnickel
@@ -151,7 +151,7 @@ item HCVeinnickel
         Type    		= Normal,
         DisplayName         	= Pentlandite Vein,
         icon 			= HCVein,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCVeinuranium
@@ -160,7 +160,7 @@ item HCVeinuranium
         Type    		= Normal,
         DisplayName         	= Uranium Vein,
         icon 			= HCVein,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCVeinthorium
@@ -169,7 +169,7 @@ item HCVeinthorium
         Type    		= Normal,
         DisplayName         	= Thorium Vein,
         icon 			= HCVein,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 /************************RECIPES************************/

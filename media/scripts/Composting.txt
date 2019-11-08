@@ -14,7 +14,7 @@ module Hydrocraft
     Type        	= Normal,
     DisplayName    	= Compost Bin,
     icon        	= HCCompostbin,
-    ResizeWorldIcon 	= 1.0,
+    
     }
 
   item HCCompost
@@ -31,7 +31,7 @@ module Hydrocraft
     Type        	= Normal,
     DisplayName    	= Composter,
     icon        	= HCComposter,
-    ResizeWorldIcon 	= 1.0,
+    
     }
 
   item HCComposter2
@@ -40,7 +40,7 @@ module Hydrocraft
     Type        	= Normal,
     DisplayName    	= Spirulina Composter,
     icon        	= HCComposter2,
-    ResizeWorldIcon 	= 1.0,
+    
     }
 
 

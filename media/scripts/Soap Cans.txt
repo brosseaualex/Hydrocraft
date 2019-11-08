@@ -14,7 +14,7 @@ item HCDetergentempty
 	Weight			=	0.1,
 	CanStoreWater		=	TRUE,
         Type			=	Drainable,
-	ResizeWorldIcon 	=       2.0,
+	
 	ReplaceOnUseOn		=	WaterSource-HCDetergentwater,
         DisplayName		=	Empty Liquid Soap Can,
 	Icon			=	HCDetergentempty,
@@ -27,7 +27,7 @@ item HCDetergent
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Liquid Soap,
 	Icon				=	HCDetergent,
 	}
@@ -38,7 +38,7 @@ item HCDetergentammonia
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Liquid Soap Can With Ammonia,
 	Icon				=	HCDetergentammonia,
 	}
@@ -49,7 +49,7 @@ item HCDetergentbiodiesel
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Liquid Soap Can With Biodiesel,
 	Icon				=	HCDetergentbiodiesel,
 	}
@@ -60,7 +60,7 @@ item HCDetergentcoppersulfatesolution
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Liquid Soap Can With Copper Sulfate Solution,
 	Icon				=	HCDetergentcoppersulfatesolution,
 	}
@@ -73,7 +73,7 @@ item HCDetergenth2o2
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Liquid Soap Can With Hydrogen Peroxide,
 	Icon				=	HCDetergenth2o2,
 	}
@@ -86,7 +86,7 @@ item HCDetergentlime
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Liquid Soap Can With Milk of Lime,
 	Icon				=	HCDetergentlime,
 	}
@@ -97,7 +97,7 @@ item HCDetergentlye
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Liquid Soap Can With Lye,
 	Icon				=	HCDetergentlye,
 	}
@@ -108,7 +108,7 @@ item HCDetergentmethanol
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Liquid Soap Can With Methanol,
 	Icon				=	HCDetergentmethanol,
 	}
@@ -121,7 +121,7 @@ item HCDetergentmuriaticacid
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Liquid Soap Can With Muriatic Acid,
 	Icon				=	HCDetergentmuriaticacid,
 	}
@@ -132,7 +132,7 @@ item HCDetergentnickelsulfatesolution
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Liquid Soap Can With Nickel Sulfate Solution,
 	Icon				=	HCDetergentnickelsulfatesolution,
 	}
@@ -143,7 +143,7 @@ item HCDetergentnitricacid
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Liquid Soap Can With Nitric Acid,
 	Icon				=	HCDetergentnitricacid,
 	}
@@ -154,7 +154,7 @@ item HCDetergentoil
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Liquid Soap Can With Oil,
 	Icon				=	HCDetergentoil,
 	}
@@ -167,7 +167,7 @@ item HCDetergentrose
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Liquid Soap Can With Rose Tanning Oil,
 	Icon				=	HCDetergentrose,
 	}
@@ -178,7 +178,7 @@ item HCDetergentsulfuricacid
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Liquid Soap Can With Sulfuric Acid,
 	Icon				=	HCDetergentsulfuricacid,
 	}
@@ -189,7 +189,7 @@ item HCDetergenttan
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Liquid Soap Can With Tannin,
 	Icon				=	HCDetergenttan,
 	}
@@ -200,7 +200,7 @@ item HCDetergentvegoil
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Liquid Soap Can With Vegetable Oil,
 	Icon				=	HCDetergentvegoil,
 	}
@@ -216,7 +216,7 @@ item HCDetergentgrape
 	DisplayName			=	Liquid Soap Can With Grape Juice,
 	ReplaceOnUse		        =	HCDetergentempty,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	Icon				=	HCDetergentgrape,
 	}
 
@@ -230,7 +230,7 @@ item HCDetergenthoney
 	HungerChange			=	-105,
 	ReplaceOnUse		        =	HCDetergentempty,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Liquid Soap Can With Honey,
 	Icon				=	HCDetergenthoney,
 	}
@@ -246,7 +246,7 @@ item HCDetergentmilk
 	DaysFresh 			=	250,
 	ReplaceOnDeplete	        =	HCDetergentempty,
 	ReplaceOnUse		        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	Icon				=	HCDetergentmilk,
 	}
 
@@ -260,7 +260,7 @@ item HCDetergentpoison
 	PoisonPower 		        =       100,
 	ReplaceOnUse		        =	HCDetergentempty,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	Icon				=	HCDetergentpoison,
 	}
 
@@ -276,7 +276,7 @@ item HCDetergentwater
 	DisplayName		=	Liquid Soap Can Water,
 	ReplaceOnDeplete	=	HCDetergentempty,
 	ReplaceOnUseOn		=	WaterSource-HCDetergentwater,
-	ResizeWorldIcon 	=       2.0,
+	
 	Icon			=	HCDetergentwater,
 	RainFactor 		= 	1,
 	}

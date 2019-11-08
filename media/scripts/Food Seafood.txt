@@ -736,7 +736,7 @@ item HCWoodenbucketfishoil
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Fish Oil,
         icon 			= HCWoodenbucketfishoil,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCFishoil

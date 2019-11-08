@@ -24,7 +24,7 @@ item HCBeaglemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Beagle (Male),
 	Icon				=	HCBeaglemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCBeaglefemale
@@ -34,7 +34,7 @@ item HCBeaglefemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Beagle (Female),
 	Icon				=	HCBeaglefemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCBeagledead
@@ -43,7 +43,7 @@ item HCBeagledead
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead Beagle,
 	Icon				=	HCBeagledead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCBernesemale
@@ -53,7 +53,7 @@ item HCBernesemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Bernese Mountain Dog (Male),
 	Icon				=	HCBernesemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCBernesefemale
@@ -63,7 +63,7 @@ item HCBernesefemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Bernese Mountain Dog (Female),
 	Icon				=	HCBernesefemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCBernesedead
@@ -72,7 +72,7 @@ item HCBernesedead
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead Bernese Mountain Dog,
 	Icon				=	HCBernesedead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCBordercolliemale
@@ -82,7 +82,7 @@ item HCBordercolliemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Border Collie (Male),
 	Icon				=	HCBordercolliemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCBordercolliefemale
@@ -92,7 +92,7 @@ item HCBordercolliefemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Border Collie (Female),
 	Icon				=	HCBordercolliefemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCBordercolliedead
@@ -101,7 +101,7 @@ item HCBordercolliedead
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead Border Collie,
 	Icon				=	HCBordercolliedead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCBoxermale
@@ -111,7 +111,7 @@ item HCBoxermale
 	Capacity             		= 	0,
 	DisplayName 			= 	Boxer (Male),
 	Icon				=	HCBoxermale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCBoxerfemale
@@ -121,7 +121,7 @@ item HCBoxerfemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Boxer (Female),
 	Icon				=	HCBoxerfemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCBoxerdead
@@ -130,7 +130,7 @@ item HCBoxerdead
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead Boxer,
 	Icon				=	HCBoxerdead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCColliemale
@@ -140,7 +140,7 @@ item HCColliemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Collie (Male),
 	Icon				=	HCColliemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCColliefemale
@@ -150,7 +150,7 @@ item HCColliefemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Collie (Female),
 	Icon				=	HCColliefemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCColliedead
@@ -159,7 +159,7 @@ item HCColliedead
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead Collie,
 	Icon				=	HCColliedead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCCorgimale
@@ -169,7 +169,7 @@ item HCCorgimale
 	Capacity             		= 	0,
 	DisplayName 			= 	Corgi (Male),
 	Icon				=	HCCorgimale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCCorgifemale
@@ -179,7 +179,7 @@ item HCCorgifemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Corgi (Female),
 	Icon				=	HCCorgifemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCCorgidead
@@ -188,7 +188,7 @@ item HCCorgidead
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead Corgi,
 	Icon				=	HCCorgidead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCDachshundmale
@@ -198,7 +198,7 @@ item HCDachshundmale
 	Capacity             		= 	0,
 	DisplayName 			= 	Dachshund (Male),
 	Icon				=	HCDachshundmale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCDachshundfemale
@@ -208,7 +208,7 @@ item HCDachshundfemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Dachshund (Female),
 	Icon				=	HCDachshundfemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCDachshunddead
@@ -217,7 +217,7 @@ item HCDachshunddead
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead Dachshund,
 	Icon				=	HCDachshunddead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCDobermanmale
@@ -227,7 +227,7 @@ item HCDobermanmale
 	Capacity             		= 	0,
 	DisplayName 			= 	Doberman (Male),
 	Icon				=	HCDobermanmale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCDobermanfemale
@@ -237,7 +237,7 @@ item HCDobermanfemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Doberman (Female),
 	Icon				=	HCDobermanfemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCDobermandead
@@ -246,7 +246,7 @@ item HCDobermandead
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead Doberman,
 	Icon				=	HCDobermandead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCGermanshepherdmale
@@ -256,7 +256,7 @@ item HCGermanshepherdmale
 	Capacity             		= 	0,
 	DisplayName 			= 	German Shepherd (Male),
 	Icon				=	HCGermanshepherdmale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCGermanshepherdfemale
@@ -266,7 +266,7 @@ item HCGermanshepherdfemale
 	Capacity             		= 	0,
 	DisplayName 			= 	German Shepherd (Female),
 	Icon				=	HCGermanshepherdfemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCGermanshepherddead
@@ -275,7 +275,7 @@ item HCGermanshepherddead
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead German Shepherd,
 	Icon				=	HCGermanshepherddead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCGreatdanemale
@@ -285,7 +285,7 @@ item HCGreatdanemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Great Dane (Male),
 	Icon				=	HCGreatdanemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCGreatdanefemale
@@ -295,7 +295,7 @@ item HCGreatdanefemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Great Dane (Female),
 	Icon				=	HCGreatdanefemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCGreatdanedead
@@ -304,7 +304,7 @@ item HCGreatdanedead
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead Great Dane,
 	Icon				=	HCGreatdanedead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCGoldenmale
@@ -314,7 +314,7 @@ item HCGoldenmale
 	Capacity             		= 	0,
 	DisplayName 			= 	Golden Retriever (Male),
 	Icon				=	HCGoldenmale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCGoldenfemale
@@ -324,7 +324,7 @@ item HCGoldenfemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Golden Retriever (Female),
 	Icon				=	HCGoldenfemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCGoldendead
@@ -333,7 +333,7 @@ item HCGoldendead
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead Golden Retriever,
 	Icon				=	HCGoldendead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCHeelermale
@@ -343,7 +343,7 @@ item HCHeelermale
 	Capacity             		= 	0,
 	DisplayName 			= 	Heeler (Male),
 	Icon				=	HCHeelermale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCHeelerfemale
@@ -353,7 +353,7 @@ item HCHeelerfemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Heeler (Female),
 	Icon				=	HCHeelerfemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCHeelerdead
@@ -362,7 +362,7 @@ item HCHeelerdead
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead Heeler,
 	Icon				=	HCHeelerdead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCHuskymale
@@ -372,7 +372,7 @@ item HCHuskymale
 	Capacity             		= 	0,
 	DisplayName 			= 	Husky (Male),
 	Icon				=	HCHuskymale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCHuskyfemale
@@ -382,7 +382,7 @@ item HCHuskyfemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Husky (Female),
 	Icon				=	HCHuskyfemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCHuskydead
@@ -391,7 +391,7 @@ item HCHuskydead
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead Husky,
 	Icon				=	HCHuskydead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCIrishsettermale
@@ -401,7 +401,7 @@ item HCIrishsettermale
 	Capacity             		= 	0,
 	DisplayName 			= 	Irish Setter (Male),
 	Icon				=	HCIrishsettermale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCIrishsetterfemale
@@ -411,7 +411,7 @@ item HCIrishsetterfemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Irish Setter (Female),
 	Icon				=	HCIrishsetterfemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCIrishsetterdead
@@ -420,7 +420,7 @@ item HCIrishsetterdead
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead Irish Setter,
 	Icon				=	HCIrishsetterdead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCLabradormale
@@ -430,7 +430,7 @@ item HCLabradormale
 	Capacity             		= 	0,
 	DisplayName 			= 	Labrador (Male),
 	Icon				=	HCLabradormale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCLabradorfemale
@@ -440,7 +440,7 @@ item HCLabradorfemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Labrador (Female),
 	Icon				=	HCLabradorfemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCLabradordead
@@ -449,7 +449,7 @@ item HCLabradordead
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead Labrador,
 	Icon				=	HCLabradordead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCPitbullmale
@@ -459,7 +459,7 @@ item HCPitbullmale
 	Capacity             		= 	0,
 	DisplayName 			= 	Pitbull (Male),
 	Icon				=	HCPitbullmale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCPitbullfemale
@@ -469,7 +469,7 @@ item HCPitbullfemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Pitbull (Female),
 	Icon				=	HCPitbullfemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCPitbulldead
@@ -478,7 +478,7 @@ item HCPitbulldead
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead Pitbull,
 	Icon				=	HCPitbulldead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCRottweilermale
@@ -488,7 +488,7 @@ item HCRottweilermale
 	Capacity             		= 	0,
 	DisplayName 			= 	Rottweiler (Male),
 	Icon				=	HCRottweilermale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCRottweilerfemale
@@ -498,7 +498,7 @@ item HCRottweilerfemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Rottweiler (Female),
 	Icon				=	HCRottweilerfemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCRottweilerdead
@@ -507,7 +507,7 @@ item HCRottweilerdead
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead Rottweiler,
 	Icon				=	HCRottweilerdead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCShibainumale
@@ -517,7 +517,7 @@ item HCShibainumale
 	Capacity             		= 	0,
 	DisplayName 			= 	Shiba Inu (Male),
 	Icon				=	HCShibainumale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCShibainufemale
@@ -527,7 +527,7 @@ item HCShibainufemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Shiba Inu (Female),
 	Icon				=	HCShibainufemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCShibainudead
@@ -537,7 +537,7 @@ item HCShibainudead
 	Capacity             		= 	0,
 	DisplayName 			= 	Dead Shiba Inu,
 	Icon				=	HCShibainudead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCHuskymalepack
@@ -548,7 +548,7 @@ item HCHuskymalepack
 	Capacity             		= 44,
 	DisplayName             	= Pack Husky (Male),
 	Icon				= HCHuskymalepack,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCHuskyfemalepack
@@ -559,7 +559,7 @@ item HCHuskyfemalepack
 	Capacity             		= 44,
 	DisplayName             	= Pack Husky (Female),
 	Icon				= HCHuskyfemalepack,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCHuskymalepack2
@@ -570,7 +570,7 @@ item HCHuskymalepack2
 	Capacity             		= 50,
 	DisplayName             	= Pack Husky (Male),
 	Icon				= HCHuskymalepack2,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCHuskyfemalepack2
@@ -581,7 +581,7 @@ item HCHuskyfemalepack2
 	Capacity             		= 50,
 	DisplayName             	= Pack Husky (Female),
 	Icon				= HCHuskyfemalepack2,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCBernesemalepack
@@ -592,7 +592,7 @@ item HCBernesemalepack
 	Capacity             		= 44,
 	DisplayName             	= Pack Bernese Mountain Dog (Male),
 	Icon				= HCBernesemalepack,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCBernesefemalepack
@@ -603,7 +603,7 @@ item HCBernesefemalepack
 	Capacity             		= 44,
 	DisplayName             	= Pack Bernese Mountain Dog (Female),
 	Icon				= HCBernesefemalepack,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCBernesemalepack2
@@ -614,7 +614,7 @@ item HCBernesemalepack2
 	Capacity             		= 50,
 	DisplayName             	= Pack Bernese Mountain Dog (Male),
 	Icon				= HCBernesemalepack2,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCBernesefemalepack2
@@ -625,7 +625,7 @@ item HCBernesefemalepack2
 	Capacity             		= 50,
 	DisplayName             	= Pack Bernese Mountain Dog (Female),
 	Icon				= HCBernesefemalepack2,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCGreatdanemalepack
@@ -636,7 +636,7 @@ item HCGreatdanemalepack
 	Capacity             		= 44,
 	DisplayName             	= Pack Great Dane (Male),
 	Icon				= HCGreatdanemalepack,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCGreatdanefemalepack
@@ -647,7 +647,7 @@ item HCGreatdanefemalepack
 	Capacity             		= 44,
 	DisplayName             	= Pack Great Dane (Female),
 	Icon				= HCGreatdanefemalepack,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCGreatdanemalepack2
@@ -658,7 +658,7 @@ item HCGreatdanemalepack2
 	Capacity             		= 50,
 	DisplayName             	= Pack Great Dane (Male),
 	Icon				= HCGreatdanemalepack2,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCGreatdanefemalepack2
@@ -669,7 +669,7 @@ item HCGreatdanefemalepack2
 	Capacity             		= 50,
 	DisplayName             	= Pack Great Dane (Female),
 	Icon				= HCGreatdanefemalepack2,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCGermanshepherdmalepack
@@ -680,7 +680,7 @@ item HCGermanshepherdmalepack
 	Capacity             		= 44,
 	DisplayName             	= Pack German Shepherd (Male),
 	Icon				= HCGermanshepherdmalepack,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCGermanshepherdfemalepack
@@ -691,7 +691,7 @@ item HCGermanshepherdfemalepack
 	Capacity             		= 44,
 	DisplayName             	= Pack German Shepherd (Female),
 	Icon				= HCGermanshepherdfemalepack,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCGermanshepherdmalepack2
@@ -702,7 +702,7 @@ item HCGermanshepherdmalepack2
 	Capacity             		= 50,
 	DisplayName             	= Pack German Shepherd (Male),
 	Icon				= HCGermanshepherdmalepack2,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCGermanshepherdfemalepack2
@@ -713,7 +713,7 @@ item HCGermanshepherdfemalepack2
 	Capacity             		= 50,
 	DisplayName             	= Pack German Shepherd (Female),
 	Icon				= HCGermanshepherdfemalepack2,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCLabradormalepack
@@ -724,7 +724,7 @@ item HCLabradormalepack
 	Capacity             		= 44,
 	DisplayName             	= Pack Labrador (Male),
 	Icon				= HCLabradormalepack,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCLabradorfemalepack
@@ -735,7 +735,7 @@ item HCLabradorfemalepack
 	Capacity             		= 44,
 	DisplayName             	= Pack Labrador(Female),
 	Icon				= HCLabradorfemalepack,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCLabradormalepack2
@@ -746,7 +746,7 @@ item HCLabradormalepack2
 	Capacity             		= 50,
 	DisplayName             	= Pack Labrador (Male),
 	Icon				= HCLabradormalepack2,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCLabradorfemalepack2
@@ -757,7 +757,7 @@ item HCLabradorfemalepack2
 	Capacity             		= 50,
 	DisplayName             	= Pack Labrador (Female),
 	Icon				= HCLabradorfemalepack2,
-	ResizeWorldIcon 		= 1.0,
+	
    }
 
 item HCPitbullmaleinjured
@@ -766,7 +766,7 @@ item HCPitbullmaleinjured
 	Type 				= 	Normal,
 	DisplayName 			= 	Injured Pitbull (Male),
 	Icon				=	HCPitbullmaleinjured,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCPitbullfemaleinjured
@@ -775,7 +775,7 @@ item HCPitbullfemaleinjured
 	Type 				= 	Normal,
 	DisplayName 			= 	Injured Pitbull (Female),
 	Icon				=	HCPitbullfemaleinjured,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDobermanmaleinjured
@@ -784,7 +784,7 @@ item HCDobermanmaleinjured
 	Type 				= 	Normal,
 	DisplayName 			= 	Injured Doberman (Male),
 	Icon				=	HCDobermanmaleinjured,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDobermanfemaleinjured
@@ -793,7 +793,7 @@ item HCDobermanfemaleinjured
 	Type 				= 	Normal,
 	DisplayName 			= 	Injured Doberman (Female),
 	Icon				=	HCDobermanfemaleinjured,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 /************************WEAPONS************************/
@@ -831,7 +831,7 @@ item HCPitbullmalewar
         	IdleAnim			=	Idle_Weapon2,
 		BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
-		ResizeWorldIcon 		= 	2.0,
+		
 	}
 	
 item HCPitbullfemalewar
@@ -867,7 +867,7 @@ item HCPitbullfemalewar
         	IdleAnim			=	Idle_Weapon2,
 		BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
-		ResizeWorldIcon 		= 	2.0,
+		
 	}
 
 item HCDobermanmalewar
@@ -903,7 +903,7 @@ item HCDobermanmalewar
         	IdleAnim			=	Idle_Weapon2,
 		BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
-		ResizeWorldIcon 		= 	2.0,
+		
 	}
 
 item HCDobermanfemalewar
@@ -939,7 +939,7 @@ item HCDobermanfemalewar
         	IdleAnim			=	Idle_Weapon2,
 		BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
-		ResizeWorldIcon 		= 	2.0,
+		
 	}
 	
 /************************RECIPES************************/

@@ -16,7 +16,6 @@ item HCGardenbench
 	Capacity             	= 50,
         DisplayName         	= Gardening Workbench,
         icon 			= HCGardenbench,
-		ResizeWorldIcon 	= 1.0,
     }
 
 item HCGardenhose
@@ -27,7 +26,7 @@ item HCGardenhose
         icon 				= HCGardenhose,
 	UseDelta 			= 0.1,
 	UseWhileEquipped 		= false,
-	ResizeWorldIcon 		= 1.0,
+	
     }
 
 item HCGardenapron
@@ -116,7 +115,6 @@ item HCLawnmower
         Type    			= Normal,
         DisplayName         		= Lawnmower,
         icon 				= HCLawnmower,
-	ResizeWorldIcon 		= 1.8,
     }
 
 item TrellisKit

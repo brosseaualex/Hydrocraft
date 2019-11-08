@@ -13,7 +13,7 @@ item HCSmoker
         Weight    		= 20,
         Type    		= Normal,
         DisplayName         	= Smoker,
-        ResizeWorldIcon 	= 1.0,
+        
         icon 			= HCSmoker,
     }
 
@@ -23,7 +23,7 @@ item HCSmokerfull
 	Type				=	Normal,
 	DisplayName			=	Smoker with Fuel,
 	Icon				=	HCSmokerfull,
-	ResizeWorldIcon 		= 	1.0,	
+		
 	}
 
 item HCSmokerfull2
@@ -32,7 +32,7 @@ item HCSmokerfull2
 	Type				=	Normal,
 	DisplayName			=	Smoker with Fuel,
 	Icon				=	HCSmokerfull,
-	ResizeWorldIcon 		= 	1.0,	
+		
 	}
 
 item HCSmokedfishfillet

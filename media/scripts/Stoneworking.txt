@@ -14,7 +14,7 @@ item HCStonepilebox
         Type   			= Normal,
         DisplayName         	= Pallet of Stones,
         icon 			= HCStonepilebox,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCMortarandpestle
@@ -56,7 +56,7 @@ item HCTombstone
         Type    		= Normal,
         DisplayName         	= Tombstone,
         icon 			= HCTombstone,
-	ResizeWorldIcon 	= 1.0,
+	
     } 
 
 item HCGrave
@@ -65,7 +65,7 @@ item HCGrave
         Type    		= Normal,
         DisplayName         	= Grave,
         icon 			= HCGrave,
-	ResizeWorldIcon 	= 1.0,
+	
     } 
 
 item HCRunestone
@@ -74,7 +74,7 @@ item HCRunestone
         Type    		= Normal,
         DisplayName         	= Rune Stone,
         icon 			= HCRunestone,
-	ResizeWorldIcon 	= 2.0,
+	
     } 
 
 item HCObelisk
@@ -83,7 +83,7 @@ item HCObelisk
         Type    		= Normal,
         DisplayName         	= Obelisk,
         icon 			= HCObelisk,
-	ResizeWorldIcon 	= 1.0,
+	
     } 
 
 item HCTarkiln
@@ -92,7 +92,7 @@ item HCTarkiln
         Type    		= Normal,
         DisplayName         	= Tar Kiln,
         icon 			= HCTarkiln,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCTarkiln2
@@ -101,7 +101,7 @@ item HCTarkiln2
         Type    		= Normal,
         DisplayName         	= Tar Kiln,
         icon 			= HCTarkiln,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCWell
@@ -112,7 +112,7 @@ item HCWell
         DisplayName         	= Empty Well,
 	ReplaceOnUseOn		= WaterSource-HCWellfull,
         icon 			= HCWell,
-	ResizeWorldIcon 	= 1.0,
+	
 	RainFactor 		= 0.01,
     }
 
@@ -128,7 +128,7 @@ item HCWellfull
 	ReplaceOnDeplete	=	HCWell,
 	ReplaceOnUseOn		=	WaterSource-HCWellfull,
 	Icon			=	HCWell,
-	ResizeWorldIcon 	= 	1.0,
+	
 	RainFactor 		= 	0.01,
     }
 
@@ -138,7 +138,7 @@ item HCOilpress
         Type    		= Normal,
         DisplayName         	= Oil Press,
         icon 			= HCOilpress,
-		ResizeWorldIcon 	= 1.0,
+		
     } 
 
 item HCOilpress2
@@ -147,7 +147,7 @@ item HCOilpress2
         Type    		= Normal,
         DisplayName         	= Oil Press,
         icon 			= HCOilpress,
-		ResizeWorldIcon 	= 1.0,
+		
     } 
 
 item HCStonewheel
@@ -156,7 +156,7 @@ item HCStonewheel
         Type    		= Normal,
         DisplayName         	= Stone Wheel,
         icon 			= HCStonewheel,
-		ResizeWorldIcon 	= 1.0,
+		
     } 
 
 item HCGrindstone
@@ -165,7 +165,7 @@ item HCGrindstone
         Type    		= Normal,
         DisplayName         	= Grindstone,
         icon 			= HCGrindstone,
-		ResizeWorldIcon 	= 1.0,
+		
     } 
 
 item HCGrindstone2
@@ -174,7 +174,7 @@ item HCGrindstone2
         Type    		= Normal,
         DisplayName         	= Grindstone,
         icon 			= HCGrindstone,
-		ResizeWorldIcon 	= 1.0,
+		
     } 
 
 item HCStampmill
@@ -182,7 +182,7 @@ item HCStampmill
         Weight    		= 20,
         Type    		= Normal,
         DisplayName         	= Stamp Mill,
-        ResizeWorldIcon 	= 2.0,
+        
         icon 			= HCStampmill,
     }
 
@@ -191,7 +191,7 @@ item HCStampmillcrank
         Weight    		= 20,
         Type    		= Normal,
         DisplayName         	= Stamp Mill with Crank,
-        ResizeWorldIcon 	= 2.0,
+        
         icon 			= HCStampmillcrank,
     }
 
@@ -200,7 +200,7 @@ item HCStampmillsteam
         Weight    		= 20,
         Type    		= Normal,
         DisplayName         	= Stamp Mill with Steam Machine,
-        ResizeWorldIcon 	= 1.0,
+        
         icon 			= HCStampmillsteam,
     }
 
@@ -209,7 +209,7 @@ item HCStampmillgen
         Weight    		= 20,
         Type    		= Normal,
         DisplayName         	= Stamp Mill with Generator,
-        ResizeWorldIcon 	= 2.0,
+        
         icon 			= HCStampmillgen,
     }
 
@@ -222,7 +222,7 @@ item HCWoodenbucketgravel
 	DisplayName		=	Wooden Bucket with Gravel,
 	ReplaceOnDeplete	=	HCWoodenbucket,
 	Icon			=	HCWoodenbucketgravel,
-	ResizeWorldIcon 	= 	2.0,
+	
 	}
 
 item HCWoodenbucketsand
@@ -234,7 +234,7 @@ item HCWoodenbucketsand
 	DisplayName		=	Wooden Bucket with Sand,
 	ReplaceOnDeplete	=	HCWoodenbucket,
 	Icon			=	HCWoodenbucketsand,
-	ResizeWorldIcon 	= 	2.0,
+	
 	}
 
 item HCWoodenbucketconcrete
@@ -246,7 +246,7 @@ item HCWoodenbucketconcrete
 	DisplayName		=	Wooden Bucket with Concrete,
 	ReplaceOnDeplete	=	HCWoodenbucket,
 	Icon			=	HCWoodenbucketconcrete,
-	ResizeWorldIcon 	= 	2.0,
+	
 	}
 
 item HCCellar
@@ -257,7 +257,7 @@ item HCCellar
 	Capacity             		= 800,
         DisplayName         		= Cellar,
         icon 				= HCCellar,
-	ResizeWorldIcon 		= 2.0,
+	
 	RequiresEquippedBothHands 	= true,
     }
 
@@ -269,7 +269,7 @@ item HCCellar2
 	Capacity             		= 800,
         DisplayName         		= Cellar,
         icon 				= HCCellar,
-	ResizeWorldIcon 		= 2.0,
+	
 	RequiresEquippedBothHands 	= true,
     }
 
@@ -279,7 +279,7 @@ item HCAnvilstone
         Type    		= Normal,
         DisplayName         	= Stone Anvil,
         icon 			= HCAnvilstone,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCAnvilstone2
@@ -288,7 +288,7 @@ item HCAnvilstone2
         Type    		= Normal,
         DisplayName         	= Stone Anvil,
         icon 			= HCAnvilstone,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCVenus

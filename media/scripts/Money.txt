@@ -239,7 +239,7 @@ item HCSlotmachine
         Type			=	Normal,
         DisplayName		=	Slot Machine,
 	Icon			=	HCSlotmachine,
-	ResizeWorldIcon 	= 	2.0,
+	
 	}
 
 item HCSlotmachine2
@@ -248,7 +248,7 @@ item HCSlotmachine2
         Type    		=	Normal,
         DisplayName         	= 	Slot Machine,
         icon 			= 	HCSlotmachine,
-	ResizeWorldIcon 	= 	2.0,
+	
     }
 
 item HCPokerchip
@@ -265,7 +265,7 @@ item HCRoulette
         Type			=	Normal,
         DisplayName		=	Roulette Table,
 	Icon			=	HCRoulette,
-	ResizeWorldIcon 	= 	2.0,
+	
 	}
 
 item HCRoulette2
@@ -274,7 +274,7 @@ item HCRoulette2
         Type    		=	Normal,
         DisplayName         	= 	Roulette Table,
         icon 			= 	HCRoulette,
-	ResizeWorldIcon 	= 	2.0,
+	
     }
 
 

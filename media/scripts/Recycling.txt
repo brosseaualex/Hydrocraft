@@ -54,7 +54,7 @@ item HCPVCpipebox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of PVC Pipes,
         Icon 			= 	HCPVCpipebox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCChickenwire

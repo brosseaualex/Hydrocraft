@@ -20,7 +20,7 @@ item HCWineglassfull
 	ReplaceOnUse		=	HCWineglass,
 	Icon			=	HCWineglassfull,
 	CustomContextMenu 	= 	Drink,
-	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	CustomEatSound 		= 	DrinkingFromBottle,
 	FoodType    		=   	NoExplicit,
 	Carbohydrates 		= 	5.2,
         Proteins 		= 	0,
@@ -41,7 +41,7 @@ item HCWineglassfull2
 	ReplaceOnUse		=	HCWineglass,
 	Icon			=	HCWineglassfull2,
 	CustomContextMenu 	= 	Drink,
-	CustomEatSound 		= 	PZ_DrinkingFromBottle,
+	CustomEatSound 		= 	DrinkingFromBottle,
 	FoodType    		=   	NoExplicit,
 	Carbohydrates 		= 	5.2,
         Proteins 		= 	0,
@@ -56,7 +56,7 @@ item HCWoodenbucketgrape
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Grape Juice,
         icon 			= HCWoodenbucketgrape,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCWoodenbucketgrapegreen
@@ -65,7 +65,7 @@ item HCWoodenbucketgrapegreen
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with White Grape Juice,
         icon 			= HCWoodenbucketgrapegreen,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCBarrelgrape
@@ -74,7 +74,7 @@ item HCBarrelgrape
         Type    		= Normal,
         DisplayName         	= Barrel of Red Grape Juice,
         icon 			= HCWinebarrel,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCBarrelgrapegreen
@@ -83,7 +83,7 @@ item HCBarrelgrapegreen
         Type    		= Normal,
         DisplayName         	= Barrel of White Grape Juice,
         icon 			= HCWinebarrel,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCBarrelwine
@@ -92,7 +92,7 @@ item HCBarrelwine
         Type    		= Normal,
         DisplayName         	= Barrel of Red Wine,
         icon 			= HCWinebarrel,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCBarrelwinewhite
@@ -101,7 +101,7 @@ item HCBarrelwinewhite
         Type    		= Normal,
         DisplayName         	= Barrel of White Wine,
         icon 			= HCWinebarrel,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCBarrelvinegar
@@ -110,7 +110,7 @@ item HCBarrelvinegar
         Type    		= Normal,
         DisplayName         	= Barrel of vinegar,
         icon 			= HCWinebarrel,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCPotofhoneybrew
@@ -149,7 +149,7 @@ item HCBarrelhoney
         DisplayName         		= 	Barrel of Brewed Honey,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCBarrelmead
@@ -159,7 +159,7 @@ item HCBarrelmead
         DisplayName         		= 	Barrel of Mead,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCPotofricemash
@@ -198,7 +198,7 @@ item HCBarrelrice
         DisplayName         		= 	Barrel of Rice Mash,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCBarrelsake
@@ -208,7 +208,7 @@ item HCBarrelsake
         DisplayName         		= 	Barrel of Sake,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 /************************RECIPES************************/	

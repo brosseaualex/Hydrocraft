@@ -15,7 +15,7 @@ item HCMinehole
         Type    		= Normal,
         DisplayName         	= Mine Hole,
         icon 			= HCMinehole,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCMineholeB
@@ -24,7 +24,7 @@ item HCMineholeB
         Type    		= Normal,
         DisplayName         	= Mine Hole,
         icon 			= HCMinehole,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCMinehole2
@@ -33,7 +33,7 @@ item HCMinehole2
         Type    		= Normal,
         DisplayName         	= Mine Hole with Pully,
         icon 			= HCMinehole2,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCMinehole2B
@@ -42,7 +42,7 @@ item HCMinehole2B
         Type    		= Normal,
         DisplayName         	= Mine Hole with Pully,
         icon 			= HCMinehole2,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCDarkmine
@@ -51,7 +51,7 @@ item HCDarkmine
         Type    		= Normal,
         DisplayName         	= Dark Mine,
         icon 			= HCDarkmine,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCDarkmineB
@@ -60,7 +60,7 @@ item HCDarkmineB
         Type    		= Normal,
         DisplayName         	= Dark Mine,
         icon 			= HCDarkmine,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCDarkmine2
@@ -69,7 +69,7 @@ item HCDarkmine2
         Type    		= Normal,
         DisplayName         	= Dark Mine with Pully,
         icon 			= HCDarkmine2,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCDarkmine2B
@@ -78,7 +78,7 @@ item HCDarkmine2B
         Type    		= Normal,
         DisplayName         	= Dark Mine with Pully,
         icon 			= HCDarkmine2,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCDarkmine3
@@ -87,7 +87,7 @@ item HCDarkmine3
         Type    		= Normal,
         DisplayName         	= Dark Mine with Steam Pully,
         icon 			= HCDarkmine3,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCDarkmine3B
@@ -96,7 +96,7 @@ item HCDarkmine3B
         Type    		= Normal,
         DisplayName         	= Dark Mine with Steam Pully,
         icon 			= HCDarkmine3,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCMinecart
@@ -107,7 +107,7 @@ item HCMinecart
 	Capacity             		= 200,
 	DisplayName             	= Mine Cart,
 	Icon				= HCMinecart,
-	ResizeWorldIcon 		= 2.0,
+	
 	RequiresEquippedBothHands 	= true,
    }
 
@@ -117,7 +117,7 @@ item HCQuarrystone
         Type    		= Normal,
         DisplayName         	= Stone Quarry,
         icon 			= HCQuarrystone,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCQuarrystone2
@@ -126,7 +126,7 @@ item HCQuarrystone2
         Type    		= Normal,
         DisplayName         	= Stone Quarry,
         icon 			= HCQuarrystone,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCDirt

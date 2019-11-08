@@ -24,7 +24,7 @@ item HCMedicallab
 	Capacity             	= 50,
         DisplayName         	= Medical Lab,
         icon 			= HCMedicallab,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCStethoscope
@@ -113,7 +113,7 @@ item HCWheelchair
         Type    		= Normal,
         DisplayName     	= Wheelchair,
         icon 			= HCWheelchair,
-	ResizeWorldIcon 	= 2.0,
+	
     } 
 
 item HCGlovebox
@@ -122,7 +122,7 @@ item HCGlovebox
         Type    		= Normal,
         DisplayName     	= Glove Box,
         icon 			= HCGlovebox,
-	ResizeWorldIcon 	= 1.0,
+	
     } 
 
 item HCHearingaid
@@ -246,7 +246,7 @@ item HCAdrenalin
         EnduranceChange			= 10,
         StressChange			= 20,
 	CustomContextMenu 		= Drink,
-	CustomEatSound 			= PZ_DrinkingFromBottle,
+	CustomEatSound 			= DrinkingFromBottle,
 	ReplaceOnUse			= HCEyedropperbottle,
     }
 
@@ -521,7 +521,7 @@ item HCDissectiontable
         Type   			= Normal,
         DisplayName         	= Dissection Table,
         icon 			= HCDissectiontable,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 item HCDissectiontablebody
@@ -530,7 +530,7 @@ item HCDissectiontablebody
         Type   			= Normal,
         DisplayName         	= Dissection Table with Corpse,
         icon 			= HCDissectiontablebody,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 item HCDissectiontabledissected
@@ -539,7 +539,7 @@ item HCDissectiontabledissected
         Type   			= Normal,
         DisplayName         	= Dissection Table with Dissected Corpse,
         icon 			= HCDissectiontabledissected,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 item HCDissectiontablebloody
@@ -548,7 +548,7 @@ item HCDissectiontablebloody
         Type   			= Normal,
         DisplayName         	= Bloody Dissection Table,
         icon 			= HCDissectiontablebloody,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 item HCZedbrain
@@ -636,7 +636,7 @@ item HCMedicalskeletonholder
         Weight    		= 0.7,
         Type    		= Normal,
         DisplayName         	= Medical Skeleton Holder,
-	ResizeWorldIcon 	= 2.0,
+	
         icon 			= HCMedicalskeletonholder,
     }  
 
@@ -645,7 +645,7 @@ item HCMedicalskeletonhooked
         Weight    		= 0.7,
         Type    		= Normal,
         DisplayName         	= Medical Skeleton,
-	ResizeWorldIcon 	= 2.0,
+	
         icon 			= HCMedicalskeletonhooked,
     }  
 
@@ -665,7 +665,6 @@ item HCBodybag
         Capacity            	= 10,
         DisplayName         	= Body Bag,
         Icon                	= HCBodybag,
-	ResizeWorldIcon     	= 1.0,
     }
 
 item HCBandageherb

@@ -552,7 +552,7 @@ item HCTeslamachine
         Weight    		= 2,
         Type    		= Normal,
         DisplayName     	= Van de Graaff Generator,
-        ResizeWorldIcon 	= 2.0,
+        
         icon 			= HCTeslamachine,
     } 
 
@@ -564,7 +564,7 @@ item HCLab
 	Capacity             	= 50,
         DisplayName         	= Laboratory,
         icon 			= HCLab,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 
@@ -573,7 +573,7 @@ item HCLabbig
         Weight    		= 40,
         Type    		= Normal,
         DisplayName     	= Professional Lab,
-        ResizeWorldIcon 	= 2.0,
+        
         icon 			= HCLabbig,
     } 
 	

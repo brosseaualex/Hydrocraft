@@ -14,7 +14,7 @@ item HCCigarettebutt
         Type    			= Normal,
         DisplayName        	= Cigarette Butt,
         icon 				= HCCigarettebutt,
-		ResizeWorldIcon 	= 0.5,
+		
     }
 
 item HCCigarettecarton

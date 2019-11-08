@@ -14,7 +14,6 @@ item HCHelicopterL
 	Capacity             	= 1000,
         DisplayName         	= Helicopter,
         icon 			= HCHelicopterL,
-	ResizeWorldIcon 	= 4.0,
     }
 
 item HCHelicopterR
@@ -24,7 +23,6 @@ item HCHelicopterR
 	Capacity             	= 1000,
         DisplayName         	= Helicopter,
         icon 			= HCHelicopterR,
-	ResizeWorldIcon 	= 4.0,
     }
 
 item HCTicketBF

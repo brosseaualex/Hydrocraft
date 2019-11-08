@@ -212,7 +212,7 @@ item HCBeans
 	DaysTotallyRotten 		=	 	28,
         FoodType    			=   		Vegetables,
         EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	ResizeWorldIcon 		= 		2.0,
+	
         Carbohydrates 			= 		58.5,
         Proteins 			= 		9,
         Lipids 				= 		0.9,
@@ -247,7 +247,7 @@ item HCBeans
 	DaysTotallyRotten 		=	 	28,
         FoodType    			=   		Vegetables,
         EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	ResizeWorldIcon 		= 		2.0,
+	
         Carbohydrates 			= 		58.5,
         Proteins 			= 		9,
         Lipids 				= 		0.9,
@@ -266,7 +266,7 @@ item HCBeans
 	DaysTotallyRotten 		=	 	28,
         FoodType    			=   		Vegetables,
         EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	ResizeWorldIcon 		= 		2.0,
+	
         Carbohydrates 			= 		58.5,
         Proteins 			= 		9,
         Lipids 				= 		0.9,
@@ -285,7 +285,7 @@ item HCBeans
 	DaysTotallyRotten 		=	 	28,
         FoodType    			=   		Vegetables,
         EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	ResizeWorldIcon 		= 		2.0,
+	
         Carbohydrates 			= 		58.5,
         Proteins 			= 		9,
         Lipids 				= 		0.9,
@@ -304,7 +304,7 @@ item HCBeans
 	DaysTotallyRotten 		=	 	28,
         FoodType    			=   		Vegetables,
         EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	ResizeWorldIcon 		= 		2.0,
+	
         Carbohydrates 			= 		58.5,
         Proteins 			= 		9,
         Lipids 				= 		0.9,

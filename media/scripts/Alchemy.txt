@@ -449,7 +449,6 @@ item HCWoodenbucketlye
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Lye,
         icon 			= HCWoodenbucketlye,
-	ResizeWorldIcon 	= 2.0,
     }
 
 item HCNitricacid

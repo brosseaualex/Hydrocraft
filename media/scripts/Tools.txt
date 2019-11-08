@@ -594,7 +594,7 @@ item HCStepladder
         Type    		= Normal,
         DisplayName         	= Step Ladder,
         icon 			= HCStepladder,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCScissorlift
@@ -603,7 +603,7 @@ item HCScissorlift
         Type    		= Normal,
         DisplayName         	= Scissor Lift,
         icon 			= HCScissorlift,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 /************************AMMO************************/

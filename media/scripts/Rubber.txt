@@ -55,7 +55,7 @@ item HCPottedrubbertree2
         DisplayName 		= Potted Rubber Tree with Sap Catchers,
 	ReplaceOnDeplete	= HCPlanter,
         icon        		= HCPottedrubbertree2,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCWoodenbucketrubber
@@ -66,7 +66,7 @@ item HCWoodenbucketrubber
 	ReplaceOnDeplete	= HCWoodenbucket,
         DisplayName         	= Wooden Bucket with Rubber,
         icon 			= HCWoodenbucketrubber,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 /************************RECIPES************************/	

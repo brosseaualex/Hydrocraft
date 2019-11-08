@@ -13,7 +13,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Cherry Tomato,
         icon        		= HCPottedtomato,
-	ResizeWorldIcon 	= 1.0,
+	
     }
     item HCPottedTomatocherrysmall
     {
@@ -22,7 +22,7 @@ module Hydrocraft
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Cherry Tomato,
         icon        		= HCPottedtomatosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedTomatocherrysmalldead
     {
@@ -31,7 +31,7 @@ module Hydrocraft
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Cherry Tomato,
         icon        		= HCPottedtomatosmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedTomatocherrysmalldry
     {
@@ -40,7 +40,7 @@ module Hydrocraft
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Cherry Tomato,
         icon        		= HCPottedtomatosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedTomatocherrydry
     {
@@ -49,7 +49,7 @@ module Hydrocraft
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Cherry Tomato,
         icon        		= HCPottedtomato,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedTomatocherrydead
     {
@@ -58,7 +58,7 @@ module Hydrocraft
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Cherry Tomato,
         icon        		= HCPottedtomatodead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedTomatocherryready
     {
@@ -67,7 +67,7 @@ module Hydrocraft
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Cherry Tomato,
         icon        		= HCPottedtomatoready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedTomatocherry/HCPottedTomatocherrysmall/HCPottedTomatocherrysmalldead/HCPottedTomatocherrysmalldry/HCPottedTomatocherrydry/HCPottedTomatocherrydead/HCPottedTomatocherryready,
@@ -107,7 +107,7 @@ item HCPottedBeetsugar
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Sugar Beet,
         icon        		= HCPottedbeets,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 item HCPottedBeetsugarsmall
     {
@@ -116,7 +116,7 @@ item HCPottedBeetsugarsmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Sugar Beet,
         icon        		= HCPottedbeetssmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedBeetsugarsmalldead
     {
@@ -125,7 +125,7 @@ item HCPottedBeetsugarsmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Sugar Beet,
         icon        		= HCPottedbeetssmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedBeetsugarsmalldry
     {
@@ -134,7 +134,7 @@ item HCPottedBeetsugarsmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Sugar Beet,
         icon        		= HCPottedbeetssmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedBeetsugardry
     {
@@ -143,7 +143,7 @@ item HCPottedBeetsugardry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Sugar Beet,
         icon        		= HCPottedbeets,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedBeetsugardead
     {
@@ -152,7 +152,7 @@ item HCPottedBeetsugardead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Sugar Beet,
         icon        		= HCPottedbeetsdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedBeetsugarready
     {
@@ -161,7 +161,7 @@ item HCPottedBeetsugarready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Sugar Beet,
         icon        		= HCPottedbeets,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedBeetsugar/HCPottedBeetsugarsmall/HCPottedBeetsugarsmalldead/HCPottedBeetsugarsmalldry/HCPottedBeetsugardry/HCPottedBeetsugardead/HCPottedBeetsugarready,
@@ -201,7 +201,7 @@ recipe Harvest Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Summer Squash,
         icon        		= HCPottedSquashsummer,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedSquashsummersmall
@@ -211,7 +211,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Summer Squash,
         icon        		= HCPottedSquashsummersmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedSquashsummersmalldead
     {
@@ -220,7 +220,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Summer Squash,
         icon        		= HCPottedSquashsummersmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedSquashsummersmalldry
     {
@@ -229,7 +229,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Summer Squash,
         icon        		= HCPottedSquashsummersmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedSquashsummerdry
@@ -239,7 +239,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Summer Squash,
         icon        		= HCPottedSquashsummer,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedSquashsummerdead
     {
@@ -248,7 +248,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Summer Squash,
         icon        		= HCPottedSquashsummerdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedSquashsummerready
     {
@@ -257,7 +257,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Summer Squash,
         icon        		= HCPottedSquashsummerready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedSquashsummer/HCPottedSquashsummersmall/HCPottedSquashsummersmalldead/HCPottedSquashsummersmalldry/HCPottedSquashsummerdry/HCPottedSquashsummerdead/HCPottedSquashsummerready,
@@ -297,7 +297,7 @@ recipe Harvest Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Red Potato,
         icon        		= HCPottedpotato,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedPotatoredsmall
@@ -307,7 +307,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Red Potato,
         icon        		= HCPottedpotatosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedPotatoredsmalldead
     {
@@ -316,7 +316,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Red Potato,
         icon        		= HCPottedpotatosmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedPotatoredsmalldry
     {
@@ -325,7 +325,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Red Potato,
         icon        		= HCPottedpotatosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedPotatoreddry
@@ -335,7 +335,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Red Potato,
         icon        		= HCPottedpotato,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedPotatoreddead
     {
@@ -344,7 +344,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Red Potato,
         icon        		= HCPottedpotatodead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedPotatoredready
     {
@@ -353,7 +353,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Red Potato,
         icon        		= HCPottedpotatoready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedPotatored/HCPottedPotatoredsmall/HCPottedPotatoredsmalldead/HCPottedPotatoredsmalldry/HCPottedPotatoreddry/HCPottedPotatoreddead/HCPottedPotatoredready,
@@ -393,7 +393,7 @@ recipe Harvest Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Golden Potatoes,
         icon        		= HCPottedpotato,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedPotatogoldensmall
@@ -403,7 +403,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Golden Potatoes,
         icon        		= HCPottedpotatosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedPotatogoldensmalldead
     {
@@ -412,7 +412,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Golden Potatoes,
         icon        		= HCPottedpotatosmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedPotatogoldensmalldry
     {
@@ -421,7 +421,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Golden Potatoes,
         icon        		= HCPottedpotatosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedPotatogoldendry
@@ -431,7 +431,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Golden Potatoes,
         icon        		= HCPottedpotato,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedPotatogoldendead
     {
@@ -440,7 +440,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Golden Potatoes,
         icon        		= HCPottedpotatodead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedPotatogoldenready
     {
@@ -449,7 +449,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Golden Potatoes,
         icon        		= HCPottedpotato,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedPotatogolden/HCPottedPotatogoldensmall/HCPottedPotatogoldensmalldead/HCPottedPotatogoldensmalldry/HCPottedPotatogoldendry/HCPottedPotatogoldendead/HCPottedPotatogoldenready,
@@ -490,7 +490,7 @@ recipe Harvest Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted White Cabbage,
         icon        		= HCPottedCabbagewhite,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedCabbagewhitesmall
@@ -500,7 +500,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted White Cabbage,
         icon        		= HCPottedCabbagewhitesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedCabbagewhitesmalldead
     {
@@ -509,7 +509,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted White Cabbage,
         icon        		= HCPottedCabbagewhitesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedCabbagewhitesmalldry
     {
@@ -518,7 +518,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted White Cabbage,
         icon        		= HCPottedCabbagewhitesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedCabbagewhitedry
@@ -528,7 +528,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted White Cabbage,
         icon        		= HCPottedCabbagewhite,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedCabbagewhitedead
     {
@@ -537,7 +537,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted White Cabbage,
         icon        		= HCPottedCabbagewhitedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedCabbagewhiteready
     {
@@ -546,7 +546,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted White Cabbage,
         icon        		= HCPottedCabbagewhiteready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedCabbagewhite/HCPottedCabbagewhitesmall/HCPottedCabbagewhitesmalldead/HCPottedCabbagewhitesmalldry/HCPottedCabbagewhitedry/HCPottedCabbagewhitedead/HCPottedCabbagewhiteready,
@@ -586,7 +586,7 @@ recipe Harvest Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Red Cabbage,
         icon        		= HCPottedCabbagered,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedCabbageredsmall
@@ -596,7 +596,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Red Cabbage,
         icon        		= HCPottedCabbageredsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedCabbageredsmalldead
     {
@@ -605,7 +605,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Red Cabbage,
         icon        		= HCPottedCabbageredsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedCabbageredsmalldry
     {
@@ -614,7 +614,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Red Cabbage,
         icon        		= HCPottedCabbageredsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedCabbagereddry
@@ -624,7 +624,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Red Cabbage,
         icon        		= HCPottedCabbagered,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedCabbagereddead
     {
@@ -633,7 +633,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Red Cabbage,
         icon        		= HCPottedCabbagereddead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedCabbageredready
     {
@@ -642,7 +642,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Red Cabbage,
         icon        		= HCPottedCabbageredready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedCabbagered/HCPottedCabbageredsmall/HCPottedCabbageredsmalldead/HCPottedCabbageredsmalldry/HCPottedCabbagereddry/HCPottedCabbagereddead/HCPottedCabbageredready,
@@ -683,7 +683,7 @@ recipe Harvest Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Yellow Bell Pepper,
         icon        		= HCPottedbellpepper,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedBellpepperyellowsmall
@@ -693,7 +693,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Yellow Bell Pepper,
         icon        		= HCPottedbellpeppersmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedBellpepperyellowsmalldead
     {
@@ -702,7 +702,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Yellow Bell Pepper,
         icon        		= HCPottedbellpeppersmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedBellpepperyellowsmalldry
     {
@@ -711,7 +711,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Yellow Bell Pepper,
         icon        		= HCPottedbellpeppersmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedBellpepperyellowdry
@@ -721,7 +721,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Yellow Bell Pepper,
         icon        		= HCPottedbellpepper,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedBellpepperyellowdead
     {
@@ -730,7 +730,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Yellow Bell Pepper,
         icon        		= HCPottedbellpepperdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedBellpepperyellowready
     {
@@ -739,7 +739,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Yellow Bell Pepper,
         icon        		= HCPottedBellpepperyellowready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedBellpepperyellow/HCPottedBellpepperyellowsmall/HCPottedBellpepperyellowsmalldead/HCPottedBellpepperyellowsmalldry/HCPottedBellpepperyellowdry/HCPottedBellpepperyellowdead/HCPottedBellpepperyellowready,
@@ -780,7 +780,7 @@ recipe Harvest Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Green Bell Pepper,
         icon        		= HCPottedbellpepper,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedBellpeppergreensmall
@@ -790,7 +790,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Green Bell Pepper,
         icon        		= HCPottedbellpeppersmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedBellpeppergreensmalldead
     {
@@ -799,7 +799,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Green Bell Pepper,
         icon        		= HCPottedbellpeppersmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedBellpeppergreensmalldry
     {
@@ -808,7 +808,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Green Bell Pepper,
         icon        		= HCPottedbellpeppersmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedBellpeppergreendry
@@ -818,7 +818,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Green Bell Pepper,
         icon        		= HCPottedbellpepper,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedBellpeppergreendead
     {
@@ -827,7 +827,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Green Bell Pepper,
         icon        		= HCPottedbellpepperdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedBellpeppergreenready
     {
@@ -836,7 +836,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Green Bell Pepper,
         icon        		= HCPottedBellpeppergreenready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedBellpeppergreen/HCPottedBellpeppergreensmall/HCPottedBellpeppergreensmalldead/HCPottedBellpeppergreensmalldry/HCPottedBellpeppergreendry/HCPottedBellpeppergreendead/HCPottedBellpeppergreenready,
@@ -877,7 +877,7 @@ recipe Harvest Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Cauliflower,
         icon        		= HCPottedCauliflower,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedCauliflowersmall
@@ -887,7 +887,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Cauliflower,
         icon        		= HCPottedCauliflowersmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedCauliflowersmalldead
     {
@@ -896,7 +896,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Cauliflower,
         icon        		= HCPottedCauliflowersmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedCauliflowersmalldry
     {
@@ -905,7 +905,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Cauliflower,
         icon        		= HCPottedCauliflowersmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedCauliflowerdry
@@ -915,7 +915,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Cauliflower,
         icon        		= HCPottedCauliflower,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedCauliflowerdead
     {
@@ -924,7 +924,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Cauliflower,
         icon        		= HCPottedCauliflowerdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedCauliflowerready
     {
@@ -933,7 +933,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Cauliflower,
         icon        		= HCPottedCauliflowerready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedCauliflower/HCPottedCauliflowersmall/HCPottedCauliflowersmalldead/HCPottedCauliflowersmalldry/HCPottedCauliflowerdry/HCPottedCauliflowerdead/HCPottedCauliflowerready,
@@ -974,7 +974,7 @@ recipe Harvest Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Beans,
         icon        		= HCPottedBeans,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedBeanssmall
@@ -984,7 +984,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Beans,
         icon        		= HCPottedBeanssmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedBeanssmalldead
     {
@@ -993,7 +993,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Beans,
         icon        		= HCPottedBeanssmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedBeanssmalldry
     {
@@ -1002,7 +1002,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Beans,
         icon        		= HCPottedBeanssmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedBeansdry
@@ -1012,7 +1012,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Beans,
         icon        		= HCPottedBeans,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedBeansdead
     {
@@ -1021,7 +1021,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Beans,
         icon        		= HCPottedBeansdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedBeansready
     {
@@ -1030,7 +1030,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Beans,
         icon        		= HCPottedBeansready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedBeans/HCPottedBeanssmall/HCPottedBeanssmalldead/HCPottedBeanssmalldry/HCPottedBeansdry/HCPottedBeansdead/HCPottedBeansready,
@@ -1078,7 +1078,7 @@ recipe Open Peapod
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Persimmon,
         icon        		= HCPottedPersimmon,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedPersimmonsmall
@@ -1088,7 +1088,7 @@ recipe Open Peapod
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Persimmon,
         icon        		= HCPottedPersimmonsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedPersimmonsmalldead
     {
@@ -1097,7 +1097,7 @@ recipe Open Peapod
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Persimmon,
         icon        		= HCPottedPersimmonsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedPersimmonsmalldry
     {
@@ -1106,7 +1106,7 @@ recipe Open Peapod
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Persimmon,
         icon        		= HCPottedPersimmonsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedPersimmondry
@@ -1116,7 +1116,7 @@ recipe Open Peapod
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Persimmon,
         icon        		= HCPottedPersimmon,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedPersimmondead
     {
@@ -1125,7 +1125,7 @@ recipe Open Peapod
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Persimmon,
         icon        		= HCPottedPersimmondead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedPersimmonready
     {
@@ -1134,7 +1134,7 @@ recipe Open Peapod
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Persimmon,
         icon        		= HCPottedPersimmonready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedPersimmon/HCPottedPersimmonsmall/HCPottedPersimmonsmalldead/HCPottedPersimmonsmalldry/HCPottedPersimmondry/HCPottedPersimmondead/HCPottedPersimmonready,
@@ -1175,7 +1175,7 @@ recipe Harvest Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Plum,
         icon        		= HCPottedPlum,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 	
     item HCPottedPlumsmall
@@ -1185,7 +1185,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Plum,
         icon        		= HCPottedPlumsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedPlumsmalldead
     {
@@ -1194,7 +1194,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Plum,
         icon        		= HCPottedPlumsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedPlumsmalldry
     {
@@ -1203,7 +1203,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Plum,
         icon        		= HCPottedPlumsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedPlumdry
@@ -1213,7 +1213,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Plum,
         icon        		= HCPottedPlum,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedPlumdead
     {
@@ -1222,7 +1222,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Plum,
         icon        		= HCPottedPlumdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedPlumready
     {
@@ -1231,7 +1231,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Plum,
         icon        		= HCPottedPlumready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedPlum/HCPottedPlumsmall/HCPottedPlumsmalldead/HCPottedPlumsmalldry/HCPottedPlumdry/HCPottedPlumdead/HCPottedPlumready,
@@ -1272,7 +1272,7 @@ recipe Harvest Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Kiwi,
         icon        		= HCPottedKiwi,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 	
     item HCPottedKiwismall
@@ -1282,7 +1282,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Kiwi,
         icon        		= HCPottedKiwismall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedKiwismalldead
     {
@@ -1291,7 +1291,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Kiwi,
         icon        		= HCPottedKiwismalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedKiwismalldry
     {
@@ -1300,7 +1300,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Kiwi,
         icon        		= HCPottedKiwismall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedKiwidry
@@ -1310,7 +1310,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Kiwi,
         icon        		= HCPottedKiwi,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedKiwidead
     {
@@ -1319,7 +1319,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Kiwi,
         icon        		= HCPottedKiwidead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedKiwiready
     {
@@ -1328,7 +1328,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Kiwi,
         icon        		= HCPottedKiwiready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedKiwi/HCPottedKiwismall/HCPottedKiwismalldead/HCPottedKiwismalldry/HCPottedKiwidry/HCPottedKiwidead/HCPottedKiwiready,
@@ -1369,7 +1369,7 @@ recipe Harvest Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Fig,
         icon        		= HCPottedFig,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 	
     item HCPottedFigsmall
@@ -1379,7 +1379,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Fig,
         icon        		= HCPottedFigsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedFigsmalldead
     {
@@ -1388,7 +1388,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Fig,
         icon        		= HCPottedFigsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedFigsmalldry
     {
@@ -1397,7 +1397,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Fig,
         icon        		= HCPottedFigsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedFigdry
@@ -1407,7 +1407,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Fig,
         icon        		= HCPottedFig,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedFigdead
     {
@@ -1416,7 +1416,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Fig,
         icon        		= HCPottedFigdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedFigready
     {
@@ -1425,7 +1425,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Fig,
         icon        		= HCPottedFigready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedFig/HCPottedFigsmall/HCPottedFigsmalldead/HCPottedFigsmalldry/HCPottedFigdry/HCPottedFigdead/HCPottedFigready,
@@ -1466,7 +1466,7 @@ recipe Harvest Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Date,
         icon        		= HCPottedDate,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 	
     item HCPottedDatesmall
@@ -1476,7 +1476,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Date,
         icon        		= HCPottedDatesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedDatesmalldead
     {
@@ -1485,7 +1485,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Date,
         icon        		= HCPottedDatesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedDatesmalldry
     {
@@ -1494,7 +1494,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Date,
         icon        		= HCPottedDatesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedDatedry
@@ -1504,7 +1504,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Date,
         icon        		= HCPottedDate,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedDatedead
     {
@@ -1513,7 +1513,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Date,
         icon        		= HCPottedDatedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedDateready
     {
@@ -1522,7 +1522,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Date,
         icon        		= HCPottedDateready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedDate/HCPottedDatesmall/HCPottedDatesmalldead/HCPottedDatesmalldry/HCPottedDatedry/HCPottedDatedead/HCPottedDateready,
@@ -1563,7 +1563,7 @@ recipe Harvest Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Grapesgreen Vine,
         icon        		= HCPottedgrapevine,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 	
     item HCPottedGrapesgreenvinesmall
@@ -1573,7 +1573,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Grapesgreen Vine,
         icon        		= HCPottedgrapevinesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedGrapesgreenvinesmalldead
     {
@@ -1582,7 +1582,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Grapesgreen Vine,
         icon        		= HCPottedgrapevinesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedGrapesgreenvinesmalldry
     {
@@ -1591,7 +1591,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Grapesgreen Vine,
         icon        		= HCPottedgrapevinesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedGrapesgreenvinedry
@@ -1601,7 +1601,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Grapesgreen Vine,
         icon        		= HCPottedgrapevine,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedGrapesgreenvinedead
     {
@@ -1610,7 +1610,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Grapesgreen Vine,
         icon        		= HCPottedgrapevinedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedGrapesgreenvineready
     {
@@ -1619,7 +1619,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Grapesgreen Vine,
         icon        		= HCPottedGrapesgreenvineready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedGrapesgreenvine/HCPottedGrapesgreenvinesmall/HCPottedGrapesgreenvinesmalldead/HCPottedGrapesgreenvinesmalldry/HCPottedGrapesgreenvinedry/HCPottedGrapesgreenvinedead/HCPottedGrapesgreenvineready,
@@ -1658,7 +1658,7 @@ recipe Harvest Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Lime Tree,
         icon        		= HCPottedlimetree,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 	
     item HCPottedlimetreesmall
@@ -1668,7 +1668,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Lime Tree,
         icon        		= HCPottedlimetreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedlimetreesmalldead
     {
@@ -1677,7 +1677,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Lime Tree,
         icon        		= HCPottedlimetreesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedlimetreesmalldry
     {
@@ -1686,7 +1686,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Lime Tree,
         icon        		= HCPottedlimetreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedlimetreedry
@@ -1696,7 +1696,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Lime Tree,
         icon        		= HCPottedlimetree,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedlimetreedead
     {
@@ -1705,7 +1705,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Lime Tree,
         icon        		= HCPottedlimetreedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedlimetreeready
     {
@@ -1714,7 +1714,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Lime Tree,
         icon        		= HCPottedlimetreeready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedlimetree/HCPottedlimetreesmall/HCPottedlimetreesmalldead/HCPottedlimetreesmalldry/HCPottedlimetreedry/HCPottedlimetreedead/HCPottedlimetreeready,
@@ -1754,7 +1754,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Wheat,
         icon        		= HCPottedwheatsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
    item HCPottedwheatsmalldead
     {
@@ -1763,7 +1763,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Wheat,
         icon        		= HCPottedwheatsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
    item HCPottedwheatsmalldry
@@ -1773,7 +1773,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Wheat,
         icon        		= HCPottedwheatsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
    item HCPottedwheat
     {
@@ -1782,7 +1782,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Wheat,
         icon        		= HCPottedwheat,
-		ResizeWorldIcon 	= 1.0,
+		
     }
    item HCPottedwheatdry
     {
@@ -1791,7 +1791,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Wheat,
         icon        		= HCPottedwheat,
-		ResizeWorldIcon 	= 1.0,
+		
     }
    item HCPottedwheatdead
     {
@@ -1800,7 +1800,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Wheat,
         icon        		= HCPottedwheatdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
    item HCPottedwheatready
     {
@@ -1809,7 +1809,7 @@ recipe Harvest Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Wheat,
         icon        		= HCPottedwheat,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedwheat/HCPottedwheatsmall/HCPottedwheatsmalldead/HCPottedwheatsmalldry/HCPottedwheatdry/HCPottedwheatdead/HCPottedwheatready,
@@ -1836,7 +1836,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Apple Tree,
         icon        		= HCPottedappletreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
    item HCPottedappletreesmalldead
     {
@@ -1845,7 +1845,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Apple Tree,
         icon        		= HCPottedappletreesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
    item HCPottedappletreesmalldry
     {
@@ -1854,7 +1854,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Apple Tree,
         icon        		= HCPottedappletreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
    item HCPottedappletreedry
@@ -1864,7 +1864,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Apple Tree,
         icon        		= HCPottedappletree,
-		ResizeWorldIcon 	= 1.0,
+		
     }
    item HCPottedappletreedead
     {
@@ -1873,7 +1873,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Apple Tree,
         icon        		= HCPottedappletreedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
    item HCPottedappletreeready
     {
@@ -1882,7 +1882,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Apple Tree,
         icon        		= HCPottedappletreeready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 	recipe Remove Crop
@@ -1900,7 +1900,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Banana Tree,
         icon        		= HCPottedbananatreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedbananatreesmalldead
     {
@@ -1909,7 +1909,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Banana Tree,
         icon        		= HCPottedbananatreesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedbananatreesmalldry
     {
@@ -1918,7 +1918,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Banana Tree,
         icon        		= HCPottedbananatreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedbananatreedry
     {
@@ -1927,7 +1927,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Banana Tree,
         icon        		= HCPottedbananatree,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedbananatreedead
     {
@@ -1936,7 +1936,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Banana Tree,
         icon        		= HCPottedbananatreedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedbananatreeready
     {
@@ -1945,7 +1945,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Banana Tree,
         icon        		= HCPottedbananatreeready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 	recipe Remove Crop
@@ -1963,7 +1963,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Blackberry Bush,
         icon        		= HCPottedblackberrybushsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedblackberrybushsmalldead
     {
@@ -1972,7 +1972,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Blackberry Bush,
         icon        		= HCPottedblackberrybushsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedblackberrybushsmalldry
     {
@@ -1981,7 +1981,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Blackberry Bush,
         icon        		= HCPottedblackberrybushsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedblackberrybushdry
@@ -1991,7 +1991,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Blackberry Bush,
         icon        		= HCPottedblackberrybush,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedblackberrybushdead
     {
@@ -2000,7 +2000,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Blackberry Bush,
         icon        		= HCPottedblackberrybushdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedblackberrybushready
     {
@@ -2009,7 +2009,7 @@ recipe Plant Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Blackberry Bush,
         icon        		= HCPottedblackberrybushready,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 	recipe Remove Crop
@@ -2026,7 +2026,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Blueberry Bush,
         icon        		= HCPottedblueberrybushsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedblueberrybushsmalldead
     {
@@ -2035,7 +2035,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Blueberry Bush,
         icon        		= HCPottedblueberrybushsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedblueberrybushsmalldry
     {
@@ -2044,7 +2044,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Blueberry Bush,
         icon        		= HCPottedblueberrybushsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedblueberrybushdry
@@ -2054,7 +2054,7 @@ recipe Plant Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Blueberry Bush,
         icon        		= HCPottedblueberrybush,
-	ResizeWorldIcon 	= 1.0,
+	
     }
     item HCPottedblueberrybushdead
     {
@@ -2063,7 +2063,7 @@ recipe Plant Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Blueberry Bush,
         icon        		= HCPottedblueberrybushdead,
-	ResizeWorldIcon 	= 1.0,
+	
     }
     item HCPottedblueberrybushready
     {
@@ -2072,7 +2072,7 @@ recipe Plant Crop
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Blueberry Bush,
         icon        		= HCPottedblueberrybushready,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 	recipe Remove Crop
@@ -2090,7 +2090,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Grape Vine,
         icon        		= HCPottedgrapevinesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedgrapevinesmalldead
     {
@@ -2099,7 +2099,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Grape Vine,
         icon        		= HCPottedgrapevinesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedgrapevinesmalldry
     {
@@ -2108,7 +2108,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Grape Vine,
         icon        		= HCPottedgrapevinesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedgrapevinedry
@@ -2118,7 +2118,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Grape Vine,
         icon        		= HCPottedgrapevine,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedgrapevinedead
     {
@@ -2127,7 +2127,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Grape Vine,
         icon        		= HCPottedgrapevinedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedgrapevineready
     {
@@ -2136,7 +2136,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Grape Vine,
         icon        		= HCPottedgrapevinedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedgrapevine/HCPottedgrapevinesmall/HCPottedgrapevinesmalldead/HCPottedgrapevinesmalldry/HCPottedgrapevinedry/HCPottedgrapevinedead/HCPottedgrapevineready,
@@ -2154,7 +2154,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Lemon Tree,
         icon        		= HCPottedlemontreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedlemontreesmalldead
     {
@@ -2163,7 +2163,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Lemon Tree,
         icon        		= HCPottedlemontreesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedlemontreesmalldry
     {
@@ -2172,7 +2172,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Lemon Tree,
         icon        		= HCPottedlemontreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedlemontreedry
@@ -2182,7 +2182,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Lemon Tree,
         icon        		= HCPottedlemontree,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedlemontreedead
     {
@@ -2191,7 +2191,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Lemon Tree,
         icon        		= HCPottedlemontreedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedlemontreeready
     {
@@ -2200,7 +2200,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Lemon Tree,
         icon        		= HCPottedlemontreeready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedlemontree/HCPottedlemontreesmall/HCPottedlemontreesmalldead/HCPottedlemontreesmalldry/HCPottedlemontreedry/HCPottedlemontreedead/HCPottedlemontreeready,
@@ -2217,7 +2217,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Orange Tree,
         icon        		= HCPottedorangetreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedorangetreesmalldead
     {
@@ -2226,7 +2226,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Orange Tree,
         icon        		= HCPottedorangetreesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedorangetreesmalldry
     {
@@ -2235,7 +2235,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Orange Tree,
         icon        		= HCPottedorangetreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedorangetreedry
@@ -2245,7 +2245,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Orange Tree,
         icon        		= HCPottedorangetree,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedorangetreedead
     {
@@ -2254,7 +2254,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Orange Tree,
         icon        		= HCPottedorangetreedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedorangetreeready
     {
@@ -2263,7 +2263,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Orange Tree,
         icon        		= HCPottedorangetreeready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 	recipe Remove Crop
@@ -2281,7 +2281,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Peach Tree,
         icon        		= HCPottedpeachtreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeachtreesmalldead
     {
@@ -2290,7 +2290,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Peach Tree,
         icon        		= HCPottedpeachtreesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeachtreesmalldry
     {
@@ -2299,7 +2299,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Peach Tree,
         icon        		= HCPottedpeachtreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedpeachtreedry
@@ -2309,7 +2309,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Peach Tree,
         icon        		= HCPottedpeachtree,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeachtreedead
     {
@@ -2318,7 +2318,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Peach Tree,
         icon        		= HCPottedpeachtreedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeachtreeready
     {
@@ -2327,7 +2327,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Peach Tree,
         icon        		= HCPottedpeachtreeready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 	recipe Remove Crop
@@ -2345,7 +2345,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Strawberry Bush,
         icon        		= HCPottedstrawberrybushsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedstrawberrybushsmalldead
     {
@@ -2354,7 +2354,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Strawberry Bush,
         icon        		= HCPottedstrawberrybushsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedstrawberrybushsmalldry
     {
@@ -2363,7 +2363,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Strawberry Bush,
         icon        		= HCPottedstrawberrybushsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedstrawberrybushdry
@@ -2373,7 +2373,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Strawberry Bush,
         icon        		= HCPottedstrawberrybush,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedstrawberrybushdead
     {
@@ -2382,7 +2382,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Strawberry Bush,
         icon        		= HCPottedstrawberrybushdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedstrawberrybushready
     {
@@ -2391,7 +2391,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Strawberry Bush,
         icon        		= HCPottedstrawberrybushready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedstrawberrybush/HCPottedstrawberrybushsmall/HCPottedstrawberrybushsmalldead/HCPottedstrawberrybushsmalldry/HCPottedstrawberrybushdry/HCPottedstrawberrybushdead/HCPottedstrawberrybushready,
@@ -2408,7 +2408,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Watermelon,
         icon        		= HCPottedwatermelonsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedwatermelonsmalldead
     {
@@ -2417,7 +2417,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Watermelon,
         icon        		= HCPottedwatermelonsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedwatermelonsmalldry
     {
@@ -2426,7 +2426,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Watermelon,
         icon        		= HCPottedwatermelonsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedwatermelondry
@@ -2436,7 +2436,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Watermelon,
         icon        		= HCPottedwatermelon,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedwatermelondead
     {
@@ -2445,7 +2445,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Watermelon,
         icon        		= HCPottedwatermelondead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedwatermelonready
     {
@@ -2454,7 +2454,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Watermelon,
         icon        		= HCPottedwatermelon,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 	recipe Remove Crop
@@ -2472,7 +2472,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Bell Pepper,
         icon        		= HCPottedbellpeppersmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedbellpeppersmalldead
     {
@@ -2481,7 +2481,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Bell Pepper,
         icon        		= HCPottedbellpeppersmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedbellpeppersmalldry
     {
@@ -2490,7 +2490,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Bell Pepper,
         icon        		= HCPottedbellpeppersmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedbellpepperdry
@@ -2500,7 +2500,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Bell Pepper,
         icon        		= HCPottedbellpepper,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedbellpepperdead
     {
@@ -2509,7 +2509,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Bell Pepper,
         icon        		= HCPottedbellpepperdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedbellpepperready
     {
@@ -2518,7 +2518,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Bell Pepper,
         icon        		= HCPottedbellpepperready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedbellpepper/HCPottedbellpeppersmall/HCPottedbellpeppersmalldead/HCPottedbellpeppersmalldry/HCPottedbellpepperdry/HCPottedbellpepperdead/HCPottedbellpepperready,
@@ -2535,7 +2535,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Broccoli,
         icon        		= HCPottedbroccolismall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedbroccolismalldead
     {
@@ -2544,7 +2544,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Broccoli,
         icon        		= HCPottedbroccolismalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedbroccolismalldry
     {
@@ -2553,7 +2553,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Broccoli,
         icon        		= HCPottedbroccolismall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedbroccolidry
@@ -2563,7 +2563,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Broccoli,
         icon        		= HCPottedbroccoli,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedbroccolidead
     {
@@ -2572,7 +2572,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Broccoli,
         icon        		= HCPottedbroccolidead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedbroccoliready
     {
@@ -2581,7 +2581,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Broccoli,
         icon        		= HCPottedbroccoli,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 	recipe Remove Crop
@@ -2599,7 +2599,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Cabbage,
         icon        		= HCPottedcabbagesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcabbagesmalldead
     {
@@ -2608,7 +2608,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Cabbage,
         icon        		= HCPottedcabbagesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcabbagesmalldry
     {
@@ -2617,7 +2617,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Cabbage,
         icon        		= HCPottedcabbagesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	
     item HCPottedcabbagedry
@@ -2627,7 +2627,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Cabbage,
         icon        		= HCPottedcabbage,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcabbagedead
     {
@@ -2636,7 +2636,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Cabbage,
         icon        		= HCPottedcabbagedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcabbageready
     {
@@ -2645,7 +2645,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Cabbage,
         icon        		= HCPottedcabbage,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 	recipe Remove Crop
@@ -2663,7 +2663,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Carrots,
         icon        		= HCPottedcarrotssmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcarrotssmalldead
     {
@@ -2672,7 +2672,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Carrots,
         icon        		= HCPottedcarrotssmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcarrotssmalldry
     {
@@ -2681,7 +2681,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Carrots,
         icon        		= HCPottedcarrotssmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcarrotsdry
     {
@@ -2690,7 +2690,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Carrots,
         icon        		= HCPottedcarrots,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcarrotsdead
     {
@@ -2699,7 +2699,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Carrots,
         icon        		= HCPottedcarrotsdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcarrotsready
     {
@@ -2708,7 +2708,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Carrots,
         icon        		= HCPottedcarrots,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 	recipe Remove Crop
@@ -2726,7 +2726,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Corn Stalk,
         icon        		= HCPottedcornsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornstalksmalldead
     {
@@ -2735,7 +2735,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Corn Stalk,
         icon        		= HCPottedcornsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornstalksmalldry
     {
@@ -2744,7 +2744,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Corn Stalk,
         icon        		= HCPottedcornsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornstalkdry 
     {
@@ -2753,7 +2753,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Corn Stalk,
         icon        		= HCPottedcorn,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornstalkdead
     {
@@ -2762,7 +2762,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Corn Stalk,
         icon        		= HCPottedcorndead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornstalkready
     {
@@ -2771,7 +2771,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Corn Stalk,
         icon        		= HCPottedcornstalk,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 	recipe Remove Crop
@@ -2789,7 +2789,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Eggplant,
         icon        		= HCPottedeggplantsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedeggplantsmalldead
     {
@@ -2798,7 +2798,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Eggplant,
         icon        		= HCPottedeggplantsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedeggplantsmalldry
     {
@@ -2807,7 +2807,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Eggplant,
         icon        		= HCPottedeggplantsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedeggplantdry
     {
@@ -2816,7 +2816,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Eggplant,
         icon        		= HCPottedeggplant,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedeggplantdead
     {
@@ -2825,7 +2825,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Eggplant,
         icon        		= HCPottedeggplantdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedeggplantready
     {
@@ -2834,7 +2834,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Eggplant,
         icon        		= HCPottedeggplantready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 	recipe Remove Crop
@@ -2852,7 +2852,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Leek,
         icon        		= HCPottedleeksmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedleeksmalldead
     {
@@ -2861,7 +2861,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Leek,
         icon        		= HCPottedleeksmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedleeksmalldry
     {
@@ -2870,7 +2870,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Leek,
         icon        		= HCPottedleeksmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedleekdry
     {
@@ -2879,7 +2879,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Leek,
         icon        		= HCPottedleek,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedleekdead
     {
@@ -2888,7 +2888,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Leek,
         icon        		= HCPottedleekdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedleekready
     {
@@ -2897,7 +2897,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Leek,
         icon        		= HCPottedleekready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 	recipe Remove Crop
@@ -2915,7 +2915,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Lettuce,
         icon        		= HCPottedlettucesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedlettucesmalldead
     {
@@ -2924,7 +2924,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Lettuce,
         icon        		= HCPottedlettucesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedlettucesmalldry
     {
@@ -2933,7 +2933,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Lettuce,
         icon        		= HCPottedlettucesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedlettucedry
     {
@@ -2942,7 +2942,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Lettuce,
         icon        		= HCPottedlettuce,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedlettucedead
     {
@@ -2951,7 +2951,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Lettuce,
         icon        		= HCPottedlettucedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedlettuceready
     {
@@ -2960,7 +2960,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Lettuce,
         icon        		= HCPottedlettuce,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedlettuce/HCPottedlettucesmall/HCPottedlettucesmalldead/HCPottedlettucesmalldry/HCPottedlettucedry/HCPottedlettucedead/HCPottedlettuceready,
@@ -2977,7 +2977,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Onion,
         icon        		= HCPottedonionsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedonionsmalldead
     {
@@ -2986,7 +2986,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Onion,
         icon        		= HCPottedonionsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedonionsmalldry
     {
@@ -2995,7 +2995,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Onion,
         icon        		= HCPottedonionsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedoniondry
     {
@@ -3004,7 +3004,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Onion,
         icon        		= HCPottedonion,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedoniondead
     {
@@ -3013,7 +3013,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Onion,
         icon        		= HCPottedoniondead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedonionready
     {
@@ -3022,7 +3022,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Onion,
         icon        		= HCPottedonion,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 	recipe Remove Crop
@@ -3040,7 +3040,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Pea Plant,
         icon        		= HCPottedpeaplantsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeaplantsmalldead
     {
@@ -3049,7 +3049,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Pea Plant,
         icon        		= HCPottedpeaplantsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeaplantsmalldry
     {
@@ -3058,7 +3058,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Pea Plant,
         icon        		= HCPottedpeaplantsmalldry,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeaplantdry
     {
@@ -3067,7 +3067,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Pea Plant,
         icon        		= HCPottedpeaplant,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeaplantdead
     {
@@ -3076,7 +3076,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Pea Plant,
         icon        		= HCPottedpeaplantdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeaplantready
     {
@@ -3085,7 +3085,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Pea Plant,
         icon        		= HCPottedpeaplant,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 	recipe Remove Crop
@@ -3103,7 +3103,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Potato,
         icon        		= HCPottedpotatosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpotatosmalldead
     {
@@ -3112,7 +3112,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Potato,
         icon        		= HCPottedpotatosmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpotatosmalldry
     {
@@ -3121,7 +3121,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Potato,
         icon        		= HCPottedpotatosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpotatodry
     {
@@ -3130,7 +3130,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Potato,
         icon        		= HCPottedpotato,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpotatodead
     {
@@ -3139,7 +3139,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Potato,
         icon        		= HCPottedpotatodead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpotatoready
     {
@@ -3148,7 +3148,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Potato,
         icon        		= HCPottedpotato,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 	recipe Remove Crop
@@ -3166,7 +3166,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Pumpkin,
         icon        		= HCPottedpumpkinsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinsmalldead
     {
@@ -3175,7 +3175,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Pumpkin,
         icon        		= HCPottedpumpkinsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinsmalldry
     {
@@ -3184,7 +3184,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Pumpkin,
         icon        		= HCPottedpumpkinsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkindry
     {
@@ -3193,7 +3193,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Pumpkin,
         icon        		= HCPottedpumpkin,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkindead
     {
@@ -3202,7 +3202,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Pumpkin,
         icon        		= HCPottedpumpkindead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinready
     {
@@ -3211,7 +3211,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Pumpkin,
         icon        		= HCPottedpumpkin,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedpumpkin/HCPottedpumpkinsmall/HCPottedpumpkinsmalldead/HCPottedpumpkinsmalldry/HCPottedpumpkindry/HCPottedpumpkindead/HCPottedpumpkinready,
@@ -3228,7 +3228,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Radish,
         icon        		= HCPottedradishsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedradishsmalldead
     {
@@ -3237,7 +3237,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Radish,
         icon        		= HCPottedradishsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedradishsmalldry
     {
@@ -3246,7 +3246,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Radish,
         icon        		= HCPottedradishsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedradishdry
     {
@@ -3255,7 +3255,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Radish,
         icon        		= HCPottedradish,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedradishdead
     {
@@ -3264,7 +3264,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Radish,
         icon        		= HCPottedradishdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedradishready
     {
@@ -3273,7 +3273,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Radish,
         icon        		= HCPottedradishready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedradish/HCPottedradishsmall/HCPottedradishsmalldead/HCPottedradishsmalldry/HCPottedradishdry/HCPottedradishdead/HCPottedradishready,
@@ -3290,7 +3290,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Tomato,
         icon        		= HCPottedtomatosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedtomatosmalldead
     {
@@ -3299,7 +3299,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Tomato,
         icon        		= HCPottedtomatosmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedtomatosmalldry
     {
@@ -3308,7 +3308,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Tomato,
         icon        		= HCPottedtomatosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedtomatodry
     {
@@ -3317,7 +3317,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Tomato,
         icon        		= HCPottedtomato,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedtomatodead
     {
@@ -3326,7 +3326,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Tomato,
         icon        		= HCPottedtomatodead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedtomatoready
     {
@@ -3335,7 +3335,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Tomato,
         icon        		= HCPottedtomatoready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedtomato/HCPottedtomatosmall/HCPottedtomatosmalldead/HCPottedtomatosmalldry/HCPottedtomatodry/HCPottedtomatodead/HCPottedtomatoready,
@@ -3352,7 +3352,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Peanut Plant,
         icon        		= HCPottedpeanutplantsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeanutplantsmalldead
     {
@@ -3361,7 +3361,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Peanut Plant,
         icon        		= HCPottedpeanutplantsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeanutplantsmalldry
     {
@@ -3370,7 +3370,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Peanut Plant,
         icon        		= HCPottedpeanutplantsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeanutplantdry
     {
@@ -3379,7 +3379,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Peanut Plant,
         icon        		= HCPottedpeanutplantdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeanutplantdead
     {
@@ -3388,7 +3388,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Peanut Plant,
         icon        		= HCPottedpeanutplantdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeanutplantready
     {
@@ -3397,7 +3397,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Peanut Plant,
         icon        		= HCPottedpeanutplant,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedpeanutplant/HCPottedpeanutplantsmall/HCPottedpeanutplantsmalldead/HCPottedpeanutplantsmalldry/HCPottedpeanutplantdry/HCPottedpeanutplantdead/HCPottedpeanutplantready,
@@ -3414,7 +3414,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Avocado Tree,
         icon        		= HCPottedavocadotreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedavocadotreesmalldead
     {
@@ -3423,7 +3423,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Avocado Tree,
         icon        		= HCPottedavocadotreesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedavocadotreesmalldry
     {
@@ -3432,7 +3432,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Avocado Tree,
         icon        		= HCPottedavocadotreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedavocadotreedry
     {
@@ -3441,7 +3441,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Avocado Tree,
         icon        		= HCPottedavocadotree,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedavocadotreedead
     {
@@ -3450,7 +3450,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Avocado Tree,
         icon        		= HCPottedavocadotreedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedavocadotreeready
     {
@@ -3459,7 +3459,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Avocado Tree,
         icon        		= HCPottedavocadotreeready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedavocadotree/HCPottedavocadotreesmall/HCPottedavocadotreesmalldead/HCPottedavocadotreesmalldry/HCPottedavocadotreedry/HCPottedavocadotreedead/HCPottedavocadotreeready,
@@ -3476,7 +3476,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Cherry Tree,
         icon        		= HCPottedcherrytreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcherrytreesmalldead
     {
@@ -3485,7 +3485,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Cherry Tree,
         icon        		= HCPottedcherrytreesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcherrytreesmalldry
     {
@@ -3494,7 +3494,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Cherry Tree,
         icon        		= HCPottedcherrytreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcherrytreedry
     {
@@ -3503,7 +3503,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Cherry Tree,
         icon        		= HCPottedcherrytree,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcherrytreedead
     {
@@ -3512,7 +3512,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Cherry Tree,
         icon        		= HCPottedcherrytreedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcherrytreeready
     {
@@ -3521,7 +3521,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Cherry Tree,
         icon        		= HCPottedcherrytreeready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedcherrytree/HCPottedcherrytreesmall/HCPottedcherrytreesmalldead/HCPottedcherrytreesmalldry/HCPottedcherrytreedry/HCPottedcherrytreedead/HCPottedcherrytreeready,
@@ -3538,7 +3538,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Pear Tree,
         icon        		= HCPottedpeartreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeartreesmalldead
     {
@@ -3547,7 +3547,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Pear Tree,
         icon        		= HCPottedpeartreesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeartreesmalldry
     {
@@ -3556,7 +3556,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Pear Tree,
         icon        		= HCPottedpeartreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeartreedry
     {
@@ -3565,7 +3565,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Pear Tree,
         icon        		= HCPottedpeartree,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeartreedead
     {
@@ -3574,7 +3574,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Pear Tree,
         icon        		= HCPottedpeartreedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpeartreeready
     {
@@ -3583,7 +3583,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Pear Tree,
         icon        		= HCPottedpeartreeready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedpeartree/HCPottedpeartreesmall/HCPottedpeartreesmalldead/HCPottedpeartreesmalldry/HCPottedpeartreedry/HCPottedpeartreedead/HCPottedpeartreeready,
@@ -3600,7 +3600,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Pineapple,
         icon        		= HCPottedpineapplesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpineapplesmalldead
     {
@@ -3609,7 +3609,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Pineapple,
         icon        		= HCPottedpineapplesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpineapplesmalldry
     {
@@ -3618,7 +3618,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Pineapple,
         icon        		= HCPottedpineapplesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpineappledry
     {
@@ -3627,7 +3627,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Pineapple,
         icon        		= HCPottedpineapple,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpineappledead
     {
@@ -3636,7 +3636,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Pineapple,
         icon        		= HCPottedpineappledead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpineappleready
     {
@@ -3645,7 +3645,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Pineapple,
         icon        		= HCPottedpineappleready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedpineapple/HCPottedpineapplesmall/HCPottedpineapplesmalldead/HCPottedpineapplesmalldry/HCPottedpineappledry/HCPottedpineappledead/HCPottedpineappleready,
@@ -3661,7 +3661,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Zucchini,
         icon        		= HCPottedzucchinismall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedzucchinismalldead
     {
@@ -3670,7 +3670,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Zucchini,
         icon        		= HCPottedzucchinismalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedzucchinismalldry
     {
@@ -3679,7 +3679,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Zucchini,
         icon        		= HCPottedzucchinismall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedzucchinidry
     {
@@ -3688,7 +3688,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Zucchini,
         icon        		= HCPottedzucchini,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedzucchinidead
     {
@@ -3697,7 +3697,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Zucchini,
         icon        		= HCPottedzucchinidead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedzucchiniready
     {
@@ -3706,7 +3706,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Zucchini,
         icon        		= HCPottedzucchini,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedzucchini/HCPottedzucchinismall/HCPottedzucchinismalldead/HCPottedzucchinismalldry/HCPottedzucchinidry/HCPottedzucchinidead/HCPottedzucchiniready,
@@ -3723,7 +3723,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Tea Tree,
         icon        		= HCPottedteasmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedteasmalldead
     {
@@ -3732,7 +3732,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Tea Tree,
         icon        		= HCPottedteasmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedteasmalldry
     {
@@ -3741,7 +3741,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Tea Tree,
         icon        		= HCPottedteasmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedteadry
     {
@@ -3750,7 +3750,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Tea Tree,
         icon        		= HCPottedtea,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedteadead
     {
@@ -3759,7 +3759,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Tea Tree,
         icon        		= HCPottedteadead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedteaready
     {
@@ -3768,7 +3768,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Tea Tree,
         icon        		= HCPottedtea,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedtea/HCPottedteasmall/HCPottedteasmalldead/HCPottedteasmalldry/HCPottedteadry/HCPottedteadead/HCPottedteaready,
@@ -3785,7 +3785,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Hemp Plant,
         icon        		= HCPottedhempsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedhempsmalldead
     {
@@ -3794,7 +3794,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Hemp Plant,
         icon        		= HCPottedhempsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedhempsmalldry
     {
@@ -3803,7 +3803,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Hemp Plant,
         icon        		= HCPottedhempsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedhempdry
     {
@@ -3812,7 +3812,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Hemp Plant,
         icon        		= HCPottedhemp,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedhempdead
     {
@@ -3821,7 +3821,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Hemp Plant,
         icon        		= HCPottedhempdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedhempready
     {
@@ -3830,7 +3830,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Hemp Plant,
         icon        		= HCPottedhemp,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedhemp/HCPottedhempsmall/HCPottedhempsmalldead/HCPottedhempsmalldry/HCPottedhempdry/HCPottedhempdead/HCPottedhempready,
@@ -3847,7 +3847,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Tobacco Plant,
         icon        		= HCPottedtobaccosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedtobaccosmalldead
     {
@@ -3856,7 +3856,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Tobacco Plant,
         icon        		= HCPottedtobaccosmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedtobaccosmalldry
     {
@@ -3865,7 +3865,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Tobacco Plant,
         icon        		= HCPottedtobaccosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedtobaccodry
     {
@@ -3874,7 +3874,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Tobacco Plant,
         icon        		= HCPottedtobacco,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedtobaccodead
     {
@@ -3883,7 +3883,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Tobacco Plant,
         icon        		= HCPottedtobaccodead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedtobaccoready
     {
@@ -3892,7 +3892,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Tobacco Plant,
         icon        		= HCPottedtobacco,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedtobacco/HCPottedtobaccosmall/HCPottedtobaccosmalldead/HCPottedtobaccosmalldry/HCPottedtobaccodry/HCPottedtobaccodead/HCPottedtobaccoready,
@@ -3909,7 +3909,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Chinese Cabbage,
         icon        		= HCPottedchinesecabbagesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedchinesecabbagesmalldead
     {
@@ -3918,7 +3918,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Chinese Cabbage,
         icon        		= HCPottedchinesecabbagesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedchinesecabbagesmalldry
     {
@@ -3927,7 +3927,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Chinese Cabbage,
         icon        		= HCPottedchinesecabbagesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedchinesecabbagedry
     {
@@ -3936,7 +3936,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Chinese Cabbage,
         icon        		= HCPottedchinesecabbage,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedchinesecabbagedead
     {
@@ -3945,7 +3945,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Chinese Cabbage,
         icon        		= HCPottedchinesecabbagedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedchinesecabbageready
     {
@@ -3954,7 +3954,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Chinese Cabbage,
         icon        		= HCPottedchinesecabbage,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedchinesecabbage/HCPottedchinesecabbagesmall/HCPottedchinesecabbagesmalldead/HCPottedchinesecabbagesmalldry/HCPottedchinesecabbagedry/HCPottedchinesecabbagedead/HCPottedchinesecabbageready,
@@ -3970,7 +3970,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Cucumber,
         icon        		= HCPottedcucumbersmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcucumbersmalldead
     {
@@ -3979,7 +3979,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Cucumber,
         icon        		= HCPottedcucumbersmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcucumbersmalldry
     {
@@ -3988,7 +3988,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Cucumber,
         icon        		= HCPottedcucumbersmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcucumberdry
     {
@@ -3997,7 +3997,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Cucumber,
         icon        		= HCPottedcucumber,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcucumberdead
     {
@@ -4006,7 +4006,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Cucumber,
         icon        		= HCPottedcucumberdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcucumberready
     {
@@ -4015,7 +4015,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Cucumber,
         icon        		= HCPottedcucumber,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedcucumber/HCPottedcucumbersmall/HCPottedcucumbersmalldead/HCPottedcucumbersmalldry/HCPottedcucumberdry/HCPottedcucumberdead/HCPottedcucumberready,
@@ -4032,7 +4032,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Ginger,
         icon        		= HCPottedgingersmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedgingersmalldead
     {
@@ -4041,7 +4041,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Ginger,
         icon        		= HCPottedgingersmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedgingersmalldry
     {
@@ -4050,7 +4050,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Ginger,
         icon        		= HCPottedgingersmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedgingerdry
     {
@@ -4059,7 +4059,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Ginger,
         icon        		= HCPottedginger,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedgingerdead
     {
@@ -4068,7 +4068,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Ginger,
         icon        		= HCPottedgingerdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedgingerready
     {
@@ -4077,7 +4077,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Ginger,
         icon        		= HCPottedgingerready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedginger/HCPottedgingersmall/HCPottedgingersmalldead/HCPottedgingersmalldry/HCPottedgingerdry/HCPottedgingerdead/HCPottedgingerready,
@@ -4094,7 +4094,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Garlic,
         icon        		= HCPottedgarlicsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedgarlicsmalldead
     {
@@ -4103,7 +4103,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Garlic,
         icon        		= HCPottedgarlicsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedgarlicsmalldry
     {
@@ -4112,7 +4112,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Garlic,
         icon        		= HCPottedgarlicsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedgarlicdry
     {
@@ -4121,7 +4121,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Garlic,
         icon        		= HCPottedgarlic,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedgarlicdead
     {
@@ -4130,7 +4130,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Garlic,
         icon        		= HCPottedgarlicdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedgarlicready
     {
@@ -4139,7 +4139,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Garlic,
         icon        		= HCPottedgarlic,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedgarlic/HCPottedgarlicsmall/HCPottedgarlicsmalldead/HCPottedgarlicsmalldry/HCPottedgarlicdry/HCPottedgarlicdead/HCPottedgarlicready,
@@ -4156,7 +4156,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Green Onion,
         icon        		= HCPottedoniongreensmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedoniongreensmalldead
     {
@@ -4165,7 +4165,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Green Onion,
         icon        		= HCPottedoniongreensmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedoniongreensmalldry
     {
@@ -4174,7 +4174,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Green Onion,
         icon        		= HCPottedoniongreensmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedoniongreendry
     {
@@ -4183,7 +4183,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Green Onion,
         icon        		= HCPottedoniongreen,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedoniongreendead
     {
@@ -4192,7 +4192,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Green Onion,
         icon        		= HCPottedoniongreendead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedoniongreenready
     {
@@ -4201,7 +4201,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Green Onion,
         icon        		= HCPottedoniongreen,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedoniongreen/HCPottedoniongreensmall/HCPottedoniongreensmalldead/HCPottedoniongreensmalldry/HCPottedoniongreendry/HCPottedoniongreendead/HCPottedoniongreenready,
@@ -4218,7 +4218,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Sweet Potato,
         icon        		= HCPottedsweetpotatosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedsweetpotatosmalldead
     {
@@ -4227,7 +4227,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Sweet Potato,
         icon        		= HCPottedsweetpotatosmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedsweetpotatosmalldry
     {
@@ -4236,7 +4236,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Sweet Potato,
         icon        		= HCPottedsweetpotatosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedsweetpotatodry
     {
@@ -4245,7 +4245,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Sweet Potato,
         icon        		= HCPottedsweetpotato,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedsweetpotatodead
     {
@@ -4254,7 +4254,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Sweet Potato,
         icon        		= HCPottedsweetpotatodead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedsweetpotatoready
     {
@@ -4263,7 +4263,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Sweet Potato,
         icon        		= HCPottedsweetpotato,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedsweetpotato/HCPottedsweetpotatosmall/HCPottedsweetpotatosmalldead/HCPottedsweetpotatosmalldry/HCPottedsweetpotatodry/HCPottedsweetpotatodead/HCPottedsweetpotatoready,
@@ -4280,7 +4280,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Jute Plant,
         icon        		= HCPottedjutesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedjutesmalldead
     {
@@ -4289,7 +4289,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Jute Plant,
         icon        		= HCPottedjutesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedjutesmalldry
     {
@@ -4298,7 +4298,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Jute Plant,
         icon        		= HCPottedjutesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedjutedry
     {
@@ -4307,7 +4307,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Jute Plant,
         icon        		= HCPottedjute,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedjutedead
     {
@@ -4316,7 +4316,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Jute Plant,
         icon        		= HCPottedjutedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedjuteready
     {
@@ -4325,7 +4325,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Jute Plant,
         icon        		= HCPottedjute,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedjute/HCPottedjutesmall/HCPottedjutesmalldead/HCPottedjutesmalldry/HCPottedjutedry/HCPottedjutedead/HCPottedjuteready,
@@ -4342,7 +4342,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Green Pumpkin,
         icon        		= HCPottedpumpkingreensmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkingreensmalldead
     {
@@ -4351,7 +4351,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Green Pumpkin,
         icon        		= HCPottedpumpkingreensmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkingreensmalldry
     {
@@ -4360,7 +4360,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Green Pumpkin,
         icon        		= HCPottedpumpkingreensmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkingreendry
     {
@@ -4369,7 +4369,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Green Pumpkin,
         icon        		= HCPottedpumpkingreen,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkingreendead
     {
@@ -4378,7 +4378,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Green Pumpkin,
         icon        		= HCPottedpumpkingreendead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkingreenready
     {
@@ -4387,7 +4387,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Green Pumpkin,
         icon        		= HCPottedpumpkingreen,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedpumpkingreen/HCPottedpumpkingreensmall/HCPottedpumpkingreensmalldead/HCPottedpumpkingreensmalldry/HCPottedpumpkingreendry/HCPottedpumpkingreendead/HCPottedpumpkingreenready,
@@ -4404,7 +4404,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted White Pumpkin,
         icon        		= HCPottedpumpkinwhitesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinwhitesmalldead
     {
@@ -4413,7 +4413,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted White Pumpkin,
         icon        		= HCPottedpumpkinwhitesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinwhitesmalldry
     {
@@ -4422,7 +4422,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted White Pumpkin,
         icon        		= HCPottedpumpkinwhitesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinwhitedry
     {
@@ -4431,7 +4431,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted White Pumpkin,
         icon        		= HCPottedpumpkinwhite,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinwhitedead
     {
@@ -4440,7 +4440,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted White Pumpkin,
         icon        		= HCPottedpumpkinwhitedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinwhiteready
     {
@@ -4449,7 +4449,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted White Pumpkin,
         icon        		= HCPottedpumpkinwhite,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedpumpkinwhite/HCPottedpumpkinwhitesmall/HCPottedpumpkinwhitesmalldead/HCPottedpumpkinwhitesmalldry/HCPottedpumpkinwhitedry/HCPottedpumpkinwhitedead/HCPottedpumpkinwhiteready,
@@ -4466,7 +4466,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Large Pumpkin,
         icon        		= HCPottedpumpkinlargesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinlargesmalldead
     {
@@ -4475,7 +4475,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Large Pumpkin,
         icon        		= HCPottedpumpkinlargesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinlargesmalldry
     {
@@ -4484,7 +4484,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Large Pumpkin,
         icon        		= HCPottedpumpkinlargesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinlargedry
     {
@@ -4493,7 +4493,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Large Pumpkin,
         icon        		= HCPottedpumpkinlarge,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinlargedead
     {
@@ -4502,7 +4502,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Large Pumpkin,
         icon        		= HCPottedpumpkinlargedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinlargeready
     {
@@ -4511,7 +4511,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Large Pumpkin,
         icon        		= HCPottedpumpkinlarge,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedpumpkinlarge/HCPottedpumpkinlargesmall/HCPottedpumpkinlargesmalldead/HCPottedpumpkinlargesmalldry/HCPottedpumpkinlargedry/HCPottedpumpkinlargedead/HCPottedpumpkinlargeready,
@@ -4528,7 +4528,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Buskin Pumpkin,
         icon        		= HCPottedpumpkinbuskinsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinbuskinsmalldead
     {
@@ -4537,7 +4537,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Buskin Pumpkin,
         icon        		= HCPottedpumpkinbuskinsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinbuskinsmalldry
     {
@@ -4546,7 +4546,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Buskin Pumpkin,
         icon        		= HCPottedpumpkinbuskinasmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinbuskindry
     {
@@ -4555,7 +4555,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Buskin Pumpkin,
         icon        		= HCPottedpumpkinbuskin,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinbuskindead
     {
@@ -4564,7 +4564,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Buskin Pumpkin,
         icon        		= HCPottedpumpkinbuskindead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedpumpkinbuskinready
     {
@@ -4573,7 +4573,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Buskin Pumpkin,
         icon        		= HCPottedpumpkinbuskin,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedpumpkinbuskin/HCPottedpumpkinbuskinsmall/HCPottedpumpkinbuskinsmalldead/HCPottedpumpkinbuskinsmalldry/HCPottedpumpkinbuskindry/HCPottedpumpkinbuskindead/HCPottedpumpkinbuskinready,
@@ -4591,7 +4591,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted White Corn,
         icon        		= HCPottedcornsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornwhitesmalldead
     {
@@ -4600,7 +4600,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted White Corn,
         icon        		= HCPottedcornsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornwhitesmalldry
     {
@@ -4609,7 +4609,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted White Corn,
         icon        		= HCPottedcornsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornwhitedry
     {
@@ -4618,7 +4618,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted White Corn,
         icon        		= HCPottedcornwhite,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornwhitedead
     {
@@ -4627,7 +4627,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted White Corn,
         icon        		= HCPottedcorndead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornwhiteready
     {
@@ -4636,7 +4636,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted White Corn,
         icon        		= HCPottedcornwhite,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedcornwhite/HCPottedcornwhitesmall/HCPottedcornwhitesmalldead/HCPottedcornwhitesmalldry/HCPottedcornwhitedry/HCPottedcornwhitedead/HCPottedcornwhiteready,
@@ -4653,7 +4653,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Red Corn,
         icon        		= HCPottedcornsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornredsmalldead
     {
@@ -4662,7 +4662,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Red Corn,
         icon        		= HCPottedcornsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornredsmalldry
     {
@@ -4671,7 +4671,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Red Corn,
         icon        		= HCPottedcornsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornreddry
     {
@@ -4680,7 +4680,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Red Corn,
         icon        		= HCPottedcornred,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornreddead
     {
@@ -4689,7 +4689,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Red Corn,
         icon        		= HCPottedcorndead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornredready
     {
@@ -4698,7 +4698,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Red Corn,
         icon        		= HCPottedcornred,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedcornred/HCPottedcornredsmall/HCPottedcornredsmalldead/HCPottedcornredsmalldry/HCPottedcornreddry/HCPottedcornreddead/HCPottedcornredready,
@@ -4715,7 +4715,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Blue Corn,
         icon        		= HCPottedcornsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornbluesmalldead
     {
@@ -4724,7 +4724,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Blue Corn,
         icon        		= HCPottedcornsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornbluesmalldry
     {
@@ -4733,7 +4733,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Blue Corn,
         icon        		= HCPottedcornsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornbluedry
     {
@@ -4742,7 +4742,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Blue Corn,
         icon        		= HCPottedcornblue,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornbluedead
     {
@@ -4751,7 +4751,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Blue Corn,
         icon        		= HCPottedcorndead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedcornblueready
     {
@@ -4760,7 +4760,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Blue Corn,
         icon        		= HCPottedcornblue,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedcornblue/HCPottedcornbluesmall/HCPottedcornbluesmalldead/HCPottedcornbluesmalldry/HCPottedcornbluedry/HCPottedcornbluedead/HCPottedcornblueready,
@@ -4777,7 +4777,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Chili Pepper Plant,
         icon        		= HCPottedchilipepperplantsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedchilipepperplantsmalldead
     {
@@ -4786,7 +4786,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Chili Pepper Plant,
         icon        		= HCPottedchilipepperplantsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedchilipepperplantsmalldry
     {
@@ -4795,7 +4795,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Chili Pepper Plant,
         icon        		= HCPottedchilipepperplantsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedchilipepperplantdry
     {
@@ -4804,7 +4804,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Chili Pepper Plant,
         icon        		= HCPottedchilipepperplant,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedchilipepperplantdead
     {
@@ -4813,7 +4813,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Chili Pepper Plant,
         icon        		= HCPottedchilipepperplantdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
     item HCPottedchilipepperplantready
     {
@@ -4822,7 +4822,7 @@ recipe Plant Crop
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Chili Pepper Plant,
         icon        		= HCPottedchilipepperplantready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedchilipepperplant/HCPottedchilipepperplantsmall/HCPottedchilipepperplantsmalldead/HCPottedchilipepperplantsmalldry/HCPottedchilipepperplantdry/HCPottedchilipepperplantdead/HCPottedchilipepperplantready,
@@ -4839,7 +4839,7 @@ item HCPottedpoppysmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Poppy,
         icon        		= HCPottedpoppysmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedpoppysmalldead
     {
@@ -4848,7 +4848,7 @@ item HCPottedpoppysmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Poppy,
         icon        		= HCPottedpoppysmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedpoppysmalldry
     {
@@ -4857,7 +4857,7 @@ item HCPottedpoppysmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Poppy,
         icon        		= HCPottedpoppysmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedpoppydry
     {
@@ -4866,7 +4866,7 @@ item HCPottedpoppydry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Poppy,
         icon        		= HCPottedpoppy,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedpoppydead
     {
@@ -4875,7 +4875,7 @@ item HCPottedpoppydead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Poppy,
         icon        		= HCPottedpoppydead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedpoppyready
     {
@@ -4884,7 +4884,7 @@ item HCPottedpoppyready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Poppy,
         icon        		= HCPottedpoppyready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedpoppy/HCPottedpoppysmall/HCPottedpoppysmalldead/HCPottedpoppysmalldry/HCPottedpoppydry/HCPottedpoppydead/HCPottedpoppyready,
@@ -4901,7 +4901,7 @@ item HCPottedcactussmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Cactus,
         Icon        		= HCPottedcactussmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcactussmalldead
     {
@@ -4910,7 +4910,7 @@ item HCPottedcactussmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Cactus,
         Icon        		= HCPottedcactussmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcactussmalldry
     {
@@ -4919,7 +4919,7 @@ item HCPottedcactussmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Cactus,
         Icon        		= HCPottedcactussmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcactusdry
     {
@@ -4928,7 +4928,7 @@ item HCPottedcactusdry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Cactus,
         Icon        		= HCPottedcactus,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcactusdead
     {
@@ -4937,7 +4937,7 @@ item HCPottedcactusdead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Cactus,
         Icon        		= HCPottedcactus,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcactusready
     {
@@ -4946,7 +4946,7 @@ item HCPottedcactusready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Cactus,
         Icon        		= HCPottedcactus,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedcactus/HCPottedcactussmall/HCPottedcactussmalldead/HCPottedcactussmalldry/HCPottedcactusdry/HCPottedcactusdead/HCPottedcactusready,
@@ -4963,7 +4963,7 @@ item HCPottedagavebluesmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Blue Agave,
         Icon        		= HCPottedagavebluesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedagavebluesmalldead
     {
@@ -4972,7 +4972,7 @@ item HCPottedagavebluesmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Blue Agave,
         Icon        		= HCPottedagavebluesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedagavebluesmalldry
     {
@@ -4981,7 +4981,7 @@ item HCPottedagavebluesmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Blue Agave,
         Icon        		= HCPottedagavebluesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedagavebluedry
     {
@@ -4990,7 +4990,7 @@ item HCPottedagavebluedry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Blue Agave,
         Icon        		= HCPottedagaveblue,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedagavebluedead
     {
@@ -4999,7 +4999,7 @@ item HCPottedagavebluedead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Blue Agave,
         Icon        		= HCPottedagavebluedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedagaveblueready
     {
@@ -5008,7 +5008,7 @@ item HCPottedagaveblueready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Blue Agave,
         Icon        		= HCPottedagaveblue,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedagaveblue/HCPottedagavebluesmall/HCPottedagavebluesmalldead/HCPottedagavebluesmalldry/HCPottedagavebluedry/HCPottedagavebluedead/HCPottedagaveblueready,
@@ -5025,7 +5025,7 @@ item HCPottedpricklypearcactussmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Prickly Pear Cactus,
         Icon        		= HCPottedpricklypearcactussmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedpricklypearcactussmalldead
     {
@@ -5034,7 +5034,7 @@ item HCPottedpricklypearcactussmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Prickly Pear Cactus,
         Icon        		= HCPottedpricklypearcactussmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedpricklypearcactussmalldry
     {
@@ -5043,7 +5043,7 @@ item HCPottedpricklypearcactussmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Prickly Pear Cactus,
         Icon        		= HCPottedpricklypearcactussmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedpricklypearcactusdry
     {
@@ -5052,7 +5052,7 @@ item HCPottedpricklypearcactusdry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Prickly Pear Cactus,
         Icon        		= HCPottedpricklypearcactus,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedpricklypearcactusdead
     {
@@ -5061,7 +5061,7 @@ item HCPottedpricklypearcactusdead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Prickly Pear Cactus,
         Icon        		= HCPottedpricklypearcactusdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedpricklypearcactusready
     {
@@ -5070,7 +5070,7 @@ item HCPottedpricklypearcactusready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Prickly Pear Cactus,
         Icon        		= HCPottedpricklypearcactus,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedpricklypearcactus/HCPottedpricklypearcactussmall/HCPottedpricklypearcactussmalldead/HCPottedpricklypearcactussmalldry/HCPottedpricklypearcactusdry/HCPottedpricklypearcactusdead/HCPottedpricklypearcactusready,
@@ -5088,7 +5088,7 @@ item HCPottedJalapeno
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Jalapeno,
         Icon        		= HCPottedchilipepperplant,
-	ResizeWorldIcon 	= 1.0,
+	
     	}
 item HCPottedJalapenosmall
     {
@@ -5097,7 +5097,7 @@ item HCPottedJalapenosmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Jalapeno,
         Icon        		= HCPottedchilipepperplantsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedJalapenosmalldead
     {
@@ -5106,7 +5106,7 @@ item HCPottedJalapenosmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Jalapeno,
         Icon        		= HCPottedchilipepperplantsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedJalapenosmalldry
     {
@@ -5115,7 +5115,7 @@ item HCPottedJalapenosmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Jalapeno,
         Icon        		= HCPottedchilipepperplantsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedJalapenodry
     {
@@ -5124,7 +5124,7 @@ item HCPottedJalapenodry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Jalapeno,
         Icon        		= HCPottedchilipepperplant,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedJalapenodead
     {
@@ -5133,7 +5133,7 @@ item HCPottedJalapenodead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Jalapeno,
         Icon        		= HCPottedchilipepperplantdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedJalapenoready
     {
@@ -5142,7 +5142,7 @@ item HCPottedJalapenoready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Jalapeno,
         Icon        		= HCPottedchiligreen,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedJalapeno/HCPottedJalapenosmall/HCPottedJalapenosmalldead/HCPottedJalapenosmalldry/HCPottedJalapenodry/HCPottedJalapenodead/HCPottedJalapenoready,
@@ -5182,7 +5182,7 @@ item HCPottedchiligreensmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Green Chili,
         Icon        		= HCPottedchilipepperplantsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedchiligreensmalldead
     {
@@ -5191,7 +5191,7 @@ item HCPottedchiligreensmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Green Chili,
         Icon        		= HCPottedchilipepperplantsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedchiligreensmalldry
     {
@@ -5200,7 +5200,7 @@ item HCPottedchiligreensmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Green Chili,
         Icon        		= HCPottedchilipepperplantsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedchiligreendry
     {
@@ -5209,7 +5209,7 @@ item HCPottedchiligreendry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Green Chili,
         Icon        		= HCPottedchilipepperplant,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedchiligreendead
     {
@@ -5218,7 +5218,7 @@ item HCPottedchiligreendead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Green Chili,
         Icon        		= HCPottedchilipepperplantdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedchiligreenready
     {
@@ -5227,7 +5227,7 @@ item HCPottedchiligreenready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Green Chili,
         Icon        		= HCPottedchiligreen,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedchiligreen/HCPottedchiligreensmall/HCPottedchiligreensmalldead/HCPottedchiligreensmalldry/HCPottedchiligreendry/HCPottedchiligreendead/HCPottedchiligreenready,
@@ -5244,7 +5244,7 @@ item HCPottedtomatilloplantsmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Tomatillo Plant,
         Icon        		= HCPottedtomatilloplantsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedtomatilloplantsmalldead
     {
@@ -5253,7 +5253,7 @@ item HCPottedtomatilloplantsmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Tomatillo Plant,
         Icon        		= HCPottedtomatilloplantsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedtomatilloplantsmalldry
     {
@@ -5262,7 +5262,7 @@ item HCPottedtomatilloplantsmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Tomatillo Plant,
         Icon        		= HCPottedtomatilloplantsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedtomatilloplantdry
     {
@@ -5271,7 +5271,7 @@ item HCPottedtomatilloplantdry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Tomatillo Plant,
         Icon        		= HCPottedtomatilloplant,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedtomatilloplantdead
     {
@@ -5280,7 +5280,7 @@ item HCPottedtomatilloplantdead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Tomatillo Plant,
         Icon        		= HCPottedtomatilloplantdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedtomatilloplantready
     {
@@ -5289,7 +5289,7 @@ item HCPottedtomatilloplantready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Tomatillo Plant,
         Icon        		= HCPottedtomatilloplant,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedtomatilloplant/HCPottedtomatilloplantsmall/HCPottedtomatilloplantsmalldead/HCPottedtomatilloplantsmalldry/HCPottedtomatilloplantdry/HCPottedtomatilloplantdead/HCPottedtomatilloplantready,
@@ -5306,7 +5306,7 @@ item HCPottedcottonplantsmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Cotton Plant,
         icon        		= HCPottedcottonplantsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcottonplantsmalldead
     {
@@ -5315,7 +5315,7 @@ item HCPottedcottonplantsmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Cotton Plant,
         icon        		= HCPottedcottonplantsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcottonplantsmalldry
     {
@@ -5324,7 +5324,7 @@ item HCPottedcottonplantsmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Cotton Plant,
         icon        		= HCPottedcottonplantsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcottonplantdry
     {
@@ -5333,7 +5333,7 @@ item HCPottedcottonplantdry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Cotton Plant,
         icon        		= HCPottedcottonplant,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcottonplantdead
     {
@@ -5342,7 +5342,7 @@ item HCPottedcottonplantdead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Cotton Plant,
         icon        		= HCPottedcottonplantdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcottonplantready
     {
@@ -5351,7 +5351,7 @@ item HCPottedcottonplantready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Cotton Plant,
         icon        		= HCPottedcottonplantready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedcottonplant/HCPottedcottonplantsmall/HCPottedcottonplantsmalldead/HCPottedcottonplantsmalldry/HCPottedcottonplantdry/HCPottedcottonplantdead/HCPottedcottonplantready,
@@ -5368,7 +5368,7 @@ item HCPottedricesmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Rice,
         icon        		= HCPottedricesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedricesmalldead
     {
@@ -5377,7 +5377,7 @@ item HCPottedricesmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Rice,
         icon        		= HCPottedricesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedricesmalldry
     {
@@ -5386,7 +5386,7 @@ item HCPottedricesmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Rice,
         icon        		= HCPottedricesmalldry,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedricedry
     {
@@ -5395,7 +5395,7 @@ item HCPottedricedry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Rice,
         icon        		= HCPottedricedry,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedricedead
     {
@@ -5404,7 +5404,7 @@ item HCPottedricedead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Rice,
         icon        		= HCPottedricedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedriceready
     {
@@ -5413,7 +5413,7 @@ item HCPottedriceready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Rice,
         icon        		= HCPottedrice,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedrice/HCPottedricesmall/HCPottedricesmalldead/HCPottedricesmalldry/HCPottedricedry/HCPottedricedead/HCPottedriceready,
@@ -5430,7 +5430,7 @@ item HCPottedshiitakesmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Shiitake Mushrooms,
         icon        		= HCPottedshiitakesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedshiitakesmalldead
     {
@@ -5439,7 +5439,7 @@ item HCPottedshiitakesmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Shiitake Mushrooms,
         icon        		= HCPottedshiitakesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedshiitakesmalldry
     {
@@ -5448,7 +5448,7 @@ item HCPottedshiitakesmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Shiitake Mushrooms,
         icon        		= HCPottedshiitakesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedshiitakedry
     {
@@ -5457,7 +5457,7 @@ item HCPottedshiitakedry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Shiitake Mushrooms,
         icon        		= HCPottedshiitake,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedshiitakedead
     {
@@ -5466,7 +5466,7 @@ item HCPottedshiitakedead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Shiitake Mushrooms,
         icon        		= HCPottedshiitakedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedshiitakeready
     {
@@ -5475,7 +5475,7 @@ item HCPottedshiitakeready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Shiitake Mushrooms,
         icon        		= HCPottedshiitake,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedshiitake/HCPottedshiitakesmall/HCPottedshiitakesmalldead/HCPottedshiitakesmalldry/HCPottedshiitakedry/HCPottedshiitakedead/HCPottedshiitakeready,
@@ -5492,7 +5492,7 @@ item HCPottedportobellosmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Portobello Mushrooms,
         icon        		= HCPottedportobellosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedportobellosmalldead
     {
@@ -5501,7 +5501,7 @@ item HCPottedportobellosmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Portobello Mushrooms,
         icon        		= HCPottedportobellosmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedportobellosmalldry
     {
@@ -5510,7 +5510,7 @@ item HCPottedportobellosmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Portobello Mushrooms,
         icon        		= HCPottedportobellosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedportobellodry
     {
@@ -5519,7 +5519,7 @@ item HCPottedportobellodry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Portobello Mushrooms,
         icon        		= HCPottedportobello,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedportobellodead
     {
@@ -5528,7 +5528,7 @@ item HCPottedportobellodead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Portobello Mushrooms,
         icon        		= HCPottedportobellodead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedportobelloready
     {
@@ -5537,7 +5537,7 @@ item HCPottedportobelloready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Portobello Mushrooms,
         icon        		= HCPottedportobello,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedportobello/HCPottedportobellosmall/HCPottedportobellosmalldead/HCPottedportobellosmalldry/HCPottedportobellodry/HCPottedportobellodead/HCPottedportobelloready,
@@ -5554,7 +5554,7 @@ item HCPottedcolewortsmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Colewort,
         icon        		= HCPottedcolewortsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcolewortsmalldead
     {
@@ -5563,7 +5563,7 @@ item HCPottedcolewortsmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Colewort,
         icon        		= HCPottedcolewortsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcolewortsmalldry
     {
@@ -5572,7 +5572,7 @@ item HCPottedcolewortsmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Colewort,
         icon        		= HCPottedcolewortsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcolewortdry
     {
@@ -5581,7 +5581,7 @@ item HCPottedcolewortdry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Colewort,
         icon        		= HCPottedcolewort,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcolewortdead
     {
@@ -5590,7 +5590,7 @@ item HCPottedcolewortdead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Colewort,
         icon        		= HCPottedcolewortdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcolewortready
     {
@@ -5599,7 +5599,7 @@ item HCPottedcolewortready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Colewort,
         icon        		= HCPottedcolewort,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedcolewort/HCPottedcolewortsmall/HCPottedcolewortsmalldead/HCPottedcolewortsmalldry/HCPottedcolewortdry/HCPottedcolewortdead/HCPottedcolewortready,
@@ -5616,7 +5616,7 @@ item HCPottedrubbertreesmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Rubber Tree,
         icon        		= HCPottedrubbertreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedrubbertreesmalldead
     {
@@ -5625,7 +5625,7 @@ item HCPottedrubbertreesmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Rubber Tree,
         icon        		= HCPottedrubbertreesmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedrubbertreesmalldry
     {
@@ -5634,7 +5634,7 @@ item HCPottedrubbertreesmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Rubber Tree,
         icon        		= HCPottedrubbertreesmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedrubbertreedry
     {
@@ -5643,7 +5643,7 @@ item HCPottedrubbertreedry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Rubber Tree,
         icon        		= HCPottedrubbertree,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedrubbertreedead
     {
@@ -5652,7 +5652,7 @@ item HCPottedrubbertreedead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Rubber Tree,
         icon        		= HCPottedrubbertreedead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedrubbertreeready
     {
@@ -5661,7 +5661,7 @@ item HCPottedrubbertreeready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Rubber Tree,
         icon        		= HCPottedrubbertree,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedrubbertree2
     {
@@ -5672,7 +5672,7 @@ item HCPottedrubbertree2
         DisplayName 		= Potted Rubber Tree with Sap Catchers,
 	ReplaceOnDeplete	= HCPlanter,
         icon        		= HCPottedrubbertree2,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 item HCPottedrubbertreedry2
     {
@@ -5681,7 +5681,7 @@ item HCPottedrubbertreedry2
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Rubber Tree with Sap Catchers,
         icon        		= HCPottedrubbertree,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedrubbertreedead2
     {
@@ -5690,7 +5690,7 @@ item HCPottedrubbertreedead2
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Rubber Tree with Sap Catchers,
         icon        		= HCPottedrubbertreedead2,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedrubbertree/HCPottedrubbertree2/HCPottedrubbertreesmall/HCPottedrubbertreesmalldead/HCPottedrubbertreesmalldry/HCPottedrubbertreedry/HCPottedrubbertreedry2/HCPottedrubbertreedead/HCPottedrubbertreedead2/HCPottedrubbertreeready,
@@ -5707,7 +5707,7 @@ item HCPottedbasilsmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Basil,
         icon        		= HCPottedbasilsmall,
-		ResizeWorldIcon 	= 2.0,
+		
     }
 item HCPottedbasilsmalldead
     {
@@ -5716,7 +5716,7 @@ item HCPottedbasilsmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Basil,
         icon        		= HCPottedbasilsmalldead,
-		ResizeWorldIcon 	= 2.0,
+		
     }
 item HCPottedbasilsmalldry
     {
@@ -5725,7 +5725,7 @@ item HCPottedbasilsmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Basil,
         icon        		= HCPottedbasilsmall,
-		ResizeWorldIcon 	= 2.0,
+		
     }
 item HCPottedbasildry
     {
@@ -5734,7 +5734,7 @@ item HCPottedbasildry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Basil,
         icon        		= HCPottedbasil,
-		ResizeWorldIcon 	= 2.0,
+		
     }
 item HCPottedbasildead
     {
@@ -5743,7 +5743,7 @@ item HCPottedbasildead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Basil,
         icon        		= HCPottedbasil,
-		ResizeWorldIcon 	= 2.0,
+		
     }
 item HCPottedbasilready
     {
@@ -5752,7 +5752,7 @@ item HCPottedbasilready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Basil,
         icon        		= HCPottedbasil,
-		ResizeWorldIcon 	= 2.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedbasil/HCPottedbasilsmall/HCPottedbasilsmalldead/HCPottedbasilsmalldry/HCPottedbasildry/HCPottedbasildead/HCPottedbasilready,
@@ -5769,7 +5769,7 @@ item HCPottedalfalfasmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Alfalfa,
         icon        		= HCPottedalfalfasmall,
-		ResizeWorldIcon 	= 2.0,
+		
     }
 item HCPottedalfalfasmalldead
     {
@@ -5778,7 +5778,7 @@ item HCPottedalfalfasmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Alfalfa,
         icon        		= HCPottedalfalfasmalldead,
-		ResizeWorldIcon 	= 2.0,
+		
     }
 item HCPottedalfalfasmalldry
     {
@@ -5787,7 +5787,7 @@ item HCPottedalfalfasmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Alfalfa,
         icon        		= HCPottedalfalfasmall,
-		ResizeWorldIcon 	= 2.0,
+		
     }
 item HCPottedalfalfadry
     {
@@ -5796,7 +5796,7 @@ item HCPottedalfalfadry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Alfalfa,
         icon        		= HCPottedalfalfa,
-		ResizeWorldIcon 	= 2.0,
+		
     }
 item HCPottedalfalfadead
     {
@@ -5805,7 +5805,7 @@ item HCPottedalfalfadead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Alfalfa,
         icon        		= HCPottedalfalfadead,
-		ResizeWorldIcon 	= 2.0,
+		
     }
 item HCPottedalfalfaready
     {
@@ -5814,7 +5814,7 @@ item HCPottedalfalfaready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Alfalfa,
         icon        		= HCPottedalfalfa,
-		ResizeWorldIcon 	= 2.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedalfalfa/HCPottedalfalfasmall/HCPottedalfalfasmalldead/HCPottedalfalfasmalldry/HCPottedalfalfadry/HCPottedalfalfadead/HCPottedalfalfaready,
@@ -5831,7 +5831,7 @@ item HCPottedbamboosmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Bamboo,
         icon        		= HCPottedbamboosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedbamboosmalldead
     {
@@ -5840,7 +5840,7 @@ item HCPottedbamboosmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Bamboo,
         icon        		= HCPottedbamboosmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedbamboosmalldry
     {
@@ -5849,7 +5849,7 @@ item HCPottedbamboosmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Bamboo,
         icon        		= HCPottedbamboosmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedbamboodry
     {
@@ -5858,7 +5858,7 @@ item HCPottedbamboodry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Bamboo,
         icon        		= HCPottedbamboo,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedbamboodead
     {
@@ -5867,7 +5867,7 @@ item HCPottedbamboodead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Bamboo,
         icon        		= HCPottedbamboodead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedbambooready
     {
@@ -5876,7 +5876,7 @@ item HCPottedbambooready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Bamboo,
         icon        		= HCPottedbamboo,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedbamboo/HCPottedbamboosmall/HCPottedbamboosmalldead/HCPottedbamboosmalldry/HCPottedbamboodry/HCPottedbamboodead/HCPottedbambooready,
@@ -5893,7 +5893,7 @@ item HCPottedasparagussmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Asparagus,
         icon        		= HCPottedasparagus,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedasparagussmalldead
     {
@@ -5902,7 +5902,7 @@ item HCPottedasparagussmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Asparagus,
         icon        		= HCPottedasparagusdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedasparagussmalldry
     {
@@ -5911,7 +5911,7 @@ item HCPottedasparagussmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Dry Potted Asparagus,
         icon        		= HCPottedasparagus,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedasparagusdry
     {
@@ -5920,7 +5920,7 @@ item HCPottedasparagusdry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Asparagus,
         icon        		= HCPottedasparagus,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedasparagusdead
     {
@@ -5929,7 +5929,7 @@ item HCPottedasparagusdead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Asparagus,
         icon        		= HCPottedasparagusdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedasparagusready
     {
@@ -5938,7 +5938,7 @@ item HCPottedasparagusready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Asparagus,
         icon        		= HCPottedasparagus,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedasparagus/HCPottedasparagussmall/HCPottedasparagussmalldead/HCPottedasparagussmalldry/HCPottedasparagusdry/HCPottedasparagusdead/HCPottedasparagusready,
@@ -5966,7 +5966,7 @@ item HCPottedartichokessmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Artichokes,
         icon        		= HCPottedartichokessmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedartichokessmalldead
     {
@@ -5975,7 +5975,7 @@ item HCPottedartichokessmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Artichokes,
         icon        		= HCPottedartichokessmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedartichokessmalldry
     {
@@ -5984,7 +5984,7 @@ item HCPottedartichokessmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Artichokes,
         icon        		= HCPottedartichokessmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedartichokesdry
     {
@@ -5993,7 +5993,7 @@ item HCPottedartichokesdry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Artichokes,
         icon        		= HCPottedartichokes,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedartichokesdead
     {
@@ -6002,7 +6002,7 @@ item HCPottedartichokesdead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Artichokes,
         icon        		= HCPottedartichokesdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedartichokesready
     {
@@ -6011,7 +6011,7 @@ item HCPottedartichokesready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Artichokes,
         icon        		= HCPottedartichokes,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedartichokes/HCPottedartichokessmall/HCPottedartichokessmalldead/HCPottedartichokessmalldry/HCPottedartichokesdry/HCPottedartichokesdead/HCPottedartichokesready,
@@ -6028,7 +6028,7 @@ item HCPottedbeetssmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Beets,
         icon        		= HCPottedbeetssmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedbeetssmalldead
     {
@@ -6037,7 +6037,7 @@ item HCPottedbeetssmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Beets,
         icon        		= HCPottedbeetssmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedbeetssmalldry
     {
@@ -6046,7 +6046,7 @@ item HCPottedbeetssmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Beets,
         icon        		= HCPottedbeetssmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedbeetsdry
     {
@@ -6055,7 +6055,7 @@ item HCPottedbeetsdry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Beets,
         icon        		= HCPottedbeets,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedbeetsdead
     {
@@ -6064,7 +6064,7 @@ item HCPottedbeetsdead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Beets,
         icon        		= HCPottedbeetsdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedbeetsready
     {
@@ -6073,7 +6073,7 @@ item HCPottedbeetsready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Beets,
         icon        		= HCPottedbeets,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedbeets/HCPottedbeetssmall/HCPottedbeetssmalldead/HCPottedbeetssmalldry/HCPottedbeetsdry/HCPottedbeetsdead/HCPottedbeetsready,
@@ -6090,7 +6090,7 @@ item HCPottedmulberrysmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Mulberry,
         icon        		= HCPottedmulberrysmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedmulberrysmalldead
     {
@@ -6099,7 +6099,7 @@ item HCPottedmulberrysmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Mulberry,
         icon        		= HCPottedmulberrysmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedmulberrysmalldry
     {
@@ -6108,7 +6108,7 @@ item HCPottedmulberrysmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Mulberry,
         icon        		= HCPottedmulberrysmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedmulberrydry
     {
@@ -6117,7 +6117,7 @@ item HCPottedmulberrydry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Mulberry,
         icon        		= HCPottedmulberry,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedmulberrydead
     {
@@ -6126,7 +6126,7 @@ item HCPottedmulberrydead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Mulberry,
         icon        		= HCPottedmulberrydead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedmulberryready
     {
@@ -6135,7 +6135,7 @@ item HCPottedmulberryready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Mulberry,
         icon        		= HCPottedmulberryready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedmulberry/HCPottedmulberrysmall/HCPottedmulberrysmalldead/HCPottedmulberrysmalldry/HCPottedmulberrydry/HCPottedmulberrydead/HCPottedmulberryready,
@@ -6152,7 +6152,7 @@ item HCPottedapricotsmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Apricot,
         icon        		= HCPottedapricotsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedapricotsmalldead
     {
@@ -6161,7 +6161,7 @@ item HCPottedapricotsmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Apricot,
         icon        		= HCPottedapricotsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedapricotsmalldry
     {
@@ -6170,7 +6170,7 @@ item HCPottedapricotsmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Apricot,
         icon        		= HCPottedapricotsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedapricotdry
     {
@@ -6179,7 +6179,7 @@ item HCPottedapricotdry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Apricot,
         icon        		= HCPottedapricot,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedapricotdead
     {
@@ -6188,7 +6188,7 @@ item HCPottedapricotdead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Apricot,
         icon        		= HCPottedapricotdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedapricotready
     {
@@ -6197,7 +6197,7 @@ item HCPottedapricotready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Apricot,
         icon        		= HCPottedapricotready,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedapricot/HCPottedapricotsmall/HCPottedapricotsmalldead/HCPottedapricotsmalldry/HCPottedapricotdry/HCPottedapricotdead/HCPottedapricotready,
@@ -6214,7 +6214,7 @@ item HCPottedcelerysmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Celery,
         icon        		= HCPottedcelerysmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcelerysmalldead
     {
@@ -6223,7 +6223,7 @@ item HCPottedcelerysmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Celery,
         icon        		= HCPottedcelerysmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcelerysmalldry
     {
@@ -6232,7 +6232,7 @@ item HCPottedcelerysmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Celery,
         icon        		= HCPottedcelerysmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcelerydry
     {
@@ -6241,7 +6241,7 @@ item HCPottedcelerydry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Celery,
         icon        		= HCPottedcelery,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedcelerydead
     {
@@ -6250,7 +6250,7 @@ item HCPottedcelerydead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Celery,
         icon        		= HCPottedcelerydead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedceleryready
     {
@@ -6259,7 +6259,7 @@ item HCPottedceleryready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Ready Potted Celery,
         icon        		= HCPottedcelery,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedcelery/HCPottedcelerysmall/HCPottedcelerysmalldead/HCPottedcelerysmalldry/HCPottedcelerydry/HCPottedcelerydead/HCPottedceleryready,
@@ -6276,7 +6276,7 @@ item HCPottedspinachsmall
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Small Potted Spinach,
         icon        		= HCPottedspinachsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedspinachsmalldead
     {
@@ -6285,7 +6285,7 @@ item HCPottedspinachsmalldead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Small Potted Spinach,
         icon        		= HCPottedspinachsmalldead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedspinachsmalldry
     {
@@ -6294,7 +6294,7 @@ item HCPottedspinachsmalldry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Small Potted Spinach,
         icon        		= HCPottedspinachsmall,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedspinachdry
     {
@@ -6303,7 +6303,7 @@ item HCPottedspinachdry
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dry Potted Spinach,
         icon        		= HCPottedspinach,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedspinachdead
     {
@@ -6312,7 +6312,7 @@ item HCPottedspinachdead
 		UseWhileEquipped	= FALSE,
         DisplayName 		= Dead Potted Spinach,
         icon        		= HCPottedspinachdead,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 item HCPottedspinachready
     {
@@ -6321,7 +6321,7 @@ item HCPottedspinachready
 		UseWhileEquipped	= FALSE,
         DisplayName 		= ReadyPotted Spinach,
         icon        		= HCPottedspinach,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 	recipe Remove Crop
 	{    HCPottedspinach/HCPottedspinachsmall/HCPottedspinachsmalldead/HCPottedspinachsmalldry/HCPottedspinachdry/HCPottedspinachdead/HCPottedspinachready,

@@ -14,7 +14,7 @@ item HCMetalsheetbox
         Type   			= Normal,
         DisplayName         	= Pallet of Aluminum Sheets,
         icon 			= HCMetalsheetbox,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCCrank
@@ -367,7 +367,7 @@ item HCCopperpipebox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Copper Pipes,
         Icon 			= 	HCCopperpipebox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCSteelpipebox
@@ -376,7 +376,7 @@ item HCSteelpipebox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Steel Pipes,
         Icon 			= 	HCSteelpipebox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 	
 	item HCBrasssheet
@@ -393,7 +393,7 @@ item HCMetalbarbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Metal Bars,
         Icon 			= 	HCMetalbarbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCMetalpipebox
@@ -402,7 +402,7 @@ item HCMetalpipebox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Aluminum Pipes,
         Icon 			= 	HCAluminumpipebox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCAluminumingotbox
@@ -411,7 +411,7 @@ item HCAluminumingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Aluminum Ingots,
         Icon 			= 	HCAluminumingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 	
 item HCBrassingotbox
@@ -420,7 +420,7 @@ item HCBrassingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Brass Ingots,
         Icon 			= 	HCBrassingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCBronzeingotbox
@@ -429,7 +429,7 @@ item HCBronzeingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Bronze Ingots,
         Icon 			= 	HCBronzeingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCConcreteingotbox
@@ -438,7 +438,7 @@ item HCConcreteingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Concrete Ingots,
         Icon 			= 	HCConcreteingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCConstantaningotbox
@@ -447,7 +447,7 @@ item HCConstantaningotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Constantan Ingots,
         Icon 			= 	HCConstantaningotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCCopperingotbox
@@ -456,7 +456,7 @@ item HCCopperingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Copper Ingots,
         Icon 			= 	HCCopperingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCElectrumingotbox
@@ -465,7 +465,7 @@ item HCElectrumingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Electrum Ingots,
         Icon 			= 	HCElectrumingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCGlassingotbox
@@ -474,7 +474,7 @@ item HCGlassingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Glass Ingots,
         Icon 			= 	HCGlassingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCGoldingotbox
@@ -483,7 +483,7 @@ item HCGoldingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Gold Ingots,
         Icon 			= 	HCGoldingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCGraphiteingotbox
@@ -492,7 +492,7 @@ item HCGraphiteingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Graphite Ingots,
         Icon 			= 	HCGraphiteingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCIroningotbox
@@ -501,7 +501,7 @@ item HCIroningotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Iron Ingots,
         Icon 			= 	HCIroningotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCLeadingotbox
@@ -510,7 +510,7 @@ item HCLeadingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Lead Ingots,
         Icon 			= 	HCLeadingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCMagnetiteingotbox
@@ -519,7 +519,7 @@ item HCMagnetiteingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Magnetite Ingots,
         Icon 			= 	HCMagnetiteingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCNickelingotbox
@@ -528,7 +528,7 @@ item HCNickelingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Nickel Ingots,
         Icon 			= 	HCNickelingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCPewteringotbox
@@ -537,7 +537,7 @@ item HCPewteringotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Pewter Ingots,
         Icon 			= 	HCPewteringotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCSilveringotbox
@@ -546,7 +546,7 @@ item HCSilveringotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Silver Ingots,
         Icon 			= 	HCSilveringotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCSteelingotbox
@@ -555,7 +555,7 @@ item HCSteelingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Steel Ingots,
         Icon 			= 	HCSteelingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }	
 	
 item HCTiningotbox
@@ -564,7 +564,7 @@ item HCTiningotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Tin Ingots,
         Icon 			= 	HCTiningotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCTitaniumingotbox
@@ -573,7 +573,7 @@ item HCTitaniumingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Titanium Ingots,
         Icon 			= 	HCTitaniumingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCZincingotbox
@@ -582,7 +582,7 @@ item HCZincingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Zinc Ingots,
         Icon 			= 	HCZincingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCCoppersheetbox
@@ -591,7 +591,7 @@ item HCCoppersheetbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Copper Sheets,
         Icon 			= 	HCCoppersheetbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }	
 	
 item HCIronsheetbox
@@ -600,7 +600,7 @@ item HCIronsheetbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Iron Sheets,
         Icon 			= 	HCIronsheetbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 	
 item HCRubbersheetbox
@@ -609,7 +609,7 @@ item HCRubbersheetbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Rubber Sheets,
         Icon 			= 	HCRubbersheetbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 		
 item HCSteelsheetbox
@@ -618,7 +618,7 @@ item HCSteelsheetbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Steel Sheets,
         Icon 			= 	HCSteelsheetbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }		
 	
 item HCTinsheetbox
@@ -627,7 +627,7 @@ item HCTinsheetbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Tin Sheets,
         Icon 			= 	HCTinsheetbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }		
 
 /************************WEAPONS************************/

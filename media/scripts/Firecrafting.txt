@@ -94,7 +94,7 @@ item HCWoodenbuckettar
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Tar,
         icon 			= HCWoodenbuckettar,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCWoodenbucketcreosote
@@ -103,7 +103,7 @@ item HCWoodenbucketcreosote
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Creosote Oil,
         icon 			= HCWoodenbucketcreosote,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCoke

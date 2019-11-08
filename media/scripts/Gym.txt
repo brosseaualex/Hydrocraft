@@ -24,7 +24,7 @@ item HCPunchingstand
         Type   			= Normal,
         DisplayName         	= Punching Bag Stand,
         icon 			= HCPunchingstand,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCPunchingbag
@@ -33,7 +33,7 @@ item HCPunchingbag
 	Type			= Normal,
         DisplayName         	= Punching Bag,
         icon 			= HCPunchingbag,
-	ResizeWorldIcon 	= 2.0,
+	
     }	
 
 item HCGymtowel
@@ -50,7 +50,7 @@ item HCWeights
         Type   			= Normal,
         DisplayName 		= Weight Bench,
         icon 			= HCWeights,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCTredmill
@@ -59,7 +59,6 @@ item HCTredmill
 	Type				=	Normal,
 	DisplayName			=	Treadmill,
 	Icon				=	HCTredmill,
-        ResizeWorldIcon 	        = 	1.0,
 	}
 
 item HCTredmillgenerator
@@ -68,7 +67,6 @@ item HCTredmillgenerator
 	Type				=	Normal,
 	DisplayName			=	Treadmill with Generator,
 	Icon				=	HCTredmillgenerator,
-        ResizeWorldIcon 	        = 	1.0,
 	}
 
 /************************RECIPES************************/

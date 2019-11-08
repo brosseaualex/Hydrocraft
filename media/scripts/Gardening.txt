@@ -14,7 +14,7 @@ module Hydrocraft
     Type        	= Normal,
     DisplayName    	= Planter,
     icon        	= HCPlanter,
-    ResizeWorldIcon 	= 1.0,
+    
     }
 
   item HCClayflowerpotwithdirt
@@ -32,7 +32,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Apple Tree,
         icon        		= HCPottedappletree,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedbananatree
@@ -42,7 +42,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Banana Tree,
         icon        		= HCPottedbananatree,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedblackberrybush
@@ -52,7 +52,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Blackberry Bush,
         icon        		= HCPottedblackberrybush,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedblueberrybush
@@ -62,7 +62,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Blueberry Bush,
         icon        		= HCPottedblueberrybush,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedgrapevine
@@ -72,7 +72,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Grape Vine,
         icon        		= HCPottedgrapevine,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedlemontree
@@ -82,7 +82,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Lemon Tree,
         icon        		= HCPottedlemontree,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedorangetree
@@ -92,7 +92,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Orange Tree,
         icon        		= HCPottedorangetree,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedpeachtree
@@ -102,7 +102,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Peach Tree,
         icon        		= HCPottedpeachtree,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedstrawberrybush
@@ -112,7 +112,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Strawberry Bush,
         icon        		= HCPottedstrawberrybush,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedwatermelon
@@ -122,7 +122,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Watermelon,
         icon        		= HCPottedwatermelon,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedbellpepper
@@ -132,7 +132,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Bell Pepper,
         icon        		= HCPottedbellpepper,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedbroccoli
@@ -142,7 +142,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Broccoli,
         icon        		= HCPottedbroccoli,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedcabbage
@@ -152,7 +152,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Cabbage,
         icon        		= HCPottedcabbage,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedcarrots
@@ -162,7 +162,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Carrots,
         icon        		= HCPottedcarrots,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedcornstalk
@@ -172,7 +172,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Corn Stalk,
         icon        		= HCPottedcorn,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedeggplant
@@ -182,7 +182,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Eggplant,
         icon        		= HCPottedeggplant,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedleek
@@ -192,7 +192,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Leek,
         icon        		= HCPottedleek,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedlettuce
@@ -202,7 +202,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Lettuce,
         icon        		= HCPottedlettuce,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedonion
@@ -212,7 +212,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Onion,
         icon        		= HCPottedonion,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedpeaplant
@@ -222,7 +222,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Pea Plant,
         icon        		= HCPottedpeaplant,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedpotato
@@ -232,7 +232,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Potato,
         icon        		= HCPottedpotato,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 
@@ -243,7 +243,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Pumpkin,
         icon        		= HCPottedpumpkin,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedradish
@@ -253,7 +253,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Radish,
         icon        		= HCPottedradish,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedtomato
@@ -263,7 +263,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Tomato,
         icon        		= HCPottedtomato,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedpeanutplant
@@ -273,7 +273,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Peanut Plant,
         icon        		= HCPottedpeanutplant,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedavocadotree
@@ -283,7 +283,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Avocado Tree,
         icon        		= HCPottedavocadotree,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedcherrytree
@@ -293,7 +293,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Cherry Tree,
         icon        		= HCPottedcherrytree,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedpeartree
@@ -303,7 +303,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Pear Tree,
         icon        		= HCPottedpeartree,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedpineapple
@@ -313,7 +313,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Pineapple,
         icon        		= HCPottedpineapple,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedzucchini
@@ -323,7 +323,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Zucchini,
         icon        		= HCPottedzucchini,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedtea
@@ -333,7 +333,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Tea Tree,
         icon        		= HCPottedtea,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedhemp
@@ -343,7 +343,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Hemp Plant,
         icon        		= HCPottedhemp,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedtobacco
@@ -353,7 +353,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Tobacco Plant,
         icon        		= HCPottedtobacco,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedchinesecabbage
@@ -363,7 +363,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Chinese Cabbage,
         icon        		= HCPottedchinesecabbage,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedcucumber
@@ -373,7 +373,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Cucumber,
         icon        		= HCPottedcucumber,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedginger
@@ -383,7 +383,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Ginger,
         icon        		= HCPottedginger,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedgarlic
@@ -393,7 +393,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Garlic,
         icon        		= HCPottedgarlic,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedoniongreen
@@ -403,7 +403,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Green Onion,
         icon        		= HCPottedoniongreen,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedsweetpotato
@@ -413,7 +413,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Sweet Potato,
         icon        		= HCPottedsweetpotato,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedjute
@@ -423,7 +423,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Jute Plant,
         icon        		= HCPottedjute,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
     item HCPottedpumpkingreen
@@ -433,7 +433,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Green Pumpkin,
         icon        		= HCPottedpumpkingreen,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
     item HCPottedpumpkinwhite
@@ -443,7 +443,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted White Pumpkin,
         icon        		= HCPottedpumpkinwhite,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
     item HCPottedpumpkinlarge
@@ -453,7 +453,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Large Pumpkin,
         icon        		= HCPottedpumpkinlarge,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
     item HCPottedpumpkinbuskin
@@ -463,7 +463,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Buskin Pumpkin,
         icon        		= HCPottedpumpkinbuskin,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 
@@ -474,7 +474,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted White Corn,
         icon        		= HCPottedcornwhite,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
     item HCPottedcornred
@@ -484,7 +484,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Red Corn,
         icon        		= HCPottedcornred,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedcornblue
@@ -494,7 +494,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Blue Corn,
         icon        		= HCPottedcornblue,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
     item HCPottedchilipepperplant
@@ -504,7 +504,7 @@ module Hydrocraft
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Chili Pepper Plant,
         icon        		= HCPottedchilipepperplant,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCPottedpoppy
@@ -514,7 +514,7 @@ item HCPottedpoppy
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Poppy,
         icon        		= HCPottedpoppy,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCPottedcactus
@@ -524,7 +524,7 @@ item HCPottedcactus
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Cactus,
         Icon        		= HCPottedcactus,
-	ResizeWorldIcon 	= 1.0,
+	
     	}
 
 item HCPottedagaveblue
@@ -534,7 +534,7 @@ item HCPottedagaveblue
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Blue Agave,
         Icon        		= HCPottedagaveblue,
-	ResizeWorldIcon 	= 1.0,
+	
     	}
 
 item HCPottedpricklypearcactus
@@ -544,7 +544,7 @@ item HCPottedpricklypearcactus
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Prickly Pear Cactus,
         Icon        		= HCPottedpricklypearcactus,
-	ResizeWorldIcon 	= 1.0,
+	
     	}
 
 item HCPottedchiligreen
@@ -554,7 +554,7 @@ item HCPottedchiligreen
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Green Chili,
         Icon        		= HCPottedchilipepperplant,
-	ResizeWorldIcon 	= 1.0,
+	
     	}
 
 item HCPottedtomatilloplant
@@ -564,7 +564,7 @@ item HCPottedtomatilloplant
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Tomatillo Plant,
         Icon        		= HCPottedtomatilloplant,
-	ResizeWorldIcon 	= 1.0,
+	
     	}
 
 item HCPottedcottonplant
@@ -574,7 +574,7 @@ item HCPottedcottonplant
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Cotton Plant,
         icon        		= HCPottedcottonplant,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCPottedrice
@@ -584,7 +584,7 @@ item HCPottedrice
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Rice,
         icon        		= HCPottedrice,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCPottedshiitake
@@ -594,7 +594,7 @@ item HCPottedshiitake
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Shiitake Mushrooms,
         icon        		= HCPottedshiitake,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCPottedportobello
@@ -604,7 +604,7 @@ item HCPottedportobello
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Portobello Mushrooms,
         icon        		= HCPottedportobello,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCPottedcolewort
@@ -614,7 +614,7 @@ item HCPottedcolewort
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Colewort,
         icon        		= HCPottedcolewort,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCPottedrubbertree
@@ -624,7 +624,7 @@ item HCPottedrubbertree
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Rubber Tree,
         icon        		= HCPottedrubbertree,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCSpirulinatank
@@ -633,7 +633,6 @@ item HCSpirulinatank
 	Type			=	Normal,
 	DisplayName		=	Fish Tank with Spirulina,
 	Icon			=	HCSpirulinatank,
-	ResizeWorldIcon 	= 	1.8,
     }
 
 item HCPottedbasil
@@ -643,7 +642,7 @@ item HCPottedbasil
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Basil,
         icon        		= HCPottedbasil,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCPottedalfalfa
@@ -653,7 +652,7 @@ item HCPottedalfalfa
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Alfalfa,
         icon        		= HCPottedalfalfa,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCPottedbamboo
@@ -663,7 +662,7 @@ item HCPottedbamboo
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Bamboo,
         icon        		= HCPottedbamboo,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCPottedasparagus
@@ -673,7 +672,7 @@ item HCPottedasparagus
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Asparagus,
         icon        		= HCPottedasparagus,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCPottedartichokes
@@ -683,7 +682,7 @@ item HCPottedartichokes
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Artichokes,
         icon        		= HCPottedartichokes,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCPottedbeets
@@ -693,7 +692,7 @@ item HCPottedbeets
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Beets,
         icon        		= HCPottedbeets,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCPottedmulberry
@@ -703,7 +702,7 @@ item HCPottedmulberry
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Mulberry,
         icon        		= HCPottedmulberry,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCPottedapricot
@@ -713,7 +712,7 @@ item HCPottedapricot
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Apricot,
         icon        		= HCPottedapricot,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCPottedcelery
@@ -723,7 +722,7 @@ item HCPottedcelery
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Celery,
         icon        		= HCPottedcelery,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCPottedspinach
@@ -733,7 +732,7 @@ item HCPottedspinach
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Spinach,
         icon        		= HCPottedspinach,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 /************************RECIPES************************/	

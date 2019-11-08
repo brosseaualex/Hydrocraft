@@ -14,7 +14,7 @@ item HCWoodenbucketvegoil
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Vegetable Oil,
         icon 			= HCWoodenbucketvegoil,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCPotvegoil
@@ -39,7 +39,7 @@ item HCWashtubmethoxide
         Type    		= Normal,
         DisplayName         	= Wooden Washtub with Methoxide,
         icon 			= HCWashtubmethoxide,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCWashtubrawbiodiesel
@@ -48,7 +48,7 @@ item HCWashtubrawbiodiesel
         Type    		= Normal,
         DisplayName         	= Wooden Washtub with Raw Biodiesel,
         icon 			= HCWashtubrawbiodiesel,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCWashtubunwashedbiodiesel
@@ -57,7 +57,7 @@ item HCWashtubunwashedbiodiesel
         Type    		= Normal,
         DisplayName         	= Wooden Washtub with Unwashed Biodiesel,
         icon 			= HCWashtubunwashedbiodiesel,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCWashtubwashedbiodiesel
@@ -66,7 +66,7 @@ item HCWashtubwashedbiodiesel
         Type    		= Normal,
         DisplayName         	= Wooden Washtub with Washed Biodiesel,
         icon 			= HCWashtubwashedbiodiesel,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCBiodieselcan
