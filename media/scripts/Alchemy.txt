@@ -596,7 +596,7 @@ item HCHmtdcrystals
 		Icon				=	HCHmtdcrystals,
 		ExplosionPower  		=   	40,
 		ExplosionRange  		=   	2,
-		ExplosionSound  		=   	smallExplosion,
+		ExplosionSound  		=   	SmallExplosion,
 	}
 
 item HCGlasstubehmtd
@@ -617,7 +617,7 @@ item HCGlasstubehmtd
 		Icon				=	HCGlasstubehmtd,
 		ExplosionPower  		=   	40,
 		ExplosionRange  		=   	2,
-		ExplosionSound  		=   	smallExplosion,
+		ExplosionSound  		=   	SmallExplosion,
 	}
 
 /************************RECIPES************************/

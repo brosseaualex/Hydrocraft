@@ -27,9 +27,9 @@ module Hydrocraft
         DisplayName    		=    Large Alice Pack,
         Icon    		=    HCAlicepack,
         CanBeEquipped 		=    Back,
-        OpenSound   		=    PZ_OpenBag,
-        CloseSound  	 	=    PZ_CloseBag,
-        PutInSound   		=    PZ_PutInBag,
+        OpenSound   		=    OpenBag,
+        CloseSound  	 	=    CloseBag,
+        PutInSound   		=    PutItemInBag,
    }
 
     item HCAlicepack2
@@ -41,9 +41,9 @@ module Hydrocraft
         DisplayName    		=    Medium Alice Pack,
         Icon    		=    HCAlicepack2,
         CanBeEquipped 		=    Back,
-        OpenSound   		=    PZ_OpenBag,
-        CloseSound   		=    PZ_CloseBag,
-        PutInSound   		=    PZ_PutInBag,
+        OpenSound   		=    OpenBag,
+        CloseSound   		=    CloseBag,
+        PutInSound   		=    PutItemInBag,
    }
 
     item HCAlicepack3
@@ -55,9 +55,9 @@ module Hydrocraft
         DisplayName    		=    Fine Leather Alice Pack,
         Icon    		=    HCAlicepack3,
         CanBeEquipped 		=    Back,
-        OpenSound   		=    PZ_OpenBag,
-        CloseSound  	 	=    PZ_CloseBag,
-        PutInSound   		=    PZ_PutInBag,
+        OpenSound   		=    OpenBag,
+        CloseSound  	 	=    CloseBag,
+        PutInSound   		=    PutItemInBag,
    }
 
     item HCCampingpack
@@ -69,9 +69,9 @@ module Hydrocraft
         DisplayName    		=    Camping Pack,
         Icon    		=    HCCampingpack,
         CanBeEquipped 		=    Back,
-        OpenSound   		=    PZ_OpenBag,
-        CloseSound   		=    PZ_CloseBag,
-        PutInSound   		=    PZ_PutInBag,
+        OpenSound   		=    OpenBag,
+        CloseSound   		=    CloseBag,
+        PutInSound   		=    PutItemInBag,
    }
 
     item HCClimbingpack
@@ -83,9 +83,9 @@ module Hydrocraft
         DisplayName    		=    Climbing Pack,
         Icon    		=    HCClimbingpack,
         CanBeEquipped 		=    Back,
-        OpenSound   		=    PZ_OpenBag,
-        CloseSound  		=    PZ_CloseBag,
-        PutInSound   		=    PZ_PutInBag,
+        OpenSound   		=    OpenBag,
+        CloseSound  		=    CloseBag,
+        PutInSound   		=    PutItemInBag,
    }
 
     item HCPrepperbag
@@ -97,9 +97,9 @@ module Hydrocraft
         DisplayName    		=    Doomsday Prepper Bag,
         Icon    		=    HCPrepperbag,
         CanBeEquipped 		=    Back,
-        OpenSound   		=    PZ_OpenBag,
-        CloseSound  		=    PZ_CloseBag,
-        PutInSound   		=    PZ_PutInBag,
+        OpenSound   		=    OpenBag,
+        CloseSound  		=    CloseBag,
+        PutInSound   		=    PutItemInBag,
    }
 
     item HCRucksack
@@ -111,9 +111,9 @@ module Hydrocraft
         DisplayName    		=    Rucksack,
         Icon    		=    HCRucksack,
         CanBeEquipped 		=    Back,
-        OpenSound   		=    PZ_OpenBag,
-        CloseSound   		=    PZ_CloseBag,
-        PutInSound   		=    PZ_PutInBag,
+        OpenSound   		=    OpenBag,
+        CloseSound   		=    CloseBag,
+        PutInSound   		=    PutItemInBag,
    }
 
      item HCWheelbarrow
@@ -716,9 +716,9 @@ module Hydrocraft
         DisplayName         = Schoolbag (Pouches),
         Icon                = HCSchoolbagpouch,
         CanBeEquipped       = Back,
-        OpenSound   =   PZ_OpenBag,
-        CloseSound   =   PZ_CloseBag,
-        PutInSound   =   PZ_PutInBag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
     }
 
     item HCDuffelbagpouch
@@ -730,9 +730,9 @@ module Hydrocraft
         DisplayName         = Duffelbag (Pouches),
         Icon                = HCDuffelbagpouch,
         CanBeEquipped       = Back,
-        OpenSound   =   PZ_OpenBag,
-        CloseSound   =   PZ_CloseBag,
-        PutInSound   =   PZ_PutInBag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
     }
 
     item HCNormalhikingbagpouch
@@ -744,9 +744,9 @@ module Hydrocraft
         DisplayName         	= Normal Hiking Bag (Pouches),
         Icon                	= HCNormalhikingbagpouch,
         CanBeEquipped       	= Back,
-        OpenSound   		= PZ_OpenBag,
-        CloseSound   		= PZ_CloseBag,
-        PutInSound   		= PZ_PutInBag,
+        OpenSound   		= OpenBag,
+        CloseSound   		= CloseBag,
+        PutInSound   		= PutItemInBag,
     }
 
     item HCBighikingbagpouch
@@ -758,9 +758,9 @@ module Hydrocraft
         DisplayName         	= Big Hiking Bag (Pouches),
         Icon                	= HCBighikingbagpouch,
         CanBeEquipped       	= Back,
-        OpenSound   		= PZ_OpenBag,
-        CloseSound   		= PZ_CloseBag,
-        PutInSound   		= PZ_PutInBag,
+        OpenSound   		= OpenBag,
+        CloseSound   		= CloseBag,
+        PutInSound   		= PutItemInBag,
         UseWhileEquipped	= FALSE,
     }
 

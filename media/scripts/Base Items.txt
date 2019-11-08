@@ -104,9 +104,9 @@ module Base
 		DisplayName		=	Normal Hiking Bag,
 		Icon			=	HCNormalhikingbag,
         	CanBeEquipped 		= 	Back,
-        	OpenSound   		=   	PZ_OpenBag,
-        	CloseSound   		=   	PZ_CloseBag,
-        	PutInSound   		=   	PZ_PutInBag,
+        	OpenSound   		=   	OpenBag,
+        	CloseSound   		=   	CloseBag,
+        	PutInSound   		=   	PutItemInBag,
 	}
 
     	item BigHikingBag
@@ -118,9 +118,9 @@ module Base
 		DisplayName		=	Big Hiking Bag,
 		Icon			=	HCBighikingbag,
         	CanBeEquipped 		= 	Back,
-        	OpenSound   		=   	PZ_OpenBag,
-        	CloseSound   		=   	PZ_CloseBag,
-        	PutInSound   		=   	PZ_PutInBag,
+        	OpenSound   		=   	OpenBag,
+        	CloseSound   		=   	CloseBag,
+        	PutInSound   		=   	PutItemInBag,
         	UseWhileEquipped	=	FALSE,
 	}
 
@@ -924,7 +924,7 @@ module Base
 		StressChange		=	-5,
 		Icon			=	IckySticks,
 		CustomContextMenu 	= 	Smoke,
-		CustomEatSound = HC_LightUp,
+		CustomEatSound = Hydrocraft.HC_LightUp,
 		CantBeFrozen 		= 	TRUE,
 		OnEat 			= 	OnEat_Cigarettes,
 		ReplaceOnUse		=	Hydrocraft.HCCigarettebutt,

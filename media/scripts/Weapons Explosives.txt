@@ -129,7 +129,7 @@ item HCAmmonalbomboff
 		Icon				=	HCGrenade,
 		ExplosionPower  		=   	90,
 		ExplosionRange  		=   	7,
-		ExplosionSound  		=   	bigExplosion,
+		ExplosionSound  		=   	BigExplosion,
 	}
 
 	item HCThermitebomb  
@@ -151,7 +151,7 @@ item HCAmmonalbomboff
         	DoorDamage			=	50,
         	FirePower  			=   	250,
         	FireRange  			=   	1,
-        	ExplosionSound  		=   	smallExplosion,
+        	ExplosionSound  		=   	SmallExplosion,
         	Tooltip 			= 	Tooltip_Trap,
     	}
 
@@ -176,7 +176,7 @@ item HCAmmonalbomboff
         	SmokeRange              	= 	7,
  		ExplosionPower          	= 	30,
 		ExplosionRange          	= 	7,
-        	ExplosionSound          	= 	smallExplosion,
+        	ExplosionSound          	= 	SmallExplosion,
 
     	}
 
@@ -199,7 +199,7 @@ item HCAmmonalbomboff
         	TriggerExplosionTimer   	= 	50,
  		ExplosionPower          	= 	150,
 		ExplosionRange          	= 	10,
-        	ExplosionSound          	= 	bigExplosion,
+        	ExplosionSound          	= 	BigExplosion,
         	DoorDamage	        	= 	50,
 
     	}
@@ -243,7 +243,7 @@ item HCAmmonalbomboff
         	Icon				=	HCFireworkrocket1,
         	NoiseRange  			=   	50,
         	CanBePlaced 			= 	TRUE,
-        	ExplosionSound  		=   	bigExplosion,
+        	ExplosionSound  		=   	BigExplosion,
 		OtherHandUse			=	TRUE,
 		OtherHandRequire		=	Lighter,
     	}
@@ -266,7 +266,7 @@ item HCAmmonalbomboff
         	Icon				=	HCFireworkrocket2,
         	NoiseRange  			=   	50,
         	CanBePlaced 			= 	TRUE,
-        	ExplosionSound  		=   	bigExplosion,
+        	ExplosionSound  		=   	BigExplosion,
 		OtherHandUse			=	TRUE,
 		OtherHandRequire		=	Lighter,
     	}
@@ -289,7 +289,7 @@ item HCAmmonalbomboff
         	Icon				=	HCFireworkrocket3,
         	NoiseRange  			=   	50,
         	CanBePlaced 			= 	TRUE,
-        	ExplosionSound  		=   	bigExplosion,
+        	ExplosionSound  		=   	BigExplosion,
 		OtherHandUse			=	TRUE,
 		OtherHandRequire		=	Lighter,
     	}
@@ -312,7 +312,7 @@ item HCAmmonalbomboff
         	Icon				=	HCFireworkrocket4,
         	NoiseRange  			=   	50,
         	CanBePlaced 			= 	TRUE,
-        	ExplosionSound  		=   	bigExplosion,
+        	ExplosionSound  		=   	BigExplosion,
 		OtherHandUse			=	TRUE,
 		OtherHandRequire		=	Lighter,
     	}
@@ -335,7 +335,7 @@ item HCAmmonalbomboff
         	Icon				=	HCFireworkrocket5,
         	NoiseRange  			=   	50,
         	CanBePlaced 			= 	TRUE,
-        	ExplosionSound  		=   	bigExplosion,
+        	ExplosionSound  		=   	BigExplosion,
 		OtherHandUse			=	TRUE,
 		OtherHandRequire		=	Lighter,
     	}
@@ -360,7 +360,7 @@ item HCAmmonalbomboff
         	TriggerExplosionTimer   	= 	50,
  		ExplosionPower          	= 	1,
 		ExplosionRange          	= 	1,
-        	ExplosionSound          	= 	smallExplosion,
+        	ExplosionSound          	= 	SmallExplosion,
         	DoorDamage	        	= 	10,
 
     	}
@@ -384,7 +384,7 @@ item HCAmmonalbomboff
         	TriggerExplosionTimer   	= 	60,
  		ExplosionPower          	= 	1,
 		ExplosionRange          	= 	1,
-        	ExplosionSound          	= 	smallExplosion,
+        	ExplosionSound          	= 	SmallExplosion,
         	DoorDamage	        	= 	10,
 
     	}
@@ -408,7 +408,7 @@ item HCAmmonalbomboff
         	TriggerExplosionTimer   	= 	60,
  		ExplosionPower          	= 	1,
 		ExplosionRange          	= 	1,
-        	ExplosionSound          	= 	smallExplosion,
+        	ExplosionSound          	= 	SmallExplosion,
         	DoorDamage	        	= 	10,
 
     	}
@@ -431,7 +431,7 @@ item HCAmmonalbomboff
 		Icon				=	HCDynamite,
 		ExplosionPower  		=   	70,
 		ExplosionRange  		=   	5,
-		ExplosionSound  		=   	bigExplosion,
+		ExplosionSound  		=   	BigExplosion,
 		OtherHandUse			=	TRUE,
 		OtherHandRequire		=	Lighter,
      }
@@ -457,7 +457,7 @@ item HCAmmonalbomboff
         	SmokeRange              	= 	7,
  		ExplosionPower          	= 	30,
 		ExplosionRange          	= 	7,
-        	ExplosionSound          	= 	smallExplosion,
+        	ExplosionSound          	= 	SmallExplosion,
 
     	}
 
@@ -479,7 +479,7 @@ item HCAmmonalbomboff
 		Icon				=	HCDynamitemk1,
 		ExplosionPower  		=   	70,
 		ExplosionRange  		=   	5,
-		ExplosionSound  		=   	bigExplosion,
+		ExplosionSound  		=   	BigExplosion,
      }
 
 	item HCDynamitenk2on
@@ -501,7 +501,7 @@ item HCAmmonalbomboff
         	TriggerExplosionTimer   	= 	50,
 		ExplosionPower  		=   	70,
 		ExplosionRange  		=   	5,
-        	ExplosionSound          	= 	bigExplosion,
+        	ExplosionSound          	= 	BigExplosion,
         	DoorDamage	        	= 	10,
      }
 
@@ -524,7 +524,7 @@ item HCAmmonalbomboff
         	TriggerExplosionTimer   	= 	70,
 		ExplosionPower  		=   	70,
 		ExplosionRange  		=   	5,
-        	ExplosionSound          	= 	bigExplosion,
+        	ExplosionSound          	= 	BigExplosion,
         	DoorDamage	        	= 	10,
      }
 
@@ -547,7 +547,7 @@ item HCAmmonalbomboff
         	DoorDamage			=	50,
         	FirePower  			=   	250,
         	FireRange  			=   	1,
-        	ExplosionSound  		=   	smallExplosion,
+        	ExplosionSound  		=   	SmallExplosion,
         	Tooltip 			= 	Tooltip_Trap,
 		OtherHandUse			=	TRUE,
 		OtherHandRequire		=	Lighter,
@@ -573,7 +573,7 @@ item HCAmmonalbomboff
         	DoorDamage			=	50,
         	FirePower  			=   	250,
         	FireRange  			=   	1,
-        	ExplosionSound  		=   	smallExplosion,
+        	ExplosionSound  		=   	SmallExplosion,
         	Tooltip 			= 	Tooltip_Trap,
     	}
 
@@ -597,7 +597,7 @@ item HCAmmonalbomboff
         	DoorDamage			=	50,
         	FirePower  			=   	250,
         	FireRange  			=   	1,
-        	ExplosionSound  		=   	smallExplosion,
+        	ExplosionSound  		=   	SmallExplosion,
         	Tooltip 			= 	Tooltip_Trap,
     	}
 
@@ -621,7 +621,7 @@ item HCAmmonalbomboff
         	DoorDamage			=	50,
         	FirePower  			=   	250,
         	FireRange  			=   	1,
-        	ExplosionSound  		=   	smallExplosion,
+        	ExplosionSound  		=   	SmallExplosion,
         	Tooltip 			= 	Tooltip_Trap,
     	}
 
@@ -644,7 +644,7 @@ item HCAmmonalbomboff
 		Icon				=	HCDetonatorcapsulehmtd,
 		ExplosionPower  		=   	40,
 		ExplosionRange  		=   	2,
-		ExplosionSound  		=   	smallExplosion,
+		ExplosionSound  		=   	SmallExplosion,
 	}
 
 	item HCDetonatormk3hmtdoff
@@ -665,7 +665,7 @@ item HCAmmonalbomboff
 		Icon				=	HCDetonatormk3hmtdoff,
 		ExplosionPower  		=   	40,
 		ExplosionRange  		=   	2,
-		ExplosionSound  		=   	smallExplosion,
+		ExplosionSound  		=   	SmallExplosion,
 	}
     
 
@@ -688,7 +688,7 @@ item HCAmmonalbomboff
         	TriggerExplosionTimer   	= 	60,
  		ExplosionPower          	= 	40,
 		ExplosionRange          	= 	2,
-        	ExplosionSound          	= 	smallExplosion,
+        	ExplosionSound          	= 	SmallExplosion,
         	DoorDamage	        	= 	50,
 
     	}

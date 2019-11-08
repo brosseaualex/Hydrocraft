@@ -93,7 +93,7 @@ item HCPotnapalm
         	DoorDamage			=	20,
         	FirePower  			=   	70,
         	FireRange  			=   	6,
-        	ExplosionSound  		=   	bigExplosion,
+        	ExplosionSound  		=   	BigExplosion,
 		Icon				=	HCNapalmbombmk1,
 	}
 
@@ -117,7 +117,7 @@ item HCPotnapalm
         	DoorDamage			=	20,
         	FirePower  			=   	70,
         	FireRange  			=   	6,
-        	ExplosionSound  		=   	bigExplosion,
+        	ExplosionSound  		=   	BigExplosion,
         	Tooltip 			= 	Tooltip_Trap,
     	}
 
@@ -142,7 +142,7 @@ item HCPotnapalm
         	DoorDamage			=	20,
         	FirePower  			=   	70,
         	FireRange  			=   	6,
-        	ExplosionSound  		=   	bigExplosion,
+        	ExplosionSound  		=   	BigExplosion,
         	Tooltip 			= 	Tooltip_Trap,
     	}
 
