@@ -2584,7 +2584,7 @@ recipe Plant Crop
     }
 
 	recipe Remove Crop
-	{    HCPottedBroccoli/HCPottedbroccolismall/HCPottedbroccolismalldead/HCPottedbroccolismalldry/HCPottedbroccolidry/HCPottedbroccolidead/HCPottedbroccoliready,
+	{HCPottedbroccoli/HCPottedbroccolismall/HCPottedbroccolismalldead/HCPottedbroccolismalldry/HCPottedbroccolidry/HCPottedbroccolidead/HCPottedbroccoliready,
     Result:HCPlanter,
     CanBeDoneFromFloor:true,
     Time:2000.0,
