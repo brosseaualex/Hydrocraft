@@ -263,7 +263,7 @@ recipe Grate Cheddar
 	{
 		SkillRequired:Cooking=3,
 		Pot,
-		farming.Tomato=4,
+		Tomato=4,
 		Salt;1,	
 		HCGarlicpowder;1,
 		HCHerbs;1,		
@@ -336,7 +336,7 @@ recipe Make Tasty Pizza
 		HCPizzadough,
 		HCTomatosaucebowl,
 		HCGratedcheese/HCGratedcheddar,
-		BellPepper/HCBellpepperyellow/HCBellpeppergreen/farming.Broccoli/Leek/Eggplant/Pineapple/Avocado/HCBunchofshrooms/HCPortobello/HCShiitake/HCSlicedonion/HCSlicedtomato/HCDriedtomatobag/HCCannedshrooms/HCSpinach/HCChiligreen/HCChilipepper/HCGarlic,
+		BellPepper/HCBellpepperyellow/HCBellpeppergreen/Broccoli/Leek/Eggplant/Pineapple/Avocado/HCBunchofshrooms/HCPortobello/HCShiitake/HCSlicedonion/HCSlicedtomato/HCDriedtomatobag/HCCannedshrooms/HCSpinach/HCChiligreen/HCChilipepper/HCGarlic,
 		Chicken/HCDuckmeat/HCGoosemeat/HCTurkeymeat/TunaTinOpen/CannedSardinesOpen/Salmon/Base.BaconRashers/Base.BaconBits/FrogMeat/HCSlicedsalami/HamSlice/HCCannedspam/HCCrab/HCCheval/HCSmallgamesteak/HCVenison/HCBearsteak,
 		Result:HCTastypizza,
     		NeedToBeLearn:true,

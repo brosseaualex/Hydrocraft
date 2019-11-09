@@ -132,7 +132,7 @@ item HCSpiffoburger
 recipe Slice Tomato
 	{
 		keep KitchenKnife,
-		farming.Tomato,	
+		Tomato,	
 		Result:HCSlicedtomato = 4,
 		Time:100.0,
 	   	Category:Cooking,

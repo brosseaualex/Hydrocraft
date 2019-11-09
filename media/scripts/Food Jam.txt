@@ -864,7 +864,7 @@ recipe Prepare Strawberry Jam
 	{
         	SkillRequired:Cooking=4,
 		destroy HCJamstarter,
-		farming.Strewberrie=8,
+		Strewberrie=8,
 		Result:HCJamstrawberrypot,
 		Time:90.0,
 	   	Category:Cooking,

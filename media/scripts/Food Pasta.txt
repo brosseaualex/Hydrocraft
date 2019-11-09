@@ -124,7 +124,7 @@ recipe Prepare Lasagna
 		destroy RoastingPan,
 		HCFreshpasta,
 		HCTomatosaucebowl,
-		farming.Broccoli/Eggplant/Ham/Steak/Chicken/Salmon/TunaTinOpen/Cheese/HCCheddar/BellPepper/HCBellpeppergreen/HCBellpepperyellow/HCCauliflower,
+		Broccoli/Eggplant/Ham/Steak/Chicken/Salmon/TunaTinOpen/Cheese/HCCheddar/BellPepper/HCBellpeppergreen/HCBellpepperyellow/HCCauliflower,
 		Cheese/HCCheddar,
 		Result:HCLasagna,
     		NeedToBeLearn:true,

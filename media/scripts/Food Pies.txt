@@ -571,7 +571,7 @@ recipe Make Pie Crust
 		HCPiecrust,
 		Cheese/HCCheddar,
 		Egg/WildEggs/HCGooseegg/HCTurkeyegg/HCSparrowegg,
-		Chicken/Steak/Onion/farming.Broccoli/farming.Tomato/Leek/Ham,
+		Chicken/Steak/Onion/Broccoli/Tomato/Leek/Ham,
 		Result:HCQuichepan,
 		Time:125.0,
 		Category:Cooking,

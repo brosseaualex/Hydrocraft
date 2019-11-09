@@ -409,7 +409,7 @@ recipe Buy Trowel
     	HC10dollarbill,
 	keep HCTradingpost,
     	CanBeDoneFromFloor:true,
-    	Result:farming.HandShovel,
+    	Result:HandShovel,
     	Time:15,
     	Category:Trade,
     }

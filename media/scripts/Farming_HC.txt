@@ -287,7 +287,7 @@ recipe Make Gardening Workbench
 	HCDirt,
 	HCWorkgloves/HCGardengloves,
 	HCGardenapron,
-	farming.HandShovel,
+	HandShovel,
 	HCPruningsheers,
 	HCRake,
 	Shovel,
@@ -327,7 +327,7 @@ recipe Disassemble Hedge Cutter
 recipe Flatten Trowel
 	{
     		keep Hammer/HCSmithyhammersteel/Sledgehammer/HCSmithyhammertitanium,
-   		farming.HandShovel,
+   		HandShovel,
     		Result:HCMasontrowel,
     		Time:50,
     		Category:Engineer,
@@ -337,7 +337,7 @@ recipe Bend Mason Trowel
 	{
     		keep HCPliers,
     		HCMasontrowel,
-    		Result:farming.HandShovel,
+    		Result:HandShovel,
     		Time:50,
     		Category:Engineer,
 	}

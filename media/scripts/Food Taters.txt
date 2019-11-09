@@ -229,7 +229,7 @@ module Hydrocraft
 	recipe Bake Potato
 	{
 		keep BakingTray,
-		farming.Potato/HCPotatogolden/HCPotatored,
+		Potato/HCPotatogolden/HCPotatored,
 		Butter;5,
 		Result:HCBakedpotato,
 		Time:55.0,
@@ -240,7 +240,7 @@ module Hydrocraft
 	recipe Bake Potato
 	{
 		keep BakingTray,
-		farming.Potato/HCPotatogolden/HCPotatored,
+		Potato/HCPotatogolden/HCPotatored,
 		HCCookingoil,
 		Result:HCBakedpotato,
 		Time:55.0,
@@ -254,7 +254,7 @@ module Hydrocraft
 		keep Pan,
 		keep HCCheesegrater,
 		keep HCPotatopeeler,
-		farming.Potato/HCPotatogolden/HCPotatored,
+		Potato/HCPotatogolden/HCPotatored,
 		Result:HCHashbrowns,
 		Time:50.0,
 		Category:Cooking,
@@ -275,7 +275,7 @@ module Hydrocraft
 
 	recipe Make Plain Mashed Potatos
 	{
-		farming.Potato=2,
+		Potato=2,
 		keep HCPotatopeeler,
 		Pot,
 		Water=2,
@@ -316,7 +316,7 @@ module Hydrocraft
 	recipe Make Creamy Mashed Potatos
 	{
 		SkillRequired:Cooking=1,
-		farming.Potato=2,
+		Potato=2,
 		keep HCPotatopeeler,
 		Pot,
 		Butter/HCCookingoil,
@@ -381,7 +381,7 @@ module Hydrocraft
 		keep Pot,
 		keep KitchenKnife,
 		keep HCPotatopeeler,
-		farming.Potato/HCPotatogolden/HCPotatored,
+		Potato/HCPotatogolden/HCPotatored,
 		HCCookingoil=2,
 		Result:HCFries,
 		Time:85.0,
@@ -394,7 +394,7 @@ module Hydrocraft
 		SkillRequired:Cooking=2,
 		keep HCPotatomasher,
 		destroy BakingTray,
-		farming.Potato=2,
+		Potato=2,
 		keep HCPotatopeeler,
 		Result:HCPotatomush,
 		Time:75.0,

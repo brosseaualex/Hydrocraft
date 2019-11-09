@@ -263,7 +263,7 @@ recipe Make Vegetable Omelet
 		keep HCSpatula/HCWoodenspatula,
 		Egg,
 		HCGratedcheese/HCGratedcheddar/Processedcheese,
-		BellPepper/HCBellpepperyellow/HCBellpeppergreen/farming.Broccoli/Leek/Eggplant/HCBunchofshrooms/HCSlicedonion/HCSlicedtomato/HCDriedtomatobag/HCCannedshrooms/HCSpinach/HCChiligreen/HCChilipepper,
+		BellPepper/HCBellpepperyellow/HCBellpeppergreen/Broccoli/Leek/Eggplant/HCBunchofshrooms/HCSlicedonion/HCSlicedtomato/HCDriedtomatobag/HCCannedshrooms/HCSpinach/HCChiligreen/HCChilipepper,
 		Result:HCOmeletveg,
 		Time:45.0,
     		NeedToBeLearn:true,
