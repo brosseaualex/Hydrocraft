@@ -11,19 +11,11 @@ HCSprites.getSprites = function()
 	print("Textures and Sprites Loaded.");
 end
 
-	-- Add items for Male Zombie
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCBandanna");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.5);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCRaincoat");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCWorkgloves");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.5);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCBinoculars");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.5);	
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCCompass");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.5);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCCamera");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
+	------------------------------------
+	-- Male Zombie Inventory Spawning --
+	------------------------------------
+	
+	-- Money --	
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCPenny");
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.3);	
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCNickel");
@@ -50,28 +42,54 @@ end
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.05);	
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HC100dollarbill");
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);		
+	
+	-- Weapons/Tools --
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Lighter");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Matches");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 1);
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCSurvivalaxe");
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);	
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCMachete");
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCHousefly");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 1);	
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCMaggot");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 1);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Cockroach");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 1);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Worm");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 1);	
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Hammer");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Saw");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCPliers");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);	
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.TinOpener");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCJackknife");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCBinoculars");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.5);	
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCCompass");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCCamera");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Torch");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCSlingshot");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCFlashlightoff");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCRoadflare");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
+	
+	-- Clothes --
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCBandanna");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCRaincoat");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCWorkgloves");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.5);
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Glasses");
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);	
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Glasses2");
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCDentures");
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Book");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.5);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCBook");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.5);	
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCEyepatch");
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCHearingaid");
@@ -84,34 +102,6 @@ end
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCNecklacebling");
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.WaterBottleEmpty");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Torch");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCNecklacebling");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Torch");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);	
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCFlashlightoff");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCRoadflare");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.BandageDirty");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCTrailmix");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCEnergybar");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCGum");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCGum2");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCGum3");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);	
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCMysteryseedspacket");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCDogtag");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 1);
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCBriefs");
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);	
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCNecktie1");
@@ -128,44 +118,56 @@ end
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Belt");
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);	
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Lighter");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Matches");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 1);	
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Hammer");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Saw");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCPliers");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);	
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Headphones");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.TinOpener");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCJackknife");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCMessengerbag");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCSlingshot");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);	
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCNecklacebling");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);	
+	
+	-- Food --
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCTrailmix");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCEnergybar");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCGum");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCGum2");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCGum3");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCMysteryseedspacket");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCBB");
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);	
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCMRE");
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
-		
-	-- Add items for Female Zombie
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCBandanna");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCRaincoat");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCWorkgloves");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCBinoculars");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);	
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCCompass");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCCamera");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);	
+	
+	-- Other --	
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCHousefly");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 1);	
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCMaggot");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 1);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Cockroach");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 1);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Worm");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 1);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Book");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCBook");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.WaterBottleEmpty");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.BandageDirty");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCDogtag");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 1);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Headphones");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCMessengerbag");
+	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);
+	
+	--------------------------------------
+	-- Female Zombie Inventory Spawning --
+	--------------------------------------
+	
+	-- Money --	
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCPenny");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.3);	
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCNickel");
@@ -191,11 +193,105 @@ end
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HC50dollarbill");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.05);	
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HC100dollarbill");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);		
+	
+	-- Weapons/Tools --
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Lighter");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Matches");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 1);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCSurvivalaxe");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);	
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCMachete");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Hammer");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Saw");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCPliers");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);	
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.TinOpener");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCJackknife");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCBinoculars");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);	
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCCompass");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCCamera");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Torch");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCSlingshot");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCFlashlightoff");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCRoadflare");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	
+	-- Clothes --
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCBandanna");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCRaincoat");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCWorkgloves");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Glasses");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Glasses2");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCDentures");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCEyepatch");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCHearingaid");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCGlasseye");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCProstheticleg");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCNecklacepeace");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCNecklacebling");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCBriefs");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);	
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCNecktie1");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCHawaiianshirt");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCPoloshirt");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCButtondownshirt");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);	
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCTshirt");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Socks");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Belt");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);	
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCNecklacebling");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);	
+	
+	-- Food --
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCTrailmix");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCEnergybar");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCGum");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCGum2");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCGum3");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCMysteryseedspacket");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCBB");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);	
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCMRE");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	
+	-- Other --	
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCHousefly");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCMaggot");
@@ -203,85 +299,26 @@ end
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Cockroach");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 1);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Worm");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 1);	
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Glasses");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Glasses");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCDentures");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 1);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Book");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCBook");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);	
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCHearingaid");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCGlasseye");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCProstheticleg");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCEyepatch");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCNecklacepeace");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCNecklacebling");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.WaterBottleEmpty");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Torch");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);	
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCFlashlightoff");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCRoadflare");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.BandageDirty");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCTrailmix");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCEnergybar");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCGum");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1)
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCGum2");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1)
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCGum3");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1)	
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCMysteryseedspacket");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1)	
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCDogtag");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 1)
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCTshirt");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Socks");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Belt");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);	
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Lighter");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Matches");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 1);	
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Hammer");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Saw");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCPliers");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);		
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 1);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Headphones");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.TinOpener");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCJackknife");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCMessengerbag");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCSlingshot");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);		
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCBB");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);	
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCMRE");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
 	
-	-- Add items for Kitchen Fridge
+	-------------------------------
+	-- Fridge Inventory Spawning --
+	-------------------------------
+	
 	table.insert(SuburbsDistributions["all"]["fridge"].items, "Hydrocraft.HCUHTmilk");
 	table.insert(SuburbsDistributions["all"]["fridge"].items, 0.8);
 	table.insert(SuburbsDistributions["all"]["fridge"].items, "Hydrocraft.HCSoymilk");
@@ -549,7 +586,10 @@ end
 	table.insert(SuburbsDistributions["all"]["fridge"].items, "Hydrocraft.HCMilkjugchocolate");
 	table.insert(SuburbsDistributions["all"]["fridge"].items, 0.8);	
 	
-	-- Add items for Kitchen Freezer
+	--------------------------------
+	-- Freezer Inventory Spawning --
+	--------------------------------
+	
 	table.insert(SuburbsDistributions["all"]["freezer"].items, "Hydrocraft.HCIcecreamsandwich");
 	table.insert(SuburbsDistributions["all"]["freezer"].items, 0.1);
 	table.insert(SuburbsDistributions["all"]["freezer"].items, "Hydrocraft.HCIcecreamsoft");
@@ -599,7 +639,10 @@ end
 	table.insert(SuburbsDistributions["all"]["freezer"].items, "Hydrocraft.HCWrasse");
 	table.insert(SuburbsDistributions["all"]["freezer"].items, 0.03);
 	
-	-- Add items for Bathroom
+	---------------------------------
+	-- Bathroom Inventory Spawning --
+	---------------------------------
+	
 	table.insert(SuburbsDistributions["bathroom"]["counter"].items, "Hydrocraft.HCFloss");
 	table.insert(SuburbsDistributions["bathroom"]["counter"].items, 0.1);
 	table.insert(SuburbsDistributions["bathroom"]["counter"].items, "Hydrocraft.HCPlunger");
@@ -743,7 +786,10 @@ end
 	table.insert(SuburbsDistributions["bathroom"]["counter"].items, "Hydrocraft.HCClothhamper");
 	table.insert(SuburbsDistributions["bathroom"]["counter"].items, 0.1);	
 	
-	-- Add items for Bins
+	----------------------------------
+	-- Trash Bin Inventory Spawning --
+	----------------------------------
+	
 	table.insert(SuburbsDistributions["all"]["bin"].items, "Hydrocraft.HCCigarettebutt");
 	table.insert(SuburbsDistributions["all"]["bin"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["bin"].items, "Hydrocraft.UmbrellaClosed");
@@ -1049,7 +1095,10 @@ end
 	table.insert(SuburbsDistributions["all"]["bin"].items, "Hydrocraft.HCCereal3trash");
 	table.insert(SuburbsDistributions["all"]["bin"].items, 0.1);
 	
-		-- Add items for Office Drawers
+	---------------------------------------
+	-- Office Drawers Inventory Spawning --
+	---------------------------------------
+	
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCPencilbox");
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCPenbox");
@@ -1165,7 +1214,10 @@ end
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCCertificate");
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);		
 	
-	-- Add items for Filing Cabinet
+	---------------------------------------
+	-- Filing Cabinet Inventory Spawning --
+	---------------------------------------
+	
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCPencilbox");
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCPenbox");
@@ -1247,7 +1299,10 @@ end
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCCheque");
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);	
 	
-		-- Add items for Desk
+	-----------------------------
+	-- Desk Inventory Spawning --
+	-----------------------------
+	
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCHotgluestickbox");
 	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCHotgluestick");
@@ -1393,7 +1448,11 @@ end
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCManilaenvelope2");
 	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
 	
-		-- Add items for Medical Clinic Counters
+	---------------------------------------
+	-- Medical Clinic Inventory Spawning --
+	---------------------------------------
+	
+	-- [COUNTER] --
 	table.insert(SuburbsDistributions["medclinic"]["counter"].items, "Hydrocraft.HCMedicalbag");
 	table.insert(SuburbsDistributions["medclinic"]["counter"].items, 0.1);
 	table.insert(SuburbsDistributions["medclinic"]["counter"].items, "Hydrocraft.HCMedicalbox");
@@ -1449,7 +1508,11 @@ end
 	table.insert(SuburbsDistributions["medclinic"]["counter"].items, "Hydrocraft.HCMedicalrecord");
 	table.insert(SuburbsDistributions["medclinic"]["counter"].items, 0.1);
 	
-	-- Add items for Medical Storage
+	----------------------------------------
+	-- Medical Storage Inventory Spawning --
+	----------------------------------------
+	
+	-- [COUNTER] --
 	table.insert(SuburbsDistributions["medicalstorage"]["counter"].items, "Hydrocraft.HCMedicalbag");
 	table.insert(SuburbsDistributions["medicalstorage"]["counter"].items, 0.1);
 	table.insert(SuburbsDistributions["medicalstorage"]["counter"].items, "Hydrocraft.HCMedicalbox");
@@ -2156,6 +2219,3 @@ end
 	table.insert(SuburbsDistributions["generalstore"]["other"].items, 3);
 	
 	Events.OnPreMapLoad.Add(HCSprites.getSprites);
-	
-	
-	
