@@ -12,7 +12,7 @@ HCSprites.getSprites = function()
 	print("Textures and Sprites Loaded.");
 end
 
---[[
+
 	--GigamartBakingMisc
 	table.insert(ProceduralDistributions["list"]["GigamartBakingMisc"].items, "Hydrocraft.HCTortillacornbag");
 	table.insert(ProceduralDistributions["list"]["GigamartBakingMisc"].items, 1);
@@ -47,7 +47,7 @@ end
 	table.insert(ProceduralDistributions["list"]["GigamartBottles"].items, 1);	
 	table.insert(ProceduralDistributions["list"]["GigamartBottles"].items, "Hydrocraft.HCJuiceboxgrape");
 	table.insert(ProceduralDistributions["list"]["GigamartBottles"].items, 1);	
-	
+
 	--GigamartCandy	
 	table.insert(ProceduralDistributions["list"]["GigamartCandy"].items, "Hydrocraft.HCChocolatewhite");
 	table.insert(ProceduralDistributions["list"]["GigamartCandy"].items, 1);
@@ -202,8 +202,7 @@ end
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, "Hydrocraft.HCJarpickles");
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, 1);
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, "Hydrocraft.HCSalami");
-	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, 1);
-	
+	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, 1);	
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, "Hydrocraft.HCBabyfoodapplesauce");
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, 1);
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, "Hydrocraft.HCBabyfoodapricots");
@@ -233,8 +232,7 @@ end
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, "Hydrocraft.HCBabyfoodlamb");
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, 1);	
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, "Hydrocraft.HCBabyfoodturkey");
-	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, 1);
-	
+	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, 1);	
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, "Hydrocraft.HCJellopacketapple");
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, 1);
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, "Hydrocraft.HCJellopacketblueberry");
@@ -255,7 +253,6 @@ end
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, 1);
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, "Hydrocraft.HCJellopacketvanilla");
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, 1);	
-	
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, "Hydrocraft.HCRamenflatchicken");
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, 1);
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, "Hydrocraft.HCRamenflatbeef");
@@ -270,7 +267,6 @@ end
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, 1);
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, "Hydrocraft.HCMREbox");
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, 0.25);	
-	
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, "Hydrocraft.HCMREpalletsmall");
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, 0.01);
 	table.insert(ProceduralDistributions["list"]["GigamartDryGoods"].items, "Hydrocraft.HCMREpalletmedium");
@@ -480,7 +476,7 @@ end
 	table.insert(ProceduralDistributions["list"]["Meat"].items, "Hydrocraft.HCHerring");
 	table.insert(ProceduralDistributions["list"]["Meat"].items, 1);
 	table.insert(ProceduralDistributions["list"]["Meat"].items, "Hydrocraft.HCBlowfish");
-	table.insert(ProceduralDistributions["list"]["Meat"].items, 1);
+	table.insert(ProceduralDistributions["list"]["Meat"].items, 0.01);
 	table.insert(ProceduralDistributions["list"]["Meat"].items, "Hydrocraft.HCBream");
 	table.insert(ProceduralDistributions["list"]["Meat"].items, 1);
 	table.insert(ProceduralDistributions["list"]["Meat"].items, "Hydrocraft.HCEel");
@@ -531,7 +527,7 @@ end
 	table.insert(ProceduralDistributions["list"]["FridgeOther"].items, 1);	
 	
 	--FridgeBottles
-	table.insert(ProceduralDistributions["list"]["FridgeBottles"], "Hydrocraft.HCApplecider");
+	table.insert(ProceduralDistributions["list"]["FridgeBottles"].items, "Hydrocraft.HCApplecider");
 	table.insert(ProceduralDistributions["list"]["FridgeBottles"].items, 1);
 	table.insert(ProceduralDistributions["list"]["FridgeBottles"].items, "Hydrocraft.HCUHTmilk");
 	table.insert(ProceduralDistributions["list"]["FridgeBottles"].items, 1);
@@ -592,13 +588,11 @@ end
 	table.insert(ProceduralDistributions["list"]["FridgeBottles"].items, "Hydrocraft.HCPoppack3");
 	table.insert(ProceduralDistributions["list"]["FridgeBottles"].items, 1);
 	
-	
 	--Gigamart smallbox (fruits & veggies)
 	
 	--Gigamart crate (fruits & veggies)
 	
-	
-	
+
 	
 	--GroceryStandVegetables1
 	table.insert(ProceduralDistributions["list"]["GroceryStandVegetables1"].items, "Hydrocraft.HCSweetpotato");
@@ -760,7 +754,6 @@ end
 	table.insert(SuburbsDistributions["grocery"]["freezer"].items, "Hydrocraft.HCWrasse");
 	table.insert(SuburbsDistributions["grocery"]["freezer"].items, 0.01);	
 	
-	]]--
 	------------------------------------
 	-- Male Zombie Inventory Spawning --
 	------------------------------------
