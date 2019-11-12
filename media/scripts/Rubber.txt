@@ -134,7 +134,7 @@ recipe Add Sap Catchers to Rubber Tree
 
 recipe Harvest Crop
     	{
-    	keep HCPottedrubbertree,
+    	keep HCPottedrubbertree2,
 	HCWoodenbucket,
     	Fertilizer,
     	Water,
