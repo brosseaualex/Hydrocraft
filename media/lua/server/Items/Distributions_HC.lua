@@ -640,15 +640,15 @@ end
 	table.insert(SuburbsDistributions["all"]["freezer"].items, "Hydrocraft.HCWrasse");
 	table.insert(SuburbsDistributions["all"]["freezer"].items, 0.03);
 	
-	--------------------------------
-	-- Kitchen Inventory Spawning --
-	--------------------------------
+	-----------------------------------------
+	-- Kitchen Counters Inventory Spawning --
+	-----------------------------------------
 	
-	-- Dishes --
+	-- KitchenDishes Junk
 	table.insert(ProceduralDistributions.list["KitchenDishes"].items, "Hydrocraft.HCWhisk");
 	table.insert(ProceduralDistributions.list["KitchenDishes"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenDishes"].items, "Hydrocraft.HCChopsticks");
-	table.insert(ProceduralDistributions.list["KitchenDishes"].items, 0.5);
+	table.insert(ProceduralDistributions.list["KitchenDishes"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenDishes"].items, "Hydrocraft.HCOvenmitts");
 	table.insert(ProceduralDistributions.list["KitchenDishes"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenDishes"].items, "Hydrocraft.HCCookingapron");
@@ -700,7 +700,7 @@ end
 	table.insert(ProceduralDistributions.list["KitchenDishes"].items, "Hydrocraft.HCWoodenspoon");
 	table.insert(ProceduralDistributions.list["KitchenDishes"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenDishes"].items, "Hydrocraft.HCChefhat");
-	table.insert(ProceduralDistributions.list["KitchenDishes"].items, 0.1);
+	table.insert(ProceduralDistributions.list["KitchenDishes"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenDishes"].items, "Hydrocraft.HCNutcracker");
 	table.insert(ProceduralDistributions.list["KitchenDishes"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenDishes"].items, "Hydrocraft.HCPotatopeeler");
@@ -724,9 +724,15 @@ end
 	table.insert(ProceduralDistributions.list["KitchenDishes"].items, "Hydrocraft.HCCookiemold");
 	table.insert(ProceduralDistributions.list["KitchenDishes"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenDishes"].items, "Hydrocraft.HCJellomold1");
-	table.insert(ProceduralDistributions.list["KitchenDishes"].items, 3);
+	table.insert(ProceduralDistributions.list["KitchenDishes"].items, 1);
 	
-	-- Pots --	
+	-- KitchenDishes Junk
+	table.insert(ProceduralDistributions.list["KitchenDishes"].junk, "Hydrocraft.HCCoffeefilterdry");
+	table.insert(ProceduralDistributions.list["KitchenDishes"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDishes"].junk, "Hydrocraft.HCCoffeefilterbox");
+	table.insert(ProceduralDistributions.list["KitchenDishes"].junk, 1);	
+	
+	-- KitchenPots
 	table.insert(ProceduralDistributions.list["KitchenPots"].items, "Hydrocraft.HCMuffinpan");
 	table.insert(ProceduralDistributions.list["KitchenPots"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenPots"].items, "Hydrocraft.HCBreadpan");
@@ -734,9 +740,9 @@ end
 	table.insert(ProceduralDistributions.list["KitchenPots"].items, "Hydrocraft.HCWok");
 	table.insert(ProceduralDistributions.list["KitchenPots"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenPots"].items, "Hydrocraft.HCDutchoven");
-	table.insert(ProceduralDistributions.list["KitchenPots"].items, 0.1);
+	table.insert(ProceduralDistributions.list["KitchenPots"].items, 1);
 	
-	-- Canned Food --	
+	-- KitchenCannedFood
 	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, "Hydrocraft.HCCannedapple");
 	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, "Hydrocraft.HCCannedpear");
@@ -782,19 +788,19 @@ end
 	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, "Hydrocraft.HCCannedspaghettirings");
 	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, 1);	
 	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, "Hydrocraft.HCJarredmelon");
-	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, 0.1);
+	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, "Hydrocraft.HCJarredapples");
-	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, 0.1);
+	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, "Hydrocraft.HCJarredpeach");
-	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, 0.1);
+	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, "Hydrocraft.HCJarredorange");
-	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, 0.1);
+	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, "Hydrocraft.HCJarredgrapes");
-	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, 0.1);
+	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, "Hydrocraft.HCJarredberries");
 	table.insert(ProceduralDistributions.list["KitchenCannedFood"].items, 1);
-	
-	-- Dry Food --
+		
+	-- KitchenDryFood
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, "Hydrocraft.HCRicebrown");
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, "Hydrocraft.HCPeanutsnack");
@@ -820,11 +826,11 @@ end
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, "Hydrocraft.HCSalami");
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, 1);	
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, "Hydrocraft.HCGum");
-	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, 0.1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, "Hydrocraft.HCGum2");
-	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, 0.1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, "Hydrocraft.HCGum3");
-	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, 0.1);	
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, 1);	
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, "Hydrocraft.HCFortunecookie");
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, "Hydrocraft.HCCandycorn");
@@ -868,15 +874,131 @@ end
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, "Hydrocraft.HCBurgerbunbag");
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, 1);	
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, "Hydrocraft.HCMRE");
-	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, 0.35);
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, "Hydrocraft.HCMREbox");
-	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, 0.25);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, 0.2);
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, "Hydrocraft.HCSunflowerseedsnack");
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, "Hydrocraft.HCAlfredosauce");
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, "Hydrocraft.HCPumpkinseedsnack");
 	table.insert(ProceduralDistributions.list["KitchenDryFood"].items, 1);
+	
+	-- KitchenDryFood Junk
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCCookiejar");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCCuringsalt");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCCookingoil");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCGarlicpowder");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCHerbs");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCHotsauce");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCSriracha");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCChilipowder");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCArrowroot");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCBasil");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCBayleaves");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCCaraway");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCCardamom");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCCeleryseed");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCCilantro");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCCinnamon");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCChevril");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCCloves");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCCreamoftartar");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCCoriander");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCCumin");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCCurry");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCDill");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCGroundepazote");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCGroundfennel");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCGrainsofparadise");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCGroundginger");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCGroundjuniper");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCLemonpepper");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCMarjoram");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);		
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCMullingspice");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCMustardpowder");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCNutmeg");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCOnionpowder");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCOregano");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCPaprika");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCParsleyflakes");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCWhitepepper");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCPeppermint");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCPicklingspice");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCPoppyseed");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCPumpkinspice");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCRosemary");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCSage");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCSaffron");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCSavory");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCSteakseasoning");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCFishseasoning");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCChickenseasoning");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCSesameseeds");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCMesquitesmoke");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCHickorysmoke");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCStaranise");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCSumac");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCTurmeric");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCThyme");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, "Hydrocraft.HCWasabi");
+	table.insert(ProceduralDistributions.list["KitchenDryFood"].junk, 1);
 	
 	-- Kitchen Breakfast (Bread, Oats, Sugar, Flour etc.)
 	table.insert(ProceduralDistributions.list["KitchenBreakfast"].items, "Hydrocraft.HCCoco");
@@ -916,13 +1038,13 @@ end
 	table.insert(ProceduralDistributions.list["KitchenBreakfast"].items, "Hydrocraft.HCCornsyrup");
 	table.insert(ProceduralDistributions.list["KitchenBreakfast"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenBreakfast"].items, "Hydrocraft.HCJamhuckleberry");
-	table.insert(ProceduralDistributions.list["KitchenBreakfast"].items, 0.1);
+	table.insert(ProceduralDistributions.list["KitchenBreakfast"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenBreakfast"].items, "Hydrocraft.HCJamcranberry");
-	table.insert(ProceduralDistributions.list["KitchenBreakfast"].items, 0.1);
+	table.insert(ProceduralDistributions.list["KitchenBreakfast"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenBreakfast"].items, "Hydrocraft.HCJamraspberry");
-	table.insert(ProceduralDistributions.list["KitchenBreakfast"].items, 0.1);	
+	table.insert(ProceduralDistributions.list["KitchenBreakfast"].items, 1);	
 	
-	-- Kitchen Breakfast Junk --	
+	-- KitchenBreakfast Junk	
 	table.insert(ProceduralDistributions.list["KitchenBreakfast"].junk, "Hydrocraft.HCBabyfoodapplesauce");
 	table.insert(ProceduralDistributions.list["KitchenBreakfast"].junk, 1);
 	table.insert(ProceduralDistributions.list["KitchenBreakfast"].junk, "Hydrocraft.HCBabyfoodapricots");
@@ -955,8 +1077,12 @@ end
 	table.insert(ProceduralDistributions.list["KitchenBreakfast"].junk, 1);
 	table.insert(ProceduralDistributions.list["KitchenBreakfast"].junk, "Hydrocraft.HCCoffeelarge");
 	table.insert(ProceduralDistributions.list["KitchenBreakfast"].junk, 3);
+	table.insert(ProceduralDistributions.list["KitchenBreakfast"].junk, "Hydrocraft.HCSnacktartsbluebox");
+	table.insert(ProceduralDistributions.list["KitchenBreakfast"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenBreakfast"].junk, "Hydrocraft.HCSnacktartsredbox");
+	table.insert(ProceduralDistributions.list["KitchenBreakfast"].junk, 1);
 	
-	-- Bottles --	
+	-- KitchenBottles
 	table.insert(ProceduralDistributions.list["KitchenBottles"].items, "Hydrocraft.HCThermos");
 	table.insert(ProceduralDistributions.list["KitchenBottles"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenBottles"].items, "Hydrocraft.HCCookieschocolatechipbag");
@@ -965,20 +1091,62 @@ end
 	table.insert(ProceduralDistributions.list["KitchenBottles"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenBottles"].items, "Hydrocraft.HCCookiesbrowniebag");
 	table.insert(ProceduralDistributions.list["KitchenBottles"].items, 1);
-	
-	-- Bottles Junk --
+
+	-- KitchenBottles Junk
 	table.insert(ProceduralDistributions.list["KitchenBottles"].junk, "Hydrocraft.HCCrisps5");
-	table.insert(ProceduralDistributions.list["KitchenBottles"].junk, 0.5);
+	table.insert(ProceduralDistributions.list["KitchenBottles"].junk, 1);
 	table.insert(ProceduralDistributions.list["KitchenBottles"].junk, "Hydrocraft.HCCrisps6");
-	table.insert(ProceduralDistributions.list["KitchenBottles"].junk, 0.5);
+	table.insert(ProceduralDistributions.list["KitchenBottles"].junk, 1);
 	table.insert(ProceduralDistributions.list["KitchenBottles"].junk, "Hydrocraft.HCCrisps7");
-	table.insert(ProceduralDistributions.list["KitchenBottles"].junk, 0.5);
+	table.insert(ProceduralDistributions.list["KitchenBottles"].junk, 1);
 	table.insert(ProceduralDistributions.list["KitchenBottles"].junk, "Hydrocraft.HCCrisps8");
-	table.insert(ProceduralDistributions.list["KitchenBottles"].junk, 0.5);
+	table.insert(ProceduralDistributions.list["KitchenBottles"].junk, 1);
 	table.insert(ProceduralDistributions.list["KitchenBottles"].junk, "Hydrocraft.HCCrisps9");
-	table.insert(ProceduralDistributions.list["KitchenBottles"].junk, 0.5);
+	table.insert(ProceduralDistributions.list["KitchenBottles"].junk, 1);	
 	
-	-- Random --
+	-- KitchenBook
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCCookbookbbq");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCCookbookbutcher");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCCookbookegg");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);	
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCCookbookdried");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCCookbookjerky");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCCookbookjuice");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCCookbookmexican");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCCookbookpasta");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCCookbookpickling");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCCookbookpizza");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCCookbooksalt");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCCookbooksmoking");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCCookbookspices");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);	
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCCookbookyogurt");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);	
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCBookbaking");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCBookcheesemaking");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCBooksausagemaking");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCBookwinemaking");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCCookbookalcoholic");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, "Hydrocraft.HCMagazinexmas");
+	table.insert(ProceduralDistributions.list["KitchenBook"].items, 1);
+	
+	-- KitchenRandom
 	table.insert(ProceduralDistributions.list["KitchenRandom"].items, "Hydrocraft.HCZipperbag");
 	table.insert(ProceduralDistributions.list["KitchenRandom"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenRandom"].items, "Hydrocraft.HCZipperbagbox");
@@ -1001,9 +1169,98 @@ end
 	table.insert(ProceduralDistributions.list["KitchenRandom"].items, 1);
 	table.insert(ProceduralDistributions.list["KitchenRandom"].items, "Hydrocraft.HCSmalltupbowl");
 	table.insert(ProceduralDistributions.list["KitchenRandom"].items, 1);
-	
-
-	
+	table.insert(ProceduralDistributions.list["KitchenRandom"].items, "Hydrocraft.HCElectrictape");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].items, 1);	
+	table.insert(ProceduralDistributions.list["KitchenRandom"].items, "Hydrocraft.HCMaskingtape");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].items, "Hydrocraft.HCPackingtape");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].items, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].items, "Hydrocraft.HCSuperglue");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].items, 1);
+		
+	-- KitchenRandom Junk
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCWoodenfork");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCPaperlunchbag");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCLunchbox");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCFlashlightoff");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCCooler");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCIcechest");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCSpork");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCScale");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCPapertowelroll");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCWindowcleaner");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCCleanser");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCAmmonia");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCWineglass");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCElectonicscale");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCBatterysmall");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCBatterymedium");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCBattery9volt");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCGlassshortempty");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCGlasstallempty");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCCork");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCWaxpaper");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCLighterfluid");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCRubbercement");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 0.1);
+    table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCPyrexdish");
+    table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+    table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCAgar");
+    table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+    table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCDetergent");
+    table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+    table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCLabelempty");
+    table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCManometer");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 0.5);	
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCSaladtongs");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCPorcelainteapot");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCPorcelainteacup");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCPorcelainsaucer");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCPorcelainsaucerstack");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCPorcelainplate");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCPorcelainplatestack");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCPorcelainplatter");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCNapkin");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCNapkinstack");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCNapkinholder");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);	
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCNapkinholderfull");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 1);		
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, "Hydrocraft.HCGarbagebagbox");
+	table.insert(ProceduralDistributions.list["KitchenRandom"].junk, 5);
 	
 	---------------------------------
 	-- Bathroom Inventory Spawning --
@@ -2770,73 +3027,7 @@ end
 	table.insert(SuburbsDistributions["all"]["metal_shelves"].items, "Hydrocraft.HCFlorescentlightbulb");
 	table.insert(SuburbsDistributions["all"]["metal_shelves"].items, 0.1);	
 	
-	-- Counters --
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCPaperbag");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCPaperlunchbag");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);	
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCJar");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCMetalbox");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);	
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCGum");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.5);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCGum2");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.5);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCGum3");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.5);	
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCFlashlightoff");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCFlashlightbulbred");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);	
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCBoxcutter");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCPlasticbin");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);	
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCPlasticbin2");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCBBbox");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);	
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCSlingshot");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCStaplegun");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCBatterysmall");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);	
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCBatterymedium");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCBattery9volt");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCCork");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCPowercord");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Base.SheetMetal");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);		
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCCablecopper");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCWirecopper");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCWiresteel");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCElectrictape");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);	
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCMaskingtape");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCPackingtape");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCSuperglue");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCRubbercement");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCLabelempty");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCWireconcertina");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCFlorescentlightbox");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["counter"].items, "Hydrocraft.HCFlorescentlightbulb");
-	table.insert(SuburbsDistributions["all"]["counter"].items, 0.1);	
+
 	
 	-- Shelves --	
 	table.insert(SuburbsDistributions["all"]["shelves"].items, "Hydrocraft.HCBookphone");
@@ -3124,7 +3315,7 @@ end
 	table.insert(SuburbsDistributions["all"]["shelves"].items, "Hydrocraft.HCBooktoys");
 	table.insert(SuburbsDistributions["all"]["shelves"].items, 0.05);
 	table.insert(SuburbsDistributions["all"]["shelves"].items, "Hydrocraft.HCBookplastics");
-	table.insert(SuburbsDistributions["all"]["shelves"].items, 0.05);	
+	table.insert(SuburbsDistributions["all"]["shelves"].items, 0.05);
 	
 
 	
