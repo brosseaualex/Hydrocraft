@@ -197,23 +197,23 @@ end
 	
 	-- Weapons/Tools --
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Lighter");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Matches");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCSurvivalaxe");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);	
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCMachete");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.03);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Hammer");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.05);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Saw");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.05);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCPliers");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);	
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.TinOpener");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCJackknife");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.03);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCBinoculars");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);	
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCCompass");
@@ -228,25 +228,26 @@ end
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCRoadflare");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCBB");
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);	
 	
 	-- Clothes --
-	
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCWorkgloves");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);	
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);	
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCDentures");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCEyepatch");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCHearingaid");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCGlasseye");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCProstheticleg");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCNecklacepeace");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCNecklacebling");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);	
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
 	--[[
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Glasses");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);	
@@ -271,9 +272,8 @@ end
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Socks");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Belt");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
-	]]--	
-	
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);	
+	]]--
 	
 	-- Food --
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCTrailmix");
@@ -287,31 +287,29 @@ end
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCGum3");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);	
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCMysteryseedspacket");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCBB");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);	
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.05);	
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCMRE");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
 	
 	-- Other --	
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCHousefly");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.25);	
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCMaggot");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.25);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Cockroach");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.25);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Worm");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Book");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCBook");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.25);
+	--table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Book");
+	--table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.5);
+	--table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCBook");
+	--table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.05);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.WaterBottleEmpty");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.05);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.BandageDirty");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCDogtag");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.15);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Headphones");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCMessengerbag");
@@ -1152,353 +1150,353 @@ end
 	---------------------------------------
 	
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCPencilbox");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCPenbox");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCStaples");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCStaplesbox");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCStapler");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCPostit");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCPostitpad");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCBriefcase");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCLeatherbag");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCSatchel");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCMessengerbag");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCCalculator");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCEnvelope");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCPostagestamp");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCSealedletter");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCRubberbandbox");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCMetalbox");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCBinderclip");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCBookend");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCClipboard");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCWhiteout");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCThumbtack");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCHighlighter");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCRuler");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCStapleremover");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCTriangle");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCFolder");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCFolder2");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCBoxcutter");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCBatterysmall");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);	
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCBatterymedium");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCPowercord");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCFaxmachine");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCPrinter");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCRouter");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCScaner");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCCopymachine");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCFloppy");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCComputermonitor");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCComputerkeyboard");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCComputer");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCCablecopper");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCWirecopper");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCComputermouse");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCMousepad");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCComputerfan");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCGlobe");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCMaskingtape");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCPackingtape");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCSuperglue");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCLabelempty");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCShipinbottle");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCCheque");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);	
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCStamp");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);	
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCManilaenvelope");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);	
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCManilaenvelope2");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);	
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["officedrawers"].items, "Hydrocraft.HCCertificate");
-	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 0.5);		
+	table.insert(SuburbsDistributions["all"]["officedrawers"].items, 1);		
 	
 	---------------------------------------
 	-- Filing Cabinet Inventory Spawning --
 	---------------------------------------
 	
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCPencilbox");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCPenbox");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCStaples");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCStaplesbox");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCStapler");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCPostit");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCPostitpad");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCBriefcase");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCSatchel");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCMessengerbag");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCChildsafetyscissors");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCCrayonbox");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCChalkeraser");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCChalk");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCChalkbox");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);	
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCCalculator");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCEnvelope");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCPostagestamp");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCRubberbandbox");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCMetalbox");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCBinderclip");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCBookend");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCClipboard");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCWhiteout");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCThumbtack");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCHighlighter");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCRuler");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCStapleremover");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCTriangle");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCFolder");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);	
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCFolder2");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCMaskingtape");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCPackingtape");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCSuperglue");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCLabelempty");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCCertificate");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCManilaenvelope");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCManilaenvelope2");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCStamp");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);
 	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, "Hydrocraft.HCCheque");
-	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 0.5);	
+	table.insert(SuburbsDistributions["all"]["filingcabinet"].items, 1);	
 	
 	-----------------------------
 	-- Desk Inventory Spawning --
 	-----------------------------
 	
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCHotgluestickbox");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCHotgluestick");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCHotgluegun");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCPencilbox");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCPenbox");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCStaples");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCStaplesbox");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCStapler");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCPostit");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCPostitpad");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCChildsafetyscissors");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCCrayonbox");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCChalkeraser");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCChalk");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCChalkbox");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);	
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCBriefcase");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCLeatherbag");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCSatchel");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCMessengerbag");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCCalculator");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCEnvelope");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCPostagestamp");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCSealedletter");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCProtractor");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCRubberbandbox");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCMagnifyglass");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCMetalbox");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCGum");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCGum2");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCGum3");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);	
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCBinderclip");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCBookend");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCClipboard");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCWhiteout");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCThumbtack");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCHighlighter");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCRuler");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCStapleremover");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCTriangle");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCFolder");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCFolder2");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCBoxcutter");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCBatterysmall");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCBatterymedium");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCBattery9volt");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCFloppy");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCComputermonitor");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCComputerkeyboard");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCComputer");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);		
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);		
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCComputermouse");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCMousepad");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCPrinter");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCFaxmachine");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCScaner");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCGlobe");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCPackingtape");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCMaskingtape");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCSuperglue");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCRubbercement");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCComic1");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);	
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCComic2");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCComic3");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCComic4");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCComic5");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCComic6");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCComic7");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCComic8");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCComic9");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCLabelempty");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCStamp");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCManilaenvelope");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	table.insert(SuburbsDistributions["all"]["desk"].items, "Hydrocraft.HCManilaenvelope2");
-	table.insert(SuburbsDistributions["all"]["desk"].items, 0.5);
+	table.insert(SuburbsDistributions["all"]["desk"].items, 1);
 	
 	---------------------------------
 	-- Post Box Inventory Spawning --
@@ -1519,25 +1517,25 @@ end
 	table.insert(SuburbsDistributions["all"]["postbox"].items, "Hydrocraft.HCSealedletter7");
 	table.insert(SuburbsDistributions["all"]["postbox"].items, 5);	
 	table.insert(SuburbsDistributions["all"]["postbox"].items, "Hydrocraft.HCPostcard1");
-	table.insert(SuburbsDistributions["all"]["postbox"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["postbox"].items, 1);
 	table.insert(SuburbsDistributions["all"]["postbox"].items, "Hydrocraft.HCPostcard2");
-	table.insert(SuburbsDistributions["all"]["postbox"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["postbox"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["postbox"].items, "Hydrocraft.HCPostcard3");
-	table.insert(SuburbsDistributions["all"]["postbox"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["postbox"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["postbox"].items, "Hydrocraft.HCPostcard4");
-	table.insert(SuburbsDistributions["all"]["postbox"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["postbox"].items, 1);	
 	table.insert(SuburbsDistributions["all"]["postbox"].items, "Hydrocraft.HCPostcard5");
-	table.insert(SuburbsDistributions["all"]["postbox"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["postbox"].items, 1);
 	table.insert(SuburbsDistributions["all"]["postbox"].items, "Hydrocraft.HCPostcard6");
-	table.insert(SuburbsDistributions["all"]["postbox"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["postbox"].items, 1);
 	table.insert(SuburbsDistributions["all"]["postbox"].items, "Hydrocraft.HCPostcard7");
-	table.insert(SuburbsDistributions["all"]["postbox"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["postbox"].items, 1);
 	table.insert(SuburbsDistributions["all"]["postbox"].items, "Hydrocraft.HCPostcard8");
-	table.insert(SuburbsDistributions["all"]["postbox"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["postbox"].items, 1);
 	table.insert(SuburbsDistributions["all"]["postbox"].items, "Hydrocraft.HCSportsmagazine");
-	table.insert(SuburbsDistributions["all"]["postbox"].items, 0.1);
+	table.insert(SuburbsDistributions["all"]["postbox"].items, 1);
 	table.insert(SuburbsDistributions["all"]["postbox"].items, "Hydrocraft.HCSportsmagazine2");
-	table.insert(SuburbsDistributions["all"]["postbox"].items, 0.1);	
+	table.insert(SuburbsDistributions["all"]["postbox"].items, 1);	
 	
 	--------------------------------------
 	-- Postal Office Inventory Spawning --
@@ -1562,33 +1560,33 @@ end
 	table.insert(SuburbsDistributions["post"]["counter"].items, "Hydrocraft.HCSealedletter7");
 	table.insert(SuburbsDistributions["post"]["counter"].items, 5);	
 	table.insert(SuburbsDistributions["post"]["counter"].items, "Hydrocraft.HCRubberbandbox");
-	table.insert(SuburbsDistributions["post"]["counter"].items, 0.1);
+	table.insert(SuburbsDistributions["post"]["counter"].items, 1);
 	table.insert(SuburbsDistributions["post"]["counter"].items, "Hydrocraft.HCBubblewrap");
-	table.insert(SuburbsDistributions["post"]["counter"].items, 0.1);
+	table.insert(SuburbsDistributions["post"]["counter"].items, 1);
 	table.insert(SuburbsDistributions["post"]["counter"].items, "Hydrocraft.HCBoxcutter");
-	table.insert(SuburbsDistributions["post"]["counter"].items, 0.1);
+	table.insert(SuburbsDistributions["post"]["counter"].items, 1);
 	table.insert(SuburbsDistributions["post"]["counter"].items, "Hydrocraft.HCElectonicscale");
-	table.insert(SuburbsDistributions["post"]["counter"].items, 0.1);
+	table.insert(SuburbsDistributions["post"]["counter"].items, 1);
 	table.insert(SuburbsDistributions["post"]["counter"].items, "Hydrocraft.HCMaskingtape");
-	table.insert(SuburbsDistributions["post"]["counter"].items, 0.1);
+	table.insert(SuburbsDistributions["post"]["counter"].items, 1);
 	table.insert(SuburbsDistributions["post"]["counter"].items, "Hydrocraft.HCPackingtape");
-	table.insert(SuburbsDistributions["post"]["counter"].items, 0.1);
+	table.insert(SuburbsDistributions["post"]["counter"].items, 1);
 	table.insert(SuburbsDistributions["post"]["counter"].items, "Hydrocraft.HCPostcard1");
-	table.insert(SuburbsDistributions["post"]["counter"].items, 0.1);
+	table.insert(SuburbsDistributions["post"]["counter"].items, 1);
 	table.insert(SuburbsDistributions["post"]["counter"].items, "Hydrocraft.HCPostcard2");
-	table.insert(SuburbsDistributions["post"]["counter"].items, 0.1);
+	table.insert(SuburbsDistributions["post"]["counter"].items, 1);
 	table.insert(SuburbsDistributions["post"]["counter"].items, "Hydrocraft.HCPostcard3");
-	table.insert(SuburbsDistributions["post"]["counter"].items, 0.1);
+	table.insert(SuburbsDistributions["post"]["counter"].items, 1);
 	table.insert(SuburbsDistributions["post"]["counter"].items, "Hydrocraft.HCPostcard4");
-	table.insert(SuburbsDistributions["post"]["counter"].items, 0.1);
+	table.insert(SuburbsDistributions["post"]["counter"].items, 1);
 	table.insert(SuburbsDistributions["post"]["counter"].items, "Hydrocraft.HCPostcard5");
-	table.insert(SuburbsDistributions["post"]["counter"].items, 0.1);
+	table.insert(SuburbsDistributions["post"]["counter"].items, 1);
 	table.insert(SuburbsDistributions["post"]["counter"].items, "Hydrocraft.HCPostcard6");
-	table.insert(SuburbsDistributions["post"]["counter"].items, 0.1);
+	table.insert(SuburbsDistributions["post"]["counter"].items, 1);
 	table.insert(SuburbsDistributions["post"]["counter"].items, "Hydrocraft.HCPostcard7");
-	table.insert(SuburbsDistributions["post"]["counter"].items, 0.1);
+	table.insert(SuburbsDistributions["post"]["counter"].items, 1);
 	table.insert(SuburbsDistributions["post"]["counter"].items, "Hydrocraft.HCPostcard8");
-	table.insert(SuburbsDistributions["post"]["counter"].items, 0.1);	
+	table.insert(SuburbsDistributions["post"]["counter"].items, 1);	
 	
 	----------------------------------------------
 	-- Postal Office Storage Inventory Spawning --
@@ -1621,37 +1619,37 @@ end
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, "Hydrocraft.HCRubberbandbox");
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, 5);
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, "Hydrocraft.HCMetalbox");
-	table.insert(SuburbsDistributions["poststorage"]["all"].items, 0.1);	
+	table.insert(SuburbsDistributions["poststorage"]["all"].items, 1);	
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, "Hydrocraft.HCBubblewrap");
-	table.insert(SuburbsDistributions["poststorage"]["all"].items, 0.1);	
+	table.insert(SuburbsDistributions["poststorage"]["all"].items, 1);	
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, "Hydrocraft.HCBoxcutter");
-	table.insert(SuburbsDistributions["poststorage"]["all"].items, 0.1);
+	table.insert(SuburbsDistributions["poststorage"]["all"].items, 1);
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, "Hydrocraft.HCElectonicscale");
-	table.insert(SuburbsDistributions["poststorage"]["all"].items, 0.1);
+	table.insert(SuburbsDistributions["poststorage"]["all"].items, 1);
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, "Hydrocraft.HCStaplegun");
-	table.insert(SuburbsDistributions["poststorage"]["all"].items, 0.1);
+	table.insert(SuburbsDistributions["poststorage"]["all"].items, 1);
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, "Hydrocraft.HCMaskingtape");
-	table.insert(SuburbsDistributions["poststorage"]["all"].items, 0.1);
+	table.insert(SuburbsDistributions["poststorage"]["all"].items, 1);
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, "Hydrocraft.HCPackingtape");
-	table.insert(SuburbsDistributions["poststorage"]["all"].items, 0.1);
+	table.insert(SuburbsDistributions["poststorage"]["all"].items, 1);
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, "Hydrocraft.HCMailbag");
-	table.insert(SuburbsDistributions["poststorage"]["all"].items, 0.1);
+	table.insert(SuburbsDistributions["poststorage"]["all"].items, 1);
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, "Hydrocraft.HCPostcard1");
-	table.insert(SuburbsDistributions["poststorage"]["all"].items, 0.1);
+	table.insert(SuburbsDistributions["poststorage"]["all"].items, 1);
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, "Hydrocraft.HCPostcard2");
-	table.insert(SuburbsDistributions["poststorage"]["all"].items, 0.1);	
+	table.insert(SuburbsDistributions["poststorage"]["all"].items, 1);	
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, "Hydrocraft.HCPostcard3");
-	table.insert(SuburbsDistributions["poststorage"]["all"].items, 0.1);	
+	table.insert(SuburbsDistributions["poststorage"]["all"].items, 1);	
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, "Hydrocraft.HCPostcard4");
-	table.insert(SuburbsDistributions["poststorage"]["all"].items, 0.1);	
+	table.insert(SuburbsDistributions["poststorage"]["all"].items, 1);	
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, "Hydrocraft.HCPostcard5");
-	table.insert(SuburbsDistributions["poststorage"]["all"].items, 0.1);
+	table.insert(SuburbsDistributions["poststorage"]["all"].items, 1);
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, "Hydrocraft.HCPostcard6");
-	table.insert(SuburbsDistributions["poststorage"]["all"].items, 0.1);
+	table.insert(SuburbsDistributions["poststorage"]["all"].items, 1);
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, "Hydrocraft.HCPostcard7");
-	table.insert(SuburbsDistributions["poststorage"]["all"].items, 0.1);
+	table.insert(SuburbsDistributions["poststorage"]["all"].items, 1);
 	table.insert(SuburbsDistributions["poststorage"]["all"].items, "Hydrocraft.HCPostcard8");
-	table.insert(SuburbsDistributions["poststorage"]["all"].items, 0.1);	
+	table.insert(SuburbsDistributions["poststorage"]["all"].items, 1);	
 	
 	---------------------------------------
 	-- Medical Clinic Inventory Spawning --
@@ -1665,15 +1663,15 @@ end
 	table.insert(SuburbsDistributions["medclinic"]["counter"].items, "Hydrocraft.HCQtipbox");
 	table.insert(SuburbsDistributions["medclinic"]["counter"].items, 0.2);
 	table.insert(SuburbsDistributions["medclinic"]["counter"].items, "Hydrocraft.HCGauze");
-	table.insert(SuburbsDistributions["medclinic"]["counter"].items, 0.2);	
+	table.insert(SuburbsDistributions["medclinic"]["counter"].items, 0.2);
 	table.insert(SuburbsDistributions["medclinic"]["counter"].items, "Hydrocraft.HCLatexgloves");
 	table.insert(SuburbsDistributions["medclinic"]["counter"].items, 0.2);
 	table.insert(SuburbsDistributions["medclinic"]["counter"].items, "Hydrocraft.HCStethoscope");
 	table.insert(SuburbsDistributions["medclinic"]["counter"].items, 0.2);
 	table.insert(SuburbsDistributions["medclinic"]["counter"].items, "Hydrocraft.HCOtoscope");
-	table.insert(SuburbsDistributions["medclinic"]["counter"].items, 0.2);	
+	table.insert(SuburbsDistributions["medclinic"]["counter"].items, 0.2);
 	table.insert(SuburbsDistributions["medclinic"]["counter"].items, "Hydrocraft.HCSphygmomanometer");
-	table.insert(SuburbsDistributions["medclinic"]["counter"].items, 0.2);	
+	table.insert(SuburbsDistributions["medclinic"]["counter"].items, 0.2);
 	table.insert(SuburbsDistributions["medclinic"]["counter"].items, "Hydrocraft.HCHeadmirror");
 	table.insert(SuburbsDistributions["medclinic"]["counter"].items, 0.2);
 	table.insert(SuburbsDistributions["medclinic"]["counter"].items, "Hydrocraft.HCThermometer");
@@ -6512,359 +6510,359 @@ end
 	
 -- Add items for Camping Pack
 SuburbsDistributions["HCCampingpack"] = {
-rolls = 2,
-items = {
-"Base.Lighter", 1,
-"Base.Matches", 1,
-"Base.FirstAidKit", 1,
-"Hydrocraft.HCBinoculars", 1,
-"Hydrocraft.HCCompass", 1,
-"Hydrocraft.HCMap", 1,
-"Hydrocraft.HCCanteen", 1,
-"Hydrocraft.HCMagnesiumstriker", 1,
-"Hydrocraft.HCPurifyingtabletsbox", 1,
---"Hydrocraft.HCJackknife", 1,
-"Hydrocraft.HCEnergybar", 1,
-"Hydrocraft.HCTrailmix", 1,
-"Hydrocraft.HCMRE", 1,
-"camping.CampingTentKit", 1,
-},
-fillRand = 5,
+	rolls = 2,
+	items = {
+		"Base.Lighter", 1,
+		"Base.Matches", 1,
+		"Base.FirstAidKit", 1,
+		"Hydrocraft.HCBinoculars", 1,
+		"Hydrocraft.HCCompass", 1,
+		"Hydrocraft.HCMap", 1,
+		"Hydrocraft.HCCanteen", 1,
+		"Hydrocraft.HCMagnesiumstriker", 1,
+		"Hydrocraft.HCPurifyingtabletsbox", 1,
+		"Hydrocraft.HCJackknife", 1,
+		"Hydrocraft.HCEnergybar", 1,
+		"Hydrocraft.HCTrailmix", 1,
+		"Hydrocraft.HCMRE", 1,
+		"camping.CampingTentKit", 1,
+	},
+	fillRand = 5,
 };	
 
 -- Add items for Climbing Pack
 SuburbsDistributions["HCClimbingpack"] = {
-rolls = 2,
-items = {
-"Base.Rope", 1,
-"Hydrocraft.HCRopethin", 1,
-"Hydrocraft.HCRopethick", 1,
-},
-fillRand = 5,
+	rolls = 2,
+	items = {
+		"Base.Rope", 1,
+		"Hydrocraft.HCRopethin", 1,
+		"Hydrocraft.HCRopethick", 1,
+	},
+	fillRand = 5,
 };	
 
 -- Add items for Prepper Bag
 SuburbsDistributions["HCPrepperbag"] = {
-rolls = 2,
-items = {
-"Hydrocraft.HCAdultmagazine", 1,
-"Hydrocraft.HCMysteryseedspacket", 1,
-"Hydrocraft.HCGPS", 1,
-"Hydrocraft.HCSurvivalaxe", 1,
-"Hydrocraft.HCMachete", 1,
-"Hydrocraft.HCMREbox", 1,
-"Hydrocraft.HCDetector", 1,
-},
-fillRand = 5,
+	rolls = 2,
+	items = {
+		"Hydrocraft.HCAdultmagazine", 1,
+		"Hydrocraft.HCMysteryseedspacket", 1,
+		"Hydrocraft.HCGPS", 1,
+		"Hydrocraft.HCSurvivalaxe", 1,
+		"Hydrocraft.HCMachete", 1,
+		"Hydrocraft.HCMREbox", 1,
+		"Hydrocraft.HCDetector", 1,
+	},
+	fillRand = 5,
 };
 
 -- Add items for Paper Lunch Bag
 SuburbsDistributions["HCPaperlunchbag"] = {
-rolls = 1,
-items = {
-"Base.Apple", 1,
-"Base.Banana", 1,
-"Base.Orange", 1,
-"Base.Crisps", 1,
-"Hydrocraft.HCJuiceboxapple", 1,
-"Hydrocraft.HCPeanutjellysandwich", 1,
-},
-fillRand = 0,
+	rolls = 1,
+	items = {
+		"Base.Apple", 1,
+		"Base.Banana", 1,
+		"Base.Orange", 1,
+		"Base.Crisps", 1,
+		"Hydrocraft.HCJuiceboxapple", 1,
+		"Hydrocraft.HCPeanutjellysandwich", 1,
+	},
+	fillRand = 0,
 };
 
 -- Add items for Lunch Box
 SuburbsDistributions["HCLunchbox"] = {
-rolls = 1,
-items = {
-"Base.Apple", 1,
-"Base.Banana", 1,
-"Base.Orange", 1,
-"Base.Crisps", 1,
-"Hydrocraft.HCJuiceboxapple", 1,
-"Hydrocraft.HCPeanutjellysandwich", 1,
-},
-fillRand = 0,
+	rolls = 1,
+	items = {
+		"Base.Apple", 1,
+		"Base.Banana", 1,
+		"Base.Orange", 1,
+		"Base.Crisps", 1,
+		"Hydrocraft.HCJuiceboxapple", 1,
+		"Hydrocraft.HCPeanutjellysandwich", 1,
+	},
+	fillRand = 0,
 };
 
 -- Add items for Briefcase
 SuburbsDistributions["HCBriefcase"] = {
-rolls = 2,
-items = {
-"Base.Pen", 1,
-"Base.Pencil", 1,
-"Base.LetterOpener", 1,
-"Base.Scissors", 1,
-"Base.Eraser", 1,
-"Base.SheetPaper", 1,
-"Base.SheetPaper", 1,
-"Base.SheetPaper", 1,
-"Hydrocraft.HCPencilbox", 1,
-"Hydrocraft.HCPenbox", 1,
-"Hydrocraft.HCPostitpad", 1,
-"Hydrocraft.HCCalculator", 1,
-"Hydrocraft.HCRubberbandbox", 1,
-"Hydrocraft.HCBinderclip", 1,
-"Hydrocraft.HCClipboard", 1,
-"Hydrocraft.HCWhiteout", 1,
-"Hydrocraft.HCThumbtack", 1,
-"Hydrocraft.HCHighlighter", 1,
-"Hydrocraft.HCRuler", 1,
-"Hydrocraft.HCStapleremover", 1,
-"Hydrocraft.HCFolder", 1,
-"Hydrocraft.HCFolder2", 1,
-"Hydrocraft.HCManilaenvelope", 1,
-"Hydrocraft.HCManilaenvelope2", 1,
-"Hydrocraft.HCStamp", 1,
-},
-fillRand = 5,
+	rolls = 2,
+	items = {
+		"Base.Pen", 1,
+		"Base.Pencil", 1,
+		"Base.LetterOpener", 1,
+		"Base.Scissors", 1,
+		"Base.Eraser", 1,
+		"Base.SheetPaper", 1,
+		"Base.SheetPaper", 1,
+		"Base.SheetPaper", 1,
+		"Hydrocraft.HCPencilbox", 1,
+		"Hydrocraft.HCPenbox", 1,
+		"Hydrocraft.HCPostitpad", 1,
+		"Hydrocraft.HCCalculator", 1,
+		"Hydrocraft.HCRubberbandbox", 1,
+		"Hydrocraft.HCBinderclip", 1,
+		"Hydrocraft.HCClipboard", 1,
+		"Hydrocraft.HCWhiteout", 1,
+		"Hydrocraft.HCThumbtack", 1,
+		"Hydrocraft.HCHighlighter", 1,
+		"Hydrocraft.HCRuler", 1,
+		"Hydrocraft.HCStapleremover", 1,
+		"Hydrocraft.HCFolder", 1,
+		"Hydrocraft.HCFolder2", 1,
+		"Hydrocraft.HCManilaenvelope", 1,
+		"Hydrocraft.HCManilaenvelope2", 1,
+		"Hydrocraft.HCStamp", 1,
+	},
+	fillRand = 5,
 };
 
 -- Add items for Medical Bag
 SuburbsDistributions["HCMedicalbag"] = {
-rolls = 1,
-items = {
-"Base.FirstAidKit", 50,
-"Hydrocraft.HCStethoscope", 50,
-"Hydrocraft.HCSphygmomanometer", 50,
-"Hydrocraft.HCHeadmirror", 50,
-"Hydrocraft.HCThermometer", 50,
-"Hydrocraft.HCTonguedepressor", 50,
-"Hydrocraft.HCBonesaw", 50,
-"Hydrocraft.HCGiglisaw", 50,
-"Hydrocraft.HCSyringeempty", 50,
-"Hydrocraft.HCScalpel", 50,
-"Hydrocraft.HCForeceps", 50,
-"Hydrocraft.HCCrutch", 10,
-"Hydrocraft.HCCrutchaluminium", 10,
-"Hydrocraft.HCGauze", 10,
-"Hydrocraft.HCInhaler", 10,
-"Hydrocraft.HCSpaceblanket", 10,
-"Hydrocraft.HCEyedropperbottleiodine", 10,
-"Hydrocraft.HCEyedropperbottleeardrops", 10,
-"Hydrocraft.HCEyedropperbottleyedrops", 10,
-"Hydrocraft.HCCoughsyrup", 10,
-"Hydrocraft.HCCaffeinebox", 10,
-"Hydrocraft.HCEphedrinebox", 10,
-},
-fillRand = 0,
+	rolls = 1,
+	items = {
+		"Base.FirstAidKit", 50,
+		"Hydrocraft.HCStethoscope", 50,
+		"Hydrocraft.HCSphygmomanometer", 50,
+		"Hydrocraft.HCHeadmirror", 50,
+		"Hydrocraft.HCThermometer", 50,
+		"Hydrocraft.HCTonguedepressor", 50,
+		"Hydrocraft.HCBonesaw", 50,
+		"Hydrocraft.HCGiglisaw", 50,
+		"Hydrocraft.HCSyringeempty", 50,
+		"Hydrocraft.HCScalpel", 50,
+		"Hydrocraft.HCForeceps", 50,
+		"Hydrocraft.HCCrutch", 10,
+		"Hydrocraft.HCCrutchaluminium", 10,
+		"Hydrocraft.HCGauze", 10,
+		"Hydrocraft.HCInhaler", 10,
+		"Hydrocraft.HCSpaceblanket", 10,
+		"Hydrocraft.HCEyedropperbottleiodine", 10,
+		"Hydrocraft.HCEyedropperbottleeardrops", 10,
+		"Hydrocraft.HCEyedropperbottleyedrops", 10,
+		"Hydrocraft.HCCoughsyrup", 10,
+		"Hydrocraft.HCCaffeinebox", 10,
+		"Hydrocraft.HCEphedrinebox", 10,
+	},
+	fillRand = 0,
 };
 
 -- Add items for Medical Box
 SuburbsDistributions["HCMedicalbox"] = {
-rolls = 1,
-items = {
-"Base.FirstAidKit", 50,
-"Hydrocraft.HCStethoscope", 50,
-"Hydrocraft.HCHeadmirror", 50,
-"Hydrocraft.HCThermometer", 50,
-"Hydrocraft.HCTonguedepressor", 50,
-"Hydrocraft.HCSyringeempty", 50,
-"Hydrocraft.HCScalpel", 50,
-"Hydrocraft.HCGauze", 50,
-"Hydrocraft.HCInhaler", 10,
-"Hydrocraft.HCEyedropperbottleiodine", 10,
-"Hydrocraft.HCEyedropperbottleeardrops", 10,
-"Hydrocraft.HCEyedropperbottleyedrops", 10,
-"Hydrocraft.HCCoughsyrup", 10,
-"Hydrocraft.HCCaffeinebox", 10,
-"Hydrocraft.HCEphedrinebox", 10,
-},
-fillRand = 0,
+	rolls = 1,
+	items = {
+		"Base.FirstAidKit", 50,
+		"Hydrocraft.HCStethoscope", 50,
+		"Hydrocraft.HCHeadmirror", 50,
+		"Hydrocraft.HCThermometer", 50,
+		"Hydrocraft.HCTonguedepressor", 50,
+		"Hydrocraft.HCSyringeempty", 50,
+		"Hydrocraft.HCScalpel", 50,
+		"Hydrocraft.HCGauze", 50,
+		"Hydrocraft.HCInhaler", 10,
+		"Hydrocraft.HCEyedropperbottleiodine", 10,
+		"Hydrocraft.HCEyedropperbottleeardrops", 10,
+		"Hydrocraft.HCEyedropperbottleyedrops", 10,
+		"Hydrocraft.HCCoughsyrup", 10,
+		"Hydrocraft.HCCaffeinebox", 10,
+		"Hydrocraft.HCEphedrinebox", 10,
+	},
+	fillRand = 0,
 };
 
 -- Add items for Golf Bag
 SuburbsDistributions["HCGolfbag"] = {
-rolls = 1,
-items = {
-"Base.Golfclub", 50,
-"Base.GolfBall", 50,
-},
-fillRand = 0,
+	rolls = 1,
+	items = {
+		"Base.Golfclub", 50,
+		"Base.GolfBall", 50,
+	},
+	fillRand = 0,
 };
 
 -- Add items for Cosmetic Case
 SuburbsDistributions["HCCosmeticcase"] = {
-rolls = 1,
-items = {
-"Base.Lipstick", 50,
-"Base.MakeupEyeshadow", 50,
-"Base.MakeupFoundation", 50,
-"Base.Comb", 50,
-"Base.Hairspray", 50,
-"Base.Mirror", 50,
-"Base.Perfume", 10,
-"Base.CottonBalls", 10,
-"Base.Tissue", 10,
-"Hydrocraft.HCTissuebox", 10,
-"Hydrocraft.HCChapstick", 10,
-"Hydrocraft.HCQtip", 10,
-"Hydrocraft.HCQtipbox", 10,
-"Hydrocraft.HCHairgel", 10,
-},
-fillRand = 0,
+	rolls = 1,
+	items = {
+		"Base.Lipstick", 50,
+		"Base.MakeupEyeshadow", 50,
+		"Base.MakeupFoundation", 50,
+		"Base.Comb", 50,
+		"Base.Hairspray", 50,
+		"Base.Mirror", 50,
+		"Base.Perfume", 10,
+		"Base.CottonBalls", 10,
+		"Base.Tissue", 10,
+		"Hydrocraft.HCTissuebox", 10,
+		"Hydrocraft.HCChapstick", 10,
+		"Hydrocraft.HCQtip", 10,
+		"Hydrocraft.HCQtipbox", 10,
+		"Hydrocraft.HCHairgel", 10,
+	},
+	fillRand = 0,
 };
 
 -- Add items for Metal Tool Box
 SuburbsDistributions["HCToolbox"] = {
-rolls = 1,
-items = {
-"Base.Hammer", 50,
-"Base.Saw", 50,
-"Base.Screwdriver", 50,
-"Base.NailsBox", 20,
-"Base.ScrewsBox", 20,
-"Base.DuctTape", 20,
-"Base.Glue", 20,
-"Base.Woodglue", 20,
-"Hydrocraft.HCMasontrowel", 10,
-"Hydrocraft.HCPliers", 10,
-"Hydrocraft.HCMeasuringtape", 10,
-"Hydrocraft.HCSafetyglasses", 10,
-"Hydrocraft.HCFramesquare", 10,
-"Hydrocraft.HCNailgun", 10,
-"Hydrocraft.HCNailgunammobox", 10,
-"Hydrocraft.HCWrench", 10,
-"Hydrocraft.HCMonkeywrench", 10,
-"Hydrocraft.HCFunnel", 10,
-"Hydrocraft.HCSuperglue", 10,
-"Hydrocraft.HCRubbercement", 10,
-"Hydrocraft.HCMaskingtape", 10,
-"Hydrocraft.HCElectrictape", 10,
-"Hydrocraft.HCDrillcordless", 10,
-},
-fillRand = 5,
+	rolls = 1,
+	items = {
+		"Base.Hammer", 50,
+		"Base.Saw", 50,
+		"Base.Screwdriver", 50,
+		"Base.NailsBox", 20,
+		"Base.ScrewsBox", 20,
+		"Base.DuctTape", 20,
+		"Base.Glue", 20,
+		"Base.Woodglue", 20,
+		"Hydrocraft.HCMasontrowel", 10,
+		"Hydrocraft.HCPliers", 10,
+		"Hydrocraft.HCMeasuringtape", 10,
+		"Hydrocraft.HCSafetyglasses", 10,
+		"Hydrocraft.HCFramesquare", 10,
+		"Hydrocraft.HCNailgun", 10,
+		"Hydrocraft.HCNailgunammobox", 10,
+		"Hydrocraft.HCWrench", 10,
+		"Hydrocraft.HCMonkeywrench", 10,
+		"Hydrocraft.HCFunnel", 10,
+		"Hydrocraft.HCSuperglue", 10,
+		"Hydrocraft.HCRubbercement", 10,
+		"Hydrocraft.HCMaskingtape", 10,
+		"Hydrocraft.HCElectrictape", 10,
+		"Hydrocraft.HCDrillcordless", 10,
+	},
+	fillRand = 5,
 };
 
 -- Add items for Fishing Tackle Box
 SuburbsDistributions["HCFishingbox"] = {
-rolls = 1,
-items = {
-"Base.FishingTackle", 50,
-"Base.FishingTackle2", 50,
-"Base.FishingRod", 50,
-"Base.FishingLine", 50,
-"Base.FishingNet", 10,
-"Base.Worm", 50,
-},
-fillRand = 0,
+	rolls = 1,
+	items = {
+		"Base.FishingTackle", 50,
+		"Base.FishingTackle2", 50,
+		"Base.FishingRod", 50,
+		"Base.FishingLine", 50,
+		"Base.FishingNet", 10,
+		"Base.Worm", 50,
+	},
+	fillRand = 0,
 };
 
 -- Add items for Shoe Box
 SuburbsDistributions["HCShoebox"] = {
-rolls = 1,
-items = {
-"Base.Shoes", 50,
-"Hydrocraft.HCBoots", 50,
-"Hydrocraft.HCFlipflops", 50,
-"Hydrocraft.HCCleats", 50,
-"Hydrocraft.HCBootconstruction", 50,
-},
-fillRand = 0,
+	rolls = 1,
+	items = {
+		"Base.Shoes", 50,
+		"Hydrocraft.HCBoots", 50,
+		"Hydrocraft.HCFlipflops", 50,
+		"Hydrocraft.HCCleats", 50,
+		"Hydrocraft.HCBootconstruction", 50,
+	},
+	fillRand = 0,
 };
 
 -- Add items for Seed Bag
 SuburbsDistributions["HCSeedbag"] = {
-rolls = 1,
-items = {
-"Hydrocraft.HCMysteryseedspacket", 50,
-"Hydrocraft.HCMysteryseedspacket", 50,
-"Hydrocraft.HCMysteryseedspacket", 50,
-},
-fillRand = 0,
+	rolls = 1,
+	items = {
+		"Hydrocraft.HCMysteryseedspacket", 50,
+		"Hydrocraft.HCMysteryseedspacket", 50,
+		"Hydrocraft.HCMysteryseedspacket", 50,
+	},
+	fillRand = 0,
 };
 
 -- Add items for Mail Bag
 SuburbsDistributions["HCMailbag"] = {
-rolls = 1,
-items = {
-"Hydrocraft.HCSealedletter", 50,
-"Hydrocraft.HCSealedletter2", 50,
-"Hydrocraft.HCSealedletter3", 50,
-"Hydrocraft.HCSealedletter4", 50,
-"Hydrocraft.HCSealedletter5", 50,
-"Hydrocraft.HCSealedletter6", 50,
-"Hydrocraft.HCSealedletter7", 50,
-},
-fillRand = 0,
+	rolls = 1,
+	items = {
+		"Hydrocraft.HCSealedletter", 50,
+		"Hydrocraft.HCSealedletter2", 50,
+		"Hydrocraft.HCSealedletter3", 50,
+		"Hydrocraft.HCSealedletter4", 50,
+		"Hydrocraft.HCSealedletter5", 50,
+		"Hydrocraft.HCSealedletter6", 50,
+		"Hydrocraft.HCSealedletter7", 50,
+	},
+	fillRand = 0,
 };
 
 -- Add items for Pizza Delivery Bag
 SuburbsDistributions["HCPizzadeliverybag"] = {
-rolls = 1,
-items = {
-"Hydrocraft.HCBoringpizzabaked", 50,
-"Hydrocraft.HCSimplepizzabaked", 50,
-"Hydrocraft.HCTastypizzabaked", 50,
-},
-fillRand = 0,
+	rolls = 1,
+	items = {
+		"Hydrocraft.HCBoringpizzabaked", 50,
+		"Hydrocraft.HCSimplepizzabaked", 50,
+		"Hydrocraft.HCTastypizzabaked", 50,
+	},
+	fillRand = 0,
 };
 
 -- Add items for Medium Animal Cage
 SuburbsDistributions["HCAnimalcage"] = {
-rolls = 1,
-items = {
-"Hydrocraft.HCRabbitmale", 10,
-"Hydrocraft.HCRabbitfemale", 10,
-"Hydrocraft.HCRabbitpoop", 50,
-"Hydrocraft.HCCatpoop", 50,
-"Hydrocraft.HCCatmale", 10,
-"Hydrocraft.HCCatfemale", 10,
-"Hydrocraft.HCCatblackmale", 10,
-"Hydrocraft.HCCatblackfemale", 10,
-"Hydrocraft.HCCatbluemale", 10,
-"Hydrocraft.HCCatbluefemale", 10,
-"Hydrocraft.HCCatbrownmale", 10,
-"Hydrocraft.HCCatbrownfemale", 10,
-"Hydrocraft.HCCatcreammale", 10,
-"Hydrocraft.HCCatcreamfemale", 10,
-"Hydrocraft.HCCatgingermale", 10,
-"Hydrocraft.HCCatgingerfemale", 10,
-"Hydrocraft.HCCatsilvermale", 10,
-"Hydrocraft.HCCatsilverfemale", 10,
-"Hydrocraft.HCCatwhitemale", 10,
-"Hydrocraft.HCCatwhitefemale", 10,
-},
-fillRand = 0,
+	rolls = 1,
+	items = {
+		"Hydrocraft.HCRabbitmale", 10,
+		"Hydrocraft.HCRabbitfemale", 10,
+		"Hydrocraft.HCRabbitpoop", 50,
+		"Hydrocraft.HCCatpoop", 50,
+		"Hydrocraft.HCCatmale", 10,
+		"Hydrocraft.HCCatfemale", 10,
+		"Hydrocraft.HCCatblackmale", 10,
+		"Hydrocraft.HCCatblackfemale", 10,
+		"Hydrocraft.HCCatbluemale", 10,
+		"Hydrocraft.HCCatbluefemale", 10,
+		"Hydrocraft.HCCatbrownmale", 10,
+		"Hydrocraft.HCCatbrownfemale", 10,
+		"Hydrocraft.HCCatcreammale", 10,
+		"Hydrocraft.HCCatcreamfemale", 10,
+		"Hydrocraft.HCCatgingermale", 10,
+		"Hydrocraft.HCCatgingerfemale", 10,
+		"Hydrocraft.HCCatsilvermale", 10,
+		"Hydrocraft.HCCatsilverfemale", 10,
+		"Hydrocraft.HCCatwhitemale", 10,
+		"Hydrocraft.HCCatwhitefemale", 10,
+	},
+	fillRand = 0,
 };
 
 -- Add items for Small Animal Cage
 SuburbsDistributions["HCAnimalcagesmall"] = {
-rolls = 1,
-items = {
-"Hydrocraft.HCHamstermale", 10,
-"Hydrocraft.HCHamsterfemale", 10,
-"Hydrocraft.HCHamsterpoop", 50,
-},
-fillRand = 0,
+	rolls = 1,
+	items = {
+		"Hydrocraft.HCHamstermale", 10,
+		"Hydrocraft.HCHamsterfemale", 10,
+		"Hydrocraft.HCHamsterpoop", 50,
+	},
+	fillRand = 0,
 };
 
 -- Add items for Cigar Box
 SuburbsDistributions["HCCigarbox"] = {
-rolls = 1,
-items = {
-"Hydrocraft.HCCigar", 50,
-"Hydrocraft.HCCigar", 50,
-"Hydrocraft.HCCigar", 50,
-},
-fillRand = 0,
+	rolls = 1,
+	items = {
+		"Hydrocraft.HCCigar", 50,
+		"Hydrocraft.HCCigar", 50,
+		"Hydrocraft.HCCigar", 50,
+	},
+	fillRand = 0,
 };
 
 -- Add items for Spiffos Order Bag
 SuburbsDistributions["HCSpiffosorderbag"] = {
-rolls = 1,
-items = {
-"Hydrocraft.HCSpiffoburger", 50,
-"Hydrocraft.HCSpiffoscheesefries", 50,
-"Base.Burger", 50,
-"Base.Fries", 50,
-"Hydrocraft.HCNapkin", 10,
-"Hydrocraft.HCSaltpacket", 10,
-"Hydrocraft.HCPepperpacket", 10,
-"Hydrocraft.HCSpork", 10,
-"Hydrocraft.HCPlasticsknife", 10,
-"Base.Spiffo", 1,
-},
-fillRand = 0,
+	rolls = 1,
+	items = {
+		"Hydrocraft.HCSpiffoburger", 50,
+		"Hydrocraft.HCSpiffoscheesefries", 50,
+		"Base.Burger", 50,
+		"Base.Fries", 50,
+		"Hydrocraft.HCNapkin", 10,
+		"Hydrocraft.HCSaltpacket", 10,
+		"Hydrocraft.HCPepperpacket", 10,
+		"Hydrocraft.HCSpork", 10,
+		"Hydrocraft.HCPlasticsknife", 10,
+		"Base.Spiffo", 1,
+	},
+	fillRand = 0,
 };
 
 -- Add items for Fort Knox
