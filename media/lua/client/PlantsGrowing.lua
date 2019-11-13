@@ -134,10 +134,8 @@ function recipe_NDPlantsHarvest(items, result, player)
 	while counter < prodCount do
 		if altName ~= "" then
 			player:getInventory():AddItem(namespace..altName);
-			print("Shit");
 		else
 			player:getInventory():AddItem(namespace..plantName);
-			print("Yay");
 		end
 		counter = counter + 1;
 	end

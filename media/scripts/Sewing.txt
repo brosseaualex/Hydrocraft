@@ -8,14 +8,6 @@ module Hydrocraft
 
 /************************ITEMS************************/
 
-item HCBandanna
-    {
-        Weight    	= 0.1,
-        Type    	= Normal,
-        DisplayName 	= Bandanna,
-        icon 		= HCBandanna,
-    }
-
 item HCSafetypin
     {
         Weight    	= 0.01,
