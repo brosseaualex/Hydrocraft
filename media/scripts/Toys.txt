@@ -1911,7 +1911,7 @@ recipe Make Pinata
 recipe Break Pinata
 	{
 	HCPinata,
-	keep BaseballBat/HCAluminiumbat/HCHomemadebatcrude/HCHomemadebat/HCBaton/HCWifflebat/HCQuarterstaff,
+	keep BaseballBat/HCAluminiumbat/HCHomemadebatcrude/HCHomemadebat/Base.Nightstick/HCWifflebat/HCQuarterstaff,
 	Result:HCPinatabroken,
 	Time:200.0,
 	OnCreate:HCPinataBreak,

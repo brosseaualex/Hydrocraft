@@ -240,7 +240,7 @@ item HCAxeheadblunt
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
-		WeaponSprite					=	Fireaxe,
+		WeaponSprite					=	HandAxe,
 		SwingAnim					=	Bat,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,

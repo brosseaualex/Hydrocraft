@@ -308,7 +308,7 @@ item HCFuelcanister
         DisplayName         	= Fuel Canister,
         icon 			= HCFuelcanister,
     }
-
+	
 item HCNailgunammobox
     {
         Weight 			= 1.0,
@@ -607,6 +607,7 @@ item HCScissorlift
     }
 
 /************************AMMO************************/
+
     item HCNailgunammo
     {
         Count        		=    10,
@@ -616,7 +617,7 @@ item HCScissorlift
         DisplayName    		=    Nail Gun Ammo,
         Icon        		=    HCNailgunammo,
     }
-
+/*
     item HCNailclip
     {
         Count        		=    12,
@@ -625,7 +626,7 @@ item HCScissorlift
         DisplayName    		=    Nail gun clip,
         Icon       	 	=    HCNailgunclip,
     }
-
+*/
 /************************WEAPONS************************/
 
    item HCNailgun

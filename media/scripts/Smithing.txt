@@ -635,7 +635,7 @@ item HCTinsheetbox
 	item HCSteelpipe
 	{
 		MaxRange			=	1.3,
-		WeaponSprite			=	Baseballbat,
+		WeaponSprite			=	LeadPipe,
 		MinAngle			=	0,
 		Type				=	Weapon,
 		MinimumSwingTime		=	3,

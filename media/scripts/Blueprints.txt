@@ -8,7 +8,7 @@ module Hydrocraft
 
 /************************ITEMS************************/
 
-
+/*
 item HCBlueprintpoatocannon
     {
         Weight			=	0.1,
@@ -58,6 +58,7 @@ item HCBlueprintbonearrowhead
         TeachedRecipes 		=   	Make Bone Arrowhead,
         ReplaceOnUse    	=   	HCBlueprintbonearrowhead,
     }
+*/
 
 item HCBlueprintfishingrod
     {
@@ -412,7 +413,7 @@ item HCBlueprintmakecomputertower
 
 /************************RECIPES************************/	
 
-
+/*
 recipe Make Potato Cannon Blueprint
     {
 	SheetPaper2,
@@ -470,6 +471,7 @@ recipe Make Bone Arrowhead Blueprint
     	Time:500,
     	Category:Research,
     } 
+	*/
 
 recipe Make Fishing Rod Blueprint
     {
