@@ -131,7 +131,7 @@ module Hydrocraft
         	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 	}
-
+/*
 item HCShurikensteel
     {
         MaxRange		=	20,
@@ -207,7 +207,7 @@ item HCShurikencopper
         Icon			=	HCShurikencopper,
         NoiseRange  		=   	1,
     }
-
+*/
 	item HCKnifesteel
 	{
 		MaxRange					=	0.9,
@@ -1364,7 +1364,7 @@ item HCShurikencopper
 	}
 
 /************************RECIPES************************/	
-
+/*
 recipe Make Steel Shuriken
 	{
 		SkillRequired:BladeMaintenance=1,
@@ -1454,7 +1454,7 @@ recipe Make Copper Shuriken
        		Category:Smithing,
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
-
+*/
 recipe Make Steel Knife
 	{
 		SkillRequired:BladeMaintenance=1,
