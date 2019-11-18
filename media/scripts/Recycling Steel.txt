@@ -998,7 +998,7 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    HCMeatcleaver,
+    Base.MeatCleaver,
     Charcoal,
 
 
@@ -1250,7 +1250,7 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    HCMonkeywrench,
+    Base.PipeWrench,
     Charcoal,
 
 
@@ -2211,7 +2211,7 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    HCBreadknife=3,
+    Base.BreadKnife=3,
     Charcoal,
 
 
@@ -2878,7 +2878,7 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    HCPickaxe,
+    Base.PickAxe,
     Charcoal,
 
 

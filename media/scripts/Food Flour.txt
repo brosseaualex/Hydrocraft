@@ -647,7 +647,7 @@ recipe Open Bag of Burger Buns
 
 recipe Slice Bread
     {
-        	keep HCBreadknife/KitchenKnife/ButterKnife/HuntingKnife/HCSteakknife/HCKnifestone/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper,
+        	keep Base.BreadKnife/KitchenKnife/ButterKnife/HuntingKnife/HCSteakknife/HCKnifestone/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper,
         	Bread,
         	Result:BreadSlices=3,
         	Sound:PZ_SliceBread,

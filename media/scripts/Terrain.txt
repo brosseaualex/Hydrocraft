@@ -394,7 +394,7 @@ recipe Build Vein
 recipe Mine
     {
     	keep HCVeincopper,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:HCCopperore,
     	NeedToBeLearn:true,
@@ -406,7 +406,7 @@ recipe Mine
 recipe Mine
     {
     	keep HCVeintin,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:HCTinore,
     	NeedToBeLearn:true,
@@ -418,7 +418,7 @@ recipe Mine
 recipe Mine
     {
     	keep HCVeiniron,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:HCIronore,
     	NeedToBeLearn:true,
@@ -430,7 +430,7 @@ recipe Mine
 recipe Mine
     {
     	keep HCVeinlead,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:HCLeadore,
     	NeedToBeLearn:true,
@@ -442,7 +442,7 @@ recipe Mine
 recipe Mine
     {
     	keep HCVeinbauxite,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:HCBauxiteore,
     	NeedToBeLearn:true,
@@ -454,7 +454,7 @@ recipe Mine
 recipe Mine
     {
     	keep HCVeinsilver,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:HCSilverore,
     	NeedToBeLearn:true,
@@ -466,7 +466,7 @@ recipe Mine
 recipe Mine
     {
     	keep HCVeingold,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:HCGoldore,
     	NeedToBeLearn:true,
@@ -478,7 +478,7 @@ recipe Mine
 recipe Mine
     {
     	keep HCVeinplatinum,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:HCPlatinumore,
     	NeedToBeLearn:true,
@@ -490,7 +490,7 @@ recipe Mine
 recipe Mine
     {
     	keep HCVeinmagnetite,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:HCMagnetite,
     	NeedToBeLearn:true,
@@ -502,7 +502,7 @@ recipe Mine
 recipe Mine
     {
     	keep HCVeintitanium,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:HCTitaniumore,
     	NeedToBeLearn:true,
@@ -514,7 +514,7 @@ recipe Mine
 recipe Mine
     {
     	keep HCVeinnickel,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:HCNickelore,
     	NeedToBeLearn:true,
@@ -526,7 +526,7 @@ recipe Mine
 recipe Mine
     {
     	keep HCVeinuranium,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:HCUraniumore,
     	NeedToBeLearn:true,
@@ -538,7 +538,7 @@ recipe Mine
 recipe Mine
     {
     	keep HCVeinthorium,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:HCThoriumore,
     	NeedToBeLearn:true,

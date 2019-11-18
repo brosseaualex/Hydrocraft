@@ -723,7 +723,7 @@ recipe Mine
 recipe Mine
     {
     	keep HCMinehole/HCMineholeB,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:HCDirt,
     	NeedToBeLearn:true,
@@ -736,7 +736,7 @@ recipe Mine
 recipe Mine
     {
     	keep HCMinehole2/HCMinehole2B,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:HCDirt,
     	NeedToBeLearn:true,
@@ -781,7 +781,7 @@ recipe Upgrade to Dark Mine
 	HCPlankbarrier,
     	HCMinehole2/HCMinehole2B,
 	keep Shovel,
-	keep HCPickaxe,
+	keep Base.PickAxe,
     	keep HCWorkgloves,
     	CanBeDoneFromFloor:true,
     	Result:HCDarkmine,
@@ -899,7 +899,7 @@ recipe Mine
     {
 	HCMininghat/HCMininghatlamppowered,
     	keep HCDarkmine/HCDarkmineB,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:Stone,
     	NeedToBeLearn:true,
@@ -913,7 +913,7 @@ recipe Mine
     {
 	HCMininghat/HCMininghatlamppowered,
     	keep HCDarkmine2/HCDarkmine2B,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:Stone,
     	NeedToBeLearn:true,
@@ -929,7 +929,7 @@ recipe Mine
         Charcoal=1,
         Water=10,
     	keep HCDarkmine3/HCDarkmine3B,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:Stone,
     	NeedToBeLearn:true,
@@ -1006,7 +1006,7 @@ recipe Anchor Quarry
 recipe Mine Stone
     {
     	keep HCQuarrystone/HCQuarrystone2,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:Stone,
     	NeedToBeLearn:true,

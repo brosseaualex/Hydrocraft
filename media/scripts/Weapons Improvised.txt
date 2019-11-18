@@ -154,7 +154,7 @@ item HCToothbrushshiv
 	recipe Craft Toothbrush Shiv
 	{
     		Toothbrush ,
-		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/HCBreadknife/HCMeatcleaver/HCPumpkinknife/Scissors/HCScalpel/SharpedStone/HCMachete/HCCombatknife/HCKatana/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCKnifestone,		
+		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/Base.BreadKnife/Base.MeatCleaver/HCPumpkinknife/Scissors/HCScalpel/SharpedStone/HCMachete/HCCombatknife/HCKatana/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCKnifestone,		
 		Result:HCToothbrushshiv,
 		Sound:PZ_Saw,
 		Time:250.0,

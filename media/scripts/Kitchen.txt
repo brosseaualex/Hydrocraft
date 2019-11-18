@@ -982,7 +982,8 @@ item HCJellomold1
         	TreeDamage  			=   	1,
         	EnduranceMod 			= 	0.5,
 	}
-
+	
+	/*
 	item HCBreadknife
 	{
 		MaxRange			=	0.9,
@@ -1020,6 +1021,7 @@ item HCJellomold1
         	TreeDamage  			=   	1,
         	EnduranceMod 			= 	0.5,
 	}
+	*/
 
 	item HCWoodenspoon
 	{
@@ -1085,7 +1087,7 @@ item HCJellomold1
 		EnduranceMod = 0.5,
 	}
 
-
+/*
 	item HCMeatcleaver
 	{
 		MaxRange	=	1.0,
@@ -1122,6 +1124,7 @@ item HCJellomold1
         BreakSound  =   BreakMetalItem,
         TreeDamage  =   5,
 	}
+	*/
 
 item HCEggtimer
     {

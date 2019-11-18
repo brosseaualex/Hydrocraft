@@ -628,6 +628,16 @@ item HCScissorlift
 
 /************************WEAPONS************************/
 
+   item HCNailgun
+    {
+        Count        		=    1,
+        Weight        		=    2,
+        Type        		=    Normal,
+        DisplayName    		=    Nail Gun,
+        Icon       	 	=    HCNailgun,
+    }
+
+/*
 	item HCNailgun
 	{
 		AmmoType			=	HCNailclip,
@@ -683,6 +693,7 @@ item HCScissorlift
         	AimingTime 			= 	40,
         	BreakSound  			=   	BreakMetalItem,
 	}
+	*/
 
 	item HCWrench
 	{
@@ -718,6 +729,7 @@ item HCScissorlift
 		TreeDamage  			=   1,
 	}
 
+	/*
 	item HCMonkeywrench
 	{
 		MaxRange			=	1.3,
@@ -751,6 +763,7 @@ item HCScissorlift
 		BreakSound  			=   	BreakMetalItem,
 		TreeDamage  			=   	1,
 	}
+	*/
 
 	item HCCane
     	{
@@ -789,7 +802,7 @@ item HCScissorlift
         	TreeDamage             		=    1,
     	}
 
-
+/*
 	item HCPickaxe
 	{
 		DisplayName					=	Pickaxe,
@@ -828,6 +841,7 @@ item HCScissorlift
         	TreeDamage  					=   	10,
         	TwoHandWeapon 					= 	TRUE,
 	}
+	*/
 
     item ChainSaw
     {
@@ -1303,10 +1317,12 @@ recipe Craft Hand Powered Pump
 
 /************************FIXING************************/
 
+/*
 	fixing Refuel Nailgun
     {
 		Require : HCNailgun,
 
 		Fixer : HCFuelcanister,
     }    
+	*/
 }

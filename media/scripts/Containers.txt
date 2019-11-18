@@ -875,7 +875,7 @@ recipe Bury Trash
     {
     	destroy Garbagebag,
 	HCWorkgloves,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	Result:HCWorkgloves,
     	Time:500,
     	OnGiveXP:HCHunger_OnGiveXP,

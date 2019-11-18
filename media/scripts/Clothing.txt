@@ -798,7 +798,7 @@ recipe Wear Glasses
 
 recipe Make Rain Poncho
     {
-    	keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/HCKnifestone/HCBreadknife/HCMeatcleaver/HCPumpkinknife/Scissors/HCScalpel/SharpedStone/HCMachete/HCCombatknife/HCKatana/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCScalpelimprovised,
+    	keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/HCKnifestone/Base.BreadKnife/Base.MeatCleaver/HCPumpkinknife/Scissors/HCScalpel/SharpedStone/HCMachete/HCCombatknife/HCKatana/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCScalpelimprovised,
     	Garbagebag,
     	Result:HCRainponcho,
     	Time:15,

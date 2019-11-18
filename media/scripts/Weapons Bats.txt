@@ -1752,7 +1752,7 @@ module Hydrocraft
 	recipe Craft Crude Bat with Wrench
 	{
 	   HCHomemadebatcrude,
-	   HCMonkeywrench,
+	   Base.PipeWrench,
 	   DuctTape=2,
 
 	   Result:HCHomemadebatcrudewrench,
@@ -1852,7 +1852,7 @@ module Hydrocraft
 	recipe Craft Homemade Bat with Wrench
 	{
 	   HCHomemadebat,
-	   HCMonkeywrench,
+	   Base.PipeWrench,
 	   DuctTape=2,
 
 	   Result:HCHomemadebatwrench,
@@ -1942,7 +1942,7 @@ module Hydrocraft
 	recipe Craft Baseballbat with Wrench
 	{
 	   BaseballBat,
-	   HCMonkeywrench,
+	   Base.PipeWrench,
 	   DuctTape=2,
 
 	   Result:HCBaseballbatwrench,
@@ -2054,7 +2054,7 @@ module Hydrocraft
 	recipe Craft Crude Club with Wrench
 	{
 	   HCHomemadeclubcrude,
-	   HCMonkeywrench,
+	   Base.PipeWrench,
 	   DuctTape=2,
 
 	   Result:HCHomemadeclubcrudewrench,
@@ -2152,7 +2152,7 @@ module Hydrocraft
 	recipe Craft Homemade Club with Wrench
 	{
 	   HCHomemadeclub,
-	   HCMonkeywrench,
+	   Base.PipeWrench,
 	   DuctTape=2,
 
 	   Result:HCHomemadeclubwrench,
@@ -2249,7 +2249,7 @@ module Hydrocraft
 	recipe Craft Club with Wrench
 	{
 	   HCMasterclub,
-	   HCMonkeywrench,
+	   Base.PipeWrench,
 	   DuctTape=2,
 
 	   Result:HCMasterclubwrench,
@@ -2416,7 +2416,7 @@ module Hydrocraft
 		Fixer : Scotchtape=4,
 		Fixer : HCWoodgluejar=2; Woodwork=2,
 		Fixer : HCGluejar=2,
-		Fixer : HCMonkeywrench,
+		Fixer : Base.PipeWrench,
 		Fixer : HCMaskingtape=2,
 		Fixer : HCPackingtape=2,
 		Fixer : HCElectrictape=2,
@@ -2567,7 +2567,7 @@ module Hydrocraft
 		Fixer : Scotchtape=4,
 		Fixer : HCWoodgluejar=2; Woodwork=2,
 		Fixer : HCGluejar=2,
-		Fixer : HCMonkeywrench,
+		Fixer : Base.PipeWrench,
 		Fixer : HCMaskingtape=2,
 		Fixer : HCPackingtape=2,
 		Fixer : HCElectrictape=2,
@@ -2681,7 +2681,7 @@ module Hydrocraft
 		Fixer : Scotchtape=4,
 		Fixer : HCWoodgluejar=2; Woodwork=2,
 		Fixer : HCGluejar=2,
-		Fixer : HCMonkeywrench,
+		Fixer : Base.PipeWrench,
 		Fixer : HCMaskingtape=2,
 		Fixer : HCPackingtape=2,
 		Fixer : HCElectrictape=2,
@@ -2851,7 +2851,7 @@ module Hydrocraft
 		Fixer : Scotchtape=3,
 		Fixer : HCWoodgluejar=2; Woodwork=2,
 		Fixer : HCGluejar=2,
-		Fixer : HCMonkeywrench,
+		Fixer : Base.PipeWrench,
 		Fixer : HCMaskingtape=2,
 		Fixer : HCPackingtape=2,
 		Fixer : HCElectrictape=2,
@@ -3002,7 +3002,7 @@ module Hydrocraft
 		Fixer : Scotchtape=3,
 		Fixer : HCWoodgluejar=2; Woodwork=2,
 		Fixer : HCGluejar=2,
-		Fixer : HCMonkeywrench,
+		Fixer : Base.PipeWrench,
 		Fixer : HCMaskingtape=2,
 		Fixer : HCPackingtape=2,
 		Fixer : HCElectrictape=2,
@@ -3153,7 +3153,7 @@ module Hydrocraft
 		Fixer : Scotchtape=3,
 		Fixer : HCWoodgluejar=2; Woodwork=2,
 		Fixer : HCGluejar=2,
-		Fixer : HCMonkeywrench,
+		Fixer : Base.PipeWrench,
 		Fixer : HCMaskingtape=2,
 		Fixer : HCPackingtape=2,
 		Fixer : HCElectrictape=2,
