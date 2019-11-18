@@ -1778,7 +1778,7 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    HCMachete=2,
+    Base.Machete=2,
     Charcoal,
 
 

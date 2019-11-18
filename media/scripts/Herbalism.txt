@@ -1245,7 +1245,7 @@ recipe Shuck Corn
 recipe Make Bamboo Gutter
     	{
 	HCBamboo,
-	keep Saw/HCMachete,
+	keep Saw/Base.Machete,
         Result:HCBamboogutter,
         Time:15,
     	Category:Carpentry,

@@ -50,8 +50,8 @@ end
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.1);
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCSurvivalaxe");
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.01);	
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCMachete");
-	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.03);
+	--table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Hydrocraft.HCMachete");
+	--table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.03);
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Hammer");
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, 0.05);
 	table.insert(SuburbsDistributions["all"]["inventorymale"].items, "Base.Saw");
@@ -202,8 +202,8 @@ end
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.1);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCSurvivalaxe");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.01);	
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCMachete");
-	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.03);
+	--table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Hydrocraft.HCMachete");
+	--table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.03);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Hammer");
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.05);
 	table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Base.Saw");
@@ -3463,8 +3463,8 @@ end
 	table.insert(SuburbsDistributions["shed"]["other"].items, 0.5);
 	table.insert(SuburbsDistributions["shed"]["other"].items, "Hydrocraft.HCSurvivalaxe");
 	table.insert(SuburbsDistributions["shed"]["other"].items, 0.1);
-	table.insert(SuburbsDistributions["shed"]["other"].items, "Hydrocraft.HCMachete");
-	table.insert(SuburbsDistributions["shed"]["other"].items, 0.1);
+	--table.insert(SuburbsDistributions["shed"]["other"].items, "Hydrocraft.HCMachete");
+	--table.insert(SuburbsDistributions["shed"]["other"].items, 0.1);
 	table.insert(SuburbsDistributions["shed"]["other"].items, "Hydrocraft.HCAnimalcage");
 	table.insert(SuburbsDistributions["shed"]["other"].items, 0.5);
 	table.insert(SuburbsDistributions["shed"]["other"].items, "Hydrocraft.HCDogbiscuit");
@@ -5087,8 +5087,8 @@ end
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, 1);
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, "Hydrocraft.HCSurvivalaxe");
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, 0.1);
-	table.insert(SuburbsDistributions["storageunit"]["all"].items, "Hydrocraft.HCMachete");
-	table.insert(SuburbsDistributions["storageunit"]["all"].items, 0.1);
+	--table.insert(SuburbsDistributions["storageunit"]["all"].items, "Hydrocraft.HCMachete");
+	--table.insert(SuburbsDistributions["storageunit"]["all"].items, 0.1);
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, "Hydrocraft.HCCombatknife");
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, 0.1);
 	table.insert(SuburbsDistributions["storageunit"]["all"].items, "Hydrocraft.HCKatana");
@@ -6233,8 +6233,8 @@ end
 	table.insert(SuburbsDistributions["garagestorage"]["metal_shelves"].items, 0.5);
 	table.insert(SuburbsDistributions["garagestorage"]["metal_shelves"].items, "Hydrocraft.HCSurvivalaxe");
 	table.insert(SuburbsDistributions["garagestorage"]["metal_shelves"].items, 0.1);
-	table.insert(SuburbsDistributions["garagestorage"]["metal_shelves"].items, "Hydrocraft.HCMachete");
-	table.insert(SuburbsDistributions["garagestorage"]["metal_shelves"].items, 0.1);
+	--table.insert(SuburbsDistributions["garagestorage"]["metal_shelves"].items, "Hydrocraft.HCMachete");
+	--table.insert(SuburbsDistributions["garagestorage"]["metal_shelves"].items, 0.1);
 	table.insert(SuburbsDistributions["garagestorage"]["metal_shelves"].items, "Hydrocraft.HCAnimalcage");
 	table.insert(SuburbsDistributions["garagestorage"]["metal_shelves"].items, 1);
 	table.insert(SuburbsDistributions["garagestorage"]["metal_shelves"].items, "Hydrocraft.HCFlashlightoff");
@@ -6549,7 +6549,7 @@ SuburbsDistributions["HCPrepperbag"] = {
 		"Hydrocraft.HCMysteryseedspacket", 1,
 		"Hydrocraft.HCGPS", 1,
 		"Hydrocraft.HCSurvivalaxe", 1,
-		"Hydrocraft.HCMachete", 1,
+		"Base.Machete", 1,
 		"Hydrocraft.HCMREbox", 1,
 		"Hydrocraft.HCDetector", 1,
 	},

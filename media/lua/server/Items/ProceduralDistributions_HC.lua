@@ -309,8 +309,8 @@ require "Items/ProceduralDistributions"
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCSurvivalaxe");
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, 0.1);
-	table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCMachete");
-	table.insert(ProceduralDistributions["list"]["CrateTools"].items, 0.1);
+	--table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCMachete");
+	--table.insert(ProceduralDistributions["list"]["CrateTools"].items, 0.1);
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCAluminiumbat");
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCTypewriter");

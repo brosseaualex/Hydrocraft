@@ -134,7 +134,7 @@ item HCStakehard
 	recipe Craft Crude Wooden Stake
 	{
 		TreeBranch,
-		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/Base.BreadKnife/Base.MeatCleaver/HCPumpkinknife/Scissors/HCScalpel/SharpedStone/HCMachete/HCCombatknife/HCKatana/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCKnifestone,
+		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/Base.BreadKnife/Base.MeatCleaver/HCPumpkinknife/Scissors/HCScalpel/SharpedStone/Base.Machete/HCCombatknife/HCKatana/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCKnifestone,
 		
 				
 		Result:HCStakecrude,
@@ -148,7 +148,7 @@ item HCStakehard
 	recipe Craft Wooden Stake
 	{
 		Plank,
-		keep KitchenKnife/HuntingKnife/HCJackknife/HCMachete/HCCombatknife/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper,
+		keep KitchenKnife/HuntingKnife/HCJackknife/Base.Machete/HCCombatknife/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper,
 		keep Saw,		
 		
 		SkillRequired:Woodwork=1,		
