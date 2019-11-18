@@ -1,0 +1,261 @@
+module Hydrocraft
+{
+	imports
+	{
+		Base
+	}
+
+/************************ITEMS************************/
+
+	item HCDucttapefletching
+    	{
+        	DisplayName    	=    	Duct Tape Fletching,
+        	Icon        	=    	HCDucttapefletching,
+        	Type        	=    	Normal,
+        	Weight        	=    	0.1,
+    	}
+
+	item HCBonearrowhead
+    	{
+        	DisplayName    	=    	Bone Arrowhead,
+        	Icon        	=    	HCBonearrowhead,
+        	Type        	=    	Normal,
+        	Weight        	=    	0.1,
+    	}
+
+/************************WEAPONS************************/
+
+	item HCXbowbolt
+	{
+		Count		=	1,
+		DisplayName	=	Crossbow Bolts,
+		Icon		=	HCXbowbolt,
+        	Type        	=    	Normal,
+        	DisplayCategory =    	Ammo,
+		Weight		=	0.05,
+	}
+
+	item HCArrow
+	{
+		Count		=	1,
+		DisplayName	=	Arrows,
+		Icon		=	HCArrow,
+        	Type        	=    	Normal,
+        	DisplayCategory =    	Ammo,
+		Weight		=	0.05,
+	}
+
+	item HCCrossbow
+	{
+		Count		=	1,
+		DisplayName	=	Crossbow,
+		Icon		=	HCCrossbow,
+        Type        =  	Normal,
+		Weight		=	2,
+	}
+	
+	item HCLongbow
+	{
+		Count		=	1,
+		DisplayName	=	Long Bow,
+		Icon		=	HCLongbow,
+        Type        =  	Normal,
+		Weight		=	1,
+	}
+
+	/*
+item HCCrossbow
+	{
+		AimingPerkCritModifier		=	10,
+		AimingPerkHitChanceModifier	=	15,
+		AImingPerkMinAngleModifier	=	0.05,
+		AimingPerkRangeModifier		=	1.5,
+		AimingTime			=	20,
+		AmmoType			=	Irrelevent,
+		ClipSize			=	1,
+		ConditionLowerChanceOneIn	=	60,
+		ConditionMax			=	10,
+		CriticalChance			=	15,
+		DisplayName			=	Crossbow,
+		DoorDamage			=	1,
+		HitChance			=	40,
+		Icon				=	HCCrossbow,
+		ImpactSound			=	null,
+		IsAimedFirearm			=	TRUE,
+		KnockBackOnNoDeath		=	TRUE,
+		KnockdownMod			=	0.3,
+		MaxDamage			=	1.6,
+		MinDamage			=	0.6,
+		MinAngle			=	0.95,
+		MaxRange			=	7,
+		MinRange			=	0.61,
+		MinimumSwingTime		=	1.5,
+		MaxHitCount			=	1,
+		MultipleHitConditionAffected	=	FALSE,
+		NPCSoundBoost			=	1.5,
+		ProjectileCount			=	1,
+		PushBackMod			=	0.45,
+		RecoilDelay			=	10,
+		ReloadTime			=	15,
+		RequiresEquippedBothHands	=	TRUE,
+		RunAnim				=	Run_Weapon2,
+		Ranged				=	TRUE,
+		ShareDamage			=	FALSE,
+		SoundGain			=	1.5,
+		SoundRadius			=	5,
+		SoundVolume			=	75,
+		SplatBloodOnNoDeath		=	TRUE,
+		SplatNumber			=	1,
+		SplatSize			=	3,
+		SubCategory			=	Firearm,
+		SwingAnim			=	Rifle,
+		SwingTime			=	1.5,
+		SwingSound			=	Bow_fire,
+		SwingAmountBeforeImpact		=	0,
+		Type				=	Weapon,
+		ToHitModifier			=	1.5,
+		UseEndurance			=	FALSE,
+		WeaponSprite			=	Poolcue,
+		WeaponWeight			=	2,
+		Weight				=	2,
+	}
+
+item HCLongbow
+	{
+		AimingPerkCritModifier		=	10,
+		AimingPerkHitChanceModifier	=	15,
+		AImingPerkMinAngleModifier	=	0.05,
+		AimingPerkRangeModifier		=	1.5,
+		AimingTime			=	20,
+		AmmoType			=	Irrelevent,
+		ClipSize			=	1,
+		ConditionLowerChanceOneIn	=	60,
+		ConditionMax			=	10,
+		CriticalChance			=	20,
+		DisplayName			=	Long Bow,
+		DoorDamage			=	5,
+		HitChance			=	40,
+		Icon				=	HCLongbow,
+		ImpactSound			=	null,
+		IsAimedFirearm			=	TRUE,
+		KnockBackOnNoDeath		=	TRUE,
+		KnockdownMod			=	0.3,
+		MaxDamage			=	1.6,
+		MinDamage			=	0.6,
+		MinAngle			=	0.95,
+		MaxRange			=	7,
+		MinRange			=	0.61,
+		MinimumSwingTime		=	1.5,
+		MaxHitCount			=	1,
+		MultipleHitConditionAffected	=	FALSE,
+		NPCSoundBoost			=	1.5,
+		ProjectileCount			=	1,
+		PushBackMod			=	0.2,
+		RecoilDelay			=	10,
+		ReloadTime			=	15,
+		RequiresEquippedBothHands	=	TRUE,
+		RunAnim				=	Run_Weapon2,
+		Ranged				=	TRUE,
+		ShareDamage			=	FALSE,
+		SoundGain			=	1.5,
+		SoundRadius			=	5,
+		SoundVolume			=	75,
+		SplatBloodOnNoDeath		=	TRUE,
+		SplatNumber			=	1,
+		SplatSize			=	3,
+		SubCategory			=	Firearm,
+		SwingAnim			=	Rifle,
+		SwingTime			=	1.5,
+		SwingSound			=	Bow_fire,
+		SwingAmountBeforeImpact		=	0,
+		Type				=	Weapon,
+		ToHitModifier			=	1.5,
+		UseEndurance			=	FALSE,
+		WeaponSprite			=	Poolcue,
+		WeaponWeight			=	1,
+		Weight				=	1,
+	}
+*/
+
+/************************RECIPES************************/
+    
+
+recipe Make Duct Tape Fletching
+    {
+	DuctTape,
+    	Result:HCDucttapefletching,
+       	NeedToBeLearn:true,
+    	Time:25,
+       	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Bone Arrowhead
+    {
+    keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+    HCBone/HCZombiebones,
+    Result:HCBonearrowhead,
+    NeedToBeLearn:true,
+    Time:50,
+    Category:Survivalist,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Arrow
+    {
+    	HCBlackfeathers/HCWhitefeathers/HCBrownfeathers/HCStripedfeather/HCBluejayfeather/HCDucttapefletching,
+    	HCStonearrowhead/HCBonearrowhead,
+	Woodglue/Glue/Scotchtape/DuctTape/HCTar/HCMaskingtape/HCPackingtape/HCElectrictape/HCRubbercement/HCSuperglue/HCHotgluegunfull/HCGluejar/HCWoodgluejar,
+    	WoodenStick/Twigs,
+       	NeedToBeLearn:true,
+    	Result:HCArrow,
+    	Time:25,
+    	Category:Survivalist,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Bolt
+    {
+    	HCBlackfeathers/HCWhitefeathers/HCBrownfeathers/HCStripedfeather/HCBluejayfeather/HCDucttapefletching,
+    	HCStonearrowhead/HCBonearrowhead,
+	Woodglue/Glue/Scotchtape/DuctTape/HCTar/HCMaskingtape/HCPackingtape/HCElectrictape/HCRubbercement/HCSuperglue/HCHotgluegunfull/HCGluejar/HCWoodgluejar,
+    	WoodenStick/Twigs,
+    	Result:HCXbowbolt,
+       	NeedToBeLearn:true,
+    	Time:25,
+       	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Longbow
+    {
+	SkillRequired:Woodwork=1;Mechanics=1;,
+	FishingLine/Twine/HCBungeecord,
+	Woodglue/Glue/Scotchtape/DuctTape/HCTar/HCMaskingtape/HCPackingtape/HCElectrictape/HCRubbercement/HCSuperglue/HCHotgluegunfull/HCGluejar/HCWoodgluejar,
+    	Plank/TreeBranch,
+    	keep Saw,
+    	Result:HCLongbow,
+       	NeedToBeLearn:true,
+    	Time:50,
+    	Category:Survivalist,
+	Sound:PZ_Saw,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+recipe Make Crossbow
+    {
+	SkillRequired:Woodwork=2;Mechanics=1;,
+	FishingLine/Twine/HCBungeecord,
+	Woodglue/Glue/Scotchtape/DuctTape/HCTar/HCMaskingtape/HCPackingtape/HCElectrictape/HCRubbercement/HCSuperglue/HCHotgluegunfull/HCGluejar/HCWoodgluejar,
+    	Plank=3,
+    	keep Saw,
+    	HCIroningot,
+    	Result:HCCrossbow,
+       	NeedToBeLearn:true,
+    	Time:50,
+       	Category:Engineer,
+	Sound:PZ_Saw,
+    	OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+    }
+
+}

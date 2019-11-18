@@ -1301,7 +1301,7 @@ recipe Make Lead Buckshot
     OnCreate:SmeltUse,
     OnGiveXP:HCWelding_OnGiveXP,
     }
-
+/*
 recipe Make Steel BBs
     {
     HCSteelingot,
@@ -1322,7 +1322,7 @@ recipe Make Steel BBs
     OnCreate:BFurnUse,
     OnGiveXP:HCWelding_OnGiveXP,
     }
-
+*/
 recipe Make Iron Cannon Ball
     {
     HCIroningot=4,

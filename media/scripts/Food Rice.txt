@@ -163,6 +163,7 @@ item HCRisotto
 	
 /************************RECIPES************************/
 
+/*
 recipe Cook with Rice Cooker
 	{
     	SkillRequired:Cooking=1,
@@ -214,7 +215,7 @@ recipe Cook with Rice Cooker
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
-	
+*/
 	
 	recipe Make Fried Rice
 	{
