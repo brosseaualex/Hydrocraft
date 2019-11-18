@@ -46,8 +46,8 @@ item HCBongfull
 	Icon				=	HCBongfull,
 	Alcoholic			=	TRUE,
 	CustomContextMenu 		= 	Smoke,
-	CustomEatSound = HC_LightUp,
 	CantBeFrozen 			= 	TRUE, 
+	CustomEatSound = HC_LightUp,
     }
 
 item HCBongdirty
@@ -79,8 +79,8 @@ item HCBongacrylicfull
 	Icon				=	HCBongacrylicfull,
 	Alcoholic			=	TRUE,
 	CustomContextMenu 		= 	Smoke,
-	CustomEatSound = HC_LightUp,
 	CantBeFrozen 			= 	TRUE, 
+	CustomEatSound = HC_LightUp,
     }
 
 item HCBongacrylicdirty
@@ -104,8 +104,8 @@ item HCPipehemp
 	Icon				=	HCClaypipesmoking,
 	Alcoholic			=	TRUE,
 	CustomContextMenu 		= 	Smoke,
-	CustomEatSound = HC_LightUp,
 	CantBeFrozen 			= 	TRUE, 
+	CustomEatSound = HC_LightUp,
     }
 
 item HCCorncobpipehemp
@@ -121,8 +121,8 @@ item HCCorncobpipehemp
 	Icon				=	HCCorncobpipe,
 	Alcoholic			=	TRUE,
 	CustomContextMenu 		= 	Smoke,
-	CustomEatSound = HC_LightUp,
 	CantBeFrozen 			= 	TRUE, 
+	CustomEatSound = HC_LightUp,
     }
 
 

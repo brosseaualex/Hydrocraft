@@ -88,8 +88,7 @@ item HCPipeopiumpure
 	Icon				= HCClaypipesmoking,
 	Alcoholic			= TRUE,
 	CustomContextMenu 		= Smoke,
-	CustomEatSound = HC_LightUp,
- 
+	CustomEatSound = HC_LightUp, 
     }
 
 item HCCorncobpipeopiumpure
@@ -106,8 +105,7 @@ item HCCorncobpipeopiumpure
 	Icon				= HCCorncobpipe,
 	Alcoholic			= TRUE,
 	CustomContextMenu 		= Smoke,
-	CustomEatSound = HC_LightUp,
- 
+	CustomEatSound = HC_LightUp, 
     }
 
 item HCSyringeheroin

@@ -915,19 +915,21 @@ module Base
 
 	item Cigarettes
 	{
-		Count			=	20,
-		HungerChange		=	0,
-		Weight			=	0.005,
-		RequireInHandOrInventory=	Lighter/Matches,
-		Type			=	Food,
-		DisplayName		=	Cigarettes,
-		StressChange		=	-5,
-		Icon			=	IckySticks,
-		CustomContextMenu 	= 	Smoke,
-		CustomEatSound = Hydrocraft.HC_LightUp,
-		CantBeFrozen 		= 	TRUE,
-		OnEat 			= 	OnEat_Cigarettes,
-		ReplaceOnUse		=	Hydrocraft.HCCigarettebutt,
+		Count	=	20,
+		HungerChange	=	0,
+		Weight	=	0.005,
+		RequireInHandOrInventory	=	Lighter/Matches,
+		Type	=	Food,
+		DisplayName	=	Cigarettes,
+		StressChange	=	-5,
+		Icon	=	IckySticks,
+		CustomContextMenu = Smoke,
+		CantBeFrozen = TRUE,
+		OnEat = OnEat_Cigarettes,
+		ReplaceOnUse = Hydrocraft.HCCigarettebutt,
+		StaticModel = Cigarette,
+		EatType = Cigarettes,
+		CustomEatSound = HC_LightUp,
 	}
 
 /************************Pain Cans************************/

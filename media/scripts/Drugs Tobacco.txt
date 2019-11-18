@@ -58,10 +58,11 @@ item HCCigaretteslights
 		StressChange			= -5,
 		Icon				= HCCigaretteslights,
 		CustomContextMenu 		= Smoke,
-		CustomEatSound = HC_LightUp,
 		CantBeFrozen			= TRUE,
 		OnEat				= OnEat_Cigarettes,
 		ReplaceOnUse			= Hydrocraft.HCCigarettebutt,
+		StaticModel = Cigarette,
+		CustomEatSound = HC_LightUp,
 	}
 
 item HCCigarettecartonmenthol
@@ -88,11 +89,12 @@ item HCCigarettesmenthol
 		DisplayName				= Menthol Cigarettes,
 		StressChange				= -5,
 		Icon					= HCCigarettesmenthol,
-		CustomContextMenu 			= Smoke,
-		CustomEatSound = HC_LightUp,
+		CustomContextMenu 		= 	Smoke,
 		CantBeFrozen				= TRUE,
 		OnEat					= OnEat_Cigarettes,
-		ReplaceOnUse				= Hydrocraft.HCCigarettebutt,		
+		ReplaceOnUse	= Hydrocraft.HCCigarettebutt,
+		StaticModel = Cigarette,
+		CustomEatSound = HC_LightUp,
 }
 
 item HCTobaccoleaffresh
@@ -139,12 +141,12 @@ item HCCigar
 	DisplayName			=	Cigar,
 	StressChange			=	-25,
 	UnhappyChange			=	5,
-	Icon				=	HCCigar,
 	CustomContextMenu 		= 	Smoke,
-	CustomEatSound = HC_LightUp,
 	CantBeFrozen 			= 	TRUE,
-	OnEat 				= 	OnEat_Cigarettes,	
-     }
+	OnEat 				= 	OnEat_Cigarettes,
+	StaticModel = Cigarette,
+	CustomEatSound = HC_LightUp,
+	}
 
 item HCCigarhandrolled
     {
@@ -158,10 +160,10 @@ item HCCigarhandrolled
 	UnhappyChange			=	-5,
 	Icon				=	HCCigarhandrolled,
 	CustomContextMenu 		= 	Smoke,
-	CustomEatSound = HC_LightUp,
 	CantBeFrozen 			= 	TRUE,
 	OnEat 				= 	OnEat_Cigarettes,
-	
+	StaticModel = Cigarette,
+	CustomEatSound = HC_LightUp,
     }
 
 item HCPipetobacco
@@ -176,9 +178,9 @@ item HCPipetobacco
 	ReplaceOnUse			=	HCClaypipesmoking,
 	Icon				=	HCClaypipesmoking,
 	CustomContextMenu 		= 	Smoke,
-	CustomEatSound = HC_LightUp,
 	CantBeFrozen 			= 	TRUE,
-	OnEat 				= 	OnEat_Cigarettes, 
+	OnEat 				= 	OnEat_Cigarettes,
+	CustomEatSound = HC_LightUp,
     }
 
 item HCCorncobpipetobacco
@@ -193,9 +195,9 @@ item HCCorncobpipetobacco
 	ReplaceOnUse			=	HCCorncobpipe,
 	Icon				=	HCCorncobpipe,
 	CustomContextMenu 		= 	Smoke,
-	CustomEatSound = HC_LightUp,
 	CantBeFrozen 			= 	TRUE,
 	OnEat 				= 	OnEat_Cigarettes,
+	CustomEatSound = HC_LightUp,
     }
 
 /************************RECIPES************************/

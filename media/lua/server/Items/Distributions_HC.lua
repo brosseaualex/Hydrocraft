@@ -1930,9 +1930,9 @@ end
 	--------------------------------------
 	
 	table.insert(SuburbsDistributions["generalstore"]["other"].items, "Hydrocraft.HCAlicepack");
-	table.insert(SuburbsDistributions["generalstore"]["other"].items, 0.1);
+	table.insert(SuburbsDistributions["generalstore"]["other"].items, 0.01);
 	table.insert(SuburbsDistributions["generalstore"]["other"].items, "Hydrocraft.HCAlicepack2");
-	table.insert(SuburbsDistributions["generalstore"]["other"].items, 0.1);
+	table.insert(SuburbsDistributions["generalstore"]["other"].items, 0.01);
 	table.insert(SuburbsDistributions["generalstore"]["other"].items, "Hydrocraft.HCCampingpack");
 	table.insert(SuburbsDistributions["generalstore"]["other"].items, 0.5);
 	table.insert(SuburbsDistributions["generalstore"]["other"].items, "Hydrocraft.HCSleepingbag");
