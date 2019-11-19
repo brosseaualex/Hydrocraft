@@ -267,12 +267,12 @@ require "Items/ProceduralDistributions"
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCAuger");
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, 0.1);
-	table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCBroom");
-	table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);	
-	table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCPushbroom");
-	table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);	
-	table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCRake");
-	table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);
+	--table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCBroom");
+	--table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);	
+	--table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCPushbroom");
+	--table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);	
+	--table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCRake");
+	--table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCHedgecutter");
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCHedgetrimmer");
@@ -283,8 +283,8 @@ require "Items/ProceduralDistributions"
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);	
 	--table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Base.BlowTorch");
 	--table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);
-	table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCMonkeywrench");
-	table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);
+	--table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCMonkeywrench");
+	--table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCCane");
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCJackknife");
@@ -319,8 +319,8 @@ require "Items/ProceduralDistributions"
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCPallettruck");
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);
-	table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCPickaxe");
-	table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);
+	--table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCPickaxe");
+	--table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCDetector");
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, 1);
 	table.insert(ProceduralDistributions["list"]["CrateTools"].items, "Hydrocraft.HCGlasscutter");
@@ -370,7 +370,7 @@ require "Items/ProceduralDistributions"
 	table.insert(ProceduralDistributions["list"]["CrateMetal"].items, "Hydrocraft.HCCopperpipe");
 	table.insert(ProceduralDistributions["list"]["CrateMetal"].items, 1);
 	table.insert(ProceduralDistributions["list"]["CrateMetal"].items, "Hydrocraft.HCElectricclamp");
-	table.insert(ProceduralDistributions["list"]["CrateMetal"].items, 0.1);
+	table.insert(ProceduralDistributions["list"]["CrateMetal"].items, 1);
 
 	--GigamartBakingMisc
 	table.insert(ProceduralDistributions["list"]["GigamartBakingMisc"].items, "Hydrocraft.HCTortillacornbag");
@@ -1150,10 +1150,10 @@ require "Items/ProceduralDistributions"
 	table.insert(ProceduralDistributions["list"]["KitchenDishes"].items, 1);
 	--table.insert(ProceduralDistributions["list"]["KitchenDishes"].items, "Hydrocraft.HCBreadknife");
 	--table.insert(ProceduralDistributions["list"]["KitchenDishes"].items, 1);	
-	--table.insert(ProceduralDistributions["list"]["KitchenDishes"].items, "Hydrocraft.HCSteakknife");
-	--table.insert(ProceduralDistributions["list"]["KitchenDishes"].items, 1);	
-	--table.insert(ProceduralDistributions["list"]["KitchenDishes"].items, "Hydrocraft.HCPumpkinknife");
-	--table.insert(ProceduralDistributions["list"]["KitchenDishes"].items, 1);
+	table.insert(ProceduralDistributions["list"]["KitchenDishes"].items, "Hydrocraft.HCSteakknife");
+	table.insert(ProceduralDistributions["list"]["KitchenDishes"].items, 1);	
+	table.insert(ProceduralDistributions["list"]["KitchenDishes"].items, "Hydrocraft.HCPumpkinknife");
+	table.insert(ProceduralDistributions["list"]["KitchenDishes"].items, 1);
 	--table.insert(ProceduralDistributions["list"]["KitchenDishes"].items, "Hydrocraft.HCMeatcleaver");
 	--table.insert(ProceduralDistributions["list"]["KitchenDishes"].items, 1);
 	
