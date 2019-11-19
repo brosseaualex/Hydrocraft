@@ -1,4 +1,4 @@
-Hydrocraft v11.1
+Hydrocraft Build 41 Beta (Use at your OWN RISK!)
 
 Credits
 
