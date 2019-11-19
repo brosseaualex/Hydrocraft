@@ -92,32 +92,35 @@ item HCAmmonalbomboff
 
 	item HCPineconebomb
 	{
-		OtherHandUse			=	TRUE,
-		MaxRange			=	8,
-		Type				=	Weapon,
-		MinimumSwingTime		=	1.5,
-		SwingAnim			=	Bat,
-		UseSelf				=	TRUE,
-		DisplayName			=	Flaming Pinecone,
-		SwingTime			=	1.5,
+		OtherHandUse				=	TRUE,
+		MaxRange					=	8,
+		WeaponSprite 				=   Molotov,
+		Type						=	Weapon,
+		MinimumSwingTime			=	1.5,
+		SwingAnim					=	Throw,
+		UseSelf						=	TRUE,
+		DisplayName					=	Flaming Pinecone,
+		SwingTime					=	1.5,
 		SwingAmountBeforeImpact		=	0.1,
-		PhysicsObject			=	MolotovCocktail,
-		MinDamage			=	0,
-		Weight				=	0.1,
-		MaxDamage			=	0,
-		MaxHitCount			=	0,
-        	FirePower  			=   	10,
-        	FireRange  			=   	4,
-		Icon				=	HCPineconebomb,
+		PhysicsObject				=	MolotovCocktail,
+		MinDamage					=	0,
+		Weight						=	0.1,
+		MaxDamage					=	0,
+		OtherHandRequire			=	Lighter,
+		MaxHitCount					=	0,
+        FirePower  					=   10,
+        FireRange  					=   4,
+		Icon						=	HCPineconebomb,
 	}
 
-    	item HCGrenade
+    item HCGrenade
 	{
-		MaxRange			=	10,
-		Type				=	Weapon,
+		MaxRange				=	10,
+		Type					=	Weapon,
 		MinimumSwingTime		=	1.5,
-		SwingAnim			=	Bat,
-		UseSelf				=	TRUE,
+		SwingAnim	=	Throw,
+		WeaponSprite = Molotov,
+		UseSelf					=	TRUE,
 		DisplayName			=	Grenade,
 		SwingTime			=	1.5,
 		SwingAmountBeforeImpact		=	0.1,
@@ -130,6 +133,7 @@ item HCAmmonalbomboff
 		ExplosionPower  		=   	90,
 		ExplosionRange  		=   	7,
 		ExplosionSound  		=   	BigExplosion,
+		Tooltip = Tooltip_Trap,
 	}
 
 	item HCThermitebomb  
@@ -137,9 +141,11 @@ item HCAmmonalbomboff
         	MaxRange			=	10,
         	Type				=	Weapon,
         	MinimumSwingTime		=	1.5,
-        	SwingAnim			=	Bat,
+        	SwingAnim	=	Throw,
+			WeaponSprite = Molotov,
         	UseSelf				=	TRUE,
         	DisplayName			=	Thermite Bomb,
+			WeaponSprite = Molotov,
         	SwingTime			=	1.5,
         	SwingAmountBeforeImpact		=	0.1,
         	PhysicsObject	        	= 	ExplosiveTrap,
@@ -160,7 +166,8 @@ item HCAmmonalbomboff
         	MaxRange	        	= 	10,
         	Type	                	= 	Weapon,
         	MinimumSwingTime		= 	1.5,
-        	SwingAnim	        	= 	Bat,
+        	SwingAnim	=	Throw,
+			WeaponSprite = Molotov,
         	UseSelf	                	= 	TRUE,
         	DisplayName	        	= 	Chlorgas Grenade,
         	SwingTime	        	= 	1.5,
@@ -174,10 +181,9 @@ item HCAmmonalbomboff
         	Icon	                	= 	HCChlorgasgrenade,
         	TriggerExplosionTimer   	= 	10,
         	SmokeRange              	= 	7,
- 		ExplosionPower          	= 	30,
-		ExplosionRange          	= 	7,
-        	ExplosionSound          	= 	SmallExplosion,
-
+			ExplosionPower          	= 	30,
+			ExplosionRange          	= 	7,
+			ExplosionSound          	= 	SmallExplosion,
     	}
 
 	item HCAmmonalbombon
@@ -185,7 +191,8 @@ item HCAmmonalbomboff
         	MaxRange	        	= 	5,
         	Type	                	= 	Weapon,
         	MinimumSwingTime		= 	1.5,
-        	SwingAnim	        	= 	Bat,
+        	SwingAnim	=	Throw,
+			WeaponSprite = Molotov,
         	UseSelf	                	= 	TRUE,
         	DisplayName	        	= 	Ammonal Bomb On,
         	SwingTime	        	= 	1.5,
@@ -201,7 +208,6 @@ item HCAmmonalbomboff
 		ExplosionRange          	= 	10,
         	ExplosionSound          	= 	BigExplosion,
         	DoorDamage	        	= 	50,
-
     	}
 
 	item HCTincanthrowing
@@ -209,7 +215,8 @@ item HCAmmonalbomboff
         	MaxRange			=	10,
         	Type				=	Weapon,
         	MinimumSwingTime		=	1.5,
-        	SwingAnim			=	Bat,
+        	SwingAnim	=	Throw,
+			WeaponSprite = Molotov,
         	UseSelf				=	TRUE,
         	DisplayName			=	Tin Can Noise Maker,
         	SwingTime			=	1.5,
@@ -1184,7 +1191,7 @@ recipe Turn Detonator MK3 with HMTD Off
        Category:Engineer,
     }
 
-recipe Turn Ammonalbomb On
+recipe Turn Ammonal Bomb On
     {
        HCAmmonalbomboff,
        Result:HCAmmonalbombon,
@@ -1192,7 +1199,7 @@ recipe Turn Ammonalbomb On
        Category:Engineer,
     }
 
-recipe Turn Ammonalbomb Off
+recipe Turn Ammonal Bomb Off
     {
        HCAmmonalbombon,
        Result:HCAmmonalbomboff,
