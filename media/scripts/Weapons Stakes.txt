@@ -134,7 +134,7 @@ item HCStakehard
 	recipe Craft Crude Wooden Stake
 	{
 		TreeBranch,
-		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/Base.BreadKnife/Base.MeatCleaver/HCPumpkinknife/Scissors/HCScalpel/SharpedStone/Base.Machete/HCCombatknife/HCKatana/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCKnifestone,
+		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/Base.BreadKnife/Base.MeatCleaver/HCPumpkinknife/Scissors/Base.Scalpel/SharpedStone/Base.Machete/HCCombatknife/Base.Katana/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCKnifestone,
 		
 				
 		Result:HCStakecrude,

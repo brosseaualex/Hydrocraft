@@ -764,7 +764,7 @@ item HCRagpp
 
 
 /************************WEAPONS************************/
-
+/*
 item HCScalpel
 	{
 		MaxRange			=	0.9,
@@ -802,7 +802,7 @@ item HCScalpel
         	TreeDamage  			=   	1,
         	EnduranceMod 			= 	0.5,
 	}
-
+*/
 item HCCrutch
     {
         	MaxRange                 	=    1.8,
@@ -927,7 +927,7 @@ recipe Make Medical Lab
         HCThermometer,
 	MortarPestle,
 	HCSyringeempty,
-	HCScalpel,
+	Base.Scalpel,
 	HCGauze=5,
 	Bandage=5,
 	HCPetridish=4,
@@ -1417,7 +1417,7 @@ recipe Dissect Corpse
     {
 	HCDissectiontablebody,
  	keep HCBonesaw/HCGiglisaw,
- 	keep HCScalpel/HCScalpelimprovised,
+ 	keep Base.Scalpel/HCScalpelimprovised,
 	keep HCLatexgloves/HCRubberglove,
 	Result:HCDissectiontabledissected,
         CanBeDoneFromFloor:true,
@@ -1431,7 +1431,7 @@ recipe Dissect Corpse
 recipe Remove Corpse from Dissection Table
     {
 	HCDissectiontabledissected,
- 	keep HCScalpel/HCScalpelimprovised,
+ 	keep Base.Scalpel/HCScalpelimprovised,
 	keep HCLatexgloves/HCRubberglove,
 	Result:HCDissectiontablebloody,
         CanBeDoneFromFloor:true,

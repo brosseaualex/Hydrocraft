@@ -84,7 +84,7 @@ item HCPostholedigger
         DisplayName         		= Post Hole Digger,
         icon 				= HCPostholedigger,
     }
-
+/*
 item HCLeafrake
     {
         Weight    			= 1,
@@ -92,7 +92,7 @@ item HCLeafrake
         DisplayName         		= Leaf Rake,
         icon 				= HCLeafrake,
     }
-
+*/
 item HCLooper
     {
         Weight    			= 1,
@@ -126,7 +126,7 @@ item TrellisKit
 	}
 
 /************************WEAPONS************************/
-
+/*
 item HCRake
     {
         MaxRange                 		=    1.5,
@@ -163,7 +163,7 @@ item HCRake
         BreakSound             			=    BreakWoodItem,
         TreeDamage             			=    1,
     }
-
+*/
 	item HCHedgetrimmer
 	{
 		MaxRange			=	1.5,

@@ -107,7 +107,7 @@ recipe Make Taxidermy Workbench
     {
 	HCWorkbench,
         HCBonesaw,
-        HCScalpel/HCScalpelimprovised,
+        Base.Scalpel/HCScalpelimprovised,
         HCSewingpinbox,
         HCPincushion,
         HCPliers,

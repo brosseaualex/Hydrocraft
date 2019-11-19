@@ -90,7 +90,7 @@ module Hydrocraft
         	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	1,
 	}
-
+/*
 	item HCKatana	
 	{
 		DisplayName					=	Katana,
@@ -131,6 +131,7 @@ module Hydrocraft
         	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
 	}
+	*/
 /*
 item HCShurikensteel
     {

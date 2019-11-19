@@ -208,7 +208,7 @@ item HCTesttubemorphincork
 
 recipe Rip Poppy Capsules
     {
-    keep HCScalpel/HCBoxcutter/HCScalpelimprovised/HCRazorblade,
+    keep Base.Scalpel/HCBoxcutter/HCScalpelimprovised/HCRazorblade,
     HCPoppycapsule,
     keep HCHerbtable/HCHerbtable2,
     CanBeDoneFromFloor:true,

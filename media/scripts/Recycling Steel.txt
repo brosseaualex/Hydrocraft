@@ -590,7 +590,7 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    HCRake,
+    Base.Rake,
     Charcoal,
 
 
@@ -1066,7 +1066,7 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    HCScalpel=4,
+    Base.Scalpel=4,
     Charcoal,
 
 
@@ -1823,7 +1823,7 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    HCKatana,
+    Base.Katana,
     Charcoal,
 
 

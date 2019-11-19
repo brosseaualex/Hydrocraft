@@ -102,7 +102,7 @@ recipe Make Label
     {
     	SheetPaper2,
 	Glue/Woodglue/HCSuperglue/HCRubbercement/HCTar/HCHotgluegunfull/HCGluejar/HCWoodgluejar,
-	keep Scissors/HCBoxcutter/HCScalpel/HCScalpelimprovised/HCJackknife,
+	keep Scissors/HCBoxcutter/Base.Scalpel/HCScalpelimprovised/HCJackknife,
     	Result:HCLabelempty,
     	Time:500,
     	Category:Papercraft,

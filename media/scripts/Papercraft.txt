@@ -190,7 +190,7 @@ recipe Remove Paper Screen
     {
 	HCPaperscreendry,
 	keep HCRuler,
-	keep Scissors/HCBoxcutter/HCScalpel/HCScalpelimprovised/HCJackknife,
+	keep Scissors/HCBoxcutter/Base.Scalpel/HCScalpelimprovised/HCJackknife,
    	Result:SheetPaper2,
     	Time:20,
     	Category:Papercraft,
@@ -202,7 +202,7 @@ recipe Remove Paper Screen
 	recipe Make Quill
 	{
 		HCBlackfeathers/HCWhitefeathers/HCBrownfeathers/HCStripedfeather/HCBluejayfeather,
-		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/Base.BreadKnife/HCScalpel/Base.Machete/HCCombatknife/HCKatana/HCKnifesteel/HCKnifeiron,
+		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/Base.BreadKnife/Base.Scalpel/Base.Machete/HCCombatknife/Base.Katana/HCKnifesteel/HCKnifeiron,
 		keep HCPliers,
 		Result:HCQuill,
         Time:100,

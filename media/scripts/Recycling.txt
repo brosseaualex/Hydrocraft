@@ -146,7 +146,7 @@ recipe Recycle Wooden Beehive
 
 recipe Recycle Pillow
     {
-    keep KitchenKnife/HuntingKnife/Scissors/HCScalpel/HCJackknife/HCKnifestone,
+    keep KitchenKnife/HuntingKnife/Scissors/Base.Scalpel/HCJackknife/HCKnifestone,
     Pillow,
     Result:HCWhitefeathers=10,
     Time:100,

@@ -1871,7 +1871,7 @@ recipe Make Steel Rake
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
-	   	Result:HCRake,
+	   	Result:Base.Rake,
     		NeedToBeLearn:true,
 	   	Time:150.0,
        		Category:Smithing,
