@@ -130,7 +130,7 @@ function recipe_NDPlantsHarvest(items, result, player)
 	elseif plantName == "Carrots" then
 		altSeedName = "farming.CarrotSeed";
 	end
-	print(tostring(prodCount));
+	
 	--Item giving
 	--Main produce
 	local counter = 0;
