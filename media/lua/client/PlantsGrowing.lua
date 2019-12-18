@@ -87,11 +87,11 @@ function recipe_NDPlantsHarvest(items, result, player)
 		altName = "Tomatillo";
 		altSeedName = "Hydrocraft.HCTomatilloseeds";
 	elseif plantName == "Grape" then
-		altname = "Grapes";
+		altName = "Grapes";
 	elseif plantName == "Fig" then
-		altname = "Figs";
+		altName = "Figs";
 	elseif plantName == "Date" then
-		altname = "Dates";
+		altName = "Dates";
 	end
 	
 	--Main product counts
