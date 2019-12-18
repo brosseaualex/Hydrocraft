@@ -90,12 +90,14 @@ function recipe_NDPlantsHarvest(items, result, player)
 		altname = "Grapes";
 	elseif plantName == "Fig" then
 		altname = "Figs";
+	elseif plantName == "Date" then
+		altname = "Dates";
 	end
 	
 	--Main product counts
 	if plantName == "Basil" or plantName == "Pricklypearcactus" or plantName == "Watermelon" or plantName == "Pineapple" or plantName == "Pumpkin" or plantName == "Pumpkingreen" or plantName == "Puumpkinwhite" or plantName == "Pumpkinlarge" or plantName == "Pumpkinbuskin" or plantName == "Alfalfa" then
 		prodCount = 3;
-	elseif plantName == "Bellpepper" or plantName == "Blackberry" or plantName == "Blueberry" or plantName == "Peaplant" or plantName == "Peanutplant" or plantName == "Radish" or plantName == "Strawberry" or plantName == "Apple" or plantName == "Banana" or plantName == "Grape" or plantName == "Lemon" or plantName == "Orange" or plantName == "Peach" or plantName == "Corn" or plantName == "Eggplant" or plantName == "Leek" or plantName == "Lettuce" or plantName == "Onion" or plantName == "Cherry" or plantName == "Zucchini" or plantName == "Cabbage" or plantName == "Broccoli" or plantName == "Carrots" or	plantName == "Potato" or plantName == "Tomato" or plantName == "Kiwi" or plantName == "Plum" or plantName == "Persimmon" or plantName == "Date" or plantName == "Fig" or plantName == "Beans" or plantName == "Grapesgreen" or plantName == "Lime" or plantName == "Bellpeppergreen" or plantName == "Bellpepperyellow" or plantName == "Pear" or plantName == "Tomatocherry" or plantName == "Apricot" then
+	elseif plantName == "Bellpepper" or plantName == "Blackberry" or plantName == "Blueberry" or plantName == "Peaplant" or plantName == "Peanutplant" or plantName == "Radish" or plantName == "Strawberry" or plantName == "Apple" or plantName == "Banana" or plantName == "Grape" or plantName == "Lemon" or plantName == "Orange" or plantName == "Peach" or plantName == "Corn" or plantName == "Eggplant" or plantName == "Leek" or plantName == "Lettuce" or plantName == "Onion" or plantName == "Cherry" or plantName == "Zucchini" or plantName == "Cabbage" or plantName == "Broccoli" or plantName == "Carrots" or plantName == "Potato" or plantName == "Tomato" or plantName == "Kiwi" or plantName == "Plum" or plantName == "Persimmon" or plantName == "Date" or plantName == "Fig" or plantName == "Beans" or plantName == "Grapesgreen" or plantName == "Lime" or plantName == "Bellpeppergreen" or plantName == "Bellpepperyellow" or plantName == "Pear" or plantName == "Tomatocherry" or plantName == "Apricot" then
 		prodCount = 10;
 	else
 		prodCount = 5;
