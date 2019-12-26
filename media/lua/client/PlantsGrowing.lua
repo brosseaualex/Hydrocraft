@@ -92,6 +92,8 @@ function recipe_NDPlantsHarvest(items, result, player)
 		altName = "Figs";
 	elseif plantName == "Date" then
 		altName = "Dates";
+	elseif plantName == "Tea";
+		altName = "Teafresh";
 	end
 	
 	--Main product counts
