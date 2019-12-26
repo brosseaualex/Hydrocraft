@@ -122,7 +122,7 @@ function recipe_NDPlantsHarvest(items, result, player)
 		extraCount = 3;
 	elseif plantName == "Hemp" then
 		extraItem = "Hydrocraft.HCHempbudfresh";
-		extraItem = 4;
+		extraCount = 4;
 	end
 	
 	--Special fixes
