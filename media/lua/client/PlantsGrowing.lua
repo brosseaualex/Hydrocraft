@@ -92,7 +92,7 @@ function recipe_NDPlantsHarvest(items, result, player)
 		altName = "Figs";
 	elseif plantName == "Date" then
 		altName = "Dates";
-	elseif plantName == "Tea";
+	elseif plantName == "Tea" then
 		altName = "Teafresh";
 	end
 	
@@ -133,6 +133,8 @@ function recipe_NDPlantsHarvest(items, result, player)
 		altSeedName = "Hydrocraft.HCRubbertreeseeds";
 	elseif plantName == "Carrots" then
 		altSeedName = "farming.CarrotSeed";
+	elseif plantName == "Sweetpotato" then
+		altSeedName = "Hydrocraft.HCPotatosweetseeds";
 	end
 	
 	--Item giving
