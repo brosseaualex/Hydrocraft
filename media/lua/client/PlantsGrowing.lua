@@ -106,7 +106,7 @@ function recipe_NDPlantsHarvest(items, result, player)
 	end
 	
 	--Seed counts
-	if plantName == "Beets" or plantName == "Shiitake" or plantName == "Portobello" or plantName == "Beetsugar" or plantName == "Wheat" then
+	if plantName == "Beets" or plantName == "Shiitake" or plantName == "Portobello" or plantName == "Beetsugar" or plantName == "Wheat" or plantName == "Poppy" then
 		seedCount = 0;
 	else
 		seedCount = 3;
