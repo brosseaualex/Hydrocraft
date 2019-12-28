@@ -238,7 +238,7 @@ recipe Extract Poppy Seeds
     HCPoppycapsuleripped,
     keep HCHerbtable/HCHerbtable2,
     CanBeDoneFromFloor:true,
-    Result:HCPoppyseed,
+    Result:HCPoppyseeds,
     Time:50,
     NeedToBeLearn:true,
     Category:Alchemy,
