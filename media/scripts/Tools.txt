@@ -1001,6 +1001,7 @@ recipe Box Hot Glue Sticks
     HCHotgluestick=100,
     Result:HCHotgluestickbox,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Hot Glue Sticks
@@ -1008,6 +1009,7 @@ recipe Unbox Hot Glue Sticks
     HCHotgluestickbox,
     Result:HCHotgluestick=100,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Box Bolts
@@ -1015,6 +1017,7 @@ recipe Box Bolts
     HCBolt=100,
     Result:HCBoltbox,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Bolts
@@ -1022,6 +1025,7 @@ recipe Unbox Bolts
     HCBoltbox,
     Result:HCBolt=100,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Box Nuts
@@ -1029,6 +1033,7 @@ recipe Box Nuts
     HCBolt=100,
     Result:HCBoltbox,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Nuts
@@ -1036,6 +1041,7 @@ recipe Unbox Nuts
     HCNutbox,
     Result:HCNut=100,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Put Nut on Bolt
@@ -1044,6 +1050,7 @@ recipe Put Nut on Bolt
     HCBolt,
     Result:HCNutnbolt,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Removed Nut From Bolt
@@ -1052,6 +1059,7 @@ recipe Removed Nut From Bolt
     Result:HCNut,
     Time:15,
     OnCreate:recipe_hcbolt,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Box Nail Gun Ammo
@@ -1059,6 +1067,7 @@ recipe Box Nail Gun Ammo
     HCNailgunammo=100,
     Result:HCNailgunammobox,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Nail Gun Ammo
@@ -1066,6 +1075,7 @@ recipe Unbox Nail Gun Ammo
     HCNailgunammobox,
     Result:HCNailgunammo=10,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Make Nail Gun Ammo

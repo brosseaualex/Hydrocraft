@@ -354,6 +354,7 @@ recipe Box Pencils
     Pencil=20,
     Result:HCPencilbox,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Pencils
@@ -361,6 +362,7 @@ recipe Unbox Pencils
     HCPencilbox,
     Result:Pencil=20,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Box Pens
@@ -368,6 +370,7 @@ recipe Box Pens
     Pen=20,
     Result:HCPenbox,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Pens
@@ -375,6 +378,7 @@ recipe Unbox Pens
     HCPenbox,
     Result:Pen=20,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }   
 
 recipe Refill Stapler
@@ -398,6 +402,7 @@ recipe Box Staples
     HCStaples=100,
     Result:HCStaplesbox,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Staples
@@ -405,6 +410,7 @@ recipe Unbox Staples
     HCStaplesbox,
     Result:HCStaples=100,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }   
 
 recipe Seperate Post-It Notes
@@ -419,6 +425,7 @@ recipe Box Rubberbands
     RubberBand=100,
     Result:HCRubberbandbox,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Rubberbands
@@ -426,6 +433,7 @@ recipe Unbox Rubberbands
     HCRubberbandbox,
     Result:RubberBand=100,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }   
 
 recipe Erase Notebook
