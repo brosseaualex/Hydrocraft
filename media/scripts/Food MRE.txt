@@ -590,6 +590,7 @@ recipe Unbox MREs
 		Result:HCMRE=8,
 		Time:15.0,
 		Category:Cooking,
+		OnGiveXP:HCNoExpGain,
     }	
 
 recipe Unpack Small Pallet of MREs

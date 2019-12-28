@@ -244,6 +244,7 @@ recipe Box Clothespins
     	HCClothespin=20,
     	Result:HCClothespinbox,
     	Time:15,
+		OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Clothespins
@@ -251,6 +252,7 @@ recipe Unbox Clothespins
     	HCClothespinbox,
     	Result:HCClothespin=20,
     	Time:15,
+		OnGiveXP:HCNoExpGain,
     }
 
 recipe Box Sewing Pins
@@ -258,13 +260,15 @@ recipe Box Sewing Pins
     	HCSewingpin=100,
     	Result:HCSewingpinbox,
     	Time:15,
+		OnGiveXP:HCNoExpGain,
     }
 
-recipe Unbox Clothespins
+recipe Unbox Sewing Pins
     {
     	HCSewingpinbox,
     	Result:HCSewingpin=100,
     	Time:15,
+		OnGiveXP:HCNoExpGain,
     }
 
 recipe Put Pins in Pin Cushion
@@ -273,6 +277,7 @@ recipe Put Pins in Pin Cushion
 	HCPincushion,
     	Result:HCPincushionfull,
     	Time:50,
+		OnGiveXP:HCNoExpGain,
     }
 
 recipe Remove Pins from Pin Cushion
@@ -281,6 +286,7 @@ recipe Remove Pins from Pin Cushion
     	Result:HCSewingpin=8,
     	Time:50,
     	OnCreate:recipe_hcpincushion,
+		OnGiveXP:HCNoExpGain,
     }
 
 recipe Hang Clothes

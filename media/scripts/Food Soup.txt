@@ -433,6 +433,7 @@ recipe Unbox Chicken Ramen Flat
 		HCRamenflatchicken,
 		Result:HCRamenchicken=8,
 		OnCreate:recipe_unboxramenflat,
+		OnGiveXP:HCNoExpGain,
 		Time:25.0,
 		Category:Cooking,
 	}
@@ -442,6 +443,7 @@ recipe Unbox Beef Ramen Flat
 		HCRamenflatbeef,
 		Result:HCRamenbeef=8,
 		OnCreate:recipe_unboxramenflat,
+		OnGiveXP:HCNoExpGain,
 		Time:25.0,
 		Category:Cooking,
 	}
@@ -451,6 +453,7 @@ recipe Unbox Shrimp Ramen Flat
 		HCRamenflatshrimp,
 		Result:HCRamenshrimp=8,
 		OnCreate:recipe_unboxramenflat,
+		OnGiveXP:HCNoExpGain,
 		Time:25.0,
 		Category:Cooking,
 	}
@@ -460,6 +463,7 @@ recipe Unbox Cheese Ramen Flat
 		HCRamenflatcheese,
 		Result:HCRamencheese=8,
 		OnCreate:recipe_unboxramenflat,
+		OnGiveXP:HCNoExpGain,
 		Time:25.0,
 		Category:Cooking,
 	}
@@ -469,6 +473,7 @@ recipe Open Chicken Ramen
 		HCRamenchicken,
 		Result:Ramen,
 		OnCreate:recipe_openchickenramen,
+		OnGiveXP:HCNoExpGain,
 		Time:25.0,
 		Category:Cooking,
 	}
@@ -490,6 +495,7 @@ recipe Open Beef Ramen
 		HCRamenbeef,
 		Result:Ramen,
 		OnCreate:recipe_openbeeframen,
+		OnGiveXP:HCNoExpGain,
 		Time:25.0,
 		Category:Cooking,
 	}

@@ -985,6 +985,7 @@ recipe Box Crayons
     Result:HCCrayonbox,
     Time:15,
     Category:Leisure,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Crayons
@@ -993,6 +994,7 @@ recipe Unbox Crayons
     Result:Crayons=20,
     Time:15,
     Category:Leisure,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Box Chalk
@@ -1001,6 +1003,7 @@ recipe Box Chalk
     Result:HCChalkbox,
     Time:15,
     Category:Leisure,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Chalk
@@ -1009,6 +1012,7 @@ recipe Unbox Chalk
     Result:HCChalk=20,
     Time:15,
     Category:Leisure,
+    OnGiveXP:HCNoExpGain,
     }
 
 
@@ -1018,6 +1022,7 @@ recipe Box Balloons
     Result:HCBalloonbox,
     Time:15,
     Category:Leisure,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Balloons
@@ -1026,6 +1031,7 @@ recipe Unbox Balloons
     Result:HCEmptyballoon=100,
     Time:15,
     Category:Leisure,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Put Tennis Balls in Container
@@ -1035,6 +1041,7 @@ recipe Put Tennis Balls in Container
     Result:HCTennisballcontainerfull,
     Time:15,
     Category:Leisure,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Remove Tennis Balls from Container
@@ -1044,6 +1051,7 @@ recipe Remove Tennis Balls from Container
     Time:15,
     OnCreate:recipe_hctennisballcontainer,
     Category:Leisure,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Play Chess

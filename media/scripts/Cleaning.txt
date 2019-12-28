@@ -225,6 +225,7 @@ recipe Box Mothballs
     {
     HCMothballs=100,
     Result:HCMothballsbox,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -232,6 +233,7 @@ recipe Unbox Mothballs
     {
     HCMothballsbox,
     Result:HCMothballs=100,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 

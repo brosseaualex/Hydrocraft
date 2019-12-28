@@ -631,6 +631,7 @@ recipe Box Cotton Swabs
     {
     HCQtip=100,
     Result:HCQtipbox,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -638,6 +639,7 @@ recipe Unbox Cotton Swabs
     {
     HCQtipbox,
     Result:HCQtip=100,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -645,6 +647,7 @@ recipe Pack Diapers
     {
     HCDiaper=20,
     Result:HCDiaperpack,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -652,6 +655,7 @@ recipe Unpack Diapers
     {
     HCDiaperpack,
     Result:HCDiaper=20,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -659,6 +663,7 @@ recipe Box Menstrual Pads
     {
     HCMenstrualpad=20,
     Result:HCMenstrualpadbox,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -666,6 +671,7 @@ recipe Unbox Menstrual Pads
     {
     HCMenstrualpadbox,
     Result:HCMenstrualpad=20,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -673,6 +679,7 @@ recipe Box Tampons
     {
     HCTampon=20,
     Result:HCTamponbox,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -680,6 +687,7 @@ recipe Unbox Tampons
     {
     HCTamponbox,
     Result:HCTampon=20,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -687,6 +695,7 @@ recipe Unbox Tissues
     {
     HCTissuebox,
     Result:Tissue=100,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -694,6 +703,7 @@ recipe Open Toiletpaper Pack
     {
     HCToiletpaperpack,
     Result:ToiletPaper=4,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -761,6 +771,7 @@ recipe Box Razor Blades
     {
     HCRazorblade=20,
     Result:HCRazorbladebox,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -768,6 +779,7 @@ recipe Unbox Razor Blades
     {
     HCRazorbladebox,
     Result:HCRazorblade=20,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 

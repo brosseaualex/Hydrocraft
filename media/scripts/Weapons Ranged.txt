@@ -695,6 +695,7 @@ recipe Box BBs
     HCBB=100,
     Result:HCBBbox,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox BBs
@@ -702,6 +703,7 @@ recipe Unbox BBs
     HCBBbox,
     Result:HCBB=100,
     Time:15,
+    OnGiveXP:HCNoExpGain,
     } 
 
 recipe Make Throwing Rock

@@ -257,6 +257,7 @@ recipe Box Water Purifying Tablets
     	Result:HCPurifyingtabletsbox,
     	Time:15,
 	Category:Health,
+    OnGiveXP:HCNoExpGain,
     	}
 
 recipe Unbox Water Purifying Tablets
@@ -265,6 +266,7 @@ recipe Unbox Water Purifying Tablets
     	Result:HCPurifyingtablets=10,
     	Time:15,
 	Category:Health,
+    OnGiveXP:HCNoExpGain,
     	}
 
 recipe Purify Water

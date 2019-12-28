@@ -72,6 +72,7 @@ recipe Unbox Telescope
     	Time:100,
     	Category:Leisure,
     	OnCreate:recipe_hcopentelescope,
+    	OnGiveXP:HCNoExpGain,
     }
 
 recipe Box Telescope
@@ -83,6 +84,7 @@ recipe Box Telescope
     	Result:HCTelescopebox,
     	Time:100,
     	Category:Leisure,
+    	OnGiveXP:HCNoExpGain,
     }
 
 recipe Assemble Telescope

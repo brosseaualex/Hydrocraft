@@ -1246,7 +1246,8 @@ item HCEggtimer
 recipe Stack Napkins
     {
     HCNapkin=6,
-    Result:HCNapkinstack,
+    Result:HNapkinstack,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -1254,6 +1255,7 @@ recipe Unstack Napkins
     {
     HCNapkinstack,
     Result:HCNapkin=6,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -1262,6 +1264,7 @@ recipe Put Napkins in Holder
     HCNapkin=6,
     HCNapkinholder,
     Result:HCNapkinholderfull,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -1271,12 +1274,14 @@ recipe Remove Napkins from Holder
     Result:HCNapkin=6,
     Time:15,
     OnCreate:recipe_hcnapkinholder,
-    }   
+    OnGiveXP:HCNoExpGain,
+    }
 
 recipe Unbox Plastic Forks
     {
     HCPlasticforkbox,
     Result:HCPlasticfork=20,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -1284,6 +1289,7 @@ recipe Unbox Plastic Spoons
     {
     HCPlasticspoonbox,
     Result:HCPlasticspoon=20,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -1291,6 +1297,7 @@ recipe Unbox Plastic Knives
     {
     HCPlasticknifebox,
     Result:HCPlasticknife=20,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -1298,6 +1305,7 @@ recipe Stack Plastic Plates
     {
     HCPlasticplate=6,
     Result:HCPlasticplatestack,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -1305,6 +1313,7 @@ recipe Unstack Plastic Plates
     {
     HCPlasticplatestack,
     Result:HCPlasticplate=6,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -1312,6 +1321,7 @@ recipe Stack Plastic Plates
     {
     HCPlasticplate2=6,
     Result:HCPlasticplatestack2,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -1319,6 +1329,7 @@ recipe Unstack Plastic Plates
     {
     HCPlasticplatestack2,
     Result:HCPlasticplate2=6,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -1326,6 +1337,7 @@ recipe Stack Plastic Cups
     {
     HCPlasticcup=6,
     Result:HCPlasticcupstack,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -1333,6 +1345,7 @@ recipe Unstack Plastic Cups
     {
     HCPlasticcupstack,
     Result:HCPlasticcup=6,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -1340,6 +1353,7 @@ recipe Stack Styrofoam Cups
     {
     HCStyrofoamcup=6,
     Result:HCStyrofoamcupstack,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -1347,6 +1361,7 @@ recipe Unstack Styrofoam Cups
     {
     HCStyrofoamcupstack,
     Result:HCStyrofoamcup=6,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -1354,13 +1369,15 @@ recipe Unroll Paper Towels
     {
     HCPapertowelroll,
     Result:HCPapertowel=100,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
 recipe Box Zipper Bags
     {
     HCZipperbag=100,
-    Result:HCZipperbagbox,
+    Result:HCZipperbagbox
+    OnGiveXP:HCNoExpGain,,
     Time:15,
     }
 
@@ -1368,6 +1385,7 @@ recipe Unbox Zipper Bags
     {
     HCZipperbagbox,
     Result:HCZipperbag=100,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 
@@ -1411,6 +1429,7 @@ recipe Remove Battery
     {
     HCCoffeefilterbox,
     Result:HCCoffeefilterdry=50,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 	
@@ -1418,6 +1437,7 @@ recipe Remove Battery
     {
     HCCoffeefilterdry=50,
     Result:HCCoffeefilterbox,
+    OnGiveXP:HCNoExpGain,
     Time:15,
     }
 

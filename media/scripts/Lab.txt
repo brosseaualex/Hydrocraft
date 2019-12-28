@@ -594,6 +594,7 @@ recipe Box Corks
     Result:HCCorkbox,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Corks
@@ -602,6 +603,7 @@ recipe Unbox Corks
     Result:HCCork=20,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Box Rubber Bungs
@@ -610,6 +612,7 @@ recipe Box Rubber Bungs
     Result:HCRubberbungbox,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Rubber Bungs
@@ -618,6 +621,7 @@ recipe Unbox Rubber Bungs
     Result:HCRubberbung=20,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Box Test Tubes
@@ -626,6 +630,7 @@ recipe Box Test Tubes
     Result:HCTesttubebox,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Test Tubes
@@ -634,6 +639,7 @@ recipe Unbox Test Tubes
     Result:HCGlasstesttube=4,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Box Glass Pipes
@@ -642,6 +648,7 @@ recipe Box Glass Pipes
     Result:HCGlasspipebox,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Glass Pipes
@@ -650,6 +657,7 @@ recipe Unbox Glass Pipes
     Result:HCGlasspipe=10,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Box Glass Elbow Pipes
@@ -658,6 +666,7 @@ recipe Box Glass Elbow Pipes
     Result:HCGlasspipeelbowbox,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Glass Elbow Pipes
@@ -666,6 +675,7 @@ recipe Unbox Glass Elbow Pipes
     Result:HCGlasspipeelbow=10,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Box Test Tube Brushes
@@ -674,6 +684,7 @@ recipe Box Test Tube Brushes
     Result:HCTesttubebrushbox,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Test Tube Brushes
@@ -682,6 +693,7 @@ recipe Unbox Test Tube Brushes
     Result:HCTesttubebrush=5,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
     
 recipe Put Cork on Test Tube
@@ -691,6 +703,7 @@ recipe Put Cork on Test Tube
     Result:HCGlasstesttubecork,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Remove Cork from Test Tube
@@ -700,6 +713,7 @@ recipe Remove Cork from Test Tube
     Time:15,
     OnCreate:recipe_hccork,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Put Cork with Hole on Test Tube
@@ -709,6 +723,7 @@ recipe Put Cork with Hole on Test Tube
     Result:HCGlasstesttubecorkhole,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Remove Cork with Hole from Test Tube
@@ -718,6 +733,7 @@ recipe Remove Cork with Hole from Test Tube
     Time:15,
     OnCreate:recipe_hccorkhole,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Put Rubber Bung on Test Tube
@@ -727,6 +743,7 @@ recipe Put Rubber Bung on Test Tube
     Result:HCGlasstesttuberubberbung,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Remove Rubber Bung from Test Tube
@@ -736,6 +753,7 @@ recipe Remove Rubber Bung from Test Tube
     Time:15,
     OnCreate:recipe_hcgetrubberbung,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Put Rubber Bung with Hole on Test Tube
@@ -745,6 +763,7 @@ recipe Put Rubber Bung with Hole on Test Tube
     Result:HCGlasstesttuberubberbunghole,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Remove Rubber Bung with Hole from Test Tube
@@ -754,6 +773,7 @@ recipe Remove Rubber Bung with Hole from Test Tube
     Time:15,
     OnCreate:recipe_hcgetrubberbunghole,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Put Test Tubes with Corks on Test Tube Rack
@@ -763,6 +783,7 @@ recipe Put Test Tubes with Corks on Test Tube Rack
     Result:HCTesttuberackcorks,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Remove Test Tubes with Corks from Test Tube Rack
@@ -772,6 +793,7 @@ recipe Remove Test Tubes with Corks from Test Tube Rack
     Time:15,
     OnCreate:recipe_hctesttuberack,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Put Test Tubes with Rubber Bungs on Test Tube Rack
@@ -781,6 +803,7 @@ recipe Put Test Tubes with Rubber Bungs on Test Tube Rack
     Result:HCTesttuberackbungs,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Remove Test Tubes with Rubber Bungs from Test Tube Rack
@@ -790,6 +813,7 @@ recipe Remove Test Tubes with Rubber Bungs from Test Tube Rack
     Time:15,
     OnCreate:recipe_hctesttuberack,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Attatch Clamp to Ring Stand
@@ -799,6 +823,7 @@ recipe Attatch Clamp to Ring Stand
     Result:HCRingstandclamp,
     Time:15,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Remove Clamp from Ring Stand
@@ -808,6 +833,7 @@ recipe Remove Clamp from Ring Stand
     Time:15,
     OnCreate:recipe_hcringstand,
     Category:Alchemy,
+    OnGiveXP:HCNoExpGain,
     }
 
 recipe Make Test Tube Rack

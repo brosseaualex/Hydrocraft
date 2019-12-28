@@ -60,6 +60,7 @@ recipe Box Rat Poison
     	HCRatpoison=20,
     	Result:HCRatpoisonbox,
     	Time:15,
+        OnGiveXP:HCNoExpGain,
     }
 
 recipe Unbox Rat Poison
@@ -67,6 +68,7 @@ recipe Unbox Rat Poison
    	HCRatpoisonbox,
     	Result:HCRatpoison=20,
     	Time:15,
+        OnGiveXP:HCNoExpGain,
     }
 
 recipe Refill Bug Sprayer

@@ -204,6 +204,7 @@ recipe Open Cigarette Carton
 	{
 		HCCigarettecarton,
 	   	Result:HCCigarettepack=10,
+		OnGiveXP:HCNoExpGain,
 	   	Time:50.0,
 	}
 
@@ -213,6 +214,7 @@ recipe Open Cigarette Pack
 	   	Result:Cigarettes=1,
 		OnCreate:recipe_opencigpack1,
 		RemoveResultItem:true,
+		OnGiveXP:HCNoExpGain,
 	   	Time:50.0,
 	}
 
@@ -220,6 +222,7 @@ recipe Pack Cigarettes
 	{
 		Cigarettes=20,
 	   	Result:HCCigarettepack=1,
+		OnGiveXP:HCNoExpGain,
 	   	Time:50.0,
 	}
 	
@@ -227,6 +230,7 @@ recipe Pack Into Carton
 	{
 		HCCigarettepack=10,
 	   	Result:HCCigarettecarton=1,
+		OnGiveXP:HCNoExpGain,
 	   	Time:50.0,
 	}
 
@@ -234,6 +238,7 @@ recipe Open Cigarette Carton
 	{
 		HCCigarettecartonlights,
 	   	Result:HCCigarettepacklights=10,
+		OnGiveXP:HCNoExpGain,
 	   	Time:50.0,
 	}
 
@@ -243,6 +248,7 @@ recipe Open Cigarette Pack
 	   	Result:HCCigaretteslights=1,
 		OnCreate:recipe_opencigpack2,
 		RemoveResultItem:true,
+		OnGiveXP:HCNoExpGain,
 	   	Time:50.0,
 	}
 
@@ -250,6 +256,7 @@ recipe Pack Cigarettes
 	{
 		HCCigaretteslights=20,
 	   	Result:HCCigarettepacklights=1,
+		OnGiveXP:HCNoExpGain,
 	   	Time:50.0,
 	}
 	
@@ -257,6 +264,7 @@ recipe Pack Into Carton
 	{
 		HCCigarettepacklights=10,
 	   	Result:HCCigarettecartonlights=1,
+		OnGiveXP:HCNoExpGain,
 	   	Time:50.0,
 	}
 
@@ -264,6 +272,7 @@ recipe Open Cigarette Carton
 	{
 		HCCigarettecartonmenthol,
 	   	Result:HCCigarettepackmenthol=10,
+		OnGiveXP:HCNoExpGain,
 	   	Time:50.0,
 	}
 
@@ -273,6 +282,7 @@ recipe Open Cigarette Pack
 	   	Result:HCCigarettesmenthol=1,
 		OnCreate:recipe_opencigpack3,
 		RemoveResultItem:true,
+		OnGiveXP:HCNoExpGain,
 	   	Time:50.0,
 	}
 
@@ -280,6 +290,7 @@ recipe Pack Cigarettes
 	{
 		HCCigarettesmenthol=20,
 	   	Result:HCCigarettepackmenthol=1,
+		OnGiveXP:HCNoExpGain,
 	   	Time:50.0,
 	}
 	
@@ -287,6 +298,7 @@ recipe Pack Into Carton
 	{
 		HCCigarettepackmenthol=10,
 	   	Result:HCCigarettecartonmenthol=1,
+		OnGiveXP:HCNoExpGain,
 	   	Time:50.0,
 	}
 

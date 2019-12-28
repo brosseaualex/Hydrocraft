@@ -1000,6 +1000,7 @@ recipe Unbox Resistors
        Result:HCResistor=100,
        Time:10.0,
        Category:Electrical,
+       OnGiveXP:HCNoExpGain,
     }
 
 recipe Box Resistors
@@ -1008,6 +1009,7 @@ recipe Box Resistors
        Result:HCResistorbox,
        Time:50.0,
        Category:Electrical,
+       OnGiveXP:HCNoExpGain,
     }
 
 recipe Recycle Colored Wire

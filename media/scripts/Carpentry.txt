@@ -943,6 +943,7 @@ recipe Make Log Pile
     	Result:HCLogstack1,
     	Time:500,
     	Category:Carpentry,
+		OnGiveXP:HCNoExpGain,
     }
 
 recipe Add Logs to Pile
@@ -952,6 +953,7 @@ recipe Add Logs to Pile
     	Result:HCLogstack2,
     	Time:500,
     	Category:Carpentry,
+		OnGiveXP:HCNoExpGain,
     }
 
 recipe Add Logs to Pile
@@ -962,6 +964,7 @@ recipe Add Logs to Pile
     	Result:HCLogstack2,
     	Time:500,
     	Category:Carpentry,
+		OnGiveXP:HCNoExpGain,
     }
 
 recipe Add Logs to Pile
@@ -972,6 +975,7 @@ recipe Add Logs to Pile
     	Result:HCLogstack3,
     	Time:500,
     	Category:Carpentry,
+		OnGiveXP:HCNoExpGain,
     }
 
 recipe Add Logs to Pile
@@ -982,6 +986,7 @@ recipe Add Logs to Pile
     	Result:HCLogstack4,
     	Time:500,
     	Category:Carpentry,
+		OnGiveXP:HCNoExpGain,
     }
 
 recipe Remove Logs from Pile
@@ -992,6 +997,7 @@ recipe Remove Logs from Pile
     	Time:500,
     	Category:Carpentry,
 	OnCreate:recipe_hclog5,
+	OnGiveXP:HCNoExpGain,
     }
 
 recipe Remove Logs from Pile
@@ -1002,6 +1008,7 @@ recipe Remove Logs from Pile
     	Time:500,
     	Category:Carpentry,
 	OnCreate:recipe_hclog5,
+	OnGiveXP:HCNoExpGain,
     }
 
 recipe Remove Logs from Pile
@@ -1012,6 +1019,7 @@ recipe Remove Logs from Pile
     	Time:500,
     	Category:Carpentry,
 	OnCreate:recipe_hclog5,
+	OnGiveXP:HCNoExpGain,
     }
 
 recipe Remove Logs from Stack
@@ -1021,6 +1029,7 @@ recipe Remove Logs from Stack
     	Result:Log=5,
     	Time:500,
     	Category:Carpentry,
+		OnGiveXP:HCNoExpGain,
     }
 
 recipe Saw Logs
