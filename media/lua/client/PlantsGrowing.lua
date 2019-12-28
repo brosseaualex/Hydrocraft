@@ -37,7 +37,7 @@ function recipe_NDPlantsHarvest(items, result, player)
 	
 	--Get Alternative Name and Alternative Seed Name if applicable
 	if plantName == "Agaveblue" then
-		altName = "AgaveblueCut";
+		altName = "Agavebluecut";
 	elseif plantName == "Artichokes" then
 		altName = "Artichoke";
 	elseif plantName == "Basil" then
