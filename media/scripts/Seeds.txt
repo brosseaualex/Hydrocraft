@@ -1966,8 +1966,8 @@ item HCSpinachseedspacket
 
     recipe Put Blue Corn Seeds in Packet
     {
-        HCCornredseeds=50,
-        Result:HCCornredseedspacket,
+        HCCornblueseeds=50,
+        Result:HCCornblueseedspacket,
         Time:10.0,
         Category:Farming,
     }
