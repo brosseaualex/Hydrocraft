@@ -206,20 +206,6 @@ item HCTesttubemorphincork
 
 /************************RECIPES************************/
 
-
-recipe Dry Poppy Flower into Capsule
-    {
-    keep Base.Scalpel/HCBoxcutter/HCScalpelimprovised/HCRazorblade,
-    HCPoppyflower,
-    keep HCHerbtable/HCHerbtable2,
-    CanBeDoneFromFloor:true,
-    Result:HCPoppycapsule,
-    Time:1000,
-    NeedToBeLearn:true,
-    Category:Alchemy,
-    OnGiveXP:HCCooking_OnGiveXP,
-    }
-
 recipe Rip Poppy Capsules
     {
     keep Base.Scalpel/HCBoxcutter/HCScalpelimprovised/HCRazorblade,
@@ -227,19 +213,6 @@ recipe Rip Poppy Capsules
     keep HCHerbtable/HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCPoppycapsuleripped,
-    Time:50,
-    NeedToBeLearn:true,
-    Category:Alchemy,
-    OnGiveXP:HCCooking_OnGiveXP,
-    }
-    
-recipe Extract Poppy Seeds
-    {
-    keep Base.Scalpel/HCBoxcutter/HCScalpelimprovised/HCRazorblade,
-    HCPoppycapsuleripped,
-    keep HCHerbtable/HCHerbtable2,
-    CanBeDoneFromFloor:true,
-    Result:HCPoppyseed,
     Time:50,
     NeedToBeLearn:true,
     Category:Alchemy,
