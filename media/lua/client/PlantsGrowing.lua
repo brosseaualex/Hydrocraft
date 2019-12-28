@@ -46,7 +46,6 @@ function recipe_NDPlantsHarvest(items, result, player)
 		altName = "Beet"
 	elseif plantName == "Bellpepper" then
 		altName = "BellPepper";
-		altSeedName = "Hydrocraft.HCBellpepperredseeds";
 	elseif plantName == "Blackberry" then
 		altName = "BerryBlack";
 	elseif plantName == "Blueberry" then
@@ -88,8 +87,6 @@ function recipe_NDPlantsHarvest(items, result, player)
 		altSeedName = "Hydrocraft.HCTomatilloseeds";
 	elseif plantName == "Grape" then
 		altname = "Grapes";
-	elseif plantName == "Fig" then
-		altname = "Figs";
 	end
 	
 	--Main product counts
@@ -130,7 +127,7 @@ function recipe_NDPlantsHarvest(items, result, player)
 	elseif plantName == "Carrots" then
 		altSeedName = "farming.CarrotSeed";
 	end
-	print(tostring(prodCount));
+
 	--Item giving
 	--Main produce
 	local counter = 0;
