@@ -246,7 +246,7 @@ item HCBlueprintopium
          Type			=	Literature,
          DisplayName		=	Opium Medical Research,
          Icon			=	HCMedicalresearch,
-         TeachedRecipes 	=   	Rip Poppy Capsules;Knead Raw Opium;Cook Raw Opium;Ferment Opium Powder;Make Morphine Hydrochloride Solution;Add Water To Morphine Hydrochloride;Add Ammonia To Morphine Hydrochloride Solution;Add Ammonia To Morphine Hydrochloride Solution,
+         TeachedRecipes 	=   	Dry Poppy Flower into Capsule;Rip Poppy Capsules;Extract Poppy Seeds;Knead Raw Opium;Cook Raw Opium;Ferment Opium Powder;Make Morphine Hydrochloride Solution;Add Water To Morphine Hydrochloride;Add Ammonia To Morphine Hydrochloride Solution;Add Ammonia To Morphine Hydrochloride Solution,
          ReplaceOnUse    	=   	HCBlueprintopium,
     }
 
