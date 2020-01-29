@@ -672,7 +672,7 @@ item HCWarhammercopper
 
 recipe Make Steel Sledgehammer
 	{
-		SkillRequired:BluntMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCSteelingot=4,
     		WoodenStick,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -688,7 +688,7 @@ recipe Make Steel Sledgehammer
 
 recipe Make Titanium Smithy Hammer
 	{
-		SkillRequired:BluntMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCTitaniumingot,
     		WoodenStick,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -704,7 +704,7 @@ recipe Make Titanium Smithy Hammer
 
 recipe Make Steel Smithy Hammer
 	{
-		SkillRequired:BluntMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCSteelingot,
     		WoodenStick,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -720,7 +720,7 @@ recipe Make Steel Smithy Hammer
 
 recipe Make Iron Smithy Hammer
 	{
-		SkillRequired:BluntMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCIroningot,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -736,7 +736,7 @@ recipe Make Iron Smithy Hammer
 
 recipe Make Iron Smithy Hammer
 	{
-		SkillRequired:BluntMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCIroningot,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -752,7 +752,7 @@ recipe Make Iron Smithy Hammer
 
 recipe Make Bronze Smithy Hammer
 	{
-		SkillRequired:BluntMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCBronzeingot,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -768,7 +768,7 @@ recipe Make Bronze Smithy Hammer
 
 recipe Make Bronze Smithy Hammer
 	{
-		SkillRequired:BluntMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCBronzeingot,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -784,7 +784,7 @@ recipe Make Bronze Smithy Hammer
 
 recipe Make Copper Smithy Hammer
 	{
-		SkillRequired:BluntMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCCopperingot,
     		WoodenStick,
     		keep Hammer/HammerStone/HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -800,7 +800,7 @@ recipe Make Copper Smithy Hammer
 
 recipe Make Copper Smithy Hammer
 	{
-		SkillRequired:BluntMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCCopperingot,
     		WoodenStick,
     		keep Hammer/HammerStone/HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -816,7 +816,7 @@ recipe Make Copper Smithy Hammer
 
 recipe Make Steel War Hammer
 	{
-		SkillRequired:BluntMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCSteelingot=3,
     		WoodenStick,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -832,7 +832,7 @@ recipe Make Steel War Hammer
 
 recipe Make Iron War Hammer
 	{
-		SkillRequired:BluntMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCIroningot=3,
     		WoodenStick,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -848,7 +848,7 @@ recipe Make Iron War Hammer
 
 recipe Make Bronze War Hammer
 	{
-		SkillRequired:BluntMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCBronzeingot=3,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -864,7 +864,7 @@ recipe Make Bronze War Hammer
 
 recipe Make Bronze War Hammer
 	{
-		SkillRequired:BluntMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCBronzeingot=3,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -880,7 +880,7 @@ recipe Make Bronze War Hammer
 
 recipe Make Copper War Hammer
 	{
-		SkillRequired:BluntMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCCopperingot=3,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -896,7 +896,7 @@ recipe Make Copper War Hammer
 
 recipe Make Copper War Hammer
 	{
-		SkillRequired:BluntMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCCopperingot=3,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -912,7 +912,7 @@ recipe Make Copper War Hammer
 
 recipe Make Steel Spiked Mace
 	{
-		SkillRequired:BluntMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCSteelingot=2,
     		WoodenStick,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -928,7 +928,7 @@ recipe Make Steel Spiked Mace
 
 recipe Make Iron Spiked Mace
 	{
-		SkillRequired:BluntMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCIroningot=2,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -944,7 +944,7 @@ recipe Make Iron Spiked Mace
 
 recipe Make Bronze Spiked Mace
 	{
-		SkillRequired:BluntMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCBronzeingot=2,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -960,7 +960,7 @@ recipe Make Bronze Spiked Mace
 
 recipe Make Bronze Spiked Mace
 	{
-		SkillRequired:BluntMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCBronzeingot=2,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -976,7 +976,7 @@ recipe Make Bronze Spiked Mace
 
 recipe Make Copper Spiked Mace
 	{
-		SkillRequired:BluntMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCCopperingot=2,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -992,7 +992,7 @@ recipe Make Copper Spiked Mace
 
 recipe Make Copper Spiked Mace
 	{
-		SkillRequired:BluntMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCCopperingot=2,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1008,7 +1008,7 @@ recipe Make Copper Spiked Mace
 
 recipe Make Steel Spiked Flail
 	{
-		SkillRequired:BluntMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCSteelingot=2,
 		HCChain,
     		WoodenStick,
@@ -1025,7 +1025,7 @@ recipe Make Steel Spiked Flail
 
 recipe Make Iron Spiked Flail
 	{
-		SkillRequired:BluntMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCIroningot=2,
 		HCChain,
     		WoodenStick,
@@ -1042,7 +1042,7 @@ recipe Make Iron Spiked Flail
 
 recipe Make Bronze Spiked Flail
 	{
-		SkillRequired:BluntMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCBronzeingot=2,
 		HCChain,
     		WoodenStick,
@@ -1059,7 +1059,7 @@ recipe Make Bronze Spiked Flail
 
 recipe Make Copper Spiked Flail
 	{
-		SkillRequired:BluntMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCCopperingot=2,
 		HCChain,
     		WoodenStick,
@@ -1076,7 +1076,7 @@ recipe Make Copper Spiked Flail
 
 recipe Make Stone Flail
 	{
-		SkillRequired:BluntMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	Stone,
 		Rope,
     		WoodenStick,
