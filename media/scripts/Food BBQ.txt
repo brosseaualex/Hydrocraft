@@ -301,7 +301,8 @@ item HCFriedfroglegs
 	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
 	}
 
-item HCShishkebab
+item HCShish
+
 	{
 	HungerChange			=	-20,
 	BoredomChange			=	-10,
@@ -497,7 +498,7 @@ recipe Make Fried Frogs Legs
 
 recipe Make Shish Kebab
 	{
-		WoodenLance/HCChopsticks,
+		HCChopsticks,
     		FishFillet/Salmon/HCHerring/HCCrab/Steak/MuttonChop/PorkChop/HCFreshham/Ham/Chicken/HCBearsteak/HCVenison/HCSmallgamesteak/Rabbitmeat/Smallanimalmeat/Smallbirdmeat/HCDuckmeat/HCGoosemeat/HCTurkeymeat/FrogMeat/HCSausagefrog/HCSausagebird/HCSausagechicken/HCSausageduck/HCSausagegoose/HCSausageturkey/HCSausagevermin/HCSausagerabbit/HCSausagesmallgame/HCSausagedeer/HCSausagebear/HCSausagemutton/HCSausagepork/HCSausagebeef/HCSausageitalian/HCSausagehot/HCCheval/HCSausagecheval,
 		BellPepper/HCBellpeppergreen/HCBellpepperyellow/Eggplant/Leek/HCOniongreen/Onion/HCGarlic/Broccoli/HCCauliflower/Carrots/RedRadish/Potato/HCSweetpotato/HCPotatogolden/HCPotatored/Zucchini/Tomato/Pineapple/HCPortobello/HCShiitake/MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7,
 		BellPepper/HCBellpeppergreen/HCBellpepperyellow/Eggplant/Leek/HCOniongreen/Onion/HCGarlic/Broccoli/HCCauliflower/Carrots/RedRadish/Potato/HCSweetpotato/HCPotatogolden/HCPotatored/Zucchini/Tomato/Pineapple/HCPortobello/HCShiitake/MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7,
