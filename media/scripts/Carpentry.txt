@@ -2477,5 +2477,44 @@ recipe Make Folding Sign
     	Category:Carpentry,
     	OnGiveXP:HCWoodwork_OnGiveXP,
     }
+    
+recipe Make Chopsticks
+    {
+    SkillRequired:Woodwork=6;Cooking=6;Mechanics=2,
+    Plank=1,
+    keep Saw,
+    CanBeDoneFromFloor:true,
+   	Result:HCChopsticks=8,
+    Sound:PZ_Saw,
+    Time:100,
+    Category:Carpentry,
+    OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+
+recipe Make Chopsticks
+    {
+    SkillRequired:Woodwork=1;Cooking=2,
+    Twigs=1,
+    keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/Base.BreadKnife/Base.MeatCleaver/HCPumpkinknife/Scissors/Base.Scalpel/SharpedStone/Base.Machete/HCCombatknife/Base.Katana/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCKnifestone,
+    CanBeDoneFromFloor:true,
+    Result:HCChopsticks=1,
+    Sound:PZ_Saw,
+    Time:100,
+    Category:Carpentry,
+    }
+
+recipe Make Chopsticks
+    {
+    SkillRequired:Woodwork=1;Cooking=2,
+    TreeBranch=1,
+    keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/Base.BreadKnife/Base.MeatCleaver/HCPumpkinknife/Scissors/Base.Scalpel/SharpedStone/Base.Machete/HCCombatknife/Base.Katana/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCKnifestone,
+    CanBeDoneFromFloor:true,
+    Result:HCChopsticks=2,
+    Sound:PZ_Saw,
+    Time:100,
+    Category:Carpentry,
+    }    
+   
 
 }
