@@ -1881,7 +1881,7 @@ recipe Make Steel Rake
 
 recipe Make Steel Shears
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCSteelingot,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1897,7 +1897,7 @@ recipe Make Steel Shears
 
 recipe Make Steel Pruning Shears
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCSteelingot,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1914,7 +1914,7 @@ recipe Make Steel Pruning Shears
 
 recipe Make Steel Saw
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCSteelingot,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
 		HCWoodenring,
@@ -1959,7 +1959,7 @@ recipe Make Iron Tongs
 
 recipe Make Steel Hammer
 	{
-		SkillRequired:BluntMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCSteelingot,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
 		WoodenStick,
@@ -1976,7 +1976,7 @@ recipe Make Steel Hammer
 
 recipe Make Sterling Silver Knife
 	{
-		SkillRequired:BluntMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCSterlingsilveringot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1992,7 +1992,7 @@ recipe Make Sterling Silver Knife
 
 recipe Make Sterling Silver Fork
 	{
-		SkillRequired:BluntMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCSterlingsilveringot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -2008,7 +2008,7 @@ recipe Make Sterling Silver Fork
 
 recipe Make Sterling Silver Spoon
 	{
-		SkillRequired:BluntMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCSterlingsilveringot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
