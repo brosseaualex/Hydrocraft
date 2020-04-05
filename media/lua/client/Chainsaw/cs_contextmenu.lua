@@ -62,11 +62,4 @@ ChainSawMenu.onFill = function(item, player)
 	
 end
 
-
-
-
-
-
-
-
 Events.OnFillInventoryObjectContextMenu.Add(ChainSawMenu.doMenu);

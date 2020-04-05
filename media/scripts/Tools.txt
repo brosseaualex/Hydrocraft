@@ -853,7 +853,7 @@ item HCScissorlift
         	MinimumSwingTime    				=    	6.00,
         	KnockBackOnNoDeath    				=    	True,
         	SwingAmountBeforeImpact    			=    	0.12,
-        	Categories    					=    	Blade,
+        	Categories    					=    	Axe,
         	ConditionLowerChanceOneIn    			=    	600,
         	Weight    					=    	7,
         	RequiresEquippedBothHands 			= 	true,
@@ -879,7 +879,7 @@ item HCScissorlift
         	RunAnim    					=    	Run_Weapon2,
         	TwoHandWeapon 					= 	TRUE,
         	BreakSound  					=   	BreakMetalItem,
-        	TreeDamage  					=   	125,
+        	TreeDamage  					=   	500,
         
     }
     

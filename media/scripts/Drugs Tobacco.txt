@@ -136,6 +136,7 @@ item HCCigar
 	HungerChange			=	0,
 	Weight				=	0.1,
 	RequireInHandOrInventory	=	Lighter/Matches,
+	Icon				=	HCCigar,
 	Type				=	Food,
 	UnhappyChange			=	10,
 	DisplayName			=	Cigar,
