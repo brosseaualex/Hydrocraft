@@ -1368,7 +1368,7 @@ item HCShurikencopper
 /*
 recipe Make Steel Shuriken
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCSteelingot,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1383,7 +1383,7 @@ recipe Make Steel Shuriken
 
 recipe Make Iron Shuriken
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCIroningot,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1398,7 +1398,7 @@ recipe Make Iron Shuriken
 
 recipe Make Bronze Shuriken
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCBronzeingot,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1413,7 +1413,7 @@ recipe Make Bronze Shuriken
 
 recipe Make Bronze Shuriken
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCBronzeingot,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
@@ -1428,7 +1428,7 @@ recipe Make Bronze Shuriken
 
 recipe Make Copper Shuriken
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCCopperingot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1443,7 +1443,7 @@ recipe Make Copper Shuriken
 
 recipe Make Copper Shuriken
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCCopperingot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
@@ -1458,7 +1458,7 @@ recipe Make Copper Shuriken
 */
 recipe Make Steel Knife
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCSteelingot,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1473,7 +1473,7 @@ recipe Make Steel Knife
 
 recipe Make Iron Knife
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCIroningot,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1488,7 +1488,7 @@ recipe Make Iron Knife
 
 recipe Make Bronze Knife
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCBronzeingot,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1503,7 +1503,7 @@ recipe Make Bronze Knife
 
 recipe Make Bronze Knife
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCBronzeingot,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
@@ -1518,7 +1518,7 @@ recipe Make Bronze Knife
 
 recipe Make Copper Knife
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCCopperingot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1533,7 +1533,7 @@ recipe Make Copper Knife
 
 recipe Make Copper Knife
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCCopperingot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
@@ -1548,7 +1548,7 @@ recipe Make Copper Knife
 
 recipe Make Steel Dagger
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCSteelingot,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1563,7 +1563,7 @@ recipe Make Steel Dagger
 
 recipe Make Iron Dagger
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCIroningot,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1578,7 +1578,7 @@ recipe Make Iron Dagger
 
 recipe Make Bronze Dagger
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCBronzeingot,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1593,7 +1593,7 @@ recipe Make Bronze Dagger
 
 recipe Make Bronze Dagger
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCBronzeingot,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
@@ -1608,7 +1608,7 @@ recipe Make Bronze Dagger
 
 recipe Make Copper Dagger
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCCopperingot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1623,7 +1623,7 @@ recipe Make Copper Dagger
 
 recipe Make Copper Dagger
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCCopperingot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
@@ -1638,7 +1638,7 @@ recipe Make Copper Dagger
 
 recipe Make Steel Short Sword
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCSteelingot=2,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1653,7 +1653,7 @@ recipe Make Steel Short Sword
 
 recipe Make Iron Short Sword
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCIroningot=2,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1668,7 +1668,7 @@ recipe Make Iron Short Sword
 
 recipe Make Bronze Short Sword
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCBronzeingot=2,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1683,7 +1683,7 @@ recipe Make Bronze Short Sword
 
 recipe Make Bronze Short Sword
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCBronzeingot=2,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
@@ -1698,7 +1698,7 @@ recipe Make Bronze Short Sword
 
 recipe Make Copper Short Sword
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCCopperingot=2,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1713,7 +1713,7 @@ recipe Make Copper Short Sword
 
 recipe Make Copper Short Sword
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCCopperingot=2,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
@@ -1728,7 +1728,7 @@ recipe Make Copper Short Sword
 
 recipe Make Steel Long Sword
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCSteelingot=3,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1743,7 +1743,7 @@ recipe Make Steel Long Sword
 
 recipe Make Iron Long Sword
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCIroningot=3,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1758,7 +1758,7 @@ recipe Make Iron Long Sword
 
 recipe Make Bronze Long Sword
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCBronzeingot=3,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1773,7 +1773,7 @@ recipe Make Bronze Long Sword
 
 recipe Make Bronze Long Sword
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCBronzeingot=3,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
@@ -1788,7 +1788,7 @@ recipe Make Bronze Long Sword
 
 recipe Make Copper Long Sword
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCCopperingot=3,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1803,7 +1803,7 @@ recipe Make Copper Long Sword
 
 recipe Make Copper Long Sword
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCCopperingot=3,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
@@ -1818,7 +1818,7 @@ recipe Make Copper Long Sword
 
 recipe Make Steel Bastard Sword
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCSteelingot=4,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1833,7 +1833,7 @@ recipe Make Steel Bastard Sword
 
 recipe Make Iron Bastard Sword
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCIroningot=4,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1848,7 +1848,7 @@ recipe Make Iron Bastard Sword
 
 recipe Make Bronze Bastard Sword
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCBronzeingot=4,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1863,7 +1863,7 @@ recipe Make Bronze Bastard Sword
 
 recipe Make Bronze Bastard Sword
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCBronzeingot=4,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
@@ -1878,7 +1878,7 @@ recipe Make Bronze Bastard Sword
 
 recipe Make Copper Bastard Sword
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCCopperingot=4,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1893,7 +1893,7 @@ recipe Make Copper Bastard Sword
 
 recipe Make Copper Bastard Sword
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCCopperingot=4,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
@@ -1908,7 +1908,7 @@ recipe Make Copper Bastard Sword
 
 recipe Make Steel Great Sword
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCSteelingot=5,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1923,7 +1923,7 @@ recipe Make Steel Great Sword
 
 recipe Make Iron Great Sword
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCIroningot=5,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1938,7 +1938,7 @@ recipe Make Iron Great Sword
 
 recipe Make Bronze Great Sword
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCBronzeingot=5,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1953,7 +1953,7 @@ recipe Make Bronze Great Sword
 
 recipe Make Bronze Great Sword
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCBronzeingot=5,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
@@ -1968,7 +1968,7 @@ recipe Make Bronze Great Sword
 
 recipe Make Copper Great Sword
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCCopperingot=5,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -1983,7 +1983,7 @@ recipe Make Copper Great Sword
 
 recipe Make Copper Great Sword
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCCopperingot=5,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
@@ -1998,7 +1998,7 @@ recipe Make Copper Great Sword
 
 recipe Make Steel Sickle
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCSteelingot=2,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -2013,7 +2013,7 @@ recipe Make Steel Sickle
 
 recipe Make Iron Sickle
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCIroningot=2,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -2028,7 +2028,7 @@ recipe Make Iron Sickle
 
 recipe Make Bronze Sickle
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCBronzeingot=2,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -2043,7 +2043,7 @@ recipe Make Bronze Sickle
 
 recipe Make Bronze Sickle
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCBronzeingot=2,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
@@ -2058,7 +2058,7 @@ recipe Make Bronze Sickle
 
 recipe Make Copper Sickle
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCCopperingot=2,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
@@ -2073,7 +2073,7 @@ recipe Make Copper Sickle
 
 recipe Make Copper Sickle
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCCopperingot=2,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,

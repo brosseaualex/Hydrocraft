@@ -670,7 +670,7 @@ recipe Craft Sawblade Axe
 
 recipe Make Steel Axe
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCSteelingot=3,
     		WoodenStick,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -686,7 +686,7 @@ recipe Make Steel Axe
 
 recipe Make Steel Hatchet
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCSteelingot=2,
     		WoodenStick,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -702,7 +702,7 @@ recipe Make Steel Hatchet
 
 recipe Make Iron Hatchet
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCIroningot=2,
     		WoodenStick,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -718,7 +718,7 @@ recipe Make Iron Hatchet
 
 recipe Make Bronze Hatchet
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCBronzeingot=2,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -734,7 +734,7 @@ recipe Make Bronze Hatchet
 
 recipe Make Bronze Hatchet
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCBronzeingot=2,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -750,7 +750,7 @@ recipe Make Bronze Hatchet
 
 recipe Make Copper Hatchet
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCCopperingot=2,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -766,7 +766,7 @@ recipe Make Copper Hatchet
 
 recipe Make Copper Hatchet
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCCopperingot=2,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -782,7 +782,7 @@ recipe Make Copper Hatchet
 
 recipe Make Steel Battleaxe
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCSteelingot=3,
     		WoodenStick,
     		keep HCSmithyhammersteel,
@@ -798,7 +798,7 @@ recipe Make Steel Battleaxe
 
 recipe Make Iron Battleaxe
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCIroningot=3,
     		WoodenStick,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -814,7 +814,7 @@ recipe Make Iron Battleaxe
 
 recipe Make Bronze Battleaxe
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCBronzeingot=3,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -830,7 +830,7 @@ recipe Make Bronze Battleaxe
 
 recipe Make Bronze Battleaxe
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCBronzeingot=3,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -846,7 +846,7 @@ recipe Make Bronze Battleaxe
 
 recipe Make Copper Battleaxe
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCCopperingot=3,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -862,7 +862,7 @@ recipe Make Copper Battleaxe
 
 recipe Make Copper Battleaxe
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCCopperingot=3,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,

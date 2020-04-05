@@ -749,7 +749,7 @@ module Hydrocraft
 
 recipe Make Steel Halberd
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCSteelingot=3,
     		WoodenStick,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -765,7 +765,7 @@ recipe Make Steel Halberd
 
 recipe Make Iron Halberd
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCIroningot=3,
     		WoodenStick,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -781,7 +781,7 @@ recipe Make Iron Halberd
 
 recipe Make Bronze Halberd
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCBronzeingot=3,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -797,7 +797,7 @@ recipe Make Bronze Halberd
 
 recipe Make Bronze Halberd
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCBronzeingot=3,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -813,7 +813,7 @@ recipe Make Bronze Halberd
 
 recipe Make Copper Halberd
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCCopperingot=3,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -829,7 +829,7 @@ recipe Make Copper Halberd
 
 recipe Make Copper Halberd
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCCopperingot=3,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -845,7 +845,7 @@ recipe Make Copper Halberd
 
 recipe Make Steel Spear
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCSteelingot,
     		WoodenStick/TreeBranch,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -861,7 +861,7 @@ recipe Make Steel Spear
 
 recipe Make Iron Spear
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCIroningot,
     		WoodenStick/TreeBranch,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -877,7 +877,7 @@ recipe Make Iron Spear
 
 recipe Make Bronze Spear
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCBronzeingot,
     		WoodenStick/TreeBranch,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -893,7 +893,7 @@ recipe Make Bronze Spear
 
 recipe Make Bronze Spear
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCBronzeingot,
     		WoodenStick/TreeBranch,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -909,7 +909,7 @@ recipe Make Bronze Spear
 
 recipe Make Copper Spear
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCCopperingot,
     		WoodenStick/TreeBranch,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -925,7 +925,7 @@ recipe Make Copper Spear
 
 recipe Make Copper Spear
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCCopperingot,
     		WoodenStick/TreeBranch,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -941,7 +941,7 @@ recipe Make Copper Spear
 
 recipe Make Obsdian Spear
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCObsidian,
     		WoodenStick/TreeBranch,
     		Twine,
@@ -954,7 +954,7 @@ recipe Make Obsdian Spear
 
 recipe Make Stone Spear
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
     		SharpedStone,
     		WoodenStick/TreeBranch,
     		Twine,
@@ -976,7 +976,7 @@ recipe Make Quarterstaff
 
 recipe Make Steel Trident
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCSteelingot=2,
     		WoodenStick/TreeBranch,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -992,7 +992,7 @@ recipe Make Steel Trident
 
 recipe Make Iron Trident
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCIroningot=2,
     		WoodenStick/TreeBranch,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1008,7 +1008,7 @@ recipe Make Iron Trident
 
 recipe Make Bronze Trident
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCBronzeingot=2,
     		WoodenStick/TreeBranch,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1024,7 +1024,7 @@ recipe Make Bronze Trident
 
 recipe Make Bronze Trident
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCBronzeingot=2,
     		WoodenStick/TreeBranch,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1040,7 +1040,7 @@ recipe Make Bronze Trident
 
 recipe Make Copper Trident
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCCopperingot=2,
     		WoodenStick/TreeBranch,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1056,7 +1056,7 @@ recipe Make Copper Trident
 
 recipe Make Copper Trident
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCCopperingot=2,
     		WoodenStick/TreeBranch,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1072,7 +1072,7 @@ recipe Make Copper Trident
 
 recipe Make Steel Scythe
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCSteelingot=2,
     		WoodenStick,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1088,7 +1088,7 @@ recipe Make Steel Scythe
 
 recipe Make Iron Scythe
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCIroningot=2,
     		WoodenStick,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1104,7 +1104,7 @@ recipe Make Iron Scythe
 
 recipe Make Bronze Scythe
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCBronzeingot=2,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1120,7 +1120,7 @@ recipe Make Bronze Scythe
 
 recipe Make Bronze Scythe
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCBronzeingot=2,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1136,7 +1136,7 @@ recipe Make Bronze Scythe
 
 recipe Make Copper Scythe
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCCopperingot=2,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1152,7 +1152,7 @@ recipe Make Copper Scythe
 
 recipe Make Copper Scythe
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCCopperingot=2,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
