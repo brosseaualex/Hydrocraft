@@ -11,6 +11,7 @@ function HCRemoveSolarGen(items, result, player)
             NewGenerator:setFuel(0);
             NewGenerator:setCondition(0);
             NewGenerator:setActivated(false);
+			NewGenerator:setSurroundingElectricity();
             NewGenerator:remove();
                        
         
@@ -31,7 +32,7 @@ function HCSetSolarGen(items, result, player)
                 NewGenerator:setFuel(100);
                 NewGenerator:setCondition(100);
                 NewGenerator:setActivated(true);
-				NewGenerator:setSurroundingElectricity() ;
+				NewGenerator:setSurroundingElectricity();
                 NewGenerator:remove();
                 player:getCurrentSquare():AddWorldInventoryItem( "Hydrocraft.HCSolargen2" ,0.5,0.5,0);
                               
