@@ -2487,9 +2487,4 @@ Items_RU = {
 	Recipe_Write_Computer_Program = "Записать компьютерную программу",
 	Recipe_Write_Music = "Сочинять музыку",
 	Recipe_Write_Suicide_Note = "Написать предсмертную записку",
-
-
-	/* NEED TO TRANSLATE: */
-
-
 }

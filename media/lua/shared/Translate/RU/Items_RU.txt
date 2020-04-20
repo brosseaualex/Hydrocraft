@@ -5286,10 +5286,5 @@ Items_RU = {
 	DisplayName_Zucchini_Seeds_Packet = "Пачка семян цуКинии",
 	DisplayName_Zulu_Textbook = "Разговорник зулусского языка",
 	DisplayName_ink_Roller = "Валик для нанесения краски",
-
-
-	/* NEED TO TRANSLATE: */
-
-
 	DisplayName_MRE_Tuna_w/_Noodles = "MRE Тунец с лапшой",
 }
