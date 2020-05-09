@@ -80,6 +80,15 @@ item HCLabelselfmadeether
 	Icon			=	HCLabelselfmadeether,
 	}
 
+item HCLabelAgar
+    {
+    Weight          =   0.1,
+        Type            =   Normal,
+        DisplayName     =   Homemade Agar Label,
+    Icon            =   HCLabelselfmadeether,
+    }
+
+
 item HCLabelgasoline
 	{
 	Weight			=	0.1,
@@ -102,7 +111,7 @@ recipe Make Label
     {
     	SheetPaper2,
 	Glue/Woodglue/HCSuperglue/HCRubbercement/HCTar/HCHotgluegunfull/HCGluejar/HCWoodgluejar,
-	keep Scissors/HCBoxcutter/HCScalpel/HCScalpelimprovised/HCJackknife,
+	keep Scissors/HCBoxcutter/Base.Scalpel/HCScalpelimprovised/HCJackknife,
     	Result:HCLabelempty,
     	Time:500,
     	Category:Papercraft,
@@ -202,6 +211,20 @@ recipe Make Label For Homemade Ether
     	Category:Alchemy,
     	OnGiveXP:HCHunger_OnGiveXP,
     }
+
+
+recipe Make Label For Agar
+    {
+        HCLabelempty,
+        keep HCBookchemistry,
+        keep HCTypewriter/Pen/Pencil,
+        Result:HCLabelAgar,
+        Time:250,
+        Category:Alchemy,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+
 
 recipe Make Label For Gasoline
     {

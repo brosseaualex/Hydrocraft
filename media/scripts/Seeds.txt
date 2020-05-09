@@ -1073,29 +1073,39 @@ item HCSpirulinaseedspacket
 
 item HCBasilseeds
 	{
-
 	Type			= 	Normal,
-
 	DisplayName		= 	Basil Seeds,
-
 	Icon			= 	HCBasilseeds,
-
 	Weight			= 	0.009,
-
 	}
+
 
 item HCBasilseedspacket
-
 	{
-
 	Type			=  	Normal,
-
 	DisplayName		= 	Basil Packet,
-
 	Icon			= 	HCBasilseedspacket,
-
 	Weight			= 	0.1,
 	}
+
+item HCOreganoseeds
+	{
+	Type			= 	Normal,
+	DisplayName		= 	Oregano Seeds,
+	Icon			= 	HCBasilseeds,
+	Weight			= 	0.009,
+	}
+
+
+item HCOreganoseedspacket
+	{
+	Type			=  	Normal,
+	DisplayName		= 	Oregano Packet,
+	Icon			= 	HCBasilseedspacket,
+	Weight			= 	0.1,
+	}
+
+
 
 item HCAsparagusseeds
 	{
@@ -2268,6 +2278,24 @@ recipe Open Packet of Basil Seeds
         Time:20.0,
         Category:Farming,
 	}
+
+recipe Put Oregano Seeds in Packet
+    	{
+        HCOreganoseeds=50,
+        Result:HCOreganoseedspacket,
+        Time:10.0,
+        Category:Farming,
+    	}
+
+recipe Open Packet of Oregano Seeds
+	{
+        HCOreganoseedspacket,
+        Result:HCOreganoseeds=50,
+        Time:20.0,
+        Category:Farming,
+	}
+
+
 
 recipe Put Asparagus Seeds in Packet
     	{

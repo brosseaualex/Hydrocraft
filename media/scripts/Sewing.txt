@@ -8,14 +8,6 @@ module Hydrocraft
 
 /************************ITEMS************************/
 
-item HCBandanna
-    {
-        Weight    	= 0.1,
-        Type    	= Normal,
-        DisplayName 	= Bandanna,
-        icon 		= HCBandanna,
-    }
-
 item HCSafetypin
     {
         Weight    	= 0.01,
@@ -122,17 +114,15 @@ item HCLinenshirt
 	
 item HCLinenpants
 	{
-		Palettes	=	Trousers_White,
-		BodyLocation	=	Bottoms,
-		PalettesStart	=	Trousers_,
-		Type		=	Clothing,
-		Temperature	=	8,
-		SpriteName	=	Trousers,
-		DisplayName	=	Linen Pants,
-		Icon		=	HCLinenpants,
-		ConditionLowerChanceOneIn = 10,
-        	ConditionMax	=	7,
-        	Insulation  	=  	0.65,
+        Type = Clothing,
+        DisplayName = Linen Pants,
+        ClothingItem = Trousers,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Trousers_White,
+        Insulation = 0.50,
+        WindResistance = 0.40,
+        FabricType = Cotton,
 	}
 
 item HCSilkshirt
@@ -217,7 +207,7 @@ item HCClotheslinefull
         Type    		= Normal,
         DisplayName         	= Clothes Line with Clothes,
         icon 			= HCClotheslinefull,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCClotheslinefull2
@@ -226,7 +216,7 @@ item HCClotheslinefull2
         Type    		= Normal,
         DisplayName         	= Double Clothes Line with Clothes,
         icon 			= HCClotheslinefull2,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCBathtoweldirty
@@ -287,7 +277,7 @@ recipe Hang Clothes
     {
     	HCClothespin=6,
     	Underwear1/Underwear2/HCBriefs/HCBriefs2/HCBriefs3/HCBriefs4/HCBriefs5/HCBriefs6/HCBriefs7/HCPanties/HCPanties2/HCPanties3/HCPanties4/HCPanties5,
-    	Vest,
+    	Base.Vest,
     	Trousers,
     	HCClothesline,
     	CanBeDoneFromFloor:true,
@@ -301,9 +291,9 @@ recipe Hang Clothes
     {
     	HCClothespin=12,
     	Underwear1/Underwear2/HCBriefs/HCBriefs2/HCBriefs3/HCBriefs4/HCBriefs5/HCBriefs6/HCBriefs7/HCPanties/HCPanties2/HCPanties3/HCPanties4/HCPanties5,
-    	Vest,
+    	Base.Vest,
     	Trousers,
-    	Socks/Socks2,
+    	Base.Socks/Base.Socks2,
     	destroy BathTowel/BathTowelWet,
     	Sheet,
     	HCClothesline2,
@@ -333,7 +323,7 @@ recipe Make Burlap Sack
     	Result:EmptySandbag,
     	Time:100,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCTailoring_OnGiveNormXP,
     }
 
 recipe Make Flour Sack
@@ -344,7 +334,7 @@ recipe Make Flour Sack
     	Result:HCFlourempty,
     	Time:100,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCTailoring_OnGiveNormXP,
     }
 
 recipe Make Rice Sack
@@ -355,7 +345,7 @@ recipe Make Rice Sack
     	Result:HCRiceempty,
     	Time:100,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCTailoring_OnGiveNormXP,
     }
 
 recipe Make Pillow Case
@@ -366,7 +356,7 @@ recipe Make Pillow Case
     	Result:HCPillowcase,
     	Time:100,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCTailoring_OnGiveNormXP,
     }
 
 recipe Make Pillow Case
@@ -377,7 +367,7 @@ recipe Make Pillow Case
     	Result:HCPillowcase,
     	Time:100,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCTailoring_OnGiveNormXP,
     }
 
 recipe Make Pillow Case
@@ -388,7 +378,7 @@ recipe Make Pillow Case
     	Result:HCPillowcase,
     	Time:100,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCTailoring_OnGiveNormXP,
     }
 
 recipe Make Pillow Case
@@ -399,7 +389,7 @@ recipe Make Pillow Case
     	Result:HCPillowcase,
     	Time:100,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCTailoring_OnGiveNormXP,
     }
 
 recipe Make Pillow
@@ -411,8 +401,21 @@ recipe Make Pillow
     	Result:Pillow,
     	Time:25,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCTailoring_OnGiveNormXP,
     }
+
+recipe Make Pillow
+    {
+    HCBrownfeathers=10,
+    HCPillowcase,
+    keep Needle/HCBoneneedle,
+    Thread=1,
+        Result:Pillow,
+        Time:25,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveNormXP,
+    }
+
 
 recipe Stitch Garden Apron
 	{
@@ -423,7 +426,7 @@ recipe Stitch Garden Apron
     	NeedToBeLearn:true,
 	Time:200.0,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCTailoring_OnGiveManyXP,
 	}
 
 recipe Stitch Cooking Apron
@@ -435,7 +438,7 @@ recipe Stitch Cooking Apron
     	NeedToBeLearn:true,
 	Time:200.0,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCTailoring_OnGiveManyXP,
 	}
 	
 recipe Stitch Linen Shirt
@@ -447,7 +450,7 @@ recipe Stitch Linen Shirt
     	NeedToBeLearn:true,
 	Time:420.0,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 	
 recipe Stitch Linen Pants
@@ -459,31 +462,31 @@ recipe Stitch Linen Pants
     	NeedToBeLearn:true,
 	Time:420.0,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Stitch Silk Shirt
 	{
-	keep Needle/HCBoneneedle,
+	keep Needle,
 	HCSilkcloth=12,
 	Thread=8,	
 	Result:HCSilkshirt,
     	NeedToBeLearn:true,
 	Time:420.0,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 	
 recipe Stitch Silk Pants
 	{
-	keep Needle/HCBoneneedle,
+	keep Needle,
 	HCSilkcloth=9,
 	Thread=6,	
 	Result:HCSilkpants,
     	NeedToBeLearn:true,
 	Time:420.0,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Stitch Wool Shirt
@@ -495,7 +498,7 @@ recipe Stitch Wool Shirt
     	NeedToBeLearn:true,
 	Time:420.0,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 	
 recipe Stitch Wool Pants
@@ -507,111 +510,22 @@ recipe Stitch Wool Pants
     	NeedToBeLearn:true,
 	Time:420.0,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
-recipe Make Bag
-    {
-    HCNyloncloth=3,
-    HCZipper,
-    Thread,
-    keep Needle/HCBoneneedle,
-    Result:Schoolbag,
-    NeedToBeLearn:true,
-    Time:1000.0,
-    Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
 
 recipe Make Bag
     {
-    HCNyloncloth=4,
-    HCZipper,
-    Thread,
-    keep Needle/HCBoneneedle,
-    Result:Duffelbag,
-    NeedToBeLearn:true,
-    Time:1000.0,
-    Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Make Bag
-    {
-    HCNyloncloth=5,
-    HCZipper,
+    HCNyloncloth=20,
+    HCZipper=5,
     Thread=2,
     keep Needle/HCBoneneedle,
-    Result:NormalHikingBag,
+    Result:Bag_SurvivorBag,
     NeedToBeLearn:true,
     Time:1000.0,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
-recipe Make Bag
-    {
-    HCNyloncloth=6,
-    HCZipper,
-    Thread=2,
-    keep Needle/HCBoneneedle,
-    Result:BigHikingBag,
-    NeedToBeLearn:true,
-    Time:1000.0,
-    Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
 
-recipe Make Bag
-    {
-    HCNyloncloth=5,
-    HCZipper,
-    Thread=2,
-    keep Needle/HCBoneneedle,
-    Result:HCClimbingpack,
-    NeedToBeLearn:true,
-    Time:1000.0,
-    Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Make Bag
-    {
-    HCNyloncloth=7,
-    HCZipper,
-    Thread=2,
-    keep Needle/HCBoneneedle,
-    Result:HCCampingpack,
-    NeedToBeLearn:true,
-    Time:1000.0,
-    Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Make Bag
-    {
-    HCNyloncloth=7,
-    HCZipper,
-    Thread=2,
-    keep Needle/HCBoneneedle,
-    Result:HCAlicepack2,
-    NeedToBeLearn:true,
-    Time:1000.0,
-    Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Make Bag
-    {
-    HCNyloncloth=8,
-    HCZipper,
-    Thread=2,
-    keep Needle/HCBoneneedle,
-    Result:HCAlicepack,
-    NeedToBeLearn:true,
-    Time:1000.0,
-    Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-	
 }

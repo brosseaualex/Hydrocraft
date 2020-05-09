@@ -23,7 +23,7 @@ item HCGreybrickbox
         Type   			= Normal,
         DisplayName         	= Pallet of Grey Bricks,
         icon 			= HCGreybrickbox,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCRedbrick
@@ -40,7 +40,7 @@ item HCRedbrickbox
         Type   			= Normal,
         DisplayName         	= Pallet of Red Bricks,
         icon 			= HCRedbrickbox,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCRefractorybrick
@@ -131,7 +131,7 @@ recipe Make Grey Brick
     	HCGreyclay,
     	Charcoal,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:HCGreybrick,
     	NeedToBeLearn:true,
@@ -146,7 +146,7 @@ recipe Make Red Brick
     	HCRedclay,
    	Charcoal,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:HCRedbrick,
     	NeedToBeLearn:true,
@@ -182,7 +182,7 @@ recipe Make Concrete Ingot
     	HCIngotmold,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:HCConcreteingot,
     	NeedToBeLearn:true,

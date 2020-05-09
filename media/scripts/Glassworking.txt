@@ -212,9 +212,9 @@ recipe Break Bottle
 recipe Make Iron Blowpipe
 	{
 	HCIroningot=2,
-    	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    	keep Tongs,
-    	keep HCWorkgloves/HCOvenmitts,
+    keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
 	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
 	Result:HCIronblowpipe,
@@ -231,7 +231,7 @@ recipe Create Glass from Sand
     HCIngotmold=2,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlassingot=2,
     NeedToBeLearn:true,
@@ -249,7 +249,7 @@ recipe Create Glass from Sand
     HCIngotmold=2,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlassingot=2,
     NeedToBeLearn:true,
@@ -267,7 +267,7 @@ recipe Create Glass Pane
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlasspane,
     NeedToBeLearn:true,
@@ -285,7 +285,7 @@ recipe Create Large Glass Pane
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlasspanelarge,
     NeedToBeLearn:true,
@@ -303,7 +303,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlassflask,
     NeedToBeLearn:true,
@@ -321,7 +321,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlassflaskbuchner,
     NeedToBeLearn:true,
@@ -339,7 +339,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlassflaskflorence,
     NeedToBeLearn:true,
@@ -357,7 +357,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlassflaskretort,
     NeedToBeLearn:true,
@@ -375,7 +375,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlassbeaker,
     NeedToBeLearn:true,
@@ -393,7 +393,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCBongempty,
     NeedToBeLearn:true,
@@ -411,7 +411,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:EmptyJar,
     NeedToBeLearn:true,
@@ -423,6 +423,25 @@ recipe Create Glassware
 
 recipe Create Glassware
     {
+    HCGlassingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep Tongs,
+    keep HCIronblowpipe,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSpicejar=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:SmeltUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+
+recipe Create Glassware
+    {
     HCBrownpigment,
     HCGlassingot,
     Charcoal,
@@ -430,7 +449,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlassbottleempty,
     NeedToBeLearn:true,
@@ -448,7 +467,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:WhiskeyEmpty,
     NeedToBeLearn:true,
@@ -466,7 +485,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlassjug,
     NeedToBeLearn:true,
@@ -485,7 +504,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:WineEmpty,
     NeedToBeLearn:true,
@@ -503,7 +522,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlassgraduatedcylinder,
     NeedToBeLearn:true,
@@ -521,7 +540,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlasstesttube=4,
     NeedToBeLearn:true,
@@ -539,7 +558,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlassballoon,
     NeedToBeLearn:true,
@@ -557,7 +576,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlassconnector,
     NeedToBeLearn:true,
@@ -575,7 +594,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlasspipe,
     NeedToBeLearn:true,
@@ -593,7 +612,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlasspipeelbow,
     NeedToBeLearn:true,
@@ -611,7 +630,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlasscooler,
     NeedToBeLearn:true,
@@ -629,7 +648,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlassfunnel,
     NeedToBeLearn:true,
@@ -647,7 +666,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCWineglass=2,
     NeedToBeLearn:true,
@@ -665,7 +684,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCBeerglass=2,
     NeedToBeLearn:true,
@@ -683,7 +702,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCMeasuringcup,
     NeedToBeLearn:true,
@@ -702,7 +721,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCEyedropper,
     NeedToBeLearn:true,
@@ -721,7 +740,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCThermometer,
     NeedToBeLearn:true,
@@ -740,7 +759,7 @@ recipe Create Glassware
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSaltshakerempty,
     NeedToBeLearn:true,
@@ -759,7 +778,7 @@ recipe Create Glassware
     keep HCGlasscutter,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCPetridish=3,
     NeedToBeLearn:true,
@@ -778,7 +797,7 @@ recipe Create Glassware
     keep HCGlasscutter,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCMicroscopeslide=4,
     NeedToBeLearn:true,
@@ -796,7 +815,7 @@ recipe Create Glass Animal Eyes
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCAnimalglasseye=10,
     NeedToBeLearn:true,
@@ -814,7 +833,7 @@ recipe Create Glass Marbles
     keep Tongs,
     keep HCIronblowpipe,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGlassmarbles,
     NeedToBeLearn:true,
@@ -824,245 +843,7 @@ recipe Create Glass Marbles
     OnGiveXP:HCWelding_OnGiveXP,
     }
 	
-	recipe Make Car Window
-    {
-		HCGlassingot=2,
-		HCPlastic=2,
-		Charcoal,
-
-		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-		keep Tongs,
-		keep HCWorkgloves/HCOvenmitts,
-		keep HCFurnace,HCFurnace2,
-		CanBeDoneFromFloor:true,
-		Result:FrontWindow1,
-		SkillRequired:MetalWelding=8,
-		NeedToBeLearn:true,
-		Time:1000,
-		Category:Glassworking,
-		OnCreate:IFurnUse,
-		OnGiveXP:HCWelding_OnGiveXP,
-    }
-	
-recipe Make Car Window
-    {
-		HCGlassingot=2,
-		HCPlastic=2,
-		Charcoal,
-
-		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-		keep Tongs,
-		keep HCWorkgloves/HCOvenmitts,
-		keep HCFurnace,HCFurnace2,
-		CanBeDoneFromFloor:true,
-		Result:FrontWindow2,
-		SkillRequired:MetalWelding=8,
-		NeedToBeLearn:true,
-		Time:1000,
-		Category:Glassworking,
-		OnCreate:IFurnUse,
-		OnGiveXP:HCWelding_OnGiveXP,
-    }
-	
-recipe Make Car Window
-    {
-		HCGlassingot=2,
-		HCPlastic=2,
-		Charcoal,
-
-		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-		keep Tongs,
-		keep HCWorkgloves/HCOvenmitts,
-		keep HCFurnace,HCFurnace2,
-		CanBeDoneFromFloor:true,
-		Result:FrontWindow3,
-		SkillRequired:MetalWelding=8,
-		NeedToBeLearn:true,
-		Time:1000,
-		Category:Glassworking,
-		OnCreate:IFurnUse,
-		OnGiveXP:HCWelding_OnGiveXP,
-    }
 		
-recipe Make Car Window
-    {
-		HCGlassingot=2,
-		HCPlastic=2,
-		Charcoal,
-
-		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-		keep Tongs,
-		keep HCWorkgloves/HCOvenmitts,
-		keep HCFurnace,HCFurnace2,
-		CanBeDoneFromFloor:true,
-		Result:RearWindow1,
-		SkillRequired:MetalWelding=8,
-		NeedToBeLearn:true,
-		Time:1000,
-		Category:Glassworking,
-		OnCreate:IFurnUse,
-		OnGiveXP:HCWelding_OnGiveXP,
-    }
-	
-recipe Make Car Window
-    {
-		HCGlassingot=2,
-		HCPlastic=2,
-		Charcoal,
-
-		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-		keep Tongs,
-		keep HCWorkgloves/HCOvenmitts,
-		keep HCFurnace,HCFurnace2,
-		CanBeDoneFromFloor:true,
-		Result:RearWindow2,
-		SkillRequired:MetalWelding=8,
-		NeedToBeLearn:true,
-		Time:1000,
-		Category:Glassworking,
-		OnCreate:IFurnUse,
-		OnGiveXP:HCWelding_OnGiveXP,
-    }	
-	
-recipe Make Car Window
-    {
-		HCGlassingot=2,
-		HCPlastic=2,
-		Charcoal,
-
-		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-		keep Tongs,
-		keep HCWorkgloves/HCOvenmitts,
-		keep HCFurnace,HCFurnace2,
-		CanBeDoneFromFloor:true,
-		Result:RearWindow3,
-		SkillRequired:MetalWelding=8,
-		NeedToBeLearn:true,
-		Time:1000,
-		Category:Glassworking,
-		OnCreate:IFurnUse,
-		OnGiveXP:HCWelding_OnGiveXP,
-    }		
-
-recipe Make Car Windshield
-	 {
-		HCGlassingot=4,
-		HCPlastic=4,
-		Charcoal,
-
-		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-		keep Tongs,
-		keep HCWorkgloves/HCOvenmitts,
-		keep HCFurnace,HCFurnace2,
-		CanBeDoneFromFloor:true,
-		Result:Windshield1,
-		SkillRequired:MetalWelding=8,
-		NeedToBeLearn:true,
-		Time:1000,
-		Category:Glassworking,
-		OnCreate:IFurnUse,
-		OnGiveXP:HCWelding_OnGiveXP,
-    }
-	
-recipe Make Car Windshield
-	 {
-		HCGlassingot=4,
-		HCPlastic=4,
-		Charcoal,
-
-		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-		keep Tongs,
-		keep HCWorkgloves/HCOvenmitts,
-		keep HCFurnace,HCFurnace2,
-		CanBeDoneFromFloor:true,
-		Result:Windshield2,
-		SkillRequired:MetalWelding=8,
-		NeedToBeLearn:true,
-		Time:1000,
-		Category:Glassworking,
-		OnCreate:IFurnUse,
-		OnGiveXP:HCWelding_OnGiveXP,
-    }
-	
-recipe Make Car Windshield
-	 {
-		HCGlassingot=4,
-		HCPlastic=4,
-		Charcoal,
-
-		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-		keep Tongs,
-		keep HCWorkgloves/HCOvenmitts,
-		keep HCFurnace,HCFurnace2,
-		CanBeDoneFromFloor:true,
-		Result:Windshield3,
-		SkillRequired:MetalWelding=8,
-		NeedToBeLearn:true,
-		Time:1000,
-		Category:Glassworking,
-		OnCreate:IFurnUse,
-		OnGiveXP:HCWelding_OnGiveXP,
-    }	
-	
-recipe Make Car Windshield
-	 {
-		HCGlassingot=4,
-		HCPlastic=4,
-		Charcoal,
-
-		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-		keep Tongs,
-		keep HCWorkgloves/HCOvenmitts,
-		keep HCFurnace,HCFurnace2,
-		CanBeDoneFromFloor:true,
-		Result:RearWindshield1,
-		SkillRequired:MetalWelding=8,
-		NeedToBeLearn:true,
-		Time:1000,
-		Category:Glassworking,
-		OnCreate:IFurnUse,
-		OnGiveXP:HCWelding_OnGiveXP,
-    }	 
-  
-recipe Make Car Windshield
-	 {
-		HCGlassingot=4,
-		HCPlastic=4,
-		Charcoal,
-
-		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-		keep Tongs,
-		keep HCWorkgloves/HCOvenmitts,
-		keep HCFurnace,HCFurnace2,
-		CanBeDoneFromFloor:true,
-		Result:RearWindshield2,
-		SkillRequired:MetalWelding=8,
-		NeedToBeLearn:true,
-		Time:1000,
-		Category:Glassworking,
-		OnCreate:IFurnUse,
-		OnGiveXP:HCWelding_OnGiveXP,
-    }	
-
-recipe Make Car Windshield
-	 {
-		HCGlassingot=4,
-		HCPlastic=4,
-		Charcoal,
-
-		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-		keep Tongs,
-		keep HCWorkgloves/HCOvenmitts,
-		keep HCFurnace,HCFurnace2,
-		CanBeDoneFromFloor:true,
-		Result:RearWindshield3,
-		SkillRequired:MetalWelding=8,
-		NeedToBeLearn:true,
-		Time:1000,
-		Category:Glassworking,
-		OnCreate:IFurnUse,
-		OnGiveXP:HCWelding_OnGiveXP,
-    }		
 	
 recipe Create Glassware
     {
@@ -1072,7 +853,7 @@ recipe Create Glassware
 		keep Tongs,
 		keep HCIronblowpipe,
 		keep HCWorkgloves/HCOvenmitts,
-		keep HCSmelter/HCSmelter2,
+		keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
 		CanBeDoneFromFloor:true,
 		Result:HCBlackink0,
 		NeedToBeLearn:true,
@@ -1081,5 +862,11 @@ recipe Create Glassware
 		OnCreate:SmeltUse,
 		OnGiveXP:HCWelding_OnGiveXP,
     }	
+
+
+
+
+
+
 
 }

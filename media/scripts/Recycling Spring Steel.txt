@@ -1,0 +1,49 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************RECIPES************************/
+
+recipe Recycle Spring Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCBedsprings,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves,
+    keep HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSSpringSteelIngot=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Spring Steel
+    {
+    SkillRequired:MetalWelding=5,
+    HCClothespinbox=4,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves,
+    keep HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSSpringSteelIngot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:BFurnUse,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+}

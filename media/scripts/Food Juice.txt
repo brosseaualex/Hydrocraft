@@ -660,7 +660,7 @@ item HCRemouladeapplejuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Apple Juice,
-	ReplaceOnUse			=	RemouladeEmpty,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
 	Icon				=	HCRemouladeapplejuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -680,7 +680,7 @@ item HCRemouladecarrotjuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Carrot Juice,
-	ReplaceOnUse			=	RemouladeEmpty,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
 	Icon				=	HCRemouladecarrotjuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -700,7 +700,7 @@ item HCRemouladegrapejuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Grape Juice,
-	ReplaceOnUse			=	RemouladeEmpty,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
 	Icon				=	HCRemouladegrapejuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -720,7 +720,7 @@ item HCRemouladelemonjuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Lemon Juice,
-	ReplaceOnUse			=	RemouladeEmpty,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
 	Icon				=	HCRemouladelemonjuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -740,7 +740,7 @@ item HCRemouladeorangejuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Orange Juice,
-	ReplaceOnUse			=	RemouladeEmpty,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
 	Icon				=	HCRemouladeorangejuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -760,7 +760,7 @@ item HCRemouladelimejuice
 	UnhappyChange 			= 	-10,
 	ThirstChange 			= 	-70,
 	DisplayName 			= 	Lime Juice,
-	ReplaceOnUse 			= 	RemouladeEmpty,
+	ReplaceOnUse 			= 	Base.RemouladeEmpty,
 	Icon 				= 	HCRemouladelimejuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -780,7 +780,7 @@ item HCRemouladestrawberryjuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Strawberry Juice,
-	ReplaceOnUse			=	RemouladeEmpty,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
 	Icon				=	HCRemouladestrawberryjuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -800,7 +800,7 @@ item HCRemouladetomatojuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Tomato Juice,
-	ReplaceOnUse			=	RemouladeEmpty,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
 	Icon				=	HCRemouladetomatojuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -820,7 +820,7 @@ item HCRemouladewatermelonjuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Watermelon Juice,
-	ReplaceOnUse			=	RemouladeEmpty,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
 	Icon				=	HCRemouladewatermelonjuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -840,7 +840,7 @@ item HCRemouladepineapplejuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Pineapple Juice,
-	ReplaceOnUse			=	RemouladeEmpty,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
 	Icon				=	HCRemouladepineapplejuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -860,7 +860,7 @@ item HCRemouladeblueberryjuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Blueberry Juice,
-	ReplaceOnUse			=	RemouladeEmpty,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
 	Icon				=	HCRemouladeblueberryjuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -880,7 +880,7 @@ item HCRemouladeblackberryjuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Blackberry Juice,
-	ReplaceOnUse			=	RemouladeEmpty,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
 	Icon				=	HCRemouladeblackberryjuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -900,7 +900,7 @@ item HCRemouladewildberryjuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Wild Berry Juice,
-	ReplaceOnUse			=	RemouladeEmpty,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
 	Icon				=	HCRemouladewildberryjuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -920,7 +920,7 @@ item HCRemouladecherryjuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Cherry Juice,
-	ReplaceOnUse			=	RemouladeEmpty,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
 	Icon				=	HCRemouladecherryjuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -940,7 +940,7 @@ item HCMayonnaiseapplejuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Apple Juice,
-	ReplaceOnUse			=	MayonnaiseEmpty,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
 	Icon				=	HCMayonnaiseapplejuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -960,7 +960,7 @@ item HCMayonnaisecarrotjuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Carrot Juice,
-	ReplaceOnUse			=	MayonnaiseEmpty,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
 	Icon				=	HCMayonnaisecarrotjuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -980,7 +980,7 @@ item HCMayonnaisegrapejuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Grape Juice,
-	ReplaceOnUse			=	MayonnaiseEmpty,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
 	Icon				=	HCMayonnaisegrapejuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -1000,7 +1000,7 @@ item HCMayonnaiselemonjuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Lemon Juice,
-	ReplaceOnUse			=	MayonnaiseEmpty,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
 	Icon				=	HCMayonnaiselemonjuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -1020,7 +1020,7 @@ item HCMayonnaiseorangejuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Orange Juice,
-	ReplaceOnUse			=	MayonnaiseEmpty,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
 	Icon				=	HCMayonnaiseorangejuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -1040,7 +1040,7 @@ item HCMayonnaiselimejuice
 	UnhappyChange 			= 	-10,
 	ThirstChange 			= 	-70,
 	DisplayName 			= 	Lime Juice,
-	ReplaceOnUse 			= 	MayonnaiseEmpty,
+	ReplaceOnUse 			= 	Base.MayonnaiseEmpty,
 	Icon 				= 	HCMayonnaiselimejuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -1060,7 +1060,7 @@ item HCMayonnaisestrawberryjuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Strawberry Juice,
-	ReplaceOnUse			=	MayonnaiseEmpty,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
 	Icon				=	HCMayonnaisestrawberryjuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -1080,7 +1080,7 @@ item HCMayonnaisetomatojuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Tomato Juice,
-	ReplaceOnUse			=	MayonnaiseEmpty,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
 	Icon				=	HCMayonnaisetomatojuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -1100,7 +1100,7 @@ item HCMayonnaisewatermelonjuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Watermelon Juice,
-	ReplaceOnUse			=	MayonnaiseEmpty,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
 	Icon				=	HCMayonnaisewatermelonjuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -1120,7 +1120,7 @@ item HCMayonnaisepineapplejuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Pineapple Juice,
-	ReplaceOnUse			=	MayonnaiseEmpty,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
 	Icon				=	HCMayonnaisepineapplejuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -1140,7 +1140,7 @@ item HCMayonnaiseblueberryjuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Blueberry Juice,
-	ReplaceOnUse			=	MayonnaiseEmpty,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
 	Icon				=	HCMayonnaiseblueberryjuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -1160,7 +1160,7 @@ item HCMayonnaiseblackberryjuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Blackberry Juice,
-	ReplaceOnUse			=	MayonnaiseEmpty,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
 	Icon				=	HCMayonnaiseblackberryjuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -1180,7 +1180,7 @@ item HCMayonnaisewildberryjuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Wild Berry Juice,
-	ReplaceOnUse			=	MayonnaiseEmpty,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
 	Icon				=	HCMayonnaisewildberryjuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -1200,7 +1200,7 @@ item HCMayonnaisecherryjuice
 	UnhappyChange			=	-10,
 	ThirstChange			=	-70,
 	DisplayName			=	Cherry Juice,
-	ReplaceOnUse			=	MayonnaiseEmpty,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
 	Icon				=	HCMayonnaisecherryjuice,
 	CustomContextMenu 		= 	Drink,
 	FoodType			=	NoExplicit,
@@ -1782,7 +1782,7 @@ item HCJuiceboxpinklemonaid
 		ReplaceOnUse		=	HCEmptyjuiceboxpinklemonaid,
 		Icon			=	HCJuiceboxpinklemonaid,
 		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
 		FoodType		=	NoExplicit,
        		Carbohydrates 		= 	14.8,
         	Proteins 		= 	0,
@@ -1803,7 +1803,7 @@ item HCJuiceboxcherry
 		ReplaceOnUse		=	HCEmptyjuiceboxcherry,
 		Icon			=	HCJuiceboxcherry,
 		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
 		FoodType		=	NoExplicit,
        		Carbohydrates 		= 	32,
         	Proteins 		= 	2.2,
@@ -1824,7 +1824,7 @@ item HCJuiceboxorange
 		ReplaceOnUse		=	HCEmptyjuiceboxorange,
 		Icon			=	HCJuiceboxorange,
 		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
 		FoodType		=	NoExplicit,
        		Carbohydrates 		= 	20,
         	Proteins 		= 	1.4,
@@ -1845,7 +1845,7 @@ item HCJuiceboxlemonaid
 		ReplaceOnUse		=	HCEmptyjuiceboxlemonaid,
 		Icon			=	HCJuiceboxlemonaid,
 		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
 		FoodType		=	NoExplicit,
        		Carbohydrates 		= 	20,
         	Proteins 		= 	0.2,
@@ -1866,7 +1866,7 @@ item HCJuiceboxapple
 		ReplaceOnUse		=	HCEmptyjuiceboxapple,
 		Icon			=	HCJuiceboxapple,
 		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
 		FoodType		=	NoExplicit,
        		Carbohydrates 		= 	22,
         	Proteins 		= 	0.2,
@@ -1887,7 +1887,7 @@ item HCJuiceboxblueraspberry
 		ReplaceOnUse		=	HCEmptyjuiceboxblueraspberry,
 		Icon			=	HCJuiceboxblueraspberry,
 		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
 		FoodType		=	NoExplicit,
        		Carbohydrates 		= 	28,
         	Proteins 		= 	1.4,
@@ -1908,7 +1908,7 @@ item HCJuiceboxgrape
 		ReplaceOnUse		=	HCEmptyjuiceboxgrape,
 		Icon			=	HCJuiceboxgrape,
 		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
 		FoodType		=	NoExplicit,
        		Carbohydrates 		= 	30,
         	Proteins 		= 	0,
@@ -2575,7 +2575,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		Apple=4,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladeapplejuice,
@@ -2589,7 +2589,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		Carrots=4,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladecarrotjuice,
@@ -2603,7 +2603,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		Grapes=4,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladegrapejuice,
@@ -2617,7 +2617,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		Lemon=4,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladelemonjuice,
@@ -2631,7 +2631,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		Orange=4,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladeorangejuice,
@@ -2645,7 +2645,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
 		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		HCLime=4,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladelimejuice,
@@ -2659,7 +2659,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		Strewberrie=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladestrawberryjuice,
@@ -2673,7 +2673,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		Tomato=4,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladetomatojuice,
@@ -2687,7 +2687,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		Watermelon,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladewatermelonjuice,
@@ -2701,7 +2701,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		WatermelonSliced=5,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladewatermelonjuice,
@@ -2715,7 +2715,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		WatermelonSmashed=2,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladewatermelonjuice,
@@ -2729,7 +2729,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		Pineapple,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladepineapplejuice,
@@ -2743,7 +2743,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		BerryBlue=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladeblueberryjuice,
@@ -2757,7 +2757,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		BerryBlack=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladeblackberryjuice,
@@ -2771,7 +2771,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		BerryGeneric1=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladewildberryjuice,
@@ -2785,7 +2785,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		BerryGeneric2=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladewildberryjuice,
@@ -2799,7 +2799,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		BerryGeneric3=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladewildberryjuice,
@@ -2813,7 +2813,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		BerryGeneric4=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladewildberryjuice,
@@ -2827,7 +2827,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		BerryGeneric5=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladewildberryjuice,
@@ -2841,7 +2841,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy RemouladeEmpty,
+		destroy Base.RemouladeEmpty,
 		Cherry=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCRemouladecherryjuice,
@@ -2855,7 +2855,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		Apple=4,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaiseapplejuice,
@@ -2869,7 +2869,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		Carrots=4,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaisecarrotjuice,
@@ -2883,7 +2883,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		Grapes=4,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaisegrapejuice,
@@ -2897,7 +2897,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		Lemon=4,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaiselemonjuice,
@@ -2911,7 +2911,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		Orange=4,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaiseorangejuice,
@@ -2925,7 +2925,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
 		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		HCLime=4,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaiselimejuice,
@@ -2939,7 +2939,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		Strewberrie=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaisestrawberryjuice,
@@ -2953,7 +2953,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		Tomato=4,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaisetomatojuice,
@@ -2967,7 +2967,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		Watermelon,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaisewatermelonjuice,
@@ -2981,7 +2981,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		WatermelonSliced=5,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaisewatermelonjuice,
@@ -2995,7 +2995,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		WatermelonSmashed=2,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaisewatermelonjuice,
@@ -3009,7 +3009,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		Pineapple,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaisepineapplejuice,
@@ -3023,7 +3023,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		BerryBlue=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaiseblueberryjuice,
@@ -3037,7 +3037,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		BerryBlack=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaiseblackberryjuice,
@@ -3051,7 +3051,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		BerryGeneric1=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaisewildberryjuice,
@@ -3065,7 +3065,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		BerryGeneric2=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaisewildberryjuice,
@@ -3079,7 +3079,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		BerryGeneric3=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaisewildberryjuice,
@@ -3093,7 +3093,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		BerryGeneric4=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaisewildberryjuice,
@@ -3107,7 +3107,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		BerryGeneric5=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaisewildberryjuice,
@@ -3121,7 +3121,7 @@ recipe Make Bottle of Juice
 recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
-		destroy MayonnaiseEmpty,
+		destroy Base.MayonnaiseEmpty,
 		Cherry=8,
 		keep HCJuicer/HCJuicer2,
 		Result:HCMayonnaisecherryjuice,

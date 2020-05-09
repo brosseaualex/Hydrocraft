@@ -15,7 +15,7 @@ item HCMinehole
         Type    		= Normal,
         DisplayName         	= Mine Hole,
         icon 			= HCMinehole,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCMineholeB
@@ -24,90 +24,107 @@ item HCMineholeB
         Type    		= Normal,
         DisplayName         	= Mine Hole,
         icon 			= HCMinehole,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCMinehole2
     {
         Weight    		= 30,
         Type    		= Normal,
-        DisplayName         	= Mine Hole with Pully,
+        DisplayName     = Mine Hole with Pully,
         icon 			= HCMinehole2,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCMinehole2B
     {
         Weight    		= 10000,
         Type    		= Normal,
-        DisplayName         	= Mine Hole with Pully,
+        DisplayName     = Mine Hole with Pully,
         icon 			= HCMinehole2,
-	ResizeWorldIcon 	= 2.0,
+	
     }
+
+item HCIronMine
+    {
+        Weight          = 30,
+        Type            = Normal,
+        DisplayName     = Iron Mine,
+        icon            = HCMinehole2,
+    }
+
+item HCCoalMine
+    {
+        Weight          = 30,
+        Type            = Normal,
+        DisplayName     = Coal Mine,
+        icon            = HCMinehole2,
+    }
+
+
 
 item HCDarkmine
     {
         Weight    		= 30,
         Type    		= Normal,
-        DisplayName         	= Dark Mine,
+        DisplayName     = Dark Mine,
         icon 			= HCDarkmine,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCDarkmineB
     {
         Weight    		= 10000,
         Type    		= Normal,
-        DisplayName         	= Dark Mine,
+        DisplayName     = Dark Mine,
         icon 			= HCDarkmine,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCDarkmine2
     {
         Weight    		= 30,
         Type    		= Normal,
-        DisplayName         	= Dark Mine with Pully,
+        DisplayName     = Dark Mine with Pully,
         icon 			= HCDarkmine2,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCDarkmine2B
     {
         Weight    		= 10000,
         Type    		= Normal,
-        DisplayName         	= Dark Mine with Pully,
+        DisplayName     = Dark Mine with Pully,
         icon 			= HCDarkmine2,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCDarkmine3
     {
         Weight    		= 30,
         Type    		= Normal,
-        DisplayName         	= Dark Mine with Steam Pully,
+        DisplayName     = Dark Mine with Steam Pully,
         icon 			= HCDarkmine3,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCDarkmine3B
     {
         Weight    		= 10000,
         Type    		= Normal,
-        DisplayName         	= Dark Mine with Steam Pully,
+        DisplayName     = Dark Mine with Steam Pully,
         icon 			= HCDarkmine3,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCMinecart
    {
-	WeightReduction        		= 50,
+	WeightReduction        	= 50,
 	Weight             		= 20,
-	Type                		= Container,
-	Capacity             		= 200,
-	DisplayName             	= Mine Cart,
-	Icon				= HCMinecart,
-	ResizeWorldIcon 		= 2.0,
+	Type                	= Container,
+	Capacity             	= 200,
+	DisplayName             = Mine Cart,
+	Icon				   = HCMinecart,
 	RequiresEquippedBothHands 	= true,
    }
 
@@ -117,7 +134,7 @@ item HCQuarrystone
         Type    		= Normal,
         DisplayName         	= Stone Quarry,
         icon 			= HCQuarrystone,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCQuarrystone2
@@ -126,7 +143,7 @@ item HCQuarrystone2
         Type    		= Normal,
         DisplayName         	= Stone Quarry,
         icon 			= HCQuarrystone,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCDirt
@@ -564,213 +581,110 @@ item HCShale
 
 recipe Pack Dirt
     {
-    	HCDirt=4,
+    HCDirt=4,
 	EmptySandbag,
 	keep Shovel,
-    	Result:Dirtbag,
-    	Time:50,
-    	Category:Stoneworking,
+    Result:Dirtbag,
+    Time:50,
+    Category:Stoneworking,
     }
 
 recipe Unpack Dirt
     {
-    	Dirtbag,
-    	Result:HCDirt,
-    	Time:50,
-    	Category:Stoneworking,
+    Dirtbag,
+    Result:HCDirt,
+    Time:50,
+    Category:Stoneworking,
     }
-
-recipe Dig with Shoes
-    {
-    	keep Shoes,
-    	Result:HCDirt,
-    	Time:1000,
-    	Category:Survivalist,
-    	OnCreate:hcdigshoe,
-    }
-
-recipe Sift Dirt
-    {
-    	Dirtbag,
-    	keep HCColander,
-    	Result:HCColander,
-    	NeedToBeLearn:true,
-    	Time:100,
-    	Category:Survivalist,
-    	OnCreate:HCSiftDirt,
-    	RemoveResultItem:true,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Sift Dirt
-    {
-    	HCDirt,
-    	keep HCColander,
-    	Result:HCColander,
-    	NeedToBeLearn:true,
-    	Time:100,
-    	Category:Survivalist,
-    	OnCreate:HCSiftDirt,
-    	RemoveResultItem:true,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
 
 recipe Dig Mine
     {
-    	HCAuger,
-    	HCRopethick,
-    	TentPeg/HCStake/HCStakehard,
-    	TentPeg/HCStake/HCStakehard,
-    	TentPeg/HCStake/HCStakehard,
-    	HCWoodenladder,
-    	CanBeDoneFromFloor:true,
-    	Result:HCMinehole,
-    	NeedToBeLearn:true,
-    	Time:1000,
-    	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    HCAuger,
+    HCRopethick,
+    Base.TentPeg/HCStake/HCStakehard,
+    Base.TentPeg/HCStake/HCStakehard,
+    Base.TentPeg/HCStake/HCStakehard,
+    HCWoodenladder,
+    CanBeDoneFromFloor:true,
+    Result:HCMinehole,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Stoneworking,
+    OnGiveXP:HCHunger_OnGiveXP,
     }
 
 recipe Anchor Mine
     {
-    	HCMinehole,
-    	CanBeDoneFromFloor:true,
-    	Result:HCMineholeB,
-    	Time:100,
-    	Category:Anchor,
+    HCMinehole,
+    CanBeDoneFromFloor:true,
+    Result:HCMineholeB,
+    Time:100,
+    Category:Anchor,
     }
 
 recipe Upgrade Mine
     {
 	HCWoodenbucket,
-    	HCRopethick=2,
+    HCRopethick=2,
 	HCPully/HCPullyiron/HCPullywood,
-    	HCMinehole/HCMineholeB,
+    HCMinehole/HCMineholeB,
 	HCPunchingstand=2,
-    	HCWeldingset,
-    	keep WeldingMask,
-    	keep HCWorkgloves,
-    	CanBeDoneFromFloor:true,
-    	Result:HCMinehole2,
-    	NeedToBeLearn:true,
-    	Time:500,
-    	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    HCWeldingset,
+    keep WeldingMask,
+    keep HCWorkgloves,
+    CanBeDoneFromFloor:true,
+    Result:HCMinehole2,
+    NeedToBeLearn:true,
+    Time:500,
+    Category:Stoneworking,
+    OnGiveXP:HCHunger_OnGiveXP,
     }
 
 recipe Anchor Mine
     {
-    	HCMinehole2,
-    	CanBeDoneFromFloor:true,
-    	Result:HCMinehole2B,
-    	Time:100,
-    	Category:Anchor,
+    HCMinehole2,
+    CanBeDoneFromFloor:true,
+    Result:HCMinehole2B,
+    Time:100,
+    Category:Anchor,
     }
 
-recipe Mine
+
+
+recipe Expand Mine to Iron Mine
     {
-    	keep HCMinehole/HCMineholeB,
-    	keep HandShovel,
-    	CanBeDoneFromFloor:true,
-    	Result:HCDirt,
-    	NeedToBeLearn:true,
-    	Time:2000,
-    	Category:Stoneworking,
-    	OnCreate:HCMine,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    HCAuger,
+    HCWoodbeam=4,
+    HCMinehole2/HCMinehole2B,
+    keep Shovel,
+    keep PickAxe,
+    keep HCWorkgloves,
+    CanBeDoneFromFloor:true,
+    Result:HCIronMine,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Stoneworking,
+    OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Mine
+
+recipe Expand Mine to Coal Mine
     {
-    	keep HCMinehole2/HCMinehole2B,
-    	keep HandShovel,
-    	CanBeDoneFromFloor:true,
-    	Result:HCDirt,
-    	NeedToBeLearn:true,
-    	Time:1000,
-    	Category:Stoneworking,
-    	OnCreate:HCMine,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    HCAuger,
+    HCWoodbeam=4,
+    HCMinehole2/HCMinehole2B,
+    keep Shovel,
+    keep PickAxe,
+    keep HCWorkgloves,
+    CanBeDoneFromFloor:true,
+    Result:HCCoalMine,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Stoneworking,
+    OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Mine
-    {
-    	keep HCMinehole/HCMineholeB,
-    	keep Shovel,
-    	CanBeDoneFromFloor:true,
-    	Result:HCDirt,
-    	NeedToBeLearn:true,
-    	Time:1000,
-    	Category:Stoneworking,
-    	OnCreate:HCMine,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
 
-recipe Mine
-    {
-    	keep HCMinehole2/HCMinehole2B,
-    	keep Shovel,
-    	CanBeDoneFromFloor:true,
-    	Result:HCDirt,
-    	NeedToBeLearn:true,
-    	Time:500,
-    	Category:Stoneworking,
-    	OnCreate:HCMine,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Mine
-    {
-    	keep HCMinehole/HCMineholeB,
-    	keep HCPickaxe,
-    	CanBeDoneFromFloor:true,
-    	Result:HCDirt,
-    	NeedToBeLearn:true,
-    	Time:500,
-    	Category:Stoneworking,
-    	OnCreate:HCMine,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Mine
-    {
-    	keep HCMinehole2/HCMinehole2B,
-    	keep HCPickaxe,
-    	CanBeDoneFromFloor:true,
-    	Result:HCDirt,
-    	NeedToBeLearn:true,
-    	Time:250,
-    	Category:Stoneworking,
-    	OnCreate:HCMine,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Mine
-    {
-    	keep HCMinehole/HCMineholeB,
-    	HCMiningdrillpowered/HCMiningchiselpowered,
-    	CanBeDoneFromFloor:true,
-    	Result:HCDirt,
-    	NeedToBeLearn:true,
-    	Time:250,
-    	Category:Stoneworking,
-    	OnCreate:HCMine,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Mine
-    {
-    	keep HCMinehole2/HCMinehole2B,
-    	HCMiningdrillpowered/HCMiningchiselpowered,
-    	CanBeDoneFromFloor:true,
-    	Result:HCDirt,
-    	NeedToBeLearn:true,
-    	Time:125,
-    	Category:Stoneworking,
-    	OnCreate:HCMine,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
 
 recipe Upgrade to Dark Mine
     {
@@ -781,7 +695,7 @@ recipe Upgrade to Dark Mine
 	HCPlankbarrier,
     	HCMinehole2/HCMinehole2B,
 	keep Shovel,
-	keep HCPickaxe,
+	keep Base.PickAxe,
     	keep HCWorkgloves,
     	CanBeDoneFromFloor:true,
     	Result:HCDarkmine,
@@ -805,26 +719,26 @@ recipe Upgrade Dark Mine
 	SkillRequired:Mechanics=3,
 	HCMinecart,
 	HCPully,
-    	HCRopethick=6,
+    HCRopethick=6,
 	HCCrank,
 	HCSteelrod,
 	HCDarkmine/HCDarkmineB,
-    	keep HCWorkgloves,
-    	CanBeDoneFromFloor:true,
-    	Result:HCDarkmine2,
-    	NeedToBeLearn:true,
-    	Time:2000,
-    	Category:Stoneworking,
-    	OnGiveXP:HCMechanics_OnGiveXP,
+    keep HCWorkgloves,
+    CanBeDoneFromFloor:true,
+    Result:HCDarkmine2,
+    NeedToBeLearn:true,
+    Time:2000,
+    Category:Stoneworking,
+    OnGiveXP:HCMechanics_OnGiveXP,
     }
 
 recipe Anchor Dark Mine
     {
-    	HCDarkmine2,
-    	CanBeDoneFromFloor:true,
-    	Result:HCDarkmine2B,
-    	Time:100,
-    	Category:Anchor,
+    HCDarkmine2,
+    CanBeDoneFromFloor:true,
+    Result:HCDarkmine2B,
+    Time:100,
+    Category:Anchor,
     }
 
 
@@ -833,155 +747,23 @@ recipe Add Steam Machine to Dark Mine
 	SkillRequired:Mechanics=4,
 	HCSteammachine,
 	HCDarkmine2/HCDarkmine2B,
-    	CanBeDoneFromFloor:true,
-    	Result:HCDarkmine3,
-    	NeedToBeLearn:true,
-    	Time:2000,
-    	Category:Stoneworking,
-    	OnGiveXP:HCMechanics_OnGiveXP,
+    CanBeDoneFromFloor:true,
+    Result:HCDarkmine3,
+    NeedToBeLearn:true,
+    Time:2000,
+    Category:Stoneworking,
+    OnGiveXP:HCMechanics_OnGiveXP,
     }
 
 recipe Anchor Dark Mine
     {
-    	HCDarkmine3,
-    	CanBeDoneFromFloor:true,
-    	Result:HCDarkmine3B,
-    	Time:100,
-    	Category:Anchor,
+    HCDarkmine3,
+    CanBeDoneFromFloor:true,
+    Result:HCDarkmine3B,
+    Time:100,
+    Category:Anchor,
     }
 
-
-recipe Mine
-    {
-	HCMininghat/HCMininghatlamppowered,
-    	keep HCDarkmine/HCDarkmineB,
-    	keep Shovel,
-    	CanBeDoneFromFloor:true,
-    	Result:Stone,
-    	NeedToBeLearn:true,
-    	Time:2000,
-    	Category:Stoneworking,
-    	OnCreate:HCDarkmine,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Mine
-    {
-	keep HCMininghat/HCMininghatlamppowered,
-    	keep HCDarkmine2/HCDarkmine2B,
-    	keep Shovel,
-    	CanBeDoneFromFloor:true,
-    	Result:Stone,
-    	NeedToBeLearn:true,
-    	Time:1000,
-    	Category:Stoneworking,
-    	OnCreate:HCDarkmine,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Mine
-    {
-	HCMininghat/HCMininghatlamppowered,
-        Charcoal=1,
-        Water=10,
-    	keep HCDarkmine3/HCDarkmine3B,
-    	keep Shovel,
-    	CanBeDoneFromFloor:true,
-    	Result:Stone,
-    	NeedToBeLearn:true,
-    	Time:500,
-    	Category:Stoneworking,
-    	OnCreate:HCDarkmine,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Mine
-    {
-	HCMininghat/HCMininghatlamppowered,
-    	keep HCDarkmine/HCDarkmineB,
-    	keep HCPickaxe,
-    	CanBeDoneFromFloor:true,
-    	Result:Stone,
-    	NeedToBeLearn:true,
-    	Time:1000,
-    	Category:Stoneworking,
-    	OnCreate:HCDarkmine,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Mine
-    {
-	HCMininghat/HCMininghatlamppowered,
-    	keep HCDarkmine2/HCDarkmine2B,
-    	keep HCPickaxe,
-    	CanBeDoneFromFloor:true,
-    	Result:Stone,
-    	NeedToBeLearn:true,
-    	Time:500,
-    	Category:Stoneworking,
-    	OnCreate:HCDarkmine,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Mine
-    {
-	HCMininghat/HCMininghatlamppowered,
-        Charcoal=1,
-        Water=10,
-    	keep HCDarkmine3/HCDarkmine3B,
-    	keep HCPickaxe,
-    	CanBeDoneFromFloor:true,
-    	Result:Stone,
-    	NeedToBeLearn:true,
-    	Time:250,
-    	Category:Stoneworking,
-    	OnCreate:HCDarkmine,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Mine
-    {
-	HCMininghat/HCMininghatlamppowered,
-    	keep HCDarkmine/HCDarkmineB,
-    	HCMiningdrillpowered/HCMiningchiselpowered,
-    	CanBeDoneFromFloor:true,
-    	Result:Stone,
-    	NeedToBeLearn:true,
-    	Time:500,
-    	Category:Stoneworking,
-    	OnCreate:HCDarkmine,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Mine
-    {
-	HCMininghat/HCMininghatlamppowered,
-    	keep HCDarkmine2/HCDarkmine2B,
-    	HCMiningdrillpowered/HCMiningchiselpowered,
-    	CanBeDoneFromFloor:true,
-    	Result:Stone,
-    	NeedToBeLearn:true,
-    	Time:250,
-    	Category:Stoneworking,
-    	OnCreate:HCDarkmine,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Mine
-    {
-	HCMininghat/HCMininghatlamppowered,
-        Charcoal=1,
-        Water=10,
-    	keep HCDarkmine3/HCDarkmine3B,
-    	HCMiningdrillpowered/HCMiningchiselpowered,
-    	CanBeDoneFromFloor:true,
-    	Result:Stone,
-    	NeedToBeLearn:true,
-    	Time:125,
-    	Category:Stoneworking,
-    	OnCreate:HCDarkmine,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
 
 recipe Dig Quarry
     {
@@ -1003,16 +785,211 @@ recipe Anchor Quarry
     	Category:Anchor,
     }
 
+
+
+/*normal mines*/
+
+recipe Mine
+    {
+    keep HCMinehole/HCMineholeB/HCMinehole2/HCMinehole2B,
+    keep Shovel/PickAxe,
+    CanBeDoneFromFloor:true,
+    Result:HCDirt,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Stoneworking,
+    OnCreate:HCMine,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    keep HCMinehole/HCMineholeB/HCMinehole2/HCMinehole2B,
+    keep HCMiningdrillpowered/HCMiningchiselpowered,
+    CanBeDoneFromFloor:true,
+    Result:HCDirt,
+    NeedToBeLearn:true,
+    Time:500,
+    Category:Stoneworking,
+    OnCreate:HCMine,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    keep HCMinehole2/HCMinehole2B,
+    keep Shovel/PickAxe,
+    CanBeDoneFromFloor:true,
+    Result:HCDirt,
+    NeedToBeLearn:true,
+    Time:600,
+    Category:Stoneworking,
+    OnCreate:HCMine,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    keep HCMinehole2/HCMinehole2B,
+    keep HCMiningdrillpowered/HCMiningchiselpowered,
+    CanBeDoneFromFloor:true,
+    Result:HCDirt,
+    NeedToBeLearn:true,
+    Time:300,
+    Category:Stoneworking,
+    OnCreate:HCMine,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+
+/*Dark mine*/
+
+
+recipe Mine
+    {
+    HCMininghat/HCMininghatlamppowered,
+    keep HCDarkmine/HCDarkmineB,
+    keep Shovel/PickAxe,
+    CanBeDoneFromFloor:true,
+    Result:Stone,
+    NeedToBeLearn:true,
+    Time:2000,
+    Category:Stoneworking,
+    OnCreate:HCDarkmine,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    HCMininghat/HCMininghatlamppowered,
+    keep HCDarkmine/HCDarkmineB,
+    keep HCMiningdrillpowered/HCMiningchiselpowered,
+    CanBeDoneFromFloor:true,
+    Result:Stone,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Stoneworking,
+    OnCreate:HCDarkmine,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+
+/*Dark mine Pully*/
+
+recipe Mine
+    {
+    HCMininghat/HCMininghatlamppowered,
+    keep HCDarkmine2/HCDarkmine2B,
+    keep Shovel/PickAxe,
+    CanBeDoneFromFloor:true,
+    Result:Stone,
+    NeedToBeLearn:true,
+    Time:1500,
+    Category:Stoneworking,
+    OnCreate:HCDarkmine,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    HCMininghat/HCMininghatlamppowered,
+    keep HCDarkmine2/HCDarkmine2B,
+    keep HCMiningdrillpowered/HCMiningchiselpowered,
+    CanBeDoneFromFloor:true,
+    Result:Stone,
+    NeedToBeLearn:true,
+    Time:700,
+    Category:Stoneworking,
+    OnCreate:HCDarkmine,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+
+
+/*Dark mine Steam Pully*/
+
+
+recipe Mine
+    {
+    HCMininghat/HCMininghatlamppowered,
+    Charcoal=1,
+    Water=10,
+    keep HCDarkmine3/HCDarkmine3B,
+    keep Shovel/PickAxe,
+    CanBeDoneFromFloor:true,
+    Result:Stone,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Stoneworking,
+    OnCreate:HCDarkmine,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+recipe Mine
+    {
+    HCMininghat/HCMininghatlamppowered,
+    Charcoal=1,
+    Water=10,
+    keep HCDarkmine3/HCDarkmine3B,
+    keep HCMiningdrillpowered/HCMiningchiselpowered,
+    CanBeDoneFromFloor:true,
+    Result:Stone,
+    NeedToBeLearn:true,
+    Time:500,
+    Category:Stoneworking,
+    OnCreate:HCDarkmine,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+/*other mining*/
+
+recipe Mine Iron
+    {
+        keep HCIronMine,
+        keep Shovel/PickAxe,
+        CanBeDoneFromFloor:true,
+        Result:HCIronore,
+        NeedToBeLearn:true,
+        Time:500,
+        Category:Stoneworking,
+        OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+recipe Mine Coal
+    {
+        keep HCCoalMine,
+        keep Shovel/PickAxe,
+        CanBeDoneFromFloor:true,
+        Result:HCCoal,
+        NeedToBeLearn:true,
+        Time:500,
+        Category:Stoneworking,
+        OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+recipe Sift Dirt
+    {
+    Dirtbag/HCDirt,
+    keep HCColander,
+    Result:HCColander,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Survivalist,
+    OnCreate:HCSiftDirt,
+    RemoveResultItem:true,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
 recipe Mine Stone
     {
     	keep HCQuarrystone/HCQuarrystone2,
-    	keep HCPickaxe,
+    	keep PickAxe,
     	CanBeDoneFromFloor:true,
     	Result:Stone,
     	NeedToBeLearn:true,
     	Time:500,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCPlantScavenging_OnGiveXP,
     }
 
 recipe Mine Stone
@@ -1024,7 +1001,7 @@ recipe Mine Stone
     	NeedToBeLearn:true,
     	Time:125,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:HCPlantScavenging_OnGiveXP,
     }
 
 }

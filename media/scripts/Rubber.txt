@@ -55,7 +55,7 @@ item HCPottedrubbertree2
         DisplayName 		= Potted Rubber Tree with Sap Catchers,
 	ReplaceOnDeplete	= HCPlanter,
         icon        		= HCPottedrubbertree2,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCWoodenbucketrubber
@@ -66,7 +66,7 @@ item HCWoodenbucketrubber
 	ReplaceOnDeplete	= HCWoodenbucket,
         DisplayName         	= Wooden Bucket with Rubber,
         icon 			= HCWoodenbucketrubber,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 /************************RECIPES************************/	
@@ -80,7 +80,7 @@ recipe Make Vulcanized Rubber
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCRubbervulcanized,
     NeedToBeLearn:true,
@@ -99,7 +99,7 @@ recipe Make Rubber
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCRubber,
     NeedToBeLearn:true,
@@ -134,7 +134,7 @@ recipe Add Sap Catchers to Rubber Tree
 
 recipe Harvest Crop
     	{
-    	keep HCPottedrubbertree,
+    	keep HCPottedrubbertree2,
 	HCWoodenbucket,
     	Fertilizer,
     	Water,

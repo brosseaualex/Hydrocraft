@@ -18,20 +18,27 @@ item HCMedicalrecord
 
 item HCMedicallab
     {
-	WeightReduction         = 0,
-	Weight             	= 10,
-	Type                	= Container,
-	Capacity             	= 50,
-        DisplayName         	= Medical Lab,
-        icon 			= HCMedicallab,
-	ResizeWorldIcon 	= 2.0,
+	Weight          = 10,
+	Type            = Normal,
+    DisplayName     = Medical Lab,
+    icon 			= HCMedicallab,
+	}
+
+item HCMedicallab2
+    {
+    Weight              = 1000,
+    Type                = Container,
+    Capacity            = 100,
+    WeightReduction     = 0,
+    DisplayName     = Medical Lab,
+    icon            = HCMedicallab,
     }
 
 item HCStethoscope
     {
         Weight    		= 0.3,
         Type    		= Normal,
-        DisplayName         	= Stethoscope,
+        DisplayName     = Stethoscope,
         icon 			= HCStethoscope,
     }  
 
@@ -113,7 +120,7 @@ item HCWheelchair
         Type    		= Normal,
         DisplayName     	= Wheelchair,
         icon 			= HCWheelchair,
-	ResizeWorldIcon 	= 2.0,
+	
     } 
 
 item HCGlovebox
@@ -122,7 +129,7 @@ item HCGlovebox
         Type    		= Normal,
         DisplayName     	= Glove Box,
         icon 			= HCGlovebox,
-	ResizeWorldIcon 	= 1.0,
+	
     } 
 
 item HCHearingaid
@@ -246,7 +253,7 @@ item HCAdrenalin
         EnduranceChange			= 10,
         StressChange			= 20,
 	CustomContextMenu 		= Drink,
-	CustomEatSound 			= PZ_DrinkingFromBottle,
+	CustomEatSound 			= DrinkingFromBottle,
 	ReplaceOnUse			= HCEyedropperbottle,
     }
 
@@ -521,7 +528,7 @@ item HCDissectiontable
         Type   			= Normal,
         DisplayName         	= Dissection Table,
         icon 			= HCDissectiontable,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 item HCDissectiontablebody
@@ -530,7 +537,7 @@ item HCDissectiontablebody
         Type   			= Normal,
         DisplayName         	= Dissection Table with Corpse,
         icon 			= HCDissectiontablebody,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 item HCDissectiontabledissected
@@ -539,7 +546,7 @@ item HCDissectiontabledissected
         Type   			= Normal,
         DisplayName         	= Dissection Table with Dissected Corpse,
         icon 			= HCDissectiontabledissected,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 item HCDissectiontablebloody
@@ -548,7 +555,7 @@ item HCDissectiontablebloody
         Type   			= Normal,
         DisplayName         	= Bloody Dissection Table,
         icon 			= HCDissectiontablebloody,
-		ResizeWorldIcon 	= 1.0,
+		
     }
 
 item HCZedbrain
@@ -636,7 +643,7 @@ item HCMedicalskeletonholder
         Weight    		= 0.7,
         Type    		= Normal,
         DisplayName         	= Medical Skeleton Holder,
-	ResizeWorldIcon 	= 2.0,
+	
         icon 			= HCMedicalskeletonholder,
     }  
 
@@ -645,7 +652,7 @@ item HCMedicalskeletonhooked
         Weight    		= 0.7,
         Type    		= Normal,
         DisplayName         	= Medical Skeleton,
-	ResizeWorldIcon 	= 2.0,
+	
         icon 			= HCMedicalskeletonhooked,
     }  
 
@@ -665,7 +672,6 @@ item HCBodybag
         Capacity            	= 10,
         DisplayName         	= Body Bag,
         Icon                	= HCBodybag,
-	ResizeWorldIcon     	= 1.0,
     }
 
 item HCBandageherb
@@ -765,7 +771,7 @@ item HCRagpp
 
 
 /************************WEAPONS************************/
-
+/*
 item HCScalpel
 	{
 		MaxRange			=	0.9,
@@ -803,7 +809,7 @@ item HCScalpel
         	TreeDamage  			=   	1,
         	EnduranceMod 			= 	0.5,
 	}
-
+*/
 item HCCrutch
     {
         	MaxRange                 	=    1.8,
@@ -928,7 +934,7 @@ recipe Make Medical Lab
         HCThermometer,
 	MortarPestle,
 	HCSyringeempty,
-	HCScalpel,
+	Base.Scalpel,
 	HCGauze=5,
 	Bandage=5,
 	HCPetridish=4,
@@ -939,13 +945,24 @@ recipe Make Medical Lab
 	HCMicroscope,
 	HCMedicalbox,
 	HCWorkbench,
-        Result:HCMedicallab,
+        Result:HCMedicallab2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
         Time:400,
        	Category:Health,
     	OnGiveXP:HCDoctor_OnGiveXP,
     }
+
+
+recipe Anchor Medical Lab
+    {
+    HCMedicallab,
+    CanBeDoneFromFloor:true,
+    Result:HCMedicallab2,
+    Time:100,
+    Category:Anchor,
+    }
+
 
 recipe Wear Hearing Aid
     {
@@ -1081,7 +1098,7 @@ recipe Make Bottle of Homemade Disinfectant
 recipe Make Smelling Salts
     {
 	SkillRequired:Doctor=3,
-    	keep HCMedicallab,
+    	keep HCMedicallab2,
     	HCDeerantlers,
 	HCGlasstesttubecork,
 	keep HCFunnel,
@@ -1096,7 +1113,7 @@ recipe Make Smelling Salts
 recipe Make Smelling Salts
     {
 	SkillRequired:Doctor=3,
-    	keep HCMedicallab,
+    	keep HCMedicallab2,
     	HCDeerantlers,
 	HCGlasstesttuberubberbung,
 	keep HCFunnel,
@@ -1137,7 +1154,7 @@ recipe Make Anti-Depression Pills
        	SkillRequired:Doctor=4,
 	HCValeriandry,
         HCPillbox,
-        keep HCMedicallab,
+        keep HCMedicallab2,
     	SheetPaper2,
         NeedToBeLearn:true,
 	Result:HCAntideppills,
@@ -1194,7 +1211,7 @@ recipe Make Beta Blocker Pills
        	SkillRequired:Doctor=4,
 	HCHawthornfruitdry,
         HCPillbox,
-        keep HCMortarandpestle/HCGrindstone/HCLab,
+        keep HCMedicallab2,
     	SheetPaper2,
         NeedToBeLearn:true,
 	Result:HCBetablockerpills,
@@ -1263,7 +1280,7 @@ recipe Extract Acetylsalicylic Acid
     {
 	SkillRequired:Doctor=3,
 	HCWillowbarktea,
-	keep HCMedicallab,
+	keep HCMedicallab2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
 	Result:Pills,
@@ -1418,7 +1435,7 @@ recipe Dissect Corpse
     {
 	HCDissectiontablebody,
  	keep HCBonesaw/HCGiglisaw,
- 	keep HCScalpel/HCScalpelimprovised,
+ 	keep Base.Scalpel/HCScalpelimprovised,
 	keep HCLatexgloves/HCRubberglove,
 	Result:HCDissectiontabledissected,
         CanBeDoneFromFloor:true,
@@ -1432,7 +1449,7 @@ recipe Dissect Corpse
 recipe Remove Corpse from Dissection Table
     {
 	HCDissectiontabledissected,
- 	keep HCScalpel/HCScalpelimprovised,
+ 	keep Base.Scalpel/HCScalpelimprovised,
 	keep HCLatexgloves/HCRubberglove,
 	Result:HCDissectiontablebloody,
         CanBeDoneFromFloor:true,
@@ -1523,7 +1540,7 @@ recipe  Add Herbal Medicine
 		AlcoholBandage,
                 HCCamomiledry/HCLavenderdry/HCChilipepperdry/HCJuniperberrydry,
 		Water,
-		keep HCHerbtable/HCHerbtable2,
+		keep HCHerbtable2,
 		Result:HCBandageherb,
                 NeedToBeLearn:true,
     		CanBeDoneFromFloor:true,  
@@ -1538,7 +1555,7 @@ recipe  Add Herbal Medicine
 		AlcoholRippedSheets,
                 HCCamomiledry/HCLavenderdry/HCChilipepperdry/HCJuniperberrydry,
 		Water,
-		keep HCHerbtable/HCHerbtable2,
+		keep HCHerbtable2,
 		Result:HCRagherb,
                 NeedToBeLearn:true,
     		CanBeDoneFromFloor:true,    
@@ -1553,7 +1570,7 @@ recipe  Add Herbal Medicine
 		HCMenstrualpadAlcohol,
                 HCCamomiledry/HCLavenderdry/HCChilipepperdry/HCJuniperberrydry,
 		Water,
-		keep HCHerbtable/HCHerbtable2,
+		keep HCHerbtable2,
 		Result:HCMenstrualpadherb,
                 NeedToBeLearn:true,
     		CanBeDoneFromFloor:true,    
@@ -1568,7 +1585,7 @@ recipe  Add Herbal Medicine
 		HCDiaperAlcohol,
                 HCCamomiledry/HCLavenderdry/HCChilipepperdry/HCJuniperberrydry,
 		Water,
-		keep HCHerbtable/HCHerbtable2,
+		keep HCHerbtable2,
 		Result:HCDiaperherb,
                 NeedToBeLearn:true,
     		CanBeDoneFromFloor:true,    

@@ -168,7 +168,7 @@ item HCGuitar
 	Type			=	Normal,
 	DisplayName		=	Guitar,
 	Icon			=	HCGuitar,
-	ResizeWorldIcon 	= 	2.0,
+	
    }
 
 item HCElectricguitar
@@ -177,7 +177,7 @@ item HCElectricguitar
 	Type			=	Normal,
 	DisplayName		=	Electric Guitar,
 	Icon			=	HCElectricguitar,
-	ResizeWorldIcon 	= 	2.0,
+	
    }
 
 item HCElectricguitarbass
@@ -186,7 +186,7 @@ item HCElectricguitarbass
 	Type			=	Normal,
 	DisplayName		=	Electric Bass Guitar,
 	Icon			=	HCElectricguitarbass,
-	ResizeWorldIcon 	= 	2.0,
+	
    }
 
 item HCGuitarpick
@@ -203,7 +203,7 @@ item HCAmp
 	Type			=	Normal,
 	DisplayName		=	Amp,
 	Icon			=	HCAmp,
-	ResizeWorldIcon 	= 	2.0,
+	
    }
 
 item HCGuitarcase
@@ -214,7 +214,7 @@ item HCGuitarcase
         Capacity            	= 	10,
         DisplayName         	= 	Guitar Case,
         Icon                	= 	HCGuitarcase,
-	ResizeWorldIcon 	= 	2.0,
+	
     }
 
 item HCKazoo
@@ -287,7 +287,7 @@ item HCDrumkit
 	Type			=	Normal,
 	DisplayName		=	Drum Kit,
 	Icon			=	HCDrumkit,
-	ResizeWorldIcon 	= 	1.0,
+	
    }
 
 item HCDrum
@@ -320,7 +320,7 @@ item HCPiano
 	Type			=	Normal,
 	DisplayName		=	Piano,
 	Icon			=	HCPiano,
-	ResizeWorldIcon 	= 	1.0,
+	
    }
 
 item HCPianogrand
@@ -329,7 +329,7 @@ item HCPianogrand
 	Type			=	Normal,
 	DisplayName		=	Grand Piano,
 	Icon			=	HCPianogrand,
-	ResizeWorldIcon 	= 	1.0,
+	
    }
 
 /************************WEAPONS************************/

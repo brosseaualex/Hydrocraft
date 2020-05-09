@@ -14,7 +14,7 @@ item HCCigarettebutt
         Type    			= Normal,
         DisplayName        	= Cigarette Butt,
         icon 				= HCCigarettebutt,
-		ResizeWorldIcon 	= 0.5,
+		
     }
 
 item HCCigarettecarton
@@ -58,10 +58,11 @@ item HCCigaretteslights
 		StressChange			= -5,
 		Icon				= HCCigaretteslights,
 		CustomContextMenu 		= Smoke,
-		CustomEatSound = HC_LightUp,
 		CantBeFrozen			= TRUE,
 		OnEat				= OnEat_Cigarettes,
 		ReplaceOnUse			= Hydrocraft.HCCigarettebutt,
+		StaticModel = Cigarette,
+		CustomEatSound = HC_LightUp,
 	}
 
 item HCCigarettecartonmenthol
@@ -88,11 +89,12 @@ item HCCigarettesmenthol
 		DisplayName				= Menthol Cigarettes,
 		StressChange				= -5,
 		Icon					= HCCigarettesmenthol,
-		CustomContextMenu 			= Smoke,
-		CustomEatSound = HC_LightUp,
+		CustomContextMenu 		= 	Smoke,
 		CantBeFrozen				= TRUE,
 		OnEat					= OnEat_Cigarettes,
-		ReplaceOnUse				= Hydrocraft.HCCigarettebutt,		
+		ReplaceOnUse	= Hydrocraft.HCCigarettebutt,
+		StaticModel = Cigarette,
+		CustomEatSound = HC_LightUp,
 }
 
 item HCTobaccoleaffresh
@@ -139,12 +141,12 @@ item HCCigar
 	DisplayName			=	Cigar,
 	StressChange			=	-25,
 	UnhappyChange			=	5,
-	Icon				=	HCCigar,
 	CustomContextMenu 		= 	Smoke,
-	CustomEatSound = HC_LightUp,
 	CantBeFrozen 			= 	TRUE,
-	OnEat 				= 	OnEat_Cigarettes,	
-     }
+	OnEat 				= 	OnEat_Cigarettes,
+	StaticModel = Cigarette,
+	CustomEatSound = HC_LightUp,
+	}
 
 item HCCigarhandrolled
     {
@@ -158,10 +160,10 @@ item HCCigarhandrolled
 	UnhappyChange			=	-5,
 	Icon				=	HCCigarhandrolled,
 	CustomContextMenu 		= 	Smoke,
-	CustomEatSound = HC_LightUp,
 	CantBeFrozen 			= 	TRUE,
 	OnEat 				= 	OnEat_Cigarettes,
-	
+	StaticModel = Cigarette,
+	CustomEatSound = HC_LightUp,
     }
 
 item HCPipetobacco
@@ -176,9 +178,9 @@ item HCPipetobacco
 	ReplaceOnUse			=	HCClaypipesmoking,
 	Icon				=	HCClaypipesmoking,
 	CustomContextMenu 		= 	Smoke,
-	CustomEatSound = HC_LightUp,
 	CantBeFrozen 			= 	TRUE,
-	OnEat 				= 	OnEat_Cigarettes, 
+	OnEat 				= 	OnEat_Cigarettes,
+	CustomEatSound = HC_LightUp,
     }
 
 item HCCorncobpipetobacco
@@ -193,9 +195,9 @@ item HCCorncobpipetobacco
 	ReplaceOnUse			=	HCCorncobpipe,
 	Icon				=	HCCorncobpipe,
 	CustomContextMenu 		= 	Smoke,
-	CustomEatSound = HC_LightUp,
 	CantBeFrozen 			= 	TRUE,
 	OnEat 				= 	OnEat_Cigarettes,
+	CustomEatSound = HC_LightUp,
     }
 
 /************************RECIPES************************/
@@ -293,7 +295,7 @@ recipe Pack Into Carton
 recipe Dry Leaves
     {
     HCTobaccoleaffresh,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCTobaccoleafdry,
     NeedToBeLearn:true,
@@ -304,7 +306,7 @@ recipe Dry Leaves
 
 recipe Grind Tobacco
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep MortarPestle/HCLab,
     HCTobaccoleafdry,
     CanBeDoneFromFloor:true,
     Result:HCTobacco,
@@ -329,7 +331,7 @@ recipe Grind Tobacco
 
 recipe Roll Cigar
     {
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     HCTobaccoleafdry,
     HCTobacco,
     CanBeDoneFromFloor:true,

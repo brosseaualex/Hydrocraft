@@ -828,7 +828,7 @@ function hcmetalsearch(items, result, player)
     elseif metal == 113 then
 		player:getInventory():AddItem("Base.LugWrench");
     elseif metal == 112 then
-		player:getInventory():AddItem("Base.Spanner");
+		player:getInventory():AddItem("Base.Wrench");
     elseif metal == 111 then
 		player:getInventory():AddItem("Base.Jack");
     elseif metal == 110 then	

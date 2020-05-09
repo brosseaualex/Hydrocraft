@@ -87,37 +87,50 @@ item HCAmmonalbomboff
         DisplayName         	= Ammonal Bomb Off,
         icon 			= HCAmmonalbomboff,
     }
+	
+	item HCDetonatormk3hmtdoff
+    {
+        Weight   		= 0.6,
+        Type    		= Normal,
+        DisplayName     = Detonator MK3 with HMTD Off,
+        icon 			= HCDetonatormk3hmtdoff,
+    }
+
 
 /************************WEAPONS************************/
 
 	item HCPineconebomb
 	{
-		OtherHandUse			=	TRUE,
-		MaxRange			=	8,
-		Type				=	Weapon,
-		MinimumSwingTime		=	1.5,
-		SwingAnim			=	Bat,
-		UseSelf				=	TRUE,
-		DisplayName			=	Flaming Pinecone,
-		SwingTime			=	1.5,
+		OtherHandUse				=	TRUE,
+		MaxRange					=	8,
+		WeaponSprite 				=   Molotov,
+		Type						=	Weapon,
+		MinimumSwingTime			=	1.5,
+		SwingAnim					=	Throw,
+		UseSelf						=	TRUE,
+		DisplayName					=	Flaming Pinecone,
+		SwingTime					=	1.5,
 		SwingAmountBeforeImpact		=	0.1,
-		PhysicsObject			=	MolotovCocktail,
-		MinDamage			=	0,
-		Weight				=	0.1,
-		MaxDamage			=	0,
-		MaxHitCount			=	0,
-        	FirePower  			=   	10,
-        	FireRange  			=   	4,
-		Icon				=	HCPineconebomb,
+		PhysicsObject				=	MolotovCocktail,
+		MinDamage					=	0,
+		Weight						=	0.1,
+		MaxDamage					=	0,
+		OtherHandRequire			=	Lighter,
+		MaxHitCount					=	0,
+        FirePower  					=   10,
+        FireRange  					=   4,
+		Icon						=	HCPineconebomb,
+		Tooltip 			= 	Tooltip_Trap,
 	}
 
-    	item HCGrenade
+    item HCGrenade
 	{
-		MaxRange			=	10,
-		Type				=	Weapon,
+		MaxRange				=	10,
+		Type					=	Weapon,
 		MinimumSwingTime		=	1.5,
-		SwingAnim			=	Bat,
-		UseSelf				=	TRUE,
+		SwingAnim	=	Throw,
+		WeaponSprite = Molotov,
+		UseSelf					=	TRUE,
 		DisplayName			=	Grenade,
 		SwingTime			=	1.5,
 		SwingAmountBeforeImpact		=	0.1,
@@ -129,7 +142,8 @@ item HCAmmonalbomboff
 		Icon				=	HCGrenade,
 		ExplosionPower  		=   	90,
 		ExplosionRange  		=   	7,
-		ExplosionSound  		=   	bigExplosion,
+		ExplosionSound  		=   	BigExplosion,
+		Tooltip = Tooltip_Trap,
 	}
 
 	item HCThermitebomb  
@@ -137,9 +151,11 @@ item HCAmmonalbomboff
         	MaxRange			=	10,
         	Type				=	Weapon,
         	MinimumSwingTime		=	1.5,
-        	SwingAnim			=	Bat,
+        	SwingAnim	=	Throw,
+			WeaponSprite = Molotov,
         	UseSelf				=	TRUE,
         	DisplayName			=	Thermite Bomb,
+			WeaponSprite = Molotov,
         	SwingTime			=	1.5,
         	SwingAmountBeforeImpact		=	0.1,
         	PhysicsObject	        	= 	ExplosiveTrap,
@@ -151,7 +167,7 @@ item HCAmmonalbomboff
         	DoorDamage			=	50,
         	FirePower  			=   	250,
         	FireRange  			=   	1,
-        	ExplosionSound  		=   	smallExplosion,
+        	ExplosionSound  		=   	SmallExplosion,
         	Tooltip 			= 	Tooltip_Trap,
     	}
 
@@ -160,7 +176,8 @@ item HCAmmonalbomboff
         	MaxRange	        	= 	10,
         	Type	                	= 	Weapon,
         	MinimumSwingTime		= 	1.5,
-        	SwingAnim	        	= 	Bat,
+        	SwingAnim	=	Throw,
+			WeaponSprite = Molotov,
         	UseSelf	                	= 	TRUE,
         	DisplayName	        	= 	Chlorgas Grenade,
         	SwingTime	        	= 	1.5,
@@ -174,10 +191,10 @@ item HCAmmonalbomboff
         	Icon	                	= 	HCChlorgasgrenade,
         	TriggerExplosionTimer   	= 	10,
         	SmokeRange              	= 	7,
- 		ExplosionPower          	= 	30,
-		ExplosionRange          	= 	7,
-        	ExplosionSound          	= 	smallExplosion,
-
+			ExplosionPower          	= 	30,
+			ExplosionRange          	= 	7,
+			ExplosionSound          	= 	SmallExplosion,
+			Tooltip 			= 	Tooltip_Trap,
     	}
 
 	item HCAmmonalbombon
@@ -185,7 +202,8 @@ item HCAmmonalbomboff
         	MaxRange	        	= 	5,
         	Type	                	= 	Weapon,
         	MinimumSwingTime		= 	1.5,
-        	SwingAnim	        	= 	Bat,
+        	SwingAnim	=	Throw,
+			WeaponSprite = Molotov,
         	UseSelf	                	= 	TRUE,
         	DisplayName	        	= 	Ammonal Bomb On,
         	SwingTime	        	= 	1.5,
@@ -199,9 +217,9 @@ item HCAmmonalbomboff
         	TriggerExplosionTimer   	= 	50,
  		ExplosionPower          	= 	150,
 		ExplosionRange          	= 	10,
-        	ExplosionSound          	= 	bigExplosion,
+        	ExplosionSound          	= 	BigExplosion,
         	DoorDamage	        	= 	50,
-
+			Tooltip 			= 	Tooltip_Trap,
     	}
 
 	item HCTincanthrowing
@@ -209,7 +227,8 @@ item HCAmmonalbomboff
         	MaxRange			=	10,
         	Type				=	Weapon,
         	MinimumSwingTime		=	1.5,
-        	SwingAnim			=	Bat,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf				=	TRUE,
         	DisplayName			=	Tin Can Noise Maker,
         	SwingTime			=	1.5,
@@ -230,7 +249,8 @@ item HCAmmonalbomboff
         	MaxRange			=	20,
         	Type				=	Weapon,
         	MinimumSwingTime		=	1.5,
-        	SwingAnim			=	Bat,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf				=	TRUE,
         	DisplayName			=	Firework Rocket,
         	SwingTime			=	1.5,
@@ -243,7 +263,7 @@ item HCAmmonalbomboff
         	Icon				=	HCFireworkrocket1,
         	NoiseRange  			=   	50,
         	CanBePlaced 			= 	TRUE,
-        	ExplosionSound  		=   	bigExplosion,
+        	ExplosionSound  		=   	BigExplosion,
 		OtherHandUse			=	TRUE,
 		OtherHandRequire		=	Lighter,
     	}
@@ -253,7 +273,8 @@ item HCAmmonalbomboff
         	MaxRange			=	20,
         	Type				=	Weapon,
         	MinimumSwingTime		=	1.5,
-        	SwingAnim			=	Bat,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf				=	TRUE,
         	DisplayName			=	Firework Rocket,
         	SwingTime			=	1.5,
@@ -266,7 +287,7 @@ item HCAmmonalbomboff
         	Icon				=	HCFireworkrocket2,
         	NoiseRange  			=   	50,
         	CanBePlaced 			= 	TRUE,
-        	ExplosionSound  		=   	bigExplosion,
+        	ExplosionSound  		=   	BigExplosion,
 		OtherHandUse			=	TRUE,
 		OtherHandRequire		=	Lighter,
     	}
@@ -276,7 +297,8 @@ item HCAmmonalbomboff
         	MaxRange			=	20,
         	Type				=	Weapon,
         	MinimumSwingTime		=	1.5,
-        	SwingAnim			=	Bat,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf				=	TRUE,
         	DisplayName			=	Firework Rocket,
         	SwingTime			=	1.5,
@@ -289,7 +311,7 @@ item HCAmmonalbomboff
         	Icon				=	HCFireworkrocket3,
         	NoiseRange  			=   	50,
         	CanBePlaced 			= 	TRUE,
-        	ExplosionSound  		=   	bigExplosion,
+        	ExplosionSound  		=   	BigExplosion,
 		OtherHandUse			=	TRUE,
 		OtherHandRequire		=	Lighter,
     	}
@@ -299,7 +321,8 @@ item HCAmmonalbomboff
         	MaxRange			=	20,
         	Type				=	Weapon,
         	MinimumSwingTime		=	1.5,
-        	SwingAnim			=	Bat,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf				=	TRUE,
         	DisplayName			=	Firework Rocket,
         	SwingTime			=	1.5,
@@ -312,7 +335,7 @@ item HCAmmonalbomboff
         	Icon				=	HCFireworkrocket4,
         	NoiseRange  			=   	50,
         	CanBePlaced 			= 	TRUE,
-        	ExplosionSound  		=   	bigExplosion,
+        	ExplosionSound  		=   	BigExplosion,
 		OtherHandUse			=	TRUE,
 		OtherHandRequire		=	Lighter,
     	}
@@ -322,7 +345,8 @@ item HCAmmonalbomboff
         	MaxRange			=	20,
         	Type				=	Weapon,
         	MinimumSwingTime		=	1.5,
-        	SwingAnim			=	Bat,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf				=	TRUE,
         	DisplayName			=	Firework Rocket,
         	SwingTime			=	1.5,
@@ -335,7 +359,7 @@ item HCAmmonalbomboff
         	Icon				=	HCFireworkrocket5,
         	NoiseRange  			=   	50,
         	CanBePlaced 			= 	TRUE,
-        	ExplosionSound  		=   	bigExplosion,
+        	ExplosionSound  		=   	BigExplosion,
 		OtherHandUse			=	TRUE,
 		OtherHandRequire		=	Lighter,
     	}
@@ -346,7 +370,8 @@ item HCAmmonalbomboff
         	MaxRange	        	= 	3,
         	Type	                	= 	Weapon,
         	MinimumSwingTime		= 	1.5,
-        	SwingAnim	        	= 	Bat,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf	                	= 	TRUE,
         	DisplayName	        	= 	Detonator MK1,
         	SwingTime	        	= 	1.5,
@@ -357,12 +382,12 @@ item HCAmmonalbomboff
         	MaxDamage	        	= 	0,
         	MaxHitCount	        	= 	0,
         	Icon	                	= 	HCDetonatormk1,
-        	TriggerExplosionTimer   	= 	50,
+        	TriggerExplosionTimer   	= 	60,
  		ExplosionPower          	= 	1,
 		ExplosionRange          	= 	1,
-        	ExplosionSound          	= 	smallExplosion,
+        	ExplosionSound          	= 	SmallExplosion,
         	DoorDamage	        	= 	10,
-
+		Tooltip 			= 	Tooltip_Trap,
     	}
 
 	item HCDetonatormk2on
@@ -370,7 +395,8 @@ item HCAmmonalbomboff
         	MaxRange	        	= 	3,
         	Type	                	= 	Weapon,
         	MinimumSwingTime		= 	1.5,
-        	SwingAnim	        	= 	Bat,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf	                	= 	TRUE,
         	DisplayName	        	= 	Detonator MK2 On,
         	SwingTime	        	= 	1.5,
@@ -384,9 +410,9 @@ item HCAmmonalbomboff
         	TriggerExplosionTimer   	= 	60,
  		ExplosionPower          	= 	1,
 		ExplosionRange          	= 	1,
-        	ExplosionSound          	= 	smallExplosion,
+        	ExplosionSound          	= 	SmallExplosion,
         	DoorDamage	        	= 	10,
-
+			Tooltip 			= 	Tooltip_Trap,
     	}
 
 	item HCDetonatormk3on
@@ -394,7 +420,8 @@ item HCAmmonalbomboff
         	MaxRange	        	= 	3,
         	Type	                	= 	Weapon,
         	MinimumSwingTime		= 	1.5,
-        	SwingAnim	        	= 	Bat,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf	                	= 	TRUE,
         	DisplayName	        	= 	Detonator MK3 On,
         	SwingTime	        	= 	1.5,
@@ -408,9 +435,9 @@ item HCAmmonalbomboff
         	TriggerExplosionTimer   	= 	60,
  		ExplosionPower          	= 	1,
 		ExplosionRange          	= 	1,
-        	ExplosionSound          	= 	smallExplosion,
+        	ExplosionSound          	= 	SmallExplosion,
         	DoorDamage	        	= 	10,
-
+			Tooltip 			= 	Tooltip_Trap,
     	}
 
 	item HCDynamite
@@ -418,7 +445,8 @@ item HCAmmonalbomboff
 		MaxRange			=	10,
 		Type				=	Weapon,
 		MinimumSwingTime		=	1.5,
-		SwingAnim			=	Bat,
+		SwingAnim			=	Throw,
+		WeaponSprite		 = Molotov,
 		UseSelf				=	TRUE,
 		DisplayName			=	Dynamite,
 		SwingTime			=	1.5,
@@ -431,42 +459,19 @@ item HCAmmonalbomboff
 		Icon				=	HCDynamite,
 		ExplosionPower  		=   	70,
 		ExplosionRange  		=   	5,
-		ExplosionSound  		=   	bigExplosion,
+		ExplosionSound  		=   	BigExplosion,
 		OtherHandUse			=	TRUE,
 		OtherHandRequire		=	Lighter,
+		Tooltip 			= 	Tooltip_Trap,		
      }
-
-	item HCChlorgasgrenade
-    	{
-        	MaxRange	        	= 	10,
-        	Type	                	= 	Weapon,
-        	MinimumSwingTime		= 	1.5,
-        	SwingAnim	        	= 	Bat,
-        	UseSelf	                	= 	TRUE,
-        	DisplayName	        	= 	Chlorgas Grenade,
-        	SwingTime	        	= 	1.5,
-        	SwingAmountBeforeImpact		= 	0.1,
-        	PhysicsObject	        	= 	ExplosiveTrap,
-        	MinDamage	        	= 	1,
-       	 	Weight	                	= 	1.5,
-        	MaxDamage	        	= 	3,
-        	MaxHitCount	        	= 	10,
-        	CriticalChance	        	= 	60,
-        	Icon	                	= 	HCChlorgasgrenade,
-        	TriggerExplosionTimer   	= 	10,
-        	SmokeRange              	= 	7,
- 		ExplosionPower          	= 	30,
-		ExplosionRange          	= 	7,
-        	ExplosionSound          	= 	smallExplosion,
-
-    	}
-
+	 
 	item HCDynamitenk1
     {
 		MaxRange			=	10,
 		Type				=	Weapon,
 		MinimumSwingTime		=	1.5,
-		SwingAnim			=	Bat,
+		SwingAnim			=	Throw,
+		WeaponSprite		 = Molotov,
 		UseSelf				=	TRUE,
 		DisplayName			=	Dynamite MK1,
 		SwingTime			=	1.5,
@@ -479,7 +484,8 @@ item HCAmmonalbomboff
 		Icon				=	HCDynamitemk1,
 		ExplosionPower  		=   	70,
 		ExplosionRange  		=   	5,
-		ExplosionSound  		=   	bigExplosion,
+		ExplosionSound  		=   	BigExplosion,
+		Tooltip 			= 	Tooltip_Trap,
      }
 
 	item HCDynamitenk2on
@@ -487,7 +493,8 @@ item HCAmmonalbomboff
         	MaxRange	        	= 	10,
         	Type	                	= 	Weapon,
         	MinimumSwingTime		= 	1.5,
-        	SwingAnim	        	= 	Bat,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf	                	= 	TRUE,
         	DisplayName	        	= 	Dynamite MK2 On,
         	SwingTime	        	= 	1.5,
@@ -501,8 +508,9 @@ item HCAmmonalbomboff
         	TriggerExplosionTimer   	= 	50,
 		ExplosionPower  		=   	70,
 		ExplosionRange  		=   	5,
-        	ExplosionSound          	= 	bigExplosion,
+        	ExplosionSound          	= 	BigExplosion,
         	DoorDamage	        	= 	10,
+			Tooltip 			= 	Tooltip_Trap,
      }
 
 	item HCDynamitenk3on
@@ -510,7 +518,8 @@ item HCAmmonalbomboff
         	MaxRange	        	= 	10,
         	Type	                	= 	Weapon,
         	MinimumSwingTime		= 	1.5,
-        	SwingAnim	        	= 	Bat,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf	                	= 	TRUE,
         	DisplayName	        	= 	Dynamite MK3 On,
         	SwingTime	        	= 	1.5,
@@ -524,8 +533,9 @@ item HCAmmonalbomboff
         	TriggerExplosionTimer   	= 	70,
 		ExplosionPower  		=   	70,
 		ExplosionRange  		=   	5,
-        	ExplosionSound          	= 	bigExplosion,
+        	ExplosionSound          	= 	BigExplosion,
         	DoorDamage	        	= 	10,
+			Tooltip 			= 	Tooltip_Trap,
      }
 
 	item HCThermitebomb  
@@ -533,7 +543,8 @@ item HCAmmonalbomboff
         	MaxRange			=	10,
         	Type				=	Weapon,
         	MinimumSwingTime		=	1.5,
-        	SwingAnim			=	Bat,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf				=	TRUE,
         	DisplayName			=	Thermite Bomb,
         	SwingTime			=	1.5,
@@ -547,7 +558,7 @@ item HCAmmonalbomboff
         	DoorDamage			=	50,
         	FirePower  			=   	250,
         	FireRange  			=   	1,
-        	ExplosionSound  		=   	smallExplosion,
+        	ExplosionSound  		=   	SmallExplosion,
         	Tooltip 			= 	Tooltip_Trap,
 		OtherHandUse			=	TRUE,
 		OtherHandRequire		=	Lighter,
@@ -558,7 +569,8 @@ item HCAmmonalbomboff
         	MaxRange			=	10,
         	Type				=	Weapon,
         	MinimumSwingTime		=	1.5,
-        	SwingAnim			=	Bat,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf				=	TRUE,
         	DisplayName			=	Thermite Bomb MK1 On,
         	SwingTime			=	1.5,
@@ -573,8 +585,8 @@ item HCAmmonalbomboff
         	DoorDamage			=	50,
         	FirePower  			=   	250,
         	FireRange  			=   	1,
-        	ExplosionSound  		=   	smallExplosion,
-        	Tooltip 			= 	Tooltip_Trap,
+        	ExplosionSound  		=   	SmallExplosion,
+			Tooltip 			= 	Tooltip_Trap,
     	}
 
 	item HCThermitebombmk2on  
@@ -582,7 +594,8 @@ item HCAmmonalbomboff
         	MaxRange			=	10,
         	Type				=	Weapon,
         	MinimumSwingTime		=	1.5,
-        	SwingAnim			=	Bat,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf				=	TRUE,
         	DisplayName			=	Thermite Bomb MK2 On,
         	SwingTime			=	1.5,
@@ -597,8 +610,8 @@ item HCAmmonalbomboff
         	DoorDamage			=	50,
         	FirePower  			=   	250,
         	FireRange  			=   	1,
-        	ExplosionSound  		=   	smallExplosion,
-        	Tooltip 			= 	Tooltip_Trap,
+        	ExplosionSound  		=   	SmallExplosion,
+			Tooltip 			= 	Tooltip_Trap,
     	}
 
 	item HCThermitebombmk3on  
@@ -606,7 +619,8 @@ item HCAmmonalbomboff
         	MaxRange			=	10,
         	Type				=	Weapon,
         	MinimumSwingTime		=	1.5,
-        	SwingAnim			=	Bat,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf				=	TRUE,
         	DisplayName			=	Thermite Bomb MK3 On,
         	SwingTime			=	0.8,
@@ -621,8 +635,8 @@ item HCAmmonalbomboff
         	DoorDamage			=	50,
         	FirePower  			=   	250,
         	FireRange  			=   	1,
-        	ExplosionSound  		=   	smallExplosion,
-        	Tooltip 			= 	Tooltip_Trap,
+        	ExplosionSound  		=   	SmallExplosion,
+			Tooltip 			= 	Tooltip_Trap,
     	}
 
 
@@ -631,7 +645,8 @@ item HCAmmonalbomboff
 		MaxRange			=	1,
 		Type				=	Weapon,
 		MinimumSwingTime		=	1.5,
-		SwingAnim			=	Bat,
+		SwingAnim			=	Throw,
+		WeaponSprite		 = Molotov,
 		UseSelf				=	TRUE,
 		DisplayName			=	Detonator Capsule with HMTD,
 		SwingTime			=	1.5,
@@ -644,28 +659,8 @@ item HCAmmonalbomboff
 		Icon				=	HCDetonatorcapsulehmtd,
 		ExplosionPower  		=   	40,
 		ExplosionRange  		=   	2,
-		ExplosionSound  		=   	smallExplosion,
-	}
-
-	item HCDetonatormk3hmtdoff
-	{
-		MaxRange			=	1,
-		Type				=	Weapon,
-		MinimumSwingTime		=	1.5,
-		SwingAnim			=	Bat,
-		UseSelf				=	TRUE,
-		DisplayName			=	Detonator MK3 with HMTD Off,
-		SwingTime			=	1.5,
-		SwingAmountBeforeImpact		=	0.1,
-		PhysicsObject			=	PipeBomb,
-		MinDamage			=	0,
-		Weight				=	0.6,
-		MaxDamage			=	0,
-		MaxHitCount			=	0,
-		Icon				=	HCDetonatormk3hmtdoff,
-		ExplosionPower  		=   	40,
-		ExplosionRange  		=   	2,
-		ExplosionSound  		=   	smallExplosion,
+		ExplosionSound  		=   	SmallExplosion,
+		Tooltip 			= 	Tooltip_Trap,
 	}
     
 
@@ -674,7 +669,8 @@ item HCAmmonalbomboff
         	MaxRange	        	= 	3,
         	Type	                	= 	Weapon,
         	MinimumSwingTime		= 	1.5,
-        	SwingAnim	        	= 	Bat,
+			SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf	                	= 	TRUE,
         	DisplayName	        	= 	Detonator MK3 with HMTD On,
         	SwingTime	        	= 	1.5,
@@ -688,9 +684,9 @@ item HCAmmonalbomboff
         	TriggerExplosionTimer   	= 	60,
  		ExplosionPower          	= 	40,
 		ExplosionRange          	= 	2,
-        	ExplosionSound          	= 	smallExplosion,
+        	ExplosionSound          	= 	SmallExplosion,
         	DoorDamage	        	= 	50,
-
+			Tooltip 			= 	Tooltip_Trap,
     	}
 
 
@@ -1184,7 +1180,7 @@ recipe Turn Detonator MK3 with HMTD Off
        Category:Engineer,
     }
 
-recipe Turn Ammonalbomb On
+recipe Turn Ammonal Bomb On
     {
        HCAmmonalbomboff,
        Result:HCAmmonalbombon,
@@ -1192,7 +1188,7 @@ recipe Turn Ammonalbomb On
        Category:Engineer,
     }
 
-recipe Turn Ammonalbomb Off
+recipe Turn Ammonal Bomb Off
     {
        HCAmmonalbombon,
        Result:HCAmmonalbomboff,

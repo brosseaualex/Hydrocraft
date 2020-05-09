@@ -16,7 +16,6 @@ item HCGardenbench
 	Capacity             	= 50,
         DisplayName         	= Gardening Workbench,
         icon 			= HCGardenbench,
-		ResizeWorldIcon 	= 1.0,
     }
 
 item HCGardenhose
@@ -27,7 +26,7 @@ item HCGardenhose
         icon 				= HCGardenhose,
 	UseDelta 			= 0.1,
 	UseWhileEquipped 		= false,
-	ResizeWorldIcon 		= 1.0,
+	
     }
 
 item HCGardenapron
@@ -85,7 +84,7 @@ item HCPostholedigger
         DisplayName         		= Post Hole Digger,
         icon 				= HCPostholedigger,
     }
-
+/*
 item HCLeafrake
     {
         Weight    			= 1,
@@ -93,7 +92,7 @@ item HCLeafrake
         DisplayName         		= Leaf Rake,
         icon 				= HCLeafrake,
     }
-
+*/
 item HCLooper
     {
         Weight    			= 1,
@@ -116,7 +115,6 @@ item HCLawnmower
         Type    			= Normal,
         DisplayName         		= Lawnmower,
         icon 				= HCLawnmower,
-	ResizeWorldIcon 		= 1.8,
     }
 
 item TrellisKit
@@ -128,7 +126,7 @@ item TrellisKit
 	}
 
 /************************WEAPONS************************/
-
+/*
 item HCRake
     {
         MaxRange                 		=    1.5,
@@ -165,7 +163,7 @@ item HCRake
         BreakSound             			=    BreakWoodItem,
         TreeDamage             			=    1,
     }
-
+*/
 	item HCHedgetrimmer
 	{
 		MaxRange			=	1.5,
@@ -291,15 +289,15 @@ recipe Make Gardening Workbench
 	HCGardenapron,
 	HandShovel,
 	HCPruningsheers,
-	HCRake,
+    Base.Rake,
 	Shovel,
 	WateredCan,
 	GardeningSprayEmpty,
 	HCGardenhose=10,
 	Fertilizer=10,
 	HCWorkbench,
-        CanBeDoneFromFloor:true,
-        NeedToBeLearn:true,
+    CanBeDoneFromFloor:true,
+    NeedToBeLearn:true,
 	Result:HCGardenbench,
 	Time:1000,
         Category:Farming,

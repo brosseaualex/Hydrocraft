@@ -39,7 +39,7 @@ item HCProjector
         Type			=	Normal,
         DisplayName		=	Movie Projector,
 	Icon			=	HCProjector,
-	ResizeWorldIcon 	= 	2.0,
+	
 	}
 
 item HC3Dglasses

@@ -3,7 +3,6 @@ local MOD_ID = "ChainSaw";
 local timeDown = 0;
 
 function chainsaw_swing(owner, weapon)
-	
 	if owner:getPrimaryHandItem() and owner:getPrimaryHandItem():getType() == "ChainSaw" then	
 		
 		getSoundManager():PlayWorldSound('cs_hit', true, owner:getCurrentSquare(), 0, 4, 1, false);
@@ -72,9 +71,6 @@ end
 function chainsaw_add(player, square)
 	player:getInventory():AddItem("Hydrocraft.ChainSawNoGas");
 	player:getInventory():AddItem("Base.PetrolCan");
-	--player:getInventory():AddItem("Hydrocraft.HCBattleaxebronze");
-	--player:getInventory():AddItem("ORGM.BenelliM3PASO");
-
 end
 
 function chainsaw_init() -- probably not needed anymore

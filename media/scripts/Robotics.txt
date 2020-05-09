@@ -15,7 +15,7 @@ item HCRobotarm
         Type    		= Normal,
         DisplayName         	= Robotic Assembly Arm,
         icon 			= HCRobotarm,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 

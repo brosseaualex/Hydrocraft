@@ -50,16 +50,36 @@ function HCTrainPunchingBag_Trainingxp(items, result, player)
 	-- player:getStats():setHunger(player:getStats():getHunger()+0.05)		
 end
 
+function HCTrainPunchingBag_Trainingxp2(items, result, player)
+	local pl = getPlayer();
+	pl:getXp():AddXP(Perks.Nimble, 300);
+end
+
 --Weights
 function HCTrainWeights_Trainingxp(player)
 	local pl = getPlayer();
-	pl:getXp():AddXP(Perks.Strength, 10);
+	pl:getXp():AddXP(Perks.Strength, 50);
 	-- player:getStats():setHunger(player:getStats():getHunger()+0.05)		
 end
+
+
+function HCTrainWeights_Trainingxp2(player)
+	local pl = getPlayer();
+	pl:getXp():AddXP(Perks.Strength, 900);
+end
+
 
 --Tredmill
 function HCTrainTredmill_Trainingxp(player)
 	local pl = getPlayer();
-    pl:getXp():AddXP(Perks.Sprinting, 10);
+    pl:getXp():AddXP(Perks.Sprinting, 50);
+    pl:getXp():AddXP(Perks.Fitness, 10);
+	-- player:getStats():setHunger(player:getStats():getHunger()+0.05)		
+end
+
+function HCTrainTredmill_Trainingxp2(player)
+	local pl = getPlayer();
+    pl:getXp():AddXP(Perks.Sprinting, 100);
+    pl:getXp():AddXP(Perks.Fitness, 900);   
 	-- player:getStats():setHunger(player:getStats():getHunger()+0.05)		
 end

@@ -42,43 +42,6 @@ item HCAxeheadblunt
 
 /************************WEAPONS************************/
 
-	item HCLumberaxe
-	{
-		MaxRange			=	1.8,
-		WeaponSprite			=	Fireaxe,
-		MinAngle			=	0.2,
-		Type				=	Weapon,
-		MinimumSwingTime		=	3.5,
-		KnockBackOnNoDeath		=	TRUE,
-		SwingAmountBeforeImpact		=	0.002,
-		Categories			=	Axe,
-		ConditionLowerChanceOneIn	=	30,
-		Weight				=	4,
-		SplatNumber			=	1,
-		PushBackMod			=	0.3,
-		MinDamage			=	1.5,
-		MaxDamage			=	3,
-		SubCategory			=	Swinging,
-		ConditionMax			=	15,
-		MaxHitCount			=	2,
-		DoorDamage			=	45,
-		IdleAnim			=	Idle_Weapon2,
-		SwingAnim			=	Bat,
-		CriticalChance			=	30,
-		WeaponWeight			=	3.5,
-		DisplayName			=	Lumber Axe,
-		MinRange			=	0.61,
-		SwingTime			=	3.0,
-		HitAngleMod			=	-30,
-		SplatSize			=	5,
-		KnockdownMod			=	2,
-		SplatBloodOnNoDeath		=	TRUE,
-		Icon				=	HCLumberaxe,
-		RunAnim				=	Run_Weapon2,
-        	TwoHandWeapon 			= 	TRUE,
-        	BreakSound  			=   	BreakWoodItem,
-        	TreeDamage  			=   	60,
-	}
 
 	item HCSawbladeaxe
 	{
@@ -231,14 +194,14 @@ item HCAxeheadblunt
         	BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	20,
 	}
-
+	
 	item HCSurvivalaxe
 	{
 		DisplayName					=	Survival Axe,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
-		WeaponSprite					=	Fireaxe,
+		WeaponSprite					=	HandAxe,
 		SwingAnim					=	Bat,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
@@ -276,7 +239,7 @@ item HCAxeheadblunt
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
-		WeaponSprite					=	Fireaxe,
+		WeaponSprite					=	HandAxe,
 		SwingAnim					=	Bat,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
@@ -314,7 +277,7 @@ item HCAxeheadblunt
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
-		WeaponSprite					=	Fireaxe,
+		WeaponSprite					=	HandAxe,
 		SwingAnim					=	Bat,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
@@ -352,7 +315,7 @@ item HCAxeheadblunt
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
-		WeaponSprite					=	Fireaxe,
+		WeaponSprite					=	HandAxe,
 		SwingAnim					=	Bat,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
@@ -390,7 +353,7 @@ item HCAxeheadblunt
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
-		WeaponSprite					=	Fireaxe,
+		WeaponSprite					=	HandAxe,
 		SwingAnim					=	Bat,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
@@ -668,7 +631,7 @@ recipe Craft Sawblade Axe
 
 recipe Make Steel Axe
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=4,
 	   	HCSteelingot=3,
     		WoodenStick,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -684,7 +647,7 @@ recipe Make Steel Axe
 
 recipe Make Steel Hatchet
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCSteelingot=2,
     		WoodenStick,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -700,7 +663,7 @@ recipe Make Steel Hatchet
 
 recipe Make Iron Hatchet
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCIroningot=2,
     		WoodenStick,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -716,7 +679,7 @@ recipe Make Iron Hatchet
 
 recipe Make Bronze Hatchet
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCBronzeingot=2,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -732,7 +695,7 @@ recipe Make Bronze Hatchet
 
 recipe Make Bronze Hatchet
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCBronzeingot=2,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -748,7 +711,7 @@ recipe Make Bronze Hatchet
 
 recipe Make Copper Hatchet
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCCopperingot=2,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -764,7 +727,7 @@ recipe Make Copper Hatchet
 
 recipe Make Copper Hatchet
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCCopperingot=2,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -780,7 +743,7 @@ recipe Make Copper Hatchet
 
 recipe Make Steel Battleaxe
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCSteelingot=3,
     		WoodenStick,
     		keep HCSmithyhammersteel,
@@ -796,7 +759,7 @@ recipe Make Steel Battleaxe
 
 recipe Make Iron Battleaxe
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCIroningot=3,
     		WoodenStick,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -812,7 +775,7 @@ recipe Make Iron Battleaxe
 
 recipe Make Bronze Battleaxe
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCBronzeingot=3,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -828,7 +791,7 @@ recipe Make Bronze Battleaxe
 
 recipe Make Bronze Battleaxe
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCBronzeingot=3,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -844,7 +807,7 @@ recipe Make Bronze Battleaxe
 
 recipe Make Copper Battleaxe
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCCopperingot=3,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -860,7 +823,7 @@ recipe Make Copper Battleaxe
 
 recipe Make Copper Battleaxe
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCCopperingot=3,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,

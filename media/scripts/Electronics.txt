@@ -10,13 +10,22 @@ module Hydrocraft
 
 item HCElectornicsbench
     {
-	WeightReduction         = 0,
-	Weight             	= 10,
-	Type                	= Container,
-	Capacity             	= 50,
-        DisplayName         	= Electronics Workbench,
-        icon 			= HCElectornicsbench,
-	ResizeWorldIcon 	= 1.8,
+	Weight              = 10,
+	Type                = Normal,
+    DisplayName         = Electronics Workbench,
+    icon                = HCElectornicsbench,
+	
+    }
+
+item HCElectornicsbench2
+    {
+    Weight              = 1000,
+    Type                = Container,
+    Capacity            = 100,
+    WeightReduction     = 0,
+    DisplayName         = Electronics Workbench,
+    icon                = HCElectornicsbench,
+    
     }
 
 item HCCalculator
@@ -49,7 +58,7 @@ item HCRadioantenna
         Type    		= Normal,
         DisplayName         	= Radio Antenna,
         icon 			= HCRadioantenna,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCMag
@@ -73,7 +82,7 @@ item HCControlpanel
         Weight    			= 10,
         Type    			= Normal,
         DisplayName         		= Control Panel,
-        ResizeWorldIcon 	        = 1.0,
+        
         icon 				= HCControlpanel,
     }
 
@@ -82,7 +91,7 @@ item HCChargingunit
         Weight    			= 20,
         Type    			= Normal,
         DisplayName         		= Charging Unit (On),
-        ResizeWorldIcon 	        = 1.0,
+        
         icon 				= HCChargingunit,
     }
 
@@ -91,7 +100,7 @@ item HCChargingunitoff
         Weight    			= 20,
         Type    			= Normal,
         DisplayName         		= Charging Unit (Off),
-        ResizeWorldIcon 	        = 1.0,
+        
         icon 				= HCChargingunitoff,
     }
 
@@ -117,7 +126,7 @@ item HCCopymachine
         Type    			= Normal,
         DisplayName         		= Copy Machine,
         icon 				= HCCopymachine,
-        ResizeWorldIcon 	        = 1.0,
+        
     } 
 
 item HCPrinter
@@ -710,7 +719,6 @@ item HCComputerPSU
         Type                = Normal,
         DisplayName                 = Copy Machine With Generator,
         icon                 = HCCopymachineGen,
-        ResizeWorldIcon             = 1.0,
     }
 
 /************************RECIPES************************/
@@ -738,6 +746,36 @@ recipe Make Electronics Workbench
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
+
+recipe Anchor Electronics Workbench
+    {
+    HCElectornicsbench,
+    CanBeDoneFromFloor:true,
+    Result:HCElectornicsbench2,
+    Time:200,
+    Category:Anchor,
+    }
+
+
+recipe Make Electric Clamp
+    {
+        SkillRequired:Electricity=2,
+        HCWirecopper=1,
+        HCCablecopper,
+        HCClothespin,
+        HCSolder,
+        HCSoldergunpowered,
+        keep HCPliers,
+        keep HCElectornicsbench2,
+        CanBeDoneFromFloor:true,
+        Result:HCElectricclamp,
+        NeedToBeLearn:true,
+        Time:200,
+        Category:Electrical,
+        OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+
 recipe Make Control Panel
     {
 	SkillRequired:Electricity=3,
@@ -757,7 +795,7 @@ recipe Make Control Panel
     	HCWeldingset,
     	keep WeldingMask,
     	keep HCWorkgloves,
-	keep HCElectornicsbench,
+	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
         Result:HCControlpanel,
@@ -822,7 +860,7 @@ recipe Make Circut Chip
         HCCablecopper,
 	HCSolder,
 	HCSoldergunpowered,
-	keep HCElectornicsbench,
+	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
 	Result:HCCircutchip,
@@ -842,7 +880,7 @@ recipe Make Small Electric Motor
 	HCSolder,
 	HCSoldergunpowered,
 	keep HCPliers,
-	keep HCElectornicsbench,
+	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
 	Result:HCElectromotorsmall,
@@ -862,7 +900,7 @@ recipe Make Electric Motor
 	HCSolder,
 	HCSoldergunpowered,
 	keep HCPliers,
-	keep HCElectornicsbench,
+	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
 	Result:HCElectromotor,
@@ -894,7 +932,7 @@ recipe Loot Electronic Parts
        	SkillRequired:Electricity=1,
        	HCElectronicpartsbroken,
        	HCSoldergunpowered,
-	keep HCElectornicsbench,
+	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,
        	NeedToBeLearn:true,
        	Result:HCCircuitboardpieces,
@@ -924,7 +962,7 @@ recipe Loot Electronics Parts
        	SkillRequired:Electricity=1,
        	ElectronicsScrap=2,
        	HCSoldergunpowered,
-       	keep HCElectornicsbench,
+       	keep HCElectornicsbench2,
        	CanBeDoneFromFloor:true,
        	NeedToBeLearn:true,
        	Result:HCCabletangle,
@@ -937,7 +975,7 @@ recipe Loot Electronics Parts
 recipe Sort Electronic Parts
     {
        	HCElectronicparts01,
-       	keep HCElectornicsbench,
+       	keep HCElectornicsbench2,
        	CanBeDoneFromFloor:true,
        	Result:HCCircuitboarduseless,
        	Time:60.0,
@@ -949,7 +987,7 @@ recipe Sort Electronic Parts
 recipe Sort Electronic Parts
     {
        	HCElectronicparts02,
-       	keep HCElectornicsbench,
+       	keep HCElectornicsbench2,
        	CanBeDoneFromFloor:true,
        	Result:HCCircuitboarduseless,
        	Time:60.0,
@@ -961,7 +999,7 @@ recipe Sort Electronic Parts
 recipe Sort Electronic Parts
     {
        	HCElectronicparts03,
-       	keep HCElectornicsbench,
+       	keep HCElectornicsbench2,
        	CanBeDoneFromFloor:true,
        	Result:HCCircuitboarduseless,
        	Time:60.0,
@@ -973,7 +1011,7 @@ recipe Sort Electronic Parts
 recipe Sort Electronic Parts
     {
        	HCElectronicparts04,
-       	keep HCElectornicsbench,
+       	keep HCElectornicsbench2,
        	CanBeDoneFromFloor:true,
        	Result:HCCircuitboarduseless,
        	Time:60.0,
@@ -985,7 +1023,7 @@ recipe Sort Electronic Parts
 recipe Untangle Cables
     {
        	HCCabletangle,
-       	keep HCElectornicsbench,
+       	keep HCElectornicsbench2,
        	CanBeDoneFromFloor:true,
        	Result:HCTerminalstrip=5,
        	Time:120.0,
@@ -1005,7 +1043,6 @@ recipe Unbox Resistors
 recipe Box Resistors
     {
        HCResistor=100,
-       SheetPaper2,
        Result:HCResistorbox,
        Time:50.0,
        Category:Electrical,
@@ -1036,7 +1073,7 @@ recipe Make Moving Sensor
     	HCWirecopper,
     	keep Tweezers,
     	keep HCMagnifyglass,
-    	keep HCElectornicsbench,
+    	keep HCElectornicsbench2,
        	CanBeDoneFromFloor:true,
     	Result:HCPlatinemovingsensor,
     	NeedToBeLearn:true,
@@ -1053,7 +1090,7 @@ recipe Put Sensor In Case
     	HCPlatinemovingsensor,
     	destroy Battery,
     	HCSelfmadeplasticcase,
-    	keep HCElectornicsbench,
+    	keep HCElectornicsbench2,
        	CanBeDoneFromFloor:true,
     	Result:MotionSensor,
     	NeedToBeLearn:true,
@@ -1076,7 +1113,7 @@ recipe Make IR Remote
     	HCWirecopper,
     	keep Tweezers,
     	keep HCMagnifyglass,
-    	keep HCElectornicsbench,
+    	keep HCElectornicsbench2,
        	CanBeDoneFromFloor:true,
     	Result:HCPlatineirremote,
     	NeedToBeLearn:true,
@@ -1093,7 +1130,7 @@ recipe Put Remote In Case
     	Screws=2,
     	HCPlatineirremote,
     	HCSelfmadeplasticcase,
-    	keep HCElectornicsbench,
+    	keep HCElectornicsbench2,
        	CanBeDoneFromFloor:true,
     	Result:RemoteCraftedV3,
     	NeedToBeLearn:true,
@@ -1116,7 +1153,7 @@ recipe Make IR Receiver
     	HCWirecopper,
     	keep Tweezers,
     	keep HCMagnifyglass,
-    	keep HCElectornicsbench,
+    	keep HCElectornicsbench2,
        	CanBeDoneFromFloor:true,
     	Result:HCPlatineirreceiver,
     	NeedToBeLearn:true,
@@ -1133,7 +1170,7 @@ recipe Put Receiver In Case
     	destroy Battery,
     	HCPlatineirreceiver,
     	HCSelfmadeplasticcase,
-    	keep HCElectornicsbench,
+    	keep HCElectornicsbench2,
        	CanBeDoneFromFloor:true,
     	Result:TriggerCrafted,
     	NeedToBeLearn:true,
@@ -1263,7 +1300,7 @@ recipe Make Computer Mouse
 	HCSoldergunpowered,
 	keep HCPliers,
 	keep Screwdriver,
-    	keep HCElectornicsbench,
+    	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
 	Result:HCComputermouse,
@@ -1304,7 +1341,7 @@ recipe Make Computer Keyboard
 	HCSoldergunpowered,
 	keep HCPliers,
 	keep Screwdriver,
-    	keep HCElectornicsbench,
+    	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
 	Result:HCComputerkeyboard,
@@ -1365,7 +1402,7 @@ recipe Make Computer Monitor
 	HCSoldergunpowered,
 	keep HCPliers,
 	keep Screwdriver,
-    	keep HCElectornicsbench,
+    	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
 	Result:HCComputermonitor,
@@ -1418,7 +1455,7 @@ recipe Make Computer PSU
 	HCSoldergunpowered,
 	keep HCPliers,
 	keep Screwdriver,
-    	keep HCElectornicsbench,
+    	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
 	Result:HCComputerPSU,
@@ -1457,7 +1494,7 @@ recipe Make Computer Fan
 	HCSoldergunpowered,
 	keep HCPliers,
 	keep Screwdriver,
-    	keep HCElectornicsbench,
+    	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
 	Result:HCComputerfan,
@@ -1491,7 +1528,7 @@ recipe Make Computer Tower
 	HCSoldergunpowered,
 	keep HCPliers,
 	keep Screwdriver,
-    	keep HCElectornicsbench,
+    	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
 	Result:HCComputer,
@@ -1525,7 +1562,7 @@ recipe Make Computer Tower
 	HCSoldergunpowered,
 	keep HCPliers,
 	keep Screwdriver,
-    	keep HCElectornicsbench,
+    	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
 	Result:HCComputer,
@@ -1551,7 +1588,7 @@ recipe Extract Working CPU
     	SkillRequired:Electricity=2,	
     	ElectronicsScrap=30,
         keep Screwdriver,
-    	keep HCElectornicsbench,
+    	keep HCElectornicsbench2,
     	Result:HCCPU,
 	NeedToBeLearn:true,
     	Time:100,

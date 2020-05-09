@@ -15,7 +15,7 @@ item HCTelescope
         Type    		= Normal,
         DisplayName         	= Telescope,
         icon 			= HCTelescope,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCTelescopescope
@@ -24,7 +24,7 @@ item HCTelescopescope
         Type    		= Normal,
         DisplayName         	= Telescope Scope,
         icon 			= HCTelescopescope,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCTelescopetripod
@@ -33,7 +33,7 @@ item HCTelescopetripod
         Type    		= Normal,
         DisplayName         	= Telescope Tripod,
         icon 			= HCTelescopetripod,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 
@@ -43,7 +43,7 @@ item HCTelescopebox
         Type    		= Normal,
         DisplayName         	= Telescope in Box,
         icon 			= HCTelescopebox,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCStarchart
@@ -60,7 +60,7 @@ item HCStarchartboard
         Type    		= Normal,
         DisplayName         	= Star Chart Board,
         icon 			= HCStarchartboard,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 /************************RECIPES************************/	

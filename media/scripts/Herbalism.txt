@@ -14,16 +14,18 @@ item HCHerbtable
 	Type 			= Normal,
 	DisplayName 		= Herbalist Table,
 	Icon			= HCHerbtable,
-	ResizeWorldIcon 	= 1.0,
+	
 	}
 
 item HCHerbtable2
 	{
-	Weight 			= 10000,
-	Type 			= Normal,
+    Weight              = 1000,
+    Type                = Container,
+    Capacity            = 100,
+    WeightReduction     = 0,
 	DisplayName 		= Herbalist Table,
-	Icon			= HCHerbtable,
-	ResizeWorldIcon 	= 1.0,
+	Icon			    = HCHerbtable,
+	
 	}
 
 item HCPollen
@@ -32,7 +34,7 @@ item HCPollen
         Type            	= Normal,
         DisplayName     	= Pollen,
         Icon            	= HCPollen,
-        ResizeWorldIcon 	= 1.0,
+        
     }
 
 item HCHops
@@ -630,7 +632,7 @@ recipe Anchor Herbalist Table
 
 recipe Harvest Pollen
     {
-        keep HCHerbtable/HCHerbtable2,
+        keep HCHerbtable2,
         keep Tweezers,
         Violets/HCRosebud/HCCamomile/HCLavender/HCSunflower/HCFlaxflower/HCDaisy/HCIris/HCSkullcap/HCBluebell/HCLotusflower/HCHyacinthflower/HCWaterlilyflower/HCValerian/HCThistle/HCAnemome/HCCamellia/HCRhododendron/HCDaffodil/HCTulip/HCMorningglory/HCCalily/HCBleedingheart/HCPansy/HCTetterwort/HCDogwood/HCMagnolia/HCSpeedwell/HCColumbine/HCCinquefoils/HCStrelitzia/HCMazus/HCCarnation/HCChrysanthemum/HCBluedaisy/HCSoapgrass/HCChicory/HCWolfsbane/HCKvann,
         CanBeDoneFromFloor:true,
@@ -641,9 +643,22 @@ recipe Harvest Pollen
         OnGiveXP:HCCooking_OnGiveXP,
     }
 
+recipe Harvest Flax
+    {
+        keep HCHerbtable2,
+        HCFlaxflower,
+        CanBeDoneFromFloor:true,
+        Result:HCFlax=5,
+        NeedToBeLearn:true,
+        Time:100.0,
+        Category:Alchemy,
+        OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+
 recipe Make Plantain Poultice
     {
-        keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+        keep MortarPestle/HCGrindstone2/HCLab,
         Plantain=5,
     	CanBeDoneFromFloor:true,
         Result:PlantainCataplasm,
@@ -666,7 +681,7 @@ recipe Make Plantain Poultice
 
 recipe Make Comfrey Poultice
     {
-        keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+        keep MortarPestle/HCGrindstone2/HCLab,
         Comfrey=5,
     	CanBeDoneFromFloor:true,
         Result:ComfreyCataplasm,
@@ -689,7 +704,7 @@ recipe Make Comfrey Poultice
 
 recipe Make Wild Garlic Poultice
     {
-        keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+        keep MortarPestle/HCGrindstone2/HCLab,
         WildGarlic=5,
 	CanBeDoneFromFloor:true,
         Result:WildGarlicCataplasm,
@@ -713,7 +728,7 @@ recipe Make Wild Garlic Poultice
 recipe Dry Leaves
     {
     HCTeafresh,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCTeagreen,
     NeedToBeLearn:true,
@@ -725,7 +740,7 @@ recipe Dry Leaves
 recipe Dry Leaves
     {
     HCTeagreen,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCTeablack,
     NeedToBeLearn:true,
@@ -737,7 +752,7 @@ recipe Dry Leaves
 recipe Make Teabag
     {
     HCTeagreen=2,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:Teabag2,
     NeedToBeLearn:true,
@@ -749,7 +764,7 @@ recipe Make Teabag
 recipe Make Teabag
     {
     HCTeablack,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:Teabag2,
     NeedToBeLearn:true,
@@ -762,7 +777,7 @@ recipe Breed Silkmoths
     {
     HCSilkmothmale,
     HCSilkmothfemale,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCSilkegg=10,
     NeedToBeLearn:true,
@@ -775,7 +790,7 @@ recipe Feed Silkworm
     {
     HCSilkwom,
     HCMulberryleaf/HCOakleaves,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCSilkcocoon,
     NeedToBeLearn:true,
@@ -787,7 +802,7 @@ recipe Feed Silkworm
 recipe Harvest Silk
     {
     HCSilkcocoon2,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCSilkcocoonempty,
     NeedToBeLearn:true,
@@ -826,7 +841,7 @@ recipe Soak Fresh Jute Stems
 recipe Dry Jute Stems
     {
     HCJutestemswet,
-    keep HCHerbtable/HCHerbtable2/HCDryingframe,
+    keep HCHerbtable2/HCDryingframe,
     CanBeDoneFromFloor:true,
     Result:HCJutestemsdry,
     NeedToBeLearn:true,
@@ -850,7 +865,7 @@ recipe Craft Corn Cob Pipe
 recipe Dry Flower
     {
     HCCamomile,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCCamomiledry,
     NeedToBeLearn:true,
@@ -858,6 +873,8 @@ recipe Dry Flower
     Category:Alchemy,
     OnGiveXP:HCCooking_OnGiveXP,
     }
+
+
 
 recipe Make Herbal Tea
     {
@@ -886,7 +903,7 @@ recipe Make Herbal Tea
 recipe Dry Herbs
     {
     HCNettles,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCNettlesdry,
     NeedToBeLearn:true,
@@ -922,7 +939,7 @@ recipe Make Herbal Tea
 recipe Dry Flower
     {
     HCThistle,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCThistledry,
     NeedToBeLearn:true,
@@ -958,7 +975,7 @@ recipe Make Herbal Tea
 recipe Dry Flower
     {
     HCSkullcap,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCSkullcapdry,
     NeedToBeLearn:true,
@@ -994,7 +1011,7 @@ recipe Make Herbal Tea
 recipe Dry Flower
     {
     HCDaisy,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCDaisydry,
     NeedToBeLearn:true,
@@ -1030,7 +1047,7 @@ recipe Make Herbal Tea
 recipe Dry Flower
     {
     	HCAnemome,
-    	keep HCHerbtable/HCHerbtable2,
+    	keep HCHerbtable2,
     	CanBeDoneFromFloor:true,
     	Result:HCAnemomedry,
     	NeedToBeLearn:true,
@@ -1066,7 +1083,7 @@ recipe Make Herbal Tea
 recipe Dry Flower
     {
     	HCCamellia,
-    	keep HCHerbtable/HCHerbtable2,
+    	keep HCHerbtable2,
     	CanBeDoneFromFloor:true,
     	Result:HCCamelliadry,
     	NeedToBeLearn:true,
@@ -1103,7 +1120,7 @@ recipe Make Herbal Tea
 recipe Dry into Straw
 	{
     	HCGrass/HCPlantfibers/HCFlax/HCHusk/HCSoapgrass/HCAlfalfa,
-    	keep HCHerbtable/HCHerbtable2,
+    	keep HCHerbtable2,
     	CanBeDoneFromFloor:true,
     	Result:HCStraw,
     	Time:1000,
@@ -1114,7 +1131,7 @@ recipe Dry into Straw
 recipe Cut Chili Pepper Stem
     {
     HCChilipepper,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     Result:HCChilipepperstem,
     Time:50.0,
@@ -1126,7 +1143,7 @@ recipe Cut Chili Pepper Stem
 recipe Dry Spice
     {
     HCChilipepper=10,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCChilipepperdry,
     NeedToBeLearn:true,
@@ -1177,7 +1194,7 @@ recipe Thresh Rice
 recipe Extract Seed from Raw Rice
     {
     	HCRiceraw,
-    	keep HCHerbtable/HCHerbtable2,
+    	keep HCHerbtable2,
     	CanBeDoneFromFloor:true,
     	Result:HCRiceseeds,
     	Time:100,
@@ -1190,7 +1207,7 @@ recipe Shuck Corn
     {
     Corn,
     keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     Result:HCCornseeds=4,
     NeedToBeLearn:true,
     CanBeDoneFromFloor:true,
@@ -1204,7 +1221,7 @@ recipe Shuck Corn
     {
     HCCornwhite,
     keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     Result:HCCornwhiteseeds=4,
     NeedToBeLearn:true,
     CanBeDoneFromFloor:true,
@@ -1218,7 +1235,7 @@ recipe Shuck Corn
     {
     HCCornred,
     keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     Result:HCCornredseeds=4,
     NeedToBeLearn:true,
     CanBeDoneFromFloor:true,
@@ -1232,7 +1249,7 @@ recipe Shuck Corn
     {
     HCCornblue,
     keep KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     Result:HCCornblueseeds=4,
     NeedToBeLearn:true,
     CanBeDoneFromFloor:true,
@@ -1245,7 +1262,7 @@ recipe Shuck Corn
 recipe Make Bamboo Gutter
     	{
 	HCBamboo,
-	keep Saw/HCMachete,
+	keep Saw/Base.Machete,
         Result:HCBamboogutter,
         Time:15,
     	Category:Carpentry,
@@ -1255,7 +1272,7 @@ recipe Make Bamboo Gutter
 recipe Dry Spice
     {
     HCGarlic,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCGarlicdry,
     NeedToBeLearn:true,
@@ -1267,7 +1284,7 @@ recipe Dry Spice
 recipe Dry Spice
     {
     Onion,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCOniondry,
     NeedToBeLearn:true,
@@ -1279,7 +1296,7 @@ recipe Dry Spice
 recipe Dry Berry
     {
     HCJuniperberry,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCJuniperberrydry,
     NeedToBeLearn:true,
@@ -1291,7 +1308,7 @@ recipe Dry Berry
 recipe Dry Flower
     {
     HCLavender,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCLavenderdry,
     NeedToBeLearn:true,

@@ -172,7 +172,7 @@ item HCJeepLeft
 	Capacity             	= 500,
         DisplayName         	= Jeep,
         icon 			= HCJeepLeft,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCJeepLeftDirty
@@ -182,7 +182,7 @@ item HCJeepLeftDirty
 	Capacity             	= 500,
         DisplayName         	= Jeep,
         icon 			= HCJeepLeftDirty,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCJeepRight
@@ -192,7 +192,7 @@ item HCJeepRight
 	Capacity             	= 500,
         DisplayName         	= Jeep,
         icon 			= HCJeepRight,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCJeepRightDirty
@@ -202,7 +202,7 @@ item HCJeepRightDirty
 	Capacity             	= 500,
         DisplayName         	= Jeep,
         icon 			= HCJeepRightDirty,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCTractorL
@@ -211,7 +211,7 @@ item HCTractorL
 	Type                	= Normal,
         DisplayName         	= Tractor,
         icon 			= HCTractorL,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCTractorR
@@ -220,7 +220,7 @@ item HCTractorR
 	Type                	= Normal,
         DisplayName         	= Tractor,
         icon 			= HCTractorR,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar1L
@@ -230,7 +230,7 @@ item HCCar1L
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar1L,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar1R
@@ -240,7 +240,7 @@ item HCCar1R
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar1R,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar2L
@@ -250,7 +250,7 @@ item HCCar2L
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar2L,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar2R
@@ -260,7 +260,7 @@ item HCCar2R
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar2R,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar3L
@@ -270,7 +270,7 @@ item HCCar3L
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar3L,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar3R
@@ -280,7 +280,7 @@ item HCCar3R
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar3R,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar4L
@@ -290,7 +290,7 @@ item HCCar4L
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar4L,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar4R
@@ -300,7 +300,7 @@ item HCCar4R
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar4R,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar5L
@@ -310,7 +310,7 @@ item HCCar5L
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar5L,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar5R
@@ -320,7 +320,7 @@ item HCCar5R
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar5R,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar6L
@@ -330,7 +330,7 @@ item HCCar6L
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar6L,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar6R
@@ -340,7 +340,7 @@ item HCCar6R
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar6R,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar7L
@@ -350,7 +350,7 @@ item HCCar7L
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar7L,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar7R
@@ -360,7 +360,7 @@ item HCCar7R
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar7R,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar8L
@@ -370,7 +370,7 @@ item HCCar8L
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar8L,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar8R
@@ -380,7 +380,7 @@ item HCCar8R
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar8R,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar9L
@@ -390,7 +390,7 @@ item HCCar9L
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar9L,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar9R
@@ -400,7 +400,7 @@ item HCCar9R
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar9R,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar10L
@@ -410,7 +410,7 @@ item HCCar10L
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar10L,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar10R
@@ -420,7 +420,7 @@ item HCCar10R
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar10R,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar11L
@@ -430,7 +430,7 @@ item HCCar11L
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar11L,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar11R
@@ -440,7 +440,7 @@ item HCCar11R
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar11R,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar12L
@@ -450,7 +450,7 @@ item HCCar12L
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar12L,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCar12R
@@ -460,7 +460,7 @@ item HCCar12R
 	Capacity             	= 500,
         DisplayName         	= Car,
         icon 			= HCCar12R,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCBicycle
@@ -471,7 +471,7 @@ item HCBicycle
 	Capacity             		= 4,
 	DisplayName             	= Bicycle,
 	Icon				= HCBicycle,
-	ResizeWorldIcon 		= 1.0,
+	
 	RequiresEquippedBothHands 	= true,
 	}
 
@@ -483,7 +483,7 @@ item HCBicycle2
 	Capacity             		= 32,
 	DisplayName             	= Bicycle with Baskets,
 	Icon				= HCBicycle2,
-	ResizeWorldIcon 		= 1.0,
+	
 	RequiresEquippedBothHands 	= true,
 	}
 
@@ -495,7 +495,7 @@ item HCMotorcycle
 	Capacity             		= 4,
 	DisplayName             	= Motorcycle,
 	Icon				= HCMotorcycle,
-	ResizeWorldIcon 		= 1.0,
+	
 	RequiresEquippedBothHands 	= true,
 	}
 

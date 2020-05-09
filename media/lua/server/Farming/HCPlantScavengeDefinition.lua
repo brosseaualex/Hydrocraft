@@ -75,6 +75,7 @@ getTexture("Item_HCLobstershroom.png");
 getTexture("Item_HCWitchshatshroom.png");
 getTexture("Item_HCYellowmorelshroom.png");
 getTexture("Item_HCChantrelle.png");
+getTexture("Item_Logs.png");
 
 -- Plants
 local HCCandleberry = {};
@@ -452,6 +453,11 @@ HCChantrelle.type = "Hydrocraft.HCChantrelle";
 HCChantrelle.minCount = 1;
 HCChantrelle.maxCount = 2;
 HCChantrelle.skill = 4;
+--local HCOakLog.type = "Hydrocraft.HCOakLog";
+--HCOakLog.minCount = 1;
+--HCOakLog.maxCount = 1;
+--HCOakLog.skill = 8;
+
 
 table.insert(scavenges.berries, HCCandleberry);
 table.insert(scavenges.berries, HCHuckleberry);
@@ -511,6 +517,7 @@ table.insert(scavenges.forestGoods, HCSprucebough);
 table.insert(scavenges.forestGoods, HCYewbough);
 table.insert(scavenges.forestGoods, HCPinebough);
 table.insert(scavenges.forestGoods, HCFirbough);
+--table.insert(scavenges.forestGoods, HCOakLog);
 table.insert(scavenges.berries, HCCrabapple);
 table.insert(scavenges.berries, HCCabbage);
 table.insert(scavenges.berries, HCWildcarrot);

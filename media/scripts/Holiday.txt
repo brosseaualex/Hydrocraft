@@ -114,7 +114,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Gift,
         	Icon 			= HCXmasgift,
-		ResizeWorldIcon 	= 2.0,
+		
 	}
 
 	item HCXmastree
@@ -123,7 +123,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Christmas Tree,
         	Icon 			= HCXmastree,
-		ResizeWorldIcon 	= 2.0,
+		
 	}
 
 	item HCXmastree2
@@ -132,7 +132,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Christmas Tree,
         	Icon 			= HCXmastree2,
-		ResizeWorldIcon 	= 2.0,
+		
 	}
 
 	item HCXmastree3
@@ -141,7 +141,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Christmas Tree,
         	Icon 			= HCXmastree3,
-		ResizeWorldIcon 	= 2.0,
+		
 	}
 
 	item HCXmastree4
@@ -150,7 +150,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Christmas Tree,
         	Icon 			= HCXmastree4,
-		ResizeWorldIcon 	= 2.0,
+		
 	}
 
     	item HCCandybucket
@@ -177,7 +177,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Jack-O-Lantern,
         	Icon 			= HCJackolantern,
-		ResizeWorldIcon 	= 2.0,
+		
 	}
 
 	item HCJackolanternon
@@ -191,7 +191,7 @@ module Hydrocraft
 		DisplayName		=	Lit Jack-O-Lantern,
 		ActivatedItem		=	TRUE,
 		Icon			=	HCJackolanternon,
-		ResizeWorldIcon 	= 	2.0,
+		
 	}
 
 	item HCJackolanternwhite
@@ -200,7 +200,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= White Jack-O-Lantern,
         	Icon 			= HCJackolanternwhite,
-		ResizeWorldIcon 	= 2.0,
+		
 	}
 
 	item HCJackolanternwhiteon
@@ -214,7 +214,7 @@ module Hydrocraft
 		DisplayName		=	Lit White Jack-O-Lantern,
 		ActivatedItem		=	TRUE,
 		Icon			=	HCJackolanternwhiteon,
-		ResizeWorldIcon 	= 	2.0,
+		
 	}
 
 	item HCJackolanterngreen
@@ -223,7 +223,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Green Jack-O-Lantern,
         	Icon 			= HCJackolanterngreen,
-		ResizeWorldIcon 	= 2.0,
+		
 	}
 
 	item HCJackolanterngreenon
@@ -237,7 +237,7 @@ module Hydrocraft
 		DisplayName		=	Lit Green Jack-O-Lantern,
 		ActivatedItem		=	TRUE,
 		Icon			=	HCJackolanterngreenon,
-		ResizeWorldIcon 	= 	2.0,
+		
 	}
 
 	item HCPikehead
@@ -246,7 +246,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Head on a Pike,
         	Icon 			= HCPikehead,
-		ResizeWorldIcon 	= 2.0,
+		
 	}
 
 /************************WEAPONS************************/

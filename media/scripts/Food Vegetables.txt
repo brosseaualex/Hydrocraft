@@ -212,7 +212,7 @@ item HCBeans
 	DaysTotallyRotten 		=	 	28,
         FoodType    			=   		Vegetables,
         EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	ResizeWorldIcon 		= 		2.0,
+	
         Carbohydrates 			= 		58.5,
         Proteins 			= 		9,
         Lipids 				= 		0.9,
@@ -247,7 +247,7 @@ item HCBeans
 	DaysTotallyRotten 		=	 	28,
         FoodType    			=   		Vegetables,
         EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	ResizeWorldIcon 		= 		2.0,
+	
         Carbohydrates 			= 		58.5,
         Proteins 			= 		9,
         Lipids 				= 		0.9,
@@ -266,7 +266,7 @@ item HCBeans
 	DaysTotallyRotten 		=	 	28,
         FoodType    			=   		Vegetables,
         EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	ResizeWorldIcon 		= 		2.0,
+	
         Carbohydrates 			= 		58.5,
         Proteins 			= 		9,
         Lipids 				= 		0.9,
@@ -285,7 +285,7 @@ item HCBeans
 	DaysTotallyRotten 		=	 	28,
         FoodType    			=   		Vegetables,
         EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	ResizeWorldIcon 		= 		2.0,
+	
         Carbohydrates 			= 		58.5,
         Proteins 			= 		9,
         Lipids 				= 		0.9,
@@ -304,7 +304,7 @@ item HCBeans
 	DaysTotallyRotten 		=	 	28,
         FoodType    			=   		Vegetables,
         EvolvedRecipe       		=       	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	ResizeWorldIcon 		= 		2.0,
+	
         Carbohydrates 			= 		58.5,
         Proteins 			= 		9,
         Lipids 				= 		0.9,
@@ -552,7 +552,6 @@ item HCTomatillo
 		IsCookable			=		TRUE,
 		MinutesToCook		=		40,
 		MinutesToBurn		=		60,
-		ReplaceOnUse		=		BakingTray,
 		FoodType    		=   	Vegetables,
 		EvolvedRecipe       =       Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
 		Carbohydrates 		= 		1.7,
@@ -561,10 +560,10 @@ item HCTomatillo
 		Calories 			=		20,
     }
 
-   item HCSpirulinapowder
+   item HCAlgaePowder
    {
 		Type				=		Food,
-		DisplayName			=		Spirulina Powder,
+		DisplayName			=		Algae powder,
 		Icon				=		HCSpirulinapowder,
 		Weight				=		0.1,
 		HungerChange 		=		-5,
@@ -609,6 +608,24 @@ item HCTomatillo
         Proteins 			= 		0.2,
         Lipids 				= 		0,
         Calories 			=		1,
+    }
+
+   item HCOreganoleaf
+   {
+	Type				=		Food,
+	DisplayName			=		Oregano Leaf,
+	Icon				=		HCBasilleaf,
+	Weight				=		0.1,
+	HungerChange 			=		-1,
+	ThirstChange			=		-15,
+	DaysFresh 			=		5,
+	DaysTotallyRotten 		=	 	10,
+	FoodType    			=   		Vegetables,
+	EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+    Carbohydrates 			= 		0.1,
+    Proteins 			= 		0.2,
+    Lipids 				= 		0,
+    Calories 			=		1,
     }
 
    item HCAsparagus
@@ -788,15 +805,27 @@ recipe Slice Buskin Pumpkin
     	OnGiveXP:HCCooking_OnGiveXP,
        }
 	   
-	recipe Make Spirulina Powder
+	recipe Make Algae Powder
 	{	
-		keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
-		HCSpirulinafresh,
+		keep MortarPestle/HCGrindstone2/HCLab2,
+		HCSpirulinafresh=5,
 		CanBeDoneFromFloor:true,
-		Result:HCSpirulinapowder,
+		Result:HCAlgaePowder,
+		Time:50,
+		Category:Cooking,
+		OnGiveXP:Hoking_OnGiveXP,
+	}
+
+	recipe Make Algae Powder
+	{	
+		keep MortarPestle/HCGrindstone2/HCLab2,
+		HCDuckweed,
+		CanBeDoneFromFloor:true,
+		Result:HCAlgaePowder,
 		Time:50,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
+
 	
 }

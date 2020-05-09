@@ -14,16 +14,8 @@ item HCStonepilebox
         Type   			= Normal,
         DisplayName         	= Pallet of Stones,
         icon 			= HCStonepilebox,
-	ResizeWorldIcon 	= 1.0,
+	
     }
-
-item HCMortarandpestle
-    {
-        Weight    		= 1,
-        Type    		= Normal,
-        DisplayName         	= Mortar and Pestle,
-        icon 			= HCMortarandpestle,
-    }  
 
 item HCMortar
     {
@@ -56,7 +48,7 @@ item HCTombstone
         Type    		= Normal,
         DisplayName         	= Tombstone,
         icon 			= HCTombstone,
-	ResizeWorldIcon 	= 1.0,
+	
     } 
 
 item HCGrave
@@ -65,7 +57,7 @@ item HCGrave
         Type    		= Normal,
         DisplayName         	= Grave,
         icon 			= HCGrave,
-	ResizeWorldIcon 	= 1.0,
+	
     } 
 
 item HCRunestone
@@ -74,7 +66,7 @@ item HCRunestone
         Type    		= Normal,
         DisplayName         	= Rune Stone,
         icon 			= HCRunestone,
-	ResizeWorldIcon 	= 2.0,
+	
     } 
 
 item HCObelisk
@@ -83,7 +75,7 @@ item HCObelisk
         Type    		= Normal,
         DisplayName         	= Obelisk,
         icon 			= HCObelisk,
-	ResizeWorldIcon 	= 1.0,
+	
     } 
 
 item HCTarkiln
@@ -92,16 +84,18 @@ item HCTarkiln
         Type    		= Normal,
         DisplayName         	= Tar Kiln,
         icon 			= HCTarkiln,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCTarkiln2
     {
-        Weight    		= 10000,
-        Type    		= Normal,
-        DisplayName         	= Tar Kiln,
-        icon 			= HCTarkiln,
-	ResizeWorldIcon 	= 1.0,
+        Weight              = 1000,
+        Type                = Container,
+        Capacity            = 100,
+        WeightReduction     = 0,
+        DisplayName         = Tar Kiln,
+        icon 			    = HCTarkiln,
+	
     }
 
 item HCWell
@@ -112,7 +106,7 @@ item HCWell
         DisplayName         	= Empty Well,
 	ReplaceOnUseOn		= WaterSource-HCWellfull,
         icon 			= HCWell,
-	ResizeWorldIcon 	= 1.0,
+	
 	RainFactor 		= 0.01,
     }
 
@@ -128,7 +122,7 @@ item HCWellfull
 	ReplaceOnDeplete	=	HCWell,
 	ReplaceOnUseOn		=	WaterSource-HCWellfull,
 	Icon			=	HCWell,
-	ResizeWorldIcon 	= 	1.0,
+	
 	RainFactor 		= 	0.01,
     }
 
@@ -138,7 +132,7 @@ item HCOilpress
         Type    		= Normal,
         DisplayName         	= Oil Press,
         icon 			= HCOilpress,
-		ResizeWorldIcon 	= 1.0,
+		
     } 
 
 item HCOilpress2
@@ -147,7 +141,7 @@ item HCOilpress2
         Type    		= Normal,
         DisplayName         	= Oil Press,
         icon 			= HCOilpress,
-		ResizeWorldIcon 	= 1.0,
+		
     } 
 
 item HCStonewheel
@@ -156,33 +150,35 @@ item HCStonewheel
         Type    		= Normal,
         DisplayName         	= Stone Wheel,
         icon 			= HCStonewheel,
-		ResizeWorldIcon 	= 1.0,
+		
     } 
 
 item HCGrindstone
     {
         Weight    		= 20,
         Type    		= Normal,
-        DisplayName         	= Grindstone,
+        DisplayName     = Grindstone,
         icon 			= HCGrindstone,
-		ResizeWorldIcon 	= 1.0,
+		
     } 
 
 item HCGrindstone2
     {
-        Weight    		= 10000,
-        Type    		= Normal,
-        DisplayName         	= Grindstone,
-        icon 			= HCGrindstone,
-		ResizeWorldIcon 	= 1.0,
+    WeightReduction     = 0,
+    Weight              = 1000,
+    Type                = Container,
+    Capacity            = 50,
+    DisplayName         = Grindstone,
+    icon 			    = HCGrindstone,
+		
     } 
 
 item HCStampmill
     {
         Weight    		= 20,
         Type    		= Normal,
-        DisplayName         	= Stamp Mill,
-        ResizeWorldIcon 	= 2.0,
+        DisplayName     = Stamp Mill,
+        
         icon 			= HCStampmill,
     }
 
@@ -191,7 +187,7 @@ item HCStampmillcrank
         Weight    		= 20,
         Type    		= Normal,
         DisplayName         	= Stamp Mill with Crank,
-        ResizeWorldIcon 	= 2.0,
+        
         icon 			= HCStampmillcrank,
     }
 
@@ -199,8 +195,7 @@ item HCStampmillsteam
     {
         Weight    		= 20,
         Type    		= Normal,
-        DisplayName         	= Stamp Mill with Steam Machine,
-        ResizeWorldIcon 	= 1.0,
+        DisplayName     = Stamp Mill with Steam Machine,
         icon 			= HCStampmillsteam,
     }
 
@@ -208,8 +203,8 @@ item HCStampmillgen
     {
         Weight    		= 20,
         Type    		= Normal,
-        DisplayName         	= Stamp Mill with Generator,
-        ResizeWorldIcon 	= 2.0,
+        DisplayName      = Stamp Mill with Generator,
+        
         icon 			= HCStampmillgen,
     }
 
@@ -222,7 +217,7 @@ item HCWoodenbucketgravel
 	DisplayName		=	Wooden Bucket with Gravel,
 	ReplaceOnDeplete	=	HCWoodenbucket,
 	Icon			=	HCWoodenbucketgravel,
-	ResizeWorldIcon 	= 	2.0,
+	
 	}
 
 item HCWoodenbucketsand
@@ -234,7 +229,7 @@ item HCWoodenbucketsand
 	DisplayName		=	Wooden Bucket with Sand,
 	ReplaceOnDeplete	=	HCWoodenbucket,
 	Icon			=	HCWoodenbucketsand,
-	ResizeWorldIcon 	= 	2.0,
+	
 	}
 
 item HCWoodenbucketconcrete
@@ -246,7 +241,7 @@ item HCWoodenbucketconcrete
 	DisplayName		=	Wooden Bucket with Concrete,
 	ReplaceOnDeplete	=	HCWoodenbucket,
 	Icon			=	HCWoodenbucketconcrete,
-	ResizeWorldIcon 	= 	2.0,
+	
 	}
 
 item HCCellar
@@ -257,7 +252,7 @@ item HCCellar
 	Capacity             		= 800,
         DisplayName         		= Cellar,
         icon 				= HCCellar,
-	ResizeWorldIcon 		= 2.0,
+	
 	RequiresEquippedBothHands 	= true,
     }
 
@@ -269,7 +264,7 @@ item HCCellar2
 	Capacity             		= 800,
         DisplayName         		= Cellar,
         icon 				= HCCellar,
-	ResizeWorldIcon 		= 2.0,
+	
 	RequiresEquippedBothHands 	= true,
     }
 
@@ -277,18 +272,20 @@ item HCAnvilstone
     {
         Weight    		= 20,
         Type    		= Normal,
-        DisplayName         	= Stone Anvil,
+        DisplayName     = Stone Anvil,
         icon 			= HCAnvilstone,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCAnvilstone2
     {
         Weight    		= 10000,
-        Type    		= Normal,
-        DisplayName         	= Stone Anvil,
-        icon 			= HCAnvilstone,
-	ResizeWorldIcon 	= 1.0,
+        Type                = Container,
+        Capacity            = 100,
+        WeightReduction     = 0,
+        DisplayName         = Stone Anvil,
+        icon            = HCAnvilstone,
+	
     }
 
 item HCVenus
@@ -368,6 +365,20 @@ recipe Construct Tar Kiln
     	Time:1000,
     	Category:Stoneworking,
     	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Construct Tar Kiln
+    {
+        HCWoodenbucket,
+        SharpedStone=75,
+        HCWoodenbucketconcrete=4,
+        keep HCMasontrowel,
+        CanBeDoneFromFloor:true,
+        Result:HCTarkiln,
+        NeedToBeLearn:true,
+        Time:1000,
+        Category:Stoneworking,
+        OnGiveXP:HCHunger_OnGiveXP,
     }
 
 recipe Construct Tar Kiln
@@ -462,14 +473,6 @@ recipe Make Stone Arrowhead
     	OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Make Mortar and Pestle
-    {
-    	Stone=2,
-    	Result:HCMortarandpestle,
-    	Time:15,
-    	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
 
 recipe Make Stone Saw
     {
@@ -584,6 +587,24 @@ recipe Construct Oil Press
     	Category:Stoneworking,
     	OnGiveXP:HCMechanics_OnGiveXP,
     }
+
+recipe Construct Oil Press
+    {
+    SkillRequired:Mechanics=1,
+        SharpedStone=35,
+        Log=2,
+        HCStonewheel=2,
+        HCWoodenbucketconcrete=4,
+        CanBeDoneFromFloor:true,
+        Result:HCOilpress,
+        NeedToBeLearn:true,
+        Time:500,
+        Category:Stoneworking,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+
+
 
 recipe Construct Oil Press
     {
@@ -739,12 +760,24 @@ recipe Make Gravel
     {
     	EmptySandbag,
     	Stone=10,
-    	keep Sledgehammer,
+    	keep Sledgehammer2,
     	Result:Gravelbag,
         NeedToBeLearn:true,
     	Time:4000,
     	Category:Stoneworking,
     	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Gravel
+    {
+        EmptySandbag,
+        SharpedStone=15,
+        keep Sledgehammer2,
+        Result:Gravelbag,
+        NeedToBeLearn:true,
+        Time:4000,
+        Category:Stoneworking,
+        OnGiveXP:HCHunger_OnGiveXP,
     }
 
 recipe Make Gravel
@@ -814,9 +847,23 @@ recipe Make Gravel
 
 recipe Make Gravel
     {
+        EmptySandbag=2,
+        SharpedStone=15,
+        keep HCMacerator,
+        PetrolCan,
+        CanBeDoneFromFloor:true,
+        Result:Gravelbag=2,
+        NeedToBeLearn:true,
+        Time:500,
+        Category:Stoneworking,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Gravel
+    {
     	HCWoodenbucket,
     	Stone=10,
-    	keep Sledgehammer,
+    	keep Sledgehammer2,
     	Result:HCWoodenbucketgravel,
         NeedToBeLearn:true,
     	Time:4000,
@@ -826,14 +873,38 @@ recipe Make Gravel
 
 recipe Make Gravel
     {
+        HCWoodenbucket,
+        SharpedStone=15,
+        keep Sledgehammer2,
+        Result:HCWoodenbucketgravel,
+        NeedToBeLearn:true,
+        Time:4000,
+        Category:Stoneworking,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Gravel
+    {
     	HCWoodenbucket,
-    	Stone=10,
+    	SharpedStone=15,
     	keep HCStampmillcrank,
     	Result:HCWoodenbucketgravel,
         NeedToBeLearn:true,
     	Time:2000,
     	Category:Stoneworking,
     	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Gravel
+    {
+        HCWoodenbucket,
+        Stone=10,
+        keep HCStampmillcrank,
+        Result:HCWoodenbucketgravel,
+        NeedToBeLearn:true,
+        Time:2000,
+        Category:Stoneworking,
+        OnGiveXP:HCHunger_OnGiveXP,
     }
 
 recipe Make Gravel
@@ -893,7 +964,7 @@ recipe Make Sand
     {
     	EmptySandbag,
     	HCSandstone=10,
-    	keep Sledgehammer,
+    	keep Sledgehammer2,
     	Result:Sandbag,
         NeedToBeLearn:true,
     	Time:4000,
@@ -970,7 +1041,7 @@ recipe Make Sand
     {
     	HCWoodenbucket,
     	HCSandstone=10,
-    	keep Sledgehammer,
+    	keep Sledgehammer2,
     	Result:HCWoodenbucketsand,
         NeedToBeLearn:true,
     	Time:4000,
@@ -1099,7 +1170,7 @@ recipe Make Plaster
 recipe Make Concrete Powder
     {
     	HCConcreteingot=4,
-    	keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    	keep HCGrindstone2,
     	CanBeDoneFromFloor:true,
     	Result:ConcretePowder,
     	NeedToBeLearn:true,
@@ -1125,7 +1196,7 @@ recipe Make Mortar
 	HCGreyclay=3,
     	HCLimestone,
 	HCLard,
-    	keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    	keep HCGrindstone2,
     	CanBeDoneFromFloor:true,
     	Result:HCMortar,
     	NeedToBeLearn:true,
@@ -1197,6 +1268,14 @@ recipe Carve Venus Figurine
 		destroy HCWoodenbucketconcrete,
 		Result:HCWoodenbucket,
 		Time:50,
+		Category:Stoneworking,
+    }
+	
+	recipe Empty Well
+    {
+		destroy HCWellfull,
+		Result:HCWell,
+		Time:1000,
 		Category:Stoneworking,
     }
 

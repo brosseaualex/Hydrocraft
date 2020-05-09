@@ -454,7 +454,7 @@ recipe Barbecue Mushrooms
 
 recipe Make Mushrooms on a Stick
 	{
-		WoodenLance/HCChopsticks,
+		HCChopsticks,
 		HCBunchofshrooms,
 		Result:HCShroomstick,
     		NeedToBeLearn:true, 
@@ -497,7 +497,7 @@ recipe Make Fried Frogs Legs
 
 recipe Make Shish Kebab
 	{
-		WoodenLance/HCChopsticks,
+		HCChopsticks,
     		FishFillet/Salmon/HCHerring/HCCrab/Steak/MuttonChop/PorkChop/HCFreshham/Ham/Chicken/HCBearsteak/HCVenison/HCSmallgamesteak/Rabbitmeat/Smallanimalmeat/Smallbirdmeat/HCDuckmeat/HCGoosemeat/HCTurkeymeat/FrogMeat/HCSausagefrog/HCSausagebird/HCSausagechicken/HCSausageduck/HCSausagegoose/HCSausageturkey/HCSausagevermin/HCSausagerabbit/HCSausagesmallgame/HCSausagedeer/HCSausagebear/HCSausagemutton/HCSausagepork/HCSausagebeef/HCSausageitalian/HCSausagehot/HCCheval/HCSausagecheval,
 		BellPepper/HCBellpeppergreen/HCBellpepperyellow/Eggplant/Leek/HCOniongreen/Onion/HCGarlic/Broccoli/HCCauliflower/Carrots/RedRadish/Potato/HCSweetpotato/HCPotatogolden/HCPotatored/Zucchini/Tomato/Pineapple/HCPortobello/HCShiitake/MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7,
 		BellPepper/HCBellpeppergreen/HCBellpepperyellow/Eggplant/Leek/HCOniongreen/Onion/HCGarlic/Broccoli/HCCauliflower/Carrots/RedRadish/Potato/HCSweetpotato/HCPotatogolden/HCPotatored/Zucchini/Tomato/Pineapple/HCPortobello/HCShiitake/MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7,

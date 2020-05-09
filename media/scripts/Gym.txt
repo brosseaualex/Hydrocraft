@@ -11,185 +11,234 @@ module Hydrocraft
 
 item HCBoxinggloves
     {
-        Weight    		= 0.4,
-        Type   			= Normal,
-        DisplayName 		= Boxing Gloves,
-	UseWhileEquipped 	= true,
-        icon 			= HCBoxinggloves,
+        Weight          = 0.4,
+        Type            = Normal,
+        DisplayName         = Boxing Gloves,
+    UseWhileEquipped    = true,
+        icon            = HCBoxinggloves,
     }
 
 item HCPunchingstand
     {
-        Weight    		= 8.0,
-        Type   			= Normal,
-        DisplayName         	= Punching Bag Stand,
-        icon 			= HCPunchingstand,
-	ResizeWorldIcon 	= 2.0,
+        Weight          = 8.0,
+        Type            = Normal,
+        DisplayName             = Punching Bag Stand,
+        icon            = HCPunchingstand,
+    
     }
 
 item HCPunchingbag
     {
-        Weight    		= 12.0,
-	Type			= Normal,
-        DisplayName         	= Punching Bag,
-        icon 			= HCPunchingbag,
-	ResizeWorldIcon 	= 2.0,
-    }	
+        Weight          = 12.0,
+    Type            = Normal,
+        DisplayName             = Punching Bag,
+        icon            = HCPunchingbag,
+    
+    }   
 
 item HCGymtowel
     {
-	Weight			= 0.3,
-        Type   			= Normal,
-	DisplayName		= Gym Towel,
-	Icon			= HCGymtowel,
+    Weight          = 0.3,
+        Type            = Normal,
+    DisplayName     = Gym Towel,
+    Icon            = HCGymtowel,
      }
-	
+    
 item HCWeights
     {
-        Weight    		= 20.0,
-        Type   			= Normal,
-        DisplayName 		= Weight Bench,
-        icon 			= HCWeights,
-	ResizeWorldIcon 	= 2.0,
+        Weight          = 20.0,
+        Type            = Normal,
+        DisplayName         = Weight Bench,
+        icon            = HCWeights,
+    
     }
 
 item HCTredmill
-	{
-	Weight				=	6,
-	Type				=	Normal,
-	DisplayName			=	Treadmill,
-	Icon				=	HCTredmill,
-        ResizeWorldIcon 	        = 	1.0,
-	}
+    {
+    Weight              =   6,
+    Type                =   Normal,
+    DisplayName         =   Treadmill,
+    Icon                =   HCTredmill,
+    }
 
 item HCTredmillgenerator
-	{
-	Weight				=	20,
-	Type				=	Normal,
-	DisplayName			=	Treadmill with Generator,
-	Icon				=	HCTredmillgenerator,
-        ResizeWorldIcon 	        = 	1.0,
-	}
+    {
+    Weight              =   20,
+    Type                =   Normal,
+    DisplayName         =   Treadmill with Generator,
+    Icon                =   HCTredmillgenerator,
+    }
 
 /************************RECIPES************************/
  
-	
+    
 recipe Weld Punching Bag Stand
     {
-	SkillRequired:MetalWelding=2,
-        Pipe=2,
-	HCSteelpipe=2,
-	SheetMetal,
-    	HCWeldingset,
-    	keep WeldingMask,
-    	keep HCWorkgloves,
-    	Result:HCPunchingstand,
-    	Time:200.0,
+    SkillRequired:MetalWelding=2,
+        HCSteelpipe=2,
+    SheetMetal,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        Result:HCPunchingstand,
+        Time:200.0,
         Category:Welding,
-    	OnGiveXP:HCWelding_OnGiveXP,
+        OnGiveXP:HCWelding_OnGiveXP,
     }
-	
-recipe Hang Sand Bag on Stand
+    
+recipe Hang Leather Sand Bag on Stand
     {
-	Sandbag,
-	HCPunchingstand,
-    	Result:HCPunchingbag,
-    	Time:60.0,
+    HCLeatherSandbag,
+    HCPunchingstand,
+        Result:HCPunchingbag,
+        Time:60.0,
         OnGiveXP:HCHunger_OnGiveXP,
-    }	
-	
+    }   
+    
+recipe Exercise hard with Punching Bag
+    {
+    SkillRequired:Nimble=4,
+    NeedToBeLearn:true,
+    keep HCPunchingbag,
+    keep HCBoxinggloves,
+    HCFitnessdrink=1,
+    keep HCGymtowel,
+    CanBeDoneFromFloor:true,
+    Result:HCCanteen,
+    Time:2000.0,
+    Category:Leisure,
+    OnCreate:HCTrainPunchingBag_Trainingxp2,
+    }   
+
+
+
 recipe Exercise with Punching Bag
     {
-    	keep HCPunchingbag,
-	keep HCBoxinggloves,
-	Water,
-	keep HCGymtowel,
-	CanBeDoneFromFloor:true,
-	Result:HCGymtowel,
-    	Time:500.0,
-    	Category:Leisure,
-	RemoveResultItem:true,
-	OnCreate:HCTrainPunchingBag_Trainingxp,
-    }	
-	
+    SkillRequired:Nimble=4,
+    keep HCPunchingbag,
+    keep HCBoxinggloves,
+    Water,
+    keep HCGymtowel,
+    CanBeDoneFromFloor:true,
+    Result:HCGymtowel,
+        Time:500.0,
+        Category:Leisure,
+    RemoveResultItem:true,
+    OnCreate:HCTrainPunchingBag_Trainingxp,
+    } 
+
+
+   
 recipe Weld Weight Bench
     {
-	SkillRequired:Woodwork=4;MetalWelding=2;,
-	HCStonewheel=2,
-	Plank=8,
-	Nails=6,
+    SkillRequired:Woodwork=4;MetalWelding=2;,
+    HCStonewheel=2,
+    Plank=8,
+    Nails=6,
         Pipe=4,
-	HCSteelpipe=3,
+    HCSteelpipe=3,
         SheetMetal=2,
-    	HCWeldingset,
-    	keep WeldingMask,
-    	keep HCWorkgloves,
-    	keep Hammer,
-	keep Saw,
-	keep HCCarpenterbench,
-    	CanBeDoneFromFloor:true,
-   	Result:HCWeights,
-    	Sound:PZ_Hammer,
-    	Time:400,
-    	Category:Welding,
-    	OnGiveXP:HCWelding_OnGiveXP,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        keep Hammer,
+    keep Saw,
+    keep HCCarpenterbench,
+        CanBeDoneFromFloor:true,
+    Result:HCWeights,
+        Sound:PZ_Hammer,
+        Time:400,
+        Category:Welding,
+        OnGiveXP:HCWelding_OnGiveXP,
     }
-	
+    
 recipe Exercise with Weights
     {
-    	keep HCWeights,
-	Water,
-	keep HCGymtowel,
-	CanBeDoneFromFloor:true,
-	Result:HCGymtowel,
-    	Time:500.0,
-    	Category:Leisure,
-	RemoveResultItem:true,
-	OnCreate:HCTrainWeights_Trainingxp,
+        keep HCWeights,
+    Water,
+    keep HCGymtowel,
+    CanBeDoneFromFloor:true,
+    Result:HCGymtowel,
+        Time:500.0,
+        Category:Leisure,
+    RemoveResultItem:true,
+    OnCreate:HCTrainWeights_Trainingxp,
     }
+
+
+recipe Exercise hard with Weights
+    {
+    SkillRequired:Strength=5,
+    NeedToBeLearn:true,
+    keep HCWeights,
+    HCFitnessdrink=1,
+    keep HCGymtowel,
+    CanBeDoneFromFloor:true,
+    Result:HCCanteen,
+    Time:2000.0,
+    Category:Leisure,
+    OnCreate:HCTrainWeights_Trainingxp2,
+    } 
+
 
 recipe Repair Treadmill
     {
-	SkillRequired:Electricity=3,
-	HCJunktredmill,
+    SkillRequired:Electricity=3,
+    HCJunktredmill,
         ElectronicsScrap=2,
-	HCSteelpipe,
+    HCSteelpipe,
         Pipe,
-    	HCWeldingset,
-    	keep WeldingMask,
-    	keep HCWorkgloves,
-    	CanBeDoneFromFloor:true,
-   	Result:HCTredmill,
-    	Time:400,
+        HCWeldingset,
+        keep WeldingMask,
+        keep HCWorkgloves,
+        CanBeDoneFromFloor:true,
+    Result:HCTredmill,
+        Time:400,
         Category:Engineer,
         OnGiveXP:HCHunger_OnGiveXP,
     }
 
 recipe Add Generator to Treadmill
     {
-	SkillRequired:Electricity=3,
-	HCTredmill,
-	HCPowercord,
-	Generator,
-    	CanBeDoneFromFloor:true,
-   	Result:HCTredmillgenerator,
-    	Time:400,
-        Category:Engineer,
-        OnGiveXP:HCElectricity_OnGiveXP,
+    SkillRequired:Electricity=3,
+    HCTredmill,
+    HCPowercord,
+    Generator,
+    CanBeDoneFromFloor:true,
+    Result:HCTredmillgenerator,
+    Time:400,
+    Category:Engineer,
+    OnGiveXP:HCElectricity_OnGiveXP,
     }
 
 recipe Exercise on Treadmill
     {
-    	keep HCTredmillgenerator,
-	PetrolCan,
-	Water,
-	keep HCGymtowel,
-	CanBeDoneFromFloor:true,
-	Result:HCGymtowel,
-    	Time:500.0,
-    	Category:Leisure,
-	RemoveResultItem:true,
-	OnCreate:HCTrainTredmill_Trainingxp,
+    keep HCTredmillgenerator,
+    PetrolCan,
+    Water,
+    keep HCGymtowel,
+    CanBeDoneFromFloor:true,
+    Result:HCGymtowel,
+    Time:500.0,
+    Category:Leisure,
+    RemoveResultItem:true,
+    OnCreate:HCTrainTredmill_Trainingxp,
     }
+
+
+recipe Exercise hard on Treadmill
+    {
+    SkillRequired:Fitness=5;Sprinting=5,
+    NeedToBeLearn:true,
+    keep HCTredmillgenerator,
+    HCFitnessdrink=1,
+    keep HCGymtowel,
+    CanBeDoneFromFloor:true,
+    Result:HCCanteen,
+    Time:2000.0,
+    Category:Leisure,
+    OnCreate:HCTrainTredmill_Trainingxp2,
+    }
+
  
 }

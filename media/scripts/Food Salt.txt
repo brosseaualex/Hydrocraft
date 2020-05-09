@@ -384,7 +384,7 @@ item HCSaltedsmallgame
 
 recipe Make Salt Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep MortarPestle/HCGrindstone/HCGrindstone2/HCLab,
     HCRocksalt,
     CanBeDoneFromFloor:true,
     Result:HCSaltpowder,

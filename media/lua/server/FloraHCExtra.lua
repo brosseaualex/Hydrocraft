@@ -89,11 +89,11 @@ player:getStats():setFatigue(player:getStats():getFatigue()+0.05)
 		elseif secondChance == 3 then
             player:getInventory():AddItem("farming.RedRadish");
 		elseif secondChance == 4 then
-            player:getInventory():AddItem("farming.HCCamellia");
+            player:getInventory():AddItem("Hydrocraft.HCCamellia");
 		elseif secondChance == 5 then
-            player:getInventory():AddItem("farming.HCMorningglory");
+            player:getInventory():AddItem("Hydrocraft.HCMorningglory");
 		elseif secondChance == 6 then
-            player:getInventory():AddItem("farming.HCStrelitzia");			
+            player:getInventory():AddItem("Hydrocraft.HCStrelitzia");			
         end
 		player:getXp():AddXP(Perks.PlantScavenging, 10);
     elseif chance <= floraLvl7+floraLvl8+floraLvl9+floraLvl10 then
@@ -113,7 +113,7 @@ player:getStats():setFatigue(player:getStats():getFatigue()+0.05)
         end
 		player:getXp():AddXP(Perks.PlantScavenging, 10);
     elseif chance <= floraLvl6+floraLvl7+floraLvl8+floraLvl9+floraLvl10 then
-        secondChance = ZombRand(10);
+        secondChance = ZombRand(11);
         if secondChance == 0 then
             player:getInventory():AddItem("Base.MushroomGeneric3");
         elseif secondChance == 1 then
@@ -133,7 +133,9 @@ player:getStats():setFatigue(player:getStats():getFatigue()+0.05)
         elseif secondChance == 8 then
             player:getInventory():AddItem("Hydrocraft.HCCarnation");
         elseif secondChance == 9 then
-            player:getInventory():AddItem("Hydrocraft.HCBluedaisy");				
+            player:getInventory():AddItem("Hydrocraft.HCBluedaisy");
+        elseif secondChance == 10 then
+            player:getInventory():AddItem("Hydrocraft.HCOakLog");
         end
 		player:getXp():AddXP(Perks.PlantScavenging, 10);
     elseif chance <= floraLvl5+floraLvl6+floraLvl7+floraLvl8+floraLvl9+floraLvl10 then

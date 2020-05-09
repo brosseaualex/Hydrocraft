@@ -14,7 +14,7 @@ item HCPropanetankempty
 	Type				=	Normal,
 	DisplayName			=	Empty Propane Tank,
 	Icon				=	PropaneTank,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBiogas
@@ -22,7 +22,6 @@ item HCBiogas
         Weight    			= 	20,
         Type    			= 	Normal,
         DisplayName         		= 	Biogas Tank,
-        ResizeWorldIcon 	        = 	1.0,
         icon 				= 	HCBiogas,
     }
 

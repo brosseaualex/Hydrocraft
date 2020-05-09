@@ -212,7 +212,7 @@ item HCPondholedirt
         Type    		= Normal,
         DisplayName         	= Dirt Pond Hole,
         icon 			= HCPondholedirt,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCPondholecement
@@ -221,7 +221,7 @@ item HCPondholecement
         Type    		= Normal,
         DisplayName         	= Cement Pond Hole,
         icon 			= HCPondholecement,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCPond
@@ -230,7 +230,7 @@ item HCPond
         Type    		= Normal,
         DisplayName         	= Pond Hole with Water,
         icon 			= HCPond,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCPond2
@@ -239,7 +239,7 @@ item HCPond2
         Type    		= Normal,
         DisplayName         	= Pond,
         icon 			= HCPond2,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCPond3
@@ -248,7 +248,7 @@ item HCPond3
         Type    		= Normal,
         DisplayName         	= Pond,
         icon 			= HCPond2,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 /************************RECIPES************************/
@@ -480,7 +480,7 @@ recipe Fish in Pond with Bait
 
 recipe Spear Fish in Pond
     {
-	WoodenLance,
+	SpearCrafted,
 	keep HCPond2/HCPond3,
     	CanBeDoneFromFloor:true,
     	Result:BaitFish,

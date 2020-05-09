@@ -22,7 +22,7 @@ item HCSoil
         Type   			= Normal,
         DisplayName         	= Fertile Soil,
         icon 			= HCSoil,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCFir1
@@ -31,7 +31,7 @@ item HCFir1
         Type   			= Normal,
         DisplayName         	= Fir Sprout,
         icon 			= HCFir1,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCFir2
@@ -40,7 +40,7 @@ item HCFir2
         Type   			= Normal,
         DisplayName         	= Fir Sapling,
         icon 			= HCFir2,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCFir3
@@ -49,7 +49,7 @@ item HCFir3
         Type   			= Normal,
         DisplayName         	= Young Fir Tree,
         icon 			= HCFir3,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCFir4
@@ -58,7 +58,7 @@ item HCFir4
         Type   			= Normal,
         DisplayName         	= Adult Fir Tree,
         icon 			= HCFir4,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCFir5
@@ -67,7 +67,7 @@ item HCFir5
         Type   			= Normal,
         DisplayName         	= Elder Fir Tree,
         icon 			= HCFir5,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCFir6
@@ -76,7 +76,7 @@ item HCFir6
         Type   			= Normal,
         DisplayName         	= Ancient Fir Tree,
         icon 			= HCFir6,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCFirstump
@@ -85,7 +85,7 @@ item HCFirstump
         Type   			= Normal,
         DisplayName         	= Fir Tree Stump,
         icon 			= HCFirstump,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCOak1
@@ -94,7 +94,7 @@ item HCOak1
         Type   			= Normal,
         DisplayName         	= Oak Sprout,
         icon 			= HCOak1,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCOak2
@@ -103,7 +103,7 @@ item HCOak2
         Type   			= Normal,
         DisplayName         	= Oak Sapling,
         icon 			= HCOak2,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCOak3
@@ -112,7 +112,7 @@ item HCOak3
         Type   			= Normal,
         DisplayName         	= Young Oak Tree,
         icon 			= HCOak3,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCOak4
@@ -121,7 +121,7 @@ item HCOak4
         Type   			= Normal,
         DisplayName         	= Adult Oak Tree,
         icon 			= HCOak4,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCOak5
@@ -130,7 +130,7 @@ item HCOak5
         Type   			= Normal,
         DisplayName         	= Elder Oak Tree,
         icon 			= HCOak5,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCOak6
@@ -139,7 +139,7 @@ item HCOak6
         Type   			= Normal,
         DisplayName         	= Ancient Oak Tree,
         icon 			= HCOak6,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCOakstump
@@ -148,7 +148,7 @@ item HCOakstump
         Type   			= Normal,
         DisplayName         	= Oak Tree Stump,
         icon 			= HCOakstump,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCBirch1
@@ -157,7 +157,7 @@ item HCBirch1
         Type   			= Normal,
         DisplayName         	= Birch Sprout,
         icon 			= HCBirch1,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCBirch2
@@ -166,7 +166,7 @@ item HCBirch2
         Type   			= Normal,
         DisplayName         	= Birch Sapling,
         icon 			= HCBirch2,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCBirch3
@@ -175,7 +175,7 @@ item HCBirch3
         Type   			= Normal,
         DisplayName         	= Young Birch Tree,
         icon 			= HCBirch3,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCBirch4
@@ -184,7 +184,7 @@ item HCBirch4
         Type   			= Normal,
         DisplayName         	= Adult Birch Tree,
         icon 			= HCBirch4,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCBirch5
@@ -193,7 +193,7 @@ item HCBirch5
         Type   			= Normal,
         DisplayName         	= Elder Birch Tree,
         icon 			= HCBirch5,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCBirch6
@@ -202,7 +202,7 @@ item HCBirch6
         Type   			= Normal,
         DisplayName         	= Ancient Birch Tree,
         icon 			= HCBirch6,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCBirchstump
@@ -211,8 +211,18 @@ item HCBirchstump
         Type   			= Normal,
         DisplayName         	= Birch Tree Stump,
         icon 			= HCBirchstump,
-	ResizeWorldIcon 	= 2.0,
+	
     }
+
+item HCOakLog
+    {
+        Weight  =   12,
+        Type    =   Normal,
+        DisplayName =  Oak Log,
+        Icon    =   Logs,
+    }
+
+
 	
 /************************RECIPES************************/
     

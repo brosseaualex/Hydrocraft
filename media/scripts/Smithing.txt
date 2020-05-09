@@ -8,14 +8,23 @@ module Hydrocraft
 
 /************************ITEMS************************/
 
+item HCLeafSpring
+    {
+        Weight          = 2.0,
+        Type            = Normal,
+        DisplayName     = Leaf spring,
+        icon            = HCLeafSpring,
+    }
+
+
+
 item HCMetalsheetbox
     {
         Weight    		= 6.0,
         Type   			= Normal,
         DisplayName         	= Pallet of Aluminum Sheets,
         icon 			= HCMetalsheetbox,
-	ResizeWorldIcon 	= 1.0,
-    }
+	}
 
 item HCCrank
 	{
@@ -367,7 +376,7 @@ item HCCopperpipebox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Copper Pipes,
         Icon 			= 	HCCopperpipebox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCSteelpipebox
@@ -376,7 +385,7 @@ item HCSteelpipebox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Steel Pipes,
         Icon 			= 	HCSteelpipebox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 	
 	item HCBrasssheet
@@ -393,7 +402,7 @@ item HCMetalbarbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Metal Bars,
         Icon 			= 	HCMetalbarbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCMetalpipebox
@@ -402,7 +411,7 @@ item HCMetalpipebox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Aluminum Pipes,
         Icon 			= 	HCAluminumpipebox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCAluminumingotbox
@@ -411,7 +420,7 @@ item HCAluminumingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Aluminum Ingots,
         Icon 			= 	HCAluminumingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 	
 item HCBrassingotbox
@@ -420,7 +429,7 @@ item HCBrassingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Brass Ingots,
         Icon 			= 	HCBrassingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCBronzeingotbox
@@ -429,7 +438,7 @@ item HCBronzeingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Bronze Ingots,
         Icon 			= 	HCBronzeingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCConcreteingotbox
@@ -438,7 +447,7 @@ item HCConcreteingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Concrete Ingots,
         Icon 			= 	HCConcreteingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCConstantaningotbox
@@ -447,7 +456,7 @@ item HCConstantaningotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Constantan Ingots,
         Icon 			= 	HCConstantaningotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCCopperingotbox
@@ -456,7 +465,7 @@ item HCCopperingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Copper Ingots,
         Icon 			= 	HCCopperingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCElectrumingotbox
@@ -465,7 +474,7 @@ item HCElectrumingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Electrum Ingots,
         Icon 			= 	HCElectrumingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCGlassingotbox
@@ -474,7 +483,7 @@ item HCGlassingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Glass Ingots,
         Icon 			= 	HCGlassingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCGoldingotbox
@@ -483,7 +492,7 @@ item HCGoldingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Gold Ingots,
         Icon 			= 	HCGoldingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCGraphiteingotbox
@@ -492,7 +501,7 @@ item HCGraphiteingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Graphite Ingots,
         Icon 			= 	HCGraphiteingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCIroningotbox
@@ -501,7 +510,7 @@ item HCIroningotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Iron Ingots,
         Icon 			= 	HCIroningotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCLeadingotbox
@@ -510,7 +519,7 @@ item HCLeadingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Lead Ingots,
         Icon 			= 	HCLeadingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCMagnetiteingotbox
@@ -519,7 +528,7 @@ item HCMagnetiteingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Magnetite Ingots,
         Icon 			= 	HCMagnetiteingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCNickelingotbox
@@ -528,7 +537,7 @@ item HCNickelingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Nickel Ingots,
         Icon 			= 	HCNickelingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCPewteringotbox
@@ -537,7 +546,7 @@ item HCPewteringotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Pewter Ingots,
         Icon 			= 	HCPewteringotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCSilveringotbox
@@ -546,7 +555,7 @@ item HCSilveringotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Silver Ingots,
         Icon 			= 	HCSilveringotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCSteelingotbox
@@ -555,7 +564,7 @@ item HCSteelingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Steel Ingots,
         Icon 			= 	HCSteelingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }	
 	
 item HCTiningotbox
@@ -564,7 +573,7 @@ item HCTiningotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Tin Ingots,
         Icon 			= 	HCTiningotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCTitaniumingotbox
@@ -573,7 +582,7 @@ item HCTitaniumingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Titanium Ingots,
         Icon 			= 	HCTitaniumingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCZincingotbox
@@ -582,7 +591,7 @@ item HCZincingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Zinc Ingots,
         Icon 			= 	HCZincingotbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCCoppersheetbox
@@ -591,7 +600,7 @@ item HCCoppersheetbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Copper Sheets,
         Icon 			= 	HCCoppersheetbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }	
 	
 item HCIronsheetbox
@@ -600,7 +609,7 @@ item HCIronsheetbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Iron Sheets,
         Icon 			= 	HCIronsheetbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 	
 item HCRubbersheetbox
@@ -609,7 +618,7 @@ item HCRubbersheetbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Rubber Sheets,
         Icon 			= 	HCRubbersheetbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 		
 item HCSteelsheetbox
@@ -618,7 +627,7 @@ item HCSteelsheetbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Steel Sheets,
         Icon 			= 	HCSteelsheetbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }		
 	
 item HCTinsheetbox
@@ -627,7 +636,7 @@ item HCTinsheetbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Tin Sheets,
         Icon 			= 	HCTinsheetbox,
-	ResizeWorldIcon 	= 	1.0,
+	
     }		
 
 /************************WEAPONS************************/
@@ -635,7 +644,7 @@ item HCTinsheetbox
 	item HCSteelpipe
 	{
 		MaxRange			=	1.3,
-		WeaponSprite			=	Baseballbat,
+		WeaponSprite			=	LeadPipe,
 		MinAngle			=	0,
 		Type				=	Weapon,
 		MinimumSwingTime		=	3,
@@ -742,6 +751,7 @@ recipe Make Copper Circuit Board
     	Category:Electrical,
     	OnGiveXP:HCWelding_OnGiveXP,
     }
+
 
 recipe Cut Sheet Of Metal
     {
@@ -1015,7 +1025,7 @@ recipe Make Small Sheet Of Metal
     	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+	keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     	CanBeDoneFromFloor:true,
 	Result:HCCopperboard,
 	Time:150.0,
@@ -1029,7 +1039,7 @@ recipe Make Small Sheet Of Metal
     	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+	keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     	CanBeDoneFromFloor:true,
 	Result:HCTinboard,
 	Time:150.0,
@@ -1043,7 +1053,7 @@ recipe Make Small Sheet Of Metal
     	keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+	keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     	CanBeDoneFromFloor:true,
 	Result:HCBronzeboard,
 	Time:150.0,
@@ -1057,7 +1067,7 @@ recipe Make Small Sheet Of Metal
     	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+	keep HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
 	Result:HCIronboard,
 	Time:150.0,
@@ -1071,7 +1081,7 @@ recipe Make Small Sheet Of Metal
     	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+	keep HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
 	Result:HCLeadboard,
 	Time:150.0,
@@ -1085,7 +1095,7 @@ recipe Make Small Sheet Of Metal
     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+	keep HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
 	Result:HCSteelboard,
 	Time:150.0,
@@ -1099,7 +1109,7 @@ recipe Make Small Sheet Of Metal
     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+	keep HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
 	Result:SmallSheetMetal,
 	Time:150.0,
@@ -1113,7 +1123,7 @@ recipe Make Small Sheet Of Metal
     	keep HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+	keep HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
 	Result:HCTitaniumboard,
 	Time:150.0,
@@ -1127,7 +1137,7 @@ recipe Make Sheet Of Metal
     	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+	keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     	CanBeDoneFromFloor:true,
 	Result:HCCoppersheet,
 	Time:150.0,
@@ -1141,7 +1151,7 @@ recipe Make Sheet Of Metal
     	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+	keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     	CanBeDoneFromFloor:true,
 	Result:HCTinsheet,
 	Time:150.0,
@@ -1155,7 +1165,7 @@ recipe Make Sheet Of Metal
     	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+	keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     	CanBeDoneFromFloor:true,
 	Result:HCSilversheet,
 	Time:150.0,
@@ -1169,7 +1179,7 @@ recipe Make Sheet Of Metal
     	keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+	keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     	CanBeDoneFromFloor:true,
 	Result:HCBronzesheet,
 	Time:150.0,
@@ -1183,7 +1193,7 @@ recipe Make Sheet Of Metal
     	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+	keep HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
 	Result:HCIronsheet,
 	Time:150.0,
@@ -1197,7 +1207,7 @@ recipe Make Sheet Of Metal
     	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+	keep HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
 	Result:HCLeadsheet,
 	Time:150.0,
@@ -1211,7 +1221,7 @@ recipe Make Sheet Of Metal
     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+	keep HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
 	Result:HCSteelsheet,
 	Time:150.0,
@@ -1225,7 +1235,7 @@ recipe Make Sheet Of Metal
     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+	keep HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
 	Result:SheetMetal,
 	Time:150.0,
@@ -1239,7 +1249,7 @@ recipe Make Sheet Of Metal
     	keep HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+	keep HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
 	Result:HCTitaniumsheet,
 	Time:150.0,
@@ -1253,7 +1263,7 @@ recipe Make Large Sheet Of Metal
     	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+	keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     	CanBeDoneFromFloor:true,
 	Result:HCCoppersheetlarge,
 	Time:150.0,
@@ -1267,7 +1277,7 @@ recipe Make Large Sheet Of Metal
     	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+	keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     	CanBeDoneFromFloor:true,
 	Result:HCTinsheetlarge,
 	Time:150.0,
@@ -1281,7 +1291,7 @@ recipe Make Large Sheet Of Metal
     	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+	keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     	CanBeDoneFromFloor:true,
 	Result:HCSilversheetlarge,
 	Time:150.0,
@@ -1295,7 +1305,7 @@ recipe Make Large Sheet Of Metal
     	keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+	keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     	CanBeDoneFromFloor:true,
 	Result:HCBronzesheetlarge,
 	Time:150.0,
@@ -1309,7 +1319,7 @@ recipe Make Large Sheet Of Metal
     	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+	keep HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
 	Result:HCIronsheetlarge,
 	Time:150.0,
@@ -1323,7 +1333,7 @@ recipe Make Large Sheet Of Metal
     	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+	keep HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
 	Result:HCLeadsheetlarge,
 	Time:150.0,
@@ -1337,7 +1347,7 @@ recipe Make Large Sheet Of Metal
     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+	keep HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
 	Result:HCSteelsheetlarge,
 	Time:150.0,
@@ -1351,7 +1361,7 @@ recipe Make Large Sheet Of Metal
     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+	keep HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
 	Result:HCLargesheetmetal,
 	Time:150.0,
@@ -1365,7 +1375,7 @@ recipe Make Large Sheet Of Metal
     	keep HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+	keep HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
 	Result:HCTitaniumsheetlarge,
 	Time:150.0,
@@ -1540,7 +1550,7 @@ recipe Make Crank
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
         	NeedToBeLearn:true,   
 	   	Result:HCCrank,
@@ -1556,7 +1566,7 @@ recipe Make Crank
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
         	NeedToBeLearn:true,   
 	   	Result:HCCrankiron,
@@ -1573,7 +1583,7 @@ recipe Make Lever
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
         	NeedToBeLearn:true,   
 	   	Result:HCLever,
@@ -1590,7 +1600,7 @@ recipe Make Pipe Bender
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
         	NeedToBeLearn:true,   
 	   	Result:HCPipebender,
@@ -1605,7 +1615,7 @@ recipe Make Copper Rod
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCCopperrod,
 	   	Time:150.0,
@@ -1620,7 +1630,7 @@ recipe Make Tin Rod
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCTinrod,
 	   	Time:150.0,
@@ -1635,7 +1645,7 @@ recipe Make Bronze Rod
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCBronzerod,
 	   	Time:150.0,
@@ -1650,7 +1660,7 @@ recipe Make Iron Rod
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCIronrod,
 	   	Time:150.0,
@@ -1665,7 +1675,7 @@ recipe Make Invar Rod
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCInvarrod,
 	   	Time:150.0,
@@ -1680,7 +1690,7 @@ recipe Make Lead Rod
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLeadrod,
 	   	Time:150.0,
@@ -1695,7 +1705,7 @@ recipe Make Steel Rod
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCSteelrod,
 	   	Time:150.0,
@@ -1710,7 +1720,7 @@ recipe Make Titanium Rod
     		keep HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCTitaniumrod,
 	   	Time:150.0,
@@ -1725,7 +1735,7 @@ recipe Make Graphite Rod
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCGraphiterod,
 	   	Time:150.0,
@@ -1736,16 +1746,16 @@ recipe Make Graphite Rod
 
 recipe Make Iron Pole
     {
-    		HCIronrod=2,
-		keep HCTriphammer,
-    		keep Tongs,
-    		keep HCWorkgloves/HCOvenmitts,
-    		CanBeDoneFromFloor:true,
+    	HCIronrod=2,
+		keep HCTriphammer/HCTriphammer2/HCSteamhammer2,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+    	CanBeDoneFromFloor:true,
    		Result:HCIronpole,
-    		Time:300.0,
-    		NeedToBeLearn:true,
-    		Category:Smithing,
-    		OnGiveXP:HCWelding_OnGiveXP,
+    	Time:300.0,
+    	eedToBeLearn:true,
+    	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
 recipe Make Iron Pole
@@ -1755,7 +1765,7 @@ recipe Make Iron Pole
 		Charcoal,
 
 		Water,
-		keep HCSteamhammer/HCSteamhammer2,
+		keep HCSteamhammer2,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
     		CanBeDoneFromFloor:true,
@@ -1773,7 +1783,7 @@ recipe Make Steel Pole
 		Charcoal,
 
 		Water,
-		keep HCSteamhammer/HCSteamhammer2,
+		keep HCSteamhammer2,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
     		CanBeDoneFromFloor:true,
@@ -1784,13 +1794,28 @@ recipe Make Steel Pole
     		OnGiveXP:HCWelding_OnGiveXP,
     }
 
+recipe Make Steel Pole
+    {
+            HCSteelrod=2,
+        keep HCTriphammer/HCTriphammer2/HCSteamhammer2,
+            keep Tongs,
+            keep HCWorkgloves/HCOvenmitts,
+            CanBeDoneFromFloor:true,
+        Result:HCSteelpole,
+            Time:150.0,
+            NeedToBeLearn:true,
+            Category:Smithing,
+            OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+
 recipe Make Metal Ring
     {
     		HCIronrod,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
    		Result:HCMetalringiron,
     		Time:150.0,
@@ -1799,13 +1824,33 @@ recipe Make Metal Ring
     		OnGiveXP:HCWelding_OnGiveXP,
     }
 
+
+
+recipe Make Leaf Spring
+    {
+        HCSSpringSteelIngot=4,
+        keep Tongs,
+        keep HCWorkgloves,
+        keep HCFurnace2/HCBlastfurnace2,
+        HCLeafSpringMold,
+        CanBeDoneFromFloor:true,
+        Result:HCLeafSpring,
+        Time:250.0,
+        NeedToBeLearn:true,
+        Category:Smithing,
+        OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+
+
+
 recipe Make Metal Ring
     {
     		HCSteelrod,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
    		Result:HCMetalring,
     		Time:150.0,
@@ -1817,12 +1862,12 @@ recipe Make Metal Ring
 recipe Make Iron Cauldron
 	{
 		WoodenStick,
-		CampfireKit,
+		Base.CampfireKit,
 	   	HCIroningot=10,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCCauldroniron,
     		NeedToBeLearn:true,
@@ -1837,7 +1882,7 @@ recipe Make Iron Trowel
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HandShovel,
     		NeedToBeLearn:true,
@@ -1853,7 +1898,7 @@ recipe Make Iron Spade
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:Shovel,
     		NeedToBeLearn:true,
@@ -1869,9 +1914,9 @@ recipe Make Steel Rake
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
-	   	Result:HCRake,
+	   	Result:Base.Rake,
     		NeedToBeLearn:true,
 	   	Time:150.0,
        		Category:Smithing,
@@ -1881,12 +1926,12 @@ recipe Make Steel Rake
 
 recipe Make Steel Shears
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCSteelingot,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCShears,
 	   	Time:150.0,
@@ -1897,12 +1942,12 @@ recipe Make Steel Shears
 
 recipe Make Steel Pruning Shears
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCSteelingot,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCPruningsheers,
 	   	Time:150.0,
@@ -1914,13 +1959,13 @@ recipe Make Steel Pruning Shears
 
 recipe Make Steel Saw
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCSteelingot,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
 		HCWoodenring,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:Saw,
 	   	Time:150.0,
@@ -1935,7 +1980,7 @@ recipe Make Iron Tongs
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs/HCSaladtongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:Tongs,
 	   	Time:150.0,
@@ -1949,7 +1994,7 @@ recipe Make Iron Tongs
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:Tongs,
 	   	Time:150.0,
@@ -1959,13 +2004,13 @@ recipe Make Iron Tongs
 
 recipe Make Steel Hammer
 	{
-		SkillRequired:BluntMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCSteelingot,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
 		WoodenStick,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:Hammer,
 	   	Time:150.0,
@@ -1976,12 +2021,12 @@ recipe Make Steel Hammer
 
 recipe Make Sterling Silver Knife
 	{
-		SkillRequired:BluntMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCSterlingsilveringot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:Hammer,
 	   	Time:150.0,
@@ -1992,12 +2037,12 @@ recipe Make Sterling Silver Knife
 
 recipe Make Sterling Silver Fork
 	{
-		SkillRequired:BluntMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCSterlingsilveringot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:Hammer,
 	   	Time:150.0,
@@ -2008,12 +2053,12 @@ recipe Make Sterling Silver Fork
 
 recipe Make Sterling Silver Spoon
 	{
-		SkillRequired:BluntMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCSterlingsilveringot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:Hammer,
 	   	Time:150.0,
@@ -2029,9 +2074,9 @@ recipe Make Aluminum Tent Peg
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
-	   	Result:TentPeg=2,
+	   	Result:Base.TentPeg=2,
 	   	Time:150.0,
     		NeedToBeLearn:true,
        		Category:Smithing,
@@ -2044,7 +2089,7 @@ recipe Make Iron Baking Pan
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:BakingPan,
 	   	Time:150.0,
@@ -2058,7 +2103,7 @@ recipe Make Iron Baking Tray
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:BakingTray,
 	   	Time:150.0,
@@ -2072,7 +2117,7 @@ recipe Make Iron Roasting Pan
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:RoastingPan,
 	   	Time:150.0,
@@ -2086,7 +2131,7 @@ recipe Make Iron Muffin Pan
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCMuffinpan,
 	   	Time:150.0,
@@ -2100,7 +2145,7 @@ recipe Make Iron Bread Pan
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCBreadpan,
 	   	Time:150.0,
@@ -2114,7 +2159,7 @@ recipe Make Iron Cooking Pot
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:Pot,
 	   	Time:150.0,
@@ -2128,7 +2173,7 @@ recipe Make Iron Kettle
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:Kettle,
 	   	Time:150.0,
@@ -2142,7 +2187,7 @@ recipe Make Copper Kettle
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCKettlecopper,
 	   	Time:150.0,
@@ -2156,7 +2201,7 @@ recipe Make Bronze Candle Holder
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCCandleholder,
 	   	Time:150.0,
@@ -2171,7 +2216,7 @@ recipe Make Oil Lamp
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCOillamp,
 	   	Time:150.0,
@@ -2186,7 +2231,7 @@ recipe Make Oil Lamp
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCOillamp,
 	   	Time:150.0,
@@ -2216,7 +2261,7 @@ recipe Make Iron Hand Drill
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCDrillhand,
 		NeedToBeLearn:true,
@@ -2231,7 +2276,7 @@ recipe Make Iron Hand Drill
     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
 		Result:HCSteelsheet,
 		Time:150.0,

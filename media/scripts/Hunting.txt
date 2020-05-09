@@ -78,7 +78,7 @@ item HCSparrowdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Sparrow,
 	Icon				=	HCSparrowdead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCCardinaldead
@@ -91,7 +91,7 @@ item HCCardinaldead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Cardinal,
 	Icon				=	HCCardinaldead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCBluejaydead
@@ -104,7 +104,7 @@ item HCBluejaydead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Bluejay,
 	Icon				=	HCBluejaydead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCMagpiedead
@@ -117,7 +117,7 @@ item HCMagpiedead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Magpie,
 	Icon				=	HCMagpiedead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCCrowdead
@@ -130,7 +130,7 @@ item HCCrowdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Crow,
 	Icon				=	HCCrowdead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCCootmale
@@ -139,7 +139,7 @@ item HCCootmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Coot (Male),
 	Icon				=	HCCootmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCootfemale
@@ -148,7 +148,7 @@ item HCCootfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Coot (Female),
 	Icon				=	HCCootfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCootdead
@@ -161,7 +161,7 @@ item HCCootdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Coot,
 	Icon				=	HCCootdead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBlackduckmale
@@ -170,7 +170,7 @@ item HCBlackduckmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Black Duck (Male),
 	Icon				=	HCBlackduckmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBlackduckfemale
@@ -179,7 +179,7 @@ item HCBlackduckfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Black Duck (Female),
 	Icon				=	HCBlackduckfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBlackduckdead
@@ -192,7 +192,7 @@ item HCBlackduckdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Black Duck,
 	Icon				=	HCBlackduckdead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBlackduckdead2
@@ -201,7 +201,7 @@ item HCBlackduckdead2
 	Type 				= 	Normal,
 	DisplayName 			= 	Dead Black Duck,
 	Icon				=	HCBlackduckdead2,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCanvasbackduckmale
@@ -210,7 +210,7 @@ item HCCanvasbackduckmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Canvasback Duck (Male),
 	Icon				=	HCCanvasbackduckmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCanvasbackduckfemale
@@ -219,7 +219,7 @@ item HCCanvasbackduckfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Canvasback Duck (Female),
 	Icon				=	HCCanvasbackduckfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCanvasbackduckdead
@@ -232,7 +232,7 @@ item HCCanvasbackduckdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Canvasback Duck,
 	Icon				=	HCCanvasbackduckdead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCanvasbackduckdead2
@@ -245,7 +245,7 @@ item HCCanvasbackduckdead2
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Canvasback Duck,
 	Icon				=	HCCanvasbackduckdead2,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCMallardmale
@@ -254,7 +254,7 @@ item HCMallardmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Mallard (Male),
 	Icon				=	HCMallardmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCMallardfemale
@@ -263,7 +263,7 @@ item HCMallardfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Mallard (Female),
 	Icon				=	HCMallardfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCMallarddead
@@ -276,7 +276,7 @@ item HCMallarddead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Mallard,
 	Icon				=	HCMallarddead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCPintailduckmale
@@ -285,7 +285,7 @@ item HCPintailduckmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Pintail Duck (Male),
 	Icon				=	HCPintailduckmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCPintailduckfemale
@@ -294,7 +294,7 @@ item HCPintailduckfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Pintail Duck (Female),
 	Icon				=	HCPintailduckfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCPintailduckdead
@@ -307,7 +307,7 @@ item HCPintailduckdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Pintail Duck,
 	Icon				=	HCPintailduckdead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCPintailduckdead2
@@ -320,7 +320,7 @@ item HCPintailduckdead2
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Pintail Duck,
 	Icon				=	HCPintailduckdead2,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCRedheadduckmale
@@ -329,7 +329,7 @@ item HCRedheadduckmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Redhead Duck (Male),
 	Icon				=	HCRedheadduckmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCRedheadduckfemale
@@ -338,7 +338,7 @@ item HCRedheadduckfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Redhead Duck (Female),
 	Icon				=	HCRedheadduckfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCRedheadduckdead
@@ -351,7 +351,7 @@ item HCRedheadduckdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Redhead Duck,
 	Icon				=	HCRedheadduckdead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCRedheadduckdead2
@@ -364,7 +364,7 @@ item HCRedheadduckdead2
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Redhead Duck,
 	Icon				=	HCRedheadduckdead2,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCScaupduckmale
@@ -373,7 +373,7 @@ item HCScaupduckmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Scaup Duck (Male),
 	Icon				=	HCScaupduckmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCScaupduckfemale
@@ -382,7 +382,7 @@ item HCScaupduckfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Scaup Duck (Female),
 	Icon				=	HCScaupduckfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCScaupduckdead
@@ -395,7 +395,7 @@ item HCScaupduckdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Scaup Duck,
 	Icon				=	HCScaupduckdead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCScaupduckdead2
@@ -408,7 +408,7 @@ item HCScaupduckdead2
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Scaup Duck,
 	Icon				=	HCScaupduckdead2,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCWoodduckmale
@@ -417,7 +417,7 @@ item HCWoodduckmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Wood Duck (Male),
 	Icon				=	HCWoodduckmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCWoodduckfemale
@@ -426,7 +426,7 @@ item HCWoodduckfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Wood Duck (Female),
 	Icon				=	HCWoodduckfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCWoodduckdead
@@ -439,7 +439,7 @@ item HCWoodduckdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Wood Duck,
 	Icon				=	HCWoodduckdead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCWoodduckdead2
@@ -452,7 +452,7 @@ item HCWoodduckdead2
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Wood Duck,
 	Icon				=	HCWoodduckdead2,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCSnowgoosemale
@@ -461,7 +461,7 @@ item HCSnowgoosemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Snow Goose (Male),
 	Icon				=	HCSnowgoosemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCSnowgoosefemale
@@ -470,7 +470,7 @@ item HCSnowgoosefemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Snow Goose (Female),
 	Icon				=	HCSnowgoosefemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCSnowgoosedead
@@ -483,7 +483,7 @@ item HCSnowgoosedead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Snow Goose,
 	Icon				=	HCSnowgoosedead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCanadiangoosemale
@@ -492,7 +492,7 @@ item HCCanadiangoosemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Canadian Goose (Male),
 	Icon				=	HCCanadiangoosemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCanadiangoosefemale
@@ -501,7 +501,7 @@ item HCCanadiangoosefemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Canadian Goose (Female),
 	Icon				=	HCCanadiangoosefemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCanadiangoosedead
@@ -515,7 +515,7 @@ item HCCanadiangoosedead
 	Type 				= 	Normal,
 	DisplayName 			= 	Dead Canadian Goose,
 	Icon				=	HCCanadiangoosedead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCQuailmale
@@ -524,7 +524,7 @@ item HCQuailmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Quail (Male),
 	Icon				=	HCQuailmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCQuailfemale
@@ -533,7 +533,7 @@ item HCQuailfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Quail (Female),
 	Icon				=	HCQuailfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCQuaildead
@@ -546,7 +546,7 @@ item HCQuaildead
       	FoodType    			=   	Game,
 	DisplayName 			= 	Dead Quail,
 	Icon				=	HCQuaildead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGrousemale
@@ -555,7 +555,7 @@ item HCGrousemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Grouse (Male),
 	Icon				=	HCGrousemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGrousefemale
@@ -564,7 +564,7 @@ item HCGrousefemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Grouse (Female),
 	Icon				=	HCGrousefemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGrousedead
@@ -577,7 +577,7 @@ item HCGrousedead
       	FoodType    			=   	Game,
 	DisplayName 			= 	Dead Grouse,
 	Icon				=	HCGrousedead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCTurkeymale
@@ -586,7 +586,7 @@ item HCTurkeymale
 	Type 				= 	Normal,
 	DisplayName 			= 	Turkey (Male),
 	Icon				=	HCTurkeymale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCTurkeyfemale
@@ -595,7 +595,7 @@ item HCTurkeyfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Turkey (Female),
 	Icon				=	HCTurkeyfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCTurkeydead
@@ -608,7 +608,7 @@ item HCTurkeydead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Turkey,
 	Icon				=	HCTurkeydead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCMuskratmale
@@ -617,7 +617,7 @@ item HCMuskratmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Muskrat (Male),
 	Icon				=	HCMuskratmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCMuskratfemale
@@ -626,7 +626,7 @@ item HCMuskratfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Muskrat (Female),
 	Icon				=	HCMuskratfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCMuskratdead
@@ -639,7 +639,7 @@ item HCMuskratdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Muskrat,
 	Icon				=	HCMuskratdead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGroundhogmale
@@ -648,7 +648,7 @@ item HCGroundhogmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Groundhog (Male),
 	Icon				=	HCGroundhogmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGroundhogfemale
@@ -657,7 +657,7 @@ item HCGroundhogfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Groundhog (Female),
 	Icon				=	HCGroundhogfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGroundhogdead
@@ -670,7 +670,7 @@ item HCGroundhogdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Groundhog,
 	Icon				=	HCGroundhogdead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCNutriamale
@@ -679,7 +679,7 @@ item HCNutriamale
 	Type 				= 	Normal,
 	DisplayName 			= 	Nutria (Male),
 	Icon				=	HCNutriamale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCNutriafemale
@@ -688,7 +688,7 @@ item HCNutriafemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Nutria (Female),
 	Icon				=	HCNutriafemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCNutriadead
@@ -701,7 +701,7 @@ item HCNutriadead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Nutria,
 	Icon				=	HCNutriadead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBeavermale
@@ -710,7 +710,7 @@ item HCBeavermale
 	Type 				= 	Normal,
 	DisplayName 			= 	Beaver (Male),
 	Icon				=	HCBeavermale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBeaverfemale
@@ -719,7 +719,7 @@ item HCBeaverfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Beaver (Female),
 	Icon				=	HCBeaverfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBeaverdead
@@ -732,7 +732,7 @@ item HCBeaverdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Beaver,
 	Icon				=	HCBeaverdead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCPorcupinemale
@@ -741,7 +741,7 @@ item HCPorcupinemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Porcupine (Male),
 	Icon				=	HCPorcupinemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCPorcupinefemale
@@ -750,7 +750,7 @@ item HCPorcupinefemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Porcupine (Female),
 	Icon				=	HCPorcupinefemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCPorcupinedead
@@ -763,7 +763,7 @@ item HCPorcupinedead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Porcupine,
 	Icon				=	HCPorcupinedead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCArmadillomale
@@ -772,7 +772,7 @@ item HCArmadillomale
 	Type 				= 	Normal,
 	DisplayName 			= 	Armadillo (Male),
 	Icon				=	HCArmadillomale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCArmadillofemale
@@ -781,7 +781,7 @@ item HCArmadillofemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Armadillo (Female),
 	Icon				=	HCArmadillofemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCArmadillodead
@@ -794,7 +794,7 @@ item HCArmadillodead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Armadillo,
 	Icon				=	HCArmadillodead,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCOpossummale
@@ -803,7 +803,7 @@ item HCOpossummale
 	Type 				= 	Normal,
 	DisplayName 			= 	Opossum (Male),
 	Icon				=	HCOpossummale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCOpossumfemale
@@ -812,7 +812,7 @@ item HCOpossumfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Opossum (Female),
 	Icon				=	HCOpossumfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCOpossumdead
@@ -825,7 +825,7 @@ item HCOpossumdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Opossum,
 	Icon				=	HCOpossumdead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCFoxmale
@@ -834,7 +834,7 @@ item HCFoxmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Fox (Male),
 	Icon				=	HCFoxmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCFoxfemale
@@ -843,7 +843,7 @@ item HCFoxfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Fox (Female),
 	Icon				=	HCFoxfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCFoxdead
@@ -856,7 +856,7 @@ item HCFoxdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Fox,
 	Icon				=	HCFoxdead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCSkunkmale
@@ -865,7 +865,7 @@ item HCSkunkmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Skunk (Male),
 	Icon				=	HCSkunkmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCSkunkfemale
@@ -874,7 +874,7 @@ item HCSkunkfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Skunk (Female),
 	Icon				=	HCSkunkfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCSkunkdead
@@ -887,7 +887,7 @@ item HCSkunkdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Skunk,
 	Icon				=	HCSkunkdead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCRaccoonmale
@@ -896,7 +896,7 @@ item HCRaccoonmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Raccoon (Male),
 	Icon				=	HCRaccoonmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCRaccoonfemale
@@ -905,7 +905,7 @@ item HCRaccoonfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Raccoon (Female),
 	Icon				=	HCRaccoonfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCRaccoondead
@@ -918,7 +918,7 @@ item HCRaccoondead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Raccoon,
 	Icon				=	HCRaccoondead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBoarmale
@@ -927,7 +927,7 @@ item HCBoarmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Boar (Male),
 	Icon				=	HCBoarmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBoarfemale
@@ -936,7 +936,7 @@ item HCBoarfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Boar (Female),
 	Icon				=	HCBoarfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBoardead
@@ -949,7 +949,7 @@ item HCBoardead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Boar,
 	Icon				=	HCBoardead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDeermale
@@ -958,7 +958,7 @@ item HCDeermale
 	Type 				= 	Normal,
 	DisplayName 			= 	Deer (Male),
 	Icon				=	HCDeermale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDeerfemale
@@ -967,7 +967,7 @@ item HCDeerfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Deer (Female),
 	Icon				=	HCDeerfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDeerdead
@@ -980,7 +980,7 @@ item HCDeerdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Deer,
 	Icon				=	HCDeerdead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDeerdead2
@@ -993,7 +993,7 @@ item HCDeerdead2
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Deer,
 	Icon				=	HCDeerdead2,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBearmale
@@ -1002,7 +1002,7 @@ item HCBearmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Grizzly Bear (Male),
 	Icon				=	HCBearmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBearfemale
@@ -1011,7 +1011,7 @@ item HCBearfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Grizzly Bear (Female),
 	Icon				=	HCBearfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBeardead
@@ -1024,7 +1024,7 @@ item HCBeardead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Grizzly Bear,
 	Icon				=	HCBeardead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBlackbearmale
@@ -1033,7 +1033,7 @@ item HCBlackbearmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Black Bear (Male),
 	Icon				=	HCBlackbearmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBlackbearfemale
@@ -1042,7 +1042,7 @@ item HCBlackbearfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Black Bear (Female),
 	Icon				=	HCBlackbearfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCBlackbeardead
@@ -1055,7 +1055,7 @@ item HCBlackbeardead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Black Bear,
 	Icon				=	HCBlackbeardead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCougardead
@@ -1068,7 +1068,7 @@ item HCCougardead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Cougar,
 	Icon				=	HCCougardead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDeerantlers
@@ -1465,7 +1465,7 @@ recipe Hunt Animals
     {
 	SkillRequired:Trapping=1,
     	HCBinoculars,
-    	WoodenLance=3,
+    	SpearCrafted=3,
         HCSmallgamepoop,
     	Result:HCBinoculars,
 	Sound:BreakWoodItem,
@@ -1480,7 +1480,7 @@ recipe Hunt Animals
     {
 	SkillRequired:Trapping=3,
     	HCBinoculars,
-    	WoodenLance=3,
+    	SpearCrafted=3,
     	HCDeerpoop,
     	Result:HCBinoculars,
 	Sound:BreakWoodItem,
@@ -1495,7 +1495,7 @@ recipe Hunt Animals
     {
 	SkillRequired:Trapping=4,
     	HCBinoculars,
-    	WoodenLance=3,
+    	SpearCrafted=3,
     	HCBoarpoop/HCPigpoopferal,
     	Result:HCBinoculars,
 	Sound:BreakWoodItem,
@@ -1510,7 +1510,7 @@ recipe Hunt Animals
     {
 	SkillRequired:Trapping=5,
     	HCBinoculars,
-    	WoodenLance=3,
+    	SpearCrafted=3,
     	HCBearpoop,
     	Result:HCBinoculars,
 	Sound:BreakWoodItem,
@@ -1525,7 +1525,7 @@ recipe Hunt Animals
     {
 	SkillRequired:Trapping=6,
     	HCBinoculars,
-    	WoodenLance=3,
+    	SpearCrafted=3,
     	HCCougarpoop,
     	Result:HCBinoculars,
 	Sound:BreakWoodItem,
@@ -1960,7 +1960,7 @@ recipe Hunt Animals
     {
 	keep HCHuntingblind/HCHuntingblind2,
     	keep HCBinoculars,
-    	WoodenLance=3,
+    	SpearCrafted=3,
         HCSmallgamepoop,
     	Result:HCBinoculars,
 	Sound:BreakWoodItem,
@@ -1977,7 +1977,7 @@ recipe Hunt Animals
     {
 	keep HCHuntingblind/HCHuntingblind2,
     	keep HCBinoculars,
-    	WoodenLance=3,
+    	SpearCrafted=3,
     	HCDeerpoop,
     	Result:HCBinoculars,
 	Sound:BreakWoodItem,
@@ -1994,7 +1994,7 @@ recipe Hunt Animals
     {
 	keep HCHuntingblind/HCHuntingblind2,
     	keep HCBinoculars,
-    	WoodenLance=3,
+    	SpearCrafted=3,
     	HCBoarpoop/HCPigpoopferal,
     	Result:HCBinoculars,
 	Sound:BreakWoodItem,
@@ -2011,7 +2011,7 @@ recipe Hunt Animals
     {
 	keep HCHuntingblind/HCHuntingblind2,
     	keep HCBinoculars,
-    	WoodenLance=3,
+    	SpearCrafted=3,
     	HCBearpoop,
     	Result:HCBinoculars,
 	Sound:BreakWoodItem,
@@ -2028,7 +2028,7 @@ recipe Hunt Animals
     {
 	keep HCHuntingblind/HCHuntingblind2,
     	keep HCBinoculars,
-    	WoodenLance=3,
+    	SpearCrafted=3,
     	HCCougarpoop,
     	Result:HCBinoculars,
 	Sound:BreakWoodItem,

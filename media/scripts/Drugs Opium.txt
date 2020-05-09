@@ -42,20 +42,23 @@ item HCRawopium
 
 item HCOpiumpowder
     {
-        PainReduction 		        = 10,
-        FatigueChange                   = 10,
-	Weight				= 0.1,
-	Type				= Food,
-	DisplayName			= Opium Powder,
-	StressChange			= -20,
-	UnhappyChange			= -25,
-        Poison                  	= true,
-        PoisonDetectionLevel    	= 1,
-        PoisonPower             	= 6,
-        UseForPoison            	= 1,
-	Icon				= HCOpiumpowder,
-	Alcoholic			= TRUE,
-	CustomContextMenu 		= Sniff,
+    PainReduction 		    = 10,
+    FatigueChange           = 10,
+	Weight				     = 0.1,
+	Type				   = Food,
+	DisplayName			     = Opium Powder,
+    RequireInHandOrInventory    =   CreditCard,
+    ReplaceOnUse                = CreditCard, 
+	StressChange		     = -20,
+	UnhappyChange		   = -25,
+    Poison                 = true,
+    PoisonDetectionLevel   = 1,
+    PoisonPower            = 6,
+    UseForPoison           = 1,
+	Icon                   = HCOpiumpowder,
+	Alcoholic			   = TRUE,
+	CustomContextMenu 	   = Sniff,
+    CustomEatSound         = HC_Sniff,
     }
 
 item HCJaropium
@@ -88,8 +91,7 @@ item HCPipeopiumpure
 	Icon				= HCClaypipesmoking,
 	Alcoholic			= TRUE,
 	CustomContextMenu 		= Smoke,
-	CustomEatSound = HC_LightUp,
- 
+	CustomEatSound = HC_LightUp, 
     }
 
 item HCCorncobpipeopiumpure
@@ -106,8 +108,7 @@ item HCCorncobpipeopiumpure
 	Icon				= HCCorncobpipe,
 	Alcoholic			= TRUE,
 	CustomContextMenu 		= Smoke,
-	CustomEatSound = HC_LightUp,
- 
+	CustomEatSound = HC_LightUp, 
     }
 
 item HCSyringeheroin
@@ -208,11 +209,24 @@ item HCTesttubemorphincork
 
 /************************RECIPES************************/
 
+recipe Dry Poppy Flower
+    {
+    HCPoppyflower,
+    keep HCHerbtable2,
+    CanBeDoneFromFloor:true,
+    Result:HCPoppycapsule,
+    Time:50,
+    NeedToBeLearn:true,
+    Category:Alchemy,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+
 recipe Rip Poppy Capsules
     {
-    keep HCScalpel/HCBoxcutter/HCScalpelimprovised/HCRazorblade,
+    keep Base.Scalpel/HCBoxcutter/HCScalpelimprovised/HCRazorblade,
     HCPoppycapsule,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCPoppycapsuleripped,
     Time:50,
@@ -226,7 +240,7 @@ recipe Knead Raw Opium
     HCPoppycapsuleripped,
     keep RollingPin,
     keep HCLatexgloves/HCRubberglove,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCRawopium,
     Time:500,
@@ -256,7 +270,7 @@ recipe Ferment Opium Powder
     HCPetriaspergillus,
     HCJar,
     Water,
-    keep HCHerbtable/HCHerbtable2,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCJaropium,
     Time:50,

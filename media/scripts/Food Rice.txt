@@ -1,0 +1,318 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+    }
+	
+	item HCRicebrown
+    {
+        Weight				=	2,
+        Type				=	Food,
+        DisplayName			=	Brown Rice,
+        Icon				=	HCRicebrown,
+        HungerChange    		=   	-60,
+        UnhappyChange   		=   	40,
+        ThirstChange    		=   	60,
+        Carbohydrates 			= 	648,
+        Proteins 			= 	72,
+        Lipids 				= 	0,
+        Calories 			= 	2880,
+        Packaged 			= 	TRUE,
+	ReplaceOnDeplete		=	Hydrocraft.HCRiceempty,
+    }
+
+item HCFriedrice
+	{
+	HungerChange			=	-30,
+	Weight				=	0.8,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	50,
+	DaysFresh			=	3,	
+	DaysTotallyRotten		=	6,
+	DisplayName			=	Bowl of Fried Rice,
+	Icon				=	HCFriedricebowl,	
+	ReplaceOnUse			=	Bowl,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	93,
+        Proteins 			= 	14.1,
+        Lipids 				= 	6.9,
+        Calories 			= 	489,
+	EvolvedRecipe 			= 	Soup:15;Stew:15;Stir fry:15,	 	
+	}
+
+	item HCRiceandbeanspot
+	{
+		HungerChange		=	-50,
+		Weight				=	4,
+		Type				=	Food,
+		UnhappyChange		=	-20,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	90,
+		MinutesToBurn		=	140,
+		DisplayName			=	Pot of Rice and Beans,
+		ReplaceOnUse		=	Pot,
+		Icon				=	PotFull,
+		BoredomChange		=	-20,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	3,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=	NoExplicit,
+		Carbohydrates 		= 	260,
+		Proteins 			= 	122,
+		Lipids 				= 	76,
+		Calories 			= 	2060,
+	}
+
+	item HCRiceandbeansbowl
+	{
+		HungerChange		=	-30,
+		Weight				=	1,
+		Type				=	Food,
+		UnhappyChange		=	-5,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	90,
+		MinutesToBurn		=	140,
+		DisplayName			=	Bowl of Rice and Beans,
+		ReplaceOnUse		=	Bowl,
+		Icon				=	HCChilibowl,
+		BoredomChange		=	-5,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	3,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	65,
+		Proteins 			= 	30.5,
+		Lipids 				= 	19,
+		Calories 			= 	515,
+		EvolvedRecipe 		= 	Soup:20;Stew:20;Stir fry:20,	
+	}
+	
+	item HCRicepuddingpot
+	{
+		HungerChange		=	-50,
+		Weight				=	4,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		UnhappyChange		=	-20,
+		MinutesToCook		=	90,
+		MinutesToBurn		=	140,
+		DisplayName			=	Pot of Rice Pudding,
+		ReplaceOnUse		=	Pot,
+		Icon				=	PotFull,
+		BoredomChange		=	-20,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	3,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	500,
+		Proteins 			= 	64,
+		Lipids 				= 	74,
+		Calories 			= 	2920,
+	}
+
+	item HCRicepuddingbowl
+	{
+		HungerChange		=	-35,
+		Weight				=	1,
+		Type				=	Food,
+		UnhappyChange		=	-5,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	90,
+		MinutesToBurn		=	140,
+		DisplayName			=	Bowl of Rice Pudding,
+		ReplaceOnUse		=	Bowl,
+		Icon				=	HCRicebowl,
+		BoredomChange		=	-5,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	3,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	125,
+		Proteins 			= 	16,
+		Lipids 				= 	18.5,
+		Calories 			= 	730,
+	}
+
+item HCRisotto
+	{
+	HungerChange			=	-50,
+	Weight				=	1.5,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	UnhappyChange			=	-45,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	50,
+	DisplayName			=	Risotto,
+	ReplaceOnUse			=	Pan,
+	Icon				=	HCRisotto,
+	BoredomChange			=	-15,
+	DaysTotallyRotten		=	6,
+	DaysFresh 			= 	3,
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	381,
+        Proteins 			= 	39,
+        Lipids 				= 	6.5,
+        Calories 			= 	1740,
+	}
+	
+/************************RECIPES************************/
+
+/*
+recipe Cook with Rice Cooker
+	{
+    	SkillRequired:Cooking=1,
+		keep HCRicecookerpowered,
+		HCRicebrown=4,
+		Bowl=4,
+		Egg/WildEggs/HCGooseegg/HCTurkeyegg/HCSparrowegg,	
+		Result:HCRicebrowneggs=4,
+		Time:75.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Cook with Rice Cooker
+	{
+		SkillRequired:Cooking=1,
+		keep HCRicecookerpowered,
+		Rice=4,
+		Bowl=4,
+		Egg/WildEggs/HCGooseegg/HCTurkeyegg/HCSparrowegg,	
+		Result:HCRicewhiteeggs=4,
+		Time:75.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Cook with Rice Cooker
+	{
+		SkillRequired:Cooking=1,
+		keep HCRicecookerpowered,
+		HCRicebrown=4,
+		Bowl=4,
+		Chicken/HCDuckmeat/HCGoosemeat/HCTurkeymeat/TunaTinOpen/CannedSardinesOpen/Salmon/Base.BaconRashers/Base.BaconBits/FrogMeat/HCSlicedsalami/HamSlice/HCCannedspam/HCCrab/HCCheval/HCSmallgamesteak/HCVenison/HCBearsteak,
+		Result:HCRicebrownmeat=4,
+		Time:75.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Cook with Rice Cooker
+	{
+		SkillRequired:Cooking=1,
+		keep HCRicecookerpowered,
+		Rice=4,
+		Bowl=4,
+		Chicken/HCDuckmeat/HCGoosemeat/HCTurkeymeat/TunaTinOpen/CannedSardinesOpen/Salmon/Base.BaconRashers/Base.BaconBits/FrogMeat/HCSlicedsalami/HamSlice/HCCannedspam/HCCrab/HCCheval/HCSmallgamesteak/HCVenison/HCBearsteak,
+		Result:HCRicewhitemeat=4,
+		Time:75.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+*/
+	
+	recipe Make Fried Rice
+	{
+		SkillRequired:Cooking=1,
+		keep Pan,
+		destroy RiceBowl,
+		Butter/HCCookingoil,
+		Egg/WildEggs/HCGooseegg/HCTurkeyegg/HCSparrowegg,
+		Broccoli/Cabbage/Carrots/HCOniongreen/HCChinesecabbage/HCCabbagered/HCCabbagewhite,	
+		Result:HCFriedrice,
+		Time:75.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+	recipe Make Pot of Rice and Beans
+	{
+		destroy WaterPot,
+		OpenBeans,
+		Rice/HCRicebrown,
+		Tomato/HCTomatosaucebowl,
+		Result:HCRiceandbeanspot,
+		Time:95.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+	recipe Fill Rice and Beans into Bowls
+	{
+		Bowl=4,
+		HCRiceandbeanspot,
+		Result:HCRiceandbeansbowl=4,
+		Time:50.0,
+		Category:Cooking,
+		OnCreate:recipe_hcpot,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+		recipe Make Pot of Chili
+	{
+		SkillRequired:Cooking=1,
+		HCRiceandbeanspot,
+		Onion/HCOniongreen,
+		Pepper/HCBellpeppergreen/HCBellpepperyellow,
+		Steak/BeefJerky/HCSimplejerky/HCTastyjerky,
+		Result:HCChilipot,
+		Time:95.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+	
+	recipe Fill Chili into Bowls
+	{
+		Bowl=4,
+		HCChilipot,
+		Result:HCChilibowl=4,
+		Time:50.0,
+		Category:Cooking,
+		OnCreate:recipe_hcpot,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+		recipe Make Pot of Rice Pudding
+	{
+       	SkillRequired:Cooking=1,
+		destroy WaterPot,
+		Rice/HCRicebrown,
+		Sugar,
+		Milk/HCUHTmilk/HCSoymilk,
+		Result:HCRicepuddingpot,
+		Time:95.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+	
+	recipe Fill Rice Pudding into Bowls
+	{
+		destroy Bowl=4,
+		HCRicepuddingpot,
+		Result:HCRicepuddingbowl=4,
+		Time:50.0,
+		Category:Cooking,
+		OnCreate:recipe_hcpot,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Risotto
+	{
+       		SkillRequired:Cooking=5,
+	    	destroy Pan,
+		Water=2,
+		Rice/HCRicebrown,
+		Broccoli/HCBunchofshrooms/Egg/Carrots/HCPeapod,
+		Result:HCRisotto,
+		Time:90.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+	
+}

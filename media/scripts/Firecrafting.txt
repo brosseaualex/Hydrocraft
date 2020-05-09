@@ -94,7 +94,7 @@ item HCWoodenbuckettar
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Tar,
         icon 			= HCWoodenbuckettar,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCWoodenbucketcreosote
@@ -103,7 +103,7 @@ item HCWoodenbucketcreosote
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Creosote Oil,
         icon 			= HCWoodenbucketcreosote,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCoke
@@ -249,7 +249,7 @@ recipe Make Charcoal
     {
     	Log,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -262,7 +262,7 @@ recipe Make Charcoal
     {
     	Plank=3,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -275,7 +275,7 @@ recipe Make Charcoal
     {
     	PercedWood=3,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -288,7 +288,7 @@ recipe Make Charcoal
     {
     	HCWoodblock=9,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -301,7 +301,7 @@ recipe Make Charcoal
     {
 	UnusableWood=12,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -313,7 +313,7 @@ recipe Make Charcoal
     {
     	WoodenStick=24,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -326,7 +326,7 @@ recipe Make Charcoal
     {
     	TreeBranch=4,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -339,7 +339,7 @@ recipe Make Charcoal
     {
     	Poolcue=4,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -352,7 +352,7 @@ recipe Make Charcoal
     {
     	Twigs=16,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -365,7 +365,7 @@ recipe Make Charcoal
     {
     	HCTarsticks=4,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -378,7 +378,7 @@ recipe Make Charcoal
     {
     	Sheet=16,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -391,7 +391,7 @@ recipe Make Charcoal
     {
     	RippedSheets=48,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -404,7 +404,7 @@ recipe Make Charcoal
     {
     	SheetPaper2=48,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -415,9 +415,9 @@ recipe Make Charcoal
 
 recipe Make Charcoal
     {
-    	Socks=48,
+    	Base.Socks=48,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
    	 CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -428,9 +428,9 @@ recipe Make Charcoal
 
 recipe Make Charcoal
     {
-    	Socks2=48,
+    	Base.Socks2=48,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -443,7 +443,7 @@ recipe Make Charcoal
     {
     	Newspaper=16,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -456,7 +456,7 @@ recipe Make Charcoal
     {
     	Magazine=16,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -469,7 +469,7 @@ recipe Make Charcoal
     {
     	Book=16,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -482,7 +482,7 @@ recipe Make Charcoal
     {
     	Newspaper=16,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -495,7 +495,7 @@ recipe Make Charcoal
     {
     	HC1dollarbill=48,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -508,7 +508,7 @@ recipe Make Charcoal
     {
     	HC2dollarbill=48,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -521,7 +521,7 @@ recipe Make Charcoal
     {
     	HC5dollarbill=48,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -534,7 +534,7 @@ recipe Make Charcoal
     {
     	HC10dollarbill=48,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -547,7 +547,7 @@ recipe Make Charcoal
     {
     	HC20dollarbill=48,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -560,7 +560,7 @@ recipe Make Charcoal
     {
     	HC50dollarbill=48,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -573,7 +573,7 @@ recipe Make Charcoal
     {
     	HC100dollarbill=48,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -586,7 +586,7 @@ recipe Make Charcoal
     {
     	HCFirbough=4,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -599,7 +599,7 @@ recipe Make Charcoal
     {
     	HCWillowbranch=4,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -612,7 +612,7 @@ recipe Make Charcoal
     {
     	HCPinebough=4,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -625,7 +625,7 @@ recipe Make Charcoal
     {
     	HCOakleaves=48,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -638,7 +638,7 @@ recipe Make Charcoal
     {
     	HCHickoryleaves=48,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -651,7 +651,7 @@ recipe Make Charcoal
     {
     	HCFircone=4,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -664,7 +664,7 @@ recipe Make Charcoal
     {
     	HCBark=16,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -677,7 +677,7 @@ recipe Make Charcoal
     {
     	HCBirchbark=16,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -690,7 +690,7 @@ recipe Make Charcoal
     {
     	HCGrass=48,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -703,7 +703,7 @@ recipe Make Charcoal
     {
     	HCCob=16,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -716,7 +716,7 @@ recipe Make Charcoal
     {
     	HCCowpoop=24,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -729,7 +729,7 @@ recipe Make Charcoal
     {
     	HCCoal,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -755,7 +755,7 @@ recipe Make Charcoal
     {
     	HCMomigalite,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
     	Time:100,
@@ -768,7 +768,7 @@ recipe Make Momigalite
     {
     	HCChaff=12,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:HCMomigalite,
     	Time:100,
@@ -781,7 +781,7 @@ recipe Make Rice Hull Charcoal
     {
     	HCChaff,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:HCKuntan,
     	Time:100,
@@ -849,7 +849,7 @@ recipe Make Tar
 	HCBirchbark=6,
     	HCWoodenbucket,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-	keep HCTarkiln/HCTarkiln2,
+	keep HCTarkiln2,
     	CanBeDoneFromFloor:true, 
     	Result:HCWoodenbuckettar,
     	Time:1000,
@@ -862,7 +862,7 @@ recipe Make Tar
 	HCBark=9,
     	HCWoodenbucket,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-	keep HCTarkiln/HCTarkiln2,
+	keep HCTarkiln2,
     	CanBeDoneFromFloor:true, 
     	Result:HCWoodenbuckettar,
     	Time:1000,
@@ -875,7 +875,7 @@ recipe Make Tar
 	HCSawdust=60,
     	HCWoodenbucket,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-	keep HCTarkiln/HCTarkiln2,
+	keep HCTarkiln2,
     	CanBeDoneFromFloor:true, 
     	Result:HCWoodenbuckettar,
     	Time:1000,
@@ -888,7 +888,7 @@ recipe Make Tar
 	HCPinebough=6,
     	HCWoodenbucket,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-	keep HCTarkiln/HCTarkiln2,
+	keep HCTarkiln2,
     	CanBeDoneFromFloor:true, 
     	Result:HCWoodenbuckettar,
     	Time:1000,
@@ -901,7 +901,7 @@ recipe Make Tar
 	HCFirbough=6,
     	HCWoodenbucket,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-	keep HCTarkiln/HCTarkiln2,
+	keep HCTarkiln2,
     	CanBeDoneFromFloor:true, 
     	Result:HCWoodenbuckettar,
     	Time:1000,
@@ -914,13 +914,28 @@ recipe Make Tar
 	TreeBranch=9,
     	HCWoodenbucket,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-	keep HCTarkiln/HCTarkiln2,
+	keep HCTarkiln2,
     	CanBeDoneFromFloor:true, 
     	Result:HCWoodenbuckettar,
     	Time:1000,
     	Category:Firecraft,
        	OnGiveXP:HCCooking_OnGiveXP,
     }	
+
+recipe Make Tar
+    {
+    Twigs=22,
+        HCWoodenbucket,
+        Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    keep HCTarkiln2,
+        CanBeDoneFromFloor:true, 
+        Result:HCWoodenbuckettar,
+        Time:1000,
+        Category:Firecraft,
+        OnGiveXP:HCCooking_OnGiveXP,
+    }   
+
+
 
 recipe Make Tar Sticks
     {
@@ -940,7 +955,7 @@ recipe Distill Lighter Fluid
 	HCWoodenbuckettar=4,
 	Charcoal,
 	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-	keep HCDistillery,
+	keep HCDistillery2,
     	CanBeDoneFromFloor:true,
 	Result:HCLighterfluid,
     	NeedToBeLearn:true,
@@ -957,7 +972,7 @@ recipe Distill Fish Oil
 	Charcoal,
 	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
 	HCJar,
-	keep HCDistillery,
+	keep HCDistillery2,
     	CanBeDoneFromFloor:true,
 	Result:HCFishoil,
     	NeedToBeLearn:true,
@@ -971,7 +986,7 @@ recipe Make Coke
     {
     	HCCoal,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCSmelter/HCSmelter2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:HCCoke,
 	NeedToBeLearn:true,
@@ -988,7 +1003,7 @@ recipe Distill Creosote Oil
 	HCWoodenbucket,
 	Charcoal,
 	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-	keep HCDistillery,
+	keep HCDistillery2,
     	CanBeDoneFromFloor:true,
 	Result:HCWoodenbucketcreosote,
     	NeedToBeLearn:true,
@@ -1015,9 +1030,9 @@ recipe Treat Wood Plank
 recipe Make Carbon Powder
     {
     	HCCharcoalpowder,
-   	Charcoal,
+   	    Charcoal,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCKiln/HCKiln2,
+    	keep HCKiln2,
     	CanBeDoneFromFloor:true,
     	Result:HCCarbonpowder,
     	NeedToBeLearn:true,
@@ -1032,13 +1047,13 @@ recipe Make Carbon Nanorings
     	HCCarbonpowder,
     	Charcoal,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep HCWorkgloves/HCOvenmitts,
-    	keep HCSmelter/HCSmelter2,
+    	keep HCWorkgloves,
+    	keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     	CanBeDoneFromFloor:true,
     	Result:HCNanorings,
     	NeedToBeLearn:true,
     	Time:1000,
-   	Category:Firecraft,
+   	    Category:Firecraft,
     	OnCreate:SmeltUse,
        	OnGiveXP:HCCooking_OnGiveXP,
     }
@@ -1047,11 +1062,9 @@ recipe Make Carbon Nanochains
     {
     	HCNanorings,
     	HCCoke,
-
-
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     	keep HCWorkgloves/HCOvenmitts,
-    	keep HCBlastfurnace/HCBlastfurnace2,
+    	keep HCFurnace2/HCBlastfurnace2,
     	CanBeDoneFromFloor:true,
     	Result:HCNanochains,
     	NeedToBeLearn:true,
@@ -1066,12 +1079,10 @@ recipe Make Carbon Nanofiber
     {
     	HCNanochains,
     	HCCoke,
-
-
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     	keep WeldingMask,
-    	keep HCWorkgloves/HCOvenmitts,
-    	keep HCFurnace/HCFurnace2,
+    	keep HCWorkgloves,
+    	keep HCFurnace2,
     	CanBeDoneFromFloor:true,
     	Result:HCNanofiber,
     	NeedToBeLearn:true,

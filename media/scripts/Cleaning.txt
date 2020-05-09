@@ -143,7 +143,7 @@ item HCMothballsbox
     }
 
 /************************WEAPONS************************/
-
+/*
 item HCBroom
     {
         MaxRange                 =    1.5,
@@ -217,7 +217,7 @@ item HCPushbroom
             BreakSound             =       BreakWoodItem,
         TreeDamage             =       1,
     }
-
+*/
 
 /************************RECIPES************************/
 
@@ -260,9 +260,10 @@ recipe Wash Towel in Wash Tub
     	OnGiveXP:HCHunger_OnGiveXP,
     }
 
+	/*
 recipe Wash Clothing
     {
-       	keep Vest/Shirt/Trousers/Skirt/Blouse/Underwear1/Underwear2/HCScavangeshroud/HCRaincoat/HCRainponcho/HCMexicanponcho/HCDownjacket/HCButtondownshirt/HCPoloshirt/HCTshirt/HCTiedyeshirt/HCHawaiianshirt/HCLifevest/HCLinenshirt/HCLinenpants/HCSilkshirt/HCSilkpants/HCWoolshirt/HCWoolpants/HCCloakbearblack/HCCloakbear/HCFurcoat/HCFurpants/HCTrapperjacket/HCLeathercoat/HCLeatherpants/Jacket/PaddedJacket/PaddedTrousers/ShortsLong,
+       	keep Vest/Base.Shirt/Trousers/Skirt/Blouse/Underwear1/Underwear2/HCScavangeshroud/HCRaincoat/HCRainponcho/HCMexicanponcho/HCDownjacket/HCButtondownshirt/HCPoloshirt/HCTshirt/HCTiedyeshirt/HCHawaiianshirt/HCLifevest/HCLinenshirt/HCLinenpants/HCSilkshirt/HCSilkpants/HCWoolshirt/HCWoolpants/HCCloakbearblack/HCCloakbear/HCFurcoat/HCFurpants/HCTrapperjacket/HCLeathercoat/HCLeatherpants/Jacket/PaddedJacket/PaddedTrousers/ShortsLong,
        	Soap2/HCSoap/HCCleanerall/HCCleanerfabric/HCFabricsoftener/HCHandsoap/HCShampoo,
        	Water=3,
        	Result:Vest,
@@ -277,7 +278,7 @@ recipe Wash Clothing
 recipe Wash Clothing in Wash Tub
     {
     	keep HCWashtubfull,
-       	keep Vest/Shirt/Trousers/Skirt/Blouse/Underwear1/Underwear2/HCScavangeshroud/HCRaincoat/HCRainponcho/HCMexicanponcho/HCDownjacket/HCButtondownshirt/HCPoloshirt/HCTshirt/HCTiedyeshirt/HCHawaiianshirt/HCLifevest/HCLinenshirt/HCLinenpants/HCSilkshirt/HCSilkpants/HCWoolshirt/HCWoolpants/HCCloakbearblack/HCCloakbear/HCFurcoat/HCFurpants/HCTrapperjacket/HCLeathercoat/HCLeatherpants/Jacket/PaddedJacket/PaddedTrousers/ShortsLong,
+       	keep Vest/Base.Shirt/Trousers/Skirt/Blouse/Underwear1/Underwear2/HCScavangeshroud/HCRaincoat/HCRainponcho/HCMexicanponcho/HCDownjacket/HCButtondownshirt/HCPoloshirt/HCTshirt/HCTiedyeshirt/HCHawaiianshirt/HCLifevest/HCLinenshirt/HCLinenpants/HCSilkshirt/HCSilkpants/HCWoolshirt/HCWoolpants/HCCloakbearblack/HCCloakbear/HCFurcoat/HCFurpants/HCTrapperjacket/HCLeathercoat/HCLeatherpants/Jacket/PaddedJacket/PaddedTrousers/ShortsLong,
        	Soap2/HCSoap/HCCleanerall/HCCleanerfabric/HCFabricsoftener/HCHandsoap/HCShampoo,
        	Soap2/HCSoap/HCCleanerall/HCCleanerfabric/HCFabricsoftener/HCHandsoap/HCShampoo,
        	Water=3,
@@ -322,5 +323,7 @@ recipe Wash Shoes in Wash Tub
     	Category:Weaving,
     	OnGiveXP:HCHunger_OnGiveXP,
     }
+	
+	*/
     
 }

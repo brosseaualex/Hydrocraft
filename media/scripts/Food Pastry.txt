@@ -415,7 +415,7 @@ recipe Place Fruit Cake Batter in Bread Pan
 
 recipe Slice Fruit Cake   
     	{
-	   	keep KitchenKnife/ButterKnife/HuntingKnife/HCBreadknife/HCSteakknife/HCMachete/HCCombatknife/HCJackknife/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCKnifestone,
+	   	keep KitchenKnife/ButterKnife/HuntingKnife/Base.BreadKnife/HCSteakknife/Base.Machete/HCCombatknife/HCJackknife/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCKnifestone,
             	HCFruitcake=1,
 	    	Result:HCFruitcakeslices=3,
 	    	Time:60.0,

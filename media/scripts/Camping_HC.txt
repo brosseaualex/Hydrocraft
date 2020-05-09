@@ -131,7 +131,7 @@ item HCRaftrubber
 	Type 				= 	Normal,
 	DisplayName 			= 	Rubber Raft,
 	Icon				=	HCRaftrubber,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCSpaceblanket
@@ -562,7 +562,7 @@ recipe Purify Water
 recipe Attatch Canteens
     	{
     	HCCanteen=2,
-	Belt/Sling,
+	Belt2/Sling,
     	Result:HCStrappedcanteen,
     	Time:15,
 	Category:Health,

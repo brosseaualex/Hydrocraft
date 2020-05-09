@@ -18,34 +18,6 @@ module Hydrocraft
 	Icon			=	HCGarbagebagbox,
 	}
 
-    item HCAlicepack
-    {
-        WeightReduction    	=    95,
-        Weight    		=    0.5,
-        Type    		=    Container,
-        Capacity    		=    30,
-        DisplayName    		=    Large Alice Pack,
-        Icon    		=    HCAlicepack,
-        CanBeEquipped 		=    Back,
-        OpenSound   		=    PZ_OpenBag,
-        CloseSound  	 	=    PZ_CloseBag,
-        PutInSound   		=    PZ_PutInBag,
-   }
-
-    item HCAlicepack2
-    {
-        WeightReduction    	=    85,
-        Weight    		=    0.5,
-        Type    		=    Container,
-        Capacity    		=    25,
-        DisplayName    		=    Medium Alice Pack,
-        Icon    		=    HCAlicepack2,
-        CanBeEquipped 		=    Back,
-        OpenSound   		=    PZ_OpenBag,
-        CloseSound   		=    PZ_CloseBag,
-        PutInSound   		=    PZ_PutInBag,
-   }
-
     item HCAlicepack3
     {
         WeightReduction    	=    90,
@@ -55,9 +27,9 @@ module Hydrocraft
         DisplayName    		=    Fine Leather Alice Pack,
         Icon    		=    HCAlicepack3,
         CanBeEquipped 		=    Back,
-        OpenSound   		=    PZ_OpenBag,
-        CloseSound  	 	=    PZ_CloseBag,
-        PutInSound   		=    PZ_PutInBag,
+        OpenSound   		=    OpenBag,
+        CloseSound  	 	=    CloseBag,
+        PutInSound   		=    PutItemInBag,
    }
 
     item HCCampingpack
@@ -69,9 +41,9 @@ module Hydrocraft
         DisplayName    		=    Camping Pack,
         Icon    		=    HCCampingpack,
         CanBeEquipped 		=    Back,
-        OpenSound   		=    PZ_OpenBag,
-        CloseSound   		=    PZ_CloseBag,
-        PutInSound   		=    PZ_PutInBag,
+        OpenSound   		=    OpenBag,
+        CloseSound   		=    CloseBag,
+        PutInSound   		=    PutItemInBag,
    }
 
     item HCClimbingpack
@@ -83,9 +55,9 @@ module Hydrocraft
         DisplayName    		=    Climbing Pack,
         Icon    		=    HCClimbingpack,
         CanBeEquipped 		=    Back,
-        OpenSound   		=    PZ_OpenBag,
-        CloseSound  		=    PZ_CloseBag,
-        PutInSound   		=    PZ_PutInBag,
+        OpenSound   		=    OpenBag,
+        CloseSound  		=    CloseBag,
+        PutInSound   		=    PutItemInBag,
    }
 
     item HCPrepperbag
@@ -97,23 +69,9 @@ module Hydrocraft
         DisplayName    		=    Doomsday Prepper Bag,
         Icon    		=    HCPrepperbag,
         CanBeEquipped 		=    Back,
-        OpenSound   		=    PZ_OpenBag,
-        CloseSound  		=    PZ_CloseBag,
-        PutInSound   		=    PZ_PutInBag,
-   }
-
-    item HCRucksack
-    {
-        WeightReduction    	=    70,
-        Weight    		=    0.5,
-        Type    		=    Container,
-        Capacity   		=    20,
-        DisplayName    		=    Rucksack,
-        Icon    		=    HCRucksack,
-        CanBeEquipped 		=    Back,
-        OpenSound   		=    PZ_OpenBag,
-        CloseSound   		=    PZ_CloseBag,
-        PutInSound   		=    PZ_PutInBag,
+        OpenSound   		=    OpenBag,
+        CloseSound  		=    CloseBag,
+        PutInSound   		=    PutItemInBag,
    }
 
      item HCWheelbarrow
@@ -124,7 +82,7 @@ module Hydrocraft
 	Capacity             		= 200,
 	DisplayName             	= Wheelbarrow,
 	Icon				= HCWheelbarrow,
-	ResizeWorldIcon 		= 2.0,
+	
 	RequiresEquippedBothHands 	= true,
    }
 
@@ -137,7 +95,7 @@ module Hydrocraft
 	Capacity             		= 190,
 	DisplayName             	= Pallet Truck,
 	Icon				= HCPallettruck,
-	ResizeWorldIcon 		= 1.0,
+	
 	RequiresEquippedBothHands 	= true,
    }
 
@@ -150,7 +108,7 @@ module Hydrocraft
 	Capacity             		= 180,
 	DisplayName             	= Push Cart,
 	Icon				= HCPushcart,
-	ResizeWorldIcon 		= 1.0,
+	
 	RequiresEquippedBothHands 	= true,
    }
 
@@ -162,7 +120,7 @@ module Hydrocraft
 	Capacity             		= 170,
 	DisplayName             	= Hand Dolly,
 	Icon				= HCHanddolly,
-	ResizeWorldIcon 		= 1.0,
+	
 	RequiresEquippedBothHands 	= true,
    }
 
@@ -174,7 +132,7 @@ module Hydrocraft
 	Capacity             		= 200,
 	DisplayName             	= Forklift,
 	Icon				= HCForklift,
-	ResizeWorldIcon 		= 1.0,
+	
 	RequiresEquippedBothHands 	= true,
    }
 
@@ -186,7 +144,7 @@ module Hydrocraft
 	Capacity             		= 160,
 	DisplayName             	= Shopping Cart,
 	Icon				= HCShoppingcart,
-	ResizeWorldIcon 		= 2.0,
+	
 	RequiresEquippedBothHands 	= true,
    }
 
@@ -198,7 +156,7 @@ module Hydrocraft
 	Capacity             		= 150,
 	DisplayName             	= Toy Wagon,
 	Icon				= HCToywagon,
-	ResizeWorldIcon 		= 2.0,
+	
    }
 
     item HCPaperbag
@@ -476,7 +434,7 @@ module Hydrocraft
         Capacity            = 10,
         DisplayName         = Wooden Crate,
         Icon                = HCWoodencrate,
-		ResizeWorldIcon     = 2.0,
+		
     }
 
     item HCToychest
@@ -487,7 +445,7 @@ module Hydrocraft
         Capacity            = 25,
         DisplayName         = Toy Chest,
         Icon                = HCToychest,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCWardrobe
@@ -498,7 +456,7 @@ module Hydrocraft
         Capacity            = 100,
         DisplayName         = Wardrobe,
         Icon                = HCWardrobe,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCPlasticbin
@@ -509,7 +467,7 @@ module Hydrocraft
         Capacity            = 20,
         DisplayName         = Large Plastic Bin,
         Icon                = HCPlasticbin,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCPlasticbin2
@@ -530,7 +488,7 @@ module Hydrocraft
         Capacity            = 20,
         DisplayName         = Cardboard Box,
         Icon                = HCCardboardbox,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCCardboardboxstack
@@ -539,7 +497,7 @@ module Hydrocraft
         Type    	     = Normal,
         DisplayName          = Stack of Cardboard Boxes,
         icon 		     = HCCardboardboxstack,
-	ResizeWorldIcon      = 1.0,
+	
     }
 
     item HCCardboardflat
@@ -598,7 +556,7 @@ module Hydrocraft
         Capacity            = 32,
         DisplayName         = Trunk,
         Icon                = HCTrunk,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCChest
@@ -609,7 +567,6 @@ module Hydrocraft
         Capacity            		= 32,
         DisplayName         		= Chest,
         Icon                		= HCChest,
-	ResizeWorldIcon     		= 2.0,
 	RequiresEquippedBothHands 	= true,
     }
 
@@ -631,7 +588,7 @@ module Hydrocraft
         Capacity            		= 16,
         DisplayName         		= Ice Chest,
         Icon                		= HCIcechest,
-	ResizeWorldIcon 		= 2.0,
+	
 	RequiresEquippedBothHands 	= true,
     }
 
@@ -699,72 +656,6 @@ module Hydrocraft
         CanBeEquipped       = Back,
     }
 	
-    item HCDucttapepouch
-    {
-		Weight				= 0.20,
-		Type				= Normal,
-		DisplayName			= Duct Tape Pouch,
-		Icon				= HCDucttapepouch,
-		
-    }
-	
-    item HCSchoolbagpouch
-    {
-        WeightReduction     = 60,
-        Weight              = 0.55,
-        Type                = Container,
-        Capacity            = 18,
-        DisplayName         = Schoolbag (Pouches),
-        Icon                = HCSchoolbagpouch,
-        CanBeEquipped       = Back,
-        OpenSound   =   PZ_OpenBag,
-        CloseSound   =   PZ_CloseBag,
-        PutInSound   =   PZ_PutInBag,
-    }
-
-    item HCDuffelbagpouch
-    {
-        WeightReduction     = 65,
-        Weight              = 1,
-        Type                = Container,
-        Capacity            = 21,
-        DisplayName         = Duffelbag (Pouches),
-        Icon                = HCDuffelbagpouch,
-        CanBeEquipped       = Back,
-        OpenSound   =   PZ_OpenBag,
-        CloseSound   =   PZ_CloseBag,
-        PutInSound   =   PZ_PutInBag,
-    }
-
-    item HCNormalhikingbagpouch
-    {
-        WeightReduction     	= 70,
-        Weight              	= 0.5,
-        Type                	= Container,
-        Capacity            	= 23,
-        DisplayName         	= Normal Hiking Bag (Pouches),
-        Icon                	= HCNormalhikingbagpouch,
-        CanBeEquipped       	= Back,
-        OpenSound   		= PZ_OpenBag,
-        CloseSound   		= PZ_CloseBag,
-        PutInSound   		= PZ_PutInBag,
-    }
-
-    item HCBighikingbagpouch
-    {
-        WeightReduction     	= 80,
-        Weight              	= 0.5,
-        Type                	= Container,
-        Capacity            	= 25,
-        DisplayName         	= Big Hiking Bag (Pouches),
-        Icon                	= HCBighikingbagpouch,
-        CanBeEquipped       	= Back,
-        OpenSound   		= PZ_OpenBag,
-        CloseSound   		= PZ_CloseBag,
-        PutInSound   		= PZ_PutInBag,
-        UseWhileEquipped	= FALSE,
-    }
-
 
     item HCShipcrate1
     {
@@ -774,7 +665,7 @@ module Hydrocraft
         Capacity            = 1350,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate1,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCShipcrate2
@@ -785,7 +676,7 @@ module Hydrocraft
         Capacity            = 1350,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate2,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCShipcrate3
@@ -796,7 +687,7 @@ module Hydrocraft
         Capacity            = 1350,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate3,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCShipcrate4
@@ -807,7 +698,7 @@ module Hydrocraft
         Capacity            = 300,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate4,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCShipcrate5
@@ -818,7 +709,7 @@ module Hydrocraft
         Capacity            = 300,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate5,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCShipcrate6
@@ -829,7 +720,7 @@ module Hydrocraft
         Capacity            = 300,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate6,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
     item HCShipcrate7
@@ -840,7 +731,7 @@ module Hydrocraft
         Capacity            = 300,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate7,
-	ResizeWorldIcon     = 1.0,
+	
     }
 
 /************************RECIPES************************/
@@ -876,7 +767,7 @@ recipe Bury Trash
     {
     	destroy Garbagebag,
 	HCWorkgloves,
-    	keep HCPickaxe,
+    	keep Base.PickAxe,
     	Result:HCWorkgloves,
     	Time:500,
     	OnGiveXP:HCHunger_OnGiveXP,
@@ -968,7 +859,7 @@ recipe Unpack Stack of Cardboard Boxes
 	{
 			HCPillowcase,
 			SheetRope=4,
-			keep Screwdriver/Pencil/Pen/KitchenKnife/HuntingKnife/TentPeg/HCKnifestone,
+			keep Screwdriver/Pencil/Pen/KitchenKnife/HuntingKnife/Base.TentPeg/HCKnifestone,
 		
 			Result:HCPillowcasebackpack,
 			Time:125.0,
@@ -1020,65 +911,6 @@ recipe Unpack Stack of Cardboard Boxes
 			Time:250.0,
        			Category:Engineer,
     			OnGiveXP:HCHunger_OnGiveXP,
-	}
-
-
-	recipe Craft Duct Tape Pouch
-	{
-		DuctTape=4,
-			
-		Result:HCDucttapepouch,
-		Time:125.0,
-		Category:Engineer,
-		OnGiveXP:HCHunger_OnGiveXP,
-	}
-
-	recipe Add Duct Tape Pouches to Schoolbag
-	{
-		HCDucttapepouch=2,
-		destroy Schoolbag,
-			
-		Result:HCSchoolbagpouch,
-		Time:100.0,
-		Category:Engineer,
-		OnCreate:HCEmptyContainerOnRecipe,
-		OnGiveXP:HCHunger_OnGiveXP,
-	}
-
-	recipe Add Duct Tape Pouches to Normal Hiking Bag
-	{
-		HCDucttapepouch=2,
-		destroy NormalHikingBag,
-			
-		Result:HCNormalhikingbagpouch,
-		Time:100.0,
-		Category:Engineer,
-		OnCreate:HCEmptyContainerOnRecipe,
-		OnGiveXP:HCHunger_OnGiveXP,
-	}
-
-	recipe Add Duct Tape Pouches to Big Hiking Bag
-	{
-		HCDucttapepouch=2,
-		destroy BigHikingBag,
-			
-		Result:HCBighikingbagpouch,
-		Time:100.0,
-		Category:Engineer,
-		OnCreate:HCEmptyContainerOnRecipe,
-		OnGiveXP:HCHunger_OnGiveXP,
-	}
-
-	recipe Add Duct Tape Pouches to Duffelbag
-	{
-		HCDucttapepouch=2,
-		destroy Duffelbag,
-			
-		Result:HCDuffelbagpouch,
-		Time:100.0,
-		Category:Engineer,
-		OnCreate:HCEmptyContainerOnRecipe,
-		OnGiveXP:HCHunger_OnGiveXP,
 	}
 
 }

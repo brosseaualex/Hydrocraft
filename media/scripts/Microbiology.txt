@@ -149,22 +149,31 @@ item HCPetrinothingzoom
 
 /************************RECIPES************************/
 
+recipe Label Agar Jar
+        {
+        HCJar,
+        HCLabelAgar,
+        CanBeDoneFromFloor:true,
+        Result:HCAgarempty,
+        Time:200,
+        Category:Alchemy,
+        OnGiveXP:HCNoXp_OnGiveXP,
+        }
+
 recipe Make Homemade Agar
     	{
-    		Sugar,
-		HCSoupbouillon,
-		HCGelatinpowder,
-		HCGlassbeaker,
-    		Charcoal,
-    		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    		Water,
-    		keep HCClaycauldron/HCCauldroniron,
-    		CanBeDoneFromFloor:true,
-    		Result:HCBeakeragar,
-    		NeedToBeLearn:true,
-    		Time:500,
-    		Category:Alchemy,
-    		OnGiveXP:HCCooking_OnGiveXP,
+    	Sugar,
+        HCAgarempty,
+        HCAlgaePowder=2,
+        Water,
+        keep HCLab2,
+        keep HCCheesecloth,
+   		CanBeDoneFromFloor:true,
+    	Result:HCAgar,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Alchemy,
+    	OnGiveXP:HCCooking_OnGiveXP,
     	}
 
 recipe Prepare Agar
@@ -192,9 +201,11 @@ recipe Prepare Petri Dish
 
 recipe Examine Biowaste
     {
-    	HCMicroscope,
+    	keep HCLatexgloves,
+        keep HCMedicallab2,
     	HCPetribiowaste,
-    	Result:HCMicroscope,
+    	Result:HCLatexgloves,
+        CanBeDoneFromFloor:true,
     	Time:250,
     	NeedToBeLearn:true,
     	OnCreate:recipe_hcmicroscopefunghi,
@@ -217,7 +228,7 @@ recipe Clean Petri Dish
 
 recipe Look Through Microscope
     {
-    	keep HCMicroscope,
+    	keep HCMedicallab2,
     	HCPetripenicillium,
     	Result:HCPetripenecilinumzoom,
     	NeedToBeLearn:true,
@@ -228,9 +239,10 @@ recipe Look Through Microscope
 
 recipe Look Through Microscope
     {
-    	keep HCMicroscope,
+    	keep HCMedicallab2,
     	HCPetriaspergillus,
     	Result:HCPetriaspergilluszoom,
+        CanBeDoneFromFloor:true,
     	NeedToBeLearn:true,
     	Time:50,
     	Category:Health,
@@ -239,9 +251,10 @@ recipe Look Through Microscope
 
 recipe Look Through Microscope
     {
-    	keep HCMicroscope,
+    	keep HCMedicallab2,
     	HCPetriyeast,
     	Result:HCPetriyeastzoom,
+        CanBeDoneFromFloor:true,
     	NeedToBeLearn:true,
     	Time:50,
     	Category:Health,
@@ -250,7 +263,7 @@ recipe Look Through Microscope
 
 recipe Look Through Microscope
     {
-    	keep HCMicroscope,
+    	keep HCMedicallab2,
     	HCPetrididymium,
     	Result:HCPetrididymiumzoom,
     	NeedToBeLearn:true,
@@ -261,9 +274,10 @@ recipe Look Through Microscope
 
 recipe Look Through Microscope
     {
-    	keep HCMicroscope,
+    	keep HCMedicallab2,
     	HCPetrinothing,
     	Result:HCPetrinothingzoom,
+        CanBeDoneFromFloor:true,
     	NeedToBeLearn:true,
     	Time:50,
     	Category:Health,
@@ -277,6 +291,7 @@ recipe Cultivate Penicillium
     	HCPetriagar,
     	keep HCEyedropper,
     	Result:HCPetripenicillium,
+        CanBeDoneFromFloor:true,
     	Time:50,
    	NeedToBeLearn:true,
     	OnCreate:recipe_hcgetpetridish,
@@ -290,10 +305,10 @@ recipe Cultivate Penicillium
 	HCPetridish=3,
 	BreadSlices/HCSlicedorange/HCSlicedlemon/HCSlicedlime,
    	Result:HCPetripenicillium=3,
-    	Time:600,
+    Time:600,
    	NeedToBeLearn:true,
 	Category:Health,
-    	OnGiveXP:HCDoctor_OnGiveXP,
+    OnGiveXP:HCDoctor_OnGiveXP,
     }
 
 recipe Cultivate Aspergillus
@@ -342,7 +357,7 @@ recipe Extract Yeast
     {
     	SkillRequired:Doctor=3,
     	HCPetriyeast,
-    	keep HCMedicallab,
+    	keep HCMedicallab2,
         CanBeDoneFromFloor:true,
     	Result:Yeast,
     	Time:50,
@@ -356,7 +371,7 @@ recipe Make Penicillin
     {
     	SkillRequired:Doctor=5,
     	HCPetripenicillium,
-    	keep HCMedicallab,
+    	keep HCMedicallab2,
     	CanBeDoneFromFloor:true,
     	NeedToBeLearn:true,
     	Result:Antibiotics=2,

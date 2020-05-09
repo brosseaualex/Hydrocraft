@@ -450,6 +450,12 @@ ItemTimeTrackerMod["HCBarrelsake"] = {};
 ItemTimeTrackerMod["HCBarrelsake"]["Life"] = 336.0;
 ItemTimeTrackerMod["HCBarrelsake"]["TurnInto"] = "Hydrocraft.HCBarrelvinegar";
 
+--BarrelLemon
+--28 Days for Lemon Mash Barrels
+ItemTimeTrackerMod["HCBarrelLemon"] = {};   
+ItemTimeTrackerMod["HCBarrelLemon"]["Life"] = 720.0;
+ItemTimeTrackerMod["HCBarrelLemon"]["TurnInto"] = "Hydrocraft.HCBarrelLemonFermented";
+
 --Cheese
 --7 Days to Age Cheese
 
@@ -596,6 +602,13 @@ ItemTimeTrackerMod["HCBeehive2Active"]["TurnInto"] = "Hydrocraft.HCBeehive2full"
 ItemTimeTrackerMod["HCBeehive3Active"] = {};   
 ItemTimeTrackerMod["HCBeehive3Active"]["Life"] = 168.0;
 ItemTimeTrackerMod["HCBeehive3Active"]["TurnInto"] = "Hydrocraft.HCBeehive3full";
+
+-- Bee Hive Stage 3 ancored
+-- 7 Days
+ItemTimeTrackerMod["HCBeehive3bActive"] = {};   
+ItemTimeTrackerMod["HCBeehive3bActive"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCBeehive3bActive"]["TurnInto"] = "Hydrocraft.HCBeehive3bfull";
+
 
 -- Silkworm Eggs to Silkworm
 -- 48 Hours
