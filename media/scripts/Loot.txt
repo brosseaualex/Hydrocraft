@@ -14,7 +14,7 @@ item HCBoxart
         Type			= Normal,
         DisplayName         	= Box of Art Supplies,
         Icon                	= HCCardboardboxsealed,
-	ResizeWorldIcon     	= FALSE,
+	
     }
 
 item HCBoxelectronic
@@ -23,7 +23,7 @@ item HCBoxelectronic
         Type			= Normal,
         DisplayName         	= Box of Electronic Equipment,
         Icon                	= HCCardboardboxsealed,
-	ResizeWorldIcon     	= FALSE,
+	
     }
 
 item HCBoxgarden
@@ -32,7 +32,7 @@ item HCBoxgarden
         Type			= Normal,
         DisplayName         	= Box of Garden Equipment,
         Icon                	= HCCardboardboxsealed,
-	ResizeWorldIcon     	= FALSE,
+	
     }
 
 item HCBoxholiday
@@ -41,7 +41,7 @@ item HCBoxholiday
         Type			= Normal,
         DisplayName         	= Box of Holiday Supplies,
         Icon                	= HCCardboardboxsealed,
-	ResizeWorldIcon     	= FALSE,
+	
     }
 
 item HCBoxlab
@@ -50,7 +50,7 @@ item HCBoxlab
         Type			= Normal,
         DisplayName         	= Box of Lab Equipment,
         Icon                	= HCCardboardboxsealed,
-	ResizeWorldIcon     	= FALSE,
+	
     }
 
 item HCBoxoffice
@@ -59,7 +59,7 @@ item HCBoxoffice
         Type			= Normal,
         DisplayName         	= Box of Office Supplies,
         Icon                	= HCCardboardboxsealed,
-	ResizeWorldIcon     	= FALSE,
+	
     }
 
 item HCBoxpet
@@ -68,7 +68,7 @@ item HCBoxpet
         Type			= Normal,
         DisplayName         	= Box of Pet Equipment,
         Icon                	= HCCardboardboxsealed,
-	ResizeWorldIcon     	= FALSE,
+	
     }
 
 item HCBoxphoto
@@ -77,7 +77,7 @@ item HCBoxphoto
         Type			= Normal,
         DisplayName         	= Box of Photography Equipment,
         Icon                	= HCCardboardboxsealed,
-	ResizeWorldIcon     	= FALSE,
+	
     }
 
 
@@ -87,7 +87,7 @@ item HCBoxtoy
         Type			= Normal,
         DisplayName         	= Box of Toys,
         Icon                	= HCCardboardboxsealed,
-	ResizeWorldIcon     	= FALSE,
+	
     }
 
 /************************RECIPES************************/

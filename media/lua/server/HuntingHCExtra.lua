@@ -61,9 +61,16 @@ function HCHuntSmallGame(items, result, player)
 	else
 		local actual = ZombRand(100);
 		if actual <= chance then
-			local animal = ZombRand(12);
+			local animal = ZombRand(11);
 			if animal == 0 then
 				player:getInventory():AddItem("Base.DeadRabbit");
+				local babys = ZombRand(1);
+				if babys == 0 then 
+					player:getInventory():AddItem("Hydrocraft.HCRabbitfemalehungry");
+				end
+				if babys == 1 then 
+					player:getInventory():AddItem("Hydrocraft.HCRabbitmalehungry");	
+				end
 			elseif animal == 1 then
 				player:getInventory():AddItem("Base.DeadSquirrel");
 			elseif animal == 2 then
@@ -290,6 +297,7 @@ function HCHuntBird(items, result, player)
 				player:getInventory():AddItem("Hydrocraft.HCChickendead");
 			elseif animal == 3 then
 				player:getInventory():AddItem("Hydrocraft.HCChickendead2");
+				player:getInventory():AddItem("Hydrocraft.HCChickenegg");
 			elseif animal == 4 then
 				player:getInventory():AddItem("Hydrocraft.HCTurkeydead");
 			elseif animal == 5 then

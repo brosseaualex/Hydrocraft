@@ -118,3 +118,20 @@ end
 function HCHunger_OnGiveXP(recipe, ingredients, result, player)
 	-- player:getStats():setHunger(player:getStats():getHunger()+0.01)
 end
+
+function HCNoXp_OnGiveXP(recipe, ingredients, result, player)
+    -- no xp for that :-(
+end
+
+
+function HCTailoring_OnGiveBitXP(recipe, ingredients, result, player)
+    player:getXp():AddXP(Perks.Tailoring, 1);
+end
+
+function HCTailoring2_OnGiveXP(recipe, ingredients, result, player)
+    player:getXp():AddXP(Perks.Tailoring, 3);
+end
+
+function HCTailoring_OnGiveManyXP(recipe, ingredients, result, player)
+    player:getXp():AddXP(Perks.Tailoring, 10);
+end

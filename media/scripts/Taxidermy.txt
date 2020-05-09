@@ -97,7 +97,7 @@ item HCTaxidermyworkbench
 	Capacity             	= 50,
         DisplayName         	= Taxidermy Workbench,
         icon 			= HCTaxidermyworkbench,
-	ResizeWorldIcon 	= 1.8,
+	
     }
 
 
@@ -107,7 +107,7 @@ recipe Make Taxidermy Workbench
     {
 	HCWorkbench,
         HCBonesaw,
-        HCScalpel/HCScalpelimprovised,
+        Base.Scalpel/HCScalpelimprovised,
         HCSewingpinbox,
         HCPincushion,
         HCPliers,

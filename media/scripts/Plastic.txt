@@ -40,7 +40,7 @@ recipe Make Bioplastic
 		HCResin=4,
 		keep HCSafetyglasses,
         	keep HCLatexgloves/HCRubberglove,
-        	keep HCLab,
+        	keep HCLab2,
         	CanBeDoneFromFloor:true,
         	Result:HCBioplastic=4,
                 NeedToBeLearn:true,

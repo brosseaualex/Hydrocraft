@@ -20,7 +20,7 @@ item HCHorsesaddle
 	Capacity             		= 	40,
 		DisplayName			=	Horse Saddle,
 		Icon				=	HCHorsesaddle,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 item HCHorsecollar
 	{
@@ -28,7 +28,7 @@ item HCHorsecollar
 		Type				=	Normal,
 		DisplayName			=	Horse Collar,
 		Icon				=	HCHorsecollar,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 item HCPetcone
 		{
@@ -174,7 +174,7 @@ item HCFishbowl
 		DisplayName         	= 	Fish Bowl,
 	ReplaceOnUseOn		= 	WaterSource-HCFishbowlfull,
 		icon 			= 	HCFishbowl,
-	ResizeWorldIcon 	= 	2.0,
+	
 	RainFactor 		= 	1,
 	}
 item HCFishbowlfull
@@ -189,7 +189,7 @@ item HCFishbowlfull
 	ReplaceOnDeplete	=	HCFishtank,
 	ReplaceOnUseOn		=	WaterSource-HCFishbowlfull,
 	Icon			=	HCFishbowlfull,
-	ResizeWorldIcon 	= 	2.0,
+	
 	RainFactor 		= 	1,
 	}
 item HCFishtank
@@ -200,7 +200,7 @@ item HCFishtank
 		DisplayName         	= 	Fish Tank,
 	ReplaceOnUseOn		= 	WaterSource-HCFishtankfull,
 		icon 			= 	HCFishtank,
-	ResizeWorldIcon 	= 	2.0,
+	
 	RainFactor 		= 	1,
 	}
 item HCFishtankfull
@@ -215,7 +215,7 @@ item HCFishtankfull
 	ReplaceOnDeplete	=	HCFishtank,
 	ReplaceOnUseOn		=	WaterSource-HCFishtankfull,
 	Icon			=	HCFishtankfull,
-	ResizeWorldIcon 	= 	2.0,
+	
 	RainFactor 		= 	1,
 	}
 item HCZedtank
@@ -224,7 +224,7 @@ item HCZedtank
 	Type			=	Normal,
 	DisplayName		=	Fish Tank with Head,
 	Icon			=	HCZedtank,
-	ResizeWorldIcon 	= 	2.0,
+	
 	}
 item HCCatlitter
 	{

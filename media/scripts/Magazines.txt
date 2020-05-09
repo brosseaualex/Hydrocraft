@@ -81,8 +81,8 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Metalworking Monthly Magazine,
 		Icon		=	HCMagazinemetalworking1,
-		TeachedRecipes  =   	Make Sheet Of Metal;Make Large Sheet Of Metal,
-        	ReplaceOnUse    =   	HCMagazinemetalworking1,
+		TeachedRecipes  =  Make Small Sheet Of Metal;Make Sheet Of Metal;Make Large Sheet Of Metal,
+        ReplaceOnUse    =  HCMagazinemetalworking1,
 	}
 
 	item HCMagazinemetalworking2

@@ -38,7 +38,7 @@ item HCCanvas
         Type    		= Normal,
         DisplayName         	= Canvas,
         icon 			= HCCanvas,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCEasel
@@ -47,7 +47,7 @@ item HCEasel
         Type    		= Normal,
         DisplayName         	= Easel,
         icon 			= HCEasel,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCTurpentine

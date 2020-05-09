@@ -19,6 +19,19 @@ item HCRiceflour
 		ReplaceOnDeplete	=	Hydrocraft.HCFlourempty,
 	}
 
+item HCWholemealflour
+	{
+		Weight			=	1,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Wholemeal Flour,
+		Icon			=	HCRiceflour,
+		ReplaceOnDeplete	=	Hydrocraft.HCFlourempty,
+	}
+
+
+
 item HCGruelbowl
 	{
 		HungerChange		=	-25,
@@ -31,7 +44,7 @@ item HCGruelbowl
 		Icon			=	BowlFull,
 		ReplaceOnUse		=	Bowl,
 		DaysFresh		=	1,
-		CustomEatSound 		= 	PZ_DrinkingfromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
 		FoodType    		=   	NoExplicit,
 		Carbohydrates 		= 	76,
         	Proteins 		= 	10,
@@ -49,7 +62,7 @@ item HCGruelbowlsweet
 		Icon			=	BowlFull,
 		ReplaceOnUse		=	Bowl,
 		DaysFresh		=	1,
-		CustomEatSound 		= 	PZ_DrinkingfromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
 		FoodType    		=   	NoExplicit,
 		Carbohydrates 		= 	126,
         	Proteins 		= 	10,
@@ -148,6 +161,32 @@ item HCAcornsoaked
         Calories 		= 	67,
      }
 
+
+
+
+    item HCWholegrainbread
+    {
+        Type				=			Food,
+        DisplayName			=		    Whole Grain Bread,
+        Icon				=			Dough,
+        Weight				=			0.3,
+        HungerChange 		=		-25,
+        UnhappyChange	    =	    5,
+        ThirstChange		=		15,
+        BoredomChange		=		15,
+        RemoveNegativeEffectOnCooked    =   TRUE,
+        IsCookable	=	TRUE,
+        DaysTotallyRotten	=	12,
+        MinutesToBurn	=	50,
+        MinutesToCook	=	20,
+        Carbohydrates = 99,
+        Proteins = 17.7,
+        Lipids = 6.66,
+        Calories = 532,
+        DaysFresh	=	6,
+    }
+
+
 item HCPumpkinbreaddough
 	{
 	Type				=	Food,
@@ -177,7 +216,7 @@ item HCPumpkinbreaddough
 		MinutesToCook		=	30,
 		MinutesToBurn		=	60,
 		DisplayName			=	Pumpkin Bread,
-		Icon				=	HCPumpkinbreadbaked,
+		Icon				=	HCPumpkinbreadBaked,
 		DaysTotallyRotten	=	15,
 		DaysFresh 			= 	10,
 		FoodType    		=   NoExplicit,
@@ -647,8 +686,8 @@ recipe Open Bag of Burger Buns
 
 recipe Slice Bread
     {
-        	keep HCBreadknife/KitchenKnife/ButterKnife/HuntingKnife/HCSteakknife/HCKnifestone/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper,
-        	Bread,
+        	keep Base.BreadKnife/KitchenKnife/ButterKnife/HuntingKnife/HCSteakknife/HCKnifestone/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper,
+        	Bread/HCWholegrainbread,
         	Result:BreadSlices=3,
         	Sound:PZ_SliceBread,
         	Time:40.0,
@@ -751,8 +790,8 @@ recipe Dry Yeast
     {
     SkillRequired:Cooking=5,
     HCSourdoughstarter,
-    keep HCHerbtable/HCHerbtable2,
-    CanBeDonefromFloor:true,
+    keep HCHerbtable2,
+    CanBeDoneFromFloor:true,
     Result:Yeast,
     NeedToBeLearn:true,
     Time:1000,
@@ -764,9 +803,9 @@ recipe Grind Acorn Flour
      {
        	SkillRequired:Cooking=5,
        	HCAcornsoaked=24,
-	HCFlourempty,
-       	keep MortarPestle/HCMortarandpestle,
-    	CanBeDonefromFloor:true,
+		HCFlourempty,
+       	keep HCGrindstone2,
+    	CanBeDoneFromFloor:true,
        	Result:Flour, 
        	Time:2000,
        	Category:Cooking,
@@ -777,8 +816,8 @@ recipe Grind Corn Flour
      {
        	SkillRequired:Cooking=5,
        	HCCornseeds=20,
-       	keep MortarPestle/HCMortarandpestle,
-    	CanBeDonefromFloor:true,
+       	keep HCGrindstone2,
+    	CanBeDoneFromFloor:true,
        	Result:Cornflour, 
        	Time:2000,
        	Category:Cooking,
@@ -789,8 +828,8 @@ recipe Grind Corn Flour
      {
        	SkillRequired:Cooking=5,
        	HCCornredseeds=20,
-       	keep MortarPestle/HCMortarandpestle,
-    	CanBeDonefromFloor:true,
+       	keep HCGrindstone2,
+    	CanBeDoneFromFloor:true,
        	Result:Cornflour, 
        	Time:2000,
        	Category:Cooking,
@@ -801,8 +840,8 @@ recipe Grind Corn Flour
      {
        	SkillRequired:Cooking=5,
        	HCCornblueseeds=20,
-       	keep MortarPestle/HCMortarandpestle,
-    	CanBeDonefromFloor:true,
+       	keep HCGrindstone2,
+    	CanBeDoneFromFloor:true,
        	Result:Cornflour, 
        	Time:2000,
        	Category:Cooking,
@@ -813,8 +852,8 @@ recipe Grind Corn Flour
      {
        	SkillRequired:Cooking=5,
        	HCCornwhiteseeds=20,
-       	keep MortarPestle/HCMortarandpestle,
-    	CanBeDonefromFloor:true,
+       	keep HCGrindstone2,
+    	CanBeDoneFromFloor:true,
        	Result:Cornflour, 
        	Time:2000,
        	Category:Cooking,
@@ -824,25 +863,39 @@ recipe Grind Corn Flour
 recipe Grind Rice Flour
     {
        	SkillRequired:Cooking=5,
-       	Rice=2,
-	HCFlourempty,
-       	keep MortarPestle/HCMortarandpestle,
-    	CanBeDonefromFloor:true,
+       	Rice=30,
+		HCFlourempty,
+       	keep HCGrindstone2,
+    	CanBeDoneFromFloor:true,
        	Result:HCRiceflour, 
-       	Time:2000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
     }
 
+recipe Grind Wholemeal flour
+    {
+       	SkillRequired:Cooking=4,
+       	HCWheat=20,
+		HCFlourempty,
+       	keep HCGrindstone2,
+    	CanBeDoneFromFloor:true,
+       	Result:HCWholemealflour, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+
 recipe Grind Rice Flour
     {
        	SkillRequired:Cooking=5,
-       	HCRicebrown=2,
-	HCFlourempty,
-       	keep MortarPestle/HCMortarandpestle,
-    	CanBeDonefromFloor:true,
+       	HCRicebrown=5,
+		HCFlourempty,
+       	keep HCGrindstone2,
+    	CanBeDoneFromFloor:true,
        	Result:HCRiceflour, 
-       	Time:2000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
     }
@@ -851,11 +904,11 @@ recipe Grind Acorn Flour
      {
        	SkillRequired:Cooking=5,
        	HCAcornsoaked=24,
-	HCFlourempty,
-       	keep HCGrindstone/HCGrindstone2,
-    	CanBeDonefromFloor:true,
+		HCFlourempty,
+       	keep HCGrindstone2,
+    	CanBeDoneFromFloor:true,
        	Result:Flour, 
-       	Time:1000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
      }	
@@ -864,10 +917,10 @@ recipe Grind Corn Flour
      {
        	SkillRequired:Cooking=5,
        	Corn=5,
-       	keep HCGrindstone/HCGrindstone2,
-    	CanBeDonefromFloor:true,
+       	keep HCGrindstone2,
+    	CanBeDoneFromFloor:true,
        	Result:Cornflour, 
-       	Time:1000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
      }
@@ -876,10 +929,10 @@ recipe Grind Corn Flour
      {
        	SkillRequired:Cooking=5,
        	HCCornred=5,
-       	keep HCGrindstone/HCGrindstone2,
-    	CanBeDonefromFloor:true,
+       	keep HCGrindstone2,
+    	CanBeDoneFromFloor:true,
        	Result:Cornflour, 
-       	Time:1000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
      }
@@ -888,10 +941,10 @@ recipe Grind Corn Flour
      {
        	SkillRequired:Cooking=5,
        	HCCornblue=5,
-       	keep HCGrindstone/HCGrindstone2,
-    	CanBeDonefromFloor:true,
+       	keep HCGrindstone2,
+    	CanBeDoneFromFloor:true,
        	Result:Cornflour, 
-       	Time:1000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
      }
@@ -900,10 +953,10 @@ recipe Grind Corn Flour
      {
        	SkillRequired:Cooking=5,
        	HCCornwhite=5,
-       	keep HCGrindstone/HCGrindstone2,
-    	CanBeDonefromFloor:true,
+       	keep HCGrindstone2,
+    	CanBeDoneFromFloor:true,
        	Result:Cornflour, 
-       	Time:1000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
      }
@@ -912,11 +965,11 @@ recipe Grind Rice Flour
     {
        	SkillRequired:Cooking=5,
        	Rice=2,
-	HCFlourempty,
-       	keep HCGrindstone/HCGrindstone2,
-    	CanBeDonefromFloor:true,
+		HCFlourempty,
+       	keep HCGrindstone2,
+    	CanBeDoneFromFloor:true,
        	Result:HCRiceflour, 
-       	Time:1000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
     }
@@ -925,11 +978,11 @@ recipe Grind Rice Flour
     {
        	SkillRequired:Cooking=5,
        	HCRicebrown=2,
-	HCFlourempty,
-       	keep HCGrindstone/HCGrindstone2,
-    	CanBeDonefromFloor:true,
+		HCFlourempty,
+       	keep HCGrindstone2,
+    	CanBeDoneFromFloor:true,
        	Result:HCRiceflour, 
-       	Time:1000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
     }
@@ -938,12 +991,12 @@ recipe Grind Acorn Flour
      {
        	SkillRequired:Cooking=5,
        	HCAcornsoaked=24,
-	HCFlourempty=2,
+		HCFlourempty=2,
     	keep HCMacerator,
     	PetrolCan,
-    	CanBeDonefromFloor:true,
+    	CanBeDoneFromFloor:true,
        	Result:Flour=2, 
-       	Time:1000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
      }	
@@ -954,9 +1007,9 @@ recipe Grind Corn Flour
        	Corn=5,
     	keep HCMacerator,
     	PetrolCan,
-    	CanBeDonefromFloor:true,
+    	CanBeDoneFromFloor:true,
        	Result:Cornflour=2, 
-       	Time:1000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
      }
@@ -967,9 +1020,9 @@ recipe Grind Corn Flour
        	HCCornred=5,
     	keep HCMacerator,
     	PetrolCan,
-    	CanBeDonefromFloor:true,
+    	CanBeDoneFromFloor:true,
        	Result:Cornflour=2, 
-       	Time:1000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
      }
@@ -980,9 +1033,9 @@ recipe Grind Corn Flour
        	HCCornblue=5,
     	keep HCMacerator,
     	PetrolCan,
-    	CanBeDonefromFloor:true,
+    	CanBeDoneFromFloor:true,
        	Result:Cornflour=2, 
-       	Time:1000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
      }
@@ -993,9 +1046,9 @@ recipe Grind Corn Flour
        	HCCornwhite=5,
     	keep HCMacerator,
     	PetrolCan,
-    	CanBeDonefromFloor:true,
+    	CanBeDoneFromFloor:true,
        	Result:Cornflour=2, 
-       	Time:1000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
      }
@@ -1004,12 +1057,12 @@ recipe Grind Rice Flour
     {
        	SkillRequired:Cooking=5,
        	Rice=2,
-	HCFlourempty=2,
+		HCFlourempty=2,
     	keep HCMacerator,
     	PetrolCan,
-    	CanBeDonefromFloor:true,
+    	CanBeDoneFromFloor:true,
        	Result:HCRiceflour=2, 
-       	Time:1000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
     }
@@ -1018,12 +1071,12 @@ recipe Grind Rice Flour
     {
        	SkillRequired:Cooking=5,
        	HCRicebrown=2,
-	HCFlourempty=2,
+		HCFlourempty=2,
     	keep HCMacerator,
     	PetrolCan,
-    	CanBeDonefromFloor:true,
+    	CanBeDoneFromFloor:true,
        	Result:HCRiceflour=2, 
-       	Time:1000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
     }
@@ -1032,11 +1085,11 @@ recipe Grind Rice with Chaff
     {
        	SkillRequired:Cooking=5,
        	HCChaffrice=2,
-	HCRiceempty,
-       	keep HCGrindstone/HCGrindstone2,
-    	CanBeDonefromFloor:true,
+		HCRiceempty,
+       	keep HCGrindstone2,
+    	CanBeDoneFromFloor:true,
        	Result:HCRicebrown, 
-       	Time:1000,
+       	Time:600,
     	OnCreate:recipe_hcchaff,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
@@ -1046,13 +1099,13 @@ recipe Grind Rice with Chaff
     {
        	SkillRequired:Cooking=5,
        	HCChaffrice=2,
-	HCRiceempty=2,
+		HCRiceempty=2,
     	keep HCMacerator,
     	PetrolCan,
-    	CanBeDonefromFloor:true,
+    	CanBeDoneFromFloor:true,
        	Result:HCRicebrown=2,
     	OnCreate:recipe_hcchaff2, 
-       	Time:1000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
     }
@@ -1061,24 +1114,42 @@ recipe Grind Rice with Chaff
     {
        	SkillRequired:Cooking=5,
        	HCChaffrice=2,
-	HCRiceempty=2,
+		HCRiceempty=2,
     	keep HCMacerator,
     	PetrolCan,
-    	CanBeDonefromFloor:true,
+    	CanBeDoneFromFloor:true,
        	Result:Rice=2,
     	OnCreate:recipe_hcchaffbran, 
-       	Time:1000,
+       	Time:600,
        	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,
     }
 
+
+recipe Make Whole Wheat Dough
+    {
+       keep RollingPin,
+       Water=1,
+       HCWholemealflour=1,
+       Salt;1,
+       Yeast,
+       Result:HCWholegrainbread,
+       NeedToBeLearn:true,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Give10CookingXP,
+    }
+
+
+
+
 recipe Make Pumpkin Bread Dough
     {
-	SkillRequired:Cooking=5,
+		SkillRequired:Cooking=5,
        	Water=1,
         Flour/HCRiceflour,
-	HCPumpkinflesh,
-	Egg/WildEggs/HCGooseegg/HCTurkeyegg/HCSparrowegg,
+		HCPumpkinflesh,
+		Egg/WildEggs/HCGooseegg/HCTurkeyegg/HCSparrowegg,
        	Salt;1,
        	Sugar,
        	Yeast,
@@ -1139,7 +1210,7 @@ recipe Make Pot of Grits
 		Result:HCGritspot,
 		Time:75.0,
 		Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+       	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 	recipe Fill Grits into Bowls
@@ -1164,7 +1235,7 @@ recipe Make Pot of Cheesy Grits
 		Result:HCGritscheesypot,
 		Time:75.0,
 		Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+       	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 	recipe Fill Cheesy Grits into Bowls
@@ -1180,15 +1251,15 @@ recipe Make Pot of Cheesy Grits
 
 recipe Make Flatbread
 	{
-       		SkillRequired:Cooking=2,
-       		Flour/HCRiceflour,
+       	SkillRequired:Cooking=2,
+       	Flour/HCRiceflour,
 		Water,
 		keep Pan,
 		Result:HCFlatbread,
-    		NeedToBeLearn:true,
+    	NeedToBeLearn:true,
 		Time:75.0,
 	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+       	OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
 	recipe Remove Homemade Pancake from Pan

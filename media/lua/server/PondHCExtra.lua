@@ -153,12 +153,10 @@ player:getStats():setFatigue(player:getStats():getFatigue()+0.05)
         end
 		player:getXp():AddXP(Perks.Fishing, 10);		
     elseif chance <= pondLvl0+pondLvl1+pondLvl2+pondLvl3+pondLvl4+pondLvl5+pondLvl6+pondLvl7+pondLvl8+pondLvl9+pondLvl10 then
-        secondChance = ZombRand(3);
+        secondChance = ZombRand(2);
         if secondChance == 0 then
             player:getInventory():AddItem("Hydrocraft.HCReeds");
         elseif secondChance == 1 then
-            player:getInventory():AddItem("Hydrocraft.HCCattail");
-        elseif secondChance == 2 then
             player:getInventory():AddItem("Hydrocraft.HCDuckweed");			
         end
 		player:getXp():AddXP(Perks.Fishing, 10);		

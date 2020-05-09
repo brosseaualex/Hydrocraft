@@ -19,7 +19,7 @@ item HCJunkyardsmallempty
     {
         Weight    			= 10,
         Type    			= Normal,
-        ResizeWorldIcon 	        = 1.0,
+        
         DisplayName         		= Small Empty Junkyard,
         icon 				= HCJunkyardsmallempty,
     }
@@ -28,7 +28,7 @@ item HCJunkyardsmallfull
     {
         Weight    			= 15,
         Type    			= Normal,
-        ResizeWorldIcon 	        = 1.0,
+        
         DisplayName         		= Small Full Junkyard,
         icon 				= HCJunkyardsmallfull,
     }
@@ -37,7 +37,7 @@ item HCJunkyardmediumempty
     {
         Weight    			= 15,
         Type    			= Normal,
-        ResizeWorldIcon 	        = 1.0,
+        
         DisplayName         		= Medium Empty Junkyard,
         icon 				= HCJunkyardmediumempty,
     }
@@ -46,7 +46,7 @@ item HCJunkyardmediumfull
     {
         Weight    			= 20,
         Type    			= Normal,
-        ResizeWorldIcon 	        = 1.0,
+        
         DisplayName         		= Medium Full Junkyard,
         icon 				= HCJunkyardmediumfull,
     }
@@ -56,20 +56,27 @@ item HCJunkyardlargeempty
         Weight    			= 15,
 	LightStrength	                = 0.8,
         Type    			= Normal,
-        ResizeWorldIcon 	        = 1.0,
+        
         DisplayName         		= Large Empty Junkyard,
         icon 				= HCJunkyardlargeempty,
     }
 
 item HCJunkyardlargefull
     {
-	WeightReduction         	= 0,
-        Weight    			= 30,
-	Type                		= Container,
-	Capacity             		= 500,
-        ResizeWorldIcon 	        = 1.0,
-        DisplayName         		= Large Full Junkyard,
-        icon 				= HCJunkyardlargefull,
+	Type             = Normal,
+  Weight           = 30,
+  DisplayName      = Large Full Junkyard,
+  icon 			  	   = HCJunkyardlargefull,
+    }
+
+item HCJunkyardlargefull2
+    {
+  WeightReduction  = 0,
+  Weight           = 10000,
+  Type             = Container,
+  Capacity         = 500,
+  DisplayName      = Large Full Junkyard,
+  icon             = HCJunkyardlargefull,
     }
 
 item HCMagnetgiant
@@ -78,7 +85,6 @@ item HCMagnetgiant
         Type    			= Normal,
         DisplayName         		= Giant Magnet,
         icon 				= HCMagnetgiant,
-        ResizeWorldIcon 	        = 2.0,
     }
 
 item HCSled
@@ -125,7 +131,7 @@ item HCTrashsmall
 	Type				=	Normal,
 	DisplayName			=	Small Bag with Trash,
 	Icon				=	HCTrashsmall,
-        ResizeWorldIcon 	        = 	1.0,
+        
 	}
 
 item HCTrashmedium
@@ -134,7 +140,7 @@ item HCTrashmedium
 	Type				=	Normal,
 	DisplayName			=	Medium Box With Trash,
 	Icon				=	HCTrashmedium,
-        ResizeWorldIcon 	        = 	1.0,
+        
 	}
 
 item HCTrashlarge
@@ -143,7 +149,7 @@ item HCTrashlarge
 	Type				=	Normal,
 	DisplayName			=	Large Box With Trash,
 	Icon				=	HCTrashlarge,
-        ResizeWorldIcon 	        = 	1.0,
+        
 	}
 
 item HCJunkmicro
@@ -152,7 +158,7 @@ item HCJunkmicro
         Type    			=       Normal,
         DisplayName         		=       Broken Microwave,
         icon 				=       HCJunkmicro,
-        ResizeWorldIcon 	        = 	2.0,
+
         }
 
 item HCJunktv
@@ -161,7 +167,7 @@ item HCJunktv
 	Type				=	Normal,
 	DisplayName			=	Broken TV,
 	Icon				=	HCJunktv,
-        ResizeWorldIcon 	        = 	2.0,
+
 	}
 
 item HCJunkfridge
@@ -170,7 +176,7 @@ item HCJunkfridge
 	Type				=	Normal,
 	DisplayName			=	Broken Fridge,
 	Icon				=	HCJunkfridge,
-        ResizeWorldIcon 	        = 	2.0,
+
 	}
 
 item HCJunkwash
@@ -179,7 +185,7 @@ item HCJunkwash
 	Type				=	Normal,
 	DisplayName			=	Broken Washing Machine,
 	Icon				=	HCJunkwash,
-        ResizeWorldIcon 	        = 	2.0,
+
 	}
 
 item HCJunkdryer
@@ -188,7 +194,7 @@ item HCJunkdryer
 	Type				=	Normal,
 	DisplayName			=	Broken Drying Machine,
 	Icon				=	HCJunkdryer,
-        ResizeWorldIcon 	        = 	2.0,
+
 	}
 
 
@@ -198,7 +204,7 @@ item HCJunkbicycle
 	Type				=	Normal,
 	DisplayName			=	Broken Bicycle,
 	Icon				=	HCJunkbicycle,
-        ResizeWorldIcon 	        = 	2.0,
+
 	}
 
 item HCDynamo
@@ -215,7 +221,7 @@ item HCJunktredmill
 	Type				=	Normal,
 	DisplayName			=	Broken Tredmill,
 	Icon				=	HCJunktredmill,
-        ResizeWorldIcon 	        = 	2.0,
+
 	}
 
 item HCRadiator2
@@ -224,7 +230,7 @@ item HCRadiator2
         Type    			= Normal,
         DisplayName         		= Broken Radiator,
         icon 				= HCRadiator2,
-        ResizeWorldIcon 	        = 1.0,
+        
     }
 
 item HCBedsprings
@@ -233,7 +239,7 @@ item HCBedsprings
         Type    			= Normal,
         DisplayName         		= Rusty Bed Springs,
         icon 				= HCBedsprings,
-        ResizeWorldIcon 	        = 1.0,
+        
     }
 
 item HCWaterheater
@@ -242,7 +248,7 @@ item HCWaterheater
         Type    			= Normal,
         DisplayName         		= Water Heater,
         icon 				= HCWaterheater,
-        ResizeWorldIcon 	        = 1.0,
+        
     }
 
 /************************WEAPONS************************/
@@ -410,9 +416,22 @@ recipe Fill Large Junkyard
     	OnGiveXP:HCHungry_OnGiveXP,
     }
 
+
+recipe Anchor Large Junkyard
+    {
+  HCJunkyardlargefull,
+  CanBeDoneFromFloor:true,
+  Result:HCJunkyardlargefull2,
+  Time:100,
+  Category:Anchor,
+    }
+
+
+
+
 recipe Search Junk
     {
-       	keep HCJunkyardlargefull,
+       	keep HCJunkyardlargefull2,
        	HCTrashsmall,
 	keep HCWorkgloves, 
        	Result:Garbagebag,
@@ -425,7 +444,7 @@ recipe Search Junk
 
 recipe Search Junk
     {
-       	keep HCJunkyardlargefull,
+       	keep HCJunkyardlargefull2,
        	HCTrashmedium,
 	keep HCWorkgloves, 
        	Result:HCCardboardbox,
@@ -438,7 +457,7 @@ recipe Search Junk
 
 recipe Search Junk
     {
-       	keep HCJunkyardlargefull,
+       	keep HCJunkyardlargefull2,
 	HCTrashlarge,
 	keep HCWorkgloves, 
        	Result:HCCardboardbox,
@@ -451,7 +470,7 @@ recipe Search Junk
 
 recipe Search Junk with Giant Magnet
     {
-        keep HCJunkyardlargefull,
+        keep HCJunkyardlargefull2,
 	HCTrashlarge,
        	HCBatteryhuge,
        	Result:HCCardboardbox,

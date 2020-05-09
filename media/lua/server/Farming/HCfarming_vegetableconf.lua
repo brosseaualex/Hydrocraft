@@ -46,7 +46,7 @@ HCfarming_vegetableconf.growCorn = function(planting, nextGrowing, updateNbOfGro
 			badPlant(water, waterMax, diseaseLvl, planting, nextGrowing, updateNbOfGrow);
 		end
 	elseif (planting.state ~= "rotten") then -- rotten
-		basicFarming.rottenThis(planting);
+		planting.rottenThis(planting);
 	end
 	return planting;
 end
@@ -372,7 +372,7 @@ farming_vegetableconf.props["Corn"].minVeg = 4;
 farming_vegetableconf.props["Corn"].maxVeg = 9;
 farming_vegetableconf.props["Corn"].minVegAutorized = 11;
 farming_vegetableconf.props["Corn"].maxVegAutorized = 15;
-farming_vegetableconf.props["Corn"].vegetableName = "Hydrocraft.HCCornwhite";
+farming_vegetableconf.props["Corn"].vegetableName = "Base.Corn";
 farming_vegetableconf.props["Corn"].seedName = "Hydrocraft.HCCornseeds";
 farming_vegetableconf.props["Corn"].seedPerVeg = 3;
 farming_vegetableconf.props["Corn"].growCode ="HCfarming_vegetableconf.growCorn";

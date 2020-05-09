@@ -536,12 +536,12 @@ recipe Catch Bugs
     	Category:Survivalist,
     	OnCreate:HCBugCatch,
     	RemoveResultItem:true,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:HCPlantScavenging_OnGiveXP,
     }
 
 recipe Mash Bugs
     {
-        keep MortarPestle/HCMortarandpestle,
+        keep MortarPestle,
         Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBollweevil/HCLadybug/HCDragonfly/HCGardenspider/HCCaterpillar/HCBeetlegrub/HCCicada/HCRedant/HCBlackant/HCPillbug/HCTermite/HCYellowjacket/HCMolecricket/HCHousespider/HCSnail,
         Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBollweevil/HCLadybug/HCDragonfly/HCGardenspider/HCCaterpillar/HCBeetlegrub/HCCicada/HCRedant/HCBlackant/HCPillbug/HCTermite/HCYellowjacket/HCMolecricket/HCHousespider/HCSnail,
         Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBollweevil/HCLadybug/HCDragonfly/HCGardenspider/HCCaterpillar/HCBeetlegrub/HCCicada/HCRedant/HCBlackant/HCPillbug/HCTermite/HCYellowjacket/HCMolecricket/HCHousespider/HCSnail,
@@ -594,7 +594,7 @@ recipe Feed Caterpillar
     {
     HCCaterpillar,
     HCOakleaves,
-    keep HCHerbtable,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCChrysalis,
     NeedToBeLearn:true,
@@ -607,7 +607,7 @@ recipe Feed Caterpillar
     {
     HCCaterpillar2,
     HCMilkweedroot,
-    keep HCHerbtable,
+    keep HCHerbtable2,
     CanBeDoneFromFloor:true,
     Result:HCChrysalis2,
     NeedToBeLearn:true,

@@ -9,6 +9,42 @@ BoltsArrows.SArrows = {x=0, y=1, z=2};
 -- **				 Single Item Returns.					**
 -- ***********************************************************
 
+
+function fixWindshield1(items, result, player)
+	player:Say("We can make it!");
+	local inv = player:getInventory();
+	--inv:FindAndReturn("Windshield1"):setConditionMax(500);
+	inv:FindAndReturn("Windshield1"):setCondition(100);
+end
+
+
+function RenewCarDoor(items, result, player)
+local torepair=""
+for i=items:size()-1, 0, -1  do
+    print(items:get(i):getType())
+    	if string.find(items:get(i):getType(),"CarDoor") then
+    	torepair=items:get(i)
+    	end
+	end
+print ("---")
+print (torepair:getType())
+if player:getInventory():contains("HCWorkgloves") then
+	print ("es ist da.")
+end
+
+--inv:FindAndReturn("FrontCarDoor3"):setCondition(22)
+--inv:FindAndReturn("FrontCarDoor2"):setCondition(44)
+--player:Say(tostring(inv:FindAndReturn(torepair):getType()))
+
+--local anz=inv:size()
+end
+
+
+
+
+
+
+
 function rprolld6(items, result, player)
 	num = tostring(ZombRand(6)+1);
     player:Say("*Rolls* ... " .. num);
@@ -1381,6 +1417,11 @@ end
         inv:AddItem("Hydrocraft.HCBeehive3");
     end
 
+    function HCHoneycomb12(items, result, player)
+        local inv = player:getInventory();
+        HCAddManySameItem("Hydrocraft.HCHoneycomb",12,player);
+    end
+
 --Cheese Stuff
 
 function recipe_Process_RWAX(items, result, player)
@@ -1407,6 +1448,14 @@ function recipe_hcwineempty2(items, result, player)
 	local inv = player:getInventory();
 	inv:AddItem("Base.WineEmpty2");
 end
+
+
+-- Methanol
+function recipe_getMethanol(items, result, player)
+	local inv = player:getInventory();
+	HCAddManySameItem("Hydrocraft.HCMethanol",4,player);
+end
+
 
 --Seafood Stuff
 
@@ -1540,6 +1589,9 @@ function recipe_hcpotatopot3(items, result, player)
 	HCAddManySameItem("Base.Pot", 2, player);
 end 
 
+
+
+
 function recipe_hclargetuplid(items, result, player)
 	local inv = player:getInventory();
 	inv:AddItem("Hydrocraft.HCLargetuplid");
@@ -1577,18 +1629,11 @@ end
 function HCRemoveDogPack(items, result, player)
 	HCEmptyContainerOnRecipe(items, result, player);
 	HCAddManySameItem("Base.Rope", 0, player);
-	HCAddManySameItem("Base.BigHikingBag", 1, player);	
+	HCAddManySameItem("Base.Bag_SurvivorBag", 1, player);	
 	--AiweLeliaThamm Сохранение голода животного
 	--recipe_saveOldTimingState(items, result, player)
 end
 
-function HCRemoveDogPack2(items, result, player)
-	HCEmptyContainerOnRecipe(items, result, player);
-	HCAddManySameItem("Base.Rope", 0, player);
-	HCAddManySameItem("Hydrocraft.HCBighikingbagpouch", 1, player);
-	--AiweLeliaThamm Сохранение голода животного
-	--recipe_saveOldTimingState(items, result, player)
-end 
 
 function HCRemoveDonkeyPack(items, result, player)
 	HCEmptyContainerOnRecipe(items, result, player);
@@ -1949,7 +1994,7 @@ function recipe_hccutfirtree3(items, result, player)
 	HCAddManySameItem("Base.Twigs", 1, player);
 	HCAddManySameItem("Hydrocraft.HCBark", 0, player);	
 	HCAddManySameItem("Hydrocraft.HCFirbough", 4, player);
-	HCAddManySameItem("Hydrocraft.HCResin", 0, player);		
+	HCAddManySameItem("Hydrocraft.HCResin", 1, player);		
 end 
 
 function recipe_hccutfirtree4(items, result, player)
@@ -1958,7 +2003,7 @@ function recipe_hccutfirtree4(items, result, player)
 	HCAddManySameItem("Hydrocraft.HCFircone", 0, player);
 	HCAddManySameItem("Hydrocraft.HCBark", 1, player);	
 	HCAddManySameItem("Hydrocraft.HCFirbough", 9, player);
-	HCAddManySameItem("Hydrocraft.HCResin", 1, player);		
+	HCAddManySameItem("Hydrocraft.HCResin", 2, player);		
 end
 
 function recipe_hccutfirtree5(items, result, player)
@@ -1967,7 +2012,7 @@ function recipe_hccutfirtree5(items, result, player)
 	HCAddManySameItem("Hydrocraft.HCFircone", 1, player);
 	HCAddManySameItem("Hydrocraft.HCBark", 2, player);	
 	HCAddManySameItem("Hydrocraft.HCFirbough", 14, player);
-	HCAddManySameItem("Hydrocraft.HCResin", 2, player);		
+	HCAddManySameItem("Hydrocraft.HCResin", 3, player);		
 end  
 
 function recipe_hccutfirtree6(items, result, player)
@@ -1976,18 +2021,18 @@ function recipe_hccutfirtree6(items, result, player)
 	HCAddManySameItem("Hydrocraft.HCFircone", 2, player);
 	HCAddManySameItem("Hydrocraft.HCBark", 3, player);	
 	HCAddManySameItem("Hydrocraft.HCFirbough", 19, player);
-	HCAddManySameItem("Hydrocraft.HCResin", 3, player);	
+	HCAddManySameItem("Hydrocraft.HCResin", 5, player);	
 end 
 
 function recipe_hccutoaktree3(items, result, player)
-	HCAddManySameItem("Base.Log", 0, player);
+	HCAddManySameItem("Hydrocraft.HCOakLog", 0, player);
 	HCAddManySameItem("Base.Twigs", 1, player);
 	HCAddManySameItem("Hydrocraft.HCBark", 0, player);	
 	HCAddManySameItem("Hydrocraft.HCOakleaves", 4, player);	
 end 
 
 function recipe_hccutoaktree4(items, result, player)
-	HCAddManySameItem("Base.Log", 1, player);
+	HCAddManySameItem("Hydrocraft.HCOakLog", 1, player);
 	HCAddManySameItem("Base.Twigs", 3, player);
 	HCAddManySameItem("Hydrocraft.HCAcorn", 0, player);
 	HCAddManySameItem("Hydrocraft.HCBark", 1, player);	
@@ -1995,7 +2040,7 @@ function recipe_hccutoaktree4(items, result, player)
 end
 
 function recipe_hccutoaktree5(items, result, player)
-	HCAddManySameItem("Base.Log", 2, player);
+	HCAddManySameItem("Hydrocraft.HCOakLog", 2, player);
 	HCAddManySameItem("Base.Twigs", 7, player);
 	HCAddManySameItem("Hydrocraft.HCAcorn", 1, player);
 	HCAddManySameItem("Hydrocraft.HCBark", 2, player);	
@@ -2003,7 +2048,7 @@ function recipe_hccutoaktree5(items, result, player)
 end  
 
 function recipe_hccutoaktree6(items, result, player)
-	HCAddManySameItem("Base.Log", 3, player);
+	HCAddManySameItem("Hydrocraft.HCOakLog", 3, player);
 	HCAddManySameItem("Base.Twigs", 15, player);
 	HCAddManySameItem("Hydrocraft.HCAcorn", 2, player);
 	HCAddManySameItem("Hydrocraft.HCBark", 3, player);	
@@ -2757,6 +2802,33 @@ function HCEmptyContainerOnRecipe(item, resultItem, player)
 		pInv:AddItem(k3); --add items to player inventory
 	end
 end
+
+function checkinv(item, resultItem, player)
+print("-----------")
+local inv = player:getInventory()
+    for i=0, (inv:getItems():size()-1) do
+        local item = inv:getItems():get(i)
+        print (item:getFullType())
+    end
+print("-----------")
+end
+
+
+function HCLetstest(items, result, player)
+	print(tostring(items:size()))
+	print(items)
+	print(result)
+	--result:setCondition(75)
+    --for i=0, result:size()-1 do
+    	--print(result:get(i):getType())
+    	--if string.find(result:get(i):getType(),"sword") then
+        	--result:get(i):setCondition(50)
+        	--print("kuckuck")
+		---end
+    --end
+    --player:getInventory():AddItem("Hydrocraft.HCLongswordsteel"):setCondition(75);
+end
+
 
 
 -- Events.OnWeaponHitCharacter.Add(BoltsArrows.arrowBoltHit);

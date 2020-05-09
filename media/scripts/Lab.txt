@@ -552,7 +552,7 @@ item HCTeslamachine
         Weight    		= 2,
         Type    		= Normal,
         DisplayName     	= Van de Graaff Generator,
-        ResizeWorldIcon 	= 2.0,
+        
         icon 			= HCTeslamachine,
     } 
 
@@ -560,12 +560,23 @@ item HCLab
     {
 	WeightReduction         = 0,
 	Weight             	= 10,
-	Type                	= Container,
-	Capacity             	= 50,
-        DisplayName         	= Laboratory,
-        icon 			= HCLab,
-	ResizeWorldIcon 	= 2.0,
+	Type                	= Normal,
+    DisplayName         	= Laboratory,
+    icon 			= HCLab,
+	
     }
+
+item HCLab2
+    {
+        Weight              = 1000,
+        Type                = Container,
+        Capacity            = 100,
+        WeightReduction     = 0,
+        DisplayName         = Laboratory,
+        icon                = HCLab,
+    
+    }
+
 
 
 item HCLabbig
@@ -573,7 +584,7 @@ item HCLabbig
         Weight    		= 40,
         Type    		= Normal,
         DisplayName     	= Professional Lab,
-        ResizeWorldIcon 	= 2.0,
+        
         icon 			= HCLabbig,
     } 
 	
@@ -587,6 +598,18 @@ item HCLabbig
 
 
 /************************RECIPES************************/
+
+
+recipe Anchor Laboratory
+    {
+    HCLab,
+    CanBeDoneFromFloor:true,
+    Result:HCLab2,
+    Time:100,
+    Category:Anchor,
+    }
+
+
 
 recipe Box Corks
     {

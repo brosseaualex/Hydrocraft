@@ -20,7 +20,7 @@ item HCNapalmbombmk2off
     {
         Weight   		= 0.8,
         Type    		= Normal,
-        DisplayName         	= Napalm MK2 Off,
+        DisplayName         	= Napalm Bomb MK2 Off,
         icon 			= HCNapalmbombmk2off,
     }
 
@@ -28,7 +28,7 @@ item HCNapalmbombmk3off
     {
         Weight   		= 0.9,
         Type    		= Normal,
-        DisplayName         	= Napalm MK3 Off,
+        DisplayName         	= Napalm Bomb MK3 Off,
         icon 			= HCNapalmbombmk3off,
     }
 
@@ -80,7 +80,8 @@ item HCPotnapalm
 		MaxRange			=	8,
 		Type				=	Weapon,
 		MinimumSwingTime		=	1.5,
-		SwingAnim			=	Bat,
+		SwingAnim			=	Throw,
+		WeaponSprite		 = Molotov,
 		UseSelf				=	TRUE,
 		DisplayName			=	Napalm Bomb MK1,
 		SwingTime			=	1.5,
@@ -93,8 +94,9 @@ item HCPotnapalm
         	DoorDamage			=	20,
         	FirePower  			=   	70,
         	FireRange  			=   	6,
-        	ExplosionSound  		=   	bigExplosion,
+        	ExplosionSound  		=   	BigExplosion,
 		Icon				=	HCNapalmbombmk1,
+		Tooltip 			= 	Tooltip_Trap,
 	}
 
 	item HCNapalmbombmk2on  
@@ -102,7 +104,8 @@ item HCPotnapalm
         	MaxRange			=	10,
         	Type				=	Weapon,
         	MinimumSwingTime		=	1.5,
-        	SwingAnim			=	Bat,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf				=	TRUE,
         	DisplayName			=	Napalm Bomb On,
         	SwingTime			=	1.5,
@@ -117,7 +120,7 @@ item HCPotnapalm
         	DoorDamage			=	20,
         	FirePower  			=   	70,
         	FireRange  			=   	6,
-        	ExplosionSound  		=   	bigExplosion,
+        	ExplosionSound  		=   	BigExplosion,
         	Tooltip 			= 	Tooltip_Trap,
     	}
 
@@ -127,7 +130,8 @@ item HCPotnapalm
         	MaxRange			=	10,
         	Type				=	Weapon,
         	MinimumSwingTime		=	1.5,
-        	SwingAnim			=	Bat,
+        	SwingAnim			=	Throw,
+			WeaponSprite		 = Molotov,
         	UseSelf				=	TRUE,
         	DisplayName			=	Napalm Bomb MK3 On,
         	SwingTime			=	1.5,
@@ -142,8 +146,8 @@ item HCPotnapalm
         	DoorDamage			=	20,
         	FirePower  			=   	70,
         	FireRange  			=   	6,
-        	ExplosionSound  		=   	bigExplosion,
-        	Tooltip 			= 	Tooltip_Trap,
+        	ExplosionSound  		=   	BigExplosion,
+			Tooltip 			= 	Tooltip_Trap,
     	}
 
 /************************RECIPES************************/

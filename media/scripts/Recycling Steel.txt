@@ -13,13 +13,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     Fork=4,
     Charcoal,
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -34,13 +32,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     Spoon=4,
     Charcoal,
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -55,13 +51,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     Hammer,
     Charcoal,
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -76,13 +70,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     Saw,
     Charcoal,
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -97,13 +89,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     Sledgehammer,
     Charcoal,
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold=2,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=2,
     NeedToBeLearn:true,
@@ -118,13 +108,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     Screwdriver=2,
     Charcoal,
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -139,14 +127,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     Padlock=2,
     Charcoal,
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -169,7 +154,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -191,7 +176,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -213,7 +198,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -228,15 +213,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCWiresteel=5,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -251,15 +232,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     ButterKnife=3,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -274,15 +251,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     KitchenKnife=3,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -297,15 +270,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HuntingKnife=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -320,14 +289,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     PaperclipBox=3,
     Charcoal,
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -341,15 +307,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     Tweezers=10,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -364,14 +326,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCSteelrod,
     Charcoal,
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold=3,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=3,
     NeedToBeLearn:true,
@@ -386,15 +345,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     Golfclub,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -409,15 +364,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     Axe,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -432,15 +383,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     Scissors=3,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -455,15 +402,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     Corkscrew=10,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -478,15 +421,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCPliers=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -501,15 +440,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     TinOpener=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -524,15 +459,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     LugWrench,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -547,14 +478,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCJackknife=3,
     Charcoal,
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -569,15 +497,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCToolbox,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=2,
     NeedToBeLearn:true,
@@ -590,16 +514,13 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    HCRake,
+    Base.Rake,
     Charcoal,
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -614,14 +535,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCHedgetrimmer,
     Charcoal,
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -636,14 +554,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCHedgetrimmerblade,
     Charcoal,
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -658,14 +573,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCHedgecutter,
     Charcoal,
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -680,14 +592,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCHedgecutterblade=2,
     Charcoal,
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -702,15 +611,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCBottleopener=4,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -725,14 +630,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCCheesegrater=2,
     Charcoal,
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -747,15 +649,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCEggbeater=4,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -770,15 +668,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCColander,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -793,15 +687,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCIcecreamscoop=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -816,15 +706,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCLadle=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -839,15 +725,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCPizzacutter=4,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -862,15 +744,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCTablespoon=6,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -885,15 +763,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCTeaspoon=8,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -908,15 +782,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCToaster,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -931,15 +801,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCNutcracker=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -954,15 +820,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCPotatopeeler=4,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -977,15 +839,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCSteakknife=3,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -998,16 +856,13 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    HCMeatcleaver,
+    Base.MeatCleaver,
     Charcoal,
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1022,15 +877,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCHeadmirror=8,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1045,15 +896,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCBonesaw,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1066,17 +913,13 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    HCScalpel=4,
+    Base.Scalpel=4,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1091,15 +934,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCStaplesbox=3,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1114,15 +953,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCStapler=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1137,15 +972,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     LetterOpener=4,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1160,15 +991,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCAuger,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold=3,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=3,
     NeedToBeLearn:true,
@@ -1183,15 +1010,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCChildsafetyscissors=4,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1206,15 +1029,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCWrench=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1227,17 +1046,13 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    Spanner=2,
+    Wrench=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1250,17 +1065,13 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    HCMonkeywrench,
+    Base.PipeWrench,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1275,15 +1086,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCHarmonica=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1298,15 +1105,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCWirehanger=10,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1321,15 +1124,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCMakeshiftaxe,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1344,15 +1143,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCMakeshiftaxeworn,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1367,14 +1162,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCMakeshiftaxeblunt,
     Charcoal,
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1389,15 +1181,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCAxehead,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1412,15 +1200,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCAxeheadworn,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1435,15 +1219,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCAxeheadblunt,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1458,15 +1238,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCToywagon,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold=2,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=2,
     NeedToBeLearn:true,
@@ -1481,15 +1257,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCWheelbarrow,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold=4,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=4,
     NeedToBeLearn:true,
@@ -1504,15 +1276,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCMedicalbox,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1527,15 +1295,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCLunchbox,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1550,15 +1314,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCMetalbox=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1573,15 +1333,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCWhisk=4,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1596,15 +1352,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCSieve=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1619,15 +1371,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCJuicer2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1642,15 +1390,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCPotatomasher=4,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1665,15 +1409,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCSpatula=4,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1688,15 +1428,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCSurvivalaxe=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1711,15 +1447,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCHatchetsteel=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1734,15 +1466,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCBattleaxesteel,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1757,15 +1485,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCSicklesteel=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1778,16 +1502,13 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    HCMachete=2,
+    Base.Machete=2,
     Charcoal,
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1802,15 +1523,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCCombatknife=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1823,17 +1540,13 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    HCKatana,
+    Base.Katana,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1848,15 +1561,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCKnifesteel=3,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1871,14 +1580,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCDaggersteel=3,
     Charcoal,
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1893,15 +1599,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCShortswordsteel=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1916,15 +1618,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCLongswordsteel,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -1939,15 +1637,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCBastardswordsteel,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold=2,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=2,
     NeedToBeLearn:true,
@@ -1962,15 +1656,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCGreatswordsteel,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold=3,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=3,
     NeedToBeLearn:true,
@@ -1985,15 +1675,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCSmithyhammersteel=3,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2008,15 +1694,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCWarhammersteel,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2031,15 +1713,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCHalberdsteel,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2054,15 +1732,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCSteelpipe,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2077,14 +1751,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     IcePick=3,
     Charcoal,
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2099,14 +1770,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     KnittingNeedles=5,
     Charcoal,
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2121,15 +1789,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     ScrapMetal,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2144,15 +1808,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCSteelsheet,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2167,15 +1827,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCSteelsheetlarge,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=2,
     NeedToBeLearn:true,
@@ -2190,15 +1846,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCNailclipper=5,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2211,17 +1863,13 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    HCBreadknife=3,
+    Base.BreadKnife=3,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2236,15 +1884,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCFloursieve=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2259,15 +1903,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCScale,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2282,15 +1922,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCBinderclip=10,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2305,15 +1941,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCClipboard=10,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2328,15 +1960,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCStapleremover=10,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2351,15 +1979,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCThumbtack=20,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2374,15 +1998,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCShears=3,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2397,15 +2017,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCBeesmokerempty=3,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2420,15 +2036,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCSpikedmacesteel,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2443,15 +2055,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCSpikedflailsteel,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2466,15 +2074,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCSpearsteel=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2489,15 +2093,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCTridentsteel,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2512,15 +2112,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCScythesteel=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2535,15 +2131,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCAirfilter=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2558,15 +2150,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCCamshaft=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2581,15 +2169,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCClutch=2,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2604,15 +2188,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     OldCarMuffler1/OldCarMuffler2/OldCarMuffler3,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2627,15 +2207,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     NormalCarMuffler1/NormalCarMuffler2/NormalCarMuffler3,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold=2,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=2,
     NeedToBeLearn:true,
@@ -2650,15 +2226,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     ModernCarMuffler1/ModernCarMuffler2/ModernCarMuffler3,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold=3,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=3,
     NeedToBeLearn:true,
@@ -2672,15 +2244,11 @@ recipe Recycle Steel
     SkillRequired:MetalWelding=5,
     HCRadiator,
     Charcoal,
-
-
-
-
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2703,7 +2271,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2727,7 +2295,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2750,7 +2318,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2773,7 +2341,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2796,7 +2364,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2819,7 +2387,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2842,7 +2410,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2865,7 +2433,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2878,7 +2446,7 @@ recipe Recycle Steel
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
-    HCPickaxe,
+    Base.PickAxe,
     Charcoal,
 
 
@@ -2888,7 +2456,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2911,7 +2479,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2934,7 +2502,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2957,7 +2525,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -2980,7 +2548,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -3003,7 +2571,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -3026,7 +2594,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -3049,7 +2617,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -3072,7 +2640,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -3094,7 +2662,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -3115,7 +2683,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -3137,7 +2705,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -3160,7 +2728,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -3183,7 +2751,7 @@ recipe Recycle Steel
     HCIngotmold=4,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=4,
     NeedToBeLearn:true,
@@ -3206,7 +2774,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -3229,7 +2797,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -3253,7 +2821,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -3276,7 +2844,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -3299,7 +2867,7 @@ recipe Recycle Steel
     HCIngotmold=2,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=2,
     NeedToBeLearn:true,
@@ -3322,7 +2890,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -3345,7 +2913,7 @@ recipe Recycle Steel
     HCIngotmold=2,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=2,
     NeedToBeLearn:true,
@@ -3368,7 +2936,7 @@ recipe Recycle Steel
     HCIngotmold=3,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=3,
     NeedToBeLearn:true,
@@ -3391,7 +2959,7 @@ recipe Recycle Steel
     HCIngotmold=4,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=4,
     NeedToBeLearn:true,
@@ -3414,7 +2982,7 @@ recipe Recycle Steel
     HCIngotmold=8,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=8,
     NeedToBeLearn:true,
@@ -3437,7 +3005,7 @@ recipe Recycle Steel
     HCIngotmold=6,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=6,
     NeedToBeLearn:true,
@@ -3460,7 +3028,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -3483,7 +3051,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -3505,7 +3073,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot,
     NeedToBeLearn:true,
@@ -3524,7 +3092,7 @@ recipe Recycle Steel
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,                         
-    keep HCBlastfurnace/HCBlastfurnace2,
+    keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCSteelingot=2,
     NeedToBeLearn:true,

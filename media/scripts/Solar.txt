@@ -15,7 +15,7 @@ item HCSolarpanel
         Type    		        = Normal,
 	DisplayName			= Solar Panel,
 	Icon				= HCSolarpanel,
-	ResizeWorldIcon 		= 1.0,
+	
     }
 
 item HCSelfmadesolarpanel
@@ -24,7 +24,7 @@ item HCSelfmadesolarpanel
         Type    		        = Normal,
 	DisplayName			= Homemade Solar Panel,
 	Icon				= HCSelfmadesolarpanel,
-	ResizeWorldIcon 		= 2.0,
+	
     }
 
 item HCBatteryarray
@@ -33,7 +33,7 @@ item HCBatteryarray
         Type    		        = Normal,
 	DisplayName			= Battery Array,
 	Icon				= HCBatteryarray,
-	ResizeWorldIcon 		= 1.0,
+	
     }
 
 item HCSolarpark
@@ -42,7 +42,7 @@ item HCSolarpark
         Type    		        = Normal,
 	DisplayName			= Solar Park,
 	Icon				= HCSolarpark,
-	ResizeWorldIcon 		= 1.0,
+	
     }
 
 item HCSolarparkcharged
@@ -53,7 +53,7 @@ item HCSolarparkcharged
 	ReplaceOnDeplete		= HCSolarpark,
 	DisplayName			= Charged Solar Park,
 	Icon				= HCSolarparkcharged,
-	ResizeWorldIcon 		= 1.0,
+	
     }
 
 item HCSolargen
@@ -62,7 +62,7 @@ item HCSolargen
         Type    		        = Normal,
 	DisplayName			= Solar Generator,
 	Icon				= HCSolargen,
-	ResizeWorldIcon 		= 1.0,
+	
     }
 
 item HCSolargen2
@@ -71,7 +71,7 @@ item HCSolargen2
         Type    		        = Normal,
 	DisplayName			= Solar Generator (Plugged In),
 	Icon				= HCSolargen2,
-	ResizeWorldIcon 		= 1.0,
+	
     }
 
 /************************RECIPES************************/
@@ -86,7 +86,7 @@ recipe Build Battery Array
     	keep WeldingMask,
     	keep HCWorkgloves,
     	HCWeldingset,
-	keep HCElectornicsbench,
+	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,
     	Result:HCBatteryarray,
     	Time:1250,
@@ -105,7 +105,7 @@ recipe Build Solar Panel
     	HCWoodsheet,
     	HCSoldergunpowered,
     	HCSolder,
-	keep HCElectornicsbench,
+	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,
     	Result:HCSolarpanel,
     	Time:1000,
@@ -130,7 +130,7 @@ recipe Build Solar Park
     	HCPowercord,
     	HCSoldergunpowered,
     	HCSolder,
-	keep HCElectornicsbench,
+	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,
     	Result:HCSolarpark,
     	Time:1250,

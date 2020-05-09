@@ -14,7 +14,7 @@ item HCResearchtable
 	Type 			= Normal,
 	DisplayName 		= Primative Research Station,
 	Icon			= HCResearchtable,
-	ResizeWorldIcon 	= 2.0,
+	
 	}
 
 item HCTabletskinanimal

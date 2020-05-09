@@ -1,3 +1,10 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+    }
+
 item HCBrassscrap
     {
         Weight    		=    	0.1,
@@ -15,7 +22,7 @@ recipe Recycle Brass
     	HCIngotmold,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-    	keep HCSmelter/HCSmelter2,
+    	keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     	CanBeDoneFromFloor:true,
     	Result:HCBrassingot,
     	NeedToBeLearn:true,
@@ -34,7 +41,7 @@ recipe Recycle Brass
     	HCIngotmold,
     	keep Tongs,
     	keep HCWorkgloves/HCOvenmitts,
-    	keep HCSmelter/HCSmelter2,
+    	keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     	CanBeDoneFromFloor:true,
     	Result:HCBrassingot,
     	NeedToBeLearn:true,
@@ -43,3 +50,5 @@ recipe Recycle Brass
     	OnCreate:SmeltUse,
     	OnGiveXP:HCWelding_OnGiveXP,
     }
+	
+}

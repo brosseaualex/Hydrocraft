@@ -220,7 +220,7 @@ recipe Shoot Yourself in the Leg
 recipe Kill Yourself
     {
 	HCSuicidenote,
-    	keep HCDaggersteel/HCDaggeriron/HCDaggercopper/HCDaggerbronze/HCBoneshiv/KitchenKnife/HuntingKnife/HCKnifestone/HCKnifesteel/HCSteakknife/HCPumpkinknife/HCJackknife/HCKnifeiron/HCKnifecopper/HCCombatknife/HCKnifebronze/HCBreadknife/HCMeatcleaver/HCKatana,
+    	keep HCDaggersteel/HCDaggeriron/HCDaggercopper/HCDaggerbronze/HCBoneshiv/KitchenKnife/HuntingKnife/HCKnifestone/HCKnifesteel/HCSteakknife/HCPumpkinknife/HCJackknife/HCKnifeiron/HCKnifecopper/HCCombatknife/HCKnifebronze/Base.BreadKnife/Base.MeatCleaver/Base.Katana,
 	Result:HCSuicidenote,
     	NeedToBeLearn:true,
 	OnCreate:HCKill,
@@ -232,7 +232,7 @@ recipe Kill Yourself
 recipe Stab Yourself
     {
 	HCSuicidenote,
-    	keep HCDaggersteel/HCDaggeriron/HCDaggercopper/HCDaggerbronze/HCBoneshiv/KitchenKnife/HuntingKnife/HCKnifestone/HCKnifesteel/HCSteakknife/HCPumpkinknife/HCJackknife/HCKnifeiron/HCKnifecopper/HCCombatknife/HCKnifebronze/HCBreadknife/HCMeatcleaver/HCKatana,
+    	keep HCDaggersteel/HCDaggeriron/HCDaggercopper/HCDaggerbronze/HCBoneshiv/KitchenKnife/HuntingKnife/HCKnifestone/HCKnifesteel/HCSteakknife/HCPumpkinknife/HCJackknife/HCKnifeiron/HCKnifecopper/HCCombatknife/HCKnifebronze/Base.BreadKnife/Base.MeatCleaver/Base.Katana,
 	Result:HCSuicidenote,
     	NeedToBeLearn:true,
 	OnCreate:HCStab,
@@ -244,7 +244,7 @@ recipe Stab Yourself
 recipe Slit Your Wrist
     {
 	HCSuicidenote,
-    	keep HCDaggersteel/HCDaggeriron/HCDaggercopper/HCDaggerbronze/HCBoxcutter/KitchenKnife/HuntingKnife/HCKnifestone/HCKnifesteel/HCSteakknife/HCPumpkinknife/HCJackknife/HCKnifeiron/HCKnifecopper/HCCombatknife/HCKnifebronze/HCBreadknife/HCMeatcleaver/HCKatana,
+    	keep HCDaggersteel/HCDaggeriron/HCDaggercopper/HCDaggerbronze/HCBoxcutter/KitchenKnife/HuntingKnife/HCKnifestone/HCKnifesteel/HCSteakknife/HCPumpkinknife/HCJackknife/HCKnifeiron/HCKnifecopper/HCCombatknife/HCKnifebronze/Base.BreadKnife/Base.MeatCleaver/Base.Katana,
 	Result:HCSuicidenote,
     	NeedToBeLearn:true,
 	CanBeDoneFromFloor:true,

@@ -15,7 +15,7 @@ item HCTradingcone
         Type    		= Normal,
         DisplayName         	= Trading Post Cone,
         icon 			= HCPropcone,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCTradingpost
@@ -24,7 +24,7 @@ item HCTradingpost
         Type    		= Normal,
         DisplayName         	= Trading Post,
         icon 			= HCTradingpost,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 
@@ -439,7 +439,7 @@ recipe Buy School Bag
     	HC20dollarbill,
 	keep HCTradingpost,
     	CanBeDoneFromFloor:true,
-    	Result:Schoolbag,
+    	Result:Base.Schoolbag,
     	Time:15,
     	Category:Trade,
     }

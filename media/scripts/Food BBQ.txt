@@ -301,8 +301,7 @@ item HCFriedfroglegs
 	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
 	}
 
-item HCShish
-
+item HCShishkebab
 	{
 	HungerChange			=	-20,
 	BoredomChange			=	-10,
@@ -455,7 +454,7 @@ recipe Barbecue Mushrooms
 
 recipe Make Mushrooms on a Stick
 	{
-		WoodenLance/HCChopsticks,
+		HCChopsticks,
 		HCBunchofshrooms,
 		Result:HCShroomstick,
     		NeedToBeLearn:true, 

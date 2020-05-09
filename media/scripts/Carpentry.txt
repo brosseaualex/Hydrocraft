@@ -14,7 +14,7 @@ item HCLogstack1
         Type   			= Normal,
         DisplayName         	= Log Pile,
         icon 			= HCLogstack1,
-	ResizeWorldIcon 	= 0.5,
+	
     }
 
 item HCLogstack2
@@ -23,7 +23,7 @@ item HCLogstack2
         Type   			= Normal,
         DisplayName         	= Log Pile,
         icon 			= HCLogstack2,
-	ResizeWorldIcon 	= 0.5,
+	
     }
 
 item HCLogstack3
@@ -32,7 +32,7 @@ item HCLogstack3
         Type   			= Normal,
         DisplayName         	= Log Pile,
         icon 			= HCLogstack3,
-	ResizeWorldIcon 	= 0.5,
+	
     }
 
 item HCLogstack4
@@ -41,7 +41,7 @@ item HCLogstack4
         Type   			= Normal,
         DisplayName         	= Log Stack,
         icon 			= HCLogstack4,
-	ResizeWorldIcon 	= 0.5,
+	
     }
 
 item HCSawdust
@@ -106,7 +106,7 @@ item HCStampmillwheel
         Type   			= Normal,
         DisplayName         	= Stamp Mill Wheel,
         icon 			= HCStampmillwheel,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCWorkbench
@@ -117,7 +117,7 @@ item HCWorkbench
 	Capacity             	= 50,
         DisplayName         	= Workbench,
         icon 			= HCWorkbench,
-	ResizeWorldIcon 	= 1.8,
+	
     }
 
 item HCTablewood
@@ -126,7 +126,7 @@ item HCTablewood
         Type   			= Normal,
         DisplayName         	= Wood Table,
         icon 			= HCTablewood,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCCarpenterbench
@@ -137,7 +137,7 @@ item HCCarpenterbench
 	Capacity             	= 50,
         DisplayName         	= Carpenter Bench,
         icon 			= HCCarpenterbench,
-	ResizeWorldIcon 	= 1.8,
+	
     }
 
 item HCSawbuck
@@ -146,7 +146,6 @@ item HCSawbuck
         Type   			= Normal,
         DisplayName         	= Sawbuck,
         icon 			= HCSawbuck,
-	ResizeWorldIcon 	= 0.8
     }
 
 item HCPlankbarrier
@@ -155,7 +154,7 @@ item HCPlankbarrier
         Type   			= Normal,
         DisplayName         	= Plank Barrier,
         icon 			= HCPlankbarrier,
-	ResizeWorldIcon 	= 2.0
+	
     }
 
 item HCChurn
@@ -164,7 +163,7 @@ item HCChurn
         Type    		= Normal,
         DisplayName         	= Churn,
         icon 			= HCChurn,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCWoodenbarrel
@@ -173,7 +172,7 @@ item HCWoodenbarrel
         Type    		= Normal,
         DisplayName         	= Wooden Barrel,
         icon 			= HCWinebarrel,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCVat
@@ -184,7 +183,7 @@ item HCVat
         DisplayName         	= Wooden Vat,
 	ReplaceOnUseOn		= WaterSource-HCVatwater,
         icon 			= HCVat,
-	ResizeWorldIcon 	= 1.0,
+	
 	RainFactor 		= 1,
     }
 
@@ -200,7 +199,7 @@ item HCVatwater
 	ReplaceOnDeplete	=	HCVat,
 	ReplaceOnUseOn		=	WaterSource-HCVatwater,
 	Icon			=	HCVatwater,
-	ResizeWorldIcon 	= 	1.0,
+	
 	RainFactor 		= 	1,
     }
 
@@ -212,7 +211,7 @@ item HCWoodenbucket
         DisplayName         	= Wooden Bucket,
 	ReplaceOnUseOn		= WaterSource-HCWoodenbucketwater,
         icon 			= HCWoodenbucket,
-	ResizeWorldIcon 	= 2.0,
+	
 	RainFactor 		= 1,
     }
 
@@ -235,7 +234,7 @@ item HCWoodenbucketwater
 	ReplaceOnDeplete	=	HCWoodenbucket,
 	ReplaceOnUseOn		=	WaterSource-HCWoodenbucketwater,
 	Icon			=	HCWoodenbucketwater,
-	ResizeWorldIcon 	= 	2.0,
+	
 	RainFactor 		= 	1,
     }
 
@@ -247,7 +246,7 @@ item HCWashtub
         DisplayName         	= Wooden Washtub,
 	ReplaceOnUseOn		= WaterSource-HCWashtubfull,
         icon 			= HCWashtub,
-	ResizeWorldIcon 	= 2.0,
+	
 	RainFactor 		= 1,
     }
 
@@ -262,7 +261,7 @@ item HCWashtubfull
 	ReplaceOnDeplete	=	HCWashtub,
 	ReplaceOnUseOn		=	WaterSource-HCWashtubfull,
 	Icon			=	HCWashtubfull,
-	ResizeWorldIcon 	= 	2.0,
+	
 	RainFactor 		= 	1,
     }
 
@@ -274,7 +273,7 @@ item HCTrough
         DisplayName         	= Wooden Trough,
 	ReplaceOnUseOn		= WaterSource-HCTroughfull,
         icon 			= HCTrough,
-	ResizeWorldIcon 	= 1.0,
+	
 	RainFactor 		= 1,
     }
 
@@ -290,7 +289,7 @@ item HCTroughfull
 	ReplaceOnDeplete	=	HCTrough,
 	ReplaceOnUseOn		=	WaterSource-HCTroughfull,
 	Icon			=	HCTroughfull,
-	ResizeWorldIcon 	= 	1.0,
+	
 	RainFactor 		= 	1,
     }
 
@@ -300,7 +299,7 @@ item HCTroughvegoil
         Type    		= 	Normal,
 	DisplayName		=	Wooden Trough with Vegetable Oil,
 	Icon			=	HCTroughvegoil,
-	ResizeWorldIcon 	= 	1.0,
+	
     }
 
 item HCLumberstack
@@ -309,7 +308,7 @@ item HCLumberstack
         Type   			= Normal,
         DisplayName         	= Lumber Stack,
         icon 			= HCLumberstack,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCLumberbox
@@ -318,7 +317,7 @@ item HCLumberbox
         Type   			= Normal,
         DisplayName         	= Pallet of Lumber,
         icon 			= HCLumberbox,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCWoodenpallet
@@ -327,7 +326,7 @@ item HCWoodenpallet
         Type   			= Normal,
         DisplayName         	= Wooden Pallet,
         icon 			= HCWoodenpallet,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCLogbox
@@ -336,7 +335,7 @@ item HCLogbox
         Type   			= Normal,
         DisplayName         	= Pallet of Logs,
         icon 			= HCLogbox,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCWoodwheel
@@ -355,7 +354,7 @@ item HCWoodenwheelbarrow
 	Capacity             	= 200,
 	DisplayName             = Wooden Wheelbarrow,
 	Icon			= HCWoodenwheelbarrow,
-	ResizeWorldIcon 	= 2.0,
+	
 	RequiresEquippedBothHands = true,
     }
 
@@ -373,7 +372,7 @@ item HCCoffin
         Type    		= Normal,
         DisplayName         	= Empty Coffin,
         icon 			= HCCoffin,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCCoffinfull
@@ -382,7 +381,7 @@ item HCCoffinfull
         Type    		= Normal,
         DisplayName         	= Full Coffin,
         icon 			= HCCoffin,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCWoodenladder
@@ -391,7 +390,7 @@ item HCWoodenladder
         Type   			= Normal,
         DisplayName         	= Wooden Ladder,
         icon 			= HCWoodenladder,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCSpinningwheel
@@ -400,7 +399,7 @@ item HCSpinningwheel
         Type    		= Normal,
         DisplayName         	= Spinning Wheel,
         icon 			= HCSpinningwheel,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCLoom
@@ -409,7 +408,7 @@ item HCLoom
         Type    		= Normal,
         DisplayName         	= Primitive Loom,
         icon 			= HCLoom,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCLoomfloor
@@ -418,7 +417,7 @@ item HCLoomfloor
         Type    		= Normal,
         DisplayName         	= Floor Loom,
         icon 			= HCLoomfloor,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCTablelog
@@ -427,7 +426,7 @@ item HCTablelog
 	Type 			= Normal,
 	DisplayName 		= Log Table,
 	Icon			= HCTablelog,
-	ResizeWorldIcon 	= 2.0,
+	
 	}
 
 item HCHuntingblind
@@ -438,7 +437,7 @@ item HCHuntingblind
         Capacity            	= 100,
         DisplayName         	= Hunting Blind,
         icon 			= HCHuntingblind,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCHuntingblind2
@@ -449,7 +448,7 @@ item HCHuntingblind2
         Capacity            	= 100,
         DisplayName         	= Hunting Blind,
         icon 			= HCHuntingblind,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 
@@ -459,7 +458,7 @@ item HCWindmill
         Type    		= Normal,
         DisplayName         	= Wooden Windmill,
         icon 			= HCWindmill,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCWindmillblade
@@ -468,7 +467,7 @@ item HCWindmillblade
         Type    		= Normal,
         DisplayName         	= Windmill Blade,
         icon 			= HCWindmillblade,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCWatertower
@@ -479,7 +478,7 @@ item HCWatertower
         DisplayName         	= Water Tower,
 	ReplaceOnUseOn		= WaterSource-HCWatertowerfull,
         icon 			= HCWatertower,
-	ResizeWorldIcon 	= 1.0,
+	
 	RainFactor 		= 0.01,
     }
 
@@ -496,7 +495,7 @@ item HCWatertowerfull
 	ReplaceOnDeplete	=	HCWatertower,
 	ReplaceOnUseOn		=	WaterSource-HCWatertowerfull,
 	Icon			=	HCWatertower,
-	ResizeWorldIcon 	= 	1.0,
+	
 	RainFactor 		= 	0.01,
     }
 
@@ -508,7 +507,7 @@ item HCWatertower2
         DisplayName         	= Double Water Tower,
 	ReplaceOnUseOn		= WaterSource-HCWatertowerfull2,
         icon 			= HCWatertower2,
-	ResizeWorldIcon 	= 1.0,
+	
 	RainFactor 		= 0.01,
     }
 
@@ -525,7 +524,7 @@ item HCWatertowerfull2
 	ReplaceOnDeplete	=	HCWatertower2,
 	ReplaceOnUseOn		=	WaterSource-HCWatertowerfull2,
 	Icon			=	HCWatertower2,
-	ResizeWorldIcon 	= 	1.0,
+	
 	RainFactor 		= 	0.01,
     }
 
@@ -535,7 +534,7 @@ item HCWaterpump
         Type    		= Normal,
         DisplayName         	= Water Pump,
         icon 			= HCWaterpump,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCWaterpump2
@@ -544,7 +543,7 @@ item HCWaterpump2
         Type    		= Normal,
         DisplayName         	= Water Pump,
         icon 			= HCWaterpump,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 
@@ -554,7 +553,7 @@ item HCClothesline
         Type    		= Normal,
         DisplayName         	= Clothes Line,
         icon 			= HCClothesline,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCClothesline2
@@ -563,7 +562,7 @@ item HCClothesline2
         Type    		= Normal,
         DisplayName         	= Double Clothes Line,
         icon 			= HCClothesline2,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCShower
@@ -574,7 +573,7 @@ item HCShower
         DisplayName         	= Empty Makeshift Shower,
         icon 			= HCShower,
         ReplaceOnUseOn 		= WaterSource-HCShowerfull,
-	ResizeWorldIcon 	= 1.0,
+	
 	RainFactor 		= 1,
     }
 
@@ -589,7 +588,7 @@ item HCShowerfull
 	UseDelta		= 0.25,
 	ReplaceOnDeplete	= HCShower,
         icon 			= HCShowerfull,
-	ResizeWorldIcon 	= 1.0,
+	
 	RainFactor 		= 1,
     }
 
@@ -601,7 +600,7 @@ item HCShowersink
         DisplayName         	= Empty Makeshift Shower and Sink,
         icon 			= HCShowersink,
         ReplaceOnUseOn 		= WaterSource-HCShowersinkfull,
-	ResizeWorldIcon 	= 1.0,
+	
 	RainFactor 		= 1,
     }
 
@@ -616,7 +615,7 @@ item HCShowersinkfull
 	UseDelta		= 0.125,
 	ReplaceOnDeplete	= HCShowersink,
         icon 			= HCShowersinkfull,
-	ResizeWorldIcon 	= 1.0,
+	
 	RainFactor 		= 1,
     }
 
@@ -626,7 +625,7 @@ item HCScarecrowstand
         Type    		= Normal,
         DisplayName         	= Scarecrow Stand,
         icon 			= HCScarecrowstand,
-	ResizeWorldIcon 	= 1.8,
+	
     }
 
 item HCScarecrow
@@ -635,7 +634,7 @@ item HCScarecrow
         Type    		= Normal,
         DisplayName         	= Scarecrow,
         icon 			= HCScarecrow,
-	ResizeWorldIcon 	= 1.8,
+	
     }
 
 item HCScarecrow2
@@ -644,7 +643,7 @@ item HCScarecrow2
         Type    		= Normal,
         DisplayName         	= Scarecrow,
         icon 			= HCScarecrow2,
-	ResizeWorldIcon 	= 1.8,
+	
     }
 
 item HCScarezed
@@ -653,7 +652,7 @@ item HCScarezed
         Type    		= Normal,
         DisplayName         	= Corpse Scarecrow,
         icon 			= HCScarezed,
-	ResizeWorldIcon 	= 1.8,
+	
     }
 
 item HCScarezed2
@@ -662,7 +661,7 @@ item HCScarezed2
         Type    		= Normal,
         DisplayName         	= Corpse Scarecrow,
         icon 			= HCScarezed2,
-	ResizeWorldIcon 	= 1.8,
+	
     }
 
 item HCHaytarget
@@ -671,7 +670,7 @@ item HCHaytarget
         Type    		= Normal,
         DisplayName         	= Archery Target,
         icon 			= HCHaytarget,
-	ResizeWorldIcon 	= 1.8,
+	
     }
 
 item HCBirdcall
@@ -697,7 +696,7 @@ item HCWagonwheel
         Type   			= Normal,
         DisplayName         	= Wagon Wheel,
         icon 			= HCWagonwheel,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCYoke
@@ -706,7 +705,7 @@ item HCYoke
         Type   			= Normal,
         DisplayName         	= Yoke,
         icon 			= HCYoke,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 
@@ -718,7 +717,7 @@ item HCWagon
 	Capacity             		= 	400,
 	DisplayName             	= 	Wagon,
 	Icon				= 	HCWagon,
-	ResizeWorldIcon 		= 	2.0,
+	
 	RequiresEquippedBothHands 	= 	true,
    }
 
@@ -730,7 +729,7 @@ item HCWagoncovered
 	Capacity             		= 	400,
 	DisplayName             	= 	Covered Wagon,
 	Icon				= 	HCWagoncovered,
-	ResizeWorldIcon 		= 	2.0,
+	
 	RequiresEquippedBothHands 	= 	true,
    }
 
@@ -742,7 +741,6 @@ item HCWagonoxen
 	Capacity             		= 	400,
 	DisplayName             	= 	Wagon with Oxen,
 	Icon				= 	HCWagonoxen,
-	ResizeWorldIcon 		= 	2.0,
 	RequiresEquippedBothHands 	= 	true,
    }
 
@@ -754,8 +752,6 @@ item HCWagoncoveredoxen
 	Capacity             		= 	400,
 	DisplayName             	= 	Covered Wagon with Oxen,
 	Icon				= 	HCWagoncoveredoxen,
-	ResizeWorldIcon 		= 	2.0,
-	RequiresEquippedBothHands 	= 	true,
    }
 
 item HCIBC
@@ -766,7 +762,7 @@ item HCIBC
         DisplayName         	= Empty IBC,
         icon 			= HCIBC,
         ReplaceOnUseOn 		= WaterSource-HCIBCfull,
-	ResizeWorldIcon 	= 1.0,
+	
 	RainFactor 		= 0.2,
     }
 
@@ -781,7 +777,7 @@ item HCIBCfull
 	UseDelta		= 0.0125,
 	ReplaceOnDeplete	= HCIBC,
         icon 			= HCIBC,
-	ResizeWorldIcon 	= 1.0,
+	
 	RainFactor 		= 0.2,
     }
 	
@@ -793,7 +789,7 @@ item HCIBCstorage
         DisplayName         	= Empty IBC Storage,
         icon 			= HCIBCtower,
         ReplaceOnUseOn 		= WaterSource-HCIBCstoragefull,
-	ResizeWorldIcon 	= 1.0,
+	
 	RainFactor 		= 0.2,
     }
 
@@ -808,7 +804,7 @@ item HCIBCstoragefull
 	UseDelta		= 0.0125,
 	ReplaceOnDeplete	= HCIBCstorage,
         icon 			= HCIBCtower,
-	ResizeWorldIcon 	= 1.0,
+	
 	RainFactor 		= 0.2,
     }	
 	
@@ -820,7 +816,7 @@ item HCIBCtower
         DisplayName         	= Empty IBC Tower,
         icon 			= HCIBCtower2,
         ReplaceOnUseOn 		= WaterSource-HCIBCtowerfull,
-	ResizeWorldIcon 	= 1.0,
+	
 	RainFactor 		= 0.2,
     }
 
@@ -835,7 +831,7 @@ item HCIBCtowerfull
 	UseDelta		= 0.00625,
 	ReplaceOnDeplete	= HCIBCtower,
         icon 			= HCIBCtower2,
-	ResizeWorldIcon 	= 1.0,
+	
 	RainFactor 		= 0.2,
     }
 
@@ -845,7 +841,7 @@ item HCVendingstand
         Type    		= Normal,
         DisplayName         	= Vending Stand,
         icon 			= HCVendingstand,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCVendingstand2
@@ -854,7 +850,7 @@ item HCVendingstand2
         Type    		= Normal,
         DisplayName         	= Vending Stand,
         icon 			= HCVendingstand2,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCFoldingsign
@@ -865,7 +861,7 @@ item HCFoldingsign
         	Icon		=	HCFoldingsign,
         	CanBeWrite  	=   	true,
         	PageToWrite 	=   	1,
-		ResizeWorldIcon = 	2.0,
+		
     	}
 
 item HCFoldingsignchalkboard
@@ -876,7 +872,7 @@ item HCFoldingsignchalkboard
         	Icon		=	HCFoldingsignchalkboard,
         	CanBeWrite  	=   	true,
         	PageToWrite 	=   	1,
-		ResizeWorldIcon = 	2.0,
+		
     	}
 
 item HCThresher
@@ -885,7 +881,7 @@ item HCThresher
         Type    		= Normal,
         DisplayName         	= Thresher,
         icon 			= HCThresher,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCThreshermech
@@ -894,7 +890,7 @@ item HCThreshermech
         Type    		= Normal,
         DisplayName         	= Mechanical Thresher,
         icon 			= HCThreshermech,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 /************************WEAPONS************************/
@@ -1121,8 +1117,9 @@ recipe Make Carpenter Bench
 	Nails=10,
     	WoodenStick=2,
 	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
-    	keep Hammer,
+    keep Hammer,
 	keep Saw,
+    keep HCMeasuringtape,
    	Result:HCCarpenterbench,
 	SkillRequired:Woodwork=4,
     	Sound:PZ_Hammer,
@@ -1164,7 +1161,7 @@ recipe Make Plank Barrier
 recipe Make Wood Beam
     {
 	SkillRequired:Woodwork=2,
-    	Log,
+    	Log/HCOakLog,
     	keep Saw,
 	keep HCSawbuck,
     	CanBeDoneFromFloor:true,
@@ -1179,7 +1176,7 @@ recipe Make Wood Beam
 recipe Make Wood Beam
     {
 	SkillRequired:Woodwork=2,
-    	Log,
+    	Log/HCOakLog,
     	keep HCSawlumber,
 	keep HCSawbuck,
     	CanBeDoneFromFloor:true,
@@ -1194,7 +1191,7 @@ recipe Make Wood Beam
 recipe Make Wood Sheet
     {
 	SkillRequired:Woodwork=2,
-    	Log,
+    	Log/HCOakLog,
     	keep Saw,
 	keep HCSawbuck,
     	CanBeDoneFromFloor:true,
@@ -1209,7 +1206,7 @@ recipe Make Wood Sheet
 recipe Make Wood Sheet
     {
 	SkillRequired:Woodwork=2,
-    	Log,
+    	Log/HCOakLog,
     	keep HCSawlumber,
 	keep HCSawbuck,
     	CanBeDoneFromFloor:true,
@@ -1223,7 +1220,7 @@ recipe Make Wood Sheet
 
 recipe Make Wood Block
     {
-    	Log,
+    	Log/HCOakLog,
     	keep Saw,
 	keep HCSawbuck,
     	CanBeDoneFromFloor:true,
@@ -1237,7 +1234,7 @@ recipe Make Wood Block
 
 recipe Make Wood Block
     {
-    	Log,
+    	Log/HCOakLog,
     	keep HCSawlumber,
     	CanBeDoneFromFloor:true,
     	Result:HCWoodblock=12,
@@ -1250,7 +1247,7 @@ recipe Make Wood Block
 
 recipe Make Wood Block
     {
-    	Log,
+    	Log/HCOakLog,
     	keep HCSawlumber,
 	keep HCSawbuck,
     	CanBeDoneFromFloor:true,
@@ -1264,7 +1261,7 @@ recipe Make Wood Block
 
 recipe Make Wood Planks
     {
-    	Log,
+    	Log/HCOakLog,
     	keep Saw,
 	keep HCSawbuck,
     	CanBeDoneFromFloor:true,
@@ -1278,7 +1275,7 @@ recipe Make Wood Planks
 
 recipe Make Wood Planks
     {
-    	Log,
+    	Log/HCOakLog,
     	keep HCSawlumber,
     	CanBeDoneFromFloor:true,
     	Result:Plank=4,
@@ -1291,7 +1288,7 @@ recipe Make Wood Planks
 
 recipe Make Wood Planks
     {
-    	Log,
+    	Log/HCOakLog,
     	keep HCSawlumber,
 	keep HCSawbuck,
     	CanBeDoneFromFloor:true,
@@ -1897,7 +1894,7 @@ recipe Build Water Tower
 	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
     	keep Hammer,
 	keep Saw,
-	keep HCMonkeywrench,
+	keep Base.PipeWrench,
 	keep HCPipebender,
     	CanBeDoneFromFloor:true,
    	Result:HCWatertower,
@@ -1917,7 +1914,7 @@ recipe Build Double Water Tower
 	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
     	keep Hammer,
 	keep Saw,
-	keep HCMonkeywrench,
+	keep Base.PipeWrench,
     	CanBeDoneFromFloor:true,
    	Result:HCWatertower2,
 	SkillRequired:Woodwork=10,
@@ -1936,7 +1933,7 @@ recipe Make Water Pump
 	destroy HCTrough,
 	HCWindmill,
 	HCSteelpipe=10,
-	keep HCMonkeywrench,
+	keep Base.PipeWrench,
 	keep HCPipebender,
     	CanBeDoneFromFloor:true,
    	Result:HCWaterpump,
@@ -2072,7 +2069,7 @@ recipe Attatch Scarecrow
     {
 	HCStraw=10,
 	HCStrawhat,
-	Shirt,
+	Base.Shirt,
 	Trousers,
 	Rope=3,
 	HCScarecrowstand,
@@ -2087,7 +2084,7 @@ recipe Attatch Scarecrow
     {
 	HCStraw=10,
 	HCStrawhat,
-	Shirt,
+	Base.Shirt,
 	Trousers,
 	Rope=3,
 	HCScarecrowstand,
@@ -2101,7 +2098,7 @@ recipe Attatch Scarecrow
 recipe Attatch Corpse Scarecrow
     {
 	CorpseMale/CorpseFemale,
-	Shirt,
+	Base.Shirt,
 	Trousers,
 	Rope=3,
 	HCScarecrowstand,
@@ -2115,7 +2112,7 @@ recipe Attatch Corpse Scarecrow
 recipe Attatch Corpse Scarecrow
     {
 	CorpseMale/CorpseFemale,
-	Shirt,
+	Base.Shirt,
 	Trousers,
 	Rope=3,
 	HCScarecrowstand,
@@ -2477,10 +2474,11 @@ recipe Make Folding Sign
     	Category:Carpentry,
     	OnGiveXP:HCWoodwork_OnGiveXP,
     }
-    
+
+
 recipe Make Chopsticks
     {
-    SkillRequired:Woodwork=6;Cooking=6;Mechanics=2,
+    SkillRequired:Woodwork=6;Cooking=6;Mechanics=2;,
     Plank=1,
     keep Saw,
     CanBeDoneFromFloor:true,
@@ -2491,30 +2489,27 @@ recipe Make Chopsticks
     OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
-
 recipe Make Chopsticks
     {
-    SkillRequired:Woodwork=1;Cooking=2,
-    Twigs=1,
-    keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/Base.BreadKnife/Base.MeatCleaver/HCPumpkinknife/Scissors/Base.Scalpel/SharpedStone/Base.Machete/HCCombatknife/Base.Katana/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCKnifestone,
-    CanBeDoneFromFloor:true,
-    Result:HCChopsticks=1,
+    SkillRequired:Woodwork=2;Cooking=3;,
+    TreeBranch,
+    keep Saw/HuntingKnife/KitchenKnife/SharpedStone/FlintKnife/MeatCleaver,
+    Result:HCChopsticks=3,
     Sound:PZ_Saw,
     Time:100,
     Category:Carpentry,
+    OnGiveXP:Give3WoodworkXP,
     }
 
 recipe Make Chopsticks
     {
-    SkillRequired:Woodwork=1;Cooking=2,
-    TreeBranch=1,
-    keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/Base.BreadKnife/Base.MeatCleaver/HCPumpkinknife/Scissors/Base.Scalpel/SharpedStone/Base.Machete/HCCombatknife/Base.Katana/HCKnifesteel/HCKnifeiron/HCKnifebronze/HCKnifecopper/HCDaggersteel/HCDaggeriron/HCDaggerbronze/HCDaggercopper/HCKnifestone,
-    CanBeDoneFromFloor:true,
-    Result:HCChopsticks=2,
+    Twigs,
+    keep Saw/HuntingKnife/KitchenKnife/SharpedStone/FlintKnife/MeatCleaver,
+    Result:HCChopsticks=1,
     Sound:PZ_Saw,
-    Time:100,
+    Time:30,
     Category:Carpentry,
-    }    
-   
+    OnGiveXP:Give1WoodworkXP,
+    }
 
 }

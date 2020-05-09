@@ -7,6 +7,44 @@ module Hydrocraft
 
 /************************ITEMS************************/
 
+
+	item HCFitnessdrink
+	{
+		HungerChange		=	-10,
+		Weight			=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		Type			=	Food,
+		ThirstChange		=	-30,
+		EnduranceChange		=	0,
+        FatigueChange		=	0,
+		DisplayName		=	Fitnessdrink,
+		Icon			=	HCCanteen,
+		Carbohydrates 		= 	30,
+        Proteins 		= 	40,
+        Lipids 			= 	0,
+        Calories 		= 	300,
+        Packaged 		= 	TRUE,
+        CantBeFrozen 		= 	TRUE,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	DrinkingFromBottle,
+		ReplaceOnUse		=	HCCanteen,
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	item HCEnergydrink
 	{
 		HungerChange		=	-10,
@@ -25,7 +63,7 @@ module Hydrocraft
         Packaged 		= 	TRUE,
         CantBeFrozen 		= 	TRUE,
 		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
 		ReplaceOnUse		=	Hydrocraft.HCEnergydrinktrash,
 	}
 
@@ -47,7 +85,7 @@ module Hydrocraft
         Packaged 		= 	TRUE,
         CantBeFrozen 		= 	TRUE,
 		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
 		ReplaceOnUse		= 	Hydrocraft.HCEnergydrink2trash,
 	}
 	
@@ -63,7 +101,7 @@ module Hydrocraft
 		ReplaceOnUse		=	HCGlassjug,
 		Icon			=	HCApplecider,
 		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
 		FoodType		=	NoExplicit,
        	Carbohydrates 		= 	35.4,
         Proteins 		= 	0,
@@ -376,11 +414,16 @@ module Hydrocraft
 	
 /************************RECIPES************************/
 
-	recipe Brew Black Coffee
+
+	recipe mix Fitnessdrink
 	{
-		destroy WaterMug,
-		Coffee2;6,
-		Result:HCCoffeeblack,
+		SkillRequired:Cooking=5,
+		destroy HCCanteen,
+		Base.Banana=2,
+		HCBunchofberries,
+		HCSpirulinafresh=5,
+		HCBlenderpowered=1,
+		Result:HCFitnessdrink,
 		Time:70.0,
 	   	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,	  
@@ -391,6 +434,16 @@ module Hydrocraft
 		destroy HCClaymugfull,
 		Coffee2;6,
 		Result:HCCoffeeblack2,
+		Time:70.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+
+	recipe Brew Black Coffee
+	{
+		destroy WaterMug,
+		Coffee2;6,
+		Result:HCCoffeeblack,
 		Time:70.0,
 	   	Category:Cooking,
        	OnGiveXP:HCCooking_OnGiveXP,	  

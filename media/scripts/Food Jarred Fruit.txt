@@ -484,7 +484,7 @@ recipe Make Aluminum Jar Lid
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead,
+		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:JarLid=8,
 	   	Time:150.0,

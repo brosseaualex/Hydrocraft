@@ -3,7 +3,6 @@ module Hydrocraft
     imports
     {
         Base
-
     }
 
 /************************ITEMS************************/
@@ -48,7 +47,7 @@ item HCDuckmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Duck (Male),
 	Icon				=	HCDuckmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDuckfemale
@@ -57,7 +56,7 @@ item HCDuckfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Duck (Female),
 	Icon				=	HCDuckfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDuckdead
@@ -76,7 +75,7 @@ item HCDuckdead
         Proteins 			= 	34,
         Lipids 				= 	30,
         Calories 			= 	422,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCHamstermale
@@ -169,7 +168,7 @@ item HCRabbithutch
         Type    		= Normal,
         DisplayName         	= Empty Rabbit Hutch,
         icon 			= HCRabbithutch,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCRabbithutchhungry
@@ -178,7 +177,7 @@ item HCRabbithutchhungry
         Type    		= Normal,
         DisplayName         	= Hutch with Hungry Rabbits,
         icon 			= HCRabbithutchfull,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCRabbithutchtired
@@ -187,7 +186,7 @@ item HCRabbithutchtired
         Type    		= Normal,
         DisplayName         	= Hutch with Tired Rabbits,
         icon 			= HCRabbithutchfull,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCRabbithutchfull
@@ -196,7 +195,7 @@ item HCRabbithutchfull
         Type    		= Normal,
         DisplayName         	= Hutch with Rabbits,
         icon 			= HCRabbithutchfull,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCChickenmale
@@ -205,7 +204,7 @@ item HCChickenmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Chicken (Male),
 	Icon				=	HCChickenmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCChickenfemale
@@ -214,7 +213,7 @@ item HCChickenfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Chicken (Female),
 	Icon				=	HCChickenfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCChickenmalehungry
@@ -223,7 +222,7 @@ item HCChickenmalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Chicken (Male),
 	Icon				=	HCChickenmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -233,7 +232,7 @@ item HCChickenfemalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Chicken (Female),
 	Icon				=	HCChickenfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -253,7 +252,7 @@ item HCChickendead
         Proteins 			= 	51,	
         Lipids 				= 	24.3,
         Calories 			= 	429,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCChickendead2
@@ -272,7 +271,7 @@ item HCChickendead2
         Proteins 			= 	51,
         Lipids 				= 	24.3,
         Calories 			= 	429,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCChickenmalebaby
@@ -281,7 +280,7 @@ item HCChickenmalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Chicken (Male),
 	Icon				=	HCChickenbaby,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCChickenfemalebaby
@@ -290,7 +289,7 @@ item HCChickenfemalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Chicken (Female),
 	Icon				=	HCChickenbaby,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCoop
@@ -299,7 +298,7 @@ item HCCoop
         Type    		= Normal,
         DisplayName         	= Empty Chicken Coop,
         icon 			= HCCoop,
-		ResizeWorldIcon 	= 0.8,
+		
     }
 
 item HCCoophungry
@@ -308,7 +307,7 @@ item HCCoophungry
         Type    		= Normal,
         DisplayName         	= Coop with Hungry Chickens,
         icon 			= HCCoopfull,
-		ResizeWorldIcon 	= 0.8,
+		
     }
 
 item HCCoopfull
@@ -317,7 +316,7 @@ item HCCoopfull
         Type    		= Normal,
         DisplayName         	= Coop with Chickens,
         icon 			= HCCoopfull,
-		ResizeWorldIcon 	= 0.8,
+		
     }
 
 item HCCooptired
@@ -326,7 +325,7 @@ item HCCooptired
         Type    		= Normal,
         DisplayName         	= Coop with Tired Chickens,
         icon 			= HCCoopfull,
-		ResizeWorldIcon 	= 0.8,
+		
     }
 
 item HCPigmale
@@ -335,7 +334,7 @@ item HCPigmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Pig (Male),
 	Icon				=	HCPigmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCPigfemale
@@ -344,7 +343,7 @@ item HCPigfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Pig (Female),
 	Icon				=	HCPigfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCPigmalehungry
@@ -353,7 +352,7 @@ item HCPigmalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Pig (Male),
 	Icon				=	HCPigmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -363,7 +362,7 @@ item HCPigfemalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Pig (Female),
 	Icon				=	HCPigfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -373,7 +372,7 @@ item HCPigmaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Pig (Male),
 	Icon				=	HCPigmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCPigfemaletired
@@ -382,7 +381,7 @@ item HCPigfemaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Pig (Female),
 	Icon				=	HCPigfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCPigdead
@@ -400,7 +399,7 @@ item HCPigdead
         Proteins 			= 	840,
         Lipids 				= 	2100,
         Calories 			= 	22560,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCPigmalebaby
@@ -409,7 +408,7 @@ item HCPigmalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Pig (Male),
 	Icon				=	HCPigbaby,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCPigfemalebaby
@@ -418,7 +417,7 @@ item HCPigfemalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Pig (Female),
 	Icon				=	HCPigbaby,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCSheepmale
@@ -427,7 +426,7 @@ item HCSheepmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Sheep (Male),
 	Icon				=	HCSheepmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCSheepfemale
@@ -436,7 +435,7 @@ item HCSheepfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Sheep (Female),
 	Icon				=	HCSheepfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCSheepmalehungry
@@ -445,7 +444,7 @@ item HCSheepmalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Sheep (Male),
 	Icon				=	HCSheepmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -455,7 +454,7 @@ item HCSheepfemalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Sheep (Female),
 	Icon				=	HCSheepfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -465,7 +464,7 @@ item HCSheepmaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Sheep (Male),
 	Icon				=	HCSheepmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCSheepfemaletired
@@ -474,7 +473,7 @@ item HCSheepfemaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Sheep (Female),
 	Icon				=	HCSheepfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCSheepdead
@@ -486,7 +485,7 @@ item HCSheepdead
         DaysFresh			=	8,
 	DisplayName 			= 	Dead Sheep,
 	Icon				=	HCSheepdead,
-	ResizeWorldIcon 		= 	2.0,
+	
 	FoodType    			=   	Meat,
 	Carbohydrates 			= 	0,
         Proteins 			= 	750,
@@ -500,7 +499,7 @@ item HCSheepmalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Sheep (Male),
 	Icon				=	HCSheepbaby,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCSheepfemalebaby
@@ -509,7 +508,7 @@ item HCSheepfemalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Sheep (Female),
 	Icon				=	HCSheepbaby,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCSheepmalesheared
@@ -518,7 +517,7 @@ item HCSheepmalesheared
 	Type 				= 	Normal,
 	DisplayName 			= 	Sheared Sheep (Male),
 	Icon				=	HCSheepmalesheared,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCSheepfemalesheared
@@ -527,7 +526,7 @@ item HCSheepfemalesheared
 	Type 				= 	Normal,
 	DisplayName 			= 	Sheared Sheep (Female),
 	Icon				=	HCSheepfemalesheared,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGoatmale
@@ -536,7 +535,7 @@ item HCGoatmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Goat (Male),
 	Icon				=	HCGoatmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGoatfemale
@@ -545,7 +544,7 @@ item HCGoatfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Goat (Female),
 	Icon				=	HCGoatfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGoatmalehungry
@@ -554,7 +553,7 @@ item HCGoatmalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Goat (Male),
 	Icon				=	HCGoatmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -564,7 +563,7 @@ item HCGoatfemalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Goat (Female),
 	Icon				=	HCGoatfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -574,7 +573,7 @@ item HCGoatmaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Goat (Male),
 	Icon				=	HCGoatmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGoatfemaletired
@@ -583,7 +582,7 @@ item HCGoatfemaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Lactating Goat (Female),
 	Icon				=	HCGoatfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGoatdead
@@ -600,7 +599,7 @@ item HCGoatdead
         Proteins 			= 	840,
         Lipids 				= 	69,
         Calories 			= 	4360,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGoatdead2
@@ -617,7 +616,7 @@ item HCGoatdead2
         Proteins 			= 	840,
         Lipids 				= 	69,
         Calories 			= 	4360,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGoatmalebaby
@@ -626,7 +625,7 @@ item HCGoatmalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Goat (Male),
 	Icon				=	HCGoatbaby,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGoatfemalebaby
@@ -635,7 +634,7 @@ item HCGoatfemalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Goat (Female),
 	Icon				=	HCGoatbaby,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGoatmalesheared
@@ -644,7 +643,7 @@ item HCGoatmalesheared
 	Type 				= 	Normal,
 	DisplayName 			= 	Sheared Goat (Male),
 	Icon				=	HCGoatmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCGoatfemalesheared
@@ -653,7 +652,7 @@ item HCGoatfemalesheared
 	Type 				= 	Normal,
 	DisplayName 			= 	Sheared Goat (Female),
 	Icon				=	HCGoatfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCowmale
@@ -662,7 +661,7 @@ item HCCowmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Cow (Male),
 	Icon				=	HCCowmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCowfemale
@@ -671,7 +670,7 @@ item HCCowfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Cow (Female),
 	Icon				=	HCCowfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCowmalehungry
@@ -680,7 +679,7 @@ item HCCowmalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Cow (Male),
 	Icon				=	HCCowmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -690,7 +689,7 @@ item HCCowfemalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Cow (Female),
 	Icon				=	HCCowfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -700,7 +699,7 @@ item HCCowmaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Cow (Male),
 	Icon				=	HCCowmale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCowfemaletired
@@ -709,7 +708,7 @@ item HCCowfemaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Lactating Cow (Female),
 	Icon				=	HCCowfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCowdead
@@ -726,7 +725,7 @@ item HCCowdead
         Proteins 			= 	2280,
         Lipids 				= 	1560,
         Calories 			= 	23760,
-	ResizeWorldIcon 		= 	2.5,
+	
 	}
 
 item HCCowdead2
@@ -743,7 +742,7 @@ item HCCowdead2
         Proteins 			= 	2280,
         Lipids 				= 	1560,
         Calories 			= 	23760,
-	ResizeWorldIcon 		= 	2.5,
+	
 	}
 
 item HCCowmalebaby
@@ -752,7 +751,7 @@ item HCCowmalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Cow (Male),
 	Icon				=	HCCowmalebaby,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCCowfemalebaby
@@ -761,7 +760,7 @@ item HCCowfemalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Cow (Female),
 	Icon				=	HCCowfemalebaby,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDonkeymale
@@ -770,7 +769,7 @@ item HCDonkeymale
 	Type 				= 	Normal,
 	DisplayName 			= 	Donkey (Male),
 	Icon				=	HCDonkeymale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDonkeyfemale
@@ -779,7 +778,7 @@ item HCDonkeyfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Donkey (Female),
 	Icon				=	HCDonkeyfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDonkeymalehungry
@@ -788,7 +787,7 @@ item HCDonkeymalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Donkey (Male),
 	Icon				=	HCDonkeymale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -798,7 +797,7 @@ item HCDonkeyfemalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Donkey (Female),
 	Icon				=	HCDonkeyfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -808,7 +807,7 @@ item HCDonkeymaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Donkey (Male),
 	Icon				=	HCDonkeymale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDonkeyfemaletired
@@ -817,7 +816,7 @@ item HCDonkeyfemaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Donkey (Female),
 	Icon				=	HCDonkeyfemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDonkeydead
@@ -834,7 +833,7 @@ item HCDonkeydead
         Proteins 			= 	2280,
         Lipids 				= 	1560,
         Calories 			= 	23760,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDonkeymalebaby
@@ -843,7 +842,7 @@ item HCDonkeymalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Donkey (Male),
 	Icon				=	HCDonkeymalebaby,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDonkeyfemalebaby
@@ -852,7 +851,7 @@ item HCDonkeyfemalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Donkey (Female),
 	Icon				=	HCDonkeyfemalebaby,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCDonkeymalepack
@@ -863,7 +862,7 @@ item HCDonkeymalepack
 	Capacity             		= 70,
 	DisplayName             	= Pack Donkey (Male),
 	Icon				= HCDonkeymalepack,
-	ResizeWorldIcon 		= 2.0,
+	
    }
 
 item HCDonkeyfemalepack
@@ -874,7 +873,7 @@ item HCDonkeyfemalepack
 	Capacity             		= 70,
 	DisplayName             	= Pack Donkey (Female),
 	Icon				= HCDonkeyfemalepack,
-	ResizeWorldIcon 		= 2.0,
+	
    }
 
 item HCHorsemale
@@ -883,7 +882,7 @@ item HCHorsemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Horse (Male),
 	Icon				=	HCHorsemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCHorsefemale
@@ -892,7 +891,7 @@ item HCHorsefemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Horse (Female),
 	Icon				=	HCHorsefemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCHorsemalehungry
@@ -901,7 +900,7 @@ item HCHorsemalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Horse (Male),
 	Icon				=	HCHorsemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -911,7 +910,7 @@ item HCHorsefemalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Horse (Female),
 	Icon				=	HCHorsefemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -921,7 +920,7 @@ item HCHorsemaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Horse (Male),
 	Icon				=	HCHorsemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCHorsefemaletired
@@ -930,7 +929,7 @@ item HCHorsefemaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Horse (Female),
 	Icon				=	HCHorsefemale,
-	ResizeWorldIcon 		= 	1.0,
+	
 	}
 
 item HCHorsedead
@@ -947,7 +946,7 @@ item HCHorsedead
         Proteins 			= 	2280,
         Lipids 				= 	1560,
         Calories 			= 	23760,
-	ResizeWorldIcon 		= 	2.5,
+	
 	}
 
 item HCHorsemalebaby
@@ -956,7 +955,7 @@ item HCHorsemalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Horse (Male),
 	Icon				=	HCHorsemalebaby,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 item HCHorsefemalebaby
@@ -965,7 +964,7 @@ item HCHorsefemalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Horse (Female),
 	Icon				=	HCHorsefemalebaby,
-	ResizeWorldIcon 		= 	2.0,
+	
 	}
 
 
@@ -977,7 +976,7 @@ item HCHorsemalesaddle
 	Capacity             		= 40,
 	DisplayName             	= Horse with Saddle (Male),
 	Icon				= HCHorsemalesaddle,
-	ResizeWorldIcon 		= 2.0,
+	
    }
 
 item HCHorsefemalesaddle
@@ -988,7 +987,7 @@ item HCHorsefemalesaddle
 	Capacity             		= 40,
 	DisplayName             	= Horse with Saddle (Female),
 	Icon				= HCHorsefemalesaddle,
-	ResizeWorldIcon 		= 2.0,
+	
    }
 
 item HCWagonhorsemale
@@ -999,7 +998,7 @@ item HCWagonhorsemale
 	Capacity             		= 	400,
 	DisplayName             	= 	Wagon with Horses,
 	Icon				= 	HCWagonhorsemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	RequiresEquippedBothHands 	= 	true,
    }  
   
@@ -1011,7 +1010,7 @@ item HCWagoncoveredhorsemale
 	Capacity             		= 	400,
 	DisplayName             	= 	Covered Wagon with Horses,
 	Icon				= 	HCWagoncoveredhorsemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	RequiresEquippedBothHands 	= 	true,
    }
 
@@ -1023,7 +1022,7 @@ item HCWagonhorsefemale
 	Capacity             		= 	400,
 	DisplayName             	= 	Wagon with Horses,
 	Icon				= 	HCWagonhorsefemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	RequiresEquippedBothHands 	= 	true,
    }  
   
@@ -1035,7 +1034,7 @@ item HCWagoncoveredhorsefemale
 	Capacity             		= 	400,
 	DisplayName             	= 	Covered Wagon with Horses,
 	Icon				= 	HCWagoncoveredhorsefemale,
-	ResizeWorldIcon 		= 	2.0,
+	
 	RequiresEquippedBothHands 	= 	true,
    }
 
@@ -1165,7 +1164,7 @@ item HCWoodenbucketmilk
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Milk,
         icon 			= HCWoodenbucketmilk,
-		ResizeWorldIcon 	= 2.0,
+		
     }
 	
 /************************RECIPES************************/
@@ -1427,17 +1426,11 @@ recipe Feed Rabbit
 recipe Fill Rabbit Hutch Food
     {
     	HCRabbithutchhungry/HCRabbithutchfull,
-	Carrots/Cabbage/Potato/Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
-	Carrots/Cabbage/Potato/Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
-	Carrots/Cabbage/Potato/Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
-	Carrots/Cabbage/Potato/Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
-	Carrots/Cabbage/Potato/Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
-	Carrots/Cabbage/Potato/Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
-	Carrots/Cabbage/Potato/Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
-	Carrots/Cabbage/Potato/Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
-	Carrots/Cabbage/Potato/Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
-	Carrots/Cabbage/Potato/Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
-	Water=10,
+		Corn/HCCornred/HCCornblue/HCCornwhite,
+		Cabbage/HCCabbagered/HCCabbagewhite/HCChinesecabbage,
+		Potato/Tomato/BellPepper/Lettuce/Carrots/Banana/Peach,
+		HCGrass/HCStraw,
+		Water=10,
     	CanBeDoneFromFloor:true,
     	Result:HCRabbithutchfull,
     	Time:100.0,
@@ -1448,8 +1441,8 @@ recipe Fill Rabbit Hutch Food
 recipe Feed Chicken
     {
     	HCChickenmale/HCChickenmalehungry,
-	Corn/Popcorn/Cereal/BreadSlices/Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada/HCCornred/HCCornblue/HCCornwhite/HCBirdfoodbox/HCBirdfoodbag,
-	Water,
+		Corn/Popcorn/Cereal/BreadSlices/Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada/HCCornred/HCCornblue/HCCornwhite/HCBirdfoodbox/HCBirdfoodbag,
+		Water,
     	CanBeDoneFromFloor:true,
     	Result:HCChickenmale,
     	OnCreate:recipe_hcchickenpoop,
@@ -1476,17 +1469,9 @@ recipe Feed Chicken
 recipe Fill Chicken Coop Food
     {
     	HCCoophungry/HCCoopfull,
-	Corn/Popcorn/Cereal/BreadSlices/Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada/HCCornred/HCCornblue/HCCornwhite/HCBirdfoodbox/HCBirdfoodbag,
-	Corn/Popcorn/Cereal/BreadSlices/Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada/HCCornred/HCCornblue/HCCornwhite/HCBirdfoodbox/HCBirdfoodbag,
-	Corn/Popcorn/Cereal/BreadSlices/Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada/HCCornred/HCCornblue/HCCornwhite/HCBirdfoodbox/HCBirdfoodbag,
-	Corn/Popcorn/Cereal/BreadSlices/Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada/HCCornred/HCCornblue/HCCornwhite/HCBirdfoodbox/HCBirdfoodbag,
-	Corn/Popcorn/Cereal/BreadSlices/Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada/HCCornred/HCCornblue/HCCornwhite/HCBirdfoodbox/HCBirdfoodbag,
-	Corn/Popcorn/Cereal/BreadSlices/Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada/HCCornred/HCCornblue/HCCornwhite/HCBirdfoodbox/HCBirdfoodbag,
-	Corn/Popcorn/Cereal/BreadSlices/Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada/HCCornred/HCCornblue/HCCornwhite/HCBirdfoodbox/HCBirdfoodbag,
-	Corn/Popcorn/Cereal/BreadSlices/Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada/HCCornred/HCCornblue/HCCornwhite/HCBirdfoodbox/HCBirdfoodbag,
-	Corn/Popcorn/Cereal/BreadSlices/Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada/HCCornred/HCCornblue/HCCornwhite/HCBirdfoodbox/HCBirdfoodbag,
-	Corn/Popcorn/Cereal/BreadSlices/Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada/HCCornred/HCCornblue/HCCornwhite/HCBirdfoodbox/HCBirdfoodbag,
-	Water=10,
+		Corn/HCCornred/HCCornblue/HCCornwhite/Popcorn/Cereal/BreadSlices/HCBirdfoodbox/HCBirdfoodbag,
+		Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada,
+		Water=10,
     	CanBeDoneFromFloor:true,
     	Result:HCCoopfull,
     	OnCreate:recipe_hcchickenpoop,
@@ -1932,7 +1917,6 @@ recipe Attach Bags to Donkey
 		HCAlicepack3=2,
 		Rope,
 		HCDonkeymale,
-		
     	Result:HCDonkeymalepack,
     	Time:50.0,
 		OnCreate:HCEmptyContainerOnRecipe,

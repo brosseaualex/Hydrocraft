@@ -361,21 +361,6 @@ item HCReeds
         icon 			= 	HCReeds,
     }
 
-item HCCattail
-    {
-        HungerChange        	=    	-5,    
-        Weight    		= 	0.02,
-        Type    		=    	Food,
-        UnhappyChange        	=    	20,
-        DisplayName         	= 	Cattail,
-        icon 			= 	HCCattail,
-	FoodType    		=   	NoExplicit,
-	Carbohydrates 		= 	1.4,
-        Proteins 		= 	0.3,
-        Lipids 			= 	0,
-        Calories 		= 	7,
-    }
-
 item HCDuckweed
     {
         Weight    		= 	0.02,

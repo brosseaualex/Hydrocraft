@@ -372,7 +372,7 @@ item HCWheatseedpacket
 	
     recipe Put Wheat in Packet
     {
-        HCWheat=50,
+        HCWheat=2,
         Result:HCWheatseedpacket,
         Time:10.0,
         Category:Farming,
@@ -381,7 +381,7 @@ item HCWheatseedpacket
     recipe Open Packet of Wheat
 	{
         HCWheatseedpacket,
-        Result:HCWheat=50,
+        Result:HCWheat=2,
         Time:20.0,
         Category:Farming,
  	}

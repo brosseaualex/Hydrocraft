@@ -380,7 +380,7 @@ item HCMouthwash
 	Alcoholic		= TRUE,
 	AlcoholPower 		= 1,
 	CustomContextMenu 	= Drink,
-	CustomEatSound 		= PZ_DrinkingFromBottle,
+	CustomEatSound 		= DrinkingFromBottle,
     }
 
 item HCMouthwash2
@@ -397,7 +397,7 @@ item HCMouthwash2
 	Alcoholic		= TRUE,
 	AlcoholPower 		= 1,
 	CustomContextMenu 	= Drink,
-	CustomEatSound 		= PZ_DrinkingFromBottle,
+	CustomEatSound 		= DrinkingFromBottle,
 }
 
 item HCNailclipper
@@ -581,7 +581,7 @@ item HCClothhamper
         DisplayName    		=    	Clothing Hamper,
         Icon    		=    	HCClothhamper,
         CanBeEquipped 		=    	False,
-	ResizeWorldIcon 	=    	1.5,
+	
    }
 
 /************************WEAPONS************************/

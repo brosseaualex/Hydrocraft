@@ -80,7 +80,7 @@ item HCDogmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
     }
 
 item HCCatmeat
@@ -92,7 +92,7 @@ item HCCatmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
     }
 
 item HCSheepmeat
@@ -104,7 +104,7 @@ item HCSheepmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
     }
 
 item HCGoatmeat
@@ -116,7 +116,7 @@ item HCGoatmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
     }
 
 item HCPigmeat
@@ -128,7 +128,7 @@ item HCPigmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
     }
 
 item HCCowmeat
@@ -140,7 +140,7 @@ item HCCowmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.5,
+	
     }
 
 item HCCowmeat2
@@ -152,7 +152,7 @@ item HCCowmeat2
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.5,
+	
     }
 
 item HCDonkeymeat
@@ -164,7 +164,7 @@ item HCDonkeymeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
     }
 
 item HCHorsemeat
@@ -176,7 +176,7 @@ item HCHorsemeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.5,
+	
     }
 
 
@@ -189,7 +189,7 @@ item HCNutriameat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
         FoodType    			=   	Game,
     }
 
@@ -202,7 +202,7 @@ item HCBeavermeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
         FoodType    			=   	Game,
     }
 
@@ -215,7 +215,7 @@ item HCPorcupinemeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
         FoodType    			=   	Game,
     }
 
@@ -228,7 +228,7 @@ item HCArmadillomeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
         FoodType    			=   	Game,
     }
 
@@ -241,7 +241,7 @@ item HCFoxmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
         FoodType    			=   	Game,
     }
 
@@ -254,7 +254,7 @@ item HCRaccoonmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
         FoodType    			=   	Game,
     }
 
@@ -267,7 +267,7 @@ item HCOpossummeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
         FoodType    			=   	Game,
     }
 
@@ -281,7 +281,7 @@ item HCSkunkmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
         FoodType    			=   	Game,
     }
 
@@ -294,7 +294,7 @@ item HCBoarmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
         FoodType    			=   	Game,
     }
 
@@ -307,7 +307,7 @@ item HCDeermeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
         FoodType    			=   	Game,
     }
 
@@ -320,7 +320,7 @@ item HCDeermeat2
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
         FoodType    			=   	Game,
     }
 
@@ -333,7 +333,7 @@ item HCBlackbearmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
         FoodType    			=   	Game,
     }
 
@@ -346,7 +346,7 @@ item HCBearmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
         FoodType    			=   	Game,
     }
 
@@ -359,7 +359,7 @@ item HCCougarmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	ResizeWorldIcon 		= 	2.0,
+	
         FoodType    			=   	Game,
     }
 
@@ -386,7 +386,7 @@ item HCZedmeat
         MinutesToBurn			=	250,
         MinutesToCook			=	150,
         DaysFresh			=	1,
-	ResizeWorldIcon 		= 	2.0,
+	
     }
 
 item HCZedmeatheadless
@@ -412,7 +412,7 @@ item HCZedmeatheadless
         MinutesToBurn			=	250,
         MinutesToCook			=	150,
         DaysFresh			=	1,
-	ResizeWorldIcon 		= 	2.0,
+	
     }
 
 item HCZedhead
@@ -626,10 +626,10 @@ item HCChristmashamcasserole
 
 recipe Slice Amphibian
     {
-        	keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        	keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
         	Frog/HCToad/HCNewt/HCSalamander,
         	Result:FrogMeat,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
         	Time:50.0,
         	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
@@ -639,10 +639,10 @@ recipe Slice Amphibian
 recipe Butcher Turtle
     {
         	SkillRequired:Cooking=2,
-        	keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        	keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
         	HCPondturtle,
         	Result:Smallanimalmeat,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
         	Time:50.0,
         	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
@@ -651,10 +651,10 @@ recipe Butcher Turtle
 recipe Butcher Turtle
     {
         	SkillRequired:Cooking=2,
-        	keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        	keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
         	HCSnappingturtle,
         	Result:Smallanimalmeat=2,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
         	Time:50.0,
         	Category:Cooking,
        		OnGiveXP:HCCooking_OnGiveXP,
@@ -664,9 +664,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCChickendead/HCChickendead2,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCBrownfeathers=5,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -678,9 +678,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCDuckdead,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCWhitefeathers=5,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -692,9 +692,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCPigeondead,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCWhitefeathers=2,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -706,9 +706,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCSparrowdead,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCBrownfeathers=2,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -720,9 +720,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCCardinaldead,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCRedfeather=2,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -734,9 +734,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCBluejaydead,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCBluejayfeather=2,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -748,9 +748,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCMagpiedead,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCWhitefeathers=3,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -762,9 +762,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCCrowdead,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCBlackfeathers=4,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -776,9 +776,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCSheepmeat,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCSheepbones,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -790,9 +790,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCGoatmeat,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCGoatbones,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -804,9 +804,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCPigmeat,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCPigbones,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -818,9 +818,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCCowmeat,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCCowbones,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -832,9 +832,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCCowmeat2,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCCowbones2,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -846,9 +846,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCDonkeymeat,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCDonkeybones,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -860,9 +860,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCHorsemeat,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCHorsebones,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -874,9 +874,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCCootdead,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCBlackfeathers=5,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -888,9 +888,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCBlackduckdead/HCBlackduckdead2,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCBlackfeathers=5,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -902,9 +902,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCCanvasbackduckdead/HCCanvasbackduckdead2,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCBrownfeathers=5,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -916,9 +916,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCMallarddead,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCBrownfeathers=5,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -930,9 +930,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCPintailduckdead/HCPintailduckdead2,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCBrownfeathers=5,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -944,9 +944,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCRedheadduckdead/HCRedheadduckdead2,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCBrownfeathers=5,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -958,9 +958,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCScaupduckdead/HCScaupduckdead2,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCBrownfeathers=5,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -972,9 +972,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCWoodduckdead/HCWoodduckdead2,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCBrownfeathers=5,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -986,9 +986,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCSnowgoosedead,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCWhitefeathers=6,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1000,9 +1000,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCCanadiangoosedead,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCBrownfeathers=6,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1014,9 +1014,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCQuaildead,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCBrownfeathers=2,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1028,9 +1028,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCGrousedead,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCBrownfeathers=2,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1042,9 +1042,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCTurkeydead,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
     		Result:HCBrownfeathers=12,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:100.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1054,10 +1054,10 @@ recipe Butcher Carcass
 
 recipe Butcher Carcass
     {
-        	keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+        	keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
         	HCHamsterdead,
         	Result:Smallanimalmeat,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
         	Time:50.0,
             	NeedToBeLearn:true,
         	OnCreate:CutAnimal_OnCreate,
@@ -1069,9 +1069,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCNutriameat,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
 		Result:HCBone=2,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1083,9 +1083,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCBeavermeat,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
 		Result:HCBone=2,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1097,9 +1097,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCPorcupinemeat,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
 		Result:HCBone=2,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1111,9 +1111,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCArmadillomeat,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
 		Result:HCBone=2,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1125,9 +1125,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCFoxmeat,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
 		Result:HCFoxbones,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1139,9 +1139,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCRaccoonmeat,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
 		Result:HCRaccoonbones,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1153,9 +1153,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCOpossummeat,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
 		Result:HCBone=2,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1167,9 +1167,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCSkunkmeat,
-		keep HCMeatcleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
+		keep Base.MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/HCKnifestone,
 		Result:HCBone=2,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1181,9 +1181,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCBoarmeat,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCBoarbones,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1195,9 +1195,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCDeermeat,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCDeerbones,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1209,9 +1209,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCDeermeat2,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCDeerbones2,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1223,9 +1223,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCBlackbearmeat,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCBlackbearbones,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1237,9 +1237,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCBearmeat,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCBearbones,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1251,9 +1251,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCCougarmeat,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCCougarbones,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1265,9 +1265,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCDogmeat,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCDogbones,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:2000.0,
             	NeedToBeLearn:true,
     		Category:Survivalist,
@@ -1277,9 +1277,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCCatmeat,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCCatbones,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:2000.0,
             	NeedToBeLearn:true,
     		Category:Survivalist,
@@ -1290,9 +1290,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCZedmeat,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCZedbones,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1303,9 +1303,9 @@ recipe Butcher Carcass
 recipe Remove Head
 	{
 		HCZedmeat,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCZedmeatheadless,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:50.0,
             	NeedToBeLearn:true,
     		Category:Hunting,
@@ -1317,9 +1317,9 @@ recipe Butcher Carcass
 	{
         	SkillRequired:Cooking=2,
 		HCZedmeatheadless,
-		keep HCMeatcleaver,
+		keep Base.MeatCleaver,
 		Result:HCZedbonesheadless,
-        	Sound:PZ_FoodSwoosh,
+        	Sound:SliceMeat,
 		Time:200.0,
             	NeedToBeLearn:true,
     		Category:Hunting,

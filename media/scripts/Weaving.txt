@@ -62,7 +62,7 @@ item HCStrawbale
         Type    		= Normal,
         DisplayName         	= Bale of Straw,
         icon 			= HCStrawbale,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCHaystack
@@ -71,7 +71,7 @@ item HCHaystack
         Type    		= Normal,
         DisplayName         	= Haystack,
         icon 			= HCHaystack,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCStrawhat
@@ -341,7 +341,7 @@ recipe Make Spindle
     NeedToBeLearn:true,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCWoodwork_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
     
 recipe Make Thread
@@ -350,7 +350,7 @@ recipe Make Thread
     Result:Thread,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Twine
@@ -359,7 +359,7 @@ recipe Make Twine
     Result:Twine,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Twine
@@ -368,7 +368,7 @@ recipe Make Twine
     Result:Twine,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Rope
@@ -482,7 +482,7 @@ recipe Make Cotton Thread
     CanBeDoneFromFloor:true,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Cotton Cloth
@@ -544,7 +544,7 @@ recipe Make Linen Thread
     CanBeDoneFromFloor:true,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Linen Thread
@@ -556,7 +556,7 @@ recipe Make Linen Thread
     CanBeDoneFromFloor:true,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Linen Cloth
@@ -568,7 +568,7 @@ recipe Make Linen Cloth
     Time:1000,
     Category:Weaving,
     OnCreate:recipe_hcspindle3,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Linen Cloth
@@ -580,7 +580,7 @@ recipe Make Linen Cloth
     Time:500,
     Category:Weaving,
     OnCreate:recipe_hcspindle3,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Cheese Cloth
@@ -592,7 +592,7 @@ recipe Make Cheese Cloth
     Time:1000,
     Category:Weaving,
     OnCreate:recipe_hcspindle3,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Cheese Cloth
@@ -604,7 +604,7 @@ recipe Make Cheese Cloth
     Time:500,
     Category:Weaving,
     OnCreate:recipe_hcspindle3,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Yarn
@@ -616,7 +616,7 @@ recipe Make Yarn
     CanBeDoneFromFloor:true,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Dye Yarn
@@ -742,7 +742,7 @@ recipe Make Wool Cloth
     Time:1000,
     Category:Weaving,
     OnCreate:recipe_hcspindle3,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Wool Cloth
@@ -754,7 +754,7 @@ recipe Make Wool Cloth
     Time:500,
     Category:Weaving,
     OnCreate:recipe_hcspindle3,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Silk Thread
@@ -766,7 +766,7 @@ recipe Make Silk Thread
     CanBeDoneFromFloor:true,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Silk Cloth
@@ -778,7 +778,7 @@ recipe Make Silk Cloth
     Time:1000,
     Category:Weaving,
     OnCreate:recipe_hcspindle3,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Silk Cloth
@@ -790,7 +790,7 @@ recipe Make Silk Cloth
     Time:500,
     Category:Weaving,
     OnCreate:recipe_hcspindle3,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Sheet Rope
@@ -932,7 +932,7 @@ recipe Make Jute Fibers
     Result:HCJutefibers,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Burlap Cloth
@@ -943,7 +943,7 @@ recipe Make Burlap Cloth
     CanBeDoneFromFloor:true,
     Time:1000,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Burlap Cloth
@@ -954,7 +954,7 @@ recipe Make Burlap Cloth
     CanBeDoneFromFloor:true,
     Time:500,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Weave Reed Mat
@@ -964,13 +964,13 @@ recipe Weave Reed Mat
     NeedToBeLearn:true,
     Time:1000,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Dry Reed Mat
     {
     HCReedmat,
-    keep HCHerbtable/HCDryingframe,
+    keep HCHerbtable2/HCDryingframe,
     CanBeDoneFromFloor:true,
     Result:HCReedmatdry,
     NeedToBeLearn:true,
@@ -987,7 +987,7 @@ recipe Make Thread
     Result:Thread,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Thread
@@ -998,7 +998,7 @@ recipe Make Thread
     Result:Thread,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Thread
@@ -1009,7 +1009,7 @@ recipe Make Thread
     Result:Thread,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Thread
@@ -1020,7 +1020,7 @@ recipe Make Thread
     Result:Thread,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Thread
@@ -1031,7 +1031,7 @@ recipe Make Thread
     Result:Thread,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Make Cord Gloves
@@ -1043,7 +1043,7 @@ recipe Make Cord Gloves
     NeedToBeLearn:true,
     Time:200.0,
     Category:Armor,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveXP,
     }
 
 recipe Make Cord Boots
@@ -1055,104 +1055,180 @@ recipe Make Cord Boots
     NeedToBeLearn:true,
     Time:200.0,
     Category:Armor,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveXP,
     }
 
 recipe Recycle Bag
     {
-    Schoolbag,
+    Bag_Schoolbag,
     keep Scissors,
     Result:HCNyloncloth=2,
     NeedToBeLearn:true,
     Time:200.0,
     Category:Weaving,
     OnCreate:recipe_recyclebag,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP ,
     }
 
 recipe Recycle Bag
     {
-    Duffelbag,
+    Bag_WeaponBag,
     keep Scissors,
     Result:HCNyloncloth=3,
     NeedToBeLearn:true,
     Time:200.0,
     Category:Weaving,
     OnCreate:recipe_recyclebag,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Recycle Bag
     {
-    NormalHikingBag,
+    Bag_InmateEscapedBag,
     keep Scissors,
-    Result:HCNyloncloth=4,
+    Result:HCNyloncloth=3,
     NeedToBeLearn:true,
     Time:200.0,
     Category:Weaving,
     OnCreate:recipe_recyclebag,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+
+recipe Recycle Bag
+    {
+    Bag_MoneyBag,
+    keep Scissors,
+    Result:HCNyloncloth=3,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnCreate:recipe_recyclebag,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+
+recipe Recycle Bag
+    {
+    Bag_WorkerBag,
+    keep Scissors,
+    Result:HCNyloncloth=3,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnCreate:recipe_recyclebag,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+
+recipe Recycle Bag
+    {
+    Bag_DuffelBag,
+    keep Scissors,
+    Result:HCNyloncloth=3,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnCreate:recipe_recyclebag,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Recycle Bag
+    {
+    Bag_DuffelBagTINT,
+    keep Scissors,
+    Result:HCNyloncloth=3,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnCreate:recipe_recyclebag,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Recycle Bag
+    {
+    Bag_NormalHikingBag,
+    keep Scissors,
+    Result:HCNyloncloth=3,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnCreate:recipe_recyclebag,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Recycle Bag
     {
     HCClimbingpack,
     keep Scissors,
-    Result:HCNyloncloth=4,
+    Result:HCNyloncloth=3,
     NeedToBeLearn:true,
     Time:200.0,
     Category:Weaving,
     OnCreate:recipe_recyclebag,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Recycle Bag
     {
     HCCampingpack,
     keep Scissors,
-    Result:HCNyloncloth=6,
+    Result:HCNyloncloth=3,
     NeedToBeLearn:true,
     Time:200.0,
     Category:Weaving,
     OnCreate:recipe_recyclebag,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Recycle Bag
     {
-    BigHikingBag,
+    Bag_BigHikingBag,
     keep Scissors,
-    Result:HCNyloncloth=5,
+    Result:HCNyloncloth=4,
     NeedToBeLearn:true,
     Time:200.0,
     Category:Weaving,
     OnCreate:recipe_recyclebag,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Recycle Bag
     {
-    HCAlicepack2,
+    Bag_SurvivorBag,
     keep Scissors,
-    Result:HCNyloncloth=6,
+    Result:HCNyloncloth=4,
     NeedToBeLearn:true,
     Time:200.0,
     Category:Weaving,
     OnCreate:recipe_recyclebag,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
 
 recipe Recycle Bag
     {
-    HCAlicepack,
+    Bag_ALICEpack,
     keep Scissors,
-    Result:HCNyloncloth=7,
+    Result:HCNyloncloth=4,
     NeedToBeLearn:true,
     Time:200.0,
     Category:Weaving,
     OnCreate:recipe_recyclebag,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
     }
+
+recipe Recycle Bag
+    {
+    Bag_ALICEpack_Army,
+    keep Scissors,
+    Result:HCNyloncloth=4,
+    NeedToBeLearn:true,
+    Time:200.0,
+    Category:Weaving,
+    OnCreate:recipe_recyclebag,
+    OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
 
 recipe Recycle Sack
     {
@@ -1187,5 +1263,6 @@ recipe Recycle Sack
     Category:Weaving,
     OnGiveXP:HCHunger_OnGiveXP,
     }
+
 	
 }

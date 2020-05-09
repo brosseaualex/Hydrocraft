@@ -1,0 +1,22 @@
+module Base {
+
+model AA12Shotgun
+{
+  mesh = Weapons/2Handed/AA12Shotgun,
+}
+
+
+model HCHomemadebattrimmer
+{
+  mesh = Weapons/2Handed/HCHomemadebattrimmer,
+
+  attachment world
+  {
+    offset = 0.0000 0.3000 0.0000,
+    rotate = 0.0000 0.0000 0.0000,
+  }
+}
+
+
+
+}

@@ -555,7 +555,7 @@ recipe Make Pie Crust
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Remove Cherry Pie from Pie Pan
+	recipe Remove Blackberry Pie from Pie Pan
 	{
 		HCPieblackberrypan,
 		Result:HCPieblackberry,

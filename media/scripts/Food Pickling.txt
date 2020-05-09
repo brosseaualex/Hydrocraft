@@ -2,7 +2,7 @@ module Hydrocraft
 {
     imports
     {
-        Base
+        Base, farming
 
     }
 

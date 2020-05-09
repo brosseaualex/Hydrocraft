@@ -15,7 +15,7 @@ item HCComputerdesktop
         Type    		= Normal,
         DisplayName         	= Desktop Computer,
         icon 			= HCComputerdesktop,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCFloppy

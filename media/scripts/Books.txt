@@ -522,7 +522,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Geology Textbook,
 		Icon		=	HCBookgeology,
-		TeachedRecipes  =   	Sift Dirt;Dig Mine;Upgrade Mine;Mine;Upgrade to Dark Mine;Upgrade Dark Mine;Add Steam Machine to Dark Mine;Make Mining Hat;Dig Quarry;Mine Stone,
+		TeachedRecipes  =   	Sift Dirt;Dig Mine;Upgrade Mine;Mine;Upgrade to Dark Mine;Upgrade Dark Mine;Add Steam Machine to Dark Mine;Make Mining Hat;Dig Quarry;Mine Iron;Mine Coal;Mine Stone,
         	ReplaceOnUse    =   	HCBookgeology,
 	}
 
@@ -802,7 +802,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Archery Textbook,
 		Icon		=	HCBookarchery,
-		TeachedRecipes  =   	Make Longbow;Make Arrow;Make Crossbow;Make Bolt;Shoot Target,
+		TeachedRecipes  =   	Make Longbow;Make Arrow;Make Crossbow;Make Bolt;Upgrade Longbow;Make Longbow Mag;Make Metal Arrowhead;Shoot Target,
         	ReplaceOnUse    =   	HCBookarchery,
 	}
 
@@ -812,7 +812,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Pottery Textbook,
 		Icon		=	HCBookpottery,
-		TeachedRecipes  =   	Make Bone Clay;Make Kiln;Make Clay Pot;Make Clay Flowerpot;Make Clay Jar;Make Small Clay Jar;Make Clay Mug;Make Clay Teapot;Make Clay Cauldron;Make Clay Urn;Make Large Clay Urn;Make Clay Smoking Pipe;Make Clay Pipe;Make Clay Mold;Make Porcelain Teacup;Make Porcelain Saucer;Make Porcelain Teapot;Make Porcelain Plate;Make Porcelain Platter;Make Porcelain Vase;Make Spindle Head;Make Clay Oil Lamp,
+		TeachedRecipes  =   	Make Bone Clay;Make Kiln;Make Clay Pot;Make Clay Flowerpot;Make Clay Jar;Make Small Clay Jar;Make Clay Mug;Make Clay Teapot;Make Clay Cauldron;Make Clay Urn;Make Large Clay Urn;Make Clay Smoking Pipe;Make Clay Pipe;Make Clay Mold;Make Porcelain Teacup;Make Porcelain Saucer;Make Porcelain Teapot;Make Porcelain Plate;Make Porcelain Platter;Make Porcelain Vase;Make Spindle Head;Make Clay Oil Lamp;Make Leaf Spring Mold;Make Bolt Mold;Make Arrow Head Mold,
         	ReplaceOnUse    =   	HCBookpottery,
 	}
 
@@ -822,7 +822,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Glass Working Textbook,
 		Icon		=	HCBookglassworking,
-		TeachedRecipes  =   	Create Glass from Sand;Recycle Glass;Create Glass Pane;Create Large Glass Pane;Create Glassware;Make Car Window;Make Car Windshield,
+		TeachedRecipes  =   	Create Glass from Sand;Recycle Glass;Create Glass Pane;Create Large Glass Pane;Create Glassware,
         ReplaceOnUse    =   	HCBookglassworking,
 	}
 	item HCBookcopperworking
@@ -851,7 +851,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Bronze Working Textbook,
 		Icon		=	HCBookbronzeworking,
-		TeachedRecipes  =   	Make Bronze Ingot;Make Brass Ingot;Recycle Bronze;Make Bronze Rod;Make Bronze Candle Holder;Make Oil Lamp;Make Brass Bullet Casings;,
+		TeachedRecipes  =   	Make Bronze Ingot;Make Brass Ingot;Recycle Bronze;Recycle Brass;Make Bronze Rod;Make Bronze Candle Holder;Make Oil Lamp;Make Brass Bullet Casings;,
         	ReplaceOnUse    =   	HCBookbronzeworking,
 	}
 
@@ -871,7 +871,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Metalurgy Textbook,
 		Icon		=	HCBookmetalurgy,
-		TeachedRecipes  =   	Make Nickel Ingot;Make Zinc Ingot;Make Chrome Ingot;Make Tungsten Ingot;Recycle Zinc;Make Nickel Powder;Make Cobalt Powder;Make Zinc Powder;Make Chrome Powder;Make Tungsten Powder,
+		TeachedRecipes  =   	Make Metal Bar;Make Nickel Ingot;Make Zinc Ingot;Make Chrome Ingot;Make Tungsten Ingot;Recycle Zinc;Make Nickel Powder;Make Cobalt Powder;Make Zinc Powder;Make Chrome Powder;Make Tungsten Powder,
         	ReplaceOnUse    =   	HCBookmetalurgy,
 	}
 
@@ -901,7 +901,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Steel Working Textbook,
 		Icon		=	HCBooksteelworking,
-		TeachedRecipes  =   	Make Steel Ingot;Make Steel BBs;Recycle Steel;Make Steel Rod;Make Steel Pole;Make Steel Shears;Make Steel Saw;Make Steel Hammer;Make Screws;Make Gigli Saw Handle;Make Metal Ring,
+		TeachedRecipes  =   	Make Steel Ingot;Make Steel BBs;Recycle Steel;Recycle Spring Steel;Make Steel Rod;Make Steel Pole;Make Steel Shears;Make Steel Saw;Make Steel Hammer;Make Screws;Make Gigli Saw Handle;Make Metal Ring;Make Leaf Spring,
         	ReplaceOnUse    =   	HCBooksteelworking,
 	}
 
@@ -1011,7 +1011,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Masonry Textbook,
 		Icon		=	HCBookmasonry,
-		TeachedRecipes  =   	Make Grey Brick;Make Red Brick;Make Mortar;Construct Brick Pillar;Make Smelter;Make Blast Furnace;Make Concrete Ingot;Make Concrete Powder;Make Concrete;Make Plaster;Make Gypsum Powder;Make Concrete Block;Make Hempcrete Block;Make Refractory Brick;Make Leadcrete Block,
+		TeachedRecipes  =   	Make Grey Brick;Make Red Brick;Make Mortar;Construct Brick Pillar;Make Smelter;Make Blast Furnace;Upgrade to Blast Furnace;Make Concrete Ingot;Make Concrete Powder;Make Concrete;Make Plaster;Make Gypsum Powder;Make Concrete Block;Make Hempcrete Block;Make Refractory Brick;Make Leadcrete Block,
         	ReplaceOnUse    =   	HCBookmasonry,
 	}
 
@@ -1041,7 +1041,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Leather Working Textbook,
 		Icon		=	HCBookleatherworking,
-		TeachedRecipes  =   	Make Leather;Cut Leather;Make Hardened Leather;Make Fine Leather;Make Tannin;Make Milk of Lime;Make Limed Hide;Make Rose Tanning Oil;Make Waterflask;Make Bellows;Make Blacksmith Googles;Make Blacksmith Apron;Make Fine Leather Alice Pack;Make Seed Bag;Make Horse Saddle;Make Horse Collar;Dry Skin;Make Belt;Stitch Trapper Jacket,
+		TeachedRecipes  =   	Make Leather;Cut Leather;Make Hardened Leather;Make Fine Leather;Make Tannin;Make Milk of Lime;Make Limed Hide;Make Rose Tanning Oil;Make Waterflask;Make Bellows;Make Blacksmith Googles;Make Blacksmith Apron;Make Fine Leather Alice Pack;Make Seed Bag;Make Horse Saddle;Make Horse Collar;Dry Skin;Make Belt;Stitch Trapper Jacket;Stitch Leather Sand Bag;Stitch Boxing Gloves,
         	ReplaceOnUse    =   	HCBookleatherworking,
 	}
 
@@ -1092,7 +1092,7 @@ module Hydrocraft
         	Type		=	Literature,
         	DisplayName	=	Herbalism Textbook,
         	Icon		=	HCBookherbalism,
-        	TeachedRecipes  =   	Add Herbal Medicine;Make Bunch of Berries;Dry Leaves;Dry Herbs;Dry Flower;Dry Spice;Dry Berry;Make Herbal Tea;Make Teabag;Grind Tobacco;Roll Cigar;Cure Hemp Bud;Soak Fresh Jute Stems;Dry Jute Stems;Make Mild Poison;Make Strong Poison;Extract Seed from Raw Rice;Thresh Rice;Shuck Corn;Harvest Pollen,
+        	TeachedRecipes  =  Harvest Flax;Add Herbal Medicine;Make Bunch of Berries;Dry Leaves;Dry Herbs;Dry Flower;Dry Spice;Dry Berry;Make Herbal Tea;Make Teabag;Grind Tobacco;Roll Cigar;Cure Hemp Bud;Soak Fresh Jute Stems;Dry Jute Stems;Make Mild Poison;Make Strong Poison;Extract Seed from Raw Rice;Thresh Rice;Shuck Corn;Harvest Pollen,
         	ReplaceOnUse    =   	HCBookherbalism,
     	}
 
@@ -1133,7 +1133,7 @@ module Hydrocraft
 		Type		=	Literature,											
 		DisplayName	=	Welding Textbook,                                   
 		Icon		=	HCBookwelding,
-		TeachedRecipes  =   	Build Industrial Furnace;Build Arc Furnace;Cut Sheet Of Metal;Make Large Sheet Of Metal;Make Metal Pipe;Make Steel Beam;Make Metal Barrel;Make Propane Tank;Make Metal Casing;Weld Flag Pole;Weld Punching Bag Stand;Weld Weight Bench;Repair Treadmill;Make Dissection Table;Make Metal Wheels;Make Pulley;Make Mine Cart;Make Chain,
+		TeachedRecipes  =   	Build Industrial Furnace;Upgrade to Industrial Furnace;Build Arc Furnace;Cut Sheet Of Metal;Make Large Sheet Of Metal;Make Metal Pipe;Make Steel Beam;Make Metal Barrel;Make Propane Tank;Make Metal Casing;Weld Flag Pole;Weld Punching Bag Stand;Weld Weight Bench;Repair Treadmill;Make Dissection Table;Make Metal Wheels;Make Pulley;Make Mine Cart;Make Chain,
         	ReplaceOnUse    =   	HCBookwelding,
 	}
 
@@ -1223,7 +1223,7 @@ module Hydrocraft
 		Type		= 	Literature,
 		DisplayName	= 	Anarchist Cookbook,
 		Icon		= 	HCBookanarchist,
-		TeachedRecipes  = 	Add Private Notes to Anarchist Cookbook;Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask,
+		TeachedRecipes  = 	Add Private Notes to Anarchist Cookbook;Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Electric Clamp;Make Crossbow Scope,
         	ReplaceOnUse    = 	HCBookanarchist,
     	}
 
@@ -1233,7 +1233,7 @@ module Hydrocraft
 		Type		= 	Literature,
 		DisplayName	= 	Anarchist Cookbook with Private Note,
 		Icon		= 	HCBookanarchistpn01,
-		TeachedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Detonator MK3 with HMTD;Upgrade Detonator MK1 To MK3 with HMTD;Upgrade Detonator MK2 To MK3 with HMTD;Upgrade Detonator MK3 To MK3 with HMTD,
+		TeachedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Detonator MK3 with HMTD;Upgrade Detonator MK1 To MK3 with HMTD;Upgrade Detonator MK2 To MK3 with HMTD;Upgrade Detonator MK3 To MK3 with HMTD;Make Electric Clamp;Make Crossbow Scope,
         	ReplaceOnUse    = 	HCBookanarchisthmtd,
     	}
 
@@ -1243,7 +1243,7 @@ module Hydrocraft
 		Type		= 	Literature,
 		DisplayName	= 	Anarchist Cookbook with Private Note,
 		Icon		= 	HCBookanarchistpn01,
-		TeachedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Ammonal;Dry Ammonal;Cook Ammonal;Fill Ammonal in Bag,
+		TeachedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Ammonal;Dry Ammonal;Cook Ammonal;Fill Ammonal in Bag;Make Electric Clamp;Make Crossbow Scope,
         	ReplaceOnUse    = 	HCBookanarchistammonal,
     	}
 
@@ -1253,7 +1253,7 @@ module Hydrocraft
 		Type		= 	Literature,
 		DisplayName	= 	Anarchist Cookbook,
 		Icon		= 	HCBookanarchistpn02,
-		TeachedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Detonator MK3 with HMTD;Upgrade Detonator MK1 To MK3 with HMTD;Upgrade Detonator MK2 To MK3 with HMTD;Upgrade Detonator MK3 To MK3 with HMTD;Make Ammonal;Dry Ammonal;Fill Ammonal in Bag;Make Ammonal Bomb,
+		TeachedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Detonator MK3 with HMTD;Upgrade Detonator MK1 To MK3 with HMTD;Upgrade Detonator MK2 To MK3 with HMTD;Upgrade Detonator MK3 To MK3 with HMTD;Make Ammonal;Dry Ammonal;Fill Ammonal in Bag;Make Ammonal Bomb;Make Electric Clamp,
         	ReplaceOnUse    = 	HCBookanarchistpn02,
     	}
 

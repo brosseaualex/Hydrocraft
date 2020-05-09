@@ -308,7 +308,7 @@ item HCFuelcanister
         DisplayName         	= Fuel Canister,
         icon 			= HCFuelcanister,
     }
-
+	
 item HCNailgunammobox
     {
         Weight 			= 1.0,
@@ -594,7 +594,7 @@ item HCStepladder
         Type    		= Normal,
         DisplayName         	= Step Ladder,
         icon 			= HCStepladder,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 item HCScissorlift
@@ -603,10 +603,11 @@ item HCScissorlift
         Type    		= Normal,
         DisplayName         	= Scissor Lift,
         icon 			= HCScissorlift,
-	ResizeWorldIcon 	= 1.0,
+	
     }
 
 /************************AMMO************************/
+
     item HCNailgunammo
     {
         Count        		=    10,
@@ -616,7 +617,7 @@ item HCScissorlift
         DisplayName    		=    Nail Gun Ammo,
         Icon        		=    HCNailgunammo,
     }
-
+/*
     item HCNailclip
     {
         Count        		=    12,
@@ -625,9 +626,19 @@ item HCScissorlift
         DisplayName    		=    Nail gun clip,
         Icon       	 	=    HCNailgunclip,
     }
-
+*/
 /************************WEAPONS************************/
 
+   item HCNailgun
+    {
+        Count        		=    1,
+        Weight        		=    2,
+        Type        		=    Normal,
+        DisplayName    		=    Nail Gun,
+        Icon       	 	=    HCNailgun,
+    }
+
+/*
 	item HCNailgun
 	{
 		AmmoType			=	HCNailclip,
@@ -683,6 +694,7 @@ item HCScissorlift
         	AimingTime 			= 	40,
         	BreakSound  			=   	BreakMetalItem,
 	}
+	*/
 
 	item HCWrench
 	{
@@ -718,6 +730,7 @@ item HCScissorlift
 		TreeDamage  			=   1,
 	}
 
+	/*
 	item HCMonkeywrench
 	{
 		MaxRange			=	1.3,
@@ -751,6 +764,7 @@ item HCScissorlift
 		BreakSound  			=   	BreakMetalItem,
 		TreeDamage  			=   	1,
 	}
+	*/
 
 	item HCCane
     	{
@@ -789,7 +803,7 @@ item HCScissorlift
         	TreeDamage             		=    1,
     	}
 
-
+/*
 	item HCPickaxe
 	{
 		DisplayName					=	Pickaxe,
@@ -828,6 +842,7 @@ item HCScissorlift
         	TreeDamage  					=   	10,
         	TwoHandWeapon 					= 	TRUE,
 	}
+	*/
 
     item ChainSaw
     {
@@ -913,7 +928,7 @@ recipe Cut Wrench
     {
     HCWrench,
     keep HCSawmetal,
-    Result:Spanner,
+    Result:Wrench,
     Time:250,
     Category:Welding,
     OnGiveXP:HCWelding_OnGiveXP,
@@ -1230,6 +1245,16 @@ recipe Remove Battery
     OnCreate:recipe_hcbatterysmalldead,
     }
 
+recipe Remove Battery
+    {
+    HCElectricmultitoolsawdead,
+    Result:HCElectricmultitoolsawoff,
+    Time:15,
+    Category:Electrical,
+    OnCreate:recipe_hcbatterysmalldead,
+    }
+
+
 recipe Attach Drill Head
 {
     HCElectricmultitooldrillhead,
@@ -1303,10 +1328,12 @@ recipe Craft Hand Powered Pump
 
 /************************FIXING************************/
 
+/*
 	fixing Refuel Nailgun
     {
 		Require : HCNailgun,
 
 		Fixer : HCFuelcanister,
     }    
+	*/
 }

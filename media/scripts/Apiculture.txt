@@ -147,7 +147,7 @@ item HCWoodenbuckethoney
         Type    			= Normal,
         DisplayName         		= Wooden Bucket with Honey,
         icon 				= HCWoodenbuckethoney,
-	ResizeWorldIcon 		= 2.0,
+	
     }
 
 
@@ -189,7 +189,7 @@ item HCBeehive1
         Type            		= Normal,
         DisplayName     		= Inactive Beehive (Stage 1),
         Icon            		= HCBeehive1,
-        ResizeWorldIcon 		= 1.0,
+        
     }
 
 item HCBeehive2
@@ -198,7 +198,7 @@ item HCBeehive2
         Type            		= Normal,
         DisplayName     		= Inactive Beehive (Stage 2),
         Icon            		= HCBeehive2,
-        ResizeWorldIcon 		= 1.0,
+        
     }
 
 item HCBeehive3
@@ -207,8 +207,18 @@ item HCBeehive3
         Type            		= Normal,
         DisplayName     		= Inactive Beehive (Stage 3),
         Icon            		= HCBeehive3,
-        ResizeWorldIcon 		= 1.0,
+        
     }
+
+item HCBeehive3b
+    {
+        Weight                  = 1000,
+        Type                    = Normal,
+        DisplayName             = Inactive Beehive (Stage 3),
+        Icon                    = HCBeehive3,
+ 
+    }
+
 
 item HCBeehive1Active
     {
@@ -216,7 +226,7 @@ item HCBeehive1Active
         Type            		= Normal,
         DisplayName     		= Beehive (Stage 1),
         Icon            		= HCBeehive1Active,
-        ResizeWorldIcon 		= 1.0,
+        
     }
 
 item HCBeehive2Active
@@ -225,7 +235,7 @@ item HCBeehive2Active
         Type            		= Normal,
         DisplayName     		= Beehive (Stage 2),
         Icon            		= HCBeehive2Active,
-        ResizeWorldIcon 		= 1.0,
+        
     }
 
 item HCBeehive3Active
@@ -234,7 +244,16 @@ item HCBeehive3Active
         Type            		= Normal,
         DisplayName     		= Beehive (Stage 3),
         Icon            		= HCBeehive3Active,
-        ResizeWorldIcon 		= 1.0,
+        
+    }
+
+item HCBeehive3bActive
+    {
+        Weight                  = 1000,
+        Type                    = Normal,
+        DisplayName             = Beehive (Stage 3),
+        Icon                    = HCBeehive3Active,
+        
     }
 
 item HCBeehive1full
@@ -243,7 +262,7 @@ item HCBeehive1full
         Type            		= Normal,
         DisplayName     		= Beehive with Honey (Stage 1),
         Icon            		= HCBeehive1full,
-        ResizeWorldIcon 		= 1.0,
+        
     }
 
 item HCBeehive2full
@@ -252,7 +271,7 @@ item HCBeehive2full
         Type            		= Normal,
         DisplayName     		= Beehive with Honey (Stage 2),
         Icon            		= HCBeehive2full,
-        ResizeWorldIcon 		= 1.0,
+        
     }
 
 item HCBeehive3full
@@ -261,11 +280,41 @@ item HCBeehive3full
         Type            		= Normal,
         DisplayName     		= Beehive with Honey (Stage 3),
         Icon            		= HCBeehive3full,
-        ResizeWorldIcon 		= 1.0,
+        
+    }
+
+
+item HCBeehive3bfull
+    {
+        Weight                  = 1000,
+        Type                    = Normal,
+        DisplayName             = Beehive with Honey (Stage 3),
+        Icon                    = HCBeehive3full,
+        
     }
 		
 /************************RECIPES************************/
-    
+  
+
+recipe Anchor Beehive
+    {
+    HCBeehive3,
+        CanBeDoneFromFloor:true,
+        Result:HCBeehive3b,
+        Time:100,
+        Category:Anchor,
+    }
+
+recipe Unanchor Beehive
+    {
+    HCBeehive3b,
+        CanBeDoneFromFloor:true,
+        Result:HCBeehive3,
+        Time:100,
+        Category:Anchor,
+    }
+
+
 recipe Build Honeycomb Frame
     {
 	SkillRequired:Woodwork=4,
@@ -443,6 +492,22 @@ recipe Feed Beehive
     	OnGiveXP:HCHunger_OnGiveXP,
     }
 
+recipe Feed Beehive
+    {
+        HCBeehive3b,
+        keep HCBeekeeperhat,
+        keep HCWorkgloves,
+        HCBeesmokerfull,
+        HCPollen=12,
+        Result:HCBeekeeperhat,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:100.0,
+        Category:Farming,
+        Result:HCBeehive3bActive,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
 recipe Collect Bees
     {
         keep HCBugnet,
@@ -552,6 +617,25 @@ recipe Harvest Honeycomb
         OnGiveXP:HCFarming_OnGiveXP,
     }
 
+recipe Harvest Honeycomb
+    {
+        HCBeehive3bfull,
+        keep HCBeekeeperhat,
+        keep HCWorkgloves,
+        HCBeesmokerfull,
+        CanBeDoneFromFloor:true,
+        Result:HCBeehive3b,
+        NeedToBeLearn:true,
+        Time:200.0,
+        Category:Farming,
+        OnCreate:HCHoneycomb12,
+        OnGiveXP:HCFarming_OnGiveXP,
+    }
+
+
+
+
+
 recipe Process Honeycomb
     {
     	HCWoodenbucket,
@@ -630,7 +714,7 @@ recipe Dry Honey
 recipe Make Honey Powder
     {
         	SkillRequired:Cooking=3,
-    		keep MortarPestle/HCMortarandpestle,
+    		keep MortarPestle,
     		HCDriedhoney,
     		Result:HCHoneypowder,
     		Time:50,

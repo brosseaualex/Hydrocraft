@@ -14,7 +14,7 @@ item HCGemcutter
         Type    		= Normal,
         DisplayName         	= Gem Cutter Wheel,
         icon 			= HCGemcutter,
-	ResizeWorldIcon 	= 2.0,
+	
     }
 
 item HCJade

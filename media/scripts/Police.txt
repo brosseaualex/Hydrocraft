@@ -28,6 +28,7 @@ item HCPolicebadge
 
 /************************WEAPONS************************/
 
+/*
 item HCBaton
 	{
 		MaxRange			=	1.5,
@@ -63,6 +64,7 @@ item HCBaton
 		BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	1,
 	}
+	*/
 
 /************************RECIPES************************/
 

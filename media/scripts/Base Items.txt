@@ -95,34 +95,7 @@ module Base
 
 /************************Containers************************/
 
-    	item NormalHikingBag
-	{
-		WeightReduction		=	70,
-		Weight			=	0.5,
-		Type			=	Container,
-		Capacity		=	20,
-		DisplayName		=	Normal Hiking Bag,
-		Icon			=	HCNormalhikingbag,
-        	CanBeEquipped 		= 	Back,
-        	OpenSound   		=   	PZ_OpenBag,
-        	CloseSound   		=   	PZ_CloseBag,
-        	PutInSound   		=   	PZ_PutInBag,
-	}
 
-    	item BigHikingBag
-	{
-		WeightReduction		=	80,
-		Weight			=	0.5,
-		Type			=	Container,
-		Capacity		=	22,
-		DisplayName		=	Big Hiking Bag,
-		Icon			=	HCBighikingbag,
-        	CanBeEquipped 		= 	Back,
-        	OpenSound   		=   	PZ_OpenBag,
-        	CloseSound   		=   	PZ_CloseBag,
-        	PutInSound   		=   	PZ_PutInBag,
-        	UseWhileEquipped	=	FALSE,
-	}
 
 /************************Food************************/
 
@@ -329,7 +302,7 @@ module Base
 		DisplayName		=	Open Canned Soup,
 		Icon			=	SoupOpen,
 		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
 		DaysTotallyRotten	=	4,
         	DaysFresh 		= 	2,
         	Carbohydrates 		= 	20,
@@ -560,7 +533,7 @@ module Base
 		DisplayName		=	Pop,
 		Icon			=	Pop,
 		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
         	Carbohydrates 		= 	39,
         	Proteins 		= 	0,
         	Lipids 			= 	0,
@@ -581,7 +554,7 @@ module Base
 		DisplayName		=	Pop,
 		Icon			=	Pop2,
 		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
         	Carbohydrates 		= 	39,
         	Proteins 		= 	0,
         	Lipids 			= 	0,
@@ -602,7 +575,7 @@ module Base
 		DisplayName		=	Pop,
 		Icon			=	Pop3,
 		CustomContextMenu 	= 	Drink,
-		CustomEatSound 		= 	PZ_DrinkingFromBottle,
+		CustomEatSound 		= 	DrinkingFromBottle,
         	Carbohydrates 		= 	39,
         	Proteins 		= 	0,
         	Lipids 			= 	0,
@@ -732,7 +705,7 @@ module Base
         	DaysFresh 		=	4,
        	 	DaysTotallyRotten 	=	7,
 		CustomContextMenu	=	Drink,
-		CustomEatSound		=	PZ_DrinkingFromBottle,
+		CustomEatSound		=	DrinkingFromBottle,
         	Carbohydrates 		= 	13,
         	Proteins 		= 	8,
         	Lipids 			= 	2.5,
@@ -851,7 +824,7 @@ module Base
 		UseDelta		=	0.125,
 		DisplayName		=	Propane Tank,
 		Icon			=	PropaneTank,
-		ResizeWorldIcon 	= 	2.0,
+		
 		ReplaceOnDeplete	=	Hydrocraft.HCPropanetankempty,
 	}
 
@@ -915,19 +888,21 @@ module Base
 
 	item Cigarettes
 	{
-		Count			=	20,
-		HungerChange		=	0,
-		Weight			=	0.005,
-		RequireInHandOrInventory=	Lighter/Matches,
-		Type			=	Food,
-		DisplayName		=	Cigarettes,
-		StressChange		=	-5,
-		Icon			=	IckySticks,
-		CustomContextMenu 	= 	Smoke,
+		Count	=	20,
+		HungerChange	=	0,
+		Weight	=	0.005,
+		RequireInHandOrInventory	=	Lighter/Matches,
+		Type	=	Food,
+		DisplayName	=	Cigarettes,
+		StressChange	=	-5,
+		Icon	=	IckySticks,
+		CustomContextMenu = Smoke,
+		CantBeFrozen = TRUE,
+		OnEat = OnEat_Cigarettes,
+		ReplaceOnUse = Hydrocraft.HCCigarettebutt,
+		StaticModel = Cigarette,
+		EatType = Cigarettes,
 		CustomEatSound = HC_LightUp,
-		CantBeFrozen 		= 	TRUE,
-		OnEat 			= 	OnEat_Cigarettes,
-		ReplaceOnUse		=	Hydrocraft.HCCigarettebutt,
 	}
 
 /************************Pain Cans************************/

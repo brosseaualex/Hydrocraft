@@ -9,6 +9,22 @@ module Hydrocraft
 /************************ITEMS************************/
 
 
+item HCFirefighterhelmet
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Firefighter Hat,
+        icon 			= HCFirefighterhelmet,
+    }
+
+item HCFirefighterjacket
+    {
+        Weight    	        = 1.3,
+        Type    	        = Normal,
+        DisplayName    	        = Firefighter Jacket,
+        Icon    	        = HCFirefighterjacket,
+    }
+
 item HCFiresuit
     {
         Weight    	        = 1.3,
@@ -17,9 +33,59 @@ item HCFiresuit
         Icon    	        = HCFiresuit,
     }
 
+item HCFirehose
+	{
+	Weight			=	12,
+        Type			=	Normal,
+        DisplayName		=	Fire Hose,
+	Icon			=	HCFirehose,
+	}
 
+item HCFirehosenozzle
+	{
+	Weight			=	3,
+        Type			=	Normal,
+        DisplayName		=	Fire Hose Nozzle,
+	Icon			=	HCFirehosenozzle,
+	}
 
+/************************WEAPONS************************/
 
+item HCFirehook
+	{
+		MaxRange			=	1.5,
+		WeaponSprite			=	Baseballbat,
+		MinAngle			=	0.2,
+		Type				=	Weapon,
+		MinimumSwingTime		=	3,
+		KnockBackOnNoDeath		=	TRUE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blunt,
+		ConditionLowerChanceOneIn	=	30,
+		Weight				=	1,
+		SplatNumber			=	1,
+		PushBackMod			=	0.5,
+		MaxDamage			=	1.2,
+		SubCategory			=	Swinging,
+		ConditionMax			=	15,
+		MaxHitCount			=	2,
+		DoorDamage			=	7,
+		IdleAnim			=	Idle_Weapon2,
+		SwingAnim			=	Bat,
+		CriticalChance			=	10,
+		WeaponWeight			=	1,
+		DisplayName			=	Fire Hook,
+		MinRange			=	0.61,
+		SwingTime			=	3,
+		HitAngleMod			=	-30,
+		MinDamage			=	0.8,
+		KnockdownMod			=	2,
+		SplatBloodOnNoDeath		=	FALSE,
+		Icon				=	HCFirehook,
+		RunAnim				=	Run_Weapon2,
+		BreakSound  			=   	BreakMetalItem,
+        	TreeDamage  			=   	1,
+	}
 
 /************************RECIPES************************/
 
@@ -32,10 +98,11 @@ recipe Make Fireproof Suit
 	HCWorkgloves,
 	HCBlacksmithapron,
 	WeldingMask,
-	HCLinenshirt,
+	Hat_Fireman,
 	Jacket_Fireman,
 	Trousers_Fireman,
-	Shoes_BlackBoots/Shoes_ArmyBoots/Shoes_ArmyBootsDesert/HCLeatherboots,
+	Socks_Long,
+	Shoes_ArmyBootsDesert,
 	Thread, 
 	keep Needle/HCBoneneedle,
 	keep HCSafetyglasses,
@@ -46,9 +113,8 @@ recipe Make Fireproof Suit
     	Result:HCFiresuit,
     	Time:500,
        	Category:Engineer,
-       	OnGiveXP:Tailoring_OnGiveXP,
+       	OnGiveXP:HCHunger_OnGiveXP,
     }
-
 
 }
 

@@ -1,0 +1,884 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+
+
+
+
+/************************RECIPES************************/	
+
+
+/*
+recipe Renew Windshield
+    {
+        keep Windshield1,
+        HCGlassingot,
+        CanBeDoneFromFloor:true,
+        Time:100,
+        Result:Nails,
+        Category:Glassworking,
+        OnCreate:fixWindshield1,
+    }
+
+
+recipe Renew Heavy Duty Car Door
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        FrontCarDoor1,
+        keep FrontCarDoor1/FrontCarDoor2/FrontCarDoor3,
+        keep HCWorkgloves,
+        keep HCPliers,
+        Result:FrontCarDoor1,
+        Time:20.0,
+        Category:Smithing,
+        OnGiveXP:HCMechanics_OnGiveXP,
+        OnCreate:RenewCarDoor,
+    }
+
+recipe Renew Sports Car Door
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        FrontCarDoor2,
+        keep FrontCarDoor1/FrontCarDoor2/FrontCarDoor3,
+        keep HCWorkgloves,
+        Result:FrontCarDoor2,
+        Time:20.0,
+        Category:Smithing,
+        OnGiveXP:HCMechanics_OnGiveXP,
+        OnCreate:RenewCarDoor,
+    }
+*/
+
+recipe Renew Car Door
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        FrontCarDoor1=1,
+        HCAluminumingot,
+        HCSteelingot,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:FrontCarDoor1,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Car Door
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        FrontCarDoor2=1,
+        HCAluminumingot,
+        HCSteelingot,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:FrontCarDoor2,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Car Door
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        FrontCarDoor3=1,
+        HCAluminumingot,
+        HCSteelingot,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:FrontCarDoor3,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Car Door
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        RearCarDoor1=1,
+        HCAluminumingot,
+        HCSteelingot,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:RearCarDoor1,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Car Door
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        RearCarDoor2=1,
+        HCAluminumingot,
+        HCSteelingot,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:RearCarDoor2,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Car Door
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        RearCarDoor3=1,
+        HCAluminumingot,
+        HCSteelingot,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:RearCarDoor3,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Car Door
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        RearCarDoorDouble1=1,
+        HCAluminumingot,
+        HCSteelingot,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:RearCarDoorDouble1,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+
+
+recipe Renew Engine Hood
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        EngineDoor1=1,
+        HCAluminumingot,
+        HCSteelingot,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:EngineDoor1,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Engine Hood
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        EngineDoor2=1,
+        HCAluminumingot,
+        HCSteelingot,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:EngineDoor2,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Engine Hood
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        EngineDoor3=1,
+        HCAluminumingot,
+        HCSteelingot,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:EngineDoor3,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+
+recipe Renew Trunk Lid
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        TrunkDoor1=1,
+        HCAluminumingot,
+        HCSteelingot,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:TrunkDoor1,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Trunk Lid
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        TrunkDoor2=1,
+        HCAluminumingot,
+        HCSteelingot,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:TrunkDoor2,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Trunk Lid
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        TrunkDoor3=1,
+        HCAluminumingot,
+        HCSteelingot,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:TrunkDoor3,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+
+recipe Renew Muffler
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        ModernCarMuffler1=1,
+        OldCarMuffler1/NormalCarMuffler1/ModernCarMuffler1/OldCarMuffler2/NormalCarMuffler2/ModernCarMuffler2/OldCarMuffler3/NormalCarMuffler3/ModernCarMuffler3,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:ModernCarMuffler1,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Muffler
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        ModernCarMuffler2=1,
+        OldCarMuffler1/NormalCarMuffler1/ModernCarMuffler1/OldCarMuffler2/NormalCarMuffler2/ModernCarMuffler2/OldCarMuffler3/NormalCarMuffler3/ModernCarMuffler3,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:ModernCarMuffler2,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Muffler
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        ModernCarMuffler3=1,
+        OldCarMuffler1/NormalCarMuffler1/ModernCarMuffler1/OldCarMuffler2/NormalCarMuffler2/ModernCarMuffler2/OldCarMuffler3/NormalCarMuffler3/ModernCarMuffler3,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:ModernCarMuffler3,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+
+recipe Renew Car Brake
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        ModernBrake1=1,
+        HCBreakpads/HCDrumbreak/ModernBrake1,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:ModernBrake1,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Car Brake
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        ModernBrake2=1,
+        HCBreakpads/HCDrumbreak/ModernBrake2,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:ModernBrake2,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Car Brake
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        ModernBrake3=1,
+        HCBreakpads/HCDrumbreak/ModernBrake3,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:ModernBrake3,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Suspension
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        ModernSuspension1=1,
+        NormalSuspension1/ModernSuspension1,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:ModernSuspension1,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Suspension
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        ModernSuspension2=1,
+        NormalSuspension2/ModernSuspension2,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:NormalSuspension2,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Suspension
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        ModernSuspension3=1,
+        NormalSuspension3/ModernSuspension3,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:NormalSuspension3,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+
+recipe Renew Windshield
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        Windshield1,
+        HCGlasspanelarge,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:Windshield1,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Windshield
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        Windshield2,
+        HCGlasspanelarge,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:Windshield2,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Windshield
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        Windshield3,
+        HCGlasspanelarge,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:Windshield3,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+
+recipe Renew Rear Windshield
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        RearWindshield1,
+        HCGlasspanelarge,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:RearWindshield1,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+
+recipe Renew Rear Windshield
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        RearWindshield2,
+        HCGlasspanelarge,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:RearWindshield2,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+
+recipe Renew Rear Windshield
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        RearWindshield3,
+        HCGlasspanelarge,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:RearWindshield3,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Front Window
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        FrontWindow1,
+        HCGlasspane,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:FrontWindow1,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Front Window
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        FrontWindow2,
+        HCGlasspane,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:FrontWindow2,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Front Window
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        FrontWindow3,
+        HCGlasspane,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:FrontWindow3,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Rear Window
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        RearWindow1,
+        HCGlasspane,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:RearWindow1,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Renew Rear Window
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        RearWindow2,
+        HCGlasspane,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:RearWindow2,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+
+recipe Renew Rear Window
+    {
+        SkillRequired:Mechanics=5;MetalWelding=6;Maintenance=4,
+        RearWindow3,
+        HCGlasspane,
+        HCWeldingset,
+        keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        Result:RearWindow3,
+        Time:22.2,
+        Category:Mechanics,
+        OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+
+
+recipe Make Standard Car Window
+    {
+    	SkillRequired:Mechanics=6;MetalWelding=8;Maintenance=5,
+		HCGlasspane,
+		HCBioplastic=2,
+		HCAluminumingot,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        keep HCBlastfurnace,
+		CanBeDoneFromFloor:true,
+		Result:FrontWindow1,
+		Time:22.2,
+		Category:Mechanics,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Make Standard Car Window
+    {
+    	SkillRequired:Mechanics=6;MetalWelding=8;Maintenance=5,
+		HCGlasspane,
+		HCBioplastic=2,
+		HCAluminumingot,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        keep HCBlastfurnace,
+		CanBeDoneFromFloor:true,
+		Result:RearWindow1,
+		Time:22.2,
+		Category:Mechanics,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Make Standard Car Window
+    {
+    	SkillRequired:Mechanics=6;MetalWelding=8;Maintenance=5,
+		HCGlasspanelarge,
+		HCBioplastic=2,
+		HCAluminumingot,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        keep HCBlastfurnace,
+		CanBeDoneFromFloor:true,
+		Result:Windshield1,
+		Time:22.2,
+		Category:Mechanics,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Make Standard Car Window
+    {
+    	SkillRequired:Mechanics=6;MetalWelding=8;Maintenance=5,
+		HCGlasspanelarge,
+		HCBioplastic=2,
+		HCAluminumingot,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        keep HCBlastfurnace,
+		CanBeDoneFromFloor:true,
+		Result:RearWindshield1,
+		Time:22.2,
+		Category:Mechanics,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+
+	
+recipe Make Heavy Car Window
+    {
+    	SkillRequired:Mechanics=6;MetalWelding=8;Maintenance=5,
+		HCGlasspane,
+		HCBioplastic=2,
+		HCAluminumingot,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        keep HCBlastfurnace,
+		CanBeDoneFromFloor:true,
+		Result:FrontWindow2,
+		Time:22.2,
+		Category:Mechanics,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Make Heavy Car Window
+    {
+    	SkillRequired:Mechanics=6;MetalWelding=8;Maintenance=5,
+		HCGlasspane,
+		HCBioplastic=2,
+		HCAluminumingot,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        keep HCBlastfurnace,
+		CanBeDoneFromFloor:true,
+		Result:RearWindow2,
+		Time:22.2,
+		Category:Mechanics,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Make Heavy Car Window
+    {
+    	SkillRequired:Mechanics=6;MetalWelding=8;Maintenance=5,
+		HCGlasspanelarge,
+		HCBioplastic=2,
+		HCAluminumingot,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        keep HCBlastfurnace,
+		CanBeDoneFromFloor:true,
+		Result:Windshield2,
+		Time:22.2,
+		Category:Mechanics,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Make Heavy Car Window
+    {
+    	SkillRequired:Mechanics=6;MetalWelding=8;Maintenance=5,
+		HCGlasspanelarge,
+		HCBioplastic=2,
+		HCAluminumingot,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        keep HCBlastfurnace,
+		CanBeDoneFromFloor:true,
+		Result:RearWindshield2,
+		Time:22.2,
+		Category:Mechanics,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+
+recipe Make Sport Car Window
+    {
+    	SkillRequired:Mechanics=6;MetalWelding=8;Maintenance=5,
+		HCGlasspane,
+		HCBioplastic=2,
+		HCAluminumingot,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        keep HCBlastfurnace,
+		CanBeDoneFromFloor:true,
+		Result:FrontWindow3,
+		Time:22.2,
+		Category:Mechanics,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Make Sport Car Window
+    {
+    	SkillRequired:Mechanics=6;MetalWelding=8;Maintenance=5,
+		HCGlasspane,
+		HCBioplastic=2,
+		HCAluminumingot,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        keep HCBlastfurnace,
+		CanBeDoneFromFloor:true,
+		Result:RearWindow3,
+		Time:22.2,
+		Category:Mechanics,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Make Sport Car Window
+    {
+    	SkillRequired:Mechanics=6;MetalWelding=8;Maintenance=5,
+		HCGlasspanelarge,
+		HCBioplastic=2,
+		HCAluminumingot,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        keep HCBlastfurnace,
+		CanBeDoneFromFloor:true,
+		Result:Windshield3,
+		Time:22.2,
+		Category:Mechanics,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+recipe Make Sport Car Window
+    {
+    	SkillRequired:Mechanics=6;MetalWelding=8;Maintenance=5,
+		HCGlasspanelarge,
+		HCBioplastic=2,
+		HCAluminumingot,
+		Charcoal,
+		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		keep HCWorkgloves,
+        keep HCPliers,
+        keep Screwdriver,
+        keep HCWrench,
+        keep HCBlastfurnace,
+		CanBeDoneFromFloor:true,
+		Result:RearWindshield3,
+		Time:22.2,
+		Category:Mechanics,
+		OnCreate:IFurnUse,
+		OnGiveXP:HCMechanics_OnGiveXP,
+    }
+
+}

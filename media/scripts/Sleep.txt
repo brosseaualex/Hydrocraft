@@ -23,7 +23,7 @@ item HCSleepingbagsleepin
         Type    		= Normal,
         DisplayName         	= Sleeping Bag,
         icon 			= HCSleepingbagsleepin,
-	ResizeWorldIcon 	= 1.0,
+	
 	Tooltip 		= Tooltip_HCSleep,
     }
 
@@ -41,7 +41,7 @@ item HCSleepingbag2sleepin
         Type    		= Normal,
         DisplayName         	= Sleeping Bag,
         icon 			= HCSleepingbag2sleepin,
-	ResizeWorldIcon 	= 1.0,
+	
 	Tooltip 		= Tooltip_HCSleep,
     }
 
@@ -59,7 +59,7 @@ item HCSleepingbag3sleepin
         Type    		= Normal,
         DisplayName         	= Sleeping Bag,
         icon 			= HCSleepingbag3sleepin,
-	ResizeWorldIcon 	= 1.0,
+	
 	Tooltip 		= Tooltip_HCSleep,
     }
 
@@ -69,7 +69,7 @@ item HCForestbedsleepin
         Type    		= Normal,
         DisplayName         	= Forest Bed,
         icon 			= HCForestbedsleepin,
-	ResizeWorldIcon 	= 1.0,
+	
 	Tooltip 		= Tooltip_HCSleep,
     }
 
@@ -89,7 +89,7 @@ item HCTentsleepin
         Capacity            	= 50,
         DisplayName         	= Dome Tent,
         icon 			= HCTent,
-	ResizeWorldIcon 	= 1.0,
+	
 	Tooltip 		= Tooltip_HCSleep,
     }
 
@@ -109,7 +109,7 @@ item HCTent2sleepin
         Capacity            	= 50,
         DisplayName         	= Dome Tent,
         icon 			= HCTent2,
-	ResizeWorldIcon 	= 1.0,
+	
 	Tooltip 		= Tooltip_HCSleep,
     }
 
@@ -129,7 +129,7 @@ item HCTent3sleepin
         Capacity            	= 50,
         DisplayName         	= Dome Tent,
         icon 			= HCTent3,
-	ResizeWorldIcon 	= 1.0,
+	
 	Tooltip 		= Tooltip_HCSleep,
     }
 
@@ -149,7 +149,7 @@ item HCTent4sleepin
         Capacity            	= 50,
         DisplayName         	= Dome Tent,
         icon 			= HCTent4,
-	ResizeWorldIcon 	= 1.0,
+	
 	Tooltip 		= Tooltip_HCSleep,
     }
 

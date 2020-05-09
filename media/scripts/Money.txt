@@ -239,7 +239,7 @@ item HCSlotmachine
         Type			=	Normal,
         DisplayName		=	Slot Machine,
 	Icon			=	HCSlotmachine,
-	ResizeWorldIcon 	= 	2.0,
+	
 	}
 
 item HCSlotmachine2
@@ -248,7 +248,7 @@ item HCSlotmachine2
         Type    		=	Normal,
         DisplayName         	= 	Slot Machine,
         icon 			= 	HCSlotmachine,
-	ResizeWorldIcon 	= 	2.0,
+	
     }
 
 item HCPokerchip
@@ -265,7 +265,7 @@ item HCRoulette
         Type			=	Normal,
         DisplayName		=	Roulette Table,
 	Icon			=	HCRoulette,
-	ResizeWorldIcon 	= 	2.0,
+	
 	}
 
 item HCRoulette2
@@ -274,7 +274,7 @@ item HCRoulette2
         Type    		=	Normal,
         DisplayName         	= 	Roulette Table,
         icon 			= 	HCRoulette,
-	ResizeWorldIcon 	= 	2.0,
+	
     }
 
 
@@ -290,7 +290,7 @@ recipe Recycle Zinc
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
 	CanBeDoneFromFloor:true,
     Result:HCZincingot,
     NeedToBeLearn:true,
@@ -308,7 +308,7 @@ recipe Recycle Zinc
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
 	CanBeDoneFromFloor:true,
     Result:HCZincingot,
     NeedToBeLearn:true,
@@ -326,7 +326,7 @@ recipe Recycle Zinc
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
 	CanBeDoneFromFloor:true,
     Result:HCZincingot,
     NeedToBeLearn:true,
@@ -344,7 +344,7 @@ recipe Recycle Zinc
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
 	CanBeDoneFromFloor:true,
     Result:HCZincingot,
     NeedToBeLearn:true,
@@ -362,7 +362,7 @@ recipe Recycle Zinc
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
 	CanBeDoneFromFloor:true,
     Result:HCZincingot,
     NeedToBeLearn:true,
@@ -380,7 +380,7 @@ recipe Recycle Zinc
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
 	CanBeDoneFromFloor:true,
     Result:HCZincingot,
     NeedToBeLearn:true,
@@ -398,7 +398,7 @@ recipe Recycle Copper
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
 	CanBeDoneFromFloor:true,
     Result:HCCopperingot,
     NeedToBeLearn:true,
@@ -416,7 +416,7 @@ recipe Recycle Silver
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
 	CanBeDoneFromFloor:true,
     Result:HCSilveringot,
     NeedToBeLearn:true,
@@ -434,7 +434,7 @@ recipe Recycle Gold
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
 	CanBeDoneFromFloor:true,
     Result:HCGoldingot,
     NeedToBeLearn:true,

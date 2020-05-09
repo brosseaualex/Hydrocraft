@@ -941,7 +941,7 @@ recipe Make Corned Beef Taco
 		CannedCornedBeefOpen,
 		Cabbage/HCCabbagered/HCCabbagewhite,
 		HCTacosaucebottle/HCTacosaucebowl,
-		MayonnaiseFull,
+		Base.MayonnaiseFull,
 		Pan,
 		Result:HCTacocornedbeef,
     		NeedToBeLearn:true,

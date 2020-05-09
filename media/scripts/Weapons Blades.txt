@@ -11,52 +11,12 @@ module Hydrocraft
 
 /************************WEAPONS************************/
 
-	item HCMachete
-	{
-		DisplayName					=	Machete,
-		Type						=	Weapon,
-		SubCategory					=	Swinging,
-		Categories					=	Blade,
-		WeaponSprite					=	Knife,
-		SwingAnim					=	Bat,
-		CloseKillMove 					= 	Jaw_Stab,
-		AimingMod					=	1,
-		RunAnim						=	Run_Weapon2,
-		IdleAnim					=	Idle_Weapon2,
-		Icon						=	HCMachete,
-		Weight						=	0.5,
-		WeaponWeight					=	0.5,
-		MaxRange					=	1.30,
-		MinRange					=	0.61,
-		MaxDamage					=	1,
-		MinDamage					=	0.5,
-		CriticalChance					=	25,
-		DoorDamage					=	15,
-		MaxHitCount					=	1,
-		PushBackMod					=	0.5,
-		KnockBackOnNoDeath				=	TRUE,
-		KnockdownMod					=	1,
-		ConditionLowerChanceOneIn			=	35,
-		ConditionMax					=	10,
-		SplatNumber					=	1,
-		SplatSize					=	2,
-		SplatBloodOnNoDeath				=	TRUE,
-		SwingTime					=	2.25,
-		MinimumSwingTime				=	2.25,
-		SwingAmountBeforeImpact				=	0.02,
-		HitAngleMod					=	-30,
-		MinAngle					=	0,
-		TwoHandWeapon 					= 	FALSE,
-        	BreakSound  					=   	BreakMetalItem,
-        	TreeDamage  					=   	20,
-	}
-
 	item HCCombatknife	
 	{
 		DisplayName					=	Combat Knife,
 		Type						=	Weapon,
 		SubCategory					=	Stab,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		WeaponSprite					=	Knife,
 		SwingAnim					=	Stab,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -91,47 +51,8 @@ module Hydrocraft
         	TreeDamage  					=   	1,
 	}
 
-	item HCKatana	
-	{
-		DisplayName					=	Katana,
-		Type						=	Weapon,
-		SubCategory					=	Swinging,
-		Categories					=	Blade,
-		WeaponSprite					=	Poolcue,
-		SwingAnim					=	Bat,
-		CloseKillMove 					= 	Jaw_Stab,
-		AimingMod					=	1,
-		RunAnim						=	Run_Weapon2,
-		IdleAnim					=	Idle_Weapon2,
-		Icon						=	HCKatana,
-		ImpactSound					=	PZ_FoodSwoosh,
-		Weight						=	1,
-		WeaponWeight					=	0.5,
-		MaxRange					=	2,
-		MinRange					=	0.5,
-		MaxDamage					=	2,
-		MinDamage					=	0.8,
-		CriticalChance					=	25,
-		DoorDamage					=	15,
-		MaxHitCount					=	3,
-		PushBackMod					=	0.75,
-		KnockBackOnNoDeath				=	TRUE,
-		KnockdownMod					=	2.25,
-		ConditionLowerChanceOneIn			=	20,
-		ConditionMax					=	10,
-		SplatNumber					=	8,
-		SplatSize					=	2,
-		SplatBloodOnNoDeath				=	TRUE,
-		SwingTime					=	2.2,
-		MinimumSwingTime				=	2.2,
-		SwingAmountBeforeImpact				=	0.02,
-		HitAngleMod					=	-30,
-		MinAngle					=	0.2,
-		TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	BreakMetalItem,
-        	TreeDamage  					=   	10,
-	}
 
+/*
 item HCShurikensteel
     {
         MaxRange		=	20,
@@ -153,7 +74,7 @@ item HCShurikensteel
 
 item HCShurikeniron
     {
-        MaxRange		=	15,
+        MaxRange		=	20,
         Type			=	Weapon,
         MinimumSwingTime	=	1.5,
         SwingAnim		=	Bat,
@@ -162,8 +83,8 @@ item HCShurikeniron
         SwingTime		=	1.5,
         SwingAmountBeforeImpact	=	0.1,
         PhysicsObject		=	NoiseGenerator,
-        MaxDamage		=	0.6,
-        MinDamage		=	0.3,
+        MaxDamage		=	8.6,
+        MinDamage		=	2.3,
         Weight			=	0.2,
         MaxHitCount		=	0,
         Icon			=	HCShurikeniron,
@@ -207,7 +128,7 @@ item HCShurikencopper
         Icon			=	HCShurikencopper,
         NoiseRange  		=   	1,
     }
-
+*/
 	item HCKnifesteel
 	{
 		MaxRange					=	0.9,
@@ -217,7 +138,7 @@ item HCShurikencopper
 		MinimumSwingTime				=	2,
 		KnockBackOnNoDeath				=	FALSE,
 		SwingAmountBeforeImpact				=	0.02,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		ConditionLowerChanceOneIn			=	20,
 		Weight						=	0.3,
 		SplatNumber					=	0,
@@ -255,7 +176,7 @@ item HCShurikencopper
 		MinimumSwingTime				=	2,
 		KnockBackOnNoDeath				=	FALSE,
 		SwingAmountBeforeImpact				=	0.02,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		ConditionLowerChanceOneIn			=	15,
 		Weight						=	0.3,
 		SplatNumber					=	0,
@@ -293,7 +214,7 @@ item HCShurikencopper
 		MinimumSwingTime				=	2,
 		KnockBackOnNoDeath				=	FALSE,
 		SwingAmountBeforeImpact				=	0.02,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		ConditionLowerChanceOneIn			=	10,
 		Weight						=	0.3,
 		SplatNumber					=	0,
@@ -331,7 +252,7 @@ item HCShurikencopper
 		MinimumSwingTime				=	2,
 		KnockBackOnNoDeath				=	FALSE,
 		SwingAmountBeforeImpact				=	0.02,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		ConditionLowerChanceOneIn			=	5,
 		Weight						=	0.3,
 		SplatNumber					=	0,
@@ -370,7 +291,7 @@ item HCShurikencopper
 		MinimumSwingTime				=	2,
 		KnockBackOnNoDeath				=	FALSE,
 		SwingAmountBeforeImpact				=	0.02,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		ConditionLowerChanceOneIn			=	3,
 		Weight						=	0.3,
 		SplatNumber					=	0,
@@ -408,7 +329,7 @@ item HCShurikencopper
 		MinimumSwingTime				=	2,
 		KnockBackOnNoDeath				=	FALSE,
 		SwingAmountBeforeImpact				=	0.02,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		ConditionLowerChanceOneIn			=	20,
 		Weight						=	0.3,
 		SplatNumber					=	0,
@@ -445,7 +366,7 @@ item HCShurikencopper
 		MinimumSwingTime				=	2,
 		KnockBackOnNoDeath				=	FALSE,
 		SwingAmountBeforeImpact				=	0.02,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		ConditionLowerChanceOneIn			=	15,
 		Weight						=	0.3,
 		SplatNumber					=	0,
@@ -482,7 +403,7 @@ item HCShurikencopper
 		MinimumSwingTime				=	2,
 		KnockBackOnNoDeath				=	FALSE,
 		SwingAmountBeforeImpact				=	0.02,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		ConditionLowerChanceOneIn			=	10,
 		Weight						=	0.3,
 		SplatNumber					=	0,
@@ -519,7 +440,7 @@ item HCShurikencopper
 		MinimumSwingTime				=	2,
 		KnockBackOnNoDeath				=	FALSE,
 		SwingAmountBeforeImpact				=	0.02,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		ConditionLowerChanceOneIn			=	5,
 		Weight						=	0.3,
 		SplatNumber					=	0,
@@ -552,7 +473,7 @@ item HCShurikencopper
 		DisplayName					=	Steel Short Sword,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		WeaponSprite					=	Knife,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -585,14 +506,14 @@ item HCShurikencopper
 		TwoHandWeapon 					= 	FALSE,
         	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	10,
-	}
+        }
 
 	item HCShortswordiron
 	{
 		DisplayName					=	Iron Short Sword,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		WeaponSprite					=	Knife,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -632,7 +553,7 @@ item HCShurikencopper
 		DisplayName					=	Bronze Short Sword,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		WeaponSprite					=	Knife,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -672,7 +593,7 @@ item HCShurikencopper
 		DisplayName					=	Copper Short Sword,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		WeaponSprite					=	Knife,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -712,40 +633,40 @@ item HCShurikencopper
 		DisplayName					=	Steel Long Sword,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
-		WeaponSprite					=	Poolcue,
+		Categories					=	LongBlade,
+		WeaponSprite				=	Poolcue,
 		SwingAnim					=	Bat,
-		CloseKillMove 					= 	Jaw_Stab,
 		AimingMod					=	1,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
 		Icon						=	HCLongswordsteel,
-		ImpactSound					=	PZ_FoodSwoosh,
+		ImpactSound					=	BladeHit,
 		Weight						=	1,
 		WeaponWeight					=	1,
 		MaxRange					=	2,
 		MinRange					=	0.5,
-		MaxDamage					=	2,
-		MinDamage					=	0.8,
-		CriticalChance					=	25,
-		DoorDamage					=	15,
+		MaxDamage					=	5,
+		MinDamage					=	2,
+		CriticalChance					=	50,
+		DoorDamage					=	10,
 		MaxHitCount					=	3,
 		PushBackMod					=	0.75,
 		KnockBackOnNoDeath				=	TRUE,
 		KnockdownMod					=	2.25,
-		ConditionLowerChanceOneIn			=	20,
-		ConditionMax					=	10,
+		ConditionLowerChanceOneIn			=	10,
+		ConditionMax					=	50,
 		SplatNumber					=	8,
 		SplatSize					=	2,
 		SplatBloodOnNoDeath				=	TRUE,
-		SwingTime					=	3,
+		SwingTime					=	1,
 		MinimumSwingTime				=	3,
 		SwingAmountBeforeImpact				=	0.02,
 		HitAngleMod					=	-30,
 		MinAngle					=	0.2,
 		TwoHandWeapon 					= 	TRUE,
-        	BreakSound  					=   	BreakMetalItem,
-        	TreeDamage  					=   	10,
+        BreakSound  					=   	BreakMetalItem,
+        TreeDamage  					=   	10,
+        AttachmentType 					= BigWeapon
 	}
 
 	item HCLongswordiron	
@@ -753,7 +674,7 @@ item HCShurikencopper
 		DisplayName					=	Iron Long Sword,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	LongBlade,
 		WeaponSprite					=	Poolcue,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -761,7 +682,7 @@ item HCShurikencopper
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
 		Icon						=	HCLongswordiron,
-		ImpactSound					=	PZ_FoodSwoosh,
+		ImpactSound					=	BladeHit,
 		Weight						=	1,
 		WeaponWeight					=	1,
 		MaxRange					=	2,
@@ -794,7 +715,7 @@ item HCShurikencopper
 		DisplayName					=	Bronze Long Sword,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	LongBlade,
 		WeaponSprite					=	Poolcue,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -802,7 +723,7 @@ item HCShurikencopper
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
 		Icon						=	HCLongswordbronze,
-		ImpactSound					=	PZ_FoodSwoosh,
+		ImpactSound					=	BladeHit,
 		Weight						=	1,
 		WeaponWeight					=	1,
 		MaxRange					=	2,
@@ -835,7 +756,7 @@ item HCShurikencopper
 		DisplayName					=	Copper Long Sword,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	LongBlade,
 		WeaponSprite					=	Poolcue,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -843,7 +764,7 @@ item HCShurikencopper
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
 		Icon						=	HCLongswordcopper,
-		ImpactSound					=	PZ_FoodSwoosh,
+		ImpactSound					=	BladeHit,
 		Weight						=	1,
 		WeaponWeight					=	1,
 		MaxRange					=	2,
@@ -876,7 +797,7 @@ item HCShurikencopper
 		DisplayName					=	Steel Bastard Sword,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	LongBlade,
 		WeaponSprite					=	Poolcue,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -884,7 +805,7 @@ item HCShurikencopper
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
 		Icon						=	HCBastardswordsteel,
-		ImpactSound					=	PZ_FoodSwoosh,
+		ImpactSound					=	BladeHit,
 		Weight						=	1.5,
 		WeaponWeight					=	1.5,
 		MaxRange					=	2,
@@ -917,7 +838,7 @@ item HCShurikencopper
 		DisplayName					=	Iron Bastard Sword,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	LongBlade,
 		WeaponSprite					=	Poolcue,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -925,7 +846,7 @@ item HCShurikencopper
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
 		Icon						=	HCBastardswordiron,
-		ImpactSound					=	PZ_FoodSwoosh,
+		ImpactSound					=	BladeHit,
 		Weight						=	1.5,
 		WeaponWeight					=	1.5,
 		MaxRange					=	2,
@@ -958,7 +879,7 @@ item HCShurikencopper
 		DisplayName					=	Bronze Bastard Sword,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	LongBlade,
 		WeaponSprite					=	Poolcue,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -966,7 +887,7 @@ item HCShurikencopper
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
 		Icon						=	HCBastardswordbronze,
-		ImpactSound					=	PZ_FoodSwoosh,
+		ImpactSound					=	BladeHit,
 		Weight						=	1.5,
 		WeaponWeight					=	1.5,
 		MaxRange					=	2,
@@ -999,7 +920,7 @@ item HCShurikencopper
 		DisplayName					=	Copper Bastard Sword,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	LongBlade,
 		WeaponSprite					=	Poolcue,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -1007,7 +928,7 @@ item HCShurikencopper
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
 		Icon						=	HCBastardswordcopper,
-		ImpactSound					=	PZ_FoodSwoosh,
+		ImpactSound					=	BladeHit,
 		Weight						=	1.5,
 		WeaponWeight					=	1.5,
 		MaxRange					=	2,
@@ -1040,15 +961,15 @@ item HCShurikencopper
 		DisplayName					=	Steel Great Sword,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
-		WeaponSprite					=	Poolcue,
+		Categories					=	LongBlade,
+		WeaponSprite				=	Poolcue,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
 		AimingMod					=	1,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
 		Icon						=	HCGreatswordsteel,
-		ImpactSound					=	PZ_FoodSwoosh,
+		ImpactSound					=	BladeHit,
 		Weight						=	2,
 		WeaponWeight					=	2,
 		MaxRange					=	2,
@@ -1082,7 +1003,7 @@ item HCShurikencopper
 		DisplayName					=	Iron Great Sword,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	LongBlade,
 		WeaponSprite					=	Poolcue,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -1090,7 +1011,7 @@ item HCShurikencopper
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
 		Icon						=	HCGreatswordiron,
-		ImpactSound					=	PZ_FoodSwoosh,
+		ImpactSound					=	BladeHit,
 		Weight						=	2,
 		WeaponWeight					=	2,
 		MaxRange					=	2,
@@ -1124,7 +1045,7 @@ item HCShurikencopper
 		DisplayName					=	Bronze Great Sword,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	LongBlade,
 		WeaponSprite					=	Poolcue,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -1132,7 +1053,7 @@ item HCShurikencopper
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
 		Icon						=	HCGreatswordbronze,
-		ImpactSound					=	PZ_FoodSwoosh,
+		ImpactSound					=	BladeHit,
 		Weight						=	2,
 		WeaponWeight					=	2,
 		MaxRange					=	2,
@@ -1166,7 +1087,7 @@ item HCShurikencopper
 		DisplayName					=	Copper Great Sword,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	LongBlade,
 		WeaponSprite					=	Poolcue,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -1174,7 +1095,7 @@ item HCShurikencopper
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
 		Icon						=	HCGreatswordcopper,
-		ImpactSound					=	PZ_FoodSwoosh,
+		ImpactSound					=	BladeHit,
 		Weight						=	2,
 		WeaponWeight					=	2,
 		MaxRange					=	2,
@@ -1208,7 +1129,7 @@ item HCShurikencopper
 		DisplayName					=	Steel Sickle,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		WeaponSprite					=	Knife,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -1248,7 +1169,7 @@ item HCShurikencopper
 		DisplayName					=	Iron Sickle,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		WeaponSprite					=	Knife,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -1288,7 +1209,7 @@ item HCShurikencopper
 		DisplayName					=	Bronze Sickle,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		WeaponSprite					=	Knife,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -1328,7 +1249,7 @@ item HCShurikencopper
 		DisplayName					=	Copper Sickle,
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
-		Categories					=	Blade,
+		Categories					=	SmallBlade,
 		WeaponSprite					=	Knife,
 		SwingAnim					=	Bat,
 		CloseKillMove 					= 	Jaw_Stab,
@@ -1364,15 +1285,16 @@ item HCShurikencopper
 	}
 
 /************************RECIPES************************/	
+/*
 
 recipe Make Steel Shuriken
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCSteelingot,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCShurikensteel,
 	   	Time:150.0,
@@ -1382,12 +1304,12 @@ recipe Make Steel Shuriken
 
 recipe Make Iron Shuriken
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCIroningot,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCShurikeniron,
 	   	Time:150.0,
@@ -1397,12 +1319,12 @@ recipe Make Iron Shuriken
 
 recipe Make Bronze Shuriken
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCBronzeingot,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCShurikenbronze,
 	   	Time:150.0,
@@ -1412,12 +1334,12 @@ recipe Make Bronze Shuriken
 
 recipe Make Bronze Shuriken
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCBronzeingot,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCShurikenbronze,
 	   	Time:150.0,
@@ -1427,12 +1349,12 @@ recipe Make Bronze Shuriken
 
 recipe Make Copper Shuriken
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCCopperingot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCShurikencopper,
 	   	Time:150.0,
@@ -1442,27 +1364,27 @@ recipe Make Copper Shuriken
 
 recipe Make Copper Shuriken
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCCopperingot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCShurikencopper,
 	   	Time:150.0,
        		Category:Smithing,
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
-
+*/
 recipe Make Steel Knife
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCSteelingot,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCKnifesteel,
 	   	Time:150.0,
@@ -1472,12 +1394,12 @@ recipe Make Steel Knife
 
 recipe Make Iron Knife
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCIroningot,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCKnifeiron,
 	   	Time:150.0,
@@ -1487,12 +1409,12 @@ recipe Make Iron Knife
 
 recipe Make Bronze Knife
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCBronzeingot,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCKnifebronze,
 	   	Time:150.0,
@@ -1502,12 +1424,12 @@ recipe Make Bronze Knife
 
 recipe Make Bronze Knife
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCBronzeingot,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCKnifebronze,
 	   	Time:150.0,
@@ -1517,12 +1439,12 @@ recipe Make Bronze Knife
 
 recipe Make Copper Knife
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCCopperingot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCKnifecopper,
 	   	Time:150.0,
@@ -1532,12 +1454,12 @@ recipe Make Copper Knife
 
 recipe Make Copper Knife
 	{
-		SkillRequired:BladeMaintenance=1,
+		SkillRequired:Maintenance=1,
 	   	HCCopperingot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCKnifecopper,
 	   	Time:150.0,
@@ -1547,12 +1469,12 @@ recipe Make Copper Knife
 
 recipe Make Steel Dagger
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCSteelingot,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCDaggersteel,
 	   	Time:150.0,
@@ -1562,12 +1484,12 @@ recipe Make Steel Dagger
 
 recipe Make Iron Dagger
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCIroningot,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCDaggeriron,
 	   	Time:150.0,
@@ -1577,12 +1499,12 @@ recipe Make Iron Dagger
 
 recipe Make Bronze Dagger
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCBronzeingot,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCDaggerbronze,
 	   	Time:150.0,
@@ -1592,12 +1514,12 @@ recipe Make Bronze Dagger
 
 recipe Make Bronze Dagger
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCBronzeingot,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCDaggerbronze,
 	   	Time:150.0,
@@ -1607,12 +1529,12 @@ recipe Make Bronze Dagger
 
 recipe Make Copper Dagger
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCCopperingot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCDaggercopper,
 	   	Time:150.0,
@@ -1622,12 +1544,12 @@ recipe Make Copper Dagger
 
 recipe Make Copper Dagger
 	{
-		SkillRequired:BladeMaintenance=2,
+		SkillRequired:Maintenance=2,
 	   	HCCopperingot,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCDaggercopper,
 	   	Time:150.0,
@@ -1637,12 +1559,12 @@ recipe Make Copper Dagger
 
 recipe Make Steel Short Sword
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCSteelingot=2,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCShortswordsteel,
 	   	Time:150.0,
@@ -1652,12 +1574,12 @@ recipe Make Steel Short Sword
 
 recipe Make Iron Short Sword
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCIroningot=2,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCShortswordiron,
 	   	Time:150.0,
@@ -1667,12 +1589,12 @@ recipe Make Iron Short Sword
 
 recipe Make Bronze Short Sword
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCBronzeingot=2,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCShortswordbronze,
 	   	Time:150.0,
@@ -1682,12 +1604,12 @@ recipe Make Bronze Short Sword
 
 recipe Make Bronze Short Sword
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCBronzeingot=2,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCShortswordbronze,
 	   	Time:150.0,
@@ -1697,12 +1619,12 @@ recipe Make Bronze Short Sword
 
 recipe Make Copper Short Sword
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCCopperingot=2,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCShortswordcopper,
 	   	Time:150.0,
@@ -1712,12 +1634,12 @@ recipe Make Copper Short Sword
 
 recipe Make Copper Short Sword
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCCopperingot=2,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCShortswordcopper,
 	   	Time:150.0,
@@ -1727,12 +1649,12 @@ recipe Make Copper Short Sword
 
 recipe Make Steel Long Sword
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCSteelingot=3,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLongswordsteel,
 	   	Time:150.0,
@@ -1740,14 +1662,25 @@ recipe Make Steel Long Sword
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
 
+recipe xxxSwordxxx
+	{
+   		HCWorkgloves,
+   		CanBeDoneFromFloor:true,
+	   	Result:HCWorkgloves,
+	   	Time:100.0,
+   		Category:Smithing,
+   		OnCreate:checkinv,
+	}
+
+
 recipe Make Iron Long Sword
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCIroningot=3,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLongswordiron,
 	   	Time:150.0,
@@ -1757,12 +1690,12 @@ recipe Make Iron Long Sword
 
 recipe Make Bronze Long Sword
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCBronzeingot=3,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLongswordbronze,
 	   	Time:150.0,
@@ -1772,12 +1705,12 @@ recipe Make Bronze Long Sword
 
 recipe Make Bronze Long Sword
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCBronzeingot=3,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLongswordbronze,
 	   	Time:150.0,
@@ -1787,12 +1720,12 @@ recipe Make Bronze Long Sword
 
 recipe Make Copper Long Sword
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCCopperingot=3,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLongswordcopper,
 	   	Time:150.0,
@@ -1802,12 +1735,12 @@ recipe Make Copper Long Sword
 
 recipe Make Copper Long Sword
 	{
-		SkillRequired:BladeMaintenance=4,
+		SkillRequired:Maintenance=4,
 	   	HCCopperingot=3,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLongswordcopper,
 	   	Time:150.0,
@@ -1817,12 +1750,12 @@ recipe Make Copper Long Sword
 
 recipe Make Steel Bastard Sword
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCSteelingot=4,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCBastardswordsteel,
 	   	Time:150.0,
@@ -1832,12 +1765,12 @@ recipe Make Steel Bastard Sword
 
 recipe Make Iron Bastard Sword
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCIroningot=4,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCBastardswordiron,
 	   	Time:150.0,
@@ -1847,12 +1780,12 @@ recipe Make Iron Bastard Sword
 
 recipe Make Bronze Bastard Sword
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCBronzeingot=4,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCBastardswordbronze,
 	   	Time:150.0,
@@ -1862,12 +1795,12 @@ recipe Make Bronze Bastard Sword
 
 recipe Make Bronze Bastard Sword
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCBronzeingot=4,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCBastardswordbronze,
 	   	Time:150.0,
@@ -1877,12 +1810,12 @@ recipe Make Bronze Bastard Sword
 
 recipe Make Copper Bastard Sword
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCCopperingot=4,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCBastardswordcopper,
 	   	Time:150.0,
@@ -1892,12 +1825,12 @@ recipe Make Copper Bastard Sword
 
 recipe Make Copper Bastard Sword
 	{
-		SkillRequired:BladeMaintenance=5,
+		SkillRequired:Maintenance=5,
 	   	HCCopperingot=4,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCBastardswordcopper,
 	   	Time:150.0,
@@ -1907,12 +1840,12 @@ recipe Make Copper Bastard Sword
 
 recipe Make Steel Great Sword
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCSteelingot=5,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCGreatswordsteel,
 	   	Time:150.0,
@@ -1922,12 +1855,12 @@ recipe Make Steel Great Sword
 
 recipe Make Iron Great Sword
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCIroningot=5,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCGreatswordiron,
 	   	Time:150.0,
@@ -1937,12 +1870,12 @@ recipe Make Iron Great Sword
 
 recipe Make Bronze Great Sword
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCBronzeingot=5,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCGreatswordbronze,
 	   	Time:150.0,
@@ -1952,12 +1885,12 @@ recipe Make Bronze Great Sword
 
 recipe Make Bronze Great Sword
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCBronzeingot=5,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCGreatswordbronze,
 	   	Time:150.0,
@@ -1967,12 +1900,12 @@ recipe Make Bronze Great Sword
 
 recipe Make Copper Great Sword
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCCopperingot=5,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCGreatswordcopper,
 	   	Time:150.0,
@@ -1982,12 +1915,12 @@ recipe Make Copper Great Sword
 
 recipe Make Copper Great Sword
 	{
-		SkillRequired:BladeMaintenance=6,
+		SkillRequired:Maintenance=6,
 	   	HCCopperingot=5,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCGreatswordcopper,
 	   	Time:150.0,
@@ -1997,12 +1930,12 @@ recipe Make Copper Great Sword
 
 recipe Make Steel Sickle
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCSteelingot=2,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCSicklesteel,
 	   	Time:150.0,
@@ -2012,12 +1945,12 @@ recipe Make Steel Sickle
 
 recipe Make Iron Sickle
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCIroningot=2,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCSickleiron,
 	   	Time:150.0,
@@ -2027,12 +1960,12 @@ recipe Make Iron Sickle
 
 recipe Make Bronze Sickle
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCBronzeingot=2,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCSicklebronze,
 	   	Time:150.0,
@@ -2042,12 +1975,12 @@ recipe Make Bronze Sickle
 
 recipe Make Bronze Sickle
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCBronzeingot=2,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCSicklebronze,
 	   	Time:150.0,
@@ -2057,12 +1990,12 @@ recipe Make Bronze Sickle
 
 recipe Make Copper Sickle
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCCopperingot=2,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCSicklecopper,
 	   	Time:150.0,
@@ -2072,12 +2005,12 @@ recipe Make Copper Sickle
 
 recipe Make Copper Sickle
 	{
-		SkillRequired:BladeMaintenance=3,
+		SkillRequired:Maintenance=3,
 	   	HCCopperingot=2,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		HCTongswood,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCSicklecopper,
 	   	Time:150.0,

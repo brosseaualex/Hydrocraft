@@ -8,7 +8,6 @@ module Hydrocraft
 
 /************************ITEMS************************/
 
-
 	item HCCharcoalpowder
     {
         Weight    		= 0.1,
@@ -449,7 +448,6 @@ item HCWoodenbucketlye
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Lye,
         icon 			= HCWoodenbucketlye,
-	ResizeWorldIcon 	= 2.0,
     }
 
 item HCNitricacid
@@ -597,7 +595,7 @@ item HCHmtdcrystals
 		Icon				=	HCHmtdcrystals,
 		ExplosionPower  		=   	40,
 		ExplosionRange  		=   	2,
-		ExplosionSound  		=   	smallExplosion,
+		ExplosionSound  		=   	SmallExplosion,
 	}
 
 item HCGlasstubehmtd
@@ -618,7 +616,7 @@ item HCGlasstubehmtd
 		Icon				=	HCGlasstubehmtd,
 		ExplosionPower  		=   	40,
 		ExplosionRange  		=   	2,
-		ExplosionSound  		=   	smallExplosion,
+		ExplosionSound  		=   	SmallExplosion,
 	}
 
 /************************RECIPES************************/
@@ -626,7 +624,7 @@ item HCGlasstubehmtd
 
 recipe Make Chalk Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCChalk/HCChalkrock,
     CanBeDoneFromFloor:true,
     Result:HCChalkpowder,
@@ -649,7 +647,7 @@ recipe Make Chalk Powder
 
 recipe Make Charcoal Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep MortarPestle/HCGrindstone2/HCLab2,
     Charcoal,
     CanBeDoneFromFloor:true,
     Result:HCCharcoalpowder,
@@ -674,7 +672,7 @@ recipe Make Charcoal Powder
 
 recipe Make Graphite Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep MortarPestle/HCGrindstone2/HCLab2,
     HCGraphite,
     CanBeDoneFromFloor:true,
     Result:HCGraphitepowder,
@@ -699,7 +697,7 @@ recipe Make Graphite Powder
 
 recipe Make Saltpeter Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep MortarPestle/HCGrindstone2/HCLab2,
     HCSaltpeter,
     CanBeDoneFromFloor:true,
     Result:HCSaltpeterpowder,
@@ -724,7 +722,7 @@ recipe Make Saltpeter Powder
 
 recipe Make Sulphur Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep MortarPestle/HCGrindstone2/HCLab2,
     HCSulphur,
     CanBeDoneFromFloor:true,
     Result:HCSulphurpowder,
@@ -749,7 +747,7 @@ recipe Make Sulphur Powder
 
 recipe Make Copper Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCCopperore,
     CanBeDoneFromFloor:true,
     Result:HCCopperpowder,
@@ -774,7 +772,7 @@ recipe Make Copper Powder
 
 recipe Make Tin Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCTinore,
     CanBeDoneFromFloor:true,
     Result:HCTinpowder,
@@ -799,7 +797,7 @@ recipe Make Tin Powder
 
 recipe Make Lead Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCLeadore,
     CanBeDoneFromFloor:true,
     Result:HCLeadpowder,
@@ -824,7 +822,7 @@ recipe Make Lead Powder
 
 recipe Make Iron Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCIronore,
     CanBeDoneFromFloor:true,
     Result:HCIronpowder,
@@ -849,7 +847,7 @@ recipe Make Iron Powder
 
 recipe Make Magnetite Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCMagnetite,
     CanBeDoneFromFloor:true,
     Result:HCMagnetitepowder,
@@ -874,7 +872,7 @@ recipe Make Magnetite Powder
 
 recipe Make Meteorite Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCMeteorite,
     CanBeDoneFromFloor:true,
     Result:HCMeteoritepowder,
@@ -899,7 +897,7 @@ recipe Make Meteorite Powder
 
 recipe Make Silver Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCSilverore,
     CanBeDoneFromFloor:true,
     Result:HCSilverpowder,
@@ -924,7 +922,7 @@ recipe Make Silver Powder
 
 recipe Make Gold Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCGoldore,
     CanBeDoneFromFloor:true,
     Result:HCGoldpowder,
@@ -949,7 +947,7 @@ recipe Make Gold Powder
 
 recipe Make Aluminum Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCBauxiteore,
     CanBeDoneFromFloor:true,
     Result:HCAluminumpowder,
@@ -974,7 +972,7 @@ recipe Make Aluminum Powder
 
 recipe Make Zinc Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCZincore,
     CanBeDoneFromFloor:true,
     Result:HCZincpowder,
@@ -999,7 +997,7 @@ recipe Make Zinc Powder
 
 recipe Make Nickel Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCNickelore,
     CanBeDoneFromFloor:true,
     Result:HCNickelpowder,
@@ -1024,7 +1022,7 @@ recipe Make Nickel Powder
 
 recipe Make Cobalt Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCCobaltore,
     CanBeDoneFromFloor:true,
     Result:HCCobaltpowder,
@@ -1049,7 +1047,7 @@ recipe Make Cobalt Powder
 
 recipe Make Chrome Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCChromeore,
     CanBeDoneFromFloor:true,
     Result:HCChromepowder,
@@ -1074,7 +1072,7 @@ recipe Make Chrome Powder
 
 recipe Make Tungsten Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCTungstenore,
     CanBeDoneFromFloor:true,
     Result:HCTungstenpowder,
@@ -1099,7 +1097,7 @@ recipe Make Tungsten Powder
 
 recipe Make Titanium Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCTitaniumore,
     CanBeDoneFromFloor:true,
     Result:HCTitaniumpowder,
@@ -1124,8 +1122,8 @@ recipe Make Titanium Powder
 
 recipe Make Phosphorus Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
-    keep KitchenKnife/HCScalpel/HCJackknife,
+    keep HCGrindstone2/HCLab2,
+    keep KitchenKnife/Base.Scalpel/HCJackknife,
     Matches=15,
     CanBeDoneFromFloor:true,
     Result:HCPhosphoruspowder,
@@ -1137,7 +1135,7 @@ recipe Make Phosphorus Powder
 
 recipe Make Phosphorus Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCBerlinite/HCLapislazuli,
     Result:HCPhosphoruspowder,
     CanBeDoneFromFloor:true,
@@ -1162,7 +1160,7 @@ recipe Make Phosphorus Powder
 
 recipe Make Lithium Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCLithiumore,
     Result:HCLithiumpowder,
     CanBeDoneFromFloor:true,
@@ -1187,7 +1185,7 @@ recipe Make Lithium Powder
 
 recipe Make Lapis Lazuli Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCLapislazuli,
     CanBeDoneFromFloor:true,
     Result:HCLapislazulipowder,
@@ -1212,7 +1210,7 @@ recipe Make Lapis Lazuli Powder
 
 recipe Make Azurite Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCAzurite,
     CanBeDoneFromFloor:true,
     Result:HCAzuritepowder,
@@ -1237,7 +1235,7 @@ recipe Make Azurite Powder
 
 recipe Make Jade Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCJade,
     CanBeDoneFromFloor:true,
     Result:HCJadepowder,
@@ -1262,7 +1260,7 @@ recipe Make Jade Powder
 
 recipe Make Malachite Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCMalachite,
     CanBeDoneFromFloor:true,
     Result:HCMalachitepowder,
@@ -1287,7 +1285,7 @@ recipe Make Malachite Powder
 
 recipe Make Marble Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCMarble,
     CanBeDoneFromFloor:true,
     Result:HCMarblepowder,
@@ -1312,7 +1310,7 @@ recipe Make Marble Powder
 
 recipe Make Albite Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCAlbite,
     CanBeDoneFromFloor:true,
     Result:HCAlbitepowder,
@@ -1337,7 +1335,7 @@ recipe Make Albite Powder
 
 recipe Make Feldspar Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCFeldspar,
     CanBeDoneFromFloor:true,
     Result:HCFeldsparpowder,
@@ -1362,7 +1360,7 @@ recipe Make Feldspar Powder
 
 recipe Make Gypsum Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCGypsum,
     CanBeDoneFromFloor:true,
     Result:HCGypsumpowder,
@@ -1387,7 +1385,7 @@ recipe Make Gypsum Powder
 
 recipe Make Diatomite Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCDiatomite,
     CanBeDoneFromFloor:true,
     Result:HCDiatomitepowder,
@@ -1412,7 +1410,7 @@ recipe Make Diatomite Powder
 
 recipe Make Trona Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCGrindstone2/HCLab2,
     HCTrona,
     CanBeDoneFromFloor:true,
     Result:HCTronapowder,
@@ -1448,7 +1446,7 @@ recipe Make Thermite
 recipe Make Thermite
     {
     Sparklers=10,
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep HCLab2,
     CanBeDoneFromFloor:true,
     Result:HCThermite,
     NeedToBeLearn:true,
@@ -1502,7 +1500,7 @@ recipe Cook Ammonal
     HCAmmonaltray,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     Charcoal,
-    keep HCKiln/HCKiln2,
+    keep HCKiln2,
     CanBeDoneFromFloor:true,
     Result:HCAmmonaldry,
     Time:1000,
@@ -1526,7 +1524,7 @@ recipe Fill Ammonal in Bag
 
 recipe Make Ephedrin Powder
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab/HCMedicallab,
+    keep HCLab/HCMedicallab,
     HCEphedrine=15,
     Result:HCEphedrinepowder,
     CanBeDoneFromFloor:true,
@@ -1567,7 +1565,7 @@ recipe Make 9mm Bullets
     GunPowder=10,
     HCBulletcasings=10,
     HCBullettips=10,
-    Result:BulletsBox,
+    Result:Base.BulletsBox,
     Time:100,
     Category:Engineer,
     OnGiveXP:HCHunger_OnGiveXP,
@@ -1617,7 +1615,7 @@ recipe Make Bucket of Lye
 	Stone,
 	HCGrass/HCStraw,
    	Result:HCWoodenbucketlye,
-    	Time:5000,
+    	Time:2000,
     	Category:Alchemy,
     	OnGiveXP:HCCooking_OnGiveXP,
     }
@@ -1646,7 +1644,7 @@ recipe Make Methylamin
 	HCBarrelblueempty,
         keep HCLatexgloves/HCRubberglove,   
         keep HCGasmask/HCImprovisedgasmask,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true, 
         NeedToBeLearn:true,
         Result:HCMethylaminbarrelbluefull,
@@ -1664,7 +1662,7 @@ recipe Make Methylamin
 	HCBarrelmetalempty,
         keep HCLatexgloves/HCRubberglove,   
         keep HCGasmask/HCImprovisedgasmask,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true, 
         NeedToBeLearn:true,
         Result:HCBarrelmetalmethylamin,
@@ -1681,7 +1679,7 @@ recipe Fill Chemical Bottle With Sodium Hydroxide Powder
 	keep HCSafetyglasses,
         keep HCLatexgloves/HCRubberglove,
         keep HCFunnel/HCGlassfunnel,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true, 
     	Result:HCBeakersodiumhydroxidesolution,
     	Time:50,
@@ -1696,7 +1694,7 @@ recipe Heat Beaker of Water
 	HCGlassbeaker,
         keep HCFunnel/HCGlassfunnel,
         keep HCWorkgloves/HCOvenmitts,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerwaterhot,
     	Time:50,
@@ -1710,7 +1708,7 @@ recipe Put Trona Powder In Hot Water
 	HCBeakerwaterhot,
         keep HCFunnel/HCGlassfunnel,
         keep HCWorkgloves/HCOvenmitts,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakertronasolution,
     	Time:50,
@@ -1723,7 +1721,7 @@ recipe Extract Sodium Carbonate
         HCBeakertronasolution,
 	keep HCSafetyglasses,
         keep HCLatexgloves/HCRubberglove,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCSodiumcarbonatpowder=2,
     	Time:50,
@@ -1737,7 +1735,7 @@ recipe Make Calcium Oxide
         HCChalkrock=2,
         Charcoal,
         Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-        keep HCKiln/HCKiln2,
+        keep HCKiln2,
         CanBeDoneFromFloor:true,
         Result:HCCalciumoxidpowder=4,
         Time:100,
@@ -1751,7 +1749,7 @@ recipe Mix Calcium Oxide With Water
         HCCalciumoxidpowder,
 	keep HCSafetyglasses,
         keep HCLatexgloves/HCRubberglove,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true,
         Result:HCBeakerwatercalciumoxid,
         Time:50,
@@ -1764,7 +1762,7 @@ recipe Extract Calcium Hydroxide
         HCBeakerwatercalciumoxid,
 	keep HCSafetyglasses,
         keep HCLatexgloves/HCRubberglove,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCCalciumhydroxidpowder=2,
     	Time:50,
@@ -1779,7 +1777,7 @@ recipe Make Sodium Hydroxide
         HCSodiumcarbonatpowder,
 	keep HCSafetyglasses,
         keep HCLatexgloves/HCRubberglove,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true,
         Result:HCSodiumhydroxidepowder,
         Time:50,
@@ -1794,7 +1792,7 @@ recipe Make Sodium Hydroxide Solution
         HCSodiumhydroxidepowder=2,
 	keep HCSafetyglasses,
         keep HCLatexgloves/HCRubberglove,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true,
         Result:HCBeakersodiumhydroxidesolution,
         Time:50,
@@ -1809,7 +1807,7 @@ recipe Make Calcium Chloride
         HCCalciumcarbonatpowder,
 	keep HCSafetyglasses,
         keep HCLatexgloves/HCRubberglove,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true,
         Result:HCCalciumchloridepowder,
         Time:250,
@@ -1824,7 +1822,7 @@ recipe Make Calcium Chloride Solution
         HCCalciumchloridepowder=2,
 	keep HCSafetyglasses,
         keep HCLatexgloves/HCRubberglove,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true,
         Result:HCBeakercalciumchloridesolution,
         Time:50,
@@ -1855,7 +1853,7 @@ recipe Fill Acid Bath With Muriatic Acid
 	HCAcidbathempty,
 	HCBeakermuriaticacid,
         keep HCRubberglove,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCAcidbathmuriaticacid,
         OnCreate:recipe_hcgetbeaker,
@@ -1869,7 +1867,7 @@ recipe Fill Beaker With Muriatic Acid
 	HCAcidbathmuriaticacid,
 	HCGlassbeaker,
         keep HCRubberglove,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakermuriaticacid,
     	Time:50,
@@ -1882,7 +1880,7 @@ recipe Spray Starter Fluid in Conical Flask with Water
     {
     	HCGlasswaterbottle,
         HCStarterfluid,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCWaterbottlestarterfluid,
     	Time:50,
@@ -1894,7 +1892,7 @@ recipe Shake Starter Fluid in Conical Flask with Water
     {
     	HCGlasswaterbottle,
         HCStarterfluid,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCWaterbottlestarterfluidmixed,
     	Time:50,
@@ -1908,7 +1906,7 @@ recipe Make Beaker with Hydrogen Peroxide
 	HCGlassbeaker,
         keep HCLatexgloves/HCRubberglove,   
         keep HCGasmask/HCImprovisedgasmask,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true, 
         NeedToBeLearn:true,
         Result:HCBeakerh2o2,
@@ -1925,7 +1923,7 @@ recipe Cool Beaker with Hydrogen Peroxide
         keep HCThermometer,
         keep HCLatexgloves/HCRubberglove,   
         keep HCGasmask/HCImprovisedgasmask,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true, 
         NeedToBeLearn:true,
         Result:HCBeakerh2o2cooled,
@@ -1950,7 +1948,7 @@ recipe Take Solid Fuel Cube
 
 recipe Grind Solid Fuel Cube
     {
-    keep MortarPestle/HCMortarandpestle/HCGrindstone/HCGrindstone2/HCLab,
+    keep MortarPestle/HCLab2,
     HCSolidfuelcube,
     CanBeDoneFromFloor:true,
     Result:HCHexapowder,
@@ -1978,7 +1976,7 @@ recipe Add Hexamethylentetramin to Beaker with Hydrogen Peroxide
         keep HCThermometer,
         keep HCLatexgloves/HCRubberglove,   
         keep HCGasmask/HCImprovisedgasmask,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true, 
         NeedToBeLearn:true,
         Result:HCBeakerh2o2hexa,
@@ -1995,7 +1993,7 @@ recipe Cool Beaker with Hydrogen Peroxide and Hexamethylentetramin
         keep HCThermometer,
         keep HCLatexgloves/HCRubberglove,   
         keep HCGasmask/HCImprovisedgasmask,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true, 
         NeedToBeLearn:true,
         Result:HCBeakerh2o2hexacooled,
@@ -2011,7 +2009,7 @@ recipe Add Citric Acid to Beaker with Hydrogen Peroxide and Hexamethylentetramin
         keep HCThermometer,
         keep HCLatexgloves/HCRubberglove,   
         keep HCGasmask/HCImprovisedgasmask,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true, 
         NeedToBeLearn:true,
         Result:HCBeakerh2o2hexacitricacid,
@@ -2028,7 +2026,7 @@ recipe Cool Beaker with Hydrogen Peroxide Hexamethylentetramin and Citric Acid
         keep HCThermometer,
         keep HCLatexgloves/HCRubberglove,   
         keep HCGasmask/HCImprovisedgasmask,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true, 
         NeedToBeLearn:true,
         Result:HCBeakerhmtd,
@@ -2077,7 +2075,7 @@ recipe Put Connector on Large Glass Balloon
     {
     	HCGlassballoon,
     	HCGlassconnector,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true, 
     	Result:HCGlassballoonconnector,
     	Time:15,
@@ -2087,7 +2085,7 @@ recipe Put Connector on Large Glass Balloon
 recipe Remove Connector from Large Glass Balloon
     {
     	HCGlassballoonconnector,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true, 
     	Result:HCGlassconnector,
     	OnCreate:recipe_hcgetglassballoon,
@@ -2101,7 +2099,7 @@ recipe Connect Glass Balloon to Beaker with Water
     	HCGlassballoonconnector,
     	HCBeakerwater,
     	HCRubberhose,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true, 
     	Result:HCGlassgastrap,
     	Time:15,
@@ -2112,7 +2110,7 @@ recipe Add Salt to Glass Balloon
     {
     	HCGlassgastrap,
     	Salt,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true, 
     	Result:HCGlassgassalt,
     	NeedToBeLearn:true,
@@ -2127,7 +2125,7 @@ recipe Add Sulfuric Acid to Glass Balloon with Salt
     	HCBeakersulfuricacid,
     	keep HCGasmask/HCImprovisedgasmask/HCImprovisedhazmat/HCHazmat,
     	keep HCLatexgloves/HCRubberglove,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true, 
     	Result:HCGlassgassaltsulfuric,
     	OnCreate:recipe_hcgetbeaker,
@@ -2142,7 +2140,7 @@ recipe Make Muriatic Acid
     	HCGlassgassaltsulfuric,
     	keep HCGasmask/HCImprovisedgasmask/HCImprovisedhazmat/HCHazmat,
     	keep HCLatexgloves/HCRubberglove,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true, 
     	Result:HCBeakermuriaticacid,
     	OnCreate:recipe_hcgetballoonandhose,
@@ -2158,7 +2156,7 @@ recipe Make Mercuric Oxide
 	HCCinnabar,
 	keep HCSafetyglasses,
         keep HCLatexgloves/HCRubberglove,
-        keep HCLab,
+        keep HCLab2,
         CanBeDoneFromFloor:true, 
     	Result:HCBeakermercuricoxide,
     	NeedToBeLearn:true,

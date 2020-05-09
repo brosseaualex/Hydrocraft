@@ -166,13 +166,20 @@ item HCOvenmitts
     	}
 
 item HCWorkgloves
-    	{
-        Weight    		= 0.25,
-        Type    		= Normal,
-        DisplayName         	= Work Gloves,
-        icon 			= HCWorkgloves,
-	Tooltip 		= Tooltip_HCArmor,
-    	}
+    {
+        Type = Clothing,
+        DisplayName = Work Gloves,
+        ClothingItem = Gloves_LeatherGloves,
+        BodyLocation = Hands,
+        IconsForTexture = GlovesLeatherBlackpng;GlovesLeatherBrown,
+        BloodLocation = Hands,
+        ScratchDefense = 30,
+        BiteDefense = 15,
+        Weight = 0.1,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        FabricType = Leather,
+    }
 
 item HCGardengloves
     	{
@@ -1025,7 +1032,7 @@ recipe Make Helmet
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCHelmsteel,
 	   	Time:150.0,
@@ -1039,7 +1046,7 @@ recipe Make Helmet
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCHelmiron,
 	   	Time:150.0,
@@ -1053,7 +1060,7 @@ recipe Make Helmet
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCHelmbronze,
 	   	Time:150.0,
@@ -1067,7 +1074,7 @@ recipe Make Helmet
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCHelmcopper,
 	   	Time:150.0,
@@ -1081,7 +1088,7 @@ recipe Make Gauntlets
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCGlovechainmail,
 	   	Time:150.0,
@@ -1095,7 +1102,7 @@ recipe Make Gauntlets
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCGlovesteel,
 	   	Time:150.0,
@@ -1109,7 +1116,7 @@ recipe Make Gauntlets
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCGloveiron,
 	   	Time:150.0,
@@ -1123,7 +1130,7 @@ recipe Make Gauntlets
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCGlovebronze,
 	   	Time:150.0,
@@ -1137,7 +1144,7 @@ recipe Make Gauntlets
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCGlovecopper,
 	   	Time:150.0,
@@ -1149,37 +1156,37 @@ recipe Make Studded Leather Gloves
     {
     		HCLeather=2,
     		HCSteelingot,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=2,
     		Result:HCGlovestuddedleather,
     		NeedToBeLearn:true,
     		Time:200.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
     }
 
 recipe Make Leather Gloves
     {
     		HCLeather=2,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=2,
     		Result:HCGloveleather,
     		NeedToBeLearn:true,
     		Time:200.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
     }
 
 recipe Make Work Gloves
     {
     		HCLeather=2,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
    		Thread=2,
     		Result:HCWorkgloves,
     		NeedToBeLearn:true,
     		Time:200.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
     }
 
 recipe Make Arm Guards
@@ -1188,7 +1195,7 @@ recipe Make Arm Guards
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmarmorsteel,
 	   	Time:150.0,
@@ -1202,7 +1209,7 @@ recipe Make Arm Guards
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmarmoriron,
 	   	Time:150.0,
@@ -1216,7 +1223,7 @@ recipe Make Arm Guards
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmarmorbronze,
 	   	Time:150.0,
@@ -1230,7 +1237,7 @@ recipe Make Arm Guards
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmarmorcopper,
 	   	Time:150.0,
@@ -1242,66 +1249,66 @@ recipe Make Arm Guards
 	{
 	   	HCLeatherhard=2,
     		HCSteelingot,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=4,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmarmorlamellar,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Make Arm Guards
 	{
 	   	HCLeather=2,
     		HCSteelingot,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=2,
 		Rope,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmarmorstuddedleather,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Make Arm Guards
 	{
 	   	HCLeatherhard=2,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=2,
 		Rope,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmarmorhardenedleather,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Make Arm Guards
 	{
 	   	HCLeather=2,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=2,
 		Rope,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmarmorleather,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Make Arm Guards
 	{
 	   	HCAnimalfurdried=2,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=2,
 		Rope,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmarmorhide,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Make Arm Guards
@@ -1315,7 +1322,7 @@ recipe Make Arm Guards
 	   	Result:HCArmarmorpadded,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Make Arm Guards
@@ -1385,7 +1392,7 @@ recipe Make Armor
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmorchainmail,
 	   	Time:150.0,
@@ -1399,7 +1406,7 @@ recipe Make Armor
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmorscalemail,
 	   	Time:150.0,
@@ -1413,7 +1420,7 @@ recipe Make Armor
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmorsteel,
 	   	Time:150.0,
@@ -1427,7 +1434,7 @@ recipe Make Armor
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmoriron,
 	   	Time:150.0,
@@ -1441,7 +1448,7 @@ recipe Make Armor
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmorbronze,
 	   	Time:150.0,
@@ -1455,7 +1462,7 @@ recipe Make Armor
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmorcopper,
 	   	Time:150.0,
@@ -1467,59 +1474,59 @@ recipe Make Armor
 	{
 	   	HCLeatherhard=4,
     		HCSteelingot=2,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=8,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmorlamelar,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Make Armor
 	{
 	   	HCLeather=4,
     		HCSteelingot=2,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=4,
 		Rope,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmorstuddedleather,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Make Armor
 	{
 	   	HCLeatherhard=4,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=4,
 		Rope=2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmorhardenedleather,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Make Armor
 	{
 	   	HCLeather=4,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=4,
 		Rope=2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmorleather,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Make Armor
 	{
 	   	HCAnimalfurdried=4,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=4,
 		Rope=2,
     		CanBeDoneFromFloor:true,
@@ -1542,7 +1549,7 @@ recipe Make Armor
 	   	Result:HCArmorpadded,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Make Armor
@@ -1624,7 +1631,7 @@ recipe Make Leg Guards
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLegarmorchainmail,
 	   	Time:150.0,
@@ -1638,7 +1645,7 @@ recipe Make Leg Guards
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLegarmorscalemail,
 	   	Time:150.0,
@@ -1652,7 +1659,7 @@ recipe Make Leg Guards
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLegarmorsteel,
 	   	Time:150.0,
@@ -1666,7 +1673,7 @@ recipe Make Leg Guards
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLegarmoriron,
 	   	Time:150.0,
@@ -1680,7 +1687,7 @@ recipe Make Leg Guards
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLegarmorbronze,
 	   	Time:150.0,
@@ -1694,7 +1701,7 @@ recipe Make Leg Guards
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLegarmorcopper,
 	   	Time:150.0,
@@ -1716,66 +1723,66 @@ recipe Make Leg Guards
 	{
 	   	HCLeatherhard=2,
     		HCSteelingot,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=4,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLegarmorlamelar,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Make Leg Guards
 	{
 	   	HCLeather=2,
     		HCSteelingot,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=2,
 		Rope,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLegarmorstuddedleather,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Make Leg Guards
 	{
 	   	HCLeatherhard=2,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=2,
 		Rope,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLegarmorhardenedleather,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Make Leg Guards
 	{
 	   	HCLeather=2,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=2,
 		Rope,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLegarmorleather,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Make Leg Guards
 	{
 	   	HCAnimalfurdried=2,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=2,
 		Rope,
     		CanBeDoneFromFloor:true,
 	   	Result:HCLegarmorhide,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Make Leg Guards
@@ -1789,7 +1796,7 @@ recipe Make Leg Guards
 	   	Result:HCLegarmorpadded,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
 	}
 
 recipe Make Leg Guards
@@ -1835,7 +1842,7 @@ recipe Make Greaves
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCBootsteel,
 	   	Time:150.0,
@@ -1847,25 +1854,25 @@ recipe Make Greaves
     	{
     		HCLeather=2,
     		HCLeatherhard=2,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=4,
    	 	Result:HCBootleather,
     		NeedToBeLearn:true,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
     	}
 
 recipe Make Leather Boots
     {
     		HCLeather=2,
-    		keep Needle/HCBoneneedle,
+    		keep HCBoneneedle,
     		Thread=2,
     		Result:HCLeatherboots,
     		NeedToBeLearn:true,
     		Time:200.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:HCTailoring_OnGiveNormXP,
     }
 
 
@@ -1875,7 +1882,7 @@ recipe Make Shield
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCShieldsteel,
 	   	Time:150.0,
@@ -1889,7 +1896,7 @@ recipe Make Shield
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCShieldiron,
 	   	Time:150.0,
@@ -1903,7 +1910,7 @@ recipe Make Shield
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCShieldbronze,
 	   	Time:150.0,
@@ -1917,7 +1924,7 @@ recipe Make Shield
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     		keep Tongs,
     		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2/HCAnvilstone/HCAnvilstone2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
 	   	Result:HCShieldcopper,
 	   	Time:150.0,

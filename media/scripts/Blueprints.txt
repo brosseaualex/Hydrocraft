@@ -8,7 +8,7 @@ module Hydrocraft
 
 /************************ITEMS************************/
 
-
+/*
 item HCBlueprintpoatocannon
     {
         Weight			=	0.1,
@@ -38,6 +38,9 @@ item HCBlueprintrocketlauncher
         TeachedRecipes 		=   	Craft Rocket Launcher;Load Rocket Launcher,
         ReplaceOnUse    	=   	HCBlueprintrocketlauncher,
     }
+*/
+
+
 
 item HCBlueprintducttapefletching
     {
@@ -58,6 +61,7 @@ item HCBlueprintbonearrowhead
         TeachedRecipes 		=   	Make Bone Arrowhead,
         ReplaceOnUse    	=   	HCBlueprintbonearrowhead,
     }
+
 
 item HCBlueprintfishingrod
     {
@@ -243,9 +247,9 @@ item HCBlueprintopium
     {
          Weight			=	0.1,
          Type			=	Literature,
-         DisplayName		=	Opium Medical Research,
+         DisplayName		= Opium Medical Research,
          Icon			=	HCMedicalresearch,
-         TeachedRecipes 	=   	Rip Poppy Capsules;Knead Raw Opium;Cook Raw Opium;Ferment Opium Powder;Make Morphine Hydrochloride Solution;Add Water To Morphine Hydrochloride;Add Ammonia To Morphine Hydrochloride Solution;Add Ammonia To Morphine Hydrochloride Solution,
+         TeachedRecipes 	= Dry Poppy Flower;Rip Poppy Capsules;Knead Raw Opium;Cook Raw Opium;Ferment Opium Powder;Make Morphine Hydrochloride Solution;Add Water To Morphine Hydrochloride;Add Ammonia To Morphine Hydrochloride Solution;Add Ammonia To Morphine Hydrochloride Solution,
          ReplaceOnUse    	=   	HCBlueprintopium,
     }
 
@@ -255,8 +259,8 @@ item HCBlueprintether
          Type			=	Literature,
          DisplayName		=	Ether Medical Research,
          Icon			=	HCMedicalresearch,
-         TeachedRecipes 	=   	Seperate Ether;Put Ether in Beaker;Soak Ripped Sheet with Selfmade Ether,
-         ReplaceOnUse    	=   	HCBlueprintether,
+         TeachedRecipes 	= Seperate Ether;Put Ether in Beaker;Soak Ripped Sheet with Selfmade Ether,
+         ReplaceOnUse    	= HCBlueprintether,
     }
 
 item HCBlueprintsolarpark
@@ -410,9 +414,52 @@ item HCBlueprintmakecomputertower
         ReplaceOnUse    	=   	HCBlueprintmakecomputertower,
     }
 
+item HCPlanIronMine
+    {
+        Weight          =   0.1,
+        Type            =   Literature,
+        DisplayName     =   Expand Mine to Iron Mine,
+        Icon            =   HCBlueprint,
+        TeachedRecipes  =   Expand Mine to Iron Mine,
+        ReplaceOnUse    =   HCPlanIronMine,
+    }
+
+item HCPlanCoalMine
+    {
+        Weight          =   0.1,
+        Type            =   Literature,
+        DisplayName     =   Expand Mine to Coal Mine,
+        Icon            =   HCBlueprint,
+        TeachedRecipes  =   Expand Mine to Coal Mine,
+        ReplaceOnUse    =   HCPlanCoalMine,
+    }
+
+item HCAdvFitPlan
+    {
+        Weight          =   0.1,
+        Type            =   Literature,
+        DisplayName     =   Advanced Fitness Plan,
+        Icon            =   HCBlueprint,
+        TeachedRecipes  =   Exercise hard with Punching Bag;Exercise hard with Weights;Exercise hard on Treadmill,
+        ReplaceOnUse    =   HCAdvFitPlan,
+    }
+
+
+item HCCookbookMethanol
+    {
+        Weight          =   0.1,
+        Type            =   Literature,
+        DisplayName     =   How to make Methanol,
+        Icon            =   HCCookbook,
+        TeachedRecipes  =   Prepare Barrel of Lemon Mash;Distill Methanol,
+        ReplaceOnUse    =   HCCookbookMethanol,
+    }
+
+
+
 /************************RECIPES************************/	
 
-
+/*
 recipe Make Potato Cannon Blueprint
     {
 	SheetPaper2,
@@ -424,6 +471,7 @@ recipe Make Potato Cannon Blueprint
     	Time:500,
     	Category:Research,
     }
+
 
 recipe Make Flamethrower Blueprint
     {
@@ -448,6 +496,7 @@ recipe Make Rocket Launcher Blueprint
     	Time:500,
     	Category:Research,
     }
+*/
 
 recipe Make Duct Tape Fletching Blueprint
     {
@@ -456,8 +505,8 @@ recipe Make Duct Tape Fletching Blueprint
 	keep DuctTape,
 	keep HCBookarchery,
    	Result:HCBlueprintducttapefletching,
-    	Time:500,
-    	Category:Research,
+    Time:500,
+    Category:Research,
     }
 
 recipe Make Bone Arrowhead Blueprint
@@ -467,9 +516,42 @@ recipe Make Bone Arrowhead Blueprint
 	keep HCBone/HCZombiebones,
 	keep HCBookarchery,
    	Result:HCBlueprintbonearrowhead,
-    	Time:500,
-    	Category:Research,
+    Time:500,
+    Category:Research,
     } 
+	
+
+recipe Research Methanol
+    {
+    SheetPaper2,
+    Pencil/Pen,
+    keep HCLab2,
+    keep HCBookmicrobiology,
+    keep HCBookwinemaking,
+    keep HCBookbiodiesel,
+    Result:HCCookbookMethanol,
+    CanBeDoneFromFloor:true,
+    Time:500,
+    Category:Research,
+    } 
+
+
+recipe Research Fitness Training
+    {
+    SheetPaper2,
+    Pencil/Pen,
+    keep HCMedicallab2,
+    keep HCTredmillgenerator,
+    keep HCWeights,
+    keep HCPunchingbag,
+    keep HCBoxinggloves,
+    HCFitnessdrink,
+    Result:HCAdvFitPlan,
+    CanBeDoneFromFloor:true,
+    Time:500,
+    Category:Research,
+    } 
+
 
 recipe Make Fishing Rod Blueprint
     {
@@ -599,7 +681,7 @@ recipe Research Painkillers
 	keep HCBookmedical,
 	keep HCBookherbalism,
 	keep HCBookpharmacology,
-	keep HCMedicallab,
+	keep HCMedicallab2,
         NeedToBeLearn:true,
    	Result:HCBlueprintpainkillers,
     	CanBeDoneFromFloor:true,
@@ -616,7 +698,7 @@ recipe Research Anti-Depression Medication
 	keep HCBookmedical,
 	keep HCBookherbalism,
 	keep HCBookpharmacology,
-	keep HCMedicallab,
+	keep HCMedicallab2,
         NeedToBeLearn:true,
    	Result:HCBlueprintantidepression,
     	CanBeDoneFromFloor:true,
@@ -633,7 +715,7 @@ recipe Research Antibiotics
 	keep HCBookmedical,
 	keep HCBookmicrobiology,
 	keep HCBookpharmacology,
-	keep HCMedicallab,
+	keep HCMedicallab2,
         NeedToBeLearn:true,
    	Result:HCBlueprintantibiotics,
     	CanBeDoneFromFloor:true,
@@ -699,7 +781,7 @@ recipe Research Injections
         keep HCBookvet,
 	keep HCBookmedical,
 	keep HCBookanatomy,
-	keep HCMedicallab,
+	keep HCMedicallab2,
         NeedToBeLearn:true,
    	Result:HCBlueprintinjections,
     	CanBeDoneFromFloor:true,
@@ -723,7 +805,7 @@ recipe Research Opium
        	SkillRequired:Doctor=3,
 	Notebook,
 	Pencil/Pen,
-        keep HCLab,
+        keep HCLab2,
         keep HCBookchemistry,
 	keep HCBookflowerguide,
 	keep HCBookherbalism,
@@ -744,7 +826,7 @@ recipe Research Ether
         keep HCBookchemistry,
 	keep HCBookmedical,
 	keep HCBookpharmacology,
-	keep HCMedicallab,
+	keep HCMedicallab2,
         NeedToBeLearn:true,
    	Result:HCBlueprintether,
     	CanBeDoneFromFloor:true,
@@ -837,7 +919,7 @@ recipe Research Beta Blocker Medication
 	keep HCBookmedical,
 	keep HCBookherbalism,
 	keep HCBookpharmacology,
-	keep HCMedicallab,
+	keep HCMedicallab2,
         NeedToBeLearn:true,
    	Result:HCBlueprintbetablocker,
     	CanBeDoneFromFloor:true,
@@ -949,5 +1031,42 @@ recipe Make Computer Fan Blueprint
     	Time:200,
     	Category:Research,
     }
+
+
+recipe Plan Iron Mine
+    {
+    SkillRequired:Mechanics=2;MetalWelding=5;Woodwork=8;,
+    SheetPaper2,
+    Pencil/Pen,
+    keep HCMinehole2/HCMinehole2B,
+    keep HCMeasuringtape,
+    keep HCBookstoneworking,
+    keep HCBookgeology,
+    keep HCBookironworking,
+    Result:HCPlanIronMine,
+    Time:500,
+    Category:Research,
+    }
+
+
+recipe Plan Coal Mine
+    {
+    SkillRequired:Mechanics=2;MetalWelding=5;Woodwork=8;,
+    SheetPaper2,
+    Pencil/Pen,
+    keep HCMinehole2/HCMinehole2B,
+    keep HCMeasuringtape,
+    keep HCBookstoneworking,
+    keep HCBookgeology,
+    Result:HCPlanCoalMine,
+    Time:500,
+    Category:Research,
+    }
+
+
+
+
+
+
 
 }

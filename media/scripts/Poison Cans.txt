@@ -14,7 +14,7 @@ item HCPoisonempty
 	Weight			=	0.1,
 	CanStoreWater		=	TRUE,
         Type			=	Drainable,
-	ResizeWorldIcon 	=       2.0,
+	
 	ReplaceOnUseOn		=	WaterSource-HCPoisonwater,
         DisplayName		=	Empty Insecticide Can,
 	Icon			=	HCPoisonempty,
@@ -27,7 +27,7 @@ item HCPoison
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide,
 	Icon				=	HCPoison,
 	}
@@ -38,7 +38,7 @@ item HCPoisonammonia
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide Can With Ammonia,
 	Icon				=	HCPoisonammonia,
 	}
@@ -49,7 +49,7 @@ item HCPoisonbiodiesel
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide Can With Biodiesel,
 	Icon				=	HCPoisonbiodiesel,
 	}
@@ -60,7 +60,7 @@ item HCPoisoncoppersulfatesolution
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide Can With Copper Sulfate Solution,
 	Icon				=	HCPoisoncoppersulfatesolution,
 	}
@@ -71,7 +71,7 @@ item HCPoisondetergent
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide Can With Liqiud Soap,
 	Icon				=	HCPoisondetergent,
 	}
@@ -84,7 +84,7 @@ item HCPoisonh2o2
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide Can With Hydrogen Peroxide,
 	Icon				=	HCPoisonh2o2,
 	}
@@ -97,7 +97,7 @@ item HCPoisonlime
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide Can With Milk of Lime,
 	Icon				=	HCPoisonlime,
 	}
@@ -108,7 +108,7 @@ item HCPoisonlye
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide Can With Lye,
 	Icon				=	HCPoisonlye,
 	}
@@ -119,7 +119,7 @@ item HCPoisonmethanol
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide Can With Methanol,
 	Icon				=	HCPoisonmethanol,
 	}
@@ -132,7 +132,7 @@ item HCPoisonmuriaticacid
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide Can With Muriatic Acid,
 	Icon				=	HCPoisonmuriaticacid,
 	}
@@ -143,7 +143,7 @@ item HCPoisonnickelsulfatesolution
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide Can With Nickel Sulfate Solution,
 	Icon				=	HCPoisonnickelsulfatesolution,
 	}
@@ -154,7 +154,7 @@ item HCPoisonnitricacid
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide Can With Nitric Acid,
 	Icon				=	HCPoisonnitricacid,
 	}
@@ -165,7 +165,7 @@ item HCPoisonoil
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide Can With Oil,
 	Icon				=	HCPoisonoil,
 	}
@@ -176,7 +176,7 @@ item HCPoisonrose
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide Can With Rose Tanning Oil,
 	Icon				=	HCPoisonrose,
 	}
@@ -187,7 +187,7 @@ item HCPoisonsulfuricacid
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide Can With Sulfuric Acid,
 	Icon				=	HCPoisonsulfuricacid,
 	}
@@ -198,7 +198,7 @@ item HCPoisontan
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide Can With Tannin,
 	Icon				=	HCPoisontan,
 	}
@@ -209,7 +209,7 @@ item HCPoisonvegoil
         Type			        =	Drainable,
 	UseDelta		        =       0.25,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide Can With Vegetable Oil,
 	Icon				=	HCPoisonvegoil,
 	}
@@ -225,7 +225,7 @@ item HCPoisongrape
 	DisplayName			=	Insecticide Can With Grape Juice,
 	ReplaceOnUse		        =	HCPoisonempty,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	Icon				=	HCPoisongrape,
 	}
 
@@ -239,7 +239,7 @@ item HCPoisonhoney
 	HungerChange			=	-105,
 	ReplaceOnUse		        =	HCPoisonempty,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	DisplayName			=	Insecticide Can With Honey,
 	Icon				=	HCPoisonhoney,
 	}
@@ -255,7 +255,7 @@ item HCPoisonmilk
 	DaysFresh 			=	250,
 	ReplaceOnUse		        =	HCPoisonempty,
 	ReplaceOnDeplete	        =	HCPoisonempty,
-	ResizeWorldIcon 	        =       2.0,
+
 	Icon				=	HCPoisonmilk,
 	}
 
@@ -271,7 +271,7 @@ item HCPoisonwater
 	DisplayName		=	Inscticide Can With Water,
 	ReplaceOnDeplete	=	HCPoisonempty,
 	ReplaceOnUseOn		=	WaterSource-HCPoisonwater,
-	ResizeWorldIcon 	=       2.0,
+	
 	Icon			=	HCPoisonwater,
 	RainFactor 		= 	1,
 	}

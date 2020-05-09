@@ -18,7 +18,7 @@ recipe Recycle Electrum
     HCIngotmold,
     keep Tongs,
     keep HCWorkgloves/HCOvenmitts,
-    keep HCSmelter/HCSmelter2,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCElectrumingot,
     NeedToBeLearn:true,
