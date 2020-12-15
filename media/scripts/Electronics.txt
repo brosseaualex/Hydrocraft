@@ -1558,7 +1558,7 @@ recipe Extract Working CPU
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 	
-	recipe Add Generator to Copy Machine
+recipe Add Generator to Copy Machine
     {
 		SkillRequired:Electricity=3,
 		HCCopymachine,
@@ -1578,6 +1578,24 @@ recipe Remove Generator from Copy Machine
     	Time:400,
 		OnCreate:recipe_returngen,
         Category:Engineer,
+    }
+
+recipe Make Electic Clamp 
+    {
+        SkillRequired:Electricity=2,
+        HCCablecopper,
+        HCClothespin,
+        HCSolder,
+        HCSoldergunpowered,
+        HCWirecopper,
+        keep HCElectornicsbench,
+        keep HCPliers,
+        NeedToBeLearn: true,
+    	CanBeDoneFromFloor:true,
+	Result:HCElectricclamp,
+    	Time:200,
+        Category:Electrical,
+        OnGiveXP:HCElectricity_OnGiveXP,
     }
 
 }
