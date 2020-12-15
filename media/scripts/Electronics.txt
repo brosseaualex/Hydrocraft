@@ -919,7 +919,7 @@ recipe Loot Electronic Parts
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Loot Electronics Parts
+recipe Loot Electronic Parts
     {
        	SkillRequired:Electricity=1,
        	ElectronicsScrap=2,
