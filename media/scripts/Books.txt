@@ -1223,7 +1223,7 @@ module Hydrocraft
 		Type		= 	Literature,
 		DisplayName	= 	Anarchist Cookbook,
 		Icon		= 	HCBookanarchist,
-		TeachedRecipes  = 	Add Private Notes to Anarchist Cookbook;Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask,
+		TeachedRecipes  = 	Add Private Notes to Anarchist Cookbook;Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask; Make Electric Clamp,
         	ReplaceOnUse    = 	HCBookanarchist,
     	}
 
