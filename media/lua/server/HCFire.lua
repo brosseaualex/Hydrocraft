@@ -24,7 +24,7 @@ function FindProtection(player)
 			head = 3;			
 		end
 	end
-	return body, head;
+	return head, body;
 end
 
 function DoDamage(hBurnType, bBurnType, h, b,  player)
@@ -63,13 +63,13 @@ function DoDamage(hBurnType, bBurnType, h, b,  player)
 	end
 	
 	if bBurnType == 0 then
-		player:getBodyDamage():getBodyPart(BodyPartType.Torso_Upper):AddDamage(5*hProt);
+		player:getBodyDamage():getBodyPart(BodyPartType.Torso_Upper):AddDamage(5*bProt);
 		player:getBodyDamage():getBodyPart(BodyPartType.Torso_Upper):setBurned();
 	elseif bBurnType == 1 then
-		player:getBodyDamage():getBodyPart(BodyPartType.Torso_Upper):AddDamage(10*hProt);
+		player:getBodyDamage():getBodyPart(BodyPartType.Torso_Upper):AddDamage(10*bProt);
 		player:getBodyDamage():getBodyPart(BodyPartType.Torso_Upper):setBurned();
 	elseif bBurnType == 2 then
-		player:getBodyDamage():getBodyPart(BodyPartType.Torso_Upper):AddDamage(15*hProt);
+		player:getBodyDamage():getBodyPart(BodyPartType.Torso_Upper):AddDamage(15*bProt);
 		player:getBodyDamage():getBodyPart(BodyPartType.Torso_Upper):setBurned();
 	elseif bBurnType == 3 and hBurnType ~= 3 then
 		player:setOnFire(true);
