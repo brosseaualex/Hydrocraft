@@ -202,13 +202,13 @@ if 	player:getInventory():contains("Nothing") then
 end
 end
 function TrapsKeysUp(keyNum)
-local player = getPlayer();
+	--local player = getPlayer();
 	--getPlayer():Say(tostring(keyNum));    
-	if (keyNum == 210) then
+	--if (keyNum == 210) then
 		
 	
 		--getPlayer():Say(tostring(getPlayer():getModData().immuneToTrap) .. "|" .. tostring(getPlayer():getCurrentSquare():getModData().isTrapSet));
-	end
+	--end
 	
 end
 
